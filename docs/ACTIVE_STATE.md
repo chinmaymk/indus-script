@@ -69,7 +69,8 @@ Corpus v5 frozen. Numeral2/3 remains conditional; H1923 conflicts. Follow index.
 
 Editorial draft `docs/blog/trying-to-decipher-the-indus-script-with-ai.md` unpublished,
 ready for review; rounded840m headline, exact accounting in `RESEARCH_TOKEN_USAGE.md`.
-Previous backup throughaefe2a8; current Marungur/Vietnam batch pending backup.
+Marungur/Vietnam batch4d234f0 pushed; exact origin/main SHA verified11October,
+seven LFS objects93MB. Previous releases preserved.
 Raw sources registered in `data/raw/`; derived evidence in `results/`/`data/processed/`.
 Claude follow-up hit provider credit limit; no changed availability or new review.
 Previous318 baseline and5 locator tests passed; not rerun. Python runtime under

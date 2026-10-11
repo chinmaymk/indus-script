@@ -6325,3 +6325,12 @@ Branch unsupported; reopen only specifically identified newprimarycorrespondence
 Validation narrowed support; this is not progress towarddecipherment itself.
 Currentturn completed newsourcechecks, so overallgoal remainsactive/unachieved;
 three consecutive blockedgoalturns have not been established here.
+
+**Verification/backup.** Marungur17 and Vietnam20pins verified (37total),
+eightnewrawregistryrecords match bytes/hash; bridge decision separately pins four
+completedinputdecisions. ACTIVE_STATE532words before backupnotereplacement.
+Scoped authored docs/JSON staged whitespace checks pass; preserved sourceHTML
+and extraction bytes not normalized. Forty-file batch4d234f0b6edd020d82e6d31af9d42fdf0adb4d88
+pushed origin/main with sevenLFS objects93MB. Exact remoteSHA equals localHEAD;
+checkout clean at verification. No scientific tests rerun for this source-only
+batch. Finalhandoff replaces operationalstate and retains editor's draft notes.
