@@ -5791,3 +5791,15 @@ public research links and primary/expert background sources. Verified via GitHub
 that the linked research repository is public. No new research run, raw-source
 download, outreach or website publication. Concurrent research files were left
 in place; the editorial note does not replace the separate active research action.
+
+
+## 2026-10-11 — Author corrected the blog premise
+
+Author clarified that the project began as a test of whether Astra could decipher
+the script autonomously. Astra struggled for roughly two weeks, after which the
+author brought in Opus and Sol. Revised the title, opening, research framing,
+collaboration section and ending of the existing blog draft around that sequence.
+The experiment examples remain project-level findings; no unsupported per-model
+attribution, continuous-runtime claim, exact start date or model comparison was
+added. Scientific results and linked sources are unchanged. No research run or
+website publication.

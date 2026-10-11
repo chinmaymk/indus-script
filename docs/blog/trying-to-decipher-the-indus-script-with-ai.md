@@ -1,12 +1,16 @@
-# Trying to decipher the Indus script with AI
+# Asking Astra to decipher the Indus script
 
 Chinmay Kulkarni · October 11, 2026
 
-I’ve been using Codex and Claude Code to work on a question that has resisted generations of researchers: can we decipher the Indus script?
+I started this project to see whether Astra could decipher the Indus script on its own.
 
-We haven’t deciphered it. We haven’t established a sound or meaning for any of the 417 signs in the catalogue this project tracks. But the attempt has taught me something useful about doing research with AI: an agent can make an investigation move much faster while leaving its central uncertainty untouched.
+For about two weeks, I let Astra work on the problem. It struggled to make decisive progress. Eventually, I brought in Opus and Sol to help.
 
-The interesting part has been working out which experiments could actually reduce that uncertainty, and getting the agents to stop when an experiment has answered its question.
+We still haven’t deciphered it. We haven’t established a sound or meaning for any of the 417 signs in the catalogue this project tracks.
+
+The project began as a test of autonomous research. After two weeks, I intervened and it became a collaboration across models.
+
+What interested me was whether an agent could choose productive research directions, recognize when a hypothesis had failed, and find evidence that would support an actual reading. This is an account of how that attempt went.
 
 ## The problem we started with
 
@@ -14,13 +18,19 @@ The Indus civilization left short inscriptions on seals, tablets, pottery and ot
 
 There is a long history of computational work on the script. Researchers have studied sign frequencies, preferred positions, recurring sequences and statistical similarities to language. Rajesh Rao’s [2010 overview](https://www.harappa.com/sites/default/files/pdf/indus-script-analysis.pdf) is a useful introduction. Our use of AI builds on that kind of investigation; the existence of recurring structure is already an established research question with a substantial literature.
 
-I approached this as an engineering project. Make the evidence inspectable. Write down assumptions. Build tests that can fail. Keep enough provenance that a promising result can be traced back to the objects and catalogues behind it.
+For an autonomous agent, this problem requires more than generating a plausible translation. It has to work out which sources to trust, which assumptions need testing, and which experiment could distinguish competing explanations. There is no simple answer checker waiting at the end.
 
 The [repository](https://github.com/chinmaymk/indus-script) contains the sources, scripts, results and failed hypotheses. The goal remains reading the inscriptions. A larger repository does not tell us whether we are closer to that goal.
 
+## Two weeks with Astra
+
+There were sources to inspect, patterns to measure and hypotheses to test. Each could yield a concrete output. The harder task was choosing work that could connect an inscription to an ancient sound or meaning. Astra could keep investigating while that connection remained missing.
+
+That was the difficulty I encountered over those two weeks. Bringing in Opus and Sol was my intervention. The findings below come from the project as a whole; some of the work continued after the solo attempt.
+
 ## Getting the data right
 
-One early complication was deciding what our sign IDs actually represented.
+One complication was deciding what our sign IDs actually represented.
 
 Different catalogues classify the same graphics differently. A unit in one transcription can correspond to two tokens in another. Similar looking forms can be distinguished in one system and merged in another. Joining datasets by apparent resemblance can quietly change the thing being measured.
 
@@ -46,7 +56,7 @@ We wrote this down as a [precise limitation](https://github.com/chinmaymk/indus-
 
 There is a related problem with calling any structured sequence “language.” Weather icons can have regular ordering and predictable neighbors. So can administrative categories. A successful sequence model gives us constraints a reading should explain; identifying spoken-language writing requires more evidence.
 
-Once I understood that gap, “the model found a pattern” became a much less satisfying endpoint. The next question was what observation could distinguish the competing interpretations.
+For the autonomy experiment, this gap was especially important. Finding another pattern could be a reasonable local step while leaving the decipherment problem unresolved. Choosing an observation that could distinguish the competing interpretations required a different research decision.
 
 ## A numeral hypothesis and its hidden assumption
 
@@ -67,9 +77,9 @@ The [numeral synthesis](https://github.com/chinmaymk/indus-script/blob/main/docs
 
 This was a useful failure mode to encounter. An agent can solve the equations, verify them with a second method, and produce a tidy explanation. All that work remains conditional on the historical premise that created the equations.
 
-## Asking Claude to criticize the route
+## Bringing in Opus and Sol
 
-I brought in Claude Code to review the method and help identify a faster experiment.
+One documented part of the later collaboration was asking Opus, through Claude Code, to review the method and help identify a faster experiment.
 
 Its useful criticism concerned the equality assumption, duplicates and prior exposure to the data. Selecting apparently equivalent examples after seeing their stroke counts risks making the hypothesis impossible to falsify. Re-transcribing an inscription we have already examined does not turn it into an unseen test case.
 
@@ -83,16 +93,18 @@ The experiment included 716 eligible text families and 748 sign–motif pairs. A
 
 That result does not prove animal motifs carry no information. It says this particular screen supplied no selected lead. We closed it without changing the bins, features or threshold to obtain a more attractive outcome.
 
-## What AI helped with
+## What the autonomy experiment showed
 
-AI helped turn proposed explanations into explicit assumptions, code and checks. It helped review transcription decisions, find inconsistencies between representations, and criticize an experiment before we spent more time on it.
+Across the project, the models helped turn proposed explanations into explicit assumptions, code and checks. They helped review transcription decisions, find inconsistencies between representations, and criticize experiments.
 
-It also made continuing cheap. There was always another statistic to calculate or another plausible interpretation to explore. That is a real difficulty when the question has no easy success criterion and the data can support many stories.
+Working with agents also made continuing cheap. There was always another statistic to calculate or another plausible interpretation to explore. That is a real difficulty when the question has no easy success criterion and the data can support many stories.
 
 We started keeping one next action, the evidence it should produce, and a finite stopping rule. If an experiment needed repeated combinations absent from the selected sample, more simulation could not supply them. If a screen selected no candidates, its downstream work stopped. If a proposed meaning could survive every failure by inventing another unit or category, it needed a more restrictive prediction.
 
-Those rules helped me decide when another agent run would be useful.
+The later work happened with additional models and explicit constraints on continuing. That context matters when judging the original test of autonomy.
 
 The investigation has left us with structural constraints and some testable hypotheses. Reading the signs still requires a connection to something independently known: a quantity, an archaeological context, a linguistic constraint, or perhaps a bilingual text. A useful next result would make a prediction about evidence we did not use to construct the hypothesis.
 
-I still want to decipher the script. For now, the most valuable contribution of the agents has been helping us state what would have to be true for a proposed reading to deserve belief—and recognize when our evidence cannot yet decide.
+Astra did not decipher the script during its two-week attempt, and bringing in Opus and Sol has not yet produced a verified reading either. This experience made me pay closer attention to the evidence an agent obtains and the research decisions it makes. The volume of work is much easier to see.
+
+I still want to decipher the script. I also want to understand what it would take for an agent to lead that investigation successfully. At the moment, both questions remain open.
