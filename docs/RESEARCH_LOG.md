@@ -6356,3 +6356,31 @@ availability has no reported change; no retry. No outreach. Current turn is
 the same missing independent-reference/context evidence after the recent progress;
 the older September blocked run does not satisfy this resumed-run threshold.
 Leave full150m goal active/unachieved; no complete/blocked/paused transition yet.
+
+### 11 October 2026 — Second continuation: jar countertest exception not executable
+
+Previous goal continuation classified no progress. ACTIVE_STATE then clean
+gitstatus revalidated at e5e91c1. Agent inventory confirms all child tasks terminal;
+no live wait or process restart. One specifically suggested unexecuted exception
+was checked by bounded read-only mathematical reviewer: could a real first-jar
+intersection materially test local uniqueness beyond the completed003 toycontrol?
+No downloads, invocation, fitting, regex replacement or other closed audit.
+
+Selected retained primary text shows paperp19/section8.1 H-764B triple plus Dmd-1
+single and unspecified terminalcases, whereas supplied group001 uses H-763B triple
+plusH-210double. Group002 hardcodesananan. Different labels/constraints preserved;
+no typo correction or underlying-object nonidentity asserted. Script provides
+Cologne2020directoryMWURL but no immutablelexiconhash; cached baseXML/mwall can
+be reused. Pinned package retains recipe/aux, not historical base/augmentedlexicon;
+no complete frozenDmd-1 rule or all terminalconstraints. Reviewer rejects fetching
+today'sdictionary and inventingrules as reproduction of historical derivation.
+Even an executed currentmodel would not establish/falsify complete ancientkey.
+Feasibilitydecision saved with sourcepins; no new value or full-key contradiction.
+
+This clarifies a replication limitation but does not unlock an experiment or
+change the primary external-evidence gate. Classify this continuation **no progress
+toward the goal**, second consecutive occurrence of the same missing independent
+reference/context and attributable testinput blocker. This is not historical
+absence or an exhaustive impossibility claim. Fullgoal active/unachieved; three
+consecutive blockedturns not yet met. Do not revisit this exception without its
+specified immutablelexicon, complete rules and resolvedidentities.
