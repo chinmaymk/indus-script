@@ -66,3 +66,15 @@ python3 -m unittest discover -s tests -p test_ending_support_certificate.py
 The five tests include exhaustive finite enumeration of every distinct allowed within-length permutation for all three-ending assignments over five small stem-slot arrangements (1,458 input cases across k=1 and k=2). These cover shared and different lengths, repeated slots, singleton stems, insufficient ending multiplicity, and deduplicated starting inputs. Further cases check distinct-ending thresholds, atomic two-sign blocks, empty input, and invalid ending lengths. The independent enumerator evaluates the actual existing rectangle statistic on every permitted result and compares existence to the certificate. All five tests passed.
 
 No external data were downloaded. Results and proof address only exact whole-line stem/end matches under this specified shuffle; they do not establish word boundaries, historical grammar, sign sounds, sign meanings, or an Indus reading.
+
+
+## 11 October: distinction from a uniqueness-conditioned null
+
+The proof above remains exact for its declared collision-permitting shuffle.
+The later [paired-ending review](COUPLED_ENDINGS_REVIEW.md) identifies a different
+inferential requirement when observed texts are deduplicated: conditioning the null
+on unique stem–ending edges. Impossibility under the larger collision-permitting
+space also proves impossibility under that restricted space; the release-3/4 zero
+support conclusions therefore persist. Conversely, release 5's 33 individually
+feasible rectangles in the larger space do not prove attainability in the restricted
+space. No prior observed count changes, and no prior shuffle is rerun here.

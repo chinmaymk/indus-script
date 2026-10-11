@@ -57,3 +57,14 @@ python3 -m unittest discover -s tests -p test_kober_alternations.py -v
 ```
 
 The result pins the corpus and analysis-script SHA256 hashes. Eight tests check missing-corner rejection, duplicate row multiplicity, cycle counting, atomic two-sign blocks, exact stems, short-row exclusion, permutation marginals/reproducibility, uncertainty exclusions, malformed/incomplete input rejection, and the grammar/fixed-label counterexample. No external data is needed to reproduce the numerical screen.
+
+
+## 11 October follow-up scope
+
+A larger retained native-W subset is receiving a separate frozen screen for pairs
+of two-sign endings that differ in both coordinates. It is a restricted rectangle
+screen, not a full Kober reconstruction. Pre-run review requires a uniqueness-
+conditioned null for deduplicated text types; the historical collision-permitting
+null above is retained as its originally specified reference, not newly presented
+as an exchangeable null on unique types. See [review](COUPLED_ENDINGS_REVIEW.md).
+The earlier zero observations and relaxed-space impossibility proofs are unchanged.

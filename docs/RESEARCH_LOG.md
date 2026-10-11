@@ -5742,3 +5742,37 @@ for email permission again unless the user explicitly changes the instruction,
 and do not route the same outreach through another channel. This reply does not
 supply new archaeological evidence or a decipherment and does not authorize a new
 research run. No code, raw sources, frozen packet bytes or scientific results changed.
+
+
+## 2026-10-11 — Public-data resumption and paired-ending design
+
+User explicitly resumed decipherment using public and retained data, no outreach,
+lean context, prioritizing a route not already ruled out. No messages or outreach.
+Read current state and targeted route/numeral/comparative/foreign-seal summaries;
+no full-history ingestion. A bounded read-only agent confirmed exact-context
+one-position substitution networks already exist, while the larger retained export
+has not had the restricted two-sign ending-rectangle screen. Selected that route:
+exact Mohenjo-daro SEAL:S, standard strict parser, whole-artifact validation,
+unique complete sequences and nonempty exact stems. Both terminal positions must
+differ, with shared ending alternatives on at least two stems. This targets repeated
+attachment of intact blocks, not independent-coordinate coupling or a syllabic grid.
+
+Two public discovery queries were captured together in data/raw and registered
+(507 registered artifacts total). They exposed public repositories and decipherment
+claims but no such claim or external dataset was imported. Existing corpus is enough
+for the chosen bounded test; no broad artifact hunt. Claude follow-up was not retried
+after the prior provider credits failure.
+
+Protocol v1 frozen before new joint counts. Initial independent review confirmed
+its support formula for a collision-permitting null. Parent code/design review then
+identified selection incompatibility: deduplicating observed full sequences while
+allowing null duplicates does not give the conditional null on unique text types.
+Independent reviewer concurred and supplied a concrete counterexample showing that
+the former exact maximum is merely an upper bound under uniqueness. Preserved v1;
+v2 freezes independent per-length rejection sampling of uniform slot permutations
+conditioned on no duplicate edges, 9,999 accepted draws per stratum and a fixed
+1,000,000 proposal cap. A missed quota yields computationally_unavailable, no partial
+p values or selection. MaxT includes pairs absent in the observed arrangement.
+All revisions precede actual new corpus counts. Earlier impossibility proofs in the
+larger null space remain valid for the restricted space; positive relaxed support
+is not automatically positive simple-graph support. No semantic values assigned.

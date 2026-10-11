@@ -36,5 +36,5 @@ Keep Git LFS for source binaries; commit and push completed batches, then verify
 User instruction, 11 October 2026: **Do not send any emails.** The Penn request
 was explicitly declined. Do not request email approval again unless the user
 explicitly changes this preference. Retain existing drafts only as research records.
-Other outbound outreach is not authorized either; do not use another channel to
-circumvent this instruction. Never mark the overall goal complete on structural evidence alone.
+User reaffirmed on 11 October: **no outreach**, using public and retained data
+only. Do not substitute another contact channel. Never mark the overall goal complete on structural evidence alone.

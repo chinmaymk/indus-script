@@ -1,0 +1,47 @@
+{
+  "id": "coupled-endings-v2",
+  "date": "2026-10-11",
+  "status": "frozen before new coupled-ending counts; exploratory reused source, not blind confirmation",
+  "source": {
+    "path": "data/raw/lipi_inscriptions.csv",
+    "sha256": "b8dcb325a2e2cd3cde12ac12e7a418b0348e45713c9ee28aad81b645d2ac5ee4"
+  },
+  "allowed_columns": [
+    "id",
+    "cisi",
+    "site",
+    "type",
+    "condition",
+    "complete",
+    "dir.",
+    "class",
+    "signs",
+    "text"
+  ],
+  "artifact_key": "nonmissing cisi else lipi_id:+id before first dot; missing markers empty,-,--,?,None,Unknown",
+  "artifact_scope": "Exact SEAL:S source type only, all rows in each group validated before site selection. Exclude group if any parse_lipi-invalid row, or more than one exact sequence/site. Require exact Mohenjo-daro site. No singleton NR exception.",
+  "unit": "One distinct complete native W sequence, with all eligible artifact/row witnesses retained. Require length>=3. End is last two signs in stored source order, not established historical word ending.",
+  "statistic": "For unordered ending pairs ((x,y),(u,v)) with x!=u AND y!=v, count distinct nonempty exact preceding stems with both endings attested. Repeated artifacts and duplicate edges cannot inflate counts.",
+  "null": "Independently within each exact total-length stratum, propose uniform permutations of intact two-sign endings across labeled fixed stem slots; reject the entire stratum proposal if any identical stem-ending edge repeats. Retain9999 accepted draws per stratum. Combine same-index accepted draws across strata. Preserves unique full texts, stem degrees, ending frequencies and length.",
+  "support": "The prior sum_l min(repeated_stems_l,countA_l,countB_l) is a collision-relaxed UPPER BOUND under the simple-edge null, not exact attainability. Bound<2 proves insufficient support. Otherwise observed>=2 itself witnesses support but is not power or nondegeneracy.",
+  "replicates": 9999,
+  "seed": 20261011,
+  "correction": "Each permutation maximum is over every coupled ending pair it forms, including pairs unobserved in original arrangement. maxT p=(1+number of null maxima>=observed support)/(B+1). Global joint-exchangeability calibration only; no strong partial-null pairwise FWER claim.",
+  "selection": "Observed support>=2 AND maxT p<=0.01. At most5 pairs sorted descending support then lexical ending pair.",
+  "early_stop": "If no observed coupled pair has support>=2, stop with zero candidates and no Monte Carlo; mark uncomputed p values null. If global null maximum is sampled constant, report that explicitly, not a power conclusion.",
+  "followup": "Only if selected pairs exist, primary-check up to5 selected pairs from retained scans and preserve all required witnesses/unknowns. No new public artifact search. No namespace mapping without existing authenticated glyph evidence. No claims of independent replication.",
+  "stop": "One site/type/parser/terminal width and one simple-edge conditional null run if eligible. Stop also on configured proposal cap. No alternate boundaries, merging, sign families, other sites or relaxed thresholds after outcomes.",
+  "not_identified": [
+    "word boundaries",
+    "inflection",
+    "syllabic grid",
+    "sound values",
+    "meanings",
+    "language versus fixed administrative labels"
+  ],
+  "reopening": "New independently justified data or a documented implementation defect; nonsignificance alone does not authorize design changes.",
+  "amends": "v1 superseded before any real coupled-ending counts: deduplicated sample requires simple-edge null",
+  "proposal_cap_per_stratum": 1000000,
+  "sampling_failure": "If any length stratum fails to reach9999 accepted draws within1000000 total proposals, save proposal/acceptance diagnostics and report computationally_unavailable with global p null and no selected candidates. Never use partial p values or automatically relax the cap/null.",
+  "sorting": "Sort unique sequences lexicographically, strata by total length, distinct endings lexicographically; numpy.default_rng(seed) shared stream in stratum order. Rejection does not reverse or split ending blocks."
+}

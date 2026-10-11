@@ -1,57 +1,57 @@
 # Active research state
 
 Updated 11 October 2026. **No decipherment; all 417 sign meanings/sounds unresolved.**
-Read this file first. Retrieve additional evidence through `RESEARCH_INDEX.md` only
-when needed. Full history is in `RESEARCH_LOG.md`, not part of routine loop context.
+Read this first, then retrieve only relevant evidence through `RESEARCH_INDEX.md`.
+Full history belongs in `RESEARCH_LOG.md`.
 
-## Current constraint and handoff
+## One current action
 
-**User explicitly said “no do not send any emails” on 11 October 2026.**
-No emails were sent. Email outreach is closed, not awaiting approval. Do not ask
-again unless the user explicitly changes this preference; do not substitute another
-outreach channel. The prepared Penn draft and 15-target appendix remain archival
-records only under `outreach/`.
+User resumed research using public and retained data only. **No outreach of any
+kind.** Do not seek email permission again. The Penn request is an archival draft.
 
-The goal was marked blocked before this reply and remains unresolved. Missing
-archaeological records are an evidence gap, not a reason to repeat permission
-requests. Future research must respect the no-email instruction and use existing,
-publicly accessible or user-provided evidence. On a future research resumption,
-reassess available non-outreach routes without restarting closed analyses merely
-to show activity. Retain the complete decipherment objective and compact context.
+Run the frozen `data/processed/coupled_endings_protocol_v2.json` on the retained
+Lipi export: exact Mohenjo-daro / `SEAL:S`, strict complete rows, validated artifact
+groups, unique full texts, two-sign terminal alternatives differing in both slots.
+Question: do the same alternatives recur across preceding strings beyond their
+length-conditioned availability? Intact-ending shuffles preserve internal
+penultimate/final association; this is not a test of independent versus coupled
+changes, a syllabic grid, or a grammar/language classifier.
 
-## Latest decision and result
+Implementation agent `/root/coupled_endings_impl` is preparing synthetic tests.
+No new real counts yet. Pre-run review corrected a deduplication mismatch: null proposals must preserve
+unique stem-ending edges. The earlier support formula is now only an upper bound.
+Next: review code/tests and run once; if eligible, collect 9,999 accepted shuffles
+per length stratum, capped at 1,000,000 proposals each. Failure gives no p value.
+Global maximum includes previously unobserved pairs.
+Stop if no qualifying repeated pair or corrected candidate. Only surviving
+candidates permit up to five retained-primary checks. No thresholds/boundaries
+changed after outcomes. No other route starts in parallel.
 
-Claude Opus's read-only repository critique recommended a bounded text–motif
-screen over more transcription. The completed frozen v2 run selected **zero pairs**:
-716 Mohenjo-daro exact-text families, 748 eligible pairs, 9,999 permutations,
-global maxT p=0.7609. Transfer and quality sensitivity were skipped by rule.
-See `MOTIF_FAST_ROUTE.md` and `results/motif_fast_route_v2/stop.json`.
-This is no selected lead under one design, not evidence against language or motifs.
-Fable follow-up failed with provider usage-credit limit; failure saved. No live
-Claude processes or unfinished subagent work remain from this batch.
+## Why this route / what stays closed
 
-## Authoritative evidence and closed loops
+One-position substitution networks already exist; do not repeat them as a numeral
+screen. Earlier ending tests used 99 verified rows (support follow-up 198); the
+larger homogeneous export subset has not had this restricted two-sign screen.
+The novelty is data scope and predicate, not a wholly new Kober method.
 
-- Corpus `data/processed/m77_verified/corpus_v5.json`: printed 39–44, 198 lines,
-  185 references, 949 assigned positions/173 types, 23 LOSS spans, 35 source doubts.
-  Print fidelity only; further expansion deferred.
-- `results/ending_support_v5.json`: k1 rectangle impossible; k2 feasible but observes
-  zero. No power/grammar conclusion; no new Monte Carlo run.
-- `M77_FIELD_SYMBOL_REVIEW.md`: code35 is uncertain animal, not verified bull;
-  side/object counting differs. Table V overlaps evidence and is not independent.
-- Numerals: conditional 3a=2b and 3a=3c imply c/b=2/3; H1923's 2a=2b conflicts.
-  Equal quantities remain unproved. No post-hoc unit rescue.
-- No broad artifact/H1923 searches, empty-support shuffles, motif parameter changes
-  or full historical reruns without a specific new source or documented defect.
+Motif v2 is closed: 716 texts/748 pairs, global p=.7609, zero candidates. Numeral
+c/b=2/3 remains conditional on unproved equal quantities, with H1923 conflicting.
+No quantity calibration pair or secured replicated deposit contrast exists in
+reviewed data. More fits cannot manufacture one. No broad artifact/H1923 search,
+empty-support shuffles or automatic transcription expansion.
 
-## Runtime and persistence
+Corpus v5: 198 lines/185 references, 949 assigned positions/173 types, 23 LOSS,
+35 source doubts; print fidelity only. k2 ending support is feasible but observed
+zero; k1 impossible in that sample. Those results remain historical evidence.
 
-Bundled Python with NumPy/Pillow:
+## Persistence / runtime
+
+Last verified upstream before this run: `50c5b13`; inspect Git for current state.
+Raw captures stay in `data/raw/` and `data/sources.json`; latest two-query public
+search capture is registered, with no external corpus or interpretation adopted.
+Baseline 294 tests passed. New run and tests pending. Claude follow-up previously
+hit a usage-credit limit; no live Claude process.
+
+Python with NumPy/Pillow:
 `/Users/chinmaymk/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3`.
-Claude CLI: `/Users/chinmaymk/.local/bin/claude`. Use unique render/output paths.
-
-294 tests passed on the previous code batch; no code changed this turn. The new
-packet passes seven pin checks and exact 15-target preservation. Registry now holds
-506 raw artifacts: the previous 505 verified, plus the new verified contact capture. Source/model
-captures remain in `data/raw/`; registry `data/sources.json`. Check Git for exact
-backup status; request packet is backed up at 988c11c; this status record follows. GitHub backup to origin/main is authorized.
+GitHub backup to origin/main remains authorized. Never overwrite frozen results.
