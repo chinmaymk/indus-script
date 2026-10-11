@@ -25,3 +25,19 @@ The first sandboxed call failed with `Not logged in`; its zero-token response is
 The response broadly asserted that Indus seals/tablets have no totals or summations. This tools-disabled review did not establish that universal negative; it is not added as a corpus fact. Its suggestion that balanced examples might share a mold remains a possible dependence, not a verified identity. Chance-corrected agreement was suggested, but cannot be manufactured from this nonrandom, partially exposed page.
 
 The comparative proto-cuneiform note remains useful methodological evidence: commodity-specific numerical systems existed, and two fraction pairs have ratio2/3. It adds no likelihood or sign mapping to the Indus hypothesis. Claude was not asked to approve a decipherment, and none is claimed.
+
+## Further Opus review: terminal-test design
+
+After release3, a second tools-disabled CLI review again returned `claude-opus-5-5`. The first prompt incorrectly described all99 rows as field-symbol01; the simultaneously computed counts actually showed96code01,2code35,1code00. That prompt and response are preserved as an error record. A separate corrected prompt supplied the actual counts and received a fresh response. Both runs completed normally; neither performed independent source research.
+
+- [Corrected prompt](../results/claude_code/oct10_v4_design_corrected_prompt.txt)
+- [Corrected response](../data/raw/claude-opus-oct10-v4-design-corrected.json)
+- [Original erroneous prompt](../results/claude_code/oct10_v4_design_prompt.txt) and [response](../data/raw/claude-opus-oct10-v4-design.json)
+
+Accepted: exact whole-line prefixes are a narrow structural screen, not word stems established from linguistic evidence. With71 eligible rows and71 distinct prefixes at k=1, a rectangle is impossible under every shuffle that preserves those prefix slots. The absence of a useful conditional statistic should be established before more Monte Carlo work. Parent independently derived, and a separate agent implemented and exhaustively checked, a necessary-and-sufficient support criterion including the within-length constraints. It proves exact zero support at both k=1 and k=2 for releases3 and4; see [proof](ENDING_SUPPORT_CERTIFICATE.md). This is stronger than the response's tentative assessment of k=2.
+
+Not adopted: the response calls a small null probability "power." Power requires a specified alternative and rejection rule; the probability of a rectangle under the null alone does not supply it. Its suggested injected10–15% preference model does not establish a historically relevant effect size or uniform power against all contextual dependence. Non-rejection under one simulation cannot reject every version of its broad dependence hypothesis.
+
+Not adopted: newly verified pages are not automatically an untouched holdout. Earlier access to the secondary corpus, remembered contexts, duplicated objects and discovery-guided transcription remain possible. The prompt explicitly disclosed that history. Page53 was already being transcribed when the critique arrived, and is not a preregistered holdout. No new confirmatory test, significance threshold or power claim was retroactively applied.
+
+The suggested local penultimate/final analysis addresses a different question and would need its own justified sampling, dependence model and exposure audit. It cannot be promoted to a language-versus-label discriminator. Whole-line boundaries and metadata skew remain limitations; source-normalized RTL ordering is already authenticated in the [codebook review](M77_CODEBOOK_REVIEW.md). We retain the critique as an opinion and implement the exact-support diagnostic, rather than launching an unvalidated confirmation experiment.

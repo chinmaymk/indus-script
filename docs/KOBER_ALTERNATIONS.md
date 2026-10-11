@@ -2,6 +2,8 @@
 
 The verified release 3 produces **zero shared ending-pair rectangles** for terminal blocks of either one or two signs. This is a sparse descriptive result, not evidence against language or morphology. There are no repeated eligible stems at the one-sign boundary; only three stems have alternative two-sign endings, and none shares the same ending pair with another stem.
 
+Follow-up: the [exact support certificate](ENDING_SUPPORT_CERTIFICATE.md) proves that zero is forced by the preserved marginals for both ending lengths, on releases3 and4. The Monte Carlo record below is retained historically; more draws cannot make these comparisons informative.
+
 “Kober-style” describes the user's historical inspiration for seeking repeated alternations. This operational screen is our own narrow precursor. It works on whole printed lines without established word boundaries; it does not implement linked penultimate/final alternations or infer a syllabic value grid. It is not a replication of Kober's full procedure or assumptions: an original method paper has not been acquired. No historical claim here depends on search snippets.
 
 ## Data and definition

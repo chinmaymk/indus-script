@@ -1,6 +1,25 @@
 # M77 corpus: complete-page transcription
 
-## Current release: three consecutive pages
+## Current release: four consecutive pages
+
+10 October 2026 continuation. [Release4](../data/processed/m77_verified/corpus_v4.json) covers printed39–42/mainPDF50–53: **122 references,132 lines,672 assigned sign positions,148 distinct assigned types,15 unknown-length loss spans and24 source-doubtful positions**. The24 doubtful positions are included in672. There are no additional unidentified visible glyphs, but damaged text and source doubts remain. This covers3.69% of3573 printed lines, not a complete corpus or decipherment.
+
+The fourth page adds1097–1127 except1124, with two lines each at1099,1101 and1112:30 references and33 rows. Parent independently checked this inventory and the continuation metadata against the full main-source page. Both reviewers used the main and alternative scans, authenticated as printed42 at mainPDF53/alternatePDF54. A disclosed secondary hints; B did not consult alternative transcriptions during entry and reported no specific remembered page53 readings. Both froze and validated their own inventories before comparison. All33 rows agree exactly; no new adjudication was needed. This is agreement between AI review passes, not an estimate of ancient-object accuracy.
+
+The source's1101 second-line direction code2 is retained as metadata without reversing the already normalized RTL token order. Current field-symbol codes are129rows code01,2code35 and1code00; all132 rows have object type1. No code-to-animal mapping, date assignment or representative sampling follows from these counts.
+
+```sh
+python scripts/build_verified_m77.py \
+  --manifest data/processed/m77_verified/page_manifest_v4.json \
+  --adjudications data/processed/m77_verified/adjudications_v4.json \
+  --candidate-export data/processed/m77_candidate_records.jsonl \
+  --comparison results/m77_verified_v4_comparison.json \
+  --output data/processed/m77_verified/corpus_v4.json
+```
+
+The [exact ending-test support diagnostic](ENDING_SUPPORT_CERTIFICATE.md) remains negative on this release: the specified statistic is zero under every permitted shuffle. This closes further Monte Carlo work at the present support, not the language question. The next consecutive page is printed43/mainPDF54; authenticate the alternate locator independently. Prior releases and their conclusions remain versioned.
+
+## Third release: historical batch record
 
 10 October 2026 continuation. [Release3](../data/processed/m77_verified/corpus_v3.json) covers printed39–41/PDF50–52: **92 references,99 lines,515 assigned sign positions,129 distinct assigned types,zero additional unidentified visible glyphs,12 unknown-length loss spans and20 source-doubtful positions**. The20 source-doubtful positions are included in515, not resolved by that count. This is2.77% of the3573 printed lines. All rows in the manifest are present; this is not a complete Indus corpus or a decipherment.
 

@@ -1,0 +1,2874 @@
+{
+  "schema_version": "m77-review-submission-1",
+  "reviewer": "A: /root/discriminating_route_oct10",
+  "status": "frozen_unadjudicated_candidate",
+  "frozen_date": "2026-10-10",
+  "source_pdf_page": 53,
+  "source_printed_page": 42,
+  "page_render": "results/primary_pages/m77-v4-reviewerA-53.png",
+  "page_render_dimensions": [
+    4693,
+    6000
+  ],
+  "coordinate_convention": "integer native render pixels; top-left origin; whole-row bbox x1,y1,x2,y2",
+  "review_basis": "Main PDF53 and alternate PDF54 both visibly show printed42 and same reference/row inventory. Every row and metadata visually checked on main full page/four bands, every glyph checked additionally on clean alternate scan/four glyph bands and matched against previously consulted primary sign-list pages32–35. Additional sign-list crops authenticate continuation glyphs. No reviewer B page053 transcription seen before freeze. Secondary hints disclosed; this immutable submission is not adjudication.",
+  "alternate_source_page": {
+    "path": "data/raw/mahadevan_alternative_scan.pdf",
+    "source_pdf_page": 54,
+    "source_printed_page": 42,
+    "page_render": "results/primary_pages/m77-v4-reviewerA-alt-54.png",
+    "page_render_dimensions": [
+      4244,
+      6000
+    ],
+    "authentication": "Printed42 and references1097–1127, three continuations and absent1124 visually agree with mainPDF53."
+  },
+  "prior_exposure": {
+    "fully_blind": false,
+    "secondary_candidate_refs": [
+      "1097",
+      "1098",
+      "1099",
+      "1100",
+      "1101",
+      "1102",
+      "1103",
+      "1104",
+      "1105",
+      "1106",
+      "1107",
+      "1108",
+      "1109",
+      "1110",
+      "1111",
+      "1112",
+      "1113",
+      "1114",
+      "1115",
+      "1116",
+      "1117",
+      "1118",
+      "1119",
+      "1120",
+      "1121",
+      "1122",
+      "1123",
+      "1125",
+      "1126",
+      "1127",
+      "1128",
+      "1129",
+      "1130"
+    ],
+    "secondary_candidate_pin": {
+      "path": "data/processed/m77_candidate_records.jsonl",
+      "sha256": "b29a176da86b125115256a8966c377c3fd9fe39ecaab17bf576b770b83b41bab"
+    },
+    "reviewer_b_exposure": "No page053 reviewer B file or token strings seen. Reused primary sign-list render filenames have old reviewerB prefix, but contain source page images only."
+  },
+  "source_pins": [
+    {
+      "path": "data/raw/mahadevan_1977_text.pdf",
+      "sha256": "6dcdd074a0174e5fab149590fbbf82342711d345764e9763f8e5e92c81cf7f99"
+    },
+    {
+      "path": "data/raw/mahadevan_alternative_scan.pdf",
+      "sha256": "ef68fe8dc25e94fe9cb75b418c5189a084383e72498560ef393372e90a27e110"
+    },
+    {
+      "path": "results/primary_pages/m77-v4-reviewerA-53.png",
+      "sha256": "bbe3b2c91a8f4ad63a1d2b604c132b39cb687954ae7b1aee2e5260df25328fcf"
+    },
+    {
+      "path": "results/primary_pages/m77-v4-reviewerA-alt-54.png",
+      "sha256": "42774cd7b0414675d82f612659815e360be295a1c9fb76d1e50f9e03f2757f64"
+    },
+    {
+      "path": "results/primary_pages/m77-v1-reviewerB-43.png",
+      "sha256": "22ca809ca590447e58566b9033c0be8dcc1801676d4cb6239e2f1fca2ef37f26"
+    },
+    {
+      "path": "results/primary_pages/m77-v1-reviewerB-44.png",
+      "sha256": "e992b65d09c18111b93c53f09da1138117a251ed6f1e4d4f3a4c233ed5f72912"
+    },
+    {
+      "path": "results/primary_pages/m77-v1-reviewerB-45.png",
+      "sha256": "08377cec1939fa43b78d337a9e07706745c0f0f34426ee1a9c54458d16c9510a"
+    },
+    {
+      "path": "results/primary_pages/m77-v1-reviewerB-46.png",
+      "sha256": "69923facfabb6978696445c69d4319d23d1e9234b27e35311ae111d148169136"
+    }
+  ],
+  "auxiliary_visual_crops": [
+    {
+      "path": "results/primary_pages/m77-v4-reviewerA-53-band1.png",
+      "sha256": "c43fd8b21ef6953603a862607adbcb202ad5d900ace8ae5ffdabcfa7e0fce9f4",
+      "source_render": "results/primary_pages/m77-v4-reviewerA-53.png",
+      "source_bbox_render_pixels": [
+        850,
+        330,
+        3970,
+        1850
+      ],
+      "transformation": "native-pixel crop only; no resizing or pixel edits"
+    },
+    {
+      "path": "results/primary_pages/m77-v4-reviewerA-53-band2.png",
+      "sha256": "8ee5402ffac798d6f2c4b118479e710f2b6ba3fb504fac21b36269df939e292e",
+      "source_render": "results/primary_pages/m77-v4-reviewerA-53.png",
+      "source_bbox_render_pixels": [
+        850,
+        1800,
+        3970,
+        3350
+      ],
+      "transformation": "native-pixel crop only; no resizing or pixel edits"
+    },
+    {
+      "path": "results/primary_pages/m77-v4-reviewerA-53-band3.png",
+      "sha256": "dcb8758a44f91b48f675f42f07e1dc76d8992f9dbc201b217d0c0e42f153acc7",
+      "source_render": "results/primary_pages/m77-v4-reviewerA-53.png",
+      "source_bbox_render_pixels": [
+        850,
+        3300,
+        3970,
+        4850
+      ],
+      "transformation": "native-pixel crop only; no resizing or pixel edits"
+    },
+    {
+      "path": "results/primary_pages/m77-v4-reviewerA-53-band4.png",
+      "sha256": "e249465038684dfb60bc91f98932abe207890bb84c93afaa0878517cf3d8b710",
+      "source_render": "results/primary_pages/m77-v4-reviewerA-53.png",
+      "source_bbox_render_pixels": [
+        850,
+        4800,
+        3970,
+        5800
+      ],
+      "transformation": "native-pixel crop only; no resizing or pixel edits"
+    },
+    {
+      "path": "results/primary_pages/m77-v4-reviewerA-alt-54-band1.png",
+      "sha256": "30f3e4846125a981ab94e8f1cb76c049ab557f35667bf572965310d84c198f74",
+      "source_render": "results/primary_pages/m77-v4-reviewerA-alt-54.png",
+      "source_bbox_render_pixels": [
+        2740,
+        330,
+        3590,
+        1670
+      ],
+      "transformation": "native-pixel crop only; no resizing or pixel edits"
+    },
+    {
+      "path": "results/primary_pages/m77-v4-reviewerA-alt-54-band2.png",
+      "sha256": "cc1fd41813ee6ab63e35930680161d12d936d59ad881628a531e8fbe0926bd1a",
+      "source_render": "results/primary_pages/m77-v4-reviewerA-alt-54.png",
+      "source_bbox_render_pixels": [
+        2740,
+        1600,
+        3590,
+        3050
+      ],
+      "transformation": "native-pixel crop only; no resizing or pixel edits"
+    },
+    {
+      "path": "results/primary_pages/m77-v4-reviewerA-alt-54-band3.png",
+      "sha256": "8982e08b0f6b47bed4d4b590637acc0f701641b7d63b8220166a3abb75444e5a",
+      "source_render": "results/primary_pages/m77-v4-reviewerA-alt-54.png",
+      "source_bbox_render_pixels": [
+        2740,
+        3000,
+        3590,
+        4450
+      ],
+      "transformation": "native-pixel crop only; no resizing or pixel edits"
+    },
+    {
+      "path": "results/primary_pages/m77-v4-reviewerA-alt-54-band4.png",
+      "sha256": "35845853be0c14b9faa22f801e10ebb6eb050c2d4a5f914f72d87a6ed33ef54d",
+      "source_render": "results/primary_pages/m77-v4-reviewerA-alt-54.png",
+      "source_bbox_render_pixels": [
+        2740,
+        4380,
+        3590,
+        5250
+      ],
+      "transformation": "native-pixel crop only; no resizing or pixel edits"
+    },
+    {
+      "path": "results/primary_pages/m77-v4-reviewerA-signlist266.png",
+      "sha256": "1233200e7e521c0e1c54cc47a741d51c77bca40f0ef6d6f3e8b2eeb52ef6917e",
+      "source_render": "results/primary_pages/m77-v1-reviewerB-45.png",
+      "source_bbox_render_pixels": [
+        2670,
+        2340,
+        3020,
+        2800
+      ],
+      "transformation": "native-pixel crop only; no resizing or pixel edits"
+    },
+    {
+      "path": "results/primary_pages/m77-v4-reviewerA-signlist275.png",
+      "sha256": "5c9f6aa4cbedc03c4be7e5f4be140bc8cd0470e0857612637568c7d0971ce57e",
+      "source_render": "results/primary_pages/m77-v1-reviewerB-45.png",
+      "source_bbox_render_pixels": [
+        1770,
+        2780,
+        2200,
+        3300
+      ],
+      "transformation": "native-pixel crop only; no resizing or pixel edits"
+    },
+    {
+      "path": "results/primary_pages/m77-v4-reviewerA-signlist186.png",
+      "sha256": "65de912baa10b4eaf6baea6bddec8ef57cf8d38cc773bbc560ba7aec2f8e5ffe",
+      "source_render": "results/primary_pages/m77-v1-reviewerB-44.png",
+      "source_bbox_render_pixels": [
+        2230,
+        3820,
+        2600,
+        4240
+      ],
+      "transformation": "native-pixel crop only; no resizing or pixel edits"
+    },
+    {
+      "path": "results/primary_pages/m77-v4-reviewerA-signlist266-complete.png",
+      "sha256": "3a857c4bcdf79e170406ece9b265d6687097769ec9d655f317633e098f96403c",
+      "source_render": "results/primary_pages/m77-v1-reviewerB-45.png",
+      "source_bbox_render_pixels": [
+        2670,
+        2340,
+        3020,
+        2890
+      ],
+      "transformation": "native-pixel crop only; no resizing or pixel edits"
+    },
+    {
+      "path": "results/primary_pages/m77-v4-reviewerA-signlist275-complete.png",
+      "sha256": "87b8e5969d4ece96ebfa32939a9136bfa106e7255521947c7678111780bdfad2",
+      "source_render": "results/primary_pages/m77-v1-reviewerB-45.png",
+      "source_bbox_render_pixels": [
+        2250,
+        2800,
+        2640,
+        3380
+      ],
+      "transformation": "native-pixel crop only; no resizing or pixel edits"
+    }
+  ],
+  "rows": [
+    {
+      "printed_row_index": 1,
+      "reference": "1097",
+      "side": "0",
+      "line": "0",
+      "object_type_code": "1",
+      "field_symbol_code": "01",
+      "direction_code": "1",
+      "printed_metadata_literal": "100101",
+      "expanded_metadata_code": "100101",
+      "inherited_from_row": null,
+      "normalized_order": "right_to_left",
+      "tokens": [
+        "*M086",
+        "M267",
+        "M099",
+        "M067",
+        "M348",
+        "M342"
+      ],
+      "segments": [
+        {
+          "position_from_right": 1,
+          "kind": "identified_sign",
+          "sign": "M086",
+          "source_doubt": true,
+          "minimum_signs": 1,
+          "maximum_signs": 1,
+          "reviewer_uncertainty": false,
+          "candidate_signs": []
+        },
+        {
+          "position_from_right": 2,
+          "kind": "identified_sign",
+          "sign": "M267",
+          "source_doubt": false,
+          "minimum_signs": 1,
+          "maximum_signs": 1,
+          "reviewer_uncertainty": false,
+          "candidate_signs": []
+        },
+        {
+          "position_from_right": 3,
+          "kind": "identified_sign",
+          "sign": "M099",
+          "source_doubt": false,
+          "minimum_signs": 1,
+          "maximum_signs": 1,
+          "reviewer_uncertainty": false,
+          "candidate_signs": []
+        },
+        {
+          "position_from_right": 4,
+          "kind": "identified_sign",
+          "sign": "M067",
+          "source_doubt": false,
+          "minimum_signs": 1,
+          "maximum_signs": 1,
+          "reviewer_uncertainty": false,
+          "candidate_signs": []
+        },
+        {
+          "position_from_right": 5,
+          "kind": "identified_sign",
+          "sign": "M348",
+          "source_doubt": false,
+          "minimum_signs": 1,
+          "maximum_signs": 1,
+          "reviewer_uncertainty": false,
+          "candidate_signs": []
+        },
+        {
+          "position_from_right": 6,
+          "kind": "identified_sign",
+          "sign": "M342",
+          "source_doubt": false,
+          "minimum_signs": 1,
+          "maximum_signs": 1,
+          "reviewer_uncertainty": false,
+          "candidate_signs": []
+        }
+      ],
+      "line_bbox_render_pixels": [
+        850,
+        350,
+        3970,
+        536
+      ],
+      "record_kind": "text_line",
+      "notes": [
+        "Printed source doubt mark preserved separately from reviewer identification confidence."
+      ]
+    },
+    {
+      "printed_row_index": 2,
+      "reference": "1098",
+      "side": "0",
+      "line": "0",
+      "object_type_code": "1",
+      "field_symbol_code": "01",
+      "direction_code": "1",
+      "printed_metadata_literal": "100101",
+      "expanded_metadata_code": "100101",
+      "inherited_from_row": null,
+      "normalized_order": "right_to_left",
+      "tokens": [
+        "M267",
+        "M099",
+        "M065",
+        "M347",
+        "M342"
+      ],
+      "segments": [
+        {
+          "position_from_right": 1,
+          "kind": "identified_sign",
+          "sign": "M267",
+          "source_doubt": false,
+          "minimum_signs": 1,
+          "maximum_signs": 1,
+          "reviewer_uncertainty": false,
+          "candidate_signs": []
+        },
+        {
+          "position_from_right": 2,
+          "kind": "identified_sign",
+          "sign": "M099",
+          "source_doubt": false,
+          "minimum_signs": 1,
+          "maximum_signs": 1,
+          "reviewer_uncertainty": false,
+          "candidate_signs": []
+        },
+        {
+          "position_from_right": 3,
+          "kind": "identified_sign",
+          "sign": "M065",
+          "source_doubt": false,
+          "minimum_signs": 1,
+          "maximum_signs": 1,
+          "reviewer_uncertainty": false,
+          "candidate_signs": []
+        },
+        {
+          "position_from_right": 4,
+          "kind": "identified_sign",
+          "sign": "M347",
+          "source_doubt": false,
+          "minimum_signs": 1,
+          "maximum_signs": 1,
+          "reviewer_uncertainty": false,
+          "candidate_signs": []
+        },
+        {
+          "position_from_right": 5,
+          "kind": "identified_sign",
+          "sign": "M342",
+          "source_doubt": false,
+          "minimum_signs": 1,
+          "maximum_signs": 1,
+          "reviewer_uncertainty": false,
+          "candidate_signs": []
+        }
+      ],
+      "line_bbox_render_pixels": [
+        850,
+        536,
+        3970,
+        697
+      ],
+      "record_kind": "text_line",
+      "notes": []
+    },
+    {
+      "printed_row_index": 3,
+      "reference": "1099",
+      "side": "0",
+      "line": "1",
+      "object_type_code": "1",
+      "field_symbol_code": "01",
+      "direction_code": "1",
+      "printed_metadata_literal": "100111",
+      "expanded_metadata_code": "100111",
+      "inherited_from_row": null,
+      "normalized_order": "right_to_left",
+      "tokens": [
+        "*M050",
+        "M403",
+        "M343",
+        "M194",
+        "M008",
+        "M342"
+      ],
+      "segments": [
+        {
+          "position_from_right": 1,
+          "kind": "identified_sign",
+          "sign": "M050",
+          "source_doubt": true,
+          "minimum_signs": 1,
+          "maximum_signs": 1,
+          "reviewer_uncertainty": false,
+          "candidate_signs": []
+        },
+        {
+          "position_from_right": 2,
+          "kind": "identified_sign",
+          "sign": "M403",
+          "source_doubt": false,
+          "minimum_signs": 1,
+          "maximum_signs": 1,
+          "reviewer_uncertainty": false,
+          "candidate_signs": []
+        },
+        {
+          "position_from_right": 3,
+          "kind": "identified_sign",
+          "sign": "M343",
+          "source_doubt": false,
+          "minimum_signs": 1,
+          "maximum_signs": 1,
+          "reviewer_uncertainty": false,
+          "candidate_signs": []
+        },
+        {
+          "position_from_right": 4,
+          "kind": "identified_sign",
+          "sign": "M194",
+          "source_doubt": false,
+          "minimum_signs": 1,
+          "maximum_signs": 1,
+          "reviewer_uncertainty": false,
+          "candidate_signs": []
+        },
+        {
+          "position_from_right": 5,
+          "kind": "identified_sign",
+          "sign": "M008",
+          "source_doubt": false,
+          "minimum_signs": 1,
+          "maximum_signs": 1,
+          "reviewer_uncertainty": false,
+          "candidate_signs": []
+        },
+        {
+          "position_from_right": 6,
+          "kind": "identified_sign",
+          "sign": "M342",
+          "source_doubt": false,
+          "minimum_signs": 1,
+          "maximum_signs": 1,
+          "reviewer_uncertainty": false,
+          "candidate_signs": []
+        }
+      ],
+      "line_bbox_render_pixels": [
+        850,
+        697,
+        3970,
+        860
+      ],
+      "record_kind": "text_line",
+      "notes": [
+        "Printed source doubt mark preserved separately from reviewer identification confidence."
+      ]
+    },
+    {
+      "printed_row_index": 4,
+      "reference": "1099",
+      "side": "0",
+      "line": "2",
+      "object_type_code": "1",
+      "field_symbol_code": "01",
+      "direction_code": "3",
+      "printed_metadata_literal": "23",
+      "expanded_metadata_code": "100123",
+      "inherited_from_row": 3,
+      "normalized_order": "right_to_left",
+      "tokens": [
+        "M266"
+      ],
+      "segments": [
+        {
+          "position_from_right": 1,
+          "kind": "identified_sign",
+          "sign": "M266",
+          "source_doubt": false,
+          "minimum_signs": 1,
+          "maximum_signs": 1,
+          "reviewer_uncertainty": false,
+          "candidate_signs": []
+        }
+      ],
+      "line_bbox_render_pixels": [
+        850,
+        860,
+        3970,
+        1022
+      ],
+      "record_kind": "text_line",
+      "notes": [
+        "Separate printed continuation, inherited metadata prefix1001 from preceding row. Direction code retained; normalized printed RTL sequence is not reversed again.",
+        "Diamond interior checked against primary sign-list M266 using both scans."
+      ]
+    },
+    {
+      "printed_row_index": 5,
+      "reference": "1100",
+      "side": "0",
+      "line": "0",
+      "object_type_code": "1",
+      "field_symbol_code": "01",
+      "direction_code": "1",
+      "printed_metadata_literal": "100101",
+      "expanded_metadata_code": "100101",
+      "inherited_from_row": null,
+      "normalized_order": "right_to_left",
+      "tokens": [
+        "M150",
+        "M123",
+        "M293",
+        "M051",
+        "M342"
+      ],
+      "segments": [
+        {
+          "position_from_right": 1,
+          "kind": "identified_sign",
+          "sign": "M150",
+          "source_doubt": false,
+          "minimum_signs": 1,
+          "maximum_signs": 1,
+          "reviewer_uncertainty": false,
+          "candidate_signs": []
+        },
+        {
+          "position_from_right": 2,
+          "kind": "identified_sign",
+          "sign": "M123",
+          "source_doubt": false,
+          "minimum_signs": 1,
+          "maximum_signs": 1,
+          "reviewer_uncertainty": false,
+          "candidate_signs": []
+        },
+        {
+          "position_from_right": 3,
+          "kind": "identified_sign",
+          "sign": "M293",
+          "source_doubt": false,
+          "minimum_signs": 1,
+          "maximum_signs": 1,
+          "reviewer_uncertainty": false,
+          "candidate_signs": []
+        },
+        {
+          "position_from_right": 4,
+          "kind": "identified_sign",
+          "sign": "M051",
+          "source_doubt": false,
+          "minimum_signs": 1,
+          "maximum_signs": 1,
+          "reviewer_uncertainty": false,
+          "candidate_signs": []
+        },
+        {
+          "position_from_right": 5,
+          "kind": "identified_sign",
+          "sign": "M342",
+          "source_doubt": false,
+          "minimum_signs": 1,
+          "maximum_signs": 1,
+          "reviewer_uncertainty": false,
+          "candidate_signs": []
+        }
+      ],
+      "line_bbox_render_pixels": [
+        850,
+        1022,
+        3970,
+        1183
+      ],
+      "record_kind": "text_line",
+      "notes": []
+    },
+    {
+      "printed_row_index": 6,
+      "reference": "1101",
+      "side": "0",
+      "line": "1",
+      "object_type_code": "1",
+      "field_symbol_code": "01",
+      "direction_code": "1",
+      "printed_metadata_literal": "100111",
+      "expanded_metadata_code": "100111",
+      "inherited_from_row": null,
+      "normalized_order": "right_to_left",
+      "tokens": [
+        "M017",
+        "M051",
+        "M245",
+        "M245"
+      ],
+      "segments": [
+        {
+          "position_from_right": 1,
+          "kind": "identified_sign",
+          "sign": "M017",
+          "source_doubt": false,
+          "minimum_signs": 1,
+          "maximum_signs": 1,
+          "reviewer_uncertainty": false,
+          "candidate_signs": []
+        },
+        {
+          "position_from_right": 2,
+          "kind": "identified_sign",
+          "sign": "M051",
+          "source_doubt": false,
+          "minimum_signs": 1,
+          "maximum_signs": 1,
+          "reviewer_uncertainty": false,
+          "candidate_signs": []
+        },
+        {
+          "position_from_right": 3,
+          "kind": "identified_sign",
+          "sign": "M245",
+          "source_doubt": false,
+          "minimum_signs": 1,
+          "maximum_signs": 1,
+          "reviewer_uncertainty": false,
+          "candidate_signs": []
+        },
+        {
+          "position_from_right": 4,
+          "kind": "identified_sign",
+          "sign": "M245",
+          "source_doubt": false,
+          "minimum_signs": 1,
+          "maximum_signs": 1,
+          "reviewer_uncertainty": false,
+          "candidate_signs": []
+        }
+      ],
+      "line_bbox_render_pixels": [
+        850,
+        1183,
+        3970,
+        1345
+      ],
+      "record_kind": "text_line",
+      "notes": []
+    },
+    {
+      "printed_row_index": 7,
+      "reference": "1101",
+      "side": "0",
+      "line": "2",
+      "object_type_code": "1",
+      "field_symbol_code": "01",
+      "direction_code": "2",
+      "printed_metadata_literal": "22",
+      "expanded_metadata_code": "100122",
+      "inherited_from_row": 6,
+      "normalized_order": "right_to_left",
+      "tokens": [
+        "M186",
+        "M149"
+      ],
+      "segments": [
+        {
+          "position_from_right": 1,
+          "kind": "identified_sign",
+          "sign": "M186",
+          "source_doubt": false,
+          "minimum_signs": 1,
+          "maximum_signs": 1,
+          "reviewer_uncertainty": false,
+          "candidate_signs": []
+        },
+        {
+          "position_from_right": 2,
+          "kind": "identified_sign",
+          "sign": "M149",
+          "source_doubt": false,
+          "minimum_signs": 1,
+          "maximum_signs": 1,
+          "reviewer_uncertainty": false,
+          "candidate_signs": []
+        }
+      ],
+      "line_bbox_render_pixels": [
+        850,
+        1345,
+        3970,
+        1508
+      ],
+      "record_kind": "text_line",
+      "notes": [
+        "Separate printed continuation, inherited metadata prefix1001 from preceding row. Direction code retained; normalized printed RTL sequence is not reversed again.",
+        "Ladder and open doubled-X checked against primary sign-list M186/M149; direction2 preserved."
+      ]
+    },
+    {
+      "printed_row_index": 8,
+      "reference": "1102",
+      "side": "0",
+      "line": "0",
+      "object_type_code": "1",
+      "field_symbol_code": "01",
+      "direction_code": "1",
+      "printed_metadata_literal": "100101",
+      "expanded_metadata_code": "100101",
+      "inherited_from_row": null,
+      "normalized_order": "right_to_left",
+      "tokens": [
+        "M133",
+        "M150"
+      ],
+      "segments": [
+        {
+          "position_from_right": 1,
+          "kind": "identified_sign",
+          "sign": "M133",
+          "source_doubt": false,
+          "minimum_signs": 1,
+          "maximum_signs": 1,
+          "reviewer_uncertainty": false,
+          "candidate_signs": []
+        },
+        {
+          "position_from_right": 2,
+          "kind": "identified_sign",
+          "sign": "M150",
+          "source_doubt": false,
+          "minimum_signs": 1,
+          "maximum_signs": 1,
+          "reviewer_uncertainty": false,
+          "candidate_signs": []
+        }
+      ],
+      "line_bbox_render_pixels": [
+        850,
+        1508,
+        3970,
+        1668
+      ],
+      "record_kind": "text_line",
+      "notes": []
+    },
+    {
+      "printed_row_index": 9,
+      "reference": "1103",
+      "side": "0",
+      "line": "0",
+      "object_type_code": "1",
+      "field_symbol_code": "01",
+      "direction_code": "1",
+      "printed_metadata_literal": "100101",
+      "expanded_metadata_code": "100101",
+      "inherited_from_row": null,
+      "normalized_order": "right_to_left",
+      "tokens": [
+        "M267",
+        "M402",
+        "M059",
+        "M211"
+      ],
+      "segments": [
+        {
+          "position_from_right": 1,
+          "kind": "identified_sign",
+          "sign": "M267",
+          "source_doubt": false,
+          "minimum_signs": 1,
+          "maximum_signs": 1,
+          "reviewer_uncertainty": false,
+          "candidate_signs": []
+        },
+        {
+          "position_from_right": 2,
+          "kind": "identified_sign",
+          "sign": "M402",
+          "source_doubt": false,
+          "minimum_signs": 1,
+          "maximum_signs": 1,
+          "reviewer_uncertainty": false,
+          "candidate_signs": []
+        },
+        {
+          "position_from_right": 3,
+          "kind": "identified_sign",
+          "sign": "M059",
+          "source_doubt": false,
+          "minimum_signs": 1,
+          "maximum_signs": 1,
+          "reviewer_uncertainty": false,
+          "candidate_signs": []
+        },
+        {
+          "position_from_right": 4,
+          "kind": "identified_sign",
+          "sign": "M211",
+          "source_doubt": false,
+          "minimum_signs": 1,
+          "maximum_signs": 1,
+          "reviewer_uncertainty": false,
+          "candidate_signs": []
+        }
+      ],
+      "line_bbox_render_pixels": [
+        850,
+        1668,
+        3970,
+        1830
+      ],
+      "record_kind": "text_line",
+      "notes": []
+    },
+    {
+      "printed_row_index": 10,
+      "reference": "1104",
+      "side": "0",
+      "line": "0",
+      "object_type_code": "1",
+      "field_symbol_code": "01",
+      "direction_code": "1",
+      "printed_metadata_literal": "100101",
+      "expanded_metadata_code": "100101",
+      "inherited_from_row": null,
+      "normalized_order": "right_to_left",
+      "tokens": [
+        "M267",
+        "M099",
+        "M387",
+        "M072",
+        "M336",
+        "M089",
+        "M348",
+        "M342"
+      ],
+      "segments": [
+        {
+          "position_from_right": 1,
+          "kind": "identified_sign",
+          "sign": "M267",
+          "source_doubt": false,
+          "minimum_signs": 1,
+          "maximum_signs": 1,
+          "reviewer_uncertainty": false,
+          "candidate_signs": []
+        },
+        {
+          "position_from_right": 2,
+          "kind": "identified_sign",
+          "sign": "M099",
+          "source_doubt": false,
+          "minimum_signs": 1,
+          "maximum_signs": 1,
+          "reviewer_uncertainty": false,
+          "candidate_signs": []
+        },
+        {
+          "position_from_right": 3,
+          "kind": "identified_sign",
+          "sign": "M387",
+          "source_doubt": false,
+          "minimum_signs": 1,
+          "maximum_signs": 1,
+          "reviewer_uncertainty": false,
+          "candidate_signs": []
+        },
+        {
+          "position_from_right": 4,
+          "kind": "identified_sign",
+          "sign": "M072",
+          "source_doubt": false,
+          "minimum_signs": 1,
+          "maximum_signs": 1,
+          "reviewer_uncertainty": false,
+          "candidate_signs": []
+        },
+        {
+          "position_from_right": 5,
+          "kind": "identified_sign",
+          "sign": "M336",
+          "source_doubt": false,
+          "minimum_signs": 1,
+          "maximum_signs": 1,
+          "reviewer_uncertainty": false,
+          "candidate_signs": []
+        },
+        {
+          "position_from_right": 6,
+          "kind": "identified_sign",
+          "sign": "M089",
+          "source_doubt": false,
+          "minimum_signs": 1,
+          "maximum_signs": 1,
+          "reviewer_uncertainty": false,
+          "candidate_signs": []
+        },
+        {
+          "position_from_right": 7,
+          "kind": "identified_sign",
+          "sign": "M348",
+          "source_doubt": false,
+          "minimum_signs": 1,
+          "maximum_signs": 1,
+          "reviewer_uncertainty": false,
+          "candidate_signs": []
+        },
+        {
+          "position_from_right": 8,
+          "kind": "identified_sign",
+          "sign": "M342",
+          "source_doubt": false,
+          "minimum_signs": 1,
+          "maximum_signs": 1,
+          "reviewer_uncertainty": false,
+          "candidate_signs": []
+        }
+      ],
+      "line_bbox_render_pixels": [
+        850,
+        1830,
+        3970,
+        1993
+      ],
+      "record_kind": "text_line",
+      "notes": []
+    },
+    {
+      "printed_row_index": 11,
+      "reference": "1105",
+      "side": "0",
+      "line": "0",
+      "object_type_code": "1",
+      "field_symbol_code": "01",
+      "direction_code": "1",
+      "printed_metadata_literal": "100101",
+      "expanded_metadata_code": "100101",
+      "inherited_from_row": null,
+      "normalized_order": "right_to_left",
+      "tokens": [
+        "M391",
+        "M099",
+        "M121",
+        "M389",
+        "M059",
+        "M336",
+        "M089",
+        "M211"
+      ],
+      "segments": [
+        {
+          "position_from_right": 1,
+          "kind": "identified_sign",
+          "sign": "M391",
+          "source_doubt": false,
+          "minimum_signs": 1,
+          "maximum_signs": 1,
+          "reviewer_uncertainty": false,
+          "candidate_signs": []
+        },
+        {
+          "position_from_right": 2,
+          "kind": "identified_sign",
+          "sign": "M099",
+          "source_doubt": false,
+          "minimum_signs": 1,
+          "maximum_signs": 1,
+          "reviewer_uncertainty": false,
+          "candidate_signs": []
+        },
+        {
+          "position_from_right": 3,
+          "kind": "identified_sign",
+          "sign": "M121",
+          "source_doubt": false,
+          "minimum_signs": 1,
+          "maximum_signs": 1,
+          "reviewer_uncertainty": false,
+          "candidate_signs": []
+        },
+        {
+          "position_from_right": 4,
+          "kind": "identified_sign",
+          "sign": "M389",
+          "source_doubt": false,
+          "minimum_signs": 1,
+          "maximum_signs": 1,
+          "reviewer_uncertainty": false,
+          "candidate_signs": []
+        },
+        {
+          "position_from_right": 5,
+          "kind": "identified_sign",
+          "sign": "M059",
+          "source_doubt": false,
+          "minimum_signs": 1,
+          "maximum_signs": 1,
+          "reviewer_uncertainty": false,
+          "candidate_signs": []
+        },
+        {
+          "position_from_right": 6,
+          "kind": "identified_sign",
+          "sign": "M336",
+          "source_doubt": false,
+          "minimum_signs": 1,
+          "maximum_signs": 1,
+          "reviewer_uncertainty": false,
+          "candidate_signs": []
+        },
+        {
+          "position_from_right": 7,
+          "kind": "identified_sign",
+          "sign": "M089",
+          "source_doubt": false,
+          "minimum_signs": 1,
+          "maximum_signs": 1,
+          "reviewer_uncertainty": false,
+          "candidate_signs": []
+        },
+        {
+          "position_from_right": 8,
+          "kind": "identified_sign",
+          "sign": "M211",
+          "source_doubt": false,
+          "minimum_signs": 1,
+          "maximum_signs": 1,
+          "reviewer_uncertainty": false,
+          "candidate_signs": []
+        }
+      ],
+      "line_bbox_render_pixels": [
+        850,
+        1993,
+        3970,
+        2156
+      ],
+      "record_kind": "text_line",
+      "notes": []
+    },
+    {
+      "printed_row_index": 12,
+      "reference": "1106",
+      "side": "0",
+      "line": "0",
+      "object_type_code": "1",
+      "field_symbol_code": "01",
+      "direction_code": "1",
+      "printed_metadata_literal": "100101",
+      "expanded_metadata_code": "100101",
+      "inherited_from_row": null,
+      "normalized_order": "right_to_left",
+      "tokens": [
+        "M150",
+        "M123",
+        "M086",
+        "M343",
+        "M319"
+      ],
+      "segments": [
+        {
+          "position_from_right": 1,
+          "kind": "identified_sign",
+          "sign": "M150",
+          "source_doubt": false,
+          "minimum_signs": 1,
+          "maximum_signs": 1,
+          "reviewer_uncertainty": false,
+          "candidate_signs": []
+        },
+        {
+          "position_from_right": 2,
+          "kind": "identified_sign",
+          "sign": "M123",
+          "source_doubt": false,
+          "minimum_signs": 1,
+          "maximum_signs": 1,
+          "reviewer_uncertainty": false,
+          "candidate_signs": []
+        },
+        {
+          "position_from_right": 3,
+          "kind": "identified_sign",
+          "sign": "M086",
+          "source_doubt": false,
+          "minimum_signs": 1,
+          "maximum_signs": 1,
+          "reviewer_uncertainty": false,
+          "candidate_signs": []
+        },
+        {
+          "position_from_right": 4,
+          "kind": "identified_sign",
+          "sign": "M343",
+          "source_doubt": false,
+          "minimum_signs": 1,
+          "maximum_signs": 1,
+          "reviewer_uncertainty": false,
+          "candidate_signs": []
+        },
+        {
+          "position_from_right": 5,
+          "kind": "identified_sign",
+          "sign": "M319",
+          "source_doubt": false,
+          "minimum_signs": 1,
+          "maximum_signs": 1,
+          "reviewer_uncertainty": false,
+          "candidate_signs": []
+        }
+      ],
+      "line_bbox_render_pixels": [
+        850,
+        2156,
+        3970,
+        2319
+      ],
+      "record_kind": "text_line",
+      "notes": []
+    },
+    {
+      "printed_row_index": 13,
+      "reference": "1107",
+      "side": "0",
+      "line": "0",
+      "object_type_code": "1",
+      "field_symbol_code": "01",
+      "direction_code": "1",
+      "printed_metadata_literal": "100101",
+      "expanded_metadata_code": "100101",
+      "inherited_from_row": null,
+      "normalized_order": "right_to_left",
+      "tokens": [
+        "M047",
+        "M343",
+        "M072",
+        "M053",
+        "M342"
+      ],
+      "segments": [
+        {
+          "position_from_right": 1,
+          "kind": "identified_sign",
+          "sign": "M047",
+          "source_doubt": false,
+          "minimum_signs": 1,
+          "maximum_signs": 1,
+          "reviewer_uncertainty": false,
+          "candidate_signs": []
+        },
+        {
+          "position_from_right": 2,
+          "kind": "identified_sign",
+          "sign": "M343",
+          "source_doubt": false,
+          "minimum_signs": 1,
+          "maximum_signs": 1,
+          "reviewer_uncertainty": false,
+          "candidate_signs": []
+        },
+        {
+          "position_from_right": 3,
+          "kind": "identified_sign",
+          "sign": "M072",
+          "source_doubt": false,
+          "minimum_signs": 1,
+          "maximum_signs": 1,
+          "reviewer_uncertainty": false,
+          "candidate_signs": []
+        },
+        {
+          "position_from_right": 4,
+          "kind": "identified_sign",
+          "sign": "M053",
+          "source_doubt": false,
+          "minimum_signs": 1,
+          "maximum_signs": 1,
+          "reviewer_uncertainty": false,
+          "candidate_signs": []
+        },
+        {
+          "position_from_right": 5,
+          "kind": "identified_sign",
+          "sign": "M342",
+          "source_doubt": false,
+          "minimum_signs": 1,
+          "maximum_signs": 1,
+          "reviewer_uncertainty": false,
+          "candidate_signs": []
+        }
+      ],
+      "line_bbox_render_pixels": [
+        850,
+        2319,
+        3970,
+        2481
+      ],
+      "record_kind": "text_line",
+      "notes": []
+    },
+    {
+      "printed_row_index": 14,
+      "reference": "1108",
+      "side": "0",
+      "line": "0",
+      "object_type_code": "1",
+      "field_symbol_code": "01",
+      "direction_code": "1",
+      "printed_metadata_literal": "100101",
+      "expanded_metadata_code": "100101",
+      "inherited_from_row": null,
+      "normalized_order": "right_to_left",
+      "tokens": [
+        "M293",
+        "M402",
+        "M097",
+        "M067",
+        "M349",
+        "M342"
+      ],
+      "segments": [
+        {
+          "position_from_right": 1,
+          "kind": "identified_sign",
+          "sign": "M293",
+          "source_doubt": false,
+          "minimum_signs": 1,
+          "maximum_signs": 1,
+          "reviewer_uncertainty": false,
+          "candidate_signs": []
+        },
+        {
+          "position_from_right": 2,
+          "kind": "identified_sign",
+          "sign": "M402",
+          "source_doubt": false,
+          "minimum_signs": 1,
+          "maximum_signs": 1,
+          "reviewer_uncertainty": false,
+          "candidate_signs": []
+        },
+        {
+          "position_from_right": 3,
+          "kind": "identified_sign",
+          "sign": "M097",
+          "source_doubt": false,
+          "minimum_signs": 1,
+          "maximum_signs": 1,
+          "reviewer_uncertainty": false,
+          "candidate_signs": []
+        },
+        {
+          "position_from_right": 4,
+          "kind": "identified_sign",
+          "sign": "M067",
+          "source_doubt": false,
+          "minimum_signs": 1,
+          "maximum_signs": 1,
+          "reviewer_uncertainty": false,
+          "candidate_signs": []
+        },
+        {
+          "position_from_right": 5,
+          "kind": "identified_sign",
+          "sign": "M349",
+          "source_doubt": false,
+          "minimum_signs": 1,
+          "maximum_signs": 1,
+          "reviewer_uncertainty": false,
+          "candidate_signs": []
+        },
+        {
+          "position_from_right": 6,
+          "kind": "identified_sign",
+          "sign": "M342",
+          "source_doubt": false,
+          "minimum_signs": 1,
+          "maximum_signs": 1,
+          "reviewer_uncertainty": false,
+          "candidate_signs": []
+        }
+      ],
+      "line_bbox_render_pixels": [
+        850,
+        2481,
+        3970,
+        2644
+      ],
+      "record_kind": "text_line",
+      "notes": []
+    },
+    {
+      "printed_row_index": 15,
+      "reference": "1109",
+      "side": "0",
+      "line": "0",
+      "object_type_code": "1",
+      "field_symbol_code": "01",
+      "direction_code": "1",
+      "printed_metadata_literal": "100101",
+      "expanded_metadata_code": "100101",
+      "inherited_from_row": null,
+      "normalized_order": "right_to_left",
+      "tokens": [
+        "M391",
+        "M097",
+        "M065",
+        "M067",
+        "M342",
+        "M001"
+      ],
+      "segments": [
+        {
+          "position_from_right": 1,
+          "kind": "identified_sign",
+          "sign": "M391",
+          "source_doubt": false,
+          "minimum_signs": 1,
+          "maximum_signs": 1,
+          "reviewer_uncertainty": false,
+          "candidate_signs": []
+        },
+        {
+          "position_from_right": 2,
+          "kind": "identified_sign",
+          "sign": "M097",
+          "source_doubt": false,
+          "minimum_signs": 1,
+          "maximum_signs": 1,
+          "reviewer_uncertainty": false,
+          "candidate_signs": []
+        },
+        {
+          "position_from_right": 3,
+          "kind": "identified_sign",
+          "sign": "M065",
+          "source_doubt": false,
+          "minimum_signs": 1,
+          "maximum_signs": 1,
+          "reviewer_uncertainty": false,
+          "candidate_signs": []
+        },
+        {
+          "position_from_right": 4,
+          "kind": "identified_sign",
+          "sign": "M067",
+          "source_doubt": false,
+          "minimum_signs": 1,
+          "maximum_signs": 1,
+          "reviewer_uncertainty": false,
+          "candidate_signs": []
+        },
+        {
+          "position_from_right": 5,
+          "kind": "identified_sign",
+          "sign": "M342",
+          "source_doubt": false,
+          "minimum_signs": 1,
+          "maximum_signs": 1,
+          "reviewer_uncertainty": false,
+          "candidate_signs": []
+        },
+        {
+          "position_from_right": 6,
+          "kind": "identified_sign",
+          "sign": "M001",
+          "source_doubt": false,
+          "minimum_signs": 1,
+          "maximum_signs": 1,
+          "reviewer_uncertainty": false,
+          "candidate_signs": []
+        }
+      ],
+      "line_bbox_render_pixels": [
+        850,
+        2644,
+        3970,
+        2805
+      ],
+      "record_kind": "text_line",
+      "notes": []
+    },
+    {
+      "printed_row_index": 16,
+      "reference": "1110",
+      "side": "0",
+      "line": "0",
+      "object_type_code": "1",
+      "field_symbol_code": "01",
+      "direction_code": "1",
+      "printed_metadata_literal": "100101",
+      "expanded_metadata_code": "100101",
+      "inherited_from_row": null,
+      "normalized_order": "right_to_left",
+      "tokens": [
+        "M391",
+        "M216",
+        "M053",
+        "M125",
+        "M059",
+        "M391",
+        "M176",
+        "M176"
+      ],
+      "segments": [
+        {
+          "position_from_right": 1,
+          "kind": "identified_sign",
+          "sign": "M391",
+          "source_doubt": false,
+          "minimum_signs": 1,
+          "maximum_signs": 1,
+          "reviewer_uncertainty": false,
+          "candidate_signs": []
+        },
+        {
+          "position_from_right": 2,
+          "kind": "identified_sign",
+          "sign": "M216",
+          "source_doubt": false,
+          "minimum_signs": 1,
+          "maximum_signs": 1,
+          "reviewer_uncertainty": false,
+          "candidate_signs": []
+        },
+        {
+          "position_from_right": 3,
+          "kind": "identified_sign",
+          "sign": "M053",
+          "source_doubt": false,
+          "minimum_signs": 1,
+          "maximum_signs": 1,
+          "reviewer_uncertainty": false,
+          "candidate_signs": []
+        },
+        {
+          "position_from_right": 4,
+          "kind": "identified_sign",
+          "sign": "M125",
+          "source_doubt": false,
+          "minimum_signs": 1,
+          "maximum_signs": 1,
+          "reviewer_uncertainty": false,
+          "candidate_signs": []
+        },
+        {
+          "position_from_right": 5,
+          "kind": "identified_sign",
+          "sign": "M059",
+          "source_doubt": false,
+          "minimum_signs": 1,
+          "maximum_signs": 1,
+          "reviewer_uncertainty": false,
+          "candidate_signs": []
+        },
+        {
+          "position_from_right": 6,
+          "kind": "identified_sign",
+          "sign": "M391",
+          "source_doubt": false,
+          "minimum_signs": 1,
+          "maximum_signs": 1,
+          "reviewer_uncertainty": false,
+          "candidate_signs": []
+        },
+        {
+          "position_from_right": 7,
+          "kind": "identified_sign",
+          "sign": "M176",
+          "source_doubt": false,
+          "minimum_signs": 1,
+          "maximum_signs": 1,
+          "reviewer_uncertainty": false,
+          "candidate_signs": []
+        },
+        {
+          "position_from_right": 8,
+          "kind": "identified_sign",
+          "sign": "M176",
+          "source_doubt": false,
+          "minimum_signs": 1,
+          "maximum_signs": 1,
+          "reviewer_uncertainty": false,
+          "candidate_signs": []
+        }
+      ],
+      "line_bbox_render_pixels": [
+        850,
+        2805,
+        3970,
+        2967
+      ],
+      "record_kind": "text_line",
+      "notes": []
+    },
+    {
+      "printed_row_index": 17,
+      "reference": "1111",
+      "side": "0",
+      "line": "0",
+      "object_type_code": "1",
+      "field_symbol_code": "01",
+      "direction_code": "1",
+      "printed_metadata_literal": "100101",
+      "expanded_metadata_code": "100101",
+      "inherited_from_row": null,
+      "normalized_order": "right_to_left",
+      "tokens": [
+        "LOSS",
+        "M387",
+        "M017",
+        "M261",
+        "M139"
+      ],
+      "segments": [
+        {
+          "position_from_right": 1,
+          "kind": "unknown_length_loss",
+          "sign": null,
+          "source_doubt": false,
+          "minimum_signs": 1,
+          "maximum_signs": null
+        },
+        {
+          "position_from_right": 2,
+          "kind": "identified_sign",
+          "sign": "M387",
+          "source_doubt": false,
+          "minimum_signs": 1,
+          "maximum_signs": 1,
+          "reviewer_uncertainty": false,
+          "candidate_signs": []
+        },
+        {
+          "position_from_right": 3,
+          "kind": "identified_sign",
+          "sign": "M017",
+          "source_doubt": false,
+          "minimum_signs": 1,
+          "maximum_signs": 1,
+          "reviewer_uncertainty": false,
+          "candidate_signs": []
+        },
+        {
+          "position_from_right": 4,
+          "kind": "identified_sign",
+          "sign": "M261",
+          "source_doubt": false,
+          "minimum_signs": 1,
+          "maximum_signs": 1,
+          "reviewer_uncertainty": false,
+          "candidate_signs": []
+        },
+        {
+          "position_from_right": 5,
+          "kind": "identified_sign",
+          "sign": "M139",
+          "source_doubt": false,
+          "minimum_signs": 1,
+          "maximum_signs": 1,
+          "reviewer_uncertainty": false,
+          "candidate_signs": []
+        }
+      ],
+      "line_bbox_render_pixels": [
+        850,
+        2967,
+        3970,
+        3130
+      ],
+      "record_kind": "text_line",
+      "notes": []
+    },
+    {
+      "printed_row_index": 18,
+      "reference": "1112",
+      "side": "0",
+      "line": "1",
+      "object_type_code": "1",
+      "field_symbol_code": "01",
+      "direction_code": "1",
+      "printed_metadata_literal": "100111",
+      "expanded_metadata_code": "100111",
+      "inherited_from_row": null,
+      "normalized_order": "right_to_left",
+      "tokens": [
+        "LOSS",
+        "*M059",
+        "M342",
+        "M001"
+      ],
+      "segments": [
+        {
+          "position_from_right": 1,
+          "kind": "unknown_length_loss",
+          "sign": null,
+          "source_doubt": false,
+          "minimum_signs": 1,
+          "maximum_signs": null
+        },
+        {
+          "position_from_right": 2,
+          "kind": "identified_sign",
+          "sign": "M059",
+          "source_doubt": true,
+          "minimum_signs": 1,
+          "maximum_signs": 1,
+          "reviewer_uncertainty": false,
+          "candidate_signs": []
+        },
+        {
+          "position_from_right": 3,
+          "kind": "identified_sign",
+          "sign": "M342",
+          "source_doubt": false,
+          "minimum_signs": 1,
+          "maximum_signs": 1,
+          "reviewer_uncertainty": false,
+          "candidate_signs": []
+        },
+        {
+          "position_from_right": 4,
+          "kind": "identified_sign",
+          "sign": "M001",
+          "source_doubt": false,
+          "minimum_signs": 1,
+          "maximum_signs": 1,
+          "reviewer_uncertainty": false,
+          "candidate_signs": []
+        }
+      ],
+      "line_bbox_render_pixels": [
+        850,
+        3130,
+        3970,
+        3294
+      ],
+      "record_kind": "text_line",
+      "notes": [
+        "Printed source doubt mark preserved separately from reviewer identification confidence."
+      ]
+    },
+    {
+      "printed_row_index": 19,
+      "reference": "1112",
+      "side": "0",
+      "line": "2",
+      "object_type_code": "1",
+      "field_symbol_code": "01",
+      "direction_code": "1",
+      "printed_metadata_literal": "21",
+      "expanded_metadata_code": "100121",
+      "inherited_from_row": 18,
+      "normalized_order": "right_to_left",
+      "tokens": [
+        "LOSS",
+        "M336",
+        "*M275"
+      ],
+      "segments": [
+        {
+          "position_from_right": 1,
+          "kind": "unknown_length_loss",
+          "sign": null,
+          "source_doubt": false,
+          "minimum_signs": 1,
+          "maximum_signs": null
+        },
+        {
+          "position_from_right": 2,
+          "kind": "identified_sign",
+          "sign": "M336",
+          "source_doubt": false,
+          "minimum_signs": 1,
+          "maximum_signs": 1,
+          "reviewer_uncertainty": false,
+          "candidate_signs": []
+        },
+        {
+          "position_from_right": 3,
+          "kind": "identified_sign",
+          "sign": "M275",
+          "source_doubt": true,
+          "minimum_signs": 1,
+          "maximum_signs": 1,
+          "reviewer_uncertainty": false,
+          "candidate_signs": []
+        }
+      ],
+      "line_bbox_render_pixels": [
+        850,
+        3294,
+        3970,
+        3455
+      ],
+      "record_kind": "text_line",
+      "notes": [
+        "Separate printed continuation, inherited metadata prefix1001 from preceding row. Direction code retained; normalized printed RTL sequence is not reversed again.",
+        "Alternate scan clearly shows extra lower-left internal diagonal of M275; source doubt mark retained. Compared directly with primary sign-list275.",
+        "Printed source doubt mark preserved separately from reviewer identification confidence."
+      ]
+    },
+    {
+      "printed_row_index": 20,
+      "reference": "1113",
+      "side": "0",
+      "line": "0",
+      "object_type_code": "1",
+      "field_symbol_code": "01",
+      "direction_code": "1",
+      "printed_metadata_literal": "100101",
+      "expanded_metadata_code": "100101",
+      "inherited_from_row": null,
+      "normalized_order": "right_to_left",
+      "tokens": [
+        "M094",
+        "M123",
+        "M124",
+        "M112",
+        "M197",
+        "M342"
+      ],
+      "segments": [
+        {
+          "position_from_right": 1,
+          "kind": "identified_sign",
+          "sign": "M094",
+          "source_doubt": false,
+          "minimum_signs": 1,
+          "maximum_signs": 1,
+          "reviewer_uncertainty": false,
+          "candidate_signs": []
+        },
+        {
+          "position_from_right": 2,
+          "kind": "identified_sign",
+          "sign": "M123",
+          "source_doubt": false,
+          "minimum_signs": 1,
+          "maximum_signs": 1,
+          "reviewer_uncertainty": false,
+          "candidate_signs": []
+        },
+        {
+          "position_from_right": 3,
+          "kind": "identified_sign",
+          "sign": "M124",
+          "source_doubt": false,
+          "minimum_signs": 1,
+          "maximum_signs": 1,
+          "reviewer_uncertainty": false,
+          "candidate_signs": []
+        },
+        {
+          "position_from_right": 4,
+          "kind": "identified_sign",
+          "sign": "M112",
+          "source_doubt": false,
+          "minimum_signs": 1,
+          "maximum_signs": 1,
+          "reviewer_uncertainty": false,
+          "candidate_signs": []
+        },
+        {
+          "position_from_right": 5,
+          "kind": "identified_sign",
+          "sign": "M197",
+          "source_doubt": false,
+          "minimum_signs": 1,
+          "maximum_signs": 1,
+          "reviewer_uncertainty": false,
+          "candidate_signs": []
+        },
+        {
+          "position_from_right": 6,
+          "kind": "identified_sign",
+          "sign": "M342",
+          "source_doubt": false,
+          "minimum_signs": 1,
+          "maximum_signs": 1,
+          "reviewer_uncertainty": false,
+          "candidate_signs": []
+        }
+      ],
+      "line_bbox_render_pixels": [
+        850,
+        3455,
+        3970,
+        3615
+      ],
+      "record_kind": "text_line",
+      "notes": []
+    },
+    {
+      "printed_row_index": 21,
+      "reference": "1114",
+      "side": "0",
+      "line": "0",
+      "object_type_code": "1",
+      "field_symbol_code": "01",
+      "direction_code": "1",
+      "printed_metadata_literal": "100101",
+      "expanded_metadata_code": "100101",
+      "inherited_from_row": null,
+      "normalized_order": "right_to_left",
+      "tokens": [
+        "M391",
+        "M099",
+        "M087",
+        "M059",
+        "M296",
+        "M342"
+      ],
+      "segments": [
+        {
+          "position_from_right": 1,
+          "kind": "identified_sign",
+          "sign": "M391",
+          "source_doubt": false,
+          "minimum_signs": 1,
+          "maximum_signs": 1,
+          "reviewer_uncertainty": false,
+          "candidate_signs": []
+        },
+        {
+          "position_from_right": 2,
+          "kind": "identified_sign",
+          "sign": "M099",
+          "source_doubt": false,
+          "minimum_signs": 1,
+          "maximum_signs": 1,
+          "reviewer_uncertainty": false,
+          "candidate_signs": []
+        },
+        {
+          "position_from_right": 3,
+          "kind": "identified_sign",
+          "sign": "M087",
+          "source_doubt": false,
+          "minimum_signs": 1,
+          "maximum_signs": 1,
+          "reviewer_uncertainty": false,
+          "candidate_signs": []
+        },
+        {
+          "position_from_right": 4,
+          "kind": "identified_sign",
+          "sign": "M059",
+          "source_doubt": false,
+          "minimum_signs": 1,
+          "maximum_signs": 1,
+          "reviewer_uncertainty": false,
+          "candidate_signs": []
+        },
+        {
+          "position_from_right": 5,
+          "kind": "identified_sign",
+          "sign": "M296",
+          "source_doubt": false,
+          "minimum_signs": 1,
+          "maximum_signs": 1,
+          "reviewer_uncertainty": false,
+          "candidate_signs": []
+        },
+        {
+          "position_from_right": 6,
+          "kind": "identified_sign",
+          "sign": "M342",
+          "source_doubt": false,
+          "minimum_signs": 1,
+          "maximum_signs": 1,
+          "reviewer_uncertainty": false,
+          "candidate_signs": []
+        }
+      ],
+      "line_bbox_render_pixels": [
+        850,
+        3615,
+        3970,
+        3777
+      ],
+      "record_kind": "text_line",
+      "notes": []
+    },
+    {
+      "printed_row_index": 22,
+      "reference": "1115",
+      "side": "0",
+      "line": "0",
+      "object_type_code": "1",
+      "field_symbol_code": "01",
+      "direction_code": "1",
+      "printed_metadata_literal": "100101",
+      "expanded_metadata_code": "100101",
+      "inherited_from_row": null,
+      "normalized_order": "right_to_left",
+      "tokens": [
+        "M267",
+        "M099",
+        "M336",
+        "M051",
+        "M342",
+        "M001"
+      ],
+      "segments": [
+        {
+          "position_from_right": 1,
+          "kind": "identified_sign",
+          "sign": "M267",
+          "source_doubt": false,
+          "minimum_signs": 1,
+          "maximum_signs": 1,
+          "reviewer_uncertainty": false,
+          "candidate_signs": []
+        },
+        {
+          "position_from_right": 2,
+          "kind": "identified_sign",
+          "sign": "M099",
+          "source_doubt": false,
+          "minimum_signs": 1,
+          "maximum_signs": 1,
+          "reviewer_uncertainty": false,
+          "candidate_signs": []
+        },
+        {
+          "position_from_right": 3,
+          "kind": "identified_sign",
+          "sign": "M336",
+          "source_doubt": false,
+          "minimum_signs": 1,
+          "maximum_signs": 1,
+          "reviewer_uncertainty": false,
+          "candidate_signs": []
+        },
+        {
+          "position_from_right": 4,
+          "kind": "identified_sign",
+          "sign": "M051",
+          "source_doubt": false,
+          "minimum_signs": 1,
+          "maximum_signs": 1,
+          "reviewer_uncertainty": false,
+          "candidate_signs": []
+        },
+        {
+          "position_from_right": 5,
+          "kind": "identified_sign",
+          "sign": "M342",
+          "source_doubt": false,
+          "minimum_signs": 1,
+          "maximum_signs": 1,
+          "reviewer_uncertainty": false,
+          "candidate_signs": []
+        },
+        {
+          "position_from_right": 6,
+          "kind": "identified_sign",
+          "sign": "M001",
+          "source_doubt": false,
+          "minimum_signs": 1,
+          "maximum_signs": 1,
+          "reviewer_uncertainty": false,
+          "candidate_signs": []
+        }
+      ],
+      "line_bbox_render_pixels": [
+        850,
+        3777,
+        3970,
+        3939
+      ],
+      "record_kind": "text_line",
+      "notes": []
+    },
+    {
+      "printed_row_index": 23,
+      "reference": "1116",
+      "side": "0",
+      "line": "0",
+      "object_type_code": "1",
+      "field_symbol_code": "01",
+      "direction_code": "1",
+      "printed_metadata_literal": "100101",
+      "expanded_metadata_code": "100101",
+      "inherited_from_row": null,
+      "normalized_order": "right_to_left",
+      "tokens": [
+        "M102",
+        "M017",
+        "M008",
+        "M342",
+        "M176"
+      ],
+      "segments": [
+        {
+          "position_from_right": 1,
+          "kind": "identified_sign",
+          "sign": "M102",
+          "source_doubt": false,
+          "minimum_signs": 1,
+          "maximum_signs": 1,
+          "reviewer_uncertainty": false,
+          "candidate_signs": []
+        },
+        {
+          "position_from_right": 2,
+          "kind": "identified_sign",
+          "sign": "M017",
+          "source_doubt": false,
+          "minimum_signs": 1,
+          "maximum_signs": 1,
+          "reviewer_uncertainty": false,
+          "candidate_signs": []
+        },
+        {
+          "position_from_right": 3,
+          "kind": "identified_sign",
+          "sign": "M008",
+          "source_doubt": false,
+          "minimum_signs": 1,
+          "maximum_signs": 1,
+          "reviewer_uncertainty": false,
+          "candidate_signs": []
+        },
+        {
+          "position_from_right": 4,
+          "kind": "identified_sign",
+          "sign": "M342",
+          "source_doubt": false,
+          "minimum_signs": 1,
+          "maximum_signs": 1,
+          "reviewer_uncertainty": false,
+          "candidate_signs": []
+        },
+        {
+          "position_from_right": 5,
+          "kind": "identified_sign",
+          "sign": "M176",
+          "source_doubt": false,
+          "minimum_signs": 1,
+          "maximum_signs": 1,
+          "reviewer_uncertainty": false,
+          "candidate_signs": []
+        }
+      ],
+      "line_bbox_render_pixels": [
+        850,
+        3939,
+        3970,
+        4101
+      ],
+      "record_kind": "text_line",
+      "notes": []
+    },
+    {
+      "printed_row_index": 24,
+      "reference": "1117",
+      "side": "0",
+      "line": "0",
+      "object_type_code": "1",
+      "field_symbol_code": "01",
+      "direction_code": "1",
+      "printed_metadata_literal": "100101",
+      "expanded_metadata_code": "100101",
+      "inherited_from_row": null,
+      "normalized_order": "right_to_left",
+      "tokens": [
+        "M173",
+        "M059",
+        "M002",
+        "M012"
+      ],
+      "segments": [
+        {
+          "position_from_right": 1,
+          "kind": "identified_sign",
+          "sign": "M173",
+          "source_doubt": false,
+          "minimum_signs": 1,
+          "maximum_signs": 1,
+          "reviewer_uncertainty": false,
+          "candidate_signs": []
+        },
+        {
+          "position_from_right": 2,
+          "kind": "identified_sign",
+          "sign": "M059",
+          "source_doubt": false,
+          "minimum_signs": 1,
+          "maximum_signs": 1,
+          "reviewer_uncertainty": false,
+          "candidate_signs": []
+        },
+        {
+          "position_from_right": 3,
+          "kind": "identified_sign",
+          "sign": "M002",
+          "source_doubt": false,
+          "minimum_signs": 1,
+          "maximum_signs": 1,
+          "reviewer_uncertainty": false,
+          "candidate_signs": []
+        },
+        {
+          "position_from_right": 4,
+          "kind": "identified_sign",
+          "sign": "M012",
+          "source_doubt": false,
+          "minimum_signs": 1,
+          "maximum_signs": 1,
+          "reviewer_uncertainty": false,
+          "candidate_signs": []
+        }
+      ],
+      "line_bbox_render_pixels": [
+        850,
+        4101,
+        3970,
+        4264
+      ],
+      "record_kind": "text_line",
+      "notes": []
+    },
+    {
+      "printed_row_index": 25,
+      "reference": "1118",
+      "side": "0",
+      "line": "0",
+      "object_type_code": "1",
+      "field_symbol_code": "01",
+      "direction_code": "1",
+      "printed_metadata_literal": "100101",
+      "expanded_metadata_code": "100101",
+      "inherited_from_row": null,
+      "normalized_order": "right_to_left",
+      "tokens": [
+        "M286",
+        "M025",
+        "M176",
+        "M342"
+      ],
+      "segments": [
+        {
+          "position_from_right": 1,
+          "kind": "identified_sign",
+          "sign": "M286",
+          "source_doubt": false,
+          "minimum_signs": 1,
+          "maximum_signs": 1,
+          "reviewer_uncertainty": false,
+          "candidate_signs": []
+        },
+        {
+          "position_from_right": 2,
+          "kind": "identified_sign",
+          "sign": "M025",
+          "source_doubt": false,
+          "minimum_signs": 1,
+          "maximum_signs": 1,
+          "reviewer_uncertainty": false,
+          "candidate_signs": []
+        },
+        {
+          "position_from_right": 3,
+          "kind": "identified_sign",
+          "sign": "M176",
+          "source_doubt": false,
+          "minimum_signs": 1,
+          "maximum_signs": 1,
+          "reviewer_uncertainty": false,
+          "candidate_signs": []
+        },
+        {
+          "position_from_right": 4,
+          "kind": "identified_sign",
+          "sign": "M342",
+          "source_doubt": false,
+          "minimum_signs": 1,
+          "maximum_signs": 1,
+          "reviewer_uncertainty": false,
+          "candidate_signs": []
+        }
+      ],
+      "line_bbox_render_pixels": [
+        850,
+        4264,
+        3970,
+        4425
+      ],
+      "record_kind": "text_line",
+      "notes": []
+    },
+    {
+      "printed_row_index": 26,
+      "reference": "1119",
+      "side": "0",
+      "line": "0",
+      "object_type_code": "1",
+      "field_symbol_code": "01",
+      "direction_code": "1",
+      "printed_metadata_literal": "100101",
+      "expanded_metadata_code": "100101",
+      "inherited_from_row": null,
+      "normalized_order": "right_to_left",
+      "tokens": [
+        "M048",
+        "M342",
+        "M065",
+        "M342",
+        "M224"
+      ],
+      "segments": [
+        {
+          "position_from_right": 1,
+          "kind": "identified_sign",
+          "sign": "M048",
+          "source_doubt": false,
+          "minimum_signs": 1,
+          "maximum_signs": 1,
+          "reviewer_uncertainty": false,
+          "candidate_signs": []
+        },
+        {
+          "position_from_right": 2,
+          "kind": "identified_sign",
+          "sign": "M342",
+          "source_doubt": false,
+          "minimum_signs": 1,
+          "maximum_signs": 1,
+          "reviewer_uncertainty": false,
+          "candidate_signs": []
+        },
+        {
+          "position_from_right": 3,
+          "kind": "identified_sign",
+          "sign": "M065",
+          "source_doubt": false,
+          "minimum_signs": 1,
+          "maximum_signs": 1,
+          "reviewer_uncertainty": false,
+          "candidate_signs": []
+        },
+        {
+          "position_from_right": 4,
+          "kind": "identified_sign",
+          "sign": "M342",
+          "source_doubt": false,
+          "minimum_signs": 1,
+          "maximum_signs": 1,
+          "reviewer_uncertainty": false,
+          "candidate_signs": []
+        },
+        {
+          "position_from_right": 5,
+          "kind": "identified_sign",
+          "sign": "M224",
+          "source_doubt": false,
+          "minimum_signs": 1,
+          "maximum_signs": 1,
+          "reviewer_uncertainty": false,
+          "candidate_signs": []
+        }
+      ],
+      "line_bbox_render_pixels": [
+        850,
+        4425,
+        3970,
+        4588
+      ],
+      "record_kind": "text_line",
+      "notes": []
+    },
+    {
+      "printed_row_index": 27,
+      "reference": "1120",
+      "side": "0",
+      "line": "0",
+      "object_type_code": "1",
+      "field_symbol_code": "01",
+      "direction_code": "1",
+      "printed_metadata_literal": "100101",
+      "expanded_metadata_code": "100101",
+      "inherited_from_row": null,
+      "normalized_order": "right_to_left",
+      "tokens": [
+        "M087",
+        "M059",
+        "M296",
+        "M342"
+      ],
+      "segments": [
+        {
+          "position_from_right": 1,
+          "kind": "identified_sign",
+          "sign": "M087",
+          "source_doubt": false,
+          "minimum_signs": 1,
+          "maximum_signs": 1,
+          "reviewer_uncertainty": false,
+          "candidate_signs": []
+        },
+        {
+          "position_from_right": 2,
+          "kind": "identified_sign",
+          "sign": "M059",
+          "source_doubt": false,
+          "minimum_signs": 1,
+          "maximum_signs": 1,
+          "reviewer_uncertainty": false,
+          "candidate_signs": []
+        },
+        {
+          "position_from_right": 3,
+          "kind": "identified_sign",
+          "sign": "M296",
+          "source_doubt": false,
+          "minimum_signs": 1,
+          "maximum_signs": 1,
+          "reviewer_uncertainty": false,
+          "candidate_signs": []
+        },
+        {
+          "position_from_right": 4,
+          "kind": "identified_sign",
+          "sign": "M342",
+          "source_doubt": false,
+          "minimum_signs": 1,
+          "maximum_signs": 1,
+          "reviewer_uncertainty": false,
+          "candidate_signs": []
+        }
+      ],
+      "line_bbox_render_pixels": [
+        850,
+        4588,
+        3970,
+        4749
+      ],
+      "record_kind": "text_line",
+      "notes": []
+    },
+    {
+      "printed_row_index": 28,
+      "reference": "1121",
+      "side": "0",
+      "line": "0",
+      "object_type_code": "1",
+      "field_symbol_code": "01",
+      "direction_code": "1",
+      "printed_metadata_literal": "100101",
+      "expanded_metadata_code": "100101",
+      "inherited_from_row": null,
+      "normalized_order": "right_to_left",
+      "tokens": [
+        "M245",
+        "M053",
+        "M099",
+        "M175",
+        "M012"
+      ],
+      "segments": [
+        {
+          "position_from_right": 1,
+          "kind": "identified_sign",
+          "sign": "M245",
+          "source_doubt": false,
+          "minimum_signs": 1,
+          "maximum_signs": 1,
+          "reviewer_uncertainty": false,
+          "candidate_signs": []
+        },
+        {
+          "position_from_right": 2,
+          "kind": "identified_sign",
+          "sign": "M053",
+          "source_doubt": false,
+          "minimum_signs": 1,
+          "maximum_signs": 1,
+          "reviewer_uncertainty": false,
+          "candidate_signs": []
+        },
+        {
+          "position_from_right": 3,
+          "kind": "identified_sign",
+          "sign": "M099",
+          "source_doubt": false,
+          "minimum_signs": 1,
+          "maximum_signs": 1,
+          "reviewer_uncertainty": false,
+          "candidate_signs": []
+        },
+        {
+          "position_from_right": 4,
+          "kind": "identified_sign",
+          "sign": "M175",
+          "source_doubt": false,
+          "minimum_signs": 1,
+          "maximum_signs": 1,
+          "reviewer_uncertainty": false,
+          "candidate_signs": []
+        },
+        {
+          "position_from_right": 5,
+          "kind": "identified_sign",
+          "sign": "M012",
+          "source_doubt": false,
+          "minimum_signs": 1,
+          "maximum_signs": 1,
+          "reviewer_uncertainty": false,
+          "candidate_signs": []
+        }
+      ],
+      "line_bbox_render_pixels": [
+        850,
+        4749,
+        3970,
+        4911
+      ],
+      "record_kind": "text_line",
+      "notes": []
+    },
+    {
+      "printed_row_index": 29,
+      "reference": "1122",
+      "side": "0",
+      "line": "0",
+      "object_type_code": "1",
+      "field_symbol_code": "01",
+      "direction_code": "1",
+      "printed_metadata_literal": "100101",
+      "expanded_metadata_code": "100101",
+      "inherited_from_row": null,
+      "normalized_order": "right_to_left",
+      "tokens": [
+        "M242",
+        "M342",
+        "M098",
+        "M292",
+        "M342"
+      ],
+      "segments": [
+        {
+          "position_from_right": 1,
+          "kind": "identified_sign",
+          "sign": "M242",
+          "source_doubt": false,
+          "minimum_signs": 1,
+          "maximum_signs": 1,
+          "reviewer_uncertainty": false,
+          "candidate_signs": []
+        },
+        {
+          "position_from_right": 2,
+          "kind": "identified_sign",
+          "sign": "M342",
+          "source_doubt": false,
+          "minimum_signs": 1,
+          "maximum_signs": 1,
+          "reviewer_uncertainty": false,
+          "candidate_signs": []
+        },
+        {
+          "position_from_right": 3,
+          "kind": "identified_sign",
+          "sign": "M098",
+          "source_doubt": false,
+          "minimum_signs": 1,
+          "maximum_signs": 1,
+          "reviewer_uncertainty": false,
+          "candidate_signs": []
+        },
+        {
+          "position_from_right": 4,
+          "kind": "identified_sign",
+          "sign": "M292",
+          "source_doubt": false,
+          "minimum_signs": 1,
+          "maximum_signs": 1,
+          "reviewer_uncertainty": false,
+          "candidate_signs": []
+        },
+        {
+          "position_from_right": 5,
+          "kind": "identified_sign",
+          "sign": "M342",
+          "source_doubt": false,
+          "minimum_signs": 1,
+          "maximum_signs": 1,
+          "reviewer_uncertainty": false,
+          "candidate_signs": []
+        }
+      ],
+      "line_bbox_render_pixels": [
+        850,
+        4911,
+        3970,
+        5074
+      ],
+      "record_kind": "text_line",
+      "notes": []
+    },
+    {
+      "printed_row_index": 30,
+      "reference": "1123",
+      "side": "0",
+      "line": "0",
+      "object_type_code": "1",
+      "field_symbol_code": "01",
+      "direction_code": "1",
+      "printed_metadata_literal": "100101",
+      "expanded_metadata_code": "100101",
+      "inherited_from_row": null,
+      "normalized_order": "right_to_left",
+      "tokens": [
+        "M204",
+        "M110",
+        "M342"
+      ],
+      "segments": [
+        {
+          "position_from_right": 1,
+          "kind": "identified_sign",
+          "sign": "M204",
+          "source_doubt": false,
+          "minimum_signs": 1,
+          "maximum_signs": 1,
+          "reviewer_uncertainty": false,
+          "candidate_signs": []
+        },
+        {
+          "position_from_right": 2,
+          "kind": "identified_sign",
+          "sign": "M110",
+          "source_doubt": false,
+          "minimum_signs": 1,
+          "maximum_signs": 1,
+          "reviewer_uncertainty": false,
+          "candidate_signs": []
+        },
+        {
+          "position_from_right": 3,
+          "kind": "identified_sign",
+          "sign": "M342",
+          "source_doubt": false,
+          "minimum_signs": 1,
+          "maximum_signs": 1,
+          "reviewer_uncertainty": false,
+          "candidate_signs": []
+        }
+      ],
+      "line_bbox_render_pixels": [
+        850,
+        5074,
+        3970,
+        5236
+      ],
+      "record_kind": "text_line",
+      "notes": []
+    },
+    {
+      "printed_row_index": 31,
+      "reference": "1125",
+      "side": "0",
+      "line": "0",
+      "object_type_code": "1",
+      "field_symbol_code": "01",
+      "direction_code": "1",
+      "printed_metadata_literal": "100101",
+      "expanded_metadata_code": "100101",
+      "inherited_from_row": null,
+      "normalized_order": "right_to_left",
+      "tokens": [
+        "M048",
+        "M342",
+        "M375",
+        "M060"
+      ],
+      "segments": [
+        {
+          "position_from_right": 1,
+          "kind": "identified_sign",
+          "sign": "M048",
+          "source_doubt": false,
+          "minimum_signs": 1,
+          "maximum_signs": 1,
+          "reviewer_uncertainty": false,
+          "candidate_signs": []
+        },
+        {
+          "position_from_right": 2,
+          "kind": "identified_sign",
+          "sign": "M342",
+          "source_doubt": false,
+          "minimum_signs": 1,
+          "maximum_signs": 1,
+          "reviewer_uncertainty": false,
+          "candidate_signs": []
+        },
+        {
+          "position_from_right": 3,
+          "kind": "identified_sign",
+          "sign": "M375",
+          "source_doubt": false,
+          "minimum_signs": 1,
+          "maximum_signs": 1,
+          "reviewer_uncertainty": false,
+          "candidate_signs": []
+        },
+        {
+          "position_from_right": 4,
+          "kind": "identified_sign",
+          "sign": "M060",
+          "source_doubt": false,
+          "minimum_signs": 1,
+          "maximum_signs": 1,
+          "reviewer_uncertainty": false,
+          "candidate_signs": []
+        }
+      ],
+      "line_bbox_render_pixels": [
+        850,
+        5236,
+        3970,
+        5398
+      ],
+      "record_kind": "text_line",
+      "notes": []
+    },
+    {
+      "printed_row_index": 32,
+      "reference": "1126",
+      "side": "0",
+      "line": "0",
+      "object_type_code": "1",
+      "field_symbol_code": "01",
+      "direction_code": "1",
+      "printed_metadata_literal": "100101",
+      "expanded_metadata_code": "100101",
+      "inherited_from_row": null,
+      "normalized_order": "right_to_left",
+      "tokens": [
+        "M391",
+        "M099",
+        "M387",
+        "M087",
+        "M326",
+        "M342"
+      ],
+      "segments": [
+        {
+          "position_from_right": 1,
+          "kind": "identified_sign",
+          "sign": "M391",
+          "source_doubt": false,
+          "minimum_signs": 1,
+          "maximum_signs": 1,
+          "reviewer_uncertainty": false,
+          "candidate_signs": []
+        },
+        {
+          "position_from_right": 2,
+          "kind": "identified_sign",
+          "sign": "M099",
+          "source_doubt": false,
+          "minimum_signs": 1,
+          "maximum_signs": 1,
+          "reviewer_uncertainty": false,
+          "candidate_signs": []
+        },
+        {
+          "position_from_right": 3,
+          "kind": "identified_sign",
+          "sign": "M387",
+          "source_doubt": false,
+          "minimum_signs": 1,
+          "maximum_signs": 1,
+          "reviewer_uncertainty": false,
+          "candidate_signs": []
+        },
+        {
+          "position_from_right": 4,
+          "kind": "identified_sign",
+          "sign": "M087",
+          "source_doubt": false,
+          "minimum_signs": 1,
+          "maximum_signs": 1,
+          "reviewer_uncertainty": false,
+          "candidate_signs": []
+        },
+        {
+          "position_from_right": 5,
+          "kind": "identified_sign",
+          "sign": "M326",
+          "source_doubt": false,
+          "minimum_signs": 1,
+          "maximum_signs": 1,
+          "reviewer_uncertainty": false,
+          "candidate_signs": []
+        },
+        {
+          "position_from_right": 6,
+          "kind": "identified_sign",
+          "sign": "M342",
+          "source_doubt": false,
+          "minimum_signs": 1,
+          "maximum_signs": 1,
+          "reviewer_uncertainty": false,
+          "candidate_signs": []
+        }
+      ],
+      "line_bbox_render_pixels": [
+        850,
+        5398,
+        3970,
+        5559
+      ],
+      "record_kind": "text_line",
+      "notes": []
+    },
+    {
+      "printed_row_index": 33,
+      "reference": "1127",
+      "side": "0",
+      "line": "0",
+      "object_type_code": "1",
+      "field_symbol_code": "01",
+      "direction_code": "1",
+      "printed_metadata_literal": "100101",
+      "expanded_metadata_code": "100101",
+      "inherited_from_row": null,
+      "normalized_order": "right_to_left",
+      "tokens": [
+        "M267",
+        "M099",
+        "M124",
+        "M012"
+      ],
+      "segments": [
+        {
+          "position_from_right": 1,
+          "kind": "identified_sign",
+          "sign": "M267",
+          "source_doubt": false,
+          "minimum_signs": 1,
+          "maximum_signs": 1,
+          "reviewer_uncertainty": false,
+          "candidate_signs": []
+        },
+        {
+          "position_from_right": 2,
+          "kind": "identified_sign",
+          "sign": "M099",
+          "source_doubt": false,
+          "minimum_signs": 1,
+          "maximum_signs": 1,
+          "reviewer_uncertainty": false,
+          "candidate_signs": []
+        },
+        {
+          "position_from_right": 3,
+          "kind": "identified_sign",
+          "sign": "M124",
+          "source_doubt": false,
+          "minimum_signs": 1,
+          "maximum_signs": 1,
+          "reviewer_uncertainty": false,
+          "candidate_signs": []
+        },
+        {
+          "position_from_right": 4,
+          "kind": "identified_sign",
+          "sign": "M012",
+          "source_doubt": false,
+          "minimum_signs": 1,
+          "maximum_signs": 1,
+          "reviewer_uncertainty": false,
+          "candidate_signs": []
+        }
+      ],
+      "line_bbox_render_pixels": [
+        850,
+        5559,
+        3970,
+        5760
+      ],
+      "record_kind": "text_line",
+      "notes": []
+    }
+  ],
+  "coverage": {
+    "references": 30,
+    "printed_rows": 33,
+    "references_absent_within_1097_1127": [
+      "1124"
+    ],
+    "physical_objects_independent": null
+  },
+  "limitations": [
+    "M77 printed-transcription fidelity only; not object-photograph verification.",
+    "Nonblind to secondary hints, including three references from following page; no claim of completely blind sign identification.",
+    "Main and alternate scans are copies of the same printed edition, not independent ancient witnesses.",
+    "Whole-row boxes are not glyph segmentation.",
+    "Initial signlist275 crop actually shows adjacent274; retained as diagnostic history. The separately named275-complete crop contains labelled275 and was used for final identification.",
+    "No phonetic, numerical or semantic values assigned."
+  ]
+}
