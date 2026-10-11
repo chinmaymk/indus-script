@@ -1,0 +1,230 @@
+{
+  "date": "2026-10-11",
+  "protocol": "data/processed/public_context_four_object_pilot_v1.json",
+  "status": "closed_at_finite_stop",
+  "records": [
+    {
+      "target": {
+        "cisi": "M-1178",
+        "field_no": "DK 7448",
+        "mackay_no": "559",
+        "raw_tuple": [
+          "DK",
+          "2",
+          "IV",
+          "20",
+          "-16.5"
+        ]
+      },
+      "identity_status": "documented_catalogue_to_table_chain",
+      "catalogue_observation": {
+        "volume": 2,
+        "printed_page": 438,
+        "pdf_page": 473,
+        "field_no": "DK 7448",
+        "fc": "1559"
+      },
+      "table_observation": {
+        "printed_page": 386,
+        "archive_leaf": 408,
+        "source": "data/raw/m897_mackay_leaf408.jpg",
+        "no": "559",
+        "field_no": "DK 7448",
+        "block": "2",
+        "house": "IV",
+        "room": "20",
+        "level_ft": "-16.5",
+        "type": "B"
+      },
+      "unavailable": [],
+      "object_marking_newly_inspected": false,
+      "shared_deposition_evidence": "No explicit common deposition event established",
+      "represented_quantity_or_known_referent": null
+    },
+    {
+      "target": {
+        "cisi": "M-1190",
+        "field_no": "DK 7447",
+        "mackay_no": "558",
+        "raw_tuple": [
+          "DK",
+          "2",
+          "IV",
+          "20",
+          "-16.5"
+        ]
+      },
+      "identity_status": "documented_catalogue_to_table_chain",
+      "catalogue_observation": {
+        "volume": 2,
+        "printed_page": 438,
+        "pdf_page": 473,
+        "field_no": "DK 7447",
+        "fc": "2558"
+      },
+      "table_observation": {
+        "printed_page": 386,
+        "archive_leaf": 408,
+        "source": "data/raw/m897_mackay_leaf408.jpg",
+        "no": "558",
+        "field_no": "DK 7447",
+        "block": "2",
+        "house": "IV",
+        "room": "20",
+        "level_ft": "-16.5",
+        "type": "B"
+      },
+      "unavailable": [],
+      "object_marking_newly_inspected": false,
+      "shared_deposition_evidence": "No explicit common deposition event established",
+      "represented_quantity_or_known_referent": null
+    },
+    {
+      "target": {
+        "cisi": "M-1746",
+        "field_no": "DK 3693",
+        "mackay_no": "338",
+        "raw_tuple": [
+          "DK",
+          "7",
+          "II",
+          "88",
+          "-10.8"
+        ]
+      },
+      "identity_status": "unresolved_primary_evidence_unavailable",
+      "catalogue_observation": null,
+      "table_observation": null,
+      "unavailable": [
+        "CISI I covers M-1–620; II covers M-595 and M-621–1659",
+        "Mackay printed379/Archive leaf401 pixels are not retained; OCR field numbers are corrupt"
+      ],
+      "object_marking_newly_inspected": false,
+      "shared_deposition_evidence": "No explicit common deposition event established",
+      "represented_quantity_or_known_referent": null
+    },
+    {
+      "target": {
+        "cisi": "M-1879",
+        "field_no": "DK 3692",
+        "mackay_no": "334",
+        "raw_tuple": [
+          "DK",
+          "7",
+          "II",
+          "88",
+          "-10.8"
+        ]
+      },
+      "identity_status": "unresolved_primary_evidence_unavailable",
+      "catalogue_observation": null,
+      "table_observation": null,
+      "unavailable": [
+        "CISI I covers M-1–620; II covers M-595 and M-621–1659",
+        "Mackay printed379/Archive leaf401 pixels are not retained; OCR field numbers are corrupt"
+      ],
+      "object_marking_newly_inspected": false,
+      "shared_deposition_evidence": "No explicit common deposition event established",
+      "represented_quantity_or_known_referent": null
+    }
+  ],
+  "coverage_inspection": [
+    "CISI I contents III/PDF7: M-1–620",
+    "CISI II contents III/PDF6: M-595, M-621–1659",
+    "CISI II basic data441/PDF476 ends M-1659 then Harappa",
+    "Retained Mackay leaf400 ends row305; leaf402 starts row339"
+  ],
+  "contextual_leads": [
+    {
+      "status": "OCR-only; no primary pixels authenticated",
+      "location": "Mackay printed61–62, DK block2 houseIV",
+      "observation": "Fragmented plan; room20/21 paving at -16.5ft reported; no DK7447/7448 deposition statement located"
+    },
+    {
+      "status": "OCR-only; no primary pixels authenticated",
+      "location": "Mackay printed82–83, DK block7 houseII",
+      "observation": "Badly wrecked house, walls nearly to foundation; no DK3692/3693 shared-event statement"
+    },
+    {
+      "status": "OCR-only contextual warning; not a new numerical datum",
+      "location": "Mackay introduction",
+      "observation": "DK and SD use different benchmarks; phase depths overlap amid rebuilding"
+    }
+  ],
+  "outcome": "Two specific chains authenticated; two unavailable; zero secured shared deposits or known referents",
+  "limits": [
+    "Frozen targets not replaced; no acquisition during pilot",
+    "Exact room/depth equality does not establish contemporaneity or original use",
+    "Catalogue entries are distinct, but original object markings were not newly verified",
+    "Four cases do not validate the general provisional locator rule",
+    "No sign outcomes, significance tests, corpus amendments or new meanings"
+  ],
+  "review": "Independent read-only agent authenticated later-pair coverage failure; parent inspected first pair pixels",
+  "evidence_pins": [
+    {
+      "path": "data/processed/public_context_four_object_pilot_v1.json",
+      "bytes": 1970,
+      "sha256": "6680cf663f2ae2c92e21b9e2b50cef03e0db44320e8747f156cb22071966ed25"
+    },
+    {
+      "path": "results/public_context_locators_v1.json",
+      "bytes": 575228,
+      "sha256": "131b4c166100e01b31e03ee71ce923f7a9a77b7d54bc0f09b9a641ccae3489fd"
+    },
+    {
+      "path": "data/raw/cisi_76884.pdf",
+      "bytes": 31508998,
+      "sha256": "47a4da4227cfb7baa56d6a561e25797225499d0ec54f5a702a82c67ab4746d4d"
+    },
+    {
+      "path": "data/raw/h843_identity_CorpusVol2.pdf",
+      "bytes": 35870617,
+      "sha256": "727132579a485ee626e48a64c663148a85fbc0811fb523818fd615231f8a327d"
+    },
+    {
+      "path": "data/raw/m897_mackay_leaf408.jpg",
+      "bytes": 1817507,
+      "sha256": "d60f927b51e7e06244472bf1509a595cb1291dd423ba40cfc0e5084f62124ced"
+    },
+    {
+      "path": "data/raw/chain_artifact_mackay_leaf400.jpg",
+      "bytes": 1709064,
+      "sha256": "13a4aaedec242847d33dcf79c127725dec41808f864bc1db1715a3855dea159a"
+    },
+    {
+      "path": "data/raw/roof_u_mackay_leaf402.jpg",
+      "bytes": 1751342,
+      "sha256": "56ba3d75f9d00fda1177a75ab2ce2475a5ce7d5bf6fdd02716966bc65672d540"
+    },
+    {
+      "path": "data/raw/metal_original_mackay18225_djvu.txt",
+      "bytes": 2331705,
+      "sha256": "511ee6deb3921bb33708a4a56166db5264687f5c16db0e16d8c55273a2a564c0"
+    },
+    {
+      "path": "data/raw/metal_original_mackay18225_page_numbers.json",
+      "bytes": 142059,
+      "sha256": "e42db27645509f189765152d9fe088a15552f3bfb1cc955cf33b94ad8f49ca2a"
+    },
+    {
+      "path": "data/raw/public-context-oct11-mackay-seal-table.csv",
+      "bytes": 55974,
+      "sha256": "0d2499b2079d05fd9d67c9e5f694799827234712f242b6a14e47a22d0a03f518"
+    },
+    {
+      "path": "results/primary_pages/context-join-cisi2-473.png",
+      "bytes": 3022289,
+      "sha256": "50fd95c7891c799dbd6c5d8cd76c4d47ec7fcbd1ebb0846e4759bac07fb5205a"
+    },
+    {
+      "path": "results/primary_pages/context-pilot-cisi2-M1178-M1190.png",
+      "bytes": 264889,
+      "sha256": "55375f0ada87919fd7eb82294aa280362025b12c1ac65e774578896dce088710"
+    },
+    {
+      "path": "scripts/persist_public_context_four_object_pilot.py",
+      "bytes": 4569,
+      "sha256": "14f91ff2d6742f3c1fd1dded89ffb117b8af3289585a15b4486c00b705ed1026"
+    }
+  ]
+}

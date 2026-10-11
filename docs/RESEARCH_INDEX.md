@@ -17,6 +17,8 @@ not make historical reports current. Follow their pinned inputs and scope.
 | Why were ending shuffles stopped? | `ENDING_SUPPORT_CERTIFICATE.md`; latest support JSON in ACTIVE_STATE |
 | What happened in the larger two-sign ending screen? | `COUPLED_ENDINGS_V2_RESULT.md`; `../results/coupled_endings_v2/stop.json` |
 | Can the new public excavation tables be joined? | `PUBLIC_CONTEXT_FEASIBILITY.md`; `PUBLIC_CONTEXT_IDENTITY_FIVE.md`; `PUBLIC_CONTEXT_LOCATORS.md` |
+| Did the four-object locator pilot secure shared deposits? | `PUBLIC_CONTEXT_FOUR_OBJECT_PILOT.md`; frozen pilot result |
+| Can Bagasra supply an independent craft-domain contrast? | `BAGASRA_CONTEXT_ELIGIBILITY.md`; `../results/bagasra_context_eligibility_v1/decision.json` |
 | What did Claude actually recommend? | `CLAUDE_SECOND_OPINION.md`; open linked raw response only if needed |
 | What has already been tried? | Search `RESEARCH_LOG.md` for the specific route; do not read it wholesale |
 | Where are all older report links? | `archive/README_2026-10-10_before_context_cleanup.md` |

@@ -5940,3 +5940,59 @@ No scientific run or website publication.
 
 At the author's request, changed the headline to “Asking Astra to decipher the
 Indus script: 840 million tokens later.” No scientific run or website publication.
+
+
+## 2026-10-11 — Four-object context pilot and new Bagasra eligibility gate
+
+User authorized continued exploration with another150m-token budget; active
+persistent goal created. Public/retained sources only, no outreach. Four-object
+pilot protocol stayed frozen. Parent visually checked CISI II printed438/PDF473
+and Mackay printed386/leaf408: M1178→DK7448→FEM559 and M1190→DK7447→FEM558,
+both block2/IV/20/−16.5ft. Separate catalogue records, no newly inspected original
+markings or explicit shared event. Independent read-only reviewer authenticated
+CISI I/II coverage limits: later M1746/M1879 not covered; Mackay printed379/leaf401
+pixels absent and OCR corrupt. Both remain unavailable, not disproven. No targets
+replaced, sources acquired during pilot, signs scored or significance test.
+Manual result script saved four records and13 verified source/output pins;
+PUBLIC_CONTEXT_FOUR_OBJECT_PILOT.md records finite stop. OCR-only architecture
+leads not promoted to primary pixel observations or use classification.
+
+A bounded internal critic supplied a genuinely unreviewed source: Jamison et al.
+2017, Heritage5:1–21, complete seven Bagasra seals. Four discovery queries are
+reported in the separate review; original tool response objects were not retained,
+so no reconstructed raw capture claimed. Parent repeated one publisher web-open
+already timed out in critic's discovery; it also timed out and added no evidence.
+Then one authorized direct fetch succeeded HTTP200,21-page PDF,3073754bytes,
+SHA256643725ca6e60e99682a921ad2efb51cebcfc387f1658ad1ea0c5224f126517c1.
+PDF/headers registered; new protocol froze all seven before acquisition. Rendered
+and visually inspected context map7, appendix15 and narrative18. Map includes
+seal photographs; no blinding or unseen-holdout claim and no sign transcription.
+
+BSR6719 has Eo11 in map versus El15 in appendix,66cm in both, layer unavailable.
+Other six metadata rows agree. BSR7197 probable secondary; BSR7368 sealed gateway
+pit without established craft use; BSR2037/8288 near faience/lithic activity but
+use relationship explicitly uncertain. Shell/craft observations exist, but no
+secured replicated original-use bead versus shell/faience contrast with comparable
+phase/recovery. Bhan2005 directly cited primary Antiquity report captured and
+registered; six-seal count retained separately from later seven. Exact Sonawane2003
+search found request-only original listing; no report acquired/request sent.
+Captured search registered. Incidentally located primary black-slipped-jar paper
+is a future eligibility lead only, outside this seven-object gate.
+
+Finite stop: test unavailable, zero qualifying deposits under frozen gate. No
+semantic rejection, p value, corpus amendment or assigned meaning. Independent
+read-only reviewer reproduced metadata conflict and failure, nine evidence pins
+verified. Source/output ledgers and bounded reports saved. Initial source-registry
+append used nonexistent web_captures key and failed before write; correct existing
+web_extraction_captures key then used. An atomic documentation patch failed on an
+invalid expected line; corrected patch applied. Existing frozen files preserved.
+
+
+**Related jar source: pre-experiment criticism.** One author-deposited Ajithprasad
+paper opened, four within-source finds, actual52892byte tool capture preserved
+and registered (SHA2563ec21ba73e3a561a2a2da5dfba7f976be35547ccbd2de433a629dae47e0c2ed1).
+Journal headers2013, index2014, upload2019 kept distinct.210 sherds,12 rims,3 bases,
+no complete Bagasra vessel; Table3 height/bodydiameter missing, contents unresolved
+and residue attempts unsuccessful. No usable independent capacity-text calibration,
+sign scoring, fits or acquired references. Specific result summary saved as
+bagasra_jar_source_criticism.json; gate stopped without a new experiment.

@@ -1,0 +1,193 @@
+{
+  "date": "2026-10-11",
+  "status": "closed_test_unavailable",
+  "selection": "Complete published seven-seal frame; no replacements",
+  "records": [
+    {
+      "field_id": "BSR2037",
+      "appendix_trench": "El15",
+      "appendix_layer": "3",
+      "depth_cm_below_datum": "100",
+      "figure4_year": "1998",
+      "observation": "Near faience/lithic area; original use and relationship to BSR8288 unclear",
+      "primary_pages": [
+        7,
+        15,
+        18
+      ],
+      "independently_classified_original_use": null,
+      "eligible_matched_deposit": false
+    },
+    {
+      "field_id": "BSR5555",
+      "appendix_trench": "Eg2",
+      "appendix_layer": "10",
+      "depth_cm_below_datum": "300",
+      "figure4_year": "2003",
+      "observation": "Map near shell workshop; narrative reports two shell-associated seals without explicit identifier allocation",
+      "primary_pages": [
+        7,
+        15,
+        18
+      ],
+      "independently_classified_original_use": null,
+      "eligible_matched_deposit": false
+    },
+    {
+      "field_id": "BSR6719",
+      "appendix_trench": "El15",
+      "appendix_layer": null,
+      "depth_cm_below_datum": "66",
+      "figure4_year": "2004",
+      "observation": "Appendix trench conflicts with map Eo11; map outside wall; original-use attribution unresolved",
+      "primary_pages": [
+        7,
+        15,
+        18
+      ],
+      "independently_classified_original_use": null,
+      "eligible_matched_deposit": false
+    },
+    {
+      "field_id": "BSR6952",
+      "appendix_trench": "Ea12",
+      "appendix_layer": "5",
+      "depth_cm_below_datum": "70–75",
+      "figure4_year": "2004",
+      "observation": "Map W baulk near shell area; narrative identifier allocation not explicit",
+      "primary_pages": [
+        7,
+        15,
+        18
+      ],
+      "independently_classified_original_use": null,
+      "eligible_matched_deposit": false
+    },
+    {
+      "field_id": "BSR7197",
+      "appendix_trench": "Eh1",
+      "appendix_layer": "1",
+      "depth_cm_below_datum": "26",
+      "figure4_year": "2004",
+      "observation": "Gateway; authors explicitly identify likely secondary deposit",
+      "primary_pages": [
+        7,
+        15,
+        18
+      ],
+      "independently_classified_original_use": null,
+      "eligible_matched_deposit": false
+    },
+    {
+      "field_id": "BSR7368",
+      "appendix_trench": "Eh1",
+      "appendix_layer": "Pit1",
+      "depth_cm_below_datum": "223",
+      "figure4_year": "2004",
+      "observation": "Gateway pit sealed by layer1; sealed pit does not establish craft-use deposit",
+      "primary_pages": [
+        7,
+        15,
+        18
+      ],
+      "independently_classified_original_use": null,
+      "eligible_matched_deposit": false
+    },
+    {
+      "field_id": "BSR8288",
+      "appendix_trench": "El14",
+      "appendix_layer": "4",
+      "depth_cm_below_datum": "105",
+      "figure4_year": "2004",
+      "observation": "Near faience/lithic area; original use and relationship to BSR2037 unclear",
+      "primary_pages": [
+        7,
+        15,
+        18
+      ],
+      "independently_classified_original_use": null,
+      "eligible_matched_deposit": false
+    }
+  ],
+  "source_conflicts": [
+    {
+      "field_id": "BSR6719",
+      "figure4_trench": "Eo11",
+      "appendix1_trench": "El15",
+      "depth_agrees_cm": "66",
+      "resolution": "Unresolved; preserve both primary claims, no guessed correction"
+    }
+  ],
+  "craft_evidence": {
+    "shell": "Bhan2005 reports workshop with shell wasters, unfinished bangles and raw shells",
+    "faience": "Bhan2005 reports quartz powder, burning and manufacturing evidence",
+    "bead_lithic": "Bhan2005 distinguishes bead manufacture from stockpiles; absence of some jasper waste prevents equating all stockpiles with on-site manufacture",
+    "limitation": "Craft presence does not establish original use or meanings of nearby seals"
+  },
+  "eligible_replicated_contrast": false,
+  "sign_scoring_executed": false,
+  "outcome": "No secured replicated original-use bead versus shell/faience deposit contrast; proposed transfer test unavailable",
+  "missing": "Object-specific depositional records resolving secondary movement, phase/event links, comparable recovery and contrasting deposits",
+  "acquisition": {
+    "publisher": "Web tool timed out; one direct HTTP acquisition succeeded with 21-page PDF",
+    "supporting_report": "Bhan2005 primary Antiquity web extraction retained",
+    "second_cited_report": "Exact Sonawane2003 search found request-only record; no original acquired or request sent",
+    "discovery": "Four internal-review discovery queries and returned source URLs reported in research log; original tool responses not retained, no reconstructed raw capture claimed"
+  },
+  "exposure": "Figure4 includes seal photographs, viewed for context labels. No signs transcribed/scored; no blinding or unseen-holdout claim.",
+  "constraints": [
+    "No proximity threshold converted into working-floor association",
+    "Unequal layers/depths are not proven comparable phases",
+    "All seven are one published site assemblage, not seven independent replicated deposits",
+    "Gate failure is not semantic falsification",
+    "Seal masses in appendix are physical seal measurements, not encoded quantity calibration",
+    "No p value, translation, corpus amendment or phonetic/semantic assignment"
+  ],
+  "evidence_pins": [
+    {
+      "path": "data/processed/bagasra_context_eligibility_protocol_v1.json",
+      "bytes": 2882,
+      "sha256": "66804fc6d950d93a30349654df7e54234be903a01db6df790fb5c8faa1eef03d"
+    },
+    {
+      "path": "data/raw/bagasra-jamison2017-publisher.pdf",
+      "bytes": 3073754,
+      "sha256": "643725ca6e60e99682a921ad2efb51cebcfc387f1658ad1ea0c5224f126517c1"
+    },
+    {
+      "path": "data/raw/bagasra-bhan2005-web-capture.json",
+      "bytes": 13146,
+      "sha256": "0d47afe27a7d574d4a09ece77ed1c4036e242a79ff9a4ecdbf7a1f2518a8d45c"
+    },
+    {
+      "path": "data/raw/bagasra-sonawane2003-search-capture.json",
+      "bytes": 25103,
+      "sha256": "3f6389c51826f00c0751e692e7b8abe03a360f87399fe2ddabfafb2a4f6236af"
+    },
+    {
+      "path": "results/bagasra_context_eligibility_v1/paper_extracted_text.txt",
+      "bytes": 63069,
+      "sha256": "40dbb5e5dc4e0b1cdb54998b647930290eaa75be61d8f3b5b26a291ad651f0cf"
+    },
+    {
+      "path": "scripts/persist_bagasra_context_eligibility.py",
+      "bytes": 4921,
+      "sha256": "5a964ba4a545325f10a1d0280be8f00cf81a92769cc4c6d55df6d54fbbfd89b2"
+    },
+    {
+      "path": "results/bagasra_context_eligibility_v1/page7.png",
+      "bytes": 448193,
+      "sha256": "b1a6efc542de79b0584b4669bfec3b04fdc01695381c8e3bd1595872450771ec"
+    },
+    {
+      "path": "results/bagasra_context_eligibility_v1/page15.png",
+      "bytes": 302930,
+      "sha256": "a0c72f795f9c80711e4892dceb3a9e4a3f83c8269d6de753cf116e63913bdf78"
+    },
+    {
+      "path": "results/bagasra_context_eligibility_v1/page18.png",
+      "bytes": 442710,
+      "sha256": "289ff373fea6ddafe9941b9aa020f09c00ae386e5331929d66b42d51c3c55ad5"
+    }
+  ]
+}

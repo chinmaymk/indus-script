@@ -7,22 +7,25 @@ Full history belongs in `RESEARCH_LOG.md`. Public and retained data only;
 
 ## One current action
 
-Authenticate exactly four provisional context locators from the first two
-lexicographically sorted repeated raw tuples in
-`results/public_context_locators_v1.json`: M-1178/DK7448/FEM559,
-M-1190/DK7447/FEM558 (DK block2, houseIV, room20, −16.5ft);
-M-1746/DK3693/FEM338 and M-1879/DK3692/FEM334
-(DK block7, houseII, room88, −10.8ft). Selection used metadata only.
+Bounded read-only eligibility criticism of the specifically named official
+`Excavation at Kanmer 2005–06–2008–09` (Kharakwal, Rawat, Osada2012).
+At most two exact primary-source discovery searches. Expected evidence: a
+finite inscribed-object context frame with securely identified craft floors,
+comparable phases and independent contrasting deposits. Stop if unavailable;
+no inscription scoring, fits, acquisition of references or replacement site.
+Only a credible source gate would justify a separately frozen context review.
+No prior Kanmer review was found in the specific research-log search.
 
-Expected evidence: individual primary CISI→field→Mackay chains, correct context
-and datum, and any explicit shared-deposition evidence; otherwise preserve
-unresolved identity/context. Stop after these four and their directly cited
-retained primary records. Missing CISI coverage is a failure, not permission to
-replace a target or start a broad artifact hunt. No sign outcomes or tests yet.
-Room/depth equality is not a secure deposit or independent replicated contrast.
-Even successful pilot records do not authenticate the full locator rule.
-See `PUBLIC_CONTEXT_LOCATORS.md` and the pinned locator protocol/result.
-Pilot identifiers are frozen in `data/processed/public_context_four_object_pilot_v1.json`.
+Four-object pilot closed: M1178/DK7448/FEM559 and M1190/DK7447/FEM558 chains
+verified; M1746/M1879 beyond retained CISI, relevant Mackay pixels unavailable.
+No explicit common deposition or known referent. See
+`PUBLIC_CONTEXT_FOUR_OBJECT_PILOT.md`.
+
+Bagasra seven-seal gate closed: no qualifying replicated bead versus shell/faience
+original-use contrast. BSR6719 map/appendix location conflict retained. Independent
+criticism agrees; no sign scoring or semantic rejection. See
+`BAGASRA_CONTEXT_ELIGIBILITY.md`. Related black-slipped-jar paper has no complete
+Bagasra vessel or known contents; it does not reopen quantity calibration.
 
 ## Completed tests / closed routes
 
@@ -61,16 +64,13 @@ k1 impossible in that sample. Those results remain historical evidence.
 ## Persistence / runtime
 
 Editorial handoff: `docs/blog/trying-to-decipher-the-indus-script-with-ai.md`
-is a first-person draft for chinmay.ai, ready for author review; not published.
-Author clarified the premise: Astra tried autonomously for roughly two weeks;
-Opus and Sol were brought in later as Astra struggled. The draft follows that
-sequence and the author's multiple usage resets. Frozen usage audit at the
-author's request timestamp: 821,734,966 research-model tokens; 838,914,762 with
-automatic review. Cache reads included; blog/audit chat excluded. See
-`RESEARCH_TOKEN_USAGE.md`. This task did not rerun a scientific experiment.
+is ready for author review; unpublished. Astra headline, rounded roughly840m
+usage, repository link first. Frozen audit: 821,734,966 research tokens;
+838,914,762 including automatic review, cache reads included, editorial chat
+excluded. See `RESEARCH_TOKEN_USAGE.md`. Editorial work did not rerun experiments.
 
 Research batch `78fd029` was pushed and origin/main verified on 11 October.
-Ending results, source provenance and locator ledgers are backed up; pilot pending.
+Ending results, source provenance and locator ledgers are backed up; new pilot and Bagasra batch await backup.
 Raw captures stay in `data/raw/`, registered in `data/sources.json`; derived
 results in `results/` or `data/processed/`. Do not overwrite frozen inputs/results.
 Claude's last follow-up hit a provider usage-credit limit; no new opinion obtained.

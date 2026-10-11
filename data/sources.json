@@ -765,6 +765,14 @@
       "sha256": "6fbd67c71085617f3dc52004c2cf0fa2ec2a3e44ea0b2cdad88c7708fed27099",
       "kind": "locally_serialized_HTTP_response_headers",
       "url": "https://archive.org/download/in.gov.ignca.18225/page/n397.jpg"
+    },
+    {
+      "path": "data/raw/bagasra-jamison2017-publisher.pdf.headers.json",
+      "bytes": 351,
+      "sha256": "addcf2b758b74cd73b1a37ca2425f1dbbbfb1cafbe3112b0bed1f359f5071f6b",
+      "kind": "locally_serialized_HTTP_response_headers",
+      "url": "https://www.heritageuniversityofkerala.com/JournalPDF/Volume5/1.pdf",
+      "research_date": "2026-10-11"
     }
   ],
   "downloads": [
@@ -4408,6 +4416,27 @@
       "retrieval_ended_utc": "2026-10-11T08:21:21.299118+00:00",
       "kind": "primary_public_excavation_report_page_image",
       "notes": "Mackay 1938 I, printed 375; pixels inspected for bounded catalogue-identity review"
+    },
+    {
+      "url": "https://www.heritageuniversityofkerala.com/JournalPDF/Volume5/1.pdf",
+      "retrieval_started_utc": "2026-10-11T08:58:20.615291+00:00",
+      "response_complete": true,
+      "http_status": 200,
+      "response_body_received": true,
+      "resolved_url": "https://heritageuniversityofkerala.com/JournalPDF/Volume5/1.pdf",
+      "header_artifact": {
+        "path": "data/raw/bagasra-jamison2017-publisher.pdf.headers.json",
+        "bytes": 351,
+        "sha256": "addcf2b758b74cd73b1a37ca2425f1dbbbfb1cafbe3112b0bed1f359f5071f6b",
+        "kind": "locally_serialized_HTTP_response_headers"
+      },
+      "kind": "original_publisher_primary_PDF",
+      "path": "data/raw/bagasra-jamison2017-publisher.pdf",
+      "bytes": 3073754,
+      "sha256": "643725ca6e60e99682a921ad2efb51cebcfc387f1658ad1ea0c5224f126517c1",
+      "retrieval_ended_utc": "2026-10-11T08:58:34.488737+00:00",
+      "research_date": "2026-10-11",
+      "notes": "Jamison et al. 2017, Heritage5:1–21; 21-page PDF authenticated by pypdf. New seven-object context eligibility source; no sign scoring."
     }
   ],
   "local_usage_captures": [
@@ -5212,6 +5241,33 @@
       "path": "data/raw/public-context-oct11-web.json",
       "research_date": "2026-10-11",
       "sha256": "229d9d840d4b588f6c455029e8c7b6dba36add45a2d8e109fc6ef255e655ce0e"
+    },
+    {
+      "path": "data/raw/bagasra-bhan2005-web-capture.json",
+      "bytes": 13146,
+      "sha256": "0d47afe27a7d574d4a09ece77ed1c4036e242a79ff9a4ecdbf7a1f2518a8d45c",
+      "kind": "serialized_web_tool_capture_not_original_HTML",
+      "research_date": "2026-10-11",
+      "url": "https://www.antiquity.ac.uk/projgall/bhan304",
+      "notes": "Directly cited primary excavation report Bhan et al. 2005; 6 seals at publication; craft observations but no seven-field context register."
+    },
+    {
+      "path": "data/raw/bagasra-sonawane2003-search-capture.json",
+      "bytes": 25103,
+      "sha256": "3f6389c51826f00c0751e692e7b8abe03a360f87399fe2ddabfafb2a4f6236af",
+      "kind": "serialized_web_tool_search_capture_not_original_documents",
+      "research_date": "2026-10-11",
+      "query": "\"Excavations at Bagasra\" \"1996\" \"2003\" Sonawane pdf",
+      "notes": "Exact search for second directly cited source; request-only original report listing, no outreach. Incidental jar-paper lead retained as discovery only."
+    },
+    {
+      "path": "data/raw/bagasra-jar-discovery-web.json",
+      "bytes": 52892,
+      "sha256": "3ec21ba73e3a561a2a2da5dfba7f976be35547ccbd2de433a629dae47e0c2ed1",
+      "kind": "serialized_web_tool_capture_not_original_HTML_or_PDF",
+      "research_date": "2026-10-11",
+      "url": "https://www.researchgate.net/publication/333220424_The_Cultural_and_Stratigraphic_Context_of_the_Harappan_Black_Slipped_Jar_at_Bagasra_Gujarat",
+      "notes": "One-source bounded read-only criticism, no sign scoring or reference acquisition; journal headers2013 versus index2014/upload2019 distinguished."
     }
   ]
 }
