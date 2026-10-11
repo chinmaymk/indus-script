@@ -23,8 +23,12 @@ reviewed decisions, not historical absence. See
 `results/yajnadevam_bridge_eligibility_v1/decision.json`. This validation branch
 is closed pending a specifically new primary correspondence. Do not fill the
 gap with more candidate-row audits, shape comparisons or repeated closed hunts.
-Overall goal remains active/unachieved; this turn completed new source work,
-not three consecutive blocked turns.
+Overall goal remains active/unachieved. Current continuation: first consecutive
+no-progress audit after the completed source batch. Same external-evidence gap:
+no new qualifying record, independently measured quantity/contents or replicated
+deposit join for the retained prospective tests. No live process is pending.
+Do not count operational audit notes as decipherment progress. Blocked-status
+threshold of three consecutive turns has not been met in this resumed run.
 
 ## Latest claim validation
 

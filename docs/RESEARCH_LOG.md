@@ -6334,3 +6334,25 @@ and extraction bytes not normalized. Forty-file batch4d234f0b6edd020d82e6d31af9d
 pushed origin/main with sevenLFS objects93MB. Exact remoteSHA equals localHEAD;
 checkout clean at verification. No scientific tests rerun for this source-only
 batch. Finalhandoff replaces operationalstate and retains editor's draft notes.
+
+### 11 October 2026 — First consecutive no-progress continuation after source checks
+
+Previous goal turn classified as progress: completed Marungur/Vietnam acquisitions,
+source-specific adjudications and backup changed authoritative evidence and closed
+the candidate-bridge branch. No decipherment was established. Current continuation
+read ACTIVE_STATE then git status; checkout clean at dae4d2b. Read the bridge
+eligibility decision and its input references, and selectively checked the
+evidence-gap review's two prospective tests. Their necessary independent
+capacity/contents and replicated deposit joins remain missing; the later candidate
+examples supply no Indus-to-known-sound correspondence. No new qualifying public
+pointer or user-supplied material is present. These are limits of the reviewed
+program, not an exhaustive claim that every possible research approach fails.
+
+No closed search, fit, source request, artifact audit or scientific test repeated.
+No live tool handle awaits completion; no verified wait claimed. Existing bounded
+criticism supplies no new executable route, so it was not requested again. Claude
+availability has no reported change; no retry. No outreach. Current turn is
+**no progress**, despite this operational note. First consecutive repetition of
+the same missing independent-reference/context evidence after the recent progress;
+the older September blocked run does not satisfy this resumed-run threshold.
+Leave full150m goal active/unachieved; no complete/blocked/paused transition yet.
