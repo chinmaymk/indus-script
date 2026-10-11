@@ -24,6 +24,24 @@ For an autonomous agent, this problem requires more than generating a plausible 
 
 The [repository](https://github.com/chinmaymk/indus-script) contains the sources, scripts, results and failed hypotheses. The goal remains reading the inscriptions. A larger repository does not tell us whether we are closer to that goal.
 
+## How I asked it to work
+
+My [original instruction](https://github.com/chinmaymk/indus-script/blob/main/data/raw/blog-research-instructions-oct11-v1.json) was broad:
+
+> /goal decipher indus script, come up with reasonable conclusions that fit for all the symbols, use any additional data as you see fit, persist proof and scripts you may need for processing the data
+
+I left the choice of research routes and the execution to Astra. The request covered the whole sign inventory, with permission to seek additional data and an instruction to save the evidence and processing code. That gave it room to investigate while making its work available for inspection.
+
+The next day, I explicitly asked it to keep a research log of “all the things you tried and their results.” I treated this like an engineering investigation: retain the attempted approach, its assumptions, what ran, what happened, and why it was worth continuing or abandoning. The [research log](https://github.com/chinmaymk/indus-script/blob/main/docs/RESEARCH_LOG.md) grew alongside the code and data. Earlier work was backfilled and marked as retrospective.
+
+The repository preserved failed searches, conflicting readings, rejected hypotheses and critiques as well as promising results. Downloaded sources had provenance and hashes; experiments retained their scripts and outputs. This made it possible to revisit a conclusion and inspect the evidence behind it, including the assumptions an elegant calculation might conceal.
+
+I also intervened in the approach. Later, I fed back a critique recommending that we stop the artifact-by-artifact audits and consider routes such as comparisons with ancient numeral systems, recurring ending changes, chronology and text–animal associations. These were proposed directions to evaluate, each with its own evidential requirements.
+
+As the investigation accumulated context, the working instructions became more restrictive. Read the compact active state first, retrieve only the evidence needed for the current decision, and keep one next action with expected evidence and a finite stopping rule. A closed experiment needed a specific new source or a documented defect before being reopened. The full history stayed in the log, so the agent could consult it without dragging every old result into every turn.
+
+That was the setup behind the autonomy experiment. I supplied the goal, kept the budget available and adjusted the process as it struggled. The agent still had to make the research decisions that could lead to a decipherment.
+
 ## Two weeks with Astra
 
 There were sources to inspect, patterns to measure and hypotheses to test. Each could yield a concrete output. The harder task was choosing work that could connect an inscription to an ancient sound or meaning. Astra could keep investigating while that connection remained missing.
@@ -101,7 +119,9 @@ This was a useful failure mode to encounter. An agent can solve the equations, v
 
 ## Bringing in Opus and Sol
 
-One documented part of the later collaboration was asking Opus, through Claude Code, to review the method and help identify a faster experiment.
+When I brought in other models, I explicitly asked for Claude Code second opinions “from time to time,” using Opus or Fable. Later I asked it to “work with claude code to figure out a faster route to decipherment.” I wanted the approach criticized while we could still change the next experiment.
+
+One documented part of that collaboration was asking Opus, through Claude Code, to review the method. The critique and our response to it were saved in the repository, so accepting a recommendation meant explaining what changed and which objections remained.
 
 Its useful criticism concerned the equality assumption, duplicates and prior exposure to the data. Selecting apparently equivalent examples after seeing their stroke counts risks making the hypothesis impossible to falsify. Re-transcribing an inscription we have already examined does not turn it into an unseen test case.
 
@@ -121,7 +141,7 @@ Across the project, the models helped turn proposed explanations into explicit a
 
 Working with agents also made continuing cheap. There was always another statistic to calculate or another plausible interpretation to explore. That is a real difficulty when the question has no easy success criterion and the data can support many stories.
 
-We started keeping one next action, the evidence it should produce, and a finite stopping rule. If an experiment needed repeated combinations absent from the selected sample, more simulation could not supply them. If a screen selected no candidates, its downstream work stopped. If a proposed meaning could survive every failure by inventing another unit or category, it needed a more restrictive prediction.
+The stopping rules gave the investigation concrete decisions. If an experiment needed repeated combinations absent from the selected sample, more simulation could not supply them. If a screen selected no candidates, its downstream work stopped. If a proposed meaning could survive every failure by inventing another unit or category, it needed a more restrictive prediction.
 
 The later work happened with additional models and explicit constraints on continuing. That context matters when judging the original test of autonomy.
 

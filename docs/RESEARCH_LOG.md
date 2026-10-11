@@ -5890,3 +5890,21 @@ capture attempt stopped on the malformed nonusage line before saving any output;
 parser now records that defect and refuses malformed usage records. Added resets
 and a sourced breakdown to the blog, plus docs/RESEARCH_TOKEN_USAGE.md. No scientific
 experiment, outreach or website publication. Concurrent research changes preserved.
+
+
+## 2026-10-11 — Blog context on instructions and engineering discipline
+
+Author requested more context on how the agents were directed, logging and
+critiques. Retrieved only relevant log sections and selected human-authored
+instructions from the original research rollout; automatic goal continuations
+were excluded. Added the original goal prompt, the next-day request to log all
+attempts and results, retrospective-log distinction, evidence/code persistence,
+later approach critique and compact one-action/stop-rule workflow to the blog.
+Expanded the model-collaboration section with the author's occasional-second-
+opinion and faster-route requests. Preserved the autonomous-attempt framing,
+scientific limits, frozen token counts and current no-outreach rule.
+
+Four historical author prompts captured in data/raw and registered with bytes,
+SHA256 and provenance. No model transcripts or full research history imported
+into context or copied into the blog. No scientific run or website publication.
+Concurrent research state retained; editorial handoff condensed in ACTIVE_STATE.
