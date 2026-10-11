@@ -1,0 +1,22 @@
+{
+  "implementation": {
+    "path": "scripts/analyze_coupled_endings.py",
+    "sha256": "1c45434770c709143ff3165d71cd4a98015bfd89936d2681231282efb6ef0695"
+  },
+  "parser": {
+    "path": "scripts/prepare_corpora.py",
+    "sha256": "c80408c23b743aaa00ff78d6d85f31f3b28c7206e93eb6f1da05ba784681dc2b"
+  },
+  "protocol": {
+    "path": "/Users/chinmaymk/github/indus-script/data/processed/coupled_endings_protocol_v2.json",
+    "sha256": "6715ace6c35f320279dd869998aa9425d9d8a58216b3ff1b3e7e642e1356cfbd"
+  },
+  "runtime": {
+    "numpy": "2.3.5",
+    "python": "3.12.14"
+  },
+  "source": {
+    "path": "data/raw/lipi_inscriptions.csv",
+    "sha256": "b8dcb325a2e2cd3cde12ac12e7a418b0348e45713c9ee28aad81b645d2ac5ee4"
+  }
+}

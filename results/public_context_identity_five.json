@@ -1,0 +1,415 @@
+{
+  "date": "2026-10-11",
+  "scope": "Five fixed catalogue associations only; no general identifier parser or corpus amendment",
+  "selection": "First five Mohenjo-daro rows with nonmissing CISI and excavation identifiers; targets frozen in ACTIVE_STATE before primary image inspection. This file records observations afterward.",
+  "source_column_definitions": {
+    "CISI": "column 1",
+    "FC": "column 2 Finnish Concordance, not automatically Mahadevan",
+    "excavation": "column 3",
+    "references": [
+      "CISI1 printed pp365-366 / PDF401-402",
+      "CISI2 printed p434 / PDF469"
+    ]
+  },
+  "records": [
+    {
+      "lipi_original_metadata": {
+        "id": "180.1",
+        "cisi": "M-584",
+        "site": "Mohenjo-daro",
+        "excavation-idno": "DK4807779"
+      },
+      "cisi": "M-584",
+      "primary_excavation_number": "DK 4807",
+      "primary_fc_number": "0779",
+      "primary_volume": 1,
+      "primary_pdf_page": 405,
+      "primary_printed_page": 369,
+      "primary_column": 3,
+      "status": "documented_catalogue_field_association",
+      "suffix_interpretation": "No global rule inferred; original composite string retained"
+    },
+    {
+      "lipi_original_metadata": {
+        "id": "219.1",
+        "cisi": "M-1140",
+        "site": "Mohenjo-daro",
+        "excavation-idno": "DK11340188"
+      },
+      "cisi": "M-1140",
+      "primary_excavation_number": "DK 11340",
+      "primary_fc_number": "2188",
+      "primary_volume": 2,
+      "primary_pdf_page": 473,
+      "primary_printed_page": 438,
+      "primary_column": 3,
+      "status": "documented_catalogue_field_association",
+      "suffix_interpretation": "No global rule inferred; original composite string retained"
+    },
+    {
+      "lipi_original_metadata": {
+        "id": "278.1",
+        "cisi": "M-592",
+        "site": "Mohenjo-daro",
+        "excavation-idno": "SD 3225749"
+      },
+      "cisi": "M-592",
+      "primary_excavation_number": "SD 3225",
+      "primary_fc_number": "0749",
+      "primary_volume": 1,
+      "primary_pdf_page": 405,
+      "primary_printed_page": 369,
+      "primary_column": 3,
+      "status": "documented_catalogue_field_association",
+      "suffix_interpretation": "No global rule inferred; original composite string retained"
+    },
+    {
+      "lipi_original_metadata": {
+        "id": "583.1",
+        "cisi": "M-718",
+        "site": "Mohenjo-daro",
+        "excavation-idno": "DK5644209"
+      },
+      "cisi": "M-718",
+      "primary_excavation_number": "DK 5644",
+      "primary_fc_number": "2209",
+      "primary_volume": 2,
+      "primary_pdf_page": 470,
+      "primary_printed_page": 435,
+      "primary_column": 3,
+      "status": "documented_catalogue_field_association",
+      "suffix_interpretation": "No global rule inferred; original composite string retained"
+    },
+    {
+      "lipi_original_metadata": {
+        "id": "796.1",
+        "cisi": "M-233",
+        "site": "Mohenjo-daro",
+        "excavation-idno": "DK107993"
+      },
+      "cisi": "M-233",
+      "primary_excavation_number": "DK 10799",
+      "primary_fc_number": "2003",
+      "primary_volume": 1,
+      "primary_pdf_page": 403,
+      "primary_printed_page": 367,
+      "primary_column": 3,
+      "status": "documented_catalogue_field_association",
+      "suffix_interpretation": "No global rule inferred; original composite string retained"
+    }
+  ],
+  "specific_mackay_joins": [
+    {
+      "normalized_field_key": "DK10799",
+      "mackay_rows": [
+        {
+          "no": "3",
+          "type": "B",
+          "dims_in": "1.05x1.12x0.2",
+          "material": "Steatite",
+          "block": "",
+          "house": "",
+          "room": "",
+          "street": "",
+          "level_ft": "surface",
+          "field_no": "DK 10799",
+          "pdf_page": "45",
+          "area": "DK",
+          "level_dk_ft": "",
+          "phase_estimate": "surface"
+        }
+      ],
+      "lipi_rows": [
+        {
+          "id": "796.1",
+          "cisi": "M-233",
+          "site": "Mohenjo-daro",
+          "excavation-idno": "DK 10799"
+        }
+      ],
+      "artifact_key": "M-233",
+      "has_locus": false,
+      "has_raw_numeric_depth": false,
+      "manual_primary_context": {
+        "field_no": "DK 10799",
+        "block": null,
+        "house": null,
+        "room": null,
+        "level_ft": "Surface",
+        "numeric_level_ft": null,
+        "printed_page": 369,
+        "source": "data/raw/context-join-mackay-leaf391-network.jpg"
+      },
+      "link_status": "CISI field and Mackay row documented; original object marking not newly inspected"
+    },
+    {
+      "normalized_field_key": "DK11340",
+      "mackay_rows": [
+        {
+          "no": "188",
+          "type": "B",
+          "dims_in": "0.42x0.42x0.15",
+          "material": "Steatite",
+          "block": "13",
+          "house": "III",
+          "room": "17",
+          "street": "",
+          "level_ft": "-8.0",
+          "field_no": "DK 11340",
+          "pdf_page": "51",
+          "area": "DK",
+          "level_dk_ft": "-8.0",
+          "phase_estimate": "Late II"
+        }
+      ],
+      "lipi_rows": [
+        {
+          "id": "219.1",
+          "cisi": "M-1140",
+          "site": "Mohenjo-daro",
+          "excavation-idno": "DK 11340"
+        }
+      ],
+      "artifact_key": "M-1140",
+      "has_locus": true,
+      "has_raw_numeric_depth": true,
+      "manual_primary_context": {
+        "field_no": "DK 11340",
+        "block": "13",
+        "house": "III",
+        "room": "17",
+        "level_ft": "-8.0",
+        "numeric_level_ft": -8.0,
+        "printed_page": 375,
+        "source": "data/raw/context-join-mackay-leaf397.jpg"
+      },
+      "link_status": "CISI field and Mackay row documented; original object marking not newly inspected"
+    },
+    {
+      "normalized_field_key": "DK5644",
+      "mackay_rows": [
+        {
+          "no": "209",
+          "type": "B",
+          "dims_in": "?x?x0.07",
+          "material": "Steatite",
+          "block": "7",
+          "house": "III",
+          "room": "39",
+          "street": "",
+          "level_ft": "-8.2",
+          "field_no": "DK 5644",
+          "pdf_page": "52",
+          "area": "DK",
+          "level_dk_ft": "-8.2",
+          "phase_estimate": "Late II"
+        }
+      ],
+      "lipi_rows": [
+        {
+          "id": "583.1",
+          "cisi": "M-718",
+          "site": "Mohenjo-daro",
+          "excavation-idno": "DK 5644"
+        }
+      ],
+      "artifact_key": "M-718",
+      "has_locus": true,
+      "has_raw_numeric_depth": true,
+      "manual_primary_context": {
+        "field_no": "DK 5644",
+        "block": "7",
+        "house": "III",
+        "room": "39",
+        "level_ft": "-8.2",
+        "numeric_level_ft": -8.2,
+        "printed_page": 376,
+        "source": "data/raw/chain_artifact_mackay_leaf398.jpg"
+      },
+      "link_status": "CISI field and Mackay row documented; original object marking not newly inspected"
+    }
+  ],
+  "table_match_count": 3,
+  "specific_targets_without_table_match": [
+    {
+      "lipi_original_metadata": {
+        "id": "180.1",
+        "cisi": "M-584",
+        "site": "Mohenjo-daro",
+        "excavation-idno": "DK4807779"
+      },
+      "cisi": "M-584",
+      "primary_excavation_number": "DK 4807",
+      "primary_fc_number": "0779",
+      "primary_volume": 1,
+      "primary_pdf_page": 405,
+      "primary_printed_page": 369,
+      "primary_column": 3,
+      "status": "documented_catalogue_field_association",
+      "suffix_interpretation": "No global rule inferred; original composite string retained"
+    },
+    {
+      "lipi_original_metadata": {
+        "id": "278.1",
+        "cisi": "M-592",
+        "site": "Mohenjo-daro",
+        "excavation-idno": "SD 3225749"
+      },
+      "cisi": "M-592",
+      "primary_excavation_number": "SD 3225",
+      "primary_fc_number": "0749",
+      "primary_volume": 1,
+      "primary_pdf_page": 405,
+      "primary_printed_page": 369,
+      "primary_column": 3,
+      "status": "documented_catalogue_field_association",
+      "suffix_interpretation": "No global rule inferred; original composite string retained"
+    }
+  ],
+  "supplemental_primary_context": {
+    "cisi": "M-592",
+    "field_no": "SD 3225",
+    "source": "data/raw/context-join-mackay-leaf391-network.jpg",
+    "printed_page": 369,
+    "form_literal": "tablet; appears bronze; both sides in relief",
+    "area": "SD",
+    "block": "6",
+    "house": null,
+    "room": "13",
+    "level_ft": -0.8,
+    "status": "Explicit narrative field association; separate from seal-table sample and DK depth convention"
+  },
+  "unresolved_context": [
+    {
+      "cisi": "M-584",
+      "reason": "CISI field association verified, no primary context pixels authenticated in this bounded review"
+    }
+  ],
+  "outcome": "Three specific seal-table associations documented, two numeric room-depth records at different loci, no replicated matched deposit comparison",
+  "constraints": [
+    "Original identifiers unchanged; no suffix stripping or inferred corpus-wide identities",
+    "Linked catalogue descriptions are not independent observations",
+    "CISI warns that some excavation numbers are wrong; no new object marking verification",
+    "AI-assisted public table remains unverified outside these specific rows",
+    "Room plus depth is not secure contemporaneous deposition or original use",
+    "SD narrative depth is not pooled with DK table or Marshall surface datum",
+    "No sign outcomes, translations, phonetic or semantic values used or assigned"
+  ],
+  "retrieval_attempts": [
+    "Sandbox DNS failures for leaves391/392 preserved; no bytes received",
+    "Successful network retrieval of leaves391/397; leaf398 already retained",
+    "Initial page-offset lead from printed363 was rejected by inspecting retained page; public chapter PDF45 corresponds to printed369"
+  ],
+  "evidence_pins": [
+    {
+      "path": "data/raw/lipi_inscriptions.csv",
+      "bytes": 1204921,
+      "sha256": "b8dcb325a2e2cd3cde12ac12e7a418b0348e45713c9ee28aad81b645d2ac5ee4"
+    },
+    {
+      "path": "data/raw/cisi_76884.pdf",
+      "bytes": 31508998,
+      "sha256": "47a4da4227cfb7baa56d6a561e25797225499d0ec54f5a702a82c67ab4746d4d"
+    },
+    {
+      "path": "data/raw/h843_identity_CorpusVol2.pdf",
+      "bytes": 35870617,
+      "sha256": "727132579a485ee626e48a64c663148a85fbc0811fb523818fd615231f8a327d"
+    },
+    {
+      "path": "data/raw/public-context-oct11-mackay-seal-table.csv",
+      "bytes": 55974,
+      "sha256": "0d2499b2079d05fd9d67c9e5f694799827234712f242b6a14e47a22d0a03f518"
+    },
+    {
+      "path": "data/raw/metal_original_mackay18225_page_numbers.json",
+      "bytes": 142059,
+      "sha256": "e42db27645509f189765152d9fe088a15552f3bfb1cc955cf33b94ad8f49ca2a"
+    },
+    {
+      "path": "scripts/persist_public_context_identity_review.py",
+      "bytes": 7532,
+      "sha256": "11edd5ef09174799a646e5b5629717dd56eed9e2d15c08844545446ccf38a57a"
+    },
+    {
+      "path": "scripts/profile_public_context_tables.py",
+      "bytes": 8801,
+      "sha256": "6a8cfbb948e09ce7193b025505f47993df3ba7c47da1ba071b5fc833a7880dde"
+    },
+    {
+      "path": "data/raw/context-join-mackay-leaf391-network.jpg",
+      "bytes": 2847946,
+      "sha256": "2414ce64cd730c4c7fd3c0cb19ac82bc06fac4f5a43a6c05326a7e0896080329"
+    },
+    {
+      "path": "data/raw/context-join-mackay-leaf397.jpg",
+      "bytes": 1732772,
+      "sha256": "cce0d5564c85902c13fd9524de9aad12a1d3e75895495aad30c208bd9df0ec0f"
+    },
+    {
+      "path": "data/raw/chain_artifact_mackay_leaf398.jpg",
+      "bytes": 1712653,
+      "sha256": "661b12fe50f8c9b5a77d4bfb86b6204f5cd04395a6296d104b06cdeb560e8de3"
+    },
+    {
+      "path": "results/primary_pages/context-join-M1140.png",
+      "bytes": 60911,
+      "sha256": "7334bc1f37fd6af59477b15c53fe396a76a87dc2ddb61279f6a329392fa0f656"
+    },
+    {
+      "path": "results/primary_pages/context-join-M584-M592.png",
+      "bytes": 211546,
+      "sha256": "bab80f4a265631437df927328b52ae291dc5cf05dc26b7853080a96935bd52d2"
+    },
+    {
+      "path": "results/primary_pages/context-join-M718.png",
+      "bytes": 32501,
+      "sha256": "ebe5be871f881d70a7ccdced7f145b6f38a1ed0b29358b73cbb6ae2ce3510621"
+    },
+    {
+      "path": "results/primary_pages/context-join-cisi1-405.png",
+      "bytes": 3084686,
+      "sha256": "cb9e83cfdaf4b6dcb5b9ce648b279fb38a1a87b39e96039d62f7078e352b332f"
+    },
+    {
+      "path": "results/primary_pages/context-join-cisi1-406.png",
+      "bytes": 3028361,
+      "sha256": "459d0401af4cd4c29ce1669b2506a2dd82fa2a3864203b97c0bd03d4aa71e308"
+    },
+    {
+      "path": "results/primary_pages/context-join-cisi1-key-401.png",
+      "bytes": 1374980,
+      "sha256": "dbac7207ed0ba12ce1f96cff07dd9d43ea9e5578e8397bd0df73409c9ff8e209"
+    },
+    {
+      "path": "results/primary_pages/context-join-cisi1-key-402.png",
+      "bytes": 3186059,
+      "sha256": "dd6e896b8becd4ab49c0ac2c0997d9c88ec6cd6bcf6a534af91334c109146001"
+    },
+    {
+      "path": "results/primary_pages/context-join-cisi2-470.png",
+      "bytes": 2906408,
+      "sha256": "c8c64e496195277f8dd1567b6b15c0f2cda7bdd4f5e113d174d14a962f007770"
+    },
+    {
+      "path": "results/primary_pages/context-join-cisi2-471.png",
+      "bytes": 2842161,
+      "sha256": "6b455dece2b93255547f35e03c803182bd7fb1f39b8c5aa716ebfca8e727be85"
+    },
+    {
+      "path": "results/primary_pages/context-join-cisi2-472.png",
+      "bytes": 2945683,
+      "sha256": "330ce9f0fd99daf2b73c0f6742b228efb3601371b0dd088362ccd98ab7cfda19"
+    },
+    {
+      "path": "results/primary_pages/context-join-cisi2-473.png",
+      "bytes": 3022289,
+      "sha256": "50fd95c7891c799dbd6c5d8cd76c4d47ec7fcbd1ebb0846e4759bac07fb5205a"
+    },
+    {
+      "path": "results/primary_pages/context-join-cisi2-key-469.png",
+      "bytes": 2283222,
+      "sha256": "7e891986c8aa4f5299101b13f80ce0fe1cd27f45e05bcd120857a7730e98884e"
+    }
+  ]
+}

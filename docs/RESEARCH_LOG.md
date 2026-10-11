@@ -5803,3 +5803,66 @@ The experiment examples remain project-level findings; no unsupported per-model
 attribution, continuous-runtime claim, exact start date or model comparison was
 added. Scientific results and linked sources are unchanged. No research run or
 website publication.
+
+## 2026-10-11 — Close saved ending test; authenticate five context identities
+
+Resumption inspected ACTIVE_STATE and Git before work. The handoff was stale:
+ending v2 had already run and stopped. No process or real experiment was relaunched.
+Independent read-only review verified all source/code/protocol pins, seven logical
+output hashes and lossless compressed storage, and separately reproduced889
+qualifying pairs from635 saved families, each on one preceding string.645 eligible
+artifacts; maximum support1; zero candidates/draws; p values null.17 synthetic tests
+pass. Closed precisely this predicate, not inflection, language or decipherment.
+Saved result report and kept frozen data unchanged. Gzip binary uses Git LFS.
+
+Inherited public metadata batch profiled709 Mackay records; strict normalized field
+keys had zero Lipi overlaps. Seven metadata tests pass. Fixed the first five
+nonmissing-CISI/field Mohenjo-daro records before primary inspection; read-only
+critic confirmed scope. Retained CISI tables explicitly give M584→DK4807,
+M1140→DK11340, M592→SD3225, M718→DK5644, M233→DK10799. Labels establish FC in
+column2 and excavation number in column3. Appended Lipi values do not all mean the
+same reference type; no global suffix parser or namespace merge was inferred.
+Three specific fields match Mackay seal-table rows188/209/3. Inspected original
+printed375/376/369 pixels: two different rooms with numeric depths and one surface
+find. Printed369 separately authenticates SD3225’s narrative locus and depth;
+not a seal-table row and not pooled with DK. DK4807 context pixels unresolved.
+CISI caveat about possibly wrong excavation numbers retained; no new object
+marking or original-use verification. Original strict zero-overlap profile preserved.
+
+Two sandbox source fetches failed DNS without receiving bytes, including an initial
+incorrect page-offset lead. Viewing retained printed363 rejected that offset;
+chapter PDF45 corresponds to printed369. Authorized network retrieval succeeded
+for leaves391/397, with bodies and headers registered by bytes/SHA256/provenance.
+Leaf398 was already retained. Failure records remain. No outreach of any kind.
+All318 tests then passed. Concurrent blog-chat commits were observed and preserved;
+research work neither edited the blog nor reset its commits.
+
+## 2026-10-11 — Frozen metadata locator feasibility; four-object next gate
+
+After the five-record check completed, independently criticized and froze one new
+source-based metadata locator rule: literal normalized Mackay field_no+no against
+Lipi excavation-idno. The rule is exploratory and unvalidated beyond specific
+checks. No sign/readings/translation columns or inferred phase labels enter it.
+Reject missing keys, concatenation-boundary collisions, duplicated table fields,
+ambiguous artifact keys, inconsistent artifact fields and sites. Repeated Lipi
+rows are witnesses. Five adversarial tests pass. One frozen pass produced627
+provisional locators from709 rows;82 exclusions.397 have all area/block/house/room
+and finite raw depth;393 distinct tuples;4 repeated tuples, each with2 provisional
+artifact keys. Complete candidate/exclusion/missing-field ledgers and source pins
+retained. Matching numeric room/depth labels is only coverage, not shared deposit,
+independence, contemporaneity, semantic interpretation or a significance result.
+
+Next finite pilot fixed to four objects in the first two lexically ordered tuples:
+M1178/M1190 and M1746/M1879. Require individual primary identity chains and actual
+archaeological context/datum; absent retained CISI coverage stays unresolved, with
+no target substitution. No primary pilot or sign analysis auto-launched in this
+batch. Claude's previously recorded provider usage-credit failure was not retried;
+read-only agent criticism supplied methodological checking, not new source facts.
+No phonetic/semantic values established; overall decipherment remains unresolved.
+
+Read-only post-run locator review accepted all counts, projected fields, keys,
+witnesses and exclusion reasons against pinned sources. It identified a missing
+imported-helper hash in the result; saved a separate audit manifest pinning that
+helper and retained the original result unchanged. Four-object pilot identifiers,
+field numbers, Mackay rows and input hash are explicitly frozen in a separate
+protocol. Source registry verification passed for all522 registered artifacts.

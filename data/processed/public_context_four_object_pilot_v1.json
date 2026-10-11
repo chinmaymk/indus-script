@@ -1,0 +1,69 @@
+{
+  "id": "public-context-four-object-pilot-v1",
+  "date": "2026-10-11",
+  "status": "frozen next action; not run",
+  "selection": "First two lexicographically ordered repeated complete raw tuples in frozen locator result; all objects in each tuple; metadata only",
+  "targets": [
+    {
+      "cisi": "M-1178",
+      "field_no": "DK 7448",
+      "mackay_no": "559",
+      "raw_tuple": [
+        "DK",
+        "2",
+        "IV",
+        "20",
+        "-16.5"
+      ]
+    },
+    {
+      "cisi": "M-1190",
+      "field_no": "DK 7447",
+      "mackay_no": "558",
+      "raw_tuple": [
+        "DK",
+        "2",
+        "IV",
+        "20",
+        "-16.5"
+      ]
+    },
+    {
+      "cisi": "M-1746",
+      "field_no": "DK 3693",
+      "mackay_no": "338",
+      "raw_tuple": [
+        "DK",
+        "7",
+        "II",
+        "88",
+        "-10.8"
+      ]
+    },
+    {
+      "cisi": "M-1879",
+      "field_no": "DK 3692",
+      "mackay_no": "334",
+      "raw_tuple": [
+        "DK",
+        "7",
+        "II",
+        "88",
+        "-10.8"
+      ]
+    }
+  ],
+  "input_pin": {
+    "path": "results/public_context_locators_v1.json",
+    "bytes": 575228,
+    "sha256": "131b4c166100e01b31e03ee71ce923f7a9a77b7d54bc0f09b9a641ccae3489fd"
+  },
+  "required_evidence": [
+    "Individual primary CISI-field-Mackay association",
+    "Literal primary locus and depth, datum, stratigraphic context",
+    "Any explicit shared-deposition and distinct-physical-object evidence; record unavailable observations separately"
+  ],
+  "stop": "Four targets and their directly cited retained primary records. No target replacement, broad public search, sign-outcome review or significance test. No table-wide validation from this pilot.",
+  "unavailable": "Missing primary coverage remains unresolved because primary evidence is unavailable, not negative identity evidence",
+  "interpretation": "Pilot records do not themselves establish independent deposition or replicated contextual contrast"
+}

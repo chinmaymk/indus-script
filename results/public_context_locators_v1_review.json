@@ -1,0 +1,42 @@
+{
+  "date": "2026-10-11",
+  "review": "Independent read-only agent checked saved ledger, current helper behavior and all source metadata; did not rerun real experiment",
+  "accepted": true,
+  "verified_counts": {
+    "table_rows": 709,
+    "provisional_locators": 627,
+    "excluded_table_rows": 82,
+    "with_complete_raw_tuple": 397,
+    "distinct_raw_tuples": 393,
+    "repeated_raw_tuples": 4
+  },
+  "synthetic_tests_passed": 5,
+  "provenance_amendment": "Separate audit pins imported metadata helpers omitted from original result. Original frozen result and script remain unchanged.",
+  "evidence_pins": [
+    {
+      "path": "scripts/profile_public_context_tables.py",
+      "bytes": 8801,
+      "sha256": "6a8cfbb948e09ce7193b025505f47993df3ba7c47da1ba071b5fc833a7880dde"
+    },
+    {
+      "path": "scripts/profile_public_context_locators.py",
+      "bytes": 6072,
+      "sha256": "a80cac0e0d275cc3cd1f8ff25dcd9556d34d1db3af25f66f2534168485cb1f18"
+    },
+    {
+      "path": "tests/test_public_context_locators.py",
+      "bytes": 2724,
+      "sha256": "895c2bf6934d7bdcbe07c7d2e6ed93f3ffd3ffe42a3e5ffa57275371171ac12b"
+    },
+    {
+      "path": "results/public_context_locators_v1.json",
+      "bytes": 575228,
+      "sha256": "131b4c166100e01b31e03ee71ce923f7a9a77b7d54bc0f09b9a641ccae3489fd"
+    },
+    {
+      "path": "data/processed/public_context_locator_protocol_v1.json",
+      "bytes": 2742,
+      "sha256": "2e3caf4c8abbae1aa4dcb525230d6aadf04d046c4b30554064e2816786a29e86"
+    }
+  ]
+}

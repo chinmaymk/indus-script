@@ -1,0 +1,49 @@
+{
+  "id": "public-context-locator-v1",
+  "date": "2026-10-11",
+  "status": "frozen before full candidate counts; exploratory feasibility, not confirmation",
+  "motivation": "Three individually inspected CISI field and Mackay-row associations agree with literal field_no+no. Suffix meanings vary outside these examples. Existing zero strict-field-overlap result remains unchanged.",
+  "source_pins": [
+    {
+      "path": "data/raw/lipi_inscriptions.csv",
+      "sha256": "b8dcb325a2e2cd3cde12ac12e7a418b0348e45713c9ee28aad81b645d2ac5ee4"
+    },
+    {
+      "path": "data/raw/public-context-oct11-mackay-seal-table.csv",
+      "sha256": "0d2499b2079d05fd9d67c9e5f694799827234712f242b6a14e47a22d0a03f518"
+    },
+    {
+      "path": "results/public_context_identity_five.json",
+      "sha256": "00d3aef9737895426d2a8c4e2fe29fdd388fef2040acc7709d6d8a9cf0337af8"
+    }
+  ],
+  "lipi_columns": [
+    "id",
+    "cisi",
+    "site",
+    "excavation-idno"
+  ],
+  "rule": "Uppercase and remove whitespace only. Candidate table key is normalize(field_no)+normalize(no), compared literally to normalize(Lipi excavation-idno). Preserve punctuation, prefixes, leading zeroes and letters. No splits, repairs or other variants.",
+  "artifact_key": "nonmissing CISI else lipi_id:+id before first dot; missing id gives no key",
+  "rejections": [
+    "missing table field/no",
+    "nonunique concatenated table key, including different-boundary collisions",
+    "table field key repeated under multiple rows",
+    "Lipi key shared by multiple artifact keys or missing artifact key",
+    "artifact under inconsistent nonmissing field keys",
+    "artifact under inconsistent sites or site not exact Mohenjo-daro"
+  ],
+  "unit": "provisional artifact locator; repeated rows retained as witnesses, not objects; no physical independence established",
+  "coverage": "Complete exact raw tuple (area,block,house,room,level_ft) only when every component nonmissing and level finite numeric. Retain signed raw level string and area. Never use phase_estimate or shifted level_dk_ft. Tuple equality is a coverage diagnostic, not deposit identity or temporal equality.",
+  "stop": "One source-order deterministic pass and complete candidate/exclusion ledger. No primary follow-up auto-launched or significance test. No parameter variants.",
+  "next_gate": "Before contextual use, each artifact needs explicit primary CISI-field-Mackay chain, primary context/datum/stratigraphy verification, and physical-artifact plus independent-deposit audit. Freeze a separately bounded pilot first.",
+  "unidentified": [
+    "sounds",
+    "meanings",
+    "language",
+    "word boundaries",
+    "original object use",
+    "secure depositional units",
+    "replicated domain contrast"
+  ]
+}

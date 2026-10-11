@@ -2,56 +2,76 @@
 
 Updated 11 October 2026. **No decipherment; all 417 sign meanings/sounds unresolved.**
 Read this first, then retrieve only relevant evidence through `RESEARCH_INDEX.md`.
-Full history belongs in `RESEARCH_LOG.md`.
+Full history belongs in `RESEARCH_LOG.md`. Public and retained data only;
+**no outreach of any kind**. The Penn request is an archival draft.
 
 ## One current action
 
-User resumed research using public and retained data only. **No outreach of any
-kind.** Do not seek email permission again. The Penn request is an archival draft.
+Authenticate exactly four provisional context locators from the first two
+lexicographically sorted repeated raw tuples in
+`results/public_context_locators_v1.json`: M-1178/DK7448/FEM559,
+M-1190/DK7447/FEM558 (DK block2, houseIV, room20, −16.5ft);
+M-1746/DK3693/FEM338 and M-1879/DK3692/FEM334
+(DK block7, houseII, room88, −10.8ft). Selection used metadata only.
 
-Run the frozen `data/processed/coupled_endings_protocol_v2.json` on the retained
-Lipi export: exact Mohenjo-daro / `SEAL:S`, strict complete rows, validated artifact
-groups, unique full texts, two-sign terminal alternatives differing in both slots.
-Question: do the same alternatives recur across preceding strings beyond their
-length-conditioned availability? Intact-ending shuffles preserve internal
-penultimate/final association; this is not a test of independent versus coupled
-changes, a syllabic grid, or a grammar/language classifier.
+Expected evidence: individual primary CISI→field→Mackay chains, correct context
+and datum, and any explicit shared-deposition evidence; otherwise preserve
+unresolved identity/context. Stop after these four and their directly cited
+retained primary records. Missing CISI coverage is a failure, not permission to
+replace a target or start a broad artifact hunt. No sign outcomes or tests yet.
+Room/depth equality is not a secure deposit or independent replicated contrast.
+Even successful pilot records do not authenticate the full locator rule.
+See `PUBLIC_CONTEXT_LOCATORS.md` and the pinned locator protocol/result.
+Pilot identifiers are frozen in `data/processed/public_context_four_object_pilot_v1.json`.
 
-Implementation agent `/root/coupled_endings_impl` is preparing synthetic tests.
-No new real counts yet. Pre-run review corrected a deduplication mismatch: null proposals must preserve
-unique stem-ending edges. The earlier support formula is now only an upper bound.
-Next: review code/tests and run once; if eligible, collect 9,999 accepted shuffles
-per length stratum, capped at 1,000,000 proposals each. Failure gives no p value.
-Global maximum includes previously unobserved pairs.
-Stop if no qualifying repeated pair or corrected candidate. Only surviving
-candidates permit up to five retained-primary checks. No thresholds/boundaries
-changed after outcomes. No other route starts in parallel.
+## Completed tests / closed routes
 
-## Why this route / what stays closed
+Coupled endings v2 completed once: 645 eligible artifacts / 635 unique full texts;
+889 qualifying ending pairs, each on only one exact preceding string. Maximum
+support 1, zero candidates. Frozen early stop: no Monte Carlo and p values null.
+Independent read-only review reproduced the counts from saved families and
+verified all pins and output hashes. All 17 synthetic tests pass. Do not rerun,
+change boundaries or relax eligibility. See `COUPLED_ENDINGS_V2_RESULT.md`.
 
-One-position substitution networks already exist; do not repeat them as a numeral
-screen. Earlier ending tests used 99 verified rows (support follow-up 198); the
-larger homogeneous export subset has not had this restricted two-sign screen.
-The novelty is data scope and predicate, not a wholly new Kober method.
+The public-table strict metadata screen found 709 Mackay rows and 703 with some
+locus plus numeric depth, but zero eligible Lipi joins. AI-assisted source
+transcription and heterogeneous depth datums remain limitations. The new source
+justified a completed fixed five-record check: all five CISI field associations
+documented, three Mackay rows individually verified. Two have numeric room/depth
+records at different loci; one is a surface find. SD3225 has a separate narrative
+context. No replicated contrast. See `PUBLIC_CONTEXT_IDENTITY_FIVE.md` and
+`PUBLIC_CONTEXT_FEASIBILITY.md`.
 
-Motif v2 is closed: 716 texts/748 pairs, global p=.7609, zero candidates. Numeral
-c/b=2/3 remains conditional on unproved equal quantities, with H1923 conflicting.
-No quantity calibration pair or secured replicated deposit contrast exists in
-reviewed data. More fits cannot manufacture one. No broad artifact/H1923 search,
-empty-support shuffles or automatic transcription expansion.
+The metadata-only locator v1 pass completed once: 627 provisional locators,
+397 complete raw locus/depth tuples, 393 distinct tuples, four repeated groups
+of two. Complete exclusions retained. No corpus amendment or significance test.
+The literal field+publication-number rule remains a locator hypothesis, not a
+validated global join; no new semantic anchor has been established.
+
+Motif v2 is closed: 716 texts/748 pairs, global p=.7609, zero candidates. Existing
+one-position networks are not a new numeral screen. Numeral c/b=2/3 remains
+conditional on unproved equal quantities, with H1923 conflicting. No quantity
+calibration pair or secured replicated deposit contrast exists in reviewed data.
+No broad artifact/H1923 search or automatic transcription expansion.
 
 Corpus v5: 198 lines/185 references, 949 assigned positions/173 types, 23 LOSS,
-35 source doubts; print fidelity only. k2 ending support is feasible but observed
-zero; k1 impossible in that sample. Those results remain historical evidence.
+35 source doubts; print fidelity only. k2 support feasible but observed zero;
+k1 impossible in that sample. Those results remain historical evidence.
 
 ## Persistence / runtime
 
-Last verified upstream before this run: `50c5b13`; inspect Git for current state.
-Raw captures stay in `data/raw/` and `data/sources.json`; latest two-query public
-search capture is registered, with no external corpus or interpretation adopted.
-Baseline 294 tests passed. New run and tests pending. Claude follow-up previously
-hit a usage-credit limit; no live Claude process.
+Editorial handoff: `docs/blog/trying-to-decipher-the-indus-script-with-ai.md`
+is a first-person draft for chinmay.ai, ready for author review; not published.
+Author clarified the premise: Astra tried autonomously for roughly two weeks;
+Opus and Sol were brought in later as Astra struggled. The draft follows that
+sequence. This writing task did not launch or rerun a research experiment.
 
-Python with NumPy/Pillow:
-`/Users/chinmaymk/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3`.
-GitHub backup to origin/main remains authorized. Never overwrite frozen results.
+For the latest blog backup, inspect Git; research checkpoint was `e9c5dc6`.
+Saved ending results and public source batch still await their separate backup.
+Raw captures stay in `data/raw/`, registered in `data/sources.json`; derived
+results in `results/` or `data/processed/`. Do not overwrite frozen inputs/results.
+Claude's last follow-up hit a provider usage-credit limit; no new opinion obtained.
+318 baseline/current tests and all 5 new adversarial locator tests pass.
+Python: `/Users/chinmaymk/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3`.
+GitHub backup to origin/main authorized. Never mark overall goal complete on
+structural evidence alone.
