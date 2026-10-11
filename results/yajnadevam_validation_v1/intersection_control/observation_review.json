@@ -1,0 +1,32 @@
+{
+  "date": "2026-10-11",
+  "bug_reproduced": true,
+  "scope": "Original program intersection soundness; not ancient readings or Sanskrit validity",
+  "program_invocations": 1,
+  "rerun": false,
+  "original_program_and_regexes_unchanged": true,
+  "final_original_candidates": [
+    "j"
+  ],
+  "correct_cumulative_candidates": [],
+  "observation_defect": "Initial driver required one space before =; original comment removal leaves two. Saved original stdout already contains final j.",
+  "initial_observation_preserved": "results/yajnadevam_validation_v1/intersection_control/result.json",
+  "corrected_conclusion": "Empty-set reset reproduced: final j violates earlier row; original output is not a cumulative-intersection proof",
+  "pins": [
+    {
+      "path": "results/yajnadevam_validation_v1/intersection_control/result.json",
+      "bytes": 2656,
+      "sha256": "104ea0e70d1307f7e1fed5ba3c77e50ed0d68e204cf9f3af9e55501c8970708e"
+    },
+    {
+      "path": "results/yajnadevam_validation_v1/intersection_control/stdout.txt",
+      "bytes": 504,
+      "sha256": "5723eae71ad1d7e789ab8291313d770e7529e3109318170d2b03b7a319ecb3be"
+    },
+    {
+      "path": "scripts/review_yajnadevam_intersection_output.py",
+      "bytes": 2031,
+      "sha256": "bfadc095fd4caa85e399cff53a656b511d138e4ad3ff77f433bb5b8281320ee3"
+    }
+  ]
+}

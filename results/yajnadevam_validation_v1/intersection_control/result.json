@@ -1,0 +1,90 @@
+{
+  "scope": "Algorithmic cumulative-intersection soundness only; no Sanskrit or historical truth test",
+  "invocation": [
+    "/usr/bin/perl",
+    "/Users/chinmaymk/github/indus-script/data/raw/yajnadevam-prove-oct11.pl"
+  ],
+  "exit_code": 0,
+  "original_rows_unchanged": true,
+  "original_program_unchanged": true,
+  "dictionary_kind": "controlled toy fixture, not original Sanskrit dictionary",
+  "independent_rows": [
+    {
+      "cisi": "C-80",
+      "source_sign_string": "1-3",
+      "source_regex": "an(..?)",
+      "candidates": [
+        "d"
+      ],
+      "cumulative_candidates": [
+        "d"
+      ]
+    },
+    {
+      "cisi": "H-1919",
+      "source_sign_string": "3-1",
+      "source_regex": "(..?)an",
+      "candidates": [],
+      "cumulative_candidates": []
+    },
+    {
+      "cisi": "M-1637",
+      "source_sign_string": "3-2",
+      "source_regex": "(..?)a",
+      "candidates": [
+        "j",
+        "jj"
+      ],
+      "cumulative_candidates": []
+    },
+    {
+      "cisi": "H-1545",
+      "source_sign_string": "3-3-2",
+      "source_regex": "(..?)\\1a",
+      "candidates": [
+        "j"
+      ],
+      "cumulative_candidates": []
+    }
+  ],
+  "original_final_lines": [],
+  "bug_reproduced": false,
+  "conclusion": "Prediction not reproduced; investigate before conclusion",
+  "pins": [
+    {
+      "path": "data/processed/yajnadevam_intersection_control_protocol_v1.json",
+      "bytes": 1902,
+      "sha256": "ca1efba923afcca24540e0fef895fd640f7faa1da3c3b3916e41f1b03ae8e5fa"
+    },
+    {
+      "path": "data/raw/yajnadevam-prove-oct11.pl",
+      "bytes": 2341,
+      "sha256": "d65c1f2b77d6a9b453274a2ce79c69dd87b0e1f8f7d02437950ce95ef826443d"
+    },
+    {
+      "path": "results/yajnadevam_validation_v1/intersection_control/data/testcorpus.txt",
+      "bytes": 149,
+      "sha256": "f157f71329e16d1b6145502af92a169bd0d42aa1db292382404e9df3cd565152"
+    },
+    {
+      "path": "results/yajnadevam_validation_v1/intersection_control/mw.txt",
+      "bytes": 11,
+      "sha256": "40eeaff1d6924b957d2ecd7ddad5454876f95a5ea56c7036abacdfb601bdaa05"
+    },
+    {
+      "path": "results/yajnadevam_validation_v1/intersection_control/stdout.txt",
+      "bytes": 504,
+      "sha256": "5723eae71ad1d7e789ab8291313d770e7529e3109318170d2b03b7a319ecb3be"
+    },
+    {
+      "path": "results/yajnadevam_validation_v1/intersection_control/stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "scripts/check_yajnadevam_intersection.py",
+      "bytes": 3445,
+      "sha256": "844f2b1f6046d8102a2a5950bba16a30f1d30a1d27822a875d0d4e640ebeec77"
+    }
+  ]
+}

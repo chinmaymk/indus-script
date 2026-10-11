@@ -1,0 +1,57 @@
+{
+  "date": "2026-10-11",
+  "kind": "derived_read_only_agent_criticism",
+  "reviewers": [
+    "/root/yajna_math_review",
+    "/root/next_anchor_critique"
+  ],
+  "math_review": "Unicity estimate is not deterministic uniqueness for this corpus. Fixed homophonic model does not account for all adaptive reading rules; no frozen withheld validation found in inspected method/conclusion. Invalid proof does not establish all values false.",
+  "code_review": "Conditional substitution skips an empty prior candidate set; next row can restore options. Earlier groups do not propagate automatically. Raw sign strings are printed rather than used as independent decoding constraints.",
+  "final_saved_output_verification": "Original003 fixture candidate sets {d},{},{j,jj},{j}; cumulative intersection empty after row2. Saved original stdout returns j. Initial driver false result is whitespace-only observation defect, corrected without rerun.",
+  "scope_objection": "Toy dictionary proves unsound intersection semantics, not frequency with author Sanskrit dictionary or falsity of every reading.",
+  "name_review": "Reviewed P516366 has illegible seal; P525331 is cuneiform interpreter seal without Indus counterpart. Other Table2 objects not all independently authenticated. No attributed matching Indus sequence in these comparisons.",
+  "reruns": 0,
+  "edits_by_reviewers": false,
+  "pins": [
+    {
+      "path": "data/raw/yajnadevam-cryptanalytic-paper-oct11.pdf",
+      "bytes": 741788,
+      "sha256": "81c026b78a66a13d1bbc14d9c145bdd5ecabda0ada9b6d14a3ea206a1c68c599"
+    },
+    {
+      "path": "data/raw/yajnadevam-prove-oct11.pl",
+      "bytes": 2341,
+      "sha256": "d65c1f2b77d6a9b453274a2ce79c69dd87b0e1f8f7d02437950ce95ef826443d"
+    },
+    {
+      "path": "data/raw/yajnadevam-testcorpus-oct11.txt",
+      "bytes": 2572,
+      "sha256": "896cb303dea81ec159b7d3b6062fe74bd6b96c334200b3ffb8fba41957420641"
+    },
+    {
+      "path": "results/yajnadevam_validation_v1/intersection_control/stdout.txt",
+      "bytes": 504,
+      "sha256": "5723eae71ad1d7e789ab8291313d770e7529e3109318170d2b03b7a319ecb3be"
+    },
+    {
+      "path": "results/yajnadevam_validation_v1/intersection_control/result.json",
+      "bytes": 2656,
+      "sha256": "104ea0e70d1307f7e1fed5ba3c77e50ed0d68e204cf9f3af9e55501c8970708e"
+    },
+    {
+      "path": "results/yajnadevam_validation_v1/intersection_control/observation_review.json",
+      "bytes": 1330,
+      "sha256": "cf525d8e55da344cf083aaba927c33760afdbb9b0f90acdccba975f081bdb540"
+    },
+    {
+      "path": "docs/MELUHHA_NAME_POOL.md",
+      "bytes": 5407,
+      "sha256": "48e8042a71d035a3301523dac491c695434274fc0eaa897547cc40af13ad7348"
+    },
+    {
+      "path": "docs/EXTERNAL_NAME_ANCHORS.md",
+      "bytes": 7946,
+      "sha256": "48e0acf0d60503bd47281b9f94b49930ac05635e3910eb5b2d9a846544179b84"
+    }
+  ]
+}

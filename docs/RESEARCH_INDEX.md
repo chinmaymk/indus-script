@@ -19,6 +19,7 @@ not make historical reports current. Follow their pinned inputs and scope.
 | Can the new public excavation tables be joined? | `PUBLIC_CONTEXT_FEASIBILITY.md`; `PUBLIC_CONTEXT_IDENTITY_FIVE.md`; `PUBLIC_CONTEXT_LOCATORS.md` |
 | Did the four-object locator pilot secure shared deposits? | `PUBLIC_CONTEXT_FOUR_OBJECT_PILOT.md`; frozen pilot result |
 | Can Bagasra supply an independent craft-domain contrast? | `BAGASRA_CONTEXT_ELIGIBILITY.md`; `../results/bagasra_context_eligibility_v1/decision.json` |
+| Does Yajnadevam/Bharath Rao's claim establish decipherment? | `YAJNADEVAM_VALIDATION.md`; `../results/yajnadevam_validation_v1/decision.json`; original-run observation review |
 | What did Claude actually recommend? | `CLAUDE_SECOND_OPINION.md`; open linked raw response only if needed |
 | What has already been tried? | Search `RESEARCH_LOG.md` for the specific route; do not read it wholesale |
 | Where are all older report links? | `archive/README_2026-10-10_before_context_cleanup.md` |

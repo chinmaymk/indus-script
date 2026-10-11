@@ -6018,3 +6018,113 @@ page without a specific changed public source. Separate source decision saved.
 A specifically newly encountered2025 primary DOI10.1017/rdc.2024.119 is a possible
 bounded next-source criticism, not evidence of inscription-associated chronology
 or a semantic anchor. No old calibration/deposit model is reopened.
+
+
+## 2026-10-11 — Bhagatrav single-source criticism
+
+Previous goal turn classified progress: new primary Bagasra source inspected,
+closed eligibility gates, conflicts preserved and completed batches backed up;
+none was treated as decipherment. Current frozen Bhagatrav check used two exact
+source attempts. Web DOI open inaccessible; direct preserved DOI HTTP succeeded200,
+1188595bytes, SHA256ebdab4c803b678b7a20e6a46dab7c4d5c855e05cf436eed466bb679f6fe0f0e9,
+resolved to Cambridge full article. HTML/headers and original failed tool capture
+registered. No extra opens/references. Initial bs4 import unavailable before any
+output; standard-library HTMLParser extracted76775 visible characters with
+script/style/nav/header/footer excluded. Body context sections selectively read.
+
+Primary Radiocarbon67(1),2025,53–73 dates archaeological materials and iconographic
+horn-deity dish, not an identified inscription. No object/event register, known
+contents, measured represented quantity or secure comparable original-use deposits.
+Medieval lapidary and mixed layer3 cannot become Harappan comparison by pooling.
+General Rojdi sherd reference lacks a field ID here. Independent read-only critic
+agrees: no qualifying link in this article, not proof of site/region-wide absence.
+Finite stop recorded in results/bhagatrav_source_criticism_v1/decision.json, with
+five pins. No sign scoring, model, figure review, phonetic/semantic value or
+chronological recalculation. Kanungo2021 iconographic pointer not followed and
+not enough to reopen. Specific independently described Kuntasi industrial context
+and1996 excavation report are a distinct external-context source pointer; inspect
+availability/record scope before any new experiment, not generic artifact hunting.
+
+
+**Kuntasi specific-source discovery.** Bounded independent critic completed two
+exact queries/one institutional open. DeccanCollege record123456789/44865 lists
+1996 report,x+383pages/PDF,accession132490 and explicit View Book/flipbook links.
+Catalogue M.R.Raval differs from prior paper M.H.Raval; neither silently fixed.
+Actual30468byte response capture registered with hash
+420ba4dc00216fb6dacdd9a79e2f5bd45e1878d1ff27c02929e5c4eaf9db0fec.
+No body or signs inspected and no field-level evidence claimed. This concrete
+previously unfollowed body pointer meets the predeclared reopening condition,
+so a separately frozen one-catalogue/one-linked-body context gate follows. Full
+reported inscription/context frame, no replacement, no relaxed proximity rule,
+no references or guessed endpoint extension. Authentication/denial ends acquisition.
+
+
+**User priority change: Yajnadevam validation.** Institutional Kuntasi catalogue
+HTTP200,56234bytes,hash1def396c2134dc999aee36624fd64e3f57d2b3cc1c798e07c11fd5ed6b84a6a9,
+registered with headers. Explicit View Book/flipbook hrefs parsed without guessing;
+body not fetched. User then requested validation of BharathRao/Yajnadevam.
+Parked Kuntasi at this exact state under explicit priority change; frozen inputs
+survive. New primary candidate-key audit takes precedence; no outreach. Initial
+web search discovers author's ScriptDerivation/Lipi repositories and paper mirror.
+Earlier retained Lipi corpus is from this author, but no prior named decipherment
+assessment found in selective log search. Secondary critiques not adopted as facts.
+
+## 2026-10-11 — Yajnadevam / Bharath Rao validation
+
+User-prioritized candidate audit completed its finite stopping rule. Primary
+99-page paper compiled13November2024 acquired from public RareBookSociety mirror,
+741788bytes SHA25681c026b78a66a13d1bbc14d9c145bdd5ecabda0ada9b6d14a3ea206a1c68c599.
+This is an inspected version, not a claim that no later revision exists. Public
+GitHub branch/tree metadata confirm ScriptDerivation commit
+5835e8b022106ed105e86c762fd64e1ec9875cce and Lipi commit
+fc8813a52e183d19c441631dc26c33a4dccbea39. Lipi equals retained source commit;
+existing inscriptions/xlits reused, not counted as independent evidence. All new
+HTTP bodies/headers and actual discovery/open tool capture registered. Script,
+dictionary preparation,32-group test corpus, auxiliary forms and decoding table
+retained. Full dictionary preparation shell script not executed; no MW download.
+
+Two bounded read-only reviewers independently criticized math and code. Paper
+pp7–8 rendered and visually inspected: effective330/.7≈471 arithmetic does not
+establish uniqueness for a particular corpus or full adjustable rule family.
+Optional vowels, phonetic mergers, allograph/conjunct grouping, direction,
+segmentation and lexicon augmentation require accounting. No alternative complete
+decipherment was generated; rejection is of the asserted proof, not a conclusion
+that every value is wrong. Method/conclusion inspected, no frozen withheld
+artifact validation identified. Page25 separates intended meaning from its
+grammatical accuracy criterion. Later mixed-script/Brahmi comparisons remain
+unreplicated; not independently falsified by this bounded assessment.
+
+Original prove.pl conditional substitution ignores an empty prior option set,
+allowing subsequent row to restore fresh wildcard matches. Code audited before
+execution: only reads dictionary/corpus and prints. Frozen protocol then used
+unchanged original003 block and original program with toy dictionary and/ja/jja.
+Exactly ONE original Perl invocation. Correct candidate cumulative sets:
+{d},empty,empty,empty. Saved stdout ends003-d-bow: two-spaces = j. The original
+program therefore returns a candidate inconsistent with earlier constraints.
+This establishes unsound intersection semantics, not its incidence on the author's
+Sanskrit dictionary or falsity of all proposed readings. Stored earlier values
+are not automatically propagated and sign strings are displayed, not constraints.
+
+Our initial driver had a whitespace-only output-observation defect: it expected
+one space before = and reported bug_reproduced:false despite saved finalj.
+Separate review verifies original pins and interprets existing stdout correctly;
+initial result/driver/fixtures remain unchanged, no rerun. Independent reviewer
+confirmed both the counterexample and correction. Exact saved output, protocol,
+initial result and correcting layer survive for audit.
+
+Specific Table2 overlaps with prior primary name audits reused without reopening
+searches: P516366 Nanasa/Samar seal illegible, possible duplicate unresolved;
+P525331 cuneiform interpreter seal without Indus counterpart. No independent
+Indus/name pair follows. Other Table2 objects and all Table11 mixed-script
+artifact identities/dates/readings not exhaustively authenticated; no broad
+absence or blanket linguistic disproof claimed.
+
+Decision: claimed validation fails; individual readings unresolved. No semantic
+or phonetic key admitted, all417 fields/corpus frozen. No p-value, translation
+replication, language sweep, outreach or decipherment announcement.43 source,
+control/review/derived pins in decision; separate independent-review summary
+preserves scope objections. Report docs/YAJNADEVAM_VALIDATION.md. Source acquisition
+and controlled falsification are research progress, not decipherment. Candidate
+assessment closes; resume already frozen Kuntasi linked-body gate at parked link,
+without repeating its discovery. Claude credit failure has no changed evidence;
+no unsupported provider retry or claimed new Claude review.

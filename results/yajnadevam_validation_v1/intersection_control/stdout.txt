@@ -1,0 +1,15 @@
+Reading corpus...
+CISI C-80 INSCR 1-3 REGEX an(..?)
+CISI H-1919 INSCR 3-1 REGEX (..?)an
+CISI M-1637 INSCR 3-2 REGEX (..?)a
+CISI H-1545 INSCR 3-3-2 REGEX (..?)\1a
+Reading corpus...done
+003-d-bow:  C-80 INSCR 1-3 REGEX an(..?)
+1-3 an(..?) matches and         
+003-d-bow:  H-1919 INSCR 3-1 REGEX (..?)an
+3-1 (d)an matches          
+003-d-bow:  M-1637 INSCR 3-2 REGEX (..?)a
+3-2 (..?)a matches ja jja        
+003-d-bow:  H-1545 INSCR 3-3-2 REGEX (..?)\1a
+3-3-2 (j|jj)\1a matches jja         
+003-d-bow:  = j

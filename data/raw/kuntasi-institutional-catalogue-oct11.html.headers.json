@@ -1,0 +1,18 @@
+{
+  "Content-Security-Policy": "default-src 'self' 'unsafe-inline' 'unsafe-eval' blob: *.google.com *.googleapis.com *.gstatic.com *.hitwebcounter.com *.google-analytics.com *.googletagmanager.com; img-src 'self' blob: data: https://hitwebcounter.com https://*.hitwebcounter.com http://www.google-analytics.com; script-src 'self' 'unsafe-inline' 'unsafe-eval' blob: *.google.com *.googleapis.com *.gstatic.com *.google-analytics.com *.googletagmanager.com; frame-ancestors 'self';",
+  "Referrer-Policy": "strict-origin-when-cross-origin",
+  "Permissions-Policy": "geolocation=(self \"https://www.google.com\"), camera=(self), microphone=()",
+  "Strict-Transport-Security": "max-age=31536000;includeSubDomains",
+  "Cache-Control": "no-cache,no-store,must-revalidate",
+  "Pragma": "no-cache",
+  "X-XSS-Protection": "1; mode=block",
+  "X-Content-Type-Options": "no-sniff",
+  "Access-Control-Allow-Origin": "http://122.176.109.190",
+  "X-Frame-Options": "SAMEORIGIN",
+  "Set-Cookie": "JSESSIONID=0F6A5B1EDF5A76F5FF7C7B673352015C; Path=/jspui; Secure; HttpOnly",
+  "Last-Modified": "Fri, 27 Sep 2024 07:27:55 GMT",
+  "Content-Type": "text/html;charset=UTF-8",
+  "Transfer-Encoding": "chunked",
+  "Date": "Sun, 11 Oct 2026 09:19:31 GMT",
+  "Connection": "close"
+}

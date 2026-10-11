@@ -1,0 +1,3376 @@
+
+=== PDF PAGE 1 ===
+ARTICLE
+A cryptanalytic decipherment of the Indus script
+yajnadevam
+
+AR TICLE HISTOR Y
+Compiled November 13, 2024
+Abstract
+Indus inscriptions hold the key to unlocking the history of pre-Iron Age India and
+all Indo-European peoples but remain undeciphered for over a century. All prior
+attempts have been partial, unsatisfactory and unfalsifiable. We decipher the In-
+dus script by treating it as a large cryptogram as described by Claude Shannon.
+We decipher every sign sequentially using regular expressions and set-intersection.
+Indus script is discovered to be proto-abugida segmental with signs for consonants
+and vowels. Indus inscriptions are in grammatically correct post-Vedic Sanskrit.
+Variants of 76 allographs constitute most signs. Conjunct signs constitute the rest.
+Our decipherment can read every inscription and we translate 500+ inscriptions in-
+cluding the 50+ longest, 50+ shortest and 400+ medium-sized inscriptions including
+100+ inscriptions with conjunct signs. We comfortably surpass Shannon’s criteria
+for a credible cryptogram decipherment. Brahmi glyphs are discovered to be stan-
+dardized Indus signs. We find significant continuation of Indus linguistic features
+and cultural elements in post-bronze age India.
+KEYWORDS
+Indus Valley Civilization; Indus script; Epigraphy; Brahmi; Sanskrit
+1. Introduction1
+Indus Valley civilization was the largest bronze age civilization, spanning over one mil-2
+lion square kilometers and having an estimated population of five million (
+Dixit, 2019).3
+This advanced civilization featured planned cities, drainage, international trade and4
+standardized weights among many impressive accomplishments. Indus civilization has5
+left behind strings of symbols on seals, tablets and a large sign (Dholavira signboard)6
+which is termed “the Indus script.” Although the mature Indus civilization is believed7
+to have started around 2600 BCE, we see stage-by-stage evolution from the earliest8
+sites to Bhirrana and Mehrgarh 7000 BCE. These older stages are given different names9
+such as pre-Harappan, early-Harappan and so on to distinguish them from the mature10
+Harappan stage.11
+1.1. Geographic and temporal spread12
+The earliest Indus seal is from Kunal, dated to 4000 BCE ( ASI, 2004). The earliest13
+graffiti appears on potsherds in 4000 BCE Balakot (Ahmed, 2014; Lashari et al., 2020).14
+Seals with Indus script begin in the archaeological record mid-to-late 4th-millennium15
+BCE (BBC, 1999). Seals post-1900 BCE are rare in the archaeological record. Indus16
+
+=== PDF PAGE 2 ===
+sites in the Thar desert are abandoned but sites in the Himalayan foothills continue till17
+about Jognekhera 800 BCE (Haryana Directorate of Archaeology and Museums, 2023).18
+Indus symbols however continue to appear on Varanasi coins from 800 BCE to Maurya19
+era coins and on megalithic sites in South India to 50 CE ( Banerjee and Rajan, 1960;20
+CoinIndia, 2010; Reddy and Sakunthalamma, 2023) and Janapada seals and coins upto21
+350CE. B. B. Lal noted that 89 percent of megalithic symbols go back to Indus symbols22
+(Lal, 1960). Findings at Keezhadi show usage of both Brahmi and Indus symbols with23
+primarily Indus graffiti from 600 BCE and transitioning to only Tamil-Brahmi around24
+100 BCE (Ramakrishna et al., 2018; Sivanantham and Seran, 2019). Sealings continued25
+to appear until the Gupta era using Brahmi script ( ASI, 1906). Mixed Brahmi-Indus26
+scripts occur in OCP copper hoards (Munjal and Munjal, 2005), Iran (Lahafian, 2013),27
+Tamil Nadu (Subrahmanian, 2010), Sri Lanka (Raghupathy, 1987) and Vietnam (Lien,28
+2013), ranging over many hundreds of years.29
+1.2. The corpus30
+There are 4300+ inscriptions from archaeological digs ( Wells and Fuls, 2023). More31
+are being unearthed as new sites are excavated. The stratigraphy, location and other32
+details of most later excavations are preserved but many older finds have missing data.33
+The median inscription length is about 5 signs. There are about 50 inscriptions that34
+are 10 signs or longer. Some inscriptions are a single sign or two signs. The seals35
+themselves are small and come in all manner of shapes: square, rectangular, circular36
+and triangular. The square seals are sized about 3 ×3 to 4 ×4 cm. Due to the scarce37
+space, we see the crowding of letters to the left side in early inscriptions. The script38
+has a large variety of signs that are hand carved and many signs show abstraction,39
+simplification and rotation, evidently to preserve scarce horizontal space. The oldest40
+layer of Harappa shows only about 71 signs, possibly indicating that some later signs41
+are variants (Konasukawa, 2020).42
+In addition to seals, we have tablets and tags, that were presumably used to attach43
+to goods for trade. These show heavy wear similar to old coins and are found close to44
+market areas, which may be taken as evidence of use as currency. Many seals indeed45
+resemble Gupta seals and early Janapada coins with an inscription on top, an animal46
+icon in the center and sometimes a staff or standard in front of the animal (Srivatsava,47
+2021).48
+The Dholavira signboard is meant to be seen from a large distance to convey informa-49
+tion to travelers and may be evidence that the Indus script is a form of writing. Writing50
+on post-fired pottery, personal items such as tools, weapons, bangles and jewelry may51
+indicate that IVC was a literate society. Indus characters have also been found carved52
+in the Kirthar mountains of Sindh (?). The broad geographic and temporal distribution53
+along with mixed Indus/Brahmi inscriptions should be sufficient evidence that Indus54
+script represents writing rather than proto-writing or pictorial identifiers.55
+Although the Indus inscriptions are short, at least one example of a long inscription in56
+an evolved form of the Indus script exists in the form of the Vikramkhol cave inscription.57
+This inscription dated 1500 BCE is considered mid-way between the Indus and Brahmi58
+scripts by archaeologist K. P. Jayaswal (Jayaswal, 1933).59
+2
+
+=== PDF PAGE 3 ===
+2. Methods60
+2.1. Script Analysis61
+The oldest evidence of the Indus script is graffiti on potsherds from 4000 BCE Balakot.62
+There are both abstracted and elaborate versions of signs in this phase. Whether the63
+script originally began as a pre-writing system similar to cuneiform cannot be deter-64
+mined using artifacts from this phase. The script seems to have evolved into a uniform65
+writing system over a millennium. By the mature phase ~2600 BCE, inscriptions are66
+fairly consistent over time and space.67
+2.1.1. Script direction68
+The preferred script direction seems to be right-to-left as evident from external and69
+internal evidence (Mahadevan, 1977). External evidence such as crowding on the left70
+side on inscribed copper objects, bas-relief tablets, seal impressions (right side on seals),71
+evidence of starting carving letters from the right side and so on was combined with72
+internal evidence such as identical inscriptions appearing as both one and two line73
+versions. This enabled the eventual determination of the direction of most inscriptions.74
+Approximately 83% are determined to be right-to-left and 6.5% are left-to-right. The75
+rest are either single-sign, undetermined or damaged. A mathematical model of the gini-76
+coefficient of the Indus corpus also finds that the Indus script is written right-to-left77
+regardless of the type of script (Ashraf and Sinha, 2018).78
+2.1.2. The signary79
+Mahadevan classifies the Indus script into 417 signs, ICIT classifies them into 700+ signs80
+(Wells and Fuls, 2023), treating minor variants as separate signs since a sizable number81
+(1000+) of signs is suitable for a logosyllabic analysis. On the other extreme, S. R.82
+Rao claimed that the script only had 20 or so signs (Rao, 1980). The obvious problem83
+with a low sign count is that the number of legal words formed by adjacent signs drops84
+precipitously. There will be many instances of repeated syllables such as kakajakaja,85
+making reading anything but the shortest inscriptions impossible. Rao was forced to86
+claim that the Indus Valley language was monosyllabic. Essentially he acknowledged87
+that he could not find even a small number of legal words formed by the interlocking88
+of his assigned values. Maximizing the signary size increases the possible matches of89
+legal words. For example, if we have a partially deciphered stringπAT , we may choose90
+to assign C to π to read CAT . However, if there is another sequence ΠπT , we get91
+a higher readability by choosing A for Π to read ACT , even though the signs π and92
+Π look similar. Logosyllabic analysis also benefits from a large signary by claiming93
+related meanings for similar signs, such as Parpola’s star  vs planet  for variants of94
+the fish sign. This is a workaround to avoid nonsensical logosyllabic readings such as95
+‘star-star-jar’, which may now be read slightly better as ‘star-Saturn-jar.’96
+However, a large signary is untenable on thorough analysis. Inscriptions up to Harap-97
+pan period 3A show only 71 signs ( Konasukawa, 2020). It is improbable for a large98
+signary script to exist from 4000 BCE to 2600 BCE with only 71 signs attested. On99
+examination, we find that many allegedly different signs that are attested post the100
+Harappan period 3A are cursive forms     , simplified abstractions      ,101
+embellished   and stylistic variants    or strings of pre-existing signs . Sim-102
+plified forms of complex signs are normal in long-lived scripts when the medium is not103
+conducive to cursive development, for example as in Sumerian cuneiform. Cursive forms104
+3
+
+=== PDF PAGE 4 ===
+naturally evolve on soft writing materials like paper or cloth using ink due to the effi-105
+ciency of not lifting the writing instrument off the writing surface. This efficiency does106
+not retrofit to carved inscriptions, so non-cursive forms continue to be used on carved107
+medium, even to the present day. We can trace the evolution of cursive forms in Indus108
+sign variants that gradually minimize the number of strokes needed to render the sign.109
+This may indicate that the Indus script was evolving to cursive form before and during110
+the mature Indus phase.111
+2.1.3. Script Type112
+Logographic scripts are characterized by low frequency and a large signary. Only a small113
+fraction of the total 417 Indus script signs (27.5%) are attested 10 or more times and114
+only a tiny fraction (6%) have an attestation count of 100+. A significant fraction of115
+the rare signs seem to be stylistic variants, accidentally mirrored signs, cursive forms or116
+word fragments. Gradual abstractions of pictorial signs such as   must be seen117
+as the development of cursive variants of a single sign. The rarity of cursive sequences118
+like    indicates that these are simply strings of their component signs rather than119
+completely unrelated signs. With these considerations, the sign count drops to under120
+a hundred and the script is unlikely to be logographic. This strengthens the case for a121
+syllabic or segmental script.122
+The pattern of repetitions of the same sign multiple times in the same inscription123
+also supports syllabic or segmental (abugida/alphabetic/abjad/phonetic) script. A non-124
+script should be expected to see repetition in the use of symbols similar to the birthday125
+collision effect. This number crosses 50% when the number of symbols in a single126
+inscription is 25 or more. No Indus inscription is this long, so we wouldn’t expect to127
+see any repeated symbols.128
+1 −
+(
+417!
+(417−25)!
+)
+41725 = 0. 52
+Birthday collision, of course, applies to uniformly random events, while segmental129
+scripts are not uniformly random due to phonotactic rules unique to every language.130
+Therefore more frequently used symbols should see more collisions in smaller-length131
+inscriptions than less frequently used symbols. We see repetitions in the shortest of132
+inscriptions to medium to long inscriptions. About 17% of inscriptions have a repeated133
+sign if we include immediately repeated and bracketed signs. The jar and fish signs are134
+prolific repeaters and the spoked wheel sign occurs 4 times the Dholavira inscription.135
+This is additional support for a non-logographic script. This number is likely to be136
+much higher once allographs are discovered. By comparison in a logosyllabic script,137
+repetitions are extremely rare in short inscriptions. For example, of the 488 subway138
+station names in Beijing, only 3 (0.6%) have a repeated Mandarin sign and none with139
+3 or more occurrences (wikipedia, 2021).140
+Words that start with doubled consonants are rare in all languages and certainly141
+absent in Sanskrit and Dravidian. The occurrence of inscriptions starting with a doubled142
+or tripled sign in inscriptions like M-1794 and L-105  is evidence that the script143
+is not alphabetic, but either syllabic or segmental abugida.144
+4
+
+=== PDF PAGE 5 ===
+2.2. Cryptanalytic Decipherments145
+Some scripts such as the Copiale cipher have been deciphered using cryptanalysis146
+(Knight, Megyesi, and Schaefer, 2011). The corpus of inscriptions in an unknown script147
+represents the ciphertext and the source language represents the plaintext. The key148
+is the assignment of the script signs to its values. The output of the cryptanalysis of149
+the script is its decipherment. This model has worked several times in history. Ephron150
+was able to re-decipher the Ventris-Chadwick decipherment of Linear-B using crypt-151
+analysis (Ephron, 1961). He only found one sign that had a different value, which was152
+later acknowledged as correct by the original decipherers, showing the superiority of153
+cryptanalytic decipherments.154
+2.3. Cryptograms155
+A syllabic or phonetic script can be modeled as a cipher and solved using proven math-156
+ematical methods. A cryptogram simply stated, is a message in a known language157
+encoded in an unknown script. A specific kind of cipher that has been thoroughly158
+studied is the single substitution cipher or cryptogram, where one sign in the script159
+corresponds to a single phoneme, syllable or alphabet. Newspapers and puzzles often160
+carry such cryptograms on their puzzle page. Typically the encoded message is a quote161
+by a famous person and is long enough to be uniquely deciphered. A homophonic cipher162
+is a variant of a cryptogram that assigns multiple signs per phoneme and may be used163
+to model scripts with allographs.164
+All available ciphertext for a given key constitutes a cryptogram regardless if the en-165
+cipherer sent the ciphertext in different pieces or logical units or at different times. This166
+may be trivially verified by picking random words from various websites, feeding them167
+into a cryptogram creator and solving on a cryptogram solver such as quipqiup.com.168
+This is because the cipher is a transformation function and all input to it is the169
+plaintext and all output is the cryptogram:170
+If M is the message, K the key, and E the enciphered message, or cryptogram, we have171
+E = f (M, K ). In other words, E is a function of M and K. We prefer to think of this,172
+however, not as a function of two variables but as a (one parameter) family of operations173
+or transformations, and we write it E = TiM The transformation Ti applied to message174
+M produces cryptogram E (Shannon, 1945).175
+There are two famous historical examples where separately captured messages have176
+been pooled together and used to break ciphers. First, the cipher of Mary, Queen177
+of Scots was cracked by treating 50+ of her enciphered letters as a single cryptogram178
+(George Lasry and Tomokiyo, 2023). Second, the Zodiac-340 cipher was mailed to three179
+separate newspapers and was cracked by analyzing them as a single cryptogram.180
+The captured ciphertext doesn’t need to be contiguous or even the same logical unit181
+of message, because every word of ciphertext reduces the equivocation of the key by182
+increasing the information we have about the legal adjacencies that may appear in the183
+plaintext. Language is a Markov process and the words and sentences in a language184
+form a graph representing the output of the process. These are termed “residue classes”185
+by Shannon. Residue classes are a subgraph of the Markov process. Possession of such186
+a subgraph reduces the equivocation dramatically. The more residue classes that have187
+been intercepted, the larger the subgraph and the smaller the equivocation. On average,188
+1/ρ residue classes of short words will enable the recovery of at least one sign value,189
+where ρ is the redundancy of the language. For most natural languages with ρ ≈ 0. 7,190
+5
+
+=== PDF PAGE 6 ===
+this works out to 2 to 3 short words.191
+The dictionary method using residue classes is deterministic and relatively robust192
+against homophonic ciphers as opposed to the frequency method, which is probabilistic193
+and ineffective in a script with many allographs. Residue classes are effectively regular194
+expressions in programming terms and make finding matches simpler. Attempts to use195
+frequency analysis on the Indus script did not yield any results other than the possibility196
+of some relation to the Brahmi script ( Kak, 1988). The dictionary method of solving197
+cryptograms is also superior to frequency analysis since it’s immune to frequency drift198
+due to the passage of time (Moreno, 2005).199
+2.4. Shannon on Cryptograms200
+Claude Shannon’s groundbreaking A Mathematical Theory of Cryptography is a foun-201
+dational work of modern cryptography, signaling, data compression and information202
+theory (Shannon, 1945). This work addresses the mathematics and cryptanalysis of203
+cryptograms. According to Shannon, an unknown script such as the Bacon/Voynich204
+Manuscript may be modeled as a cryptogram (Bacon, 1401-1599). Our method to deci-205
+pher the Indus script essentially reuses Shannon’s cryptanalysis methods faithfully with206
+the help of modern programming languages.207
+A cryptogram may have many possible solutions, for example: the encrypted text208
+αβγ has ≈556 solutions, since any 3-letter word with no repeating letters is a solution.209
+Others like ǫǫλ only have a unique solution: EEL.210
+The question of the uniqueness of solutions to ciphers in general (as opposed to the211
+hand-crafted examples above) is useful to determine whether a decipherment is valid.212
+Shannon’s criteria for a cipher having a unique solution is determined by a quantity213
+termed “equivocation.”214
+2.4.1. Redundancy, Entropy and Equivocation215
+All natural languages have information content that is represented by symbols. Consider216
+the simple yes-or-no question: “Are you over the age of 18?” The answer to this question217
+may be represented as either of the words YES or NO. One does not need 5 total218
+symbols to denote this information, Y, N or even 1, 0 are sufficient. There are exactly219
+two alternative answers to this question and therefore it represents log22 = 1 bit of220
+information. The answer to whether the person is over the age of 18 therefore, can be221
+encoded as one binary digit. Similarly, the information regarding the day of the week222
+requires log27 ≈ 2. 8 bits.223
+Natural languages use words and not bits and therefore use significantly more symbols224
+than necessary to transmit the same amount of information. Natural languages need to225
+use excess symbols because of dependencies and rules on how symbols are put together226
+to form words and sentences. This means that in natural languages, unlike optimized227
+binary notation, many combinations of phonemes (or letters or syllables) are illegal228
+words and are meaningless. For example, for the day of the week, if the first letter is229
+known to be T, then the next letter can only be {u, h} (for Tuesday and Thursday).230
+Other letters such as x, f are invalid as would give Tx, Tf. This inefficiency and excess231
+use of symbols is redundancy.232
+When we decipher a symbol or make a choice of value, we gain information about233
+the plaintext. The quantity of information gained when we make a choice is entropy.234
+Its counterpart, the available meaningful choices we can make about the unknown is235
+equivocation.236
+6
+
+=== PDF PAGE 7 ===
+The equivocation for the day of the week, given that the first letter is T is two237
+alternatives {u, h} or 1 bit. If the first letter is W, then the equivocation is zero, since238
+only one alternative, Wednesday is possible. Natural languages have ≈70% redundancy239
+regardless of the language and conventional scripts used to write the language. This240
+redundancy can be measured experimentally and is very close to the compressibility of241
+the language. When the equivocation is zero, then by definition, the cryptogram has a242
+unique solution.243
+2.4.2. Unicity distance244
+The key space is the number of possible keys in a cipher. For a single substitution cipher,245
+the key space is the number of ways to rearrange the plaintext alphabet to create the246
+cryptogram alphabet. For an English single substitution cipher, the number of keys is247
+26 × 25 × ... 2 × 1 = 26! The information contained in the key space is log2(26!) ≈ 88. 4248
+bits. A decipherment that reads much less than the information size of the key space is249
+dubious because the information of the deciphered text may exist in the equivocation of250
+the key space itself and may not be connected in any way to the ciphertext. A reliable251
+decipherment, therefore, must decipher plaintext of a length beyond the information252
+size of the key space. After a certain amount of plaintext is deciphered, equivocation253
+becomes zero and the cryptogram has a unique solution. This length is called theunicity254
+distance. The reliability of a decipherment that reads beyond the unicity distance may255
+be explained as the impossibility of information being created ex nihilo . If meaningful256
+information larger than the key space is extracted, then it must certainly be from the257
+ciphertext and not from the key.258
+A source language represents the plaintext, consisting ofp symbols, each representing259
+a letter, syllable or phoneme. A homophonic cipher of N symbols, N > p , may be260
+constructed by mapping each ciphertext symbol to a plaintext symbol. Each ciphertext261
+symbol may be assigned to a plaintext symbol in p ways, thus carrying log2p bits of262
+information per symbol.263
+The number of possible keys in a homophonic cipher with N ciphertext symbols264
+mapped to p plaintext symbols is < p N. Its key space is |K| ≈ log2pN bits. The265
+redundancy of the plaintext language is denoted by ρ which is ≈ 0. 7 for most natural266
+languages.267
+A large key space causes a large equivocation resulting in many possible meaningful268
+but false decipherments. The equivocation is also inversely proportional to the redun-269
+dancy of the language. Languages with low redundancy will have many more spurious270
+matches compared to languages with high redundancy. The length of the deciphered271
+plaintext that equals the information content of the key is known as the unicity distance272
+and is given by:273
+d = log2pN
+ρ · log2p = N
+ρ
+A homophonic cipher may be viewed as insulating the ciphertext from the alphabet274
+of the source language as we can see from its unicity distance, which essentially depends275
+entirely on the ciphertext alphabet rather than the plaintext alphabet.276
+Of the total 417 signs, the 124 “ligatured” signs such as  and  and strings such277
+as  are simply read as if they are their component signs, they add no equivocation278
+and their count must be reduced from the ciphertext alphabet. Similarly, if the same279
+sign can be assigned to multiple phonemes, the count must be increased. Reusing 3̃0280
+7
+
+=== PDF PAGE 8 ===
+signs of unaspirated phonemes for aspirated adds about 10%, as does reusing 2̃0 dental281
+signs for retroflex. Pooling all sibilants into 2̃0 signs increases the equivocation by 150%282
+for those signs. The two interchangeable signs  for a⇔e and  for a⇔o add two more283
+signs. The net effect would be adding (30+20)×0.1 + 20×1.5 + 2 = 37 signs. This284
+gives us a new symbol count of 417 − 124 + 37 = 330 and an effective unicity distance,285
+given the redundancy of Sanskrit at 0.7 (Aniket Anand and Jana, 2013):286
+log248330
+0. 7 · log248 = 330
+0. 7 ≈ 471
+Reading the longest 50 inscriptions of length 10 or longer covers this comfortably.287
+Note that this is for segmental decipherments of attested languages. Abjads would288
+require multiplying the signs by the number of vowels and decipherments into unknown289
+dialects are unfalsifiable.290
+2.5. Previous decipherments291
+It is impractical to enumerate and falsify the 100+ attempted decipherments of the292
+Indus script. Most are not serious attempts, but simply insightful observations and293
+preliminary attempts to read a dozen or so signs and as many inscriptions. These are294
+dubious for the same methodological flaws in the somewhat serious attempts that read295
+larger amounts of text as described below.296
+2.5.1. Logographic and Logosyllabic297
+Most attempted decipherments of Indus script are logographic or logosyllabic, avoiding298
+the need for syllables or phonemes to interlock into words. A majority of signs can be299
+claimed to be single words, most inscriptions are read as nouns with occasional generic300
+verbs. This enables short inscriptions to be read as adjective-noun or verb-adjective-301
+noun. The method starts by assuming the value of a sign and then tries to read a302
+meaning into a short inscription.303
+Parpola for example, considers the intersecting circles sign  to represent bangles304
+and three strokes sign  to represent hearth (Parpola, 1994). The reasoning for such305
+an assumption is unexplained. These two signs may as well represent nuts and three or306
+wheels and baby teeth or any thousands of competing concepts. The unicity distance307
+of such decipherments is at least the entire corpus. Occasionally, these signs occur in308
+meaningless patterns and need an alternate explanation. For example, when these two309
+signs are combined , the reading hearth bangles would be meaningless, so a new310
+overloaded interpretation is added: pregnancy bangles.311
+Incrementing the key space for every permutation of signs causes the key space to be312
+always larger than the entire corpus. Therefore, all decipherments using this method313
+are dubious. The information content of the readings is from the key and not from the314
+ciphertext. This is why there exist dozens of logographic and rebus decipherments that315
+read a lot of text but in ways completely unrelated to each other. A Rosetta stone316
+would make a logographic decipherment credible since it would double the information317
+content read and go beyond the unicity distance.318
+In some decipherments, some sign values are borrowed from other scripts. Signs are319
+assumed to have the same value as any similar sign in other scripts. Mahadevan for320
+example, assumes symbols similar to Egyptian hieroglyphs and Sumerian cuneiform321
+8
+
+=== PDF PAGE 9 ===
+represent the same meaning in Indus script and then tries to connect it to some Indian322
+cultural or mythological context to decode a sign ( Mahadevan, 2010). For example,323
+based on his analysis of M-1896 and the similarity of Indus sign with Egyptian324
+hieroglyph O.49  meaning city, Iravatham Mahadevan speculated that Mohenjodaro’s325
+ancient name could be Kukkutarma, [kukkuta = Indian fowl] or ‘Cocks-city’ based on326
+interpreting the 1st CE Chola kingdom city Uraiyur in South India, as the city of the327
+cock. No evidence of chickens have been found in Mohenjodaro. Recent evidence shows328
+that chickens were domesticated in Thailand about 300 years after Indus Valley stopped329
+making seals (Peters et al, 2022). Mohenjodaro and Uraiyur which are separated by330
+2500 years and 2000 km are alluded to as perhaps connected for narrative support since331
+‘cocks-city’ is a meaningless term not backed by any evidence.332
+It’s usually easy to find failures of this method for even short inscriptions. Using333
+the meaning of other signs from his decipherments, H-452 would be chicken-jar, M-334
+795  would be ruler-chicken-jar-bearer. Every combination of signs requires an335
+expansion of the keyspace to enable a meaningful reading. Logographic decipherments336
+even with borrowed sign values are untenable because the unicity distance is much337
+greater than the corpus size and the information content of the readings is essentially338
+from the key itself.339
+2.5.2. Borrowed starter set340
+Eclectic collation of sign values from many different scripts is the central method of341
+some syllabic and phonetic decipherments. Their advantage over logographic claims is342
+that they can use imported sign values as a starter set and discover the values of the343
+remainder using dictionary search and guesswork. S. R. Rao pioneered this technique344
+by claiming that similar-looking Semitic and Indus signs have the same values ( Rao,345
+1980). He used the Semitic starter set supported simply by his assumption that Indus346
+signs eventually developed into Semitic signs.347
+The defect in this method is that the choice of a starter set is fairly arbitrary. Any two348
+scripts will have some signs that look similar or similar enough with completely different349
+sound values. Roughly 33% of both Linear-B and Caroline Island appear similar to350
+signs from Indus script but Indus inscriptions are unreadable if we borrow their values.351
+Simple signs with lines, circles, half circles or combinations are fairly common across352
+many scripts and similarities increase with the number of signs available. To illustrate353
+the defect in this method, we create a starter set for Latin based on some scripts that354
+have signs common with the Latin alphabet as in Table 1 and it would be incorrect to355
+use it to discover the values of the remaining Latin signs.356
+2.5.3. Segmental, syllabic, logographic and word-fragment alphabet357
+Some decipherments use arbitrary word fragments as sign values to fit as many in-358
+scriptions as possible. This in itself is not necessarily incorrect as long as sufficient359
+inscriptions can be read. Phonetic and syllabic decipherments would be expected to360
+have some grammar but nearly all prior decipherment claims typically lack grammar,361
+morphology, syntax, subject-verb agreement, plurals, conjugation, declension, preposi-362
+tions or any other grammatical elements. Often there are supplementary logographic363
+assignments to get around nonsensical readings. One way to justify the lack of grammar364
+is to claim that all Indus inscriptions are names. Short inscriptions can plausibly be365
+argued to be names since names outside sentences are essentially not declined. This366
+also means most long inscriptions often won’t be readable.367
+9
+
+=== PDF PAGE 10 ===
+T able 1. Eclectic decipherment of Latin alphabet from unrelated scripts
+Source Symbol Value Source Symbol Value
+Cherokee D a Inuktitut P ki
+Cherokee W la Inuktitut L ma
+Cherokee I qua Inuktitut U te
+Cherokee L tle Inuktitut V pe
+Cherokee T i Ethiopic O ’
+Cherokee H mi Ethiopic M ṭ
+Typically, this method starts with fitting popular inscriptions such as the Pashupati368
+seal and the Dholavira signboard. This force fitting produces garbled readings for many369
+other inscriptions. These are mitigated by assigning word fragments and word stems370
+to some of the remaining signs. Most inscriptions still won’t be readable in a known371
+language. The solution is to claim that the inscriptions are in a hitherto unknown372
+dialect. This dialect has no documented grammar, phonotactics or any known language373
+characteristics. The information content here is also entirely from the key, which is not374
+just in the sign values but a major portion of the key is the undefined grammar of the375
+language. Such decipherments therefore are dubious.376
+In Summary, every prior decipherment uses methods that create a key space that by377
+design is larger than the plaintext read and must be considered dubious.378
+2.6. Solving a cryptogram379
+Shannon’s method to solve a cipher:380
+(1) Determine the language.381
+(2) Determine the cipher (cryptogram for Indus script)382
+(3) Determine one or more letters of the key by checking patterns of occurrence (fre-383
+quency, variety of contact, doubles, reversals)384
+(4) Use the deciphered key portion as a consistency check by testing other parts of385
+the cryptogram.386
+(5) Repeat the step above until fully deciphered.387
+2.7. Determining the language388
+The first step to solving a cryptogram is to guess the language itself. If the language389
+is incorrect, the cryptogram will be unsolvable. Language is a Markov process and the390
+probabilities of symbol transitions are very different even for related languages, which391
+means that a large pattern set representing the corpus of one language cannot be read392
+as another even if symbol values are reassigned. A cryptogram whose plaintext is in one393
+language cannot be forcibly decrypted in another language due to the principle derived394
+by Shannon:395
+the amount of uncertainty we can introduce into the solution of the cryptogram cannot396
+be greater than the key size ( Shannon, 1945).397
+10
+
+=== PDF PAGE 11 ===
+2.8. Meluhhan language398
+Many languages have been proposed to be the language of IVC, the most credible399
+ones are some form of Dravidian (old Tamil) and Indo-Aryan (Sanskrit). Others such400
+as Sumerian-like language or a lost language have also been proposed without any401
+evidence. We may dismiss them as speculative.402
+2.8.1. Dravidian as the candidate403
+There are some reasons why Dravidian is unlikely to be the language of the Indus404
+Valley Civilization. As observed by many others, Dravidian has no words for the most405
+important IVC technologies, products or symbols but instead uses borrowed Middle406
+Indo-Aryan (Prakrit) words such as iṭṭika brick, gajja barley, swastika, paṭṭa[ṇa] city,407
+ūru city and there are missing words for the rest like the blackbuck, the unicorn, the408
+rhino. It is unlikely that Dravidians forgot the words for the important symbols and409
+technology they invented and continued to use till the present day while retaining their410
+language.411
+An analysis of Indus inscriptions also rules out Dravidian. Steve Bonta, a PhD in412
+linguistics in both Dravidian and Indo-European attempted to decipher the Indus script413
+as Dravidian for years until he noticed that the Indus inscriptions exhibit multi-stem414
+compounding, which is characteristic of classical Sanskrit and is not possible in Dra-415
+vidian languages. Dravidian compounds are two-word agglutinative constructs rather416
+than inflexed stem compounds. Consequently, he changed the target language of his417
+decipherment to Indo-Aryan (Bonta, 2023). Bonta’s observation has further implica-418
+tions that rule out all agglutinative languages as candidates for the Indus script such419
+as Dravidian, Sumerian, Elamite, Hattic, etc.420
+Like all agglutinative languages, Dravidian uses fixed affixes to a root to indicate421
+number, gender, noun cases etc. Agglutinative morphologies have a fixed order for422
+these affixes. Cinque argues for a universal order of these affixes whose order reverses423
+based on whether the language is head first or head final (Cinque, 1999). In Dravidian,424
+the plural affix comes before the locative for example. Switching these around results in425
+an illegal word. Also, these affixes by themselves (with rare exceptions) are not words426
+and affixes cannot exist freely without a root or stem. The Indus inscriptions show427
+the same strings of signs in initial medial and final positions, indicating that the Indus428
+script cannot be agglutinative but is rather a fusional language.429
+We can examine a few seals to see if there is any evidence of agglutinative morphology.430
+Consider the single sign inscriptions H-1497 , H-1546 , H-1514 , H-1462 . The431
+inscription H-246  cannot be read as the sign  having multiple affixes  since432
+affixes cannot be independent words. Moreover, if  is a stem and  is the stem433
+with three affixes, then we should not see the affix standalone in one inscription or its434
+signs inscribed in a different order as in H-894 .435
+It is clear from perusing the corpus that in many inscription pairs like B-9  and436
+Dholavira , common substrings such as  are not affixes, but rather stems that437
+are compounded. The terminal jar sign is likely to be a case marker. Thus we can438
+see the full word has a marker H-1953  but is removed for stem compounding in439
+M-1706  and placed terminally. Words that are compounds of 3 or more440
+stems like M-1706 are not possible in Dravidian but rather are characteristic of Sanskrit,441
+especially classical Sanskrit.442
+We can attempt to decipher the Indus script with Dravidian as the target language443
+using the dictionary method. Since proto-Dravidian has only been reconstructed to444
+11
+
+=== PDF PAGE 12 ===
+around 800 words, it is likely to cause false negatives and therefore a Tamil dictionary445
+is more suited. We hit many dead ends with Tamil. Firstly, words with triple repeating446
+sequences are not present in Dravidian. So we would be unable to read inscriptions447
+like H-764 . Secondly, there are only a handful of words that would fit a doubled448
+sign inscription such as H-1182   and H-210 . These only match the words koko,449
+kūkū, māmā, tātā . This would assign one of ko, kū, mā, tā to all doubled signs. These450
+signs, however, also exist in permutations of themselves. Such inscriptions do not have451
+matching words in Tamil, so inscriptions such as H-2272  and H-372  would be452
+unreadable. This is an expected result if the Markov process of Tamil and the source453
+language of the Indus inscriptions produce dramatically different graphs and there is454
+no way to read one as the other. At this point, we can confidently rule out Dravidian455
+and indeed all agglutinative languages out of the running for the language of the Indus456
+script.457
+2.8.2. Sanskrit as the candidate458
+The question of how Sanskrit/Indo-Aryan could have existed in the Indian subcontinent459
+during the mature phase of the Indus civilization is something we need to address.460
+Heggarty’s Bayesian model indicates that Indo-Iranian and Indo-European started to461
+become audibly different around 4000 BCE and were markedly differentiated by 3500462
+BCE (Heggarty et al., 2023). This gives sufficient time for an old Indo-Aryan dialect463
+to be present in the Indus Valley for the bulk of the inscriptions which are dated post-464
+2600 BCE. The assumption that the Indus Valley was non-IE speaking is based on the465
+narrative that the Indus Valley could not have created Rigvedic poetry with horses and466
+chariots, which were allegedly unfamiliar steppe technologies. This narrative requires467
+us to ignore dozens of publications with evidence of horses from the earliest phases of468
+the Indus civilization and depiction of horse-driven chariots in the subcontinent from469
+the Chalcolithic era ( Danino, 2006; Neumayer, 2020). The real issue is not ignoring470
+the evidence, but the presumption that one needs to possess horses to write poetry.471
+Ireland has used peacock imagery without the imposition of any claim that Indians472
+brought Gaelic to Ireland (Sheehan, 2009). And of course, there is poetry on unicorns473
+and dragons in the Rigveda without anyone needing to bring them. Evidence for trade474
+contact between the Indus Valley civilization and Sintashta is evident from the presence475
+of IVC cotton in Sintashta ( Shishlina, Koryakova, and Orfinskaya, 2022). This alone476
+may be sufficient for Indus Valley civilization to create horse based poetry. The present477
+hypothesis on the spread of the Indo-European language family is an imperfect model,478
+while Indus inscriptions are actual attestations. If they conflict, the empirical method479
+requires the model to be adjusted and not the attestation.480
+2.8.3. Indus/Brahmi mixed inscriptions481
+Indus script signs continue to be embedded in later Brahmi scripts into the Gupta era482
+in both northern and southern India. An inscription from Vaishali  is equivalent483
+to , which is one of the most popular inscriptions that is attested in 40+ Indus484
+seals (Sinha and Roy, 1969). Every inscription in a mixed Indus/Brahmi script is in485
+the Sanskrit language, even in the southernmost and the oldest sites such as Keezhadi486
+in south India. We know the Indus script intermixed inscriptions in Tamil Nadu sites487
+are not Sanskrit words borrowed into Tamil but actual Sanskrit phrases because they488
+use signs such as the Brahmi 𑀱 ṣa which would have been changed to the Brahmi𑀲 sa489
+on borrowing.490
+12
+
+=== PDF PAGE 13 ===
+T able 2. Names of Meluhhan persons and goods as recorded in Sumerian cuneiform
+Artifact-Id Sumerian Meluhhan Name Meaning
+CDLI 516366 sa6-ma-ar समर[MW] Samara confluence
+CDLI 516366 na-na-sa3 न�नस� [MW] Nānas distinct
+CDLI 525331 szu-i3-li2-su श�ल�श[ŚivaP] Shailesha Himalaya
+CDLI 212982 sun2-zi-da स��सद्ध[Bhag] Samsiddha accomplished
+MS 2814a [szu?]-ib-ra श्वभ्र[MW] Śvabhra offerings pit
+L 1426b me-luh-ha म�ल� c Melaḥ (person) union
+CDLI 388265 mes म�ष� meṣī Dalbergia
+CDLI 228643 dim3-dim3 �ड��डम ḍiṇḍima small drum
+(Many)a me-luh-ha म�ल�� Melāḥ (country) settlements
+a (George, 2003); b (Parpola, Parpola, and Brunswig
+Jr, 1977); c (Devi, 1933); CDLI DB: ( CDLI, 2023);
+Based on Indus script signs embedded in various Tamil Brahmi and Sanskrit Brahmi491
+inscriptions, the most realistic candidate for the Indus language is Sanskrit.492
+2.8.4. Sanskrit morphology in the inscriptions493
+The attestation of triple symbols such as  would not fit many languages but could494
+be lit conjugation (somewhat similar to English perfect tense) of Sanskrit. Some roots495
+with a duplicated consonant become a triple consonant due to reduplication in lit. For496
+example, jajaja ‘I fought’ is first person singular perfect of √jaj ‘to fight.’ Similarlylalala497
+‘I enjoyed’ from √ lal, sasasa ‘I slept’ from √ sas etc. In addition, the large number of498
+doubled signs could also be lit conjugation in plural second person such as rara ‘you all499
+gave’ from √rā or babha ‘you all shined’ from √bhā.500
+2.8.5. Sumerian references to the Indus Valley501
+Additional evidence comes from Sumerian inscriptions (Parpola, Parpola, and Brunswig502
+Jr, 1977). The Meluhhans are first mentioned in Mesopotamian texts in an inscription503
+of Sargon 2300 BCE. Sumerians traded timber, ivory, carnelian, water buffalo, gold504
+dust etc. with a land named “Meluhha.” Meluhhans built large sea-worthy ships capable505
+of carrying large animals across the sea. Only the Indus Valley civilization produced all506
+the products sourced from Meluhha and had extensive ocean trade. Meluhha therefore507
+is nearly unanimously believed to be how the Sumerians referred to the Indus Valley508
+civilization or one of its trading posts.509
+Meluhhans seem to have settled and intermarried into Sumer and some Meluhhans510
+adopted Sumerian names. There are some names, however, that are not Sumerian.511
+Most of these seem to be attested as proper names in Sanskrit literature. Meluhha512
+itself needs to be both the name of a person and the name of a country as shown in513
+Table 2. One of the names ending in ibra could represent many Sanskrit names such as514
+Vibhra, Atibhra etc. but unlikely in other candidates like Dravidian.515
+In addition, 90 identified words in Sumerian may be borrowed from Sanskrit (Vyas,516
+2020). This may be seen as sufficiently strong evidence to attempt decoding the Indus517
+language as Sanskrit. We use Monier-Williams abbreviations throughout the paper to518
+13
+
+=== PDF PAGE 14 ===
+denote the source of attestation (Monier-Williams, 1899a). For example, Soma स�म [RV]519
+means “Soma as attested in Rigveda” and Samara समर[MW] means “Samara, attested520
+as a proper name in Monier-Williams dictionary.”521
+2.9. Determining one or more letters using occurrence patterns522
+The next step is to guess or decipher the first sign using unusual patterns in the text523
+that will enable us to read one or two syllabic words. We can rely on the fact that every524
+seal is one or more complete words and choose the shortest available seals to avoid the525
+issue of detecting word boundaries on longer inscriptions. With sufficient inscriptions526
+that only have a single common undeciphered sign, we can uniquely determine its value.527
+We can then repeat the steps and use the known signs to decipher the next unknown528
+sign.529
+All essential information for the cryptanalysis in a cryptogram is in the pattern of530
+occurrences of the symbols and not the symbols themselves. The plaintext EEL may531
+be enciphered as any of these equivalent cryptograms:BBA, XXC, GGF. Shannon calls532
+such a pattern underlying a set of equivalent cryptograms a residue class:533
+It is obvious in this case that these cryptograms are essentially equivalent. All that is of534
+importance in a simple substitution with random key is the pattern of letter repetitions,535
+the actual letters being dummy variables. Indeed we might dispense with them entirely536
+indicating the pattern of repetitions ( Shannon, 1945).537
+Cryptanalysis of cryptograms depends entirely on the pattern of positions and repeti-538
+tions of signs in the ciphertext and does not depend on symbol shape, evolution history539
+of a sign, assumptions on cultural aspects, geography, etc. Indeed, because none of540
+these aspects are inputs, they can be credibly deduced as outputs once sufficient signs541
+are deciphered.542
+Patterns in the Indus corpus may be represented as regular expressions enabling543
+us to search in dictionaries and determine their values. Solving cryptograms using544
+regular expressions is a known art and we will only touch upon the techniques used for545
+deciphering the Indus script (Goibhniu, 2007).546
+2.10. The dictionary method of solving cryptograms547
+We illustrate the dictionary method with a simple example of an unknown script en-548
+coding text in the English language. There are 26 possible values for each symbol and549
+trying each value would require 26! possibilities, which is infeasible. If we can, however,550
+reduce the number of possibilities to solve an individual letter to two or three options,551
+then the script can be deciphered in under a hundred attempts.552
+2.10.1. Bootstrapping553
+Let us suppose we parse through the corpus of the enciphered text and isolate the554
+following words from the ciphertext. Whether these words were collected from one or555
+many messages does not affect the decipherment as long as the values assigned to signs556
+haven’t changed.557
+Words with repeated signs have low equivocation and are great for bootstrapping558
+our decipherment. An inscription pattern like /^(.)\1.$/ such as ǫǫλ matches the559
+word EEL uniquely giving us {E, L }. Other words may decode different signs due to560
+unique patterns such as P AP AY A and M ILLEN N IU M which can give a different561
+14
+
+=== PDF PAGE 15 ===
+bootstrapping set.562
+Bootstrapping can be done even if there are no inscriptions with repeated signs, but563
+it takes a few more words to remove all the equivocation.564
+2.10.2. Further progress565
+Once we have a starting set of symbols, we can simply use them to find other sym-566
+bols. For example, to expand our decoded set of {ǫ, λ } = {E, L }, let us suppose we567
+locate another word λιǫ. We can substitute the values λ = L and ǫ = E and try to568
+find matches for ι using the regular expression /^L.E$/', which matches the words569
+{LEE, LIE, LY E }. For a homophonic cipher, E can be assigned to both ǫ and ι, so570
+we have 3 candidates for the value ofι = {E, I, Y }. We need to find another word that571
+reduces this set. Let us suppose we locate another inscription ιλλ, we can substitute572
+the values from our candidates in the new pattern/^(E|I|Y)LL$/ and we get a unique573
+result {ILL}. We have now decoded ι = I. Our decoded set expands to {E, L, I }. We574
+can continue to look for more words to help us decode more signs.575
+2.10.3. False negatives and false positives576
+It is pretty clear from the method that the accuracy of the dictionary and the correctness577
+of the regexes have a significant role in the correct decipherment of the script. Missing578
+words may give a false negative and the sign cannot be resolved and it would appear579
+we are at a dead end. At this point, we should check if the dictionary needs to be580
+augmented from the possible candidates. Often not all conjugations, compounded stems581
+or declined forms are available in dictionaries and false negatives should be expected.582
+If a conjugated verb, plural noun or gerund form is obvious, then we may simply add583
+it to the dictionary. If the sign being resolved is in the word stem and the other signs584
+are all known, then it is sufficient to simply match the stem itself. For example, if the585
+word KNOWING is missing in the dictionary, and we are trying to resolveKNO(.)ING,586
+it’s sufficient to just match KNO(.). This is how long compound words in inscriptions587
+can be matched.588
+On the flip side, a false negative can lead to a false positive. Suppose in our example,589
+the dictionary did not have the words LIE or LEE, the regex /^L.E$/' would match590
+only LYE and ιwould be resolved to Y. This risk can be greatly mitigated by repeating591
+the resolution of every sign using many different subsets of inscriptions, all of which592
+should resolve to the same value. In addition, if there are plenty of attestations for593
+the sign, grammatically correct and meaningful values for all of them reassure us that594
+no false positive has been chosen. Incorrectly decoded signs will not match further595
+plaintext words downstream and quickly result in a dead end making this approach596
+self-correcting. For example, if ι is incorrectly assigned the value Y in our example,597
+many plaintext words like ILL and IS will fail to match despite occasional plaintext598
+words like DIE matching DYE. With sufficient distinct attestations, it becomes clear599
+which signs are incorrect. Signs which have very few attestations may never resolve600
+purely via dictionary check and a grammar check and a general theme consistency may601
+be required.602
+2.10.4. Translation and correctness603
+Translation is a post-decipherment activity and an occasional bad translation does not604
+invalidate the decipherment. Translating ancient inscriptions without spacing or punc-605
+tuation is challenging on its own. Consider an inscription: MAYBEFOREMAN. Purely606
+15
+
+=== PDF PAGE 16 ===
+based on spacing adjustments, it could be read as MAY, BE FOREMAN or MAYBE607
+FORE, MAN or MAY BEFORE MAN . One way to address this is to look for con-608
+sistency in themes. If most of the inscriptions are about a workshop or factory, then609
+FOREMAN could be the right pick.610
+The abundance of choices on how to translate an inscription is generally a good sign611
+that the decipherment is nearly correct. If many signs are right but a few of the signs612
+are incorrect, they would typically force a break or the translation would not be in the613
+same themes as the rest of the translation. For example, if the letter E was incorrectly614
+deciphered as T, we would have MAYBTFORTMAN, forcing a word break near the615
+bad letter and we may attempt to read as MAY BT FORTMAN . Sometimes the bad616
+letter may be innocuous in one inscription, for example, if O was deciphered as I:617
+MAYBE FIREMAN. While this instance is grammatically correct, many others would618
+have breaks and the text would be nonsensical or incongruous with the general themes619
+of the rest of the inscriptions. These errant signs can be detected using the intersection620
+of the signs in all broken inscriptions and the decipherment process is repeated for such621
+signs with greater thoroughness.622
+If a decipherment is utterly incorrect, it won’t even be possible to make any words,623
+let alone morphologically consistent words and grammatically correct phrases that can624
+be read meaningfully. For example: mapagakajh cannot be made into a Sanskrit or625
+English phrase no matter how we dice it. This is because p or ph never follow m in626
+Sanskrit phonotactics, nor do words end in jh. Even plausible sounding short strings627
+like hena, hoja etc are non-words and it is unlikely that we get many matches because628
+the symbol space of a language is mostly filled with non-words.629
+A small subset of short inscriptions may be read as an abjad and with wide latitude630
+for word forms, ignoring morphology or syntax with a partially correct decipherment.631
+The grammatically correct reading of the longest inscriptions thus becomes a litmus632
+test for decipherment accuracy.633
+2.10.5. Adjustments for Sanskrit in an ancient script634
+From the Meluhhan words and names attested in Sumerian inscriptions, it appears that635
+Meluhhans spoke some form of post-Vedic Sanskrit, but one that is too early to be636
+termed classical Sanskrit. This enables us to use a downloadable Sanskrit dictionary637
+with some caveats. Most dictionaries do not have compound, declined, conjugated or638
+affixed forms so we need to add these forms as needed. Many words like root forms,639
+grammar terminology and those created by medieval lexicographers should be removed.640
+A few words may be potentially lost over the millennia, and we may find some inscrip-641
+tions unreadable despite deciphering the script accurately.642
+Indus script is a bronze age script and we have no idea how much fidelity an inscription643
+has to the actual spoken language. Based on very early scripts, our derivation should644
+handle a script that is unlikely to have a virāma (i.e., handle a consonant without an645
+assumed a vowel). We need to accommodate for the possibility of sign reuse among646
+dentals and retroflexes, aspirated and unaspirated and possibly voiced and unvoiced,647
+similar to later Tamil Brahmi. Doubled consonants may also be written as a single648
+sign(i.e., datta written as data).649
+We adjust for these by flattening sibilants together and also dentals with retroflexes650
+and aspirated with unaspirated. Doubled consonants are rare enough that we can only651
+examine them when we run into a dead end. This enables us to use simpler regexes652
+and reduces the chances of user error in derivation. The capture group (.) captures a653
+single consonant or a single vowel. To capture either a syllable or consonant without654
+16
+
+=== PDF PAGE 17 ===
+a following vowel, we would need to use (..?) as the capture group. The capture655
+group (..?)\1 would also capture reduplicated consonants but it’s an unwarranted656
+complexity. The capture group (.+) may be used to capture conjunct signs like .657
+2.11. Sign classification658
+Although we have used Mahadevan’s 417 signs as valid for a decipherment-neutral metric659
+of correctness, it is by no means authoritative. Indus script is a hand-carved writing660
+system and not a typeset or a tool-based script (unlike say, cuneiform). Therefore, just661
+as every handwriting sample of the same letter is unique, no two instances of any Indus662
+sign are exactly alike. There is plenty of room for stylistic and regional variants and663
+present classifications are subjective for the most part.664
+2.11.1. Signs and Glyphs665
+A sign is an idea of visual representation of a member of the script. A glyph is a par-666
+ticular realization of a sign and it’s normal to have multiple glyphs that represent the667
+same sign. For example, A A A A are all different realizations of the same sign in the668
+Latin alphabet. To be properly deciphered, the idea of the sign must be articulated669
+clearly, for example, The first letter A of the Latin alphabet is two vertical lines joined670
+at the top and separate at the bottom with a horizontal connection midway. This spec-671
+ification is sufficient to read an enormous array of handwriting and stylized fonts. For672
+pictorial signs, something like the phoneme D is a pictograph of a dog may be sufficient.673
+Regardless of the breed and orientation of the dog pictured, its intent is unambiguous.674
+A script made of pictorial glyphs is unlikely to have different signs based on tiny675
+variations such as “fish with two fins” vs “fish with 4 fins.” They are likely to represent676
+the same idea “a fish” and therefore different glyphs of the same sign. A rarely occurring677
+sign that is only slightly different from a frequently occurring sign is likely to be a678
+stylistic variant rather than an unrelated sign. Usually, there are unique characteristics679
+for variants of the same sign that help us correctly identify variants. For example, the680
+jar sign is unique for having zero to four small numeric strokes within it      681
+ . All renditions of this sign are treated as variants. For simplicity, we use the most682
+common rendition in the paper. For example, any of    will be denoted as  in683
+the derivation section. While variants of most signs are quite apparent, we present a684
+concise list of the most expansive variants in table 3.685
+Rare mirrored signs like   are likely an artifact of carving for seal impressions.686
+Bracketed signs    are likely to be word fragments consisting of three or more687
+signs rather than a single unrelated sign simply because the brackets and numerics occur688
+independently for example in M-2069 . These presumptions are validated if we can689
+read nearly all bracketed signs as a string of their constituents. Similarly, if conjunct690
+signs like    are indeed digraphs, then nearly all digraphs should be readable as691
+their constituent signs. Gradual abstractions of complex signs such as   should692
+independently be deciphered to the same value.693
+2.11.2. Stylistic and geographic variants694
+While an ornate rendition of the first sign of an inscription may be used, different glyphs695
+are often stylistic variations that may rarely be mixed in an inscription. For example,696
+Upper Case Is Rarely Mixed With Lower Case except in titles and italics are rarely697
+mixed with bold. The scarcity of mixed styles gives us a proof point to verify that698
+17
+
+=== PDF PAGE 18 ===
+T able 3. Six extensively stylized signs
+Sign name Stylized variants
+Barley merchant         
+Spider/Insect     
+Spider/Insect      
+Horse/Equid   
+Comb     
+Leaf       
+Chariot           
+T able 4. Discovery of distinct signs and allographs
+Glyphs Inscription Matches Result
+ vs  H-1850  bhaṭṭi Distinct
+Dholavira  mānana māyya mālla
+ vs  M-874  rayi yayi Allographs of ra
+H-1182  śaraṇi
+certain glyphs are indeed variants of the same sign if their values are identical.699
+When individual variants have sufficient attestations, we may prove each variant700
+individually for example, all 3 variants   may be independently proven to have701
+the value क ka. Where sufficient attestations don’t exist we can narrow down the702
+possibilities to a handful and attempt to read all the inscriptions meaningfully. For703
+example, by applying the regex method to identify we do not get a unique value, but704
+narrow it down to र ra or व va. Based on sign similarity and readability in inscriptions,705
+we can confirm that the sign  is a variant of  र ra.706
+This method is not only helpful in identifying variants, but it is also self-correcting707
+and an incorrect identification will be easy to identify:708
+(1) two signs which are different are assumed to be the same709
+(2) two signs that are the same are assumed to be different710
+In the first case, regular expression search yields two disjoint sets of inscriptions with711
+two different phonetic values. For example, if we presume the signs and  are variants712
+of the same sign, An attempt to narrow the matches from the first set using a member713
+of the second set will yield a null set. This immediately alerts us to the fact that the714
+signs are indeed distinct.715
+In the second case, both sets will yield the same phonetic value. In fact, this is how716
+we discover allographs as shown in Table4.717
+While an optimal reachability graph can be constructed by analyzing the inscriptions,718
+we can use the heuristic of solving signs in descending order of frequency with a few719
+detours as needed.720
+18
+
+=== PDF PAGE 19 ===
+2.12. The first sign721
+The first sign we decipher is the jar sign representing an. It also represents a variety722
+of nasal sounds including anusvara, which is a post-vocalic nasal sound. From the723
+dictionary itself, a regex for H-764B  we get a single match ananan, representing724
+ananaṃ, which is an accusative of anana. Technically, there are other possible matches725
+like jajaja, lalala which are legitimate matches. The seal Dmd-1  single jar sign726
+matches ana and eliminates other alternatives likeja and la. Finally, many inscriptions727
+with terminal jar signs representing the accusative ending aṃ resolve the value of the728
+sign.729
+After we decipher the first sign, we simply look for other inscriptions that enable730
+us to decipher more signs by substituting the value of the first sign. The vertical bar731
+sign  is decipherable with just the jar sign and we keep repeating the steps till all732
+signs are resolved. We continue the process roughly going in the descending order of733
+frequency of signs, to optimize the probability of finding sufficient attestations needed734
+for deciphering the sign. The complete derivation may be followed step by step in735
+Section 8. A computer program that partially reproduces the derivation is available in736
+the supplementary section.737
+2.13. Formalization738
+Let G = {g0, g 1, g 2... } be the set of symbols whose sound value is known.739
+Let X = {x0, x 1, x 2... } be the set of all symbols.740
+Let S = {s0, s 1, s 2... } be the set of inscriptions where si is a vector from symbols in741
+X742
+(1) Let two inscriptions sa = gixagkxc... and sb = gjxaglxf ...743
+(2) Let set of symbol matches Gxa = /gi(. +)gk. + / ∩ /gj(. +)gl. + /744
+(3) Repeat intersection with new inscription above until Gxa is of unit length745
+(4) xa = Gxa746
+(5) G = G ∪ xa747
+(6) Repeat until G = X748
+19
+
+=== PDF PAGE 20 ===
+3. Results749
+Indus script is made of 76 allographs representing the most common signs shown in750
+section 3.1. The complete derivation can be traced in section 8. A compact one-pager751
+is given in table 5. Long inscriptions and inscriptions with conjunct signs are listed in752
+sections 5 and 6 respectively. Some signs have variants that mark reading direction or753
+word boundaries and they are listed in table 10. Consonant clusters using syncope are754
+shown in table 9. Table 7 shows Indus signs standardized into Brahmi.755
+T able 5. Indus script phoneme glyphs
+Phoneme Glyphs
+अ a              
+आ ā         
+इ i  
+ई ī 
+उ ū     
+ए e 
+ओ o  
+अन� अ� an aṃ            
+अस� अ� as aḥ               
+क ख k kh         
+ग घ g gh 
+च छ c ch 
+ज झ j jh    
+त थ ट ठ t th ṭ ṭh     
+         
+द ध ड ढ d dh ḍ ḍh                   
+न n           
+प फ p ph   
+ब भ b bh      
+म m                           
+य y            
+र r                      
+ल l  
+व v     
+स श ष ह s ś ṣ h                         
+20
+
+=== PDF PAGE 21 ===
+3.1. Sign values and their reconstructed names756
+Phoneme Reconstructed Sign Name Sign Glyphs
+अ a अय�ग ayuga one[VarBṛS]  1
+आय� āyu man[R V]   2
+अग aga mountain[Kirat]  3
+अङ्क aṅka curve/hook[R V]      4
+आज�न ājani stick[A V]     5
+अजशृङ्ग� ajaśṛṅgī goat’s horn[A V]   6
+आ ā repeated अ a          7
+इ i इष�क� iṣīkā stalk of grass[A V]   8
+ई ī doubled इ  9
+उ ū उ��म udyāma rope[TS]   10
+उदप�न udapāna well[MBh]   11
+उप�नहन� upanihan hammer[ŚBr]  12
+ए e एक eka one[R V]  13
+ओ o ओपश opaśa pillar[R V]   14
+अन� अ�
+an aṃ
+अ�श� aṃśu soma drink[ŚBr]         15
+अ�श� aṃśu lamp[MaitrUp]     16
+अस� अ�
+as aḥ
+अष्टप�द aṣṭapāda eight legged[MBh] (spider)              17
+अष्टन� aṣṭan eight[R V]   18
+क ख
+k kh
+क � तम� kṛtam dice[ŚBr]      19
+क � तम� kṛtam axe[Cutting √ क � त�√kṛt]  20
+ख�त� khātṛ digger/pickaxe[Cāṇ]  21
+क � ष kṛṣa ploughshare[Gal]   22
+ग घ
+g gh
+ग�धन gādhana arrow[Hariv]  23
+च छ
+c ch
+चत�र� catur four[R V]  24
+छत्त्र chattra mushroom[CarakaS]  25
+ज झ
+j jh
+झर jhara waterfall[Prab]    26
+झञ्झ�न� jhañjān rain and wind[KāśīKh]   27
+त थ ट ठ
+t th ṭ ṭh
+तण्ड�ल taṇḍula rice plant[A V]  28
+त�ड �ल tāḍula fighter; beater[Uṇvṛ]   29
+त�ड्य tāḍya drum[Mn]  30
+त�ल tāla small cymbal[BhP] 
+
+31
+त� � tardū wooden ladles[L]     32
+तद� tarda Indian blackbird[A V]     33
+त्र tra three[R V]  34
+द ध ड ढ
+d dh ḍ ḍh
+धन्वन� dhanvan bow[R V]          35
+ध�न dhāna receptacle[R V]    36
+दन्त danta teeth[R V]   37
+ध�नक�� dhānakāḥ coins[Car]      38
+21
+
+=== PDF PAGE 22 ===
+Phoneme Reconstructed Sign Name Sign Glyphs
+न n न�ल nāla mat of reeds[BhP]  39
+न�ल nāla stalk[MBh]         40
+न�ल�क� nālīka arrow[MBh]  41
+नल nala reed[Bhp]  42
+नवन� navan nine[R V]  43
+प फ
+p ph
+पञ्चन� pañcan five[R V]   44
+पञ्चन� pañcan hand[R V]  45
+ब भ
+b bh
+भक्षपत्त्र�bhakṣapattrī edible[R V] leaf[R V]      46
+भक्षत्र bhakṣatra oven[ भक्षbhakṣa:R V]  47
+म m मत्स्य matsya fish[R V]   48
+मत्य matya club[A V]  49
+मत्य matya harrow[TS]   50
+मत्त matta elephant[R]   51
+मन्थ mantha churning stick[MBh]   52
+मन्थ mantha fire sticks[MBh]   53
+मन्द�र mandāra a flower[MBh]     54
+म�न्दर mandira dwelling[MBh]    55
+मय maya horse[VS]    56
+म�क्ष mṛkṣa comb[R V]       57
+य y य�व�ष्ट yaviṣṭhi barley[R V] seeker[R V]       58
+यव yava barley[R V]   59
+य�ष्ट yaṣṭi pearl necklace[VarBṛS]    60
+य�ष्ट yaṣṭi twig[Hariv]  61
+र r रथव� ratharvī split snake[A V]     62
+रथ��रन� rathārin chariot[R V] wheel[BhP]      63
+रथ ratha chariot[R V]        64
+रथद�रु rathadāru chariot wood[Pāṇ]       65
+ल l लत� latā creeper[MBh]   66
+व v वत� vartī lamp wick[MBh]  67
+�व vi two[R V]  68
+व�टक vīṭaka betel leaf/nut[Pañcad]  69
+वट� vaṭī banyan tree[MBh]   70
+व�त्र vātra loom [√ व� + ष्ट्रन�]  71
+स श ष ह
+s ś ṣ h
+श�ख�र śākhāra squirrel; branch mover[R V]       72
+श�क्र śukra seed[R V]    73
+�शखर śikhara mountaintop[MBh]     74
+�शख� śikhā peacock crest[MBh]     75
+श्य�न śyena falcon[R V]  76
+श�ण śāṇa weight of four[Hariv]  77
+षण� ṣaṇ six[R V]   78
+सप्तन� saptan seven[R V]   79
+स�प�न sopāna ladder[MBh]     80
+81
+22
+
+=== PDF PAGE 23 ===
+T able 8. Numeric and pictorial line stroke signs
+Numeric from digits 1-10 Pictorial
+               
+अ व त च प ष स अस� न द अ स ज न ष ज
+a v t c p ṣ s as n d a s j n ṣ j
+T able 9. Consonant clusters using schwa and double syncope
+Seal-Id Inscription Sanskrit Transliteration Conjunct
+H-43  शक्र śakra क्रkra
+H-152a  क्षय kṣaya क्षkṣa
+M-43a  मज्ज वम�हन� majja vamāhan ज्जjja
+M-1316  स�ह वल्लभ sāha vallabha ल्लlla
+बड�द baḍāda
+T able 7. Indus signs standardized into Brahmi
+अ a इ i उ u ए e ओ o
+𑀅  𑁦𑁇𑁦  𑀉  𑀏  𑀑 
+क k ख kh ग g घ gh ङ ṅ
+𑀓  𑀔  𑀕  𑀖  𑀗 
+च c छ ch ज j झ jh ञ ñ
+𑀘  𑀙  𑀚  𑀝𑀝  𑀜 
+ट ṭ ठ ṭh ड ḍ ढ ḍh ण ṇ
+𑀝
+ 𑀞  𑀟  𑀠  𑀡 
+त t थ th द d ध dh न n
+𑀢  𑀣  𑀤  𑀥  𑀦 
+प p फ ph ब b भ bh म m
+𑀧  𑀨  𑀩  𑀪  𑀫 
+य y र r Brahmi ल l व v
+𑀬  𑀭  vs 𑀮 𑀯 
+श ś ष ṣ Indus स s ह h
+𑀰  𑀱  𑀲 𑀳 
+23
+
+=== PDF PAGE 24 ===
+T able 10. Directional and word-boundary variants
+Sign Marked Variants Sign Marked Variants
+अ a           न n  
+अ a     ब b  
+अन� an       म m  
+अन� an      म m  
+अस� as    य y  
+द d   र r      
+द d   र r     
+4. Discussion757
+Indus script is a segmental script that may be described as proto-abugida. The major758
+difference from Brahmi is that retroflexes use the same signs as dentals and aspirated759
+and unaspirated stops use the same signs. Signs have a default vowel of अ a unless760
+overridden by an immediately following vowel sign. No diacritics are used.761
+Many signs have stylistic variations that have no phonetic distinctions. While signs762
+are distinct in most cases, occasional ambiguities do exist, which are discussed below.763
+Signs may be classed into several groups based on characteristics specific to them.764
+4.1. The language765
+Many words from classical literature such as the Ramayaṇa and Mahābhārata are at-766
+tested, but the meanings of many archaic words are from the Vedic corpus. Chain767
+compounds are also a feature of classical Sanskrit. Although the grammar is essentially768
+the same, we refer to the Indus language as post-Vedic, to avoid confusion with the769
+classical literature that began with Pāṇini’s Aṣṭādhyayī.770
+4.2. The inscription content771
+The contents of the Indus inscriptions are similar to Janapada coins and Gupta-era772
+seals that they resemble( Azad, 2020). Long seals seem to use a concise Vedic con-773
+cept as a motto or slogan. This tradition is attested at least from Gupta times and774
+carries on to the present day. For example, a Gupta era seal readsśaṃkara-vara yānāb-775
+hyaḥ(IndMuseum, 5th Century). This translates to “Shiva’s blessing for the journeys”776
+which is a concise form of Rig-Veda 7.35.15. This could be a prayer for a journey of trade777
+goods. Another reads Śivam brihaspate “[Our] welfare, O bṛhaspati”(MetMuseum, 6th778
+CE). This is a concise form of Rig-Veda 1.89.6. The tradition of using Rigvedic for-779
+mulas as prayers and mottos continues to the present day in many organizations. The780
+government of India’s satyameva jayate “Truth alone triumphs” from the Chhāndogya781
+Upanishad, is the most famous. In addition, the various state and local governments of782
+India, Thailand and Indonesia continue to use concise forms of Vedic verses as mottos.783
+The first few signs often invoke a deity. Most of these are of the meaning of destroyer784
+or roarer. The Vedic god Rudra is both Roarer and Destroyer. This may be because the785
+root ru means both roar and kill. Most names are simply constructed by the -a affix to786
+the root, which creates the agent-noun from the verb-root (i.e., roarer from roar). In787
+24
+
+=== PDF PAGE 25 ===
+T able 11. Provisional readings of mixed IVC/Brahmi inscriptions from subsection 1.1
+Source Inscription Reading Translation
+1 Keezhadi 𑀘𑀸𑀧𑀬 च�पयशम� renowned archer
+600 BCE cāpayaśam
+2 Marungur 𑀅𑀫𑀳  अमहस� the mighty one
+200 BCE amahas
+3 Annakodai 𑀓 𑀸 𑀯 𑀸 𑀢 रर क�व�त� given by Kāva
+300 BCE rara kāvāt (a Sāman)
+4 Vietnam Gold foil 𑀯𑀭 𑀸  वर�ह Varaha avatar
+100CE varāha
+5 Copper Hoard 𑀰 𑀁 𑀔 𑀸 𑀢 𑀓 𑀺 𑀫 श�ख�त� �क� what emanated
+1800 BCE 𑀞𑀟𑀬 रठ � डय from the conch?
+śaṅkhāt kiṃ
+raṭaṇ ḍaya
+6 Bet Dwarka 
+𑀔 𑀸𑀫 म�रख� ईश O Ocean expanse!
+(R to L) <1000 BCE mīrakhā īśa O Lord!
+7 Bijar-Ghamchoghai 𑀬  रूर रय�� O fire, the rivers
+(R to L) undated   मम मठम� are my home
+rūra rayāḥ
+mama maṭham
+Paṇinian grammar, this is called the अच� ac affix. Although Pāṇini mentions this rule788
+to apply only to a specific set of roots ( pacādi roots), in practice this affix is universal789
+and can be applied to any root as evidenced in the oldest books of Rigveda [च�द� + अच� =790
+च�द cud + ac = coda RV 5.61.3].791
+The intended meanings of short seals are harder to determine with precision. For792
+example, the inscription H-101a  parṇa has an ordinary meaning of leaf, wing,793
+or feather, but is also a proper name of a people, a place, a teacher or a particular794
+tree. For the sake of conciseness, we just translate it simply as “leaf.” Most short seals795
+resemble the contents of the seals from the Gupta period and therefore are likely to be796
+names or membership tokens(Azad, 2020). Determining the actual intended meaning797
+of any inscription is beyond the scope of this work. For determining the accuracy of798
+the decipherment, it only matters that the inscription has been read grammatically799
+correctly.800
+The only properties of a language of interest in cryptography are statistical properties.801
+What are the frequencies of the various letters, of different digrams (pairs of letters), tri-802
+grams, words, phrases, etc.? What is the probability that a given word occurs in a certain803
+message? The “meaning” of a message has significance only in its influence on these prob-804
+abilities. For our purposes, all other properties of language can be omitted.( Shannon,805
+1945)806
+25
+
+=== PDF PAGE 26 ===
+T able 12. Provisional readings for non-Sanskrit seals from Mesopotamia and Dilmun( Laursen, 2010)
+Source Inscription Reading Translation Language
+Karzakan   an-an Sky-heaven Sumerian
+Karzakan  a’aš am sign of the wild bull Sumerian
+Karzakan  a’aš aga sign of the crown Sumerian
+Mesopotamia?  kaš an-an decision of the sky god Sumerian
+Mesopotamia?  maa-a boat labor Sumerian
+Saar  ḫamu-a for raft Old Akkadian
+Susa  karānu wine Akkadian
+Ur  kamānu cumin Old Akkadian
+T able 13. Validated analyses from past decipherments
+Authors Finding
+Mahadevana Primary direction is Right-to-left
+Parpolab Signary contains allographs
+Rajesh Rao et. al. c non-IVC language inscriptions in West Asia
+S. R. Raod Language is Indo-Aryan
+Huntere Indus script and Brahmi are related
+Sullivanf Brahmi signs in Indus script have identical values
+Bontag Semiotics suggest Indo-Aryan language
+Heggarty et. al. h Indo-Aryan and Iranic separated by 3000 BCE
+a(Mahadevan, 1977);b(Parpola, 1994); c(Rao et al. , 2009); d(Rao, 1980);
+e(Hunter, 1934); f(Sullivan, 2011); g(Bonta, 2023); h(Heggarty et al. , 2023);
+4.3. Validations807
+Although the results of this decipherment are markedly different from prior decipher-808
+ments, we validate many important findings of prior decipherments. These are listed in809
+table 13.810
+4.4. Allographs811
+The script has 76 allographs for the most common signs with a median of three allo-812
+graphs per phoneme shown in Table6. These allographs seem to have appeared due to813
+mispronunciations when the name of the sign was transmitted orally. This may have814
+happened sometime after the Harappan period 3A when speakers of other Indo-Aryan815
+dialects began using the script as part of the Indus Valley integration phase. This is816
+analogous to the effect of Prakrit on the writing of the Maurya and Gupta eras.817
+A comprehensive allograph chart is in table 6. An average of a little over 4 variants818
+per allograph for 76 allographs explains the approximately 125+ signs.819
+26
+
+=== PDF PAGE 27 ===
+4.5. Line strokes and Numeric signs820
+A numeric sign does not encode an actual number, but rather the first syllable of its821
+name. The sound values are shown in Table8. A sign with eleven strokes does not exist,822
+suggesting the Indus civilization used a decimal system. The name for a single numeric823
+stroke, अय�ग ayuga, represents the अ a vowel. अय�ग ayuga may have mutated into अइक824
+aika which may have been used as the diphthong अइ ai. The word एक eka evidently825
+evolved from अय�ग ayuga via अइक aika. The other numeric signs are self-explanatory,826
+each representing the initial consonant of its name.827
+Non-numeric signs seem to have been invented earlier than numeric signs, as evi-828
+denced by workarounds to comply with non-numeric signs. Evidence for this is that829
+other अ a signs can be doubled to form आ ā but not the  vertical stroke since it would830
+be read as  स sa and inscriptions work around this by inserting  between the two to831
+create . The sign  ja often written as  representing rain, is not a numeric sign.832
+Its allograph  is not to be confused with the numeric sign  read as त ta.833
+4.6. Sign disambiguation834
+Numeric signs in general take all strokes as a single sign. Spacing, stroke size differences835
+and incline differences are used to distinguish two adjacent numeric signs or signs made836
+of simple line strokes.837
+For example, the sign M-734 reads    वरण-जज varaṇa-jaja, “chosen[Uṇādi] war-838
+rior[Śiś].” The clear space between  is unambiguously read as two ज ja signs, rather839
+than a single sibilant sign, which would need to be read asवण�स� varṇas, “color[MBh].”840
+Seal M-1822  uses incline differences to distinguish   स� sā to avoid being read as841
+ ज ja.842
+When strokes are arranged in rows, if the upper row has an equal or higher number843
+of strokes than the lower row, then the sign is read as representing the total number of844
+strokes. Inscriptions use spacing to ensure clear separation between distinct signs.845
+For example, the sign M-1904 reads  जज jaja, “warrior.” The three-stroke sign846
+representing the first syllable is marked as distinct from the other by horizontal and847
+vertical spacing. If there was no clear spacing, the seal would look like  and be read848
+as a sibilant.849
+When the upper row has fewer strokes than the lower row, spacing or other indications850
+of separateness become important for an accurate reading. For example, M-948 reads851
+ अववज्यavavajya “off[RV] journey[√वज�]”, rather than अवपय avapaya “desiring[RV]852
+water[RV]” due to slight offset of two rows of strokes. While signs with five or more853
+strokes can appear in one or two rows, signs with two and four always appear in a854
+single row. If they appear in two rows, they are distinctly different signs with distinctly855
+different sound values. Note the differences between  व va,  ज ja,  च ca versus  न856
+na,  त ta,  श śa.857
+4.7. Vowels858
+A vowel sign overrides the default अ a vowel of the preceding sign just as in abugida859
+unless it’s another a, which lengthens to आ ā. In practice, a leading अ a can be either860
+अ a or आ ā. Repeated vowel signs make a long vowel. The only long vowels attested861
+are आ and ई. Other vowels such as ऊ simply use the same sign  to indicate both long862
+and short vowels. ऋ ṛ uses signs for र r and presumably so do the unattested ॠ ṝ ऌ863
+ḷ. The signs for  अन� an and  अस� as represent अ� ṃ and अ� ḥ respectively and have864
+27
+
+=== PDF PAGE 28 ===
+vowel length flexibility, the rest are abugida and always read with default vowel a or865
+without any vowel and conjunct with the next sign.866
+4.8. Diphthongs867
+The sequence अइ a-i exists as a diphthong in some seals indicating that is possibly used868
+for ऐ ai as in H-1056  जमन�� jamanaiḥ [√जम� + ल्य�ट �n.ins.pl of noun from √jam].869
+An equivalent diphthong for औ au is not attested but may be reconstructed as .870
+4.9. Base consonants871
+A base consonant sign represents an ordinary consonant with the default vowel अ a.872
+Retroflex ṭ ḍ and dentals t d use the same signs, similar to the usage of the Latin873
+alphabet to write Sanskrit. Aspirated kh gh ch jh th dh ph bh use the corresponding874
+unaspirated k g c j t d p b signs.875
+4.10. Sibilants and nasals876
+All signs for श ष स ह ś ṣ s h are interchangeable including अस� as signs. These are877
+also used as visarga ḥ where needed. The usage of the as signs for h ḥ may reflect a878
+grammatical feature of Sanskrit where a nominative affix s becomes ḥ in sandhi. The879
+ sign is also used nasal consonants न n, ण ṇ and ङ ṅ. This interchangeability of880
+retroflex with dentals, aspirated with unaspirated, the sibilants among themselves and881
+the same with the nasals may be additional evidence of the presence of multiple Indo-882
+Aryan dialects in the Indus Valley civilization. We see the same effect in the Sanskrit883
+words attested during historic times due to the presence of various Prakrit dialects.884
+For example, Sanskrit स�न sena becomes Prakrit ष�ण ṣeṇa, रज्जrajja is written as रझ885
+rajha and so on. To Prakrit speakers, these signs are interchangeable in a script. More886
+examples are shown in table 15.887
+The  variant seems to be preferred for ञ ñ but in principle, all jar-like signs are888
+interchangeable. Ambiguities that may be caused by the flexible vowel length of jar signs889
+are avoided by adding an अ a right after. For example, L-218  would be read as890
+अनवस anavasa, Rivedic[6.66.7] word meaning “unstopping” describing the unstoppable891
+march of the storm gods, the Maruts, rather than a fairly meaningless अण्वसaṇva-sa892
+“interstice bestowing.”893
+4.11. Conjunct signs894
+A conjunct sign is created by combining two (or rarely more) base signs and represents895
+the sounds of the combined signs. The most common being the signs for अम ama,896
+which can take a variety of forms by vertically assembling a rotated curve sign  अ a897
+and one of the म m signs, giving many possible conjuncts,  roofed-fish sign being the898
+most common. In addition to these, there are over 100 rarely used conjuncts that are899
+deciphered in Section 6.900
+Conjuncts appear to be artifacts of limited space. One type of conjuncts is constituted901
+of two base signs that appear to be ligatured because they touch each other due to902
+crowding caused by lack of space. Extremely rare occurrences of conjunct signs clarify903
+that a conjunct sign is simply two or more normal signs that just happened to touch due904
+to crowding. They may be simply read as if they are separate. Often signs are missed905
+28
+
+=== PDF PAGE 29 ===
+T able 14. Directional markers on jar signs
+Seal-Id Inscription Sanskrit Transliteration Direction
+H-1711  क�न्तद�न kāntadāna ←
+M-1353  अन्नद�न annadāna ←
+M-1304  अनवरम� anavaram ←
+H-1801  अनवरम� anavaram ←
+M-862  अनरम� anaram ←
+M-420  अन�चर anācara ←
+M-1822  अन�ष� anūṣā ←
+M-1700  अन्ध�� andhaiḥ ←
+Ns-86  अन� anu →
+M-1336  आनवम� ānavam →
+M-2062  line1: चर cara ←
+ line2: अ�श aṃśa →
+M-378  वनम� अपर vanam apara word boundary
+H-454  अनम� वरम� anam varam word boundary
+during the initial carving and later squeezed if space permits as in C-8. These906
+are read as if they were normal-sized. If there is insufficient space to squeeze in the907
+sign, then a narrow sign like  or  may be rotated and placed above the next character908
+as in   . These are simply read as two separate signs with the top sign followed by909
+the bottom within the flow of the text. Occasionally, there is insufficient space to insert910
+a character in the right location, so a proper conjunct is made, for example,  ji in911
+M-409 . Such conjuncts appear at the ends of inscriptions where there is no space912
+to insert the missed character, so the missed sign is conjunct to its nearest one and may913
+be read with the (normal sized) base character first and the attached sign following914
+it:  is read as . Exceptions can be made based on words that are attested915
+in other inscriptions like  dhakka but these are rare. The vowel conjuncts may have916
+evolved into Brahmi diacritics. For example, the Indus conjunct  may have become917
+Brahmi 𑀥 𑀻 dhī.918
+4.12. Consonant clusters919
+Clustered consonants are simply written adjacent but are pronounced with a schwa920
+syncope. Doubled consonants are written as a single consonant. Examples are shown921
+in Table 9.922
+4.13. Directional markers923
+While the preferred direction of writing is right-to-left as discussed in section2.1, occa-924
+sional left-to-right and boustrophedons are also attested. Egyptian hieroglyphs and the925
+Phonecian scripts simply mirror the signs when the direction changes, so boustrophe-926
+dons are simple to detect. Since the vast majority of Indus script signs are symmetric927
+29
+
+=== PDF PAGE 30 ===
+and sometimes even the asymmetric signs are inscribed mirrored horizontally, there is928
+a chance that the inscriptions are read in the wrong direction. For large inscriptions,929
+this is usually not a problem, since they would be unreadable the wrong way. However,930
+short inscriptions have the risk of being read incorrectly. This is true for a large number931
+of words in the Indus inscriptions. For example,tana can be read as naṭa, anu as unna,932
+etc. which may change the intended meaning. Table 14 shows examples where the933
+inscriptions could be read in the opposite direction with a different meaning. Scribes934
+eventually may have added the marks to err on the safe side, even if no obvious conflict935
+is known.936
+The most common sign, the  jar sign repeated sufficiently within inscriptions to937
+enable a directional marker of its own, by adding one to four small strokes inside the938
+jar as shown in the first section of Table14. The strokes appear in non-ascending order.939
+The first jar always has the highest number of strokes and the next sign can either940
+decrease or maintain the number of strokes. Typically, the final jar sign will end up941
+with no strokes. This pattern holds for over two hundred inscriptions with just a handful942
+of exceptions as in the last section of Table 14. The improbability of these strokes to943
+have any kind of phonetic meaning is easily verified by testing the inscriptions against a944
+dictionary. These strokes are a directional marker similar to a fuel gauge, tracking the945
+remaining text portions from full to empty. The directional mark is placed on a nearby946
+sign if the starting sign is numeric or otherwise unsuitable for a directional indicator.947
+A directional marker may be used even when it’s the only jar sign in the inscription to948
+avoid accidental reading in the wrong direction as we see in the second section since the949
+ jar sign is so often a terminal sign. When the leftmost sign has a directional marker950
+and the rightmost sign doesn’t, the seal may be preferentially read left to right as we951
+see in the last section of Table 14. This is most useful for multi-line boustrophedon952
+inscriptions but occasionally also occurs in single-line seals.953
+Signs other than jar signs can also have one to four strokes to indicate direction or954
+word boundary. Usually, these occur as the initial sign in the inscription and act as a955
+directional indicator and are listed in Table 10.956
+4.14. Stylistic variants957
+The different glyphs of the same allograph without directional function in Table 6 are958
+likely to be stylistic variations, based on the fact that different forms of a single allograph959
+rarely occur together in the same inscription. Typically when the inscription needs to960
+use the same allograph twice, the scribe seems to choose the same variant or one very961
+close to it. There are a few obvious exceptions, such as fish sign, where variants do962
+occur together.963
+4.15. Evolution964
+Signs that take up horizontal space undergo rotation      to fit in limited space.965
+Complex and time-consuming signs undergo abstraction      and simplification 966
+ . Many variants of the same sign are simply cursive variants, as they are written967
+in a way to reduce the number of strokes on a softer medium. Indus script developed968
+several artifacts that can all be parsimoniously attributed to the lack of horizontal space969
+since inscribed objects were the size of coins. Eliding the final anusvāra (ṃ sound) and970
+double consonants were a matter of economy on small seals but are unnecessary on stone971
+and pillar inscriptions, given that the Brahmianusvāra is a simple dot and doesn’t even972
+30
+
+=== PDF PAGE 31 ===
+take up any space. This may be simply due to continued scribing tradition.973
+Examining the different glyphs attested for some signs shows evidence of the devel-974
+opment of cursive forms. For example, the signs that are based on straight lines show975
+curved lined variants such as ,  ,  . This is unnecessarily complex in a carved976
+medium but natural in a soft medium using inks or brushes. The author of the inscrip-977
+tion seems to have written the text in cursive and the scribe must have carved it as is.978
+Minimizing strokes can sometimes work to the benefit of both carved and soft media,979
+such as  ,  , but some forms are clearly beneficial only on the non-carved media980
+such as  ,  . Ligatures also seem unnecessary on carved media but are natural981
+for ink and brush as in   .982
+4.16. Evolution to Brahmi983
+When we arrange Brahmi signs with their closest corresponding Indus script allograph984
+for the same sound value, we notice that every Brahmi sign seems to be a minor variant985
+or simplification of a pre-existing Indus sign. Indus script glyphs are closer to Brahmi986
+than Brahmi glyphs are to modern Devanagari script. Among the earliest Brahmi are987
+inscriptions from Keezhadi among which there is at least one sample on a potsherd that988
+reads 𑀫𑀱𑀭 𑀼 𑀅. This is meaningless when read left-to-right but when read right-to-left,989
+reads अरुषम� aruṣam, which is a Rigvedic word for the red color of the god Agni, the Sun990
+or cows and horses[MW](Sivanantham and Seran, 2019). This is an early attestation of991
+direction change in Keezhadi. The gradual change from Indus script at the earliest levels,992
+followed by mixed inscriptions and finally only Brahmi on the latest levels may indicate993
+a gradual evolution from Indus script to Brahmi captured in Keezhadi stratigraphy.994
+Table 7 is an accurate snapshot of the Indus signs chosen to be standardized into995
+Brahmi using the observation that retroflexes and dentals are interchangeable as a group996
+as are non-labial nasal consonants.997
+4.17. Script fidelity998
+Bronze-age scripts generally do not have high fidelity to their transliteration. Linear999
+B for example, has no consonant clusters. Sumerian is a polyvalent script that has1000
+multiple ways to read and write a word and different signs are used based on meaning.1001
+Even classical Arabic did not have dots (i’jām) to distinguish different phonemes on1002
+many rock inscriptions, despite having multiple forms (initial, media, terminal) for the1003
+same phoneme. By comparison, the Indus script has a fidelity similar to Tamil Brahmi1004
+with nearly the same sign reuse groups of consonants. Indus inscriptions are fairly1005
+readable even after 4-5 millennia with little effort.1006
+4.18. Religious continuity1007
+We see several linguistic and cultural features that continued post-Indus phase. The1008
+deities in Indus inscriptions are the same as Vedic. The Sun, Soma, Rudra, Indra, Agni,1009
+Ushas, Ashlesha and Bharani constellations, the horse ashva, Ardhanareeshwara (seals1010
+depicting one-breasted human) and pipal tree continue to be revered to this day. Select1011
+Rigvedic references related to long inscriptions are noted in Section 5.1012
+31
+
+=== PDF PAGE 32 ===
+T able 15. Post-IVC attestation of script elements( Balasubramaniam, 2005; Bhatt, 1998; Hultzsch, 1925)
+Indus feature Attestation Attested as Read as
+merged dentals/ Avanti fish seal द � वट�ह devaṭāḥ द � वत�� devatāḥ
+retroflex Mansehra दुवडश duvaḍaśa दुवदश duvadaśa
+merged un/aspirated Girnar उस्ट�न usṭāna उस् थ�न usthāna
+merged Kalsi द�श, द�ष dāśa, dāṣa द�स dāsa
+sibilants Girnar वस� varsa वष� varṣa
+no virāma Ajagara अगसतय agasataya अगस्तय agastya
+elided doubled Qutub Iron pillar म�त्य�� mūrtyā म�त्त्य�� mūrttyā
+consonants Girnar अ�ग agi अ��ग aggi
+elided anusvara Girnar इद ida इद � idaṃ
+अ� अन� aṃ an Qutub Iron pillar प्रन्श�pranśu प्र�श� praṃśu
+flexibility Girnar अ�ञ aṃña अन्य anya
+initial आ ā as अ a Girnar अर��पत� aropitaṃ आर��पत� āropitaṃ
+4.19. Vestiges of Indus linguistic forms1013
+Indus script characteristics are also attested into post-IVC inscriptions, coins and1014
+seals(Bhatt, 1998; Hultzsch, 1925; Solomon, 1998). These are shown in Table 15. The1015
+Iron pillar presently in the Qutub complex retains some of the archaic language features1016
+of Indus inscriptions(Singh, 2006). It uses a lone consonant to represent a doubled con-1017
+sonant (mūrtyā instead of mūrttyā) and the anusvara अ� aṃ is denoted अन� an (pranśu1018
+instead of praṃśu). Indus script provides evidence that the Qutub inscription was not1019
+an aberration, but rather that अ� aṃ was inscribed as अन�.1020
+Inscriptions with mixed Indus/Brahmi signs are now readable such as the one from1021
+Marungur(Subrahmanian, 2010). These are shown in Table 11. Indus-seal technology1022
+was exported to Mesopotamia and Dilmun in the mature phase(Laursen, 2010). Of the1023
+more than 121 seals unearthed, most do not have any inscription. At least 27 have Indus1024
+inscriptions shown in Table 12, of which some are readable as Sumerian, Akkadian or1025
+Old Akkadian(Association Assyrophile de France, 2006; Gelb, 1957; UPenn, 2006).1026
+32
+
+=== PDF PAGE 33 ===
+5. Long inscriptions with their scriptural references1027
+Seal-Id Inscription Translation
+1 M-314    Honor the powerful Roarer
+रव�मम� मन सक्षनर � जठलध�र रह O Sustainer, O Ocean(Shiva)
+rava-amam mana sakṣa-naraṃ yield to the capable man
+jaṭhala-dhāra raha
+R V 5.45.10 hearing him, the waters receded
+रव rava roarer[√रु + अच�]; अमम� amam ams. the powerful[R V]; मन mana honor[√म्न� + ल�ट � 2s.];
+सक्षsakṣa capable[TS]; नर � naraṃ ams. man[TS]; जठल jaṭhala vms. Ocean[Sāy] =सम�द्र=Shiva[MBh];
+ध�र dhāra vms. Sustainer[MBh 13.14.13]; रह raha yield, release[√ रह� + ल�ट � 2s.];
+2 M-23   Great Giver, this cup
+द�ममन क � स� न� रन्धन is for us, O Shiva
+dāma-mana kaṃsaṃ naḥ randhana
+R V 2.37.2 his name is “The Giver”
+R V 10.112.6 Filled is the beaker with the meath
+द�मन� dāman giver[R V];मन mana vns. great[= मह�न� mahān Vā.]; क � स�kaṃsaṃ ans. cup/jar[A V];
+न� naḥ for us[R V dp. of अस्मद� asmad]; रन्धनrandhana vms. destroying[Bhp];
+3 M-234   Great Giver, the cup
+द�ममन क � स� च आस नदन� is taken roaringly!
+dāma-mana kaṃsaṃ ca āsa nadan
+R V 10.136.7 Rudra roaring hath drunk from the cup
+द�मन� dāman giver[R V];मन mana vns. great[= मह�न� mahān Vā.]; क � स�kaṃsaṃ ans. cup/jar[A V];
+आस āsa taken[√अस� + �लट � 1s./3s.]; नदन� nadan roaring[√नद� + शत��];
+4 M-626   Excellent sacrificial cup
+कम� म�ख� क � स� द�त नदन� O roaring purified one!
+kam mākhaṃ kaṃsaṃ dāta nadan
+R V 1.15.2 Drink from the purifier’s cup
+R V 2.37.1 meath out of the sacrificer’s cup
+कम� kam indc. good/well[TS]; म�ख� mākhaṃ ans. oblation[Hariv]; क � स�kaṃsaṃ ans. cup[A V];
+द�त dāta vms. purified[Pāṇ]; नदन� nadan roaring[√नद� + शत��];
+33
+
+=== PDF PAGE 34 ===
+Seal-Id Inscription Translation
+5 H-1657  O Destroyer(Rudra), bring us
+धक्क वह म��सज�शवरम� the gift of food full of fatness
+dhakka vaha māṃsaja-āśa-varam
+R V 10.169.1 waters rich in life and fatness: to food that moves, O Rudra
+धक्कdhakka vns. destroyer[√ धक्क � + अच�]; वह vaha carry[√वह� + ल�ट � 2s.]; म��सज māṃsaja fat[Suśr];
+आश āśa food[ŚBr]; वरम� varam ams. boon[R V];
+6 M-355  O Roarer, That gift of
+तद्ददनम� रव अममञ्जस्सर �powerful Soma juice
+tat-dadanam rava amam-añjas-saraṃ
+R V 9.80.2 powerful Soma, thou to whom the cows have-lowed
+तत� tat ans. that[R V]; ददनम� dadanam ans. present[√ दद� + ल्य�ट �]; रव rava vns. roarer[√ रु + अच�];
+अमम� amamam ams. powerful[R V]; अञ्जस�añjas Soma[R V];सरम� saram ams. liquid[VS];
+7 M-38  O Roarer, Giver of plenty!
+शतद�रव आम मह� म�ख� may I serve this great sacrifice
+śatadā-rava āma mahaṃ mākhaṃ
+R V 1.122.01 bringing sacrifice to bounteous Rudra
+शतद� śatadā giver of a hundred[SV]; रव rava vns. roarer[√ रु + अच�]; आम āma serve[√अम� + ल�ट � 1s.];
+मह� mahaṃ ams. great[R V]; म�ख� mākhaṃ ans. oblation[Hariv];
+8 M-391  O burning roarer, bless us
+द�हरव श� ज�र��ङ्कधर O lover, O Indra, O bearer
+dāha-rava śaṃ jāra-aṅki-dhara
+R V 1.115.2 Like a young man, Sun follows the Dawn
+R V 3.45.4 Indra uses hooks to get fruit
+द�ह dāha burning[MBh]; रव rava vns. roarer[√ रु + अच�]; श� śaṃ indc. bless[R V];
+ज�र jāra lover of dawn[R V]; अ�ङ्कन� aṅkin Indra[R V 3.45.4]; धर dhara vms. bearer[MBh];
+9 M-1954  O Shiva, soul of the day,
+रव अहत्मन� जर�वर�न� bring us great praises
+rava aha-tman jarā-varān
+R V 1.26.9 may the eulogies of mortal men Belong to us
+रव rava vns. roarer[√ रु + अच�]; अह aha day[R V];त्मन�tman vms. soul[R V];
+जर� jarā praise[R V];वर�न� varān anp. best[R V];
+34
+
+=== PDF PAGE 35 ===
+Seal-Id Inscription Translation
+10 M-1688  O ancestor, strengthen indeed
+वज ह�न आम� अश्वम�द�[न�] the delights of possessing horses
+vaja hāna ām aśva-modā[n]
+R V 1.92.7 confer on us strength ... kine and horses
+वज vaja strengthen[√वज� + ल�ट � 2s.]; ह�न hāna vms. departed[VS];
+आम� ām indc. indeed[MaitrS]; अश्वaśva horse[R V];म�द�[न�] modān amp. joy[R V];
+11 H-130  Grant us your power,
+दद� तव वशम� अञ्जदह्र O Shining fire
+dadā tava vaśam añja-dahra
+R V 1.36.11 Agni, we extol: his powers shine out preeminent.
+दद� dadā grant[R V 4.36.9]; तव tava your[R V];वशम� vaśam ams. power[A V];
+अञ्जañja shining[√अञ्ज� + अच�]; दह्रdahra vns. fire[Uṇvṛ];
+12 M-359  Roaring Shiva, bring
+तनभव वह अमम� वरम� a mighty blessing
+tana-bhava vaha amam varam
+R V 10.164.2 A happy boon do men elect, a mighty blessing they obtain
+तन tana roarer[√तन� + अच� R V];भव bhava vms. Rudra[BhP,A V]; वह vaha carry[√वह� + ल�ट � 2s.];
+अमम� amam mighty[R V];वरम� varam ams. choicest[MBh];
+13 H-280  I enjoyed, O Shining one
+हट ममद म�खवरम� the sacrificial gifts
+haṭa mamada mākha-varam
+R V 1.83.3 thy power brings blessing to the sacrificer pouring gifts.
+हट haṭa vns. shining one[√ हट � + अच�]; ममद mamada enjoyed[√मद� + ल�ट � 1s.];
+म�ख mākha oblation[Hariv]; वरम� varam ams. choicest[MBh];
+14 M-369  O Subduing Spirit
+दमनसत� मम म�खम� My sacrifice
+damana-sat mama mākham
+R V 10.99.6 subdued the demon who roared aloud
+दमन damana subduing[MBh]; सत� sat vns. Universal Spirit[R V];
+मम mama my[R V];म�ख� mākhaṃ ams. sacrifice[Hariv];
+35
+
+=== PDF PAGE 36 ===
+Seal-Id Inscription Translation
+15 M-623  O Oblation bearer(Agni),
+रस�लव�ह तमसहरण O darkness destroyer
+rasāla-vāha tamasa-haraṇa
+R V 1.12.2 Oblation-bearer, much beloved
+R V 9.66.24 Destroying darkness black of hue
+रस�ल rasāla oblation food of milk/curds[Īśvarasaṃhitā]; व�ह vāha vms. bearer[BhP];
+तमस tamasa darkness[Uṇ., Sch]; हरण haraṇa vms. destroyer[Suśr];
+16 M-10  O mighty bringer of wealth
+स�त�वह�म अञ्जसम� तर bring Soma
+sāta-āvaha-ama añjasam tara
+R V 1.8.1 Indra, bring wealth
+R V 2.14.8 to Indra bring ... the Soma.
+स�त sāta wealth[R V];आवह āvaha bringer[R V];अम ama vms. mighty[R V];
+अञ्जसम�añjasam ams. Soma[√ अञ्जस�]; तर tara bring[√त� + ल�ट � 2s.];
+17 M-1169  [My] youngest from a hundred,
+शत�त� अवमम� समञ्जन O shining one!
+śatāt avamam sa-mañjana
+R V 5.61.5 hundreds of sheep and steeds and kine
+शत�त� śatāt hundred, abnp. शतम� śatam[R V];अवमम� avamam ams. youngest[R V];
+स sa indc. with[R V], मञ्जनmañjana vms. shine[√ मञ्ज� + ल्य�ट �];
+18 Ns-60  O unwavering shining bearer,
+इद्ध�चलव�ह न�मनश� तर overcome the loss of rains
+iddha-acala-vāha nāma-naśaṃ tara
+R V 1.38.6 Let each (calamity), with drought, depart from us
+इद्धiddha shining; अचल acala immovable[R V,BG];व�ह vāha vms. bearer[BhP];
+न�म nāma from न�मन� nāman water[Naigh]; नश� naśaṃ ams. loss[MW]; तर tara overcome[√त� + ल�ट � 2s.];
+19 M-714  O Roarer, ruler of
+आरव श�स� अञ्जसभ� honoring council
+ārava śāsaṃ añja-sabhaṃ
+R V 1.114.2 Rudra, ruler of heroes
+आरव ārava vns. Roarer[Pāṇ]; श�स� śāsaṃ ams. ruler[R V]; अञ्जañja honoring[√अञ्ज� + अच�];
+सभ� sabhaṃ ans. council[R V];
+36
+
+=== PDF PAGE 37 ===
+Seal-Id Inscription Translation
+20 M-677  O Roarer,
+आरव मम अञ्जस� म�न O my honored Soma
+ārava mama añjas māna
+R V 1.84.9 Soma juice prepared amid the many honours
+आरव ārava vms. Roarer[Pāṇ]; मम mama my[R V];
+अञ्जस�añjas vms. Soma mixture[R V]; म�न māna vms. honored[MBh];
+21 M-577  Oh Desert Roamer(Indra)
+आ धन्वचर नश�व�नन protect, O destroyer, O face
+ā dhanvacara naśa ava ānana
+R V 1.143.6 praise Him whose face is bright
+आ ā indc. particle of reminiscence[Pāṇ.]; धन्वचरdhanvacara vms. desert Roamer[R V 5.36.1];
+नश naśa vms. destroyer[√ नश + अच� ]; अव ava protect[√अव� + ल�ट � 2s.]; आनन ānana vns. face[R];
+22 M-665   O prayer-heeding fire
+मतवच�द�हन त�म्र O red one
+matavacaḥ-dāhana tāmra
+R V 10.37.10 bless us with fervent heat and lustre
+मतवचस� matavacas prayer-heeding[R V 1.46.5]; द�हन dāhana vms. fire[MBh];
+त�म्रtāmra vms. red[MBh];
+23 Lh-1  O fiery Roarer, help
+द�वरव अम द�नर � the giver (of sacrifice)
+dāva-rava ama dāna-raṃ
+R V 1.114.4 W e call Rudra for help, who fulfills our sacrifice
+द�व dāva √दु fire[A V];रव rava vns. roarer[√ रु + अच�];
+अम ama help[√अम� ल�ट � 2s.]; द�न dāna giving[R V];र � raṃ ams. effecting[Śiś];
+24 K-10  New sacrifice oblation
+नश्वरनवम�ख�
+naśvara-nava-mākhaṃ
+R V 10.89.3 I sing a new prayer
+R V 10.89.17 may we partake of thy new favors
+नश्वरnaśvara perishable[Pur]; नव nava new[R V];म�ख� mākhaṃ ans. oblation[Hariv];
+37
+
+=== PDF PAGE 38 ===
+Seal-Id Inscription Translation
+25 H-8  O Destroyer,
+धक्क व अञ्जवरम� आच I seek a splendorous gift
+dhakka va añja-varam āca
+R V 1.92.13 bestow on us the wondrous gift
+धक्कdhakka vns. destroyer[√ धक्क � + अच�]; व va indc. like; अञ्जañja shining[√अञ्ज + अच�];
+वरम� varam ams. gift[R V]; आच āca I seek[√ अच� + ल�ट � 1s.];
+26 M-119  By the giver,
+द� शतध�रवहमय[म�] bearing a hundred streams
+dā śata-dhāra-vahamaya[m]
+R V 1.95.10 he makes stream ... and inundates with floods
+R V 9.97.29 Sprung from the Gods, a hundred streams
+द� dā ims. of द� dā giver[R V];शत śata hundred; ध�र dhāra stream[R V 9.109.19];
+वहमय[म�] vahamaya[m] ans. bearing[Hcat];
+27 H-103      O Kāmā-killer
+हतमदन अञ्जन� आय[म�] shining arrival
+hata-madana añjan āya
+R V 10.121.6 When over them the risen Sun is shining
+हत hata Slayer[R V];मदन madana vms. Kāmā[MBh]; अञ्जन�añjan shining[√अञ्ज� + शत��];
+आय[म�] āya[m] ams. arrival[R V]
+28 M-494  Verily, the giftgiver sets flow
+अन� आनष � स�त�द�
+anā ānarṣa sātā-daḥ
+R V 8.93.2 As from a mountain flow the water-brooks, thus flow his gifts
+अन� anā indc. verily[R V]; आनष� ānarṣa set flow[√ऋष� + �लट � 3s.]; स�त� sātā gifts[R V];
+द� daḥ nms. giver[MBh];
+29 H-268  O extraordinary one
+दस्म वह अञ्जस्भ��flow-forth the shining Soma
+dasma vaha añjas-bhāṃ
+R V 8.96.10 brightly-shining, mingled with the milk, the draughts of Soma
+दस्मdasma vms. extraordinary[R V]; वह vaha bring[√वह� + ल�ट � 2s.]; अञ्जस�añjas Soma[R V];
+भ�� bhāṃ ans. shine[R V];
+38
+
+=== PDF PAGE 39 ===
+Seal-Id Inscription Translation
+30 M-396  O unequalled one,
+असम�मत� आत्मतस� serve from the self
+asama amatu ātmatas
+R V 4.12.3 the self-reliant God,
+R V 2.3.1 Let Agni serve the gods
+असम asama vms. unequalled[R V]; अमत� amatu serve[√अम� + ल�ट � 3s.];
+आत्मतस�ātmatas abns. from the self[ आत्मन� + त�सल� R V];
+31 M-1676  O Savior
+समव वम तम�मरम� emit darkness removing (light)
+samava vama tamaḥ-maram
+R V 1.62.5 with the Dawn, Sun, rays, dispelled the darkness
+समव samava vms. helper[ समव� + अच� R V];वम vama[√वम� + ल�ट � 2s.];
+तमस� tamas darkness[R V];मरम� maram ams. death[R V];
+32 K-15   O my healer(Shiva), with roofs
+मम रसद सछद��न अक� �र may I raise, O Sun
+mama rasada sa-chadāni arka-āra
+R V 4.5.1 he uplifted as a pillar bears the roof
+मम mama my[R V];रसद rsada vms. healer[MBh]; स sa indc. with[R V];
+छद��न chadāni amp. cover[BhP]; अक� arka vms. Sun[R V];आर āra raise[√ऋ + ल�ट � 1s. R V];
+33 M-1690  O Yama’s killer(Shiva),
+यमहन� अ�श� शममन� My portion, O calm one
+yama-han aṃśaṃ śama-man
+R V 3.62.11 Our portion of prosperity
+यम yama Lord of death[R V]; हन� han vms. killer[R V]; अ�श� aṃśa ams. portion[R V 2.19.5];
+शम śama calm[MBh]; -मन� -man vms. containing[R];
+34 Ns-9   Verily, O immovable one
+अथ अचलत्व म�न O honored one
+atha acala-tva māna
+R V 8.14.9 Firm and immovable from their place
+अथ atha indc. now/hereby[R V]; अचल acala immovable[Bhag]; त्वtva vms. one[R V];
+म�न māna vms. honored[MBh]
+39
+
+=== PDF PAGE 40 ===
+Seal-Id Inscription Translation
+35 H-12  O Roarer, a powerful
+रव अमम� महम�ख� great sacrifice (to you)
+rava amam maha-mākhaṃ
+R V 1.75.5 our mighty sacrifice
+रव rava vns. Roarer[√ रु + अच�]; अमम� amam ams. powerful[R V]; मह maha great[R V];
+म�ख� mākhaṃ ans. oblation[Harv];
+36 M-495  Verily, he set flow the gifts
+अन� आनष � स�त�न�
+anā ānarṣa sātān
+R V 8.93.2 As from a mountain flow the water-brooks, thus flow his gifts
+अन� anā indc. verily[R V]; आनष� ānarṣa set flow[√ऋष� + �लट � 3s.];
+स�त�न� sātān amp. gifts[R V];
+37 M-900  O Roarer, my lasting wish
+रव सहत� मम वरम�
+rava sahat mama varam
+R V 6.45.21 satisfy our wish with power and wealth
+रव rava vns. Roarer[√ रु + अच�]; सहत� sahat ans. lasting[R V]; मम mama my[R V];
+वरम� varam ams. wish[R V];
+38 M-52  O subduer,
+दमवह आ मथमह�न� O great Churner
+dama-vaha ā matha-mahān
+R V 10.24.4 ye T wain churned the united worlds apart
+दम dama subdue[R V];वह vaha vms. bearing[R V]; आ ā as[R V],मथ matha churner[√मथ + अच� ];
+मह�न� mahān vms. महत� great[R V];
+39 C-24    O Roaring destroyer, salutations
+रसतस नमन� स�ध�र O possessor of all things
+rasa-tasa naman saṃ-dhāra
+R V 4.8.1 Y our envoy who possesses all
+रस rasa roarer[√रस� + अच� ŚBr]; तस tasa vms. destroyer[√ तस� + अच� Dhātup];
+नमन� naman saluting[√नम� + शत�� ]; स� saṃ indc. all[R V]; ध�र dhāra vns. possessing[BG];
+40
+
+=== PDF PAGE 41 ===
+Seal-Id Inscription Translation
+40 H-20  I am capable of salvation
+अहम� सह� म�क्षम�
+aham sahaṃ mokṣam
+R V 10.52.5 I shall give you freedom
+अहम� aham ns. I[R V]; सह� sahaṃ ams. capable[Kālid]; म�क्षम�mokṣam ams. salvation[MBh];
+41 Krs-1  O Ocean, (protect)
+नम� जठल श�य[म�] the sleeping Nami
+namīm jaṭhala śāya[m]
+R V 6.20.6 He guarded Nami, Sapya’s son, in slumber
+नम� namīṃ ams. Nami, son of Sapya[R V 6.20.6]; जठल jaṭhala vms. Ocean;
+श�य[म�] śāya[m] ans. sleeping[R V];
+42 M-49  Indeed, pulverizing
+अह अचलवशम� मषम� mountain at will
+aha acala-vaśam maṣam
+R V 1.55.3 great manly power, so as to bend ... that famed mountain down
+अह aha indc. Indeed[R V]; अचल acala mountain[GārgīS];
+वशम� vaśam ams. at will[R V]; मषम� maṣam indc. pulverized[ŚāṅkhGṛ];
+43 M-1052  I served small offerings
+आम व�हस्मन�क �
+āma vāhas-manāk
+R V 10.91.8 sacrificial offerings great and small alike.
+आम āma I served[√ अम� + �लट � 1s.]; व�हस� vāhas offering[R V];
+मन�क � manāk indc. small[Kāv];
+44 M-634  bestowed fit small chariot
+ऋतरथर�तमन�क �
+ṛta-ratha-rāta-manāk
+R V 8.58.15 boy exceeding small, mounted his newly-fashioned car.
+ऋत ṛta fit[R V];रथ ratha chariot[R V];
+र�त rāta bestowed[R V];मन�क � manāk indc. small[Kāv];
+41
+
+=== PDF PAGE 42 ===
+Seal-Id Inscription Translation
+45 H-129  do invite, O powerful
+भसरव�म आम�त्र shining Roarer
+bhasa-rava-ama āmantra
+R V 6.50.4 This day invited the Sons of Rudra
+भस bhasa shining[√भस + अच� ]; रव rava Roarer[√रु + अच�]; अम ama vms. powerful[R V];
+आमन्त्रāmantra invite[आ + √मन्त्र + ल�ट �2s.];
+46 M-1834   Giving and restoring
+दद�न�दम� जननल Speech maker (Agni)
+dada-anudam jana-nala
+R V 10.137.1 restore to life again the man who has committed sin
+R V 3.1.19 make our share glorious and adorned with fine speech
+दद dada giving[R V];अन�द� anudaṃ ans. restoring[R V]; जन jana creator[√जन� + अच� ];
+नल nala speaker[√नल� + अच� ];
+47 Nd-1  O red bodied one
+शमशर�ङ्गतम्र with calmed arrows
+śama-śara-aṅga-tamra
+Sri Rudram/KYV TS 4.1 Y our calm arrow ... O red one
+शम śama calm[MBh]; शर śara arrow[R V,MBh];अङ्ग aṅga body[Uṇ]; तम्रtamra vms. red/dark[R V];
+[Sri Rudram: 1.4 य�त इष�� �शवतम� , 1.11 यस्त�म्र�]
+48 M-1892   Suitable bountiful rains
+अरवष� �रर�ण�न�
+ara-varṣā-rarāṇān
+R V 2.27.15 shed in abundance, The rain of heaven
+अरम� aram indc. suitable[R V]; वष� � varṣā rain[TS]; रर�ण�न� rarāṇān anp. bountiful[R V];
+49 H-270  I salute the praised destroyer
+ननम शस्त� जष�
+nanama śastaṃ jaṣaṃ
+R V 8.86.10 Most eminent for power, destroyer in the conflict
+R V 10.170.3 he spread wide unfailing victory and strength
+ननम nanama I salute[√ नम� + ल�ट � 1s.]; शस्त�śastaṃ ams. praised[MBh];
+जष� jaṣaṃ ams. destroyer[√ जष� + अच� ];
+42
+
+=== PDF PAGE 43 ===
+Seal-Id Inscription Translation
+50 H-10  I steadied the strong horse
+बबद अश्ववलर[म�]
+babada aśva-vala-ra[m]
+R V 1.38.12 steady your horses
+बबद babada steadied[√बद� + �लट � 1s.]; अश्वaśva horse[R V];
+वल=बल vala=bala strength[R V];रम� ram ams. possessing[Naiṣ];
+51 M-1123  Given speed
+रर ररय[म�]
+rara ra-raya[m]
+R V 2.31.2 Gods of one, accord speed on our car
+रर rara given[√र� + �लट � 2p.]; र ra possessing[R V];
+रय[म�] raya[m] ams. speed[Pur];
+43
+
+=== PDF PAGE 44 ===
+6. Sign Variants and Conjuncts1028
+Variants are stylistic and abstracted evolution of symbols. Conjunct signs combine two1029
+or more signs and are read as adjacent signs: firstly in the direction of writing, secondly1030
+top to bottom and lastly the base character followed by the ligatured character.1031
+(1) Ligatured symbols that are simply touching but otherwise written in normal size1032
+and position are read as normal. For example,  is simply read as .1033
+(2) Symbols arranged vertically are read from top to bottom.  is read as  �र as1034
+opposed to  which is read as  ईर1035
+(3) The base character, i.e., the large character is read first and the embedded char-1036
+acter is read subsequent.  becomes  रस�.1037
+Sign V ariant Inscription Sanskrit
+1   अ M-875→  आम्र
+a mango[MBh] āmra
+2   अ M-403  अन्तर
+a nearby[R V] antara
+3   अ H-777  अचर
+a immovable[R V] acara
+4   अ H-829→  अवर
+a youngest[R V] avara
+5   अ M-210  अरण
+a distant[R V] araṇa
+6   अ M-123  मन��
+a by the great one[Vā] manaiḥ
+7   आ M-1151  आम� नमन�
+ā verily[MaitrS] worshipping[√नम�] ām naman
+8   अक M-1764  अस्म�क[म�]
+aka ours[R V] asmāka[m]
+9   आक� H-2104  आक�शम�
+ākā sky[ŚBr] ākāśam
+10 /\  अद� Ad-6 /\ तद्धनद�म
+adā giver of that wealth[R V,R V,R V] tat-dhana-dāma
+11   अन� M-89  अमह�न�न
+an O complete[A V] giver[R V] amaha-anūna
+44
+
+=== PDF PAGE 45 ===
+Sign V ariant Inscription Sanskrit
+12   अन� H-228  आन�य�
+an fisherman [nms. आन��यन� ] ānāyī
+13   अन L-218  अनवस
+ana unstoppable[R V] anavasa
+14   अन� M-812  अन�म�
+anā indeed, indeed[R V,MaitrS] anām
+15   अन्न C-68  अन्नद अञ्ज
+anna speak[अञ्ज�], O foodgiver[MS] annada añja
+16   अन्तर M-639  अन्तर�श्वत्थ नमन�
+antara saluting Ashwatta[A V] spirit[R V] antara-aśvattha naman
+17   आप H-413  आप
+āpa vedic deity(Vasus)[MBh] āpa
+18   आभ� M-742  अभ�म� सर�[म�]
+ābhā Splendorous[R V] streams[A V] ābhām sarā[m]
+19   अम M-18  जनम�
+ama people[R V] janam
+20   अम M-896  अम�श�य
+ama sleeping[A V] at home[R V] ama-āśāya
+21   अम D-51582  आभ�मह
+ama O shining[R V] day[R V] ābhāmaha
+22   अम M-969  आमय
+ama serve[√अम� + ल�ट � 2s.] āmaya
+23   आम H-449  अमरणम� वर �
+āma gift[R V] of immortality[MBh] a-maraṇam varaṃ
+24   अम� RGR-7230  आम�न
+āmā to honor[Mn] āmāna
+25   अर M-713  आरवदहनमन
+ara great[Vā] burning[√ दह� ] Roarer[√ रु] ārava-dahana-mana
+26   अर K-45→   अण�पय
+ara power[R V] of flood[R V] arṇapaya
+45
+
+=== PDF PAGE 46 ===
+Sign V ariant Inscription Sanskrit
+27   आरव M-1105  आरव
+ārava Roarer[√रु] ārava
+28   आल M-367    आलवहनमन
+āla salute[R V] poison[Suśr] remover[R V] āla-vaha-namana
+29   अश� H-1513  अश्न
+aś voracious[R V] aśna
+30   अश� M-821  अशम�
+aś eating[ŚBr] aśam
+31   अश� H-1841  मसद �
+aś to the tansformer[√ मस�] masadaṃ
+32   अश� H-1994  भ��श
+aś ray[R V] of light[MBh] bhāṃśa
+33   अश� H-1049   अश्वचर
+aś O mover[MBh] on horses[R V] aśva-cara
+34   अश� M-243  दत्त�श्वद
+aś given[R V] by horsegiver[Mn] datta-aśva-da
+35   अस� M-954  मम अनस�
+as my[R V] cart[R V] mama anas
+36   अस M-1724  आशभ�ज्य
+asa food[ŚBr] to share[BhP] āśabhājya
+37   आस� K-17  आश�
+ās food[ŚBr] āśaṃ
+38   अ�श H-679  श�श[न�]
+aśi moon[MBh] śaśi[n]
+39   अश M-219  अश्म[न�]
+aśa sky[R V] aśma[n]
+40   आश M-2088  आश
+āśa food[ŚBr] āśa
+41   आश M-1887  म�म� आश�
+āśa obtaining me[R V] mām āśaṃ
+46
+
+=== PDF PAGE 47 ===
+Sign V ariant Inscription Sanskrit
+42   आश� H-156  आश��
+āśā desires[A V] āśāṃ
+43   अश्व M-1106  अन� अश्वद
+aśva indeed[R V] horse[R V] giver[R V] anā aśvada
+44   ईर M-1170  ईर
+īra rising [ ईर�:R V] īra
+45   ई�र M-151  ई�रणम�
+īri desert[MBh] īriṇam
+46   ईशन� M-1548  सह ईशन�
+īśan Vanquish[R V], O Shiva[MBh] saha īśan
+47   उ M-20  उदसव�पर
+u Beyond[R V] all[R V] waters[R V] uda-sarva-para
+48   क H-66  क�मनन�
+ka misremembering[Pāṇ,√म्न�] kāmanan
+49   क H-513  क्षण
+ka moment[Śak] kṣaṇa
+50   क M-68↔   दमनह�नक�म
+ka subduing[MBh,Gaut] of Kāma damana-hāna-kāma
+51   कर M-57  खरव�हमह नमन
+kara saluting cloud[R] bringer[MBh] khara-vāha-maha namana
+52   च H-214  �छ�न्न[न�]
+ca destroyer[�छन्न:A V] chinni[n]
+53   चर C-13  चम�समम�
+cara shield[MBh] like[R V] carma-samam
+54   ज M-1848  जष
+ja O destroyer[√जष� Dhātup] jaṣa
+55   जर M-898  जरम�
+jara praise[√ज� R V] jaram
+56   जस� Ns-4  यजस�
+jas sacrifice[R V] yajas
+47
+
+=== PDF PAGE 48 ===
+Sign V ariant Inscription Sanskrit
+57   �ज M-409  स�ञ्ज
+ji complete victory[R V] sañji
+58 /  त K-11 /  आतटद �
+ta one who crosses[MBh] ā-taṭa-daṃ
+59   त M-1082  तन्व आमत�
+ta Tanva has served[√ अम�] tanva āmat
+60   तर M-1792  अन्तर � मर �
+tara near[R V] death[R V] antaraṃ maraṃ
+61   तर H-1192  तमत्र��ण
+tara dark[R V] and protected[MBh] tama-trāṇi
+62     त�स M-1721  रवत�सम�
+tāsa Roarer’s[√रु] destruction[√ तस� घञ�] rava-tāsam
+63   त्र M-360  अमत्रद�न
+tra powerful[R V] gift[R V] amatra-dāna
+64   द H-7  दद एकपद�
+da from Vishnu[MBh], O Giver[Paṇ] dada ekapadaḥ
+65   द M-1793  दम� नमन�
+da house[R V] praying[ŚBr] damaḥ naman
+66   द H-792  दय�
+d kind one[ŚBr दय�+इ�न ] dayī
+67   ध M-73  धन�
+d wealthy one[R V √धन+इ�न ] dhanī
+68   धक्क M-261  धक्क अतन
+dhakka Destroyer[√धक्क �] passing[Nir] dhakka atana
+69   द� H-1662  द�व तत�न�
+dā O fire[MBh], to my fathers[R V] dāva tatān
+70   द�द Umma  द�द�ण्वचर
+dāda gift[MBh] of Soma[R V,MBh] dāda-aṇvara-cara
+71   ध� M-605  ध�
+dhī devotion[R V] dhī
+48
+
+=== PDF PAGE 49 ===
+Sign V ariant Inscription Sanskrit
+72   न H-74  सद�न्व
+na roaring[R V] sadānva
+73   न H-295  सन
+na ancient[R V] sana
+74   न M-1277  नश
+na destroyer[√नश�] naśa
+75   न M-747  न न�श�
+na no loss[MBh] na nāśaṃ
+76   न M-986  नर �
+na man[TS] naraṃ
+77   नम� H-1869  नम�न्य
+namā inexhaustible[A V] pasture[R V] nama-anya
+78   न�शन M-975  नशन�नलसक्ष
+naśana loss[BhP] by intense fire[Subh] naśana-anala-sakṣa
+79   प H-1024  मव पण
+pa bind[√मव�] the wager[MBh] mava paṇa
+80
+  पद M-777  असम�मनपद
+pada unequalled[R V] friendly[TS] sign[MBh] asama-āmana-pada
+81   पर M-83  प्रसर
+pra stream[BhP] prasara
+82   बत Frm-1329  भटन�
+bata employing[√भट � +शत��] bhaṭan
+83   बद्ध K-53  बद्ध
+baddha bound[R V] baddha
+84   भ M-331  आभस�
+bha splendor[आभ�स ābhāsa R] ābhasa
+85   म H-2125  म�न
+ma honor[MBh] māna
+49
+
+=== PDF PAGE 50 ===
+Sign V ariant Inscription Sanskrit
+86   म M-523  समर
+ma confluence[R V] samara
+87   म M-1367  मर
+ma death[A V] mara
+88   मद C-8  मद � मह�
+mada abundant[R V] joy[R V] madaṃ mahaṃ
+89   मर H-142  कम� तम्र�त�न
+mara pleasant[TS] spreading[R V] darkness[R V] kam tamra-ātān
+90   म� M-649  म�र
+mī ocean[Uṇ] mīra
+91   य H-951  वनयव
+ya wild[R V] grain[R V] vana-yava
+92   य M-831  यत
+ya controlled[R V] yata
+93   य H-455  हयव�न� जन
+ya O horse-owning[R V] people[R V] hayavān jana
+94   य C-39  दध्य
+ya meditate[√ध्य�] dadhya
+95     य अय M-288    य�यनम� शरण[म�]
+ya aya protecting[R V] journey[R V] yāyanam śaraṇam
+96   ऋभ� M-2012  ऋभ्वप�न
+ṛbh Indra’s[R V] drink[R V] ṛbhva-pāna
+97   र K-18  तद� वरल
+ra that[A V] swan[Mṛga] tad varala
+98   र H-212  र�य
+ra wealth[R V] rayi
+99   र H-510  रमवरम�
+ra delightful boon[R V] rama-varam
+50
+
+=== PDF PAGE 51 ===
+Sign V ariant Inscription Sanskrit
+100   र L-48   ररख अ�श नमन�
+ra I moved[√रख�] praying[√ नम�] O Aditya[R V 2.1.4] rakha aṃśa naman
+101   र H-299  रण्व
+ra delightful[R V] raṇva
+102   र M-1424→  रणभ�द
+ra O pleasing[R V] lightgiver[MBh] raṇa-bhāda
+103   र H-2214→  रसमत�
+ra juicy[R V] rasamat
+104   र Salut  व्यवचर
+ra move[R V] away[√व्यय�] vyavacara
+105   र H-1988  इमम� रजम�
+ra this[R V] color[Sarvad] imam rajam
+106   र H-172  प��णधर
+ra O hand holder[R V,Kāv] pāṇidhara
+107   रक K-15/2  अक� �र
+raka reached[√ऋ] the Sun[R V] arka-ara
+108   रक M-120   मदनब�ण रख
+raka go, O cupid’s[MBh] arrow[R V] madana-bāṇa rakha
+109   रक्त M-1759  रक्तवधहन�
+rakta O red one[MBh], who kills[R V] rakta-vadhahan
+110   रण M-1771  रण� भ��
+raṇa delightful[R V] lustre[MBh] raṇaṃ bhāṃ
+111   रर H-405  रर वहन�मन�
+rara give, O sign[R V] of bearer[R V] rara vahanāman
+112   रर M-1154  प�शमन रर
+rara Give[√र� ], O great[Vā] noose[R V] pāśamana rara
+113   रज K-122  रर जट
+raja granted[√र� ] O Shiva[MBh] rara jaṭa
+114   रस� H-598  रहम� अवमतम�
+ras separator[√रह� ] of despised[Mn] raham avamatam
+51
+
+=== PDF PAGE 52 ===
+Sign V ariant Inscription Sanskrit
+115   र� M-84  धन अमर�न�
+rā O producer![Dhatup] the immortals[ŚBr] dhana amarān
+116   �र Desalpur  �रशवधम�
+ri destroyer[A V] killer[R V] riśavadham
+117   �र M-918  रव र�र
+ri O Roarer[√ रु], O Shiva[Cat] rava rīra
+118   र� H-1033  हर�वन�म
+rī Golden[R V,R V] appearance[R V] hari-iva-nāma
+119   लल M-751A  ललक
+lala little delight[√ लल�] lalaka
+120   व MS-5062  अवभ�स�
+va shine forth[MBh] avabhās
+121   श M-207  शद
+śa Destroyer[√शद� MBh] śada
+122   स Louvre  आसज अयतस�
+sa unrestrained[R V] speed[R V] āsaja-ayatas
+123   सक्ष M-1342  सभ�सक्ष�
+sakṣa powerful[TS] council[R V] sabhā-sakṣaṃ
+124   स�त H-325  स�त�
+sāta gains[R V] sātaṃ
+125   सन M-800  चषन�श नमन�
+sana saluting[MārkP] destroyer[√चष�,R V] caṣan-aṃśa naman
+126   सर D-9824  शव� �म मञ्ज
+sara Shine[√मञ्ज�] mighty[R V] Shiva[A V] śarva-ama mañja
+127   ह� M-203  मह� अनवर �
+hā great[R V] excellence[R V] mahā anvaraṃ
+52
+
+=== PDF PAGE 53 ===
+7. Very Short Inscriptions1038
+Seal-Id Inscription Translation Seal-Id Inscription Translation
+1 Bhirrana  अम� to fix[TS] 2 M-1203  अम� to fix[TS]
+3 H-367  अम� to fix[TS] 4 L-106  अस shine![√अस�]
+5 M-842  अ�स sword[RV] 6 M-1198  अ (voc.)[T]
+7 M-1905  अ (voc.)[T] 8 H-481  आ (voc.)[Pāṇ]
+9 C-52  अक्क O mother[Pāṇ] 10 M-1105  आरव O Roarer[√रु]
+11 K-464  अश master[RV] 12 M-597  ईश O Shiva[MBh]
+13 H-1113  इ (interj)[Pāṇ] 14 M-949  क joy[Nir]
+15 H-1113  क joy[Nir] 16 H-1833  च also[Pāṇ]
+17 M-607  च also[Pāṇ] 18 M-262  अच beg[√अच�]
+19 M-331  ज born[Mn] 20 M-85-5 / त[म�] him[RV]
+21 D-50318  त[म�] him[RV] 22 L-66  त[म�] him[RV]
+23 Blk-5  त[म�] him[RV] 24 H-94  त�[न�] them[MS]
+25 M-996  द giving[MS] 26 M-326  द giving[MS]
+27 M-470  द giving[MS] 28 H-1514  द giving[MS]
+29 H-1011  द giving[MS] 30 K-476  द�द gift[MBh]
+31 M-605  ध� prayer[RV] 32 M-326  न praised[TS]
+33 M-1118  नमन bow[MārkP] 34 M-1084  न�मन� sign[RV]
+35 D-48576  नवन praising[Nalod] 36 K-53  बद्ध bound[RV]
+37 M-273  भ O star[Sūryas] 38 K-67  भ O star[Sūryas]
+39 L-105   बभ shining[√भ� ] 40 M-1465  प protection
+41 M-410  म� to me[म�म� ] 42 M-1898  म� to me[म�म� ]
+43 L-54  म� to me[म�म� ] 44 M-516  म� to me[म�म� ]
+45 M-1162  य him[यद�] 46 Lakhanjo  य him[यद�]
+47 K-446  य him[यद�] 48 C-94  य him[यद�]
+49 M-1563  र� giving[Śiś] 50 M-604  र� giving[Śiś]
+51 B-12  र giving[Śiś] 52 M-1641  र giving[Śiś]
+53 M-1205  र giving[Śiś] 54 M-1233  र giving[Śiś]
+55 M-593  र giving[Śiś] 56 M-599  र giving[Śiś]
+57 K-462 ↑ ह verily[Ved] 58 D-17490  ह verily[Ved]
+59 M-1642  व similar[MBh] 60 K-458  ह verily[Ved]
+61 L-66  ह verily[Ved] 62 B-10  ह verily[Ved]
+63 Bhirrana  ह verily[Ved] 64 H-1016  ह verily[Ved]
+53
+
+=== PDF PAGE 54 ===
+8. Derivation1039
+8.1.  · अन� · an from अ�श� aṃśu soma drink1040
+Seal-Id Inscription Sanskrit Translation
+H-764 B  अनन� ananaṃ the living[Nir]
+Dmd-1  अन ana breath[ŚBr]
+(Many) * *अ� *aṃ (terminal अन�स्व�र)
+ = अन� अ� · an am (1)
+8.2.  · अ · a from आज�न ājani stick1041
+Seal-Id Inscription Sanskrit Translation
+Harappa  आननम� ānanaṃ face[R]
+H-1550  अन� anā indeed[RV]
+H-1919  आम� ām verily[MaitrS]
+ = अ · a from 1 (2)
+8.3.  · द · d from धन्वन�dhanvan bow1042
+Seal-Id Inscription Sanskrit Translation
+C-80  अन्ध andha O Soma[RV]
+H-1919  धन dhana wealth, prize[RV]
+M-1637  ध� dhā to place[RV]
+ = द · d from 1, 2 (3)
+54
+
+=== PDF PAGE 55 ===
+8.4.  · अ · a from आय� āyu man1043
+Seal-Id Inscription Sanskrit Translation
+M-191  ध� dhā to place[RV, कण� कर � ध� ]
+H-346  आम� ām verily[MaitrS]
+ = अ · a from 1, 3 (4)
+8.5.  · इ · i from इष�क iṣīkā stalk of grass1044
+Seal-Id Inscription Sanskrit Translation
+M-87A  अ�ध adhi above[RV]
+H-2244B  इद� id (affirmation)[Ved]
+ = इ · i from 3, 4 (5)
+8.6.  · द · d from धन्वन�dhanvan variant of bow 1045
+Seal-Id Inscription Sanskrit Translation
+C-15a  अध�न adhīna belonging to[R]
+ = द · d from 1, 2, 5 (6)
+8.7.  · त · t from त�ड �ल taḍula variant of fighter 1046
+Seal-Id Inscription Sanskrit Translation
+B-8  तन tana offspring[AV]
+H-150  ददद�न्त dada-dānta Given[RV 1.39.9] by
+pacified one[√दम� + क्त]
+ = त · t from 1, 6 (7)
+55
+
+=== PDF PAGE 56 ===
+8.8.  · श · s from श�क्रśukra seed1047
+Seal-Id Inscription Sanskrit Translation
+M-916A  शश� śaśī the Moon[ŚvetUp]
+M-482A  श�न śani Saturn[R]
+ = श · s from 1, 5 (8)
+8.9.  · न · n from न�ल nāla stalk1048
+Seal-Id Inscription Sanskrit Translation
+M-992a  अशन aśana reaching across[Nir]
+M-812a  अन�न� anān breathing[ŚBr]
+ = न · n from 1, 2, 8 (9)
+8.10.  · ई · ī from इइ ī long i1049
+Seal-Id Inscription Sanskrit Translation
+M-1824  अनन� ananī the living[anana + इ�न ]
+ = ई · i� from 1, 5 (10)
+8.11.  · ज · j from झर jhara waterfall; cascade1050
+Seal-Id Inscription Sanskrit Translation
+H-246B  जनध� janadhā nourishing creatures [TBr]
+ = ज · j from 1, 3, 4 (11)
+56
+
+=== PDF PAGE 57 ===
+8.12.  · र · r from रथ ratha chariot1051
+Seal-Id Inscription Sanskrit Translation
+H-842  ऋण� ṛṇī debtor[BG]
+H-923  जर jara aging[RV]
+H-305B  अरज araja dustless (pure)[R]
+ = र · r from 1, 2, 5, 11 (12)
+8.13.  · र · r from रथव� ratharvī multi/split snake1052
+Seal-Id Inscription Sanskrit Translation
+H-1745A  रज raja pollen[Prasaṅgābh]
+H-585A  जर jara aging[RV]
+M-1170A  ईर īra mover[√ ईर� + अच� RV]
+ = र · r from 5, 11 (13)
+8.14.  · च · c from चत�र� catur four1053
+Seal-Id Inscription Sanskrit Translation
+D-33544  च�र cari (a name)[Pravar]
+M-749A  चर cara move[MBh]
+H-215B  चण caṇa chickpea[MBh]
+ = च · c from 1, 5, 13 (14)
+57
+
+=== PDF PAGE 58 ===
+8.15.  · अ · a from अजशृङ्ग� ajaśṛṅgī goat’s horn1054
+Seal-Id Inscription Sanskrit Translation
+L-20a  अचर acara immovable[RV]
+H-70a  अजर ajara undecaying[RV]
+H-2173  अर�ण araṇi kindling wood[RV]
+ = अ · a from 1, 5, 11, 12, 13, 14 (15)
+8.16.  · म · m from मत्स्यmatsya fish1055
+Seal-Id Inscription Sanskrit Translation
+M-238a  मसन masana transformation[√ मस� + ल्य�ट �]
+M-1344A  मरण maraṇa death[MBh]
+H-1192A  चमन� caman eating[√ चम� + शत��]
+ = म · m from 1, 8, 13, 14 (16)
+8.17.  · व · v from �व vi two1056
+Seal-Id Inscription Sanskrit Translation
+H-292A  रव rava O Roarer[√ रु + अच�]
+M-330  अन� अनव � anā anarva Indeed, O unstoppable one[RV,RV]
+ = व · v from 1, 12 (17)
+8.18.  · र · r from रथ ratha variant of ratha 1057
+Seal-Id Inscription Sanskrit Translation
+M-1233  वण�ज varṇaja born of class[VarBṛS]
+ = र · r from 1, 11, 17 (18)
+58
+
+=== PDF PAGE 59 ===
+8.19.  · र · r from रथ��रन� rathārin chariot wheel1058
+Seal-Id Inscription Sanskrit Translation
+M-1119a  अनव� श� anarva-śaṃ Bless, O unstoppable one[RV,RV]
+H-2018  रज raja passion[Uṇ.]
+ = र · r from 1, 8, 11, 12, 17 (19)
+8.20.  · ब · b from भक्षपत्त्र�bhakṣapattrī betel leaf1059
+Seal-Id Inscription Sanskrit Translation
+M-311A  भणव� bhaṇavī Roarer[√ भण� + अच� + व� Pāṇ,RV]
+ = ब · b from 5, 9, 17 (20)
+8.21.  · य · y from यव���� yavaśreṣṭhi grain merchant1060
+Seal-Id Inscription Sanskrit Translation
+H-81A  जय jaya victory[AV]
+M-209A  म�न्य mānya respected[MBh]
+ = य · y from 1, 11, 16 (21)
+8.22.  · अ · a from आय� āyu variant of 1061
+Seal-Id Inscription Sanskrit Translation
+L-38  म�य māya illusion[MBh]
+M-1654  आन āna nose[RV]
+ = अ · a from 1, 2, 16, 21 (22)
+59
+
+=== PDF PAGE 60 ===
+8.23.  · न · n from न�ल�क� nālīka arrow1062
+Seal-Id Inscription Sanskrit Translation
+M-1206  चमन camana eating[Jaim]
+M-403  अन्तर antara internal[RV]
+ = न · n from 4, 7, 13, 14, 16 (23)
+8.24.  · अस� · as from अष्टप�दaṣṭapāda eight legged; spider1063
+Seal-Id Inscription Sanskrit Translation
+H-1513  अश्न aśna voracious[RV]
+B-1A  ररस्नवमन ra-rasna-vamana Emitting[Kālid,Śiś] object[Uṇ]
+ = अस� · as from 1, 4, 9, 16, 17, 19 (24)
+8.25.  · क · k from क � तम�kṛtam dice1064
+Seal-Id Inscription Sanskrit Translation
+H-300B  रणक raṇaka N. of King[BhP]
+M-176  कम� kam well[ŚBr]
+ = क · k from 1, 9, 12 (25)
+8.26.  · अ · a from अङ्क aṅka curve1065
+Seal-Id Inscription Sanskrit Translation
+H-1520  आजक ājaka goats[Pāṇ]
+M-1658  आभ ābha beauty[MBh]
+Nuhato  श�ण śāṇa flaxen[ŚBr]
+ = अ · a from 1, 8, 11, 20, 25 (26)
+60
+
+=== PDF PAGE 61 ===
+8.27.  · अम · ama from अङ्क + मत्स्यama conjunct curve + fish1066
+Seal-Id Inscription Sanskrit Translation
+M-686a  स�मन� sāman wealth[RV]
+H-1085  ज�म� jāmā daughter[MBh]
+Allahdino  अम� amaṃ power[RV]
+ = अम · ama from 1, 8, 11, 23 (27)
+8.28.  · न · n from न�ल nāla reed1067
+Seal-Id Inscription Sanskrit Translation
+H-59A  अश्न� aśnaṃ a stone[RV]
+M-1118A  नमन namana salute[MārkP]
+ = न · n from 1, 16, 24 (28)
+8.29.  · अन� · n from अ�श� aṃśu lamp1068
+Seal-Id Inscription Sanskrit Translation
+H-550  आञ्जन āñjana fat[RV]
+M-928A  आनम� ānam subdue[RV]
+Harappa  अञ्च añca curling[RV]
+ = न · n from 2, 11, 14, 23, 27 (29)
+8.30.  · त · t from त� � tardū variant of wooden ladles 1069
+Seal-Id Inscription Sanskrit Translation
+H-786  त्मन� tman self[RV]
+L-145  अश्वतर aśvatara mule[AV]
+ = त · t from 13, 16, 17, 23, 24 (30)
+61
+
+=== PDF PAGE 62 ===
+8.31.  · स · s from स�प�न sopāna ladder1070
+Seal-Id Inscription Sanskrit Translation
+H-1492   शश śaśa rabbit[RV]
+H-1533  अ�श aṃśa stake[RV]
+H-2585  श�न śani Saturn[R]
+ = स · s from 1, 5 (31)
+8.32.  · अ · a from अङ्क aṅka boldface variant of curve 1071
+Seal-Id Inscription Sanskrit Translation
+M-917a  श�ण śāṇa flaxen[ŚBr]
+M-1903  अम�न� amān measure[√ म� + लङ � 3p.]
+ = अ · a from 1, 8, 27 (32)
+8.33.  · अ · a from अङ्क aṅka variant of curve 1072
+Seal-Id Inscription Sanskrit Translation
+M-1569  आश� āśā desire[AV]
+M-1137  रव�ण ravāṇa roaring[√ रु Ved]
+ = अ · a from 1, 17, 19, 31 (33)
+8.34.  · अ · a from अङ्क aṅka variant of curve 1073
+Seal-Id Inscription Sanskrit Translation
+M-951  अम�न amāna not standard[Nyāyam]
+M-1179  आन āna nose[RV]
+ = अ · a from 1, 2, 16 (34)
+62
+
+=== PDF PAGE 63 ===
+8.35.  · म · m from मन्थmantha firesticks1074
+Seal-Id Inscription Sanskrit Translation
+M-501  अश्मक � aśmakam son of Vasiṣṭha[MBh]
+M-257  दमन damana charioteer[BhP]
+ = म · m from 1, 2, 3, 24, 25 (35)
+8.36.  · म · m from म�क्षmṛkṣa variant of comb 1075
+Seal-Id Inscription Sanskrit Translation
+M-1989B  मन�क � manāk slightly[Kāv]
+M-1233a  म�ण maṇi gem[RV]
+ = म · m from 1, 5, 25, 26 (36)
+8.37.  · न · n from न�ल nāla mat of reeds1076
+Seal-Id Inscription Sanskrit Translation
+M-382A  आनन anana the living[Nir]
+H-1682  जननजय janana-jaya creator[RV] of victory[AV]
+ = न · n from 4, 11, 21 (37)
+8.38.  · व · v from वत� vartī lamp wick1077
+Seal-Id Inscription Sanskrit Translation
+M-925A  नवन navana praising[Nalod]
+M-1689a  वश्य vaśya dutiful[MBh]
+H-194  मवर � mavaraṃ multitudes[Buddh]
+ = व · v from 1, 8, 13, 16, 21, 28 (38)
+63
+
+=== PDF PAGE 64 ===
+8.39.  · श · s from श�खर śākhāra squirrel1078
+Seal-Id Inscription Sanskrit Translation
+H-1080a  श�ण śāṇa hempen[ŚBr]
+M-1829a  श�न śani Saturn[R]
+H-1830a  शय śaya sleeping[Dhātup]
+L-35A  मसन masana transformation[√ मस� + ल्य�ट]
+ = श · s from 1, 5, 16, 21, 22 (39)
+8.40.  · म · m from म�न्दर mandira dwelling1079
+Seal-Id Inscription Sanskrit Translation
+M-832a  शमन śamana soothing[MBh]
+H-892B  शमन� śamanī soothing[MBh]
+H-854  जम��न jamāni may I eat[√ जम� + ल�ट � 1s.]
+ = म · m from 1, 5, 11, 39 (40)
+8.41.  · अ · a from अय�ग ayuga one1080
+Seal-Id Inscription Sanskrit Translation
+Banawali  आन āna nose[RV]
+H-2570  आच� ācaṃ A name[Rājat]
+M-1458  आनन�चर ā-anana-acara to[RV] constant[RV] living[Nir]
+ = अ · a from 1, 2, 4, 13, 14, 23, 37 (41)
+64
+
+=== PDF PAGE 65 ===
+8.42.  · र · r from रथद�रु rathadāru Dalbergia tree1081
+Seal-Id Inscription Sanskrit Translation
+H-1975A  कम� तर � kam taraṃ pleased[TS] Shiva[MBh]
+H-289A  चरण caraṇa feet[MBh]
+Dholavira  म�रण māraṇa destruction[Mn]
+ = र · r from 1, 7, 8, 14, 25, 35, 40 (42)
+8.43.  · स · s from �शखर śikhara mountaintop1082
+Seal-Id Inscription Sanskrit Translation
+H-441a  सम� samaṃ level[RV]
+H-201A  मसर � masaraṃ measurer[W,RV]
+ = स · s from 1, 16, 40, 42 (43)
+8.44.  · ह · h from स = ह1083
+Seal-Id Inscription Sanskrit Translation
+M-1705  आमह� āmahaṃ to[RV] might[RV]
+M-1845  आमह� āmahaṃ to[RV] might[RV]
+M-445  आमह� āmahaṃ to[RV] might[RV]
+H-474  असह�म� asahām impatient[Kathās]
+ = ह · h from 1, 8, 24, 26, 27, 39, 43 (44)
+65
+
+=== PDF PAGE 66 ===
+8.45.  · द · d from ध�नक�� dhānakāḥ variant of coins 1084
+Seal-Id Inscription Sanskrit Translation
+H-1740  दद dada given[√ द� + �लट 2p.]
+M-1088  रवद�न rava-dāna Roarer’s[√ रु + अच�] gift[RV]
+M-1379  दद�न dadāna gave[√ द�न� + �लट � 3s.]
+ = द · d from 1, 6, 17, 19 (45)
+8.46.  · र · r from रथव� ratharvī multi/split snake1085
+Seal-Id Inscription Sanskrit Translation
+D-9093  हन�वचर hana-avacara killing[RV] domain[Buddh]
+M’daro 84-2  वर vara gift[RV]
+M-361  अरर arara door[Mcar]
+ = र · r from 1, 4, 14, 17, 19, 39, 41 (46)
+8.47.  · य · y from यव yava barley1086
+Seal-Id Inscription Sanskrit Translation
+D-16261  आवय�जय āvaya-ajaya remove [√ अज� + ल�ट � 2s.] pain[AV]
+M-218A  यम� yamī (Yama’s) twin sister[RV]
+H-48A  जय jaya victory[AV]
+M-1322a  अजय ajaya undefeated[RV]
+ = य · y from 2, 4, 5, 11, 15, 16, 17, 41 (47)
+66
+
+=== PDF PAGE 67 ===
+8.48.  · द · d from ध�नक�� dhānakāḥ coins1087
+Seal-Id Inscription Sanskrit Translation
+M-619A  दह daha He who burns[√ दह� + अच� RV]
+H-844A  वदन vadana face[ŚBr]
+M-190  सदस्य sadasya sacrifice attendee[TS]
+ = द · d from 1, 17, 21, 31 (48)
+8.49.  · त · t from त�ड्य tāḍya drum1088
+Seal-Id Inscription Sanskrit Translation
+M-228A  मथन mathana churn[MBh]
+M-459A  तन tana offspring[AV]
+M-2079A  तद� tad there[AV]
+ = त · t from 1, 16, 48 (49)
+8.50.  · म · m from मत�ग mataṅga elephant head1089
+Seal-Id Inscription Sanskrit Translation
+M-286a  आनमन ānamana saluting[T]
+H-921A  त्मन� tman the self[RV]
+ = म · m from 1, 7, 29 (50)
+8.51.  · त · t from त�ड �ल tāḍula fighter1090
+Seal-Id Inscription Sanskrit Translation
+M-1743A  श�न्तधर śānta-dhara tranquil[MBh] bearer[MBh]
+H-1666A  तन�य tana-āya gain[MBh] of offspring[AV]
+ = त · t from 1, 2, 4, 13, 21, 39, 48 (51)
+67
+
+=== PDF PAGE 68 ===
+8.52.  · स · s from सप्तन�saptan seven1091
+Seal-Id Inscription Sanskrit Translation
+M-673  सर sara move[√ स� + ल�ट � 2s.]
+Krs-2  समन� saman keeping calm[√ सम� + शत��]
+H-9  सम sama equal[RV]
+H-296  द�सम��न dāsamāni patronym द�सम�न� [√द�स� + श�नच� ]
+ = स · s from 1, 5, 6, 13, 16, 36, 41 (52)
+8.53.  · र · r from रथ��रन� rathārin variant of wheel 1092
+Seal-Id Inscription Sanskrit Translation
+H-668A  रण raṇa joy[RV]
+H-841A  ऋण� ṛṇī debtor[BG]
+H-1951A  रज अश्नन� raja aśnan color[√ रञ्ज� + ल�ट �2s.]
+while eating[√अश� + शत��]
+ = र · r from 1, 5, 11, 24, 37 (53)
+8.54.  · श · s from श�खर śākhāra variant of squirrel 1093
+Seal-Id Inscription Sanskrit Translation
+H-771  दहस� dahas destroyer[√ दह� + अच� RV]
+M-1202A  दस्र�न्त�न� dasra-antān Dasra’s[RV] boundaries[RV]
+ = श · s from 1, 22, 30, 31, 48, 53 (54)
+68
+
+=== PDF PAGE 69 ===
+8.55.  · प · p from पञ्चन�pañcan hand1094
+Seal-Id Inscription Sanskrit Translation
+H-443A  अमपण ama-paṇa powerful[RV] wager[MBh]
+H-758A  प�न pāna drink[RV]
+M-967A  (अ)मपर� (a)ma-parī attain[AV] power[RV]
+H-101a  पण� parṇa leaf[RV]
+D-19655  यजपर yaja-para sacrifice[ŚBr] protector[√ प� + अच�]
+ = प · p from 1, 2, 5, 9, 11, 12, 16, 22, 42, 47 (55)
+8.56.  · द · d from दन्तdanta teeth1095
+Seal-Id Inscription Sanskrit Translation
+M-326c  दधद� dadhad wearing[√ ध� + शत�� ]
+H-2336  म�दन mādana exhilarating[RV]
+H-86a  अदन adana food[RV]
+ = द · d from 1, 2, 15, 16, 23, 48 (56)
+8.57.  · म · m from मय maya horse1096
+Seal-Id Inscription Sanskrit Translation
+H-2024  म�हन maṃhana gift[RV]
+M-93  मन�जय manaṃ-jaya mind[RV] conqueror[RV]
+ = म · m from 1, 4, 11, 16, 21, 39 (57)
+69
+
+=== PDF PAGE 70 ===
+8.58.  · म · m from मत्यmatya harrow1097
+Seal-Id Inscription Sanskrit Translation
+L-52a  आशम� āśam food[ŚBr]
+M-965a  मनस्वर � manas-varaṃ willingly[RV] chosen[RV]
+ = म · m from 1, 13, 24, 31, 38 (58)
+8.59.  · अ · a from आज�न ājani variant of stick 1098
+Seal-Id Inscription Sanskrit Translation
+M-950a  म�ख� mākhaṃ oblation[Hariv]
+M-97A  म�य māya illusion[MBh]
+M-189a  स�न sāna destruction[√ स� + ल्य�ट �]
+L-11a  रवस्रम आनव ravas-rama O pleasing[RV] Roarer[RV]
+ānava O one kind to men[RV]
+ = अ · a from 1, 17, 19, 21, 24, 25, 29, 38, 39, 42, 50 (59)
+8.60.  · ल · l from लत� latā creeper1099
+Seal-Id Inscription Sanskrit Translation
+M-13a  द�लन dālana decay[Suśr]
+H-390a  अमलरम amala-rama pleasingly pure[AV,MBh]
+M-183A  ल� मन laṃ mana greatly[Vā] pleasing[SBr 5.3.2.3]
+ = ल · l from 3, 4, 9, 16, 19, 23, 27, 35, 58 (60)
+70
+
+=== PDF PAGE 71 ===
+8.61.  · त · t from त�ल tāla small cymbal1100
+Seal-Id Inscription Sanskrit Translation
+K-120  जठर jaṭhara belly[RV]
+ = त · t from 11, 13 (61)
+8.62.  · अन� · an from अ�श� aṃśu variant of drinking vessel 1101
+Seal-Id Inscription Sanskrit Translation
+H-450a  ज�नन� म�न jānan māna knowing[√ �� + शत�� ] honored[MBh]
+M-1787a  अन्वत� anvataṃ following[ĀpŚr]
+ = अन� · an from 1, 7, 11, 15, 16, 17, 22, 26 (62)
+8.63.  · अ · a from अग aga mountain1102
+Seal-Id Inscription Sanskrit Translation
+H-139A  अरण araṇa foreign[RV]
+H-157A  अन्य anya inexhaustible[AV]
+M-1307a  अदन adana eating[√ अद� + ल्य�ट �]
+ = अ · a from 1, 9, 12, 21, 37, 56 (63)
+71
+
+=== PDF PAGE 72 ===
+8.64.  · भ · b from भक्षत्रbhakṣatra oven1103
+Seal-Id Inscription Sanskrit Translation
+H-136A  मञ्जभर mañja-bhara shine[√ मञ्ज�] bestower[RV]
+M-742A  आभ�म� सर�(म�) ābhām sarā(m) river[AV] of light[MBh]
+M-1777a  सभ�म� sabhām council[RV]
+M-492A  महभण maha-bhaṇa mighty[RV] Roarer[√ भण� + अच�]
+ = भ · b from 1, 2, 4, 8, 11, 12, 13, 16, 26, 29, 31, 35, 52 (64)
+8.65.  · ष · s from षण� ṣaṇ six1104
+Seal-Id Inscription Sanskrit Translation
+H-98A  समन्द्र sa-mandra with[RV] pleasantness[RV]
+M-1314A  आनहर āna-hara (Sarasvati’s) nose[RV] severer[MBh]
+H-514a  रवस्मय ravas-maya Roaring[RV, मयट �]
+ = ष · s from 1, 6, 12, 13, 16, 17, 19, 21, 23, 26, 41 (65)
+8.66.  · य · y from यम yama variant of yama 1105
+Seal-Id Inscription Sanskrit Translation
+M-1628  नयद nayada prudence[R] giver[MBh]
+M-1628  रस्य rasya savoury[MBh]
+M-1628  नस्य nasya nasal(breath)[ŚBr]
+ = य · y from 6, 9, 19, 31, 37 (66)
+72
+
+=== PDF PAGE 73 ===
+8.67.  · श · s from �शख� śikhā variant of peacock crest 1106
+Seal-Id Inscription Sanskrit Translation
+M-2033A  दशरथ्य daśa-rathya ten[RV] chariot horses[RV]
+M-1096  अमम� श� amam-śam powerful[RV] blessing[RV]
+ = श · s from 1, 6, 12, 16, 27, 51, 66 (67)
+8.68.  · उ · u from उ��म udyāma coil of rope1107
+Seal-Id Inscription Sanskrit Translation
+M-1773A  उदर � udaraṃ belly[RV]
+Ad-5A  उदय udaya sunrise[ŚBr]
+ = उ · u from 1, 21, 42, 56 (68)
+8.69.  · इ · i from इष�क iṣīkā variant of stalk of grass 1108
+Seal-Id Inscription Sanskrit Translation
+H-1511  अ�ह ahi Vrta[RV]
+M-1632  ईम्प īmpa his[RV ईम� = एनम�] protector[RV]
+H-2102  ऐ ai vocative particle
+Luristan  आ�द� ādiḥ the beginning[ChandUp]
+ = इ · i from 4, 8, 16, 24, 48, 55 (69)
+8.70.  · व · v from वरट� varaṭī wasp1109
+Seal-Id Inscription Sanskrit Translation
+M-212A  व��णज vāṇija merchant[YV] (Shiva)
+M-948A  अववज्य ava-vajya off[RV] journey[√ वज� + ल्यप�]
+ = व · v from 1, 2, 11, 17, 47, 69 (70)
+73
+
+=== PDF PAGE 74 ===
+8.71.  · क · k from क � तम�kṛtam axe1110
+Seal-Id Inscription Sanskrit Translation
+H-3a  अन्नकवष्सभ�� anna-kavaṣ- open[RV] food[RV]
+sabhāṃ meeting[RV]
+M-56A  धक्क� म�म� dhakkaḥ mām The destroyer[√ धक्क � + अच�]
+सरन� saran moves[√ स� + शत��] me
+H-1076a  रव�ङ्कम� rava-aṅkam Roarer’s[√ रु + अच�] mark[R]
+Dholavira  रकवर�रक- raka-varāraka- “gem of chosen gems”
+Signboard अररस� araras entrance[Mcar]
+ = क · k from 1,2,17, 18,19,24,25, 27,29,31,35, 37,48,52,53, 62,64,70 (71)
+8.72.  · क · k from क � षkṛaṣa ploughshare1111
+Seal-Id Inscription Sanskrit Translation
+M-1889A  क�न्दर kāndara from a valley[R]
+H-1987A  वङ्कश्चरvaṅkas-cara roam[Bhadrab] about[√ चर�]
+M-1684a  अक्र akra banner[RV]
+ = क · k from 1, 2, 13, 14, 38, 48, 67 (72)
+8.73.  · प · p from पञ्चन�pañcan five1112
+Seal-Id Inscription Sanskrit Translation
+M-1909A  अश्ववपन aśva-vapana cutting[ŚBr] the horse[RV]
+M-1202C  आ-उप ā-upa from[RV] above[RV]
+ = प · p from 2, 4, 9, 17, 26, 38, 48, 67 (73)
+74
+
+=== PDF PAGE 75 ===
+8.74.  · उ · u from उप�नहन� upanihan hammer1113
+Seal-Id Inscription Sanskrit Translation
+M-1822  अन�ष� anu-uṣā post-dawn[Pāṇ,RV]
+M-1180  य�प yūpa sacrificial post[RV]
+ = उ��म · u from 1, 2, 21, 31, 73 (74)
+8.75.  · छ · c from छत्त्रchattra mushroom1114
+Seal-Id Inscription Sanskrit Translation
+H-1148  छन्न channa covered[MBh]
+M-1129   दहनछद � dahana-chadaṃ cremation[BhP] shroud[BhP]
+H-530a  अ�छन्न a-chinna undivided[ �छद � + क्त]
+H-642  जटध�चल� jaṭa-dhā-acalā immovable[BG] Shiva[Hariv,RV]
+ = छ · c from 1, 2, 3, 4, 5, 6, 11, 23, 37, 41, 45, 60, 61, 67 (75)
+8.76.  · म · m from म�क्षmṛkṣa comb1115
+Seal-Id Inscription Sanskrit Translation
+Ghola Dhoro  म�न्दद�चल mānda-acala gladdening[VS] mountain[MBh]
+M-1955  रवस�ध� rava saṃdhṛ O Roarer[√ रु], O bearer[MBh]
+ = म · m from 1, 3, 4, 6, 8, 13, 17, 19, 26, 60, 75 (76)
+75
+
+=== PDF PAGE 76 ===
+8.77.  · भ · b from भक्षपत्त्र�bhakṣapattrī betel leaf1116
+Seal-Id Inscription Sanskrit Translation
+H-1850A  भरण� bharaṇī N. stellar mansion[AV]
+M-213A  मव� भ�� marva bhāṃ fill with[√ मव� + ल�ट � 2s.] shining[RV]
+H-5a  नट naṭa O dancer[MBh], O giver[Pāṇ] of
+दहभस�नद daha-bhasāna-da heat[√ दह� + अच�] and shine[√भस� + ल्य�ट �]
+ = भ · b from 1, 5, 6, 9, 13, 17, 24, 29, 31, 42, 51, 57 (77)
+8.78.  · अ · a from अङ्क aṅka variant of curve 1117
+Seal-Id Inscription Sanskrit Translation
+M-331  आभस� ā-bhasā the shining one[RV,√ भस�]
+ = अ · a from 43, 77 (78)
+8.79.  · त · t from त� � tardū wooden ladles1118
+Seal-Id Inscription Sanskrit Translation
+M-1913  रवत ravata roaring[ĀpŚr]
+M-741A  तय taya protector[√ तय� + अच�]
+ = त · t from 12, 17, 21 (79)
+8.80.  · म · m from मन्द�र mandāra churning stick1119
+Seal-Id Inscription Sanskrit Translation
+M-1826a  दमन damana subduer[MBh]
+M-1961a  रव मर rava mara O Roarer, O Killer[√ रु + अच�,√म� + अच�]
+ = म · m from 6, 12, 13, 17, 23 (80)
+76
+
+=== PDF PAGE 77 ===
+8.81.  · क · k from क � षkṛaṣa ploughshare1120
+Seal-Id Inscription Sanskrit Translation
+H-152a  क्षय kṣaya dominion[RV]
+H-146  अक्षय akṣaya undecaying[BG]
+M-1419  क्षय� kṣayī consumptive[MBh]
+ = क · k from 2, 5, 8, 21 (81)
+8.82.  · ध · d from ध�न dhāna receptacle1121
+Seal-Id Inscription Sanskrit Translation
+BM-123208  छद�स्त chada-asta shroud[MBh,ŚBr]
+Ch-5A  अनलवदत्त� ana-lava-dattaṃ breath[ŚBr]
+destroyer’s[Mn] gift[RV]
+ = ध · d from 1, 8, 17, 30, 41, 51, 60, 75 (82)
+8.83.  · झ · j from झञ्झ�न� jhañjān rain and wind1122
+Seal-Id Inscription Sanskrit Translation
+M-1308a  चर�जष� cara-a-jaṣaṃ moving[MBh] immortal[√ जष� + अच�]
+H-57a  अज�य ajāya for Creator[RV]
+M-836A  ज�न jani woman/wife[RV]
+M-1848a  जष jaṣa killer[√ जष� + अच�]
+ = झ · j from 1, 5, 9, 13, 14, 21, 26, 31, 41 (83)
+77
+
+=== PDF PAGE 78 ===
+8.84.  · म · m from म�क्षmṛkṣa variant of comb 1123
+Seal-Id Inscription Sanskrit Translation
+M-648A  आम अ�शम�न āma aṃśa-māna serve[√ अम� + ल�ट � 2p.] portion[RV]
+preparation[RV]
+H-1706A  मल्लवज्र malla-vajra strong[MBh] Vajra[RV]
+H-6A  भरस�दम� bhara-sādam carrying[RV] on horseback[RV]
+K-40A  दमधरव�र dama-dhara-vāra householder’s[RV,RV]
+treasure[RV]
+ = म · m from 1,2,3, 4,11,12, 13,16,17, 20,22,26, 31,41,42, 48,60,82 (84)
+8.85.  · त · t from तद� tarda Indian blackbird1124
+Seal-Id Inscription Sanskrit Translation
+M-1204  मम अथ� mama athā mine certainly[Ved]
+M-214  र�त ऐ rata ai O bestowed[RV]
+M-1896  तत्र tatra there[RV]
+ = त · t from 5, 12, 19, 26, 50, 78, 84 (85)
+8.86.  · म · m from मत्ययmatya variant of churning stick 1125
+Seal-Id Inscription Sanskrit Translation
+M-779  दमन damana O Subduer
+M-495  म�न्य�थ�दस mānya-atha-adas honored[RV] surely[RV,AV]
+ = म · m from 1, 6, 21, 23, 26, 31, 48, 78, 85 (86)
+78
+
+=== PDF PAGE 79 ===
+8.87.  · द · d from धन्वन�dhanvan variant of bow 1126
+Seal-Id Inscription Sanskrit Translation
+H-7a  दद एकपद� dada ekapadaḥ given[Pāṇ] by Viṣṇu[MBh]
+M-159A  मदनह�न madana-hāna Kāma[MBh] remover[Gaut]
+M-331a  अम�दभच�प ama-adabha-cāpa powerful[RV]
+benevolent[RV] bow[MBh]
+ = द · d from 1, 6, 14, 15, 20, 25, 26, 36, 41, 45, 52, 55, 73, 78, 80 (87)
+8.88.  · द · d from धन्वन�dhanvan variant of bow 1127
+Seal-Id Inscription Sanskrit Translation
+H-91  कम� दमन kam damana excellent[RV] subduer[MBh]
+M’daro 84-6  दव dava heat[Car]
+ = द · d from 23, 25, 35, 38, 80 (88)
+8.89.  · स · s from �शख� śikhā variant of 1128
+Seal-Id Inscription Sanskrit Translation
+M-1744  ध�मस��द� dhāma-sādi majestic[RV] horseman[MBh]
+ = स · s from 2, 3, 5, 15, 27, 41, 87 (89)
+8.90.  · म · m from मन्द�र mandāra variant of flower 1129
+Seal-Id Inscription Sanskrit Translation
+M-810a  आमन āmana affection[TS]
+M-308A  मम वमन� mama vaman my emitting[√ वम� + शत��]
+ = म · m from 1, 16, 17, 23, 26, 84 (90)
+79
+
+=== PDF PAGE 80 ===
+8.91.  · म · m from म�न्दर mandira dwelling1130
+Seal-Id Inscription Sanskrit Translation
+D-24795  उन्नम� unnam moist[KātyŚr]
+ = म · m from 1, 68 (91)
+8.92.  · त · t from त्रtra three1131
+Seal-Id Inscription Sanskrit Translation
+H-1711  क�न्तद�न kānta-dāna delightful[GargaS] gift[RV]
+H-1713  रतजय rata-jaya pleasing[BhP] victory[RV]
+H-351  तमस��न tamasāni dark-colored (pl)[AV]
+ = त · t from 1, 2, 5, 11, 12, 31, 35, 47, 48, 72 (92)
+8.93.  · उ · u from उदप�न udapāna well1132
+Seal-Id Inscription Sanskrit Translation
+M-1923  श� अपरम� śu aparam the future[RV] quickly[Naigh]
+M-1224  उस्र�� usreeḥ morning-lights[RV]
+Unknown  उज्झमत� मन ujjha-matam mana remember,[√ म्न� + ल�ट � 2s.]
+relinquishing[Mn] desires[RV]
+ = उ · u from 1, 4, 5, 11, 13, 16, 23, 42, 50, 55, 61, 65, 80 (93)
+80
+
+=== PDF PAGE 81 ===
+8.94.  · उ · u from उदप�न udapāna variant of well 1133
+Seal-Id Inscription Sanskrit Translation
+H-720  उन्न unna moist[KātyŚr]
+H-149  रवम� त�ञ्जतर ravam tuñja-tara Roarer, the attack protector[Nir]
+ = उ · u from 1, 7, 11, 13, 16, 17, 19, 29, 49 (94)
+8.95.  · ए · e from एक eka one1134
+Seal-Id Inscription Sanskrit Translation
+M-1087A  अ��षम� aśleṣam Hydra constellation[AV]
+ = ए · e from 24, 58, 60 (95)
+8.96.  · अस� · as from अष्टन�aṣṭan eight1135
+Seal-Id Inscription Sanskrit Translation
+M-283A  अशर aśara unwounded[W]
+H-818  अश्मन� aśman sky[RV]
+ = अस� · as from 1, 13, 40 (96)
+8.97.  · न · n from नव nava nine1136
+Seal-Id Inscription Sanskrit Translation
+H-4a  अन्तम antama nearest[RV]
+Dholavira  नय naya leading[R]
+H-23a  नरह�न nara-hāna departed[VS] man[TS]
+ = न · n from 1, 7, 13, 16, 21, 22, 26, 39 (97)
+81
+
+=== PDF PAGE 82 ===
+8.98.  · र · r from रथ ratha variant of chariot 1137
+Seal-Id Inscription Sanskrit Translation
+H-24a  मञ्ज शरण mañja śaraṇa refuge[RV] O Roarer[√ मञ्ज� + अच�]
+M-255a  मरण maraṇa death[MBh]
+M-1366A  तर शतम� tara śatam a hundred[RV], O Rudra[MBh]
+ = र · r from 1, 7, 8, 11, 16, 29, 39 (98)
+8.99.  · य · y from य�ष्टyaṣṭi pearl necklace1138
+Seal-Id Inscription Sanskrit Translation
+H-465A  आय�न āyana arrival[RV]
+M-324b  य�न yāna leading[RV]
+M-99A  र�न्नव्य� rān-navyaṃ giving[√ र� + शत�� ] praise[RV]
+ = य · y from 1, 2, 4, 9, 12, 17 (99)
+8.100.  · म · m from म�क्षmṛkṣa variant of comb 1139
+Seal-Id Inscription Sanskrit Translation
+H-1051  रव�समद्ससम��न ravā asamad-samānī O roarer, the calm[SBr]
+and equable one[RV]
+ = म · m from 1, 5, 6, 12, 17, 24, 36, 52 (100)
+82
+
+=== PDF PAGE 83 ===
+8.101.  · य · y from य�ष्टyaṣṭi twig; arm1140
+Seal-Id Inscription Sanskrit Translation
+M-290a  यम� yamī (Yama’s) twin sister[RV]
+H-1922  असम�मम� य��न asama-amam yāni unequalled[Mn]
+path[TS] of power[RV]
+ = य · y from 1, 5, 16, 24, 27, 57, 100 (101)
+8.102.  · त · t from त� � tardū variant of wooden ladles 1141
+Seal-Id Inscription Sanskrit Translation
+H-90A  पश्यन्त� paśyantaḥ onlookers[RV]
+C-6   आव आम�न तत्र āva āmāna tatra go[√ अव� + ल�ट � 2p.] there[RV]
+to[RV] honor[RV]
+ = त · t from 1, 2, 4, 9, 12, 16, 17, 24, 26, 55, 63, 78, 101 (102)
+8.103.  · झ · j from झर jhara variant of rain; waterfall 1142
+Seal-Id Inscription Sanskrit Translation
+M-1691a  जन्मम�ख� janma-mākhaṃ birth[RV] oblation[Hariv]
+K-30A  जज jaja warrior[Śiś]
+ = झ · j from 1, 16, 25, 50, 59, 83 (103)
+83
+
+=== PDF PAGE 84 ===
+8.104.  · ग · g from ग�धन gādhana arrow1143
+Seal-Id Inscription Sanskrit Translation
+H-1924A  गज� gajaḥ elephant[Mn]
+M-1749a  गद�श्म gadā-aśma club[MBh] of stone[Pāṇ]
+M-972a  ग�न gāna song[Śiś]
+Allahdino-4A  घन�म�ह�� ghanā-māhāṃ great[MBh] destroyer[RV]
+ = ग · g from 1, 2, 3, 4, 11, 16, 24, 27, 52, 63, 67 (104)
+8.105.  · म · m from मत्यmatya club1144
+Seal-Id Inscription Sanskrit Translation
+M-1850a  रवनमन rava-namana bowing[Śiś] to Roarer[√ रु + अच�]
+H-391  दम�मम�न dama-ama-māna this[RV] honored[MBh] house[RV]
+M-285  रवमच्छम� ravam-accham towards[Ved] the Roarer[√ रु + अच�]
+ = म · m from 1, 2, 6, 12, 16, 17, 27, 28, 35, 75 (105)
+8.106.  · म · m from मन्द�र mandāra a flower1145
+Seal-Id Inscription Sanskrit Translation
+H-1411  सम�न samāna uniform[RV]
+H-950  शमशम śamaśama perpetually tranquil[MBh]
+M-760  मनस्स् थम�manas-stham stilled[RV] mind[RV]
+ = म · m from 1, 8, 16, 30, 31, 52, 67 (106)
+84
+
+=== PDF PAGE 85 ===
+8.107.  · स · s from श�ण śāṇa weight of four1146
+Seal-Id Inscription Sanskrit Translation
+M-260A  रवसम�न rava-samāna like[RV] the Roarer[√ रु + अच�]
+H-472a  रस�भ� rasa-ābhaṃ essence[RV] of beauty[MBh]
+ = स · s from 1, 4, 12, 16, 17, 19, 26, 64 (107)
+8.108.  · अस� · as from अष्टप�दaṣṭapāda spider variant of 1147
+Seal-Id Inscription Sanskrit Translation
+M-628a  आशक लवमह�न� āśaka lava-mahān O bestower[RV]
+O great reaper[MBh,RV]
+H-1708A  असत्त्व asattva non-presence[Nyāyam]
+M-1262a  बभ अश्नचर babha aśna-cara illumined[√ भ� + �लट 2s.]
+the moving[Mn] clouds[Naigh]
+ = अस� · as from 1, 13, 14, 16, 17, 24, 25, 38, 41, 49, 60, 64 (108)
+8.109.  · त · t from तण्ड�ल taṇḍula rice plant1148
+Seal-Id Inscription Sanskrit Translation
+B-28  चलत calata move[√ चल� + ल�ट � 2p.]
+D-26514  यत�न�� yatānā[ḥ] efforts[RV]
+ = त · t from 1, 4, 21, 60, 75 (109)
+85
+
+=== PDF PAGE 86 ===
+8.110.  · स · s from �शखर śikhara mountaintop1149
+Seal-Id Inscription Sanskrit Translation
+Ns-79  वहस� vahas bearing[MBh]
+M-2063  श�ण śāṇa hempen[ŚBr]
+ = स · s from 1, 4, 17, 31 (110)
+8.111.  · स · s from �शखर śikhara variant of mountaintop 1150
+Seal-Id Inscription Sanskrit Translation
+M-264a  शहम� saham mighty[RV]
+L-98A  सहत्मन� sahat-man mighty[RV]
+M-1709a  रवमहम� rava-maham mighty[RV] Roarer[√ रु + अच�]
+ = स · s from 1, 12, 16, 17, 23, 30, 91 (111)
+8.112.  · स · s from �शखर śikhara variant of mountaintop 1151
+Seal-Id Inscription Sanskrit Translation
+H-1920   अदशन� adaśan not ten[ŚBr]
+H-2575  वश vaśa O power[AV]
+ = स · s from 1, 3, 4, 70 (112)
+8.113.  · ल · l from लत� latā creeper1152
+Seal-Id Inscription Sanskrit Translation
+M-751A  ललक lalaka playful[W] happiness[ChUp]
+Dholavira  कमल�स्र kamala-asra red[TS] blood[Ragh]
+ = ल · l from 13, 24, 25, 35 (113)
+86
+
+=== PDF PAGE 87 ===
+8.114.  · श · s from �शख� śikhā peacock crest1153
+Seal-Id Inscription Sanskrit Translation
+M-241a  सभ� दहन sabhaṃ dahana the council[RV],
+O Rudra[MatsyaP]
+M-1674a  शव� मनम�न śarva mana-māna O Shiva[AV],
+O greatly[Vā] honored[MBh]
+ = श · s from 1, 4, 9, 12, 16, 17, 31, 48, 64, 78 (114)
+8.115.  · म · m from मन्द�र mandāra variant of flower 1154
+Seal-Id Inscription Sanskrit Translation
+M-34A  तम्रवस्मन� tamra-vasman red[VS] covering[RV]
+M-1823A  अम�वचर ama-avacara domain[Buddh] of power[RV]
+M-43a  मज्ज व मह�न� majja va mahān submerge[MBh] like
+the great one[MBh]
+ = म · m from 1, 2, 13, 14, 16, 17, 24, 34, 39, 40, 83, 109 (115)
+8.116.  · व · v from वट� vaṭī banyan tree1155
+Seal-Id Inscription Sanskrit Translation
+M-1159  स्ववश� नमन svavaśaṃ namana[ṃ] willing[MBh] respects[MārkP]
+M-101  रव वन�र rava vānara O Roarer[√ रु + अच�],
+O forest dweller[Mn]
+ = व · v from 1, 12, 13, 16, 17, 28, 31, 63 (116)
+87
+
+=== PDF PAGE 88 ===
+8.117.  · र · r from रथद�रु rathadāru variant of Dalbergia 1156
+Seal-Id Inscription Sanskrit Translation
+M-1773  उदर � udaraṃ belly[RV]
+M-1514  रण raṇa joy[RV]
+M-1275  अहसम� परम� ahasam param first[MBh] day[RV]
+ = र · r from 1, 16, 24, 31, 55, 56, 68 (117)
+8.118.  · स · s from श्य�नśyena falcon1157
+Seal-Id Inscription Sanskrit Translation
+M-222a  मयस� mayas delight[RV]
+M-6  सन्नरर san-arara existing[√ अस� + शत��] door[Mcar]
+ = स · s from 9, 12, 19, 50, 101 (118)
+8.119.
+ · त · t from त�ल tāla variant of cymbal 1158
+Seal-Id Inscription Sanskrit Translation
+M-2118
+  हय च पत haya ca pata roarer[√ हय� + अच�] and master[√पत� + अच�]
+ = त · t from 8, 14, 21, 73 (119)
+8.120.  · अस� · as from अष्टप�दaṣṭapāda variant of spider 1159
+Seal-Id Inscription Sanskrit Translation
+M-976  रण�क्ष raṇa-akṣa eye[RV] of Roarer[Pur]
+ = अस� · as from 9, 12, 25, 41 (120)
+88
+
+=== PDF PAGE 89 ===
+8.121.  · अस� · as from अष्टप�दaṣṭapāda variant of spider 1160
+Seal-Id Inscription Sanskrit Translation
+M-1975  द�सव�रम� dāsa-varam dāsa[RV] restrainer[RV]
+ = अस� · as from 1, 6, 38, 41, 117 (121)
+8.122.  · ओ · o from ओपश opaśa tuft of hair1161
+Seal-Id Inscription Sanskrit Translation
+H-1924  ओजस� ojas vigour[RV]
+ = ओ · o from 11, 24 (122)
+8.123.  · र · r from रथद�रु rathadāru variant of Dalbergia 1162
+Seal-Id Inscription Sanskrit Translation
+H-1522  ररर ra-ra-ra possessing[Naiṣ]
+love and desire
+L-45  तन�मन�मन� tana-ama-nāman fulfill[ प� + ल�ट � 2s.] the mark[RV]
+पर para of the destroyer[√ तन� + अच�]
+ = र · r from 1, 16, 27, 28, 49, 55 (123)
+8.124.  · व · v from व�त्रvātra loom √ व� + ष्ट्रन�1163
+Seal-Id Inscription Sanskrit Translation
+M-899  व्यय vyaya sacrifice[R]
+ = व · v from 21 (124)
+89
+
+=== PDF PAGE 90 ===
+9. Derivation Sequence1164
+ Phoneme Reconstructed Name
+1  अन� an अ�श� aṃśu soma drink
+2  अ a आज�न ājani stick
+3  द d धन्वन� dhanvan bow
+4  अ a आय� āyu man
+5  इ i इष�क iṣīkā stalk of grass
+6  द d धन्वन� dhanvan variant of bow 
+7  त t त�ड �ल taḍula variant of fighter 
+8  श s श�क्र śukra seed
+9  न n न�ल nāla stalk
+10  ई ī इइ ī long i
+11  ज j झर jhara waterfall; cascade
+12  र r रथ ratha chariot
+13  र r रथव� ratharvī multi/split snake
+14  च c चत�र� catur four
+15  अ a अजशृङ्ग� ajaśṛṅgī goat’s horn
+16  म m मत्स्य matsya fish
+17  व v �व vi two
+18  र r रथ ratha variant of ratha 
+19  र r रथ��रन� rathārin chariot wheel
+20  ब b भक्षपत्त्र�bhakṣapattrī betel leaf
+21  य y यव���� yavaśreṣṭhi grain merchant
+22  अ a आय� āyu variant of 
+23  न n न�ल�क� nālīka arrow
+24  अस� as अष्टप�द aṣṭapāda eight legged; spider
+25  क k क � तम� kṛtam dice
+26  अ a अङ्क aṅka curve
+27  अम ama अङ्क + मत्स्यama conjunct curve + fish
+28  न n न�ल nāla reed
+29  अन� n अ�श� aṃśu lamp
+30  त t त� � tardū variant of wooden ladles 
+31  स s स�प�न sopāna ladder
+32  अ a अङ्क aṅka boldface variant of curve 
+33  अ a अङ्क aṅka variant of curve 
+34  अ a अङ्क aṅka variant of curve 
+35  म m मन्थ mantha firesticks
+36  म m म�क्ष mṛkṣa variant of comb 
+37  न n न�ल nāla mat of reeds
+38  व v वत� vartī lamp wick
+39  श s श�खर śākhāra squirrel
+40  म m म�न्दर mandira dwelling
+41  अ a अय�ग ayuga one
+42  र r रथद�रु rathadāru Dalbergia tree
+43  स s �शखर śikhara mountaintop
+90
+
+=== PDF PAGE 91 ===
+ Phoneme Reconstructed Name
+44  ह h स = ह
+45  द d ध�नक�� dhānakāḥ variant of coins 
+46  र r रथव� ratharvī multi/split snake
+47  य y यव yava barley
+48  द d ध�नक�� dhānakāḥ coins
+49  त t त�ड्य tāḍya drum
+50  म m मत�ग mataṅga elephant head
+51  त t त�ड �ल tāḍula fighter
+52  स s सप्तन� saptan seven
+53  र r रथ��रन� rathārin variant of wheel 
+54  श s श�खर śākhāra variant of squirrel 
+55  प p पञ्चन� pañcan hand
+56  द d दन्त danta teeth
+57  म m मय maya horse
+58  म m मत्य matya harrow
+59  अ a आज�न ājani variant of stick 
+60  ल l लत� latā creeper
+61  त t त�ल tāla small cymbal
+62  अन� an अ�श� aṃśu variant of drinking vessel 
+63  अ a अग aga mountain
+64  भ b भक्षत्रbhakṣatra oven
+65  ष s षण� ṣaṇ six
+66  य y यम yama variant of yama 
+67  श s �शख� śikhā variant of peacock crest 
+68  उ u उ��म udyāma coil of rope
+69  इ i इष�क iṣīkā variant of stalk of grass 
+70  व v वरट� varaṭī wasp
+71  क k क � तम� kṛtam axe
+72  क k क � ष kṛaṣa ploughshare
+73  प p पञ्चन� pañcan five
+74  उ u उप�नहन� upanihan hammer
+75  छ c छत्त्रchattra mushroom
+76  म m म�क्ष mṛkṣa comb
+77  भ b भक्षपत्त्र�bhakṣapattrī betel leaf
+78  अ a अङ्क aṅka variant of curve 
+79  त t त� � tardū wooden ladles
+80  म m मन्द�र mandāra churning stick
+81  क k क � ष kṛaṣa ploughshare
+82  ध d ध�न dhāna receptacle
+83  झ j झञ्झ�न� jhañjān rain and wind
+84  म m म�क्ष mṛkṣa variant of comb 
+85  त t तद� tarda Indian blackbird
+86  म m मत्यय matya variant of churning stick 
+87  द d धन्वन� dhanvan variant of bow 
+88  द d धन्वन� dhanvan variant of bow 
+89  स s �शख� śikhā variant of 
+91
+
+=== PDF PAGE 92 ===
+ Phoneme Reconstructed Name
+90  म m मन्द�र mandāra variant of flower 
+91  म m म�न्दर mandira dwelling
+92  त t त्र tra three
+93  उ u उदप�न udapāna well
+94  उ u उदप�न udapāna variant of well 
+95  ए e एक eka one
+96  अस� as अष्टन� aṣṭan eight
+97  न n नव nava nine
+98  र r रथ ratha variant of chariot 
+99  य y य�ष्ट yaṣṭi pearl necklace
+100  म m म�क्ष mṛkṣa variant of comb 
+101  य y य�ष्ट yaṣṭi twig; arm
+102  त t त� � tardū variant of wooden ladles 
+103  झ j झर jhara variant of rain; waterfall 
+104  ग g ग�धन gādhana arrow
+105  म m मत्य matya club
+106  म m मन्द�र mandāra a flower
+107  स s श�ण śāṇa weight of four
+108  अस� as अष्टप�द aṣṭapāda spider variant of 
+109  त t तण्ड�ल taṇḍula rice plant
+110  स s �शखर śikhara mountaintop
+111  स s �शखर śikhara variant of mountaintop 
+112  स s �शखर śikhara variant of mountaintop 
+113  ल l लत� latā creeper
+114  श s �शख� śikhā peacock crest
+115  म m मन्द�र mandāra variant of flower 
+116  व v वट� vaṭī banyan tree
+117  र r रथद�रु rathadāru variant of Dalbergia 
+118  स s श्य�न śyena falcon
+119
+ त t त�ल tāla variant of cymbal 
+120  अस� as अष्टप�द aṣṭapāda variant of spider 
+121  अस� as अष्टप�द aṣṭapāda variant of spider 
+122  ओ o ओपश opaśa tuft of hair
+123  र r रथद�रु rathadāru variant of Dalbergia 
+124  व v व�त्र vātra loom √ व� + ष्ट्रन�
+92
+
+=== PDF PAGE 93 ===
+10. Conclusion1165
+The ability to read well beyond the unicity distance alone should be sufficient proof1166
+of correct decipherment of the Indus script. This decipherment has many additional1167
+compelling attributes. This is the only cryptanalytic decipherment and the only one1168
+that uses well-established mathematical models and methods instead of guessing sign1169
+values based on their appearance. This decipherment is the only full decipherment1170
+and the only one where every sign and every stroke has been resolved, the only one1171
+that is programmatically reproducible, the only one where the decipherment can be1172
+followed sign-by-sign by the reader, the only decipherment that reads Semitic and mixed1173
+inscriptions in addition to native IVC inscriptions, the only one that reads over 5001174
+inscriptions including all 50 longest inscriptions grammatically correctly in an attested1175
+language, the only one that validates research spanning almost a century from Hunter to1176
+Heggarty. In addition, we have uncovered a remarkable number of additional evidence1177
+such as reconstructed names of the signs, reasons for their allographs, and the clear1178
+correspondence of derived sound values to known Brahmi values. We also show how1179
+the constraints and habits of the Indus script carry on to Brahmi inscriptions of the1180
+early historic era. Such a strong result is a first in any ancient script decipherment and1181
+should be taken as plenary proof of decipherment of the Indus script.1182
+11. Data A vailability Statement1183
+A programmatic decipherment of the first 40 signs is openly available in the GitHub1184
+repository at https://github.com/yajnadevam/ScriptDerivation. This paper uses the1185
+Indus script font from the National Fund for Mohenjodaro under open license( Kumb-1186
+har and Buriro, 2017). Brahmi and Devanagari fonts are from Google Fonts under Open1187
+Font license(Google, 2021, 2022). Adinata font for Tamil Brahmi is under Open Font1188
+license (Rajan, Sharma, and Sankar, 2021). The Indus corpus reference used is Interac-1189
+tive Corpus of Indus Text(Wells and Fuls, 2023). Corpus of Indus seals and inscriptions1190
+volumes are also the primary reference(Parpola et. al. , 1991). Rigveda translations in1191
+section 5 are from Griffith(Griffith, 1896). The dictionary used for decipherment deriva-1192
+tion is the downloadable Monier-Williams dictionary(Monier-Williams, 1899b). Attes-1193
+tation data of individual words are from Monier-Williams dictionary(Monier-Williams,1194
+1899b), the Purana Index(Dikshitar, 1955) and Wisdomlib(Hiemstra, 2023).1195
+12. Disclosure Statement1196
+The authors report there are no competing interests to declare.1197
+References
+Ahmed, Mukhtar. 2014. Ancient Pakistan - An Archaeological History: Volume II: A
+Prelude to Civilization . Foursome Group.
+https://books.google.com/books?id=
+HbvTBAAAQBAJ&pg=PA364#v=onepage&q&f=false.
+Aniket Anand, Deshmukh, and Soumya Jana. 2013. “Chronology of Sanskrit texts:
+An information-theoretic corroboration.” In 2013 National Conference on Commu-
+nications (NCC), 1–5. https://web.archive.org/web/20160806054822id_/http:
+//www-personal.umich.edu:80/~aniketde/NCC%20paper.pdf.
+93
+
+=== PDF PAGE 94 ===
+Ashraf, M, and S Sinha. 2018. “The “handedness” of language: Directional symme-
+try breaking of sign usage in words.” PLOS one 1–16. https://doi.org/10.1371/
+journal.pone.0190735.
+ASI. 1906. Archaeological Survey Of India Annual Report 1903-4 . Government Print-
+ing, India. https://archive.org/details/in.ernet.dli.2015.207529/page/
+n195/mode/2up?view=theater.
+ASI. 2004. Indian Archaeology 1998-1999 - A review . Archaeological Survey of In-
+dia. https://web.archive.org/web/20120508064754/http://asi.nic.in/nmma_
+reviews/Indian%20Archaeology%201998-99%20A%20Review.pdf.
+Association Assyrophile de France. 2006. “Sureth Dictionary.” https://www.
+assyrianlanguages.org/akkadian/list.php.
+Azad, Uma Shankar. 2020. “Seals and Sealings of Pataliputra (From the Maurya Period
+up to the Gupta Period).” Heritage: Journal of Multidisciplinary Studies in Ar-
+chaeology 632–647. http://www.heritageuniversityofkerala.com/JournalPDF/
+Volume8.2/37.pdf.
+Bacon, Roger. 1401-1599. “Voynich manuscript.” https://collections.library.
+yale.edu/catalog/2002046?child_oid=1006204.
+Balasubramaniam, R. 2005. Story of the Delhi Iron pillar . Foundation Books pvt Ltd.
+https://books.google.com/books?id=FruHOlKlbJAC.
+Banerjee, N. R., and Soundara K. V. Rajan. 1960. “Sanur 1950, 1952: A megalithic
+site in district Chingleput.”Ancient India 15: 2–28. https://asi.nic.in/Ancient_
+India/Ancient_India_Volume_15/article_1.pdf.
+BBC. 1999. “’Earliest writing’ found.” Last accessed 18 March 2022, https:
+//web.archive.org/web/20220318234228/http://news.bbc.co.uk/2/hi/sci/
+tech/334517.stm
+.
+Bhatt, S. K. 1998. Nishka-the Rig Vedic Money . Academy of Indian Numismatics and
+Sigillography.
+Bonta, Steven. 2023. “A Partial Decipherment of the Indus Valley Script: Proposed
+Phonetic and Logographic Values for Selected Indus Signs and Readings of Indus
+Texts.” academia.edu
+https://web.archive.org/web/20230913171235/https:
+//www.academia.edu/105163460/A_Partial_Decipherment_of_the_Indus_
+Valley_Script_Proposed_Phonetic_and_Logographic_Values_for_Selected_
+Indus_Signs_and_Readings_of_Indus_Texts
+.
+CDLI. 2023. “The CDLI Collection.” https://cdli.ucla.edu/.
+Cinque, Guglielmo. 1999. Adverbs and Functional Heads . Oxford University Press.
+https://www.academia.edu/58433772/Adverbs_and_Functional_Heads.
+CoinIndia. 2010. “The Coin Galleries: Mauryan Empire.” http://coinindia.com/
+galleries-maurya.html.
+Danino, Michael. 2006. “THE HORSE AND THE ARYAN DEBATE.”Journal of Indian
+History and Culture September 2006 (13): 33–59. https://www.researchgate.net/
+publication/237413669_THE_HORSE_AND_THE_ARYAN_DEBATE.
+Devi, Yashoda. 1933. The history of Andhra country (1000 AD - 1500 AD) . Gyan
+Publishing House.
+Dikshitar, Ramachandra. 1955. “The Purana Index.” https://www.
+sanskrit-lexicon.uni-koeln.de/scans/PUIScan/2020/web/index.php.
+Dixit, K. N. 2019. “Origin of Early Harappan Cultures in the Sarasvati
+Valley: Recent Archaeological Evidence and Radiometric Dates.” Jour-
+nal of Indian Ocean Archaeology 88–141. https://web.archive.org/
+web/20170118032736/http://server2.docfoc.com/uploads/Z2015/11/21/
+vESLakMBYz/45a03572f94e7a873d7c350293cca188.pdf
+.
+94
+
+=== PDF PAGE 95 ===
+Ephron, H. D. 1961. “MYCENAEAN GREEK: A LESSON IN CRYPTANALYSIS.”
+Minos: Revista de Filología Egea 63–100. https://revistas.usal.es/dos/index.
+php/0544-3733/article/view/2088/2140.
+Gelb, I. J. 1957. Glossary of old Akkadian . University of Chicago Press.https://isac.
+uchicago.edu/sites/default/files/uploads/shared/docs/mad3.pdf.
+George, Andrew. 2003. “CUNEIFORM INSCRIPTION OF DEFEAT OF
+OMAN and INDUS VALLEY.” https://www.schoyencollection.com/
+history-collection-introduction/sumerian-history-collection/
+cuneiform-indus-valley-ms-2814
+.
+George Lasry, Norbert Biermann, and Satoshi Tomokiyo. 2023. “Deciphering Mary
+Stuart’s lost letters from 1578-1584.” Cryptologia 47 (2): 101–202. https://-
+doi.org/10.1080/01611194.2022.2160677, https://doi.org/10.1080/01611194.
+2022.2160677.
+Goibhniu. 2007. “Perl uses for Cryptograms - Part 1: One-liners and
+Word Patterns.” https://web.archive.org/web/20170223171834/https://www.
+perlmonks.org/?node_id=636818.
+Google. 2021. “Noto Serif Devanagari font.” This work is licensed under the
+Open Font Licence. To view a copy of this license, visit https://scripts.sil.
+org/cms/scripts/page.php?site_id=nrsi&id=OFL, https://fonts.google.com/
+noto/specimen/Noto+Serif+Devanagari/about.
+Google. 2022. “Noto Sans Brahmi font.” This work is licensed under the Open
+Font Licence. To view a copy of this license, visit https://scripts.sil.
+org/cms/scripts/page.php?site_id=nrsi&id=OFL, https://fonts.google.com/
+noto/specimen/Noto+Sans+Brahmi/about.
+Griffith, Ralph T. H. 1896. The Hymns of the Rigveda . Munshiram Manoharlal Publ.
+Vedaweb version https://vedaweb.uni-koeln.de/rigveda/view/index/0, http://www.
+sanskritweb.net/rigveda/griffith.pdf.
+Haryana Directorate of Archaeology and Museums. 2023. “Excavation Sites A and M.”
+https://web.archive.org/web/20230330043817/http://archaeologyharyana.
+nic.in/sites/default/files/Excavation%20sites%20A%20and%20M.pdf
+.
+Heggarty, Paul, Cormac Anderson, Matthew Scarborough, Benedict King, Remco
+Bouckaert, Lechosław Jocz, Martin Joachim Kümmel, et al. 2023. “Language trees
+with sampled ancestors support a hybrid model for the origin of Indo-European
+languages.” Science 381 (6656): eabg0818. https://doi.org/10.1126/science.abg0818,
+https://www.science.org/doi/abs/10.1126/science.abg0818.
+Hiemstra, Gabe. 2023. “Wisdom Library.” https://wisdomlib.org.
+Hultzsch, E. 1925. Inscriptions of Asoka . Clarendon Press. https://archive.org/
+details/InscriptionsOfAsoka.NewEditionByE.Hultzsch/page/n110/mode/1up?
+view=theater
+.
+Hunter, G. R. 1934. The script of Harappana and Mohenjodaro and its connection
+with other scripts . Kegan Paul, Trench, Trubner & Co Ltd.https://ufdc.ufl.edu/
+AA00013642/00001.
+IndMuseum. 5th Century. “Terracotta sealing.” https://indianculture.gov.in/
+artefacts-museums/sealing-397.
+Jayaswal, K. P. 1933. “The Vikramkhol inscription.” Indian Antiquary: A Journal Of
+Oriental Research 62: 58–60. https://archive.org/details/in.ernet.dli.2015.
+537235.
+Kak, Subhash. 1988. “A Frequency analysis of the Indus script.” Cryptologia 129–142.
+https://www.ece.lsu.edu/kak/IndusFreqAnalysis.pdf.
+Knight, Kevin, Beáta Megyesi, and Christiane Schaefer. 2011. “The Copiale Cipher.”
+95
+
+=== PDF PAGE 96 ===
+Association for Computational Linguistics 2–9. https://web.archive.org/web/
+20111112013300/http://www.aclweb.org/anthology-new/W/W11/W11-12.pdf#
+page=12
+.
+Konasukawa, Ayumu. 2020. “https://www.youtube.com/watch?v=UWNzMDfN28I.” .
+Kumbhar, Shabir, and Amar Fayaz Buriro. 2017. “Indus script font.” License ”Indus
+Script font is available to be downloaded for further studies, computational exercises
+and statistical analysis, free of charge; the only encumbrance is that user acknowl-
+edge our website.”,
+https://web.archive.org/web/20210308035522/http://www.
+mohenjodaroonline.net/index.php/indus-script/corpus-by-asko-parpola .
+Lahafian, Jamal. 2013. “Rock Art in Kurdistan Iran.” https://www.researchgate.
+net/publication/276033365_Rock_Art_in_Kurdistan_Iran.
+Lal, B. B. 1960. “From the Megalithic to the Harappa: tracing back the grafitti on the
+pottery.” Ancient India 16: 4–24. https://asi.nic.in/Ancient_India/Ancient_
+India_Volume_16/article_1.pdf.
+Lashari, K., Sindh (Pakistan). Department of Culture, Tourism, and Sindh Archives.
+2020. Studies on Indus Cript: Conference on Indus Script Mohenjodaro 2020 . National
+Fund for Mohenjodaro, Culture, Tournism, Antiquities and Archives Department,
+Government of Sindh.
+https://books.google.com/books?id=gjWCzwEACAAJ.
+Laursen, Steffen Terp. 2010. “The westward transmission of Indus Valley seal-
+ing technology: origin and development of the ‘Gulf Type’ seal and other ad-
+ministrative technologies in Early Dilmun, c.2100–2000 BC.” Arabian archaeol-
+ogy and epigraphy 96–134.
+https://onlinelibrary.wiley.com/doi/10.1111/j.
+1600-0471.2010.00329.x.
+Lien, L. T. 2013. “Brahmi Inscription from Archaeological Sites in South-
+ern Vietnam during the 1st Millennium CE.” Advancing Southeast Asian Ar-
+chaeology 402. https://publications.spafajournal.org/index.php/spafapub/
+catalog/view/37/53/158-1.
+Mahadevan, Iravatham. 1977. The Indus Script . Archaeological Sur-
+vey of India. https://archive.org/34/items/TheIndusScript.
+TextConcordanceAndTablesIravathanMahadevan/The%20Indus%20Script.
+%20Text%2C%20Concordance%20and%20Tables%20-Iravathan%20Mahadevan.pdf
+.
+Mahadevan, Iravatham. 2010. “Akam and Puram : ‘Address’ Signs of the Indus Script.”
+https://rmrl.in/wp-content/uploads/42-Akam-and-Puram.pdf .
+MetMuseum. 6th CE. “Impression from a Property Seal.” https://www.metmuseum.
+org/art/collection/search/77782.
+Monier-Williams. 1899a. “Monier-Williams dictionary Sanskrit abbreviations.” https:
+//en.wiktionary.org/wiki/Appendix:Sanskrit_abbreviations.
+Monier-Williams. 1899b. “Monier-Williams Sanskrit-English Dictionary, 1899.”https:
+//www.sanskrit-lexicon.uni-koeln.de/scans/MWScan/2020/web/index.php.
+Moreno, Marsha Lynn. 2005. “Frequency Analysis in Light of Language In-
+novation.” https://mathweb.ucsd.edu/~crypto/Projects/MarshaMoreno/
+TimeComparisonFrequency.pdf.
+Munjal, Sanjay, and Arvin Munjal. 2005. “(Brahmi inscription on Anthropomorphic
+figure).” Prāgdhārā .
+Neumayer, Erwin. 2020. “Chariots in the Chalcolithic Rock Art of Indian.”
+https://www.harappa.com/sites/default/files/pdf/WHEELS%20in%20Indian%
+20Rock%20Art%20Erwin%20Neumayer.pdf
+.
+Parpola, Asko. 1994. Deciphering the Indus script . Cambridge University Press.
+Parpola, Simo, Asko Parpola, and Robert H. Brunswig Jr. 1977. “The Meluḫḫa Vil-
+lage: Evidence of Acculturation of Harappan Traders in Late Third Millennium
+96
+
+=== PDF PAGE 97 ===
+Mesopotamia?” Journal of the Economic and Social History of the Orient 20 (2):
+129–165. http://www.jstor.org/stable/3631775.
+Parpola et. al. 1991. Corpus of Indus seals and inscriptions, Vol 1,2,3.1,3.2,3.3 . Suo-
+malainen Tiedeakatemia.
+Peters et al. 2022. “The biocultural origins and dispersal of domestic chickens.” PNAS
+119 (24). https://www.pnas.org/doi/pdf/10.1073/pnas.2121978119.
+Raghupathy, P. 1987.Early settlements in Jaffna: An archaeological survey . P. Raghu-
+pathy.
+Rajan, Vinod, Shriramana Sharma, and Udhaya Sankar. 2021. “Adinatha Tamil-
+Brahmi font.” This work is licensed under the Open Font Licence. To view a copy
+of this license, visit
+https://scripts.sil.org/cms/scripts/page.php?site_id=
+nrsi&id=OFL, http://www.virtualvinodh.com/projects/adinatha.
+Ramakrishna, K. A., N. K Swain, M. Rajesh, and N. Veeraraghavan. 2018. “Ex-
+cavations at Keeladi, Sivaganga District, Tamil Nadu (2014 - 2015 and 2015 -
+16).” Heritage: Journal of Multidisciplinary Studies in Archaeology 6 30–72.
+http:
+//www.heritageuniversityofkerala.com/JournalPDF/Volume6/2.pdf.
+Rao, Rajesh P. N., Nisha Yadav, Mayank N. Vahia, Hrishikesh Joglekar,
+R. Adhikari, and Iravatham Mahadevan. 2009. “A Markov model of the
+Indus script.” Proceedings of the National Academy of Sciences 106 (33):
+13685–13690. https://doi.org/10.1073/pnas.0906237106,
+https://www.pnas.org/
+doi/abs/10.1073/pnas.0906237106.
+Rao, S. R. 1980. “Indus script and language.” Annals of the Bhandarkar Oriental Re-
+search Institute 61: 157–188.
+Reddy, Bhaskar, and V. Sakunthalamma. 2023. “Indian Numismatics:
+Punchmarked Coins of the Janapadas.” https://epgp.inflibnet.ac.
+in/epgpdata/uploads/epgp_content/S000829IC/P001738/M028921/ET/
+1523266853P09-M04-PunchMarkedCoinsoftheJanapadas-ET.pdf
+.
+Shannon, C. 1945. A Mathematical Theory of Cryptography . Alcatel-Lucent. https:
+//www.iacr.org/museum/shannon/shannon45.pdf.
+Sheehan, John. 2009. “‘A peacock’s tale: excavations at Caherlehillan, Iveragh,
+Ireland.” The Archaeology of the Early Medieval Celtic Churches 191–206.
+https://www.academia.edu/3123538/The_Peacock_s_Tale_excavations_at_
+Caherlehillan_Kerry_Ireland
+.
+Shishlina, N. I., L. N. Koryakova, and O. V. Orfinskaya. 2022. “Exotic Cotton Tex-
+tile of the Bronze Age from the Southern Trans-Urals.” Nanobiotechnology Reports
+17 (5): 691–700. https://www.academia.edu/94620659/Exotic_Cotton_Textile_
+of_the_Bronze_Age_from_the_Southern_Trans_Urals.
+Singh, Unpinder. 2006. Delhi: Ancient History . Berghahn Books. https://en.
+wikipedia.org/wiki/Iron_pillar_of_Delhi.
+Sinha, B.P., and Sita Ram Roy. 1969.Vaisali excavations (1958 - 1962) . Directorate of
+Archaeology and Museums. http://asi.nic.in/asi_books/71048.pdf.
+Sivanantham, Dr. R., and M. Seran. 2019. Keeladi: An Urban Settlement of Sangam
+Age on the banks of river Vaigai . Department of Archaeology, Government of Tamil
+Nadu. https://web.archive.org/web/20231015164905/https://www.vinavu.
+com/wp-content/uploads/2019/09/Keeladi-Book-English-18-09-2019.pdf .
+Solomon, Richard. 1998. Indian Epigraphy. Oxford University Press.
+Srivatsava, O. 2021. (New Dimensions of History and Archeology) . B. R. Publishing
+Corporation.
+Subrahmanian, T. S. 2010. “Tamil Brahmi potsherds found at urn burial site.”
+https://www.thehindu.com/features/friday-review/history-and-culture/
+97
+
+=== PDF PAGE 98 ===
+Tamil-Brahmi-potsherds-found-at-urn-burial-site/article16483663.ece .
+Sullivan, Sue. 2011. Indus script dictionary . Sullivan, Sue.
+UPenn. 2006. “The Pennsylvania Sumerian Dictionary.” http://psd.museum.upenn.
+edu/nepsd-frame.html.
+Vyas, Shail. 2020. “Indus Musicians in Mesopotamia.” https://osf.io/preprints/
+socarxiv/kce5x/download&usg=AOvVaw228Fmhab2qMXq19nY5AenT&opi=89978449.
+Wells, Bryan, and Andreas Fuls. 2023. “Interactive Concordance of Indus Texts (ICIT):
+An Online Database of Indus Inscriptions and Iconography.” https://www.indus.
+epigraphica.de.
+wikipedia. 2021. “List of Beijing Subway stations.”https://en.wikipedia.org/wiki/
+List_of_Beijing_Subway_stations.
+98
+
+=== PDF PAGE 99 ===
+Appendix A. Evolution of Brahmi signs
+Figure A1. Evolution of Brahmi signs: Wikimedia Commons
+99
