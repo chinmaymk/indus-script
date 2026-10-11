@@ -1,4 +1,25 @@
-# M77 corpus: complete-page transcription, first batch
+# M77 corpus: complete-page transcription
+
+## Current release: two consecutive pages
+
+10 October2026 continuation. [Release2](../data/processed/m77_verified/corpus_v2.json) covers printed39–40/PDF50–51: **61 references,66 lines,349 identified sign positions,110 distinct assigned types,two unidentified visible glyphs,nine unknown-length loss spans and14source-doubtful positions**. This is1.85% of the3573 printed lines. Full printed-row coverage does not imply object-photograph verification or decipherment.
+
+The second page adds32references (1031–1061 and1065), with1052 having two lines. Both reviews froze before comparison; A saw secondary candidates, B used primary pages without alternate page51 readings during entry. Five rows disagreed. Four were resolved against primary glyph details/order;1047's first glyph remains UNKNOWN{M054,M055}. The earlier1026 UNKNOWN{M347,M352} remains unresolved. B's original1051 UNKNOWN lacked explicit1/1length bounds, so the assembler rejected it. A separately pinned schema-only amendment added those bounds; the original freeze was preserved. Adjudication then identified1051's formerly unresolved glyph asM163. No silent repair or majority vote was used.
+
+Whole-row boxes in A's second-page review may clip the extreme left reference digits near the bottom; full-page renders, wide bands, B boxes and the independently inventoried row manifest retain reference evidence. Boxes are not a substitute for the pinned full source.
+
+```sh
+python scripts/build_verified_m77.py \
+  --manifest data/processed/m77_verified/page_manifest_v2.json \
+  --adjudications data/processed/m77_verified/adjudications_v2.json \
+  --candidate-export data/processed/m77_candidate_records.jsonl \
+  --comparison results/m77_verified_v2_comparison.json \
+  --output data/processed/m77_verified/corpus_v2.json
+```
+
+[Initial unresolved comparison](../results/m77_verified_v2_initial_comparison.json), [decisions](../data/processed/m77_verified/adjudications_v2.json), and [B follow-up](../data/processed/m77_verified/reviewer_b_adjudication_page051.json) remain inspectable. The previous one-page release below is retained unchanged. Next consecutive source page isPDF52.
+
+## First release: historical batch record
 
 10 October 2026. **The current release covers one entire printed page: 29 references and 33 lines.** It is faithful to the reviewed M77 printed transcription, with one glyph identity still unresolved. This is not object-photograph verification, a representative corpus, or a decipherment.
 
@@ -46,14 +67,14 @@ python -m unittest discover -s tests -p 'test_verified_m77.py'
 
 Without `--adjudications`, the first command writes differences and refuses to publish a complete corpus. Tests cover lost continuations, duplicate keys, metadata inheritance, unknown-length loss, uncertain glyphs and candidate schema conversion. Source bytes must be present through Git LFS, not just pointer files.
 
-Next add consecutive PDF51 onward using the same frozen-review protocol. Source totals are2906 objects,3573 lines,13372 legible occurrences;33/3573 is only0.92% of printed lines. Entire-page coverage prevents cherry-picking legible or interesting rows, but is not random sampling. New transcription does not erase prior exposure to the export or create a fresh held-out test set.
+At this first release, the next page wasPDF51, now included in release2 above. Source totals are2906 objects,3573 lines,13372 legible occurrences;33/3573 was only0.92% of printed lines. Entire-page coverage prevents cherry-picking legible or interesting rows, but is not random sampling. New transcription does not erase prior exposure to the export or create a fresh held-out test set.
 
 ## Tests enabled by a larger verified corpus
 
-These are queued designs, not completed results:
+These remain queued designs except the explicitly linked inventory calculation:
 
 - **Kober-style alternations:** find recurring stems with coordinated multi-sign ending replacements, then compare the number and replication of rectangular stem/ending paradigms against shuffled controls preserving length, sign frequency, site and object class. Fixed labels can also alternate: evidence for inflection requires additional constraints, not just a shared suffix. Linear B motivates the method; no transfer of its sound values is proposed. Linear A and Rongorongo remain comparative cases to investigate, not validation corpora already analyzed.
-- **Inventory estimation:** report singleton/doubleton counts, Good–Turing missing mass and Chao-type richness estimates with their sampling assumptions; compare growth at matched sample sizes and tokenization conventions. Normalized M77 types, damage, finite corpus selection and unequal sign frequencies limit interpretation. An estimated sign inventory alone cannot classify a script as logosyllabic.
+- **Inventory estimation:** [Good–Turing, Chao1 and finite-catalogue rarefaction are now calculated](INVENTORY_RICHNESS.md) from the complete primary Table I. Cross-script growth comparisons remain unperformed. Normalization, damage, sample selection and duplicate inscriptions limit interpretation; an estimated inventory alone cannot classify a script as logosyllabic.
 - **Chronology and region:** source site and excavation-phase assignments independently. Early Harappan, Mature Harappan and Late Harappan are not interchangeable bins; a secondary level number is not a phase date. Compare within securely dated phases before pooling; keep unknown dates explicit.
 - **Text and seal animal:** authenticate the field-symbol codebook and each association, then test conditional dependence with site, phase, object class and duplicate groups controlled. Name and office hypotheses can both produce animal associations. Repeated mold impressions must not inflate sample size.
 - **Numeral substitutions:** freeze count-independent inclusion rules and stroke-class definitions. Count all eligible minimal substitutions, including failures, and compare ratios with fixed null models. Such a test measures substitution structure, not equal quantity. The current2/3 conditional ratio has no established external equality anchor.

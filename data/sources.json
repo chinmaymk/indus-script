@@ -733,6 +733,24 @@
       "sha256": "15fb6296c67f0c88b2e96b20301cdc4c18a1f9646e0c0bf8b50d96198828c460",
       "source_registration_status": "registered",
       "url": "https://cdli.earth/files-up/publications/englund2004c.pdf"
+    },
+    {
+      "bytes": 485,
+      "kind": "locally_serialized_HTTP_response_headers",
+      "path": "data/raw/inventory-oct10-drukh-mansour2005.pdf.headers.json",
+      "research_date": "2026-10-10",
+      "sha256": "99fc97c7a5f2a4eee58f341cecdb71bd3852e5412bdd46a1674c8da1588d5dfa",
+      "source_registration_status": "registered",
+      "url": "https://jmlr.org/papers/volume6/drukh05a/drukh05a.pdf"
+    },
+    {
+      "bytes": 335,
+      "kind": "locally_serialized_HTTP_response_headers",
+      "path": "data/raw/inventory-oct10-gotelli-chao2013-www.pdf.headers.json",
+      "research_date": "2026-10-10",
+      "sha256": "e6562cdcb185b884177a4088df67ed01ae2bc7c379caadb6bbae0c5b4c721639",
+      "source_registration_status": "registered",
+      "url": "https://www.uvm.edu/~ngotelli/manuscriptpdfs/Gotelli_Chao_Encyclopedia_2013.pdf"
     }
   ],
   "downloads": [
@@ -4152,6 +4170,39 @@
       "sha256": "5cb308825d2365491e6333c0ceef72cf016d0589f829ea08ec8bdcbf351dc5f7",
       "source_registration_status": "registered",
       "url": null
+    },
+    {
+      "bytes": 219415,
+      "http_status": 200,
+      "kind": "complete_http_body_pending_content_review",
+      "path": "data/raw/inventory-oct10-drukh-mansour2005.pdf",
+      "research_date": "2026-10-10",
+      "response_complete": true,
+      "sha256": "8e87dc43cbd1611dbcfcef3a22af2b55b68f57eb442e4f8b0f4bba04839431ee",
+      "source_registration_status": "registered",
+      "url": "https://jmlr.org/papers/volume6/drukh05a/drukh05a.pdf"
+    },
+    {
+      "bytes": 1124385,
+      "http_status": 200,
+      "kind": "complete_http_body_pending_content_review",
+      "path": "data/raw/inventory-oct10-gotelli-chao2013-www.pdf",
+      "research_date": "2026-10-10",
+      "response_complete": true,
+      "sha256": "014cfa1e005423d9e9881f084ae063bc0efd6d5f79d68773fab67f9cf48794c6",
+      "source_registration_status": "registered",
+      "url": "https://www.uvm.edu/~ngotelli/manuscriptpdfs/Gotelli_Chao_Encyclopedia_2013.pdf"
+    },
+    {
+      "bytes": 5064,
+      "kind": "external_AI_CLI_response_not_historical_evidence",
+      "original_document_bytes": false,
+      "path": "data/raw/inventory-oct10-claude-fable.json",
+      "refetchable": false,
+      "research_date": "2026-10-10",
+      "sha256": "ec86c162ae33792779234989ea73c37aade8d4f16b4b37f2ee555f5c2cc1df0b",
+      "source_registration_status": "registered",
+      "url": null
     }
   ],
   "local_inputs": {
@@ -4885,6 +4936,17 @@
         "https://cdli.earth/files-up/publications/englund2004a.pdf",
         "https://cdli.earth/files-up/publications/englund2004c.pdf"
       ],
+      "url": null
+    },
+    {
+      "bytes": 30655,
+      "kind": "web_tool_capture_not_original_document",
+      "original_document_bytes": false,
+      "path": "data/raw/inventory-oct10-web-capture.json",
+      "refetchable": false,
+      "research_date": "2026-10-10",
+      "sha256": "eef514ace6763cd230d4a6450d3829e979268ffe293ab00d8bbb79f3a915be2e",
+      "source_registration_status": "registered",
       "url": null
     }
   ]

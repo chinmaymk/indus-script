@@ -1,0 +1,3553 @@
+{
+  "schema_version": "m77-comparison-1",
+  "review_pins": [
+    {
+      "path": "data/processed/m77_verified/reviewer_a_page050.json",
+      "sha256": "68f04b60e3de391628063a1aa0730b03cd13b2368020829be49ddd38adc0b7d7"
+    },
+    {
+      "path": "data/processed/m77_verified/reviewer_b_page050.json",
+      "sha256": "3e233a41ac500cc8ec5f889905c36592f9fb811baf62f9680ca133101932b44e"
+    },
+    {
+      "path": "data/processed/m77_verified/reviewer_a_page051.json",
+      "sha256": "657e1bec9ec5f0756384a9a3461e906b156aeeee9307fe6f8a45887f2d47a3b5"
+    },
+    {
+      "path": "data/processed/m77_verified/reviewer_b_page051_schema1.json",
+      "sha256": "b12f9d166f0926c94d9a029ebc4ad829f5d7c167db048f0bf84418e0edcc892b"
+    }
+  ],
+  "expected_rows": 66,
+  "accepted_rows": 61,
+  "unresolved_differences": 5,
+  "differences": [
+    {
+      "source_pdf_page": 50,
+      "key": [
+        "1006",
+        "0",
+        "0"
+      ],
+      "fields": {
+        "tokens": {
+          "A": [
+            "M233",
+            "M081",
+            "M099",
+            "M389",
+            "M065",
+            "M336",
+            "M089",
+            "M087",
+            "M155",
+            "M124",
+            "M169"
+          ],
+          "B": [
+            "M233",
+            "M081",
+            "M099",
+            "M389",
+            "M065",
+            "M336",
+            "M089",
+            "M087",
+            "M155",
+            "M124",
+            "M161"
+          ]
+        },
+        "segments": {
+          "A": [
+            {
+              "kind": "identified_sign",
+              "maximum_signs": 1,
+              "minimum_signs": 1,
+              "position_from_right": 1,
+              "sign": "M233",
+              "source_doubt": false
+            },
+            {
+              "kind": "identified_sign",
+              "maximum_signs": 1,
+              "minimum_signs": 1,
+              "position_from_right": 2,
+              "sign": "M081",
+              "source_doubt": false
+            },
+            {
+              "kind": "identified_sign",
+              "maximum_signs": 1,
+              "minimum_signs": 1,
+              "position_from_right": 3,
+              "sign": "M099",
+              "source_doubt": false
+            },
+            {
+              "kind": "identified_sign",
+              "maximum_signs": 1,
+              "minimum_signs": 1,
+              "position_from_right": 4,
+              "sign": "M389",
+              "source_doubt": false
+            },
+            {
+              "kind": "identified_sign",
+              "maximum_signs": 1,
+              "minimum_signs": 1,
+              "position_from_right": 5,
+              "sign": "M065",
+              "source_doubt": false
+            },
+            {
+              "kind": "identified_sign",
+              "maximum_signs": 1,
+              "minimum_signs": 1,
+              "position_from_right": 6,
+              "sign": "M336",
+              "source_doubt": false
+            },
+            {
+              "kind": "identified_sign",
+              "maximum_signs": 1,
+              "minimum_signs": 1,
+              "position_from_right": 7,
+              "sign": "M089",
+              "source_doubt": false
+            },
+            {
+              "kind": "identified_sign",
+              "maximum_signs": 1,
+              "minimum_signs": 1,
+              "position_from_right": 8,
+              "sign": "M087",
+              "source_doubt": false
+            },
+            {
+              "kind": "identified_sign",
+              "maximum_signs": 1,
+              "minimum_signs": 1,
+              "position_from_right": 9,
+              "sign": "M155",
+              "source_doubt": false
+            },
+            {
+              "kind": "identified_sign",
+              "maximum_signs": 1,
+              "minimum_signs": 1,
+              "position_from_right": 10,
+              "sign": "M124",
+              "source_doubt": false
+            },
+            {
+              "kind": "identified_sign",
+              "maximum_signs": 1,
+              "minimum_signs": 1,
+              "position_from_right": 11,
+              "sign": "M169",
+              "source_doubt": false
+            }
+          ],
+          "B": [
+            {
+              "position_from_right": 1,
+              "kind": "identified_sign",
+              "sign": "M233",
+              "source_doubt": false,
+              "reviewer_uncertainty": false,
+              "candidate_signs": []
+            },
+            {
+              "position_from_right": 2,
+              "kind": "identified_sign",
+              "sign": "M081",
+              "source_doubt": false,
+              "reviewer_uncertainty": false,
+              "candidate_signs": []
+            },
+            {
+              "position_from_right": 3,
+              "kind": "identified_sign",
+              "sign": "M099",
+              "source_doubt": false,
+              "reviewer_uncertainty": false,
+              "candidate_signs": []
+            },
+            {
+              "position_from_right": 4,
+              "kind": "identified_sign",
+              "sign": "M389",
+              "source_doubt": false,
+              "reviewer_uncertainty": false,
+              "candidate_signs": []
+            },
+            {
+              "position_from_right": 5,
+              "kind": "identified_sign",
+              "sign": "M065",
+              "source_doubt": false,
+              "reviewer_uncertainty": false,
+              "candidate_signs": []
+            },
+            {
+              "position_from_right": 6,
+              "kind": "identified_sign",
+              "sign": "M336",
+              "source_doubt": false,
+              "reviewer_uncertainty": false,
+              "candidate_signs": []
+            },
+            {
+              "position_from_right": 7,
+              "kind": "identified_sign",
+              "sign": "M089",
+              "source_doubt": false,
+              "reviewer_uncertainty": false,
+              "candidate_signs": []
+            },
+            {
+              "position_from_right": 8,
+              "kind": "identified_sign",
+              "sign": "M087",
+              "source_doubt": false,
+              "reviewer_uncertainty": false,
+              "candidate_signs": []
+            },
+            {
+              "position_from_right": 9,
+              "kind": "identified_sign",
+              "sign": "M155",
+              "source_doubt": false,
+              "reviewer_uncertainty": false,
+              "candidate_signs": []
+            },
+            {
+              "position_from_right": 10,
+              "kind": "identified_sign",
+              "sign": "M124",
+              "source_doubt": false,
+              "reviewer_uncertainty": false,
+              "candidate_signs": []
+            },
+            {
+              "position_from_right": 11,
+              "kind": "identified_sign",
+              "sign": "M161",
+              "source_doubt": false,
+              "reviewer_uncertainty": false,
+              "candidate_signs": []
+            }
+          ]
+        }
+      },
+      "adjudicated": true,
+      "decision": {
+        "source_pdf_page": 50,
+        "key": [
+          "1006",
+          "0",
+          "0"
+        ],
+        "resolution": "A",
+        "reason": "The terminal crown has multiple oblique uprights, unlike the plain two-arm M161. Rechecked against primary M169 and native crop; reviewer B independently reconsidered in follow-up.",
+        "source_pins": [
+          {
+            "path": "data/raw/mahadevan_1977_text.pdf",
+            "sha256": "6dcdd074a0174e5fab149590fbbf82342711d345764e9763f8e5e92c81cf7f99"
+          },
+          {
+            "path": "results/primary_pages/texts-050.png",
+            "sha256": "a78ab810777334783148b605932fceac6cf0144fd6faab6f8581f9967409e781"
+          },
+          {
+            "path": "results/primary_pages/sign_list_page_32.png",
+            "sha256": "1e3f91789c947add7ce796479168d84d69636ebdc378493743188ac11c53c90a"
+          },
+          {
+            "path": "results/primary_pages/sign_list-044.png",
+            "sha256": "33eff554bfdea81af6d1a3510a5b2541d1b74b02ae1e63b253c725b44c7c0b64"
+          },
+          {
+            "path": "results/primary_pages/sign_list-045.png",
+            "sha256": "972002b288ea77921dcacfe67386dbf585b76be6bca5444b7ff9422e47e70b89"
+          },
+          {
+            "path": "results/primary_pages/sign_list-046.png",
+            "sha256": "a191e9297a6ab8b7cad1028eaeac062b4b6fa3cd34aefbdd507f669d736d2e8e"
+          },
+          {
+            "path": "data/processed/m77_codebook_review.json",
+            "sha256": "2d88405d6ce077afbd670fb11800fbb717dff03e98581b4a2c19f10b60ee9ea8"
+          },
+          {
+            "path": "results/primary_pages/m77-v1-reviewerB-detail-1006-Y.png",
+            "sha256": "91e2b282ab0acf74dd5b3eeeb48f2ceb1aea1e66f19a4f1ba28040223b6ac9f6"
+          },
+          {
+            "path": "results/primary_pages/m77-v1-reviewerB-detail-1011.png",
+            "sha256": "19efa5290e4cc7f947a96952de0d9e2f47be60f9970b7968e0c0b0a9d11f96c6"
+          },
+          {
+            "path": "results/primary_pages/m77-v1-reviewerB-detail-1015.png",
+            "sha256": "826ba669fd696e9eed124c5592f4e3e9cf15d91633590882981925baabba046d"
+          },
+          {
+            "path": "results/primary_pages/m77-v1-reviewerB-detail-1016.png",
+            "sha256": "2c0c562200b8feb3bd311e5eecbb53ee08c37e5ea8e9d82ae4b90c3a1c508521"
+          },
+          {
+            "path": "results/primary_pages/m77-v1-reviewerB-detail-1017.png",
+            "sha256": "d274654a504f82eefb2af4c075ad9c0a3b2f767336b6c111bbfc10a67e937203"
+          },
+          {
+            "path": "results/primary_pages/m77-v1-reviewerB-detail-1021-U.png",
+            "sha256": "e8b4976c7c70502affaf4486e5e941c67166106993c63989b6548d245a8f222b"
+          },
+          {
+            "path": "results/primary_pages/m77-v1-reviewerB-detail-1024.png",
+            "sha256": "f83e1c63b94f2e4b67ce2bd0a5c863248ef6eeb7d33bafdbb97869832ea94ab9"
+          },
+          {
+            "path": "results/primary_pages/m77-v1-reviewerB-detail-1025.png",
+            "sha256": "ca13ba9a322f6aabf7000e4016203d544ae36785dbc4de534df863b7e6b832e5"
+          },
+          {
+            "path": "results/primary_pages/m77-v1-reviewerB-detail-1026.png",
+            "sha256": "85918ff5b4f71861d83d1baab248e9b9e1a62eb982af0ffa8fad0bdfc8ae6cbe"
+          },
+          {
+            "path": "results/primary_pages/m77-v1-reviewerB-detail-1029.png",
+            "sha256": "db6a6213793fb5a04960b7af2133476df97cb1ea57a6ffc0c8aae247260bf15e"
+          },
+          {
+            "path": "results/primary_pages/m77-v1-adjudication-signs214-218.png",
+            "sha256": "e5070f44524d086e01a1ffdc1337adc483d91a77e72e82e4fd73170b7289964a"
+          },
+          {
+            "path": "results/primary_pages/m77-v1-adjudication-signs220-224.png",
+            "sha256": "c98a6261f5d300cb9081f7243760b2dbcf9ba7b27dfc78eddcab96117d89cac3"
+          },
+          {
+            "path": "results/primary_pages/m77-v1-adjudication-1027-dispute.png",
+            "sha256": "472248dbfa13bd31404193a83e69f21d7e62635f20e7496768f055f301fe6af2"
+          }
+        ]
+      }
+    },
+    {
+      "source_pdf_page": 50,
+      "key": [
+        "1011",
+        "0",
+        "0"
+      ],
+      "fields": {
+        "tokens": {
+          "A": [
+            "M267",
+            "M099",
+            "M067",
+            "M296",
+            "M009",
+            "M342",
+            "M017",
+            "M407",
+            "M169"
+          ],
+          "B": [
+            "M267",
+            "M099",
+            "M067",
+            "M296",
+            "M009",
+            "M017",
+            "M342",
+            "M407",
+            "M161"
+          ]
+        },
+        "segments": {
+          "A": [
+            {
+              "kind": "identified_sign",
+              "maximum_signs": 1,
+              "minimum_signs": 1,
+              "position_from_right": 1,
+              "sign": "M267",
+              "source_doubt": false
+            },
+            {
+              "kind": "identified_sign",
+              "maximum_signs": 1,
+              "minimum_signs": 1,
+              "position_from_right": 2,
+              "sign": "M099",
+              "source_doubt": false
+            },
+            {
+              "kind": "identified_sign",
+              "maximum_signs": 1,
+              "minimum_signs": 1,
+              "position_from_right": 3,
+              "sign": "M067",
+              "source_doubt": false
+            },
+            {
+              "kind": "identified_sign",
+              "maximum_signs": 1,
+              "minimum_signs": 1,
+              "position_from_right": 4,
+              "sign": "M296",
+              "source_doubt": false
+            },
+            {
+              "kind": "identified_sign",
+              "maximum_signs": 1,
+              "minimum_signs": 1,
+              "position_from_right": 5,
+              "sign": "M009",
+              "source_doubt": false
+            },
+            {
+              "kind": "identified_sign",
+              "maximum_signs": 1,
+              "minimum_signs": 1,
+              "position_from_right": 6,
+              "sign": "M342",
+              "source_doubt": false
+            },
+            {
+              "kind": "identified_sign",
+              "maximum_signs": 1,
+              "minimum_signs": 1,
+              "position_from_right": 7,
+              "sign": "M017",
+              "source_doubt": false
+            },
+            {
+              "kind": "identified_sign",
+              "maximum_signs": 1,
+              "minimum_signs": 1,
+              "position_from_right": 8,
+              "sign": "M407",
+              "source_doubt": false
+            },
+            {
+              "kind": "identified_sign",
+              "maximum_signs": 1,
+              "minimum_signs": 1,
+              "position_from_right": 9,
+              "sign": "M169",
+              "source_doubt": false
+            }
+          ],
+          "B": [
+            {
+              "position_from_right": 1,
+              "kind": "identified_sign",
+              "sign": "M267",
+              "source_doubt": false,
+              "reviewer_uncertainty": false,
+              "candidate_signs": []
+            },
+            {
+              "position_from_right": 2,
+              "kind": "identified_sign",
+              "sign": "M099",
+              "source_doubt": false,
+              "reviewer_uncertainty": false,
+              "candidate_signs": []
+            },
+            {
+              "position_from_right": 3,
+              "kind": "identified_sign",
+              "sign": "M067",
+              "source_doubt": false,
+              "reviewer_uncertainty": false,
+              "candidate_signs": []
+            },
+            {
+              "position_from_right": 4,
+              "kind": "identified_sign",
+              "sign": "M296",
+              "source_doubt": false,
+              "reviewer_uncertainty": false,
+              "candidate_signs": []
+            },
+            {
+              "position_from_right": 5,
+              "kind": "identified_sign",
+              "sign": "M009",
+              "source_doubt": false,
+              "reviewer_uncertainty": false,
+              "candidate_signs": []
+            },
+            {
+              "position_from_right": 6,
+              "kind": "identified_sign",
+              "sign": "M017",
+              "source_doubt": false,
+              "reviewer_uncertainty": false,
+              "candidate_signs": []
+            },
+            {
+              "position_from_right": 7,
+              "kind": "identified_sign",
+              "sign": "M342",
+              "source_doubt": false,
+              "reviewer_uncertainty": false,
+              "candidate_signs": []
+            },
+            {
+              "position_from_right": 8,
+              "kind": "identified_sign",
+              "sign": "M407",
+              "source_doubt": false,
+              "reviewer_uncertainty": false,
+              "candidate_signs": []
+            },
+            {
+              "position_from_right": 9,
+              "kind": "identified_sign",
+              "sign": "M161",
+              "source_doubt": false,
+              "reviewer_uncertainty": false,
+              "candidate_signs": []
+            }
+          ]
+        }
+      },
+      "adjudicated": true,
+      "decision": {
+        "source_pdf_page": 50,
+        "key": [
+          "1011",
+          "0",
+          "0"
+        ],
+        "resolution": "A",
+        "reason": "Reading normalized primary image right-to-left places M342 before M017 after M009; B had transposed them. Terminal pronged crown matches M169, not the plain M161. Primary crop and sign list reviewed.",
+        "source_pins": [
+          {
+            "path": "data/raw/mahadevan_1977_text.pdf",
+            "sha256": "6dcdd074a0174e5fab149590fbbf82342711d345764e9763f8e5e92c81cf7f99"
+          },
+          {
+            "path": "results/primary_pages/texts-050.png",
+            "sha256": "a78ab810777334783148b605932fceac6cf0144fd6faab6f8581f9967409e781"
+          },
+          {
+            "path": "results/primary_pages/sign_list_page_32.png",
+            "sha256": "1e3f91789c947add7ce796479168d84d69636ebdc378493743188ac11c53c90a"
+          },
+          {
+            "path": "results/primary_pages/sign_list-044.png",
+            "sha256": "33eff554bfdea81af6d1a3510a5b2541d1b74b02ae1e63b253c725b44c7c0b64"
+          },
+          {
+            "path": "results/primary_pages/sign_list-045.png",
+            "sha256": "972002b288ea77921dcacfe67386dbf585b76be6bca5444b7ff9422e47e70b89"
+          },
+          {
+            "path": "results/primary_pages/sign_list-046.png",
+            "sha256": "a191e9297a6ab8b7cad1028eaeac062b4b6fa3cd34aefbdd507f669d736d2e8e"
+          },
+          {
+            "path": "data/processed/m77_codebook_review.json",
+            "sha256": "2d88405d6ce077afbd670fb11800fbb717dff03e98581b4a2c19f10b60ee9ea8"
+          },
+          {
+            "path": "results/primary_pages/m77-v1-reviewerB-detail-1006-Y.png",
+            "sha256": "91e2b282ab0acf74dd5b3eeeb48f2ceb1aea1e66f19a4f1ba28040223b6ac9f6"
+          },
+          {
+            "path": "results/primary_pages/m77-v1-reviewerB-detail-1011.png",
+            "sha256": "19efa5290e4cc7f947a96952de0d9e2f47be60f9970b7968e0c0b0a9d11f96c6"
+          },
+          {
+            "path": "results/primary_pages/m77-v1-reviewerB-detail-1015.png",
+            "sha256": "826ba669fd696e9eed124c5592f4e3e9cf15d91633590882981925baabba046d"
+          },
+          {
+            "path": "results/primary_pages/m77-v1-reviewerB-detail-1016.png",
+            "sha256": "2c0c562200b8feb3bd311e5eecbb53ee08c37e5ea8e9d82ae4b90c3a1c508521"
+          },
+          {
+            "path": "results/primary_pages/m77-v1-reviewerB-detail-1017.png",
+            "sha256": "d274654a504f82eefb2af4c075ad9c0a3b2f767336b6c111bbfc10a67e937203"
+          },
+          {
+            "path": "results/primary_pages/m77-v1-reviewerB-detail-1021-U.png",
+            "sha256": "e8b4976c7c70502affaf4486e5e941c67166106993c63989b6548d245a8f222b"
+          },
+          {
+            "path": "results/primary_pages/m77-v1-reviewerB-detail-1024.png",
+            "sha256": "f83e1c63b94f2e4b67ce2bd0a5c863248ef6eeb7d33bafdbb97869832ea94ab9"
+          },
+          {
+            "path": "results/primary_pages/m77-v1-reviewerB-detail-1025.png",
+            "sha256": "ca13ba9a322f6aabf7000e4016203d544ae36785dbc4de534df863b7e6b832e5"
+          },
+          {
+            "path": "results/primary_pages/m77-v1-reviewerB-detail-1026.png",
+            "sha256": "85918ff5b4f71861d83d1baab248e9b9e1a62eb982af0ffa8fad0bdfc8ae6cbe"
+          },
+          {
+            "path": "results/primary_pages/m77-v1-reviewerB-detail-1029.png",
+            "sha256": "db6a6213793fb5a04960b7af2133476df97cb1ea57a6ffc0c8aae247260bf15e"
+          },
+          {
+            "path": "results/primary_pages/m77-v1-adjudication-signs214-218.png",
+            "sha256": "e5070f44524d086e01a1ffdc1337adc483d91a77e72e82e4fd73170b7289964a"
+          },
+          {
+            "path": "results/primary_pages/m77-v1-adjudication-signs220-224.png",
+            "sha256": "c98a6261f5d300cb9081f7243760b2dbcf9ba7b27dfc78eddcab96117d89cac3"
+          },
+          {
+            "path": "results/primary_pages/m77-v1-adjudication-1027-dispute.png",
+            "sha256": "472248dbfa13bd31404193a83e69f21d7e62635f20e7496768f055f301fe6af2"
+          }
+        ]
+      }
+    },
+    {
+      "source_pdf_page": 50,
+      "key": [
+        "1015",
+        "0",
+        "0"
+      ],
+      "fields": {
+        "tokens": {
+          "A": [
+            "M197",
+            "M028",
+            "M054"
+          ],
+          "B": [
+            "M197",
+            "M028",
+            "M055"
+          ]
+        },
+        "segments": {
+          "A": [
+            {
+              "kind": "identified_sign",
+              "maximum_signs": 1,
+              "minimum_signs": 1,
+              "position_from_right": 1,
+              "sign": "M197",
+              "source_doubt": false
+            },
+            {
+              "kind": "identified_sign",
+              "maximum_signs": 1,
+              "minimum_signs": 1,
+              "position_from_right": 2,
+              "sign": "M028",
+              "source_doubt": false
+            },
+            {
+              "kind": "identified_sign",
+              "maximum_signs": 1,
+              "minimum_signs": 1,
+              "position_from_right": 3,
+              "sign": "M054",
+              "source_doubt": false
+            }
+          ],
+          "B": [
+            {
+              "position_from_right": 1,
+              "kind": "identified_sign",
+              "sign": "M197",
+              "source_doubt": false,
+              "reviewer_uncertainty": false,
+              "candidate_signs": []
+            },
+            {
+              "position_from_right": 2,
+              "kind": "identified_sign",
+              "sign": "M028",
+              "source_doubt": false,
+              "reviewer_uncertainty": false,
+              "candidate_signs": []
+            },
+            {
+              "position_from_right": 3,
+              "kind": "identified_sign",
+              "sign": "M055",
+              "source_doubt": false,
+              "reviewer_uncertainty": false,
+              "candidate_signs": []
+            }
+          ]
+        }
+      },
+      "adjudicated": true,
+      "decision": {
+        "source_pdf_page": 50,
+        "key": [
+          "1015",
+          "0",
+          "0"
+        ],
+        "resolution": "A",
+        "reason": "The glyph has an empty central oval as M054; M055 has an extra interior short vertical. Primary crop compared with both sign-list forms and the marked interior in1003. B follow-up agrees.",
+        "source_pins": [
+          {
+            "path": "data/raw/mahadevan_1977_text.pdf",
+            "sha256": "6dcdd074a0174e5fab149590fbbf82342711d345764e9763f8e5e92c81cf7f99"
+          },
+          {
+            "path": "results/primary_pages/texts-050.png",
+            "sha256": "a78ab810777334783148b605932fceac6cf0144fd6faab6f8581f9967409e781"
+          },
+          {
+            "path": "results/primary_pages/sign_list_page_32.png",
+            "sha256": "1e3f91789c947add7ce796479168d84d69636ebdc378493743188ac11c53c90a"
+          },
+          {
+            "path": "results/primary_pages/sign_list-044.png",
+            "sha256": "33eff554bfdea81af6d1a3510a5b2541d1b74b02ae1e63b253c725b44c7c0b64"
+          },
+          {
+            "path": "results/primary_pages/sign_list-045.png",
+            "sha256": "972002b288ea77921dcacfe67386dbf585b76be6bca5444b7ff9422e47e70b89"
+          },
+          {
+            "path": "results/primary_pages/sign_list-046.png",
+            "sha256": "a191e9297a6ab8b7cad1028eaeac062b4b6fa3cd34aefbdd507f669d736d2e8e"
+          },
+          {
+            "path": "data/processed/m77_codebook_review.json",
+            "sha256": "2d88405d6ce077afbd670fb11800fbb717dff03e98581b4a2c19f10b60ee9ea8"
+          },
+          {
+            "path": "results/primary_pages/m77-v1-reviewerB-detail-1006-Y.png",
+            "sha256": "91e2b282ab0acf74dd5b3eeeb48f2ceb1aea1e66f19a4f1ba28040223b6ac9f6"
+          },
+          {
+            "path": "results/primary_pages/m77-v1-reviewerB-detail-1011.png",
+            "sha256": "19efa5290e4cc7f947a96952de0d9e2f47be60f9970b7968e0c0b0a9d11f96c6"
+          },
+          {
+            "path": "results/primary_pages/m77-v1-reviewerB-detail-1015.png",
+            "sha256": "826ba669fd696e9eed124c5592f4e3e9cf15d91633590882981925baabba046d"
+          },
+          {
+            "path": "results/primary_pages/m77-v1-reviewerB-detail-1016.png",
+            "sha256": "2c0c562200b8feb3bd311e5eecbb53ee08c37e5ea8e9d82ae4b90c3a1c508521"
+          },
+          {
+            "path": "results/primary_pages/m77-v1-reviewerB-detail-1017.png",
+            "sha256": "d274654a504f82eefb2af4c075ad9c0a3b2f767336b6c111bbfc10a67e937203"
+          },
+          {
+            "path": "results/primary_pages/m77-v1-reviewerB-detail-1021-U.png",
+            "sha256": "e8b4976c7c70502affaf4486e5e941c67166106993c63989b6548d245a8f222b"
+          },
+          {
+            "path": "results/primary_pages/m77-v1-reviewerB-detail-1024.png",
+            "sha256": "f83e1c63b94f2e4b67ce2bd0a5c863248ef6eeb7d33bafdbb97869832ea94ab9"
+          },
+          {
+            "path": "results/primary_pages/m77-v1-reviewerB-detail-1025.png",
+            "sha256": "ca13ba9a322f6aabf7000e4016203d544ae36785dbc4de534df863b7e6b832e5"
+          },
+          {
+            "path": "results/primary_pages/m77-v1-reviewerB-detail-1026.png",
+            "sha256": "85918ff5b4f71861d83d1baab248e9b9e1a62eb982af0ffa8fad0bdfc8ae6cbe"
+          },
+          {
+            "path": "results/primary_pages/m77-v1-reviewerB-detail-1029.png",
+            "sha256": "db6a6213793fb5a04960b7af2133476df97cb1ea57a6ffc0c8aae247260bf15e"
+          },
+          {
+            "path": "results/primary_pages/m77-v1-adjudication-signs214-218.png",
+            "sha256": "e5070f44524d086e01a1ffdc1337adc483d91a77e72e82e4fd73170b7289964a"
+          },
+          {
+            "path": "results/primary_pages/m77-v1-adjudication-signs220-224.png",
+            "sha256": "c98a6261f5d300cb9081f7243760b2dbcf9ba7b27dfc78eddcab96117d89cac3"
+          },
+          {
+            "path": "results/primary_pages/m77-v1-adjudication-1027-dispute.png",
+            "sha256": "472248dbfa13bd31404193a83e69f21d7e62635f20e7496768f055f301fe6af2"
+          }
+        ]
+      }
+    },
+    {
+      "source_pdf_page": 50,
+      "key": [
+        "1016",
+        "0",
+        "1"
+      ],
+      "fields": {
+        "tokens": {
+          "A": [
+            "M245",
+            "M245",
+            "M345",
+            "M065",
+            "M158",
+            "*M169"
+          ],
+          "B": [
+            "M245",
+            "M245",
+            "M345",
+            "M065",
+            "M158",
+            "*M161"
+          ]
+        },
+        "segments": {
+          "A": [
+            {
+              "kind": "identified_sign",
+              "maximum_signs": 1,
+              "minimum_signs": 1,
+              "position_from_right": 1,
+              "sign": "M245",
+              "source_doubt": false
+            },
+            {
+              "kind": "identified_sign",
+              "maximum_signs": 1,
+              "minimum_signs": 1,
+              "position_from_right": 2,
+              "sign": "M245",
+              "source_doubt": false
+            },
+            {
+              "kind": "identified_sign",
+              "maximum_signs": 1,
+              "minimum_signs": 1,
+              "position_from_right": 3,
+              "sign": "M345",
+              "source_doubt": false
+            },
+            {
+              "kind": "identified_sign",
+              "maximum_signs": 1,
+              "minimum_signs": 1,
+              "position_from_right": 4,
+              "sign": "M065",
+              "source_doubt": false
+            },
+            {
+              "kind": "identified_sign",
+              "maximum_signs": 1,
+              "minimum_signs": 1,
+              "position_from_right": 5,
+              "sign": "M158",
+              "source_doubt": false
+            },
+            {
+              "kind": "identified_sign",
+              "maximum_signs": 1,
+              "minimum_signs": 1,
+              "position_from_right": 6,
+              "sign": "M169",
+              "source_doubt": true
+            }
+          ],
+          "B": [
+            {
+              "position_from_right": 1,
+              "kind": "identified_sign",
+              "sign": "M245",
+              "source_doubt": false,
+              "reviewer_uncertainty": false,
+              "candidate_signs": []
+            },
+            {
+              "position_from_right": 2,
+              "kind": "identified_sign",
+              "sign": "M245",
+              "source_doubt": false,
+              "reviewer_uncertainty": false,
+              "candidate_signs": []
+            },
+            {
+              "position_from_right": 3,
+              "kind": "identified_sign",
+              "sign": "M345",
+              "source_doubt": false,
+              "reviewer_uncertainty": false,
+              "candidate_signs": []
+            },
+            {
+              "position_from_right": 4,
+              "kind": "identified_sign",
+              "sign": "M065",
+              "source_doubt": false,
+              "reviewer_uncertainty": false,
+              "candidate_signs": []
+            },
+            {
+              "position_from_right": 5,
+              "kind": "identified_sign",
+              "sign": "M158",
+              "source_doubt": false,
+              "reviewer_uncertainty": false,
+              "candidate_signs": []
+            },
+            {
+              "position_from_right": 6,
+              "kind": "identified_sign",
+              "sign": "M161",
+              "source_doubt": true,
+              "reviewer_uncertainty": false,
+              "candidate_signs": []
+            }
+          ]
+        }
+      },
+      "adjudicated": true,
+      "decision": {
+        "source_pdf_page": 50,
+        "key": [
+          "1016",
+          "0",
+          "1"
+        ],
+        "resolution": "A",
+        "reason": "Crown has multiple uprights compatible with M169, not plain M161; retain printed asterisk independently from reviewer confidence.",
+        "source_pins": [
+          {
+            "path": "data/raw/mahadevan_1977_text.pdf",
+            "sha256": "6dcdd074a0174e5fab149590fbbf82342711d345764e9763f8e5e92c81cf7f99"
+          },
+          {
+            "path": "results/primary_pages/texts-050.png",
+            "sha256": "a78ab810777334783148b605932fceac6cf0144fd6faab6f8581f9967409e781"
+          },
+          {
+            "path": "results/primary_pages/sign_list_page_32.png",
+            "sha256": "1e3f91789c947add7ce796479168d84d69636ebdc378493743188ac11c53c90a"
+          },
+          {
+            "path": "results/primary_pages/sign_list-044.png",
+            "sha256": "33eff554bfdea81af6d1a3510a5b2541d1b74b02ae1e63b253c725b44c7c0b64"
+          },
+          {
+            "path": "results/primary_pages/sign_list-045.png",
+            "sha256": "972002b288ea77921dcacfe67386dbf585b76be6bca5444b7ff9422e47e70b89"
+          },
+          {
+            "path": "results/primary_pages/sign_list-046.png",
+            "sha256": "a191e9297a6ab8b7cad1028eaeac062b4b6fa3cd34aefbdd507f669d736d2e8e"
+          },
+          {
+            "path": "data/processed/m77_codebook_review.json",
+            "sha256": "2d88405d6ce077afbd670fb11800fbb717dff03e98581b4a2c19f10b60ee9ea8"
+          },
+          {
+            "path": "results/primary_pages/m77-v1-reviewerB-detail-1006-Y.png",
+            "sha256": "91e2b282ab0acf74dd5b3eeeb48f2ceb1aea1e66f19a4f1ba28040223b6ac9f6"
+          },
+          {
+            "path": "results/primary_pages/m77-v1-reviewerB-detail-1011.png",
+            "sha256": "19efa5290e4cc7f947a96952de0d9e2f47be60f9970b7968e0c0b0a9d11f96c6"
+          },
+          {
+            "path": "results/primary_pages/m77-v1-reviewerB-detail-1015.png",
+            "sha256": "826ba669fd696e9eed124c5592f4e3e9cf15d91633590882981925baabba046d"
+          },
+          {
+            "path": "results/primary_pages/m77-v1-reviewerB-detail-1016.png",
+            "sha256": "2c0c562200b8feb3bd311e5eecbb53ee08c37e5ea8e9d82ae4b90c3a1c508521"
+          },
+          {
+            "path": "results/primary_pages/m77-v1-reviewerB-detail-1017.png",
+            "sha256": "d274654a504f82eefb2af4c075ad9c0a3b2f767336b6c111bbfc10a67e937203"
+          },
+          {
+            "path": "results/primary_pages/m77-v1-reviewerB-detail-1021-U.png",
+            "sha256": "e8b4976c7c70502affaf4486e5e941c67166106993c63989b6548d245a8f222b"
+          },
+          {
+            "path": "results/primary_pages/m77-v1-reviewerB-detail-1024.png",
+            "sha256": "f83e1c63b94f2e4b67ce2bd0a5c863248ef6eeb7d33bafdbb97869832ea94ab9"
+          },
+          {
+            "path": "results/primary_pages/m77-v1-reviewerB-detail-1025.png",
+            "sha256": "ca13ba9a322f6aabf7000e4016203d544ae36785dbc4de534df863b7e6b832e5"
+          },
+          {
+            "path": "results/primary_pages/m77-v1-reviewerB-detail-1026.png",
+            "sha256": "85918ff5b4f71861d83d1baab248e9b9e1a62eb982af0ffa8fad0bdfc8ae6cbe"
+          },
+          {
+            "path": "results/primary_pages/m77-v1-reviewerB-detail-1029.png",
+            "sha256": "db6a6213793fb5a04960b7af2133476df97cb1ea57a6ffc0c8aae247260bf15e"
+          },
+          {
+            "path": "results/primary_pages/m77-v1-adjudication-signs214-218.png",
+            "sha256": "e5070f44524d086e01a1ffdc1337adc483d91a77e72e82e4fd73170b7289964a"
+          },
+          {
+            "path": "results/primary_pages/m77-v1-adjudication-signs220-224.png",
+            "sha256": "c98a6261f5d300cb9081f7243760b2dbcf9ba7b27dfc78eddcab96117d89cac3"
+          },
+          {
+            "path": "results/primary_pages/m77-v1-adjudication-1027-dispute.png",
+            "sha256": "472248dbfa13bd31404193a83e69f21d7e62635f20e7496768f055f301fe6af2"
+          }
+        ]
+      }
+    },
+    {
+      "source_pdf_page": 50,
+      "key": [
+        "1017",
+        "0",
+        "0"
+      ],
+      "fields": {
+        "tokens": {
+          "A": [
+            "M221",
+            "M127",
+            "M345",
+            "M053",
+            "M171",
+            "M059",
+            "*M397",
+            "LOSS"
+          ],
+          "B": [
+            "M221",
+            "M127",
+            "M344",
+            "M053",
+            "M171",
+            "M059",
+            "*M397",
+            "LOSS"
+          ]
+        },
+        "segments": {
+          "A": [
+            {
+              "kind": "identified_sign",
+              "maximum_signs": 1,
+              "minimum_signs": 1,
+              "position_from_right": 1,
+              "sign": "M221",
+              "source_doubt": false
+            },
+            {
+              "kind": "identified_sign",
+              "maximum_signs": 1,
+              "minimum_signs": 1,
+              "position_from_right": 2,
+              "sign": "M127",
+              "source_doubt": false
+            },
+            {
+              "kind": "identified_sign",
+              "maximum_signs": 1,
+              "minimum_signs": 1,
+              "position_from_right": 3,
+              "sign": "M345",
+              "source_doubt": false
+            },
+            {
+              "kind": "identified_sign",
+              "maximum_signs": 1,
+              "minimum_signs": 1,
+              "position_from_right": 4,
+              "sign": "M053",
+              "source_doubt": false
+            },
+            {
+              "kind": "identified_sign",
+              "maximum_signs": 1,
+              "minimum_signs": 1,
+              "position_from_right": 5,
+              "sign": "M171",
+              "source_doubt": false
+            },
+            {
+              "kind": "identified_sign",
+              "maximum_signs": 1,
+              "minimum_signs": 1,
+              "position_from_right": 6,
+              "sign": "M059",
+              "source_doubt": false
+            },
+            {
+              "kind": "identified_sign",
+              "maximum_signs": 1,
+              "minimum_signs": 1,
+              "position_from_right": 7,
+              "sign": "M397",
+              "source_doubt": true
+            },
+            {
+              "kind": "unknown_length_loss",
+              "maximum_signs": null,
+              "minimum_signs": 1,
+              "position_from_right": 8,
+              "sign": null,
+              "source_doubt": false
+            }
+          ],
+          "B": [
+            {
+              "position_from_right": 1,
+              "kind": "identified_sign",
+              "sign": "M221",
+              "source_doubt": false,
+              "reviewer_uncertainty": false,
+              "candidate_signs": []
+            },
+            {
+              "position_from_right": 2,
+              "kind": "identified_sign",
+              "sign": "M127",
+              "source_doubt": false,
+              "reviewer_uncertainty": false,
+              "candidate_signs": []
+            },
+            {
+              "position_from_right": 3,
+              "kind": "identified_sign",
+              "sign": "M344",
+              "source_doubt": false,
+              "reviewer_uncertainty": false,
+              "candidate_signs": []
+            },
+            {
+              "position_from_right": 4,
+              "kind": "identified_sign",
+              "sign": "M053",
+              "source_doubt": false,
+              "reviewer_uncertainty": false,
+              "candidate_signs": []
+            },
+            {
+              "position_from_right": 5,
+              "kind": "identified_sign",
+              "sign": "M171",
+              "source_doubt": false,
+              "reviewer_uncertainty": false,
+              "candidate_signs": []
+            },
+            {
+              "position_from_right": 6,
+              "kind": "identified_sign",
+              "sign": "M059",
+              "source_doubt": false,
+              "reviewer_uncertainty": false,
+              "candidate_signs": []
+            },
+            {
+              "position_from_right": 7,
+              "kind": "identified_sign",
+              "sign": "M397",
+              "source_doubt": true,
+              "reviewer_uncertainty": false,
+              "candidate_signs": []
+            },
+            {
+              "position_from_right": 8,
+              "kind": "unknown_length_loss",
+              "sign": null,
+              "source_doubt": false,
+              "minimum_signs": 1,
+              "maximum_signs": null
+            }
+          ]
+        }
+      },
+      "adjudicated": true,
+      "decision": {
+        "source_pdf_page": 50,
+        "key": [
+          "1017",
+          "0",
+          "0"
+        ],
+        "resolution": "A",
+        "reason": "Three separate short internal vertical strokes are visible between the outer terminals, matching M345, not two-stroke M344. Source image, not export, is the adjudication evidence.",
+        "source_pins": [
+          {
+            "path": "data/raw/mahadevan_1977_text.pdf",
+            "sha256": "6dcdd074a0174e5fab149590fbbf82342711d345764e9763f8e5e92c81cf7f99"
+          },
+          {
+            "path": "results/primary_pages/texts-050.png",
+            "sha256": "a78ab810777334783148b605932fceac6cf0144fd6faab6f8581f9967409e781"
+          },
+          {
+            "path": "results/primary_pages/sign_list_page_32.png",
+            "sha256": "1e3f91789c947add7ce796479168d84d69636ebdc378493743188ac11c53c90a"
+          },
+          {
+            "path": "results/primary_pages/sign_list-044.png",
+            "sha256": "33eff554bfdea81af6d1a3510a5b2541d1b74b02ae1e63b253c725b44c7c0b64"
+          },
+          {
+            "path": "results/primary_pages/sign_list-045.png",
+            "sha256": "972002b288ea77921dcacfe67386dbf585b76be6bca5444b7ff9422e47e70b89"
+          },
+          {
+            "path": "results/primary_pages/sign_list-046.png",
+            "sha256": "a191e9297a6ab8b7cad1028eaeac062b4b6fa3cd34aefbdd507f669d736d2e8e"
+          },
+          {
+            "path": "data/processed/m77_codebook_review.json",
+            "sha256": "2d88405d6ce077afbd670fb11800fbb717dff03e98581b4a2c19f10b60ee9ea8"
+          },
+          {
+            "path": "results/primary_pages/m77-v1-reviewerB-detail-1006-Y.png",
+            "sha256": "91e2b282ab0acf74dd5b3eeeb48f2ceb1aea1e66f19a4f1ba28040223b6ac9f6"
+          },
+          {
+            "path": "results/primary_pages/m77-v1-reviewerB-detail-1011.png",
+            "sha256": "19efa5290e4cc7f947a96952de0d9e2f47be60f9970b7968e0c0b0a9d11f96c6"
+          },
+          {
+            "path": "results/primary_pages/m77-v1-reviewerB-detail-1015.png",
+            "sha256": "826ba669fd696e9eed124c5592f4e3e9cf15d91633590882981925baabba046d"
+          },
+          {
+            "path": "results/primary_pages/m77-v1-reviewerB-detail-1016.png",
+            "sha256": "2c0c562200b8feb3bd311e5eecbb53ee08c37e5ea8e9d82ae4b90c3a1c508521"
+          },
+          {
+            "path": "results/primary_pages/m77-v1-reviewerB-detail-1017.png",
+            "sha256": "d274654a504f82eefb2af4c075ad9c0a3b2f767336b6c111bbfc10a67e937203"
+          },
+          {
+            "path": "results/primary_pages/m77-v1-reviewerB-detail-1021-U.png",
+            "sha256": "e8b4976c7c70502affaf4486e5e941c67166106993c63989b6548d245a8f222b"
+          },
+          {
+            "path": "results/primary_pages/m77-v1-reviewerB-detail-1024.png",
+            "sha256": "f83e1c63b94f2e4b67ce2bd0a5c863248ef6eeb7d33bafdbb97869832ea94ab9"
+          },
+          {
+            "path": "results/primary_pages/m77-v1-reviewerB-detail-1025.png",
+            "sha256": "ca13ba9a322f6aabf7000e4016203d544ae36785dbc4de534df863b7e6b832e5"
+          },
+          {
+            "path": "results/primary_pages/m77-v1-reviewerB-detail-1026.png",
+            "sha256": "85918ff5b4f71861d83d1baab248e9b9e1a62eb982af0ffa8fad0bdfc8ae6cbe"
+          },
+          {
+            "path": "results/primary_pages/m77-v1-reviewerB-detail-1029.png",
+            "sha256": "db6a6213793fb5a04960b7af2133476df97cb1ea57a6ffc0c8aae247260bf15e"
+          },
+          {
+            "path": "results/primary_pages/m77-v1-adjudication-signs214-218.png",
+            "sha256": "e5070f44524d086e01a1ffdc1337adc483d91a77e72e82e4fd73170b7289964a"
+          },
+          {
+            "path": "results/primary_pages/m77-v1-adjudication-signs220-224.png",
+            "sha256": "c98a6261f5d300cb9081f7243760b2dbcf9ba7b27dfc78eddcab96117d89cac3"
+          },
+          {
+            "path": "results/primary_pages/m77-v1-adjudication-1027-dispute.png",
+            "sha256": "472248dbfa13bd31404193a83e69f21d7e62635f20e7496768f055f301fe6af2"
+          }
+        ]
+      }
+    },
+    {
+      "source_pdf_page": 50,
+      "key": [
+        "1021",
+        "0",
+        "0"
+      ],
+      "fields": {
+        "tokens": {
+          "A": [
+            "M293",
+            "M123",
+            "M345",
+            "M065",
+            "M067",
+            "M051",
+            "M130",
+            "M149",
+            "M342"
+          ],
+          "B": [
+            "M123",
+            "M293",
+            "M345",
+            "M065",
+            "M067",
+            "M051",
+            "M130",
+            "M149",
+            "M342"
+          ]
+        },
+        "segments": {
+          "A": [
+            {
+              "kind": "identified_sign",
+              "maximum_signs": 1,
+              "minimum_signs": 1,
+              "position_from_right": 1,
+              "sign": "M293",
+              "source_doubt": false
+            },
+            {
+              "kind": "identified_sign",
+              "maximum_signs": 1,
+              "minimum_signs": 1,
+              "position_from_right": 2,
+              "sign": "M123",
+              "source_doubt": false
+            },
+            {
+              "kind": "identified_sign",
+              "maximum_signs": 1,
+              "minimum_signs": 1,
+              "position_from_right": 3,
+              "sign": "M345",
+              "source_doubt": false
+            },
+            {
+              "kind": "identified_sign",
+              "maximum_signs": 1,
+              "minimum_signs": 1,
+              "position_from_right": 4,
+              "sign": "M065",
+              "source_doubt": false
+            },
+            {
+              "kind": "identified_sign",
+              "maximum_signs": 1,
+              "minimum_signs": 1,
+              "position_from_right": 5,
+              "sign": "M067",
+              "source_doubt": false
+            },
+            {
+              "kind": "identified_sign",
+              "maximum_signs": 1,
+              "minimum_signs": 1,
+              "position_from_right": 6,
+              "sign": "M051",
+              "source_doubt": false
+            },
+            {
+              "kind": "identified_sign",
+              "maximum_signs": 1,
+              "minimum_signs": 1,
+              "position_from_right": 7,
+              "sign": "M130",
+              "source_doubt": false
+            },
+            {
+              "kind": "identified_sign",
+              "maximum_signs": 1,
+              "minimum_signs": 1,
+              "position_from_right": 8,
+              "sign": "M149",
+              "source_doubt": false
+            },
+            {
+              "kind": "identified_sign",
+              "maximum_signs": 1,
+              "minimum_signs": 1,
+              "position_from_right": 9,
+              "sign": "M342",
+              "source_doubt": false
+            }
+          ],
+          "B": [
+            {
+              "position_from_right": 1,
+              "kind": "identified_sign",
+              "sign": "M123",
+              "source_doubt": false,
+              "reviewer_uncertainty": false,
+              "candidate_signs": []
+            },
+            {
+              "position_from_right": 2,
+              "kind": "identified_sign",
+              "sign": "M293",
+              "source_doubt": false,
+              "reviewer_uncertainty": false,
+              "candidate_signs": []
+            },
+            {
+              "position_from_right": 3,
+              "kind": "identified_sign",
+              "sign": "M345",
+              "source_doubt": false,
+              "reviewer_uncertainty": false,
+              "candidate_signs": []
+            },
+            {
+              "position_from_right": 4,
+              "kind": "identified_sign",
+              "sign": "M065",
+              "source_doubt": false,
+              "reviewer_uncertainty": false,
+              "candidate_signs": []
+            },
+            {
+              "position_from_right": 5,
+              "kind": "identified_sign",
+              "sign": "M067",
+              "source_doubt": false,
+              "reviewer_uncertainty": false,
+              "candidate_signs": []
+            },
+            {
+              "position_from_right": 6,
+              "kind": "identified_sign",
+              "sign": "M051",
+              "source_doubt": false,
+              "reviewer_uncertainty": false,
+              "candidate_signs": []
+            },
+            {
+              "position_from_right": 7,
+              "kind": "identified_sign",
+              "sign": "M130",
+              "source_doubt": false,
+              "reviewer_uncertainty": false,
+              "candidate_signs": []
+            },
+            {
+              "position_from_right": 8,
+              "kind": "identified_sign",
+              "sign": "M149",
+              "source_doubt": false,
+              "reviewer_uncertainty": false,
+              "candidate_signs": []
+            },
+            {
+              "position_from_right": 9,
+              "kind": "identified_sign",
+              "sign": "M342",
+              "source_doubt": false,
+              "reviewer_uncertainty": false,
+              "candidate_signs": []
+            }
+          ]
+        }
+      },
+      "adjudicated": true,
+      "decision": {
+        "source_pdf_page": 50,
+        "key": [
+          "1021",
+          "0",
+          "0"
+        ],
+        "resolution": "A",
+        "reason": "Rightmost curved glyph with small interior loop is M293; the short-stroke-plus-curve M123 lies to its left. Normalized right-to-left order is M293 then M123.",
+        "source_pins": [
+          {
+            "path": "data/raw/mahadevan_1977_text.pdf",
+            "sha256": "6dcdd074a0174e5fab149590fbbf82342711d345764e9763f8e5e92c81cf7f99"
+          },
+          {
+            "path": "results/primary_pages/texts-050.png",
+            "sha256": "a78ab810777334783148b605932fceac6cf0144fd6faab6f8581f9967409e781"
+          },
+          {
+            "path": "results/primary_pages/sign_list_page_32.png",
+            "sha256": "1e3f91789c947add7ce796479168d84d69636ebdc378493743188ac11c53c90a"
+          },
+          {
+            "path": "results/primary_pages/sign_list-044.png",
+            "sha256": "33eff554bfdea81af6d1a3510a5b2541d1b74b02ae1e63b253c725b44c7c0b64"
+          },
+          {
+            "path": "results/primary_pages/sign_list-045.png",
+            "sha256": "972002b288ea77921dcacfe67386dbf585b76be6bca5444b7ff9422e47e70b89"
+          },
+          {
+            "path": "results/primary_pages/sign_list-046.png",
+            "sha256": "a191e9297a6ab8b7cad1028eaeac062b4b6fa3cd34aefbdd507f669d736d2e8e"
+          },
+          {
+            "path": "data/processed/m77_codebook_review.json",
+            "sha256": "2d88405d6ce077afbd670fb11800fbb717dff03e98581b4a2c19f10b60ee9ea8"
+          },
+          {
+            "path": "results/primary_pages/m77-v1-reviewerB-detail-1006-Y.png",
+            "sha256": "91e2b282ab0acf74dd5b3eeeb48f2ceb1aea1e66f19a4f1ba28040223b6ac9f6"
+          },
+          {
+            "path": "results/primary_pages/m77-v1-reviewerB-detail-1011.png",
+            "sha256": "19efa5290e4cc7f947a96952de0d9e2f47be60f9970b7968e0c0b0a9d11f96c6"
+          },
+          {
+            "path": "results/primary_pages/m77-v1-reviewerB-detail-1015.png",
+            "sha256": "826ba669fd696e9eed124c5592f4e3e9cf15d91633590882981925baabba046d"
+          },
+          {
+            "path": "results/primary_pages/m77-v1-reviewerB-detail-1016.png",
+            "sha256": "2c0c562200b8feb3bd311e5eecbb53ee08c37e5ea8e9d82ae4b90c3a1c508521"
+          },
+          {
+            "path": "results/primary_pages/m77-v1-reviewerB-detail-1017.png",
+            "sha256": "d274654a504f82eefb2af4c075ad9c0a3b2f767336b6c111bbfc10a67e937203"
+          },
+          {
+            "path": "results/primary_pages/m77-v1-reviewerB-detail-1021-U.png",
+            "sha256": "e8b4976c7c70502affaf4486e5e941c67166106993c63989b6548d245a8f222b"
+          },
+          {
+            "path": "results/primary_pages/m77-v1-reviewerB-detail-1024.png",
+            "sha256": "f83e1c63b94f2e4b67ce2bd0a5c863248ef6eeb7d33bafdbb97869832ea94ab9"
+          },
+          {
+            "path": "results/primary_pages/m77-v1-reviewerB-detail-1025.png",
+            "sha256": "ca13ba9a322f6aabf7000e4016203d544ae36785dbc4de534df863b7e6b832e5"
+          },
+          {
+            "path": "results/primary_pages/m77-v1-reviewerB-detail-1026.png",
+            "sha256": "85918ff5b4f71861d83d1baab248e9b9e1a62eb982af0ffa8fad0bdfc8ae6cbe"
+          },
+          {
+            "path": "results/primary_pages/m77-v1-reviewerB-detail-1029.png",
+            "sha256": "db6a6213793fb5a04960b7af2133476df97cb1ea57a6ffc0c8aae247260bf15e"
+          },
+          {
+            "path": "results/primary_pages/m77-v1-adjudication-signs214-218.png",
+            "sha256": "e5070f44524d086e01a1ffdc1337adc483d91a77e72e82e4fd73170b7289964a"
+          },
+          {
+            "path": "results/primary_pages/m77-v1-adjudication-signs220-224.png",
+            "sha256": "c98a6261f5d300cb9081f7243760b2dbcf9ba7b27dfc78eddcab96117d89cac3"
+          },
+          {
+            "path": "results/primary_pages/m77-v1-adjudication-1027-dispute.png",
+            "sha256": "472248dbfa13bd31404193a83e69f21d7e62635f20e7496768f055f301fe6af2"
+          }
+        ]
+      }
+    },
+    {
+      "source_pdf_page": 50,
+      "key": [
+        "1024",
+        "0",
+        "0"
+      ],
+      "fields": {
+        "tokens": {
+          "A": [
+            "M293",
+            "M123",
+            "M343",
+            "M072",
+            "M065",
+            "M008",
+            "M342"
+          ],
+          "B": [
+            "M123",
+            "M293",
+            "M343",
+            "M072",
+            "M065",
+            "M008",
+            "M342"
+          ]
+        },
+        "segments": {
+          "A": [
+            {
+              "kind": "identified_sign",
+              "maximum_signs": 1,
+              "minimum_signs": 1,
+              "position_from_right": 1,
+              "sign": "M293",
+              "source_doubt": false
+            },
+            {
+              "kind": "identified_sign",
+              "maximum_signs": 1,
+              "minimum_signs": 1,
+              "position_from_right": 2,
+              "sign": "M123",
+              "source_doubt": false
+            },
+            {
+              "kind": "identified_sign",
+              "maximum_signs": 1,
+              "minimum_signs": 1,
+              "position_from_right": 3,
+              "sign": "M343",
+              "source_doubt": false
+            },
+            {
+              "kind": "identified_sign",
+              "maximum_signs": 1,
+              "minimum_signs": 1,
+              "position_from_right": 4,
+              "sign": "M072",
+              "source_doubt": false
+            },
+            {
+              "kind": "identified_sign",
+              "maximum_signs": 1,
+              "minimum_signs": 1,
+              "position_from_right": 5,
+              "sign": "M065",
+              "source_doubt": false
+            },
+            {
+              "kind": "identified_sign",
+              "maximum_signs": 1,
+              "minimum_signs": 1,
+              "position_from_right": 6,
+              "sign": "M008",
+              "source_doubt": false
+            },
+            {
+              "kind": "identified_sign",
+              "maximum_signs": 1,
+              "minimum_signs": 1,
+              "position_from_right": 7,
+              "sign": "M342",
+              "source_doubt": false
+            }
+          ],
+          "B": [
+            {
+              "position_from_right": 1,
+              "kind": "identified_sign",
+              "sign": "M123",
+              "source_doubt": false,
+              "reviewer_uncertainty": false,
+              "candidate_signs": []
+            },
+            {
+              "position_from_right": 2,
+              "kind": "identified_sign",
+              "sign": "M293",
+              "source_doubt": false,
+              "reviewer_uncertainty": false,
+              "candidate_signs": []
+            },
+            {
+              "position_from_right": 3,
+              "kind": "identified_sign",
+              "sign": "M343",
+              "source_doubt": false,
+              "reviewer_uncertainty": false,
+              "candidate_signs": []
+            },
+            {
+              "position_from_right": 4,
+              "kind": "identified_sign",
+              "sign": "M072",
+              "source_doubt": false,
+              "reviewer_uncertainty": false,
+              "candidate_signs": []
+            },
+            {
+              "position_from_right": 5,
+              "kind": "identified_sign",
+              "sign": "M065",
+              "source_doubt": false,
+              "reviewer_uncertainty": false,
+              "candidate_signs": []
+            },
+            {
+              "position_from_right": 6,
+              "kind": "identified_sign",
+              "sign": "M008",
+              "source_doubt": false,
+              "reviewer_uncertainty": false,
+              "candidate_signs": []
+            },
+            {
+              "position_from_right": 7,
+              "kind": "identified_sign",
+              "sign": "M342",
+              "source_doubt": false,
+              "reviewer_uncertainty": false,
+              "candidate_signs": []
+            }
+          ]
+        }
+      },
+      "adjudicated": true,
+      "decision": {
+        "source_pdf_page": 50,
+        "key": [
+          "1024",
+          "0",
+          "0"
+        ],
+        "resolution": "A",
+        "reason": "Same directly visible rightmost loop-bearing M293 followed to its left by M123; normalized right-to-left order retained.",
+        "source_pins": [
+          {
+            "path": "data/raw/mahadevan_1977_text.pdf",
+            "sha256": "6dcdd074a0174e5fab149590fbbf82342711d345764e9763f8e5e92c81cf7f99"
+          },
+          {
+            "path": "results/primary_pages/texts-050.png",
+            "sha256": "a78ab810777334783148b605932fceac6cf0144fd6faab6f8581f9967409e781"
+          },
+          {
+            "path": "results/primary_pages/sign_list_page_32.png",
+            "sha256": "1e3f91789c947add7ce796479168d84d69636ebdc378493743188ac11c53c90a"
+          },
+          {
+            "path": "results/primary_pages/sign_list-044.png",
+            "sha256": "33eff554bfdea81af6d1a3510a5b2541d1b74b02ae1e63b253c725b44c7c0b64"
+          },
+          {
+            "path": "results/primary_pages/sign_list-045.png",
+            "sha256": "972002b288ea77921dcacfe67386dbf585b76be6bca5444b7ff9422e47e70b89"
+          },
+          {
+            "path": "results/primary_pages/sign_list-046.png",
+            "sha256": "a191e9297a6ab8b7cad1028eaeac062b4b6fa3cd34aefbdd507f669d736d2e8e"
+          },
+          {
+            "path": "data/processed/m77_codebook_review.json",
+            "sha256": "2d88405d6ce077afbd670fb11800fbb717dff03e98581b4a2c19f10b60ee9ea8"
+          },
+          {
+            "path": "results/primary_pages/m77-v1-reviewerB-detail-1006-Y.png",
+            "sha256": "91e2b282ab0acf74dd5b3eeeb48f2ceb1aea1e66f19a4f1ba28040223b6ac9f6"
+          },
+          {
+            "path": "results/primary_pages/m77-v1-reviewerB-detail-1011.png",
+            "sha256": "19efa5290e4cc7f947a96952de0d9e2f47be60f9970b7968e0c0b0a9d11f96c6"
+          },
+          {
+            "path": "results/primary_pages/m77-v1-reviewerB-detail-1015.png",
+            "sha256": "826ba669fd696e9eed124c5592f4e3e9cf15d91633590882981925baabba046d"
+          },
+          {
+            "path": "results/primary_pages/m77-v1-reviewerB-detail-1016.png",
+            "sha256": "2c0c562200b8feb3bd311e5eecbb53ee08c37e5ea8e9d82ae4b90c3a1c508521"
+          },
+          {
+            "path": "results/primary_pages/m77-v1-reviewerB-detail-1017.png",
+            "sha256": "d274654a504f82eefb2af4c075ad9c0a3b2f767336b6c111bbfc10a67e937203"
+          },
+          {
+            "path": "results/primary_pages/m77-v1-reviewerB-detail-1021-U.png",
+            "sha256": "e8b4976c7c70502affaf4486e5e941c67166106993c63989b6548d245a8f222b"
+          },
+          {
+            "path": "results/primary_pages/m77-v1-reviewerB-detail-1024.png",
+            "sha256": "f83e1c63b94f2e4b67ce2bd0a5c863248ef6eeb7d33bafdbb97869832ea94ab9"
+          },
+          {
+            "path": "results/primary_pages/m77-v1-reviewerB-detail-1025.png",
+            "sha256": "ca13ba9a322f6aabf7000e4016203d544ae36785dbc4de534df863b7e6b832e5"
+          },
+          {
+            "path": "results/primary_pages/m77-v1-reviewerB-detail-1026.png",
+            "sha256": "85918ff5b4f71861d83d1baab248e9b9e1a62eb982af0ffa8fad0bdfc8ae6cbe"
+          },
+          {
+            "path": "results/primary_pages/m77-v1-reviewerB-detail-1029.png",
+            "sha256": "db6a6213793fb5a04960b7af2133476df97cb1ea57a6ffc0c8aae247260bf15e"
+          },
+          {
+            "path": "results/primary_pages/m77-v1-adjudication-signs214-218.png",
+            "sha256": "e5070f44524d086e01a1ffdc1337adc483d91a77e72e82e4fd73170b7289964a"
+          },
+          {
+            "path": "results/primary_pages/m77-v1-adjudication-signs220-224.png",
+            "sha256": "c98a6261f5d300cb9081f7243760b2dbcf9ba7b27dfc78eddcab96117d89cac3"
+          },
+          {
+            "path": "results/primary_pages/m77-v1-adjudication-1027-dispute.png",
+            "sha256": "472248dbfa13bd31404193a83e69f21d7e62635f20e7496768f055f301fe6af2"
+          }
+        ]
+      }
+    },
+    {
+      "source_pdf_page": 50,
+      "key": [
+        "1025",
+        "0",
+        "0"
+      ],
+      "fields": {
+        "tokens": {
+          "A": [
+            "M112",
+            "M169"
+          ],
+          "B": [
+            "M112",
+            "M161"
+          ]
+        },
+        "segments": {
+          "A": [
+            {
+              "kind": "identified_sign",
+              "maximum_signs": 1,
+              "minimum_signs": 1,
+              "position_from_right": 1,
+              "sign": "M112",
+              "source_doubt": false
+            },
+            {
+              "kind": "identified_sign",
+              "maximum_signs": 1,
+              "minimum_signs": 1,
+              "position_from_right": 2,
+              "sign": "M169",
+              "source_doubt": false
+            }
+          ],
+          "B": [
+            {
+              "position_from_right": 1,
+              "kind": "identified_sign",
+              "sign": "M112",
+              "source_doubt": false,
+              "reviewer_uncertainty": false,
+              "candidate_signs": []
+            },
+            {
+              "position_from_right": 2,
+              "kind": "identified_sign",
+              "sign": "M161",
+              "source_doubt": false,
+              "reviewer_uncertainty": false,
+              "candidate_signs": []
+            }
+          ]
+        }
+      },
+      "adjudicated": true,
+      "decision": {
+        "source_pdf_page": 50,
+        "key": [
+          "1025",
+          "0",
+          "0"
+        ],
+        "resolution": "A",
+        "reason": "The Y-like crown has extra short oblique uprights, matching M169; B follow-up agrees after comparison with plain M161.",
+        "source_pins": [
+          {
+            "path": "data/raw/mahadevan_1977_text.pdf",
+            "sha256": "6dcdd074a0174e5fab149590fbbf82342711d345764e9763f8e5e92c81cf7f99"
+          },
+          {
+            "path": "results/primary_pages/texts-050.png",
+            "sha256": "a78ab810777334783148b605932fceac6cf0144fd6faab6f8581f9967409e781"
+          },
+          {
+            "path": "results/primary_pages/sign_list_page_32.png",
+            "sha256": "1e3f91789c947add7ce796479168d84d69636ebdc378493743188ac11c53c90a"
+          },
+          {
+            "path": "results/primary_pages/sign_list-044.png",
+            "sha256": "33eff554bfdea81af6d1a3510a5b2541d1b74b02ae1e63b253c725b44c7c0b64"
+          },
+          {
+            "path": "results/primary_pages/sign_list-045.png",
+            "sha256": "972002b288ea77921dcacfe67386dbf585b76be6bca5444b7ff9422e47e70b89"
+          },
+          {
+            "path": "results/primary_pages/sign_list-046.png",
+            "sha256": "a191e9297a6ab8b7cad1028eaeac062b4b6fa3cd34aefbdd507f669d736d2e8e"
+          },
+          {
+            "path": "data/processed/m77_codebook_review.json",
+            "sha256": "2d88405d6ce077afbd670fb11800fbb717dff03e98581b4a2c19f10b60ee9ea8"
+          },
+          {
+            "path": "results/primary_pages/m77-v1-reviewerB-detail-1006-Y.png",
+            "sha256": "91e2b282ab0acf74dd5b3eeeb48f2ceb1aea1e66f19a4f1ba28040223b6ac9f6"
+          },
+          {
+            "path": "results/primary_pages/m77-v1-reviewerB-detail-1011.png",
+            "sha256": "19efa5290e4cc7f947a96952de0d9e2f47be60f9970b7968e0c0b0a9d11f96c6"
+          },
+          {
+            "path": "results/primary_pages/m77-v1-reviewerB-detail-1015.png",
+            "sha256": "826ba669fd696e9eed124c5592f4e3e9cf15d91633590882981925baabba046d"
+          },
+          {
+            "path": "results/primary_pages/m77-v1-reviewerB-detail-1016.png",
+            "sha256": "2c0c562200b8feb3bd311e5eecbb53ee08c37e5ea8e9d82ae4b90c3a1c508521"
+          },
+          {
+            "path": "results/primary_pages/m77-v1-reviewerB-detail-1017.png",
+            "sha256": "d274654a504f82eefb2af4c075ad9c0a3b2f767336b6c111bbfc10a67e937203"
+          },
+          {
+            "path": "results/primary_pages/m77-v1-reviewerB-detail-1021-U.png",
+            "sha256": "e8b4976c7c70502affaf4486e5e941c67166106993c63989b6548d245a8f222b"
+          },
+          {
+            "path": "results/primary_pages/m77-v1-reviewerB-detail-1024.png",
+            "sha256": "f83e1c63b94f2e4b67ce2bd0a5c863248ef6eeb7d33bafdbb97869832ea94ab9"
+          },
+          {
+            "path": "results/primary_pages/m77-v1-reviewerB-detail-1025.png",
+            "sha256": "ca13ba9a322f6aabf7000e4016203d544ae36785dbc4de534df863b7e6b832e5"
+          },
+          {
+            "path": "results/primary_pages/m77-v1-reviewerB-detail-1026.png",
+            "sha256": "85918ff5b4f71861d83d1baab248e9b9e1a62eb982af0ffa8fad0bdfc8ae6cbe"
+          },
+          {
+            "path": "results/primary_pages/m77-v1-reviewerB-detail-1029.png",
+            "sha256": "db6a6213793fb5a04960b7af2133476df97cb1ea57a6ffc0c8aae247260bf15e"
+          },
+          {
+            "path": "results/primary_pages/m77-v1-adjudication-signs214-218.png",
+            "sha256": "e5070f44524d086e01a1ffdc1337adc483d91a77e72e82e4fd73170b7289964a"
+          },
+          {
+            "path": "results/primary_pages/m77-v1-adjudication-signs220-224.png",
+            "sha256": "c98a6261f5d300cb9081f7243760b2dbcf9ba7b27dfc78eddcab96117d89cac3"
+          },
+          {
+            "path": "results/primary_pages/m77-v1-adjudication-1027-dispute.png",
+            "sha256": "472248dbfa13bd31404193a83e69f21d7e62635f20e7496768f055f301fe6af2"
+          }
+        ]
+      }
+    },
+    {
+      "source_pdf_page": 50,
+      "key": [
+        "1026",
+        "0",
+        "0"
+      ],
+      "fields": {
+        "tokens": {
+          "A": [
+            "M087",
+            "M197",
+            "M087",
+            "M099",
+            "M336",
+            "M347",
+            "M342"
+          ],
+          "B": [
+            "M087",
+            "M197",
+            "M087",
+            "M099",
+            "M336",
+            "M352",
+            "M342"
+          ]
+        },
+        "segments": {
+          "A": [
+            {
+              "kind": "identified_sign",
+              "maximum_signs": 1,
+              "minimum_signs": 1,
+              "position_from_right": 1,
+              "sign": "M087",
+              "source_doubt": false
+            },
+            {
+              "kind": "identified_sign",
+              "maximum_signs": 1,
+              "minimum_signs": 1,
+              "position_from_right": 2,
+              "sign": "M197",
+              "source_doubt": false
+            },
+            {
+              "kind": "identified_sign",
+              "maximum_signs": 1,
+              "minimum_signs": 1,
+              "position_from_right": 3,
+              "sign": "M087",
+              "source_doubt": false
+            },
+            {
+              "kind": "identified_sign",
+              "maximum_signs": 1,
+              "minimum_signs": 1,
+              "position_from_right": 4,
+              "sign": "M099",
+              "source_doubt": false
+            },
+            {
+              "kind": "identified_sign",
+              "maximum_signs": 1,
+              "minimum_signs": 1,
+              "position_from_right": 5,
+              "sign": "M336",
+              "source_doubt": false
+            },
+            {
+              "kind": "identified_sign",
+              "maximum_signs": 1,
+              "minimum_signs": 1,
+              "position_from_right": 6,
+              "sign": "M347",
+              "source_doubt": false
+            },
+            {
+              "kind": "identified_sign",
+              "maximum_signs": 1,
+              "minimum_signs": 1,
+              "position_from_right": 7,
+              "sign": "M342",
+              "source_doubt": false
+            }
+          ],
+          "B": [
+            {
+              "position_from_right": 1,
+              "kind": "identified_sign",
+              "sign": "M087",
+              "source_doubt": false,
+              "reviewer_uncertainty": false,
+              "candidate_signs": []
+            },
+            {
+              "position_from_right": 2,
+              "kind": "identified_sign",
+              "sign": "M197",
+              "source_doubt": false,
+              "reviewer_uncertainty": false,
+              "candidate_signs": []
+            },
+            {
+              "position_from_right": 3,
+              "kind": "identified_sign",
+              "sign": "M087",
+              "source_doubt": false,
+              "reviewer_uncertainty": false,
+              "candidate_signs": []
+            },
+            {
+              "position_from_right": 4,
+              "kind": "identified_sign",
+              "sign": "M099",
+              "source_doubt": false,
+              "reviewer_uncertainty": false,
+              "candidate_signs": []
+            },
+            {
+              "position_from_right": 5,
+              "kind": "identified_sign",
+              "sign": "M336",
+              "source_doubt": false,
+              "reviewer_uncertainty": false,
+              "candidate_signs": []
+            },
+            {
+              "position_from_right": 6,
+              "kind": "identified_sign",
+              "sign": "M352",
+              "source_doubt": false,
+              "reviewer_uncertainty": false,
+              "candidate_signs": []
+            },
+            {
+              "position_from_right": 7,
+              "kind": "identified_sign",
+              "sign": "M342",
+              "source_doubt": false,
+              "reviewer_uncertainty": false,
+              "candidate_signs": []
+            }
+          ]
+        }
+      },
+      "adjudicated": true,
+      "decision": {
+        "source_pdf_page": 50,
+        "key": [
+          "1026",
+          "0",
+          "0"
+        ],
+        "resolution": "custom",
+        "reason": "Left terminal is too blocky in the available raster to distinguish both-trident M347 from left-F/right-trident M352 securely. Retain one visible unidentified sign with these candidates. This is reviewer uncertainty, not a printed asterisk or a loss span.",
+        "source_pins": [
+          {
+            "path": "data/raw/mahadevan_1977_text.pdf",
+            "sha256": "6dcdd074a0174e5fab149590fbbf82342711d345764e9763f8e5e92c81cf7f99"
+          },
+          {
+            "path": "results/primary_pages/texts-050.png",
+            "sha256": "a78ab810777334783148b605932fceac6cf0144fd6faab6f8581f9967409e781"
+          },
+          {
+            "path": "results/primary_pages/sign_list_page_32.png",
+            "sha256": "1e3f91789c947add7ce796479168d84d69636ebdc378493743188ac11c53c90a"
+          },
+          {
+            "path": "results/primary_pages/sign_list-044.png",
+            "sha256": "33eff554bfdea81af6d1a3510a5b2541d1b74b02ae1e63b253c725b44c7c0b64"
+          },
+          {
+            "path": "results/primary_pages/sign_list-045.png",
+            "sha256": "972002b288ea77921dcacfe67386dbf585b76be6bca5444b7ff9422e47e70b89"
+          },
+          {
+            "path": "results/primary_pages/sign_list-046.png",
+            "sha256": "a191e9297a6ab8b7cad1028eaeac062b4b6fa3cd34aefbdd507f669d736d2e8e"
+          },
+          {
+            "path": "data/processed/m77_codebook_review.json",
+            "sha256": "2d88405d6ce077afbd670fb11800fbb717dff03e98581b4a2c19f10b60ee9ea8"
+          },
+          {
+            "path": "results/primary_pages/m77-v1-reviewerB-detail-1006-Y.png",
+            "sha256": "91e2b282ab0acf74dd5b3eeeb48f2ceb1aea1e66f19a4f1ba28040223b6ac9f6"
+          },
+          {
+            "path": "results/primary_pages/m77-v1-reviewerB-detail-1011.png",
+            "sha256": "19efa5290e4cc7f947a96952de0d9e2f47be60f9970b7968e0c0b0a9d11f96c6"
+          },
+          {
+            "path": "results/primary_pages/m77-v1-reviewerB-detail-1015.png",
+            "sha256": "826ba669fd696e9eed124c5592f4e3e9cf15d91633590882981925baabba046d"
+          },
+          {
+            "path": "results/primary_pages/m77-v1-reviewerB-detail-1016.png",
+            "sha256": "2c0c562200b8feb3bd311e5eecbb53ee08c37e5ea8e9d82ae4b90c3a1c508521"
+          },
+          {
+            "path": "results/primary_pages/m77-v1-reviewerB-detail-1017.png",
+            "sha256": "d274654a504f82eefb2af4c075ad9c0a3b2f767336b6c111bbfc10a67e937203"
+          },
+          {
+            "path": "results/primary_pages/m77-v1-reviewerB-detail-1021-U.png",
+            "sha256": "e8b4976c7c70502affaf4486e5e941c67166106993c63989b6548d245a8f222b"
+          },
+          {
+            "path": "results/primary_pages/m77-v1-reviewerB-detail-1024.png",
+            "sha256": "f83e1c63b94f2e4b67ce2bd0a5c863248ef6eeb7d33bafdbb97869832ea94ab9"
+          },
+          {
+            "path": "results/primary_pages/m77-v1-reviewerB-detail-1025.png",
+            "sha256": "ca13ba9a322f6aabf7000e4016203d544ae36785dbc4de534df863b7e6b832e5"
+          },
+          {
+            "path": "results/primary_pages/m77-v1-reviewerB-detail-1026.png",
+            "sha256": "85918ff5b4f71861d83d1baab248e9b9e1a62eb982af0ffa8fad0bdfc8ae6cbe"
+          },
+          {
+            "path": "results/primary_pages/m77-v1-reviewerB-detail-1029.png",
+            "sha256": "db6a6213793fb5a04960b7af2133476df97cb1ea57a6ffc0c8aae247260bf15e"
+          },
+          {
+            "path": "results/primary_pages/m77-v1-adjudication-signs214-218.png",
+            "sha256": "e5070f44524d086e01a1ffdc1337adc483d91a77e72e82e4fd73170b7289964a"
+          },
+          {
+            "path": "results/primary_pages/m77-v1-adjudication-signs220-224.png",
+            "sha256": "c98a6261f5d300cb9081f7243760b2dbcf9ba7b27dfc78eddcab96117d89cac3"
+          },
+          {
+            "path": "results/primary_pages/m77-v1-adjudication-1027-dispute.png",
+            "sha256": "472248dbfa13bd31404193a83e69f21d7e62635f20e7496768f055f301fe6af2"
+          }
+        ],
+        "row": {
+          "direction_code": "1",
+          "expanded_metadata_code": "100101",
+          "field_symbol_code": "01",
+          "inherited_from_row": null,
+          "line": "0",
+          "line_bbox_render_pixels": [
+            260,
+            1985,
+            1450,
+            2049
+          ],
+          "normalized_order": "right_to_left",
+          "notes": [],
+          "object_type_code": "1",
+          "printed_metadata_literal": "100101",
+          "printed_row_index": 29,
+          "record_kind": "text_line",
+          "reference": "1026",
+          "segments": [
+            {
+              "kind": "identified_sign",
+              "maximum_signs": 1,
+              "minimum_signs": 1,
+              "position_from_right": 1,
+              "sign": "M087",
+              "source_doubt": false
+            },
+            {
+              "kind": "identified_sign",
+              "maximum_signs": 1,
+              "minimum_signs": 1,
+              "position_from_right": 2,
+              "sign": "M197",
+              "source_doubt": false
+            },
+            {
+              "kind": "identified_sign",
+              "maximum_signs": 1,
+              "minimum_signs": 1,
+              "position_from_right": 3,
+              "sign": "M087",
+              "source_doubt": false
+            },
+            {
+              "kind": "identified_sign",
+              "maximum_signs": 1,
+              "minimum_signs": 1,
+              "position_from_right": 4,
+              "sign": "M099",
+              "source_doubt": false
+            },
+            {
+              "kind": "identified_sign",
+              "maximum_signs": 1,
+              "minimum_signs": 1,
+              "position_from_right": 5,
+              "sign": "M336",
+              "source_doubt": false
+            },
+            {
+              "position_from_right": 6,
+              "kind": "unidentified_visible_sign",
+              "sign": null,
+              "source_doubt": false,
+              "minimum_signs": 1,
+              "maximum_signs": 1,
+              "candidate_signs": [
+                "M347",
+                "M352"
+              ],
+              "reviewer_uncertainty": true
+            },
+            {
+              "kind": "identified_sign",
+              "maximum_signs": 1,
+              "minimum_signs": 1,
+              "position_from_right": 7,
+              "sign": "M342",
+              "source_doubt": false
+            }
+          ],
+          "side": "0",
+          "tokens": [
+            "M087",
+            "M197",
+            "M087",
+            "M099",
+            "M336",
+            "UNKNOWN",
+            "M342"
+          ]
+        }
+      }
+    },
+    {
+      "source_pdf_page": 50,
+      "key": [
+        "1027",
+        "0",
+        "0"
+      ],
+      "fields": {
+        "tokens": {
+          "A": [
+            "LOSS",
+            "*M216",
+            "*M123",
+            "M051",
+            "M130",
+            "M342",
+            "M048",
+            "M342"
+          ],
+          "B": [
+            "LOSS",
+            "*M222",
+            "*M123",
+            "M051",
+            "M130",
+            "M342",
+            "M048",
+            "M342"
+          ]
+        },
+        "segments": {
+          "A": [
+            {
+              "kind": "unknown_length_loss",
+              "maximum_signs": null,
+              "minimum_signs": 1,
+              "position_from_right": 1,
+              "sign": null,
+              "source_doubt": false
+            },
+            {
+              "kind": "identified_sign",
+              "maximum_signs": 1,
+              "minimum_signs": 1,
+              "position_from_right": 2,
+              "sign": "M216",
+              "source_doubt": true
+            },
+            {
+              "kind": "identified_sign",
+              "maximum_signs": 1,
+              "minimum_signs": 1,
+              "position_from_right": 3,
+              "sign": "M123",
+              "source_doubt": true
+            },
+            {
+              "kind": "identified_sign",
+              "maximum_signs": 1,
+              "minimum_signs": 1,
+              "position_from_right": 4,
+              "sign": "M051",
+              "source_doubt": false
+            },
+            {
+              "kind": "identified_sign",
+              "maximum_signs": 1,
+              "minimum_signs": 1,
+              "position_from_right": 5,
+              "sign": "M130",
+              "source_doubt": false
+            },
+            {
+              "kind": "identified_sign",
+              "maximum_signs": 1,
+              "minimum_signs": 1,
+              "position_from_right": 6,
+              "sign": "M342",
+              "source_doubt": false
+            },
+            {
+              "kind": "identified_sign",
+              "maximum_signs": 1,
+              "minimum_signs": 1,
+              "position_from_right": 7,
+              "sign": "M048",
+              "source_doubt": false
+            },
+            {
+              "kind": "identified_sign",
+              "maximum_signs": 1,
+              "minimum_signs": 1,
+              "position_from_right": 8,
+              "sign": "M342",
+              "source_doubt": false
+            }
+          ],
+          "B": [
+            {
+              "position_from_right": 1,
+              "kind": "unknown_length_loss",
+              "sign": null,
+              "source_doubt": false,
+              "minimum_signs": 1,
+              "maximum_signs": null
+            },
+            {
+              "position_from_right": 2,
+              "kind": "identified_sign",
+              "sign": "M222",
+              "source_doubt": true,
+              "reviewer_uncertainty": false,
+              "candidate_signs": []
+            },
+            {
+              "position_from_right": 3,
+              "kind": "identified_sign",
+              "sign": "M123",
+              "source_doubt": true,
+              "reviewer_uncertainty": false,
+              "candidate_signs": []
+            },
+            {
+              "position_from_right": 4,
+              "kind": "identified_sign",
+              "sign": "M051",
+              "source_doubt": false,
+              "reviewer_uncertainty": false,
+              "candidate_signs": []
+            },
+            {
+              "position_from_right": 5,
+              "kind": "identified_sign",
+              "sign": "M130",
+              "source_doubt": false,
+              "reviewer_uncertainty": false,
+              "candidate_signs": []
+            },
+            {
+              "position_from_right": 6,
+              "kind": "identified_sign",
+              "sign": "M342",
+              "source_doubt": false,
+              "reviewer_uncertainty": false,
+              "candidate_signs": []
+            },
+            {
+              "position_from_right": 7,
+              "kind": "identified_sign",
+              "sign": "M048",
+              "source_doubt": false,
+              "reviewer_uncertainty": false,
+              "candidate_signs": []
+            },
+            {
+              "position_from_right": 8,
+              "kind": "identified_sign",
+              "sign": "M342",
+              "source_doubt": false,
+              "reviewer_uncertainty": false,
+              "candidate_signs": []
+            }
+          ]
+        }
+      },
+      "adjudicated": true,
+      "decision": {
+        "source_pdf_page": 50,
+        "key": [
+          "1027",
+          "0",
+          "0"
+        ],
+        "resolution": "A",
+        "reason": "Primary crop shows no extra short lower-left offshoot on the right arm. That offshoot distinguishes M222 in the primary sign list; printed form fits M216. Retain printed asterisk: identifying the source transcription does not remove its source doubt.",
+        "source_pins": [
+          {
+            "path": "data/raw/mahadevan_1977_text.pdf",
+            "sha256": "6dcdd074a0174e5fab149590fbbf82342711d345764e9763f8e5e92c81cf7f99"
+          },
+          {
+            "path": "results/primary_pages/texts-050.png",
+            "sha256": "a78ab810777334783148b605932fceac6cf0144fd6faab6f8581f9967409e781"
+          },
+          {
+            "path": "results/primary_pages/sign_list_page_32.png",
+            "sha256": "1e3f91789c947add7ce796479168d84d69636ebdc378493743188ac11c53c90a"
+          },
+          {
+            "path": "results/primary_pages/sign_list-044.png",
+            "sha256": "33eff554bfdea81af6d1a3510a5b2541d1b74b02ae1e63b253c725b44c7c0b64"
+          },
+          {
+            "path": "results/primary_pages/sign_list-045.png",
+            "sha256": "972002b288ea77921dcacfe67386dbf585b76be6bca5444b7ff9422e47e70b89"
+          },
+          {
+            "path": "results/primary_pages/sign_list-046.png",
+            "sha256": "a191e9297a6ab8b7cad1028eaeac062b4b6fa3cd34aefbdd507f669d736d2e8e"
+          },
+          {
+            "path": "data/processed/m77_codebook_review.json",
+            "sha256": "2d88405d6ce077afbd670fb11800fbb717dff03e98581b4a2c19f10b60ee9ea8"
+          },
+          {
+            "path": "results/primary_pages/m77-v1-reviewerB-detail-1006-Y.png",
+            "sha256": "91e2b282ab0acf74dd5b3eeeb48f2ceb1aea1e66f19a4f1ba28040223b6ac9f6"
+          },
+          {
+            "path": "results/primary_pages/m77-v1-reviewerB-detail-1011.png",
+            "sha256": "19efa5290e4cc7f947a96952de0d9e2f47be60f9970b7968e0c0b0a9d11f96c6"
+          },
+          {
+            "path": "results/primary_pages/m77-v1-reviewerB-detail-1015.png",
+            "sha256": "826ba669fd696e9eed124c5592f4e3e9cf15d91633590882981925baabba046d"
+          },
+          {
+            "path": "results/primary_pages/m77-v1-reviewerB-detail-1016.png",
+            "sha256": "2c0c562200b8feb3bd311e5eecbb53ee08c37e5ea8e9d82ae4b90c3a1c508521"
+          },
+          {
+            "path": "results/primary_pages/m77-v1-reviewerB-detail-1017.png",
+            "sha256": "d274654a504f82eefb2af4c075ad9c0a3b2f767336b6c111bbfc10a67e937203"
+          },
+          {
+            "path": "results/primary_pages/m77-v1-reviewerB-detail-1021-U.png",
+            "sha256": "e8b4976c7c70502affaf4486e5e941c67166106993c63989b6548d245a8f222b"
+          },
+          {
+            "path": "results/primary_pages/m77-v1-reviewerB-detail-1024.png",
+            "sha256": "f83e1c63b94f2e4b67ce2bd0a5c863248ef6eeb7d33bafdbb97869832ea94ab9"
+          },
+          {
+            "path": "results/primary_pages/m77-v1-reviewerB-detail-1025.png",
+            "sha256": "ca13ba9a322f6aabf7000e4016203d544ae36785dbc4de534df863b7e6b832e5"
+          },
+          {
+            "path": "results/primary_pages/m77-v1-reviewerB-detail-1026.png",
+            "sha256": "85918ff5b4f71861d83d1baab248e9b9e1a62eb982af0ffa8fad0bdfc8ae6cbe"
+          },
+          {
+            "path": "results/primary_pages/m77-v1-reviewerB-detail-1029.png",
+            "sha256": "db6a6213793fb5a04960b7af2133476df97cb1ea57a6ffc0c8aae247260bf15e"
+          },
+          {
+            "path": "results/primary_pages/m77-v1-adjudication-signs214-218.png",
+            "sha256": "e5070f44524d086e01a1ffdc1337adc483d91a77e72e82e4fd73170b7289964a"
+          },
+          {
+            "path": "results/primary_pages/m77-v1-adjudication-signs220-224.png",
+            "sha256": "c98a6261f5d300cb9081f7243760b2dbcf9ba7b27dfc78eddcab96117d89cac3"
+          },
+          {
+            "path": "results/primary_pages/m77-v1-adjudication-1027-dispute.png",
+            "sha256": "472248dbfa13bd31404193a83e69f21d7e62635f20e7496768f055f301fe6af2"
+          }
+        ]
+      }
+    },
+    {
+      "source_pdf_page": 50,
+      "key": [
+        "1029",
+        "0",
+        "0"
+      ],
+      "fields": {
+        "tokens": {
+          "A": [
+            "M293",
+            "M123",
+            "M344",
+            "M102",
+            "M402"
+          ],
+          "B": [
+            "M123",
+            "M293",
+            "M344",
+            "M102",
+            "M402"
+          ]
+        },
+        "segments": {
+          "A": [
+            {
+              "kind": "identified_sign",
+              "maximum_signs": 1,
+              "minimum_signs": 1,
+              "position_from_right": 1,
+              "sign": "M293",
+              "source_doubt": false
+            },
+            {
+              "kind": "identified_sign",
+              "maximum_signs": 1,
+              "minimum_signs": 1,
+              "position_from_right": 2,
+              "sign": "M123",
+              "source_doubt": false
+            },
+            {
+              "kind": "identified_sign",
+              "maximum_signs": 1,
+              "minimum_signs": 1,
+              "position_from_right": 3,
+              "sign": "M344",
+              "source_doubt": false
+            },
+            {
+              "kind": "identified_sign",
+              "maximum_signs": 1,
+              "minimum_signs": 1,
+              "position_from_right": 4,
+              "sign": "M102",
+              "source_doubt": false
+            },
+            {
+              "kind": "identified_sign",
+              "maximum_signs": 1,
+              "minimum_signs": 1,
+              "position_from_right": 5,
+              "sign": "M402",
+              "source_doubt": false
+            }
+          ],
+          "B": [
+            {
+              "position_from_right": 1,
+              "kind": "identified_sign",
+              "sign": "M123",
+              "source_doubt": false,
+              "reviewer_uncertainty": false,
+              "candidate_signs": []
+            },
+            {
+              "position_from_right": 2,
+              "kind": "identified_sign",
+              "sign": "M293",
+              "source_doubt": false,
+              "reviewer_uncertainty": false,
+              "candidate_signs": []
+            },
+            {
+              "position_from_right": 3,
+              "kind": "identified_sign",
+              "sign": "M344",
+              "source_doubt": false,
+              "reviewer_uncertainty": false,
+              "candidate_signs": []
+            },
+            {
+              "position_from_right": 4,
+              "kind": "identified_sign",
+              "sign": "M102",
+              "source_doubt": false,
+              "reviewer_uncertainty": false,
+              "candidate_signs": []
+            },
+            {
+              "position_from_right": 5,
+              "kind": "identified_sign",
+              "sign": "M402",
+              "source_doubt": false,
+              "reviewer_uncertainty": false,
+              "candidate_signs": []
+            }
+          ]
+        }
+      },
+      "adjudicated": true,
+      "decision": {
+        "source_pdf_page": 50,
+        "key": [
+          "1029",
+          "0",
+          "0"
+        ],
+        "resolution": "A",
+        "reason": "Rightmost loop-bearing curve M293 precedes short-stroke-plus-curve M123 in normalized right-to-left order; B had reversed these tokens.",
+        "source_pins": [
+          {
+            "path": "data/raw/mahadevan_1977_text.pdf",
+            "sha256": "6dcdd074a0174e5fab149590fbbf82342711d345764e9763f8e5e92c81cf7f99"
+          },
+          {
+            "path": "results/primary_pages/texts-050.png",
+            "sha256": "a78ab810777334783148b605932fceac6cf0144fd6faab6f8581f9967409e781"
+          },
+          {
+            "path": "results/primary_pages/sign_list_page_32.png",
+            "sha256": "1e3f91789c947add7ce796479168d84d69636ebdc378493743188ac11c53c90a"
+          },
+          {
+            "path": "results/primary_pages/sign_list-044.png",
+            "sha256": "33eff554bfdea81af6d1a3510a5b2541d1b74b02ae1e63b253c725b44c7c0b64"
+          },
+          {
+            "path": "results/primary_pages/sign_list-045.png",
+            "sha256": "972002b288ea77921dcacfe67386dbf585b76be6bca5444b7ff9422e47e70b89"
+          },
+          {
+            "path": "results/primary_pages/sign_list-046.png",
+            "sha256": "a191e9297a6ab8b7cad1028eaeac062b4b6fa3cd34aefbdd507f669d736d2e8e"
+          },
+          {
+            "path": "data/processed/m77_codebook_review.json",
+            "sha256": "2d88405d6ce077afbd670fb11800fbb717dff03e98581b4a2c19f10b60ee9ea8"
+          },
+          {
+            "path": "results/primary_pages/m77-v1-reviewerB-detail-1006-Y.png",
+            "sha256": "91e2b282ab0acf74dd5b3eeeb48f2ceb1aea1e66f19a4f1ba28040223b6ac9f6"
+          },
+          {
+            "path": "results/primary_pages/m77-v1-reviewerB-detail-1011.png",
+            "sha256": "19efa5290e4cc7f947a96952de0d9e2f47be60f9970b7968e0c0b0a9d11f96c6"
+          },
+          {
+            "path": "results/primary_pages/m77-v1-reviewerB-detail-1015.png",
+            "sha256": "826ba669fd696e9eed124c5592f4e3e9cf15d91633590882981925baabba046d"
+          },
+          {
+            "path": "results/primary_pages/m77-v1-reviewerB-detail-1016.png",
+            "sha256": "2c0c562200b8feb3bd311e5eecbb53ee08c37e5ea8e9d82ae4b90c3a1c508521"
+          },
+          {
+            "path": "results/primary_pages/m77-v1-reviewerB-detail-1017.png",
+            "sha256": "d274654a504f82eefb2af4c075ad9c0a3b2f767336b6c111bbfc10a67e937203"
+          },
+          {
+            "path": "results/primary_pages/m77-v1-reviewerB-detail-1021-U.png",
+            "sha256": "e8b4976c7c70502affaf4486e5e941c67166106993c63989b6548d245a8f222b"
+          },
+          {
+            "path": "results/primary_pages/m77-v1-reviewerB-detail-1024.png",
+            "sha256": "f83e1c63b94f2e4b67ce2bd0a5c863248ef6eeb7d33bafdbb97869832ea94ab9"
+          },
+          {
+            "path": "results/primary_pages/m77-v1-reviewerB-detail-1025.png",
+            "sha256": "ca13ba9a322f6aabf7000e4016203d544ae36785dbc4de534df863b7e6b832e5"
+          },
+          {
+            "path": "results/primary_pages/m77-v1-reviewerB-detail-1026.png",
+            "sha256": "85918ff5b4f71861d83d1baab248e9b9e1a62eb982af0ffa8fad0bdfc8ae6cbe"
+          },
+          {
+            "path": "results/primary_pages/m77-v1-reviewerB-detail-1029.png",
+            "sha256": "db6a6213793fb5a04960b7af2133476df97cb1ea57a6ffc0c8aae247260bf15e"
+          },
+          {
+            "path": "results/primary_pages/m77-v1-adjudication-signs214-218.png",
+            "sha256": "e5070f44524d086e01a1ffdc1337adc483d91a77e72e82e4fd73170b7289964a"
+          },
+          {
+            "path": "results/primary_pages/m77-v1-adjudication-signs220-224.png",
+            "sha256": "c98a6261f5d300cb9081f7243760b2dbcf9ba7b27dfc78eddcab96117d89cac3"
+          },
+          {
+            "path": "results/primary_pages/m77-v1-adjudication-1027-dispute.png",
+            "sha256": "472248dbfa13bd31404193a83e69f21d7e62635f20e7496768f055f301fe6af2"
+          }
+        ]
+      }
+    },
+    {
+      "source_pdf_page": 51,
+      "key": [
+        "1033",
+        "0",
+        "0"
+      ],
+      "fields": {
+        "tokens": {
+          "A": [
+            "M223",
+            "M149",
+            "M180",
+            "M099",
+            "M072",
+            "M219",
+            "M342"
+          ],
+          "B": [
+            "M222",
+            "M149",
+            "M180",
+            "M099",
+            "M072",
+            "M219",
+            "M342"
+          ]
+        },
+        "segments": {
+          "A": [
+            {
+              "position_from_right": 1,
+              "kind": "identified_sign",
+              "sign": "M223",
+              "source_doubt": false,
+              "minimum_signs": 1,
+              "maximum_signs": 1,
+              "reviewer_uncertainty": false,
+              "candidate_signs": []
+            },
+            {
+              "position_from_right": 2,
+              "kind": "identified_sign",
+              "sign": "M149",
+              "source_doubt": false,
+              "minimum_signs": 1,
+              "maximum_signs": 1,
+              "reviewer_uncertainty": false,
+              "candidate_signs": []
+            },
+            {
+              "position_from_right": 3,
+              "kind": "identified_sign",
+              "sign": "M180",
+              "source_doubt": false,
+              "minimum_signs": 1,
+              "maximum_signs": 1,
+              "reviewer_uncertainty": false,
+              "candidate_signs": []
+            },
+            {
+              "position_from_right": 4,
+              "kind": "identified_sign",
+              "sign": "M099",
+              "source_doubt": false,
+              "minimum_signs": 1,
+              "maximum_signs": 1,
+              "reviewer_uncertainty": false,
+              "candidate_signs": []
+            },
+            {
+              "position_from_right": 5,
+              "kind": "identified_sign",
+              "sign": "M072",
+              "source_doubt": false,
+              "minimum_signs": 1,
+              "maximum_signs": 1,
+              "reviewer_uncertainty": false,
+              "candidate_signs": []
+            },
+            {
+              "position_from_right": 6,
+              "kind": "identified_sign",
+              "sign": "M219",
+              "source_doubt": false,
+              "minimum_signs": 1,
+              "maximum_signs": 1,
+              "reviewer_uncertainty": false,
+              "candidate_signs": []
+            },
+            {
+              "position_from_right": 7,
+              "kind": "identified_sign",
+              "sign": "M342",
+              "source_doubt": false,
+              "minimum_signs": 1,
+              "maximum_signs": 1,
+              "reviewer_uncertainty": false,
+              "candidate_signs": []
+            }
+          ],
+          "B": [
+            {
+              "position_from_right": 1,
+              "kind": "identified_sign",
+              "sign": "M222",
+              "source_doubt": false,
+              "reviewer_uncertainty": false,
+              "candidate_signs": []
+            },
+            {
+              "position_from_right": 2,
+              "kind": "identified_sign",
+              "sign": "M149",
+              "source_doubt": false,
+              "reviewer_uncertainty": false,
+              "candidate_signs": []
+            },
+            {
+              "position_from_right": 3,
+              "kind": "identified_sign",
+              "sign": "M180",
+              "source_doubt": false,
+              "reviewer_uncertainty": false,
+              "candidate_signs": []
+            },
+            {
+              "position_from_right": 4,
+              "kind": "identified_sign",
+              "sign": "M099",
+              "source_doubt": false,
+              "reviewer_uncertainty": false,
+              "candidate_signs": []
+            },
+            {
+              "position_from_right": 5,
+              "kind": "identified_sign",
+              "sign": "M072",
+              "source_doubt": false,
+              "reviewer_uncertainty": false,
+              "candidate_signs": []
+            },
+            {
+              "position_from_right": 6,
+              "kind": "identified_sign",
+              "sign": "M219",
+              "source_doubt": false,
+              "reviewer_uncertainty": false,
+              "candidate_signs": []
+            },
+            {
+              "position_from_right": 7,
+              "kind": "identified_sign",
+              "sign": "M342",
+              "source_doubt": false,
+              "reviewer_uncertainty": false,
+              "candidate_signs": []
+            }
+          ]
+        }
+      },
+      "adjudicated": false
+    },
+    {
+      "source_pdf_page": 51,
+      "key": [
+        "1041",
+        "0",
+        "0"
+      ],
+      "fields": {
+        "tokens": {
+          "A": [
+            "M293",
+            "M123",
+            "M343",
+            "M102",
+            "M059",
+            "M211"
+          ],
+          "B": [
+            "M123",
+            "M293",
+            "M343",
+            "M102",
+            "M059",
+            "M211"
+          ]
+        },
+        "segments": {
+          "A": [
+            {
+              "position_from_right": 1,
+              "kind": "identified_sign",
+              "sign": "M293",
+              "source_doubt": false,
+              "minimum_signs": 1,
+              "maximum_signs": 1,
+              "reviewer_uncertainty": false,
+              "candidate_signs": []
+            },
+            {
+              "position_from_right": 2,
+              "kind": "identified_sign",
+              "sign": "M123",
+              "source_doubt": false,
+              "minimum_signs": 1,
+              "maximum_signs": 1,
+              "reviewer_uncertainty": false,
+              "candidate_signs": []
+            },
+            {
+              "position_from_right": 3,
+              "kind": "identified_sign",
+              "sign": "M343",
+              "source_doubt": false,
+              "minimum_signs": 1,
+              "maximum_signs": 1,
+              "reviewer_uncertainty": false,
+              "candidate_signs": []
+            },
+            {
+              "position_from_right": 4,
+              "kind": "identified_sign",
+              "sign": "M102",
+              "source_doubt": false,
+              "minimum_signs": 1,
+              "maximum_signs": 1,
+              "reviewer_uncertainty": false,
+              "candidate_signs": []
+            },
+            {
+              "position_from_right": 5,
+              "kind": "identified_sign",
+              "sign": "M059",
+              "source_doubt": false,
+              "minimum_signs": 1,
+              "maximum_signs": 1,
+              "reviewer_uncertainty": false,
+              "candidate_signs": []
+            },
+            {
+              "position_from_right": 6,
+              "kind": "identified_sign",
+              "sign": "M211",
+              "source_doubt": false,
+              "minimum_signs": 1,
+              "maximum_signs": 1,
+              "reviewer_uncertainty": false,
+              "candidate_signs": []
+            }
+          ],
+          "B": [
+            {
+              "position_from_right": 1,
+              "kind": "identified_sign",
+              "sign": "M123",
+              "source_doubt": false,
+              "reviewer_uncertainty": false,
+              "candidate_signs": []
+            },
+            {
+              "position_from_right": 2,
+              "kind": "identified_sign",
+              "sign": "M293",
+              "source_doubt": false,
+              "reviewer_uncertainty": false,
+              "candidate_signs": []
+            },
+            {
+              "position_from_right": 3,
+              "kind": "identified_sign",
+              "sign": "M343",
+              "source_doubt": false,
+              "reviewer_uncertainty": false,
+              "candidate_signs": []
+            },
+            {
+              "position_from_right": 4,
+              "kind": "identified_sign",
+              "sign": "M102",
+              "source_doubt": false,
+              "reviewer_uncertainty": false,
+              "candidate_signs": []
+            },
+            {
+              "position_from_right": 5,
+              "kind": "identified_sign",
+              "sign": "M059",
+              "source_doubt": false,
+              "reviewer_uncertainty": false,
+              "candidate_signs": []
+            },
+            {
+              "position_from_right": 6,
+              "kind": "identified_sign",
+              "sign": "M211",
+              "source_doubt": false,
+              "reviewer_uncertainty": false,
+              "candidate_signs": []
+            }
+          ]
+        }
+      },
+      "adjudicated": false
+    },
+    {
+      "source_pdf_page": 51,
+      "key": [
+        "1045",
+        "0",
+        "0"
+      ],
+      "fields": {
+        "tokens": {
+          "A": [
+            "M387",
+            "M014"
+          ],
+          "B": [
+            "M387",
+            "M012"
+          ]
+        },
+        "segments": {
+          "A": [
+            {
+              "position_from_right": 1,
+              "kind": "identified_sign",
+              "sign": "M387",
+              "source_doubt": false,
+              "minimum_signs": 1,
+              "maximum_signs": 1,
+              "reviewer_uncertainty": false,
+              "candidate_signs": []
+            },
+            {
+              "position_from_right": 2,
+              "kind": "identified_sign",
+              "sign": "M014",
+              "source_doubt": false,
+              "minimum_signs": 1,
+              "maximum_signs": 1,
+              "reviewer_uncertainty": false,
+              "candidate_signs": []
+            }
+          ],
+          "B": [
+            {
+              "position_from_right": 1,
+              "kind": "identified_sign",
+              "sign": "M387",
+              "source_doubt": false,
+              "reviewer_uncertainty": false,
+              "candidate_signs": []
+            },
+            {
+              "position_from_right": 2,
+              "kind": "identified_sign",
+              "sign": "M012",
+              "source_doubt": false,
+              "reviewer_uncertainty": false,
+              "candidate_signs": []
+            }
+          ]
+        }
+      },
+      "adjudicated": false
+    },
+    {
+      "source_pdf_page": 51,
+      "key": [
+        "1047",
+        "0",
+        "0"
+      ],
+      "fields": {
+        "tokens": {
+          "A": [
+            "M054",
+            "M237",
+            "M175",
+            "M180",
+            "M099",
+            "M087",
+            "M059",
+            "M067",
+            "M216",
+            "LOSS"
+          ],
+          "B": [
+            "M055",
+            "M237",
+            "M175",
+            "M180",
+            "M099",
+            "M087",
+            "M059",
+            "M067",
+            "M222",
+            "LOSS"
+          ]
+        },
+        "segments": {
+          "A": [
+            {
+              "position_from_right": 1,
+              "kind": "identified_sign",
+              "sign": "M054",
+              "source_doubt": false,
+              "minimum_signs": 1,
+              "maximum_signs": 1,
+              "reviewer_uncertainty": false,
+              "candidate_signs": []
+            },
+            {
+              "position_from_right": 2,
+              "kind": "identified_sign",
+              "sign": "M237",
+              "source_doubt": false,
+              "minimum_signs": 1,
+              "maximum_signs": 1,
+              "reviewer_uncertainty": false,
+              "candidate_signs": []
+            },
+            {
+              "position_from_right": 3,
+              "kind": "identified_sign",
+              "sign": "M175",
+              "source_doubt": false,
+              "minimum_signs": 1,
+              "maximum_signs": 1,
+              "reviewer_uncertainty": false,
+              "candidate_signs": []
+            },
+            {
+              "position_from_right": 4,
+              "kind": "identified_sign",
+              "sign": "M180",
+              "source_doubt": false,
+              "minimum_signs": 1,
+              "maximum_signs": 1,
+              "reviewer_uncertainty": false,
+              "candidate_signs": []
+            },
+            {
+              "position_from_right": 5,
+              "kind": "identified_sign",
+              "sign": "M099",
+              "source_doubt": false,
+              "minimum_signs": 1,
+              "maximum_signs": 1,
+              "reviewer_uncertainty": false,
+              "candidate_signs": []
+            },
+            {
+              "position_from_right": 6,
+              "kind": "identified_sign",
+              "sign": "M087",
+              "source_doubt": false,
+              "minimum_signs": 1,
+              "maximum_signs": 1,
+              "reviewer_uncertainty": false,
+              "candidate_signs": []
+            },
+            {
+              "position_from_right": 7,
+              "kind": "identified_sign",
+              "sign": "M059",
+              "source_doubt": false,
+              "minimum_signs": 1,
+              "maximum_signs": 1,
+              "reviewer_uncertainty": false,
+              "candidate_signs": []
+            },
+            {
+              "position_from_right": 8,
+              "kind": "identified_sign",
+              "sign": "M067",
+              "source_doubt": false,
+              "minimum_signs": 1,
+              "maximum_signs": 1,
+              "reviewer_uncertainty": false,
+              "candidate_signs": []
+            },
+            {
+              "position_from_right": 9,
+              "kind": "identified_sign",
+              "sign": "M216",
+              "source_doubt": false,
+              "minimum_signs": 1,
+              "maximum_signs": 1,
+              "reviewer_uncertainty": false,
+              "candidate_signs": []
+            },
+            {
+              "position_from_right": 10,
+              "kind": "unknown_length_loss",
+              "sign": null,
+              "source_doubt": false,
+              "minimum_signs": 1,
+              "maximum_signs": null
+            }
+          ],
+          "B": [
+            {
+              "position_from_right": 1,
+              "kind": "identified_sign",
+              "sign": "M055",
+              "source_doubt": false,
+              "reviewer_uncertainty": false,
+              "candidate_signs": []
+            },
+            {
+              "position_from_right": 2,
+              "kind": "identified_sign",
+              "sign": "M237",
+              "source_doubt": false,
+              "reviewer_uncertainty": false,
+              "candidate_signs": []
+            },
+            {
+              "position_from_right": 3,
+              "kind": "identified_sign",
+              "sign": "M175",
+              "source_doubt": false,
+              "reviewer_uncertainty": false,
+              "candidate_signs": []
+            },
+            {
+              "position_from_right": 4,
+              "kind": "identified_sign",
+              "sign": "M180",
+              "source_doubt": false,
+              "reviewer_uncertainty": false,
+              "candidate_signs": []
+            },
+            {
+              "position_from_right": 5,
+              "kind": "identified_sign",
+              "sign": "M099",
+              "source_doubt": false,
+              "reviewer_uncertainty": false,
+              "candidate_signs": []
+            },
+            {
+              "position_from_right": 6,
+              "kind": "identified_sign",
+              "sign": "M087",
+              "source_doubt": false,
+              "reviewer_uncertainty": false,
+              "candidate_signs": []
+            },
+            {
+              "position_from_right": 7,
+              "kind": "identified_sign",
+              "sign": "M059",
+              "source_doubt": false,
+              "reviewer_uncertainty": false,
+              "candidate_signs": []
+            },
+            {
+              "position_from_right": 8,
+              "kind": "identified_sign",
+              "sign": "M067",
+              "source_doubt": false,
+              "reviewer_uncertainty": false,
+              "candidate_signs": []
+            },
+            {
+              "position_from_right": 9,
+              "kind": "identified_sign",
+              "sign": "M222",
+              "source_doubt": false,
+              "reviewer_uncertainty": false,
+              "candidate_signs": []
+            },
+            {
+              "position_from_right": 10,
+              "kind": "unknown_length_loss",
+              "sign": null,
+              "source_doubt": false,
+              "minimum_signs": 1,
+              "maximum_signs": null
+            }
+          ]
+        }
+      },
+      "adjudicated": false
+    },
+    {
+      "source_pdf_page": 51,
+      "key": [
+        "1051",
+        "0",
+        "0"
+      ],
+      "fields": {
+        "tokens": {
+          "A": [
+            "M106",
+            "M178",
+            "M254",
+            "M099",
+            "M163"
+          ],
+          "B": [
+            "M106",
+            "M402",
+            "M254",
+            "M099",
+            "UNKNOWN"
+          ]
+        },
+        "segments": {
+          "A": [
+            {
+              "position_from_right": 1,
+              "kind": "identified_sign",
+              "sign": "M106",
+              "source_doubt": false,
+              "minimum_signs": 1,
+              "maximum_signs": 1,
+              "reviewer_uncertainty": false,
+              "candidate_signs": []
+            },
+            {
+              "position_from_right": 2,
+              "kind": "identified_sign",
+              "sign": "M178",
+              "source_doubt": false,
+              "minimum_signs": 1,
+              "maximum_signs": 1,
+              "reviewer_uncertainty": false,
+              "candidate_signs": []
+            },
+            {
+              "position_from_right": 3,
+              "kind": "identified_sign",
+              "sign": "M254",
+              "source_doubt": false,
+              "minimum_signs": 1,
+              "maximum_signs": 1,
+              "reviewer_uncertainty": false,
+              "candidate_signs": []
+            },
+            {
+              "position_from_right": 4,
+              "kind": "identified_sign",
+              "sign": "M099",
+              "source_doubt": false,
+              "minimum_signs": 1,
+              "maximum_signs": 1,
+              "reviewer_uncertainty": false,
+              "candidate_signs": []
+            },
+            {
+              "position_from_right": 5,
+              "kind": "identified_sign",
+              "sign": "M163",
+              "source_doubt": false,
+              "minimum_signs": 1,
+              "maximum_signs": 1,
+              "reviewer_uncertainty": false,
+              "candidate_signs": []
+            }
+          ],
+          "B": [
+            {
+              "position_from_right": 1,
+              "kind": "identified_sign",
+              "sign": "M106",
+              "source_doubt": false,
+              "reviewer_uncertainty": false,
+              "candidate_signs": []
+            },
+            {
+              "position_from_right": 2,
+              "kind": "identified_sign",
+              "sign": "M402",
+              "source_doubt": false,
+              "reviewer_uncertainty": false,
+              "candidate_signs": []
+            },
+            {
+              "position_from_right": 3,
+              "kind": "identified_sign",
+              "sign": "M254",
+              "source_doubt": false,
+              "reviewer_uncertainty": false,
+              "candidate_signs": []
+            },
+            {
+              "position_from_right": 4,
+              "kind": "identified_sign",
+              "sign": "M099",
+              "source_doubt": false,
+              "reviewer_uncertainty": false,
+              "candidate_signs": []
+            },
+            {
+              "position_from_right": 5,
+              "kind": "visible_unidentified_glyph",
+              "sign": null,
+              "source_doubt": false,
+              "reviewer_uncertainty": true,
+              "candidate_signs": [
+                "M396"
+              ],
+              "note": "Oval with inner vertical connected to base and an external lower stem. Closest sign396 has closed concentric inner loop; cannot confidently identify from current page raster.",
+              "minimum_signs": 1,
+              "maximum_signs": 1
+            }
+          ]
+        },
+        "reviewer_uncertainty": {
+          "A": [
+            {
+              "position_from_right": 1,
+              "kind": "identified_sign",
+              "sign": "M106",
+              "source_doubt": false,
+              "minimum_signs": 1,
+              "maximum_signs": 1,
+              "reviewer_uncertainty": false,
+              "candidate_signs": []
+            },
+            {
+              "position_from_right": 2,
+              "kind": "identified_sign",
+              "sign": "M178",
+              "source_doubt": false,
+              "minimum_signs": 1,
+              "maximum_signs": 1,
+              "reviewer_uncertainty": false,
+              "candidate_signs": []
+            },
+            {
+              "position_from_right": 3,
+              "kind": "identified_sign",
+              "sign": "M254",
+              "source_doubt": false,
+              "minimum_signs": 1,
+              "maximum_signs": 1,
+              "reviewer_uncertainty": false,
+              "candidate_signs": []
+            },
+            {
+              "position_from_right": 4,
+              "kind": "identified_sign",
+              "sign": "M099",
+              "source_doubt": false,
+              "minimum_signs": 1,
+              "maximum_signs": 1,
+              "reviewer_uncertainty": false,
+              "candidate_signs": []
+            },
+            {
+              "position_from_right": 5,
+              "kind": "identified_sign",
+              "sign": "M163",
+              "source_doubt": false,
+              "minimum_signs": 1,
+              "maximum_signs": 1,
+              "reviewer_uncertainty": false,
+              "candidate_signs": []
+            }
+          ],
+          "B": [
+            {
+              "position_from_right": 1,
+              "kind": "identified_sign",
+              "sign": "M106",
+              "source_doubt": false,
+              "reviewer_uncertainty": false,
+              "candidate_signs": []
+            },
+            {
+              "position_from_right": 2,
+              "kind": "identified_sign",
+              "sign": "M402",
+              "source_doubt": false,
+              "reviewer_uncertainty": false,
+              "candidate_signs": []
+            },
+            {
+              "position_from_right": 3,
+              "kind": "identified_sign",
+              "sign": "M254",
+              "source_doubt": false,
+              "reviewer_uncertainty": false,
+              "candidate_signs": []
+            },
+            {
+              "position_from_right": 4,
+              "kind": "identified_sign",
+              "sign": "M099",
+              "source_doubt": false,
+              "reviewer_uncertainty": false,
+              "candidate_signs": []
+            },
+            {
+              "position_from_right": 5,
+              "kind": "visible_unidentified_glyph",
+              "sign": null,
+              "source_doubt": false,
+              "reviewer_uncertainty": true,
+              "candidate_signs": [
+                "M396"
+              ],
+              "note": "Oval with inner vertical connected to base and an external lower stem. Closest sign396 has closed concentric inner loop; cannot confidently identify from current page raster.",
+              "minimum_signs": 1,
+              "maximum_signs": 1
+            }
+          ]
+        }
+      },
+      "adjudicated": false
+    }
+  ]
+}

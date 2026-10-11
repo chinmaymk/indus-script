@@ -1,0 +1,114 @@
+{
+  "status": "post-comparison recommendations; original B submission unchanged",
+  "reviewer": "B",
+  "original_submission": {
+    "path": "data/processed/m77_verified/reviewer_b_page051.json",
+    "sha256": "df72051af51a1c0f8cbc2ea3a067edaa015239aada8fb328c687e563670cb9af"
+  },
+  "schema_only_amendment": {
+    "path": "data/processed/m77_verified/reviewer_b_page051_schema1.json",
+    "sha256": "b12f9d166f0926c94d9a029ebc4ad829f5d7c167db048f0bf84418e0edcc892b"
+  },
+  "findings": [
+    {
+      "reference": "1033",
+      "recommendation": "M223 replaces first M222",
+      "evidence": "Right upper/lower tips have multiple short projecting prongs, matching223. M222 instead has an additional lower-left oblique branch."
+    },
+    {
+      "reference": "1041",
+      "recommendation": "Initial RTL pair M293 M123",
+      "evidence": "Page crop shows printed LTR M123 (short vertical plus curve) followed by M293 (curve with inner loop). B reversed the pair incorrectly."
+    },
+    {
+      "reference": "1045",
+      "recommendation": "M014 replaces M012",
+      "evidence": "Small triangular head rises above horizontal carrying bar; primary014 contains this head,012 only a vertical stem."
+    },
+    {
+      "reference": "1047",
+      "recommendation": "M216 replaces M222 near loss; first sign unresolved between054/055",
+      "evidence": "Bow glyph lacks extra lower-left oblique branch of222. K-like first sign lacks a securely distinguishable interior short stroke;055 requires it and054 lacks it. A054 is more plausible than B055, but raster weakness leaves uncertain identity.",
+      "candidate_signs_first": [
+        "M054",
+        "M055"
+      ]
+    },
+    {
+      "reference": "1051",
+      "recommendation": "M178 replaces M402; unidentified last glyph resolves M163",
+      "evidence": "A-like glyph has triangular upper aperture and bifurcated right foot of178 rather than402 flag. Last glyph is a roof over trident with continuous lower stem, matching163;396 instead has concentric closed ovals without this trident structure."
+    }
+  ],
+  "visual_crop_pins": [
+    {
+      "path": "results/primary_pages/m77-v2-reviewerB-adjudicate-1033-first.png",
+      "sha256": "29e9a7195e2eb9884f7ba06254a49e36b5dd11605b3e24fd08ced7093aed767f"
+    },
+    {
+      "path": "results/primary_pages/m77-v2-reviewerB-adjudicate-1041-firstpair.png",
+      "sha256": "3107c076b79f3c299847bede9f66e96487f0b56cf0fed3c6130cddeb67868fa7"
+    },
+    {
+      "path": "results/primary_pages/m77-v2-reviewerB-adjudicate-1047-leftbow.png",
+      "sha256": "9d29b7f4eb1f1eb9ce3f21b31a07e05f4f50b73f4e86b585367909f945c64c2a"
+    },
+    {
+      "path": "results/primary_pages/m77-v2-reviewerB-adjudicate-1047-rightK.png",
+      "sha256": "f2c7c6a8ac8394b9941f80be7e69dcbb2a470b8cb6b88924706db43001ad0eb3"
+    },
+    {
+      "path": "results/primary_pages/m77-v2-reviewerB-adjudicate-1051-A.png",
+      "sha256": "972b99875deff62fa458a5880bd3a8fd3feb9c6f818034a5ade102011334433d"
+    },
+    {
+      "path": "results/primary_pages/m77-v2-reviewerB-adjudicate-1051-trident.png",
+      "sha256": "146037697b5e5ccac3d8365cb1e9c5147912a3617e9936416b0156bd51fd622b"
+    },
+    {
+      "path": "results/primary_pages/m77-v2-reviewerB-adjudicate-sign014.png",
+      "sha256": "2505d6bc9da43411ae5fb421800067d100b9009347f63444efd6c132015c7290"
+    },
+    {
+      "path": "results/primary_pages/m77-v2-reviewerB-adjudicate-sign163.png",
+      "sha256": "ff79ceab150667e93a9c40302e0fd31d2fc0dfcdc4ba5d2077df3306c19564a8"
+    },
+    {
+      "path": "results/primary_pages/m77-v2-reviewerB-adjudicate-sign178.png",
+      "sha256": "7b85c29b0febaaa86e8176ff36de4cc42661b9496fc7ccdbd73eda7df105109e"
+    },
+    {
+      "path": "results/primary_pages/m77-v2-reviewerB-adjudicate-sign216.png",
+      "sha256": "323aae2a489b86fae1980ef49161978a50e8387e1ce5b58f2af8d87c6b0fb612"
+    },
+    {
+      "path": "results/primary_pages/m77-v2-reviewerB-adjudicate-sign222.png",
+      "sha256": "7e33ed206602c0c5d65bfb0a2b97af9fb6c8238abb2d331bc4f56a7aa7a55282"
+    },
+    {
+      "path": "results/primary_pages/m77-v2-reviewerB-adjudicate-sign223.png",
+      "sha256": "b9de821dd4d76812ae376442675cc1690049f4b9bf3519e5e378b845162af44e"
+    },
+    {
+      "path": "results/primary_pages/m77-v2-reviewerB-adjudicate-sign402.png",
+      "sha256": "4ed14d5a8e8b0ec0a0e1ddc2c7eeaa84ed257a2fc18845047d37ea88b82c6250"
+    },
+    {
+      "path": "results/primary_pages/m77-v2-reviewerB-focus-1045-person.png",
+      "sha256": "80d5da5f8394d477a5ba2dbca2fa9b231ffac1f7bd513e38ed460e4bdebb834c"
+    },
+    {
+      "path": "results/primary_pages/m77-v1-reviewerB-adjudicate-054.png",
+      "sha256": "c4282b0a0cbc54fa955cb6369e2cffc1210c910d9476b4cd2094961506f1e00b"
+    },
+    {
+      "path": "results/primary_pages/m77-v1-reviewerB-adjudicate-055.png",
+      "sha256": "4275daaf9b34c0e33a2c823afa270ee207d633af09aa2b91bf0f9c372ecc7730"
+    }
+  ],
+  "limits": [
+    "No secondary export or additional external source consulted.",
+    "Recommendations are based on primary edition scan, not ancient artifact reinspection.",
+    "No frozen reading changed; parent adjudication remains separate."
+  ]
+}

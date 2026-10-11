@@ -1,0 +1,3999 @@
+
+PDF PAGE 1
+Journal of Machine Learning Research 6 (2005) 1231–1264 Sub mitted 11/04; Revised 6/05; Published 8/05
+Concentration Bounds for Unigram Language Models
+Evgeny Drukh DRUKH @POST .TAU.AC.IL
+Yishay Mansour MANSOUR @POST .TAU.AC.IL
+School of Computer Science
+Tel Aviv University
+Tel Aviv, 69978, Israel
+Editor: John Lafferty
+Abstract
+We show several high-probability concentration bounds forlearning unigram language models.
+One interesting quantity is the probability of all words appearing exactly k times in a sample of size
+m. A standard estimator for this quantity is the Good-Turing e stimator. The existing analysis on
+its error shows a high-probability bound of approximately O
+(
+k
+√m
+)
+. We improve its dependency
+on k to O
+( 4√
+k√m + k
+m
+)
+. We also analyze the empirical frequencies estimator, showing that with high
+probability its error is bounded by approximately O
+(
+1
+k +
+√
+k
+m
+)
+. We derive a combined estimator,
+which has an error of approximately O
+(
+m− 2
+5
+)
+, for any k.
+A standard measure for the quality of a learning algorithm is its expected per-word log-loss.
+The leave-one-out method can be used for estimating the log-loss of the unigram model. We show
+that its error has a high-probability bound of approximatel y O
+(
+1√m
+)
+, for any underlying distribu-
+tion.
+We also bound the log-loss a priori, as a function of various parameters of the distribution.
+Keywords: Good-Turing estimators, logarithmic loss, leave-one-out estimation, Chernoff bounds
+1. Introduction and Overview
+Natural language processing (NLP) has developed rapidly over the last decades. It has a wide range
+of applications, including speech recognition, optical character recognition, text categorization and
+many more. The theoretical analysis has also advanced signiﬁcantly, thoug h many fundamental
+questions remain unanswered. One clear challenge, both practical and theoretical, concerns deriving
+stochastic models for natural languages.
+Consider a simple language model, where the distribution of each word in the tex t is assumed
+to be independent. Even for such a simplistic model, fundamental questions relating sample size to
+the learning accuracy are already challenging. This is mainly due to the fact that the sample size is
+almost always insufﬁcient, regardless of how large it is.
+To demonstrate this phenomena, consider the following example. We would like to estimate
+the distribution of ﬁrst names in the university. For that, we are given the na mes list of a graduate
+seminar: Alice, Bob, Charlie, Dan, Eve, Frank, two Georges, and two Henries. How can we use this
+sample to estimate the distribution of students’ ﬁrst names? An empirical frequency estimator would
+c⃝2005 Evgeny Drukh and Yishay Mansour.
+
+PDF PAGE 2
+DRUKH AND MANSOUR
+assign Alice the probability of 0 .1, since there is one Alice in the list of 10 names, while George,
+appearing twice, would get estimation of 0 .2. Unfortunately, unseen names, such as Michael, will
+get an estimation of 0. Clearly, in this simple example the empirical frequencies ar e unlikely to
+estimate well the desired distribution.
+In general, the empirical frequencies estimate well the probabilities of popula r names, but are
+rather inaccurate for rare names. Is there a sample size, which assures us that all the names (or
+most of them) will appear enough times to allow accurate probabilities estimation? The distribution
+of ﬁrst names can be conjectured to follow the Zipf’s law. In such distributio ns, there will be a
+signiﬁcant fraction of rare items, as well as a considerable number of non -appearing items, in any
+sample of reasonable size. The same holds for the language unigram models , which try to estimate
+the distribution of single words. As it has been observed empirically on many o ccasions (Chen,
+1996; Curran and Osborne, 2002), there are always many rare wor ds and a considerable number
+of unseen words, regardless of the sample size. Given this observation , a fundamental issue is to
+estimate the distribution the best way possible.
+1.1 Good-Turing Estimators
+An important quantity, given a sample, is the probability mass of unseen words (also called “the
+missing mass”). Several methods exist for smoothing the probability and assig ning probability
+mass to unseen items. The almost standard method for estimating the missing probab ility mass
+is the Good-Turing estimator. It estimates the missing mass as the total number of un ique items,
+divided by the sample size. In the names example above, the Good-Turing miss ing mass estimator
+is equal 0 .6, meaning that the list of the class names does not reﬂect the true distribution , to put
+it mildly. The Good-Turing estimator can be extended for higher orders, tha t is, estimating the
+probability of all names appearing exactly k times. Such estimators can also be used for estimating
+the probability of individual words.
+The Good-Turing estimators dates back to World War II, and were published ﬁrst in 1953 (Good,
+1953, 2000). It has been extensively used in language modeling applications since then (Katz, 1987;
+Church and Gale, 1991; Chen, 1996; Chen and Goodman, 1998). How ever, their theoretical con-
+vergence rate in various models has been studied only in the recent years(McAllester and Schapire,
+2000, 2001; Kutin, 2002; McAllester and Ortiz, 2003; Orlitsky et al., 2003 ). For estimation of the
+probability of all words appearing exactly k times in a sample of size m, McAllester and Schapire
+(2000) derive a high probability bound on Good-Turing estimator error of approximately O
+(
+k
+√m
+)
+.
+One of our main results improves the dependency onk of this bound to approximatelyO
+( 4√
+k√m + k
+m
+)
+.
+We also show that the empirical frequencies estimator has an error of appr oximately O
+(
+1
+k +
+√
+k
+m
+)
+,
+for large values of k. Based on the two estimators, we derive a combined estimator with an error of
+approximately O
+(
+m− 2
+5
+)
+, for any k. We also derive a weak lower bound of Ω
+( 4√
+k√m
+)
+for an error of
+any estimator based on an independent sample.
+Our results give theoretical justiﬁcation for using the Good-Turing estimatorfor small values of
+k, and the empirical frequencies estimator for large values of k. Though in most applications the
+Good-Turing estimator is used for very small values of k, for example k ≤ 5, as by Katz (1987) or
+Chen (1996), we show that it is fairly accurate in a much wider range.
+1232
+
+PDF PAGE 3
+CONCENTRATION BOUNDS FOR UNIGRAM LANGUAGE MODELS
+1.2 Logarithmic Loss
+The Good-Turing estimators are used to approximate the probability mass of all the words with a
+certain frequency. For many applications, estimating this probability mass is notthe main optimiza-
+tion criteria. Instead, a certain distance measure between the true and the es timated distributions
+needs to be minimized.
+The most popular distance measure used in NLP applications is the Kullback-Leibler (KL) di-
+vergence. For a true distribution P = {px}, and an estimated distribution Q = {qx}, both over some
+set X, this measure is deﬁned as ∑x px ln px
+qx
+. An equivalent measure, up to the entropy of P, is the
+logarithmic loss (log-loss), which equals ∑x px ln 1
+qx
+.
+Many NLP applications use the value of log-loss to evaluate the quality of the estimated dis-
+tribution. However, the log-loss cannot be directly calculated, since it depends on the underlying
+distribution, which is unknown. Therefore, estimating log-loss using the sample is important, al-
+though the sample cannot be independently used for both estimating the distribu tion and testing it.
+The hold-out estimation splits the sample into two parts: training and testing. The training part
+is used for learning the distribution, whereas the testing sample is used for ev aluating the average
+per-word log-loss. The main disadvantage of this method is the fact that it us es only part of the
+available information for learning, whereas in practice one would like to use all the sample.
+A widely used general estimation method is called leave-one-out. Basically, it performs aver-
+aging all the possible estimations, where a single item is chosen for testing, and the rest are used
+for training. This procedure has an advantage of using the entire sample, and in addition it is rather
+simple and usually can be easily implemented. The existing theoretical analysis of the leave-one-
+out method (Holden, 1996; Kearns and Ron, 1999) shows general high pr obability concentration
+bounds for the generalization error. However, these techniques are not applicable in our setting.
+We show that the leave-one-out estimation error for the log-loss is approximately O
+(
+1√m
+)
+,
+for any underlying distribution and a general family of learning algorithms. I t gives a theoretical
+justiﬁcation for effective use of leave-one-out estimation for the log-loss.
+We also analyze the concentration of the log-loss itself, not based of an empirical measure.
+We address the characteristics of the underlying distribution affecting the log-loss. We ﬁnd such a
+characteristic, deﬁning a tight bound for the log-loss value.
+1.3 Model and Semantics
+We denote the set of all words as V , and N = |V |. Let P be a distribution over V , where pw is the
+probability of a wordw ∈ V . Given a sample S of size m, drawn i.i.d. using P, we denote the number
+of appearances of a word w in S as cS
+w, or simply cw, when a sample S is clear from the context.1 We
+deﬁne Sk = {w ∈ V : cS
+w = k}, and nk = |Sk|.
+For a claim Φ regarding a sample S, we write ∀δS Φ[S] for P(Φ[S]) ≥ 1 − δ. For some error
+bound function f (·), which holds with probability 1 − δ, we write ˜O( f (·)) for O
+(
+f (·)
+(
+ln m
+δ
+)c)
+,
+where c > 0 is some constant.
+1.4 Paper Organization
+Section 2 shows several standard concentration inequalities, together with their technical applica-
+tions regarding the maximum-likelihood approximation. Section 3 shows the error bounds for the
+1. Unless mentioned otherwise, all further sample-dependent deﬁnitions depend on the sample S.
+1233
+
+PDF PAGE 4
+DRUKH AND MANSOUR
+k-hitting mass estimation. Section 4 bounds the error for the leave-one-out estima tion of the loga-
+rithmic loss. Section 5 shows the bounds for the a priori logarithmic loss. Appendix A includes the
+technical proofs.
+2. Concentration Inequalities
+In this section we state several standard Chernoff-style concentration in equalities. We also show
+some of their corollaries regarding the maximum-likelihood approximation of pw by ˆpw = cw
+m .
+Lemma 1 (Hoeffding, 1963) Let Y = Y1, . . . ,Yn be a set of n independent random variables, such
+that Yi ∈ [bi,bi + di]. Then, for any ε > 0,
+P
+(⏐
+⏐
+⏐
+⏐
+⏐∑
+i
+Yi − E
+[
+∑
+i
+Yi
+] ⏐
+⏐
+⏐
+⏐
+⏐ > ε
+)
+≤ 2 exp
+(
+− 2ε2
+∑i d2
+i
+)
+.
+The next lemma is a variant of an extension of Hoeffding’s inequality, by McDiarmid (1989).
+Lemma 2 Let Y = Y1, . . . ,Yn be a set of n independent random variables, and f (Y ) such that any
+change of Yi value changes f (Y ) by at most di, that is
+sup
+∀ j̸=i,Yj=Y ′
+j
+(| f (Y ) − f (Y ′)|) ≤ di.
+Let d = maxi di. Then,
+∀δY : | f (Y ) − E[ f (Y )]| ≤ d
+√
+nln 2
+δ
+2 .
+Lemma 3 (Angluin and Valiant, 1979) Let Y = Y1, . . . ,Yn be a set of n independent random vari-
+ables, where Yi ∈ [0,B]. Let µ = E [∑iYi]. Then, for any ε > 0,
+P
+(
+∑
+i
+Yi < µ − ε
+)
+≤ exp
+(
+− ε2
+2µB
+)
+,
+P
+(
+∑
+i
+Yi > µ + ε
+)
+≤ exp
+(
+− ε2
+(2µ + ε)B
+)
+.
+Deﬁnition 4 (Dubhashi and Ranjan, 1998) A set of random variables Y 1, . . . ,Yn is called “nega-
+tively associated”, if it satisﬁes for any two disjoint subsets I and J of {1, . . . ,n}, and any two
+non-decreasing, or any two non-increasing, functions f from R |I| to R and g from R|J| to R:
+E[ f (Yi : i ∈ I)g(Yj : j ∈ J)] ≤ E[ f (Yi : i ∈ I)]E[g(Yj : j ∈ J)].
+The next lemma is based on thenegative association analysis. It follows directly from Theorem
+14 and Proposition 7 of Dubhashi and Ranjan (1998).
+1234
+
+PDF PAGE 5
+CONCENTRATION BOUNDS FOR UNIGRAM LANGUAGE MODELS
+Lemma 5 For any set of N non-decreasing, or N non-increasing functions { fw : w ∈ V }, any
+Chernoff-style bound on ∑w∈V fw(cw), pretending that c w are independent, is valid. In particular,
+Lemmas 1 and 2 apply for {Y1, ...,Yn} = { fw(cw) : w ∈ V }.
+The next lemma shows an explicit upper bound on the binomial distribution probability.2
+Lemma 6 Let X ∼ Bin(n, p) be a sum of n i.i.d. Bernoulli random variables with p ∈ (0,1). Let
+µ = E[X] = np. For x ∈ (0,n], there exists some function T x = exp
+( 1
+12x + O
+(1
+x2
+))
+, such that ∀k ∈
+{0, . . . ,n}, we have P(X = k) ≤ 1√
+2πµ(1−p)
+Tn
+TµTn−µ
+. For integral values of µ, the equality is achieved
+at k = µ. (Note that for x ≥ 1, we have Tx = Θ(1).)
+The next lemma deals with the number of successes in independent trials.
+Lemma 7 (Hoeffding, 1956) Let Y1, . . . ,Yn ∈ {0,1} be a sequence of independent trials, with p i =
+E[Yi]. Let X = ∑iYi be the number of successes, and p = 1
+n ∑i pi be the average trial success proba-
+bility. For any integers b and c such that0 ≤ b ≤ np ≤ c ≤ n, we have
+c
+∑
+k=b
+(n
+k
+)
+pk(1 − p)n−k ≤ P (b ≤ X ≤ c) ≤ 1.
+Using the above lemma, the next lemma shows a general concentration bound f or a sum of
+arbitrary real-valued functions of a multinomial distribution components. We sh ow that with a
+small penalty, any Chernoff-style bound pretending the components being independent is valid. 3
+We recall that cS
+w, or equivalently cw, is the number of appearances of the word w in a sample S of
+size m.
+Lemma 8 Let {c′
+w ∼ Bin(m, pw) : w ∈ V } be independent binomial random variables. Let { fw(x) :
+w ∈ V } be a set of real valued functions. Let F = ∑w fw(cw) and F ′ = ∑w fw(c′
+w). For any ε > 0,
+P (|F − E [F]| > ε) ≤ 3√
+m P
+(⏐
+⏐F ′ − E
+[
+F ′]⏐
+⏐ > ε
+)
+.
+The following lemmas provide concentration bounds for maximum-likelihood estimation of pw
+by ˆpw = cw
+m . The ﬁrst lemma shows that words with “high” probability have a “high” coun t in the
+sample.
+Lemma 9 Let δ > 0, and λ ≥ 3. We have ∀δS:
+∀w ∈ V, s.t. mpw ≥ 3ln 2m
+δ , |mpw − cw| ≤
+√
+3mpw ln 2m
+δ ;
+∀w ∈ V, s.t. mpw > λln 2m
+δ , cw >
+(
+1 −
+√
+3
+λ
+)
+mpw.
+2. Its proof is based on Stirling approximation directly, though local limit theorems could be used. This form of bound
+is needed for the proof of Theorem 30.
+3. The negative association analysis (Lemma 5) shows that a sum of monotone functions of multinomial distribution
+components must obey Chernoff-style bounds pretending that the com ponents are independent. In some sense, our
+result extends this notion, since it does not require the functions to be monotone.
+1235
+
+PDF PAGE 6
+DRUKH AND MANSOUR
+The second lemma shows that words with “low” probability have a “low” count in the sample.
+Lemma 10 Let δ ∈ (0,1), and m > 1. Then, ∀δS: ∀w ∈ V such that mp w ≤ 3ln m
+δ , we have c w ≤
+6ln m
+δ .
+The following lemma derives the bound as a function of the count in the sample ( and not as a
+function of the unknown probability).
+Lemma 11 Let δ > 0. Then, ∀δS:
+∀w ∈ V, s.t. cw > 18ln 4m
+δ , |mpw − cw| ≤
+√
+6cw ln 4m
+δ .
+The following is a general concentration bound.
+Lemma 12 For any δ > 0, and any word w ∈ V , we have
+∀δS,
+⏐
+⏐
+⏐cw
+m − pw
+⏐
+⏐
+⏐ <
+√
+3ln 2
+δ
+m .
+The following lemma bounds the probability of words that do not appear in the sample.
+Lemma 13 Let δ > 0. Then, ∀δS:
+∀w /∈ S, mpw < ln m
+δ .
+3. K-Hitting Mass Estimation
+In this section our goal is to estimate the probability of the set of words appear ing exactly k times
+in the sample, which we call “the k-hitting mass”. We analyze the Good-Turing estimator, the
+empirical frequencies estimator, and a combined estimator.
+Deﬁnition 14 We deﬁne the k-hitting mass M k, its empirical frequencies estimator ˆMk, and its
+Good-Turing estimator Gk as4
+Mk = ∑
+w∈Sk
+pw ˆMk =
+( k
+m
+)
+nk Gk =
+( k + 1
+m − k
+)
+nk+1.
+The outline of this section is as follows. Deﬁnition 16 slightly redeﬁnes the k-hitting mass and
+its estimators. Lemma 17 shows that this redeﬁnition has a negligible inﬂuence. Th en, we analyze
+the estimation errors using the concentration inequalities from Section 2.
+Lemmas 20 and 21 bound the expectation of the Good-Turing estimator error,following McAllester
+and Schapire (2000). Lemma 23 bounds the deviation of the error, using th e negative association
+analysis. A tighter bound, based on Lemma 8, is achieved at Theorem 25. Theorem 26 analyzes the
+error of the empirical frequencies estimator. Theorem 29 refers to the co mbined estimator. Finally,
+Theorem 30 shows a weak lower bound for the k-hitting mass estimation.
+4. The Good-Turing estimator is usually deﬁned as( k+1
+m )nk+1. The two deﬁnitions are almost identical for small values
+of k, as their quotient equals 1− k
+m . Following McAllester and Schapire (2000), our deﬁnition makes the calculations
+slightly simpler.
+1236
+
+PDF PAGE 7
+CONCENTRATION BOUNDS FOR UNIGRAM LANGUAGE MODELS
+Deﬁnition 15 For any w ∈ V and i ∈ {0, · · ·,m}, we deﬁne X w,i as a random variable equal 1 if
+cw = i, and 0 otherwise.
+The following deﬁnition concentrates on words whose frequencies are c lose to their probabili-
+ties.
+Deﬁnition 16 Let α > 0 and k > 3α2. We deﬁne I k,α =
+[
+k−α
+√
+k
+m , k+1+α
+√
+k+1
+m
+]
+, and Vk,α = {w ∈ V :
+pw ∈ Ik,α}. We deﬁne:
+Mk,α = ∑
+w∈Sk∩Vk,α
+pw = ∑
+w∈Vk,α
+pwXw,k,
+Gk,α = k + 1
+m − k |Sk+1 ∩Vk,α| = k + 1
+m − k ∑
+w∈Vk,α
+Xw,k+1,
+ˆMk,α = k
+m |Sk ∩Vk,α| = k
+m ∑
+w∈Vk,α
+Xw,k.
+By Lemma 11, for large values of k the redeﬁnition coincides with the original deﬁnition with
+high probability:
+Lemma 17 For δ > 0, let α =
+√
+6ln 4m
+δ . For k > 18ln 4m
+δ , we have ∀δS: M k = Mk,α, Gk = Gk,α,
+and ˆMk = ˆMk,α.
+Proof By Lemma 11, we have
+∀δS, ∀w : cw > 18ln 4m
+δ , |mpw − cw| ≤
+√
+6cw ln 4m
+δ = α√cw.
+This means that any word w with cw = k has
+k − α
+√
+k
+m ≤ pw ≤ k + α
+√
+k
+m < k + 1 + α
+√
+k + 1
+m .
+Therefore w ∈ Vk,α, completing the proof for Mk and ˆMk. Since α <
+√
+k, any word w with
+cw = k + 1 has
+k − α
+√
+k
+m < k + 1 − α
+√
+k + 1
+m ≤ pw ≤ k + 1 + α
+√
+k + 1
+m ,
+which yields w ∈ Vk,α, completing the proof for Gk.
+Since the minimal probability of a word in Vk,α is Ω
+(k
+m
+)
+, we derive:
+Lemma 18 Let α > 0 and k > 3α2. Then, |Vk,α| = O
+(m
+k
+)
+.
+1237
+
+PDF PAGE 8
+DRUKH AND MANSOUR
+Proof We have α <
+√
+k√
+3. Any word w ∈ Vk,α has pw ≥ k−α
+√
+k
+m > k
+m
+(
+1 − 1√
+3
+)
+. Therefore,
+|Vk,α| < m
+k
+1
+1 − 1√
+3
+= O
+(m
+k
+)
+,
+which completes the proof.
+Using Lemma 6, we derive:
+Lemma 19 Let α > 0 and 3α2 < k ≤ m
+2 . Let w ∈ Vk,α. Then, E [Xw,k] = P(cw = k) = O
+(
+1√
+k
+)
+.
+Proof Since cw ∼ Bin(m, pw) is a binomial random variable, we use Lemma 6:
+E[Xw,k] = P(cw = k) ≤ 1√
+2πmpw(1 − pw)
+Tm
+TmpwTm(1−pw)
+.
+For w ∈ Vk,α, we have mpw = Ω (k), which implies Tm
+TmpwTm(1−pw)
+= O(1). Since pw ∈ Ik,α and
+3α2 < k ≤ m
+2 , we have
+1√
+2πmpw (1 − pw)
+≤ 1√
+2π
+(
+k − α
+√
+k
+) (
+1 −
+(
+k+1+α
+√
+k+1
+m
+))
+< 1√
+2πk
+(
+1 − 1√
+3
+) (
+1 − k+1
+m
+(
+1 + 1√
+3
+))
+< 1√
+2πk
+(
+1 − 1√
+3
+) (
+1 −
+(1
+2 + 1
+m
+)(
+1 + 1√
+3
+))
+= O
+( 1√
+k
+)
+,
+which completes the proof.
+3.1 Good-Turing Estimator
+The following lemma, directly based on the deﬁnition of the binomial distribution, wa s shown in
+Theorem 1 of McAllester and Schapire (2000).
+Lemma 20 For any k < m, and w ∈ V , we have
+pwP(cw = k) = k + 1
+m − k P(cw = k + 1)(1 − pw).
+The following lemma bounds the expectations of the redeﬁned k-hitting mass, its Good-Turing
+estimator, and their difference.
+1238
+
+PDF PAGE 9
+CONCENTRATION BOUNDS FOR UNIGRAM LANGUAGE MODELS
+Lemma 21 Let α > 0 and 3α2 < k < m
+2 . We have E [Mk,α] = O
+(
+1√
+k
+)
+, E [Gk,α] = O
+(
+1√
+k
+)
+, and
+|E[Gk,α] − E[Mk,α]| = O
+(√
+k
+m
+)
+.
+Lemma 22 Let δ > 0, k ∈ {1, . . . ,m}. Let U ⊆ V , such that |U| = O
+(m
+k
+)
+. Let {bw : w ∈ U}, such
+that ∀w ∈ U,bw ≥ 0 and maxw∈Ubw = O
+(k
+m
+)
+. Let Xk = ∑w∈U bwXw,k. We have ∀δS:
+|Xk − E[Xk]| = O
+
+
+√
+k ln 1
+δ
+m
+
+ .
+Proof We deﬁne Yw,k = ∑i≤k Xw,i be random variable indicating cw ≤ k and Zw,k = ∑i<k Xw,i =
+Yw,k − Xw,k be random variable indicating cw < k. Let Yk = ∑w∈U bwYw,k and Zk = ∑w∈U bwZw,k. We
+have
+Xk = ∑
+w∈U
+bwXw,k = ∑
+w∈U
+bw [Yw,k − Zw,k] = Yk − Zk.
+Both Yk and Zk, can be bounded using the Hoeffding inequality. Since {bwYw,k} and {bwZw,k}
+are monotone with respect to {cw}, Lemma 5 applies for them. This means that the concentra-
+tion of their sum is at least as tight as if they were independent. Recalling that |U| = O
+(m
+k
+)
+and
+maxw∈Ubw = O
+(k
+m
+)
+, and using Lemma 2 for Yk and Zk, we have
+∀
+δ
+2 S, |Yk − E[Yk]| = O
+(
+k
+m
+√
+m
+k ln 1
+δ
+)
+,
+∀
+δ
+2 S, |Zk − E[Zk]| = O
+(
+k
+m
+√
+m
+k ln 1
+δ
+)
+.
+Therefore,
+|Xk − E[Xk]| = |Yk − Zk − E[Yk − Zk]|
+≤ | Yk − E[Yk]| + |Zk − E[Zk]| = O
+
+
+√
+k ln 1
+δ
+m
+
+ ,
+which completes the proof.
+Using the negative association notion, we can show a preliminary bound for Good-Turing esti-
+mation error:
+Lemma 23 For δ > 0 and 18ln 8m
+δ < k < m
+2 , we have ∀δS:
+|Gk − Mk| = O
+
+
+√
+k ln 1
+δ
+m
+
+ .
+1239
+
+PDF PAGE 10
+DRUKH AND MANSOUR
+Proof Let α =
+√
+6ln 8m
+δ . By Lemma 17, we have
+∀
+δ
+2 S, Gk = Gk,α ∧ Mk = Mk,α. (1)
+By Lemma 21,
+|E[Gk − Mk]| = |E[Gk,α − Mk,α]| = O
+( √
+k
+m
+)
+. (2)
+By Deﬁnition 16, Mk,α = ∑w∈Vk,α pwXw,k and Gk,α = ∑w∈Vk,α
+(k+1
+m−k
+)
+Xw,k+1. By Lemma 18, we
+have |Vk,α| = O
+(m
+k
+)
+. Therefore, using Lemma 22 with k for Mk,α, and with k + 1 for Gk,α, we have
+∀
+δ
+4 S, |Mk,α − E[Mk,α]| = O
+(√
+k ln 1
+δ
+m
+)
+, (3)
+∀
+δ
+4 S, |Gk,α − E[Gk,α]| = O
+(√
+k ln 1
+δ
+m
+)
+. (4)
+Combining Equations (1), (2), (3), and (4), we have ∀δS:
+|Gk − Mk| = |Gk,α − Mk,α|
+≤ | Gk,α − E[Gk,α]| + |Mk,α − E[Mk,α]| + |E[Gk,α] − E[Mk,α]|
+= O
+
+
+√
+k ln 1
+δ
+m
+
+ + O
+( √
+k
+m
+)
+= O
+
+
+√
+k ln 1
+δ
+m
+
+ ,
+which completes the proof.
+Lemma 24 Let δ > 0, k > 0. Let U ⊆ V . Let {bw : w ∈ U} be a set of weights, such that bw ∈ [0,B].
+Let Xk = ∑w∈U bwXw,k, and µ = E[Xk]. We have
+∀δS, |Xk − µ| ≤ max
+{ √
+4Bµln
+(6√m
+δ
+)
+,2Bln
+(6√m
+δ
+)}
+.
+Proof By Lemma 8, combined with Lemma 3, we have
+P(|Xk − µ| > ε) ≤ 6√m exp
+(
+− ε2
+B(2µ + ε)
+)
+≤ max
+{
+6√m exp
+(
+− ε2
+4Bµ
+)
+,6√m exp
+(
+− ε
+2B
+)}
+, (5)
+1240
+
+PDF PAGE 11
+CONCENTRATION BOUNDS FOR UNIGRAM LANGUAGE MODELS
+where Equation (5) follows by considering ε ≤ 2µ and ε > 2µ separately. The lemma follows sub-
+stituting ε = max
+{√
+4Bµln
+(
+6√m
+δ
+)
+,2Bln
+(
+6√m
+δ
+)}
+.
+We now derive the concentration bound on the error of the Good-Turingestimator.
+Theorem 25 For δ > 0 and 18ln 8m
+δ < k < m
+2 , we have ∀δS:
+|Gk − Mk| = O
+
+
+√
+√
+k ln m
+δ
+m + k ln m
+δ
+m
+
+ .
+Proof Let α =
+√
+6ln 8m
+δ . Using Lemma 17, we have ∀
+δ
+2 S: Gk = Gk,α, and Mk = Mk,α. Recall that
+Mk,α = ∑w∈Vk,α pwXw,k and Gk,α = ∑w∈Vk,α
+k+1
+m−kXw,k+1. Both Mk,α and Gk,α are linear combinations
+of Xw,k and Xw,k+1, respectively, where the coefﬁcients’ magnitude isO
+(k
+m
+)
+, and the expectation, by
+Lemma 21, is O
+(
+1√
+k
+)
+. By Lemma 24, we have
+∀
+δ
+4 S, |Mk,α − E[Mk,α]| = O
+(√√
+k ln m
+δ
+m +
+k ln m
+δ
+m
+)
+, (6)
+∀
+δ
+4 S, |Gk,α − E[Gk,α]| = O
+(√√
+k ln m
+δ
+m +
+k ln m
+δ
+m
+)
+. (7)
+Combining Equations (6), (7), and Lemma 21, we have ∀δS:
+|Gk − Mk| = |Gk,α − Mk,α|
+≤ | Gk,α − E[Gk,α]| + |Mk,α − E[Mk,α]| + |E[Gk,α] − E[Mk,α]|
+= O
+
+
+√
+√
+k ln m
+δ
+m + k ln m
+δ
+m +
+√
+k
+m
+
+ = O
+
+
+√
+√
+k ln m
+δ
+m + k ln m
+δ
+m
+
+ ,
+which completes the proof.
+3.2 Empirical Frequencies Estimator
+In this section we bound the error of the empirical frequencies estimator ˆMk.
+Theorem 26 For δ > 0 and 18ln 8m
+δ < k < m
+2 , we have
+∀δS, |Mk − ˆMk| = O
+
+
+√
+k
+(
+ln m
+δ
+)3
+2
+m +
+√ln m
+δ
+k
+
+ .
+1241
+
+PDF PAGE 12
+DRUKH AND MANSOUR
+Proof Let α =
+√
+6ln 8m
+δ . By Lemma 17, we have ∀
+δ
+2 S: ˆMk = ˆMk,α, and Mk = Mk,α. Let V −
+k,α =
+{w ∈ Vk,α : pw < k
+m }, and V +
+k,α = {w ∈ Vk,α : pw > k
+m }. Let
+X− = ∑
+w∈V −
+k,α
+( k
+m − pw
+)
+Xw,k, X+ = ∑
+w∈V +
+k,α
+(
+pw − k
+m
+)
+Xw,k,
+and let X? specify either X− or X+. By the deﬁnition, for w ∈ Vk,α we have
+⏐
+⏐ k
+m − pw
+⏐
+⏐ = O
+(
+α
+√
+k
+m
+)
+.
+By Lemma 18, |Vk,α| = O
+(m
+k
+)
+. By Lemma 19, for w ∈ Vk,α we have E[Xw,k] = O
+(
+1√
+k
+)
+. Therefore,
+|E[X?]| ≤ ∑
+w∈Vk,α
+⏐
+⏐
+⏐
+⏐
+k
+m − pw
+⏐
+⏐
+⏐
+⏐E[Xw,k] = O
+(
+m
+k
+α
+√
+k
+m
+1√
+k
+)
+= O
+(α
+k
+)
+. (8)
+Both X− and X+ are linear combinations of Xw,k, where the coefﬁcients are O
+(
+α
+√
+k
+m
+)
+and the
+expectation is O
+(α
+k
+)
+. Therefore, by Lemma 24, we have
+∀
+δ
+4 S : |X? − E[X?]| = O
+(√
+α4
+m
+√
+k
++ α3√
+k
+m
+)
+. (9)
+By the deﬁnition of X− and X+, Mk,α − ˆMk,α = X+ − X−. Combining Equations (8) and (9), we
+have ∀δS:
+|Mk − ˆMk| = |Mk,α − ˆMk,α| = |X+ − X−|
+≤ | X+ − E[X+]| + |E[X+]| + |X− − E[X−]| + |E[X−]|
+= O
+(√
+α4
+m
+√
+k
++ α3√
+k
+m + α
+k
+)
+= O
+
+
+√
+k
+(
+ln m
+δ
+)3
+2
+m +
+√ln m
+δ
+k
+
+ ,
+since
+√
+ab = O(a + b), and we use a = α3√
+k
+m and b = α
+k .
+3.3 Combined Estimator
+In this section we combine the Good-Turing estimator with the empirical frequenc ies to derive a
+combined estimator, which is uniformly accurate for all values of k.
+Deﬁnition 27 We deﬁne ˜Mk, a combined estimator for Mk, by
+˜Mk =
+{
+Gk k ≤ m
+2
+5
+ˆMk k > m
+2
+5 .
+1242
+
+PDF PAGE 13
+CONCENTRATION BOUNDS FOR UNIGRAM LANGUAGE MODELS
+Lemma 28 (McAllester and Schapire, 2000) Let k ∈ {0, . . . ,m}. For any δ > 0, we have
+∀δS : |Gk − Mk| = O
+
+
+√
+ln 1
+δ
+m
+(
+k + ln m
+δ
+)
+
+ .
+The following theorem shows that ˜Mk has an error bounded by ˜O
+(
+m− 2
+5
+)
+, for any k. For small k,
+we use Lemma 28. Theorem 25 is used for 18ln 8m
+δ < k ≤ m
+2
+5 . Theorem 26 is used for m
+2
+5 < k < m
+2 .
+The complete proof also handles k ≥ m
+2 . The theorem refers to ˜Mk as a probability estimator, and
+does not show that it is a probability distribution by itself.
+Theorem 29 Let δ > 0. For any k ∈ {0, . . . ,m}, we have
+∀δS, | ˜Mk − Mk| = ˜O
+(
+m− 2
+5
+)
+.
+The following theorem shows a weak lower bound for approximating Mk. It applies to estimat-
+ing Mk based on a different independent sample. This is a very “weak” notation , since Gk, as well
+as ˆMk, are based on the same sample as Mk.
+Theorem 30 Suppose that the vocabulary consists of m
+k words distributed uniformly (that is p w =
+k
+m), where 1 ≪ k ≪ m. The variance of Mk is Θ
+(√
+k
+m
+)
+.
+4. Leave-One-Out Estimation of Log-Loss
+Many NLP applications use log-loss as the learning performance criteria. Since the log-loss depends
+on the underlying probabilityP, its value cannot be explicitly calculated, and must be approximated.
+The main result of this section, Theorem 32, is an upper bound on the leave -one-out estimation of
+the log-loss, assuming a general family of learning algorithms.
+Given a sample S = {s1, . . . ,sm}, the goal of a learning algorithm is to approximate the true
+probability P by some probability Q. We denote the probability assigned by the learning algorithm
+to a word w by qw.
+Deﬁnition 31 We assume that any two words with equal sample frequency are assignedequal prob-
+abilities in Q, and therefore denote qw by q(cw). Let the log-loss of a distribution Q be
+L = ∑
+w∈V
+pw ln 1
+qw
+= ∑
+k≥0
+Mk ln 1
+q(k) .
+Let the leave-one-out estimation, q′
+w, be the probability assigned to w, when one of its instances
+is removed. We assume that any two words with equal sample frequency a re assigned equal leave-
+one-out probability estimation, and therefore denote q ′
+w by q ′(cw). We deﬁne the leave-one-out
+estimation of the log-loss as averaging the loss of each sample word, when it is extracted from the
+sample and pretended to be the test sample:
+1243
+
+PDF PAGE 14
+DRUKH AND MANSOUR
+Lleave−one = ∑
+w∈V
+cw
+m ln 1
+q′
+w
+= ∑
+k>0
+knk
+m ln 1
+q′(k) .
+Let Lw = L(cw) = ln 1
+q(cw), and L′
+w = L′(cw) = ln 1
+q′(cw). Let the maximal loss be
+Lmax = max
+k
+max
+{
+L(k),L′(k + 1)
+}
+.
+In this section we discuss a family of learning algorithms, that receive the samp le as an input.
+Assuming an accuracy parameter δ, we require the following properties to hold:
+1. Starting from a certain number of appearances, the estimation is close to thesample frequency.
+Speciﬁcally, for some α,β ∈ [0,1],
+∀k ≥ ln
+(4m
+δ
+)
+, q(k) = k − α
+m − β . (10)
+2. The algorithm is stable when a single word is extracted from the sample:
+∀m, 2 ≤ k ≤ 10ln 4m
+δ ,
+⏐
+⏐L′(k + 1) − L(k)
+⏐
+⏐ = O
+( 1
+m
+)
+, (11)
+∀m, ∀S s.t. nS
+1 > 0, k ∈ {0,1},
+⏐
+⏐L′(k + 1) − L(k)
+⏐
+⏐ = O
+( 1
+nS
+1
+)
+. (12)
+An example of such an algorithm is the following leave-one-out algorithm (we assume that the
+vocabulary is large enough so that n0 + n1 > 0):
+qw =
+{ N−n0−1
+(n0+n1)(m−1) cw ≤ 1
+cw−1
+m−1 cw ≥ 2.
+Equation (10) is satisﬁed byα = β = 1. Equation (11) is satisﬁed fork ≥ 2 by L(k) −L′(k +1) =
+ln
+(m−1
+m−2
+)
+= O
+(1
+m
+)
+. Equation (12) is satisﬁed for k ≤ 1:
+|L′(1) − L(0)| =
+⏐
+⏐
+⏐
+⏐ln
+(N − n0 − 1
+N − n0 − 2
+m − 2
+m − 1
+)⏐
+⏐
+⏐
+⏐ = O
+( 1
+N − n0
++ 1
+m
+)
+= O
+( 1
+n1
+)
+,
+|L′(2) − L(1)| =
+⏐
+⏐
+⏐
+⏐ln
+(n0 + n1 + 1
+n0 + n1
+m − 2
+m − 1
+)⏐
+⏐
+⏐
+⏐ = O
+( 1
+n0 + n1
++ 1
+m
+)
+= O
+( 1
+n1
+)
+.
+The following is the main theorem of this section. It bounds the deviation between the between
+the true loss and the leave one out estimate. This bound shows that for a general family of learning
+algorithms, leave-one-out technique can be effectively used to estimate the logarithmic loss, given
+the sample only. The estimation error bound decreases roughly in proportio n to the square root of
+the sample size, regardless of the underlying distribution.
+1244
+
+PDF PAGE 15
+CONCENTRATION BOUNDS FOR UNIGRAM LANGUAGE MODELS
+Theorem 32 For a learning algorithm satisfying Equations (10), (11), and (12), and δ > 0, we
+have:
+∀δS, |L − Lleave−one| = O
+(
+Lmax
+√
+(ln m
+δ )4 ln
+ln m
+δ
+δ
+m
+)
+.
+The proof of Theorem 32 bounds the estimation error separately for the h igh-probability and
+low-probability words. We use Lemma 20 (McAllester and Schapire, 2000) tobound the estimation
+error for low-probability words. The expected estimation error for the hig h-probability words is
+bounded elementarily using the deﬁnition of the binomial distribution (Lemma 33). Finally, we use
+McDiarmid’s inequality (Lemma 2) to bound its deviation.
+The next lemma shows that the expectation of the leave-one-out method is a good approximation
+for the per-word expectation of the logarithmic loss.
+Lemma 33 Let 0 ≤ α ≤ 1, and y ≥ 1. Let B n ∼ Bin(n, p) be a binomial random variable. Let
+fy(x) = ln(max(x,y)). Then,
+0 ≤ E
+[
+p fy(Bn − α) − Bn
+n fy(Bn − α − 1)
+]
+≤ 3p
+n .
+Proof For a real valued function F (here F(x) = fy(x − α)), we have:
+E
+[ Bn
+n F(Bn − 1)
+]
+=
+n
+∑
+x=0
+(n
+x
+)
+px(1 − p)n−x x
+nF(x − 1)
+= p
+n
+∑
+x=1
+(n − 1
+x − 1
+)
+px−1(1 − p)(n−1)−(x−1)F(x − 1)
+= pE[F(Bn−1)] ,
+where we used
+(n
+x
+)x
+n =
+(n−1
+x−1
+)
+. Since Bn ∼ Bn−1 + B1, we have:
+E
+[
+p fy(Bn − α) − Bn
+n fy(Bn − α − 1)
+]
+= p(E[ fy(Bn−1 + B1 − α)] − E[ fy(Bn−1 − α)])
+= pE
+[
+ln max(Bn−1 + B1 − α,y)
+max(Bn−1 − α,y)
+]
+≤ pE
+[
+ln max(Bn−1 − α + B1,y + B1)
+max(Bn−1 − α,y)
+]
+= pE
+[
+ln(1 + B1
+max(Bn−1 − α,y) )
+]
+≤ pE
+[ B1
+max(Bn−1 − α,y)
+]
+.
+Since B1 and Bn−1 are independent, we get
+1245
+
+PDF PAGE 16
+DRUKH AND MANSOUR
+pE
+[ B1
+max(Bn−1 − α,y)
+]
+= pE[B1]E
+[ 1
+max(Bn−1 − α,y)
+]
+= p2E
+[ 1
+max(Bn−1 − α,y)
+]
+= p2
+n−1
+∑
+x=0
+(n − 1
+x
+)
+px(1 − p)n−1−x 1
+max(x − α,y)
+= p2
+n−1
+∑
+x=0
+(n − 1
+x
+)
+px(1 − p)n−1−x 1
+x + 1
+x + 1
+max(x − α,y)
+≤ p
+n max
+x
+( x + 1
+max(x − α,y)
+)n−1
+∑
+x=0
+( n
+x + 1
+)
+px+1(1 − p)n−(x+1)
+≤ 3p
+n (1 − (1 − p)n) < 3p
+n . (13)
+Equation (13) follows by the following observation: x + 1 ≤ 3(x − α) for x ≥ 2, and x + 1 ≤ 2y
+for x ≤ 1. Finally, pE
+[
+ln max(Bn−1−α+B1,y)
+max(Bn−1−α,y)
+]
+≥ 0, which implies the lower bound of the lemma.
+The following lemma bounds n2 as a function of n1.
+Lemma 34 Let δ > 0. We have ∀δS: n2 = O
+((√
+mln 1
+δ + n1
+)
+ln m
+δ
+)
+.
+Theorem 32 Proof Let yw =
+(
+1 −
+√
+3
+5
+)
+pwm − 2. By Lemma 9, with λ = 5, we have ∀
+δ
+2 S:
+∀w ∈ V : pw > 3ln 4m
+δ
+m ,
+⏐
+⏐pw − cw
+m
+⏐
+⏐ ≤
+√
+3pw ln 4m
+δ
+m (14)
+∀w ∈ V : pw > 5ln 4m
+δ
+m , cw > yw + 2 ≥ (5 −
+√
+15)ln 4m
+δ > ln 4m
+δ . (15)
+Let VH =
+{
+w ∈ V : pw >
+5ln 4m
+δ
+m
+}
+and VL = V \VH. We have
+|L − Lleave−one| ≤
+⏐
+⏐
+⏐
+⏐
+⏐ ∑
+w∈VH
+(
+pwLw − cw
+m L′
+w
+)⏐
+⏐
+⏐
+⏐
+⏐ +
+⏐
+⏐
+⏐
+⏐
+⏐ ∑
+w∈VL
+(
+pwLw − cw
+m L′
+w
+)⏐
+⏐
+⏐
+⏐
+⏐ . (16)
+We start by bounding the ﬁrst term of Equation (16). By Equation (15), we have ∀w ∈ VH,cw >
+yw + 2 > ln 4m
+δ . Equation (10) implies that qw = cw−α
+m−β , therefore Lw = ln m−β
+cw−α = ln m−β
+max(cw−α,yw), and
+L′
+w = ln m−1−β
+cw−1−α = ln m−1−β
+max(cw−1−α,yw). Let
+Err H
+w = cw
+m ln m − β
+max(cw − 1 − α,yw) − pw ln m − β
+max(cw − α,yw) .
+We have
+1246
+
+PDF PAGE 17
+CONCENTRATION BOUNDS FOR UNIGRAM LANGUAGE MODELS
+⏐
+⏐
+⏐
+⏐
+⏐ ∑
+w∈VH
+(cw
+m L′
+w − pwLw
+)⏐
+⏐
+⏐
+⏐
+⏐ =
+⏐
+⏐
+⏐
+⏐
+⏐ ∑
+w∈VH
+Err H
+w + ln m − 1 − β
+m − β ∑
+w∈VH
+cw
+m
+⏐
+⏐
+⏐
+⏐
+⏐
+≤
+⏐
+⏐
+⏐
+⏐
+⏐ ∑
+w∈VH
+Err H
+w
+⏐
+⏐
+⏐
+⏐
+⏐ + O
+( 1
+m
+)
+. (17)
+We bound
+⏐
+⏐∑w∈VH Err H
+w
+⏐
+⏐ using McDiarmid’s inequality. As in Lemma 33, letfw(x) = ln(max(x,yw)).
+We have
+E
+[
+Err H
+w
+]
+= ln(m − β)E
+[cw
+m − pw
+]
++ E
+[
+pw fw(cw − α) − cw
+m fw(cw − 1 − α)
+]
+.
+The ﬁrst expectation equals 0, the second can be bounded using Lemma 33:
+⏐
+⏐
+⏐
+⏐
+⏐ ∑
+w∈VH
+E
+[
+Err H
+w
+]
+⏐
+⏐
+⏐
+⏐
+⏐ ≤ ∑
+w∈VH
+⏐
+⏐
+⏐E
+[
+pw fw(cw − α) − cw
+m fw(cw − 1 − α)
+]⏐
+⏐
+⏐
+≤ ∑
+w∈VH
+3pw
+m = O
+( 1
+m
+)
+. (18)
+In order to use McDiarmid’s inequality, we bound the change of ∑w∈VH Err H
+w as a function of a
+single change in the sample. Suppose that a word u is replaced by a word v. This results in decrease
+for cu, and increase for cv. Recalling that yw = Ω (mpw), the change of Err H
+u , as well as the change
+of Err H
+v , is bounded by O
+(lnm
+m
+)
+, as follows:
+The change of pu ln m−β
+max(cu−α,yu) would be 0 if cu − α ≤ yu. Otherwise,
+⏐
+⏐
+⏐
+⏐pu ln m − β
+max(cu − 1 − α,yu) − pu ln m − β
+max(cu − α,yu)
+⏐
+⏐
+⏐
+⏐
+≤ pu[ln(cu − α) − ln(cu − 1 − α)] = pu ln
+(
+1 + 1
+cu − 1 − α
+)
+= O
+( pu
+cu
+)
+.
+Since cu ≥ yu = Ω (mpu), the change is bounded byO( pu
+cu
+) = O( 1
+m ). The change of cu
+m ln m−β
+max(cu−1−α,yu)
+would be O( lnm
+m ) if cu − 1 − α ≤ yu. Otherwise,
+⏐
+⏐
+⏐
+⏐
+cu − 1
+m ln m − β
+max(cu − 2 − α,yu) − cu
+m ln m − β
+max(cu − 1 − α,yu)
+⏐
+⏐
+⏐
+⏐
+≤ cu − 1
+m
+⏐
+⏐
+⏐
+⏐ln m − β
+max(cu − 2 − α,yu) − ln m − β
+max(cu − 1 − α,yu)
+⏐
+⏐
+⏐
+⏐ + 1
+m ln m − β
+max(cu − 1 − α,yu)
+≤ cu − 1
+m ln
+(
+1 + 1
+cu − 2 − α
+)
++ lnm
+m = O
+(lnm
+m
+)
+.
+The change of Err H
+v is bounded in a similar way.
+1247
+
+PDF PAGE 18
+DRUKH AND MANSOUR
+By Equations (17) and (18), and Lemma 2, we have ∀
+δ
+16 S:
+⏐
+⏐
+⏐
+⏐
+⏐ ∑
+w∈VH
+(cw
+m L′
+w − pwLw
+)⏐
+⏐
+⏐
+⏐
+⏐
+≤
+⏐
+⏐
+⏐
+⏐
+⏐ ∑
+w∈VH
+Err H
+w − E
+[
+∑
+w∈VH
+Err H
+w
+] ⏐
+⏐
+⏐
+⏐
+⏐ +
+⏐
+⏐
+⏐
+⏐
+⏐E
+[
+∑
+w∈VH
+Err H
+w
+] ⏐
+⏐
+⏐
+⏐
+⏐ + O
+( 1
+m
+)
+≤ O
+(
+lnm
+m
+√
+mln 1
+δ + 1
+m + 1
+m
+)
+= O
+
+
+√
+(lnm)2 ln 1
+δ
+m
+
+ . (19)
+Next, we bound the second term of Equation (16). By Lemma 10, we have ∀
+δ
+4 S:
+∀w ∈ V s.t. pw ≤ 3ln 4m
+δ
+m , cw ≤ 6ln 4m
+δ . (20)
+Let b = 5ln 4m
+δ . By Equations (14) and (20), for any w such that pw ≤ b
+m, we have
+cw
+m ≤ max
+
+
+pw +
+√
+3pw ln 4m
+δ
+m , 6ln 4m
+δ
+m
+
+
+ ≤ (5 +
+√
+3 ∗ 5)ln 4m
+δ
+m < 2b
+m .
+Therefore ∀w ∈VL, we havecw < 2b. Let nL
+k = |VL ∩Sk|, GL
+k−1 = k
+m−k+1nL
+k , and ML
+k = ∑w∈VL∩Sk pw.
+We have
+⏐
+⏐
+⏐
+⏐
+⏐ ∑
+w∈VL
+(cw
+m L′
+w − pwLw
+)⏐
+⏐
+⏐
+⏐
+⏐
+=
+⏐
+⏐
+⏐
+⏐
+⏐
+2b
+∑
+k=1
+knL
+k
+m L′(k) −
+2b−1
+∑
+k=0
+ML
+k L(k)
+⏐
+⏐
+⏐
+⏐
+⏐
+≤
+⏐
+⏐
+⏐
+⏐
+⏐
+2b
+∑
+k=1
+knL
+k
+m − k + 1L′(k) −
+2b−1
+∑
+k=0
+ML
+k L(k)
+⏐
+⏐
+⏐
+⏐
+⏐ +
+2b
+∑
+k=1
+knL
+k L′(k)
+( 1
+m − k + 1 − 1
+m
+)
+=
+⏐
+⏐
+⏐
+⏐
+⏐
+2b
+∑
+k=1
+GL
+k−1L′(k) −
+2b−1
+∑
+k=0
+ML
+k L(k)
+⏐
+⏐
+⏐
+⏐
+⏐ + O
+(bLmax
+m
+)
+=
+⏐
+⏐
+⏐
+⏐
+⏐
+2b−1
+∑
+k=0
+GL
+k L′(k + 1) −
+2b−1
+∑
+k=0
+ML
+k L(k)
+⏐
+⏐
+⏐
+⏐
+⏐ + O
+(bLmax
+m
+)
+≤
+2b−1
+∑
+k=0
+GL
+k |L′(k + 1) − L(k)| +
+2b−1
+∑
+k=0
+|GL
+k − ML
+k |L(k) +O
+(bLmax
+m
+)
+. (21)
+The ﬁrst sum of Equation (21) is bounded using Equations (11) and (12), and Lemma 34:
+1248
+
+PDF PAGE 19
+CONCENTRATION BOUNDS FOR UNIGRAM LANGUAGE MODELS
+2b−1
+∑
+k=0
+GL
+k |L′(k + 1) − L(k)|
+=
+2b−1
+∑
+k=2
+GL
+k |L′(k + 1) − L(k)| + G0|L′(1) − L(0)| + G1|L′(2) − L(1)|. (22)
+The ﬁrst term of Equation (22) is bounded by Equation (11):
+2b−1
+∑
+k=2
+GL
+k |L′(k + 1) − L(k)| ≤
+2b−1
+∑
+k=2
+GL
+k · O
+( 1
+m
+)
+= O
+( 1
+m
+)
+. (23)
+The other two terms are bounded using Lemma 34. Forn1 > 0, we have∀
+δ
+16 S, n2 = O
+(
+b
+(√
+mln 1
+δ + n1
+))
+.
+By Equation (12), we have
+G0|L′(1) − L(0)| + G1|L′(2) − L(1)|
+≤ n1
+m · O
+( 1
+n1
+)
++ 2n2
+m − 1 · O
+( 1
+n1
+)
+= O
+
+b
+√
+ln 1
+δ
+m
+
+ . (24)
+For n1 = 0, Lemma 34 results in n2 = O
+(
+b
+√
+mln 1
+δ
+)
+, and Equation (24) transforms into
+G1|L′(2) − L(1)| ≤ 2n2Lmax
+m − 1 = O
+
+bLmax
+√
+ln 1
+δ
+m
+
+ . (25)
+Equations (22), (23), (24), and (25) sum up to
+2b−1
+∑
+k=0
+GL
+k |L′(k + 1) − L(k)| = O
+
+bLmax
+√
+ln 1
+δ
+m
+
+ . (26)
+The second sum of Equation (21) is bounded using Lemma 28 separately for every k < 2b with
+accuracy δ
+16b. Since the proof of Lemma 28 also holds for GL
+k and ML
+k (instead of Gk and Mk), we
+have ∀
+δ
+8 S, for every k < 2b, |GL
+k −ML
+k | = O
+(
+b
+√
+ln b
+δ
+m
+)
+. Therefore, together with Equations (21) and
+(26), we have
+⏐
+⏐
+⏐
+⏐
+⏐ ∑
+w∈VL
+(cw
+m L′
+w − pwLw
+)⏐
+⏐
+⏐
+⏐
+⏐ ≤ O
+
+bLmax
+√
+ln 1
+δ
+m
+
+ +
+2b−1
+∑
+k=0
+L(k)O
+
+b
+√
+ln b
+δ
+m
+
+ + O
+(bLmax
+m
+)
+= O
+
+Lmax
+√
+b4 ln b
+δ
+m
+
+ . (27)
+1249
+
+PDF PAGE 20
+DRUKH AND MANSOUR
+The proof follows by combining Equations (16), (19), and (27).
+5. Log-Loss A Priori
+Section 4 bounds the error of the leave-one-out estimation of the log-loss. It shows that the log-loss
+can be effectively estimated, for a general family of learning algorithms.
+Another question to be considered is the log-loss distribution itself, without the empirical esti-
+mation. That is, how large (or low) is it expected to be, and which parameters of the distribution
+affect it.
+We denote the learning error (equivalent to the log-loss) as the KL-divergence between the true
+and the estimated distribution. We refer to a general family of learning algorithms, and show lower
+and upper bounds for the learning error.
+The upper bound (Theorem 39) can be divided to three parts. The ﬁrst part is the missing mass.
+The other two build a trade-off between a threshold (lower thresholds leads to a lower bound), and
+the number of words with probability exceeding this threshold (fewer wordslead to a lower bound).
+It seems that this number of words is a necessary lower bound, as we show at Theorem 35.
+Theorem 35 Let the distribution be uniform: ∀w ∈ V : pw = 1
+N , with N ≪ m. Also, suppose that the
+learning algorithm just uses maximum-likelihood approximation, meaning qw = cw
+m . Then, a typical
+learning error would be Ω ( N
+m ).
+The proof of Theorem 35 bases on the Pinsker inequality (Lemma 36). It ﬁ rst shows a lower
+bound for L1 norm between the true and the expected distributions, and then transforms it to the
+form of the learning error.
+Lemma 36 (Pinsker Inequality) Given any two distributions P and Q, we have
+KL(P||Q) ≥ 1
+2 (L1(P,Q))2.
+Theorem 35 Proof We ﬁrst show thatL1(P,Q) concentrates near Ω
+(√
+N
+m
+)
+. Then, we use Pinsker
+inequality to show lower bound5 of KL(P||Q).
+First we ﬁnd a lower bound for E[|pw − qw|]. Since cw is a binomial random variable, σ2[cw] =
+mpw(1 − pw) = Ω
+(m
+N
+)
+, and with some constant probability,|cw −mpw| > σ[cw]. Therefore, we have
+E[|qw − pw|] = 1
+mE[|cw − mpw|]
+≥ 1
+mσ[cw]P(|cw − mpw| > σ[cw]) = Ω
+( 1
+m
+√m
+N
+)
+= Ω
+( 1√
+mN
+)
+E
+[
+∑
+w∈V
+|pw − qw|
+]
+= Ω
+(
+N 1√
+mN
+)
+= Ω
+(√
+N
+m
+)
+.
+5. This proof does not optimize the constants. Asymptotic analysis of logar ithmic transform of binomial variables by
+Flajolet (1999) can be used to achieve explicit values for KL(P||Q).
+1250
+
+PDF PAGE 21
+CONCENTRATION BOUNDS FOR UNIGRAM LANGUAGE MODELS
+A single change in the sample changes L1(P,Q) by at most 2
+m. Using McDiarmid inequality
+(Lemma 2) on L1(P,Q) as a function of sample words, we have ∀
+1
+2 S:
+L1(P,Q) ≥ E[L1(P,Q)] − |L1(P,Q) − E[L1(P,Q)]|
+= Ω
+(√
+N
+m
+)
+− O
+(√m
+m
+)
+= Ω
+(√
+N
+m
+)
+.
+Using Pinsker inequality (Lemma 36), we have
+∀
+1
+2 S, ∑
+w∈V
+pw ln pw
+qw
+≥ 1
+2
+(
+∑
+w∈V
+|pw − qw|
+)2
+= Ω
+(N
+m
+)
+,
+which completes the proof.
+Deﬁnition 37 Let α ∈ (0,1) and τ ≥ 1. We deﬁne an (absolute discounting) algorithm A α,τ, which
+“removes” α
+m probability mass from words appearing at most τ times, and uniformly spreads it
+among the unseen words. We denote by n 1...τ = ∑τ
+i=1 ni the number of words with count between 1
+and τ. The learned probability Q is deﬁned by :
+qw =
+
+
+
+αn1...τ
+mn0
+cw = 0
+cw−α
+m 1 ≤ cw ≤ τ
+cw
+m τ < cw.
+The α parameter can be set to some constant, or to make the missing mass match the Good-
+Turing missing mass estimator, that is αn1...τ
+m = n1
+m .
+Deﬁnition 38 Given a distribution P, and x ∈ [0,1], let F x = ∑w∈V :pw≤x pw, and N x = |{w ∈ V :
+pw > x}|. Clearly, for any distribution P, F x is a monotone function of x, varying from 0 to 1, and
+Nx is a monotone function of x, varying from N to 0. Note that Nx is bounded by 1
+x .
+The next theorem shows an upper bound for the learning error.
+Theorem 39 For any δ > 0 and λ > 3, such that τ < (λ −
+√
+3λ)ln 8m
+δ , the learning error of Aα,τ is
+bounded ∀δS by
+0 ≤ ∑
+w∈V
+pw ln
+( pw
+qw
+)
+≤ M0 ln
+(
+n0 ln 4m
+δ
+αn1...τ
+)
++ λln 8m
+δ
+1 − α
+
+
+√
+3ln 8
+δ
+m + M0
+
+
++ α
+1 − αFλln 8m
+δ
+m
++
+√
+3ln 8
+δ
+m + 3λln 8m
+δ
+2(
+√
+λ −
+√
+3)2m
+N λln 8m
+δ
+m
+.
+1251
+
+PDF PAGE 22
+DRUKH AND MANSOUR
+The proof of Theorem 39 bases directly on Lemmas 40, 41, and 43. We ca n rewrite this bound
+roughly as
+∑
+w∈V
+pw ln
+( pw
+qw
+)
+≤ ˜O
+(
+M0 + λ√m +
+N λ
+m
+m
+)
+.
+This bound implies the characteristics of the distribution inﬂuencing the log-loss . It shows
+that a “good” distribution can involve many low-probability words, given tha t the missing mass
+is low. However, the learning error would increase if the dictionary include d many mid-range-
+probability words. For example, if a typical word’s probability werem− 3
+4 , the bound would become
+˜O
+(
+M0 + m− 1
+4
+)
+.
+Lemma 40 For any δ > 0, the learning error for non-appearing words can be bounded with high
+probability by
+∀δS, ∑
+w /∈S
+pw ln
+( pw
+qw
+)
+≤ M0 ln
+(n0 ln m
+δ
+αn1...τ
+)
+.
+Proof By Lemma 13, we have ∀δS, the real probability of any non-appearing word does not exceed
+ln m
+δ
+m . Therefore,
+∑
+w /∈S
+pw ln
+( pw
+qw
+)
+= ∑
+w /∈S
+pw ln
+(
+pw
+m
+α
+n0
+n1...τ
+)
+≤ ∑
+w /∈S
+pw ln
+(ln m
+δ
+m
+m
+α
+n0
+n1...τ
+)
+= M0 ln
+(n0 ln m
+δ
+αn1...τ
+)
+,
+which completes the proof.
+Lemma 41 Let δ > 0, λ > 0. Let VL =
+{
+w ∈ V : pw ≤
+λln 2m
+δ
+m
+}
+, and V′
+L = VL ∩ S. The learning error
+for V ′
+L can be bounded with high probability by
+∀δS, ∑
+w∈V ′
+L
+pw ln
+( pw
+qw
+)
+≤ λln 2m
+δ
+1 − α
+
+
+√
+3ln 2
+δ
+m + M0
+
+ + α
+1 − αFλln 2m
+δ
+m
+.
+Proof We use ln(1 + x) ≤ x.
+∑
+w∈V ′
+L
+pw ln pw
+qw
+≤ ∑
+w∈V ′
+L
+pw
+pw − qw
+qw
+.
+For any appearing word w, qw ≥ 1−α
+m . Therefore,
+1252
+
+PDF PAGE 23
+CONCENTRATION BOUNDS FOR UNIGRAM LANGUAGE MODELS
+∑
+w∈V ′
+L
+pw
+pw − qw
+qw
+≤ m
+1 − α ∑
+w∈V ′
+L
+pw(pw − qw)
+= m
+1 − α
+[
+∑
+w∈V ′
+L
+pw
+(
+pw − cw
+m
+)
++ ∑
+w∈V ′
+L
+pw
+(cw
+m − qw
+)]
+≤ m
+1 − α
+⏐
+⏐
+⏐
+⏐
+⏐ ∑
+w∈V ′
+L
+pw
+(
+pw − cw
+m
+)⏐
+⏐
+⏐
+⏐
+⏐ + m
+1 − α ∑
+w∈V ′
+L
+pw
+α
+m
+≤ m
+1 − α
+λln 2m
+δ
+m
+⏐
+⏐
+⏐
+⏐
+⏐ ∑
+w∈V ′
+L
+(
+pw − cw
+m
+)⏐
+⏐
+⏐
+⏐
+⏐ + α
+1 − α ∑
+w∈V ′
+L
+pw
+≤ λln 2m
+δ
+1 − α
+⏐
+⏐
+⏐
+⏐
+⏐ ∑
+w∈V ′
+L
+(
+pw − cw
+m
+)⏐
+⏐
+⏐
+⏐
+⏐ + α
+1 − αFλln 2m
+δ
+m
+. (28)
+We apply Lemma 12 on vL, the union of words in VL. Let pvL = ∑w∈VL pw and cvL = ∑w∈VL cw.
+We have ∀δS:
+⏐
+⏐
+⏐
+⏐
+⏐ ∑
+w∈V ′
+L
+(
+pw − cw
+m
+)⏐
+⏐
+⏐
+⏐
+⏐ =
+⏐
+⏐
+⏐
+⏐
+⏐ ∑
+w∈VL
+(
+pw − cw
+m
+)
+− ∑
+w∈VL\S
+(
+pw − cw
+m
+)⏐
+⏐
+⏐
+⏐
+⏐
+≤
+⏐
+⏐
+⏐
+⏐
+⏐ ∑
+w∈VL
+(
+pw − cw
+m
+)⏐
+⏐
+⏐
+⏐
+⏐ + ∑
+w∈VL\S
+pw
+≤
+⏐
+⏐
+⏐pvL − cvL
+m
+⏐
+⏐
+⏐ + M0
+≤
+√
+3ln 2
+δ
+m + M0. (29)
+The proof follows combining Equations (28) and (29).
+Lemma 42 Let 0 < Δ < 1. For any x ∈ [−Δ ,Δ ], we have ln(1 + x) ≥ x − x2
+2(1−Δ )2 .
+Lemma 43 Let δ > 0, λ > 3, such that τ < (λ −
+√
+3λ)ln 4m
+δ . Let the high-probability words set be
+VH =
+{
+w ∈ V : pw >
+λln 4m
+δ
+m
+}
+, and V′
+H = VH ∩S. The learning error for V′
+H can be bounded with high
+probability by
+∀δS, ∑
+w∈V ′
+H
+pw ln
+( pw
+qw
+)
+≤
+√
+3ln 4
+δ
+m + 3λln 4m
+δ
+2(
+√
+λ −
+√
+3)2m
+N λln 4m
+δ
+m
+.
+1253
+
+PDF PAGE 24
+DRUKH AND MANSOUR
+Proof
+∑
+w∈V ′
+H
+pw ln
+( pw
+qw
+)
+= ∑
+w∈V ′
+H
+pw ln
+( pw
+cw
+m
+)
++ ∑
+w∈V ′
+H
+pw ln
+( cw
+m
+qw
+)
+= ∑
+w∈V ′
+H
+pw ln
+(mpw
+cw
+)
++ ∑
+w∈V ′
+H ,cw≤τ
+pw ln
+( cw
+cw − α
+)
+. (30)
+Using Lemma 9 with λ, we have ∀
+δ
+2 S:
+∀w ∈ VH,
+⏐
+⏐
+⏐pw − cw
+m
+⏐
+⏐
+⏐ ≤
+√
+3pw ln 4m
+δ
+m , (31)
+∀w ∈ VH, cw ≥ (λ −
+√
+3λ)ln 4m
+δ .
+This means that for a reasonable choice of τ (meaning τ < (λ −
+√
+3λ)ln 4m
+δ ), the second term of
+Equation (30) is 0, and V ′
+H = VH. Also,
+⏐
+⏐
+⏐
+⏐
+cw
+m − pw
+pw
+⏐
+⏐
+⏐
+⏐ ≤ 1
+pw
+√
+3pw ln 4m
+δ
+m ≤
+√
+m
+λln 2m
+δ
+3ln 2m
+δ
+m =
+√
+3
+λ .
+Therefore, we can use Lemma 42 with Δ =
+√
+3
+λ:
+∑
+w∈V ′
+H
+pw ln
+(mpw
+cw
+)
+= − ∑
+w∈VH
+pw ln
+(
+1 +
+cw
+m − pw
+pw
+)
+≤ − ∑
+w∈VH
+pw
+
+
+
+cw
+m − pw
+pw
+− 1
+2
+(
+1 −
+√
+3
+λ
+)2
+( cw
+m − pw
+pw
+)2
+
+
+
+= ∑
+w∈VH
+(
+pw − cw
+m
+)
++ λ
+2
+(√
+λ −
+√
+3
+)2 ∑
+w∈VH
+(cw
+m − pw
+)2
+pw
+. (32)
+We apply Lemma 12 on the vH, the union of all words in VH. Let pvH = ∑w∈VH pw and cvH =
+∑w∈VH cw. The bound on the ﬁrst term of Equation (32) is:
+∀
+δ
+2 S,
+⏐
+⏐
+⏐
+⏐
+⏐ ∑
+w∈VH
+(
+pw − cw
+m
+)⏐
+⏐
+⏐
+⏐
+⏐ =
+⏐
+⏐
+⏐pvH − cvH
+m
+⏐
+⏐
+⏐ ≤
+√
+3ln 4
+δ
+m . (33)
+Assuming that Equation (31) holds, the second term of Equation (32) can also be bounded:
+1254
+
+PDF PAGE 25
+CONCENTRATION BOUNDS FOR UNIGRAM LANGUAGE MODELS
+∑
+w∈VH
+(cw
+m − pw
+)2
+pw
+≤ ∑
+w∈VH
+1
+pw
+3pw ln 4m
+δ
+m = 3ln 4m
+δ
+m N λln 4m
+δ
+m
+. (34)
+The proof follows by combining Equations (30), (32), (33) and (34).
+Acknowledgments
+This work was supported in part by the IST Programme of the European Co mmunity, under the
+PASCAL Network of Excellence, IST-2002-506778, by a grant fromthe Israel Science Foundation
+and an IBM faculty award. This publication only reﬂects the authors’ views.
+We are grateful to David McAllester for his important contributions in the early stages of this
+research.
+Appendix A. Technical Proofs
+A.1 Concentration Inequalities
+Lemma 6 Proof We use Stirling approximation Γ(x + 1) =
+√
+2πx
+(x
+e
+)x Tx, where
+Tx = exp
+( 1
+12x + O
+( 1
+x2
+))
+.
+P(X = k) =
+(n
+k
+)
+pk(1 − p)n−k
+≤ Γ(n + 1)
+Γ(µ + 1)Γ(n − µ + 1)
+(µ
+n
+)µ (n − µ
+n
+)n−µ
+=
+√
+2πn√2πµ
+√
+2π(n − µ)
+nn
+µµ(n − µ)n−µ
+µµ
+nµ
+(n − µ)n−µ
+nn−µ
+Tn
+TµTn−µ
+= 1√2πµ
+√ n
+n − µ
+Tn
+TµTn−µ
+= 1√
+2πµ(1 − p)
+Tn
+TµTn−µ
+.
+Clearly, for integral values of µ, the equality is achieved at k = µ.
+Lemma 8 Proof Let m′ = ∑w∈V c′
+w. Using Lemma 7 for m′ with b = c = E[m′] = m, the prob-
+ability P(m′ = m) achieves its minimum when ∀w ∈ V, pw = 1
+N . Under this assumption, we have
+m′ ∼ Bin(mN, 1
+N ). Using Lemma 6, we have
+1255
+
+PDF PAGE 26
+DRUKH AND MANSOUR
+P
+(
+m′ = m
+)
+= 1√
+2πmN 1
+N
+(
+1 − 1
+N
+)
+TmN
+TmTmN−m
+≥ 1
+3√m .
+Therefore, for any distribution {pw : w ∈ V }, we have
+P(m′ = m) ≥ 1
+3√m .
+Obviously, E[F ′] = ∑w E[ fw(c′
+w)] = E[F]. Also, the distribution of {c′
+w} given that m′ = m is
+identical to the distribution of {cw}, therefore the distribution of F ′ given that m′ = m is identical to
+the distribution of F. We have
+P(|F ′ − E[F ′]| > ε) = ∑
+i
+P(m′ = i)P(|F ′ − E[F ′]| > ε|m′ = i)
+≥ P(m′ = m)P(|F ′ − E[F ′]| > ε|m′ = m)
+= P(m′ = m)P(|F − E[F]| > ε)
+≥ 1
+3√mP(|F − E[F]| > ε),
+which completes the proof.
+Lemma 44 For any δ > 0, and a word w ∈ V , such that pw ≥
+3ln 2
+δ
+m , we have
+P
+
+
+⏐
+⏐
+⏐pw − cw
+m
+⏐
+⏐
+⏐ >
+√
+3pw ln 2
+δ
+m
+
+ ≤ δ.
+Proof The proof follows by applying Lemma 3, substitutingε =
+√
+3mpw ln 2
+δ. Note that for 3ln 2
+δ ≤
+mpw we have ε ≤ mpw:
+P
+
+
+⏐
+⏐
+⏐pw − cw
+m
+⏐
+⏐
+⏐ ≥
+√
+3pw ln 2
+δ
+m
+
+ = P (|mpw − cw| ≥ ε)
+≤ 2exp
+(
+− ε2
+2E[cw] +ε
+)
+≤ 2exp
+(
+−3mpw ln 2
+δ
+3mpw
+)
+= δ,
+which completes the proof.
+1256
+
+PDF PAGE 27
+CONCENTRATION BOUNDS FOR UNIGRAM LANGUAGE MODELS
+Lemma 9 Proof There are at most m words with probability pw ≥
+3ln 2m
+δ
+m . The ﬁrst claim follows
+using Lemma 44 together with union bound over all these words (with accuracy δ
+m for each word).
+Using the ﬁrst claim, we derive the second. We show a lower bound for cw
+m , using
+ln 2m
+δ
+m < 1
+λ pw:
+cw
+m ≥ pw −
+√
+3pw ln 2m
+δ
+m > pw − pw
+√
+3
+λ =
+(
+1 −
+√
+3
+λ
+)
+pw.
+The ﬁnal inequality follows from simple algebra.
+Lemma 10 Proof Let b = 3ln ( m
+δ ). Note that δ ∈ [0,1] and m > 1 yield b > 2. First, suppose that
+there are up to m words with pw ≤ b
+m. For each such word, we apply Lemma 3 on cw, with ε = b.
+We have:
+P
+(
+cw > 6ln m
+δ
+)
+≤ P (cw > mpw + ε) ≤ exp
+(
+− b2
+2mpw + b
+)
+≤ δ
+m .
+Since we assume that there are up to m such words, the total mistake probability is δ.
+Now we assume the general case, that is, without any assumption on the number of words. Our
+goal is to reduce the problem to the former conditions, that is, to create a setof size m of words with
+probability smaller than b
+m.
+We ﬁrst create m empty sets v1, . . . ,vm. Let the probability of each set vi, pvi, be the sum of the
+probabilities of all the words it includes. Let the actual count of vi, cvi, be the sum of the sample
+counts of all the words w it includes.
+We divide all the words w between these sets in a bin-packing-approximation manner. We sort
+the words w in decreasing probability order. Then, we do the following loop: insert the next word
+w to the set vi with the currently smallest pvi.
+We claim that pvi ≤ b
+m for each vi at the end of the loop. If this inequality does not hold, then
+some word w made this “overﬂow” ﬁrst. Obviously, pw must be smaller than b
+2m, otherwise it would
+be one of the ﬁrst 2m
+b < m words ordered, and would enter an empty set. If pw < b
+2m and it made
+an “overﬂow”, then the probability of each set at the moment w was entered must exceed b
+2m, since
+w must have entered the lightest set available. This means that the total probab ility of all words
+entered by that moment was greater than m b
+2m > 1.
+Applying the case of m words to the sets v1, . . . ,vm, we have ∀δS: for every vi, cvi ≤ 2b. Also, if
+the count of each set vi does not exceed 2b, so does the count of each word w ∈ vi. That is,
+P
+(
+∃w : pw ≤ b
+m ,cw > 2b
+)
+≤ P
+(
+∃vi : pvi ≤ b
+m ,cvi > 2b
+)
+≤ δ,
+which completes the proof.
+1257
+
+PDF PAGE 28
+DRUKH AND MANSOUR
+Lemma 11 Proof By Lemma 9 with some λ > 3 (which will be set later), we have ∀
+δ
+2 S:
+∀w : pw ≥ 3ln 4m
+δ
+m , |mpw − cw| ≤
+√
+3mpw ln 4m
+δ , (35)
+∀w : pw > λln 4m
+δ
+m , cw >
+(
+1 −
+√
+3
+λ
+)
+mpw. (36)
+By Equation (35), for any wordw such that
+3ln 4m
+δ
+m ≤ pw ≤
+λln 4m
+δ
+m , we havecw ≤ mpw +
+√
+3mpw ln 4m
+δ ≤(
+λ +
+√
+3λ
+)
+ln 4m
+δ . By Lemma 10, we have
+∀
+δ
+2 S, ∀w s.t. pw ≤
+3ln 4m
+δ
+m , cw ≤ 6ln 4m
+δ .
+It means that for any w : mpw ≤ λln 4m
+δ , we have cw ≤
+(
+λ +
+√
+3λ
+)
+ln 4m
+δ . This means that for
+any w such that cw >
+(
+λ +
+√
+3λ
+)
+ln 4m
+δ , we have mpw > λln 4m
+δ . By Equation (36), this means
+mpw ≤ 1
+1−
+√ 3
+λ
+cw, and by Equation (35):
+|mpw − cw| ≤
+√
+3mpw ln 4m
+δ ≤
+
+
+
+√
+3cw ln 4m
+δ
+1 −
+√
+3
+λ
+=
+√
+3cw
+√
+λln 4m
+δ√
+λ −
+√
+3
+.
+Substituting λ = 12 results in
+∀δS : ∀w s.t. cw > 18ln 4m
+δ , |mpw − cw| ≤
+√
+6cw ln 4m
+δ ,
+which completes the proof.
+Lemma 12 Proof If pw ≥
+3ln 2
+δ
+m , we can apply Lemma 44. We have
+∀δS,
+⏐
+⏐
+⏐cw
+m − pw
+⏐
+⏐
+⏐ ≤
+√
+3pw ln 2
+δ
+m ≤
+√
+3ln 2
+δ
+m .
+Otherwise, we can apply Lemma 10. We have:
+∀δS,
+⏐
+⏐
+⏐cw
+m − pw
+⏐
+⏐
+⏐ ≤ max
+{
+pw, cw
+m
+}
+≤ 6ln m
+δ
+m ≤
+√
+3ln 2
+δ
+m ,
+which completes the proof.
+1258
+
+PDF PAGE 29
+CONCENTRATION BOUNDS FOR UNIGRAM LANGUAGE MODELS
+Lemma 13 Proof Let b = ln m
+δ . We note that there are at most m
+b words with probability pw ≥ b
+m.
+P
+(
+∃w : cw = 0, pw ≥ b
+m
+)
+≤ ∑
+w:pw≥ b
+m
+P(cw = 0)
+= ∑
+w:pw≥ b
+m
+(1 − pw)m ≤ m
+b
+(
+1 − b
+m
+)m
+< me−b = δ,
+which completes the proof.
+A.2 K-Hitting Mass Estimation
+Lemma 21 Proof We have ∑w∈Vk,α pw ≤ 1. Using Lemma 19, we bound P(cw = k) and P(cw =
+k + 1):
+E[Mk,α] = ∑
+w∈Vk,α
+pwP(cw = k) = O
+( 1
+√
+k
+)
+|E[Gk,α] − E[Mk,α]| =
+⏐
+⏐
+⏐
+⏐
+⏐ ∑
+w∈Vk,α
+[ k + 1
+m − k P(cw = k + 1) − pwP(cw = k)
+]⏐
+⏐
+⏐
+⏐
+⏐
+= ∑
+w∈Vk,α
+pw
+k + 1
+m − k P(cw = k + 1) = O
+( √
+k
+m
+)
+. (37)
+Equation (37) follows by Lemma 20. By Lemma 18, we have |Vk,α| = O
+(m
+k
+)
+:
+E[Gk,α] = k + 1
+m − k ∑
+w∈Vk,α
+P(cw = k + 1) = O
+( k
+m
+m
+k
+1√
+k
+)
+= O
+( 1√
+k
+)
+,
+which completes the proof.
+Theorem 29 Proof The proof is done by examining four cases of k. For k ≤ 18ln 8m
+δ , we can use
+Lemma 28. We have
+∀δS, | ˜Mk − Mk| = |Gk − Mk| = O
+(√
+ln 1
+δ
+m
+(
+k + ln m
+δ
+))
+= ˜O
+(
+1√m
+)
+.
+For 18ln 8m
+δ < k ≤ m
+2
+5 , we can use Theorem 25. We have
+∀δS, | ˜Mk − Mk| = |Gk − Mk| = O
+(√√
+k ln m
+δ
+m +
+k ln m
+δ
+m
+)
+= ˜O
+(
+m− 2
+5
+)
+.
+1259
+
+PDF PAGE 30
+DRUKH AND MANSOUR
+For m
+2
+5 < k < m
+2 , we can use Theorem 26. We have
+∀δS, | ˜Mk − Mk| = | ˆMk − Mk| = O
+( √
+k(ln m
+δ )
+3
+2
+m +
+√
+ln m
+δ
+k
+)
+= ˜O
+(
+m− 2
+5
+)
+.
+For k ≥ m
+2 , let α =
+√
+6ln 8m
+δ . By Lemma 17, we have∀
+δ
+2 S, Mk = Mk,α ∧ ˆMk = ˆMk,α. By Lemma
+18, |Vk,α| = O
+(m
+k
+)
+= O(1). Let c be the bound on |Vk,α|. Using Lemma 12 for each w ∈ Vk,α with
+accuracy δ
+2c, we have
+∀
+δ
+2 S, ∀w ∈ Vk,α,
+⏐
+⏐
+⏐cw
+m − pw
+⏐
+⏐
+⏐ = O
+
+
+√
+ln 1
+δ
+m
+
+ .
+Therefore, we have ∀δS:
+| ˜Mk − Mk| = | ˆMk,α − Mk,α| ≤ ∑
+w∈Vk,α
+⏐
+⏐
+⏐
+⏐
+k
+m − pw
+⏐
+⏐
+⏐
+⏐Xw,k = O
+
+
+√
+ln 1
+δ
+m
+
+ = ˜O
+( 1
+√m
+)
+,
+which completes the proof.
+Theorem 30 Proof First, we show that for any two wordsu and v, Cov(Xu,k,Xv,k) = Θ
+(k
+m2
+)
+. Note
+that {cv|cu = k} ∼ Bin
+(
+m − k, k
+m−k
+)
+. By Lemma 6, we have:
+P(cu = k) = P(cv = k) = 1√
+2πk
+(
+1 − k
+m
+)
+Tm
+TkTm−k
+, (38)
+P(cv = k|cu = k) = 1√
+2πk
+(
+1 − k
+m−k
+)
+Tm−k
+TkTm−2k
+.
+Using Tx = Θ(1) for x ≥ k, we have
+Cov(Xu,k,Xv,k)
+= E[Xu,kXv,k] − E[Xu,k]E[Xv,k]
+= P(cu = k)[P(cv = k|cu = k) − P(cv = k)]
+= 1
+2πk
+√(
+1 − k
+m
+)
+Tm
+TkTm−k
+
+ 1
+√(
+1 − k
+m−k
+)
+Tm−k
+TkTm−2k
+− 1√(
+1 − k
+m
+)
+Tm
+TkTm−k
+
+
+= Θ
+(1
+k
+)
+ 1
+√(
+1 − k
+m−k
+)
+Tm−k
+Tm−2k
+− 1√(
+1 − k
+m
+)
+Tm
+Tm−k
+
+
+1260
+
+PDF PAGE 31
+CONCENTRATION BOUNDS FOR UNIGRAM LANGUAGE MODELS
+= Θ
+(1
+k
+)
+ Tm−k
+Tm−2k
+
+ 1
+√(
+1 − k
+m−k
+)− 1√(
+1 − k
+m
+)
+
+
++ 1
+√(
+1 − k
+m
+)
+( Tm−k
+Tm−2k
+− Tm
+Tm−k
+)
+ . (39)
+We can bound the ﬁrst term of Equation (39):
+1
+√(
+1 − k
+m−k
+)− 1√(
+1 − k
+m
+) =
+
+
+
+√
+1 − k
+m −
+√
+1 − k
+m−k
+√(
+1 − k
+m−k
+) (
+1 − k
+m
+)
+
+
+
+
+
+
+√
+1 − k
+m +
+√
+1 − k
+m−k
+√
+1 − k
+m +
+√
+1 − k
+m−k
+
+
+
+= Θ
+(
+1 − k
+m − 1 + k
+m − k
+)
+= Θ
+( k2
+m2
+)
+. (40)
+Since Tx = exp
+( 1
+12x + O
+(1
+x2
+))
+= 1 + 1
+12x + O
+(1
+x2
+)
+for x ≥ m − 2k (note that k ≪ m), we have
+Tm−k
+Tm−2k
+− Tm
+Tm−k
+= T 2
+m−k − TmTm−2k
+Tm−2kTm−k
+= 1
+Tm−2kTm−k
+[ 1
+6(m − k) − 1
+12m − 1
+12(m − 2k) + O
+( 1
+m2
+)]
+= −Θ
+( k2
+m3
+)
++ O
+( 1
+m2
+)
+. (41)
+Combining Equations (39), (40), and (41), we have
+Cov(Xu,k,Xv,k) = Θ
+(1
+k
+) [
+Θ
+( k2
+m2
+)
+− Θ
+( k2
+m3
+)
++ O
+( 1
+m2
+)]
+= Θ
+( k
+m2
+)
+.
+Now we show that σ2[Xw,k] = Θ
+(
+1√
+k
+)
+. By Equation (38), we have
+σ2[Xw,k] = P(cw = k)(1 − P(cw = k)) = Θ
+( 1√
+k
+) (
+1 − Θ
+( 1√
+k
+))
+= Θ
+( 1√
+k
+)
+.
+Now we ﬁnd a bound for σ2[Mk].
+σ2[Mk] = σ2
+[
+∑
+w
+pwXw,k
+]
+= ∑
+w
+p2
+wσ2[Xw,k] + ∑
+u̸=v
+pupvCov(Xu,k,Xv,k)
+= m
+k
+( k
+m
+)2
+Θ
+( 1√
+k
+)
++ m
+k
+(m
+k − 1
+)( k
+m
+)2
+Θ
+( k
+m2
+)
+= Θ
+( √
+k
+m
+)
+,
+1261
+
+PDF PAGE 32
+DRUKH AND MANSOUR
+which completes the proof.
+A.3 Leave-One-Out Estimation of Log-Loss
+Lemma 34 Proof Using Lemma 9, we have∀
+δ
+2 : n2 = |U ∩S2| and n1 = |U ∩S1|, where U = {w ∈
+V : mpw ≤ cln m
+δ }, for some c > 0. Let n′
+2 = |U ∩ S2| and n′
+1 = |U ∩ S1|. Let b = ln m
+δ .
+First, we show that E[n′
+2] = O(bE[n′
+1]).
+E[n′
+2] = ∑
+w∈U
+(m
+2
+)
+p2
+w(1 − pw)m−2
+= ∑
+w∈U
+mpw(1 − pw)m−1
+[ m − 1
+2
+pw
+1 − pw
+]
+= ∑
+w∈U
+mpw(1 − pw)m−1O(b) = O(bE[n′
+1]).
+Next, we bound the deviation of n′
+1 and n′
+2. A single change in the sample changes n′
+1, as well
+as n′
+2, by at most 1. Therefore, using Lemma 2 for n′
+1 and n′
+2, we have
+∀
+δ
+4 S : n′
+1 ≥ E[n′
+1] − O
+(√
+mln 1
+δ
+)
+,
+∀
+δ
+4 S : n′
+2 ≤ E[n′
+2] +O
+(√
+mln 1
+δ
+)
+.
+Therefore,
+n′
+2 ≤ E[n′
+2] +O
+(√
+mln 1
+δ
+)
+= O
+(
+bE[n′
+1] +
+√
+mln 1
+δ
+)
+= O
+(
+b
+(
+n′
+1 +
+√
+mln 1
+δ
+))
+,
+which completes the proof.
+A.4 Log-Loss A Priori
+Theorem 39 Proof The KL-divergence is of course non-negative. By Lemma 40, we have
+∀
+δ
+4 S, ∑
+w /∈S
+pw ln
+( pw
+qw
+)
+≤ M0 ln
+(
+n0 ln 4m
+δ
+αn1...τ
+)
+. (42)
+By Lemma 41 with λ, we have ∀
+δ
+4 S:
+1262
+
+PDF PAGE 33
+CONCENTRATION BOUNDS FOR UNIGRAM LANGUAGE MODELS
+∑
+w∈S:pw≤
+λln 8m
+δ
+m
+pw ln
+( pw
+qw
+)
+≤ λln 8m
+δ
+1 − α
+
+
+√
+3ln 8
+δ
+m + M0
+
+ + α
+1 − αFλln 8m
+δ
+m
+. (43)
+By Lemma 43 with λ, we have ∀
+δ
+2 S:
+∑
+w∈S:pw>
+λln 8m
+δ
+m
+pw ln
+( pw
+qw
+)
+≤
+√
+3ln 8
+δ
+m + 3λln 8m
+δ
+2(
+√
+λ −
+√
+3)2m
+N λln 8m
+δ
+m
+. (44)
+The proof follows by combining Equations (42), (43), and (44).
+Lemma 42 Proof Let f (x) = x2
+2(1−Δ )2 − x + ln(1 + x). Then,
+f ′(x) = x
+(1 − Δ )2 − 1 + 1
+1 + x ,
+f ′′(x) = 1
+(1 − Δ )2 − 1
+. (1 + x)2
+Clearly, f (0) = f ′(0) = 0. Also, f ′′(x) ≥ 0 for any x ∈ [−Δ ,Δ ]. Therefore, f (x) is non-negative
+in the range above, and the lemma follows.
+References
+D. Angluin and L. G. Valiant. Fast probabilistic algorithms for Hamiltonian circuitsand matchings.
+Journal of Computer and System Sciences, 18:155–193, 1979.
+S. F. Chen. Building Probabilistic Models for Natural Language. PhD thesis, Harvard University,
+1996.
+S. F. Chen and J. Goodman. An empirical study of smoothing techniques for language modeling.
+Technical Report TR-10-98, Harvard University, 1998.
+K. W. Church and W. A. Gale. A comparison of the enhanced Good-Turing and deleted estimation
+methods for estimating probabilities of English bigrams. Computer Speech and Language , 5:
+19–54, 1991.
+J. R. Curran and M. Osborne. A very very large corpus doesn’t al ways yield reliable estimates. In
+Proceedings of the Sixth Conference on Natural Language Learning, pages 126–131, 2002.
+D. P. Dubhashi and D. Ranjan. Balls and bins: A study in negative dependence. Random Structures
+and Algorithms, 13(2):99–124, 1998.
+1263
+
+PDF PAGE 34
+DRUKH AND MANSOUR
+P. Flajolet. Singularity analysis and asymptotics of Bernoulli sums. Theoretical Computer Science,
+215:371–381, 1999.
+I. J. Good. The population frequencies of species and the estimation of po pulation parameters.
+Biometrika, 40(16):237–264, 1953.
+I. J. Good. Turing’s anticipation of empirical Bayes in connection with the cr yptanalysis of the
+naval Enigma. Journal of Statistical Computation and Simulation, 66(2):101–112, 2000.
+W. Hoeffding. On the distribution of the number of successes in independe nt trials. Annals of
+Mathematical Statistics, 27:713–721, 1956.
+W. Hoeffding. Probability inequalities for sums of bounded random variab les. Journal of the
+American Statistical Association, 58:13–30, 1963.
+S. B. Holden. PAC-like upper bounds for the sample complexity of leave-one-out cross-validation.
+In Proceesings of the Ninth Annual ACM Workshop on Computational Learn ing Theory, pages
+41–50, 1996.
+S. M. Katz. Estimation of probabilities from sparse data for the language mode l component of a
+speech recognizer. IEEE Transactions on Acoustics, Speech and Signal Processing , 35(3):400–
+401, 1987.
+M. Kearns and D. Ron. Algorithmic stability and sanity-check bounds for lea ve-one-out cross-
+validation. Neural Computation, 11(6):1427–1453, 1999.
+S. Kutin. Algorithmic Stability and Ensemble-Based Learning. PhD thesis, University of Chicago,
+2002.
+D. McAllester and L. Ortiz. Concentration inequalities for the missing mass and f or histogram
+rule error. Journal of Machine Learning Research, Special Issue on Learning Theory, 4(Oct):
+895–911, 2003.
+D. McAllester and R. E. Schapire. On the convergence rate of Good-Tu ring estimators. In Pro-
+ceedings of the Thirteenth Annual Conference on Computational Learnin g Theory, pages 1–6,
+2000.
+D. McAllester and R. E. Schapire. Learning theory and language modeling . In Seventeenth Inter-
+national Joint Conference on Artiﬁcial Intelligence, 2001.
+C. McDiarmid. On the method of bounded differences. In Surveys in Combinatorics, pages 148–
+188. London Math. Soc. Lectures Notes 141, Cambridge University Press, 1989.
+A. Orlitsky, N. P. Santhanam, and J. Zhang. Always Good Turing: Asymp totically optimal proba-
+bility estimation. Science, 302(Oct):427–431, 2003.
+1264
