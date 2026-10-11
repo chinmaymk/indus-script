@@ -6128,3 +6128,12 @@ and controlled falsification are research progress, not decipherment. Candidate
 assessment closes; resume already frozen Kuntasi linked-body gate at parked link,
 without repeating its discovery. Claude credit failure has no changed evidence;
 no unsupported provider retry or claimed new Claude review.
+
+**Backup and checks.** All43 decision pins and nested control/review pins verified;
+29 new/relevant raw entries match registered bytes/hash; ACTIVE_STATE527words.
+Authored docs/scripts/JSON staged whitespace check passes. Raw downloaded bodies,
+original author code/fixture and saved stdout contain upstream whitespace;
+preserved exact bytes rather than altering evidence to satisfy a formatting check.
+Committed64 files as f1951eab9cb7534ea396677a0d09a29d1f78be19; pushed origin/main,
+all3 new LFS objects uploaded1.5MB. Exact remote SHA equals local HEAD, checkout
+clean after push. Overall goal remains active; next action is parked Kuntasi gate.
