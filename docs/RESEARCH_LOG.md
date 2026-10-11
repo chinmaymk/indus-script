@@ -6384,3 +6384,29 @@ reference/context and attributable testinput blocker. This is not historical
 absence or an exhaustive impossibility claim. Fullgoal active/unachieved; three
 consecutive blockedturns not yet met. Do not revisit this exception without its
 specified immutablelexicon, complete rules and resolvedidentities.
+
+### 11 October 2026 — Third consecutive evidence-impasse continuation
+
+Previous continuation classified no progress: first-jar feasibility clarification
+did not supply an executable historical test or reading constraint. Read current
+ACTIVE_STATE then gitstatus: clean at4591e93; no intervening changes or newly
+provided primary material. Agent inventory confirms all children completed;
+no live work awaits a result. No verified wait claimed, no restart, source request,
+fit, dictionary exercise, repeated criticism or scientific test undertaken.
+
+Same blocker remains across three consecutive continuations after the completed
+Marungur/Vietnam batch: reviewed records lack an authenticated Indus-to-independent
+sound/content correspondence or the required quantitative/deposit measurements;
+the specific historical first-jar countertest also lacks attributable immutable
+lexicon and complete rules/constraint identities. No safe executable next action
+identified by the bounded source/route criticisms. Merely adding computation,
+transcription or operational documentation cannot supply these missing inputs.
+
+This is an impasse in the reviewed program, not proof that decipherment is
+impossible or that every possible public source has been exhausted. No outreach
+is permitted; that instruction remains unchanged and is not reconsidered here.
+Full goal remains unachieved. Three-turn blocked audit now passes; after preserving
+this handoff and verifying backup, request update_goal(status=blocked), never
+complete. Reopening requires specifically new public primary evidence or a
+revised route with independently discriminating predictions; preserving all
+frozen results and exposure history remains mandatory.

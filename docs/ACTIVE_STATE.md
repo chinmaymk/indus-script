@@ -23,12 +23,12 @@ reviewed decisions, not historical absence. See
 `results/yajnadevam_bridge_eligibility_v1/decision.json`. This validation branch
 is closed pending a specifically new primary correspondence. Do not fill the
 gap with more candidate-row audits, shape comparisons or repeated closed hunts.
-Overall goal remains active/unachieved. Current continuation: second consecutive
-no-progress audit after the completed source batch. Same external-evidence gap:
-no new qualifying record, independently measured quantity/contents or replicated
-deposit join for the retained prospective tests. No live process is pending.
-Do not count operational audit notes as decipherment progress. Blocked-status
-threshold of three consecutive turns has not been met in this resumed run.
+**Current program at an evidence impasse, goal unachieved.** Three consecutive
+no-progress continuations confirm the same missing independent reference/context
+and attributable replication inputs. Checkout clean before this handoff; all
+child tasks terminal, no live process pending. Blocked audit threshold met.
+Operational notes are not decipherment progress. Resume needs new specific public
+primary evidence or a revised route with independently discriminating predictions.
 
 Specific first-jar countertest exception assessed by math reviewer, not executed:
 paper/code use different labelled constraints; historical augmented lexicon and
@@ -85,4 +85,5 @@ Raw sources registered in `data/raw/`; derived evidence in `results/`/`data/proc
 Claude follow-up hit provider credit limit; no changed availability or new review.
 Previous318 baseline and5 locator tests passed; not rerun. Python runtime under
 `/Users/chinmaymk/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3`.
-Persistent150m-token goal active; never complete on structural evidence alone.
+Persistent150m-token objective unachieved; evidence-impasse audit supports blocked
+status. Never complete on structural evidence alone. No outreach remains binding.
