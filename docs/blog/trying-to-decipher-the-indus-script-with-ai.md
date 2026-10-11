@@ -6,6 +6,8 @@ I started this project to see whether Astra could decipher the Indus script on i
 
 For about two weeks, I let Astra work on the problem. It struggled to make decisive progress. Eventually, I brought in Opus and Sol to help.
 
+I kept it going across multiple usage resets, giving it more token budget to continue working. This became a sustained attempt to see how far it could get.
+
 We still haven’t deciphered it. We haven’t established a sound or meaning for any of the 417 signs in the catalogue this project tracks.
 
 The project began as a test of autonomous research. After two weeks, I intervened and it became a collaboration across models.
@@ -27,6 +29,26 @@ The [repository](https://github.com/chinmaymk/indus-script) contains the sources
 There were sources to inspect, patterns to measure and hypotheses to test. Each could yield a concrete output. The harder task was choosing work that could connect an inscription to an ancient sound or meaning. Astra could keep investigating while that connection remained missing.
 
 That was the difficulty I encountered over those two weeks. Bringing in Opus and Sol was my intervention. The findings below come from the project as a whole; some of the work continued after the solo attempt.
+
+## How many tokens we used
+
+The retained usage records contain **821,734,966 input and output tokens across the research models**, through October 11, 2026 at 1:23 a.m. Pacific time. Including automatic review overhead brings the recorded total to **838,914,762**.
+
+| Model or activity | Input including cache | Output including reasoning | Total |
+| --- | ---: | ---: | ---: |
+| Astra including its subagents | 813,809,360 | 3,158,840 | 816,968,200 |
+| Sol including its subagent | 3,347,915 | 17,844 | 3,365,759 |
+| Opus | 1,352,535 | 38,497 | 1,391,032 |
+| Fable auxiliary review | 6,421 | 3,554 | 9,975 |
+| Research models subtotal | 818,516,231 | 3,218,735 | 821,734,966 |
+| Automatic review overhead | 17,139,879 | 39,917 | 17,179,796 |
+| Recorded research total | 835,656,110 | 3,258,652 | 838,914,762 |
+
+These counts cover the retained research record from September 22 through that cutoff, including the later help from other models. They exclude writing this post and doing the token audit. Astra’s count includes 44 subagent histories using the same model.
+
+The cache component is substantial: **810,960,583 tokens** in the overall total are cached input reads. Context reused across successive calls still appears in the usage counters. The recorded output is **3,258,652 tokens**, including reasoning. That distinction matters when interpreting a headline number approaching a billion tokens. These counts also do not measure dollar cost or subscription usage-limit units. [OpenAI](https://developers.openai.com/api/docs/guides/agents-api/observability) and [Anthropic](https://platform.claude.com/docs/en/build-with-claude/prompt-caching) document how their input and cache counters work.
+
+The tally uses individual OpenAI response records and deduplicated Claude messages, plus separate saved CLI usage summaries. It is exact for those retained records at the cutoff; it cannot establish usage missing from the logs. The [audit and reproduction details](https://github.com/chinmaymk/indus-script/blob/main/docs/RESEARCH_TOKEN_USAGE.md) are saved alongside the research.
 
 ## Getting the data right
 

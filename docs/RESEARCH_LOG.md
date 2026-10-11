@@ -5866,3 +5866,27 @@ imported-helper hash in the result; saved a separate audit manifest pinning that
 helper and retained the original result unchanged. Four-object pilot identifiers,
 field numbers, Mackay rows and input hash are explicitly frozen in a separate
 protocol. Source registry verification passed for all522 registered artifacts.
+
+
+## 2026-10-11 — Frozen token accounting for the blog
+
+Author reported continuing across multiple usage resets and requested exact token
+counts. Audited retained local usage metadata at the request timestamp,
+2026-10-11T08:23:38.418Z. Selected the two research roots and descendants; excluded
+blog/accounting and unrelated grammar chats. Research models total 821,734,966;
+including separately attributed automatic review totals 838,914,762. Of the full
+total, 810,960,583 are cached input reads and 3,258,652 output tokens including
+reasoning. Counts are exact recorded sums, not proof of complete provider billing,
+subscription allowance consumption, an exact reset count, or decipherment.
+
+Saved metadata-only source capture in data/raw, registered bytes/SHA256/provenance,
+and saved the tally, verification and reproducible script. No message contents,
+credentials or account IDs were copied. Removed 17 repeated Claude message blocks.
+All 117 nonempty OpenAI histories reconcile per-call and final record counters;
+nine older cumulative displays differ and one malformed nonusage line is recorded.
+Independent last-cumulative/Claude/envelope sums reproduce the full total; replay
+reproduces the report and all 152 original source-prefix hashes verify. First
+capture attempt stopped on the malformed nonusage line before saving any output;
+parser now records that defect and refuses malformed usage records. Added resets
+and a sourced breakdown to the blog, plus docs/RESEARCH_TOKEN_USAGE.md. No scientific
+experiment, outreach or website publication. Concurrent research changes preserved.

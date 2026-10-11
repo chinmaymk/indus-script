@@ -4410,6 +4410,16 @@
       "notes": "Mackay 1938 I, printed 375; pixels inspected for bounded catalogue-identity review"
     }
   ],
+  "local_usage_captures": [
+    {
+      "path": "data/raw/research-token-usage-oct11-v1.json",
+      "bytes": 2710881,
+      "sha256": "31e450d4f2c18630520017b65aba80c9fe75609c6aadae3ba155fc2b7747db10",
+      "kind": "local_usage_metadata_extract_without_message_content",
+      "cutoff_utc": "2026-10-11T08:23:38.418Z",
+      "provenance": "Selected research-root descendants from retained Codex rollouts, local Claude project usage records, and seven saved Oct 10 CLI envelopes. Original byte-prefix hashes and selected relationships are in the capture. Blog and unrelated grammar roots excluded."
+    }
+  ],
   "local_inputs": {
     "claimed_source": "https://www.kaggle.com/datasets/storesource/im-417-150",
     "csv": "im_417_150.csv",

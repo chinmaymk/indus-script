@@ -1,0 +1,102 @@
+{
+  "cutoff_utc": "2026-10-11T08:23:38.418Z",
+  "coverage": "Retained local research histories and saved CLI envelopes only; no claim of complete provider billing.",
+  "models": {
+    "claude-fable-5-1": {
+      "usage": {
+        "input_tokens": 6421,
+        "cached_input_tokens": 535,
+        "cache_write_input_tokens": 5884,
+        "output_tokens": 3554,
+        "reasoning_output_tokens": 2475,
+        "total_tokens": 9975
+      },
+      "records": 1,
+      "sessions": 1
+    },
+    "claude-opus-5-5": {
+      "usage": {
+        "input_tokens": 1352535,
+        "cached_input_tokens": 1050928,
+        "cache_write_input_tokens": 301551,
+        "output_tokens": 38497,
+        "reasoning_output_tokens": 19191,
+        "total_tokens": 1391032
+      },
+      "records": 20,
+      "sessions": 5
+    },
+    "codex-auto-review": {
+      "usage": {
+        "input_tokens": 17139879,
+        "cached_input_tokens": 13270272,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 39917,
+        "reasoning_output_tokens": 15175,
+        "total_tokens": 17179796
+      },
+      "records": 407,
+      "sessions": 70
+    },
+    "gpt-6-astra": {
+      "usage": {
+        "input_tokens": 813809360,
+        "cached_input_tokens": 793476864,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 3158840,
+        "reasoning_output_tokens": 580910,
+        "total_tokens": 816968200
+      },
+      "records": 6635,
+      "sessions": 45
+    },
+    "gpt-6.1-sol": {
+      "usage": {
+        "input_tokens": 3347915,
+        "cached_input_tokens": 3161984,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 17844,
+        "reasoning_output_tokens": 4458,
+        "total_tokens": 3365759
+      },
+      "records": 44,
+      "sessions": 2
+    }
+  },
+  "research_models": {
+    "input_tokens": 818516231,
+    "cached_input_tokens": 797690311,
+    "cache_write_input_tokens": 307435,
+    "output_tokens": 3218735,
+    "reasoning_output_tokens": 607034,
+    "total_tokens": 821734966
+  },
+  "automatic_review": {
+    "input_tokens": 17139879,
+    "cached_input_tokens": 13270272,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 39917,
+    "reasoning_output_tokens": 15175,
+    "total_tokens": 17179796
+  },
+  "all_recorded_research": {
+    "input_tokens": 835656110,
+    "cached_input_tokens": 810960583,
+    "cache_write_input_tokens": 307435,
+    "output_tokens": 3258652,
+    "reasoning_output_tokens": 622209,
+    "total_tokens": 838914762
+  },
+  "tokens_excluding_cache_reads": 27954179,
+  "thread_roles": {
+    "root": 2,
+    "automatic_review": 96,
+    "research_subagent": 45
+  },
+  "threads_with_no_usage_records": 26,
+  "reconciled_threads": 117,
+  "legacy_counter_mismatches": 9,
+  "malformed_nonusage_lines": 1,
+  "deduplicated_claude_message_blocks": 17,
+  "capture_sha256": "31e450d4f2c18630520017b65aba80c9fe75609c6aadae3ba155fc2b7747db10"
+}
