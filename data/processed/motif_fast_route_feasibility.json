@@ -1,0 +1,2706 @@
+{
+  "status": "Feasibility and metadata marginals only; no sign-motif contingency counts, feature selection, tests or semantic claims.",
+  "source_pins": [
+    {
+      "path": "data/raw/lipi_inscriptions.csv",
+      "sha256": "b8dcb325a2e2cd3cde12ac12e7a418b0348e45713c9ee28aad81b645d2ac5ee4"
+    },
+    {
+      "path": "scripts/prepare_corpora.py",
+      "sha256": "c80408c23b743aaa00ff78d6d85f31f3b28c7206e93eb6f1da05ba784681dc2b"
+    },
+    {
+      "path": "scripts/audit_iconography_theory.py",
+      "sha256": "3552f50a1a4ddb8cecd2d6fb8f726ea8acde5f211210a63ee32caa665569d1d9"
+    },
+    {
+      "path": "scripts/audit_copper_bridges.py",
+      "sha256": "d17d94b8dd2e1c372c839b587e56aa1020b526d5e0d56661bfef4ac00b18a12f"
+    }
+  ],
+  "source_total_rows": 5680,
+  "exact_site_strings": [
+    "Harappa",
+    "Mohenjo-daro"
+  ],
+  "type_code_evidence": {
+    "SEAL": {
+      "raw_rows": 82,
+      "raw_shape_counts": {
+        "-": 70,
+        "cuboid": 2,
+        "rectangular": 3,
+        "rectangular-rounded": 1,
+        "square": 5,
+        "square-rounded": 1
+      }
+    },
+    "SEAL:C": {
+      "raw_rows": 33,
+      "raw_shape_counts": {
+        "-": 2,
+        "circular": 31
+      }
+    },
+    "SEAL:CY": {
+      "raw_rows": 9,
+      "raw_shape_counts": {
+        "cylindrical": 9
+      }
+    },
+    "SEAL:L": {
+      "raw_rows": 2,
+      "raw_shape_counts": {
+        "oval": 1,
+        "rectangular-rounded": 1
+      }
+    },
+    "SEAL:R": {
+      "raw_rows": 388,
+      "raw_shape_counts": {
+        "-": 7,
+        "cuboid": 28,
+        "cuboid-convex": 188,
+        "plano-convex": 2,
+        "prism": 8,
+        "rectangular": 153,
+        "rectangular-notched": 1,
+        "semi-circular": 1
+      }
+    },
+    "SEAL:S": {
+      "raw_rows": 1777,
+      "raw_shape_counts": {
+        "-": 35,
+        "rectangular": 2,
+        "sqaure": 1,
+        "square": 1739
+      }
+    }
+  },
+  "type_code_interpretation": "No authoritative type-code dictionary located in the bounded local inspection. SEAL:S overwhelmingly co-occurs with raw shape square; SEAL:R rectangular/cuboid; SEAL:C circular; SEAL:CY cylindrical. These are metadata observations, not a certified stamp-seal ontology. Exact code scopes remain separate; no final stamp-type eligibility chosen.",
+  "parser": {
+    "call": "scripts.prepare_corpora.parse_lipi on unmodified CSV row",
+    "namespace": "Wells_ICIT_as_exported",
+    "order": "source_file_order; no reversal or reading-order authentication",
+    "syntax": "fullmatch \\+\\d{3}(?:-\\d{3})*\\+",
+    "excluded_tokens": [
+      "000",
+      "999"
+    ],
+    "complete_required": "Y after strip, case-sensitive",
+    "direction_required": "R/L after strip and upper",
+    "excluded_class": [
+      "2L",
+      "3L"
+    ],
+    "sign_count_check": "Only when raw signs.isdigit(); compare token length to int(signs)",
+    "quality_filter": "None; condition and preservation are unfiltered marginals",
+    "iconography_difference": "Existing audit strips all selected fields then permits NR when raw text length is 5; no new exception used in standard strict counts.",
+    "unknown_motif_values": [
+      "",
+      "-",
+      "--",
+      "?",
+      "None",
+      "Unknown"
+    ],
+    "missing_motif_policy": "Exclude from labelled analyses; literal None is absent metadata, not certified absence of an animal. No splitting compound labels or animal-name normalization."
+  },
+  "artifact_rule": "strip(cisi) unless in ABSENT; otherwise 'lipi_id:' + id.split('.')[0]. This is a provisional export grouping, not verified physical artifact/die independence.",
+  "prepare_corpora_artifact_rule_difference": "prepare_corpora.main treats only ['', '-', '--', '?'] as absent CISI; existing iconography additionally treats None and Unknown absent.",
+  "artifact_mapping_difference_rows": 0,
+  "whitespace_changes_in_iconography_fields": {
+    "id": 0,
+    "cisi": 2,
+    "type": 0,
+    "site": 0,
+    "condition": 2,
+    "dir.": 3,
+    "class": 0,
+    "signs": 0,
+    "complete": 0,
+    "text": 0,
+    "symbol": 0,
+    "cult": 0,
+    "excavation-idno": 2
+  },
+  "marginal_scopes": {
+    "all_export": {
+      "raw_rows": 5680,
+      "strict_rows": 2914,
+      "strict_known_motif_rows": 1658,
+      "strict_known_motif_artifact_groups": 1554,
+      "iconography_existing_parser_rows_including_singleton_NR": 3275,
+      "strict_rejection_reasons_overlapping": {
+        "direction_not_R/L": 1411,
+        "multiline_class": 66,
+        "not_complete_simple_single_line": 1544,
+        "not_marked_complete": 2002,
+        "sign_count_mismatch": 561,
+        "unknown_or_separator_token": 542
+      },
+      "raw_marginals": {
+        "type": {
+          "BEAD": 2,
+          "BNGL": 50,
+          "IMPL": 23,
+          "MDLN": 2,
+          "MISC": 81,
+          "POT:D": 1,
+          "POT:M": 3,
+          "POT:T:S": 1,
+          "POT:T:g": 538,
+          "POT:T:p": 19,
+          "POT:T:s": 73,
+          "POsT:T:g": 1,
+          "ROD": 42,
+          "SEAL": 82,
+          "SEAL:C": 33,
+          "SEAL:CY": 9,
+          "SEAL:L": 2,
+          "SEAL:R": 388,
+          "SEAL:S": 1777,
+          "TAB:B": 1108,
+          "TAB:C": 230,
+          "TAB:I": 952,
+          "TAG": 172,
+          "TAG:B": 10,
+          "TAG:C": 4,
+          "TAG:L": 40,
+          "TAG:O": 6,
+          "TAG:P": 15,
+          "TAG:PC": 5,
+          "TAG:R": 4,
+          "TAG:W": 6,
+          "Unknown": 1
+        },
+        "site": {
+          "Alamgirpur": 3,
+          "Allahdino": 12,
+          "Altyn Depe": 1,
+          "Amri": 5,
+          "Bakkar Buthi": 1,
+          "Bala-kot": 7,
+          "Banawali": 26,
+          "Baror": 1,
+          "Bhirrana": 6,
+          "Chandigarh": 3,
+          "Chanhu-daro": 74,
+          "Daimabad": 2,
+          "Derawar Ther": 1,
+          "Desalpur": 3,
+          "Dholavira": 238,
+          "Dilmun": 1,
+          "Failaka": 2,
+          "Farmana": 8,
+          "Ganweriwala": 2,
+          "Gharo Bhiro": 1,
+          "Girsu": 1,
+          "Gola Dhoro (Bagasra)": 6,
+          "Gonur Depe": 1,
+          "Guddal A": 1,
+          "Gumla": 2,
+          "Hajar": 1,
+          "Harappa": 2717,
+          "Hissam-dheri": 2,
+          "Hulas": 1,
+          "Janabiyah": 1,
+          "Jhukar": 1,
+          "Juna Khatiya": 1,
+          "Kalba": 1,
+          "Kalibangan": 212,
+          "Kanmer": 10,
+          "Karanpura": 8,
+          "Karzakan": 3,
+          "Khirsara": 4,
+          "Kish": 2,
+          "Kot-Diji": 11,
+          "Lakhanjo-daro": 15,
+          "Lohumjo-daro": 1,
+          "Lothal": 208,
+          "Luristan": 1,
+          "Miri Qalat": 2,
+          "Mohenjo-daro": 1923,
+          "Murda Sang": 1,
+          "Naru-Waro-dharo": 3,
+          "Nausharo": 38,
+          "Nindowari-damb": 2,
+          "Nippur": 1,
+          "Nuhato": 5,
+          "Ornach area": 1,
+          "Pabumath": 1,
+          "Pirak": 1,
+          "Qala'at al-Bahrain": 1,
+          "Ra's al-Junayz": 4,
+          "Rahman-deri": 2,
+          "Rajanpur": 2,
+          "Rakhigarhi": 13,
+          "Rappwala Ther": 1,
+          "Rodji": 4,
+          "Rupar": 5,
+          "Saar": 1,
+          "Salut": 2,
+          "Shikarpur": 8,
+          "Shortughai": 1,
+          "Sibri": 1,
+          "Surkotada": 6,
+          "Susa": 2,
+          "Tarkhanewala-dera": 3,
+          "Tell Umma": 1,
+          "Tello": 1,
+          "Tepe Yahya": 1,
+          "Tigrana": 1,
+          "Unknown": 28,
+          "Ur": 5,
+          "Wattoowala": 1
+        },
+        "symbol": {
+          "-": 532,
+          "?": 3,
+          "Anth": 26,
+          "Ass": 1,
+          "Beye": 1,
+          "Bird": 3,
+          "Box": 1,
+          "Buff": 20,
+          "Bull": 52,
+          "Bull1": 364,
+          "Bull1:I": 129,
+          "Bull1:II": 17,
+          "Bull1:J": 205,
+          "Bull1:L": 52,
+          "Bull1:O": 3,
+          "Bull1:Q": 1,
+          "Bull1:S": 168,
+          "Bull1:T": 5,
+          "Bull1:U": 33,
+          "Bull1:V": 13,
+          "Bull1:W": 412,
+          "Bull1:X": 13,
+          "Bull1:u": 1,
+          "Bull2": 14,
+          "Bull3": 8,
+          "Bull:i": 1,
+          "Bull:i:J": 3,
+          "Bull:i:S": 1,
+          "Bult": 127,
+          "Comp": 19,
+          "CompBull": 10,
+          "Cros": 8,
+          "Crs": 2,
+          "Elep": 68,
+          "Fish": 47,
+          "Gaur": 124,
+          "Gavi": 65,
+          "Gavi+Bult": 1,
+          "Goat": 5,
+          "Goat:1": 1,
+          "Goat:2": 5,
+          "Goat:3": 6,
+          "Goat:4": 7,
+          "Goat:6": 4,
+          "Goat:7": 1,
+          "Goat:8": 5,
+          "Hare": 13,
+          "Hgls": 1,
+          "Htgr": 2,
+          "Loop": 5,
+          "MISC": 1,
+          "Maze": 4,
+          "Misc": 1,
+          "Mult": 99,
+          "None": 2635,
+          "Othr": 69,
+          "Phyt": 54,
+          "Pipal": 4,
+          "Rhin": 37,
+          "S590": 3,
+          "Scene": 43,
+          "Strokes": 1,
+          "Swas": 2,
+          "T": 2,
+          "T-A-T": 6,
+          "T-M-T": 4,
+          "Tigr": 21,
+          "Tri4": 4,
+          "Turt": 1,
+          "Unknown": 4,
+          "X": 3,
+          "Xcrs": 6,
+          "Xhch": 4,
+          "Zebu": 64
+        },
+        "condition": {
+          "-": 13,
+          "?": 14,
+          "Fair": 1380,
+          "Fine": 95,
+          "Good": 1144,
+          "Poor": 3026,
+          "Poor   ": 2,
+          "fair": 1,
+          "good": 1,
+          "poor": 4
+        },
+        "preservation": {
+          "-": 9,
+          "chipped": 262,
+          "complete": 3180,
+          "complsete": 1,
+          "fragment": 1867,
+          "partly damaged": 136,
+          "slightly chipped": 225
+        },
+        "dir.": {
+          "-": 776,
+          "BUS": 10,
+          "L/R": 215,
+          "NR": 386,
+          "R/L": 4264,
+          "R/L ": 3,
+          "R/l": 2,
+          "SYM": 8,
+          "T/B": 16
+        },
+        "class": {
+          "2L": 63,
+          "3L": 3,
+          "??": 1341,
+          "AN": 20,
+          "CT": 4,
+          "IC": 6,
+          "IM": 78,
+          "IT": 276,
+          "LC": 127,
+          "LP": 212,
+          "LT": 38,
+          "MS": 88,
+          "MT": 330,
+          "NU": 167,
+          "NV": 63,
+          "PA": 10,
+          "PN": 53,
+          "SC": 606,
+          "SP": 225,
+          "SS": 709,
+          "TS": 168,
+          "UC": 667,
+          "VN": 355,
+          "VX": 27,
+          "ZN": 44
+        },
+        "complete": {
+          "?": 667,
+          "N": 1335,
+          "Y": 3678
+        },
+        "sides": {
+          "1": 3823,
+          "2": 1654,
+          "3": 168,
+          "4": 18,
+          "5": 17
+        }
+      },
+      "strict_marginals": {
+        "type": {
+          "BNGL": 5,
+          "IMPL": 8,
+          "MISC": 14,
+          "POT:T:g": 34,
+          "POT:T:p": 3,
+          "POT:T:s": 18,
+          "POsT:T:g": 1,
+          "ROD": 15,
+          "SEAL": 10,
+          "SEAL:C": 10,
+          "SEAL:CY": 3,
+          "SEAL:L": 1,
+          "SEAL:R": 229,
+          "SEAL:S": 1154,
+          "TAB:B": 666,
+          "TAB:C": 168,
+          "TAB:I": 507,
+          "TAG": 27,
+          "TAG:B": 10,
+          "TAG:C": 1,
+          "TAG:L": 14,
+          "TAG:O": 3,
+          "TAG:P": 9,
+          "TAG:R": 1,
+          "TAG:W": 3
+        },
+        "site": {
+          "Allahdino": 7,
+          "Bakkar Buthi": 1,
+          "Bala-kot": 5,
+          "Banawali": 13,
+          "Bhirrana": 2,
+          "Chandigarh": 1,
+          "Chanhu-daro": 34,
+          "Desalpur": 1,
+          "Dholavira": 67,
+          "Farmana": 4,
+          "Ganweriwala": 1,
+          "Gharo Bhiro": 1,
+          "Gola Dhoro (Bagasra)": 5,
+          "Gonur Depe": 1,
+          "Hajar": 1,
+          "Harappa": 1357,
+          "Hulas": 1,
+          "Jhukar": 1,
+          "Kalibangan": 52,
+          "Kanmer": 4,
+          "Karanpura": 1,
+          "Karzakan": 2,
+          "Khirsara": 3,
+          "Kish": 1,
+          "Lakhanjo-daro": 5,
+          "Lohumjo-daro": 1,
+          "Lothal": 78,
+          "Luristan": 1,
+          "Mohenjo-daro": 1208,
+          "Nausharo": 14,
+          "Nindowari-damb": 1,
+          "Nuhato": 1,
+          "Ra's al-Junayz": 1,
+          "Rajanpur": 2,
+          "Rakhigarhi": 4,
+          "Rupar": 3,
+          "Saar": 1,
+          "Salut": 1,
+          "Shikarpur": 1,
+          "Shortughai": 1,
+          "Surkotada": 2,
+          "Susa": 1,
+          "Tarkhanewala-dera": 1,
+          "Tell Umma": 1,
+          "Unknown": 18,
+          "Ur": 2
+        },
+        "symbol": {
+          "-": 60,
+          "Anth": 15,
+          "Ass": 1,
+          "Bird": 1,
+          "Box": 1,
+          "Buff": 15,
+          "Bull": 6,
+          "Bull1": 171,
+          "Bull1:I": 101,
+          "Bull1:II": 11,
+          "Bull1:J": 160,
+          "Bull1:L": 42,
+          "Bull1:O": 3,
+          "Bull1:S": 138,
+          "Bull1:T": 5,
+          "Bull1:U": 26,
+          "Bull1:V": 12,
+          "Bull1:W": 318,
+          "Bull1:X": 9,
+          "Bull2": 10,
+          "Bull3": 2,
+          "Bull:i:J": 2,
+          "Bull:i:S": 1,
+          "Bult": 72,
+          "Comp": 9,
+          "CompBull": 5,
+          "Cros": 7,
+          "Crs": 1,
+          "Elep": 51,
+          "Fish": 31,
+          "Gaur": 87,
+          "Gavi": 40,
+          "Gavi+Bult": 1,
+          "Goat": 2,
+          "Goat:2": 1,
+          "Goat:3": 4,
+          "Goat:4": 2,
+          "Goat:6": 2,
+          "Goat:8": 4,
+          "Hare": 12,
+          "Htgr": 2,
+          "Loop": 5,
+          "Maze": 2,
+          "Misc": 1,
+          "Mult": 59,
+          "None": 1195,
+          "Othr": 56,
+          "Phyt": 35,
+          "Pipal": 1,
+          "Rhin": 22,
+          "S590": 3,
+          "Scene": 20,
+          "T-A-T": 3,
+          "T-M-T": 3,
+          "Tigr": 12,
+          "Tri4": 2,
+          "Turt": 1,
+          "Unknown": 1,
+          "X": 2,
+          "Xcrs": 6,
+          "Xhch": 2,
+          "Zebu": 40
+        },
+        "condition": {
+          "-": 1,
+          "?": 5,
+          "Fair": 977,
+          "Fine": 82,
+          "Good": 946,
+          "Poor": 900,
+          "Poor   ": 2,
+          "good": 1
+        },
+        "preservation": {
+          "-": 2,
+          "chipped": 127,
+          "complete": 2404,
+          "complsete": 1,
+          "fragment": 180,
+          "partly damaged": 48,
+          "slightly chipped": 152
+        }
+      },
+      "identity_raw": {
+        "rows": 5680,
+        "provisional_artifact_groups": 4695,
+        "row_id_unique": 5680,
+        "duplicate_row_id_excess": 0,
+        "exact_repeated_identity_text_metadata_including_row_id_excess": 0,
+        "repeated_identity_text_metadata_ignoring_row_id_excess": 126,
+        "missing_cisi_rows": 661,
+        "fallback_artifact_groups": 620,
+        "artifact_group_row_count_histogram": {
+          "1": 3793,
+          "2": 832,
+          "3": 62,
+          "4": 5,
+          "5": 2,
+          "7": 1
+        },
+        "multirow_artifact_groups": 902,
+        "artifact_multiple_lipi_integer_roots": 0,
+        "lipi_integer_root_multiple_artifact_keys": 0,
+        "artifact_multiple_sites": 0,
+        "artifact_multiple_types": 0,
+        "artifact_multiple_distinct_raw_texts": 879,
+        "artifact_multiple_distinct_strict_texts": 408,
+        "artifact_multiple_known_raw_motif_labels": 0,
+        "artifact_known_and_missing_motif_rows": 0,
+        "artifact_strict_text_row_missing_motif_but_other_row_known": 0,
+        "artifact_multiple_strict_rows_same_text_and_motif": 15,
+        "artifact_observed_rows_differ_from_single_declared_sides": 19,
+        "artifact_inconsistent_declared_sides": 0
+      },
+      "identity_strict": {
+        "rows": 2914,
+        "provisional_artifact_groups": 2458,
+        "row_id_unique": 2914,
+        "duplicate_row_id_excess": 0,
+        "exact_repeated_identity_text_metadata_including_row_id_excess": 0,
+        "repeated_identity_text_metadata_ignoring_row_id_excess": 28,
+        "missing_cisi_rows": 177,
+        "fallback_artifact_groups": 162,
+        "artifact_group_row_count_histogram": {
+          "1": 2036,
+          "2": 388,
+          "3": 34
+        },
+        "multirow_artifact_groups": 422,
+        "artifact_multiple_lipi_integer_roots": 0,
+        "lipi_integer_root_multiple_artifact_keys": 0,
+        "artifact_multiple_sites": 0,
+        "artifact_multiple_types": 0,
+        "artifact_multiple_distinct_raw_texts": 408,
+        "artifact_multiple_distinct_strict_texts": 408,
+        "artifact_multiple_known_raw_motif_labels": 0,
+        "artifact_known_and_missing_motif_rows": 0,
+        "artifact_strict_text_row_missing_motif_but_other_row_known": 0,
+        "artifact_multiple_strict_rows_same_text_and_motif": 15,
+        "artifact_observed_rows_differ_from_single_declared_sides": 181,
+        "artifact_inconsistent_declared_sides": 0
+      },
+      "nonnumeric_sign_count_rows": 0,
+      "strict_nonnumeric_sign_count_rows": 0,
+      "strict_completeY_preservation_fragment_rows": 180
+    },
+    "two_sites_all_types": {
+      "raw_rows": 4640,
+      "strict_rows": 2565,
+      "strict_known_motif_rows": 1410,
+      "strict_known_motif_artifact_groups": 1312,
+      "iconography_existing_parser_rows_including_singleton_NR": 2845,
+      "strict_rejection_reasons_overlapping": {
+        "direction_not_R/L": 1048,
+        "multiline_class": 47,
+        "not_complete_simple_single_line": 1136,
+        "not_marked_complete": 1490,
+        "sign_count_mismatch": 428,
+        "unknown_or_separator_token": 417
+      },
+      "raw_marginals": {
+        "type": {
+          "BEAD": 2,
+          "BNGL": 48,
+          "IMPL": 14,
+          "MDLN": 2,
+          "MISC": 38,
+          "POT:D": 1,
+          "POT:M": 3,
+          "POT:T:S": 1,
+          "POT:T:g": 340,
+          "POT:T:p": 4,
+          "POT:T:s": 72,
+          "POsT:T:g": 1,
+          "ROD": 39,
+          "SEAL": 59,
+          "SEAL:C": 7,
+          "SEAL:CY": 4,
+          "SEAL:L": 1,
+          "SEAL:R": 303,
+          "SEAL:S": 1418,
+          "TAB:B": 1083,
+          "TAB:C": 229,
+          "TAB:I": 929,
+          "TAG": 6,
+          "TAG:C": 4,
+          "TAG:L": 10,
+          "TAG:O": 5,
+          "TAG:P": 10,
+          "TAG:R": 4,
+          "TAG:W": 3
+        },
+        "site": {
+          "Harappa": 2717,
+          "Mohenjo-daro": 1923
+        },
+        "symbol": {
+          "-": 237,
+          "Anth": 26,
+          "Beye": 1,
+          "Bird": 2,
+          "Box": 1,
+          "Buff": 16,
+          "Bull": 40,
+          "Bull1": 222,
+          "Bull1:I": 105,
+          "Bull1:II": 8,
+          "Bull1:J": 167,
+          "Bull1:L": 42,
+          "Bull1:O": 1,
+          "Bull1:Q": 1,
+          "Bull1:S": 148,
+          "Bull1:T": 5,
+          "Bull1:U": 28,
+          "Bull1:V": 4,
+          "Bull1:W": 364,
+          "Bull1:X": 9,
+          "Bull1:u": 1,
+          "Bull2": 11,
+          "Bull3": 1,
+          "Bult": 125,
+          "Comp": 14,
+          "CompBull": 9,
+          "Cros": 8,
+          "Crs": 2,
+          "Elep": 48,
+          "Fish": 47,
+          "Gaur": 89,
+          "Gavi": 60,
+          "Gavi+Bult": 1,
+          "Goat": 4,
+          "Goat:2": 3,
+          "Goat:3": 2,
+          "Goat:4": 6,
+          "Goat:6": 3,
+          "Goat:7": 1,
+          "Goat:8": 5,
+          "Hare": 13,
+          "Hgls": 1,
+          "Htgr": 1,
+          "Loop": 5,
+          "Maze": 2,
+          "Mult": 93,
+          "None": 2361,
+          "Othr": 68,
+          "Phyt": 54,
+          "Pipal": 4,
+          "Rhin": 30,
+          "S590": 3,
+          "Scene": 32,
+          "Strokes": 1,
+          "T": 2,
+          "T-A-T": 4,
+          "T-M-T": 4,
+          "Tigr": 17,
+          "Tri4": 4,
+          "Turt": 1,
+          "Unknown": 2,
+          "X": 3,
+          "Xcrs": 6,
+          "Xhch": 4,
+          "Zebu": 58
+        },
+        "condition": {
+          "-": 10,
+          "?": 8,
+          "Fair": 1116,
+          "Fine": 60,
+          "Good": 1022,
+          "Poor": 2419,
+          "Poor   ": 2,
+          "fair": 1,
+          "good": 1,
+          "poor": 1
+        },
+        "preservation": {
+          "-": 5,
+          "chipped": 211,
+          "complete": 2729,
+          "fragment": 1381,
+          "partly damaged": 119,
+          "slightly chipped": 195
+        },
+        "dir.": {
+          "-": 563,
+          "BUS": 4,
+          "L/R": 173,
+          "NR": 297,
+          "R/L": 3587,
+          "R/L ": 3,
+          "R/l": 2,
+          "SYM": 3,
+          "T/B": 8
+        },
+        "class": {
+          "2L": 44,
+          "3L": 3,
+          "??": 963,
+          "AN": 14,
+          "CT": 4,
+          "IC": 3,
+          "IM": 59,
+          "IT": 235,
+          "LC": 97,
+          "LP": 185,
+          "LT": 38,
+          "MS": 71,
+          "MT": 309,
+          "NU": 138,
+          "NV": 63,
+          "PA": 10,
+          "PN": 33,
+          "SC": 482,
+          "SP": 190,
+          "SS": 639,
+          "TS": 118,
+          "UC": 531,
+          "VN": 350,
+          "VX": 26,
+          "ZN": 35
+        },
+        "complete": {
+          "?": 531,
+          "N": 959,
+          "Y": 3150
+        },
+        "sides": {
+          "1": 2878,
+          "2": 1593,
+          "3": 153,
+          "4": 4,
+          "5": 12
+        }
+      },
+      "strict_marginals": {
+        "type": {
+          "BNGL": 4,
+          "IMPL": 4,
+          "MISC": 8,
+          "POT:T:g": 22,
+          "POT:T:s": 18,
+          "POsT:T:g": 1,
+          "ROD": 15,
+          "SEAL": 9,
+          "SEAL:C": 2,
+          "SEAL:CY": 2,
+          "SEAL:R": 189,
+          "SEAL:S": 956,
+          "TAB:B": 655,
+          "TAB:C": 167,
+          "TAB:I": 501,
+          "TAG:C": 1,
+          "TAG:L": 3,
+          "TAG:O": 2,
+          "TAG:P": 5,
+          "TAG:R": 1
+        },
+        "site": {
+          "Harappa": 1357,
+          "Mohenjo-daro": 1208
+        },
+        "symbol": {
+          "-": 37,
+          "Anth": 15,
+          "Bird": 1,
+          "Box": 1,
+          "Buff": 12,
+          "Bull": 4,
+          "Bull1": 110,
+          "Bull1:I": 85,
+          "Bull1:II": 6,
+          "Bull1:J": 131,
+          "Bull1:L": 35,
+          "Bull1:O": 1,
+          "Bull1:S": 122,
+          "Bull1:T": 5,
+          "Bull1:U": 22,
+          "Bull1:V": 4,
+          "Bull1:W": 288,
+          "Bull1:X": 8,
+          "Bull2": 9,
+          "Bult": 71,
+          "Comp": 9,
+          "CompBull": 5,
+          "Cros": 7,
+          "Crs": 1,
+          "Elep": 36,
+          "Fish": 31,
+          "Gaur": 68,
+          "Gavi": 39,
+          "Gavi+Bult": 1,
+          "Goat": 2,
+          "Goat:2": 1,
+          "Goat:3": 2,
+          "Goat:4": 1,
+          "Goat:6": 2,
+          "Goat:8": 4,
+          "Hare": 12,
+          "Htgr": 1,
+          "Loop": 5,
+          "Mult": 57,
+          "None": 1117,
+          "Othr": 56,
+          "Phyt": 35,
+          "Pipal": 1,
+          "Rhin": 17,
+          "S590": 3,
+          "Scene": 18,
+          "T-A-T": 2,
+          "T-M-T": 3,
+          "Tigr": 10,
+          "Tri4": 2,
+          "Turt": 1,
+          "Unknown": 1,
+          "X": 2,
+          "Xcrs": 6,
+          "Xhch": 2,
+          "Zebu": 38
+        },
+        "condition": {
+          "?": 2,
+          "Fair": 868,
+          "Fine": 57,
+          "Good": 860,
+          "Poor": 775,
+          "Poor   ": 2,
+          "good": 1
+        },
+        "preservation": {
+          "-": 1,
+          "chipped": 107,
+          "complete": 2140,
+          "fragment": 131,
+          "partly damaged": 45,
+          "slightly chipped": 141
+        }
+      },
+      "identity_raw": {
+        "rows": 4640,
+        "provisional_artifact_groups": 3716,
+        "row_id_unique": 4640,
+        "duplicate_row_id_excess": 0,
+        "exact_repeated_identity_text_metadata_including_row_id_excess": 0,
+        "repeated_identity_text_metadata_ignoring_row_id_excess": 105,
+        "missing_cisi_rows": 263,
+        "fallback_artifact_groups": 238,
+        "artifact_group_row_count_histogram": {
+          "1": 2859,
+          "2": 798,
+          "3": 55,
+          "4": 2,
+          "5": 1,
+          "7": 1
+        },
+        "multirow_artifact_groups": 857,
+        "artifact_multiple_lipi_integer_roots": 0,
+        "lipi_integer_root_multiple_artifact_keys": 0,
+        "artifact_multiple_sites": 0,
+        "artifact_multiple_types": 0,
+        "artifact_multiple_distinct_raw_texts": 836,
+        "artifact_multiple_distinct_strict_texts": 402,
+        "artifact_multiple_known_raw_motif_labels": 0,
+        "artifact_known_and_missing_motif_rows": 0,
+        "artifact_strict_text_row_missing_motif_but_other_row_known": 0,
+        "artifact_multiple_strict_rows_same_text_and_motif": 13,
+        "artifact_observed_rows_differ_from_single_declared_sides": 12,
+        "artifact_inconsistent_declared_sides": 0
+      },
+      "identity_strict": {
+        "rows": 2565,
+        "provisional_artifact_groups": 2117,
+        "row_id_unique": 2565,
+        "duplicate_row_id_excess": 0,
+        "exact_repeated_identity_text_metadata_including_row_id_excess": 0,
+        "repeated_identity_text_metadata_ignoring_row_id_excess": 22,
+        "missing_cisi_rows": 48,
+        "fallback_artifact_groups": 37,
+        "artifact_group_row_count_histogram": {
+          "1": 1703,
+          "2": 380,
+          "3": 34
+        },
+        "multirow_artifact_groups": 414,
+        "artifact_multiple_lipi_integer_roots": 0,
+        "lipi_integer_root_multiple_artifact_keys": 0,
+        "artifact_multiple_sites": 0,
+        "artifact_multiple_types": 0,
+        "artifact_multiple_distinct_raw_texts": 402,
+        "artifact_multiple_distinct_strict_texts": 402,
+        "artifact_multiple_known_raw_motif_labels": 0,
+        "artifact_known_and_missing_motif_rows": 0,
+        "artifact_strict_text_row_missing_motif_but_other_row_known": 0,
+        "artifact_multiple_strict_rows_same_text_and_motif": 13,
+        "artifact_observed_rows_differ_from_single_declared_sides": 169,
+        "artifact_inconsistent_declared_sides": 0
+      },
+      "nonnumeric_sign_count_rows": 0,
+      "strict_nonnumeric_sign_count_rows": 0,
+      "strict_completeY_preservation_fragment_rows": 131
+    },
+    "two_sites_all_SEAL_prefix_codes": {
+      "raw_rows": 1792,
+      "strict_rows": 1158,
+      "strict_known_motif_rows": 942,
+      "strict_known_motif_artifact_groups": 928,
+      "iconography_existing_parser_rows_including_singleton_NR": 1193,
+      "strict_rejection_reasons_overlapping": {
+        "direction_not_R/L": 170,
+        "multiline_class": 36,
+        "not_complete_simple_single_line": 444,
+        "not_marked_complete": 513,
+        "sign_count_mismatch": 118,
+        "unknown_or_separator_token": 117
+      },
+      "raw_marginals": {
+        "type": {
+          "SEAL": 59,
+          "SEAL:C": 7,
+          "SEAL:CY": 4,
+          "SEAL:L": 1,
+          "SEAL:R": 303,
+          "SEAL:S": 1418
+        },
+        "site": {
+          "Harappa": 440,
+          "Mohenjo-daro": 1352
+        },
+        "symbol": {
+          "-": 76,
+          "Anth": 2,
+          "Buff": 13,
+          "Bull": 31,
+          "Bull1": 191,
+          "Bull1:I": 81,
+          "Bull1:II": 8,
+          "Bull1:J": 167,
+          "Bull1:L": 42,
+          "Bull1:O": 1,
+          "Bull1:Q": 1,
+          "Bull1:S": 146,
+          "Bull1:T": 5,
+          "Bull1:U": 26,
+          "Bull1:V": 4,
+          "Bull1:W": 360,
+          "Bull1:X": 9,
+          "Bull1:u": 1,
+          "Bull2": 3,
+          "Bull3": 1,
+          "Bult": 9,
+          "Comp": 5,
+          "CompBull": 9,
+          "Cros": 1,
+          "Elep": 35,
+          "Gaur": 73,
+          "Gavi": 3,
+          "Goat": 1,
+          "Goat:2": 2,
+          "Goat:3": 2,
+          "Goat:6": 1,
+          "Goat:7": 1,
+          "Hare": 1,
+          "Htgr": 1,
+          "Mult": 7,
+          "None": 365,
+          "Othr": 5,
+          "Phyt": 4,
+          "Rhin": 18,
+          "Scene": 7,
+          "T-A-T": 3,
+          "T-M-T": 4,
+          "Tigr": 14,
+          "Unknown": 1,
+          "Zebu": 52
+        },
+        "condition": {
+          "?": 2,
+          "Fair": 387,
+          "Fine": 57,
+          "Good": 598,
+          "Poor": 747,
+          "good": 1
+        },
+        "preservation": {
+          "-": 2,
+          "chipped": 83,
+          "complete": 1045,
+          "fragment": 473,
+          "partly damaged": 91,
+          "slightly chipped": 98
+        },
+        "dir.": {
+          "-": 107,
+          "BUS": 4,
+          "L/R": 22,
+          "NR": 35,
+          "R/L": 1621,
+          "R/l": 1,
+          "SYM": 1,
+          "T/B": 1
+        },
+        "class": {
+          "2L": 34,
+          "3L": 2,
+          "??": 349,
+          "AN": 3,
+          "CT": 3,
+          "IC": 3,
+          "IM": 49,
+          "IT": 187,
+          "LC": 57,
+          "LP": 170,
+          "LT": 4,
+          "MS": 38,
+          "MT": 109,
+          "NU": 7,
+          "PA": 10,
+          "PN": 22,
+          "SC": 195,
+          "SP": 126,
+          "SS": 219,
+          "TS": 24,
+          "UC": 166,
+          "VN": 5,
+          "VX": 2,
+          "ZN": 8
+        },
+        "complete": {
+          "?": 165,
+          "N": 348,
+          "Y": 1279
+        },
+        "sides": {
+          "1": 1714,
+          "2": 59,
+          "3": 3,
+          "4": 4,
+          "5": 12
+        }
+      },
+      "strict_marginals": {
+        "type": {
+          "SEAL": 9,
+          "SEAL:C": 2,
+          "SEAL:CY": 2,
+          "SEAL:R": 189,
+          "SEAL:S": 956
+        },
+        "site": {
+          "Harappa": 255,
+          "Mohenjo-daro": 903
+        },
+        "symbol": {
+          "-": 7,
+          "Anth": 1,
+          "Buff": 9,
+          "Bull": 1,
+          "Bull1": 88,
+          "Bull1:I": 61,
+          "Bull1:II": 6,
+          "Bull1:J": 131,
+          "Bull1:L": 35,
+          "Bull1:O": 1,
+          "Bull1:S": 120,
+          "Bull1:T": 5,
+          "Bull1:U": 20,
+          "Bull1:V": 4,
+          "Bull1:W": 285,
+          "Bull1:X": 8,
+          "Bull2": 1,
+          "Bult": 7,
+          "Comp": 1,
+          "CompBull": 5,
+          "Elep": 24,
+          "Gaur": 55,
+          "Gavi": 2,
+          "Goat:3": 2,
+          "Goat:6": 1,
+          "Htgr": 1,
+          "Mult": 5,
+          "None": 209,
+          "Othr": 3,
+          "Rhin": 14,
+          "Scene": 2,
+          "T-A-T": 1,
+          "T-M-T": 3,
+          "Tigr": 8,
+          "Zebu": 32
+        },
+        "condition": {
+          "Fair": 308,
+          "Fine": 55,
+          "Good": 523,
+          "Poor": 271,
+          "good": 1
+        },
+        "preservation": {
+          "-": 1,
+          "chipped": 55,
+          "complete": 908,
+          "fragment": 78,
+          "partly damaged": 36,
+          "slightly chipped": 80
+        }
+      },
+      "identity_raw": {
+        "rows": 1792,
+        "provisional_artifact_groups": 1746,
+        "row_id_unique": 1792,
+        "duplicate_row_id_excess": 0,
+        "exact_repeated_identity_text_metadata_including_row_id_excess": 0,
+        "repeated_identity_text_metadata_ignoring_row_id_excess": 2,
+        "missing_cisi_rows": 10,
+        "fallback_artifact_groups": 10,
+        "artifact_group_row_count_histogram": {
+          "1": 1712,
+          "2": 29,
+          "3": 2,
+          "4": 1,
+          "5": 1,
+          "7": 1
+        },
+        "multirow_artifact_groups": 34,
+        "artifact_multiple_lipi_integer_roots": 0,
+        "lipi_integer_root_multiple_artifact_keys": 0,
+        "artifact_multiple_sites": 0,
+        "artifact_multiple_types": 0,
+        "artifact_multiple_distinct_raw_texts": 32,
+        "artifact_multiple_distinct_strict_texts": 16,
+        "artifact_multiple_known_raw_motif_labels": 0,
+        "artifact_known_and_missing_motif_rows": 0,
+        "artifact_strict_text_row_missing_motif_but_other_row_known": 0,
+        "artifact_multiple_strict_rows_same_text_and_motif": 2,
+        "artifact_observed_rows_differ_from_single_declared_sides": 3,
+        "artifact_inconsistent_declared_sides": 0
+      },
+      "identity_strict": {
+        "rows": 1158,
+        "provisional_artifact_groups": 1139,
+        "row_id_unique": 1158,
+        "duplicate_row_id_excess": 0,
+        "exact_repeated_identity_text_metadata_including_row_id_excess": 0,
+        "repeated_identity_text_metadata_ignoring_row_id_excess": 2,
+        "missing_cisi_rows": 1,
+        "fallback_artifact_groups": 1,
+        "artifact_group_row_count_histogram": {
+          "1": 1121,
+          "2": 17,
+          "3": 1
+        },
+        "multirow_artifact_groups": 18,
+        "artifact_multiple_lipi_integer_roots": 0,
+        "lipi_integer_root_multiple_artifact_keys": 0,
+        "artifact_multiple_sites": 0,
+        "artifact_multiple_types": 0,
+        "artifact_multiple_distinct_raw_texts": 16,
+        "artifact_multiple_distinct_strict_texts": 16,
+        "artifact_multiple_known_raw_motif_labels": 0,
+        "artifact_known_and_missing_motif_rows": 0,
+        "artifact_strict_text_row_missing_motif_but_other_row_known": 0,
+        "artifact_multiple_strict_rows_same_text_and_motif": 2,
+        "artifact_observed_rows_differ_from_single_declared_sides": 12,
+        "artifact_inconsistent_declared_sides": 0
+      },
+      "nonnumeric_sign_count_rows": 0,
+      "strict_nonnumeric_sign_count_rows": 0,
+      "strict_completeY_preservation_fragment_rows": 78
+    },
+    "two_sites_exact_SEAL": {
+      "raw_rows": 59,
+      "strict_rows": 9,
+      "strict_known_motif_rows": 0,
+      "strict_known_motif_artifact_groups": 0,
+      "iconography_existing_parser_rows_including_singleton_NR": 10,
+      "strict_rejection_reasons_overlapping": {
+        "direction_not_R/L": 16,
+        "multiline_class": 1,
+        "not_complete_simple_single_line": 47,
+        "not_marked_complete": 47,
+        "sign_count_mismatch": 1,
+        "unknown_or_separator_token": 1
+      },
+      "raw_marginals": {
+        "type": {
+          "SEAL": 59
+        },
+        "site": {
+          "Harappa": 18,
+          "Mohenjo-daro": 41
+        },
+        "symbol": {
+          "-": 37,
+          "Hare": 1,
+          "None": 20,
+          "Scene": 1
+        },
+        "condition": {
+          "Fair": 4,
+          "Good": 3,
+          "Poor": 52
+        },
+        "preservation": {
+          "complete": 5,
+          "fragment": 54
+        },
+        "dir.": {
+          "-": 14,
+          "L/R": 1,
+          "NR": 1,
+          "R/L": 43
+        },
+        "class": {
+          "2L": 1,
+          "??": 22,
+          "IM": 1,
+          "LP": 1,
+          "MT": 3,
+          "SC": 1,
+          "SP": 2,
+          "SS": 2,
+          "TS": 1,
+          "UC": 25
+        },
+        "complete": {
+          "?": 25,
+          "N": 22,
+          "Y": 12
+        },
+        "sides": {
+          "1": 57,
+          "2": 2
+        }
+      },
+      "strict_marginals": {
+        "type": {
+          "SEAL": 9
+        },
+        "site": {
+          "Harappa": 1,
+          "Mohenjo-daro": 8
+        },
+        "symbol": {
+          "-": 1,
+          "None": 8
+        },
+        "condition": {
+          "Fair": 1,
+          "Good": 2,
+          "Poor": 6
+        },
+        "preservation": {
+          "complete": 3,
+          "fragment": 6
+        }
+      },
+      "identity_raw": {
+        "rows": 59,
+        "provisional_artifact_groups": 58,
+        "row_id_unique": 59,
+        "duplicate_row_id_excess": 0,
+        "exact_repeated_identity_text_metadata_including_row_id_excess": 0,
+        "repeated_identity_text_metadata_ignoring_row_id_excess": 0,
+        "missing_cisi_rows": 3,
+        "fallback_artifact_groups": 3,
+        "artifact_group_row_count_histogram": {
+          "1": 57,
+          "2": 1
+        },
+        "multirow_artifact_groups": 1,
+        "artifact_multiple_lipi_integer_roots": 0,
+        "lipi_integer_root_multiple_artifact_keys": 0,
+        "artifact_multiple_sites": 0,
+        "artifact_multiple_types": 0,
+        "artifact_multiple_distinct_raw_texts": 1,
+        "artifact_multiple_distinct_strict_texts": 0,
+        "artifact_multiple_known_raw_motif_labels": 0,
+        "artifact_known_and_missing_motif_rows": 0,
+        "artifact_strict_text_row_missing_motif_but_other_row_known": 0,
+        "artifact_multiple_strict_rows_same_text_and_motif": 0,
+        "artifact_observed_rows_differ_from_single_declared_sides": 0,
+        "artifact_inconsistent_declared_sides": 0
+      },
+      "identity_strict": {
+        "rows": 9,
+        "provisional_artifact_groups": 9,
+        "row_id_unique": 9,
+        "duplicate_row_id_excess": 0,
+        "exact_repeated_identity_text_metadata_including_row_id_excess": 0,
+        "repeated_identity_text_metadata_ignoring_row_id_excess": 0,
+        "missing_cisi_rows": 0,
+        "fallback_artifact_groups": 0,
+        "artifact_group_row_count_histogram": {
+          "1": 9
+        },
+        "multirow_artifact_groups": 0,
+        "artifact_multiple_lipi_integer_roots": 0,
+        "lipi_integer_root_multiple_artifact_keys": 0,
+        "artifact_multiple_sites": 0,
+        "artifact_multiple_types": 0,
+        "artifact_multiple_distinct_raw_texts": 0,
+        "artifact_multiple_distinct_strict_texts": 0,
+        "artifact_multiple_known_raw_motif_labels": 0,
+        "artifact_known_and_missing_motif_rows": 0,
+        "artifact_strict_text_row_missing_motif_but_other_row_known": 0,
+        "artifact_multiple_strict_rows_same_text_and_motif": 0,
+        "artifact_observed_rows_differ_from_single_declared_sides": 1,
+        "artifact_inconsistent_declared_sides": 0
+      },
+      "nonnumeric_sign_count_rows": 0,
+      "strict_nonnumeric_sign_count_rows": 0,
+      "strict_completeY_preservation_fragment_rows": 6
+    },
+    "two_sites_exact_SEAL:C": {
+      "raw_rows": 7,
+      "strict_rows": 2,
+      "strict_known_motif_rows": 2,
+      "strict_known_motif_artifact_groups": 2,
+      "iconography_existing_parser_rows_including_singleton_NR": 2,
+      "strict_rejection_reasons_overlapping": {
+        "direction_not_R/L": 2,
+        "not_complete_simple_single_line": 2,
+        "not_marked_complete": 4,
+        "sign_count_mismatch": 2,
+        "unknown_or_separator_token": 2
+      },
+      "raw_marginals": {
+        "type": {
+          "SEAL:C": 7
+        },
+        "site": {
+          "Mohenjo-daro": 7
+        },
+        "symbol": {
+          "Comp": 1,
+          "Gaur": 2,
+          "None": 1,
+          "Phyt": 3
+        },
+        "condition": {
+          "Fair": 1,
+          "Good": 2,
+          "Poor": 4
+        },
+        "preservation": {
+          "complete": 5,
+          "fragment": 2
+        },
+        "dir.": {
+          "-": 1,
+          "BUS": 1,
+          "R/L": 5
+        },
+        "class": {
+          "??": 4,
+          "LC": 1,
+          "SC": 2
+        },
+        "complete": {
+          "N": 4,
+          "Y": 3
+        },
+        "sides": {
+          "1": 7
+        }
+      },
+      "strict_marginals": {
+        "type": {
+          "SEAL:C": 2
+        },
+        "site": {
+          "Mohenjo-daro": 2
+        },
+        "symbol": {
+          "Gaur": 2
+        },
+        "condition": {
+          "Fair": 1,
+          "Good": 1
+        },
+        "preservation": {
+          "complete": 2
+        }
+      },
+      "identity_raw": {
+        "rows": 7,
+        "provisional_artifact_groups": 6,
+        "row_id_unique": 7,
+        "duplicate_row_id_excess": 0,
+        "exact_repeated_identity_text_metadata_including_row_id_excess": 0,
+        "repeated_identity_text_metadata_ignoring_row_id_excess": 0,
+        "missing_cisi_rows": 0,
+        "fallback_artifact_groups": 0,
+        "artifact_group_row_count_histogram": {
+          "1": 5,
+          "2": 1
+        },
+        "multirow_artifact_groups": 1,
+        "artifact_multiple_lipi_integer_roots": 0,
+        "lipi_integer_root_multiple_artifact_keys": 0,
+        "artifact_multiple_sites": 0,
+        "artifact_multiple_types": 0,
+        "artifact_multiple_distinct_raw_texts": 1,
+        "artifact_multiple_distinct_strict_texts": 0,
+        "artifact_multiple_known_raw_motif_labels": 0,
+        "artifact_known_and_missing_motif_rows": 0,
+        "artifact_strict_text_row_missing_motif_but_other_row_known": 0,
+        "artifact_multiple_strict_rows_same_text_and_motif": 0,
+        "artifact_observed_rows_differ_from_single_declared_sides": 1,
+        "artifact_inconsistent_declared_sides": 0
+      },
+      "identity_strict": {
+        "rows": 2,
+        "provisional_artifact_groups": 2,
+        "row_id_unique": 2,
+        "duplicate_row_id_excess": 0,
+        "exact_repeated_identity_text_metadata_including_row_id_excess": 0,
+        "repeated_identity_text_metadata_ignoring_row_id_excess": 0,
+        "missing_cisi_rows": 0,
+        "fallback_artifact_groups": 0,
+        "artifact_group_row_count_histogram": {
+          "1": 2
+        },
+        "multirow_artifact_groups": 0,
+        "artifact_multiple_lipi_integer_roots": 0,
+        "lipi_integer_root_multiple_artifact_keys": 0,
+        "artifact_multiple_sites": 0,
+        "artifact_multiple_types": 0,
+        "artifact_multiple_distinct_raw_texts": 0,
+        "artifact_multiple_distinct_strict_texts": 0,
+        "artifact_multiple_known_raw_motif_labels": 0,
+        "artifact_known_and_missing_motif_rows": 0,
+        "artifact_strict_text_row_missing_motif_but_other_row_known": 0,
+        "artifact_multiple_strict_rows_same_text_and_motif": 0,
+        "artifact_observed_rows_differ_from_single_declared_sides": 0,
+        "artifact_inconsistent_declared_sides": 0
+      },
+      "nonnumeric_sign_count_rows": 0,
+      "strict_nonnumeric_sign_count_rows": 0,
+      "strict_completeY_preservation_fragment_rows": 0
+    },
+    "two_sites_exact_SEAL:CY": {
+      "raw_rows": 4,
+      "strict_rows": 2,
+      "strict_known_motif_rows": 0,
+      "strict_known_motif_artifact_groups": 0,
+      "iconography_existing_parser_rows_including_singleton_NR": 2,
+      "strict_rejection_reasons_overlapping": {
+        "direction_not_R/L": 2,
+        "not_complete_simple_single_line": 1,
+        "not_marked_complete": 1
+      },
+      "raw_marginals": {
+        "type": {
+          "SEAL:CY": 4
+        },
+        "site": {
+          "Harappa": 3,
+          "Mohenjo-daro": 1
+        },
+        "symbol": {
+          "None": 3,
+          "Phyt": 1
+        },
+        "condition": {
+          "Fair": 1,
+          "Poor": 3
+        },
+        "preservation": {
+          "fragment": 4
+        },
+        "dir.": {
+          "-": 1,
+          "L/R": 1,
+          "R/L": 2
+        },
+        "class": {
+          "LC": 1,
+          "SS": 1,
+          "UC": 1,
+          "VN": 1
+        },
+        "complete": {
+          "?": 1,
+          "Y": 3
+        },
+        "sides": {
+          "1": 2,
+          "2": 2
+        }
+      },
+      "strict_marginals": {
+        "type": {
+          "SEAL:CY": 2
+        },
+        "site": {
+          "Harappa": 2
+        },
+        "symbol": {
+          "None": 2
+        },
+        "condition": {
+          "Fair": 1,
+          "Poor": 1
+        },
+        "preservation": {
+          "fragment": 2
+        }
+      },
+      "identity_raw": {
+        "rows": 4,
+        "provisional_artifact_groups": 3,
+        "row_id_unique": 4,
+        "duplicate_row_id_excess": 0,
+        "exact_repeated_identity_text_metadata_including_row_id_excess": 0,
+        "repeated_identity_text_metadata_ignoring_row_id_excess": 0,
+        "missing_cisi_rows": 0,
+        "fallback_artifact_groups": 0,
+        "artifact_group_row_count_histogram": {
+          "1": 2,
+          "2": 1
+        },
+        "multirow_artifact_groups": 1,
+        "artifact_multiple_lipi_integer_roots": 0,
+        "lipi_integer_root_multiple_artifact_keys": 0,
+        "artifact_multiple_sites": 0,
+        "artifact_multiple_types": 0,
+        "artifact_multiple_distinct_raw_texts": 1,
+        "artifact_multiple_distinct_strict_texts": 0,
+        "artifact_multiple_known_raw_motif_labels": 0,
+        "artifact_known_and_missing_motif_rows": 0,
+        "artifact_strict_text_row_missing_motif_but_other_row_known": 0,
+        "artifact_multiple_strict_rows_same_text_and_motif": 0,
+        "artifact_observed_rows_differ_from_single_declared_sides": 0,
+        "artifact_inconsistent_declared_sides": 0
+      },
+      "identity_strict": {
+        "rows": 2,
+        "provisional_artifact_groups": 2,
+        "row_id_unique": 2,
+        "duplicate_row_id_excess": 0,
+        "exact_repeated_identity_text_metadata_including_row_id_excess": 0,
+        "repeated_identity_text_metadata_ignoring_row_id_excess": 0,
+        "missing_cisi_rows": 0,
+        "fallback_artifact_groups": 0,
+        "artifact_group_row_count_histogram": {
+          "1": 2
+        },
+        "multirow_artifact_groups": 0,
+        "artifact_multiple_lipi_integer_roots": 0,
+        "lipi_integer_root_multiple_artifact_keys": 0,
+        "artifact_multiple_sites": 0,
+        "artifact_multiple_types": 0,
+        "artifact_multiple_distinct_raw_texts": 0,
+        "artifact_multiple_distinct_strict_texts": 0,
+        "artifact_multiple_known_raw_motif_labels": 0,
+        "artifact_known_and_missing_motif_rows": 0,
+        "artifact_strict_text_row_missing_motif_but_other_row_known": 0,
+        "artifact_multiple_strict_rows_same_text_and_motif": 0,
+        "artifact_observed_rows_differ_from_single_declared_sides": 1,
+        "artifact_inconsistent_declared_sides": 0
+      },
+      "nonnumeric_sign_count_rows": 0,
+      "strict_nonnumeric_sign_count_rows": 0,
+      "strict_completeY_preservation_fragment_rows": 2
+    },
+    "two_sites_exact_SEAL:L": {
+      "raw_rows": 1,
+      "strict_rows": 0,
+      "strict_known_motif_rows": 0,
+      "strict_known_motif_artifact_groups": 0,
+      "iconography_existing_parser_rows_including_singleton_NR": 0,
+      "strict_rejection_reasons_overlapping": {
+        "not_marked_complete": 1,
+        "sign_count_mismatch": 1,
+        "unknown_or_separator_token": 1
+      },
+      "raw_marginals": {
+        "type": {
+          "SEAL:L": 1
+        },
+        "site": {
+          "Mohenjo-daro": 1
+        },
+        "symbol": {
+          "None": 1
+        },
+        "condition": {
+          "Poor": 1
+        },
+        "preservation": {
+          "complete": 1
+        },
+        "dir.": {
+          "R/L": 1
+        },
+        "class": {
+          "??": 1
+        },
+        "complete": {
+          "N": 1
+        },
+        "sides": {
+          "1": 1
+        }
+      },
+      "strict_marginals": {
+        "type": {},
+        "site": {},
+        "symbol": {},
+        "condition": {},
+        "preservation": {}
+      },
+      "identity_raw": {
+        "rows": 1,
+        "provisional_artifact_groups": 1,
+        "row_id_unique": 1,
+        "duplicate_row_id_excess": 0,
+        "exact_repeated_identity_text_metadata_including_row_id_excess": 0,
+        "repeated_identity_text_metadata_ignoring_row_id_excess": 0,
+        "missing_cisi_rows": 1,
+        "fallback_artifact_groups": 1,
+        "artifact_group_row_count_histogram": {
+          "1": 1
+        },
+        "multirow_artifact_groups": 0,
+        "artifact_multiple_lipi_integer_roots": 0,
+        "lipi_integer_root_multiple_artifact_keys": 0,
+        "artifact_multiple_sites": 0,
+        "artifact_multiple_types": 0,
+        "artifact_multiple_distinct_raw_texts": 0,
+        "artifact_multiple_distinct_strict_texts": 0,
+        "artifact_multiple_known_raw_motif_labels": 0,
+        "artifact_known_and_missing_motif_rows": 0,
+        "artifact_strict_text_row_missing_motif_but_other_row_known": 0,
+        "artifact_multiple_strict_rows_same_text_and_motif": 0,
+        "artifact_observed_rows_differ_from_single_declared_sides": 0,
+        "artifact_inconsistent_declared_sides": 0
+      },
+      "identity_strict": {
+        "rows": 0,
+        "provisional_artifact_groups": 0,
+        "row_id_unique": 0,
+        "duplicate_row_id_excess": 0,
+        "exact_repeated_identity_text_metadata_including_row_id_excess": 0,
+        "repeated_identity_text_metadata_ignoring_row_id_excess": 0,
+        "missing_cisi_rows": 0,
+        "fallback_artifact_groups": 0,
+        "artifact_group_row_count_histogram": {},
+        "multirow_artifact_groups": 0,
+        "artifact_multiple_lipi_integer_roots": 0,
+        "lipi_integer_root_multiple_artifact_keys": 0,
+        "artifact_multiple_sites": 0,
+        "artifact_multiple_types": 0,
+        "artifact_multiple_distinct_raw_texts": 0,
+        "artifact_multiple_distinct_strict_texts": 0,
+        "artifact_multiple_known_raw_motif_labels": 0,
+        "artifact_known_and_missing_motif_rows": 0,
+        "artifact_strict_text_row_missing_motif_but_other_row_known": 0,
+        "artifact_multiple_strict_rows_same_text_and_motif": 0,
+        "artifact_observed_rows_differ_from_single_declared_sides": 0,
+        "artifact_inconsistent_declared_sides": 0
+      },
+      "nonnumeric_sign_count_rows": 0,
+      "strict_nonnumeric_sign_count_rows": 0,
+      "strict_completeY_preservation_fragment_rows": 0
+    },
+    "two_sites_exact_SEAL:R": {
+      "raw_rows": 303,
+      "strict_rows": 189,
+      "strict_known_motif_rows": 6,
+      "strict_known_motif_artifact_groups": 3,
+      "iconography_existing_parser_rows_including_singleton_NR": 194,
+      "strict_rejection_reasons_overlapping": {
+        "direction_not_R/L": 23,
+        "not_complete_simple_single_line": 86,
+        "not_marked_complete": 101,
+        "sign_count_mismatch": 16,
+        "unknown_or_separator_token": 15
+      },
+      "raw_marginals": {
+        "type": {
+          "SEAL:R": 303
+        },
+        "site": {
+          "Harappa": 101,
+          "Mohenjo-daro": 202
+        },
+        "symbol": {
+          "-": 4,
+          "Bult": 8,
+          "Gavi": 1,
+          "None": 288,
+          "Othr": 1,
+          "Scene": 1
+        },
+        "condition": {
+          "Fair": 60,
+          "Fine": 19,
+          "Good": 126,
+          "Poor": 98
+        },
+        "preservation": {
+          "-": 1,
+          "chipped": 8,
+          "complete": 186,
+          "fragment": 94,
+          "partly damaged": 5,
+          "slightly chipped": 9
+        },
+        "dir.": {
+          "-": 12,
+          "L/R": 6,
+          "NR": 5,
+          "R/L": 280
+        },
+        "class": {
+          "??": 63,
+          "AN": 1,
+          "CT": 1,
+          "IM": 7,
+          "IT": 19,
+          "LC": 16,
+          "LP": 28,
+          "LT": 2,
+          "MS": 15,
+          "MT": 22,
+          "NU": 3,
+          "PN": 3,
+          "SC": 34,
+          "SP": 9,
+          "SS": 35,
+          "TS": 1,
+          "UC": 39,
+          "VN": 4,
+          "ZN": 1
+        },
+        "complete": {
+          "?": 39,
+          "N": 62,
+          "Y": 202
+        },
+        "sides": {
+          "1": 287,
+          "2": 16
+        }
+      },
+      "strict_marginals": {
+        "type": {
+          "SEAL:R": 189
+        },
+        "site": {
+          "Harappa": 64,
+          "Mohenjo-daro": 125
+        },
+        "symbol": {
+          "-": 1,
+          "Bult": 6,
+          "None": 182
+        },
+        "condition": {
+          "Fair": 41,
+          "Fine": 19,
+          "Good": 104,
+          "Poor": 25
+        },
+        "preservation": {
+          "chipped": 2,
+          "complete": 170,
+          "fragment": 10,
+          "partly damaged": 1,
+          "slightly chipped": 6
+        }
+      },
+      "identity_raw": {
+        "rows": 303,
+        "provisional_artifact_groups": 295,
+        "row_id_unique": 303,
+        "duplicate_row_id_excess": 0,
+        "exact_repeated_identity_text_metadata_including_row_id_excess": 0,
+        "repeated_identity_text_metadata_ignoring_row_id_excess": 0,
+        "missing_cisi_rows": 3,
+        "fallback_artifact_groups": 3,
+        "artifact_group_row_count_histogram": {
+          "1": 287,
+          "2": 8
+        },
+        "multirow_artifact_groups": 8,
+        "artifact_multiple_lipi_integer_roots": 0,
+        "lipi_integer_root_multiple_artifact_keys": 0,
+        "artifact_multiple_sites": 0,
+        "artifact_multiple_types": 0,
+        "artifact_multiple_distinct_raw_texts": 8,
+        "artifact_multiple_distinct_strict_texts": 5,
+        "artifact_multiple_known_raw_motif_labels": 0,
+        "artifact_known_and_missing_motif_rows": 0,
+        "artifact_strict_text_row_missing_motif_but_other_row_known": 0,
+        "artifact_multiple_strict_rows_same_text_and_motif": 0,
+        "artifact_observed_rows_differ_from_single_declared_sides": 0,
+        "artifact_inconsistent_declared_sides": 0
+      },
+      "identity_strict": {
+        "rows": 189,
+        "provisional_artifact_groups": 184,
+        "row_id_unique": 189,
+        "duplicate_row_id_excess": 0,
+        "exact_repeated_identity_text_metadata_including_row_id_excess": 0,
+        "repeated_identity_text_metadata_ignoring_row_id_excess": 0,
+        "missing_cisi_rows": 0,
+        "fallback_artifact_groups": 0,
+        "artifact_group_row_count_histogram": {
+          "1": 179,
+          "2": 5
+        },
+        "multirow_artifact_groups": 5,
+        "artifact_multiple_lipi_integer_roots": 0,
+        "lipi_integer_root_multiple_artifact_keys": 0,
+        "artifact_multiple_sites": 0,
+        "artifact_multiple_types": 0,
+        "artifact_multiple_distinct_raw_texts": 5,
+        "artifact_multiple_distinct_strict_texts": 5,
+        "artifact_multiple_known_raw_motif_labels": 0,
+        "artifact_known_and_missing_motif_rows": 0,
+        "artifact_strict_text_row_missing_motif_but_other_row_known": 0,
+        "artifact_multiple_strict_rows_same_text_and_motif": 0,
+        "artifact_observed_rows_differ_from_single_declared_sides": 2,
+        "artifact_inconsistent_declared_sides": 0
+      },
+      "nonnumeric_sign_count_rows": 0,
+      "strict_nonnumeric_sign_count_rows": 0,
+      "strict_completeY_preservation_fragment_rows": 10
+    },
+    "two_sites_exact_SEAL:S": {
+      "raw_rows": 1418,
+      "strict_rows": 956,
+      "strict_known_motif_rows": 934,
+      "strict_known_motif_artifact_groups": 923,
+      "iconography_existing_parser_rows_including_singleton_NR": 985,
+      "strict_rejection_reasons_overlapping": {
+        "direction_not_R/L": 127,
+        "multiline_class": 35,
+        "not_complete_simple_single_line": 308,
+        "not_marked_complete": 359,
+        "sign_count_mismatch": 98,
+        "unknown_or_separator_token": 98
+      },
+      "raw_marginals": {
+        "type": {
+          "SEAL:S": 1418
+        },
+        "site": {
+          "Harappa": 318,
+          "Mohenjo-daro": 1100
+        },
+        "symbol": {
+          "-": 35,
+          "Anth": 2,
+          "Buff": 13,
+          "Bull": 31,
+          "Bull1": 191,
+          "Bull1:I": 81,
+          "Bull1:II": 8,
+          "Bull1:J": 167,
+          "Bull1:L": 42,
+          "Bull1:O": 1,
+          "Bull1:Q": 1,
+          "Bull1:S": 146,
+          "Bull1:T": 5,
+          "Bull1:U": 26,
+          "Bull1:V": 4,
+          "Bull1:W": 360,
+          "Bull1:X": 9,
+          "Bull1:u": 1,
+          "Bull2": 3,
+          "Bull3": 1,
+          "Bult": 1,
+          "Comp": 4,
+          "CompBull": 9,
+          "Cros": 1,
+          "Elep": 35,
+          "Gaur": 71,
+          "Gavi": 2,
+          "Goat": 1,
+          "Goat:2": 2,
+          "Goat:3": 2,
+          "Goat:6": 1,
+          "Goat:7": 1,
+          "Htgr": 1,
+          "Mult": 7,
+          "None": 52,
+          "Othr": 4,
+          "Rhin": 18,
+          "Scene": 5,
+          "T-A-T": 3,
+          "T-M-T": 4,
+          "Tigr": 14,
+          "Unknown": 1,
+          "Zebu": 52
+        },
+        "condition": {
+          "?": 2,
+          "Fair": 321,
+          "Fine": 38,
+          "Good": 467,
+          "Poor": 589,
+          "good": 1
+        },
+        "preservation": {
+          "-": 1,
+          "chipped": 75,
+          "complete": 848,
+          "fragment": 319,
+          "partly damaged": 86,
+          "slightly chipped": 89
+        },
+        "dir.": {
+          "-": 79,
+          "BUS": 3,
+          "L/R": 14,
+          "NR": 29,
+          "R/L": 1290,
+          "R/l": 1,
+          "SYM": 1,
+          "T/B": 1
+        },
+        "class": {
+          "2L": 33,
+          "3L": 2,
+          "??": 259,
+          "AN": 2,
+          "CT": 2,
+          "IC": 3,
+          "IM": 41,
+          "IT": 168,
+          "LC": 39,
+          "LP": 141,
+          "LT": 2,
+          "MS": 23,
+          "MT": 84,
+          "NU": 4,
+          "PA": 10,
+          "PN": 19,
+          "SC": 158,
+          "SP": 115,
+          "SS": 181,
+          "TS": 22,
+          "UC": 101,
+          "VX": 2,
+          "ZN": 7
+        },
+        "complete": {
+          "?": 100,
+          "N": 259,
+          "Y": 1059
+        },
+        "sides": {
+          "1": 1360,
+          "2": 39,
+          "3": 3,
+          "4": 4,
+          "5": 12
+        }
+      },
+      "strict_marginals": {
+        "type": {
+          "SEAL:S": 956
+        },
+        "site": {
+          "Harappa": 188,
+          "Mohenjo-daro": 768
+        },
+        "symbol": {
+          "-": 5,
+          "Anth": 1,
+          "Buff": 9,
+          "Bull": 1,
+          "Bull1": 88,
+          "Bull1:I": 61,
+          "Bull1:II": 6,
+          "Bull1:J": 131,
+          "Bull1:L": 35,
+          "Bull1:O": 1,
+          "Bull1:S": 120,
+          "Bull1:T": 5,
+          "Bull1:U": 20,
+          "Bull1:V": 4,
+          "Bull1:W": 285,
+          "Bull1:X": 8,
+          "Bull2": 1,
+          "Bult": 1,
+          "Comp": 1,
+          "CompBull": 5,
+          "Elep": 24,
+          "Gaur": 53,
+          "Gavi": 2,
+          "Goat:3": 2,
+          "Goat:6": 1,
+          "Htgr": 1,
+          "Mult": 5,
+          "None": 17,
+          "Othr": 3,
+          "Rhin": 14,
+          "Scene": 2,
+          "T-A-T": 1,
+          "T-M-T": 3,
+          "Tigr": 8,
+          "Zebu": 32
+        },
+        "condition": {
+          "Fair": 264,
+          "Fine": 36,
+          "Good": 416,
+          "Poor": 239,
+          "good": 1
+        },
+        "preservation": {
+          "-": 1,
+          "chipped": 53,
+          "complete": 733,
+          "fragment": 60,
+          "partly damaged": 35,
+          "slightly chipped": 74
+        }
+      },
+      "identity_raw": {
+        "rows": 1418,
+        "provisional_artifact_groups": 1383,
+        "row_id_unique": 1418,
+        "duplicate_row_id_excess": 0,
+        "exact_repeated_identity_text_metadata_including_row_id_excess": 0,
+        "repeated_identity_text_metadata_ignoring_row_id_excess": 2,
+        "missing_cisi_rows": 3,
+        "fallback_artifact_groups": 3,
+        "artifact_group_row_count_histogram": {
+          "1": 1360,
+          "2": 18,
+          "3": 2,
+          "4": 1,
+          "5": 1,
+          "7": 1
+        },
+        "multirow_artifact_groups": 23,
+        "artifact_multiple_lipi_integer_roots": 0,
+        "lipi_integer_root_multiple_artifact_keys": 0,
+        "artifact_multiple_sites": 0,
+        "artifact_multiple_types": 0,
+        "artifact_multiple_distinct_raw_texts": 21,
+        "artifact_multiple_distinct_strict_texts": 11,
+        "artifact_multiple_known_raw_motif_labels": 0,
+        "artifact_known_and_missing_motif_rows": 0,
+        "artifact_strict_text_row_missing_motif_but_other_row_known": 0,
+        "artifact_multiple_strict_rows_same_text_and_motif": 2,
+        "artifact_observed_rows_differ_from_single_declared_sides": 2,
+        "artifact_inconsistent_declared_sides": 0
+      },
+      "identity_strict": {
+        "rows": 956,
+        "provisional_artifact_groups": 942,
+        "row_id_unique": 956,
+        "duplicate_row_id_excess": 0,
+        "exact_repeated_identity_text_metadata_including_row_id_excess": 0,
+        "repeated_identity_text_metadata_ignoring_row_id_excess": 2,
+        "missing_cisi_rows": 1,
+        "fallback_artifact_groups": 1,
+        "artifact_group_row_count_histogram": {
+          "1": 929,
+          "2": 12,
+          "3": 1
+        },
+        "multirow_artifact_groups": 13,
+        "artifact_multiple_lipi_integer_roots": 0,
+        "lipi_integer_root_multiple_artifact_keys": 0,
+        "artifact_multiple_sites": 0,
+        "artifact_multiple_types": 0,
+        "artifact_multiple_distinct_raw_texts": 11,
+        "artifact_multiple_distinct_strict_texts": 11,
+        "artifact_multiple_known_raw_motif_labels": 0,
+        "artifact_known_and_missing_motif_rows": 0,
+        "artifact_strict_text_row_missing_motif_but_other_row_known": 0,
+        "artifact_multiple_strict_rows_same_text_and_motif": 2,
+        "artifact_observed_rows_differ_from_single_declared_sides": 8,
+        "artifact_inconsistent_declared_sides": 0
+      },
+      "nonnumeric_sign_count_rows": 0,
+      "strict_nonnumeric_sign_count_rows": 0,
+      "strict_completeY_preservation_fragment_rows": 60
+    },
+    "Harappa_exact_SEAL:S": {
+      "raw_rows": 318,
+      "strict_rows": 188,
+      "strict_known_motif_rows": 184,
+      "strict_known_motif_artifact_groups": 181,
+      "iconography_existing_parser_rows_including_singleton_NR": 192,
+      "strict_rejection_reasons_overlapping": {
+        "direction_not_R/L": 36,
+        "multiline_class": 6,
+        "not_complete_simple_single_line": 98,
+        "not_marked_complete": 112,
+        "sign_count_mismatch": 20,
+        "unknown_or_separator_token": 20
+      },
+      "raw_marginals": {
+        "type": {
+          "SEAL:S": 318
+        },
+        "site": {
+          "Harappa": 318
+        },
+        "symbol": {
+          "-": 14,
+          "Buff": 2,
+          "Bull": 7,
+          "Bull1": 53,
+          "Bull1:I": 27,
+          "Bull1:II": 3,
+          "Bull1:J": 20,
+          "Bull1:L": 8,
+          "Bull1:Q": 1,
+          "Bull1:S": 10,
+          "Bull1:T": 1,
+          "Bull1:U": 6,
+          "Bull1:W": 121,
+          "Bull1:X": 1,
+          "Bull2": 1,
+          "Bult": 1,
+          "CompBull": 1,
+          "Elep": 6,
+          "Gaur": 10,
+          "Mult": 1,
+          "None": 14,
+          "Othr": 1,
+          "Rhin": 1,
+          "Tigr": 2,
+          "Zebu": 6
+        },
+        "condition": {
+          "Fair": 54,
+          "Fine": 12,
+          "Good": 65,
+          "Poor": 187
+        },
+        "preservation": {
+          "chipped": 9,
+          "complete": 178,
+          "fragment": 99,
+          "partly damaged": 25,
+          "slightly chipped": 7
+        },
+        "dir.": {
+          "-": 28,
+          "L/R": 4,
+          "NR": 4,
+          "R/L": 281,
+          "R/l": 1
+        },
+        "class": {
+          "2L": 5,
+          "3L": 1,
+          "??": 75,
+          "IM": 6,
+          "IT": 20,
+          "LC": 7,
+          "LP": 35,
+          "MS": 5,
+          "MT": 12,
+          "PN": 6,
+          "SC": 35,
+          "SP": 27,
+          "SS": 40,
+          "TS": 4,
+          "UC": 37,
+          "VX": 1,
+          "ZN": 2
+        },
+        "complete": {
+          "?": 37,
+          "N": 75,
+          "Y": 206
+        },
+        "sides": {
+          "1": 308,
+          "2": 10
+        }
+      },
+      "strict_marginals": {
+        "type": {
+          "SEAL:S": 188
+        },
+        "site": {
+          "Harappa": 188
+        },
+        "symbol": {
+          "-": 2,
+          "Buff": 2,
+          "Bull1": 15,
+          "Bull1:I": 20,
+          "Bull1:II": 2,
+          "Bull1:J": 15,
+          "Bull1:L": 5,
+          "Bull1:S": 7,
+          "Bull1:T": 1,
+          "Bull1:U": 3,
+          "Bull1:W": 92,
+          "Bull1:X": 1,
+          "Bult": 1,
+          "CompBull": 1,
+          "Elep": 6,
+          "Gaur": 8,
+          "None": 2,
+          "Rhin": 1,
+          "Zebu": 4
+        },
+        "condition": {
+          "Fair": 51,
+          "Fine": 12,
+          "Good": 58,
+          "Poor": 67
+        },
+        "preservation": {
+          "chipped": 4,
+          "complete": 157,
+          "fragment": 13,
+          "partly damaged": 7,
+          "slightly chipped": 7
+        }
+      },
+      "identity_raw": {
+        "rows": 318,
+        "provisional_artifact_groups": 313,
+        "row_id_unique": 318,
+        "duplicate_row_id_excess": 0,
+        "exact_repeated_identity_text_metadata_including_row_id_excess": 0,
+        "repeated_identity_text_metadata_ignoring_row_id_excess": 1,
+        "missing_cisi_rows": 1,
+        "fallback_artifact_groups": 1,
+        "artifact_group_row_count_histogram": {
+          "1": 308,
+          "2": 5
+        },
+        "multirow_artifact_groups": 5,
+        "artifact_multiple_lipi_integer_roots": 0,
+        "lipi_integer_root_multiple_artifact_keys": 0,
+        "artifact_multiple_sites": 0,
+        "artifact_multiple_types": 0,
+        "artifact_multiple_distinct_raw_texts": 4,
+        "artifact_multiple_distinct_strict_texts": 2,
+        "artifact_multiple_known_raw_motif_labels": 0,
+        "artifact_known_and_missing_motif_rows": 0,
+        "artifact_strict_text_row_missing_motif_but_other_row_known": 0,
+        "artifact_multiple_strict_rows_same_text_and_motif": 1,
+        "artifact_observed_rows_differ_from_single_declared_sides": 0,
+        "artifact_inconsistent_declared_sides": 0
+      },
+      "identity_strict": {
+        "rows": 188,
+        "provisional_artifact_groups": 185,
+        "row_id_unique": 188,
+        "duplicate_row_id_excess": 0,
+        "exact_repeated_identity_text_metadata_including_row_id_excess": 0,
+        "repeated_identity_text_metadata_ignoring_row_id_excess": 1,
+        "missing_cisi_rows": 0,
+        "fallback_artifact_groups": 0,
+        "artifact_group_row_count_histogram": {
+          "1": 182,
+          "2": 3
+        },
+        "multirow_artifact_groups": 3,
+        "artifact_multiple_lipi_integer_roots": 0,
+        "lipi_integer_root_multiple_artifact_keys": 0,
+        "artifact_multiple_sites": 0,
+        "artifact_multiple_types": 0,
+        "artifact_multiple_distinct_raw_texts": 2,
+        "artifact_multiple_distinct_strict_texts": 2,
+        "artifact_multiple_known_raw_motif_labels": 0,
+        "artifact_known_and_missing_motif_rows": 0,
+        "artifact_strict_text_row_missing_motif_but_other_row_known": 0,
+        "artifact_multiple_strict_rows_same_text_and_motif": 1,
+        "artifact_observed_rows_differ_from_single_declared_sides": 1,
+        "artifact_inconsistent_declared_sides": 0
+      },
+      "nonnumeric_sign_count_rows": 0,
+      "strict_nonnumeric_sign_count_rows": 0,
+      "strict_completeY_preservation_fragment_rows": 13
+    },
+    "Mohenjo-daro_exact_SEAL:S": {
+      "raw_rows": 1100,
+      "strict_rows": 768,
+      "strict_known_motif_rows": 750,
+      "strict_known_motif_artifact_groups": 742,
+      "iconography_existing_parser_rows_including_singleton_NR": 793,
+      "strict_rejection_reasons_overlapping": {
+        "direction_not_R/L": 91,
+        "multiline_class": 29,
+        "not_complete_simple_single_line": 210,
+        "not_marked_complete": 247,
+        "sign_count_mismatch": 78,
+        "unknown_or_separator_token": 78
+      },
+      "raw_marginals": {
+        "type": {
+          "SEAL:S": 1100
+        },
+        "site": {
+          "Mohenjo-daro": 1100
+        },
+        "symbol": {
+          "-": 21,
+          "Anth": 2,
+          "Buff": 11,
+          "Bull": 24,
+          "Bull1": 138,
+          "Bull1:I": 54,
+          "Bull1:II": 5,
+          "Bull1:J": 147,
+          "Bull1:L": 34,
+          "Bull1:O": 1,
+          "Bull1:S": 136,
+          "Bull1:T": 4,
+          "Bull1:U": 20,
+          "Bull1:V": 4,
+          "Bull1:W": 239,
+          "Bull1:X": 8,
+          "Bull1:u": 1,
+          "Bull2": 2,
+          "Bull3": 1,
+          "Comp": 4,
+          "CompBull": 8,
+          "Cros": 1,
+          "Elep": 29,
+          "Gaur": 61,
+          "Gavi": 2,
+          "Goat": 1,
+          "Goat:2": 2,
+          "Goat:3": 2,
+          "Goat:6": 1,
+          "Goat:7": 1,
+          "Htgr": 1,
+          "Mult": 6,
+          "None": 38,
+          "Othr": 3,
+          "Rhin": 17,
+          "Scene": 5,
+          "T-A-T": 3,
+          "T-M-T": 4,
+          "Tigr": 12,
+          "Unknown": 1,
+          "Zebu": 46
+        },
+        "condition": {
+          "?": 2,
+          "Fair": 267,
+          "Fine": 26,
+          "Good": 402,
+          "Poor": 402,
+          "good": 1
+        },
+        "preservation": {
+          "-": 1,
+          "chipped": 66,
+          "complete": 670,
+          "fragment": 220,
+          "partly damaged": 61,
+          "slightly chipped": 82
+        },
+        "dir.": {
+          "-": 51,
+          "BUS": 3,
+          "L/R": 10,
+          "NR": 25,
+          "R/L": 1009,
+          "SYM": 1,
+          "T/B": 1
+        },
+        "class": {
+          "2L": 28,
+          "3L": 1,
+          "??": 184,
+          "AN": 2,
+          "CT": 2,
+          "IC": 3,
+          "IM": 35,
+          "IT": 148,
+          "LC": 32,
+          "LP": 106,
+          "LT": 2,
+          "MS": 18,
+          "MT": 72,
+          "NU": 4,
+          "PA": 10,
+          "PN": 13,
+          "SC": 123,
+          "SP": 88,
+          "SS": 141,
+          "TS": 18,
+          "UC": 64,
+          "VX": 1,
+          "ZN": 5
+        },
+        "complete": {
+          "?": 63,
+          "N": 184,
+          "Y": 853
+        },
+        "sides": {
+          "1": 1052,
+          "2": 29,
+          "3": 3,
+          "4": 4,
+          "5": 12
+        }
+      },
+      "strict_marginals": {
+        "type": {
+          "SEAL:S": 768
+        },
+        "site": {
+          "Mohenjo-daro": 768
+        },
+        "symbol": {
+          "-": 3,
+          "Anth": 1,
+          "Buff": 7,
+          "Bull": 1,
+          "Bull1": 73,
+          "Bull1:I": 41,
+          "Bull1:II": 4,
+          "Bull1:J": 116,
+          "Bull1:L": 30,
+          "Bull1:O": 1,
+          "Bull1:S": 113,
+          "Bull1:T": 4,
+          "Bull1:U": 17,
+          "Bull1:V": 4,
+          "Bull1:W": 193,
+          "Bull1:X": 7,
+          "Bull2": 1,
+          "Comp": 1,
+          "CompBull": 4,
+          "Elep": 18,
+          "Gaur": 45,
+          "Gavi": 2,
+          "Goat:3": 2,
+          "Goat:6": 1,
+          "Htgr": 1,
+          "Mult": 5,
+          "None": 15,
+          "Othr": 3,
+          "Rhin": 13,
+          "Scene": 2,
+          "T-A-T": 1,
+          "T-M-T": 3,
+          "Tigr": 8,
+          "Zebu": 28
+        },
+        "condition": {
+          "Fair": 213,
+          "Fine": 24,
+          "Good": 358,
+          "Poor": 172,
+          "good": 1
+        },
+        "preservation": {
+          "-": 1,
+          "chipped": 49,
+          "complete": 576,
+          "fragment": 47,
+          "partly damaged": 28,
+          "slightly chipped": 67
+        }
+      },
+      "identity_raw": {
+        "rows": 1100,
+        "provisional_artifact_groups": 1070,
+        "row_id_unique": 1100,
+        "duplicate_row_id_excess": 0,
+        "exact_repeated_identity_text_metadata_including_row_id_excess": 0,
+        "repeated_identity_text_metadata_ignoring_row_id_excess": 1,
+        "missing_cisi_rows": 2,
+        "fallback_artifact_groups": 2,
+        "artifact_group_row_count_histogram": {
+          "1": 1052,
+          "2": 13,
+          "3": 2,
+          "4": 1,
+          "5": 1,
+          "7": 1
+        },
+        "multirow_artifact_groups": 18,
+        "artifact_multiple_lipi_integer_roots": 0,
+        "lipi_integer_root_multiple_artifact_keys": 0,
+        "artifact_multiple_sites": 0,
+        "artifact_multiple_types": 0,
+        "artifact_multiple_distinct_raw_texts": 17,
+        "artifact_multiple_distinct_strict_texts": 9,
+        "artifact_multiple_known_raw_motif_labels": 0,
+        "artifact_known_and_missing_motif_rows": 0,
+        "artifact_strict_text_row_missing_motif_but_other_row_known": 0,
+        "artifact_multiple_strict_rows_same_text_and_motif": 1,
+        "artifact_observed_rows_differ_from_single_declared_sides": 2,
+        "artifact_inconsistent_declared_sides": 0
+      },
+      "identity_strict": {
+        "rows": 768,
+        "provisional_artifact_groups": 757,
+        "row_id_unique": 768,
+        "duplicate_row_id_excess": 0,
+        "exact_repeated_identity_text_metadata_including_row_id_excess": 0,
+        "repeated_identity_text_metadata_ignoring_row_id_excess": 1,
+        "missing_cisi_rows": 1,
+        "fallback_artifact_groups": 1,
+        "artifact_group_row_count_histogram": {
+          "1": 747,
+          "2": 9,
+          "3": 1
+        },
+        "multirow_artifact_groups": 10,
+        "artifact_multiple_lipi_integer_roots": 0,
+        "lipi_integer_root_multiple_artifact_keys": 0,
+        "artifact_multiple_sites": 0,
+        "artifact_multiple_types": 0,
+        "artifact_multiple_distinct_raw_texts": 9,
+        "artifact_multiple_distinct_strict_texts": 9,
+        "artifact_multiple_known_raw_motif_labels": 0,
+        "artifact_known_and_missing_motif_rows": 0,
+        "artifact_strict_text_row_missing_motif_but_other_row_known": 0,
+        "artifact_multiple_strict_rows_same_text_and_motif": 1,
+        "artifact_observed_rows_differ_from_single_declared_sides": 7,
+        "artifact_inconsistent_declared_sides": 0
+      },
+      "nonnumeric_sign_count_rows": 0,
+      "strict_nonnumeric_sign_count_rows": 0,
+      "strict_completeY_preservation_fragment_rows": 47
+    }
+  },
+  "examples_maximum_five": [
+    {
+      "category": "multiple_distinct_texts",
+      "artifact_key": "H-102",
+      "rows": [
+        {
+          "id": "1168.1",
+          "cisi": "H-102",
+          "site": "Harappa",
+          "type": "SEAL:S",
+          "symbol": "Bull1:W",
+          "text": "+741-861+",
+          "sides": "2",
+          "dir.": "R/L",
+          "complete": "Y",
+          "condition": "Good",
+          "excavation-idno": "13341"
+        },
+        {
+          "id": "1168.2",
+          "cisi": "H-102",
+          "site": "Harappa",
+          "type": "SEAL:S",
+          "symbol": "Bull1:W",
+          "text": "+740-630-240-741-861+",
+          "sides": "2",
+          "dir.": "R/L",
+          "complete": "Y",
+          "condition": "Good",
+          "excavation-idno": "13341"
+        }
+      ]
+    },
+    {
+      "category": "repeated_text_and_motif",
+      "artifact_key": "H-597",
+      "rows": [
+        {
+          "id": "1540.1",
+          "cisi": "H-597",
+          "site": "Harappa",
+          "type": "SEAL:S",
+          "symbol": "Bull1:J",
+          "text": "+740-390-590-070-032-002-861+",
+          "sides": "2",
+          "dir.": "R/L",
+          "complete": "Y",
+          "condition": "Fair",
+          "excavation-idno": "2540075"
+        },
+        {
+          "id": "1540.2",
+          "cisi": "H-597",
+          "site": "Harappa",
+          "type": "SEAL:S",
+          "symbol": "Bull1:J",
+          "text": "+740-390-590-070-032-002-861+",
+          "sides": "2",
+          "dir.": "R/L",
+          "complete": "Y",
+          "condition": "Fair",
+          "excavation-idno": "2540075"
+        }
+      ]
+    }
+  ],
+  "identity_limitations": [
+    "CISI labels and lipi integer roots are not primary-authenticated physical-object identifiers in this audit.",
+    "Rows with a common artifact key may represent different faces, lines or source transcription entries; decimal row suffix alone does not authenticate a face.",
+    "Different texts on one artifact are not automatically contradictory readings; do not flatten or copy a motif across them.",
+    "Identical texts across distinct artifact keys are not automatically duplicate objects and are not collapsed here.",
+    "Counts of declared sides versus exported rows are descriptive discrepancies, not proof of error; export may omit uninscribed faces.",
+    "Same motif label repeated across faces is not an independent observation. Same-artifact rows must not enter independent train/test units.",
+    "Unknown motifs stay excluded from labelled subsets. Multiple distinct known labels require explicit treatment; no tie-breaking has occurred."
+  ],
+  "paths_needed": [
+    "data/raw/lipi_inscriptions.csv",
+    "scripts/prepare_corpora.py",
+    "scripts/audit_copper_bridges.py",
+    "scripts/audit_iconography_theory.py",
+    "data/sources.json"
+  ],
+  "reproduction_protocol": [
+    "Read csv.DictReader without modifying values.",
+    "Evaluate parse_lipi(row); retain only empty reasons. Count exclusion reasons overlapping.",
+    "Compute only raw metadata value histograms and grouped whole-text equality/difference counts; never sign-specific motif joint counts.",
+    "Build artifact keys with the published ABSENT set and fallback rule. Group independently inside every named exact-code/site scope.",
+    "Known motif means symbol.strip() not in ABSENT; histogram labels themselves remain raw.",
+    "For comparison only call existing parse_record with its FIELDS values stripped.",
+    "Examples selected in sorted artifact-key order by five predefined identity-anomaly categories; at most one per category, avoiding repeats."
+  ]
+}

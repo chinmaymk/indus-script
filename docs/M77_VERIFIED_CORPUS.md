@@ -1,6 +1,27 @@
 # M77 corpus: complete-page transcription
 
-## Current release: four consecutive pages
+## Current release 5: six consecutive pages
+
+10 October 2026 continuation. [Release 5](../data/processed/m77_verified/corpus_v5.json) covers printed 39–44/main PDF 50–55: **185 references, 198 lines, 949 assigned sign positions and 173 distinct assigned types**. The assigned positions include 35 source-doubtful signs; 23 unknown-length loss spans remain. There are no additional unidentified visible glyphs or unadjudicated rows. Coverage is 5.54% of the 3,573 printed lines, not a complete corpus or decipherment.
+
+The two added pages contribute 63 references and 66 rows. Printed 43 contains 1128–1160 except 1152–1153; printed 44 contains 1161–1193 except 1184. Both reviewers authenticated the main PDF pages 54–55 against alternate PDF pages 55–56 and froze their submissions before comparison. A disclosed secondary candidate exposure; B reported no remembered specific readings and consulted primary pages/sign lists only during entry. All 66 new rows agree exactly, so no new adjudication was required. The [comparison](../results/m77_verified_v5_comparison.json) accepts all 198 expected rows. This remains agreement between AI review passes on printed transcriptions, not independent object verification.
+
+The [metadata profile](../results/m77_metadata_v5.json) records 186 represented sides on 185 references, all object type 1. There are 193 line entries with field code `01`, four with `35`, and one with `00`; the [primary field-code review](M77_FIELD_SYMBOL_REVIEW.md) explains why these are not three identified animal classes.
+
+The [ending support certificate](../results/ending_support_v5.json) still records zero observed rectangles at both ending lengths. At two signs, some permitted shuffles can now contain rectangles; one-sign rectangles remain impossible under the preserved marginals. Feasibility does not establish statistical power, significance, or morphology. No new Monte Carlo significance calculation accompanies this update.
+
+```sh
+python scripts/build_verified_m77.py \
+  --manifest data/processed/m77_verified/page_manifest_v5.json \
+  --adjudications data/processed/m77_verified/adjudications_v5.json \
+  --candidate-export data/processed/m77_candidate_records.jsonl \
+  --comparison results/m77_verified_v5_comparison.json \
+  --output data/processed/m77_verified/corpus_v5.json
+```
+
+Further consecutive-page expansion and ending-screen exploration are deferred while the finite motif-transfer route runs under its frozen protocol. The six-page corpus and earlier releases remain preserved for later work.
+
+## Fourth release: historical batch record
 
 10 October 2026 continuation. [Release4](../data/processed/m77_verified/corpus_v4.json) covers printed39–42/mainPDF50–53: **122 references,132 lines,672 assigned sign positions,148 distinct assigned types,15 unknown-length loss spans and24 source-doubtful positions**. The24 doubtful positions are included in672. There are no additional unidentified visible glyphs, but damaged text and source doubts remain. This covers3.69% of3573 printed lines, not a complete corpus or decipherment.
 

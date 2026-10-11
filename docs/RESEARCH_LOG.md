@@ -5597,3 +5597,56 @@ Parent independently derived an exact support criterion before reading the first
 Bothrelease3 and4 have exact zero support for k1/k2 and row/deduplicated-sequence bases. Release4 leaves104cleanrows/103distinct; k1 has98eligible slots but only one repeated stem; k2 has92slots and three repeated stems, but the relevant length3/4 strata have no common ending block and length4 has no repeated ending block. No Monte Carlo rerun onrelease4: every allowed shuffle is already proven to scorezero. This refines the earlier sampled-zero interpretation and gives a stopping rule: skip further shuffles until the same fixed criterion finds support. Positive support would only establish possibility, not power or grammar. No phonetic/semantic assignments follow.
 
 Validation: all273unit tests passed; all503registered raw artifacts match byte counts andSHA256. Release4 assembler verifies all source/review/decision pins and132row coverage; both exact-support outputs match their corpus/script pins. Full historical analysis pipeline not rerun. The bounded proof and corpus work advance the task without claiming decipherment or completion. Research outputs and source opinions are preserved for the next backup commit.
+
+
+## 2026-10-10 — Compact working context, release 5 and faster-route design
+
+Previous batch was pushed as ebe9a50 and verified upstream. Completed two pages
+already underway before the user's faster-route steering: printed 43–44/main
+PDF 54–55/alternate 55–56, 63 references and 66 rows. Both frozen reviews agree
+on all new rows; no new adjudication. Release 5 totals 185 references/198 lines,
+949 assigned positions/173 types, 23 unknown-length LOSS spans and 35 source-doubt
+positions; zero additional visible UNKNOWN. Review exposure limits remain explicit.
+Source renders, reviews, decisions and comparison are retained. This checks print
+fidelity, not ancient readings.
+
+Primary field-code review distinguishes lines, sides and objects: 01 unicorn,
+35 uncertain animal, 00 absent motif on that side, 99 damage. Table V associates
+across object sides and has unresolved repeated-sign counting semantics, so its
+aggregates cannot be casually subtracted or treated as independent replication.
+One render was requested before its producer completed; the completed image was
+subsequently verified. Release 5 metadata: 186 represented sides, field-code line
+counts 193/4/1 for 01/35/00. The exact ending certificate now permits 33 individually
+feasible two-sign rectangles but observes zero; one-sign support remains impossible.
+No new ending Monte Carlo run or grammar conclusion.
+
+User requested collaboration with Claude on a faster route and explicitly warned
+that accumulated context causes repeated work. Added root AGENTS.md, replacing
+ACTIVE_STATE.md and a targeted RESEARCH_INDEX.md; condensed README and retained its
+old contents under docs/archive (relative links rebased). Agents should read current
+state first, retrieve only relevant evidence, and retain one next action/stop rule.
+Full history and frozen evidence remain available, without entering every loop.
+
+Restricted read-only Claude Opus repository review succeeded (claude-opus-5-5).
+It recommended text–motif association using the existing export ahead of further
+transcription. Accepted as prioritization only; rejected semantic/name-versus-office
+claims and blind-holdout/independent-Table-V framing. Fable follow-up failed with
+zero-token 429 credits_required; raw failure retained, no retry loop. Both captures
+registered in data/raw alongside all previous downloads.
+
+Frozen motif protocol v1, then v2 before any new joint counts. Independent review
+confirmed the fractional-vector permutation variance, but found unspecified
+transfer cutoff and quality filtering; v2 fixes Holm .05, full-group validation
+before all-row Good/Fair filtering, and forbids sensitivity rescue. SEAL:S means
+only the exact export code. Equal-weight exact text families, whole motif-vector
+shuffles within exact length, native sign presence, global maxT, maximum five
+frozen candidates, disjoint exact-text site transfer, 9,999 replicates per phase.
+Absolute 1e-12 Z tie tolerance fixed before counts. No proposed translation fields
+imported. Marginal feasibility audit found 934 standard-strict labelled rows/923
+keys in the two-site exact-type subset; actual protocol also permits specified
+NR singletons and excludes whole invalid groups, so these are not final sample counts.
+
+Pre-run validation: all 291 unit tests passed, including 15 synthetic motif tests
+and three new metadata tests. All 505 registered raw artifacts match byte counts
+and SHA256. Prior broad analysis pipeline not rerun. No new sign–motif results have
+been inspected at this checkpoint. Further corpus expansion remains deferred.

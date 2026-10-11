@@ -919,7 +919,7 @@
     },
     {
       "bytes": 23564489,
-      "notes": "IGNCA/ASI library scan of Jansen and Urban, eds., Interim Reports Vol. 1, Pakistan 1982–83. 214 image-only pages. Relevant primary contexts visually checked; local research copy, not redistribution permission.",
+      "notes": "IGNCA/ASI library scan of Jansen and Urban, eds., Interim Reports Vol. 1, Pakistan 1982\u201383. 214 image-only pages. Relevant primary contexts visually checked; local research copy, not redistribution permission.",
       "path": "data/raw/mohenjo_daro_inscribed_objects_74331.pdf",
       "sha256": "e7df5db5643633e3d13b4eaf0d99fa5c34dafe24af3af3151ac10f72299a5a39",
       "url": "https://ignca.gov.in/Asi_data/74331.pdf",
@@ -944,7 +944,7 @@
     },
     {
       "bytes": 552079,
-      "notes": "Parpola 2008, Copper Tablets from Mohenjo-daro and the Study of the Indus Script, pp.132–139. Author-hosted PDF; reconstructed types are not independently observed artifact-level transcriptions. No readings accepted.",
+      "notes": "Parpola 2008, Copper Tablets from Mohenjo-daro and the Study of the Indus Script, pp.132\u2013139. Author-hosted PDF; reconstructed types are not independently observed artifact-level transcriptions. No readings accepted.",
       "path": "data/raw/parpola_2008_copper_tablets.pdf",
       "sha256": "1e68a8c2cf64bece75855987572c73133d215315e8432ad3f6f61db278f41cf1",
       "url": "https://tuhat.helsinki.fi/ws/portalfiles/portal/127257447/Parpola_A_2008._Copper_tablets_from_Mohenjo_daro._ECL_During_Caspers_Vol.pdf",
@@ -1227,7 +1227,7 @@
       "accessed_utc_date": "2026-09-23",
       "bytes": 5357,
       "commit": null,
-      "notes": "Alternative public primary catalogue scan or acquisition metadata. Same printed758–759 gap at expected location; not a recovered full TableIV. See docs/M77_ALTERNATIVE_SCAN_REVIEW.md.",
+      "notes": "Alternative public primary catalogue scan or acquisition metadata. Same printed758\u2013759 gap at expected location; not a recovered full TableIV. See docs/M77_ALTERNATIVE_SCAN_REVIEW.md.",
       "path": "data/raw/mahadevan_alternative_archive_metadata.json",
       "sha256": "8ec23f756dad57c449a7ef9414bb99d89b1badc72097c582e94c201422cf702a",
       "url": "https://archive.org/metadata/masi77indusscripttextsconcordancestablesiravathammahadevan_410_D",
@@ -1237,7 +1237,7 @@
       "accessed_utc_date": "2026-09-23",
       "bytes": 16445165,
       "commit": null,
-      "notes": "Alternative public primary catalogue scan. Same printed758–759 gap at expected location; not a recovered full TableIV. Clearer printed39 glyph resolves the recovered singleton on text1001 as M393. See docs/M77_ALTERNATIVE_SCAN_REVIEW.md and docs/M77_1001_RECOVERY.md.",
+      "notes": "Alternative public primary catalogue scan. Same printed758\u2013759 gap at expected location; not a recovered full TableIV. Clearer printed39 glyph resolves the recovered singleton on text1001 as M393. See docs/M77_ALTERNATIVE_SCAN_REVIEW.md and docs/M77_1001_RECOVERY.md.",
       "path": "data/raw/mahadevan_alternative_scan.pdf",
       "sha256": "ef68fe8dc25e94fe9cb75b418c5189a084383e72498560ef393372e90a27e110",
       "url": "https://archive.org/download/masi77indusscripttextsconcordancestablesiravathammahadevan_410_D/MASI%2077%20Indus%20Script%20Texts%20Concordances%20%26%20Tables%20Iravatham%20Mahadevan.pdf",
@@ -1932,7 +1932,7 @@
     },
     {
       "bytes": 3152198,
-      "description": "Gadd1932 complete44-page source scan; no useful text layer; original printedpp5–6 andPlateI reviewed.",
+      "description": "Gadd1932 complete44-page source scan; no useful text layer; original printedpp5\u20136 andPlateI reviewed.",
       "kind": "download",
       "path": "data/raw/hybrid_bm_gadd_1932.pdf",
       "retrieved_date": "2026-09-24",
@@ -2111,7 +2111,7 @@
     },
     {
       "bytes": 12167700,
-      "notes": "Marshall 1931 volume II; pp372–373,377,405 visually checked for HR2240, figures471–473.",
+      "notes": "Marshall 1931 volume II; pp372\u2013373,377,405 visually checked for HR2240, figures471\u2013473.",
       "path": "data/raw/stone1471_marshall1931_volume2_text.pdf",
       "retrieved_utc_date": "2026-09-24",
       "sha256": "e58c4d95c9d7dbac29a3cb04d633d20618de71ab7cb58e7dcf035fb88ceb2ef3",
@@ -2825,7 +2825,7 @@
     },
     {
       "bytes": 576415,
-      "notes": "MarshallIII PlateCV, original published photographs41–69, includingMIC60. W195 local review; no decipherment.",
+      "notes": "MarshallIII PlateCV, original published photographs41\u201369, includingMIC60. W195 local review; no decipherment.",
       "path": "data/raw/comb_tablet_marshall_leaf185.jpg",
       "sha256": "2a8f8595eddb53abb1cbb447f191d372c1a7c1bb7497830ae5b86b7123f2fbc0",
       "url": "https://archive.org/download/in.gov.ignca.48270/page/n185.jpg"
@@ -4229,6 +4229,37 @@
       "refetchable": false,
       "research_date": "2026-10-10",
       "sha256": "870f96e4a89672727c217f3150112db4ad6fbcb423a03e4eb9117866abb6b7ca",
+      "source_registration_status": "registered",
+      "url": null
+    },
+    {
+      "bytes": 11582,
+      "is_error": false,
+      "kind": "external_AI_CLI_response_not_historical_evidence",
+      "model_usage_keys": [
+        "claude-opus-5-5"
+      ],
+      "original_document_bytes": false,
+      "path": "data/raw/claude-opus-oct10-fast-route-repo.json",
+      "prompt": "results/claude_code/oct10_fast_route_repo_prompt.txt",
+      "refetchable": false,
+      "research_date": "2026-10-10",
+      "sha256": "6534090e63564bc0433d1fb676236a01bc31ac421e0402444ff28f0461405ce0",
+      "source_registration_status": "registered",
+      "url": null
+    },
+    {
+      "bytes": 1411,
+      "failure": "model_requires_usage_credits",
+      "is_error": true,
+      "kind": "external_AI_CLI_response_not_historical_evidence",
+      "model_usage_keys": [],
+      "original_document_bytes": false,
+      "path": "data/raw/claude-fable-oct10-fast-route-protocol.json",
+      "prompt": "results/claude_code/oct10_fast_route_protocol_fable_prompt.txt",
+      "refetchable": false,
+      "research_date": "2026-10-10",
+      "sha256": "fba7c9df485fd4137bc73c60b8be3cd73f18ec89915ba6556f3c746dd0c03563",
       "source_registration_status": "registered",
       "url": null
     }

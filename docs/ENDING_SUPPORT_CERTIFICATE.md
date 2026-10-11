@@ -1,6 +1,16 @@
 # Exact support of the ending-rectangle shuffle
 
-Date: 2026-10-10. This calculation strengthens the interpretation of the existing exploratory ending screen: on verified M77 release 3, **every permitted permutation has zero four-cycles**, for both ending lengths and both starting bases. Running more shuffles cannot change that result. This is a limitation of the statistic conditional on the observed marginals, not evidence against language or inflection.
+Date: 2026-10-10. **Release 5 has zero observed rectangles, but two-sign rectangles are now possible under the specified shuffle.** One-sign rectangles remain impossible. This update changes the support diagnosis; it establishes neither statistical power nor a significant or linguistic result. Further ending-screen exploration is deferred for the finite motif-transfer route.
+
+## Current release 5
+
+The [release-5 certificate](../results/ending_support_v5.json) uses 198 corpus rows, of which 154 are clean and 153 have distinct sequences. Both starting bases have 146 eligible slots at k=1 and 137 at k=2. At k=1 only one stem has multiple slots, so no rectangle is possible. At k=2 seven stems have multiple slots, and the certificate finds 33 individually feasible stem-pair/ending-pair combinations in each basis. All observed four-cycle counts remain zero. The 33 are possible individual rectangles, not observed examples, a maximum simultaneous score, independent witnesses, or a probability.
+
+For a concrete k=2 support witness, stems `M267 M099` and `M391 M099` can both receive endings `M104 M162` and `M124 M342`: each ending has at least two copies in their common total-length-4 stratum. The certificate asserts that a permitted reassignment can realize those four edges; it does not assert that the corpus attests the rectangle. No new Monte Carlo analysis was run for this documentation update.
+
+## Historical releases 3 and 4
+
+On verified M77 release 3, **every permitted permutation has zero four-cycles**, for both ending lengths and both starting bases. Running more shuffles cannot change that historical result. This is a limitation of the statistic conditional on the observed marginals, not evidence against language or inflection.
 
 The input is the final `data/processed/m77_verified/corpus_v3.json`, filtered by `clean_rows` in `scripts/analyze_kober_alternations.py`. Of 99 printed lines, 76 are clean and 75 have distinct sequences. Doubt, visible unidentified signs, loss, and reviewer uncertainty are excluded. Stored normalized order is retained. The result includes SHA256 pins for the corpus and both scripts.
 
@@ -47,6 +57,9 @@ python3 scripts/ending_support_certificate.py \
 python3 scripts/ending_support_certificate.py \
   --corpus data/processed/m77_verified/corpus_v4.json \
   --output results/ending_support_v4.json
+python3 scripts/ending_support_certificate.py \
+  --corpus data/processed/m77_verified/corpus_v5.json \
+  --output results/ending_support_v5.json
 python3 -m unittest discover -s tests -p test_ending_support_certificate.py
 ```
 

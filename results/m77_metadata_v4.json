@@ -1,0 +1,72 @@
+{
+  "counts": {
+    "lines": 132,
+    "represented_sides": 123,
+    "references": 122
+  },
+  "line_field_code_counts": {
+    "00": 1,
+    "01": 129,
+    "35": 2
+  },
+  "side_field_code_counts": {
+    "00": 1,
+    "01": 121,
+    "35": 1
+  },
+  "reference_field_code_incidence_overlapping": {
+    "00": 1,
+    "01": 121,
+    "35": 1
+  },
+  "reference_code_sets": [
+    {
+      "codes": [
+        "00",
+        "01"
+      ],
+      "reference_count": 1
+    },
+    {
+      "codes": [
+        "01"
+      ],
+      "reference_count": 120
+    },
+    {
+      "codes": [
+        "35"
+      ],
+      "reference_count": 1
+    }
+  ],
+  "object_type_reference_counts": {
+    "1": 122
+  },
+  "references_with_multiple_codes": [
+    {
+      "reference": "1018",
+      "codes": [
+        "00",
+        "01"
+      ]
+    }
+  ],
+  "limitations": [
+    "Raw code incidence only; interpret labels using the separately verified primary codebook.",
+    "Reference incidences overlap when different sides have different codes.",
+    "Only represented sides are counted; this does not reconstruct missing or uncatalogued surfaces.",
+    "Distinct catalogue references do not prove independent objects or dies.",
+    "No sequence association, animal identity, chronology or semantic value is inferred."
+  ],
+  "source_pins": [
+    {
+      "path": "data/processed/m77_verified/corpus_v4.json",
+      "sha256": "c602ce79fd16cff92d61087fa9894b1aab53b8cb7fd469732dcad85626c19574"
+    },
+    {
+      "path": "scripts/profile_m77_metadata.py",
+      "sha256": "cd9d36b406fa06949a9f3c08e42b14f4e63f0a3b29a4b797f7162d90a0a9cb85"
+    }
+  ]
+}

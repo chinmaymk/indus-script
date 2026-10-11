@@ -1,0 +1,68 @@
+You are a skeptical statistical and decipherment-methods reviewer. Review this frozen experimental protocol, before any new sign-motif joint counts. Your Opus colleague recommended broad text-motif associations as a faster route than more transcription; we narrowed its claims. Reused data are not a blind holdout; motif association cannot distinguish names, offices, commodities or sounds. Exact text families receive equal weight; fractional motif bundles preserve different motifs on identical texts. Table V is potentially overlapping editorial evidence, not independent replication. SEAL:S is just an exact export type code. All 417 semantic/phonetic values remain unassigned. Give at most 600 words: any blocking mathematical/design defect; whether this finite test is worth running for prioritization only; the single next evidence acquisition that would add actual semantic identifiability. Do not claim a null closes decipherment. Do not invent corpus results. Protocol follows:
+{
+  "id": "motif-fast-route-v2",
+  "status": "frozen_before_new_sign_motif_association_counts; exploratory reused data, not preregistered historical holdout",
+  "research_date": "2026-10-10",
+  "source": {
+    "path": "data/raw/lipi_inscriptions.csv",
+    "sha256": "b8dcb325a2e2cd3cde12ac12e7a418b0348e45713c9ee28aad81b645d2ac5ee4"
+  },
+  "question": "Do native exported sign presences associate with raw motif labels beyond exact text length, and do selected directions transfer to another site on different exact texts?",
+  "not_identified": [
+    "word meaning",
+    "sound value",
+    "name versus office versus commodity",
+    "causal motif function",
+    "independent archaeological replication"
+  ],
+  "columns": [
+    "id",
+    "cisi",
+    "site",
+    "type",
+    "condition",
+    "complete",
+    "dir.",
+    "class",
+    "signs",
+    "text",
+    "symbol"
+  ],
+  "object_scope": "SEAL:S only; group by nonmissing cisi, otherwise lipi_id plus id before first dot; exclude a group if any in-scope row is parser-invalid, has absent motif, or if group has inconsistent site, raw motif, or complete sequence; SEAL:S denotes the exact export code, not an authenticated all-stamp-seal ontology; use all absent_labels for missing cisi",
+  "parser": "prepare_corpora.parse_lipi; allow NR only for exactly one simple literal sign as prior audit does; never reverse or map namespaces; import no proposed translations",
+  "absent_labels": [
+    "",
+    "-",
+    "--",
+    "?",
+    "None",
+    "Unknown"
+  ],
+  "discovery_site": "Mohenjo-daro",
+  "transfer_site": "Harappa",
+  "transfer_excludes_exact_discovery_sequences": true,
+  "unit": "One unique complete sequence per site; each receives the mean one-hot raw motif vector over its distinct eligible artifacts. Preserve mixed-motif vectors, never choose one label arbitrarily. Give every sequence family weight one.",
+  "features": "Native W sign presence only, no position feature or sign-family pooling",
+  "eligible_discovery": "sign present in >=10 sequence families; raw motif positive in >=10 families; positive conditional variance; raw motif labels are never merged",
+  "strata": "exact complete sequence length, separately in each site and quality subset",
+  "statistic": "Sum within-stratum (sum_i f_i*y_i - n_f*mean(y)), divided by sqrt(sum_strata [n_f*(n-n_f)/(n*(n-1)) * sum_i(y_i-mean(y))^2]); ignore n<2, exclude zero-variance pairs",
+  "null": "Shuffle whole motif-proportion vectors among sequence families within exact length. Preserve within-vector dependence and motif marginals. This is a conditional exchangeability model, not proof of artifact independence.",
+  "replicates": 9999,
+  "seed": 20261011,
+  "discovery_correction": "For each shuffle save maximum positive Z over all eligible sign-motif pairs; maxT adjusted p=(1+number of null maxima>=observed Z)/(B+1). Global p uses observed maximum. No MI or alternative statistic. Calibrated for the global joint exchangeability null; strong pairwise FWER under partial alternatives is not asserted.",
+  "selection": "At most5 positive-Z pairs with maxT p<=0.01, sorted by descendingZ then sign and rawmotif lexicographically; save/hash candidate file before transfer.",
+  "transfer": "Same statistic and permutations on fixed candidates only. Require >=10 families with sign and>=10 families with positive motif plus positive variance; report insufficient_configured_support otherwise, not no association. One-sided MonteCarlo p, Holm over all selected candidates including untestable as p1. Primary support requires positive Z and Holm-adjusted p<=0.05 on all-condition transfer. Use all eligible discovery sequences for transfer exclusion, unchanged for quality sensitivity.",
+  "sensitivity": "Repeat transfer on Good/Fair-only artifacts using same fixed candidates; no reselection. Report changed support, Z and corrected p. Require every in-scope row of a grouped artifact to have condition exactly Good or Fair, after full-group validation; filtering cannot rescue invalid groups. Sensitivity cannot rescue a failed primary transfer.",
+  "stop": "One discovery run and one fixed-candidate transfer plus prespecified quality sensitivity. If no candidates or inadequate support, stop this run. No new bins, motifs, features, groupings or p thresholds after observing outcomes.",
+  "success_scope": "A reproducible site-transfer association under these sampling/model assumptions only. It may prioritize at most5 primary motif/sign checks, never establish a motif-linked semantic function by itself.",
+  "primary_checks": "At most5 selected pairs if transfer supported. TableV is potentially overlapping/editorially dependent evidence, not independent replication; nativeW-to-M glyph mapping must be authenticated before comparing. No completeTableV extraction now.",
+  "limitations": [
+    "Previously inspected full export; site split is analytical separation, not blindness.",
+    "Unrecorded phases, styles and provenance may confound within-site comparisons.",
+    "Identical-text weighting does not establish independent dies or artifacts.",
+    "Exclusion of damaged/multiline/ambiguous rows may select nonrepresentatively.",
+    "Failure is not evidence that inscriptions do not name emblems. No global power claim without a justified alternative."
+  ],
+  "amends": "motif-fast-route-v1; all clarifications before any new sign-motif joint counts",
+  "random_streams": "numpy.random.default_rng; discovery seed, transfer seed+1, quality sensitivity seed+2; sort strata by length, families by sequence, motifs and signs lexicographically"
+}

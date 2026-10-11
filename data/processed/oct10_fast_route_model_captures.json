@@ -1,0 +1,33 @@
+[
+  {
+    "bytes": 11582,
+    "is_error": false,
+    "kind": "external_AI_CLI_response_not_historical_evidence",
+    "model_usage_keys": [
+      "claude-opus-5-5"
+    ],
+    "original_document_bytes": false,
+    "path": "data/raw/claude-opus-oct10-fast-route-repo.json",
+    "prompt": "results/claude_code/oct10_fast_route_repo_prompt.txt",
+    "refetchable": false,
+    "research_date": "2026-10-10",
+    "sha256": "6534090e63564bc0433d1fb676236a01bc31ac421e0402444ff28f0461405ce0",
+    "source_registration_status": "registered",
+    "url": null
+  },
+  {
+    "bytes": 1411,
+    "failure": "model_requires_usage_credits",
+    "is_error": true,
+    "kind": "external_AI_CLI_response_not_historical_evidence",
+    "model_usage_keys": [],
+    "original_document_bytes": false,
+    "path": "data/raw/claude-fable-oct10-fast-route-protocol.json",
+    "prompt": "results/claude_code/oct10_fast_route_protocol_fable_prompt.txt",
+    "refetchable": false,
+    "research_date": "2026-10-10",
+    "sha256": "fba7c9df485fd4137bc73c60b8be3cd73f18ec89915ba6556f3c746dd0c03563",
+    "source_registration_status": "registered",
+    "url": null
+  }
+]

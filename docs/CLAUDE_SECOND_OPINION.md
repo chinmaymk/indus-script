@@ -41,3 +41,34 @@ Not adopted: the response calls a small null probability "power." Power requires
 Not adopted: newly verified pages are not automatically an untouched holdout. Earlier access to the secondary corpus, remembered contexts, duplicated objects and discovery-guided transcription remain possible. The prompt explicitly disclosed that history. Page53 was already being transcribed when the critique arrived, and is not a preregistered holdout. No new confirmatory test, significance threshold or power claim was retroactively applied.
 
 The suggested local penultimate/final analysis addresses a different question and would need its own justified sampling, dependence model and exposure audit. It cannot be promoted to a language-versus-label discriminator. Whole-line boundaries and metadata skew remain limitations; source-normalized RTL ordering is already authenticated in the [codebook review](M77_CODEBOOK_REVIEW.md). We retain the critique as an opinion and implement the exact-support diagnostic, rather than launching an unvalidated confirmation experiment.
+
+
+## Faster route: repository review and protocol correction
+
+At the user's request, a restricted read-only Opus CLI review inspected repository
+files with Read/Glob/Grep and no shell/network tools. Returned model:
+`claude-opus-5-5`; [prompt](../results/claude_code/oct10_fast_route_repo_prompt.txt)
+and [response](../data/raw/claude-opus-oct10-fast-route-repo.json) are preserved.
+It ranked testing native-sign associations with existing raw motif labels above
+more indiscriminate page transcription. We accepted that as a finite prioritization
+experiment, not as decipherment.
+
+We rejected its stronger semantic interpretation: an association cannot identify
+names, offices or commodities. The reused site split is not a blind holdout;
+Table V can overlap the export and is not independent archaeological replication.
+Exact `SEAL:S` is an export-code subset, not an authenticated all-stamp-seal class.
+We replaced loose length bins and positional features with exact-length strata
+and sign presence only, grouped artifacts, equal-weight exact-sequence families,
+fractional motif vectors, a global maxT screen and frozen cross-site candidates.
+No sign namespaces are merged or assigned meanings.
+
+The [independent mathematical review](MOTIF_PROTOCOL_REVIEW.md) confirmed the
+conditional variance and identified missing transfer and quality rules. Protocol
+v2 fixes transfer Holm at0.05, all-row Good/Fair eligibility after full-group
+validation, primary-only success, and limits maxT claims to its exchangeability
+model. Both protocol versions predate new joint counts. A further tools-disabled
+Fable critique was attempted but returned zero tokens and
+`429 credits_required / model_requires_usage_credits`; this was a provider usage
+limit, not an approval rejection. The [failure](../data/raw/claude-fable-oct10-fast-route-protocol.json)
+and [prompt](../results/claude_code/oct10_fast_route_protocol_fable_prompt.txt)
+are retained. It supplied no opinion, and no retry loop was started.
