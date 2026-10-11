@@ -5996,3 +5996,25 @@ no complete Bagasra vessel; Table3 height/bodydiameter missing, contents unresol
 and residue attempts unsuccessful. No usable independent capacity-text calibration,
 sign scoring, fits or acquired references. Specific result summary saved as
 bagasra_jar_source_criticism.json; gate stopped without a new experiment.
+
+
+**Kanmer source-discovery stop.** Two exact primary-source queries and official
+bibliographic/RIHN page reads located2012 report, x+844pages/disc,
+ISBN9784902325720, not an authenticated public body. Counts and context frame
+remain unknown, not absent.76392byte actual tool capture registered with hash
+5977e33451fb1196172e4372644d7bf1d3f300177a238399699fdad578b7195d.
+No report/signs acquired or test. One specific unvisited News.html publication
+link from official homepage becomes the next bounded source-pointer check; stop
+onepage, no query/guessed endpoint extension. This link is newly documented
+source evidence, rather than a rerun of the two closed discovery queries.
+Research batch ea97805 pushed with5 LFS artifacts/4.5MB; local origin/main agrees.
+
+
+**Kanmer one-page pointer stop.** Official News.html extraction supplied2009
+announcements and photo/news links, not the2012 report body or field/context
+register. Captured and registered; no linked photo/sign review or onward crawl.
+Source eligibility remains unknown; do not repeat either the two queries or this
+page without a specific changed public source. Separate source decision saved.
+A specifically newly encountered2025 primary DOI10.1017/rdc.2024.119 is a possible
+bounded next-source criticism, not evidence of inscription-associated chronology
+or a semantic anchor. No old calibration/deposit model is reopened.
