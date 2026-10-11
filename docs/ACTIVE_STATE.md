@@ -79,8 +79,8 @@ Editorial draft: `docs/blog/trying-to-decipher-the-indus-script-with-ai.md`,
 unpublished and ready for author review. Rounded840m headline; exact frozen
 usage/cache accounting in `RESEARCH_TOKEN_USAGE.md`. No experiment rerun.
 
-Yajnadevam/Bhagatrav batch and handoff backed up through51140e2. Current
-Kuntasi/Keeladi source gates completed and prepared for authorized origin/main backup.
+Yajnadevam/Bhagatrav batch and handoff backed up through51140e2. Kuntasi/Keeladi
+batch69af0ad pushed; exact origin/main SHA verified11October,16 LFS objects18MB.
 Raw material stays registered in `data/raw/`; derived results in `results/` or
 `data/processed/`. Do not overwrite frozen inputs/results. Claude's last follow-up
 hit provider credit limit; no changed availability or new Claude review.

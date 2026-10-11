@@ -6233,3 +6233,12 @@ No request made yet. Freeze one exact article-body attempt; stop if unavailable
 or identity/readings not established, no other source. A materially different
 independent reading of identifiedobject could discriminate candidate amahas;
 reported mixedmarks without assigned sounds would still not establish a bridge.
+
+**Verification/backup.** Kuntasi13 and Keeladi21decisionpins verified (34total),
+all9 relevant raw registry records match bytes/hash. ACTIVE_STATE618words before
+backup note replacement. Authored docs/JSON staged checks pass; source bytes and
+extraction remain preserved.40-file batch committed69af0ad9443933f11eddbdbded00d91c8e8cfca4,
+pushed origin/main with16 LFS objects18MB. Exact remoteSHA equals localHEAD,
+checkout clean. Current goal turn is progress: two primary source gates closed
+with new authoritative evidence and explicit limitations. Full decipherment not
+achieved; next frozen Marungur article action has not yet been fetched.
