@@ -6434,3 +6434,13 @@ All124 nonempty histories reconcile response and cumulative counters. Independen
 source-counter/Claude/CLI sum matched;161 source-prefix hashes checked and frozen
 metadata replay reproduced the report. Registered raw capture; earlier snapshots
 preserved. Billion-token headline still deferred; no scientific experiment.
+
+
+## 2026-10-11 — Fourth token milestone check
+
+Author requested another combined usage check. Unchanged script, frozen cutoff
+11:38:22UTC(04:38:22Pacific):888,184,680 including automatic review;868,128,454
+research models. Increase2,200,189;111,815,320 remain to one billion. All124
+nonempty histories reconcile response and cumulative usage. Registered metadata
+capture with bytes/hash/provenance; previous snapshots and blog cutoff preserved.
+No new Claude usage, scientific experiment or decipherment claim.

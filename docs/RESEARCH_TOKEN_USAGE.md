@@ -1,7 +1,7 @@
 # Recorded token usage for the Indus investigation
 
-Latest check: **about 886 million tokens** at 4:28 a.m. Pacific on 11 October.
-See [the third audit](RESEARCH_TOKEN_USAGE_OCT11_V3.md). The first audit below is
+Latest check: **about 888 million tokens** at 4:38 a.m. Pacific on 11 October.
+See [the fourth audit](RESEARCH_TOKEN_USAGE_OCT11_V4.md). The first audit below is
 preserved at its original cutoff, which the blog currently uses.
 
 Audited 11 October 2026 for the author's blog. Frozen cutoff:
