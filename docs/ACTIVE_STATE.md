@@ -64,10 +64,13 @@ Editorial handoff: `docs/blog/trying-to-decipher-the-indus-script-with-ai.md`
 is a first-person draft for chinmay.ai, ready for author review; not published.
 Author clarified the premise: Astra tried autonomously for roughly two weeks;
 Opus and Sol were brought in later as Astra struggled. The draft follows that
-sequence. This writing task did not launch or rerun a research experiment.
+sequence and the author's multiple usage resets. Frozen usage audit at the
+author's request timestamp: 821,734,966 research-model tokens; 838,914,762 with
+automatic review. Cache reads included; blog/audit chat excluded. See
+`RESEARCH_TOKEN_USAGE.md`. This task did not rerun a scientific experiment.
 
-For the latest blog backup, inspect Git; research checkpoint was `e9c5dc6`.
-Saved ending results and public source batch still await their separate backup.
+Research batch `78fd029` was pushed and origin/main verified on 11 October.
+Ending results, source provenance and locator ledgers are backed up; pilot pending.
 Raw captures stay in `data/raw/`, registered in `data/sources.json`; derived
 results in `results/` or `data/processed/`. Do not overwrite frozen inputs/results.
 Claude's last follow-up hit a provider usage-credit limit; no new opinion obtained.
