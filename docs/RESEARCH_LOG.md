@@ -5925,3 +5925,13 @@ remain unchanged. No new research run or website publication.
 
 At the author's request, added the public GitHub repository link as the first
 line above the headline. No scientific run or website publication.
+
+## 2026-10-11 — Shortened blog for narrative flow
+
+Author requested a substantially shorter, more interesting post. Rebuilt the
+draft around the autonomous Astra attempt, logging, the gap between patterns
+and readings, a conditional numeral example, later Opus/Sol help, and the outcome.
+Removed the usage table, equations, extended corpus details and repeated caveats;
+retained rounded model counts, cache context and links to exact evidence.
+Repository remains first and the 840 million token headline remains unchanged.
+No scientific run or website publication.
