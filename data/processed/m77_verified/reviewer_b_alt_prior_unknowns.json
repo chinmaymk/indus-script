@@ -1,0 +1,170 @@
+{
+  "status": "two prior corpus uncertainties resolved by clearer existing primary scan",
+  "reviewer": "B",
+  "source": "data/raw/mahadevan_alternative_scan.pdf",
+  "findings": [
+    {
+      "reference": "1026",
+      "side": "0",
+      "line": "0",
+      "position_from_right": 6,
+      "alternative_pdf_page_1based": 51,
+      "printed_page": 39,
+      "recommendation": "M347",
+      "source_doubt": false,
+      "reason": "Both arms end in three distinct upward prongs. This matches Sign List347, whereas352 requires a left terminal with horizontal F-like ticks. Clearer crop resolves former left-terminal blur.",
+      "locator_authentication": "Printed39 footer and labeled1026 row, between1025 and1027, containing same seven glyph slots."
+    },
+    {
+      "reference": "1047",
+      "side": "0",
+      "line": "0",
+      "position_from_right": 1,
+      "alternative_pdf_page_1based": 52,
+      "printed_page": 40,
+      "recommendation": "M054",
+      "source_doubt": false,
+      "reason": "Central oval has a fully visible empty white interior; no short vertical inside. Matches054, not055.",
+      "locator_authentication": "Printed40 footer; damaged label1047 lies between1046 and1048 and complete inscription aligns with main-scan1047 sequence."
+    }
+  ],
+  "render_dimensions": [
+    4244,
+    6000
+  ],
+  "crop_manifest": [
+    {
+      "source_render": "results/primary_pages/m77-v3-alt-prior-51.png",
+      "crop": "results/primary_pages/m77-v3-alt-prior-1026-glyphs.png",
+      "bbox_render_pixels": [
+        2640,
+        4500,
+        3260,
+        4665
+      ],
+      "exact_pixel_check": true
+    },
+    {
+      "source_render": "results/primary_pages/m77-v3-alt-prior-51.png",
+      "crop": "results/primary_pages/m77-v3-alt-prior-1026-row.png",
+      "bbox_render_pixels": [
+        590,
+        4500,
+        3260,
+        4665
+      ],
+      "exact_pixel_check": true
+    },
+    {
+      "source_render": "results/primary_pages/m77-v3-alt-prior-51.png",
+      "crop": "results/primary_pages/m77-v3-alt-prior-1026-U.png",
+      "bbox_render_pixels": [
+        2790,
+        4520,
+        2910,
+        4650
+      ],
+      "exact_pixel_check": true
+    },
+    {
+      "source_render": "results/primary_pages/m77-v3-alt-prior-51.png",
+      "crop": "results/primary_pages/m77-v3-alt-prior-page39.png",
+      "bbox_render_pixels": [
+        1820,
+        5350,
+        2000,
+        5510
+      ],
+      "exact_pixel_check": true
+    },
+    {
+      "source_render": "results/primary_pages/m77-v3-alt-prior-52.png",
+      "crop": "results/primary_pages/m77-v3-alt-prior-1047-glyph.png",
+      "bbox_render_pixels": [
+        3290,
+        2650,
+        3420,
+        2830
+      ],
+      "exact_pixel_check": true
+    },
+    {
+      "source_render": "results/primary_pages/m77-v3-alt-prior-52.png",
+      "crop": "results/primary_pages/m77-v3-alt-prior-1047-row.png",
+      "bbox_render_pixels": [
+        870,
+        2650,
+        3420,
+        2830
+      ],
+      "exact_pixel_check": true
+    },
+    {
+      "source_render": "results/primary_pages/m77-v3-alt-prior-52.png",
+      "crop": "results/primary_pages/m77-v3-alt-prior-page40.png",
+      "bbox_render_pixels": [
+        2070,
+        5190,
+        2250,
+        5320
+      ],
+      "exact_pixel_check": true
+    }
+  ],
+  "evidence_pins": [
+    {
+      "path": "data/raw/mahadevan_alternative_scan.pdf",
+      "sha256": "ef68fe8dc25e94fe9cb75b418c5189a084383e72498560ef393372e90a27e110"
+    },
+    {
+      "path": "results/primary_pages/m77-v1-reviewerB-46.png",
+      "sha256": "69923facfabb6978696445c69d4319d23d1e9234b27e35311ae111d148169136"
+    },
+    {
+      "path": "results/primary_pages/m77-v1-reviewerB-43.png",
+      "sha256": "22ca809ca590447e58566b9033c0be8dcc1801676d4cb6239e2f1fca2ef37f26"
+    },
+    {
+      "path": "results/primary_pages/m77-v3-alt-prior-51.png",
+      "sha256": "c108a400668bcf3eef966096525b0bc8a26b33428da2249dbcc237e58c81a24a"
+    },
+    {
+      "path": "results/primary_pages/m77-v3-alt-prior-1026-glyphs.png",
+      "sha256": "43e4802d87112ed3769304b2e68dff6ed20ccb01dd4c6c66c8fec04e463caa23"
+    },
+    {
+      "path": "results/primary_pages/m77-v3-alt-prior-1026-row.png",
+      "sha256": "d86b723ccaf0cc8ca9c82ed5267900f7ef76b1f5a9eadf871ee85048c7aa601e"
+    },
+    {
+      "path": "results/primary_pages/m77-v3-alt-prior-1026-U.png",
+      "sha256": "49d974b208a8b3e9df6d185fda3fe22a6ab6d94409defcf93dba3c65e305a8a6"
+    },
+    {
+      "path": "results/primary_pages/m77-v3-alt-prior-page39.png",
+      "sha256": "c06bf59cecfebaffa6dde33c59d019d4ee21099c95524a66e317d06093df43c6"
+    },
+    {
+      "path": "results/primary_pages/m77-v3-alt-prior-52.png",
+      "sha256": "bd76966f723aa0263f941f3c1b161d14aeaf56d833dc018e798f225171606c04"
+    },
+    {
+      "path": "results/primary_pages/m77-v3-alt-prior-1047-glyph.png",
+      "sha256": "3f591ac602d3a049639030d54caf9cb54b654d26353e73b74a27f06abd825cdc"
+    },
+    {
+      "path": "results/primary_pages/m77-v3-alt-prior-1047-row.png",
+      "sha256": "4b64c3d116cf356cc13fe8268563215f4974ebb474b447504e07402bb750e788"
+    },
+    {
+      "path": "results/primary_pages/m77-v3-alt-prior-page40.png",
+      "sha256": "7a85348e3488acb8722c08c4c63dd454a80cee255add1eca42e76a903a7d6eaf"
+    }
+  ],
+  "scope": "Only two glyph identities; no automatic replacement of other corpus tokens or metadata. Parent must retain/add adjudication explicitly.",
+  "limits": [
+    "Same printed edition, not independent ancient inscription evidence.",
+    "No new downloads.",
+    "Existing frozen submissions and adjudications unchanged."
+  ]
+}

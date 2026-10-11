@@ -1,6 +1,27 @@
 # M77 corpus: complete-page transcription
 
-## Current release: two consecutive pages
+## Current release: three consecutive pages
+
+10 October 2026 continuation. [Release3](../data/processed/m77_verified/corpus_v3.json) covers printed39–41/PDF50–52: **92 references,99 lines,515 assigned sign positions,129 distinct assigned types,zero additional unidentified visible glyphs,12 unknown-length loss spans and20 source-doubtful positions**. The20 source-doubtful positions are included in515, not resolved by that count. This is2.77% of the3573 printed lines. All rows in the manifest are present; this is not a complete Indus corpus or a decipherment.
+
+The third page contains1066–1096, including three lines of1093. Parent independently checked the printed coverage and metadata. The source direction codes on1093's lines are3,5,1; these do not change M77's already normalized right-to-left token order. Both reviews froze before comparison: A disclosed secondary-export exposure, B disclosed earlier exposure to the1066 pilot. These are distinct review passes, not fully blind human readings.
+
+The32 whole-row agreements left one disagreement:1083's second glyph from the right, M054 versus M055. On the main scan, M055's short interior stroke could not be separated reliably from the oval edge and scan pixels; the assembler initially refused publication, then a provisional custom decision retained `UNKNOWN {M054,M055}`. That decision remains in [the main-scan-only snapshot](../data/processed/m77_verified/adjudications_v3_primary_scan_only.json).
+
+The existing alternative scan provided a clearer view of the same printed edition. At alternatePDF53/printed41, both1083 glyphs have empty central ovals, supporting M054. A bounded check of the two earlier unknowns also resolves1026 position6 as M347 (three prongs on both terminals) and1047 position1 as M054 (empty oval). Parent visually checked the native crops against the sign-list forms and accepted B's separately recorded findings. Final release3 uses A's rows at these three references. Original reviews and releases1/2 remain unchanged; no loss span or source-doubt marker was removed. This improves printed-transcription fidelity, not independent archaeological confirmation.
+
+```sh
+python scripts/build_verified_m77.py \
+  --manifest data/processed/m77_verified/page_manifest_v3.json \
+  --adjudications data/processed/m77_verified/adjudications_v3.json \
+  --candidate-export data/processed/m77_candidate_records.jsonl \
+  --comparison results/m77_verified_v3_comparison.json \
+  --output data/processed/m77_verified/corpus_v3.json
+```
+
+[Initial comparison](../results/m77_verified_v3_initial_comparison.json), [decisions](../data/processed/m77_verified/adjudications_v3.json), [B initial follow-up](../data/processed/m77_verified/reviewer_b_adjudication_page052.json), [1083 alternative-scan addendum](../data/processed/m77_verified/reviewer_b_adjudication_page052_alt_addendum.json), and [prior-unknown addendum](../data/processed/m77_verified/reviewer_b_alt_prior_unknowns.json) preserve the changing evidence. The next consecutive page is mainPDF53/printed42; authenticate the alternative scan's locator separately. Prior releases remain unchanged.
+
+## Second release: historical batch record
 
 10 October2026 continuation. [Release2](../data/processed/m77_verified/corpus_v2.json) covers printed39–40/PDF50–51: **61 references,66 lines,349 identified sign positions,110 distinct assigned types,two unidentified visible glyphs,nine unknown-length loss spans and14source-doubtful positions**. This is1.85% of the3573 printed lines. Full printed-row coverage does not imply object-photograph verification or decipherment.
 
@@ -21,7 +42,7 @@ python scripts/build_verified_m77.py \
 
 ## First release: historical batch record
 
-10 October 2026. **The current release covers one entire printed page: 29 references and 33 lines.** It is faithful to the reviewed M77 printed transcription, with one glyph identity still unresolved. This is not object-photograph verification, a representative corpus, or a decipherment.
+10 October 2026. **The first release covers one entire printed page: 29 references and 33 lines.** It is faithful to the reviewed M77 printed transcription, with one glyph identity still unresolved. This is not object-photograph verification, a representative corpus, or a decipherment.
 
 The main research direction is now consecutive-page corpus construction. The earlier 550 reviewed contexts were selected around M328 and its counterparts. Nine other explicitly keyed recovered lines and several selected witnesses do not make those data a complete, unbiased corpus. They remain preserved separately; this batch does not automatically upgrade them.
 

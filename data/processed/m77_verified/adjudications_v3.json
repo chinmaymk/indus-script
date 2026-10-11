@@ -1,0 +1,2013 @@
+{
+  "schema_version": "m77-adjudication-1",
+  "review_pins": [
+    {
+      "path": "data/processed/m77_verified/reviewer_a_page050.json",
+      "sha256": "68f04b60e3de391628063a1aa0730b03cd13b2368020829be49ddd38adc0b7d7"
+    },
+    {
+      "path": "data/processed/m77_verified/reviewer_b_page050.json",
+      "sha256": "3e233a41ac500cc8ec5f889905c36592f9fb811baf62f9680ca133101932b44e"
+    },
+    {
+      "path": "data/processed/m77_verified/reviewer_a_page051.json",
+      "sha256": "657e1bec9ec5f0756384a9a3461e906b156aeeee9307fe6f8a45887f2d47a3b5"
+    },
+    {
+      "path": "data/processed/m77_verified/reviewer_b_page051_schema1.json",
+      "sha256": "b12f9d166f0926c94d9a029ebc4ad829f5d7c167db048f0bf84418e0edcc892b"
+    },
+    {
+      "path": "data/processed/m77_verified/reviewer_a_page052.json",
+      "sha256": "f2b4b482c4f722eb5708a83c2cb5ad3e544473b14164f9f9b66960a67d534dfa"
+    },
+    {
+      "path": "data/processed/m77_verified/reviewer_b_page052.json",
+      "sha256": "bcfb636bbbc27110c7277943ccf895cf72472f440b6a3514530de91fec5f4eba"
+    }
+  ],
+  "adjudicator": "Parent primary-image review, with B follow-up; not a third blind observer",
+  "research_date": "2026-10-10",
+  "decisions": [
+    {
+      "source_pdf_page": 50,
+      "key": [
+        "1006",
+        "0",
+        "0"
+      ],
+      "resolution": "A",
+      "reason": "The terminal crown has multiple oblique uprights, unlike the plain two-arm M161. Rechecked against primary M169 and native crop; reviewer B independently reconsidered in follow-up.",
+      "source_pins": [
+        {
+          "path": "data/raw/mahadevan_1977_text.pdf",
+          "sha256": "6dcdd074a0174e5fab149590fbbf82342711d345764e9763f8e5e92c81cf7f99"
+        },
+        {
+          "path": "results/primary_pages/texts-050.png",
+          "sha256": "a78ab810777334783148b605932fceac6cf0144fd6faab6f8581f9967409e781"
+        },
+        {
+          "path": "results/primary_pages/sign_list_page_32.png",
+          "sha256": "1e3f91789c947add7ce796479168d84d69636ebdc378493743188ac11c53c90a"
+        },
+        {
+          "path": "results/primary_pages/sign_list-044.png",
+          "sha256": "33eff554bfdea81af6d1a3510a5b2541d1b74b02ae1e63b253c725b44c7c0b64"
+        },
+        {
+          "path": "results/primary_pages/sign_list-045.png",
+          "sha256": "972002b288ea77921dcacfe67386dbf585b76be6bca5444b7ff9422e47e70b89"
+        },
+        {
+          "path": "results/primary_pages/sign_list-046.png",
+          "sha256": "a191e9297a6ab8b7cad1028eaeac062b4b6fa3cd34aefbdd507f669d736d2e8e"
+        },
+        {
+          "path": "data/processed/m77_codebook_review.json",
+          "sha256": "2d88405d6ce077afbd670fb11800fbb717dff03e98581b4a2c19f10b60ee9ea8"
+        },
+        {
+          "path": "results/primary_pages/m77-v1-reviewerB-detail-1006-Y.png",
+          "sha256": "91e2b282ab0acf74dd5b3eeeb48f2ceb1aea1e66f19a4f1ba28040223b6ac9f6"
+        },
+        {
+          "path": "results/primary_pages/m77-v1-reviewerB-detail-1011.png",
+          "sha256": "19efa5290e4cc7f947a96952de0d9e2f47be60f9970b7968e0c0b0a9d11f96c6"
+        },
+        {
+          "path": "results/primary_pages/m77-v1-reviewerB-detail-1015.png",
+          "sha256": "826ba669fd696e9eed124c5592f4e3e9cf15d91633590882981925baabba046d"
+        },
+        {
+          "path": "results/primary_pages/m77-v1-reviewerB-detail-1016.png",
+          "sha256": "2c0c562200b8feb3bd311e5eecbb53ee08c37e5ea8e9d82ae4b90c3a1c508521"
+        },
+        {
+          "path": "results/primary_pages/m77-v1-reviewerB-detail-1017.png",
+          "sha256": "d274654a504f82eefb2af4c075ad9c0a3b2f767336b6c111bbfc10a67e937203"
+        },
+        {
+          "path": "results/primary_pages/m77-v1-reviewerB-detail-1021-U.png",
+          "sha256": "e8b4976c7c70502affaf4486e5e941c67166106993c63989b6548d245a8f222b"
+        },
+        {
+          "path": "results/primary_pages/m77-v1-reviewerB-detail-1024.png",
+          "sha256": "f83e1c63b94f2e4b67ce2bd0a5c863248ef6eeb7d33bafdbb97869832ea94ab9"
+        },
+        {
+          "path": "results/primary_pages/m77-v1-reviewerB-detail-1025.png",
+          "sha256": "ca13ba9a322f6aabf7000e4016203d544ae36785dbc4de534df863b7e6b832e5"
+        },
+        {
+          "path": "results/primary_pages/m77-v1-reviewerB-detail-1026.png",
+          "sha256": "85918ff5b4f71861d83d1baab248e9b9e1a62eb982af0ffa8fad0bdfc8ae6cbe"
+        },
+        {
+          "path": "results/primary_pages/m77-v1-reviewerB-detail-1029.png",
+          "sha256": "db6a6213793fb5a04960b7af2133476df97cb1ea57a6ffc0c8aae247260bf15e"
+        },
+        {
+          "path": "results/primary_pages/m77-v1-adjudication-signs214-218.png",
+          "sha256": "e5070f44524d086e01a1ffdc1337adc483d91a77e72e82e4fd73170b7289964a"
+        },
+        {
+          "path": "results/primary_pages/m77-v1-adjudication-signs220-224.png",
+          "sha256": "c98a6261f5d300cb9081f7243760b2dbcf9ba7b27dfc78eddcab96117d89cac3"
+        },
+        {
+          "path": "results/primary_pages/m77-v1-adjudication-1027-dispute.png",
+          "sha256": "472248dbfa13bd31404193a83e69f21d7e62635f20e7496768f055f301fe6af2"
+        }
+      ]
+    },
+    {
+      "source_pdf_page": 50,
+      "key": [
+        "1011",
+        "0",
+        "0"
+      ],
+      "resolution": "A",
+      "reason": "Reading normalized primary image right-to-left places M342 before M017 after M009; B had transposed them. Terminal pronged crown matches M169, not the plain M161. Primary crop and sign list reviewed.",
+      "source_pins": [
+        {
+          "path": "data/raw/mahadevan_1977_text.pdf",
+          "sha256": "6dcdd074a0174e5fab149590fbbf82342711d345764e9763f8e5e92c81cf7f99"
+        },
+        {
+          "path": "results/primary_pages/texts-050.png",
+          "sha256": "a78ab810777334783148b605932fceac6cf0144fd6faab6f8581f9967409e781"
+        },
+        {
+          "path": "results/primary_pages/sign_list_page_32.png",
+          "sha256": "1e3f91789c947add7ce796479168d84d69636ebdc378493743188ac11c53c90a"
+        },
+        {
+          "path": "results/primary_pages/sign_list-044.png",
+          "sha256": "33eff554bfdea81af6d1a3510a5b2541d1b74b02ae1e63b253c725b44c7c0b64"
+        },
+        {
+          "path": "results/primary_pages/sign_list-045.png",
+          "sha256": "972002b288ea77921dcacfe67386dbf585b76be6bca5444b7ff9422e47e70b89"
+        },
+        {
+          "path": "results/primary_pages/sign_list-046.png",
+          "sha256": "a191e9297a6ab8b7cad1028eaeac062b4b6fa3cd34aefbdd507f669d736d2e8e"
+        },
+        {
+          "path": "data/processed/m77_codebook_review.json",
+          "sha256": "2d88405d6ce077afbd670fb11800fbb717dff03e98581b4a2c19f10b60ee9ea8"
+        },
+        {
+          "path": "results/primary_pages/m77-v1-reviewerB-detail-1006-Y.png",
+          "sha256": "91e2b282ab0acf74dd5b3eeeb48f2ceb1aea1e66f19a4f1ba28040223b6ac9f6"
+        },
+        {
+          "path": "results/primary_pages/m77-v1-reviewerB-detail-1011.png",
+          "sha256": "19efa5290e4cc7f947a96952de0d9e2f47be60f9970b7968e0c0b0a9d11f96c6"
+        },
+        {
+          "path": "results/primary_pages/m77-v1-reviewerB-detail-1015.png",
+          "sha256": "826ba669fd696e9eed124c5592f4e3e9cf15d91633590882981925baabba046d"
+        },
+        {
+          "path": "results/primary_pages/m77-v1-reviewerB-detail-1016.png",
+          "sha256": "2c0c562200b8feb3bd311e5eecbb53ee08c37e5ea8e9d82ae4b90c3a1c508521"
+        },
+        {
+          "path": "results/primary_pages/m77-v1-reviewerB-detail-1017.png",
+          "sha256": "d274654a504f82eefb2af4c075ad9c0a3b2f767336b6c111bbfc10a67e937203"
+        },
+        {
+          "path": "results/primary_pages/m77-v1-reviewerB-detail-1021-U.png",
+          "sha256": "e8b4976c7c70502affaf4486e5e941c67166106993c63989b6548d245a8f222b"
+        },
+        {
+          "path": "results/primary_pages/m77-v1-reviewerB-detail-1024.png",
+          "sha256": "f83e1c63b94f2e4b67ce2bd0a5c863248ef6eeb7d33bafdbb97869832ea94ab9"
+        },
+        {
+          "path": "results/primary_pages/m77-v1-reviewerB-detail-1025.png",
+          "sha256": "ca13ba9a322f6aabf7000e4016203d544ae36785dbc4de534df863b7e6b832e5"
+        },
+        {
+          "path": "results/primary_pages/m77-v1-reviewerB-detail-1026.png",
+          "sha256": "85918ff5b4f71861d83d1baab248e9b9e1a62eb982af0ffa8fad0bdfc8ae6cbe"
+        },
+        {
+          "path": "results/primary_pages/m77-v1-reviewerB-detail-1029.png",
+          "sha256": "db6a6213793fb5a04960b7af2133476df97cb1ea57a6ffc0c8aae247260bf15e"
+        },
+        {
+          "path": "results/primary_pages/m77-v1-adjudication-signs214-218.png",
+          "sha256": "e5070f44524d086e01a1ffdc1337adc483d91a77e72e82e4fd73170b7289964a"
+        },
+        {
+          "path": "results/primary_pages/m77-v1-adjudication-signs220-224.png",
+          "sha256": "c98a6261f5d300cb9081f7243760b2dbcf9ba7b27dfc78eddcab96117d89cac3"
+        },
+        {
+          "path": "results/primary_pages/m77-v1-adjudication-1027-dispute.png",
+          "sha256": "472248dbfa13bd31404193a83e69f21d7e62635f20e7496768f055f301fe6af2"
+        }
+      ]
+    },
+    {
+      "source_pdf_page": 50,
+      "key": [
+        "1015",
+        "0",
+        "0"
+      ],
+      "resolution": "A",
+      "reason": "The glyph has an empty central oval as M054; M055 has an extra interior short vertical. Primary crop compared with both sign-list forms and the marked interior in1003. B follow-up agrees.",
+      "source_pins": [
+        {
+          "path": "data/raw/mahadevan_1977_text.pdf",
+          "sha256": "6dcdd074a0174e5fab149590fbbf82342711d345764e9763f8e5e92c81cf7f99"
+        },
+        {
+          "path": "results/primary_pages/texts-050.png",
+          "sha256": "a78ab810777334783148b605932fceac6cf0144fd6faab6f8581f9967409e781"
+        },
+        {
+          "path": "results/primary_pages/sign_list_page_32.png",
+          "sha256": "1e3f91789c947add7ce796479168d84d69636ebdc378493743188ac11c53c90a"
+        },
+        {
+          "path": "results/primary_pages/sign_list-044.png",
+          "sha256": "33eff554bfdea81af6d1a3510a5b2541d1b74b02ae1e63b253c725b44c7c0b64"
+        },
+        {
+          "path": "results/primary_pages/sign_list-045.png",
+          "sha256": "972002b288ea77921dcacfe67386dbf585b76be6bca5444b7ff9422e47e70b89"
+        },
+        {
+          "path": "results/primary_pages/sign_list-046.png",
+          "sha256": "a191e9297a6ab8b7cad1028eaeac062b4b6fa3cd34aefbdd507f669d736d2e8e"
+        },
+        {
+          "path": "data/processed/m77_codebook_review.json",
+          "sha256": "2d88405d6ce077afbd670fb11800fbb717dff03e98581b4a2c19f10b60ee9ea8"
+        },
+        {
+          "path": "results/primary_pages/m77-v1-reviewerB-detail-1006-Y.png",
+          "sha256": "91e2b282ab0acf74dd5b3eeeb48f2ceb1aea1e66f19a4f1ba28040223b6ac9f6"
+        },
+        {
+          "path": "results/primary_pages/m77-v1-reviewerB-detail-1011.png",
+          "sha256": "19efa5290e4cc7f947a96952de0d9e2f47be60f9970b7968e0c0b0a9d11f96c6"
+        },
+        {
+          "path": "results/primary_pages/m77-v1-reviewerB-detail-1015.png",
+          "sha256": "826ba669fd696e9eed124c5592f4e3e9cf15d91633590882981925baabba046d"
+        },
+        {
+          "path": "results/primary_pages/m77-v1-reviewerB-detail-1016.png",
+          "sha256": "2c0c562200b8feb3bd311e5eecbb53ee08c37e5ea8e9d82ae4b90c3a1c508521"
+        },
+        {
+          "path": "results/primary_pages/m77-v1-reviewerB-detail-1017.png",
+          "sha256": "d274654a504f82eefb2af4c075ad9c0a3b2f767336b6c111bbfc10a67e937203"
+        },
+        {
+          "path": "results/primary_pages/m77-v1-reviewerB-detail-1021-U.png",
+          "sha256": "e8b4976c7c70502affaf4486e5e941c67166106993c63989b6548d245a8f222b"
+        },
+        {
+          "path": "results/primary_pages/m77-v1-reviewerB-detail-1024.png",
+          "sha256": "f83e1c63b94f2e4b67ce2bd0a5c863248ef6eeb7d33bafdbb97869832ea94ab9"
+        },
+        {
+          "path": "results/primary_pages/m77-v1-reviewerB-detail-1025.png",
+          "sha256": "ca13ba9a322f6aabf7000e4016203d544ae36785dbc4de534df863b7e6b832e5"
+        },
+        {
+          "path": "results/primary_pages/m77-v1-reviewerB-detail-1026.png",
+          "sha256": "85918ff5b4f71861d83d1baab248e9b9e1a62eb982af0ffa8fad0bdfc8ae6cbe"
+        },
+        {
+          "path": "results/primary_pages/m77-v1-reviewerB-detail-1029.png",
+          "sha256": "db6a6213793fb5a04960b7af2133476df97cb1ea57a6ffc0c8aae247260bf15e"
+        },
+        {
+          "path": "results/primary_pages/m77-v1-adjudication-signs214-218.png",
+          "sha256": "e5070f44524d086e01a1ffdc1337adc483d91a77e72e82e4fd73170b7289964a"
+        },
+        {
+          "path": "results/primary_pages/m77-v1-adjudication-signs220-224.png",
+          "sha256": "c98a6261f5d300cb9081f7243760b2dbcf9ba7b27dfc78eddcab96117d89cac3"
+        },
+        {
+          "path": "results/primary_pages/m77-v1-adjudication-1027-dispute.png",
+          "sha256": "472248dbfa13bd31404193a83e69f21d7e62635f20e7496768f055f301fe6af2"
+        }
+      ]
+    },
+    {
+      "source_pdf_page": 50,
+      "key": [
+        "1016",
+        "0",
+        "1"
+      ],
+      "resolution": "A",
+      "reason": "Crown has multiple uprights compatible with M169, not plain M161; retain printed asterisk independently from reviewer confidence.",
+      "source_pins": [
+        {
+          "path": "data/raw/mahadevan_1977_text.pdf",
+          "sha256": "6dcdd074a0174e5fab149590fbbf82342711d345764e9763f8e5e92c81cf7f99"
+        },
+        {
+          "path": "results/primary_pages/texts-050.png",
+          "sha256": "a78ab810777334783148b605932fceac6cf0144fd6faab6f8581f9967409e781"
+        },
+        {
+          "path": "results/primary_pages/sign_list_page_32.png",
+          "sha256": "1e3f91789c947add7ce796479168d84d69636ebdc378493743188ac11c53c90a"
+        },
+        {
+          "path": "results/primary_pages/sign_list-044.png",
+          "sha256": "33eff554bfdea81af6d1a3510a5b2541d1b74b02ae1e63b253c725b44c7c0b64"
+        },
+        {
+          "path": "results/primary_pages/sign_list-045.png",
+          "sha256": "972002b288ea77921dcacfe67386dbf585b76be6bca5444b7ff9422e47e70b89"
+        },
+        {
+          "path": "results/primary_pages/sign_list-046.png",
+          "sha256": "a191e9297a6ab8b7cad1028eaeac062b4b6fa3cd34aefbdd507f669d736d2e8e"
+        },
+        {
+          "path": "data/processed/m77_codebook_review.json",
+          "sha256": "2d88405d6ce077afbd670fb11800fbb717dff03e98581b4a2c19f10b60ee9ea8"
+        },
+        {
+          "path": "results/primary_pages/m77-v1-reviewerB-detail-1006-Y.png",
+          "sha256": "91e2b282ab0acf74dd5b3eeeb48f2ceb1aea1e66f19a4f1ba28040223b6ac9f6"
+        },
+        {
+          "path": "results/primary_pages/m77-v1-reviewerB-detail-1011.png",
+          "sha256": "19efa5290e4cc7f947a96952de0d9e2f47be60f9970b7968e0c0b0a9d11f96c6"
+        },
+        {
+          "path": "results/primary_pages/m77-v1-reviewerB-detail-1015.png",
+          "sha256": "826ba669fd696e9eed124c5592f4e3e9cf15d91633590882981925baabba046d"
+        },
+        {
+          "path": "results/primary_pages/m77-v1-reviewerB-detail-1016.png",
+          "sha256": "2c0c562200b8feb3bd311e5eecbb53ee08c37e5ea8e9d82ae4b90c3a1c508521"
+        },
+        {
+          "path": "results/primary_pages/m77-v1-reviewerB-detail-1017.png",
+          "sha256": "d274654a504f82eefb2af4c075ad9c0a3b2f767336b6c111bbfc10a67e937203"
+        },
+        {
+          "path": "results/primary_pages/m77-v1-reviewerB-detail-1021-U.png",
+          "sha256": "e8b4976c7c70502affaf4486e5e941c67166106993c63989b6548d245a8f222b"
+        },
+        {
+          "path": "results/primary_pages/m77-v1-reviewerB-detail-1024.png",
+          "sha256": "f83e1c63b94f2e4b67ce2bd0a5c863248ef6eeb7d33bafdbb97869832ea94ab9"
+        },
+        {
+          "path": "results/primary_pages/m77-v1-reviewerB-detail-1025.png",
+          "sha256": "ca13ba9a322f6aabf7000e4016203d544ae36785dbc4de534df863b7e6b832e5"
+        },
+        {
+          "path": "results/primary_pages/m77-v1-reviewerB-detail-1026.png",
+          "sha256": "85918ff5b4f71861d83d1baab248e9b9e1a62eb982af0ffa8fad0bdfc8ae6cbe"
+        },
+        {
+          "path": "results/primary_pages/m77-v1-reviewerB-detail-1029.png",
+          "sha256": "db6a6213793fb5a04960b7af2133476df97cb1ea57a6ffc0c8aae247260bf15e"
+        },
+        {
+          "path": "results/primary_pages/m77-v1-adjudication-signs214-218.png",
+          "sha256": "e5070f44524d086e01a1ffdc1337adc483d91a77e72e82e4fd73170b7289964a"
+        },
+        {
+          "path": "results/primary_pages/m77-v1-adjudication-signs220-224.png",
+          "sha256": "c98a6261f5d300cb9081f7243760b2dbcf9ba7b27dfc78eddcab96117d89cac3"
+        },
+        {
+          "path": "results/primary_pages/m77-v1-adjudication-1027-dispute.png",
+          "sha256": "472248dbfa13bd31404193a83e69f21d7e62635f20e7496768f055f301fe6af2"
+        }
+      ]
+    },
+    {
+      "source_pdf_page": 50,
+      "key": [
+        "1017",
+        "0",
+        "0"
+      ],
+      "resolution": "A",
+      "reason": "Three separate short internal vertical strokes are visible between the outer terminals, matching M345, not two-stroke M344. Source image, not export, is the adjudication evidence.",
+      "source_pins": [
+        {
+          "path": "data/raw/mahadevan_1977_text.pdf",
+          "sha256": "6dcdd074a0174e5fab149590fbbf82342711d345764e9763f8e5e92c81cf7f99"
+        },
+        {
+          "path": "results/primary_pages/texts-050.png",
+          "sha256": "a78ab810777334783148b605932fceac6cf0144fd6faab6f8581f9967409e781"
+        },
+        {
+          "path": "results/primary_pages/sign_list_page_32.png",
+          "sha256": "1e3f91789c947add7ce796479168d84d69636ebdc378493743188ac11c53c90a"
+        },
+        {
+          "path": "results/primary_pages/sign_list-044.png",
+          "sha256": "33eff554bfdea81af6d1a3510a5b2541d1b74b02ae1e63b253c725b44c7c0b64"
+        },
+        {
+          "path": "results/primary_pages/sign_list-045.png",
+          "sha256": "972002b288ea77921dcacfe67386dbf585b76be6bca5444b7ff9422e47e70b89"
+        },
+        {
+          "path": "results/primary_pages/sign_list-046.png",
+          "sha256": "a191e9297a6ab8b7cad1028eaeac062b4b6fa3cd34aefbdd507f669d736d2e8e"
+        },
+        {
+          "path": "data/processed/m77_codebook_review.json",
+          "sha256": "2d88405d6ce077afbd670fb11800fbb717dff03e98581b4a2c19f10b60ee9ea8"
+        },
+        {
+          "path": "results/primary_pages/m77-v1-reviewerB-detail-1006-Y.png",
+          "sha256": "91e2b282ab0acf74dd5b3eeeb48f2ceb1aea1e66f19a4f1ba28040223b6ac9f6"
+        },
+        {
+          "path": "results/primary_pages/m77-v1-reviewerB-detail-1011.png",
+          "sha256": "19efa5290e4cc7f947a96952de0d9e2f47be60f9970b7968e0c0b0a9d11f96c6"
+        },
+        {
+          "path": "results/primary_pages/m77-v1-reviewerB-detail-1015.png",
+          "sha256": "826ba669fd696e9eed124c5592f4e3e9cf15d91633590882981925baabba046d"
+        },
+        {
+          "path": "results/primary_pages/m77-v1-reviewerB-detail-1016.png",
+          "sha256": "2c0c562200b8feb3bd311e5eecbb53ee08c37e5ea8e9d82ae4b90c3a1c508521"
+        },
+        {
+          "path": "results/primary_pages/m77-v1-reviewerB-detail-1017.png",
+          "sha256": "d274654a504f82eefb2af4c075ad9c0a3b2f767336b6c111bbfc10a67e937203"
+        },
+        {
+          "path": "results/primary_pages/m77-v1-reviewerB-detail-1021-U.png",
+          "sha256": "e8b4976c7c70502affaf4486e5e941c67166106993c63989b6548d245a8f222b"
+        },
+        {
+          "path": "results/primary_pages/m77-v1-reviewerB-detail-1024.png",
+          "sha256": "f83e1c63b94f2e4b67ce2bd0a5c863248ef6eeb7d33bafdbb97869832ea94ab9"
+        },
+        {
+          "path": "results/primary_pages/m77-v1-reviewerB-detail-1025.png",
+          "sha256": "ca13ba9a322f6aabf7000e4016203d544ae36785dbc4de534df863b7e6b832e5"
+        },
+        {
+          "path": "results/primary_pages/m77-v1-reviewerB-detail-1026.png",
+          "sha256": "85918ff5b4f71861d83d1baab248e9b9e1a62eb982af0ffa8fad0bdfc8ae6cbe"
+        },
+        {
+          "path": "results/primary_pages/m77-v1-reviewerB-detail-1029.png",
+          "sha256": "db6a6213793fb5a04960b7af2133476df97cb1ea57a6ffc0c8aae247260bf15e"
+        },
+        {
+          "path": "results/primary_pages/m77-v1-adjudication-signs214-218.png",
+          "sha256": "e5070f44524d086e01a1ffdc1337adc483d91a77e72e82e4fd73170b7289964a"
+        },
+        {
+          "path": "results/primary_pages/m77-v1-adjudication-signs220-224.png",
+          "sha256": "c98a6261f5d300cb9081f7243760b2dbcf9ba7b27dfc78eddcab96117d89cac3"
+        },
+        {
+          "path": "results/primary_pages/m77-v1-adjudication-1027-dispute.png",
+          "sha256": "472248dbfa13bd31404193a83e69f21d7e62635f20e7496768f055f301fe6af2"
+        }
+      ]
+    },
+    {
+      "source_pdf_page": 50,
+      "key": [
+        "1021",
+        "0",
+        "0"
+      ],
+      "resolution": "A",
+      "reason": "Rightmost curved glyph with small interior loop is M293; the short-stroke-plus-curve M123 lies to its left. Normalized right-to-left order is M293 then M123.",
+      "source_pins": [
+        {
+          "path": "data/raw/mahadevan_1977_text.pdf",
+          "sha256": "6dcdd074a0174e5fab149590fbbf82342711d345764e9763f8e5e92c81cf7f99"
+        },
+        {
+          "path": "results/primary_pages/texts-050.png",
+          "sha256": "a78ab810777334783148b605932fceac6cf0144fd6faab6f8581f9967409e781"
+        },
+        {
+          "path": "results/primary_pages/sign_list_page_32.png",
+          "sha256": "1e3f91789c947add7ce796479168d84d69636ebdc378493743188ac11c53c90a"
+        },
+        {
+          "path": "results/primary_pages/sign_list-044.png",
+          "sha256": "33eff554bfdea81af6d1a3510a5b2541d1b74b02ae1e63b253c725b44c7c0b64"
+        },
+        {
+          "path": "results/primary_pages/sign_list-045.png",
+          "sha256": "972002b288ea77921dcacfe67386dbf585b76be6bca5444b7ff9422e47e70b89"
+        },
+        {
+          "path": "results/primary_pages/sign_list-046.png",
+          "sha256": "a191e9297a6ab8b7cad1028eaeac062b4b6fa3cd34aefbdd507f669d736d2e8e"
+        },
+        {
+          "path": "data/processed/m77_codebook_review.json",
+          "sha256": "2d88405d6ce077afbd670fb11800fbb717dff03e98581b4a2c19f10b60ee9ea8"
+        },
+        {
+          "path": "results/primary_pages/m77-v1-reviewerB-detail-1006-Y.png",
+          "sha256": "91e2b282ab0acf74dd5b3eeeb48f2ceb1aea1e66f19a4f1ba28040223b6ac9f6"
+        },
+        {
+          "path": "results/primary_pages/m77-v1-reviewerB-detail-1011.png",
+          "sha256": "19efa5290e4cc7f947a96952de0d9e2f47be60f9970b7968e0c0b0a9d11f96c6"
+        },
+        {
+          "path": "results/primary_pages/m77-v1-reviewerB-detail-1015.png",
+          "sha256": "826ba669fd696e9eed124c5592f4e3e9cf15d91633590882981925baabba046d"
+        },
+        {
+          "path": "results/primary_pages/m77-v1-reviewerB-detail-1016.png",
+          "sha256": "2c0c562200b8feb3bd311e5eecbb53ee08c37e5ea8e9d82ae4b90c3a1c508521"
+        },
+        {
+          "path": "results/primary_pages/m77-v1-reviewerB-detail-1017.png",
+          "sha256": "d274654a504f82eefb2af4c075ad9c0a3b2f767336b6c111bbfc10a67e937203"
+        },
+        {
+          "path": "results/primary_pages/m77-v1-reviewerB-detail-1021-U.png",
+          "sha256": "e8b4976c7c70502affaf4486e5e941c67166106993c63989b6548d245a8f222b"
+        },
+        {
+          "path": "results/primary_pages/m77-v1-reviewerB-detail-1024.png",
+          "sha256": "f83e1c63b94f2e4b67ce2bd0a5c863248ef6eeb7d33bafdbb97869832ea94ab9"
+        },
+        {
+          "path": "results/primary_pages/m77-v1-reviewerB-detail-1025.png",
+          "sha256": "ca13ba9a322f6aabf7000e4016203d544ae36785dbc4de534df863b7e6b832e5"
+        },
+        {
+          "path": "results/primary_pages/m77-v1-reviewerB-detail-1026.png",
+          "sha256": "85918ff5b4f71861d83d1baab248e9b9e1a62eb982af0ffa8fad0bdfc8ae6cbe"
+        },
+        {
+          "path": "results/primary_pages/m77-v1-reviewerB-detail-1029.png",
+          "sha256": "db6a6213793fb5a04960b7af2133476df97cb1ea57a6ffc0c8aae247260bf15e"
+        },
+        {
+          "path": "results/primary_pages/m77-v1-adjudication-signs214-218.png",
+          "sha256": "e5070f44524d086e01a1ffdc1337adc483d91a77e72e82e4fd73170b7289964a"
+        },
+        {
+          "path": "results/primary_pages/m77-v1-adjudication-signs220-224.png",
+          "sha256": "c98a6261f5d300cb9081f7243760b2dbcf9ba7b27dfc78eddcab96117d89cac3"
+        },
+        {
+          "path": "results/primary_pages/m77-v1-adjudication-1027-dispute.png",
+          "sha256": "472248dbfa13bd31404193a83e69f21d7e62635f20e7496768f055f301fe6af2"
+        }
+      ]
+    },
+    {
+      "source_pdf_page": 50,
+      "key": [
+        "1024",
+        "0",
+        "0"
+      ],
+      "resolution": "A",
+      "reason": "Same directly visible rightmost loop-bearing M293 followed to its left by M123; normalized right-to-left order retained.",
+      "source_pins": [
+        {
+          "path": "data/raw/mahadevan_1977_text.pdf",
+          "sha256": "6dcdd074a0174e5fab149590fbbf82342711d345764e9763f8e5e92c81cf7f99"
+        },
+        {
+          "path": "results/primary_pages/texts-050.png",
+          "sha256": "a78ab810777334783148b605932fceac6cf0144fd6faab6f8581f9967409e781"
+        },
+        {
+          "path": "results/primary_pages/sign_list_page_32.png",
+          "sha256": "1e3f91789c947add7ce796479168d84d69636ebdc378493743188ac11c53c90a"
+        },
+        {
+          "path": "results/primary_pages/sign_list-044.png",
+          "sha256": "33eff554bfdea81af6d1a3510a5b2541d1b74b02ae1e63b253c725b44c7c0b64"
+        },
+        {
+          "path": "results/primary_pages/sign_list-045.png",
+          "sha256": "972002b288ea77921dcacfe67386dbf585b76be6bca5444b7ff9422e47e70b89"
+        },
+        {
+          "path": "results/primary_pages/sign_list-046.png",
+          "sha256": "a191e9297a6ab8b7cad1028eaeac062b4b6fa3cd34aefbdd507f669d736d2e8e"
+        },
+        {
+          "path": "data/processed/m77_codebook_review.json",
+          "sha256": "2d88405d6ce077afbd670fb11800fbb717dff03e98581b4a2c19f10b60ee9ea8"
+        },
+        {
+          "path": "results/primary_pages/m77-v1-reviewerB-detail-1006-Y.png",
+          "sha256": "91e2b282ab0acf74dd5b3eeeb48f2ceb1aea1e66f19a4f1ba28040223b6ac9f6"
+        },
+        {
+          "path": "results/primary_pages/m77-v1-reviewerB-detail-1011.png",
+          "sha256": "19efa5290e4cc7f947a96952de0d9e2f47be60f9970b7968e0c0b0a9d11f96c6"
+        },
+        {
+          "path": "results/primary_pages/m77-v1-reviewerB-detail-1015.png",
+          "sha256": "826ba669fd696e9eed124c5592f4e3e9cf15d91633590882981925baabba046d"
+        },
+        {
+          "path": "results/primary_pages/m77-v1-reviewerB-detail-1016.png",
+          "sha256": "2c0c562200b8feb3bd311e5eecbb53ee08c37e5ea8e9d82ae4b90c3a1c508521"
+        },
+        {
+          "path": "results/primary_pages/m77-v1-reviewerB-detail-1017.png",
+          "sha256": "d274654a504f82eefb2af4c075ad9c0a3b2f767336b6c111bbfc10a67e937203"
+        },
+        {
+          "path": "results/primary_pages/m77-v1-reviewerB-detail-1021-U.png",
+          "sha256": "e8b4976c7c70502affaf4486e5e941c67166106993c63989b6548d245a8f222b"
+        },
+        {
+          "path": "results/primary_pages/m77-v1-reviewerB-detail-1024.png",
+          "sha256": "f83e1c63b94f2e4b67ce2bd0a5c863248ef6eeb7d33bafdbb97869832ea94ab9"
+        },
+        {
+          "path": "results/primary_pages/m77-v1-reviewerB-detail-1025.png",
+          "sha256": "ca13ba9a322f6aabf7000e4016203d544ae36785dbc4de534df863b7e6b832e5"
+        },
+        {
+          "path": "results/primary_pages/m77-v1-reviewerB-detail-1026.png",
+          "sha256": "85918ff5b4f71861d83d1baab248e9b9e1a62eb982af0ffa8fad0bdfc8ae6cbe"
+        },
+        {
+          "path": "results/primary_pages/m77-v1-reviewerB-detail-1029.png",
+          "sha256": "db6a6213793fb5a04960b7af2133476df97cb1ea57a6ffc0c8aae247260bf15e"
+        },
+        {
+          "path": "results/primary_pages/m77-v1-adjudication-signs214-218.png",
+          "sha256": "e5070f44524d086e01a1ffdc1337adc483d91a77e72e82e4fd73170b7289964a"
+        },
+        {
+          "path": "results/primary_pages/m77-v1-adjudication-signs220-224.png",
+          "sha256": "c98a6261f5d300cb9081f7243760b2dbcf9ba7b27dfc78eddcab96117d89cac3"
+        },
+        {
+          "path": "results/primary_pages/m77-v1-adjudication-1027-dispute.png",
+          "sha256": "472248dbfa13bd31404193a83e69f21d7e62635f20e7496768f055f301fe6af2"
+        }
+      ]
+    },
+    {
+      "source_pdf_page": 50,
+      "key": [
+        "1025",
+        "0",
+        "0"
+      ],
+      "resolution": "A",
+      "reason": "The Y-like crown has extra short oblique uprights, matching M169; B follow-up agrees after comparison with plain M161.",
+      "source_pins": [
+        {
+          "path": "data/raw/mahadevan_1977_text.pdf",
+          "sha256": "6dcdd074a0174e5fab149590fbbf82342711d345764e9763f8e5e92c81cf7f99"
+        },
+        {
+          "path": "results/primary_pages/texts-050.png",
+          "sha256": "a78ab810777334783148b605932fceac6cf0144fd6faab6f8581f9967409e781"
+        },
+        {
+          "path": "results/primary_pages/sign_list_page_32.png",
+          "sha256": "1e3f91789c947add7ce796479168d84d69636ebdc378493743188ac11c53c90a"
+        },
+        {
+          "path": "results/primary_pages/sign_list-044.png",
+          "sha256": "33eff554bfdea81af6d1a3510a5b2541d1b74b02ae1e63b253c725b44c7c0b64"
+        },
+        {
+          "path": "results/primary_pages/sign_list-045.png",
+          "sha256": "972002b288ea77921dcacfe67386dbf585b76be6bca5444b7ff9422e47e70b89"
+        },
+        {
+          "path": "results/primary_pages/sign_list-046.png",
+          "sha256": "a191e9297a6ab8b7cad1028eaeac062b4b6fa3cd34aefbdd507f669d736d2e8e"
+        },
+        {
+          "path": "data/processed/m77_codebook_review.json",
+          "sha256": "2d88405d6ce077afbd670fb11800fbb717dff03e98581b4a2c19f10b60ee9ea8"
+        },
+        {
+          "path": "results/primary_pages/m77-v1-reviewerB-detail-1006-Y.png",
+          "sha256": "91e2b282ab0acf74dd5b3eeeb48f2ceb1aea1e66f19a4f1ba28040223b6ac9f6"
+        },
+        {
+          "path": "results/primary_pages/m77-v1-reviewerB-detail-1011.png",
+          "sha256": "19efa5290e4cc7f947a96952de0d9e2f47be60f9970b7968e0c0b0a9d11f96c6"
+        },
+        {
+          "path": "results/primary_pages/m77-v1-reviewerB-detail-1015.png",
+          "sha256": "826ba669fd696e9eed124c5592f4e3e9cf15d91633590882981925baabba046d"
+        },
+        {
+          "path": "results/primary_pages/m77-v1-reviewerB-detail-1016.png",
+          "sha256": "2c0c562200b8feb3bd311e5eecbb53ee08c37e5ea8e9d82ae4b90c3a1c508521"
+        },
+        {
+          "path": "results/primary_pages/m77-v1-reviewerB-detail-1017.png",
+          "sha256": "d274654a504f82eefb2af4c075ad9c0a3b2f767336b6c111bbfc10a67e937203"
+        },
+        {
+          "path": "results/primary_pages/m77-v1-reviewerB-detail-1021-U.png",
+          "sha256": "e8b4976c7c70502affaf4486e5e941c67166106993c63989b6548d245a8f222b"
+        },
+        {
+          "path": "results/primary_pages/m77-v1-reviewerB-detail-1024.png",
+          "sha256": "f83e1c63b94f2e4b67ce2bd0a5c863248ef6eeb7d33bafdbb97869832ea94ab9"
+        },
+        {
+          "path": "results/primary_pages/m77-v1-reviewerB-detail-1025.png",
+          "sha256": "ca13ba9a322f6aabf7000e4016203d544ae36785dbc4de534df863b7e6b832e5"
+        },
+        {
+          "path": "results/primary_pages/m77-v1-reviewerB-detail-1026.png",
+          "sha256": "85918ff5b4f71861d83d1baab248e9b9e1a62eb982af0ffa8fad0bdfc8ae6cbe"
+        },
+        {
+          "path": "results/primary_pages/m77-v1-reviewerB-detail-1029.png",
+          "sha256": "db6a6213793fb5a04960b7af2133476df97cb1ea57a6ffc0c8aae247260bf15e"
+        },
+        {
+          "path": "results/primary_pages/m77-v1-adjudication-signs214-218.png",
+          "sha256": "e5070f44524d086e01a1ffdc1337adc483d91a77e72e82e4fd73170b7289964a"
+        },
+        {
+          "path": "results/primary_pages/m77-v1-adjudication-signs220-224.png",
+          "sha256": "c98a6261f5d300cb9081f7243760b2dbcf9ba7b27dfc78eddcab96117d89cac3"
+        },
+        {
+          "path": "results/primary_pages/m77-v1-adjudication-1027-dispute.png",
+          "sha256": "472248dbfa13bd31404193a83e69f21d7e62635f20e7496768f055f301fe6af2"
+        }
+      ]
+    },
+    {
+      "source_pdf_page": 50,
+      "key": [
+        "1026",
+        "0",
+        "0"
+      ],
+      "resolution": "A",
+      "reason": "Left terminal is too blocky in the available raster to distinguish both-trident M347 from left-F/right-trident M352 securely. Retain one visible unidentified sign with these candidates. This is reviewer uncertainty, not a printed asterisk or a loss span. Later alternative-scan adjudication for release3: Both arms end in three distinct upward prongs. This matches Sign List347, whereas352 requires a left terminal with horizontal F-like ticks. Clearer crop resolves former left-terminal blur. Parent directly inspected both the alternate glyph crop and primary sign-list exemplars and accepts this resolved identity. The prior UNKNOWN decision remains in release2 and the primary-scan-only decision snapshot; source loss/doubt is unchanged.",
+      "source_pins": [
+        {
+          "path": "data/raw/mahadevan_1977_text.pdf",
+          "sha256": "6dcdd074a0174e5fab149590fbbf82342711d345764e9763f8e5e92c81cf7f99"
+        },
+        {
+          "path": "results/primary_pages/texts-050.png",
+          "sha256": "a78ab810777334783148b605932fceac6cf0144fd6faab6f8581f9967409e781"
+        },
+        {
+          "path": "results/primary_pages/sign_list_page_32.png",
+          "sha256": "1e3f91789c947add7ce796479168d84d69636ebdc378493743188ac11c53c90a"
+        },
+        {
+          "path": "results/primary_pages/sign_list-044.png",
+          "sha256": "33eff554bfdea81af6d1a3510a5b2541d1b74b02ae1e63b253c725b44c7c0b64"
+        },
+        {
+          "path": "results/primary_pages/sign_list-045.png",
+          "sha256": "972002b288ea77921dcacfe67386dbf585b76be6bca5444b7ff9422e47e70b89"
+        },
+        {
+          "path": "results/primary_pages/sign_list-046.png",
+          "sha256": "a191e9297a6ab8b7cad1028eaeac062b4b6fa3cd34aefbdd507f669d736d2e8e"
+        },
+        {
+          "path": "data/processed/m77_codebook_review.json",
+          "sha256": "2d88405d6ce077afbd670fb11800fbb717dff03e98581b4a2c19f10b60ee9ea8"
+        },
+        {
+          "path": "results/primary_pages/m77-v1-reviewerB-detail-1006-Y.png",
+          "sha256": "91e2b282ab0acf74dd5b3eeeb48f2ceb1aea1e66f19a4f1ba28040223b6ac9f6"
+        },
+        {
+          "path": "results/primary_pages/m77-v1-reviewerB-detail-1011.png",
+          "sha256": "19efa5290e4cc7f947a96952de0d9e2f47be60f9970b7968e0c0b0a9d11f96c6"
+        },
+        {
+          "path": "results/primary_pages/m77-v1-reviewerB-detail-1015.png",
+          "sha256": "826ba669fd696e9eed124c5592f4e3e9cf15d91633590882981925baabba046d"
+        },
+        {
+          "path": "results/primary_pages/m77-v1-reviewerB-detail-1016.png",
+          "sha256": "2c0c562200b8feb3bd311e5eecbb53ee08c37e5ea8e9d82ae4b90c3a1c508521"
+        },
+        {
+          "path": "results/primary_pages/m77-v1-reviewerB-detail-1017.png",
+          "sha256": "d274654a504f82eefb2af4c075ad9c0a3b2f767336b6c111bbfc10a67e937203"
+        },
+        {
+          "path": "results/primary_pages/m77-v1-reviewerB-detail-1021-U.png",
+          "sha256": "e8b4976c7c70502affaf4486e5e941c67166106993c63989b6548d245a8f222b"
+        },
+        {
+          "path": "results/primary_pages/m77-v1-reviewerB-detail-1024.png",
+          "sha256": "f83e1c63b94f2e4b67ce2bd0a5c863248ef6eeb7d33bafdbb97869832ea94ab9"
+        },
+        {
+          "path": "results/primary_pages/m77-v1-reviewerB-detail-1025.png",
+          "sha256": "ca13ba9a322f6aabf7000e4016203d544ae36785dbc4de534df863b7e6b832e5"
+        },
+        {
+          "path": "results/primary_pages/m77-v1-reviewerB-detail-1026.png",
+          "sha256": "85918ff5b4f71861d83d1baab248e9b9e1a62eb982af0ffa8fad0bdfc8ae6cbe"
+        },
+        {
+          "path": "results/primary_pages/m77-v1-reviewerB-detail-1029.png",
+          "sha256": "db6a6213793fb5a04960b7af2133476df97cb1ea57a6ffc0c8aae247260bf15e"
+        },
+        {
+          "path": "results/primary_pages/m77-v1-adjudication-signs214-218.png",
+          "sha256": "e5070f44524d086e01a1ffdc1337adc483d91a77e72e82e4fd73170b7289964a"
+        },
+        {
+          "path": "results/primary_pages/m77-v1-adjudication-signs220-224.png",
+          "sha256": "c98a6261f5d300cb9081f7243760b2dbcf9ba7b27dfc78eddcab96117d89cac3"
+        },
+        {
+          "path": "results/primary_pages/m77-v1-adjudication-1027-dispute.png",
+          "sha256": "472248dbfa13bd31404193a83e69f21d7e62635f20e7496768f055f301fe6af2"
+        },
+        {
+          "path": "data/raw/mahadevan_alternative_scan.pdf",
+          "sha256": "ef68fe8dc25e94fe9cb75b418c5189a084383e72498560ef393372e90a27e110"
+        },
+        {
+          "path": "results/primary_pages/m77-v1-reviewerB-46.png",
+          "sha256": "69923facfabb6978696445c69d4319d23d1e9234b27e35311ae111d148169136"
+        },
+        {
+          "path": "results/primary_pages/m77-v1-reviewerB-43.png",
+          "sha256": "22ca809ca590447e58566b9033c0be8dcc1801676d4cb6239e2f1fca2ef37f26"
+        },
+        {
+          "path": "results/primary_pages/m77-v3-alt-prior-51.png",
+          "sha256": "c108a400668bcf3eef966096525b0bc8a26b33428da2249dbcc237e58c81a24a"
+        },
+        {
+          "path": "results/primary_pages/m77-v3-alt-prior-1026-glyphs.png",
+          "sha256": "43e4802d87112ed3769304b2e68dff6ed20ccb01dd4c6c66c8fec04e463caa23"
+        },
+        {
+          "path": "results/primary_pages/m77-v3-alt-prior-1026-row.png",
+          "sha256": "d86b723ccaf0cc8ca9c82ed5267900f7ef76b1f5a9eadf871ee85048c7aa601e"
+        },
+        {
+          "path": "results/primary_pages/m77-v3-alt-prior-1026-U.png",
+          "sha256": "49d974b208a8b3e9df6d185fda3fe22a6ab6d94409defcf93dba3c65e305a8a6"
+        },
+        {
+          "path": "results/primary_pages/m77-v3-alt-prior-page39.png",
+          "sha256": "c06bf59cecfebaffa6dde33c59d019d4ee21099c95524a66e317d06093df43c6"
+        },
+        {
+          "path": "results/primary_pages/m77-v3-alt-prior-52.png",
+          "sha256": "bd76966f723aa0263f941f3c1b161d14aeaf56d833dc018e798f225171606c04"
+        },
+        {
+          "path": "results/primary_pages/m77-v3-alt-prior-1047-glyph.png",
+          "sha256": "3f591ac602d3a049639030d54caf9cb54b654d26353e73b74a27f06abd825cdc"
+        },
+        {
+          "path": "results/primary_pages/m77-v3-alt-prior-1047-row.png",
+          "sha256": "4b64c3d116cf356cc13fe8268563215f4974ebb474b447504e07402bb750e788"
+        },
+        {
+          "path": "results/primary_pages/m77-v3-alt-prior-page40.png",
+          "sha256": "7a85348e3488acb8722c08c4c63dd454a80cee255add1eca42e76a903a7d6eaf"
+        },
+        {
+          "path": "data/processed/m77_verified/reviewer_b_alt_prior_unknowns.json",
+          "sha256": "469cff2d061b2d884845951005620d7e72d57a8ab740aec8139e456252a10972"
+        }
+      ]
+    },
+    {
+      "source_pdf_page": 50,
+      "key": [
+        "1027",
+        "0",
+        "0"
+      ],
+      "resolution": "A",
+      "reason": "Primary crop shows no extra short lower-left offshoot on the right arm. That offshoot distinguishes M222 in the primary sign list; printed form fits M216. Retain printed asterisk: identifying the source transcription does not remove its source doubt.",
+      "source_pins": [
+        {
+          "path": "data/raw/mahadevan_1977_text.pdf",
+          "sha256": "6dcdd074a0174e5fab149590fbbf82342711d345764e9763f8e5e92c81cf7f99"
+        },
+        {
+          "path": "results/primary_pages/texts-050.png",
+          "sha256": "a78ab810777334783148b605932fceac6cf0144fd6faab6f8581f9967409e781"
+        },
+        {
+          "path": "results/primary_pages/sign_list_page_32.png",
+          "sha256": "1e3f91789c947add7ce796479168d84d69636ebdc378493743188ac11c53c90a"
+        },
+        {
+          "path": "results/primary_pages/sign_list-044.png",
+          "sha256": "33eff554bfdea81af6d1a3510a5b2541d1b74b02ae1e63b253c725b44c7c0b64"
+        },
+        {
+          "path": "results/primary_pages/sign_list-045.png",
+          "sha256": "972002b288ea77921dcacfe67386dbf585b76be6bca5444b7ff9422e47e70b89"
+        },
+        {
+          "path": "results/primary_pages/sign_list-046.png",
+          "sha256": "a191e9297a6ab8b7cad1028eaeac062b4b6fa3cd34aefbdd507f669d736d2e8e"
+        },
+        {
+          "path": "data/processed/m77_codebook_review.json",
+          "sha256": "2d88405d6ce077afbd670fb11800fbb717dff03e98581b4a2c19f10b60ee9ea8"
+        },
+        {
+          "path": "results/primary_pages/m77-v1-reviewerB-detail-1006-Y.png",
+          "sha256": "91e2b282ab0acf74dd5b3eeeb48f2ceb1aea1e66f19a4f1ba28040223b6ac9f6"
+        },
+        {
+          "path": "results/primary_pages/m77-v1-reviewerB-detail-1011.png",
+          "sha256": "19efa5290e4cc7f947a96952de0d9e2f47be60f9970b7968e0c0b0a9d11f96c6"
+        },
+        {
+          "path": "results/primary_pages/m77-v1-reviewerB-detail-1015.png",
+          "sha256": "826ba669fd696e9eed124c5592f4e3e9cf15d91633590882981925baabba046d"
+        },
+        {
+          "path": "results/primary_pages/m77-v1-reviewerB-detail-1016.png",
+          "sha256": "2c0c562200b8feb3bd311e5eecbb53ee08c37e5ea8e9d82ae4b90c3a1c508521"
+        },
+        {
+          "path": "results/primary_pages/m77-v1-reviewerB-detail-1017.png",
+          "sha256": "d274654a504f82eefb2af4c075ad9c0a3b2f767336b6c111bbfc10a67e937203"
+        },
+        {
+          "path": "results/primary_pages/m77-v1-reviewerB-detail-1021-U.png",
+          "sha256": "e8b4976c7c70502affaf4486e5e941c67166106993c63989b6548d245a8f222b"
+        },
+        {
+          "path": "results/primary_pages/m77-v1-reviewerB-detail-1024.png",
+          "sha256": "f83e1c63b94f2e4b67ce2bd0a5c863248ef6eeb7d33bafdbb97869832ea94ab9"
+        },
+        {
+          "path": "results/primary_pages/m77-v1-reviewerB-detail-1025.png",
+          "sha256": "ca13ba9a322f6aabf7000e4016203d544ae36785dbc4de534df863b7e6b832e5"
+        },
+        {
+          "path": "results/primary_pages/m77-v1-reviewerB-detail-1026.png",
+          "sha256": "85918ff5b4f71861d83d1baab248e9b9e1a62eb982af0ffa8fad0bdfc8ae6cbe"
+        },
+        {
+          "path": "results/primary_pages/m77-v1-reviewerB-detail-1029.png",
+          "sha256": "db6a6213793fb5a04960b7af2133476df97cb1ea57a6ffc0c8aae247260bf15e"
+        },
+        {
+          "path": "results/primary_pages/m77-v1-adjudication-signs214-218.png",
+          "sha256": "e5070f44524d086e01a1ffdc1337adc483d91a77e72e82e4fd73170b7289964a"
+        },
+        {
+          "path": "results/primary_pages/m77-v1-adjudication-signs220-224.png",
+          "sha256": "c98a6261f5d300cb9081f7243760b2dbcf9ba7b27dfc78eddcab96117d89cac3"
+        },
+        {
+          "path": "results/primary_pages/m77-v1-adjudication-1027-dispute.png",
+          "sha256": "472248dbfa13bd31404193a83e69f21d7e62635f20e7496768f055f301fe6af2"
+        }
+      ]
+    },
+    {
+      "source_pdf_page": 50,
+      "key": [
+        "1029",
+        "0",
+        "0"
+      ],
+      "resolution": "A",
+      "reason": "Rightmost loop-bearing curve M293 precedes short-stroke-plus-curve M123 in normalized right-to-left order; B had reversed these tokens.",
+      "source_pins": [
+        {
+          "path": "data/raw/mahadevan_1977_text.pdf",
+          "sha256": "6dcdd074a0174e5fab149590fbbf82342711d345764e9763f8e5e92c81cf7f99"
+        },
+        {
+          "path": "results/primary_pages/texts-050.png",
+          "sha256": "a78ab810777334783148b605932fceac6cf0144fd6faab6f8581f9967409e781"
+        },
+        {
+          "path": "results/primary_pages/sign_list_page_32.png",
+          "sha256": "1e3f91789c947add7ce796479168d84d69636ebdc378493743188ac11c53c90a"
+        },
+        {
+          "path": "results/primary_pages/sign_list-044.png",
+          "sha256": "33eff554bfdea81af6d1a3510a5b2541d1b74b02ae1e63b253c725b44c7c0b64"
+        },
+        {
+          "path": "results/primary_pages/sign_list-045.png",
+          "sha256": "972002b288ea77921dcacfe67386dbf585b76be6bca5444b7ff9422e47e70b89"
+        },
+        {
+          "path": "results/primary_pages/sign_list-046.png",
+          "sha256": "a191e9297a6ab8b7cad1028eaeac062b4b6fa3cd34aefbdd507f669d736d2e8e"
+        },
+        {
+          "path": "data/processed/m77_codebook_review.json",
+          "sha256": "2d88405d6ce077afbd670fb11800fbb717dff03e98581b4a2c19f10b60ee9ea8"
+        },
+        {
+          "path": "results/primary_pages/m77-v1-reviewerB-detail-1006-Y.png",
+          "sha256": "91e2b282ab0acf74dd5b3eeeb48f2ceb1aea1e66f19a4f1ba28040223b6ac9f6"
+        },
+        {
+          "path": "results/primary_pages/m77-v1-reviewerB-detail-1011.png",
+          "sha256": "19efa5290e4cc7f947a96952de0d9e2f47be60f9970b7968e0c0b0a9d11f96c6"
+        },
+        {
+          "path": "results/primary_pages/m77-v1-reviewerB-detail-1015.png",
+          "sha256": "826ba669fd696e9eed124c5592f4e3e9cf15d91633590882981925baabba046d"
+        },
+        {
+          "path": "results/primary_pages/m77-v1-reviewerB-detail-1016.png",
+          "sha256": "2c0c562200b8feb3bd311e5eecbb53ee08c37e5ea8e9d82ae4b90c3a1c508521"
+        },
+        {
+          "path": "results/primary_pages/m77-v1-reviewerB-detail-1017.png",
+          "sha256": "d274654a504f82eefb2af4c075ad9c0a3b2f767336b6c111bbfc10a67e937203"
+        },
+        {
+          "path": "results/primary_pages/m77-v1-reviewerB-detail-1021-U.png",
+          "sha256": "e8b4976c7c70502affaf4486e5e941c67166106993c63989b6548d245a8f222b"
+        },
+        {
+          "path": "results/primary_pages/m77-v1-reviewerB-detail-1024.png",
+          "sha256": "f83e1c63b94f2e4b67ce2bd0a5c863248ef6eeb7d33bafdbb97869832ea94ab9"
+        },
+        {
+          "path": "results/primary_pages/m77-v1-reviewerB-detail-1025.png",
+          "sha256": "ca13ba9a322f6aabf7000e4016203d544ae36785dbc4de534df863b7e6b832e5"
+        },
+        {
+          "path": "results/primary_pages/m77-v1-reviewerB-detail-1026.png",
+          "sha256": "85918ff5b4f71861d83d1baab248e9b9e1a62eb982af0ffa8fad0bdfc8ae6cbe"
+        },
+        {
+          "path": "results/primary_pages/m77-v1-reviewerB-detail-1029.png",
+          "sha256": "db6a6213793fb5a04960b7af2133476df97cb1ea57a6ffc0c8aae247260bf15e"
+        },
+        {
+          "path": "results/primary_pages/m77-v1-adjudication-signs214-218.png",
+          "sha256": "e5070f44524d086e01a1ffdc1337adc483d91a77e72e82e4fd73170b7289964a"
+        },
+        {
+          "path": "results/primary_pages/m77-v1-adjudication-signs220-224.png",
+          "sha256": "c98a6261f5d300cb9081f7243760b2dbcf9ba7b27dfc78eddcab96117d89cac3"
+        },
+        {
+          "path": "results/primary_pages/m77-v1-adjudication-1027-dispute.png",
+          "sha256": "472248dbfa13bd31404193a83e69f21d7e62635f20e7496768f055f301fe6af2"
+        }
+      ]
+    },
+    {
+      "source_pdf_page": 51,
+      "key": [
+        "1033",
+        "0",
+        "0"
+      ],
+      "resolution": "A",
+      "reason": "Upper and lower right terminals have short prongs matching M223. B follow-up corrects M222 after inspecting native crop. Primary sign-list and occurrence compared; no value inferred.",
+      "source_pins": [
+        {
+          "path": "data/raw/mahadevan_1977_text.pdf",
+          "sha256": "6dcdd074a0174e5fab149590fbbf82342711d345764e9763f8e5e92c81cf7f99"
+        },
+        {
+          "path": "results/primary_pages/m77-v2-reviewerA-51.png",
+          "sha256": "1ca6c0b51f3281eab7f532a068d629f628a3f00af98ba1795da083b08c1e5d34"
+        },
+        {
+          "path": "results/primary_pages/texts-051.png",
+          "sha256": "498814fa3d7b916cd531752bfeee9356a61549c91e7c8cc6625625e22610a580"
+        },
+        {
+          "path": "results/primary_pages/m77-v1-reviewerB-43.png",
+          "sha256": "22ca809ca590447e58566b9033c0be8dcc1801676d4cb6239e2f1fca2ef37f26"
+        },
+        {
+          "path": "results/primary_pages/m77-v1-reviewerB-44.png",
+          "sha256": "e992b65d09c18111b93c53f09da1138117a251ed6f1e4d4f3a4c233ed5f72912"
+        },
+        {
+          "path": "results/primary_pages/m77-v1-reviewerB-45.png",
+          "sha256": "08377cec1939fa43b78d337a9e07706745c0f0f34426ee1a9c54458d16c9510a"
+        },
+        {
+          "path": "results/primary_pages/m77-v1-reviewerB-46.png",
+          "sha256": "69923facfabb6978696445c69d4319d23d1e9234b27e35311ae111d148169136"
+        },
+        {
+          "path": "data/raw/mahadevan_1977_text.pdf",
+          "sha256": "6dcdd074a0174e5fab149590fbbf82342711d345764e9763f8e5e92c81cf7f99"
+        },
+        {
+          "path": "results/primary_pages/m77-v2-reviewerB-51.png",
+          "sha256": "1ca6c0b51f3281eab7f532a068d629f628a3f00af98ba1795da083b08c1e5d34"
+        },
+        {
+          "path": "results/primary_pages/m77-v1-reviewerB-43.png",
+          "sha256": "22ca809ca590447e58566b9033c0be8dcc1801676d4cb6239e2f1fca2ef37f26"
+        },
+        {
+          "path": "results/primary_pages/m77-v1-reviewerB-44.png",
+          "sha256": "e992b65d09c18111b93c53f09da1138117a251ed6f1e4d4f3a4c233ed5f72912"
+        },
+        {
+          "path": "results/primary_pages/m77-v1-reviewerB-45.png",
+          "sha256": "08377cec1939fa43b78d337a9e07706745c0f0f34426ee1a9c54458d16c9510a"
+        },
+        {
+          "path": "results/primary_pages/m77-v1-reviewerB-46.png",
+          "sha256": "69923facfabb6978696445c69d4319d23d1e9234b27e35311ae111d148169136"
+        },
+        {
+          "path": "results/primary_pages/context-041.png",
+          "sha256": "07a2fffb45af8fd090904c85fd334e99201b4dd1e5560f09716a167ea1954eec"
+        },
+        {
+          "path": "results/primary_pages/context-042.png",
+          "sha256": "b7febb9df235fd2452e3098386003e5457eaf9a891db487abb1b512475b52ae1"
+        },
+        {
+          "path": "results/primary_pages/m77-v2-parent-sign402-corrected.png",
+          "sha256": "45e9de1755a83c5b4443d4812920ea8fb1f5f97179fd328a05eee41de55a925f"
+        },
+        {
+          "path": "results/primary_pages/m77-v2-parent-1033.png",
+          "sha256": "ebe430e9ef43a4f1c4229ca9292e06a71b29b8d88a57aeebc552c02c39dc0638"
+        },
+        {
+          "path": "results/primary_pages/m77-v2-parent-1041.png",
+          "sha256": "51bd02bf31b12b96e6ea997c861d528a61b3d2bab655d811ea8e3169b9d2fbc2"
+        },
+        {
+          "path": "results/primary_pages/m77-v2-parent-1047.png",
+          "sha256": "fa55e72b53595ae5c526edc92854a6e54200deb1a17472a172cb4e5bdd397c00"
+        },
+        {
+          "path": "results/primary_pages/m77-v2-parent-sign402-first-crop-shows403.png",
+          "sha256": "edfaf51e1fff72c0f6bad2f343f5fda60e1307805137a1aa4d415b3d2fed9cdf"
+        },
+        {
+          "path": "results/primary_pages/m77-v2-parent-1045.png",
+          "sha256": "0960bc9d4b4db3fb9e62d7927572306d7b77bf1f0f0947aea50217fcf241e2f6"
+        },
+        {
+          "path": "results/primary_pages/m77-v2-parent-1051.png",
+          "sha256": "037019a023988183bc7aa25bcaa2a9803f8e8e4dea42d2267f7fe6a056054826"
+        },
+        {
+          "path": "results/primary_pages/m77-v2-parent-sign178.png",
+          "sha256": "70f63a101df4b2503f84ef5c8004b4ce917680e7f297f9b87d7e05263efc61df"
+        },
+        {
+          "path": "results/primary_pages/m77-v2-parent-signs012-014.png",
+          "sha256": "8bcf93ec20be54b31bc43536eac0e3e28aa62e5884f1aabe2e98acad62c8d572"
+        },
+        {
+          "path": "results/primary_pages/m77-v2-reviewerB-adjudicate-1051-trident.png",
+          "sha256": "146037697b5e5ccac3d8365cb1e9c5147912a3617e9936416b0156bd51fd622b"
+        },
+        {
+          "path": "results/primary_pages/m77-v2-reviewerB-adjudicate-1051-A.png",
+          "sha256": "972b99875deff62fa458a5880bd3a8fd3feb9c6f818034a5ade102011334433d"
+        },
+        {
+          "path": "results/primary_pages/m77-v2-reviewerB-adjudicate-sign222.png",
+          "sha256": "7e33ed206602c0c5d65bfb0a2b97af9fb6c8238abb2d331bc4f56a7aa7a55282"
+        },
+        {
+          "path": "results/primary_pages/m77-v2-reviewerB-adjudicate-sign223.png",
+          "sha256": "b9de821dd4d76812ae376442675cc1690049f4b9bf3519e5e378b845162af44e"
+        },
+        {
+          "path": "results/primary_pages/m77-v2-reviewerB-adjudicate-1047-leftbow.png",
+          "sha256": "9d29b7f4eb1f1eb9ce3f21b31a07e05f4f50b73f4e86b585367909f945c64c2a"
+        },
+        {
+          "path": "results/primary_pages/m77-v2-reviewerB-adjudicate-1033-first.png",
+          "sha256": "29e9a7195e2eb9884f7ba06254a49e36b5dd11605b3e24fd08ced7093aed767f"
+        },
+        {
+          "path": "results/primary_pages/m77-v2-reviewerB-adjudicate-sign178.png",
+          "sha256": "7b85c29b0febaaa86e8176ff36de4cc42661b9496fc7ccdbd73eda7df105109e"
+        },
+        {
+          "path": "results/primary_pages/m77-v2-reviewerB-adjudicate-sign014.png",
+          "sha256": "2505d6bc9da43411ae5fb421800067d100b9009347f63444efd6c132015c7290"
+        },
+        {
+          "path": "results/primary_pages/m77-v2-reviewerB-adjudicate-sign216.png",
+          "sha256": "323aae2a489b86fae1980ef49161978a50e8387e1ce5b58f2af8d87c6b0fb612"
+        },
+        {
+          "path": "results/primary_pages/m77-v2-reviewerB-adjudicate-sign163.png",
+          "sha256": "ff79ceab150667e93a9c40302e0fd31d2fc0dfcdc4ba5d2077df3306c19564a8"
+        },
+        {
+          "path": "results/primary_pages/m77-v2-reviewerB-adjudicate-sign402.png",
+          "sha256": "4ed14d5a8e8b0ec0a0e1ddc2c7eeaa84ed257a2fc18845047d37ea88b82c6250"
+        },
+        {
+          "path": "results/primary_pages/m77-v2-reviewerB-adjudicate-1047-rightK.png",
+          "sha256": "f2c7c6a8ac8394b9941f80be7e69dcbb2a470b8cb6b88924706db43001ad0eb3"
+        },
+        {
+          "path": "results/primary_pages/m77-v2-reviewerB-adjudicate-1041-firstpair.png",
+          "sha256": "3107c076b79f3c299847bede9f66e96487f0b56cf0fed3c6130cddeb67868fa7"
+        }
+      ]
+    },
+    {
+      "source_pdf_page": 51,
+      "key": [
+        "1041",
+        "0",
+        "0"
+      ],
+      "resolution": "A",
+      "reason": "Rightmost loop-bearing curve M293 is followed to the left by M123. Reading normalized page right-to-left gives M293 M123; B had reversed them.",
+      "source_pins": [
+        {
+          "path": "data/raw/mahadevan_1977_text.pdf",
+          "sha256": "6dcdd074a0174e5fab149590fbbf82342711d345764e9763f8e5e92c81cf7f99"
+        },
+        {
+          "path": "results/primary_pages/m77-v2-reviewerA-51.png",
+          "sha256": "1ca6c0b51f3281eab7f532a068d629f628a3f00af98ba1795da083b08c1e5d34"
+        },
+        {
+          "path": "results/primary_pages/texts-051.png",
+          "sha256": "498814fa3d7b916cd531752bfeee9356a61549c91e7c8cc6625625e22610a580"
+        },
+        {
+          "path": "results/primary_pages/m77-v1-reviewerB-43.png",
+          "sha256": "22ca809ca590447e58566b9033c0be8dcc1801676d4cb6239e2f1fca2ef37f26"
+        },
+        {
+          "path": "results/primary_pages/m77-v1-reviewerB-44.png",
+          "sha256": "e992b65d09c18111b93c53f09da1138117a251ed6f1e4d4f3a4c233ed5f72912"
+        },
+        {
+          "path": "results/primary_pages/m77-v1-reviewerB-45.png",
+          "sha256": "08377cec1939fa43b78d337a9e07706745c0f0f34426ee1a9c54458d16c9510a"
+        },
+        {
+          "path": "results/primary_pages/m77-v1-reviewerB-46.png",
+          "sha256": "69923facfabb6978696445c69d4319d23d1e9234b27e35311ae111d148169136"
+        },
+        {
+          "path": "data/raw/mahadevan_1977_text.pdf",
+          "sha256": "6dcdd074a0174e5fab149590fbbf82342711d345764e9763f8e5e92c81cf7f99"
+        },
+        {
+          "path": "results/primary_pages/m77-v2-reviewerB-51.png",
+          "sha256": "1ca6c0b51f3281eab7f532a068d629f628a3f00af98ba1795da083b08c1e5d34"
+        },
+        {
+          "path": "results/primary_pages/m77-v1-reviewerB-43.png",
+          "sha256": "22ca809ca590447e58566b9033c0be8dcc1801676d4cb6239e2f1fca2ef37f26"
+        },
+        {
+          "path": "results/primary_pages/m77-v1-reviewerB-44.png",
+          "sha256": "e992b65d09c18111b93c53f09da1138117a251ed6f1e4d4f3a4c233ed5f72912"
+        },
+        {
+          "path": "results/primary_pages/m77-v1-reviewerB-45.png",
+          "sha256": "08377cec1939fa43b78d337a9e07706745c0f0f34426ee1a9c54458d16c9510a"
+        },
+        {
+          "path": "results/primary_pages/m77-v1-reviewerB-46.png",
+          "sha256": "69923facfabb6978696445c69d4319d23d1e9234b27e35311ae111d148169136"
+        },
+        {
+          "path": "results/primary_pages/context-041.png",
+          "sha256": "07a2fffb45af8fd090904c85fd334e99201b4dd1e5560f09716a167ea1954eec"
+        },
+        {
+          "path": "results/primary_pages/context-042.png",
+          "sha256": "b7febb9df235fd2452e3098386003e5457eaf9a891db487abb1b512475b52ae1"
+        },
+        {
+          "path": "results/primary_pages/m77-v2-parent-sign402-corrected.png",
+          "sha256": "45e9de1755a83c5b4443d4812920ea8fb1f5f97179fd328a05eee41de55a925f"
+        },
+        {
+          "path": "results/primary_pages/m77-v2-parent-1033.png",
+          "sha256": "ebe430e9ef43a4f1c4229ca9292e06a71b29b8d88a57aeebc552c02c39dc0638"
+        },
+        {
+          "path": "results/primary_pages/m77-v2-parent-1041.png",
+          "sha256": "51bd02bf31b12b96e6ea997c861d528a61b3d2bab655d811ea8e3169b9d2fbc2"
+        },
+        {
+          "path": "results/primary_pages/m77-v2-parent-1047.png",
+          "sha256": "fa55e72b53595ae5c526edc92854a6e54200deb1a17472a172cb4e5bdd397c00"
+        },
+        {
+          "path": "results/primary_pages/m77-v2-parent-sign402-first-crop-shows403.png",
+          "sha256": "edfaf51e1fff72c0f6bad2f343f5fda60e1307805137a1aa4d415b3d2fed9cdf"
+        },
+        {
+          "path": "results/primary_pages/m77-v2-parent-1045.png",
+          "sha256": "0960bc9d4b4db3fb9e62d7927572306d7b77bf1f0f0947aea50217fcf241e2f6"
+        },
+        {
+          "path": "results/primary_pages/m77-v2-parent-1051.png",
+          "sha256": "037019a023988183bc7aa25bcaa2a9803f8e8e4dea42d2267f7fe6a056054826"
+        },
+        {
+          "path": "results/primary_pages/m77-v2-parent-sign178.png",
+          "sha256": "70f63a101df4b2503f84ef5c8004b4ce917680e7f297f9b87d7e05263efc61df"
+        },
+        {
+          "path": "results/primary_pages/m77-v2-parent-signs012-014.png",
+          "sha256": "8bcf93ec20be54b31bc43536eac0e3e28aa62e5884f1aabe2e98acad62c8d572"
+        },
+        {
+          "path": "results/primary_pages/m77-v2-reviewerB-adjudicate-1051-trident.png",
+          "sha256": "146037697b5e5ccac3d8365cb1e9c5147912a3617e9936416b0156bd51fd622b"
+        },
+        {
+          "path": "results/primary_pages/m77-v2-reviewerB-adjudicate-1051-A.png",
+          "sha256": "972b99875deff62fa458a5880bd3a8fd3feb9c6f818034a5ade102011334433d"
+        },
+        {
+          "path": "results/primary_pages/m77-v2-reviewerB-adjudicate-sign222.png",
+          "sha256": "7e33ed206602c0c5d65bfb0a2b97af9fb6c8238abb2d331bc4f56a7aa7a55282"
+        },
+        {
+          "path": "results/primary_pages/m77-v2-reviewerB-adjudicate-sign223.png",
+          "sha256": "b9de821dd4d76812ae376442675cc1690049f4b9bf3519e5e378b845162af44e"
+        },
+        {
+          "path": "results/primary_pages/m77-v2-reviewerB-adjudicate-1047-leftbow.png",
+          "sha256": "9d29b7f4eb1f1eb9ce3f21b31a07e05f4f50b73f4e86b585367909f945c64c2a"
+        },
+        {
+          "path": "results/primary_pages/m77-v2-reviewerB-adjudicate-1033-first.png",
+          "sha256": "29e9a7195e2eb9884f7ba06254a49e36b5dd11605b3e24fd08ced7093aed767f"
+        },
+        {
+          "path": "results/primary_pages/m77-v2-reviewerB-adjudicate-sign178.png",
+          "sha256": "7b85c29b0febaaa86e8176ff36de4cc42661b9496fc7ccdbd73eda7df105109e"
+        },
+        {
+          "path": "results/primary_pages/m77-v2-reviewerB-adjudicate-sign014.png",
+          "sha256": "2505d6bc9da43411ae5fb421800067d100b9009347f63444efd6c132015c7290"
+        },
+        {
+          "path": "results/primary_pages/m77-v2-reviewerB-adjudicate-sign216.png",
+          "sha256": "323aae2a489b86fae1980ef49161978a50e8387e1ce5b58f2af8d87c6b0fb612"
+        },
+        {
+          "path": "results/primary_pages/m77-v2-reviewerB-adjudicate-sign163.png",
+          "sha256": "ff79ceab150667e93a9c40302e0fd31d2fc0dfcdc4ba5d2077df3306c19564a8"
+        },
+        {
+          "path": "results/primary_pages/m77-v2-reviewerB-adjudicate-sign402.png",
+          "sha256": "4ed14d5a8e8b0ec0a0e1ddc2c7eeaa84ed257a2fc18845047d37ea88b82c6250"
+        },
+        {
+          "path": "results/primary_pages/m77-v2-reviewerB-adjudicate-1047-rightK.png",
+          "sha256": "f2c7c6a8ac8394b9941f80be7e69dcbb2a470b8cb6b88924706db43001ad0eb3"
+        },
+        {
+          "path": "results/primary_pages/m77-v2-reviewerB-adjudicate-1041-firstpair.png",
+          "sha256": "3107c076b79f3c299847bede9f66e96487f0b56cf0fed3c6130cddeb67868fa7"
+        }
+      ]
+    },
+    {
+      "source_pdf_page": 51,
+      "key": [
+        "1045",
+        "0",
+        "0"
+      ],
+      "resolution": "A",
+      "reason": "Triangular closed head above the shoulder/carrying bar matches M014. M012 has a simple vertical projection; parent compared primary sign-list12\u201314 alongside occurrence, corroborating B follow-up.",
+      "source_pins": [
+        {
+          "path": "data/raw/mahadevan_1977_text.pdf",
+          "sha256": "6dcdd074a0174e5fab149590fbbf82342711d345764e9763f8e5e92c81cf7f99"
+        },
+        {
+          "path": "results/primary_pages/m77-v2-reviewerA-51.png",
+          "sha256": "1ca6c0b51f3281eab7f532a068d629f628a3f00af98ba1795da083b08c1e5d34"
+        },
+        {
+          "path": "results/primary_pages/texts-051.png",
+          "sha256": "498814fa3d7b916cd531752bfeee9356a61549c91e7c8cc6625625e22610a580"
+        },
+        {
+          "path": "results/primary_pages/m77-v1-reviewerB-43.png",
+          "sha256": "22ca809ca590447e58566b9033c0be8dcc1801676d4cb6239e2f1fca2ef37f26"
+        },
+        {
+          "path": "results/primary_pages/m77-v1-reviewerB-44.png",
+          "sha256": "e992b65d09c18111b93c53f09da1138117a251ed6f1e4d4f3a4c233ed5f72912"
+        },
+        {
+          "path": "results/primary_pages/m77-v1-reviewerB-45.png",
+          "sha256": "08377cec1939fa43b78d337a9e07706745c0f0f34426ee1a9c54458d16c9510a"
+        },
+        {
+          "path": "results/primary_pages/m77-v1-reviewerB-46.png",
+          "sha256": "69923facfabb6978696445c69d4319d23d1e9234b27e35311ae111d148169136"
+        },
+        {
+          "path": "data/raw/mahadevan_1977_text.pdf",
+          "sha256": "6dcdd074a0174e5fab149590fbbf82342711d345764e9763f8e5e92c81cf7f99"
+        },
+        {
+          "path": "results/primary_pages/m77-v2-reviewerB-51.png",
+          "sha256": "1ca6c0b51f3281eab7f532a068d629f628a3f00af98ba1795da083b08c1e5d34"
+        },
+        {
+          "path": "results/primary_pages/m77-v1-reviewerB-43.png",
+          "sha256": "22ca809ca590447e58566b9033c0be8dcc1801676d4cb6239e2f1fca2ef37f26"
+        },
+        {
+          "path": "results/primary_pages/m77-v1-reviewerB-44.png",
+          "sha256": "e992b65d09c18111b93c53f09da1138117a251ed6f1e4d4f3a4c233ed5f72912"
+        },
+        {
+          "path": "results/primary_pages/m77-v1-reviewerB-45.png",
+          "sha256": "08377cec1939fa43b78d337a9e07706745c0f0f34426ee1a9c54458d16c9510a"
+        },
+        {
+          "path": "results/primary_pages/m77-v1-reviewerB-46.png",
+          "sha256": "69923facfabb6978696445c69d4319d23d1e9234b27e35311ae111d148169136"
+        },
+        {
+          "path": "results/primary_pages/context-041.png",
+          "sha256": "07a2fffb45af8fd090904c85fd334e99201b4dd1e5560f09716a167ea1954eec"
+        },
+        {
+          "path": "results/primary_pages/context-042.png",
+          "sha256": "b7febb9df235fd2452e3098386003e5457eaf9a891db487abb1b512475b52ae1"
+        },
+        {
+          "path": "results/primary_pages/m77-v2-parent-sign402-corrected.png",
+          "sha256": "45e9de1755a83c5b4443d4812920ea8fb1f5f97179fd328a05eee41de55a925f"
+        },
+        {
+          "path": "results/primary_pages/m77-v2-parent-1033.png",
+          "sha256": "ebe430e9ef43a4f1c4229ca9292e06a71b29b8d88a57aeebc552c02c39dc0638"
+        },
+        {
+          "path": "results/primary_pages/m77-v2-parent-1041.png",
+          "sha256": "51bd02bf31b12b96e6ea997c861d528a61b3d2bab655d811ea8e3169b9d2fbc2"
+        },
+        {
+          "path": "results/primary_pages/m77-v2-parent-1047.png",
+          "sha256": "fa55e72b53595ae5c526edc92854a6e54200deb1a17472a172cb4e5bdd397c00"
+        },
+        {
+          "path": "results/primary_pages/m77-v2-parent-sign402-first-crop-shows403.png",
+          "sha256": "edfaf51e1fff72c0f6bad2f343f5fda60e1307805137a1aa4d415b3d2fed9cdf"
+        },
+        {
+          "path": "results/primary_pages/m77-v2-parent-1045.png",
+          "sha256": "0960bc9d4b4db3fb9e62d7927572306d7b77bf1f0f0947aea50217fcf241e2f6"
+        },
+        {
+          "path": "results/primary_pages/m77-v2-parent-1051.png",
+          "sha256": "037019a023988183bc7aa25bcaa2a9803f8e8e4dea42d2267f7fe6a056054826"
+        },
+        {
+          "path": "results/primary_pages/m77-v2-parent-sign178.png",
+          "sha256": "70f63a101df4b2503f84ef5c8004b4ce917680e7f297f9b87d7e05263efc61df"
+        },
+        {
+          "path": "results/primary_pages/m77-v2-parent-signs012-014.png",
+          "sha256": "8bcf93ec20be54b31bc43536eac0e3e28aa62e5884f1aabe2e98acad62c8d572"
+        },
+        {
+          "path": "results/primary_pages/m77-v2-reviewerB-adjudicate-1051-trident.png",
+          "sha256": "146037697b5e5ccac3d8365cb1e9c5147912a3617e9936416b0156bd51fd622b"
+        },
+        {
+          "path": "results/primary_pages/m77-v2-reviewerB-adjudicate-1051-A.png",
+          "sha256": "972b99875deff62fa458a5880bd3a8fd3feb9c6f818034a5ade102011334433d"
+        },
+        {
+          "path": "results/primary_pages/m77-v2-reviewerB-adjudicate-sign222.png",
+          "sha256": "7e33ed206602c0c5d65bfb0a2b97af9fb6c8238abb2d331bc4f56a7aa7a55282"
+        },
+        {
+          "path": "results/primary_pages/m77-v2-reviewerB-adjudicate-sign223.png",
+          "sha256": "b9de821dd4d76812ae376442675cc1690049f4b9bf3519e5e378b845162af44e"
+        },
+        {
+          "path": "results/primary_pages/m77-v2-reviewerB-adjudicate-1047-leftbow.png",
+          "sha256": "9d29b7f4eb1f1eb9ce3f21b31a07e05f4f50b73f4e86b585367909f945c64c2a"
+        },
+        {
+          "path": "results/primary_pages/m77-v2-reviewerB-adjudicate-1033-first.png",
+          "sha256": "29e9a7195e2eb9884f7ba06254a49e36b5dd11605b3e24fd08ced7093aed767f"
+        },
+        {
+          "path": "results/primary_pages/m77-v2-reviewerB-adjudicate-sign178.png",
+          "sha256": "7b85c29b0febaaa86e8176ff36de4cc42661b9496fc7ccdbd73eda7df105109e"
+        },
+        {
+          "path": "results/primary_pages/m77-v2-reviewerB-adjudicate-sign014.png",
+          "sha256": "2505d6bc9da43411ae5fb421800067d100b9009347f63444efd6c132015c7290"
+        },
+        {
+          "path": "results/primary_pages/m77-v2-reviewerB-adjudicate-sign216.png",
+          "sha256": "323aae2a489b86fae1980ef49161978a50e8387e1ce5b58f2af8d87c6b0fb612"
+        },
+        {
+          "path": "results/primary_pages/m77-v2-reviewerB-adjudicate-sign163.png",
+          "sha256": "ff79ceab150667e93a9c40302e0fd31d2fc0dfcdc4ba5d2077df3306c19564a8"
+        },
+        {
+          "path": "results/primary_pages/m77-v2-reviewerB-adjudicate-sign402.png",
+          "sha256": "4ed14d5a8e8b0ec0a0e1ddc2c7eeaa84ed257a2fc18845047d37ea88b82c6250"
+        },
+        {
+          "path": "results/primary_pages/m77-v2-reviewerB-adjudicate-1047-rightK.png",
+          "sha256": "f2c7c6a8ac8394b9941f80be7e69dcbb2a470b8cb6b88924706db43001ad0eb3"
+        },
+        {
+          "path": "results/primary_pages/m77-v2-reviewerB-adjudicate-1041-firstpair.png",
+          "sha256": "3107c076b79f3c299847bede9f66e96487f0b56cf0fed3c6130cddeb67868fa7"
+        }
+      ]
+    },
+    {
+      "source_pdf_page": 51,
+      "key": [
+        "1047",
+        "0",
+        "0"
+      ],
+      "resolution": "A",
+      "reason": "The bow-like sign lacks the extra lower-left offshoot of M222 and matches M216. The first K-like sign interior is too indistinct to distinguish M054/M055 securely; retain one visible UNKNOWN, not source doubt or LOSS. Later alternative-scan adjudication for release3: Central oval has a fully visible empty white interior; no short vertical inside. Matches054, not055. Parent directly inspected both the alternate glyph crop and primary sign-list exemplars and accepts this resolved identity. The prior UNKNOWN decision remains in release2 and the primary-scan-only decision snapshot; source loss/doubt is unchanged.",
+      "source_pins": [
+        {
+          "path": "data/raw/mahadevan_1977_text.pdf",
+          "sha256": "6dcdd074a0174e5fab149590fbbf82342711d345764e9763f8e5e92c81cf7f99"
+        },
+        {
+          "path": "results/primary_pages/m77-v2-reviewerA-51.png",
+          "sha256": "1ca6c0b51f3281eab7f532a068d629f628a3f00af98ba1795da083b08c1e5d34"
+        },
+        {
+          "path": "results/primary_pages/texts-051.png",
+          "sha256": "498814fa3d7b916cd531752bfeee9356a61549c91e7c8cc6625625e22610a580"
+        },
+        {
+          "path": "results/primary_pages/m77-v1-reviewerB-43.png",
+          "sha256": "22ca809ca590447e58566b9033c0be8dcc1801676d4cb6239e2f1fca2ef37f26"
+        },
+        {
+          "path": "results/primary_pages/m77-v1-reviewerB-44.png",
+          "sha256": "e992b65d09c18111b93c53f09da1138117a251ed6f1e4d4f3a4c233ed5f72912"
+        },
+        {
+          "path": "results/primary_pages/m77-v1-reviewerB-45.png",
+          "sha256": "08377cec1939fa43b78d337a9e07706745c0f0f34426ee1a9c54458d16c9510a"
+        },
+        {
+          "path": "results/primary_pages/m77-v1-reviewerB-46.png",
+          "sha256": "69923facfabb6978696445c69d4319d23d1e9234b27e35311ae111d148169136"
+        },
+        {
+          "path": "data/raw/mahadevan_1977_text.pdf",
+          "sha256": "6dcdd074a0174e5fab149590fbbf82342711d345764e9763f8e5e92c81cf7f99"
+        },
+        {
+          "path": "results/primary_pages/m77-v2-reviewerB-51.png",
+          "sha256": "1ca6c0b51f3281eab7f532a068d629f628a3f00af98ba1795da083b08c1e5d34"
+        },
+        {
+          "path": "results/primary_pages/m77-v1-reviewerB-43.png",
+          "sha256": "22ca809ca590447e58566b9033c0be8dcc1801676d4cb6239e2f1fca2ef37f26"
+        },
+        {
+          "path": "results/primary_pages/m77-v1-reviewerB-44.png",
+          "sha256": "e992b65d09c18111b93c53f09da1138117a251ed6f1e4d4f3a4c233ed5f72912"
+        },
+        {
+          "path": "results/primary_pages/m77-v1-reviewerB-45.png",
+          "sha256": "08377cec1939fa43b78d337a9e07706745c0f0f34426ee1a9c54458d16c9510a"
+        },
+        {
+          "path": "results/primary_pages/m77-v1-reviewerB-46.png",
+          "sha256": "69923facfabb6978696445c69d4319d23d1e9234b27e35311ae111d148169136"
+        },
+        {
+          "path": "results/primary_pages/context-041.png",
+          "sha256": "07a2fffb45af8fd090904c85fd334e99201b4dd1e5560f09716a167ea1954eec"
+        },
+        {
+          "path": "results/primary_pages/context-042.png",
+          "sha256": "b7febb9df235fd2452e3098386003e5457eaf9a891db487abb1b512475b52ae1"
+        },
+        {
+          "path": "results/primary_pages/m77-v2-parent-sign402-corrected.png",
+          "sha256": "45e9de1755a83c5b4443d4812920ea8fb1f5f97179fd328a05eee41de55a925f"
+        },
+        {
+          "path": "results/primary_pages/m77-v2-parent-1033.png",
+          "sha256": "ebe430e9ef43a4f1c4229ca9292e06a71b29b8d88a57aeebc552c02c39dc0638"
+        },
+        {
+          "path": "results/primary_pages/m77-v2-parent-1041.png",
+          "sha256": "51bd02bf31b12b96e6ea997c861d528a61b3d2bab655d811ea8e3169b9d2fbc2"
+        },
+        {
+          "path": "results/primary_pages/m77-v2-parent-1047.png",
+          "sha256": "fa55e72b53595ae5c526edc92854a6e54200deb1a17472a172cb4e5bdd397c00"
+        },
+        {
+          "path": "results/primary_pages/m77-v2-parent-sign402-first-crop-shows403.png",
+          "sha256": "edfaf51e1fff72c0f6bad2f343f5fda60e1307805137a1aa4d415b3d2fed9cdf"
+        },
+        {
+          "path": "results/primary_pages/m77-v2-parent-1045.png",
+          "sha256": "0960bc9d4b4db3fb9e62d7927572306d7b77bf1f0f0947aea50217fcf241e2f6"
+        },
+        {
+          "path": "results/primary_pages/m77-v2-parent-1051.png",
+          "sha256": "037019a023988183bc7aa25bcaa2a9803f8e8e4dea42d2267f7fe6a056054826"
+        },
+        {
+          "path": "results/primary_pages/m77-v2-parent-sign178.png",
+          "sha256": "70f63a101df4b2503f84ef5c8004b4ce917680e7f297f9b87d7e05263efc61df"
+        },
+        {
+          "path": "results/primary_pages/m77-v2-parent-signs012-014.png",
+          "sha256": "8bcf93ec20be54b31bc43536eac0e3e28aa62e5884f1aabe2e98acad62c8d572"
+        },
+        {
+          "path": "results/primary_pages/m77-v2-reviewerB-adjudicate-1051-trident.png",
+          "sha256": "146037697b5e5ccac3d8365cb1e9c5147912a3617e9936416b0156bd51fd622b"
+        },
+        {
+          "path": "results/primary_pages/m77-v2-reviewerB-adjudicate-1051-A.png",
+          "sha256": "972b99875deff62fa458a5880bd3a8fd3feb9c6f818034a5ade102011334433d"
+        },
+        {
+          "path": "results/primary_pages/m77-v2-reviewerB-adjudicate-sign222.png",
+          "sha256": "7e33ed206602c0c5d65bfb0a2b97af9fb6c8238abb2d331bc4f56a7aa7a55282"
+        },
+        {
+          "path": "results/primary_pages/m77-v2-reviewerB-adjudicate-sign223.png",
+          "sha256": "b9de821dd4d76812ae376442675cc1690049f4b9bf3519e5e378b845162af44e"
+        },
+        {
+          "path": "results/primary_pages/m77-v2-reviewerB-adjudicate-1047-leftbow.png",
+          "sha256": "9d29b7f4eb1f1eb9ce3f21b31a07e05f4f50b73f4e86b585367909f945c64c2a"
+        },
+        {
+          "path": "results/primary_pages/m77-v2-reviewerB-adjudicate-1033-first.png",
+          "sha256": "29e9a7195e2eb9884f7ba06254a49e36b5dd11605b3e24fd08ced7093aed767f"
+        },
+        {
+          "path": "results/primary_pages/m77-v2-reviewerB-adjudicate-sign178.png",
+          "sha256": "7b85c29b0febaaa86e8176ff36de4cc42661b9496fc7ccdbd73eda7df105109e"
+        },
+        {
+          "path": "results/primary_pages/m77-v2-reviewerB-adjudicate-sign014.png",
+          "sha256": "2505d6bc9da43411ae5fb421800067d100b9009347f63444efd6c132015c7290"
+        },
+        {
+          "path": "results/primary_pages/m77-v2-reviewerB-adjudicate-sign216.png",
+          "sha256": "323aae2a489b86fae1980ef49161978a50e8387e1ce5b58f2af8d87c6b0fb612"
+        },
+        {
+          "path": "results/primary_pages/m77-v2-reviewerB-adjudicate-sign163.png",
+          "sha256": "ff79ceab150667e93a9c40302e0fd31d2fc0dfcdc4ba5d2077df3306c19564a8"
+        },
+        {
+          "path": "results/primary_pages/m77-v2-reviewerB-adjudicate-sign402.png",
+          "sha256": "4ed14d5a8e8b0ec0a0e1ddc2c7eeaa84ed257a2fc18845047d37ea88b82c6250"
+        },
+        {
+          "path": "results/primary_pages/m77-v2-reviewerB-adjudicate-1047-rightK.png",
+          "sha256": "f2c7c6a8ac8394b9941f80be7e69dcbb2a470b8cb6b88924706db43001ad0eb3"
+        },
+        {
+          "path": "results/primary_pages/m77-v2-reviewerB-adjudicate-1041-firstpair.png",
+          "sha256": "3107c076b79f3c299847bede9f66e96487f0b56cf0fed3c6130cddeb67868fa7"
+        },
+        {
+          "path": "data/raw/mahadevan_alternative_scan.pdf",
+          "sha256": "ef68fe8dc25e94fe9cb75b418c5189a084383e72498560ef393372e90a27e110"
+        },
+        {
+          "path": "results/primary_pages/m77-v1-reviewerB-46.png",
+          "sha256": "69923facfabb6978696445c69d4319d23d1e9234b27e35311ae111d148169136"
+        },
+        {
+          "path": "results/primary_pages/m77-v1-reviewerB-43.png",
+          "sha256": "22ca809ca590447e58566b9033c0be8dcc1801676d4cb6239e2f1fca2ef37f26"
+        },
+        {
+          "path": "results/primary_pages/m77-v3-alt-prior-51.png",
+          "sha256": "c108a400668bcf3eef966096525b0bc8a26b33428da2249dbcc237e58c81a24a"
+        },
+        {
+          "path": "results/primary_pages/m77-v3-alt-prior-1026-glyphs.png",
+          "sha256": "43e4802d87112ed3769304b2e68dff6ed20ccb01dd4c6c66c8fec04e463caa23"
+        },
+        {
+          "path": "results/primary_pages/m77-v3-alt-prior-1026-row.png",
+          "sha256": "d86b723ccaf0cc8ca9c82ed5267900f7ef76b1f5a9eadf871ee85048c7aa601e"
+        },
+        {
+          "path": "results/primary_pages/m77-v3-alt-prior-1026-U.png",
+          "sha256": "49d974b208a8b3e9df6d185fda3fe22a6ab6d94409defcf93dba3c65e305a8a6"
+        },
+        {
+          "path": "results/primary_pages/m77-v3-alt-prior-page39.png",
+          "sha256": "c06bf59cecfebaffa6dde33c59d019d4ee21099c95524a66e317d06093df43c6"
+        },
+        {
+          "path": "results/primary_pages/m77-v3-alt-prior-52.png",
+          "sha256": "bd76966f723aa0263f941f3c1b161d14aeaf56d833dc018e798f225171606c04"
+        },
+        {
+          "path": "results/primary_pages/m77-v3-alt-prior-1047-glyph.png",
+          "sha256": "3f591ac602d3a049639030d54caf9cb54b654d26353e73b74a27f06abd825cdc"
+        },
+        {
+          "path": "results/primary_pages/m77-v3-alt-prior-1047-row.png",
+          "sha256": "4b64c3d116cf356cc13fe8268563215f4974ebb474b447504e07402bb750e788"
+        },
+        {
+          "path": "results/primary_pages/m77-v3-alt-prior-page40.png",
+          "sha256": "7a85348e3488acb8722c08c4c63dd454a80cee255add1eca42e76a903a7d6eaf"
+        },
+        {
+          "path": "data/processed/m77_verified/reviewer_b_alt_prior_unknowns.json",
+          "sha256": "469cff2d061b2d884845951005620d7e72d57a8ab740aec8139e456252a10972"
+        }
+      ]
+    },
+    {
+      "source_pdf_page": 51,
+      "key": [
+        "1051",
+        "0",
+        "0"
+      ],
+      "resolution": "A",
+      "reason": "A-shaped sign has bifurcated right foot as M178 rather than gridded flag M402. Last glyph has roof over cup/trident with lower stem, matching M163 rather than closed concentric-loop M396; B follow-up agrees. Parent reviewed source occurrence and primary sign-list comparisons.",
+      "source_pins": [
+        {
+          "path": "data/raw/mahadevan_1977_text.pdf",
+          "sha256": "6dcdd074a0174e5fab149590fbbf82342711d345764e9763f8e5e92c81cf7f99"
+        },
+        {
+          "path": "results/primary_pages/m77-v2-reviewerA-51.png",
+          "sha256": "1ca6c0b51f3281eab7f532a068d629f628a3f00af98ba1795da083b08c1e5d34"
+        },
+        {
+          "path": "results/primary_pages/texts-051.png",
+          "sha256": "498814fa3d7b916cd531752bfeee9356a61549c91e7c8cc6625625e22610a580"
+        },
+        {
+          "path": "results/primary_pages/m77-v1-reviewerB-43.png",
+          "sha256": "22ca809ca590447e58566b9033c0be8dcc1801676d4cb6239e2f1fca2ef37f26"
+        },
+        {
+          "path": "results/primary_pages/m77-v1-reviewerB-44.png",
+          "sha256": "e992b65d09c18111b93c53f09da1138117a251ed6f1e4d4f3a4c233ed5f72912"
+        },
+        {
+          "path": "results/primary_pages/m77-v1-reviewerB-45.png",
+          "sha256": "08377cec1939fa43b78d337a9e07706745c0f0f34426ee1a9c54458d16c9510a"
+        },
+        {
+          "path": "results/primary_pages/m77-v1-reviewerB-46.png",
+          "sha256": "69923facfabb6978696445c69d4319d23d1e9234b27e35311ae111d148169136"
+        },
+        {
+          "path": "data/raw/mahadevan_1977_text.pdf",
+          "sha256": "6dcdd074a0174e5fab149590fbbf82342711d345764e9763f8e5e92c81cf7f99"
+        },
+        {
+          "path": "results/primary_pages/m77-v2-reviewerB-51.png",
+          "sha256": "1ca6c0b51f3281eab7f532a068d629f628a3f00af98ba1795da083b08c1e5d34"
+        },
+        {
+          "path": "results/primary_pages/m77-v1-reviewerB-43.png",
+          "sha256": "22ca809ca590447e58566b9033c0be8dcc1801676d4cb6239e2f1fca2ef37f26"
+        },
+        {
+          "path": "results/primary_pages/m77-v1-reviewerB-44.png",
+          "sha256": "e992b65d09c18111b93c53f09da1138117a251ed6f1e4d4f3a4c233ed5f72912"
+        },
+        {
+          "path": "results/primary_pages/m77-v1-reviewerB-45.png",
+          "sha256": "08377cec1939fa43b78d337a9e07706745c0f0f34426ee1a9c54458d16c9510a"
+        },
+        {
+          "path": "results/primary_pages/m77-v1-reviewerB-46.png",
+          "sha256": "69923facfabb6978696445c69d4319d23d1e9234b27e35311ae111d148169136"
+        },
+        {
+          "path": "results/primary_pages/context-041.png",
+          "sha256": "07a2fffb45af8fd090904c85fd334e99201b4dd1e5560f09716a167ea1954eec"
+        },
+        {
+          "path": "results/primary_pages/context-042.png",
+          "sha256": "b7febb9df235fd2452e3098386003e5457eaf9a891db487abb1b512475b52ae1"
+        },
+        {
+          "path": "results/primary_pages/m77-v2-parent-sign402-corrected.png",
+          "sha256": "45e9de1755a83c5b4443d4812920ea8fb1f5f97179fd328a05eee41de55a925f"
+        },
+        {
+          "path": "results/primary_pages/m77-v2-parent-1033.png",
+          "sha256": "ebe430e9ef43a4f1c4229ca9292e06a71b29b8d88a57aeebc552c02c39dc0638"
+        },
+        {
+          "path": "results/primary_pages/m77-v2-parent-1041.png",
+          "sha256": "51bd02bf31b12b96e6ea997c861d528a61b3d2bab655d811ea8e3169b9d2fbc2"
+        },
+        {
+          "path": "results/primary_pages/m77-v2-parent-1047.png",
+          "sha256": "fa55e72b53595ae5c526edc92854a6e54200deb1a17472a172cb4e5bdd397c00"
+        },
+        {
+          "path": "results/primary_pages/m77-v2-parent-sign402-first-crop-shows403.png",
+          "sha256": "edfaf51e1fff72c0f6bad2f343f5fda60e1307805137a1aa4d415b3d2fed9cdf"
+        },
+        {
+          "path": "results/primary_pages/m77-v2-parent-1045.png",
+          "sha256": "0960bc9d4b4db3fb9e62d7927572306d7b77bf1f0f0947aea50217fcf241e2f6"
+        },
+        {
+          "path": "results/primary_pages/m77-v2-parent-1051.png",
+          "sha256": "037019a023988183bc7aa25bcaa2a9803f8e8e4dea42d2267f7fe6a056054826"
+        },
+        {
+          "path": "results/primary_pages/m77-v2-parent-sign178.png",
+          "sha256": "70f63a101df4b2503f84ef5c8004b4ce917680e7f297f9b87d7e05263efc61df"
+        },
+        {
+          "path": "results/primary_pages/m77-v2-parent-signs012-014.png",
+          "sha256": "8bcf93ec20be54b31bc43536eac0e3e28aa62e5884f1aabe2e98acad62c8d572"
+        },
+        {
+          "path": "results/primary_pages/m77-v2-reviewerB-adjudicate-1051-trident.png",
+          "sha256": "146037697b5e5ccac3d8365cb1e9c5147912a3617e9936416b0156bd51fd622b"
+        },
+        {
+          "path": "results/primary_pages/m77-v2-reviewerB-adjudicate-1051-A.png",
+          "sha256": "972b99875deff62fa458a5880bd3a8fd3feb9c6f818034a5ade102011334433d"
+        },
+        {
+          "path": "results/primary_pages/m77-v2-reviewerB-adjudicate-sign222.png",
+          "sha256": "7e33ed206602c0c5d65bfb0a2b97af9fb6c8238abb2d331bc4f56a7aa7a55282"
+        },
+        {
+          "path": "results/primary_pages/m77-v2-reviewerB-adjudicate-sign223.png",
+          "sha256": "b9de821dd4d76812ae376442675cc1690049f4b9bf3519e5e378b845162af44e"
+        },
+        {
+          "path": "results/primary_pages/m77-v2-reviewerB-adjudicate-1047-leftbow.png",
+          "sha256": "9d29b7f4eb1f1eb9ce3f21b31a07e05f4f50b73f4e86b585367909f945c64c2a"
+        },
+        {
+          "path": "results/primary_pages/m77-v2-reviewerB-adjudicate-1033-first.png",
+          "sha256": "29e9a7195e2eb9884f7ba06254a49e36b5dd11605b3e24fd08ced7093aed767f"
+        },
+        {
+          "path": "results/primary_pages/m77-v2-reviewerB-adjudicate-sign178.png",
+          "sha256": "7b85c29b0febaaa86e8176ff36de4cc42661b9496fc7ccdbd73eda7df105109e"
+        },
+        {
+          "path": "results/primary_pages/m77-v2-reviewerB-adjudicate-sign014.png",
+          "sha256": "2505d6bc9da43411ae5fb421800067d100b9009347f63444efd6c132015c7290"
+        },
+        {
+          "path": "results/primary_pages/m77-v2-reviewerB-adjudicate-sign216.png",
+          "sha256": "323aae2a489b86fae1980ef49161978a50e8387e1ce5b58f2af8d87c6b0fb612"
+        },
+        {
+          "path": "results/primary_pages/m77-v2-reviewerB-adjudicate-sign163.png",
+          "sha256": "ff79ceab150667e93a9c40302e0fd31d2fc0dfcdc4ba5d2077df3306c19564a8"
+        },
+        {
+          "path": "results/primary_pages/m77-v2-reviewerB-adjudicate-sign402.png",
+          "sha256": "4ed14d5a8e8b0ec0a0e1ddc2c7eeaa84ed257a2fc18845047d37ea88b82c6250"
+        },
+        {
+          "path": "results/primary_pages/m77-v2-reviewerB-adjudicate-1047-rightK.png",
+          "sha256": "f2c7c6a8ac8394b9941f80be7e69dcbb2a470b8cb6b88924706db43001ad0eb3"
+        },
+        {
+          "path": "results/primary_pages/m77-v2-reviewerB-adjudicate-1041-firstpair.png",
+          "sha256": "3107c076b79f3c299847bede9f66e96487f0b56cf0fed3c6130cddeb67868fa7"
+        }
+      ]
+    },
+    {
+      "source_pdf_page": 52,
+      "key": [
+        "1083",
+        "0",
+        "0"
+      ],
+      "resolution": "A",
+      "reason": "The existing alternative scan (PDF53/printed41) shows both central ovals empty, matching M054 rather than M055 with its short interior vertical. Parent directly checked its native glyph crop against the primary sign list; B independently recorded the same observation. This supersedes the main-scan-only UNKNOWN recommendation, preserved separately. Same printed edition, not independent object evidence.",
+      "source_pins": [
+        {
+          "path": "data/raw/mahadevan_1977_text.pdf",
+          "sha256": "6dcdd074a0174e5fab149590fbbf82342711d345764e9763f8e5e92c81cf7f99"
+        },
+        {
+          "path": "results/primary_pages/m77-v3-reviewerB-detail-1083.png",
+          "sha256": "5437ab308bc8119b7d5ebac11b9b6fedd385dc983cf6c63c748113b540400f56"
+        },
+        {
+          "path": "results/primary_pages/m77-v3-parent-1083-nearest.png",
+          "sha256": "eafc5ea64e860cc648fe0506a980d7eff1610616a075d77db5d31d692f0913fa"
+        },
+        {
+          "path": "results/primary_pages/m77-v3-parent-signs054055.png",
+          "sha256": "c78802cccc64a5ff96bd0e0510d4df087bb3655a6015112d0ba5c37dd873d49d"
+        },
+        {
+          "path": "data/processed/m77_verified/reviewer_b_adjudication_page052.json",
+          "sha256": "2dcc8e8b7a70551fd35f4be08cb9b26a127c768150eae86d2b2afe21ec41d8fb"
+        },
+        {
+          "path": "data/raw/mahadevan_alternative_scan.pdf",
+          "sha256": "ef68fe8dc25e94fe9cb75b418c5189a084383e72498560ef393372e90a27e110"
+        },
+        {
+          "path": "results/primary_pages/m77-v3-alt-53.png",
+          "sha256": "0946a25aea349e4bfbf17417b11a71650abe9ee73712435e0bff52e9ef4869be"
+        },
+        {
+          "path": "results/primary_pages/m77-v3-alt-1083-glyphs.png",
+          "sha256": "7747ae902aa6ce4aa4ee785ec14c32b7fb130154dab68f1beb1b152b03d9f602"
+        },
+        {
+          "path": "results/primary_pages/m77-v3-alt-1083-row.png",
+          "sha256": "ecf8833578b91913e43cc7ad877a6b18e17c581032cb82bfa92453165be418b4"
+        },
+        {
+          "path": "results/primary_pages/m77-v3-alt-page-number.png",
+          "sha256": "e621e54cd8bdc46407674ce9c47e9f41b8589d71cf59d0aea65ec90acdf3edf9"
+        },
+        {
+          "path": "results/primary_pages/m77-v1-reviewerB-adjudicate-054.png",
+          "sha256": "c4282b0a0cbc54fa955cb6369e2cffc1210c910d9476b4cd2094961506f1e00b"
+        },
+        {
+          "path": "results/primary_pages/m77-v1-reviewerB-adjudicate-055.png",
+          "sha256": "4275daaf9b34c0e33a2c823afa270ee207d633af09aa2b91bf0f9c372ecc7730"
+        },
+        {
+          "path": "data/processed/m77_verified/reviewer_b_adjudication_page052_alt_addendum.json",
+          "sha256": "90327db398252117b7d00d31b4ad86cf4e9dcf4706659fd1f870d2991c42ba78"
+        }
+      ]
+    }
+  ]
+}

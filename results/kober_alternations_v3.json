@@ -1,0 +1,7370 @@
+{
+  "schema_version": "kober-alternation-screen-1",
+  "coverage": {
+    "corpus_rows": 99,
+    "clean_rows": 76,
+    "clean_unique_sequences": 75,
+    "excluded_rows": 23,
+    "exclusion_reasons_overlapping": {
+      "LOSS": 12,
+      "source_doubt": 18
+    },
+    "source_pdf_pages": [
+      50,
+      51,
+      52
+    ],
+    "clean_direction_codes": {
+      "1": 70,
+      "3": 5,
+      "5": 1
+    }
+  },
+  "excluded": [
+    {
+      "row_key": [
+        "1001",
+        "0",
+        "1"
+      ],
+      "reasons": [
+        "LOSS"
+      ]
+    },
+    {
+      "row_key": [
+        "1002",
+        "0",
+        "0"
+      ],
+      "reasons": [
+        "LOSS",
+        "source_doubt"
+      ]
+    },
+    {
+      "row_key": [
+        "1003",
+        "0",
+        "0"
+      ],
+      "reasons": [
+        "source_doubt"
+      ]
+    },
+    {
+      "row_key": [
+        "1007",
+        "0",
+        "0"
+      ],
+      "reasons": [
+        "source_doubt"
+      ]
+    },
+    {
+      "row_key": [
+        "1016",
+        "0",
+        "1"
+      ],
+      "reasons": [
+        "source_doubt"
+      ]
+    },
+    {
+      "row_key": [
+        "1017",
+        "0",
+        "0"
+      ],
+      "reasons": [
+        "LOSS",
+        "source_doubt"
+      ]
+    },
+    {
+      "row_key": [
+        "1020",
+        "0",
+        "0"
+      ],
+      "reasons": [
+        "LOSS"
+      ]
+    },
+    {
+      "row_key": [
+        "1023",
+        "0",
+        "0"
+      ],
+      "reasons": [
+        "source_doubt"
+      ]
+    },
+    {
+      "row_key": [
+        "1027",
+        "0",
+        "0"
+      ],
+      "reasons": [
+        "LOSS",
+        "source_doubt"
+      ]
+    },
+    {
+      "row_key": [
+        "1031",
+        "0",
+        "0"
+      ],
+      "reasons": [
+        "source_doubt"
+      ]
+    },
+    {
+      "row_key": [
+        "1034",
+        "0",
+        "0"
+      ],
+      "reasons": [
+        "LOSS"
+      ]
+    },
+    {
+      "row_key": [
+        "1039",
+        "0",
+        "0"
+      ],
+      "reasons": [
+        "LOSS",
+        "source_doubt"
+      ]
+    },
+    {
+      "row_key": [
+        "1047",
+        "0",
+        "0"
+      ],
+      "reasons": [
+        "LOSS"
+      ]
+    },
+    {
+      "row_key": [
+        "1052",
+        "0",
+        "1"
+      ],
+      "reasons": [
+        "source_doubt"
+      ]
+    },
+    {
+      "row_key": [
+        "1057",
+        "0",
+        "0"
+      ],
+      "reasons": [
+        "source_doubt"
+      ]
+    },
+    {
+      "row_key": [
+        "1059",
+        "0",
+        "0"
+      ],
+      "reasons": [
+        "LOSS",
+        "source_doubt"
+      ]
+    },
+    {
+      "row_key": [
+        "1073",
+        "0",
+        "0"
+      ],
+      "reasons": [
+        "LOSS",
+        "source_doubt"
+      ]
+    },
+    {
+      "row_key": [
+        "1077",
+        "0",
+        "0"
+      ],
+      "reasons": [
+        "source_doubt"
+      ]
+    },
+    {
+      "row_key": [
+        "1081",
+        "0",
+        "0"
+      ],
+      "reasons": [
+        "source_doubt"
+      ]
+    },
+    {
+      "row_key": [
+        "1082",
+        "0",
+        "0"
+      ],
+      "reasons": [
+        "source_doubt"
+      ]
+    },
+    {
+      "row_key": [
+        "1085",
+        "0",
+        "0"
+      ],
+      "reasons": [
+        "LOSS"
+      ]
+    },
+    {
+      "row_key": [
+        "1089",
+        "0",
+        "0"
+      ],
+      "reasons": [
+        "LOSS",
+        "source_doubt"
+      ]
+    },
+    {
+      "row_key": [
+        "1090",
+        "0",
+        "0"
+      ],
+      "reasons": [
+        "source_doubt"
+      ]
+    }
+  ],
+  "terminal_lengths": {
+    "1": {
+      "observed": {
+        "ending_length": 1,
+        "eligible_rows": 71,
+        "unique_sequences": 71,
+        "stems": 71,
+        "endings": 23,
+        "stems_with_multiple_endings": 0,
+        "shared_ending_pairs": 0,
+        "four_cycles": 0,
+        "row_witness_combinations": 0,
+        "pairs": [],
+        "edges": [
+          {
+            "stem": [
+              "M001",
+              "M001",
+              "M379"
+            ],
+            "ending": [
+              "M194"
+            ],
+            "row_count": 1,
+            "unique_sequence_count": 1,
+            "row_keys": [
+              [
+                "1084",
+                "0",
+                "0"
+              ]
+            ]
+          },
+          {
+            "stem": [
+              "M017",
+              "M336",
+              "M189"
+            ],
+            "ending": [
+              "M252"
+            ],
+            "row_count": 1,
+            "unique_sequence_count": 1,
+            "row_keys": [
+              [
+                "1018",
+                "2",
+                "0"
+              ]
+            ]
+          },
+          {
+            "stem": [
+              "M027",
+              "M297"
+            ],
+            "ending": [
+              "M012"
+            ],
+            "row_count": 1,
+            "unique_sequence_count": 1,
+            "row_keys": [
+              [
+                "1043",
+                "0",
+                "0"
+              ]
+            ]
+          },
+          {
+            "stem": [
+              "M028",
+              "M162",
+              "M343",
+              "M106",
+              "M287"
+            ],
+            "ending": [
+              "M342"
+            ],
+            "row_count": 1,
+            "unique_sequence_count": 1,
+            "row_keys": [
+              [
+                "1092",
+                "0",
+                "0"
+              ]
+            ]
+          },
+          {
+            "stem": [
+              "M028",
+              "M180"
+            ],
+            "ending": [
+              "M402"
+            ],
+            "row_count": 1,
+            "unique_sequence_count": 1,
+            "row_keys": [
+              [
+                "1069",
+                "0",
+                "0"
+              ]
+            ]
+          },
+          {
+            "stem": [
+              "M028",
+              "M400"
+            ],
+            "ending": [
+              "M404"
+            ],
+            "row_count": 1,
+            "unique_sequence_count": 1,
+            "row_keys": [
+              [
+                "1012",
+                "0",
+                "2"
+              ]
+            ]
+          },
+          {
+            "stem": [
+              "M034",
+              "M099",
+              "M072",
+              "M325",
+              "M296",
+              "M087"
+            ],
+            "ending": [
+              "M342"
+            ],
+            "row_count": 1,
+            "unique_sequence_count": 1,
+            "row_keys": [
+              [
+                "1042",
+                "0",
+                "0"
+              ]
+            ]
+          },
+          {
+            "stem": [
+              "M051",
+              "M130",
+              "M149"
+            ],
+            "ending": [
+              "M342"
+            ],
+            "row_count": 1,
+            "unique_sequence_count": 1,
+            "row_keys": [
+              [
+                "1013",
+                "0",
+                "0"
+              ]
+            ]
+          },
+          {
+            "stem": [
+              "M054",
+              "M028",
+              "M162",
+              "M100",
+              "M065",
+              "M347"
+            ],
+            "ending": [
+              "M342"
+            ],
+            "row_count": 1,
+            "unique_sequence_count": 1,
+            "row_keys": [
+              [
+                "1060",
+                "0",
+                "0"
+              ]
+            ]
+          },
+          {
+            "stem": [
+              "M054",
+              "M054"
+            ],
+            "ending": [
+              "M342"
+            ],
+            "row_count": 1,
+            "unique_sequence_count": 1,
+            "row_keys": [
+              [
+                "1083",
+                "0",
+                "0"
+              ]
+            ]
+          },
+          {
+            "stem": [
+              "M059",
+              "M127",
+              "M245",
+              "M343",
+              "M075",
+              "M245"
+            ],
+            "ending": [
+              "M245"
+            ],
+            "row_count": 1,
+            "unique_sequence_count": 1,
+            "row_keys": [
+              [
+                "1004",
+                "0",
+                "0"
+              ]
+            ]
+          },
+          {
+            "stem": [
+              "M065",
+              "M053"
+            ],
+            "ending": [
+              "M342"
+            ],
+            "row_count": 1,
+            "unique_sequence_count": 1,
+            "row_keys": [
+              [
+                "1044",
+                "0",
+                "0"
+              ]
+            ]
+          },
+          {
+            "stem": [
+              "M065",
+              "M249",
+              "M169"
+            ],
+            "ending": [
+              "M342"
+            ],
+            "row_count": 1,
+            "unique_sequence_count": 1,
+            "row_keys": [
+              [
+                "1040",
+                "0",
+                "0"
+              ]
+            ]
+          },
+          {
+            "stem": [
+              "M067",
+              "M072",
+              "M342"
+            ],
+            "ending": [
+              "M139"
+            ],
+            "row_count": 1,
+            "unique_sequence_count": 1,
+            "row_keys": [
+              [
+                "1053",
+                "0",
+                "0"
+              ]
+            ]
+          },
+          {
+            "stem": [
+              "M072",
+              "M327"
+            ],
+            "ending": [
+              "M254"
+            ],
+            "row_count": 1,
+            "unique_sequence_count": 1,
+            "row_keys": [
+              [
+                "1075",
+                "0",
+                "0"
+              ]
+            ]
+          },
+          {
+            "stem": [
+              "M076",
+              "M402",
+              "M068",
+              "M287"
+            ],
+            "ending": [
+              "M267"
+            ],
+            "row_count": 1,
+            "unique_sequence_count": 1,
+            "row_keys": [
+              [
+                "1036",
+                "0",
+                "0"
+              ]
+            ]
+          },
+          {
+            "stem": [
+              "M076",
+              "M402",
+              "M087",
+              "M059",
+              "M067",
+              "M336",
+              "M089"
+            ],
+            "ending": [
+              "M211"
+            ],
+            "row_count": 1,
+            "unique_sequence_count": 1,
+            "row_keys": [
+              [
+                "1008",
+                "0",
+                "0"
+              ]
+            ]
+          },
+          {
+            "stem": [
+              "M086",
+              "M381",
+              "M099",
+              "M048",
+              "M008"
+            ],
+            "ending": [
+              "M342"
+            ],
+            "row_count": 1,
+            "unique_sequence_count": 1,
+            "row_keys": [
+              [
+                "1028",
+                "0",
+                "0"
+              ]
+            ]
+          },
+          {
+            "stem": [
+              "M086",
+              "M397"
+            ],
+            "ending": [
+              "M169"
+            ],
+            "row_count": 1,
+            "unique_sequence_count": 1,
+            "row_keys": [
+              [
+                "1055",
+                "0",
+                "0"
+              ]
+            ]
+          },
+          {
+            "stem": [
+              "M087",
+              "M028",
+              "M257",
+              "M099",
+              "M067",
+              "M070",
+              "M336",
+              "M089"
+            ],
+            "ending": [
+              "M211"
+            ],
+            "row_count": 1,
+            "unique_sequence_count": 1,
+            "row_keys": [
+              [
+                "1065",
+                "0",
+                "0"
+              ]
+            ]
+          },
+          {
+            "stem": [
+              "M087",
+              "M197",
+              "M087",
+              "M099",
+              "M336",
+              "M347"
+            ],
+            "ending": [
+              "M342"
+            ],
+            "row_count": 1,
+            "unique_sequence_count": 1,
+            "row_keys": [
+              [
+                "1026",
+                "0",
+                "0"
+              ]
+            ]
+          },
+          {
+            "stem": [
+              "M087",
+              "M244",
+              "M028",
+              "M162",
+              "M099",
+              "M065",
+              "M067",
+              "M087",
+              "M059",
+              "M051",
+              "M130",
+              "M149"
+            ],
+            "ending": [
+              "M342"
+            ],
+            "row_count": 1,
+            "unique_sequence_count": 1,
+            "row_keys": [
+              [
+                "1087",
+                "0",
+                "0"
+              ]
+            ]
+          },
+          {
+            "stem": [
+              "M106",
+              "M178",
+              "M254",
+              "M099"
+            ],
+            "ending": [
+              "M163"
+            ],
+            "row_count": 1,
+            "unique_sequence_count": 1,
+            "row_keys": [
+              [
+                "1051",
+                "0",
+                "0"
+              ]
+            ]
+          },
+          {
+            "stem": [
+              "M112"
+            ],
+            "ending": [
+              "M169"
+            ],
+            "row_count": 1,
+            "unique_sequence_count": 1,
+            "row_keys": [
+              [
+                "1025",
+                "0",
+                "0"
+              ]
+            ]
+          },
+          {
+            "stem": [
+              "M150",
+              "M123",
+              "M051",
+              "M130",
+              "M149",
+              "M342",
+              "M150",
+              "M123",
+              "M387"
+            ],
+            "ending": [
+              "M342"
+            ],
+            "row_count": 1,
+            "unique_sequence_count": 1,
+            "row_keys": [
+              [
+                "1012",
+                "0",
+                "1"
+              ]
+            ]
+          },
+          {
+            "stem": [
+              "M150",
+              "M123",
+              "M070",
+              "M389"
+            ],
+            "ending": [
+              "M342"
+            ],
+            "row_count": 1,
+            "unique_sequence_count": 1,
+            "row_keys": [
+              [
+                "1095",
+                "0",
+                "0"
+              ]
+            ]
+          },
+          {
+            "stem": [
+              "M150",
+              "M162",
+              "M100",
+              "M087"
+            ],
+            "ending": [
+              "M060"
+            ],
+            "row_count": 1,
+            "unique_sequence_count": 1,
+            "row_keys": [
+              [
+                "1048",
+                "0",
+                "0"
+              ]
+            ]
+          },
+          {
+            "stem": [
+              "M171",
+              "M059",
+              "M336",
+              "M089"
+            ],
+            "ending": [
+              "M211"
+            ],
+            "row_count": 1,
+            "unique_sequence_count": 1,
+            "row_keys": [
+              [
+                "1068",
+                "0",
+                "0"
+              ]
+            ]
+          },
+          {
+            "stem": [
+              "M197",
+              "M028"
+            ],
+            "ending": [
+              "M054"
+            ],
+            "row_count": 1,
+            "unique_sequence_count": 1,
+            "row_keys": [
+              [
+                "1015",
+                "0",
+                "0"
+              ]
+            ]
+          },
+          {
+            "stem": [
+              "M210",
+              "M086",
+              "M099",
+              "M389",
+              "M060",
+              "M204",
+              "M108",
+              "M358"
+            ],
+            "ending": [
+              "M342"
+            ],
+            "row_count": 1,
+            "unique_sequence_count": 1,
+            "row_keys": [
+              [
+                "1066",
+                "0",
+                "0"
+              ]
+            ]
+          },
+          {
+            "stem": [
+              "M215",
+              "M298",
+              "M009",
+              "M342"
+            ],
+            "ending": [
+              "M001"
+            ],
+            "row_count": 1,
+            "unique_sequence_count": 1,
+            "row_keys": [
+              [
+                "1072",
+                "0",
+                "0"
+              ]
+            ]
+          },
+          {
+            "stem": [
+              "M219",
+              "M381",
+              "M099",
+              "M109"
+            ],
+            "ending": [
+              "M162"
+            ],
+            "row_count": 1,
+            "unique_sequence_count": 1,
+            "row_keys": [
+              [
+                "1035",
+                "0",
+                "0"
+              ]
+            ]
+          },
+          {
+            "stem": [
+              "M223",
+              "M149",
+              "M180",
+              "M099",
+              "M072",
+              "M219"
+            ],
+            "ending": [
+              "M342"
+            ],
+            "row_count": 1,
+            "unique_sequence_count": 1,
+            "row_keys": [
+              [
+                "1033",
+                "0",
+                "0"
+              ]
+            ]
+          },
+          {
+            "stem": [
+              "M233",
+              "M081",
+              "M099",
+              "M389",
+              "M065",
+              "M336",
+              "M089",
+              "M087",
+              "M155",
+              "M124"
+            ],
+            "ending": [
+              "M169"
+            ],
+            "row_count": 1,
+            "unique_sequence_count": 1,
+            "row_keys": [
+              [
+                "1006",
+                "0",
+                "0"
+              ]
+            ]
+          },
+          {
+            "stem": [
+              "M244",
+              "M017"
+            ],
+            "ending": [
+              "M336"
+            ],
+            "row_count": 1,
+            "unique_sequence_count": 1,
+            "row_keys": [
+              [
+                "1038",
+                "0",
+                "0"
+              ]
+            ]
+          },
+          {
+            "stem": [
+              "M249",
+              "M336",
+              "M075",
+              "M245"
+            ],
+            "ending": [
+              "M245"
+            ],
+            "row_count": 1,
+            "unique_sequence_count": 1,
+            "row_keys": [
+              [
+                "1056",
+                "0",
+                "0"
+              ]
+            ]
+          },
+          {
+            "stem": [
+              "M253",
+              "M230",
+              "M089",
+              "M089",
+              "M267",
+              "M099",
+              "M106"
+            ],
+            "ending": [
+              "M169"
+            ],
+            "row_count": 1,
+            "unique_sequence_count": 1,
+            "row_keys": [
+              [
+                "1054",
+                "0",
+                "0"
+              ]
+            ]
+          },
+          {
+            "stem": [
+              "M261",
+              "M371",
+              "M059",
+              "M097",
+              "M114"
+            ],
+            "ending": [
+              "M169"
+            ],
+            "row_count": 1,
+            "unique_sequence_count": 1,
+            "row_keys": [
+              [
+                "1071",
+                "0",
+                "0"
+              ]
+            ]
+          },
+          {
+            "stem": [
+              "M267",
+              "M099",
+              "M067",
+              "M216"
+            ],
+            "ending": [
+              "M254"
+            ],
+            "row_count": 1,
+            "unique_sequence_count": 1,
+            "row_keys": [
+              [
+                "1096",
+                "0",
+                "0"
+              ]
+            ]
+          },
+          {
+            "stem": [
+              "M267",
+              "M099",
+              "M067",
+              "M296",
+              "M009",
+              "M342",
+              "M017",
+              "M407"
+            ],
+            "ending": [
+              "M169"
+            ],
+            "row_count": 1,
+            "unique_sequence_count": 1,
+            "row_keys": [
+              [
+                "1011",
+                "0",
+                "0"
+              ]
+            ]
+          },
+          {
+            "stem": [
+              "M267",
+              "M099",
+              "M087",
+              "M059",
+              "M067",
+              "M194"
+            ],
+            "ending": [
+              "M342"
+            ],
+            "row_count": 1,
+            "unique_sequence_count": 1,
+            "row_keys": [
+              [
+                "1014",
+                "0",
+                "0"
+              ]
+            ]
+          },
+          {
+            "stem": [
+              "M267",
+              "M099",
+              "M102"
+            ],
+            "ending": [
+              "M162"
+            ],
+            "row_count": 1,
+            "unique_sequence_count": 1,
+            "row_keys": [
+              [
+                "1091",
+                "0",
+                "0"
+              ]
+            ]
+          },
+          {
+            "stem": [
+              "M267",
+              "M099",
+              "M104",
+              "M059"
+            ],
+            "ending": [
+              "M211"
+            ],
+            "row_count": 1,
+            "unique_sequence_count": 1,
+            "row_keys": [
+              [
+                "1019",
+                "0",
+                "0"
+              ]
+            ]
+          },
+          {
+            "stem": [
+              "M267",
+              "M099",
+              "M124"
+            ],
+            "ending": [
+              "M342"
+            ],
+            "row_count": 1,
+            "unique_sequence_count": 1,
+            "row_keys": [
+              [
+                "1086",
+                "0",
+                "0"
+              ]
+            ]
+          },
+          {
+            "stem": [
+              "M267",
+              "M099",
+              "M124",
+              "M025"
+            ],
+            "ending": [
+              "M342"
+            ],
+            "row_count": 1,
+            "unique_sequence_count": 1,
+            "row_keys": [
+              [
+                "1078",
+                "0",
+                "0"
+              ]
+            ]
+          },
+          {
+            "stem": [
+              "M267",
+              "M099",
+              "M153",
+              "M153",
+              "M171",
+              "M059"
+            ],
+            "ending": [
+              "M211"
+            ],
+            "row_count": 1,
+            "unique_sequence_count": 1,
+            "row_keys": [
+              [
+                "1032",
+                "0",
+                "0"
+              ]
+            ]
+          },
+          {
+            "stem": [
+              "M267",
+              "M099",
+              "M171",
+              "M059",
+              "M336",
+              "M089"
+            ],
+            "ending": [
+              "M211"
+            ],
+            "row_count": 1,
+            "unique_sequence_count": 1,
+            "row_keys": [
+              [
+                "1094",
+                "0",
+                "0"
+              ]
+            ]
+          },
+          {
+            "stem": [
+              "M267",
+              "M099",
+              "M204",
+              "M367"
+            ],
+            "ending": [
+              "M342"
+            ],
+            "row_count": 1,
+            "unique_sequence_count": 1,
+            "row_keys": [
+              [
+                "1022",
+                "0",
+                "0"
+              ]
+            ]
+          },
+          {
+            "stem": [
+              "M267",
+              "M099",
+              "M387",
+              "M067",
+              "M406"
+            ],
+            "ending": [
+              "M162"
+            ],
+            "row_count": 1,
+            "unique_sequence_count": 1,
+            "row_keys": [
+              [
+                "1080",
+                "0",
+                "0"
+              ]
+            ]
+          },
+          {
+            "stem": [
+              "M293",
+              "M123",
+              "M343",
+              "M072",
+              "M065",
+              "M008"
+            ],
+            "ending": [
+              "M342"
+            ],
+            "row_count": 1,
+            "unique_sequence_count": 1,
+            "row_keys": [
+              [
+                "1024",
+                "0",
+                "0"
+              ]
+            ]
+          },
+          {
+            "stem": [
+              "M293",
+              "M123",
+              "M343",
+              "M102",
+              "M059"
+            ],
+            "ending": [
+              "M211"
+            ],
+            "row_count": 1,
+            "unique_sequence_count": 1,
+            "row_keys": [
+              [
+                "1041",
+                "0",
+                "0"
+              ]
+            ]
+          },
+          {
+            "stem": [
+              "M293",
+              "M123",
+              "M344",
+              "M102"
+            ],
+            "ending": [
+              "M402"
+            ],
+            "row_count": 1,
+            "unique_sequence_count": 1,
+            "row_keys": [
+              [
+                "1029",
+                "0",
+                "0"
+              ]
+            ]
+          },
+          {
+            "stem": [
+              "M293",
+              "M123",
+              "M345",
+              "M065",
+              "M067",
+              "M051",
+              "M130",
+              "M149"
+            ],
+            "ending": [
+              "M342"
+            ],
+            "row_count": 1,
+            "unique_sequence_count": 1,
+            "row_keys": [
+              [
+                "1021",
+                "0",
+                "0"
+              ]
+            ]
+          },
+          {
+            "stem": [
+              "M296"
+            ],
+            "ending": [
+              "M342"
+            ],
+            "row_count": 1,
+            "unique_sequence_count": 1,
+            "row_keys": [
+              [
+                "1005",
+                "0",
+                "0"
+              ]
+            ]
+          },
+          {
+            "stem": [
+              "M311",
+              "M211"
+            ],
+            "ending": [
+              "M176"
+            ],
+            "row_count": 1,
+            "unique_sequence_count": 1,
+            "row_keys": [
+              [
+                "1046",
+                "0",
+                "0"
+              ]
+            ]
+          },
+          {
+            "stem": [
+              "M336",
+              "M089",
+              "M211",
+              "M097",
+              "M086"
+            ],
+            "ending": [
+              "M015"
+            ],
+            "row_count": 1,
+            "unique_sequence_count": 1,
+            "row_keys": [
+              [
+                "1030",
+                "0",
+                "0"
+              ]
+            ]
+          },
+          {
+            "stem": [
+              "M342",
+              "M082"
+            ],
+            "ending": [
+              "M342"
+            ],
+            "row_count": 1,
+            "unique_sequence_count": 1,
+            "row_keys": [
+              [
+                "1093",
+                "0",
+                "2"
+              ]
+            ]
+          },
+          {
+            "stem": [
+              "M345",
+              "M028"
+            ],
+            "ending": [
+              "M176"
+            ],
+            "row_count": 1,
+            "unique_sequence_count": 1,
+            "row_keys": [
+              [
+                "1070",
+                "0",
+                "0"
+              ]
+            ]
+          },
+          {
+            "stem": [
+              "M347"
+            ],
+            "ending": [
+              "M342"
+            ],
+            "row_count": 1,
+            "unique_sequence_count": 1,
+            "row_keys": [
+              [
+                "1093",
+                "0",
+                "3"
+              ]
+            ]
+          },
+          {
+            "stem": [
+              "M387"
+            ],
+            "ending": [
+              "M014"
+            ],
+            "row_count": 1,
+            "unique_sequence_count": 1,
+            "row_keys": [
+              [
+                "1045",
+                "0",
+                "0"
+              ]
+            ]
+          },
+          {
+            "stem": [
+              "M387",
+              "M206",
+              "M252",
+              "M099",
+              "M067",
+              "M375",
+              "M051",
+              "M155",
+              "M347"
+            ],
+            "ending": [
+              "M342"
+            ],
+            "row_count": 1,
+            "unique_sequence_count": 1,
+            "row_keys": [
+              [
+                "1049",
+                "0",
+                "0"
+              ]
+            ]
+          },
+          {
+            "stem": [
+              "M391",
+              "M098",
+              "M336"
+            ],
+            "ending": [
+              "M162"
+            ],
+            "row_count": 1,
+            "unique_sequence_count": 1,
+            "row_keys": [
+              [
+                "1061",
+                "0",
+                "0"
+              ]
+            ]
+          },
+          {
+            "stem": [
+              "M391",
+              "M099",
+              "M048",
+              "M171",
+              "M008"
+            ],
+            "ending": [
+              "M342"
+            ],
+            "row_count": 1,
+            "unique_sequence_count": 1,
+            "row_keys": [
+              [
+                "1010",
+                "0",
+                "0"
+              ]
+            ]
+          },
+          {
+            "stem": [
+              "M391",
+              "M099",
+              "M087",
+              "M059",
+              "M067",
+              "M121"
+            ],
+            "ending": [
+              "M014"
+            ],
+            "row_count": 1,
+            "unique_sequence_count": 1,
+            "row_keys": [
+              [
+                "1079",
+                "0",
+                "0"
+              ]
+            ]
+          },
+          {
+            "stem": [
+              "M391",
+              "M099",
+              "M104"
+            ],
+            "ending": [
+              "M162"
+            ],
+            "row_count": 1,
+            "unique_sequence_count": 1,
+            "row_keys": [
+              [
+                "1076",
+                "0",
+                "0"
+              ]
+            ]
+          },
+          {
+            "stem": [
+              "M391",
+              "M099",
+              "M289"
+            ],
+            "ending": [
+              "M342"
+            ],
+            "row_count": 1,
+            "unique_sequence_count": 1,
+            "row_keys": [
+              [
+                "1074",
+                "0",
+                "0"
+              ]
+            ]
+          },
+          {
+            "stem": [
+              "M391",
+              "M099",
+              "M387",
+              "M067",
+              "M059"
+            ],
+            "ending": [
+              "M211"
+            ],
+            "row_count": 1,
+            "unique_sequence_count": 1,
+            "row_keys": [
+              [
+                "1088",
+                "0",
+                "0"
+              ]
+            ]
+          },
+          {
+            "stem": [
+              "M397",
+              "M051",
+              "M267",
+              "M402"
+            ],
+            "ending": [
+              "M098"
+            ],
+            "row_count": 1,
+            "unique_sequence_count": 1,
+            "row_keys": [
+              [
+                "1067",
+                "0",
+                "0"
+              ]
+            ]
+          },
+          {
+            "stem": [
+              "M400",
+              "M396",
+              "M169",
+              "M099",
+              "M048",
+              "M193"
+            ],
+            "ending": [
+              "M342"
+            ],
+            "row_count": 1,
+            "unique_sequence_count": 1,
+            "row_keys": [
+              [
+                "1058",
+                "0",
+                "0"
+              ]
+            ]
+          },
+          {
+            "stem": [
+              "M409",
+              "M096",
+              "M019"
+            ],
+            "ending": [
+              "M391"
+            ],
+            "row_count": 1,
+            "unique_sequence_count": 1,
+            "row_keys": [
+              [
+                "1037",
+                "0",
+                "0"
+              ]
+            ]
+          },
+          {
+            "stem": [
+              "M409",
+              "M096",
+              "M019",
+              "M099",
+              "M171",
+              "M008"
+            ],
+            "ending": [
+              "M342"
+            ],
+            "row_count": 1,
+            "unique_sequence_count": 1,
+            "row_keys": [
+              [
+                "1050",
+                "0",
+                "0"
+              ]
+            ]
+          }
+        ]
+      },
+      "row_slot_permutation": {
+        "seed": 20261011,
+        "replicates": 999,
+        "observed_four_cycles": 0,
+        "slots": 71,
+        "slots_in_strata_with_multiple_endings": 67,
+        "null_scores": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "null_min": 0,
+        "null_max": 0,
+        "null_mean": 0.0,
+        "sampled_score_is_constant": true,
+        "raw_greater_or_equal_count": 999,
+        "raw_greater_or_equal_fraction": 1.0,
+        "raw_strictly_greater_count": 0,
+        "interpretation": "Exploratory conditional exceedance; not a calibrated morphology test or multiple-testing-adjusted significance claim."
+      },
+      "unique_sequence_slot_permutation": {
+        "seed": 20261011,
+        "replicates": 999,
+        "observed_four_cycles": 0,
+        "slots": 71,
+        "slots_in_strata_with_multiple_endings": 67,
+        "null_scores": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "null_min": 0,
+        "null_max": 0,
+        "null_mean": 0.0,
+        "sampled_score_is_constant": true,
+        "raw_greater_or_equal_count": 999,
+        "raw_greater_or_equal_fraction": 1.0,
+        "raw_strictly_greater_count": 0,
+        "interpretation": "Exploratory conditional exceedance; not a calibrated morphology test or multiple-testing-adjusted significance claim."
+      }
+    },
+    "2": {
+      "observed": {
+        "ending_length": 2,
+        "eligible_rows": 67,
+        "unique_sequences": 67,
+        "stems": 64,
+        "endings": 53,
+        "stems_with_multiple_endings": 3,
+        "shared_ending_pairs": 0,
+        "four_cycles": 0,
+        "row_witness_combinations": 0,
+        "pairs": [],
+        "edges": [
+          {
+            "stem": [
+              "M001",
+              "M001"
+            ],
+            "ending": [
+              "M379",
+              "M194"
+            ],
+            "row_count": 1,
+            "unique_sequence_count": 1,
+            "row_keys": [
+              [
+                "1084",
+                "0",
+                "0"
+              ]
+            ]
+          },
+          {
+            "stem": [
+              "M017",
+              "M336"
+            ],
+            "ending": [
+              "M189",
+              "M252"
+            ],
+            "row_count": 1,
+            "unique_sequence_count": 1,
+            "row_keys": [
+              [
+                "1018",
+                "2",
+                "0"
+              ]
+            ]
+          },
+          {
+            "stem": [
+              "M027"
+            ],
+            "ending": [
+              "M297",
+              "M012"
+            ],
+            "row_count": 1,
+            "unique_sequence_count": 1,
+            "row_keys": [
+              [
+                "1043",
+                "0",
+                "0"
+              ]
+            ]
+          },
+          {
+            "stem": [
+              "M028"
+            ],
+            "ending": [
+              "M180",
+              "M402"
+            ],
+            "row_count": 1,
+            "unique_sequence_count": 1,
+            "row_keys": [
+              [
+                "1069",
+                "0",
+                "0"
+              ]
+            ]
+          },
+          {
+            "stem": [
+              "M028"
+            ],
+            "ending": [
+              "M400",
+              "M404"
+            ],
+            "row_count": 1,
+            "unique_sequence_count": 1,
+            "row_keys": [
+              [
+                "1012",
+                "0",
+                "2"
+              ]
+            ]
+          },
+          {
+            "stem": [
+              "M028",
+              "M162",
+              "M343",
+              "M106"
+            ],
+            "ending": [
+              "M287",
+              "M342"
+            ],
+            "row_count": 1,
+            "unique_sequence_count": 1,
+            "row_keys": [
+              [
+                "1092",
+                "0",
+                "0"
+              ]
+            ]
+          },
+          {
+            "stem": [
+              "M034",
+              "M099",
+              "M072",
+              "M325",
+              "M296"
+            ],
+            "ending": [
+              "M087",
+              "M342"
+            ],
+            "row_count": 1,
+            "unique_sequence_count": 1,
+            "row_keys": [
+              [
+                "1042",
+                "0",
+                "0"
+              ]
+            ]
+          },
+          {
+            "stem": [
+              "M051",
+              "M130"
+            ],
+            "ending": [
+              "M149",
+              "M342"
+            ],
+            "row_count": 1,
+            "unique_sequence_count": 1,
+            "row_keys": [
+              [
+                "1013",
+                "0",
+                "0"
+              ]
+            ]
+          },
+          {
+            "stem": [
+              "M054"
+            ],
+            "ending": [
+              "M054",
+              "M342"
+            ],
+            "row_count": 1,
+            "unique_sequence_count": 1,
+            "row_keys": [
+              [
+                "1083",
+                "0",
+                "0"
+              ]
+            ]
+          },
+          {
+            "stem": [
+              "M054",
+              "M028",
+              "M162",
+              "M100",
+              "M065"
+            ],
+            "ending": [
+              "M347",
+              "M342"
+            ],
+            "row_count": 1,
+            "unique_sequence_count": 1,
+            "row_keys": [
+              [
+                "1060",
+                "0",
+                "0"
+              ]
+            ]
+          },
+          {
+            "stem": [
+              "M059",
+              "M127",
+              "M245",
+              "M343",
+              "M075"
+            ],
+            "ending": [
+              "M245",
+              "M245"
+            ],
+            "row_count": 1,
+            "unique_sequence_count": 1,
+            "row_keys": [
+              [
+                "1004",
+                "0",
+                "0"
+              ]
+            ]
+          },
+          {
+            "stem": [
+              "M065"
+            ],
+            "ending": [
+              "M053",
+              "M342"
+            ],
+            "row_count": 1,
+            "unique_sequence_count": 1,
+            "row_keys": [
+              [
+                "1044",
+                "0",
+                "0"
+              ]
+            ]
+          },
+          {
+            "stem": [
+              "M065",
+              "M249"
+            ],
+            "ending": [
+              "M169",
+              "M342"
+            ],
+            "row_count": 1,
+            "unique_sequence_count": 1,
+            "row_keys": [
+              [
+                "1040",
+                "0",
+                "0"
+              ]
+            ]
+          },
+          {
+            "stem": [
+              "M067",
+              "M072"
+            ],
+            "ending": [
+              "M342",
+              "M139"
+            ],
+            "row_count": 1,
+            "unique_sequence_count": 1,
+            "row_keys": [
+              [
+                "1053",
+                "0",
+                "0"
+              ]
+            ]
+          },
+          {
+            "stem": [
+              "M072"
+            ],
+            "ending": [
+              "M327",
+              "M254"
+            ],
+            "row_count": 1,
+            "unique_sequence_count": 1,
+            "row_keys": [
+              [
+                "1075",
+                "0",
+                "0"
+              ]
+            ]
+          },
+          {
+            "stem": [
+              "M076",
+              "M402",
+              "M068"
+            ],
+            "ending": [
+              "M287",
+              "M267"
+            ],
+            "row_count": 1,
+            "unique_sequence_count": 1,
+            "row_keys": [
+              [
+                "1036",
+                "0",
+                "0"
+              ]
+            ]
+          },
+          {
+            "stem": [
+              "M076",
+              "M402",
+              "M087",
+              "M059",
+              "M067",
+              "M336"
+            ],
+            "ending": [
+              "M089",
+              "M211"
+            ],
+            "row_count": 1,
+            "unique_sequence_count": 1,
+            "row_keys": [
+              [
+                "1008",
+                "0",
+                "0"
+              ]
+            ]
+          },
+          {
+            "stem": [
+              "M086"
+            ],
+            "ending": [
+              "M397",
+              "M169"
+            ],
+            "row_count": 1,
+            "unique_sequence_count": 1,
+            "row_keys": [
+              [
+                "1055",
+                "0",
+                "0"
+              ]
+            ]
+          },
+          {
+            "stem": [
+              "M086",
+              "M381",
+              "M099",
+              "M048"
+            ],
+            "ending": [
+              "M008",
+              "M342"
+            ],
+            "row_count": 1,
+            "unique_sequence_count": 1,
+            "row_keys": [
+              [
+                "1028",
+                "0",
+                "0"
+              ]
+            ]
+          },
+          {
+            "stem": [
+              "M087",
+              "M028",
+              "M257",
+              "M099",
+              "M067",
+              "M070",
+              "M336"
+            ],
+            "ending": [
+              "M089",
+              "M211"
+            ],
+            "row_count": 1,
+            "unique_sequence_count": 1,
+            "row_keys": [
+              [
+                "1065",
+                "0",
+                "0"
+              ]
+            ]
+          },
+          {
+            "stem": [
+              "M087",
+              "M197",
+              "M087",
+              "M099",
+              "M336"
+            ],
+            "ending": [
+              "M347",
+              "M342"
+            ],
+            "row_count": 1,
+            "unique_sequence_count": 1,
+            "row_keys": [
+              [
+                "1026",
+                "0",
+                "0"
+              ]
+            ]
+          },
+          {
+            "stem": [
+              "M087",
+              "M244",
+              "M028",
+              "M162",
+              "M099",
+              "M065",
+              "M067",
+              "M087",
+              "M059",
+              "M051",
+              "M130"
+            ],
+            "ending": [
+              "M149",
+              "M342"
+            ],
+            "row_count": 1,
+            "unique_sequence_count": 1,
+            "row_keys": [
+              [
+                "1087",
+                "0",
+                "0"
+              ]
+            ]
+          },
+          {
+            "stem": [
+              "M106",
+              "M178",
+              "M254"
+            ],
+            "ending": [
+              "M099",
+              "M163"
+            ],
+            "row_count": 1,
+            "unique_sequence_count": 1,
+            "row_keys": [
+              [
+                "1051",
+                "0",
+                "0"
+              ]
+            ]
+          },
+          {
+            "stem": [
+              "M150",
+              "M123",
+              "M051",
+              "M130",
+              "M149",
+              "M342",
+              "M150",
+              "M123"
+            ],
+            "ending": [
+              "M387",
+              "M342"
+            ],
+            "row_count": 1,
+            "unique_sequence_count": 1,
+            "row_keys": [
+              [
+                "1012",
+                "0",
+                "1"
+              ]
+            ]
+          },
+          {
+            "stem": [
+              "M150",
+              "M123",
+              "M070"
+            ],
+            "ending": [
+              "M389",
+              "M342"
+            ],
+            "row_count": 1,
+            "unique_sequence_count": 1,
+            "row_keys": [
+              [
+                "1095",
+                "0",
+                "0"
+              ]
+            ]
+          },
+          {
+            "stem": [
+              "M150",
+              "M162",
+              "M100"
+            ],
+            "ending": [
+              "M087",
+              "M060"
+            ],
+            "row_count": 1,
+            "unique_sequence_count": 1,
+            "row_keys": [
+              [
+                "1048",
+                "0",
+                "0"
+              ]
+            ]
+          },
+          {
+            "stem": [
+              "M171",
+              "M059",
+              "M336"
+            ],
+            "ending": [
+              "M089",
+              "M211"
+            ],
+            "row_count": 1,
+            "unique_sequence_count": 1,
+            "row_keys": [
+              [
+                "1068",
+                "0",
+                "0"
+              ]
+            ]
+          },
+          {
+            "stem": [
+              "M197"
+            ],
+            "ending": [
+              "M028",
+              "M054"
+            ],
+            "row_count": 1,
+            "unique_sequence_count": 1,
+            "row_keys": [
+              [
+                "1015",
+                "0",
+                "0"
+              ]
+            ]
+          },
+          {
+            "stem": [
+              "M210",
+              "M086",
+              "M099",
+              "M389",
+              "M060",
+              "M204",
+              "M108"
+            ],
+            "ending": [
+              "M358",
+              "M342"
+            ],
+            "row_count": 1,
+            "unique_sequence_count": 1,
+            "row_keys": [
+              [
+                "1066",
+                "0",
+                "0"
+              ]
+            ]
+          },
+          {
+            "stem": [
+              "M215",
+              "M298",
+              "M009"
+            ],
+            "ending": [
+              "M342",
+              "M001"
+            ],
+            "row_count": 1,
+            "unique_sequence_count": 1,
+            "row_keys": [
+              [
+                "1072",
+                "0",
+                "0"
+              ]
+            ]
+          },
+          {
+            "stem": [
+              "M219",
+              "M381",
+              "M099"
+            ],
+            "ending": [
+              "M109",
+              "M162"
+            ],
+            "row_count": 1,
+            "unique_sequence_count": 1,
+            "row_keys": [
+              [
+                "1035",
+                "0",
+                "0"
+              ]
+            ]
+          },
+          {
+            "stem": [
+              "M223",
+              "M149",
+              "M180",
+              "M099",
+              "M072"
+            ],
+            "ending": [
+              "M219",
+              "M342"
+            ],
+            "row_count": 1,
+            "unique_sequence_count": 1,
+            "row_keys": [
+              [
+                "1033",
+                "0",
+                "0"
+              ]
+            ]
+          },
+          {
+            "stem": [
+              "M233",
+              "M081",
+              "M099",
+              "M389",
+              "M065",
+              "M336",
+              "M089",
+              "M087",
+              "M155"
+            ],
+            "ending": [
+              "M124",
+              "M169"
+            ],
+            "row_count": 1,
+            "unique_sequence_count": 1,
+            "row_keys": [
+              [
+                "1006",
+                "0",
+                "0"
+              ]
+            ]
+          },
+          {
+            "stem": [
+              "M244"
+            ],
+            "ending": [
+              "M017",
+              "M336"
+            ],
+            "row_count": 1,
+            "unique_sequence_count": 1,
+            "row_keys": [
+              [
+                "1038",
+                "0",
+                "0"
+              ]
+            ]
+          },
+          {
+            "stem": [
+              "M249",
+              "M336",
+              "M075"
+            ],
+            "ending": [
+              "M245",
+              "M245"
+            ],
+            "row_count": 1,
+            "unique_sequence_count": 1,
+            "row_keys": [
+              [
+                "1056",
+                "0",
+                "0"
+              ]
+            ]
+          },
+          {
+            "stem": [
+              "M253",
+              "M230",
+              "M089",
+              "M089",
+              "M267",
+              "M099"
+            ],
+            "ending": [
+              "M106",
+              "M169"
+            ],
+            "row_count": 1,
+            "unique_sequence_count": 1,
+            "row_keys": [
+              [
+                "1054",
+                "0",
+                "0"
+              ]
+            ]
+          },
+          {
+            "stem": [
+              "M261",
+              "M371",
+              "M059",
+              "M097"
+            ],
+            "ending": [
+              "M114",
+              "M169"
+            ],
+            "row_count": 1,
+            "unique_sequence_count": 1,
+            "row_keys": [
+              [
+                "1071",
+                "0",
+                "0"
+              ]
+            ]
+          },
+          {
+            "stem": [
+              "M267",
+              "M099"
+            ],
+            "ending": [
+              "M102",
+              "M162"
+            ],
+            "row_count": 1,
+            "unique_sequence_count": 1,
+            "row_keys": [
+              [
+                "1091",
+                "0",
+                "0"
+              ]
+            ]
+          },
+          {
+            "stem": [
+              "M267",
+              "M099"
+            ],
+            "ending": [
+              "M124",
+              "M342"
+            ],
+            "row_count": 1,
+            "unique_sequence_count": 1,
+            "row_keys": [
+              [
+                "1086",
+                "0",
+                "0"
+              ]
+            ]
+          },
+          {
+            "stem": [
+              "M267",
+              "M099",
+              "M067"
+            ],
+            "ending": [
+              "M216",
+              "M254"
+            ],
+            "row_count": 1,
+            "unique_sequence_count": 1,
+            "row_keys": [
+              [
+                "1096",
+                "0",
+                "0"
+              ]
+            ]
+          },
+          {
+            "stem": [
+              "M267",
+              "M099",
+              "M067",
+              "M296",
+              "M009",
+              "M342",
+              "M017"
+            ],
+            "ending": [
+              "M407",
+              "M169"
+            ],
+            "row_count": 1,
+            "unique_sequence_count": 1,
+            "row_keys": [
+              [
+                "1011",
+                "0",
+                "0"
+              ]
+            ]
+          },
+          {
+            "stem": [
+              "M267",
+              "M099",
+              "M087",
+              "M059",
+              "M067"
+            ],
+            "ending": [
+              "M194",
+              "M342"
+            ],
+            "row_count": 1,
+            "unique_sequence_count": 1,
+            "row_keys": [
+              [
+                "1014",
+                "0",
+                "0"
+              ]
+            ]
+          },
+          {
+            "stem": [
+              "M267",
+              "M099",
+              "M104"
+            ],
+            "ending": [
+              "M059",
+              "M211"
+            ],
+            "row_count": 1,
+            "unique_sequence_count": 1,
+            "row_keys": [
+              [
+                "1019",
+                "0",
+                "0"
+              ]
+            ]
+          },
+          {
+            "stem": [
+              "M267",
+              "M099",
+              "M124"
+            ],
+            "ending": [
+              "M025",
+              "M342"
+            ],
+            "row_count": 1,
+            "unique_sequence_count": 1,
+            "row_keys": [
+              [
+                "1078",
+                "0",
+                "0"
+              ]
+            ]
+          },
+          {
+            "stem": [
+              "M267",
+              "M099",
+              "M153",
+              "M153",
+              "M171"
+            ],
+            "ending": [
+              "M059",
+              "M211"
+            ],
+            "row_count": 1,
+            "unique_sequence_count": 1,
+            "row_keys": [
+              [
+                "1032",
+                "0",
+                "0"
+              ]
+            ]
+          },
+          {
+            "stem": [
+              "M267",
+              "M099",
+              "M171",
+              "M059",
+              "M336"
+            ],
+            "ending": [
+              "M089",
+              "M211"
+            ],
+            "row_count": 1,
+            "unique_sequence_count": 1,
+            "row_keys": [
+              [
+                "1094",
+                "0",
+                "0"
+              ]
+            ]
+          },
+          {
+            "stem": [
+              "M267",
+              "M099",
+              "M204"
+            ],
+            "ending": [
+              "M367",
+              "M342"
+            ],
+            "row_count": 1,
+            "unique_sequence_count": 1,
+            "row_keys": [
+              [
+                "1022",
+                "0",
+                "0"
+              ]
+            ]
+          },
+          {
+            "stem": [
+              "M267",
+              "M099",
+              "M387",
+              "M067"
+            ],
+            "ending": [
+              "M406",
+              "M162"
+            ],
+            "row_count": 1,
+            "unique_sequence_count": 1,
+            "row_keys": [
+              [
+                "1080",
+                "0",
+                "0"
+              ]
+            ]
+          },
+          {
+            "stem": [
+              "M293",
+              "M123",
+              "M343",
+              "M072",
+              "M065"
+            ],
+            "ending": [
+              "M008",
+              "M342"
+            ],
+            "row_count": 1,
+            "unique_sequence_count": 1,
+            "row_keys": [
+              [
+                "1024",
+                "0",
+                "0"
+              ]
+            ]
+          },
+          {
+            "stem": [
+              "M293",
+              "M123",
+              "M343",
+              "M102"
+            ],
+            "ending": [
+              "M059",
+              "M211"
+            ],
+            "row_count": 1,
+            "unique_sequence_count": 1,
+            "row_keys": [
+              [
+                "1041",
+                "0",
+                "0"
+              ]
+            ]
+          },
+          {
+            "stem": [
+              "M293",
+              "M123",
+              "M344"
+            ],
+            "ending": [
+              "M102",
+              "M402"
+            ],
+            "row_count": 1,
+            "unique_sequence_count": 1,
+            "row_keys": [
+              [
+                "1029",
+                "0",
+                "0"
+              ]
+            ]
+          },
+          {
+            "stem": [
+              "M293",
+              "M123",
+              "M345",
+              "M065",
+              "M067",
+              "M051",
+              "M130"
+            ],
+            "ending": [
+              "M149",
+              "M342"
+            ],
+            "row_count": 1,
+            "unique_sequence_count": 1,
+            "row_keys": [
+              [
+                "1021",
+                "0",
+                "0"
+              ]
+            ]
+          },
+          {
+            "stem": [
+              "M311"
+            ],
+            "ending": [
+              "M211",
+              "M176"
+            ],
+            "row_count": 1,
+            "unique_sequence_count": 1,
+            "row_keys": [
+              [
+                "1046",
+                "0",
+                "0"
+              ]
+            ]
+          },
+          {
+            "stem": [
+              "M336",
+              "M089",
+              "M211",
+              "M097"
+            ],
+            "ending": [
+              "M086",
+              "M015"
+            ],
+            "row_count": 1,
+            "unique_sequence_count": 1,
+            "row_keys": [
+              [
+                "1030",
+                "0",
+                "0"
+              ]
+            ]
+          },
+          {
+            "stem": [
+              "M342"
+            ],
+            "ending": [
+              "M082",
+              "M342"
+            ],
+            "row_count": 1,
+            "unique_sequence_count": 1,
+            "row_keys": [
+              [
+                "1093",
+                "0",
+                "2"
+              ]
+            ]
+          },
+          {
+            "stem": [
+              "M345"
+            ],
+            "ending": [
+              "M028",
+              "M176"
+            ],
+            "row_count": 1,
+            "unique_sequence_count": 1,
+            "row_keys": [
+              [
+                "1070",
+                "0",
+                "0"
+              ]
+            ]
+          },
+          {
+            "stem": [
+              "M387",
+              "M206",
+              "M252",
+              "M099",
+              "M067",
+              "M375",
+              "M051",
+              "M155"
+            ],
+            "ending": [
+              "M347",
+              "M342"
+            ],
+            "row_count": 1,
+            "unique_sequence_count": 1,
+            "row_keys": [
+              [
+                "1049",
+                "0",
+                "0"
+              ]
+            ]
+          },
+          {
+            "stem": [
+              "M391",
+              "M098"
+            ],
+            "ending": [
+              "M336",
+              "M162"
+            ],
+            "row_count": 1,
+            "unique_sequence_count": 1,
+            "row_keys": [
+              [
+                "1061",
+                "0",
+                "0"
+              ]
+            ]
+          },
+          {
+            "stem": [
+              "M391",
+              "M099"
+            ],
+            "ending": [
+              "M104",
+              "M162"
+            ],
+            "row_count": 1,
+            "unique_sequence_count": 1,
+            "row_keys": [
+              [
+                "1076",
+                "0",
+                "0"
+              ]
+            ]
+          },
+          {
+            "stem": [
+              "M391",
+              "M099"
+            ],
+            "ending": [
+              "M289",
+              "M342"
+            ],
+            "row_count": 1,
+            "unique_sequence_count": 1,
+            "row_keys": [
+              [
+                "1074",
+                "0",
+                "0"
+              ]
+            ]
+          },
+          {
+            "stem": [
+              "M391",
+              "M099",
+              "M048",
+              "M171"
+            ],
+            "ending": [
+              "M008",
+              "M342"
+            ],
+            "row_count": 1,
+            "unique_sequence_count": 1,
+            "row_keys": [
+              [
+                "1010",
+                "0",
+                "0"
+              ]
+            ]
+          },
+          {
+            "stem": [
+              "M391",
+              "M099",
+              "M087",
+              "M059",
+              "M067"
+            ],
+            "ending": [
+              "M121",
+              "M014"
+            ],
+            "row_count": 1,
+            "unique_sequence_count": 1,
+            "row_keys": [
+              [
+                "1079",
+                "0",
+                "0"
+              ]
+            ]
+          },
+          {
+            "stem": [
+              "M391",
+              "M099",
+              "M387",
+              "M067"
+            ],
+            "ending": [
+              "M059",
+              "M211"
+            ],
+            "row_count": 1,
+            "unique_sequence_count": 1,
+            "row_keys": [
+              [
+                "1088",
+                "0",
+                "0"
+              ]
+            ]
+          },
+          {
+            "stem": [
+              "M397",
+              "M051",
+              "M267"
+            ],
+            "ending": [
+              "M402",
+              "M098"
+            ],
+            "row_count": 1,
+            "unique_sequence_count": 1,
+            "row_keys": [
+              [
+                "1067",
+                "0",
+                "0"
+              ]
+            ]
+          },
+          {
+            "stem": [
+              "M400",
+              "M396",
+              "M169",
+              "M099",
+              "M048"
+            ],
+            "ending": [
+              "M193",
+              "M342"
+            ],
+            "row_count": 1,
+            "unique_sequence_count": 1,
+            "row_keys": [
+              [
+                "1058",
+                "0",
+                "0"
+              ]
+            ]
+          },
+          {
+            "stem": [
+              "M409",
+              "M096"
+            ],
+            "ending": [
+              "M019",
+              "M391"
+            ],
+            "row_count": 1,
+            "unique_sequence_count": 1,
+            "row_keys": [
+              [
+                "1037",
+                "0",
+                "0"
+              ]
+            ]
+          },
+          {
+            "stem": [
+              "M409",
+              "M096",
+              "M019",
+              "M099",
+              "M171"
+            ],
+            "ending": [
+              "M008",
+              "M342"
+            ],
+            "row_count": 1,
+            "unique_sequence_count": 1,
+            "row_keys": [
+              [
+                "1050",
+                "0",
+                "0"
+              ]
+            ]
+          }
+        ]
+      },
+      "row_slot_permutation": {
+        "seed": 20261012,
+        "replicates": 999,
+        "observed_four_cycles": 0,
+        "slots": 67,
+        "slots_in_strata_with_multiple_endings": 65,
+        "null_scores": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "null_min": 0,
+        "null_max": 0,
+        "null_mean": 0.0,
+        "sampled_score_is_constant": true,
+        "raw_greater_or_equal_count": 999,
+        "raw_greater_or_equal_fraction": 1.0,
+        "raw_strictly_greater_count": 0,
+        "interpretation": "Exploratory conditional exceedance; not a calibrated morphology test or multiple-testing-adjusted significance claim."
+      },
+      "unique_sequence_slot_permutation": {
+        "seed": 20261012,
+        "replicates": 999,
+        "observed_four_cycles": 0,
+        "slots": 67,
+        "slots_in_strata_with_multiple_endings": 65,
+        "null_scores": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "null_min": 0,
+        "null_max": 0,
+        "null_mean": 0.0,
+        "sampled_score_is_constant": true,
+        "raw_greater_or_equal_count": 999,
+        "raw_greater_or_equal_fraction": 1.0,
+        "raw_strictly_greater_count": 0,
+        "interpretation": "Exploratory conditional exceedance; not a calibrated morphology test or multiple-testing-adjusted significance claim."
+      }
+    }
+  },
+  "examples": {
+    "invented_grammar": {
+      "ending_length": 1,
+      "eligible_rows": 4,
+      "unique_sequences": 4,
+      "stems": 2,
+      "endings": 2,
+      "stems_with_multiple_endings": 2,
+      "shared_ending_pairs": 1,
+      "four_cycles": 1,
+      "row_witness_combinations": 1,
+      "pairs": [
+        {
+          "ending_pair": [
+            [
+              "CASE_X"
+            ],
+            [
+              "CASE_Y"
+            ]
+          ],
+          "shared_stems": [
+            [
+              "ROOT_A"
+            ],
+            [
+              "ROOT_B"
+            ]
+          ],
+          "four_cycles": 1,
+          "row_witness_combinations": 1
+        }
+      ],
+      "edges": [
+        {
+          "stem": [
+            "ROOT_A"
+          ],
+          "ending": [
+            "CASE_X"
+          ],
+          "row_count": 1,
+          "unique_sequence_count": 1
+        },
+        {
+          "stem": [
+            "ROOT_A"
+          ],
+          "ending": [
+            "CASE_Y"
+          ],
+          "row_count": 1,
+          "unique_sequence_count": 1
+        },
+        {
+          "stem": [
+            "ROOT_B"
+          ],
+          "ending": [
+            "CASE_X"
+          ],
+          "row_count": 1,
+          "unique_sequence_count": 1
+        },
+        {
+          "stem": [
+            "ROOT_B"
+          ],
+          "ending": [
+            "CASE_Y"
+          ],
+          "row_count": 1,
+          "unique_sequence_count": 1
+        }
+      ]
+    },
+    "invented_fixed_labels": {
+      "ending_length": 1,
+      "eligible_rows": 4,
+      "unique_sequences": 4,
+      "stems": 2,
+      "endings": 2,
+      "stems_with_multiple_endings": 2,
+      "shared_ending_pairs": 1,
+      "four_cycles": 1,
+      "row_witness_combinations": 1,
+      "pairs": [
+        {
+          "ending_pair": [
+            [
+              "PRODUCT_X"
+            ],
+            [
+              "PRODUCT_Y"
+            ]
+          ],
+          "shared_stems": [
+            [
+              "OFFICE_A"
+            ],
+            [
+              "OFFICE_B"
+            ]
+          ],
+          "four_cycles": 1,
+          "row_witness_combinations": 1
+        }
+      ],
+      "edges": [
+        {
+          "stem": [
+            "OFFICE_A"
+          ],
+          "ending": [
+            "PRODUCT_X"
+          ],
+          "row_count": 1,
+          "unique_sequence_count": 1
+        },
+        {
+          "stem": [
+            "OFFICE_A"
+          ],
+          "ending": [
+            "PRODUCT_Y"
+          ],
+          "row_count": 1,
+          "unique_sequence_count": 1
+        },
+        {
+          "stem": [
+            "OFFICE_B"
+          ],
+          "ending": [
+            "PRODUCT_X"
+          ],
+          "row_count": 1,
+          "unique_sequence_count": 1
+        },
+        {
+          "stem": [
+            "OFFICE_B"
+          ],
+          "ending": [
+            "PRODUCT_Y"
+          ],
+          "row_count": 1,
+          "unique_sequence_count": 1
+        }
+      ]
+    },
+    "interpretation": "Both invented generative stories give the same rectangle. Tokens do not identify which story generated the data."
+  },
+  "assumptions": [
+    "Sequences are preserved exactly in stored normalized RTL order; no extra reversal or concatenation of lines.",
+    "Terminal means last stored token(s), not an independently established linguistic suffix.",
+    "Units are whole printed lines without established word boundaries; this narrow screen does not implement linked penultimate/final alternations or infer syllabic grids.",
+    "Each fixed ending length leaves a nonempty exact stem; no sign-family pooling, internal deletions, or flexible boundaries.",
+    "Permutations preserve stem slots, full lengths and within-length ending-block multiplicities. They do not preserve stem-ending association, unique output count, archaeological dependencies or metadata strata.",
+    "The unique-sequence baseline starts with one slot per distinct input sequence; shuffled collisions may reduce distinct output count.",
+    "Row-witness combinations are combinatorial counts, not independent artifacts."
+  ],
+  "limitations": [
+    "Small consecutive printed-page sample, not representative corpus evidence.",
+    "Doubt, UNKNOWN, LOSS and reviewer uncertainty are excluded, potentially selecting easier or shorter records.",
+    "A four-cycle is compatible with morphology, administrative label combinations, and other formulaic systems.",
+    "Two ending lengths and two permutation bases are exploratory comparisons; no corrected significance claim.",
+    "No observed rectangle is not evidence against language or morphology in this sparse exact-match sample.",
+    "Exact whole-line prefixes can miss changing stem forms and alternations within internal word boundaries.",
+    "Verification concerns M77 printed-transcription fidelity, not object-photograph identification or decipherment."
+  ],
+  "source": {
+    "path": "data/processed/m77_verified/corpus_v3.json",
+    "sha256": "30008fc9d59c2ae81faa23d0b8ab67dc64d8f4d302588a2190853944fc2031c4"
+  },
+  "script_sha256": "c308d718d0185e794c409dd5e52bd646e0f96e526fa5848ed53061c4a2af60e1"
+}

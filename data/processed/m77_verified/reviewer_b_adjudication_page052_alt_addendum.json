@@ -1,0 +1,91 @@
+{
+  "status": "alternative primary scan resolves preceding raster ambiguity",
+  "reviewer": "B",
+  "reference": "1083",
+  "side": "0",
+  "line": "0",
+  "position_from_right": 2,
+  "superseded_recommendation": {
+    "path": "data/processed/m77_verified/reviewer_b_adjudication_page052.json",
+    "sha256": "2dcc8e8b7a70551fd35f4be08cb9b26a127c768150eae86d2b2afe21ec41d8fb",
+    "historical_result": "UNKNOWN{M054,M055} on blurrier scan remains preserved"
+  },
+  "alternative_locator": {
+    "source": "data/raw/mahadevan_alternative_scan.pdf",
+    "pdf_page_1based": 53,
+    "printed_page": 41,
+    "render": "results/primary_pages/m77-v3-alt-53.png",
+    "render_dimensions": [
+      4244,
+      6000
+    ],
+    "authentication": "Full page visibly headed MOHENJODARO, printed41 at foot, includes1066\u20131096 and labeled1083 row100101."
+  },
+  "recommendation": {
+    "complete_normalized_RTL_tokens": [
+      "M054",
+      "M054",
+      "M342"
+    ],
+    "source_doubt": false,
+    "disputed_position_reviewer_uncertainty": false
+  },
+  "reason": "Both K-like forms in clearer alternative scan have fully visible empty central ovals. The disputed left-on-page glyph lacks M055 interior short vertical, matching primary Sign List M054. Prior shadow/edge ambiguity does not survive this source view.",
+  "crop_boxes_native_render_pixels": {
+    "results/primary_pages/m77-v3-alt-1083-glyphs.png": [
+      2900,
+      2860,
+      3240,
+      3025
+    ],
+    "results/primary_pages/m77-v3-alt-1083-row.png": [
+      570,
+      2860,
+      3240,
+      3025
+    ],
+    "results/primary_pages/m77-v3-alt-page-number.png": [
+      1810,
+      5330,
+      2000,
+      5500
+    ]
+  },
+  "crop_identity_check": "Exact native-pixel equality checked for each saved crop",
+  "evidence_pins": [
+    {
+      "path": "data/raw/mahadevan_alternative_scan.pdf",
+      "sha256": "ef68fe8dc25e94fe9cb75b418c5189a084383e72498560ef393372e90a27e110"
+    },
+    {
+      "path": "results/primary_pages/m77-v3-alt-53.png",
+      "sha256": "0946a25aea349e4bfbf17417b11a71650abe9ee73712435e0bff52e9ef4869be"
+    },
+    {
+      "path": "results/primary_pages/m77-v3-alt-1083-glyphs.png",
+      "sha256": "7747ae902aa6ce4aa4ee785ec14c32b7fb130154dab68f1beb1b152b03d9f602"
+    },
+    {
+      "path": "results/primary_pages/m77-v3-alt-1083-row.png",
+      "sha256": "ecf8833578b91913e43cc7ad877a6b18e17c581032cb82bfa92453165be418b4"
+    },
+    {
+      "path": "results/primary_pages/m77-v3-alt-page-number.png",
+      "sha256": "e621e54cd8bdc46407674ce9c47e9f41b8589d71cf59d0aea65ec90acdf3edf9"
+    },
+    {
+      "path": "results/primary_pages/m77-v1-reviewerB-adjudicate-054.png",
+      "sha256": "c4282b0a0cbc54fa955cb6369e2cffc1210c910d9476b4cd2094961506f1e00b"
+    },
+    {
+      "path": "results/primary_pages/m77-v1-reviewerB-adjudicate-055.png",
+      "sha256": "4275daaf9b34c0e33a2c823afa270ee207d633af09aa2b91bf0f9c372ecc7730"
+    }
+  ],
+  "limits": [
+    "Same printed edition, not independent ancient inscription evidence.",
+    "No claim that all alternative scan glyphs are more accurate or automatically replace the main scan.",
+    "Original frozen B candidate and earlier adjudication remain unchanged.",
+    "No new download; existing alternate source inspected."
+  ]
+}

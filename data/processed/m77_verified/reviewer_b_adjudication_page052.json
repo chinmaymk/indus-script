@@ -1,0 +1,56 @@
+{
+  "status": "post-comparison recommendation; not a replacement transcription",
+  "reviewer": "B",
+  "original_submission": {
+    "path": "data/processed/m77_verified/reviewer_b_page052.json",
+    "sha256": "bcfb636bbbc27110c7277943ccf895cf72472f440b6a3514530de91fec5f4eba"
+  },
+  "reference": "1083",
+  "side": "0",
+  "line": "0",
+  "position_from_right": 2,
+  "recommendation": "UNKNOWN with candidate signs M054 and M055, unless another primary view distinguishes the interior stroke",
+  "candidate_signs": [
+    "M054",
+    "M055"
+  ],
+  "minimum_signs": 1,
+  "maximum_signs": 1,
+  "source_doubt": false,
+  "reason": "Primary sign055 has a distinct short vertical within the oval;054 has an empty oval. Enlarged native crops show a narrower irregular pale interior in the disputed left-on-page glyph than in the right glyph, but do not reliably separate a freestanding inner short stroke from thickened oval edge and scan pixels. B original055 is not secure. A054 remains plausible; agreement should not be forced from the lack of a resolved mark. The printed source itself does not put a doubt marker on this glyph.",
+  "evidence_pins": [
+    {
+      "path": "results/primary_pages/m77-v3-reviewerB-adjudicate-1083-leftK.png",
+      "sha256": "67f4a5170e1c5399c4048baf3f3834b4e920eeb8ff915156f5012fb1c5eb2ba0"
+    },
+    {
+      "path": "results/primary_pages/m77-v3-reviewerB-adjudicate-1083-rightK.png",
+      "sha256": "8b0764fb3cb7f79cf6624569b268a712a3c303631d5001bd3ed9e7f4d9aa6a84"
+    },
+    {
+      "path": "results/primary_pages/m77-v3-reviewerB-adjudicate-1083-pair.png",
+      "sha256": "4c49a6e2bf744851577e469ef634517b7d83a4c9bba11426673714902b5c7fd9"
+    },
+    {
+      "path": "results/primary_pages/m77-v1-reviewerB-adjudicate-054.png",
+      "sha256": "c4282b0a0cbc54fa955cb6369e2cffc1210c910d9476b4cd2094961506f1e00b"
+    },
+    {
+      "path": "results/primary_pages/m77-v1-reviewerB-adjudicate-055.png",
+      "sha256": "4275daaf9b34c0e33a2c823afa270ee207d633af09aa2b91bf0f9c372ecc7730"
+    },
+    {
+      "path": "results/primary_pages/m77-v3-reviewerB-52.png",
+      "sha256": "6bd45d598ee067961071c6ec1e7c89846ea63edbc2058970eea6a82d320ae85c"
+    },
+    {
+      "path": "results/primary_pages/m77-v1-reviewerB-43.png",
+      "sha256": "22ca809ca590447e58566b9033c0be8dcc1801676d4cb6239e2f1fca2ef37f26"
+    }
+  ],
+  "limitations": [
+    "No secondary transcription used as arbiter.",
+    "Crops are native pixels from the6000-long-edge render, not new independent source images.",
+    "Frozen candidate unchanged."
+  ]
+}
