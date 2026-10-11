@@ -1,0 +1,77 @@
+{
+  "review_date": "2026-09-24",
+  "evidence_files": [
+    {
+      "path": "data/raw/umma_old_parpola_1994.pdf",
+      "bytes": 18998517,
+      "sha256": "fd133822f9999c86178a32208465e847c5288b578ad14ca2cd643efe57f0e0b6"
+    },
+    {
+      "path": "data/raw/bahrain_laursen_web_capture.json",
+      "bytes": 2704,
+      "sha256": "f057ee410cd419fe0f22acdd39ea6cb77dc5514d85dbb17e6ee7eaff6c584e51"
+    },
+    {
+      "path": "results/primary_pages/bahrain_parpola-29.png",
+      "bytes": 299557,
+      "sha256": "4ef3e372e8b7d6d08b50b60a4cce3c747e11fd3bf61d0fb7ec31b911808b88c5"
+    },
+    {
+      "path": "results/primary_pages/yale-parpola-148.png",
+      "bytes": 228990,
+      "sha256": "02af76c5ac3b228989c2ff423de5e1056a1980d67179d88f0033cda488b3bba1"
+    },
+    {
+      "path": "data/processed/bahrain_parent_parpola_text.txt",
+      "bytes": 10682,
+      "sha256": "1544f8be70ca7c8c275af733627913a971394b70e18642fa2452b7e0de9ac3d1"
+    },
+    {
+      "path": "data/raw/bahrain_2026_first_page.png",
+      "bytes": 114671,
+      "sha256": "8b7cf3b64bcaa18a924d299b323a5afa3daee34e5ba075b14dab963ef0a62d3f"
+    }
+  ],
+  "visual_checks": [
+    {
+      "path": "results/primary_pages/bahrain_parpola-29.png",
+      "printed_page": 11,
+      "result": "Bahrain association and palaeographic date visible; adjacent Fig1.7 explicitly LothalL123."
+    },
+    {
+      "path": "results/primary_pages/yale-parpola-148.png",
+      "printed_page": 130,
+      "result": "Reviewed in immediately preceding Yale phase; reused only for separate Bahrain association."
+    },
+    {
+      "path": "data/raw/bahrain_2026_first_page.png",
+      "printed_page": 115,
+      "result": "Parent independently confirms first-page preview lacks token photographs; AlMaqsha introduction continues next page."
+    }
+  ],
+  "laursen_2010_full_pdf_downloaded": false,
+  "laursen_table_visually_checked": false,
+  "crosswalk": [
+    {
+      "laursen_2010": 6,
+      "kjaerum_1994_figure": 1726,
+      "site": "Qalaat al-Bahrain"
+    },
+    {
+      "laursen_2010": 7,
+      "kjaerum_1994_figure": 1725,
+      "alsindi_1999": 279,
+      "site": "Qalaat al-Bahrain"
+    },
+    {
+      "laursen_2010": 13,
+      "kjaerum_1983": 279,
+      "site": "Failaka"
+    }
+  ],
+  "nearest_seal_to_old_tablet": null,
+  "authenticated_indus_name_alignment": null,
+  "new_semantic_values": 0,
+  "new_phonetic_values": 0,
+  "scope": "Catalogue identifiers from bounded web extraction, not object autopsy; no cross-catalogue279 conflation."
+}

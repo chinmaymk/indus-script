@@ -1,0 +1,187 @@
+{
+  "status": "Bounded visual check of two catalogue transcriptions; no translation or foreign manufacture inferred",
+  "primary_source": {
+    "path": "data/raw/mahadevan_1977_text.pdf",
+    "sha256": "6dcdd074a0174e5fab149590fbbf82342711d345764e9763f8e5e92c81cf7f99"
+  },
+  "inputs": [
+    {
+      "path": "data/processed/m77_candidate_records.jsonl",
+      "sha256": "b29a176da86b125115256a8966c377c3fd9fe39ecaab17bf576b770b83b41bab",
+      "bytes": 4109921
+    },
+    {
+      "path": "data/raw/glossa_canonical_objects.jsonl",
+      "sha256": "e24f42a95ee4cc1fdb16c789c3edfb937993ed7c82223d6daa96d66895174ae5",
+      "bytes": 22391887
+    }
+  ],
+  "reviewed_pages": [
+    {
+      "pdf_page": 171,
+      "printed_page": 160,
+      "purpose": "Complete Texts rows 9801 and 9822, enlarged in memory"
+    },
+    {
+      "pdf_page": 43,
+      "printed_page": 32,
+      "purpose": "Labelled sign list including numeral and fish distinctions"
+    },
+    {
+      "pdf_page": 44,
+      "printed_page": 33,
+      "purpose": "Labelled sign list"
+    },
+    {
+      "pdf_page": 45,
+      "printed_page": 34,
+      "purpose": "Labelled sign list"
+    },
+    {
+      "pdf_page": 46,
+      "printed_page": 35,
+      "purpose": "Labelled sign list"
+    },
+    {
+      "pdf_page": 357,
+      "printed_page": 346,
+      "purpose": "Three-short-stroke concordance index, 9822 last indexed row"
+    },
+    {
+      "pdf_page": 358,
+      "printed_page": 347,
+      "purpose": "Continuation of same short-stroke index; visual short/long stroke comparison, no additional 9822 witness"
+    }
+  ],
+  "rows": [
+    {
+      "reference": "9801",
+      "candidate_id": "GLI-IND-M77-09801",
+      "pdf_page": 171,
+      "printed_page": 160,
+      "side": "0",
+      "line": "0",
+      "direction_code": "2",
+      "object_code": "1",
+      "diplomatic": "+173-010-097-121-185-097-297-057+",
+      "tokens": [
+        "M173",
+        "M010",
+        "M097",
+        "M121",
+        "M185",
+        "M097",
+        "M297",
+        "M057"
+      ],
+      "observations_in_normalized_reading_order": [
+        {
+          "sign": "M173",
+          "shape": "double comb"
+        },
+        {
+          "sign": "M010",
+          "shape": "human-shaped sign"
+        },
+        {
+          "sign": "M097",
+          "shape": "single short stroke, upper part of line"
+        },
+        {
+          "sign": "M121",
+          "shape": "twelve short strokes in three rows of four"
+        },
+        {
+          "sign": "M185",
+          "shape": "grid-like sign with three long vertical strokes and two horizontal bars"
+        },
+        {
+          "sign": "M097",
+          "shape": "single short stroke, upper part of line"
+        },
+        {
+          "sign": "M297",
+          "shape": "segmented crescent"
+        },
+        {
+          "sign": "M057",
+          "shape": "complex fish-shaped sign with paired lateral appendages"
+        }
+      ],
+      "candidate_sequence_matches_visual_review": true,
+      "primary_doubt_mark": false,
+      "primary_lost_passage": false,
+      "assessment": "All eight proposed IDs supported by displayed glyphs and labelled sign forms. Two separately positioned short strokes retained.",
+      "uncertainty": "Review authenticates the catalogue drawing, not the original artifact or fidelity of the 1977 drawing."
+    },
+    {
+      "reference": "9822",
+      "candidate_id": "GLI-IND-M77-09822",
+      "pdf_page": 171,
+      "printed_page": 160,
+      "side": "0",
+      "line": "0",
+      "direction_code": "1",
+      "object_code": "1",
+      "diplomatic": "+173-403-123-102-059-249-162-342+",
+      "tokens": [
+        "M173",
+        "M403",
+        "M123",
+        "M102",
+        "M059",
+        "M249",
+        "M162",
+        "M342"
+      ],
+      "observations_in_normalized_reading_order": [
+        {
+          "sign": "M173",
+          "shape": "double comb"
+        },
+        {
+          "sign": "M403",
+          "shape": "two overlapping oval forms"
+        },
+        {
+          "sign": "M123",
+          "shape": "curved short-mark form"
+        },
+        {
+          "sign": "M102",
+          "shape": "three short parallel strokes"
+        },
+        {
+          "sign": "M059",
+          "shape": "plain fish-shaped sign"
+        },
+        {
+          "sign": "M249",
+          "shape": "square on stem"
+        },
+        {
+          "sign": "M162",
+          "shape": "fork-shaped sign"
+        },
+        {
+          "sign": "M342",
+          "shape": "modified U-shaped sign"
+        }
+      ],
+      "candidate_sequence_matches_visual_review": true,
+      "primary_doubt_mark": false,
+      "primary_lost_passage": false,
+      "assessment": "All eight proposed IDs supported. M102 was initially checked against long-triple M089; short form on the labelled sign list and the short-triple concordance entry at PDF357 support M102.",
+      "uncertainty": "Relative glyph height alone could be ambiguous; concordance indexing supplies additional catalogue evidence. Review is not a new artifact photograph."
+    }
+  ],
+  "order": "Sequences read right to left in the normalized printed Texts layout. M9801 metadata direction 2 describes original seal-impression direction and does not warrant reversal of the normalized exported array.",
+  "limitations": [
+    "Two selected entries, not an estimate of transcription accuracy across all foreign or domestic texts.",
+    "Concordance and sign list are internal primary-catalogue cross-checks, not independent archaeological observations.",
+    "No original photographs or underlying excavation publications were newly examined.",
+    "No linguistic reading, quantity meaning, manufacturer, or cultural identity inferred."
+  ],
+  "downloads": [],
+  "rendering": "Existing sign-list images viewed; relevant Texts and concordance pages rendered to stdout and reviewed in memory during storage shortage. No new renders saved."
+}

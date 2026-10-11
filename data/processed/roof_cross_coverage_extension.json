@@ -1,0 +1,359 @@
+{
+  "date": "2026-09-27",
+  "status": "two_primary_M138_occurrences_with_complete_fields_and_photographic_identity_authenticated",
+  "semantic_values": null,
+  "phonetic_values": null,
+  "scope": "M77 refs3319/3320; no universal W678 mapping",
+  "records": [
+    {
+      "reference": "3319",
+      "site": "Mohenjo-daro",
+      "object_type_code": 5,
+      "object_type": "copper tablet",
+      "appendix": {
+        "pdf_page": 829,
+        "printed_page": 820,
+        "excavation": "DK4067",
+        "museum": "ASI63.10.271"
+      },
+      "cisi": {
+        "object": "M510",
+        "metadata_pdf_page": 405,
+        "metadata_printed_page": 369,
+        "photo_pdf_page": 164,
+        "photo_printed_page": 128,
+        "photograph_source": "HU264",
+        "join_keys": [
+          "excavation",
+          "museum"
+        ],
+        "Finnish_number_used": false
+      },
+      "exact_secondary_export_diplomatic": "+000-342-067-138+",
+      "export_doc_count": 2,
+      "asterisk_in_export": false,
+      "fields": [
+        {
+          "field_id": "3319:1:0",
+          "literal_metadata": "510001",
+          "side": 1,
+          "field": "00",
+          "line": 0,
+          "direction": 1,
+          "tokens": [
+            "M287",
+            "M319"
+          ],
+          "unknown_span": false,
+          "photograph_view": "M510B",
+          "omitted_from_flat_export": true
+        },
+        {
+          "field_id": "3319:2:0",
+          "literal_metadata": "20001",
+          "side": 2,
+          "field": "00",
+          "line": 0,
+          "direction": 1,
+          "tokens": [
+            null,
+            "M342",
+            "M067",
+            "M138"
+          ],
+          "unknown_span": true,
+          "unknown_span_original_length": null,
+          "photograph_view": "M510A",
+          "omitted_from_flat_export": false
+        }
+      ],
+      "M138_primary_normalized_confirmed": true,
+      "M138_exact_photo_strokes_independently_certified": false,
+      "photo_broad_layout_compatible": true,
+      "photo_views": 2,
+      "catalogued_physical_objects": 1,
+      "preservation": {
+        "large_missing_chunk_identified": false,
+        "surface": "scratched/mottled with weak strokes",
+        "reading_loss": "unknown span retained",
+        "fracture_not_inferred_from_reading_loss": true
+      },
+      "exact_find_depth": null,
+      "room_or_trench": null,
+      "W678_mapping_established": false
+    },
+    {
+      "reference": "3320",
+      "site": "Mohenjo-daro",
+      "object_type_code": 5,
+      "object_type": "copper tablet",
+      "appendix": {
+        "pdf_page": 829,
+        "printed_page": 820,
+        "excavation": "DK4069",
+        "museum": "ASI63.10.270"
+      },
+      "cisi": {
+        "object": "M509",
+        "metadata_pdf_page": 405,
+        "metadata_printed_page": 369,
+        "photo_pdf_page": 164,
+        "photo_printed_page": 128,
+        "photograph_source": "HU263",
+        "join_keys": [
+          "excavation",
+          "museum"
+        ],
+        "Finnish_number_used": false
+      },
+      "exact_secondary_export_diplomatic": "+201-099-048-342-067-138+",
+      "export_doc_count": 2,
+      "asterisk_in_export": false,
+      "fields": [
+        {
+          "field_id": "3320:1:0",
+          "literal_metadata": "510001",
+          "side": 1,
+          "field": "00",
+          "line": 0,
+          "direction": 1,
+          "tokens": [
+            "M287",
+            "M319"
+          ],
+          "unknown_span": false,
+          "photograph_view": "M509B",
+          "omitted_from_flat_export": true
+        },
+        {
+          "field_id": "3320:2:0",
+          "literal_metadata": "20001",
+          "side": 2,
+          "field": "00",
+          "line": 0,
+          "direction": 1,
+          "tokens": [
+            "M201",
+            "M099",
+            "M048",
+            "M342",
+            "M067",
+            "M138"
+          ],
+          "unknown_span": false,
+          "unknown_span_original_length": null,
+          "photograph_view": "M509A",
+          "omitted_from_flat_export": false
+        }
+      ],
+      "M138_primary_normalized_confirmed": true,
+      "M138_exact_photo_strokes_independently_certified": false,
+      "photo_broad_layout_compatible": true,
+      "photo_views": 2,
+      "catalogued_physical_objects": 1,
+      "preservation": {
+        "large_missing_chunk_identified": false,
+        "surface": "scratched/mottled with weak strokes",
+        "reading_loss": "no unknown span printed by M77",
+        "fracture_not_inferred_from_reading_loss": true
+      },
+      "exact_find_depth": null,
+      "room_or_trench": null,
+      "W678_mapping_established": false
+    }
+  ],
+  "failure_log": [
+    {
+      "attempt": "CISI1 text-layer photo locator",
+      "result": "No useful hit; exact plate found through nearby retained pages."
+    },
+    {
+      "attempt": "Complete exact stroke transcription from photos",
+      "result": "Not certified due weak/scratched surfaces; normalized primary drawing and photo observations kept separate."
+    },
+    {
+      "attempt": "Resolve3319 hatched span from3320 similarity",
+      "result": "Not attempted as a restoration; span remains unknown."
+    }
+  ],
+  "pending_source_registry": "data/processed/roof_cross_extension_new_sources.json",
+  "crop_manifest": "data/processed/roof_cross_extension_crop_manifest.json",
+  "evidence_files": [
+    {
+      "path": "data/processed/m77_candidate_records.jsonl",
+      "bytes": 4109921,
+      "sha256": "b29a176da86b125115256a8966c377c3fd9fe39ecaab17bf576b770b83b41bab"
+    },
+    {
+      "path": "data/processed/m77_codebook_review.json",
+      "bytes": 10709,
+      "sha256": "2d88405d6ce077afbd670fb11800fbb717dff03e98581b4a2c19f10b60ee9ea8"
+    },
+    {
+      "path": "data/processed/roof_cross_extension_crop_manifest.json",
+      "bytes": 3508,
+      "sha256": "f4440ce2c19964893d266fd90fcf1411244f48f07992f1134fe9d3166427a058"
+    },
+    {
+      "path": "data/processed/roof_cross_extension_new_sources.json",
+      "bytes": 111,
+      "sha256": "fac4054ce78e4897360b5730e76ebbbb0c419e64a769c7a77d2b5adf750c6026"
+    },
+    {
+      "path": "data/raw/cisi_76884.pdf",
+      "bytes": 31508998,
+      "sha256": "47a4da4227cfb7baa56d6a561e25797225499d0ec54f5a702a82c67ab4746d4d"
+    },
+    {
+      "path": "data/raw/glossa_canonical_objects.jsonl",
+      "bytes": 22391887,
+      "sha256": "e24f42a95ee4cc1fdb16c789c3edfb937993ed7c82223d6daa96d66895174ae5"
+    },
+    {
+      "path": "data/raw/glossa_icit_export.json",
+      "bytes": 919007,
+      "sha256": "e4ddfd064e9f97871cd4c498f39f238c7cecb2f6a646733b0a65f22f81bd7e2d"
+    },
+    {
+      "path": "data/raw/mahadevan_1977_text.pdf",
+      "bytes": 119302608,
+      "sha256": "6dcdd074a0174e5fab149590fbbf82342711d345764e9763f8e5e92c81cf7f99"
+    },
+    {
+      "path": "docs/ROOF_CROSS_COVERAGE_EXTENSION.md",
+      "bytes": 7994,
+      "sha256": "1a7b7cdb4dab6d1d7f030c1ebd951c20bb675bdec3796ab0003352bf2c9e644c"
+    },
+    {
+      "path": "results/primary_pages/m77-codebook-41.png",
+      "bytes": 1838931,
+      "sha256": "80a70e5c3329804153835a35b8c2364e5788b339ca4eb824b6b357c73f5d0e25"
+    },
+    {
+      "path": "results/primary_pages/m77-codebook-42.png",
+      "bytes": 1997128,
+      "sha256": "b4ec143903bd5059cdbf8c524c20e2b0e3b0d0d244065bf6765b9282379b37ce"
+    },
+    {
+      "path": "results/primary_pages/roof-cross-extension-3319-fields-detail.png",
+      "bytes": 127914,
+      "sha256": "cb0e2fbc5d9520bfa5940b8a789c697f8bbd66468d5bd1842de81578d6a3958a"
+    },
+    {
+      "path": "results/primary_pages/roof-cross-extension-3320-fields-detail.png",
+      "bytes": 134286,
+      "sha256": "2b54ef64cb8bc3054a76b6e0f986d4d54e28ef803e058718cf0610f2f3c213f7"
+    },
+    {
+      "path": "results/primary_pages/roof-cross-extension-M509A-detail.png",
+      "bytes": 96518,
+      "sha256": "2d8d6cdf8e7714240bf6c161c4a4b995787664ab88be1b1343bf13e882047089"
+    },
+    {
+      "path": "results/primary_pages/roof-cross-extension-M509B-detail.png",
+      "bytes": 100058,
+      "sha256": "f4e0833c5baae726246ac3fe291696c4eb2be18922c268c04df6a648f95137c9"
+    },
+    {
+      "path": "results/primary_pages/roof-cross-extension-M510A-detail.png",
+      "bytes": 99654,
+      "sha256": "7c6435dbb714f4fe4a198ab8568bb7c06bb410553dd999679e5df76e2b06d802"
+    },
+    {
+      "path": "results/primary_pages/roof-cross-extension-M510B-detail.png",
+      "bytes": 94992,
+      "sha256": "8e0fde00495d3ca7977240deafef92dc6776a01ca082bf6e687e6be4c6ee0e77"
+    },
+    {
+      "path": "results/primary_pages/roof-cross-extension-appendix-detail.png",
+      "bytes": 144181,
+      "sha256": "4f6077f25a398772f6a6ea66c56ac429b4f4b93c762a0b09cf84e8c177433c47"
+    },
+    {
+      "path": "results/primary_pages/roof-cross-extension-cisi-405.png",
+      "bytes": 4780167,
+      "sha256": "6eded5312b57d23060d1e0e622c01208f02804aa7ccf0d004ed0a02e1a81746c"
+    },
+    {
+      "path": "results/primary_pages/roof-cross-extension-cisi-metadata-detail.png",
+      "bytes": 69119,
+      "sha256": "510db6aea633d4032248a872ed79fdbc7b395b8358df38b886fcc8da19502679"
+    },
+    {
+      "path": "results/primary_pages/roof-cross-extension-m77-104.png",
+      "bytes": 2300477,
+      "sha256": "2683d30459f2bb8f178235c74c04b64139b93f046c0539abf9bab6a9a31d606b"
+    },
+    {
+      "path": "results/primary_pages/roof-cross-extension-m77-829.png",
+      "bytes": 4979891,
+      "sha256": "0d9d9450e750aef5097562b17e6697d861355413c3925f25b980b2688675de58"
+    },
+    {
+      "path": "results/primary_pages/roof-cross-extension-photo-164.png",
+      "bytes": 925084,
+      "sha256": "0a9240a7b6bc1be9b3b67891afbf4d0b4bc53bb31f963669ff01455a0ce4ad18"
+    },
+    {
+      "path": "results/primary_pages/roof-cross-extension-sign287-detail.png",
+      "bytes": 14925,
+      "sha256": "8983032755f1a8e64c2f5190d526a206a63e67cedb8381e04a066d3d8cef19fd"
+    },
+    {
+      "path": "results/primary_pages/roof-cross-extension-sign319-detail.png",
+      "bytes": 18563,
+      "sha256": "6d7ea187a94fb8fe925987af3c7c6592e0dfa81007a8a106521f318a3344be4a"
+    },
+    {
+      "path": "results/primary_pages/roof-modifier-M137.png",
+      "bytes": 18347,
+      "sha256": "8503e240e04451477b25c5d53ebc0e828bedcd255bcb845ba939eb7baef1e935"
+    },
+    {
+      "path": "results/primary_pages/roof-modifier-M138.png",
+      "bytes": 19533,
+      "sha256": "749792576be9575fdb49879bb340d220c2c204d5891fc583ed323ddd55b80b20"
+    },
+    {
+      "path": "results/primary_pages/sign_list-045.png",
+      "bytes": 2312636,
+      "sha256": "972002b288ea77921dcacfe67386dbf585b76be6bca5444b7ff9422e47e70b89"
+    },
+    {
+      "path": "results/primary_pages/sign_list-046.png",
+      "bytes": 2099531,
+      "sha256": "a191e9297a6ab8b7cad1028eaeac062b4b6fa3cd34aefbdd507f669d736d2e8e"
+    },
+    {
+      "path": "results/roof-cross-extension-cisi_extraction.json",
+      "bytes": 362,
+      "sha256": "1366977dd083836a05f9832bef6dde806aee7289c48010cd66347d8167bfd858"
+    },
+    {
+      "path": "results/roof-cross-extension-m77_extraction.json",
+      "bytes": 380,
+      "sha256": "694638ad239ec34894af944529921200883185b530f91014bcf7a5ce8826ed65"
+    },
+    {
+      "path": "results/roof-cross-extension-photo_extraction.json",
+      "bytes": 362,
+      "sha256": "5db6e3fad5803957cc695b04afbc01ad1c5ab78371285eff0a487b00ea92706b"
+    },
+    {
+      "path": "scripts/render_roof_cross_extension_crops.py",
+      "bytes": 1455,
+      "sha256": "c3de1c74c370ec35b29f61788d822be837c4f7aaf278cebfdcd6a2051869df06"
+    }
+  ],
+  "coverage_conclusion": {
+    "new_M77_primary_references": [
+      "3319",
+      "3320"
+    ],
+    "complete_script_fields": 4,
+    "new_photo_object_joins": 2,
+    "all_M138_equals_W678": false,
+    "restored_unknown_tokens": 0,
+    "central_corpus_mutated": false
+  }
+}

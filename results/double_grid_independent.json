@@ -1,0 +1,52 @@
+{
+  "all_checks_passed": true,
+  "established_phonetic_values": 0,
+  "established_semantic_values": 0,
+  "input_sha256": {
+    "data/processed/catalogue_features.json": "00836515c6f3beec28b3b66e13d8a9c6e94571cfb2e9dbb4b148651b7ff0032d",
+    "data/processed/double_grid_protocol.json": "04bde4e0928062e83c6b8af81cb5edae1494696b7b7829e723cee91bd22a5d99",
+    "data/processed/lipi_strict.jsonl": "c7600dd5142d0132bcb89ca5490c26f748a0ab542c482583dd3baf8f08fdf250",
+    "data/processed/m77_candidate_strict.jsonl": "fcdd8b3a7350ebfa851363328ec784b9c8a943525d8549b9df0194fbe1ee7f4a",
+    "results/double_grid_screen.json": "924799f6fc167d262ed6c46afa16d934c1c540733953f36f45a5689c8c697c40",
+    "results/pincer_context_screen.json": "9a680e61fb8633a47472212e63c02396b0934cc97039f55cb1762922dffa1bec"
+  },
+  "method": "Independently flatten reversed W sequences into constrained M slots (two singleton M245 slots only for W617), then test every M77 candidate row for membership in the Cartesian product of allowed slot sets. No production helper imports.",
+  "promoted_artifact_identifications": 0,
+  "scope": "Computational verification of a source-exposed tokenization hypothesis, not primary sign authentication, artifact identity, global tokenization equivalence, independent corpus replication, or semantic composition.",
+  "segments_checked": 346,
+  "summary": {
+    "all_W617": {
+      "candidate_pairs": 38,
+      "rows_with_candidates": 22,
+      "rows_with_multiple_candidates": 8,
+      "selected_rows": 59
+    },
+    "new_pincer_candidate_rows": [
+      "H-1767",
+      "H-49",
+      "M-81",
+      "M-401",
+      "M-980"
+    ],
+    "new_pincer_pairs": 11,
+    "pincer": {
+      "candidate_pairs": 66,
+      "rows_with_candidates": 41,
+      "rows_with_multiple_candidates": 13,
+      "selected_rows": 93
+    },
+    "prior_pincer_pairs_preserved": 55
+  },
+  "union_candidate_pairs_checked": 93,
+  "union_selected_rows_checked": 145,
+  "verified_fields": [
+    "full selected-row records",
+    "ordered full candidate-pair records and segments",
+    "feature provenance",
+    "prior-candidate flags",
+    "all summary fields",
+    "inherited pincer selection",
+    "zero promotions and values",
+    "input hashes"
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "research_date": "2026-09-25",
+  "status": "source-exposed protocol saved before this screen was counted",
+  "question": "Which equal-length secondary corpus sequences are compatible with explicit feature-derived context sets if W550 and W555 may each align with either M216 or M222?",
+  "inputs": [
+    "data/processed/lipi_strict.jsonl",
+    "data/processed/m77_candidate_strict.jsonl",
+    "data/processed/catalogue_features.json"
+  ],
+  "selection": "Every strict Lipi row containing W550 or W555; no preservation, site, artifact-type, or length threshold beyond the existing strict corpus. Every strict candidate M77 row of equal token length is eligible.",
+  "alignment": "Reverse Lipi source-file sequence and compare to M77 candidate sequence as stored. This is a comparison convention, not an independently inferred reading direction for every row.",
+  "target_candidates": {
+    "W550": [
+      "M216",
+      "M222"
+    ],
+    "W555": [
+      "M216",
+      "M222"
+    ]
+  },
+  "context_rule": "Every non-target W token must share an explicit catalogue feature with the M token at that aligned position. Use union of all feature-derived memberships, retain feature IDs, and reject unmapped tokens; do not substitute wildcard positions, segment/merge tokens, rotate sequences, or guess numeric equivalence.",
+  "reports": [
+    "Every selected row, including zero matches and unmapped context tokens",
+    "All exact context-compatible candidate pairs, their positionwise support, target assignment and crosswalk ambiguity",
+    "Separate per-target mapping tables and same-W target ambiguity within rows",
+    "Candidate rows and distinct compatible sequences counted separately; no pooled object totals or archaeological identity inferred"
+  ],
+  "limitations": [
+    "Known M63/3068 example motivated target candidate set; this is source exposed, not blind validation.",
+    "Feature memberships are candidate families, not exact character identities; incomplete mapping can cause false negatives and broad families can cause false positives.",
+    "Corpora may transcribe the same artifact and use incompatible tokenization. Context matches are neither independent replications nor artifact cross-identifications.",
+    "No semantic or phonetic values are established by this screen."
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "review_date": "2026-09-23",
+  "purpose": "Find public line-preserving M77 transcriptions or a scan recovering missing pages; no contact with third parties.",
+  "scope": "Bounded web discovery, not proof that no other public data exist.",
+  "sources": [
+    {
+      "url": "https://github.com/Sukii/decipher-ivc/tree/main/m77-lines",
+      "observed": "Directory listing showed L1006-100101.png, not a complete machine-readable M77 line corpus.",
+      "action": "No image download needed; no reading claims imported. Repository README linked the alternate primary archive below."
+    },
+    {
+      "url": "https://github.com/field-cady/indus_valley_script_corpus",
+      "observed": "README attributes its inscription CSV to yajnadevam/lipi; its main text IDs are ICIT-style, not evidence of a new full M77 transcription.",
+      "action": "Not pooled as independent data; no duplicate corpus download."
+    },
+    {
+      "url": "https://doi.org/10.1111/cogs.12311",
+      "observed": "Recchia and Louwerse describe an ASCII transcription of primary lines and metadata. No downloadable underlying corpus was located in the inspected article links.",
+      "action": "Potential source lead only; no inference of general unavailability, no author contact."
+    },
+    {
+      "url": "https://arno.uvt.nl/show.cgi?fid=157871",
+      "observed": "Search excerpt describes a computational dataset supplied by Recchia through Louwerse, rather than locating a public download.",
+      "action": "Discovery excerpt only; full thesis not inspected or downloaded in this follow-up."
+    },
+    {
+      "url": "https://archive.org/details/masi77indusscripttextsconcordancestablesiravathammahadevan_410_D",
+      "action": "Public metadata and PDF archived in data/raw and registered in data/sources.json.",
+      "result": "Image check finds the same printed758–759 gap at the expected sequence; no missing TableIV rows recovered.",
+      "review": "docs/M77_ALTERNATIVE_SCAN_REVIEW.md"
+    }
+  ]
+}

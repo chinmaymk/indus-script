@@ -1,0 +1,25 @@
+{
+  "scope": "Exploratory, post-source-review model audit; not a preregistered prediction or decipherment",
+  "objects": [
+    "2926",
+    "2928"
+  ],
+  "knife_premises": [
+    "Accept original prose that DK7800 has four vertical and four horizontal strokes",
+    "Accept catalogue join DK7800=2928 and its two normalized M104 tokens",
+    "For the tested local model only, each four-stroke group contributes four times its orientation-specific unit",
+    "For the tested invariant model only, each occurrence of normalized M104 has the same additive scalar contribution"
+  ],
+  "knife_local_conclusion": "Both local models can agree on each occurrence only if i=t; under strict t<i they cannot",
+  "whole_object_control": "Matching totals alone gives v104=2(i+t), which does not require i=t",
+  "fixed_count_premises": [
+    "Use the later nine-object table literally as a selected hypothesis dataset",
+    "For expressions containing t, test whether every coefficient is four",
+    "Replace the whole proposed component 4t by c=4t, preserving all other terms and occurrence positions"
+  ],
+  "fixed_count_conclusion": "On this support, additive predictions cannot distinguish repeated unit t from an indivisible component c; varying coefficients or independent unit evidence would be needed",
+  "source_disagreement": "CORRECTION: original drawing does not refute later7i4t merely because individual strokes are upright: Pettersson labels a tilted row. Numerical interpretation and cross-object equivalence remain unverified.",
+  "ordering_policy": "No ancient reading order or per-token orientation assignment for identical tokens on2928; direction5 means symmetrical arrangement",
+  "semantic_policy": "No established semantic or phonetic value; no new mass observation",
+  "correction_review": "data/processed/pettersson_orientation_attribution_review.json"
+}

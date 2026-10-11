@@ -1,0 +1,254 @@
+{
+  "selection": "Post-screen primary checks: unique longest context and sole M318 match; not blinded or held-out predictions",
+  "lines": [
+    {
+      "reference": "2273",
+      "side": 0,
+      "line": 0,
+      "line_id": "2273.0.0",
+      "tokens": [
+        "M216",
+        "M123",
+        "M171",
+        "M059",
+        "M336",
+        "M089",
+        "M216",
+        "M254"
+      ],
+      "metadata": "100001",
+      "direction_code": 1,
+      "object_type_code": 1,
+      "field_symbol_code": "00",
+      "doubtful_token_indices": [],
+      "loss_token_indices": [],
+      "has_loss": false,
+      "normalized_order": "right_to_left",
+      "texts_pdf_page": 77,
+      "texts_printed_page": 66,
+      "compare_with_export": true,
+      "authority": "Manually inspected primary catalogue normalization, not artifact autopsy"
+    },
+    {
+      "reference": "2541",
+      "side": 0,
+      "line": 0,
+      "line_id": "2541.0.0",
+      "tokens": [
+        "M053",
+        "M171",
+        "M059",
+        "M336",
+        "M089",
+        "M216",
+        "M254"
+      ],
+      "metadata": "100001",
+      "direction_code": 1,
+      "object_type_code": 1,
+      "field_symbol_code": "00",
+      "doubtful_token_indices": [],
+      "loss_token_indices": [],
+      "has_loss": false,
+      "normalized_order": "right_to_left",
+      "texts_pdf_page": 85,
+      "texts_printed_page": 74,
+      "compare_with_export": true,
+      "authority": "Manually inspected primary catalogue normalization, not artifact autopsy"
+    },
+    {
+      "reference": "1548",
+      "side": 0,
+      "line": 0,
+      "line_id": "1548.0.0",
+      "tokens": [
+        "M121",
+        "M342",
+        "M318"
+      ],
+      "metadata": "100101",
+      "direction_code": 1,
+      "object_type_code": 1,
+      "field_symbol_code": "01",
+      "doubtful_token_indices": [],
+      "loss_token_indices": [],
+      "has_loss": false,
+      "normalized_order": "right_to_left",
+      "texts_pdf_page": 65,
+      "texts_printed_page": 54,
+      "compare_with_export": true,
+      "authority": "Manually inspected primary catalogue normalization, not artifact autopsy"
+    },
+    {
+      "reference": "3155",
+      "side": 0,
+      "line": 1,
+      "line_id": "3155.0.1",
+      "tokens": [
+        "M121",
+        "M342",
+        "M391",
+        "M099"
+      ],
+      "metadata": "100112",
+      "direction_code": 2,
+      "object_type_code": 1,
+      "field_symbol_code": "01",
+      "doubtful_token_indices": [],
+      "loss_token_indices": [],
+      "has_loss": false,
+      "normalized_order": "right_to_left",
+      "texts_pdf_page": 100,
+      "texts_printed_page": 89,
+      "compare_with_export": true,
+      "authority": "Manually inspected primary catalogue normalization, not artifact autopsy",
+      "concordance_pdf_page": 710,
+      "concordance_printed_page": 699,
+      "concordance_field_visually_checked": true
+    },
+    {
+      "reference": "3155",
+      "side": 0,
+      "line": 2,
+      "line_id": "3155.0.2",
+      "tokens": [
+        "M397"
+      ],
+      "metadata": "100123",
+      "direction_code": 3,
+      "object_type_code": 1,
+      "field_symbol_code": "01",
+      "doubtful_token_indices": [],
+      "loss_token_indices": [],
+      "has_loss": false,
+      "normalized_order": "right_to_left",
+      "texts_pdf_page": 100,
+      "texts_printed_page": 89,
+      "compare_with_export": false,
+      "authority": "Manually inspected primary catalogue normalization, not artifact autopsy",
+      "concordance_pdf_page": 710,
+      "concordance_printed_page": 699,
+      "concordance_field_visually_checked": true
+    }
+  ],
+  "witnesses": [
+    {
+      "short_reference": "2541",
+      "long_reference": "2273",
+      "target": "M053",
+      "replacement": [
+        "M216",
+        "M123"
+      ],
+      "shared_context_length": 6,
+      "result": "Catalogue fields and metadata authenticated; graphical/semantic equality not established"
+    },
+    {
+      "short_reference": "1548",
+      "long_reference": "3155",
+      "target": "M318",
+      "replacement": [
+        "M391",
+        "M099"
+      ],
+      "shared_context_length": 2,
+      "result": "Catalogue selected fields authenticated;3155 has an additional second line, opposite actual direction, and no demonstrated graphic decomposition into replacement codes"
+    }
+  ],
+  "notes": [
+    "3155 first line metadata100112 means side0 line1, direction2; second-line abbreviation23 expands100123, line2 direction3. Lines are not concatenated.",
+    "M397 on3155 second line recovered separately; no new object or mass.",
+    "M318 is roofed with internal lines; M391 is a six-spoked oval/wheel, M099 two short strokes. No literal graphic decomposition claimed.",
+    "M77 pp19\u201320 define loss as possibly multiple signs, normalized RTL ordering, and sign-variant normalization.",
+    "Initial navigation rendered PDF103, outside3155; corrected toPDF100 after checking OCR ranges.",
+    "Crop boxes preserve native pixels; crops visually inspected.",
+    "2026-09-25 follow-up: concordance printed699/PDF710 independently confirms3155 line02 solusM397, distinct from following M398 group, and displays the first line separately."
+  ],
+  "evidence_files": [
+    {
+      "path": "data/raw/mahadevan_1977_text.pdf",
+      "bytes": 119302608,
+      "sha256": "6dcdd074a0174e5fab149590fbbf82342711d345764e9763f8e5e92c81cf7f99"
+    },
+    {
+      "path": "data/processed/composite_crop_boxes.json",
+      "bytes": 793,
+      "sha256": "b192c4faa60c58d3ec42086f247d702d8a6ca354980ee06d11d4916ef9071776"
+    },
+    {
+      "path": "data/processed/arch_extension_catalogue_review.json",
+      "bytes": 17250,
+      "sha256": "1481dba2392ffb74fd841be5ccd44153c3837a5a7ce0bc10ebe8ea55628b4bae"
+    },
+    {
+      "path": "results/primary_pages/composite-primary-77.png",
+      "bytes": 2051523,
+      "sha256": "16c767f1131f61d89c7d51b2832df0cd050087e0c27c719154034ccbd7a5e1c1"
+    },
+    {
+      "path": "results/primary_pages/composite-primary-85.png",
+      "bytes": 1867810,
+      "sha256": "41341d39d7b61ef139d90defee25ee50294245e102aa94ada1aee1d2e4d724b9"
+    },
+    {
+      "path": "results/primary_pages/composite3155-100.png",
+      "bytes": 2185811,
+      "sha256": "80a53019ea8c7d5b4f771f8a5bf76763ceb2813bbaa369ac90edfa4806ea4f57"
+    },
+    {
+      "path": "results/primary_pages/composite-2273-detail.png",
+      "bytes": 88016,
+      "sha256": "c2d1ca9bce8621bc5e95e0c3835f2202876247c8296a589ba33a2056ef68f77e"
+    },
+    {
+      "path": "results/primary_pages/composite-2541-detail.png",
+      "bytes": 108009,
+      "sha256": "82555da11fda76cca7ed3ec2fd0580f09c5bef180520781806eddc2a5422ec67"
+    },
+    {
+      "path": "results/primary_pages/composite-3155-detail.png",
+      "bytes": 118826,
+      "sha256": "4da8b847ac849ef8fd92f6cf546c157b7f71b7b586f824b85a4726362ae3ff06"
+    },
+    {
+      "path": "results/primary_pages/arch-extension-1548-detail.png",
+      "bytes": 66261,
+      "sha256": "a0f398179321fcc3d555a25fc714f1545e31d2d98e96e7d9fea6af91af7675bb"
+    },
+    {
+      "path": "results/primary_pages/hybrid-pat-m77-43.png",
+      "bytes": 2350315,
+      "sha256": "c4fbb59388cdc982aea2f274dc2f88da0f6597635b8e469c608ec7de1f3e4e7c"
+    },
+    {
+      "path": "results/primary_pages/chain-signlist-44.png",
+      "bytes": 2622908,
+      "sha256": "20cace271efa652e7c70ba9796f1980a7edfc6852be6a28d3e57c3d0ba1b440d"
+    },
+    {
+      "path": "results/primary_pages/hybrid-pat-pair-45.png",
+      "bytes": 2931715,
+      "sha256": "5a3a3b4955c55fb6b7f8023d52a79191a4d499898ad563db3c7618a5fdc5b24c"
+    },
+    {
+      "path": "results/primary_pages/hybrid-pat-pair-46.png",
+      "bytes": 2656525,
+      "sha256": "b012c5f5674fd7f2c5faa3a5bd0fe887155d4e7623b7c2f42906954dd4fe5761"
+    },
+    {
+      "path": "results/primary_pages/m77-codebook-30.png",
+      "bytes": 3448533,
+      "sha256": "2b66004a5f14e0cdd762581ca907347d3a0b8cfbfa0629cf38b6fe86aa2c9cdf"
+    },
+    {
+      "path": "results/primary_pages/m77-codebook-31.png",
+      "bytes": 2376085,
+      "sha256": "2d02126be99255e7ae57f04b4b26f7329959e2dfa170f851871060f6854aa0c9"
+    },
+    {
+      "path": "results/primary_pages/composite397-710.png",
+      "bytes": 1624841,
+      "sha256": "c26ecfa302ac6847e9d1780dbeee48e61fb04b7c6be8d3628849b45e5c3c68ab"
+    }
+  ]
+}

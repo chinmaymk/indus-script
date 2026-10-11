@@ -1,0 +1,693 @@
+{
+  "status": "All eight matched comparisons independently reproduced from source rows; all exact fractions and stratum margins agree.",
+  "method": "Separate CSV selection, source-object grouping, and enumeration of all 64 Bernoulli outcomes, using rational arithmetic. Production audit script not read or imported.",
+  "comparisons": {
+    "fish_family": {
+      "objects": {
+        "universe_rows": 931,
+        "chain_rows": 6,
+        "observed": 1,
+        "expected_fraction": "42327/15400",
+        "expected": 2.7485064935064933,
+        "upper_tail_fraction": "6857/6930",
+        "upper_tail": 0.9894660894660895,
+        "strata": [
+          {
+            "site": "Harappa",
+            "type": "SEAL:R",
+            "length": 6,
+            "N": 8,
+            "target": 3,
+            "chain": 1,
+            "both": 0,
+            "chain_ids": [
+              "H-155"
+            ]
+          },
+          {
+            "site": "Harappa",
+            "type": "SEAL:S",
+            "length": 6,
+            "N": 21,
+            "target": 11,
+            "chain": 1,
+            "both": 0,
+            "chain_ids": [
+              "H-446"
+            ]
+          },
+          {
+            "site": "Khirsara",
+            "type": "SEAL:R",
+            "length": 10,
+            "N": 1,
+            "target": 0,
+            "chain": 1,
+            "both": 0,
+            "chain_ids": [
+              "Krs-1"
+            ]
+          },
+          {
+            "site": "Mohenjo-daro",
+            "type": "SEAL:S",
+            "length": 5,
+            "N": 110,
+            "target": 37,
+            "chain": 1,
+            "both": 0,
+            "chain_ids": [
+              "M-268"
+            ]
+          },
+          {
+            "site": "Mohenjo-daro",
+            "type": "SEAL:S",
+            "length": 8,
+            "N": 25,
+            "target": 17,
+            "chain": 1,
+            "both": 1,
+            "chain_ids": [
+              "M-46"
+            ]
+          },
+          {
+            "site": "Mohenjo-daro",
+            "type": "SEAL:S",
+            "length": 9,
+            "N": 18,
+            "target": 15,
+            "chain": 1,
+            "both": 0,
+            "chain_ids": [
+              "M-1765"
+            ]
+          }
+        ],
+        "binary_patterns_enumerated": 64
+      },
+      "deduplicated_texts": {
+        "universe_rows": 918,
+        "chain_rows": 6,
+        "observed": 1,
+        "expected_fraction": "419893/152600",
+        "expected": 2.751592398427261,
+        "upper_tail_fraction": "755/763",
+        "upper_tail": 0.9895150720838795,
+        "strata": [
+          {
+            "site": "Harappa",
+            "type": "SEAL:R",
+            "length": 6,
+            "N": 8,
+            "target": 3,
+            "chain": 1,
+            "both": 0,
+            "chain_ids": [
+              "H-155"
+            ]
+          },
+          {
+            "site": "Harappa",
+            "type": "SEAL:S",
+            "length": 6,
+            "N": 21,
+            "target": 11,
+            "chain": 1,
+            "both": 0,
+            "chain_ids": [
+              "H-446"
+            ]
+          },
+          {
+            "site": "Khirsara",
+            "type": "SEAL:R",
+            "length": 10,
+            "N": 1,
+            "target": 0,
+            "chain": 1,
+            "both": 0,
+            "chain_ids": [
+              "Krs-1"
+            ]
+          },
+          {
+            "site": "Mohenjo-daro",
+            "type": "SEAL:S",
+            "length": 5,
+            "N": 109,
+            "target": 37,
+            "chain": 1,
+            "both": 0,
+            "chain_ids": [
+              "M-268"
+            ]
+          },
+          {
+            "site": "Mohenjo-daro",
+            "type": "SEAL:S",
+            "length": 8,
+            "N": 25,
+            "target": 17,
+            "chain": 1,
+            "both": 1,
+            "chain_ids": [
+              "M-46"
+            ]
+          },
+          {
+            "site": "Mohenjo-daro",
+            "type": "SEAL:S",
+            "length": 9,
+            "N": 18,
+            "target": 15,
+            "chain": 1,
+            "both": 0,
+            "chain_ids": [
+              "M-1765"
+            ]
+          }
+        ],
+        "binary_patterns_enumerated": 64
+      }
+    },
+    "plain_fish": {
+      "objects": {
+        "universe_rows": 931,
+        "chain_rows": 6,
+        "observed": 1,
+        "expected_fraction": "4831/5775",
+        "expected": 0.8365367965367966,
+        "upper_tail_fraction": "17893/28875",
+        "upper_tail": 0.6196709956709957,
+        "strata": [
+          {
+            "site": "Harappa",
+            "type": "SEAL:R",
+            "length": 6,
+            "N": 8,
+            "target": 0,
+            "chain": 1,
+            "both": 0,
+            "chain_ids": [
+              "H-155"
+            ]
+          },
+          {
+            "site": "Harappa",
+            "type": "SEAL:S",
+            "length": 6,
+            "N": 21,
+            "target": 4,
+            "chain": 1,
+            "both": 0,
+            "chain_ids": [
+              "H-446"
+            ]
+          },
+          {
+            "site": "Khirsara",
+            "type": "SEAL:R",
+            "length": 10,
+            "N": 1,
+            "target": 0,
+            "chain": 1,
+            "both": 0,
+            "chain_ids": [
+              "Krs-1"
+            ]
+          },
+          {
+            "site": "Mohenjo-daro",
+            "type": "SEAL:S",
+            "length": 5,
+            "N": 110,
+            "target": 8,
+            "chain": 1,
+            "both": 0,
+            "chain_ids": [
+              "M-268"
+            ]
+          },
+          {
+            "site": "Mohenjo-daro",
+            "type": "SEAL:S",
+            "length": 8,
+            "N": 25,
+            "target": 6,
+            "chain": 1,
+            "both": 1,
+            "chain_ids": [
+              "M-46"
+            ]
+          },
+          {
+            "site": "Mohenjo-daro",
+            "type": "SEAL:S",
+            "length": 9,
+            "N": 18,
+            "target": 6,
+            "chain": 1,
+            "both": 0,
+            "chain_ids": [
+              "M-1765"
+            ]
+          }
+        ],
+        "binary_patterns_enumerated": 64
+      },
+      "deduplicated_texts": {
+        "universe_rows": 918,
+        "chain_rows": 6,
+        "observed": 1,
+        "expected_fraction": "47909/57225",
+        "expected": 0.8372040192223679,
+        "upper_tail_fraction": "106429/171675",
+        "upper_tail": 0.6199446628804427,
+        "strata": [
+          {
+            "site": "Harappa",
+            "type": "SEAL:R",
+            "length": 6,
+            "N": 8,
+            "target": 0,
+            "chain": 1,
+            "both": 0,
+            "chain_ids": [
+              "H-155"
+            ]
+          },
+          {
+            "site": "Harappa",
+            "type": "SEAL:S",
+            "length": 6,
+            "N": 21,
+            "target": 4,
+            "chain": 1,
+            "both": 0,
+            "chain_ids": [
+              "H-446"
+            ]
+          },
+          {
+            "site": "Khirsara",
+            "type": "SEAL:R",
+            "length": 10,
+            "N": 1,
+            "target": 0,
+            "chain": 1,
+            "both": 0,
+            "chain_ids": [
+              "Krs-1"
+            ]
+          },
+          {
+            "site": "Mohenjo-daro",
+            "type": "SEAL:S",
+            "length": 5,
+            "N": 109,
+            "target": 8,
+            "chain": 1,
+            "both": 0,
+            "chain_ids": [
+              "M-268"
+            ]
+          },
+          {
+            "site": "Mohenjo-daro",
+            "type": "SEAL:S",
+            "length": 8,
+            "N": 25,
+            "target": 6,
+            "chain": 1,
+            "both": 1,
+            "chain_ids": [
+              "M-46"
+            ]
+          },
+          {
+            "site": "Mohenjo-daro",
+            "type": "SEAL:S",
+            "length": 9,
+            "N": 18,
+            "target": 6,
+            "chain": 1,
+            "both": 0,
+            "chain_ids": [
+              "M-1765"
+            ]
+          }
+        ],
+        "binary_patterns_enumerated": 64
+      }
+    },
+    "attributed_gold_candidate": {
+      "objects": {
+        "universe_rows": 931,
+        "chain_rows": 6,
+        "observed": 2,
+        "expected_fraction": "267193/138600",
+        "expected": 1.9277994227994228,
+        "upper_tail_fraction": "5377/8250",
+        "upper_tail": 0.6517575757575758,
+        "strata": [
+          {
+            "site": "Harappa",
+            "type": "SEAL:R",
+            "length": 6,
+            "N": 8,
+            "target": 1,
+            "chain": 1,
+            "both": 0,
+            "chain_ids": [
+              "H-155"
+            ]
+          },
+          {
+            "site": "Harappa",
+            "type": "SEAL:S",
+            "length": 6,
+            "N": 21,
+            "target": 4,
+            "chain": 1,
+            "both": 0,
+            "chain_ids": [
+              "H-446"
+            ]
+          },
+          {
+            "site": "Khirsara",
+            "type": "SEAL:R",
+            "length": 10,
+            "N": 1,
+            "target": 1,
+            "chain": 1,
+            "both": 1,
+            "chain_ids": [
+              "Krs-1"
+            ]
+          },
+          {
+            "site": "Mohenjo-daro",
+            "type": "SEAL:S",
+            "length": 5,
+            "N": 110,
+            "target": 6,
+            "chain": 1,
+            "both": 0,
+            "chain_ids": [
+              "M-268"
+            ]
+          },
+          {
+            "site": "Mohenjo-daro",
+            "type": "SEAL:S",
+            "length": 8,
+            "N": 25,
+            "target": 7,
+            "chain": 1,
+            "both": 0,
+            "chain_ids": [
+              "M-46"
+            ]
+          },
+          {
+            "site": "Mohenjo-daro",
+            "type": "SEAL:S",
+            "length": 9,
+            "N": 18,
+            "target": 5,
+            "chain": 1,
+            "both": 1,
+            "chain_ids": [
+              "M-1765"
+            ]
+          }
+        ],
+        "binary_patterns_enumerated": 64
+      },
+      "deduplicated_texts": {
+        "universe_rows": 918,
+        "chain_rows": 6,
+        "observed": 2,
+        "expected_fraction": "2648327/1373400",
+        "expected": 1.9282998398136013,
+        "upper_tail_fraction": "42637/65400",
+        "upper_tail": 0.6519418960244648,
+        "strata": [
+          {
+            "site": "Harappa",
+            "type": "SEAL:R",
+            "length": 6,
+            "N": 8,
+            "target": 1,
+            "chain": 1,
+            "both": 0,
+            "chain_ids": [
+              "H-155"
+            ]
+          },
+          {
+            "site": "Harappa",
+            "type": "SEAL:S",
+            "length": 6,
+            "N": 21,
+            "target": 4,
+            "chain": 1,
+            "both": 0,
+            "chain_ids": [
+              "H-446"
+            ]
+          },
+          {
+            "site": "Khirsara",
+            "type": "SEAL:R",
+            "length": 10,
+            "N": 1,
+            "target": 1,
+            "chain": 1,
+            "both": 1,
+            "chain_ids": [
+              "Krs-1"
+            ]
+          },
+          {
+            "site": "Mohenjo-daro",
+            "type": "SEAL:S",
+            "length": 5,
+            "N": 109,
+            "target": 6,
+            "chain": 1,
+            "both": 0,
+            "chain_ids": [
+              "M-268"
+            ]
+          },
+          {
+            "site": "Mohenjo-daro",
+            "type": "SEAL:S",
+            "length": 8,
+            "N": 25,
+            "target": 7,
+            "chain": 1,
+            "both": 0,
+            "chain_ids": [
+              "M-46"
+            ]
+          },
+          {
+            "site": "Mohenjo-daro",
+            "type": "SEAL:S",
+            "length": 9,
+            "N": 18,
+            "target": 5,
+            "chain": 1,
+            "both": 1,
+            "chain_ids": [
+              "M-1765"
+            ]
+          }
+        ],
+        "binary_patterns_enumerated": 64
+      }
+    },
+    "fish_or_attributed_gold_candidate": {
+      "objects": {
+        "universe_rows": 931,
+        "chain_rows": 6,
+        "observed": 3,
+        "expected_fraction": "558727/138600",
+        "expected": 4.031219336219336,
+        "upper_tail_fraction": "7864093/8316000",
+        "upper_tail": 0.945658128908129,
+        "strata": [
+          {
+            "site": "Harappa",
+            "type": "SEAL:R",
+            "length": 6,
+            "N": 8,
+            "target": 3,
+            "chain": 1,
+            "both": 0,
+            "chain_ids": [
+              "H-155"
+            ]
+          },
+          {
+            "site": "Harappa",
+            "type": "SEAL:S",
+            "length": 6,
+            "N": 21,
+            "target": 13,
+            "chain": 1,
+            "both": 0,
+            "chain_ids": [
+              "H-446"
+            ]
+          },
+          {
+            "site": "Khirsara",
+            "type": "SEAL:R",
+            "length": 10,
+            "N": 1,
+            "target": 1,
+            "chain": 1,
+            "both": 1,
+            "chain_ids": [
+              "Krs-1"
+            ]
+          },
+          {
+            "site": "Mohenjo-daro",
+            "type": "SEAL:S",
+            "length": 5,
+            "N": 110,
+            "target": 41,
+            "chain": 1,
+            "both": 0,
+            "chain_ids": [
+              "M-268"
+            ]
+          },
+          {
+            "site": "Mohenjo-daro",
+            "type": "SEAL:S",
+            "length": 8,
+            "N": 25,
+            "target": 18,
+            "chain": 1,
+            "both": 1,
+            "chain_ids": [
+              "M-46"
+            ]
+          },
+          {
+            "site": "Mohenjo-daro",
+            "type": "SEAL:S",
+            "length": 9,
+            "N": 18,
+            "target": 17,
+            "chain": 1,
+            "both": 1,
+            "chain_ids": [
+              "M-1765"
+            ]
+          }
+        ],
+        "binary_patterns_enumerated": 64
+      },
+      "deduplicated_texts": {
+        "universe_rows": 918,
+        "chain_rows": 6,
+        "observed": 3,
+        "expected_fraction": "5541173/1373400",
+        "expected": 4.034638852482889,
+        "upper_tail_fraction": "649573/686700",
+        "upper_tail": 0.9459341779525265,
+        "strata": [
+          {
+            "site": "Harappa",
+            "type": "SEAL:R",
+            "length": 6,
+            "N": 8,
+            "target": 3,
+            "chain": 1,
+            "both": 0,
+            "chain_ids": [
+              "H-155"
+            ]
+          },
+          {
+            "site": "Harappa",
+            "type": "SEAL:S",
+            "length": 6,
+            "N": 21,
+            "target": 13,
+            "chain": 1,
+            "both": 0,
+            "chain_ids": [
+              "H-446"
+            ]
+          },
+          {
+            "site": "Khirsara",
+            "type": "SEAL:R",
+            "length": 10,
+            "N": 1,
+            "target": 1,
+            "chain": 1,
+            "both": 1,
+            "chain_ids": [
+              "Krs-1"
+            ]
+          },
+          {
+            "site": "Mohenjo-daro",
+            "type": "SEAL:S",
+            "length": 5,
+            "N": 109,
+            "target": 41,
+            "chain": 1,
+            "both": 0,
+            "chain_ids": [
+              "M-268"
+            ]
+          },
+          {
+            "site": "Mohenjo-daro",
+            "type": "SEAL:S",
+            "length": 8,
+            "N": 25,
+            "target": 18,
+            "chain": 1,
+            "both": 1,
+            "chain_ids": [
+              "M-46"
+            ]
+          },
+          {
+            "site": "Mohenjo-daro",
+            "type": "SEAL:S",
+            "length": 9,
+            "N": 18,
+            "target": 17,
+            "chain": 1,
+            "both": 1,
+            "chain_ids": [
+              "M-1765"
+            ]
+          }
+        ],
+        "binary_patterns_enumerated": 64
+      }
+    }
+  },
+  "input_sha256": {
+    "data/raw/lipi_inscriptions.csv": "b8dcb325a2e2cd3cde12ac12e7a418b0348e45713c9ee28aad81b645d2ac5ee4",
+    "data/processed/lipi_strict.jsonl": "c7600dd5142d0132bcb89ca5490c26f748a0ab542c482583dd3baf8f08fdf250",
+    "data/processed/catalogue_features.json": "00836515c6f3beec28b3b66e13d8a9c6e94571cfb2e9dbb4b148651b7ff0032d",
+    "results/pipe_chain_audit.json": "e1ca7487589c28a9f79307541409f04b34d4b86552a88f51d02ab2d1b881b480",
+    "scripts/verify_pipe_chain_independent.py": "071ec919438cca826e178686c43c0db8ca7f2df030f962bf40e9f1a1988c941a"
+  }
+}

@@ -1,0 +1,3314 @@
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        
+	
+	            <title>Geodäsie</title>
+	            <meta name="keywords" content="Dissertation, Dissertationen, Habilitation, Habilitationen, Habilitationsschrift, Habilitationsschriften, Tagungsband, Tagungsbände, Fachbuch Fachbücher, Lehrbuch, Lehrbücher, Skript, Skripte, Publikationsreihe">
+	            <meta name="description" content="Wir sind als Verlagsunternehmen mit Standorten in Deutschland und den Niederlanden vertreten. In den letzten 30 Jahren hat sich unser Tätigkeitsgebiet von rein wissenschaftlichen Publikationen zu einem breitgefächerten Themenspektrum hin entwickelt. Unser Programm umfasst derzeit mehr als 29.000 lieferbare Titel aus einer Vielzahl von Fachgebieten." />
+
+	            
+       
+    
+        <!-- css -->
+      
+        <link href="../../Layout/css/bootstrap/bootstrap-4.4.1.css" rel="stylesheet">
+
+        <link href="../../Layout/css/fonts/fontawesome/all.css" rel="stylesheet" type="text/css" />
+        <link href="../../Layout/css/fonts/bootstrap-icons/bootstrap-icons.css" rel="stylesheet" type="text/css">
+        
+        <link href="../../Layout/css/allgemein/layout.css?v=1.0" rel="stylesheet" type="text/css" />
+        <link href="../../Layout/css/allgemein/farben.css" rel="stylesheet" type="text/css" />
+        <link href="../../Layout/css/allgemein/buttons.css" rel="stylesheet" type="text/css" />
+        <link href="../../Layout/css/chosen/component-chosen.css" rel="stylesheet" type="text/css" />
+        
+
+        <!-- css Ende -->
+
+        
+        <!-- js -->
+
+        <script type="text/javascript" src="../../Layout/js/jquery-3.4.1.min.js"></script> 
+        <script type="text/javascript" src="../../Layout/js/bootstrap/popper.min.js"></script> 
+        <script type="text/javascript" src="../../Layout/js/bootstrap/bootstrap-4.4.1.js"></script>
+
+        <script type="text/javascript" src="../../Layout/js/fonts/fontawesome/all.js"></script>
+
+        <script type="text/javascript" src="../../Layout/js/validate/jquery.validate.js"></script>
+        <script type="text/javascript" src="../../Layout/js/validate/additional-methods.js"></script>
+
+        <script type="text/javascript" src="../../Layout/js/chosen/chosen.jquery.js"></script>
+        
+
+        <script type="text/javascript" src="../../Layout/js/cookies/js-cookies.js"></script>
+
+        <script type="text/javascript" src="../../Layout/js/allgemein/Funktionen.js"></script>
+
+        <script type="text/javascript" src="../../Layout/js/zoom/jquery.zoom.js"></script>
+
+        <script>
+            
+        $(document).ready(function(){
+            if (Cookies.get('Status')  == "error"){
+                $("#errorLogin").removeClass('d-none').addClass('d-block');
+                $("#loginModal").modal('show');
+                Cookies.remove('Status');
+            }
+
+            history.replaceState(null, null, ' ');
+
+           
+           
+        });
+
+
+            
+
+
+
+        
+        </script>
+
+        <!-- js Ende -->
+    
+
+        <!-- cookieconsent -->
+
+        <link rel="stylesheet" href="../../Layout/css/cookieconsent/cookieconsent.css" />
+        <link rel="stylesheet" href="../../Layout/css/cookieconsent/datenschutzeinstellung.css" />
+        <link rel="stylesheet" href="../../Layout/css/cookieconsent/funky.css" />
+        <script type="text/javascript" src="../../Layout/js/cookieconsent/cookieconsent.js" defer></script>
+
+        <!-- cookieconsent Ende -->
+
+        <!-- asp -->
+
+         
+
+        <!-- asp Ende -->
+
+
+
+        <!-- Meta Pixel Code -->
+
+        <script type="text/plain" data-cookiecategory="targeting">
+        !function(f,b,e,v,n,t,s)
+        {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+        n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+        if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+        n.queue=[];t=b.createElement(e);t.async=!0;
+        t.src=v;s=b.getElementsByTagName(e)[0];
+        s.parentNode.insertBefore(t,s)}(window, document,'script',
+        'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '1125124071985155');
+        fbq('track', 'PageView');
+        </script>
+        <noscript><img height="1" width="1" style="display:none"
+        src="https://www.facebook.com/tr?id=1125124071985155&ev=PageView&noscript=1"
+        /></noscript>
+
+        <!-- End Meta Pixel Code -->
+
+
+       
+
+
+        <style>
+          
+              
+            
+
+            
+            
+
+            ul.categorylist
+            {
+                
+    	        list-style-position: outside;
+                
+    
+            }
+            .img_verlag
+                {
+                    list-style-image: url(../../layout/images/shop/pics/logo_SHV.gif) ;
+                    padding: 5px 0 5px 15px;
+                }
+            .img_institut
+                {
+                    list-style-image: url(../../layout/images/shop/pics/logo_INST.gif);
+                    padding: 5px 0 5px 15px;
+                }
+
+       
+            #accordion-style-1 .btn-link {
+                 font-weight: 400;
+                 color: #707070;
+                 background-color: transparent;
+                 text-decoration: none !important;
+                 font-size: 16px;
+                 font-weight: bold;
+                 padding-left: 0px;
+    
+             }
+
+             #accordion-style-1 .card-header:hover{
+                 background-color: #e5edf4;
+ 
+             }
+
+
+             #accordion-style-1 .card-body,  #accordion-style-1 .card-header {
+                  border: none;
+   
+             }
+
+             #accordion-style-1 .card {
+                border: none;
+   
+             }
+
+             #accordion-style-1 .card-body {
+                 background-color: #e5edf4;
+   
+             }
+
+              #accordion-style-1 .card-header .fa-chevron-right {
+                   transition: transform 0.3s ease-in-out;
+                   transform: rotate(90deg);
+      
+                 }
+              #accordion-style-1 .card-header .collapsed .fa-chevron-right {
+                 transform: rotate(0deg);
+             }
+
+
+
+
+
+            #accordion-style-2 .btn-link {
+                font-weight: 400;
+                color: #707070;
+                background-color: transparent;
+                text-decoration: none !important;
+                font-size: 16px;
+                font-weight: bold;
+                padding-left: 0px;
+    
+            }
+
+            #accordion-style-2 .card-header:hover{
+                background-color: #e5edf4;
+ 
+            }
+
+
+            #accordion-style-2 .card-body,  #accordion-style-2 .card-header {
+                border: none;
+   
+            }
+
+            #accordion-style-2 .card {
+            border: none;
+   
+            }
+
+            #accordion-style-2 .card-body {
+                background-color: #e5edf4;
+   
+            }
+
+            #accordion-style-2 .card-header .fa-chevron-right {
+                transition: transform 0.3s ease-in-out;
+                transform: rotate(90deg);
+      
+                }
+            #accordion-style-2 .card-header .collapsed .fa-chevron-right {
+                transform: rotate(0deg);
+            }
+
+            #Profil a, #Zusammenfassung a {
+                color: #707070;
+                text-decoration: underline;
+            }
+
+            #Profil a:hover, #Zusammenfassung a:hover {
+                color: #707070;
+                text-decoration: none;
+            }
+
+        </style>
+
+         <!-- Google Tag Manager -->
+         <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+         new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+         j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+         'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+         })(window,document,'script','dataLayer','GTM-N79MZH67');</script>
+         <!-- End Google Tag Manager -->
+
+    </head>
+
+    
+
+    <body class="theme_funky">
+
+        <!-- Google Tag Manager (noscript) -->
+        <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-N79MZH67"
+        height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+        <!-- End Google Tag Manager (noscript) -->
+
+        <div class="container">
+            <header class="sticky-top">
+                <nav class="navbar navbar-expand-lg navbar-light bg-light" id="navbarMenu" style="border-bottom: 3px solid #005091;">
+        
+                    <a class="navbar-brand" href="https://www.shaker.de">
+                        <img src="../../layout/images/logos/Shaker.gif" alt="Home" height="50">
+                    </a>
+                
+                    <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    
+                    
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav mr-auto ">
+                            <li class="nav-item  d-block d-lg-none ml-lg-3"> <a class="nav-link" href="https://www.shaker.de">Home </a> </li>
+                            
+                            <li class="nav-item  dropdown dropdown-hover ml-lg-3 aboutus">
+                                <a class="nav-link  dropdown-toggle d-none d-lg-block" href="../aboutus/index.asp?lang=de&id=1" id="navbarDropdownAboutus" role="button"  aria-haspopup="true" aria-expanded="false"> Über uns&nbsp;</a>
+                                <a class="nav-link dropdown-toggle d-block d-lg-none" href="../aboutus/index.asp?lang=de&id=1" id="navbarDropdownAboutus" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Über uns&nbsp;</a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdownAboutus">
+                                    <a class="dropdown-item" href="../aboutus/index.asp?lang=de&id=1">Über uns</a> 
+                                    <a class="dropdown-item" href="../aboutus/index.asp?lang=de&id=2">Ansprechpartner</a>
+        
+                                </div>
+                            </li>
+
+                            <li class="nav-item  dropdown dropdown-hover ml-lg-3 publizieren">
+                                <a class="nav-link  dropdown-toggle d-none d-lg-block" href="../publication/index.asp?lang=de&id=1" id="navbarDropdownPublizieren" role="button"  aria-haspopup="true" aria-expanded="false">Publizieren&nbsp;</a>
+                                <a class="nav-link dropdown-toggle d-block d-lg-none" href="../publication/index.asp?lang=de&id=1" id="navbarDropdownPublizieren" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Publizieren&nbsp;</a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdownPublizieren">
+                                    <a class="dropdown-item" href="../publication/index.asp?lang=de&id=50">Dissertation</a> 
+                                    <a class="dropdown-item" href="../publication/index.asp?lang=de&id=51">Publikationsreihe</a>
+                                    <a class="dropdown-item" href="../publication/index.asp?lang=de&id=52">Tagungsband</a>
+                                    <a class="dropdown-item" href="../publication/index.asp?lang=de&id=53">Fachbuch</a>
+                                    <a class="dropdown-item" href="../publication/index.asp?lang=de&id=54">Vorlesungsskript/Lehrbuch</a>
+                                    <a class="dropdown-item" href="../publication/index.asp?lang=de&id=57">Zeitschrift</a>
+                                    <a class="dropdown-item" href="../publication/index.asp?lang=de&id=55">CD/DVD</a>
+                                    <a class="dropdown-item" href="../publication/index.asp?lang=de&id=56">Online-Publikation</a>
+                                    <a class="dropdown-item" href="../publication/index.asp?lang=de&id=60">Open Access</a>
+                                </div>
+                            </li>
+
+                            <li class="nav-item active dropdown dropdown-hover ml-lg-3 shop">
+                                <a class="nav-link  dropdown-toggle d-none d-lg-block" href="../shop/index.asp?lang=de&id=1" id="navbarDropdownShop" role="button"  aria-haspopup="true" aria-expanded="false" style="font-weight: 500;"> Shop&nbsp;<span class="sr-only">(current)</span></a>
+                                <a class="nav-link dropdown-toggle d-block d-lg-none" href="../shop/index.asp?lang=de&id=1" id="navbarDropdownShop" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="font-weight: 500;"> Shop&nbsp;<span class="sr-only">(current)</span></a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdownShop">
+                                    <a class="dropdown-item" href="index.asp?lang=de&id=1">Suche im Shop</a> 
+                                    <a class="dropdown-item" href="index.asp?lang=de&id=19">Rezensionen</a>
+                                    <a class="dropdown-item" href="index.asp?lang=de&id=1200">Lizenzen</a>
+                                </div>
+                            </li>
+
+                            <li class="nav-item  ml-lg-3"> <a class="nav-link" href="../contact/index.asp?lang=de&id=1">Kontakt&nbsp;</a></li>
+
+                            <li class="nav-item dropdown dropdown-hover ml-lg-3 service">
+                                <a class="nav-link  dropdown-toggle d-none d-lg-block" href="../service/index.asp?lang=de&id=1" id="navbarDropdownService" role="button"  aria-haspopup="true" aria-expanded="false"> Service&nbsp;</a>
+                                <a class="nav-link dropdown-toggle d-block d-lg-none" href="../service/index.asp?lang=de&id=1" id="navbarDropdownService" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Service&nbsp;</a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdownService">
+                                    <a class="dropdown-item" href="../newsletter/register.asp?Modus=Home">Newsletter</a> 
+                                    <a class="dropdown-item" href="../service/index.asp?lang=de&id=1">Datenschutz</a> 
+                                    <a class="dropdown-item" href="../service/index.asp?lang=de&id=2">Impressum</a>
+        
+                                </div>
+                            </li>
+
+                            <li class="nav-item ml-lg-3"> <a class="nav-link" href="../help/index.asp?lang=de&id=1">Hilfe&nbsp;</a> </li>
+                        </ul>
+
+                        <div class="d-none d-lg-block text-center mr-5 mr-lg-4 mr-xl-5">
+                            
+                                <a href="index.asp?lang=de&id=9" class="link_no_underline_Icon d-none d-lg-block" aria-label="Zum Warenkorb"><i class="fa-solid fa-cart-shopping fa-2xl" aria-hidden="true"></i>
+                                </a> 
+                            
+                        </div>
+
+                        <div class="d-none d-lg-block text-center mr-2">
+                            
+                                <a  href="#" data-toggle="modal" data-target="#loginModal" class="link_no_underline_Icon d-none d-lg-block" aria-label="Login / Registrieren"><i class="fa-solid fa-user fa-2x" aria-hidden="true"></i><small class="d-none d-lg-block mt-1 font-weight-bold">Login / Registrieren</small></a>
+                                <a  href="../account/authors/index.asp?lang=de&id=1" class="link_no_underline_Icon d-block d-lg-none" aria-label="Login / Registrieren"><i class="fas fa-user fa-2x" aria-hidden="true"></i><small class="d-none d-lg-block mt-1 font-weight-bold">Login / Registrieren</small></a>
+                            
+                        </div>
+
+                        <div class="custrom-dropdown-divider d-lg-none"></div>
+    
+                        <ul class="navbar-nav mr-auto d-lg-none pb-2" >
+                             
+                                <li class="nav-item "><a class="nav-link" href="index.asp?lang=de&id=9" aria-label="Zum Warenkorb"><i class="fa-solid fa-cart-shopping fa-fw" aria-hidden="true"></i>&nbsp;Warenkorb</a></li>
+                            
+                        </ul>
+
+                        <div class="custrom-dropdown-divider d-lg-none"></div>
+
+                        <ul class="navbar-nav mr-auto d-lg-none" >
+                            
+                                <li class="nav-item "><a class="nav-link" href="../account/authors/index.asp?lang=de&id=1" aria-label="Login / Registrieren"><i class="fas fa-user fa-fw" aria-hidden="true"></i>&nbsp;Login / Registrieren</a></li>
+                                <li class="nav-item "><a class="nav-link" href="../account/authors/index.asp?lang=de&id=5" aria-label="Passwort vergessen"><i class="fas fa-key fa-fw" aria-hidden="true"></i>&nbsp;Passwort vergessen</a></li>
+                            
+                        </ul>
+
+                    </div>
+                </nav>
+          
+            </header>
+
+            <container>
+                <div class="p-0 bg-20 text-center">
+                    <img src="../../Layout/images/shop/Buch2.jpg" class="img-fluid " alt="Header">
+                </div>
+            </container>
+
+            
+
+		<header>
+			<div class="jumbotron custom-jumbotron bg-10 mb-0 rounded-0">
+       		
+				<div class="container-fluid bg-10 "> 
+				
+					<div class="row">
+						<div class="col-12 py-4 d-none d-sm-block bg-20 "><h4 class="color-blau-100">Shop : Reihenübersicht</h4></div>
+						<div class="col-12 pt-3 d-block d-sm-none text-center bg-20"><h5 class="color-blau-100">Shop</h5></div>
+						<div class="col-12 pb-3 d-block d-sm-none text-center bg-20"><h6 class="color-blau-100">Reihenübersicht</h6></div>
+					</div>
+
+				
+				
+					<div class="row">
+						
+						
+							<div class="col-12 bg-20 pb-2">
+								<div class="card w-75 bg-10 mx-auto mb-5 d-none d-md-block" style="border: 1px solid #005091;">
+									<div class="card-body text-center">
+										<div class="h5 color-blau-100">Geodäsie</div>
+									</div>
+								</div>
+								<div class="card bg-10 mx-auto mb-5 d-block d-md-none" style="border: 1px solid #005091;">
+									<div class="card-body text-center">	
+										<div class="h5 color-blau-100">Geodäsie</div>
+									</div>
+								</div>
+							</div>
+
+						
+						
+					</div>
+
+					
+            
+					<div class="row d-none d-xl-block">
+						<div class="col-12 bg-20 pb-2">
+							<div class="card w-75 bg-10 mx-auto" style="border: 1px solid #005091;">
+								<div class="row py-3 align-items-center" style="font-weight: 500; ">
+									<div class="col-5">
+										<div class="ml-4">Anzeige 1 - 10 von 16 Treffer</div>
+									</div>
+									<div class="col-4">
+										<form method="POST" action="#">
+											<select name="Ordnungskriterium" id="Ordnungskriterium" class="form-control form-control-chosen" onChange="this.form.submit()">
+												
+													<option value="TitelAZ">Titel (A-Z)</option>
+												
+													<option value="TitelZA">Titel (Z-A)</option>
+												
+													<option value="AutorAZ">Autor (A-Z)</option>
+												
+													<option value="AutorZA">Autor (Z-A)</option>
+												
+													<option value="DatumAbsteigend" selected >Erscheinungsdatum&nbsp;&#9660;</option>
+												
+													<option value="DatumAufsteigend">Erscheinungsdatum&nbsp;&#9650;</option>
+												
+													<option value="PreisAbsteigend">Preis&nbsp;&#9660;</option>
+												
+													<option value="PreisAufsteigend">Preis&nbsp;&#9650;</option>
+												
+													<option value="ISBNAbsteigend">ISBN&nbsp;&#9660;</option>
+												
+													<option value="ISBNAufsteigend">ISBN&nbsp;&#9650;</option>
+												
+											</select>
+
+											<input type="hidden" name="MaxAnzeigeRecordset" value="10">
+
+										</form>
+									</div>
+									<div class="col-3">
+										<form method="POST" action="#" class="mr-4">
+											<select name="MaxAnzeigeRecordset" id="MaxAnzeigeRecordset" class="form-control form-control-chosen" onChange="this.form.submit()">
+												
+													<option value="5">5</option>
+												
+													<option value="10" selected>10</option>
+												
+													<option value="25">25</option>
+												
+													<option value="50">50</option>
+												
+													<option value="100">100</option>
+												
+													<option value="16">alle</option>
+												
+											</select>
+
+										
+											<input type="hidden" name= "Ordnungskriterium" value="DatumAbsteigend">
+
+										
+										</form>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+
+					<div class="row d-block d-xl-none">
+						<div class="col-12 bg-20 pb-2">
+							<div class="card w-75 bg-10 mx-auto d-none d-md-block" style="border: 1px solid #005091;">
+								<div class="row py-3" style="font-weight: 500; ">
+									<div class="col-12">
+										<div class="ml-4">Anzeige 1 - 10 von 16 Treffer</div>
+									</div>
+								</div>
+								<div class="row pb-3 justify-content-between" style="font-weight: 500; ">
+									<div class="col-8 col-lg-6 ">
+										<form method="POST" action="#" class="ml-4">
+											<select name="Ordnungskriterium" id="Ordnungskriterium" class="form-control form-control-chosen" onChange="this.form.submit()">
+												
+													<option value="TitelAZ">Titel (A-Z)</option>
+												
+													<option value="TitelZA">Titel (Z-A)</option>
+												
+													<option value="AutorAZ">Autor (A-Z)</option>
+												
+													<option value="AutorZA">Autor (Z-A)</option>
+												
+													<option value="DatumAbsteigend" selected >Erscheinungsdatum&nbsp;&#9660;</option>
+												
+													<option value="DatumAufsteigend">Erscheinungsdatum&nbsp;&#9650;</option>
+												
+													<option value="PreisAbsteigend">Preis&nbsp;&#9660;</option>
+												
+													<option value="PreisAufsteigend">Preis&nbsp;&#9650;</option>
+												
+													<option value="ISBNAbsteigend">ISBN&nbsp;&#9660;</option>
+												
+													<option value="ISBNAufsteigend">ISBN&nbsp;&#9650;</option>
+												
+											</select>
+
+											<input type="hidden" name="MaxAnzeigeRecordset" value="10">
+
+										
+										</form>
+									</div>
+									<div class="col-4 col-lg-3">
+										<form method="POST" action="#" class="mr-4">
+											<select name="MaxAnzeigeRecordset" id="MaxAnzeigeRecordset" class="form-control form-control-chosen" onChange="this.form.submit()">
+												
+													<option value="5">5</option>
+												
+													<option value="10" selected>10</option>
+												
+													<option value="25">25</option>
+												
+													<option value="50">50</option>
+												
+													<option value="100">100</option>
+												
+													<option value="16">alle</option>
+												
+											</select>
+
+										
+											<input type="hidden" name= "Ordnungskriterium" value="DatumAbsteigend">
+
+										
+										</form>
+									</div>
+								</div>
+							</div>
+
+							<div class="card  bg-10 mx-auto d-none d-sm-block d-md-none" style="border: 1px solid #005091;">
+								<div class="row py-3 align-items-center" style="font-weight: 500; ">
+									<div class="col-12">
+										<div class="ml-4">Anzeige 1 - 10 von 16 Treffer</div>
+									</div>
+								</div>
+								<div class="row pb-3 align-items-center" style="font-weight: 500; ">
+									<div class="col-8">
+										<form method="POST" action="#" class="ml-4">
+											<select name="Ordnungskriterium" id="Ordnungskriterium" class="form-control form-control-chosen" onChange="this.form.submit()">
+												
+													<option value="TitelAZ">Titel (A-Z)</option>
+												
+													<option value="TitelZA">Titel (Z-A)</option>
+												
+													<option value="AutorAZ">Autor (A-Z)</option>
+												
+													<option value="AutorZA">Autor (Z-A)</option>
+												
+													<option value="DatumAbsteigend" selected >Erscheinungsdatum&nbsp;&#9660;</option>
+												
+													<option value="DatumAufsteigend">Erscheinungsdatum&nbsp;&#9650;</option>
+												
+													<option value="PreisAbsteigend">Preis&nbsp;&#9660;</option>
+												
+													<option value="PreisAufsteigend">Preis&nbsp;&#9650;</option>
+												
+													<option value="ISBNAbsteigend">ISBN&nbsp;&#9660;</option>
+												
+													<option value="ISBNAufsteigend">ISBN&nbsp;&#9650;</option>
+												
+											</select>
+
+										
+											<input type="hidden" name="MaxAnzeigeRecordset" value="10">
+
+										
+										</form>
+									</div>
+									<div class="col-4">
+										<form method="POST" action="#" class="mr-4">
+											<select name="MaxAnzeigeRecordset" id="MaxAnzeigeRecordset" class="form-control form-control-chosen" onChange="this.form.submit()">
+												
+													<option value="5">5</option>
+												
+													<option value="10" selected>10</option>
+												
+													<option value="25">25</option>
+												
+													<option value="50">50</option>
+												
+													<option value="100">100</option>
+												
+													<option value="16">alle</option>
+												
+											</select>
+
+										
+											<input type="hidden" name= "Ordnungskriterium" value="DatumAbsteigend">
+
+									
+										</form>
+									</div>
+								</div>
+							</div>
+
+							<div class="card  bg-10 mx-auto d-block d-sm-none" style="border: 1px solid #005091;">
+								<div class="row py-3 align-items-center" style="font-weight: 500; ">
+									<div class="col-12">
+										<div class="ml-2" >Anzeige 1 - 10 von 16 Treffer</div>
+									</div>
+								</div>
+								<div class="row pb-3 align-items-center" style="font-weight: 500; ">
+									<div class="col-12">
+										<form method="POST" action="#" class="mx-2">
+											<select name="Ordnungskriterium" id="Ordnungskriterium" class="form-control form-control-chosen" onChange="this.form.submit()">
+												
+													<option value="TitelAZ">Titel (A-Z)</option>
+												
+													<option value="TitelZA">Titel (Z-A)</option>
+												
+													<option value="AutorAZ">Autor (A-Z)</option>
+												
+													<option value="AutorZA">Autor (Z-A)</option>
+												
+													<option value="DatumAbsteigend" selected >Erscheinungsdatum&nbsp;&#9660;</option>
+												
+													<option value="DatumAufsteigend">Erscheinungsdatum&nbsp;&#9650;</option>
+												
+													<option value="PreisAbsteigend">Preis&nbsp;&#9660;</option>
+												
+													<option value="PreisAufsteigend">Preis&nbsp;&#9650;</option>
+												
+													<option value="ISBNAbsteigend">ISBN&nbsp;&#9660;</option>
+												
+													<option value="ISBNAufsteigend">ISBN&nbsp;&#9650;</option>
+												
+											</select>
+
+										
+											<input type="hidden" name="MaxAnzeigeRecordset" value="10">
+
+										
+										</form>
+									</div>
+								</div>
+								<div class="row pb-3 align-items-center" style="font-weight: 500; ">
+									<div class="col-12">
+										<form method="POST" action="#" class="mx-2">
+											<select name="MaxAnzeigeRecordset" id="MaxAnzeigeRecordset" class="form-control form-control-chosen" onChange="this.form.submit()">
+												
+													<option value="5">Anzeige: 5 Treffer</option>
+												
+													<option value="10" selected>Anzeige: 10 Treffer</option>
+												
+													<option value="25">Anzeige: 25 Treffer</option>
+												
+													<option value="50">Anzeige: 50 Treffer</option>
+												
+													<option value="100">Anzeige: 100 Treffer</option>
+												
+													<option value="16">Anzeige: alle Treffer</option>
+												
+											</select>
+
+										
+											<input type="hidden" name= "Ordnungskriterium" value="DatumAbsteigend">
+
+									
+										</form>
+									</div>
+								</div>
+							</div>
+
+						</div>
+					</div>
+
+					<div class="row">
+						<div class="col-12 bg-20 pb-5 ">
+						
+									<div class="d-none d-md-block">
+										<div class="d-flex justify-content-center pb-3">
+											<div class="card w-75 bg-10" style="min-height: 400px; border: 1px solid #005091;">
+												<div class="row no-gutters">
+													<div class="col-auto m-4 text-center">
+														<figure class="figure">
+															
+																<a href="index.asp?lang=de&ID=8&ISBN=978-3-8440-2032-8" class="text-center">
+																	<img class="img-fluid" src="/Cover/978-3-8440-2032-8_Cover_s.gif" alt="978-3-8440-2032-8" style="border: 1px solid #005091;">
+																</a>
+															
+																<figcaption class="custom-figure-caption pt-2">
+																	
+																		Print-Version<br /><i class='fa-solid fa-book-open fa-xl color-blau-100' aria-hidden='true'></i>
+																	
+																</figcaption>
+															
+														</figure>
+											
+													</div>
+													<div class="col">
+														<div class="card-body" >
+															<h6 class="card-title mr-1">Sven Weisbrich, Robert Kaden (Hrsg.)</h6>
+
+													
+															<div class="card-text mr-1 color-blau-100">
+																Entwicklerforum Geodäsie und Geoinformationstechnik 2012
+																	<br /><small>Junge Wissenschaftler forschen</small>
+																
+																<p class="pt-3 color-100">
+																	
+																</p>
+															</div>
+                                                    
+
+															<div class="mb-0 mr-1 pt-3">
+															<small>
+																<span style='font-size: 1rem;'><a href='index.asp?lang=de&ID=6&category=177' class='link-standard-grau-100'>Geodäsie</span></a><br>Band: 16<br>
+																ISBN&nbsp;978-3-8440-2032-8, Deutsch, 
+																Paperback, 
+																		<span style='white-space: nowrap'>184&nbsp;Seiten</span>, 
+																	<br>21 x 14,8 cm, 273 g, 48,80&nbsp;&euro;<br />
+																Juli&nbsp;2013				
+															</small>
+															<p class="pt-2">
+																
+															</p>
+
+
+														</div>
+                                                
+														</div>
+													</div>
+												</div>
+                                   
+												<div class="card-footer w-100  border-0 bg-10 mt-3 mb-3">
+													<div class="row">
+														<div class="col-auto">
+															Auch als Online-Publikation verfügbar
+														</div>
+														<div class="col text-right">
+															<div><i class="fa-solid fa-angles-right fa-fw pr-1"></i><a class="link-standard-grau-100" href="index.asp?lang=de&ID=8&ISBN=978-3-8440-2032-8" >weitere Informationen</a></div>
+														</div>
+													</div>
+
+													
+
+												</div>
+											</div>
+								
+										</div>
+									</div>
+
+									<div class="d-block d-md-none">
+										 <div class="row justify-content-center pb-4">
+											 <div class="col-12">
+												 <div class="card bg-10" style="border: 1px solid #005091;">
+
+													 
+															 <a href="index.asp?lang=de&ID=8&ISBN=978-3-8440-2032-8" class="text-center">
+																 <img class="card-img-top px-4 mt-4 img-fluid" src="/Cover/978-3-8440-2032-8_Cover_b.gif" alt="978-3-8440-2032-8">
+															 </a>
+													 
+
+													 <div class="card-body bg-10">
+														 <h6 class="card-title px-2">Sven Weisbrich, Robert Kaden (Hrsg.)</h6>
+														 <div class="card-text px-2 color-blau-100">
+															 Entwicklerforum Geodäsie und Geoinformationstechnik 2012
+																 <br /><small>Junge Wissenschaftler forschen</small>
+															 
+														 </div>
+														 <div  class="card-text px-2 pt-3">
+															<small>
+																<span style='font-size: 1rem;'><a href='index.asp?lang=de&ID=6&category=177' class='link-standard-grau-100'>Geodäsie</span></a><br>Band: 16<br>
+																ISBN&nbsp;978-3-8440-2032-8, Deutsch, 
+																Paperback, 
+																	<span style='white-space: nowrap'>184&nbsp;Seiten</span>, 
+																	<br>21 x 14,8 cm, 273 g, 48,80&nbsp;&euro;<br />
+																Juli&nbsp;2013				
+															</small>
+															<p class="pt-2">
+																			
+															</p>
+
+															<p>auch als Online-Publikation verfügbar</p>
+
+
+														</div>
+        
+														 <div class="text-right"><i class="fa-solid fa-angles-right fa-fw pr-1"></i><a class="link-standard-grau-100" href="index.asp?lang=de&ID=8&ISBN=978-3-8440-2032-8" >weitere Informationen</a></div>
+													 </div>
+												 </div>
+											 </div>
+										 </div>
+									</div>
+									
+									<div class="d-none d-md-block">
+										<div class="d-flex justify-content-center pb-3">
+											<div class="card w-75 bg-10" style="min-height: 400px; border: 1px solid #005091;">
+												<div class="row no-gutters">
+													<div class="col-auto m-4 text-center">
+														<figure class="figure">
+															
+																<a href="index.asp?lang=de&ID=8&ISBN=978-3-8440-1721-2" class="text-center">
+																	<img class="img-fluid" src="/Cover/978-3-8440-1721-2_Cover_s.gif" alt="978-3-8440-1721-2" style="border: 1px solid #005091;">
+																</a>
+															
+																<figcaption class="custom-figure-caption pt-2">
+																	
+																		Print-Version<br /><i class='fa-solid fa-book-open fa-xl color-blau-100' aria-hidden='true'></i>
+																	
+																</figcaption>
+															
+														</figure>
+											
+													</div>
+													<div class="col">
+														<div class="card-body" >
+															<h6 class="card-title mr-1">Boris Resnik (Hrsg.)</h6>
+
+													
+															<div class="card-text mr-1 color-blau-100">
+																Opportunities of Geodetic Monitoring on the Example of Current Projects in Eastern Europe
+																<p class="pt-3 color-100">
+																	
+																</p>
+															</div>
+                                                    
+
+															<div class="mb-0 mr-1 pt-3">
+															<small>
+																<span style='font-size: 1rem;'><a href='index.asp?lang=de&ID=6&category=177' class='link-standard-grau-100'>Geodäsie</span></a><br>Band: 15<br>
+																ISBN&nbsp;978-3-8440-1721-2, Englisch, 
+																Paperback, 
+																		<span style='white-space: nowrap'>72&nbsp;Seiten</span>, 
+																	<br>21 x 14,8 cm, 108 g, 19,80&nbsp;&euro;<br />
+																März&nbsp;2013				
+															</small>
+															<p class="pt-2">
+																
+															</p>
+
+
+														</div>
+                                                
+														</div>
+													</div>
+												</div>
+                                   
+												<div class="card-footer w-100  border-0 bg-10 mt-3 mb-3">
+													<div class="row">
+														<div class="col-auto">
+															Auch als Online-Publikation verfügbar
+														</div>
+														<div class="col text-right">
+															<div><i class="fa-solid fa-angles-right fa-fw pr-1"></i><a class="link-standard-grau-100" href="index.asp?lang=de&ID=8&ISBN=978-3-8440-1721-2" >weitere Informationen</a></div>
+														</div>
+													</div>
+
+													
+
+												</div>
+											</div>
+								
+										</div>
+									</div>
+
+									<div class="d-block d-md-none">
+										 <div class="row justify-content-center pb-4">
+											 <div class="col-12">
+												 <div class="card bg-10" style="border: 1px solid #005091;">
+
+													 
+															 <a href="index.asp?lang=de&ID=8&ISBN=978-3-8440-1721-2" class="text-center">
+																 <img class="card-img-top px-4 mt-4 img-fluid" src="/Cover/978-3-8440-1721-2_Cover_b.gif" alt="978-3-8440-1721-2">
+															 </a>
+													 
+
+													 <div class="card-body bg-10">
+														 <h6 class="card-title px-2">Boris Resnik (Hrsg.)</h6>
+														 <div class="card-text px-2 color-blau-100">
+															 Opportunities of Geodetic Monitoring on the Example of Current Projects in Eastern Europe
+														 </div>
+														 <div  class="card-text px-2 pt-3">
+															<small>
+																<span style='font-size: 1rem;'><a href='index.asp?lang=de&ID=6&category=177' class='link-standard-grau-100'>Geodäsie</span></a><br>Band: 15<br>
+																ISBN&nbsp;978-3-8440-1721-2, Englisch, 
+																Paperback, 
+																	<span style='white-space: nowrap'>72&nbsp;Seiten</span>, 
+																	<br>21 x 14,8 cm, 108 g, 19,80&nbsp;&euro;<br />
+																März&nbsp;2013				
+															</small>
+															<p class="pt-2">
+																			
+															</p>
+
+															<p>auch als Online-Publikation verfügbar</p>
+
+
+														</div>
+        
+														 <div class="text-right"><i class="fa-solid fa-angles-right fa-fw pr-1"></i><a class="link-standard-grau-100" href="index.asp?lang=de&ID=8&ISBN=978-3-8440-1721-2" >weitere Informationen</a></div>
+													 </div>
+												 </div>
+											 </div>
+										 </div>
+									</div>
+									
+									<div class="d-none d-md-block">
+										<div class="d-flex justify-content-center pb-3">
+											<div class="card w-75 bg-10" style="min-height: 400px; border: 1px solid #005091;">
+												<div class="row no-gutters">
+													<div class="col-auto m-4 text-center">
+														<figure class="figure">
+															
+																<a href="index.asp?lang=de&ID=8&ISBN=978-3-8440-0875-3" class="text-center">
+																	<img class="img-fluid" src="/Cover/978-3-8440-0875-3_Cover_s.gif" alt="978-3-8440-0875-3" style="border: 1px solid #005091;">
+																</a>
+															
+																<figcaption class="custom-figure-caption pt-2">
+																	
+																		Print-Version<br /><i class='fa-solid fa-book-open fa-xl color-blau-100' aria-hidden='true'></i>
+																	
+																</figcaption>
+															
+														</figure>
+											
+													</div>
+													<div class="col">
+														<div class="card-body" >
+															<h6 class="card-title mr-1">Sven Weisbrich, Robert Kaden (Hrsg.)</h6>
+
+													
+															<div class="card-text mr-1 color-blau-100">
+																Entwicklerforum Geodäsie und Geoinformationstechnik 2011
+																	<br /><small>Junge Wissenschaftler forschen</small>
+																
+																<p class="pt-3 color-100">
+																	Das „Entwicklerforum Geodäsie und Geoinformationstechnik“ richtet sich an Bacheloranden, Masteranden, Diplomanden und Absolventen aller Universitäten&nbsp;...
+																</p>
+															</div>
+                                                    
+
+															<div class="mb-0 mr-1 pt-3">
+															<small>
+																<span style='font-size: 1rem;'><a href='index.asp?lang=de&ID=6&category=177' class='link-standard-grau-100'>Geodäsie</span></a><br>Band: 14<br>
+																ISBN&nbsp;978-3-8440-0875-3, Deutsch, 
+																Paperback, 
+																		<span style='white-space: nowrap'>192&nbsp;Seiten</span>, 
+																	<br>21 x 14,8 cm, 284 g, 48,80&nbsp;&euro;<br />
+																März&nbsp;2012				
+															</small>
+															<p class="pt-2">
+																
+															</p>
+
+
+														</div>
+                                                
+														</div>
+													</div>
+												</div>
+                                   
+												<div class="card-footer w-100  border-0 bg-10 mt-3 mb-3">
+													<div class="row">
+														<div class="col-auto">
+															Auch als Online-Publikation verfügbar
+														</div>
+														<div class="col text-right">
+															<div><i class="fa-solid fa-angles-right fa-fw pr-1"></i><a class="link-standard-grau-100" href="index.asp?lang=de&ID=8&ISBN=978-3-8440-0875-3" >weitere Informationen</a></div>
+														</div>
+													</div>
+
+													
+
+												</div>
+											</div>
+								
+										</div>
+									</div>
+
+									<div class="d-block d-md-none">
+										 <div class="row justify-content-center pb-4">
+											 <div class="col-12">
+												 <div class="card bg-10" style="border: 1px solid #005091;">
+
+													 
+															 <a href="index.asp?lang=de&ID=8&ISBN=978-3-8440-0875-3" class="text-center">
+																 <img class="card-img-top px-4 mt-4 img-fluid" src="/Cover/978-3-8440-0875-3_Cover_b.gif" alt="978-3-8440-0875-3">
+															 </a>
+													 
+
+													 <div class="card-body bg-10">
+														 <h6 class="card-title px-2">Sven Weisbrich, Robert Kaden (Hrsg.)</h6>
+														 <div class="card-text px-2 color-blau-100">
+															 Entwicklerforum Geodäsie und Geoinformationstechnik 2011
+																 <br /><small>Junge Wissenschaftler forschen</small>
+															 
+														 </div>
+														 <div  class="card-text px-2 pt-3">
+															<small>
+																<span style='font-size: 1rem;'><a href='index.asp?lang=de&ID=6&category=177' class='link-standard-grau-100'>Geodäsie</span></a><br>Band: 14<br>
+																ISBN&nbsp;978-3-8440-0875-3, Deutsch, 
+																Paperback, 
+																	<span style='white-space: nowrap'>192&nbsp;Seiten</span>, 
+																	<br>21 x 14,8 cm, 284 g, 48,80&nbsp;&euro;<br />
+																März&nbsp;2012				
+															</small>
+															<p class="pt-2">
+																			
+															</p>
+
+															<p>auch als Online-Publikation verfügbar</p>
+
+
+														</div>
+        
+														 <div class="text-right"><i class="fa-solid fa-angles-right fa-fw pr-1"></i><a class="link-standard-grau-100" href="index.asp?lang=de&ID=8&ISBN=978-3-8440-0875-3" >weitere Informationen</a></div>
+													 </div>
+												 </div>
+											 </div>
+										 </div>
+									</div>
+									
+									<div class="d-none d-md-block">
+										<div class="d-flex justify-content-center pb-3">
+											<div class="card w-75 bg-10" style="min-height: 400px; border: 1px solid #005091;">
+												<div class="row no-gutters">
+													<div class="col-auto m-4 text-center">
+														<figure class="figure">
+															
+																<a href="index.asp?lang=de&ID=8&ISBN=978-3-8322-9543-1" class="text-center">
+																	<img class="img-fluid" src="/Cover/978-3-8322-9543-1_Cover_s.gif" alt="978-3-8322-9543-1" style="border: 1px solid #005091;">
+																</a>
+															
+																<figcaption class="custom-figure-caption pt-2">
+																	
+																		Print-Version<br /><i class='fa-solid fa-book-open fa-xl color-blau-100' aria-hidden='true'></i>
+																	
+																</figcaption>
+															
+														</figure>
+											
+													</div>
+													<div class="col">
+														<div class="card-body" >
+															<h6 class="card-title mr-1">Sven Weisbrich, Robert Kaden (Hrsg.)</h6>
+
+													
+															<div class="card-text mr-1 color-blau-100">
+																Entwicklerforum Geodäsie und Geoinformationstechnik 2010
+																<p class="pt-3 color-100">
+																	
+																</p>
+															</div>
+                                                    
+
+															<div class="mb-0 mr-1 pt-3">
+															<small>
+																<span style='font-size: 1rem;'><a href='index.asp?lang=de&ID=6&category=177' class='link-standard-grau-100'>Geodäsie</span></a><br>Band: 13<br>
+																ISBN&nbsp;978-3-8322-9543-1, Deutsch, 
+																Paperback, 
+																		<span style='white-space: nowrap'>158&nbsp;Seiten</span>, 
+																	<br>21 x 14,8 cm, 233 g, 48,80&nbsp;&euro;<br />
+																Oktober&nbsp;2010				
+															</small>
+															<p class="pt-2">
+																
+															</p>
+
+
+														</div>
+                                                
+														</div>
+													</div>
+												</div>
+                                   
+												<div class="card-footer w-100  border-0 bg-10 mt-3 mb-3">
+													<div class="row">
+														<div class="col-auto">
+															Auch als Online-Publikation verfügbar
+														</div>
+														<div class="col text-right">
+															<div><i class="fa-solid fa-angles-right fa-fw pr-1"></i><a class="link-standard-grau-100" href="index.asp?lang=de&ID=8&ISBN=978-3-8322-9543-1" >weitere Informationen</a></div>
+														</div>
+													</div>
+
+													
+
+												</div>
+											</div>
+								
+										</div>
+									</div>
+
+									<div class="d-block d-md-none">
+										 <div class="row justify-content-center pb-4">
+											 <div class="col-12">
+												 <div class="card bg-10" style="border: 1px solid #005091;">
+
+													 
+															 <a href="index.asp?lang=de&ID=8&ISBN=978-3-8322-9543-1" class="text-center">
+																 <img class="card-img-top px-4 mt-4 img-fluid" src="/Cover/978-3-8322-9543-1_Cover_b.gif" alt="978-3-8322-9543-1">
+															 </a>
+													 
+
+													 <div class="card-body bg-10">
+														 <h6 class="card-title px-2">Sven Weisbrich, Robert Kaden (Hrsg.)</h6>
+														 <div class="card-text px-2 color-blau-100">
+															 Entwicklerforum Geodäsie und Geoinformationstechnik 2010
+														 </div>
+														 <div  class="card-text px-2 pt-3">
+															<small>
+																<span style='font-size: 1rem;'><a href='index.asp?lang=de&ID=6&category=177' class='link-standard-grau-100'>Geodäsie</span></a><br>Band: 13<br>
+																ISBN&nbsp;978-3-8322-9543-1, Deutsch, 
+																Paperback, 
+																	<span style='white-space: nowrap'>158&nbsp;Seiten</span>, 
+																	<br>21 x 14,8 cm, 233 g, 48,80&nbsp;&euro;<br />
+																Oktober&nbsp;2010				
+															</small>
+															<p class="pt-2">
+																			
+															</p>
+
+															<p>auch als Online-Publikation verfügbar</p>
+
+
+														</div>
+        
+														 <div class="text-right"><i class="fa-solid fa-angles-right fa-fw pr-1"></i><a class="link-standard-grau-100" href="index.asp?lang=de&ID=8&ISBN=978-3-8322-9543-1" >weitere Informationen</a></div>
+													 </div>
+												 </div>
+											 </div>
+										 </div>
+									</div>
+									
+									<div class="d-none d-md-block">
+										<div class="d-flex justify-content-center pb-3">
+											<div class="card w-75 bg-10" style="min-height: 400px; border: 1px solid #005091;">
+												<div class="row no-gutters">
+													<div class="col-auto m-4 text-center">
+														<figure class="figure">
+															
+																<a href="index.asp?lang=de&ID=8&ISBN=978-3-8322-8830-3" class="text-center">
+																	<img class="img-fluid" src="/Cover/978-3-8322-8830-3_Cover_s.gif" alt="978-3-8322-8830-3" style="border: 1px solid #005091;">
+																</a>
+															
+																<figcaption class="custom-figure-caption pt-2">
+																	
+																		Print-Version<br /><i class='fa-solid fa-book-open fa-xl color-blau-100' aria-hidden='true'></i>
+																	
+																</figcaption>
+															
+														</figure>
+											
+													</div>
+													<div class="col">
+														<div class="card-body" >
+															<h6 class="card-title mr-1">Thomas Abmayr</h6>
+
+													
+															<div class="card-text mr-1 color-blau-100">
+																Calibration and Registration Framework for Multisensor Panoramic Color Scanning
+																<p class="pt-3 color-100">
+																	
+																</p>
+															</div>
+                                                    
+
+															<div class="mb-0 mr-1 pt-3">
+															<small>
+																<span style='font-size: 1rem;'><a href='index.asp?lang=de&ID=6&category=177' class='link-standard-grau-100'>Geodäsie</span></a><br>Band: 12<br>
+																ISBN&nbsp;978-3-8322-8830-3, Englisch, 
+																Paperback, 
+																		<span style='white-space: nowrap'>188&nbsp;Seiten</span>, 
+																	<br>21 x 14,8 cm, 278 g, 48,80&nbsp;&euro;<br />
+																Februar&nbsp;2010				
+															</small>
+															<p class="pt-2">
+																
+															</p>
+
+
+														</div>
+                                                
+														</div>
+													</div>
+												</div>
+                                   
+												<div class="card-footer w-100  border-0 bg-10 mt-3 mb-3">
+													<div class="row">
+														<div class="col-auto">
+															Auch als Online-Publikation verfügbar
+														</div>
+														<div class="col text-right">
+															<div><i class="fa-solid fa-angles-right fa-fw pr-1"></i><a class="link-standard-grau-100" href="index.asp?lang=de&ID=8&ISBN=978-3-8322-8830-3" >weitere Informationen</a></div>
+														</div>
+													</div>
+
+													
+
+												</div>
+											</div>
+								
+										</div>
+									</div>
+
+									<div class="d-block d-md-none">
+										 <div class="row justify-content-center pb-4">
+											 <div class="col-12">
+												 <div class="card bg-10" style="border: 1px solid #005091;">
+
+													 
+															 <a href="index.asp?lang=de&ID=8&ISBN=978-3-8322-8830-3" class="text-center">
+																 <img class="card-img-top px-4 mt-4 img-fluid" src="/Cover/978-3-8322-8830-3_Cover_b.gif" alt="978-3-8322-8830-3">
+															 </a>
+													 
+
+													 <div class="card-body bg-10">
+														 <h6 class="card-title px-2">Thomas Abmayr</h6>
+														 <div class="card-text px-2 color-blau-100">
+															 Calibration and Registration Framework for Multisensor Panoramic Color Scanning
+														 </div>
+														 <div  class="card-text px-2 pt-3">
+															<small>
+																<span style='font-size: 1rem;'><a href='index.asp?lang=de&ID=6&category=177' class='link-standard-grau-100'>Geodäsie</span></a><br>Band: 12<br>
+																ISBN&nbsp;978-3-8322-8830-3, Englisch, 
+																Paperback, 
+																	<span style='white-space: nowrap'>188&nbsp;Seiten</span>, 
+																	<br>21 x 14,8 cm, 278 g, 48,80&nbsp;&euro;<br />
+																Februar&nbsp;2010				
+															</small>
+															<p class="pt-2">
+																			
+															</p>
+
+															<p>auch als Online-Publikation verfügbar</p>
+
+
+														</div>
+        
+														 <div class="text-right"><i class="fa-solid fa-angles-right fa-fw pr-1"></i><a class="link-standard-grau-100" href="index.asp?lang=de&ID=8&ISBN=978-3-8322-8830-3" >weitere Informationen</a></div>
+													 </div>
+												 </div>
+											 </div>
+										 </div>
+									</div>
+									
+									<div class="d-none d-md-block">
+										<div class="d-flex justify-content-center pb-3">
+											<div class="card w-75 bg-10" style="min-height: 400px; border: 1px solid #005091;">
+												<div class="row no-gutters">
+													<div class="col-auto m-4 text-center">
+														<figure class="figure">
+															
+																<a href="index.asp?lang=de&ID=8&ISBN=978-3-8322-2345-8" class="text-center">
+																	<img class="img-fluid" src="/Cover/3-8322-2345-2_Cover_s.gif" alt="978-3-8322-2345-8" style="border: 1px solid #005091;">
+																</a>
+															
+																<figcaption class="custom-figure-caption pt-2">
+																	
+																		Print-Version<br /><i class='fa-solid fa-book-open fa-xl color-blau-100' aria-hidden='true'></i>
+																	
+																</figcaption>
+															
+														</figure>
+											
+													</div>
+													<div class="col">
+														<div class="card-body" >
+															<h6 class="card-title mr-1">Gwendolyn Läufer</h6>
+
+													
+															<div class="card-text mr-1 color-blau-100">
+																Erzeugung hybrider digitaler Höhenmodelle aktiver Vulkane am Beispiel des Merapi, Indonesien
+																<p class="pt-3 color-100">
+																	
+																</p>
+															</div>
+                                                    
+
+															<div class="mb-0 mr-1 pt-3">
+															<small>
+																<span style='font-size: 1rem;'><a href='index.asp?lang=de&ID=6&category=177' class='link-standard-grau-100'>Geodäsie</span></a><br>Band: 11<br>
+																ISBN&nbsp;978-3-8322-2345-8, Deutsch, 
+																Paperback, 
+																		<span style='white-space: nowrap'>172&nbsp;Seiten</span>, 
+																	<br>21 x 14,8 cm, 258 g, 48,80&nbsp;&euro;<br />
+																Dezember&nbsp;2003				
+															</small>
+															<p class="pt-2">
+																
+															</p>
+
+
+														</div>
+                                                
+														</div>
+													</div>
+												</div>
+                                   
+												<div class="card-footer w-100  border-0 bg-10 mt-3 mb-3">
+													<div class="row">
+														<div class="col-auto">
+															Auch als Online-Publikation verfügbar
+														</div>
+														<div class="col text-right">
+															<div><i class="fa-solid fa-angles-right fa-fw pr-1"></i><a class="link-standard-grau-100" href="index.asp?lang=de&ID=8&ISBN=978-3-8322-2345-8" >weitere Informationen</a></div>
+														</div>
+													</div>
+
+													
+
+												</div>
+											</div>
+								
+										</div>
+									</div>
+
+									<div class="d-block d-md-none">
+										 <div class="row justify-content-center pb-4">
+											 <div class="col-12">
+												 <div class="card bg-10" style="border: 1px solid #005091;">
+
+													 
+															 <a href="index.asp?lang=de&ID=8&ISBN=978-3-8322-2345-8" class="text-center">
+																<img class="card-img-top px-4 mt-4 img-fluid" src="/Cover/3-8322-2345-2_Cover_b.gif" alt="978-3-8322-2345-8">
+															 </a>
+													 
+
+													 <div class="card-body bg-10">
+														 <h6 class="card-title px-2">Gwendolyn Läufer</h6>
+														 <div class="card-text px-2 color-blau-100">
+															 Erzeugung hybrider digitaler Höhenmodelle aktiver Vulkane am Beispiel des Merapi, Indonesien
+														 </div>
+														 <div  class="card-text px-2 pt-3">
+															<small>
+																<span style='font-size: 1rem;'><a href='index.asp?lang=de&ID=6&category=177' class='link-standard-grau-100'>Geodäsie</span></a><br>Band: 11<br>
+																ISBN&nbsp;978-3-8322-2345-8, Deutsch, 
+																Paperback, 
+																	<span style='white-space: nowrap'>172&nbsp;Seiten</span>, 
+																	<br>21 x 14,8 cm, 258 g, 48,80&nbsp;&euro;<br />
+																Dezember&nbsp;2003				
+															</small>
+															<p class="pt-2">
+																			
+															</p>
+
+															<p>auch als Online-Publikation verfügbar</p>
+
+
+														</div>
+        
+														 <div class="text-right"><i class="fa-solid fa-angles-right fa-fw pr-1"></i><a class="link-standard-grau-100" href="index.asp?lang=de&ID=8&ISBN=978-3-8322-2345-8" >weitere Informationen</a></div>
+													 </div>
+												 </div>
+											 </div>
+										 </div>
+									</div>
+									
+									<div class="d-none d-md-block">
+										<div class="d-flex justify-content-center pb-3">
+											<div class="card w-75 bg-10" style="min-height: 400px; border: 1px solid #005091;">
+												<div class="row no-gutters">
+													<div class="col-auto m-4 text-center">
+														<figure class="figure">
+															
+																<a href="index.asp?lang=de&ID=8&ISBN=978-3-8265-9312-3" class="text-center">
+																	<img class="img-fluid" src="/Cover/3-8265-9312-X_Cover_s.gif" alt="978-3-8265-9312-3" style="border: 1px solid #005091;">
+																</a>
+															
+																<figcaption class="custom-figure-caption pt-2">
+																	
+																		Print-Version<br /><i class='fa-solid fa-book-open fa-xl color-blau-100' aria-hidden='true'></i>
+																	
+																</figcaption>
+															
+														</figure>
+											
+													</div>
+													<div class="col">
+														<div class="card-body" >
+															<h6 class="card-title mr-1">John Bosco Kyalo Kiema</h6>
+
+													
+															<div class="card-text mr-1 color-blau-100">
+																Multi-Source Data Fusion and Image Compression in Urban Remote Sensing
+																<p class="pt-3 color-100">
+																	
+																</p>
+															</div>
+                                                    
+
+															<div class="mb-0 mr-1 pt-3">
+															<small>
+																<span style='font-size: 1rem;'><a href='index.asp?lang=de&ID=6&category=177' class='link-standard-grau-100'>Geodäsie</span></a><br>Band: 10<br>
+																ISBN&nbsp;978-3-8265-9312-3, Englisch, 
+																Paperback, 
+																		<span style='white-space: nowrap'>146&nbsp;Seiten</span>, 
+																	<br>21 x 14,8 cm, 215 g, 46 Abbildungen, 44,50&nbsp;&euro;<br />
+																September&nbsp;2001				
+															</small>
+															<p class="pt-2">
+																
+															</p>
+
+
+														</div>
+                                                
+														</div>
+													</div>
+												</div>
+                                   
+												<div class="card-footer w-100  border-0 bg-10 mt-3 mb-3">
+													<div class="row">
+														<div class="col-auto">
+															Auch als Online-Publikation verfügbar
+														</div>
+														<div class="col text-right">
+															<div><i class="fa-solid fa-angles-right fa-fw pr-1"></i><a class="link-standard-grau-100" href="index.asp?lang=de&ID=8&ISBN=978-3-8265-9312-3" >weitere Informationen</a></div>
+														</div>
+													</div>
+
+													
+
+												</div>
+											</div>
+								
+										</div>
+									</div>
+
+									<div class="d-block d-md-none">
+										 <div class="row justify-content-center pb-4">
+											 <div class="col-12">
+												 <div class="card bg-10" style="border: 1px solid #005091;">
+
+													 
+															 <a href="index.asp?lang=de&ID=8&ISBN=978-3-8265-9312-3" class="text-center">
+																<img class="card-img-top px-4 mt-4 img-fluid" src="/Cover/3-8265-9312-X_Cover_b.gif" alt="978-3-8265-9312-3">
+															 </a>
+													 
+
+													 <div class="card-body bg-10">
+														 <h6 class="card-title px-2">John Bosco Kyalo Kiema</h6>
+														 <div class="card-text px-2 color-blau-100">
+															 Multi-Source Data Fusion and Image Compression in Urban Remote Sensing
+														 </div>
+														 <div  class="card-text px-2 pt-3">
+															<small>
+																<span style='font-size: 1rem;'><a href='index.asp?lang=de&ID=6&category=177' class='link-standard-grau-100'>Geodäsie</span></a><br>Band: 10<br>
+																ISBN&nbsp;978-3-8265-9312-3, Englisch, 
+																Paperback, 
+																	<span style='white-space: nowrap'>146&nbsp;Seiten</span>, 
+																	<br>21 x 14,8 cm, 215 g, 46 Abbildungen, 44,50&nbsp;&euro;<br />
+																September&nbsp;2001				
+															</small>
+															<p class="pt-2">
+																			
+															</p>
+
+															<p>auch als Online-Publikation verfügbar</p>
+
+
+														</div>
+        
+														 <div class="text-right"><i class="fa-solid fa-angles-right fa-fw pr-1"></i><a class="link-standard-grau-100" href="index.asp?lang=de&ID=8&ISBN=978-3-8265-9312-3" >weitere Informationen</a></div>
+													 </div>
+												 </div>
+											 </div>
+										 </div>
+									</div>
+									
+									<div class="d-none d-md-block">
+										<div class="d-flex justify-content-center pb-3">
+											<div class="card w-75 bg-10" style="min-height: 400px; border: 1px solid #005091;">
+												<div class="row no-gutters">
+													<div class="col-auto m-4 text-center">
+														<figure class="figure">
+															
+																<a href="index.asp?lang=de&ID=8&ISBN=978-3-8265-8872-3" class="text-center">
+																	<img class="img-fluid" src="/Cover/978-3-8265-8872-3_Cover_s.gif" alt="978-3-8265-8872-3" style="border: 1px solid #005091;">
+																</a>
+															
+																<figcaption class="custom-figure-caption pt-2">
+																	
+																		Print-Version<br /><i class='fa-solid fa-book-open fa-xl color-blau-100' aria-hidden='true'></i>
+																	
+																</figcaption>
+															
+														</figure>
+											
+													</div>
+													<div class="col">
+														<div class="card-body" >
+															<h6 class="card-title mr-1">Michael Schmidt</h6>
+
+													
+															<div class="card-text mr-1 color-blau-100">
+																Grundprinzipien der Wavelet-Analyse und Anwendungen in der Geodäsie
+																<p class="pt-3 color-100">
+																	
+																</p>
+															</div>
+                                                    
+
+															<div class="mb-0 mr-1 pt-3">
+															<small>
+																<span style='font-size: 1rem;'><a href='index.asp?lang=de&ID=6&category=177' class='link-standard-grau-100'>Geodäsie</span></a><br>Band: 9<br>
+																ISBN&nbsp;978-3-8265-8872-3, Deutsch, 
+																Paperback, 
+																		<span style='white-space: nowrap'>324&nbsp;Seiten</span>, 
+																	<br>21 x 14,8 cm, 483 g, 54 Abbildungen, 49,00&nbsp;&euro;<br />
+																Mai&nbsp;2001				
+															</small>
+															<p class="pt-2">
+																
+															</p>
+
+
+														</div>
+                                                
+														</div>
+													</div>
+												</div>
+                                   
+												<div class="card-footer w-100  border-0 bg-10 mt-3 mb-3">
+													<div class="row">
+														<div class="col-auto">
+															Auch als Online-Publikation verfügbar
+														</div>
+														<div class="col text-right">
+															<div><i class="fa-solid fa-angles-right fa-fw pr-1"></i><a class="link-standard-grau-100" href="index.asp?lang=de&ID=8&ISBN=978-3-8265-8872-3" >weitere Informationen</a></div>
+														</div>
+													</div>
+
+													
+
+												</div>
+											</div>
+								
+										</div>
+									</div>
+
+									<div class="d-block d-md-none">
+										 <div class="row justify-content-center pb-4">
+											 <div class="col-12">
+												 <div class="card bg-10" style="border: 1px solid #005091;">
+
+													 
+															 <a href="index.asp?lang=de&ID=8&ISBN=978-3-8265-8872-3" class="text-center">
+																 <img class="card-img-top px-4 mt-4 img-fluid" src="/Cover/978-3-8265-8872-3_Cover_b.gif" alt="978-3-8265-8872-3">
+															 </a>
+													 
+
+													 <div class="card-body bg-10">
+														 <h6 class="card-title px-2">Michael Schmidt</h6>
+														 <div class="card-text px-2 color-blau-100">
+															 Grundprinzipien der Wavelet-Analyse und Anwendungen in der Geodäsie
+														 </div>
+														 <div  class="card-text px-2 pt-3">
+															<small>
+																<span style='font-size: 1rem;'><a href='index.asp?lang=de&ID=6&category=177' class='link-standard-grau-100'>Geodäsie</span></a><br>Band: 9<br>
+																ISBN&nbsp;978-3-8265-8872-3, Deutsch, 
+																Paperback, 
+																	<span style='white-space: nowrap'>324&nbsp;Seiten</span>, 
+																	<br>21 x 14,8 cm, 483 g, 54 Abbildungen, 49,00&nbsp;&euro;<br />
+																Mai&nbsp;2001				
+															</small>
+															<p class="pt-2">
+																			
+															</p>
+
+															<p>auch als Online-Publikation verfügbar</p>
+
+
+														</div>
+        
+														 <div class="text-right"><i class="fa-solid fa-angles-right fa-fw pr-1"></i><a class="link-standard-grau-100" href="index.asp?lang=de&ID=8&ISBN=978-3-8265-8872-3" >weitere Informationen</a></div>
+													 </div>
+												 </div>
+											 </div>
+										 </div>
+									</div>
+									
+									<div class="d-none d-md-block">
+										<div class="d-flex justify-content-center pb-3">
+											<div class="card w-75 bg-10" style="min-height: 400px; border: 1px solid #005091;">
+												<div class="row no-gutters">
+													<div class="col-auto m-4 text-center">
+														<figure class="figure">
+															
+																<a href="index.asp?lang=de&ID=8&ISBN=978-3-8265-8193-9" class="text-center">
+																	<img class="img-fluid" src="/Cover/978-3-8265-8193-9_Cover_s.gif" alt="978-3-8265-8193-9" style="border: 1px solid #005091;">
+																</a>
+															
+																<figcaption class="custom-figure-caption pt-2">
+																	
+																		Print-Version<br /><i class='fa-solid fa-book-open fa-xl color-blau-100' aria-hidden='true'></i>
+																	
+																</figcaption>
+															
+														</figure>
+											
+													</div>
+													<div class="col">
+														<div class="card-body" >
+															<h6 class="card-title mr-1">Jochen Meidow</h6>
+
+													
+															<div class="card-text mr-1 color-blau-100">
+																Gemeinsame Segmentierung und Interpretation digitaler Luftbilder mit Hilfe der Bayes-Statistik
+																<p class="pt-3 color-100">
+																	
+																</p>
+															</div>
+                                                    
+
+															<div class="mb-0 mr-1 pt-3">
+															<small>
+																<span style='font-size: 1rem;'><a href='index.asp?lang=de&ID=6&category=177' class='link-standard-grau-100'>Geodäsie</span></a><br>Band: 8<br>
+																ISBN&nbsp;978-3-8265-8193-9, Deutsch, 
+																Paperback, 
+																		<span style='white-space: nowrap'>100&nbsp;Seiten</span>, 
+																	<br>20,5 x 14,5 cm, 147 g, 39,50&nbsp;&euro;<br />
+																Dezember&nbsp;2000				
+															</small>
+															<p class="pt-2">
+																
+															</p>
+
+
+														</div>
+                                                
+														</div>
+													</div>
+												</div>
+                                   
+												<div class="card-footer w-100  border-0 bg-10 mt-3 mb-3">
+													<div class="row">
+														<div class="col-auto">
+															Auch als Online-Publikation verfügbar
+														</div>
+														<div class="col text-right">
+															<div><i class="fa-solid fa-angles-right fa-fw pr-1"></i><a class="link-standard-grau-100" href="index.asp?lang=de&ID=8&ISBN=978-3-8265-8193-9" >weitere Informationen</a></div>
+														</div>
+													</div>
+
+													
+
+												</div>
+											</div>
+								
+										</div>
+									</div>
+
+									<div class="d-block d-md-none">
+										 <div class="row justify-content-center pb-4">
+											 <div class="col-12">
+												 <div class="card bg-10" style="border: 1px solid #005091;">
+
+													 
+															 <a href="index.asp?lang=de&ID=8&ISBN=978-3-8265-8193-9" class="text-center">
+																 <img class="card-img-top px-4 mt-4 img-fluid" src="/Cover/978-3-8265-8193-9_Cover_b.gif" alt="978-3-8265-8193-9">
+															 </a>
+													 
+
+													 <div class="card-body bg-10">
+														 <h6 class="card-title px-2">Jochen Meidow</h6>
+														 <div class="card-text px-2 color-blau-100">
+															 Gemeinsame Segmentierung und Interpretation digitaler Luftbilder mit Hilfe der Bayes-Statistik
+														 </div>
+														 <div  class="card-text px-2 pt-3">
+															<small>
+																<span style='font-size: 1rem;'><a href='index.asp?lang=de&ID=6&category=177' class='link-standard-grau-100'>Geodäsie</span></a><br>Band: 8<br>
+																ISBN&nbsp;978-3-8265-8193-9, Deutsch, 
+																Paperback, 
+																	<span style='white-space: nowrap'>100&nbsp;Seiten</span>, 
+																	<br>20,5 x 14,5 cm, 147 g, 39,50&nbsp;&euro;<br />
+																Dezember&nbsp;2000				
+															</small>
+															<p class="pt-2">
+																			
+															</p>
+
+															<p>auch als Online-Publikation verfügbar</p>
+
+
+														</div>
+        
+														 <div class="text-right"><i class="fa-solid fa-angles-right fa-fw pr-1"></i><a class="link-standard-grau-100" href="index.asp?lang=de&ID=8&ISBN=978-3-8265-8193-9" >weitere Informationen</a></div>
+													 </div>
+												 </div>
+											 </div>
+										 </div>
+									</div>
+									
+									<div class="d-none d-md-block">
+										<div class="d-flex justify-content-center pb-3">
+											<div class="card w-75 bg-10" style="min-height: 400px; border: 1px solid #005091;">
+												<div class="row no-gutters">
+													<div class="col-auto m-4 text-center">
+														<figure class="figure">
+															
+																<a href="index.asp?lang=de&ID=8&ISBN=978-3-8265-7621-8" class="text-center">
+																	<img class="img-fluid" src="/Cover/978-3-8265-7621-8_Cover_s.gif" alt="978-3-8265-7621-8" style="border: 1px solid #005091;">
+																</a>
+															
+																<figcaption class="custom-figure-caption pt-2">
+																	
+																		Print-Version<br /><i class='fa-solid fa-book-open fa-xl color-blau-100' aria-hidden='true'></i>
+																	
+																</figcaption>
+															
+														</figure>
+											
+													</div>
+													<div class="col">
+														<div class="card-body" >
+															<h6 class="card-title mr-1">Thomas Hau</h6>
+
+													
+															<div class="card-text mr-1 color-blau-100">
+																Generische Strukturen zur Modellierung der Parameterschätzung
+																<p class="pt-3 color-100">
+																	
+																</p>
+															</div>
+                                                    
+
+															<div class="mb-0 mr-1 pt-3">
+															<small>
+																<span style='font-size: 1rem;'><a href='index.asp?lang=de&ID=6&category=177' class='link-standard-grau-100'>Geodäsie</span></a><br>Band: 7<br>
+																ISBN&nbsp;978-3-8265-7621-8, Deutsch, 
+																Paperback, 
+																		<span style='white-space: nowrap'>172&nbsp;Seiten</span>, 
+																	<br>20,5 x 14,5 cm, 255 g, 93 Abbildungen, 42,00&nbsp;&euro;<br />
+																Juli&nbsp;2000				
+															</small>
+															<p class="pt-2">
+																
+															</p>
+
+
+														</div>
+                                                
+														</div>
+													</div>
+												</div>
+                                   
+												<div class="card-footer w-100  border-0 bg-10 mt-3 mb-3">
+													<div class="row">
+														<div class="col-auto">
+															Auch als Online-Publikation verfügbar
+														</div>
+														<div class="col text-right">
+															<div><i class="fa-solid fa-angles-right fa-fw pr-1"></i><a class="link-standard-grau-100" href="index.asp?lang=de&ID=8&ISBN=978-3-8265-7621-8" >weitere Informationen</a></div>
+														</div>
+													</div>
+
+													
+
+												</div>
+											</div>
+								
+										</div>
+									</div>
+
+									<div class="d-block d-md-none">
+										 <div class="row justify-content-center pb-4">
+											 <div class="col-12">
+												 <div class="card bg-10" style="border: 1px solid #005091;">
+
+													 
+															 <a href="index.asp?lang=de&ID=8&ISBN=978-3-8265-7621-8" class="text-center">
+																 <img class="card-img-top px-4 mt-4 img-fluid" src="/Cover/978-3-8265-7621-8_Cover_b.gif" alt="978-3-8265-7621-8">
+															 </a>
+													 
+
+													 <div class="card-body bg-10">
+														 <h6 class="card-title px-2">Thomas Hau</h6>
+														 <div class="card-text px-2 color-blau-100">
+															 Generische Strukturen zur Modellierung der Parameterschätzung
+														 </div>
+														 <div  class="card-text px-2 pt-3">
+															<small>
+																<span style='font-size: 1rem;'><a href='index.asp?lang=de&ID=6&category=177' class='link-standard-grau-100'>Geodäsie</span></a><br>Band: 7<br>
+																ISBN&nbsp;978-3-8265-7621-8, Deutsch, 
+																Paperback, 
+																	<span style='white-space: nowrap'>172&nbsp;Seiten</span>, 
+																	<br>20,5 x 14,5 cm, 255 g, 93 Abbildungen, 42,00&nbsp;&euro;<br />
+																Juli&nbsp;2000				
+															</small>
+															<p class="pt-2">
+																			
+															</p>
+
+															<p>auch als Online-Publikation verfügbar</p>
+
+
+														</div>
+        
+														 <div class="text-right"><i class="fa-solid fa-angles-right fa-fw pr-1"></i><a class="link-standard-grau-100" href="index.asp?lang=de&ID=8&ISBN=978-3-8265-7621-8" >weitere Informationen</a></div>
+													 </div>
+												 </div>
+											 </div>
+										 </div>
+									</div>
+									
+						
+							<!--------------------------------------------------------------------->
+							<div class="d-none d-lg-block">
+								<div class="row justify-content-center ">
+								<div class="col-auto">
+
+									<table cellpadding="0" cellspacing="0">
+										<tr>
+											<td>
+												<center>
+												
+													<table  cellpadding="0" cellspacing="0">
+														<tr>
+							
+													
+													<td style="vertical-align: middle; ">
+														<button disabled class="btn-page-blue disabled" aria-label="Erste Seite"><i class='fa-solid fa-angles-left'></i></button>
+													</td>
+												
+														<td style="vertical-align: middle;">
+															<button disabled class="btn-page-blue disabled" aria-label="Zurück"><i class='fa-solid fa-angle-left'></i></button>
+														<td>
+														
+													
+														<td style="vertical-align: middle; ">
+															<form method="POST" action="#" >
+													
+																	<button  class="btn-page-blue active" disabled aria-label="Seite 1">1</button>
+																
+															</form>
+														</td>
+														
+														
+														
+														<td style="vertical-align: middle;">
+															<form method="POST" action="#">
+													
+																	<input type="hidden" name= "txtPosition"value="2">
+																	<input type="hidden" name= "Ordnungskriterium" value="DatumAbsteigend" >
+																	<input type="hidden" name="MaxAnzeigeRecordset" value="10">
+																	<INPUT type="hidden" value="2" name="Seite" >
+																	<button  class="btn-page-blue" aria-label="Seite 2">2</button>
+																			
+
+																</form>
+															</td>
+														
+													
+														<td style="vertical-align: middle; ">
+															<button disabled class="btn-page-blue disabled" aria-label="weitere Seiten"><i class="fa-solid fa-ellipsis"></i></button>
+														</td>
+													
+													
+														<td style="vertical-align: middle;">
+															<form method="POST" action="#">
+													
+																	<input type="hidden" name= "txtPosition"value="1">
+																	<input type="hidden" name= "Ordnungskriterium" value="DatumAbsteigend">
+																	<input type="hidden" name="MaxAnzeigeRecordset" value="10">
+																	<INPUT type="hidden" value=">>" name="forward">
+																	<button type="submit" class="btn-page-blue" aria-label="Weiter"><i class="fa-solid fa-angle-right"></i></button>
+																				</form>
+														</td>
+													
+							
+							
+													
+														<td style="vertical-align: middle;">
+															<form method="POST" action="#">
+																
+																	<input type="hidden" name= "txtPosition"value="2">
+																	<input type="hidden" name= "Ordnungskriterium" value="DatumAbsteigend">
+																	<input type="hidden" name="MaxAnzeigeRecordset" value="10">
+																	<INPUT type="hidden" value=">>>" name="lastPage" >
+																	<button type="submit" class="btn-page-blue" aria-label="Letzte Seite"><i class="fa-solid fa-angles-right" ></i></button>
+																
+														</form>
+													</td>
+												
+							
+													</tr>
+												</table>
+												
+										</center>
+											</td>
+								</tr>
+							</table>
+
+								</div>
+							</div>
+							</div>
+							<!--------------------------------------------------------------------->
+						 
+							<div class="row align-items-center d-block d-lg-none pt-3">
+								<div class="col-12">
+									<div class="card w-100 bg-20 mx-auto border-0">
+										<div class="d-flex justify-content-center align-items-center">
+
+											<div>
+												
+													<button type="button" class="btn-page-single-blue disabled shadow-none" disabled aria-label="Erste Seite"><i class='fa-solid fa-angles-left'></i></button>
+												
+											</div>
+										
+											<div class="pl-1">
+												
+													<button type="button" class="btn-page-single-blue disabled shadow-none" disabled aria-label="Zurück"><i class='fa-solid fa-angle-left'></i></button>
+												
+											</div>
+											<div class="px-2" style="width:125px;">
+												<form method="POST" action="#" id="idGeheZu">
+													<select  name="selectPage" id="selectPage" class="form-control form-control-chosen" >
+														
+																<option selected="selected">1</option>
+															
+																<option>2</option>
+															
+													</select>
+
+													<input type="hidden" name= "txtPosition" id="idTextPosition">
+													<input type="hidden" name= "Ordnungskriterium" value="DatumAbsteigend">
+													<input type="hidden" name="MaxAnzeigeRecordset" value="10">
+													<INPUT type="hidden"  name="Seite" id="idSeite">
+
+
+												</form>
+
+												<script>
+												
+													$("#selectPage").on("change", function(){
+														$("#idSeite").val($("#selectPage").val());
+														$("#idTextPosition").val($("#selectPage").val());
+														$("#idGeheZu").submit();
+													})
+												</script>
+
+											</div>
+
+											<div class="pr-1">
+												
+													<form method="POST" action="#">
+														<input type="hidden" name= "txtPosition" value="2">
+														<input type="hidden" name= "Ordnungskriterium" value="DatumAbsteigend">
+														<input type="hidden" name="MaxAnzeigeRecordset" value="10">
+														<INPUT type="hidden"  name="Seite" value="2">
+														<button type="submit" class="btn-page-single-blue shadow-none" id="idBtnNext" aria-label="Weiter"><i class='fa-solid fa-angle-right' ></i></button>
+													</form>
+												
+											</div>
+
+											<div>
+												
+													<form method="POST" action="#">
+														<input type="hidden" name= "txtPosition" value="2">
+														<input type="hidden" name= "Ordnungskriterium" value="DatumAbsteigend">
+														<input type="hidden" name="MaxAnzeigeRecordset" value="10">
+														<INPUT type="hidden"  name="Seite" value="2">
+														<button type="submit" class="btn-page-single-blue shadow-none" aria-label="Letzte Seite"><i class='fa-solid fa-angles-right'></i></button>
+													</form>
+												
+											</div>
+
+										</div>
+									</div>
+								</div>
+							</div>
+						
+
+						
+						</div>
+					</div>
+                    
+				</div>   
+			</div>
+		</header>
+
+	
+
+
+<script type="text/javascript">
+
+
+    $(function () {
+
+        $('#Ordnungskriterium, #MaxAnzeigeRecordset, #selectPage').chosen(
+            {
+                disable_search_threshold: 10,
+			});
+    });
+
+
+</script>
+
+
+
+
+            
+           
+            <div class="container bg-100 color-10 py-4" >
+                <div class="row h-100">
+                    <div class="col-12 col-sm-6 col-lg-4 order-lg-1 pt-5 pt-sm-4 pt-lg-0">
+                        <div class="pb-4">
+                            Shaker Verlag GmbH<br />Am Langen Graben 15a<br />52353 Düren
+                        </div>
+                        <div>
+                            <div><i class="fa-solid fa-phone fa-fw"></i>&nbsp;&nbsp;<a href="tel: +492421990110" class="telefon-standard-grau-10">+49 2421 99011 0</a></div>
+                            <div class="py-1"><i class="fa-solid fa-fax fa-fw"></i>&nbsp;&nbsp;+49 2421 99011 9</div>
+                            <div><i class="fa-solid fa-envelope fa-fw"></i>&nbsp;&nbsp;<a href="mailto:info@shaker.de" class="link-standard-grau-10">info@shaker.de</a></div>
+                            <div class="pt-1"><i class="fa-solid fa-globe fa-fw"></i>&nbsp;&nbsp;<a href="https://www.shaker.de" class="link-standard-grau-10">www.shaker.de</a></div>
+                        </div>
+                        <div class="pt-4">
+                            <div class="row">
+                                <div class="col-1">
+                                    <i class="fa-solid fa-clock fa-fw"></i>
+                                </div>
+                                <div class="col">
+                                   Mo. - Do. 8:00 Uhr bis 16:00 Uhr<br />Fr. 8:00 Uhr bis 15:00 Uhr
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-lg-6 order-first order-lg-2">
+                        <div class="pb-4">Kontaktieren Sie uns. Wir helfen Ihnen gerne weiter.</div>
+                        <form name="KontaktForm" id="KontaktForm" method="post" action="#" onsubmit="Cookies.set('Kontaktformular', 'gesendet');">
+
+                            
+
+                            <div class="row">
+                                <div class="col-12 col-lg-10 col-xl-9">
+                                    <div class="form-group label-xs">
+                                        <label for="KontaktBetreff" class="d-block d-sm-none" id="KontaktBetreffLabel" name="KontaktBetreffLabel">Betreff*</label>
+                                        <select name="KontaktBetreff" id="KontaktBetreff" style="box-shadow: none;" class="form-control form-control-chosen " data-placeholder="Betreff*" onchange= "document.getElementById('errorBoxKontaktBetreff').innerHTML = ''; if (this.selectedIndex > 0){document.getElementById('KontaktBetreffLabel').style.visibility='hidden'} else {document.getElementById('KontaktBetreffLabel').style.visibility='visible'};">
+                                            <option value="0"></option>
+
+                                            
+                                                    <option value="1">Publikation</option>
+                                                
+                                                    <option value="2">Angebot</option>
+                                                
+                                                    <option value="3">Bestellung</option>
+                                                
+                                                    <option value="4">Widerruf einer Bestellung</option>
+                                                
+                                                    <option value="5">Widerruf eines Auftrages</option>
+                                                
+
+                                        </select>
+                                        <span id="errorBoxKontaktBetreff" class="form-text errorbox"></span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            
+
+                            <div class="row">
+                                <div class="col-12 col-lg-10 col-xl-9">
+                                    <div class="form-group">
+                                        <div class="input-group">
+       
+                                            <input type="text" class="form-control" id="KontaktEmail" name="KontaktEmail" maxlength="50" placeholder="E-Mail*" style="box-shadow: none;" aria-label="E-Mail">
+	
+                                        </div>
+                                        <span id="errorBoxKontaktEmail" class="form-text errorbox"></span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-12 col-lg-10 col-xl-9">
+                                    <div class="form-group">
+
+                                        <div class="input-group">
+    
+                                            <textarea class="form-control" placeholder="Nachricht*" id="KontaktNachricht" name="KontaktNachricht" rows="5" maxlength="750" style="resize: none; box-shadow: none;" aria-label="Nachricht an den Verlag"></textarea>
+        
+                                        </div>
+                                        <div class="text-right" ><span  id="count_message" class="badge badge-pill bg-white color-blau-100"></span></div>
+                                        <span id="errorBoxKontaktNachricht" class="form-text errorbox"></span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <script>
+                                var text_max = 750;
+                                $('#count_message').html('0 / ' + text_max );
+
+                                $('#KontaktNachricht').keyup(function() {
+                                  var text_length = $('#KontaktNachricht').val().length;
+                                  var text_remaining = text_max - text_length;
+  
+                                  $('#count_message').html(text_length + ' / ' + text_max);
+                                });
+                            </script>
+
+                            <div class="row pt-4">
+                                 <div class="col-12 col-lg-10 col-xl-9">
+                                    <div class="jumbotron pt-2 pb-3 px-0 mb-3 bg-white">
+                                        <!--
+                                        <div class="row">
+                                            <div class="col-12 text-left color-100">
+                                                <span style="padding: 0 0 0 13px;">Sicherheitscode</span>
+                                            </div>
+                                        </div>
+                                        -->
+                                        <div class="row pt-2">
+                                            <div class="col-12 text-center">
+                                                <div class="d-flex flex-row justify-content-center align-items-center">
+                                                    <div><img src="../../Layout/include/captcha.asp" id="imgCaptcha" onload="document.getElementById('KontaktCode2').value = Cookies.get('captcha'); Cookies.remove('captcha')" alt="Captcha"/></div>
+                                                    <div class="pl-3"><button type="button" class="button_ohne_focus bg-white" onclick="RefreshImage('imgCaptcha');" style="border: none;" aria-label="Captcha Refresh"><i class="fa-solid fa-arrows-rotate fa-lg color-blau-60 spin-hover"></i></button></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                 </div>
+                            </div>
+
+                            <div class="row pt-2">
+                                <div class="col-12 col-lg-10 col-xl-9">
+                                    <div class="form-group">
+                                        <label for="KontaktCode" >Bitte geben Sie den Sicherheitscode ein*</label>
+                                        <div class="input-group">
+                                            <input type="text" class="form-control" id="KontaktCode" name="KontaktCode" maxlength="8" placeholder="Sicherheitscode*" style="box-shadow: none;">
+                                            <input type="hidden" id="KontaktCode2" name="KontaktCode2" value=""/>
+                                        </div>
+    
+                                    </div>
+                                </div>
+                            </div>
+                            <span id="errorBoxKontaktCode"  class="form-text errorbox"></span>
+
+
+
+                            <div class="row pt-2">
+                                <div class="col-12 col-lg-10 col-xl-9">
+                                                <div class="form-group">
+                                        <div class="custom-control custom-checkbox">
+                                            <input type="checkbox" class="custom-control-input" id="KontaktDatenschutz" name="KontaktDatenschutz" value="1" onclick="document.getElementById('KontaktDatenschutz').classList.remove('is-valid');">
+                                            <label class="custom-control-label" for="KontaktDatenschutz" id="KontaktDatenschutzLabel">Ich willige darin ein, dass die Shaker Verlag GmbH die von mir überreichten Informationen und Kontaktdaten dazu verwendet, um mit mir anlässlich meiner Kontaktaufnahme in Verbindung zu treten, hierüber zu kommunizieren und meine Anfrage abzuwickeln. Dies gilt insbesondere für die Verwendung der E-Mail-Adresse und der Telefonnummer zum vorgenannten Zweck. Die Datenschutzerklärung kann <a href="../service/index.asp?lang=de&id=1" class="link-standard-grau-10" target="_blank">hier</a> eingesehen werden.*</label>
+                                        </div>
+    
+                                    </div>
+                                </div>
+                            </div>
+                           <span id="errorBoxKontaktDatenschutz" class="form-text errorbox"></span>
+
+                            <div class="row pb-4 pb-lg-0 pt-3">
+                                <div class="col-12 col-lg-10 col-xl-9 text-center">
+                                    <div><input type="text" id="KontaktSicherheit" name="KontaktSicherheit" style="display: none;" aria-hidden="true" aria-label="Sicherheit"/></div>
+                                    <div><button type="submit" class="btn btn-blue shadow-none" id="NachrichtAbsenden" onclick="$('#KontaktDatenschutzLabel').css('color', '#f0f0f0');">Nachricht absenden</button></div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-2 order-lg-3 pt-5 pt-sm-4 pt-lg-0">
+                        <div>Social Media</div>
+                        <div class="d-none d-lg-block">
+                            <div class="pt-4"><a href="https://de.linkedin.com/company/shaker-verlag-gmbh" class="socialmedia" aria-label="linkedIn"><i class="fa-brands fa-linkedin fa-2xl fa-fw"  aria-hidden="true"></i></a></div>
+                            <div class="py-3"><a href="https://www.facebook.com/shakerverlag" class="socialmedia" aria-label="Facebook"><i class="fa-brands fa-facebook fa-2xl fa-fw" aria-hidden="true"></i></a></div>
+                            <div><a href="https://www.instagram.com/shakermedia.gmbh/" class="socialmedia" aria-label="Instagram"><i class="fa-brands fa-instagram fa-2xl fa-fw" aria-hidden="true"></i></a></div>
+                        </div>
+
+                        <div class="d-block d-lg-none py-3">
+                            <div class="row justify-content-start">
+                                <div class="col-2">
+                                    <a href="https://de.linkedin.com/company/shaker-verlag-gmbh" class="socialmedia" aria-label="linkedIn"><i class="fa-brands fa-linkedin fa-xl fa-fw" aria-hidden="true"></i></a>
+                                </div>
+                                <div class="col-2">
+                                    <a href="https://www.facebook.com/shakerverlag" class="socialmedia" aria-label="Facebook"><i class="fa-brands fa-facebook fa-xl fa-fw" aria-hidden="true"></i></a>
+                                </div>
+                                <div class="col-2">
+                                    <a href="https://www.instagram.com/shakermedia.gmbh/" class="socialmedia" aria-label="Instagram"><i class="fa-brands fa-instagram fa-xl fa-fw" aria-hidden="true"></i></a>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+        
+                </div>
+  
+            </div>
+
+            <div class="container bg-10 color-10 py-4" >
+                <div class="row justify-content-md-center">
+                    <div class="col-4 col-md-2 text-center">
+                        <a href="../service/index.asp?lang=de&ID=1" class="link-standard-grau-100">Datenschutz</a>
+                    </div>
+                    <div class="col-4 col-md-2 text-center">
+                        <a href="../service/index.asp?lang=de&ID=2" class="link-standard-grau-100">Impressum</a>
+                    </div>
+                    <div class="col-4 col-md-2 text-center">
+                        <a href="../newsletter/Register.asp?Modus=Home" class="link-standard-grau-100">Newsletter</a>
+                    </div>
+                </div>
+            </div>
+
+            <footer class="text-center pt-3 pb-5 pb-sm-4 bg-10">
+              <div class="container">
+                <div class="row">
+                  <div class="col-12">
+                    <p>© Shaker Verlag GmbH 2026</p>
+                  </div>
+                </div>
+              </div>
+            </footer>
+         
+        </div>
+
+
+        
+        
+        
+
+        <a id="scrolltotopButton"></a>
+        <a id="scrolltobottomButton"></a>
+        <div id="UpDownDiv"></div>
+       
+        <!--cookieconsent-->
+
+        <div class="outerDiv">
+	        <div class="innerDiv">
+		        <div class="firstInnerDiv"><button type="button" data-cc="c-settings">Datenschutzeinstellungen</button></div>
+	        </div>
+        </div>
+
+        <a id="openPrivacyButton" data-cc="c-settings"></a>
+        <script defer src="../../Layout/js/cookieconsent/cookieconsent-init.js"></script>
+      
+        <!--cookieconsent-->
+
+        <script src="../../Layout/js/allgemein/Menue.js"></script>
+
+
+        <!--Modal-->
+
+        <div id="loginModal" class="modal fade" tabindex="-1" role="dialog"  aria-hidden="true">
+	<div class="modal-dialog modal-dialog-centered modal-dialog-scrollable" role="document">
+		<div class="modal-content bg-10" >
+			
+			<div class="modal-header border-bottom-0">
+				<button type="button" class="close d-flex align-items-center justify-content-center button_ohne_focus" data-dismiss="modal" aria-label="Close">
+					<i class="fa-solid fa-xmark"></i>
+				</button>
+			</div>
+
+		
+				
+					<!--<form action="/de/site/Layout/Funktionen/login.asp?id=100" method="post" id="loginForm" name="loginForm">-->
+					<form action="/de/site/content/account/authors/index.asp?lang=de&id=2000" method="post" id="loginForm" name="loginForm">
+						<div class="modal-body px-5">
+							<div class="icon d-flex align-items-center justify-content-center">
+								<img src="/de/site/Layout/images/logos/Shaker.gif"
+                                    class="justify-content-center" style="width: 150px;" alt="Shaker Verlag Logo" />
+							</div>
+							<h3 class="text-center my-4">Login</h3>
+							<div class="form-group">
+								<label>E-Mail</label>
+								<div class="input-group">
+									<div class="input-group-prepend border-0">
+										<span class="input-group-text" style="background-color: transparent; border-color: #005091;"><i class="fa-solid fa-envelope color-blau-100 " aria-hidden="true"></i></span>
+									</div>
+									<input type="text" class="form-control border-left-0 " style="border-color: #005091; box-shadow: none; " id="loginEmail" name="loginEmail" maxlength="50" title="Email">
+									<div class="input-group-append">
+										<span class="input-group-text  border-0" style="background-color: transparent;"><i class="fa-solid fa-xmark fa-fw "  aria-hidden="true" style="color: transparent;"></i></span>
+									</div>
+								</div>
+								<small id="errorBoxLoginEmail" class="form-text text-danger"></small>
+							</div>
+							<div class="form-group">
+								<label>Passwort</label>
+								<div class="input-group"  id="show_hide_password">
+									<div class="input-group-prepend border-0 ">
+										<span class="input-group-text" style="background-color: transparent; border-color: #005091;"><i class="fa-solid fa-key color-blau-100" aria-hidden="true"></i></span>
+									</div>
+									<input type="password" class="form-control border-left-0" style="border-color: #005091; box-shadow: none;" id="loginPassword" name="loginPassword" maxlength="50" title="Passwort">
+									<div class="input-group-append d-block" id="eyeSlash">
+										<span class="input-group-text  border-0" style="background-color: transparent;"><a href="javascript:void" tabindex="-1"><i class="fa-solid fa-eye-slash fa-fw color-blau-100"  aria-hidden="true"></i></a></span>
+									</div>
+									<div class="input-group-append d-none" id="eye">
+										<span class="input-group-text border-0" style="background-color: transparent;"><a href="javascript:void" tabindex="-1"><i class="fa-solid fa-eye fa-fw color-blau-100"  aria-hidden="true"></i></a></span>
+									</div>
+											
+								</div>
+								<small id="errorBoxLoginPassword" class="form-text text-danger"></small>
+							</div>
+					
+							<div class="py-2 text-danger d-none " id="errorLogin">E-Mail-Adresse oder Passwort falsch.</div>
+						
+
+
+							<div class="text-center"><button type="button" class="btn  btn-link-underline font-weight-bold" id="btnPasswort" name="btnPasswort" >Passwort vergessen?</button></div>
+						</div>
+						<div class="modal-footer justify-content-center border-0 mb-3">
+							<input type="hidden" name="Login" value="login"/>
+							<input type="hidden" name="Login_Aufruf_ID" value="2000"/>
+							<input type="text" id="loginSicherheit" name="loginSicherheit" title="loginSicherheit" style="display: none;"/>
+							<button type="submit" class="btn btn-blue w-25">Login</button>
+						</div>
+
+					</form>
+
+					<div class="bottom text-center mb-5" onclick="$('#loginModal').modal('hide')">
+						<div><a href="/de/site/content/account/authors/index.asp?lang=de&ID=2" class="link_underline font-weight-bold">Registrieren</a></div>
+						<div class="pt-5"><a href="/de/site/content/shop/member.asp?lang=de" class="link_underline font-weight-bold">Login für Online-Dokumente</a></div>
+					</div>
+				
+				
+			
+		</div>
+	</div>
+</div>
+
+<script>
+	$('#loginModal').on('hide.bs.modal', function (e) {
+		
+		$('#errorLogin').removeClass('d-block').addClass('d-none');
+})
+</script>
+
+
+
+<div class="modal fade" id="AnfordernPasswortModal" tabindex="-1" role="dialog"  aria-hidden="true">
+	  <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable " role="document">
+			<div class="modal-content bg-10">
+				<div class="modal-header border-bottom-0">
+					<button type="button" class="close d-flex align-items-center justify-content-center button_ohne_focus" data-dismiss="modal" aria-label="Close">
+						<i class="fa-solid fa-xmark"></i>
+					</button>
+				</div>
+				<div class="modal-body px-5">
+						<div class="icon d-flex align-items-center justify-content-center">
+							<img src="/de/site/Layout/images/logos/Shaker.gif"  class="justify-content-center" style="width: 150px;" alt="Shaker Verlag Logo"/>
+						</div>
+						<h3 class="text-center my-4">Passwort anfordern</h3>
+						<p>
+							Geben Sie bitte die E-Mail-Adresse ein mit der Sie beim Shaker Verlag registriert sind und beantworten Sie Ihre gewählte Sicherheitsabfrage. Ihr Passwort wird Ihnen dann zugesandt. 
+						</p>
+						<div class="row">
+							<div class="col-12">
+								<form action="#" method="post" id="AnfordernPasswortForm" name="AnfordernPasswortForm" onsubmit="Cookies.set('Passwort', 'gesendet');">
+
+									<div class="form-group">
+										<label>E-Mail</label>
+										<div class="input-group">
+											<div class="input-group-prepend border-0">
+												<span class="input-group-text" style="background-color: transparent; border-color: #005091;"><i class="fa-solid fa-envelope color-blau-100 " aria-hidden="true"></i></span>
+											</div>
+											<input type="text" class="form-control border-left-0" style="border-color: #005091; box-shadow: none;" id="passwortEmail" name="passwortEmail" maxlength="50" aria-label="Email">
+											
+										</div>
+										<small id="errorBoxPasswortEmail" class="form-text text-danger"></small>
+									</div>
+
+
+									
+                                    
+									<div class="form-group">
+										<label for="passwortSicherheitsabfrage" id="passwortSicherheitsabfrageLabel" name="passwortSicherheitsabfrageLabel">Sicherheitsabfrage</label>
+										<div class="input-group">
+											
+											<div class="input-group-prepend border-0 ">
+												<div class="input-group-text" style="background-color: transparent; border-color: #005091; border-right: none;"><i class="fa-solid fa-person-circle-question color-blau-100" aria-hidden="true"></i></div>
+											</div>
+											 
+											<select  name="passwortSicherheitsabfrage" id="passwortSicherheitsabfrage" class="form-control  border-left-0" style="border-color: #005091; box-shadow: none;">
+												
+														<option value="0">- Bitte wählen Sie -</option>
+													
+														<option value="1">Wie heißt Ihr Wunscharbeitgeber?</option>
+													
+														<option value="2">Wie lautet Ihre Führerscheinnummer?</option>
+													
+														<option value="3">Wie lautet der Name Ihrer Fahrschule?</option>
+													
+														<option value="4">Wie lautet Ihre Bibliotheksausweisnummer?</option>
+													
+											</select>
+											
+										</div>
+										<small id="errorBoxPasswortSicherheitsabfrage" class="form-text text-danger"></small>
+										
+									</div>
+									
+									
+
+									<div class="form-group">
+										<label>Antwort</label>
+										<div class="input-group">
+												<div class="input-group-prepend border-0">
+													<span class="input-group-text" style="background-color: transparent; border-color: #005091;"><i class="fa-solid fa-comment-dots color-blau-100 " aria-hidden="true"></i></span>
+												</div>
+												<input type="text" class="form-control border-left-0" style="border-color: #005091; box-shadow: none;" id="passwortAntwort" name="passwortAntwort" maxlength="50" aria-label="Antwort auf Sicherheitsabfrage">
+														
+										</div>
+										<small id="errorBoxPasswortAntwort" class="form-text text-danger"></small>
+									</div>
+									<input type="hidden" name="sendPassword" value="true"/>
+								</form>
+							</div>
+						</div>
+			    </div>
+				  
+				<div class="modal-footer justify-content-center border-0 mb-5">
+					
+					<button type="submit" class="btn btn-blue shadow-none  w-50 " id="btnAnfordernPasswort" name="btnAnfordernPasswort">Passwort anfordern</button>
+				</div>
+			
+			</div>
+	  </div>
+</div>
+
+
+<script>
+	$('#btnPasswort').click(function(){
+		setTimeout(function(){$('#loginModal').modal('hide')}, 10)
+		setTimeout(function(){$('#AnfordernPasswortModal').modal('show')}, 400)
+	})
+</script>
+
+
+
+<script>
+
+ $("#btnAnfordernPasswort").click(function () {
+	var test = $('#AnfordernPasswortForm').valid()
+    if (test){
+		$('#AnfordernPasswortModal').modal('hide');
+		$('#AnfordernPasswortForm').submit();
+	}
+});
+      
+</script>
+
+
+
+<div class="modal fade" tabindex="-1" role="dialog" data-show="true" id="erfolgModalPasswort">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable " role="document">
+        <div class="modal-content bg-10">
+                <div class="modal-header border-bottom-0">
+					<button type="button" class="close d-flex align-items-center justify-content-center button_ohne_focus" data-dismiss="modal" aria-label="Close">
+						<i class="fa-solid fa-xmark"></i>
+					</button>
+				</div>
+                <div class="modal-body px-5">
+					<div class="icon d-flex align-items-center justify-content-center">
+						<img src="/de/site/Layout/images/logos/Shaker.gif"  class="justify-content-center" style="width: 150px;" alt="Shaker Verlag Logo"/>
+					</div>
+                    
+                    <p></p>
+                </div>
+                <div class="modal-footer justify-content-center border-0 mb-5">
+					<button type="button" class="btn btn-blue shadow-none  w-50 " data-dismiss="modal">Schließen</button>
+                </div>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript">
+
+    
+
+	$(function () {
+
+        
+
+		$("#eyeSlash").on('click', function () {
+			$("#eyeSlash").removeClass("d-block").addClass("d-none")
+            $("#eye").removeClass("d-none").addClass("d-block")
+		});
+
+        $("#eye").on('click', function () {
+            $("#eye").removeClass("d-block").addClass("d-none")
+            $("#eyeSlash").removeClass("d-none").addClass("d-block")
+        });
+
+        $("#show_hide_password a").on('click', function (event) {
+            event.preventDefault();
+            if ($('#show_hide_password input').attr("type") == "text") {
+                $('#show_hide_password input').attr('type', 'password');
+                $('#show_hide_password i').addClass("fa-eye-slash");
+                $('#show_hide_password i').removeClass("fa-eye");
+            } else if ($('#show_hide_password input').attr("type") == "password") {
+                $('#show_hide_password input').attr('type', 'text');
+                $('#show_hide_password i').removeClass("fa-eye-slash");
+                $('#show_hide_password i').addClass("fa-eye");
+            }
+        });
+        
+
+        $("#AnfordernPasswortModal").on('hidden.bs.modal', function () {
+            document.getElementById("errorBoxPasswortEmail").innerHTML = "";
+			document.getElementById("passwortEmail").classList.remove("is-invalid");
+            document.getElementById("errorBoxPasswortAntwort").innerHTML = "";
+            document.getElementById("passwortAntwort").classList.remove("is-invalid");
+		});
+
+        $("#passwortEmail").focus(function () {
+            $("#passwortEmail").removeClass('is-valid').removeClass('is-invalid');
+            $("#passwortEmail").val("");
+		});
+
+        $("#passwortAntwort").focus(function () {
+            $("#passwortAntwort").removeClass('is-valid').removeClass('is-invalid');
+            $("#passwortAntwort").val("");
+        });
+
+        $.validator.addMethod("valueNotEquals", function (value, element, arg) {
+            return arg !== value;
+        }, "Value must not equal arg.");
+
+
+		$("#AnfordernPasswortForm").validate({
+            focusInvalid: false,
+            focusCleanup: true,
+			rules: {
+                passwortEmail: {
+					required: true,
+                    pattern: /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/,
+					maxlength: 50
+				},
+
+                passwortSicherheitsabfrage: {
+                    valueNotEquals: {
+                        param: "0",
+                    },
+                   
+                },
+
+                passwortAntwort: {
+                    required: true,
+                    maxlength: 50
+                },
+				
+			},
+
+			messages: {
+                passwortEmail: {
+					required: "Bitte geben Sie eine E-Mail-Adresse an.",
+                    pattern: "Bitte geben Sie eine g&uuml;ltige E-Mail-Adresse an.",
+					maxlength: "Bitte geben Sie nicht mehr als 50 Zeichen ein."
+				},
+
+                passwortSicherheitsabfrage: {
+                    valueNotEquals: "Bitte wählen Sie eine Sicherheitsabfrage aus.",
+                    
+                },
+
+                passwortAntwort: {
+                    required: "Bitte beantworten Sie Ihre Sicherheitsabfrage.",
+                    maxlength: "Bitte geben Sie nicht mehr als 50 Zeichen ein."
+                },
+				
+			},
+
+			onfocusout: function (element) {
+				this.element(element);
+			},
+
+			errorPlacement: function (error, element) {
+
+                if (element.attr("name") == "passwortEmail") {
+                    error.appendTo("#errorBoxPasswortEmail");
+
+				}
+
+                else if (element.attr("name") == "passwortSicherheitsabfrage") {
+                    error.appendTo("#errorBoxPasswortSicherheitsabfrage");
+                }
+
+                else if (element.attr("name") == "passwortAntwort") {
+                    error.appendTo("#errorBoxPasswortAntwort");
+                }
+
+				
+				else {
+					error.insertAfter(element)
+				}
+			},
+
+			highlight: function (element) {
+				$(element).removeClass('is-valid').addClass('is-invalid');
+
+			},
+			unhighlight: function (element) {
+				$(element).removeClass('is-invalid').addClass('is-valid');
+			},
+
+		});
+
+
+        $("#AnfordernPasswortModal").on("hidden.bs.modal", function () {
+            $(this).find("form").trigger("reset");
+            $("#errorBoxPasswortEmail").html("");
+			$("#errorBoxPasswortSicherheitsabfrage").html("");
+            $("#errorBoxPasswortAntwort").html("");
+            $("#passwortEmail").removeClass("is-valid").removeClass("is-invalid");
+			$("#passwortSicherheitsabfrage").removeClass("is-valid").removeClass("is-invalid");
+            $("#passwortAntwort").removeClass("is-valid").removeClass("is-invalid");
+        })
+
+        $("#passwortEmail").focus(function () {
+            this.value = "";
+        });
+
+        $("#passwortSicherheitsabfrage").focus(function () {
+            this.value = "";
+		});
+
+        $("#passwortAntwort").focus(function () {
+            this.value = "";
+        });
+
+
+
+        $.validator.addMethod("pwcheck", function (value) {
+            return /^[A-Za-z0-9\d=!\-@._#?%/$&{}+~*]*$/.test(value) // consists of only these
+                && /[a-z]/.test(value) // has a lowercase letter
+                && /\d/.test(value) // has a digit
+                && /[A-Z]/.test(value) // has a upper letter
+                && /[!\-@._#?%/$&{}+~]/.test(value)
+		});
+
+
+        $("#loginEmail").focus(function () {
+            $("#loginEmail").removeClass('is-valid').removeClass('is-invalid');
+            $("#loginEmail").val("");
+        });
+
+        $("#loginPassword").focus(function () {
+            $("#loginPassword").removeClass('is-valid').removeClass('is-invalid');
+            $("#loginPassword").val("");
+        });
+
+
+        $("#loginForm").validate({
+            ignore: ".novalidation",
+            focusInvalid: false,
+            focusCleanup: true,
+            rules: {
+
+                loginEmail: {
+                    required: true,
+                    pattern: /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/,
+                    maxlength: 50
+                },
+                loginPassword: {
+                    required: true,
+                    maxlength: 50
+				},
+
+                loginSicherheit: {
+                    maxlength: 0
+                },
+
+            },
+            messages: {
+
+                loginEmail: {
+                    required: "Bitte geben Sie eine E-Mail-Adresse an.",
+                    pattern: "Bitte geben Sie eine g&uuml;ltige E-Mail-Adresse an.",
+                    maxlength: "Bitte geben Sie nicht mehr als 50 Zeichen ein."
+                },
+                loginPassword: {
+                    required: "Bitte geben Sie ein Passwort an.",
+                    maxlength: "Bitte geben Sie nicht mehr als 50 Zeichen ein."
+				},
+
+                loginSicherheit: {
+                    maxlength: "Bitte dieses Feld nicht ausfüllen.",
+                },
+
+            },
+
+            onfocusout: function (element) {
+                this.element(element);
+            },
+
+            highlight: function (element) {
+                $(element).removeClass("is-valid").addClass("is-invalid");
+
+            },
+            unhighlight: function (element) {
+                $(element).removeClass("is-invalid").addClass("is-valid");
+
+            },
+
+            errorPlacement: function (error, element) {
+
+                if (element.attr("name") == "loginEmail") {
+                    error.appendTo("#errorBoxLoginEmail");
+                }
+                else if (element.attr("name") == "loginPassword") {
+                    error.appendTo("#errorBoxLoginPassword");
+                }
+
+
+
+                else {
+                    error.insertAfter(element)
+                }
+            },
+        });
+
+
+        $("#loginModal").on("hidden.bs.modal", function () {
+            $(this).find("form").trigger("reset");
+            $("#errorBoxLoginEmail").html("");
+            $("#errorBoxLoginPassword").html("");
+            $("#loginEmail").removeClass("is-valid").removeClass("is-invalid");
+            $("#loginPassword").removeClass("is-valid").removeClass("is-invalid");
+        })
+
+        $("#loginEmail").focus(function () {
+            this.value = "";
+        });
+
+        $("#loginPassword").focus(function () {
+            this.value = "";
+        });
+		
+    });
+
+
+</script> <div class="modal fade" id="versandkostenModal" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg" role="document">
+            <div class="modal-content bg-20">
+                <div class="modal-header border-bottom-0">
+	                <button type="button" class="close d-flex align-items-center justify-content-center button_ohne_focus" data-dismiss="modal" aria-label="Close">
+		                <i class="fa-solid fa-xmark"></i>
+	                </button>
+                </div>
+                <div class="modal-body">
+                    <div class="icon d-flex align-items-center justify-content-center">
+						<img src="/de/site/Layout/images/logos/Shaker.gif"  class="justify-content-center" style="width: 150px;" alt="Shaker Verlag Logo"/>
+                    </div>
+                    <h3 class="text-center my-4">Versandkosten</h3>
+                    <div class="card bg-10 border-0 rounded-0">
+                        <div class="card-body">
+                            <div class="pt-4 text-responsive-xs text-responsive-sm text-responsive-md">           
+                                <div class="row pb-3"><div class="col-12 h5 color-blau-100">Versandkosten nach Gewicht der Sendung innerhalb Deutschlands:</div></div>
+                                   
+                                
+                                        <div class="row pb-2">
+                                            <div class="col-4 col-sm-3 col-md-3  font-weight-bold text-left">bis 500 g</div>
+                                            <div class="col-3 col-sm-2 col-md-3 font-weight-bold text-right">2,25 &euro;</div>
+                                        </div>
+                                    
+                                        <div class="row pb-2">
+                                            <div class="col-4 col-sm-3 col-md-3  font-weight-bold text-left">bis 1000 g</div>
+                                            <div class="col-3 col-sm-2 col-md-3 font-weight-bold text-right">3,09 &euro;</div>
+                                        </div>
+                                    
+                                        <div class="row pb-2">
+                                            <div class="col-4 col-sm-3 col-md-3  font-weight-bold text-left">bis 2 kg</div>
+                                            <div class="col-3 col-sm-2 col-md-3 font-weight-bold text-right">4,19 &euro;</div>
+                                        </div>
+                                    
+                                        <div class="row pb-2">
+                                            <div class="col-4 col-sm-3 col-md-3  font-weight-bold text-left">bis 5 kg</div>
+                                            <div class="col-3 col-sm-2 col-md-3 font-weight-bold text-right">7,69 &euro;</div>
+                                        </div>
+                                    
+                                        <div class="row pb-2">
+                                            <div class="col-4 col-sm-3 col-md-3  font-weight-bold text-left">bis 10 kg</div>
+                                            <div class="col-3 col-sm-2 col-md-3 font-weight-bold text-right">10,49 &euro;</div>
+                                        </div>
+                                    
+                                        <div class="row pb-2">
+                                            <div class="col-4 col-sm-3 col-md-3  font-weight-bold text-left">bis 20 kg</div>
+                                            <div class="col-3 col-sm-2 col-md-3 font-weight-bold text-right">18,99 &euro;</div>
+                                        </div>
+                                    
+                                        <div class="row">
+                                            <div class="col-4 col-sm-3 col-md-3 font-weight-bold text-left">bis 31,5 kg</div>
+                                            <div class="col-3 col-sm-2 col-md-3 font-weight-bold text-right">23,99 &euro;</div>
+                                        </div>
+                                    
+                                    <div class="row pb-3 pt-5"><div class="col-12 h5 color-blau-100">Versandkosten nach Gewicht der Sendung außerhalb Deutschlands:</div></div>
+
+     
+                                    <div class="row  pb-1">
+                                        <div class="col-4 font-weight-bold text-left">
+                                            Zone
+                                        </div>
+                                        <div class="col-4 font-weight-bold text-center">
+                                            Stückpreis in &euro;
+                                        </div>
+                                        <div class="col-4 font-weight-bold text-center">
+                                            Preis pro 100 g in &euro;
+                                        </div>
+                                    </div>
+                                    <div class="row"><div class="col-12"><hr /></div></div>
+                                
+                                           
+                                            <div class="row">
+                                                <div class="col-4 font-weight-bold">DHL Zone 1 EU</div>
+                                                <div class="col-4 font-weight-bold text-center">6,00</div>
+                                                <div class="col-4 font-weight-bold text-center">0,54</div>
+                                            </div>
+                                            
+                                    
+                                            <div class="row pb-4">
+                                                <div class="col-12">
+                                            Belgien, Frankreich, Monaco, Niederlande
+                                                </div>
+                                            </div>
+                                            
+                                        
+                                           
+                                            <div class="row">
+                                                <div class="col-4 font-weight-bold">DHL Zone 1 non EU</div>
+                                                <div class="col-4 font-weight-bold text-center">5,94</div>
+                                                <div class="col-4 font-weight-bold text-center">0,67</div>
+                                            </div>
+                                            
+                                    
+                                            <div class="row pb-4">
+                                                <div class="col-12">
+                                            Liechtenstein, Schweiz
+                                                </div>
+                                            </div>
+                                            
+                                        
+                                           
+                                            <div class="row">
+                                                <div class="col-4 font-weight-bold">DHL Zone 2 EU / non EU</div>
+                                                <div class="col-4 font-weight-bold text-center">5,74</div>
+                                                <div class="col-4 font-weight-bold text-center">0,80</div>
+                                            </div>
+                                            
+                                    
+                                            <div class="row pb-4">
+                                                <div class="col-12">
+                                            Andorra, Großbritannien, San Marino, Vatikanstadt
+                                                </div>
+                                            </div>
+                                            
+                                        
+                                           
+                                            <div class="row">
+                                                <div class="col-4 font-weight-bold">DHL Zone 3 EU</div>
+                                                <div class="col-4 font-weight-bold text-center">6,00</div>
+                                                <div class="col-4 font-weight-bold text-center">0,92</div>
+                                            </div>
+                                            
+                                    
+                                           
+                                            <div class="row">
+                                                <div class="col-4 font-weight-bold">DHL Zone 3 non EU</div>
+                                                <div class="col-4 font-weight-bold text-center">5,40</div>
+                                                <div class="col-4 font-weight-bold text-center">1,11</div>
+                                            </div>
+                                            
+                                    
+                                            <div class="row pb-4">
+                                                <div class="col-12">
+                                            Albanien, Belarus, Bosnien und Herzegowina, Färöer, Grönland, Island, Moldawien, Montenegro, Nordmazedonien, Norwegen, Serbien, Ukraine
+                                                </div>
+                                            </div>
+                                            
+                                        
+                                           
+                                            <div class="row">
+                                                <div class="col-4 font-weight-bold">DHL Zone 4 non EU</div>
+                                                <div class="col-4 font-weight-bold text-center">5,08</div>
+                                                <div class="col-4 font-weight-bold text-center">0,94</div>
+                                            </div>
+                                            
+                                    
+                                            <div class="row pb-4">
+                                                <div class="col-12">
+                                            Ägypten, Algerien, Georgien, Israel, Libanon, Libyen, Marokko, Russische Föderation, Syrien, Tunesien, Türkei
+                                                </div>
+                                            </div>
+                                            
+                                        
+                                           
+                                            <div class="row">
+                                                <div class="col-4 font-weight-bold">DHL Zone 5 non EU</div>
+                                                <div class="col-4 font-weight-bold text-center">5,99</div>
+                                                <div class="col-4 font-weight-bold text-center">1,58</div>
+                                            </div>
+                                            
+                                    
+                                            <div class="row pb-4">
+                                                <div class="col-12">
+                                            Afghanistan, Armenien, Aserbaidschan, Bahrain, Bangladesh, Bhutan, Brunei, China, Indien, Indonesien, Irak, Iran, Japan, Jemen, Jordanien, Kambodscha, Kanada, Kasachstan, Katar, Kirgisistan, Kuwait, Laos, Malaysia, Malediven, Mexiko, Mongolei, Myanmar, Nepal, Nordkorea, Oman, Pakistan, Papua Neuguinea, Philippinen, Saudi-Arabien, Singapur, Sri Lanka, Südkorea, Tadschikistan, Taiwan, Thailand, Timor-Leste, Turkmenistan, Usbekistan, Vereinigte Arabische Emirate, Vietnam
+                                                </div>
+                                            </div>
+                                            
+                                        
+                                           
+                                            <div class="row">
+                                                <div class="col-4 font-weight-bold">DHL Zone 6 non EU</div>
+                                                <div class="col-4 font-weight-bold text-center">6,31</div>
+                                                <div class="col-4 font-weight-bold text-center">1,75</div>
+                                            </div>
+                                            
+                                    
+                                            <div class="row pb-4">
+                                                <div class="col-12">
+                                            Angola, Antigua und Barbuda, Äquatorialguinea, Argentinien, Äthiopien, Australien, Bahamas, Barbados, Belize, Benin, Bolivien, Botsuana, Brasilien, Burkina Faso, Burundi, Chile, Costa Rica, Dominica, Dominikanische Republik, Dschibuti, Ecuador, El Salvador, Elfenbeinküste, Eritrea, Eswatini, Fidschi, Gabun, Gambia, Ghana, Grenada, Guatemala, Guinea, Guinea-Bissau, Guyana, Haiti, Honduras, Jamaika, Kamerun, Kap Verde, Kenia, Kirbati, Kolumbien, Komoren, Kongo, Demokratische Republik, Kongo, Republik, Kuba, Lesotho, Liberia, Madagaskar, Malawi, Mali, Marshallinseln, Mauretanien, Mauritius, Mikronesien, Mosambik, Namibia, Nauru, Neuseeland, Nicaragua, Niederländische Antillen, Niger, Nigeria, Palästina, Palau, Panama, Paraguay, Peru, Ruanda, Sahara, Salomonen, Sambia, Samoa, São Tomé und Príncipe, Senegal, Seychellen, Sierra Leone, Simbabwe, Somalia, St. Kitts und Nevis, St. Lucia, St. Vincent und die Grenadinen, Südafrika, Sudan, Suriname, Tanzania, Togo, Trinidad und Tobago, Tschad, Tuvalu, Uganda, Uruguay, Vanuatu, Venezuela, Zentralafrikanische Republik
+                                                </div>
+                                            </div>
+                                            
+                                        
+                                           
+                                            <div class="row">
+                                                <div class="col-4 font-weight-bold">DHL Paket Zone 5 non EU</div>
+                                                <div class="col-4 font-weight-bold text-center">39,00</div>
+                                                <div class="col-4 font-weight-bold text-center">0,00</div>
+                                            </div>
+                                            
+                                    
+                                            <div class="row pb-4">
+                                                <div class="col-12">
+                                            USA
+                                                </div>
+                                            </div>
+                                            
+                                        
+                                   
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+               
+            </div>
+        </div>
+</div> <div class="modal fade" id="widerrufsrechtModal" tabindex="-1" role="dialog"  aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg" role="document">
+            <div class="modal-content bg-20">
+                <div class="modal-header border-bottom-0">
+	                <button type="button" class="close d-flex align-items-center justify-content-center button_ohne_focus" data-dismiss="modal" aria-label="Close">
+		                <i class="fa-solid fa-xmark"></i>
+	                </button>
+                </div>
+                <div class="modal-body">
+                    <div class="icon d-flex align-items-center justify-content-center">
+						<img src="/de/site/Layout/images/logos/Shaker.gif"  class="justify-content-center" style="width: 150px;" alt="Shaker Verlag Logo"/>
+                    </div>
+                    <h3 class="text-center my-4">Widerrufsrecht</h3>
+                    <div class="card bg-10 rounded-0 border-0">
+                        <div class="card-body">
+                             <div class="pt-4 text-responsive-xs text-responsive-sm text-responsive-md">     
+                                <div class="row pb-3"><div class="col-12 h5 color-blau-100">Widerrufsbelehrung bei der Bestellung von gedruckten Büchern und anderen körperlichen Waren</div></div>
+
+                                <div class="row">
+                                    <div class="col-12">
+                                        Verbrauchern steht ein gesetzliches Widerrufsrecht zu. Verbraucher ist jede natürliche Person, die ein Rechtsgeschäft zu Zwecken abschließt, die überwiegend weder ihrer gewerblichen noch ihrer selbständigen beruflichen Tätigkeit zugerechnet werden können (§ 13 BGB).
+                                    </div>
+                                </div>
+
+                                <div class="row pt-5 pb-3">
+                                    <div class="col-12 h5 color-blau-100">
+                                        Widerrufsbelehrung
+                                    </div>
+                                </div>
+
+                                <div class="row pb-3">
+                                    <div class="col-12">
+                                        Sie haben das Recht, binnen vierzehn Tagen ohne Angabe von Gründen diesen Vertrag zu widerrufen.
+                                    </div>
+                                </div>
+
+                                <div class="row pb-3">
+                                    <div class="col-12">
+                                        Die Widerrufsfrist beträgt vierzehn Tage ab dem Tag an dem Sie oder ein von Ihnen benannter Dritter, der nicht der Beförderer ist, die Waren in Besitz genommen haben bzw. hat.
+                                    </div>
+                                </div>
+
+                              
+                                <div class="row pb-3">
+                                    <div class="col-12">
+                                         Um Ihr Widerrufsrecht auszuüben, müssen Sie uns: <br /><br />
+                                         Shaker Verlag GmbH<br />Am Langen Graben 15a<br />52353 Düren<br /><br />
+                                         Tel: +49 2421 99011 0 <br />
+                                         Fax: +49 2421 99011 9 <br />
+                                         E-Mail: info@shaker.de <br /><br />
+                                         mittels einer eindeutigen Erklärung (z. B. ein mit der Post versandter Brief, Telefax oder E-Mail) über Ihren Entschluss, diesen Vertrag zu widerrufen, informieren. Sie können dafür das beigefügte Muster-Widerrufsformular verwenden, das jedoch nicht vorgeschrieben ist.
+                                    </div>
+                                </div>
+
+                                <div class="row pb-3">
+                                    <div class="col-12">
+                                        Zur Wahrung der Widerrufsfrist reicht es aus, dass Sie die Mitteilung über die Ausübung des Widerrufsrechts vor Ablauf der Widerrufsfrist absenden.
+                                    </div>
+                                </div>
+
+                                <div class="row py-3">
+                                    <div class="col-12 h6 color-blau-100">
+                                        Folgen des Widerrufs
+                                    </div>
+                                </div>
+
+                                <div class="row pb-3">
+                                    <div class="col-12">
+                                        Wenn Sie diesen Vertrag widerrufen, haben wir Ihnen alle Zahlungen, die wir von Ihnen erhalten haben, einschließlich der Lieferkosten (mit Ausnahme der zusätzlichen Kosten, die sich daraus ergeben, dass Sie eine andere Art der Lieferung als die von uns angebotene, günstigste Standardlieferung gewählt haben), unverzüglich und spätestens binnen vierzehn Tagen ab dem Tag zurückzuzahlen, an dem die Mitteilung über Ihren Widerruf dieses Vertrags bei uns eingegangen ist. Für diese Rückzahlung verwenden wir dasselbe Zahlungsmittel, das Sie bei der ursprünglichen Transaktion eingesetzt haben, es sei denn, mit Ihnen wurde ausdrücklich etwas anderes vereinbart; in keinem Fall werden Ihnen wegen dieser Rückzahlung Entgelte berechnet.
+                                    </div>
+                                </div>
+
+                                <div class="row pb-3">
+                                    <div class="col-12">
+                                        Wir können die Rückzahlung verweigern, bis wir die Waren wieder zurückerhalten haben oder bis Sie den Nachweis erbracht haben, dass Sie die Waren zurückgesandt haben, je nachdem, welches der frühere Zeitpunkt ist.
+                                    </div>
+                                </div>
+
+                                <div class="row pb-3">
+                                    <div class="col-12">
+                                        Sie haben die Waren unverzüglich und in jedem Fall spätestens binnen vierzehn Tagen ab dem Tag, an dem Sie uns über den Widerruf dieses Vertrags unterrichten, an uns zurückzusenden oder zu übergeben. Die Frist ist gewahrt, wenn Sie die Waren vor Ablauf der Frist von vierzehn Tagen absenden. Sie tragen die unmittelbaren Kosten der Rücksendung der Waren.
+                                    </div>
+                                </div>
+
+                                <div class="row pb-3">
+                                    <div class="col-12">
+                                        Sie müssen für einen etwaigen Wertverlust der Waren nur aufkommen, wenn dieser Wertverlust auf einen zur Prüfung der Beschaffenheit, Eigenschaften und Funktionsweise der Waren nicht notwendigen Umgang mit ihnen zurückzuführen ist.
+                                    </div>
+                                </div>
+
+                                <div class="row pb-3">
+                                    <div class="col-12">
+                                        Ende der Widerrufsbelehrung
+                                    </div>
+                                </div>
+
+                                <div class="row py-3">
+                                    <div class="col-12 h6 color-blau-100">
+                                        Ausschluss bzw. vorzeitiges Erlöschen des Widerrufsrechts
+                                    </div>
+                                </div>
+
+                                <div class="row pb-3">
+                                    <div class="col-12">
+                                        Ein Widerrufsrecht besteht nicht bei Lieferungen von Ton- oder Videoaufnahmen (z.B. CD, Musik- oder Videokassetten) oder von Computersoftware in einer versiegelten Verpackung, wenn die Versiegelung nach der Lieferung entfernt wurde.
+                                    </div>
+                                </div>
+
+                                <div class="row pb-3">
+                                    <div class="col-12">
+                                        Ein Widerrufsrecht besteht ferner nicht bei Waren, die nicht vorgefertigt sind und für deren Herstellung eine individuelle Auswahl oder Bestimmung durch den Verbraucher maßgeblich ist oder die eindeutig auf die persönlichen Bedürfnisse des Verbrauchers zugeschnitten sind.
+                                    </div>
+                                </div>
+
+                                <div class="row pb-3">
+                                    <div class="col-12">
+                                        Ein Widerrufsrecht besteht außerdem nicht bei Verträgen zur Lieferung von Zeitungen, Zeitschriften oder Illustrierten mit Ausnahme von Abonnement-Verträgen.
+                                    </div>
+                                </div>
+
+                                <div class="row pt-5 pb-3">
+                                    <div class="col-12 h5 color-blau-100">
+                                        Widerrufsformular
+                                    </div>
+                                </div>
+
+                                <div class="row pb-3">
+                                    <div class="col-12">
+                                        
+                                            Formular zum Widerruf: <a href="../download/Widerrufsformular.pdf" target="_blank" class="link-standard-grau-100">Download</a>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+               
+            </div>
+        </div>
+</div>
+
+        <div class="modal fade" tabindex="-1" role="dialog" data-show="true" id="erfolgKontaktModal">
+            <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable " role="document">
+                <div class="modal-content bg-10">
+                        <div class="modal-header border-bottom-0">
+	                        <button type="button" class="close d-flex align-items-center justify-content-center button_ohne_focus" data-dismiss="modal" aria-label="Close">
+		                        <i class="fa-solid fa-xmark"></i>
+	                        </button>
+                        </div>
+                        <div class="modal-body px-5">
+                            <div class="icon d-flex align-items-center justify-content-center">
+							    <img src="../../layout/images/logos/Shaker.gif"  class="justify-content-center" style="width: 150px;" alt="Shaker Verlag Logo"/>
+                            </div>
+                            <h3 class="text-center my-4">Kontaktformular</h3>
+                            <p class="text-center">Ihre Nachricht wurde erfolgreich versendet.</p>
+                        </div>
+                        <div class="modal-footer justify-content-center border-0 mb-5">
+		                    <button type="button" class="btn btn-blue shadow-none  w-50 " data-dismiss="modal">Schließen</button>
+                        </div>
+                </div>
+            </div>
+        </div>      
+
+        
+
+        <!--Modal-->
+
+    </body>
+</html>
+
+
+<script type="text/javascript">
+
+   
+
+    $(function () {
+        $('#KontaktBetreff').chosen(
+            {
+                disable_search_threshold: 10,
+                /*allow_single_deselect: true,*/
+                no_results_text: "Kein Ergebnis für"
+            });
+
+
+        //$.validator.setDefaults({ ignore: ":hidden:not(select)" });
+        $.validator.setDefaults({ ignore: [] });
+
+        $.validator.addMethod("valueNotEquals", function (value, element, arg) {
+            return arg !== value;
+        }, "Value must not equal arg.");
+
+
+        var validator = $("#KontaktForm").validate({
+            focusInvalid: false,
+            focusCleanup: true,
+            rules: {
+
+                KontaktEmail: {
+                    required: true,
+                    pattern: /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/,
+                    maxlength: 50
+                },
+
+                
+                KontaktBetreff: {
+                    valueNotEquals: {
+                        param: "0",
+                    },
+                    maxlength: 50
+                },
+
+                KontaktCode: {
+                    required: true,
+                    maxlength: 8,
+                    equalTo: "#KontaktCode2"
+                },
+
+                KontaktNachricht: {
+                    required: true,
+                    maxlength: 750
+                },
+
+                KontaktDatenschutz: {
+                    required: true,
+
+                },
+
+                KontaktSicherheit: {
+                    maxlength: 0
+                },
+                
+            },
+            messages: {
+
+                KontaktEmail: {
+                    required: "Bitte geben Sie eine E-Mail-Adresse an.",
+                    pattern: "Bitte geben Sie eine g&uuml;ltige E-Mail-Adresse an.",
+                    maxlength: "Bitte geben Sie nicht mehr als 50 Zeichen ein."
+                },
+
+               
+                KontaktBetreff: {
+                    valueNotEquals: "Bitte geben Sie einen Betreff an.",
+                    maxlength: "Bitte geben Sie nicht mehr als 50 Zeichen ein."
+                },
+
+                KontaktCode: {
+                    required: "Bitte geben Sie den Sicherheitscode ein.",
+                    maxlength: "Bitte geben Sie nicht mehr als 8 Zeichen ein.",
+                    equalTo: "Der Sicherheitscode ist falsch."
+                },
+
+                KontaktNachricht: {
+                    required: "Bitte geben Sie Ihre Nachricht ein.",
+                    maxlength: "Bitte geben Sie nicht mehr als 750 Zeichen ein."
+                },
+
+                KontaktDatenschutz: {
+                    required: "Bitte akzeptieren Sie die Datenschutzerklärung.",
+
+                },
+
+                KontaktSicherheit: {
+                    maxlength: "Bitte dieses Feld nicht ausfüllen.",
+                }
+            },
+
+
+            errorPlacement: function (error, element) {
+
+                if (element.attr("name") == "KontaktEmail") {
+                    error.appendTo("#errorBoxKontaktEmail");
+                }
+                else if (element.attr("name") == "KontaktBetreff") {
+                    error.appendTo("#errorBoxKontaktBetreff");
+                }
+                else if (element.attr("name") == "KontaktCode") {
+                    error.appendTo("#errorBoxKontaktCode");
+                }
+                else if (element.attr("name") == "KontaktNachricht") {
+                    error.appendTo("#errorBoxKontaktNachricht");
+                }
+
+                else if (element.attr("name") == "KontaktDatenschutz") {
+                    error.appendTo("#errorBoxKontaktDatenschutz");
+                }
+                
+                else {
+                    error.insertAfter(element)
+                }
+            },
+
+            invalidHandler: function (form, validator) {
+                var errors = validator.numberOfInvalids();
+                if (errors) {
+                    $('#KontaktDatenschutzLabel').css('color', '#f0f0f0');
+                }
+                else {
+                    $('#KontaktDatenschutzLabel').css('color', '#f0f0f0');
+                }
+
+
+            },
+
+            highlight: function (element) {
+                $(element).removeClass("is-valid").addClass("is-invalid");
+
+            },
+            unhighlight: function (element) {
+                $(element).removeClass("is-invalid").addClass("is-valid");
+
+            },
+
+        });
+
+
+
+    });
+
+    $(document).ready(function () {
+        var btn = $('#scrolltotopButton');
+        var btnBottom = $('#scrolltobottomButton');
+
+        $(window).scroll(function () {
+
+            if ($(this).scrollTop() > 100) {
+                btn.removeClass('hide').addClass('show');
+                btnBottom.removeClass('hide').addClass('show');
+
+            } else {
+                btn.removeClass('show').addClass('hide');
+                btnBottom.removeClass('show').addClass('hide');
+            }
+
+            clearTimeout($.data(this, 'scrollTimer'));
+            $.data(this, 'scrollTimer', setTimeout(function () {
+                btn.removeClass('show').addClass('hide');
+                btnBottom.removeClass('show').addClass('hide');
+            }, 2500));
+
+        });
+
+        btn.on('click', function (e) {
+            e.preventDefault();
+            $('html, body').animate({ scrollTop: 0 }, '300');
+        });
+
+
+        btnBottom.click(function () {
+            $("html, body").animate({ scrollTop: $(document).height() }, "slow");
+            return false;
+        });
+
+        $('#UpDownDiv').on('mouseenter', function () {
+            btn.removeClass('hide').addClass('show');
+            btnBottom.removeClass('hide').addClass('show');
+        });
+
+    });
+      
+
+</script>
+
+

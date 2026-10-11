@@ -1,0 +1,114 @@
+{
+  "review_date": "2026-09-24",
+  "case": "Qalaat Bahrain three-name tablet associated with round Indus seal",
+  "primary_reading_source": "Gelb1980 AS21 printed2/PDF18",
+  "primary_source_basis": "Rough copy brought from Denmark by Juris Zarins; no autopsy asserted by Gelb",
+  "tablet_excavation_id": null,
+  "museum_accession": null,
+  "associated_seal_id": null,
+  "associated_cuneiform_seal_impression": null,
+  "primary_transliteration": [
+    {
+      "item": "obverse1",
+      "text": "1 Ia-a-bi-na-im"
+    },
+    {
+      "item": "obverse2",
+      "text": "1 DINGIR-mi-il-kum"
+    },
+    {
+      "item": "reverse3",
+      "text": "1 I-zi-ta-am-bu"
+    },
+    {
+      "item": "reverse4",
+      "text": "DUMU I-a-bi-na-im"
+    }
+  ],
+  "orthographic_note": "First Ia-a- versus patronymic I-a- retained as printed; Gelb identifies same person.",
+  "date_attributed_to_gelb": "post-UrIII or Isin-Larsa",
+  "relationship_attributed_to_gelb": "Three people; third is son of first.",
+  "primary_1983_edition": {
+    "citation": "Brunswig, Parpola and Potts1983, BBVO2 p107 and pl3 fig12",
+    "status": "not recovered",
+    "authority": "Potts1990p219 note155, accessed web transcription"
+  },
+  "relative_distance": {
+    "indexed_horizontal_metres": 0.5,
+    "verified_primary_measurement": false,
+    "relative_depth": null,
+    "reason": "Indexed SindQuarterly1983p53 unit corrupted; original403. Neither 3cm nor300 accepted."
+  },
+  "source_fingerprints": [
+    {
+      "path": "data/raw/bahrain_gelb_landing.html",
+      "bytes": 182986,
+      "sha256": "f4f5681264b3e0f342b4373b7fca9ffe6dfc34ca34ef8af6833f2dd64ae90b7c"
+    },
+    {
+      "path": "data/raw/bahrain_gelb_1980_as21.pdf",
+      "bytes": 26475246,
+      "sha256": "7577395b6a51d71859652b8b4ca2bd408d26f873ae18054cbfd53705682a4b75"
+    },
+    {
+      "path": "data/raw/bahrain_context_web_capture.json",
+      "bytes": 2742,
+      "sha256": "6bc6aa926bbfdd5792b6a519fddeba94f81396b20a7195a8cfc7c1405ccc3be5"
+    }
+  ],
+  "review_image_fingerprints": [
+    {
+      "path": "results/primary_pages/bahrain-gelb-18.png",
+      "bytes": 380397,
+      "sha256": "dbbfbfe18094187651ee05ed76aeb79ad1fde4ab8f3759c771d23266a2283d27"
+    }
+  ],
+  "derived_fingerprints": [
+    {
+      "path": "data/processed/bahrain_gelb_p2_extract.txt",
+      "bytes": 6085,
+      "sha256": "78dd2d60a2da8253949085fe21e83541647de4d392e0cf3c3eff26b16bbecc80"
+    }
+  ],
+  "semantic_anchor": null,
+  "phonetic_anchor": null,
+  "attempts": [
+    {
+      "target": "Qalaat al-Bahrain1 ResearchGate352561275",
+      "result": "Author-upload landing readable in web; web download/read links internalerror; curl firstsandboxDNS then escalated403; no file saved."
+    },
+    {
+      "target": "Brunswig Parpola Potts1983 exacttitle, author, BBVO2 searches",
+      "result": "Bibliographic references only; Potts1990 pinpoints p107/pl3fig12; originalnotrecovered."
+    },
+    {
+      "target": "SindQuarterly11(1)1983 PDF",
+      "result": "Indexedp53 snippet; directweb403 andcurl403; no file saved."
+    },
+    {
+      "target": "SindThroughTheCenturies1981 PDF",
+      "result": "Indexedbibliography; directweb403 andcurl403; no file saved."
+    },
+    {
+      "target": "ISAC /sites/default/files/uploads/shared/docs/as21.pdf and /sites/oi.uchicago.edu/files/uploads/shared/docs/as21.pdf",
+      "result": "Bothcurl404; firstalso web404; no file saved."
+    },
+    {
+      "target": "ISAC publisherlanding",
+      "result": "HTMLsuccess; actualversionedS3link recovered; PDFsuccess673pages, printed2visuallyviewed."
+    },
+    {
+      "target": "Laessoe1957 Kuml DOI10.7146/kuml.v7i7.97667",
+      "result": "Publisherabstract identifies capacitypotsherd, excluded."
+    },
+    {
+      "target": "Bibby1964 Kuml DOI10.7146/kuml.v14i14.104250",
+      "result": "Publisherabstract identifies Kassitebuildingtablet, excluded."
+    }
+  ],
+  "next_retrieval_targets": [
+    "Brunswig Parpola Potts1983 BBVO2 p107/pl3fig12",
+    "Qalaat al-Bahrain1(1994) fig1715 and associatedfindregister",
+    "Bibby1986p114 and Hojlund1986p223 in Bahrain Through the Ages"
+  ]
+}

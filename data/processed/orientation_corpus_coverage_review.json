@@ -1,0 +1,263 @@
+{
+  "schema_version": 1,
+  "scope": "Positive M77 coverage and metadata for two stroke-only tool fields; no semantic values assigned.",
+  "rows": [
+    {
+      "m77_reference": "2926",
+      "fem_plate_item": "CXXVII.1",
+      "text_printed_page": 85,
+      "text_pdf_page": 96,
+      "appendix_printed_page": 818,
+      "appendix_pdf_page": 827,
+      "metadata": "600004",
+      "object_code": 6,
+      "side": 0,
+      "field_symbol": "00",
+      "line": 0,
+      "actual_direction_code": 4,
+      "actual_direction_definition": "Top to bottom",
+      "normalized_tokens": [
+        "M104",
+        "M110"
+      ],
+      "doubtful": false,
+      "loss": false,
+      "included_in_m77_primary": true,
+      "already_present_in_secondary_candidate_export": true,
+      "new_recovered_line": false,
+      "excavation_number_join": "Original-tool agent located source table; exact table crop independently viewed by corpus-coverage agent.",
+      "excavation_number": "DK7857",
+      "original_catalogue_printed_page": 489
+    },
+    {
+      "m77_reference": "2928",
+      "fem_plate_item": "CXXXIII.1",
+      "text_printed_page": 85,
+      "text_pdf_page": 96,
+      "appendix_printed_page": 818,
+      "appendix_pdf_page": 827,
+      "metadata": "600005",
+      "object_code": 6,
+      "side": 0,
+      "field_symbol": "00",
+      "line": 0,
+      "actual_direction_code": 5,
+      "actual_direction_definition": "Symmetrical arrangement of signs",
+      "normalized_tokens": [
+        "M104",
+        "M104"
+      ],
+      "doubtful": false,
+      "loss": false,
+      "included_in_m77_primary": true,
+      "already_present_in_secondary_candidate_export": true,
+      "new_recovered_line": false,
+      "excavation_number_join": "Original-tool agent located source table; exact table crop independently viewed by corpus-coverage agent.",
+      "excavation_number": "DK7800",
+      "original_catalogue_printed_page": 493
+    }
+  ],
+  "primary_policies": [
+    {
+      "section": "3.6",
+      "printed_page": 5,
+      "pdf_page": 16,
+      "finding": "Source-access exclusions with partial original-publication drawing exception, including bronze implements; individual source method not specified here."
+    },
+    {
+      "section": "5.1",
+      "printed_page": 6,
+      "pdf_page": 17,
+      "finding": "3455 objects in photographic catalogue,549 excluded,2906 included; general inscription absence/legibility rule."
+    },
+    {
+      "section": "11.3-11.4",
+      "printed_page": 15,
+      "pdf_page": 26,
+      "finding": "Sequence/attested-modification test for isolated forms; normalized variants can rotate up to90degrees. No blanket stroke-only exclusion stated."
+    }
+  ],
+  "codebook_pages": [
+    30,
+    31
+  ],
+  "codebook_pdf_pages": [
+    41,
+    42
+  ],
+  "sign_list_printed_page": 32,
+  "sign_list_pdf_page": 43,
+  "claim_limits": [
+    "Counts of strokes are graphical, not proven numeric values.",
+    "No loss marker does not establish original physical completeness.",
+    "Direction5 does not mean doubtful or prove ancient reading order.",
+    "Catalogue normalization is not semantic proof of rotational equivalence.",
+    "Two included objects do not establish total corpus coverage."
+  ],
+  "discarded_or_navigation_attempts": [
+    {
+      "attempt": "CXXVI items1and4 as the two target tools",
+      "result": "Parent original-source investigation corrected tentative identifiers; omission inference rejected."
+    },
+    {
+      "attempt": "PDF93 Texts page",
+      "result": "Rendered locator miss; target rows arePDF96; not used as support."
+    },
+    {
+      "attempt": "Full MackayOCRsearch7800",
+      "result": "Found unrelated seal-table hit; bare fieldnumber search not an object bridge."
+    }
+  ],
+  "crop_boxes": [
+    {
+      "source": "results/primary_pages/orientation-text-96.png",
+      "output": "results/primary_pages/orientation-coverage-2926-2928-detail.png",
+      "box": [
+        330,
+        1980,
+        2050,
+        2190
+      ]
+    },
+    {
+      "source": "results/primary_pages/chain-artifact-m77-827.png",
+      "output": "results/primary_pages/orientation-coverage-appendix-detail.png",
+      "box": [
+        1070,
+        2010,
+        1650,
+        2300
+      ]
+    },
+    {
+      "source": "results/primary_pages/hybrid-pat-m77-43.png",
+      "output": "results/primary_pages/orientation-coverage-signs-detail.png",
+      "box": [
+        60,
+        2250,
+        1820,
+        2470
+      ]
+    }
+  ],
+  "crop_method": "Pillow.Image.crop, no resizing or retouching; all3finalcrops viewed.",
+  "render_commands": [
+    "scripts/inspect_research_pdf.py mahadevan_1977_text.pdf --prefix orientation-coverage --pages 16 17 26 93 --render-only --scale 3000 --pdftoppm <Poppler path>",
+    "scripts/inspect_research_pdf.py mahadevan_1977_text.pdf --prefix orientation-text --pages 96 --render-only --scale 3500 --pdftoppm <Poppler path>"
+  ],
+  "new_downloads": [],
+  "evidence_files": [
+    {
+      "path": "data/raw/mahadevan_1977_text.pdf",
+      "bytes": 119302608,
+      "sha256": "6dcdd074a0174e5fab149590fbbf82342711d345764e9763f8e5e92c81cf7f99"
+    },
+    {
+      "path": "data/raw/mahadevan_1977_ocr.txt",
+      "bytes": 673943,
+      "sha256": "11441e38286784a1f4215f73d91cbba8acd153b7e5b30daed9252f9f7b77304a"
+    },
+    {
+      "path": "data/raw/metal_original_mackay18225_djvu.txt",
+      "bytes": 2331705,
+      "sha256": "511ee6deb3921bb33708a4a56166db5264687f5c16db0e16d8c55273a2a564c0"
+    },
+    {
+      "path": "data/processed/m77_candidate_records.jsonl",
+      "bytes": 4109921,
+      "sha256": "b29a176da86b125115256a8966c377c3fd9fe39ecaab17bf576b770b83b41bab"
+    },
+    {
+      "path": "results/primary_pages/chain-artifact-m77-827.png",
+      "bytes": 1715296,
+      "sha256": "367e9c400b92bca24b6b75be9e9d205900c7380e645143fc352fecfdda21332c"
+    },
+    {
+      "path": "results/primary_pages/orientation-text-96.png",
+      "bytes": 1874862,
+      "sha256": "e3e61f99dffde325843a4b9f0a736c6fa4be276a9a92d36af141a05e50856ced"
+    },
+    {
+      "path": "results/primary_pages/orientation-coverage-16.png",
+      "bytes": 4816897,
+      "sha256": "9f5b6f057bf382d83610420aead90dab3a60846eb49570571e9198868cd17374"
+    },
+    {
+      "path": "results/primary_pages/orientation-coverage-17.png",
+      "bytes": 3251118,
+      "sha256": "d20770bf26573bf72bca4d2fff268cba302868ddf9e8814acbd1a128404201dc"
+    },
+    {
+      "path": "results/primary_pages/orientation-coverage-26.png",
+      "bytes": 5382231,
+      "sha256": "088bfe13fe2080cc83dd64f6bf3e562d680996728ecd5894e91f7f8a0222218d"
+    },
+    {
+      "path": "results/primary_pages/m77-codebook-41.png",
+      "bytes": 1838931,
+      "sha256": "80a70e5c3329804153835a35b8c2364e5788b339ca4eb824b6b357c73f5d0e25"
+    },
+    {
+      "path": "results/primary_pages/m77-codebook-42.png",
+      "bytes": 1997128,
+      "sha256": "b4ec143903bd5059cdbf8c524c20e2b0e3b0d0d244065bf6765b9282379b37ce"
+    },
+    {
+      "path": "results/primary_pages/hybrid-pat-m77-43.png",
+      "bytes": 2350315,
+      "sha256": "c4fbb59388cdc982aea2f274dc2f88da0f6597635b8e469c608ec7de1f3e4e7c"
+    },
+    {
+      "path": "results/primary_pages/orientation-coverage-2926-2928-detail.png",
+      "bytes": 113304,
+      "sha256": "02f4bb6b6fef0651f7044092660ea2c027d35f8cff5b98c2ae2e0b4ec0c114d1"
+    },
+    {
+      "path": "results/primary_pages/orientation-coverage-appendix-detail.png",
+      "bytes": 91839,
+      "sha256": "2976b82db6500a53665c0ac1ba8f8f9654799c616fd72d4879ee18082a3fa059"
+    },
+    {
+      "path": "results/primary_pages/orientation-coverage-signs-detail.png",
+      "bytes": 189972,
+      "sha256": "f8e104548d1c327a45784e1e7a956e2c15eeb4fd116f6add812584c1e29934f0"
+    },
+    {
+      "path": "results/primary_pages/orientation-coverage-93.png",
+      "bytes": 1572108,
+      "sha256": "a0d8a3a864dc80b53e97a66259283b42fb74055cb09aabbe013aff3e26248ab5"
+    },
+    {
+      "path": "results/orientation-coverage_extraction.json",
+      "bytes": 394,
+      "sha256": "3217e72e95aa613543c1551c836ded6c8af9e504efa9ab3e3d6375b25c40df4d"
+    },
+    {
+      "path": "results/orientation-text_extraction.json",
+      "bytes": 370,
+      "sha256": "3008a39548867088638412d2379c8475d4affa1348b6e34aaa72af07bcc4762c"
+    },
+    {
+      "path": "results/primary_pages/stroke-orientation-spear-table.png",
+      "bytes": 1122085,
+      "sha256": "5c54dd121ee139c00bdc65693be91038604447016c8f9ee9f89198757a766193"
+    },
+    {
+      "path": "results/primary_pages/stroke-orientation-knife-table.png",
+      "bytes": 431803,
+      "sha256": "f4db24dceabea2d50f52ad72518468032acfcd3b1fb06175345d89523f1c6141"
+    },
+    {
+      "path": "data/raw/stroke_orientation_18225_leaf515.jpg",
+      "bytes": 1993545,
+      "sha256": "5235ab2d1cae25f638171131f2864993a55a06788bb36fdf6fd0e8ab337990c1"
+    },
+    {
+      "path": "data/raw/metal_original_mackay_leaf511.jpg",
+      "bytes": 1854822,
+      "sha256": "6c03c76f2a5bbf01fb655c385a2bd3409e1304a5d078b202f5236980bbaba7a3"
+    }
+  ],
+  "new_downloads_by_this_agent": [],
+  "related_downloads": "Knife-table original downloaded by parallel original-tool agent, stored in data/raw and registered through its proposal; not downloaded again."
+}

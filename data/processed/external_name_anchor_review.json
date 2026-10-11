@@ -1,0 +1,260 @@
+{
+  "schema_version": 1,
+  "review_date": "2026-09-23",
+  "status": "bounded_review_complete",
+  "conclusion": "No independently verified Indus-sequence/external-personal-name pairing identified in reviewed sources.",
+  "scope": {
+    "exhaustive_global_search": false,
+    "independent_photo_review": false,
+    "glossa_25_names_fully_verified": false,
+    "downloaded_code_executed": false
+  },
+  "raw_capture": {
+    "path": "data/raw/external_name_anchors_web_capture.json",
+    "bytes": 320428,
+    "sha256": "2405348180bb9fcf7286ab30eea51368abf11e8a5d5d2d3810aebd7433493a22",
+    "representation": "Raw web-tool responses, not original HTML/PDF bytes",
+    "urls": [
+      "https://collections.louvre.fr/ark:/53355/cl010147038",
+      "https://cdli.earth/artifacts/525331",
+      "https://www.penn.museum/sites/expedition/shu-ilishus-cylinder-seal/",
+      "https://www.britishmuseum.org/collection/object/W_1928-1009-56",
+      "https://ignca.gov.in/Asi_data/33779.pdf",
+      "https://cdli.earth/inscriptions/2249158",
+      "https://cdli.earth/update-events/58152",
+      "https://www.tandfonline.com/doi/full/10.1080/00856401.2025.2488137",
+      "https://biblio.ugent.be/publication/01JVQPB41XES2ES4GFSBSTW170",
+      "https://www.researchgate.net/publication/274936748_The_Meluhha_Village_Evidence_of_Acculturation_of_Harappan_Traders_in_Late_Third_Millennium_Mesopotamia",
+      "https://doi.org/10.1017/S0035869X00132873"
+    ]
+  },
+  "sources": [
+    {
+      "id": "louvre",
+      "url": "https://collections.louvre.fr/ark:/53355/cl010147038",
+      "locator": "AO22310; inscription, dates and provenance",
+      "access": "primary museum record, current open"
+    },
+    {
+      "id": "cdli_shuilishu",
+      "url": "https://cdli.earth/artifacts/525331",
+      "locator": "P525331; Text1–2 and metadata",
+      "access": "primary epigraphic record, current open"
+    },
+    {
+      "id": "possehl2006",
+      "url": "https://www.penn.museum/sites/expedition/shu-ilishus-cylinder-seal/",
+      "locator": "Expedition48(1),42–43; captured lines37–51",
+      "access": "first-person examination account, full web article"
+    },
+    {
+      "id": "bm120573",
+      "url": "https://www.britishmuseum.org/collection/object/W_1928-1009-56",
+      "locator": "BM120573/U7683; description and findspot",
+      "access": "primary catalogue indexed text; direct open failed"
+    },
+    {
+      "id": "gadd1932",
+      "url": "https://ignca.gov.in/Asi_data/33779.pdf",
+      "locator": "no1 pp5–6",
+      "access": "original scholarly catalogue indexed passage; PDF open failed; no download"
+    },
+    {
+      "id": "cdli_nisaba_revision",
+      "url": "https://cdli.earth/inscriptions/2249158",
+      "locator": "Nisaba15,0371=P453801; obv2–5,seal1",
+      "access": "historical revision indexed text; direct open failed"
+    },
+    {
+      "id": "cdli_nisaba_event",
+      "url": "https://cdli.earth/update-events/58152",
+      "locator": "2015-09-15 17:41:39; P453801",
+      "access": "historical revision event indexed text"
+    },
+    {
+      "id": "surdi_degraef2025",
+      "url": "https://www.tandfonline.com/doi/full/10.1080/00856401.2025.2488137",
+      "locator": "South Asia48(2),256–273,note22",
+      "access": "research article indexed note only; full article not inspected"
+    },
+    {
+      "id": "surdi_metadata",
+      "url": "https://biblio.ugent.be/publication/01JVQPB41XES2ES4GFSBSTW170",
+      "locator": "authors,publication metadata and abstract",
+      "access": "author-institution record; restricted PDF not downloaded"
+    },
+    {
+      "id": "parpola_etal1977",
+      "url": "https://www.researchgate.net/publication/274936748_The_Meluhha_Village_Evidence_of_Acculturation_of_Harappan_Traders_in_Late_Third_Millennium_Mesopotamia",
+      "locator": "DOI10.2307/3631775;p150,p159n46,pp160–161",
+      "access": "author-uploaded article web OCR; unrelated appended recommendations excluded"
+    },
+    {
+      "id": "parpola1975",
+      "url": "https://doi.org/10.1017/S0035869X00132873",
+      "locator": "JRAS107(2),178–209,opening extract",
+      "access": "publisher extract"
+    }
+  ],
+  "existing_local_sources": [
+    {
+      "path": "data/raw/glossa_preprint_v4.pdf",
+      "sha256": "9d9cac713a72fce11d4f3421f233193cb30919c798ed97dc7a51fa948b7de1cb",
+      "locator": "PDFpage11,sections3.26,3.28",
+      "extracted_text": "results/glossa-methodology-v4_extracted.txt",
+      "access": "existing extraction; matching code not executed"
+    }
+  ],
+  "candidates": [
+    {
+      "id": "AO22310",
+      "equivalent_ids": [
+        "P525331"
+      ],
+      "name": "Shu-ilishu",
+      "evidence_class": "Named interpreter in cuneiform",
+      "indus_sequence": null,
+      "independent_indus_name_pair": false,
+      "metadata_disagreement": {
+        "louvre": {
+          "period": "Akkad2340–2200BCE",
+          "language_label": "Akkadian",
+          "provenance": "Babylonie/Sumer attributed from style"
+        },
+        "cdli": {
+          "period": "UrIII",
+          "language_label": "Sumerian",
+          "provenance": null
+        }
+      },
+      "sources": [
+        "louvre",
+        "cdli_shuilishu",
+        "possehl2006"
+      ],
+      "limit": "Occupation establishes neither ethnicity nor Indus phonetic value."
+    },
+    {
+      "id": "BM120573",
+      "equivalent_ids": [
+        "U7683"
+      ],
+      "evidence_class": "Indus-style seal with cuneiform only",
+      "indus_sequence": null,
+      "independent_indus_name_pair": false,
+      "sources": [
+        "bm120573",
+        "gadd1932"
+      ],
+      "limit": "Provisional reading; motif is not a translated text; no fresh image review."
+    },
+    {
+      "id": "P453801",
+      "equivalent_ids": [
+        "Nisaba15,0371"
+      ],
+      "names": [
+        "Nanaza",
+        "Samar",
+        "Ali-ahi"
+      ],
+      "evidence_class": "Named Meluhha-associated persons on cuneiform tablet; unresolved seal impression",
+      "indus_sequence": null,
+      "independent_indus_name_pair": false,
+      "seal_record": {
+        "label": "seal1",
+        "status": "illegible",
+        "identified_script": null
+      },
+      "sources": [
+        "cdli_nisaba_revision",
+        "cdli_nisaba_event",
+        "surdi_degraef2025"
+      ],
+      "limit": "Historical revision not fresh collation; no automatic P516366 alias or owner/recipient equivalence."
+    },
+    {
+      "id": "BM86314",
+      "equivalent_ids": [
+        "CT50,76"
+      ],
+      "name": "Lu-Sunzida",
+      "evidence_class": "Sumerian name; translated-name hypothesis",
+      "indus_sequence": null,
+      "independent_indus_name_pair": false,
+      "sources": [
+        "parpola_etal1977"
+      ]
+    },
+    {
+      "id": "Gadd17",
+      "name_hypothesis": "Ur-du-du sukkal",
+      "evidence_class": "Explicitly hypothetical name assignment",
+      "indus_sequence": null,
+      "independent_indus_name_pair": false,
+      "sources": [
+        "parpola_etal1977"
+      ],
+      "limit": "No glyph IDs reconstructed from OCR; independent owner attribution absent."
+    },
+    {
+      "id": "glossa_v4_name_test",
+      "evidence_class": "Claimant-reported unsuccessful comparison",
+      "initial_names": 6,
+      "expanded_names": 25,
+      "reported_result": "No strong / no discriminative match",
+      "independent_indus_name_pair": false,
+      "source": "data/raw/glossa_preprint_v4.pdf",
+      "limit": "No replication or full name-source audit."
+    }
+  ],
+  "next_tests": [
+    {
+      "id": "N1",
+      "action": "Inspect primary image/catalogue of P453801 seal1.",
+      "positive_requirement": "Recognizable Indus sequence and independently justified link to named role/person.",
+      "negative_outcome": "Cuneiform/non-Indus identification resolves candidate without an Indus bridge.",
+      "status": "proposed; not performed"
+    },
+    {
+      "id": "N2",
+      "action": "Freeze key and predict whole names on independently attributed impressions.",
+      "controls": "Direction, segmentation and phonetic alternatives locked; artifact-level separation; multiple independent documents preferred.",
+      "falsifier": "Wrong prediction on secure legible pairing contradicts that reading."
+    },
+    {
+      "id": "N3",
+      "action": "Audit name pool to tablet,line,date,language,association.",
+      "controls": "Separate interpreter,resident,translated name,foreign name.",
+      "falsifier": "Unsupported identity or source excludes an alleged anchor."
+    },
+    {
+      "id": "N4",
+      "action": "Calibrate locked matching against unrelated names of matched length/sound structure.",
+      "controls": "Include all searched candidates and alternatives; artifact-held-out evaluation.",
+      "limit": "Statistical resemblance alone does not establish identity."
+    }
+  ],
+  "negative_evidence_limits": [
+    "Bounded sources, not exhaustive collections or tablets.",
+    "No absent name match disproves writing when owner,function,language unknown.",
+    "Historical no-bilingual statements do not prove absence in2026.",
+    "Indexed records may be stale; failures retained.",
+    "Metadata conflicts preserved; no sign readings assigned."
+  ],
+  "write_history": [
+    "Initial disk-full blocked capture; after successful storage probe capture saved.",
+    "Disk-full again blocked report/ledger; parent reported599MiB free before final save.",
+    "No additional browsing or downloads during storage retries."
+  ],
+  "follow_up": {
+    "date": "2026-09-23",
+    "target": "P453801",
+    "status": "Exact edition handcopy recovered and reviewed; seal explicitly illegible with no seal signs drawn. No usable Indus-name pairing.",
+    "report": "docs/P453801_FOLLOWUP.md",
+    "image_review": "data/processed/p453801_image_search.json",
+    "identity_review": "data/processed/p453801_identity_review.json",
+    "computed_audit": "results/p453801_anchor_audit.json",
+    "correction": "The historical Nanaza spelling is now distinguished from current Nanasa; possible P516366 duplication and conflicting year names remain unresolved. Earlier next_tests preserve the first-review plan."
+  }
+}

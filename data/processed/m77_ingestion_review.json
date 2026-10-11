@@ -1,0 +1,342 @@
+{
+  "review_date": "2026-09-23",
+  "commit": "40812fc54470d5508b47af5fabcea7ccf044036c",
+  "sources": [
+    {
+      "path": "data/raw/glossa_mahadevan_m77_raw.txt",
+      "bytes": 673944,
+      "sha256": "1e8a91e248cd8d2dbe3002b5d1f6ffe30411e7d74ba94c99bba96619ea2d5608",
+      "git_blob_sha1": "779d9adb013c71aa72d41806fb39703560411cee",
+      "matching_repository_paths": [
+        "data/import/mahadevan_m77_raw.txt"
+      ],
+      "urls": [
+        "https://github.com/BitConcepts/glossa-lab/blob/40812fc54470d5508b47af5fabcea7ccf044036c/data/import/mahadevan_m77_raw.txt"
+      ]
+    },
+    {
+      "path": "data/raw/glossa_build_corpus_pipeline.py",
+      "bytes": 27688,
+      "sha256": "880204c55caac4331d37dc014cfb45e938e452a23c01d7a8ed9a73ad53e88e77",
+      "git_blob_sha1": "c630fb0d9909829c315f40271432adf3f9c4d8f3",
+      "matching_repository_paths": [
+        "scripts/build_corpus_pipeline.py"
+      ],
+      "urls": [
+        "https://github.com/BitConcepts/glossa-lab/blob/40812fc54470d5508b47af5fabcea7ccf044036c/scripts/build_corpus_pipeline.py"
+      ]
+    },
+    {
+      "path": "data/raw/glossa_indus_m77.py",
+      "bytes": 3611,
+      "sha256": "47615e71d7a49a83b4ce58b78edc1dc81ea21f0cc024f77baf76cd8d54a5c3a9",
+      "git_blob_sha1": "f4633b02ddf049ce88081e66fa70d32a4ca8aee1",
+      "matching_repository_paths": [
+        "backend/glossa_lab/data/indus_m77.py"
+      ],
+      "urls": [
+        "https://github.com/BitConcepts/glossa-lab/blob/40812fc54470d5508b47af5fabcea7ccf044036c/backend/glossa_lab/data/indus_m77.py"
+      ]
+    },
+    {
+      "path": "data/raw/glossa_canonical_objects.jsonl",
+      "bytes": 22391887,
+      "sha256": "e24f42a95ee4cc1fdb16c789c3edfb937993ed7c82223d6daa96d66895174ae5",
+      "git_blob_sha1": "37d547fec4e8f445057498b83c8859ffa663fa15",
+      "matching_repository_paths": [
+        "glossa-corpus/indus/canonical/objects.jsonl"
+      ],
+      "urls": [
+        "https://github.com/BitConcepts/glossa-lab/blob/40812fc54470d5508b47af5fabcea7ccf044036c/glossa-corpus/indus/canonical/objects.jsonl"
+      ]
+    },
+    {
+      "path": "data/raw/glossa_indus_corpus_firestore.py",
+      "bytes": 7579,
+      "sha256": "ccd12fa327189d5b8f165911a7b54cdbc83faa873eeb2e07d8bc007df8ad028c",
+      "git_blob_sha1": "c6d33b91dc2fa4706fb919663418fd2f1e77dfb2",
+      "matching_repository_paths": [
+        "backend/glossa_lab/data/indus_corpus_firestore.py"
+      ],
+      "urls": [
+        "https://github.com/BitConcepts/glossa-lab/blob/40812fc54470d5508b47af5fabcea7ccf044036c/backend/glossa_lab/data/indus_corpus_firestore.py"
+      ]
+    }
+  ],
+  "findings": [
+    {
+      "id": "M77P01",
+      "source": "glossa_mahadevan_m77_raw.txt",
+      "lines": [
+        43,
+        6500,
+        6630
+      ],
+      "finding": "Whole-book OCR, not numerical sign transcription;170279 lines. Downloaded bytes match data/import repository copy."
+    },
+    {
+      "id": "M77P02",
+      "source": "glossa_mahadevan_m77_raw.txt",
+      "lines": [
+        2043,
+        2110
+      ],
+      "finding": "Text rows have10-digit object/type/side/field/line/direction codes, Concordance6-digit object/side/line; repeated prefixes omitted. Whitespace-only parsing loses identity."
+    },
+    {
+      "id": "M77P03",
+      "source": "glossa_mahadevan_m77_raw.txt",
+      "lines": [
+        2115,
+        2157,
+        2410,
+        2416
+      ],
+      "finding": "2906 texts3573lines13372legible signs; seal impressions, uniform RTL printed lines, actual direction separate; normalized signary."
+    },
+    {
+      "id": "M77P04",
+      "source": "glossa_mahadevan_m77_raw.txt",
+      "lines": [
+        2047,
+        2049,
+        3269,
+        3275
+      ],
+      "finding": "Star means doubtful reading; missing/illegible passage marker may represent one or more signs. OCR glyph H must be checked against scan."
+    },
+    {
+      "id": "M77P05",
+      "source": "glossa_mahadevan_m77_raw.txt",
+      "lines": [
+        2381,
+        2383,
+        2405,
+        2416
+      ],
+      "finding": "Concordance repeats full texts for each sign occurrence; must distinguish indexing repetition from identical texts on separate objects."
+    },
+    {
+      "id": "M77P06",
+      "source": "glossa_build_corpus_pipeline.py",
+      "lines": [
+        525,
+        528,
+        583,
+        603
+      ],
+      "finding": "Main ingests CISI plus Yajnadevam, not M77. M77 title-page-only status is hardcoded and stale relative to pinned OCR; no raw-to-flat exporter present."
+    },
+    {
+      "id": "M77P07",
+      "source": "glossa_indus_m77.py",
+      "lines": [
+        3,
+        14,
+        36,
+        49,
+        67,
+        70
+      ],
+      "finding": "Prebuilt flat export attributed to OCR+sign-rank-correlation without mapping/validation here. First-existing-file precedence; ignored encoding errors; digit-only token filter; no range/width/object-ID checks; preserves duplicates and order; conditional star deletion and numeric-header contamination."
+    },
+    {
+      "id": "M77P08",
+      "source": "glossa_indus_m77.py",
+      "lines": [
+        83,
+        85
+      ],
+      "finding": "get_corpus_symbols flattens all records without boundaries. Confirms prior release-validation M77 loop can score cross-object pairs."
+    },
+    {
+      "id": "M77P09",
+      "source": "glossa_canonical_objects.jsonl",
+      "lines": [
+        12603,
+        12604,
+        12619
+      ],
+      "finding": "Separate2906-object route declares Firestore/RMRL2021 provenance; retains IDs/stars/directions/zeros/doc_count. Not established as output of raw OCR or flat pipeline."
+    },
+    {
+      "id": "M77P10",
+      "source": "glossa_indus_corpus_firestore.py",
+      "lines": [
+        3,
+        30,
+        57,
+        70,
+        77,
+        84,
+        99,
+        130
+      ],
+      "finding": "Related supplementary Firestore helper, not established canonical builder: incorrectly treats all starred signs as RMRL additions absent supporting schema; filters stars/zeros; selects longest cleaned (dockey,sideline) with first tie retained; excludes sequences<2 even min_length1; preserves array encounter order, drops sideline labels; silently drops malformed JSON. Star interpretation conflicts with source convention."
+    }
+  ],
+  "canonical_examples": [
+    {
+      "jsonl_line": 12603,
+      "record": {
+        "glossa_id": "GLI-IND-M77-01001",
+        "source_system": "indusscript-m77",
+        "source_object_id": "1001",
+        "artifact_type": "seal",
+        "site_name": "Mohenjo-daro",
+        "locus": "17",
+        "rights_status": "rmrl-research",
+        "text_code_diplomatic": "+000-067-072-008-342+",
+        "sign_id_scheme": "Mahadevan1977",
+        "canonical_grapheme_ids": [
+          "000",
+          "067",
+          "072",
+          "008",
+          "342"
+        ],
+        "sign_instance_count": 4,
+        "raw_signs": [
+          "0",
+          "67",
+          "72",
+          "8",
+          "342"
+        ],
+        "inscobj": "1",
+        "direction": "1",
+        "review_state": "unreviewed",
+        "pipeline_stage": "normalized",
+        "quarantine_reason": null,
+        "_source_extra": {
+          "textnum": 1001,
+          "doc_count": 2,
+          "fs80": 351,
+          "level": "-3"
+        },
+        "_citation": {
+          "primary_sources": [
+            "I.6",
+            "A.1"
+          ],
+          "derivation": "IM77 text 1001 from indusscript.in Firestore (RMRL, 2021). Original: Mahadevan (1977) The Indus Script: Texts, Concordance and Tables."
+        },
+        "text_code_diplomatic_normalized": "+000-067-072-008-342+",
+        "crosswalk_coverage": 1.0
+      }
+    },
+    {
+      "jsonl_line": 12604,
+      "record": {
+        "glossa_id": "GLI-IND-M77-01002",
+        "source_system": "indusscript-m77",
+        "source_object_id": "1002",
+        "artifact_type": "seal",
+        "site_name": null,
+        "locus": "28",
+        "rights_status": "rmrl-research",
+        "text_code_diplomatic": "+*373-244-000+",
+        "sign_id_scheme": "Mahadevan1977",
+        "canonical_grapheme_ids": [
+          "*373",
+          "244",
+          "000"
+        ],
+        "sign_instance_count": 2,
+        "raw_signs": [
+          "*373",
+          "244",
+          "0"
+        ],
+        "inscobj": "1",
+        "direction": "1",
+        "review_state": "unreviewed",
+        "pipeline_stage": "normalized",
+        "quarantine_reason": null,
+        "_source_extra": {
+          "textnum": 1002,
+          "doc_count": 1,
+          "fs80": 13,
+          "level": "-4"
+        },
+        "_citation": {
+          "primary_sources": [
+            "I.6",
+            "A.1"
+          ],
+          "derivation": "IM77 text 1002 from indusscript.in Firestore (RMRL, 2021). Original: Mahadevan (1977) The Indus Script: Texts, Concordance and Tables."
+        },
+        "text_code_diplomatic_normalized": "+*373-244-000+",
+        "crosswalk_coverage": 1.0
+      }
+    },
+    {
+      "jsonl_line": 12619,
+      "record": {
+        "glossa_id": "GLI-IND-M77-01018",
+        "source_system": "indusscript-m77",
+        "source_object_id": "1018",
+        "artifact_type": "seal",
+        "site_name": "Mohenjo-daro",
+        "locus": "17",
+        "rights_status": "rmrl-research",
+        "text_code_diplomatic": "+017-336-189-252+",
+        "sign_id_scheme": "Mahadevan1977",
+        "canonical_grapheme_ids": [
+          "017",
+          "336",
+          "189",
+          "252"
+        ],
+        "sign_instance_count": 4,
+        "raw_signs": [
+          "17",
+          "336",
+          "189",
+          "252"
+        ],
+        "inscobj": "1",
+        "direction": "3",
+        "review_state": "unreviewed",
+        "pipeline_stage": "normalized",
+        "quarantine_reason": null,
+        "_source_extra": {
+          "textnum": 1018,
+          "doc_count": 2,
+          "fs80": 0,
+          "level": "-2"
+        },
+        "_citation": {
+          "primary_sources": [
+            "I.6",
+            "A.1"
+          ],
+          "derivation": "IM77 text 1018 from indusscript.in Firestore (RMRL, 2021). Original: Mahadevan (1977) The Indus Script: Texts, Concordance and Tables."
+        },
+        "text_code_diplomatic_normalized": "+017-336-189-252+",
+        "crosswalk_coverage": 1.0
+      }
+    }
+  ],
+  "declared_original_corpus": {
+    "objects": 2906,
+    "lines": 3573,
+    "legible_sign_tokens": 13372
+  },
+  "loader_declared_flat_subset": {
+    "inscriptions": 1669,
+    "tokens": 5361,
+    "selection_rule_verified": false
+  },
+  "raw_to_flat_provenance_verified": false,
+  "canonical_to_raw_provenance_verified": false,
+  "imported_code_executed": false,
+  "new_downloads": false,
+  "limitations": [
+    "Text-only review; OCR quotation is not visual confirmation of printed marker shapes.",
+    "Related supplementary Firestore reconstruction helper inspected; canonical builder linkage and upstream schema remain unverified.",
+    "Parent independently parses and counts exports; this review does not substitute loader claims for observed counts.",
+    "Rank-correlated labels are not accepted as documentary sign identities."
+  ],
+  "conclusion": "Keep whole-book OCR, anonymous rank-mapped flat file, and identified Firestore object records as separate provenance routes. The supplied scripts do not establish a trustworthy complete raw-to-export chain."
+}

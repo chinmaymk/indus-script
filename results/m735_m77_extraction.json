@@ -1,0 +1,16 @@
+{
+  "source": "data/raw/mahadevan_1977_text.pdf",
+  "sha256": "6dcdd074a0174e5fab149590fbbf82342711d345764e9763f8e5e92c81cf7f99",
+  "rendered_pages": [
+    51,
+    42
+  ],
+  "scale": 4000,
+  "rendered_paths": [
+    "results/primary_pages/comb-tablet-m77-51.png",
+    "results/primary_pages/comb-tablet-m77-42.png"
+  ],
+  "record_type": "Recovered exact invocation record after shared prefix collision; images retained unchanged",
+  "invocation": "python scripts/inspect_research_pdf.py mahadevan_1977_text.pdf --prefix comb-tablet-m77 --pages 51 42 --render-only --scale 4000 --pdftoppm PDFTOPPM",
+  "collision": "Another parallel source review reused prefixcomb-tablet-m77 for149/822 and replaced its single extraction manifest; that later manifest remains retained/pinned in its own review."
+}

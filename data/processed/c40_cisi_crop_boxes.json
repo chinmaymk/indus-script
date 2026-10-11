@@ -1,0 +1,49 @@
+{
+  "method": "Pillow crop only; no retouching, contrast changes or rotation",
+  "jobs": [
+    {
+      "source": "results/primary_pages/c40-cisi-front-374.png",
+      "output": "results/primary_pages/c40-photo-A-detail.png",
+      "box": [
+        650,
+        1250,
+        2070,
+        2100
+      ]
+    },
+    {
+      "source": "results/primary_pages/c40-cisi-375.png",
+      "output": "results/primary_pages/c40-photo-B-detail.png",
+      "box": [
+        400,
+        1050,
+        1800,
+        1740
+      ]
+    },
+    {
+      "source": "results/primary_pages/c40-cisi-411.png",
+      "output": "results/primary_pages/c40-cisi-identifiers.png",
+      "box": [
+        105,
+        805,
+        1060,
+        975
+      ]
+    },
+    {
+      "source": "results/primary_pages/c40-cisi-front-373.png",
+      "output": "results/primary_pages/c39-photo-A2-detail.png",
+      "box": [
+        1650,
+        240,
+        2630,
+        3740
+      ]
+    }
+  ],
+  "navigation_notes": [
+    "Initial C39detail crop at1680,510,2540,2650 truncated the inscription column; replaced with full A2 field before adopting any whole-field count.",
+    "Initial low-resolution reading of Yalephoto year1942 corrected to1982 on metadata crop."
+  ]
+}

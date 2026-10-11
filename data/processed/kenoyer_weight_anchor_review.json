@@ -1,0 +1,56 @@
+{
+  "scope": "Kenoyer2010 measuring-world weight-anchor screen, primaryexcavator synthesis. Web PDF text available; original PDF download failed403; no visual table verification claimed.",
+  "source": {
+    "path": "data/raw/kenoyer_2010_measuring_web_capture.json",
+    "sha256": "98795c953df7b8b066429c796c764373cfca7f90672fbf4353289250eafe5812",
+    "url": "https://www.harappa.com/sites/default/files/pdf/Kenoyer%202010%20Measuring%20the%20Harappan%20World.pdf"
+  },
+  "records": [
+    {
+      "id": "Kenoyer2010:MoundAB:Trench39N",
+      "locator": "printed115/PDF11, prose besideTable9.3",
+      "object": "cubical yellow limestone weight",
+      "dimensions_mm": [
+        9.7,
+        9.5,
+        7.1
+      ],
+      "reported_mass_g": 1.7,
+      "excavation": "MoundAB,Trench39N,hearth association2800\u20132600BCE",
+      "indus_inscription_on_same_weight_demonstrated": false,
+      "association": "Geometric button seals, claysealing and broken elephantseal in related context; not an inscription on this weight.",
+      "numeric_anchor_status": "no same-object sign/value link found in cited description"
+    },
+    {
+      "id": "Kenoyer2010:MoundE:Trench52",
+      "locator": "printed115/PDF11, prose besideTable9.3",
+      "object": "rounded cubical quartzite object interpreted as weight reused ashammerstone/pestle",
+      "reported_mass_g": 102.95,
+      "condition": "Rounded edges and one polished face; laterreuse",
+      "indus_inscription_on_same_weight_demonstrated": false,
+      "numeric_anchor_status": "no same-object sign/value link; condition also complicates originalmass"
+    }
+  ],
+  "additional_checks": [
+    {
+      "locator": "printed115\u2013117/PDF11\u201313",
+      "finding": "Table9.3 catalogues weight-class ratios and masses. It does not provide Indus glyph labels for those ratios in the inspected text. Do not turn external metrological denominations into scriptsignvalues."
+    },
+    {
+      "locator": "printed117/PDF13",
+      "finding": "Discusses Harappa bronze rod and Mohenjo-daro shell plaque inciseddivisions as measuringtools; no independently deciphered Indus unitword supplied."
+    }
+  ],
+  "limitations": [
+    "This boundedscreen doesnotprove allIndusweightslackmarks.",
+    "Reported dimensions/masses are authorprinted observations, not new measurements.",
+    "WebOCR tablecells notvisuallychecked; table notimported as numericgroundtruth."
+  ],
+  "download_attempts": [
+    {
+      "url": "https://www.harappa.com/sites/default/files/pdf/Kenoyer%202010%20Measuring%20the%20Harappan%20World.pdf",
+      "result": "curl --fail exit56,HTTP403; no PDF filecreated",
+      "fallback": "public webtool PDF text archived; no authentication/access-control workaround"
+    }
+  ]
+}

@@ -1,0 +1,199 @@
+<script type="text/javascript">var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));</script><script type="text/javascript">var pageTracker = _gat._getTracker("UA-180455-1");pageTracker._initData();pageTracker._trackPageview();</script><font face="Arial, Geneva Helvetica, sans-serif" size="2">Texts from&nbsp;<b><font color=" #9A202F">1</font></b>&nbsp;to&nbsp;<b><font color=" #9A202F">100</font></b>&nbsp;out of&nbsp;1&nbsp;found</font>
+
+
+<html>
+
+<head>
+<title>BDTNS</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link href="extras/css/resultado_navegacion.css" rel="stylesheet" type="text/css"/>
+<link  href="extras/css/comun.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript">
+
+
+
+ function Recarga_bloque(numero_bloque) 
+ {
+	    parent.frames['mainFrame'].location.href='columna1.php?bloque=0&ir_a=' + numero_bloque;
+ }
+ 
+/*Funcion que cambie de color fila al seleccionarla */
+function outTD(tr,color)
+{
+	tr.style.cursor='default';
+
+	if (tr.bgColor == '#8cc4e7')
+	{
+		tr.bgColor=color;	
+	}
+	else
+	{
+		tr.bgColor='#8CC4E7';
+	}
+}
+
+</script>
+<script language="JavaScript" type="text/JavaScript">
+function muestra(capa,event,tipo){
+  
+  var tempX = 0;
+  var tempY = 0;
+  var desplazamiento=0;
+  if (tipo=='fecha')
+    desplazamiento=140;
+  else desplazamiento=360;
+    
+  var NAV = navigator.appName;
+  if (NAV=="Microsoft Internet Explorer") {
+	tempX = event.clientX + document.body.scrollLeft;
+    tempY = event.clientY + document.body.scrollTop;
+  } else {
+    tempX = event.pageX;
+    tempY = event.pageY;
+  }
+  
+  if (tempX < 0){tempX = 0;}
+  if (tempY < 0){tempY = 0;}
+  // alert("xvale:"+tempX+" y vale:"+tempY);
+  var tamleft=eval(tempX-desplazamiento)+"px"; 
+  var tamtop=tempY+"px";
+    
+  document.getElementById(capa).style.top = tamtop; // 100px 
+  document.getElementById(capa).style.left = tamleft; // 150px
+  document.getElementById(capa).style.visibility = "visible";
+  document.getElementById(capa).style.position = "absolute";
+  document.getElementById(capa).style.zIndex = "auto";
+  document.getElementById(capa).style.display = "block";
+  if (NAV=="Microsoft Internet Explorer") {
+	  document.getElementById(capa).style.width = "350px";
+  }
+}
+function oculta(capa){
+ document.getElementById(capa).style.visibility = "hidden";
+}
+</script>
+<style type="text/css">
+.miclase {
+	visibility:hidden;
+	display:none;
+	background-color:#E1EBDE;
+	text-align: left;
+	padding:30px;
+	border:1px;
+	border-radius:15px;
+	
+	/* height: 100px;
+	width: 150px; */
+	font-size: 12px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+#abreviaturas {
+	background-color: #FFFFFF;
+	border: thick;
+	text-align: left;
+	height: 100px;
+	width: 150px;
+	position: absolute;
+	visibility: hidden;
+	z-index: auto;
+	/* left: 100px; */
+	/* top: 100px; */
+	font-size: 12px;
+	font-family: Arial, Helvetica, sans-serif;
+	/* padding: 10px; */
+}
+</style>
+
+</head>
+<body leftmargin="0" topmargin="0" bgcolor="#FFFFFF">
+<table border='0' align='center' style='width:100%;'>
+			<!--Barra-->
+			
+			<tr>
+				<td colspan="7">
+					<table style='width:100%'  class='cnavegacion'>
+			
+						<td align='center' style='width:120%;'>
+							<font style="font-size:18px;font-weight:bold;">Texts</font>
+						</td>
+						<td>
+								<a href='javascript:void(0);' class='enlace_sin_borde' onClick="javascript:window.open('incidencia.php','Incidencia','width=520,height=500,scrollbars=yes,resizable=no,top=200,left=300');">
+								<img  align="top" src='extras/img/suggest_original2.png'  alt="Suggestion" width='30' height='30' border="0" />
+							
+							</a> 
+								<br clear="all"><font style="font-size:10px;">Suggestions</font>
+						</td>
+					</table>
+				</td>
+			</tr>
+			
+		
+			<!--NOMBRE COLUMNAS-->
+			<tr >
+				<td style='width:2%;' class="pblanco" bgcolor="#E1EBDE">Text</td>
+				<td  style='width:27%;'  class="pblanco" bgcolor="#E1EBDE" style="text-align:left;padding-left:2px"><b>Publication</b></td> 
+                <td style='width:12%;'  class="pblanco" bgcolor="#E1EBDE"><b>Provenience</b></td> 
+				<td  style='width:10%;' class="pblanco" bgcolor="#E1EBDE"><b>Date</b></td> 
+				<td style='width:4%;'  class="pblanco" bgcolor="#E1EBDE"><b>Seal</b></td> 
+				<td style='width:9%;'  class="pblanco" bgcolor="#E1EBDE"><b>Museum No.</b></td>
+				<td style='width:2%;' class="pblanco" bgcolor="#E1EBDE"><b>Bibliography</b></td> 
+		    </tr> 	
+		
+    <tr align="left" valign="middle" bgcolor="#EDEAEA" onMouseDown="outTD(this,'#EDEAEA');"> 
+ 
+	<!-- Ver catalogo -->
+    <td> <div align="center">
+    <!--<a href="#" ><img src="extras/img/arrow.png" alt="" width="30" height="29" border="0" title="" onClick="nuevaVentana=window.open('ficha_simple_ventana.php?miReferencia=', '', 'toolbar=no,location=no,directories=no,status=no,menubar=no,scrollbars=yes,resizable=yes,width=710,height=1000,top=1,left=200');"> </a>    -->
+	<!--2015-->
+	<a href="ficha_simple_ventana.php?miReferencia=0" target="_blank"><img src="extras/img/arrow.png" alt="Text" width="30" height="29" border="0" title="Text"> </a>    
+	
+    
+	 </div>
+	</td>
+	 
+	<!-- Edición -->
+    <td> <div align="left" style="padding-left:10px;">
+        <table><tr>
+        <td width=\"95%\">Abid, Basima Jalil, 2017, UCTIS 099</td><td>&nbsp;</td>                 </tr></table>
+                       </div>
+	</td>
+		<!--Procedencia-->
+		<td>
+			<div align="center">IrisaÄrig 
+			</div>
+		</td>
+		
+		<!--Datación-->
+
+	  <td> <div align="center">
+	    <table><tr> <td width="100px">SS09 - 01 - 00</td><td>&nbsp;</td>  </tr></table>                </div></td>
+		
+		
+		
+		
+		
+		<!--Sello-->
+		<td align="left"> 
+			<div align="center">N  </div>
+		</td>
+		
+	    <!-- id_propietario -->
+   <td> <div align="center">IM 226931 
+      </div>
+	</td>
+		<!--Bibliografía-->
+	<td  align="left"> <div align="center">
+        <a href="resultado_bibliografia.php?id_bdts=205179" target="_blank"><img src="extras/img/bookcase.png" title ="See Bibliography" label="See Bibliography" width="20" height="21" border="0"></a> 
+         </div></td>
+
+  </tr>
+  </table>
+
+      <script src="//static.getclicky.com/js" type="text/javascript"></script>
+<script type="text/javascript">try{ clicky.init(66543984); }catch(e){}</script>
+<noscript><p><img alt="Clicky" width="1" height="1" src="//in.getclicky.com/66543984ns.gif" /></p></noscript> 
+</body>
+</html>
+
+
+

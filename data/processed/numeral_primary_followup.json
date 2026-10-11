@@ -1,0 +1,131 @@
+{
+  "status": "Single manual review of the bounded relevant pages and detail crops; no independent double transcription",
+  "sources": [
+    {
+      "path": "data/raw/mahadevan_1977_text.pdf",
+      "sha256": "6dcdd074a0174e5fab149590fbbf82342711d345764e9763f8e5e92c81cf7f99"
+    },
+    {
+      "path": "data/raw/lipi_inscriptions.csv",
+      "sha256": "b8dcb325a2e2cd3cde12ac12e7a418b0348e45713c9ee28aad81b645d2ac5ee4"
+    }
+  ],
+  "records": [
+    {
+      "target": "M-678",
+      "literal_source_row": {
+        "id": "3116.1",
+        "cisi": "M-678",
+        "excavation-idno": "VS 1059066",
+        "condition": "Good",
+        "preservation": "complete",
+        "complete": "Y",
+        "dir.": "R/L",
+        "type": "SEAL:S",
+        "text": "+740-752-006-503-236-806-002-031-502+",
+        "site": "Mohenjo-daro"
+      },
+      "mahadevan_reference_candidate": 1066,
+      "text_pdf_page": 52,
+      "text_printed_page": 41,
+      "primary_entry_pattern_in_display_left_to_right": [
+        "two short vertical strokes",
+        "one long vertical stroke"
+      ],
+      "primary_entry_pattern_visually_verified": true,
+      "adjacency_observation": "No intervening non-stroke glyph in the specified adjacent stroke sequence. This observation does not establish a common numeral field.",
+      "appendix_verified_link": {
+        "pages_printed": [
+          816,
+          818
+        ],
+        "pages_pdf": [
+          825,
+          827
+        ],
+        "publication": "MIC, vol. III",
+        "item": 66,
+        "basis": "Explicit range mapping between catalogue reference numbers and original publication item numbers"
+      },
+      "excavation_id_authentication": "Not achieved: Appendix V does not individually list excavation IDs for these entries from the principal publication series.",
+      "proposed_crosswalk_basis": "Raw excavation field ends with corresponding publication item number; the candidate normalized drawing has matching surrounding graphic pattern. This supports but does not independently authenticate CISI-object identity.",
+      "raw_excavation_string_preserved": "VS 1059066",
+      "drawings_not_photographs": true,
+      "literal_W_code_identity_authenticated": false,
+      "full_source_row_corrected": false
+    },
+    {
+      "target": "M-1745",
+      "literal_source_row": {
+        "id": "2393.1",
+        "cisi": "M-1745",
+        "excavation-idno": "DK8359427",
+        "condition": "Fair",
+        "preservation": "complete",
+        "complete": "Y",
+        "dir.": "R/L",
+        "type": "SEAL:S",
+        "text": "+368-821-055-031-002-031-892+",
+        "site": "Mohenjo-daro"
+      },
+      "mahadevan_reference_candidate": 2427,
+      "text_pdf_page": 82,
+      "text_printed_page": 71,
+      "primary_entry_pattern_in_display_left_to_right": [
+        "one long vertical stroke",
+        "two short vertical strokes",
+        "one long vertical stroke"
+      ],
+      "primary_entry_pattern_visually_verified": true,
+      "adjacency_observation": "No intervening non-stroke glyph in the specified adjacent stroke sequence. This observation does not establish a common numeral field.",
+      "appendix_verified_link": {
+        "pages_printed": [
+          816,
+          818
+        ],
+        "pages_pdf": [
+          825,
+          827
+        ],
+        "publication": "FEM, vol. II",
+        "item": 427,
+        "basis": "Explicit range mapping between catalogue reference numbers and original publication item numbers"
+      },
+      "excavation_id_authentication": "Not achieved: Appendix V does not individually list excavation IDs for these entries from the principal publication series.",
+      "proposed_crosswalk_basis": "Raw excavation field ends with corresponding publication item number; the candidate normalized drawing has matching surrounding graphic pattern. This supports but does not independently authenticate CISI-object identity.",
+      "raw_excavation_string_preserved": "DK8359427",
+      "drawings_not_photographs": true,
+      "literal_W_code_identity_authenticated": false,
+      "full_source_row_corrected": false
+    }
+  ],
+  "reviewed_pdf_pages": [
+    52,
+    81,
+    82,
+    825,
+    827
+  ],
+  "page81_role": "Locating page; target 2427 is on following PDF page82.",
+  "reproduction_script": "scripts/render_numeral_followup.py",
+  "render_scale": 2600,
+  "detail_crops": {
+    "52": [
+      950,
+      135,
+      1570,
+      245
+    ],
+    "82": [
+      1120,
+      650,
+      1570,
+      780
+    ]
+  },
+  "detail_scale_factor": 3,
+  "detail_resampling": "Pillow BICUBIC; source pixels magnified, no sign redrawing",
+  "conclusion": "Mahadevan 1066 contains short-short then long; Mahadevan 2427 contains long, short-short, long. These primary-catalogue observations strengthen the graphic order constraints independently of fully resolving the proposed CISI crosswalks. They do not identify numbers, numerical field boundaries, or phonetic values.",
+  "new_downloads": 0,
+  "new_established_numeric_values": 0
+}

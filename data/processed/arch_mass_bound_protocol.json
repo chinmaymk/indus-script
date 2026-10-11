@@ -1,0 +1,20 @@
+{
+  "scope": "Exploratory conditional bound chosen after source inspection and prior mass-model failures; not a decipherment or independent quantity prediction",
+  "objects": {"large_axe":"M772925 / FEM CXXVI5", "small_axe":"M772924 / FEM CXXVI3", "chisel":"M778302 / CISI K121"},
+  "premises": [
+    "Selected complete fields encode reported surviving masses on a common additive scalar scale",
+    "The whole M108 group contributes the same amount A on both axes",
+    "Small axe's other signs have net contribution r>=0, so S=A+r",
+    "Seven-arch M315 contributes7u, so L=A+7u with no additional unencoded component in this selected field",
+    "K121 selected candidate interpretation contains at least n arch units u plus a nonnegative contribution q, so K=n*u+q, with u>=0",
+    "Weak branch n=1 covers1u,2u,and u+2i only when their remaining contributions are nonnegative; stronger n=2 requires the disputed2u interpretation"
+  ],
+  "proof": "A<=S and u<=K/n, so L<=S+7K/n. Positive D=L-S-7K/n rejects the combined premises",
+  "damage_extension": "For added missing masses dS,dL,dK>=0 the necessary inequality becomes dS+(7/n)dK-dL>=D. These are model requirements, not observed losses",
+  "limits": [
+    "K121 graphical interpretation remains disputed; M77M313 normalization is not proof of two equivalent units",
+    "Other sides are not concatenated with candidate quantity fields",
+    "Negative residuals, multiplicative operations, context-dependent units, or different quantity targets alter the tested model",
+    "Published mass decimals are not balance uncertainty estimates; original masses are unknown"
+  ]
+}

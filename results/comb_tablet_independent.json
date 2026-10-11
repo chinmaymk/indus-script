@@ -1,0 +1,310 @@
+{
+  "adjacency_summary": {
+    "W525": {
+      "distinct_strings": 5,
+      "rows": 9,
+      "strings_with_exact_W400_deletion": 0
+    },
+    "W526": {
+      "distinct_strings": 0,
+      "rows": 0,
+      "strings_with_exact_W400_deletion": 0
+    },
+    "W527": {
+      "distinct_strings": 2,
+      "rows": 2,
+      "strings_with_exact_W400_deletion": 0
+    }
+  },
+  "all_checks_passed": true,
+  "established_phonetic_values": 0,
+  "established_semantic_values": 0,
+  "experiment_count": 8,
+  "experiments": [
+    {
+      "deduplicated_context_candidate_incidences": {
+        "M054": 1
+      },
+      "distinct_W_sequence_M_sequence_candidate_triples": 1,
+      "experimental_W525_M254_extension": false,
+      "pool": "strict",
+      "summary": {
+        "candidate_M_pair_incidences": {
+          "M054": 1
+        },
+        "matched_rows": 1,
+        "pairs": 1,
+        "selected_distinct_strings": 2,
+        "selected_rows": 2
+      },
+      "target": "W195"
+    },
+    {
+      "deduplicated_context_candidate_incidences": {
+        "M054": 1,
+        "M216": 1
+      },
+      "distinct_W_sequence_M_sequence_candidate_triples": 2,
+      "experimental_W525_M254_extension": false,
+      "pool": "multi_document_locator_only",
+      "summary": {
+        "candidate_M_pair_incidences": {
+          "M054": 1,
+          "M216": 1
+        },
+        "matched_rows": 1,
+        "pairs": 2,
+        "selected_distinct_strings": 2,
+        "selected_rows": 2
+      },
+      "target": "W195"
+    },
+    {
+      "deduplicated_context_candidate_incidences": {
+        "M054": 1
+      },
+      "distinct_W_sequence_M_sequence_candidate_triples": 1,
+      "experimental_W525_M254_extension": true,
+      "pool": "strict",
+      "summary": {
+        "candidate_M_pair_incidences": {
+          "M054": 1
+        },
+        "matched_rows": 1,
+        "pairs": 1,
+        "selected_distinct_strings": 2,
+        "selected_rows": 2
+      },
+      "target": "W195"
+    },
+    {
+      "deduplicated_context_candidate_incidences": {
+        "M054": 1,
+        "M216": 1
+      },
+      "distinct_W_sequence_M_sequence_candidate_triples": 2,
+      "experimental_W525_M254_extension": true,
+      "pool": "multi_document_locator_only",
+      "summary": {
+        "candidate_M_pair_incidences": {
+          "M054": 1,
+          "M216": 1
+        },
+        "matched_rows": 1,
+        "pairs": 2,
+        "selected_distinct_strings": 2,
+        "selected_rows": 2
+      },
+      "target": "W195"
+    },
+    {
+      "deduplicated_context_candidate_incidences": {
+        "M008": 1,
+        "M048": 1,
+        "M077": 1,
+        "M111": 1,
+        "M124": 1,
+        "M135": 1,
+        "M169": 1,
+        "M173": 1,
+        "M216": 1,
+        "M226": 4,
+        "M228": 1,
+        "M242": 1,
+        "M245": 1,
+        "M289": 1,
+        "M292": 1,
+        "M293": 1,
+        "M294": 1,
+        "M296": 1,
+        "M327": 1,
+        "M334": 1,
+        "M341": 1,
+        "M375": 1,
+        "M387": 1,
+        "M416": 1
+      },
+      "distinct_W_sequence_M_sequence_candidate_triples": 27,
+      "experimental_W525_M254_extension": false,
+      "pool": "strict",
+      "summary": {
+        "candidate_M_pair_incidences": {
+          "M008": 2,
+          "M048": 12,
+          "M077": 2,
+          "M111": 4,
+          "M124": 6,
+          "M135": 2,
+          "M169": 2,
+          "M173": 6,
+          "M216": 2,
+          "M226": 5,
+          "M228": 4,
+          "M242": 2,
+          "M245": 2,
+          "M289": 2,
+          "M292": 8,
+          "M293": 2,
+          "M294": 2,
+          "M296": 4,
+          "M327": 2,
+          "M334": 2,
+          "M341": 2,
+          "M375": 2,
+          "M387": 2,
+          "M416": 2
+        },
+        "matched_rows": 5,
+        "pairs": 81,
+        "selected_distinct_strings": 8,
+        "selected_rows": 10
+      },
+      "target": "W554"
+    },
+    {
+      "deduplicated_context_candidate_incidences": {
+        "M008": 1,
+        "M048": 1,
+        "M121": 1,
+        "M223": 1,
+        "M226": 1,
+        "M244": 1,
+        "M327": 1,
+        "M415": 1
+      },
+      "distinct_W_sequence_M_sequence_candidate_triples": 8,
+      "experimental_W525_M254_extension": false,
+      "pool": "multi_document_locator_only",
+      "summary": {
+        "candidate_M_pair_incidences": {
+          "M008": 2,
+          "M048": 2,
+          "M121": 2,
+          "M223": 2,
+          "M226": 2,
+          "M244": 12,
+          "M327": 2,
+          "M415": 2
+        },
+        "matched_rows": 4,
+        "pairs": 26,
+        "selected_distinct_strings": 8,
+        "selected_rows": 10
+      },
+      "target": "W554"
+    },
+    {
+      "deduplicated_context_candidate_incidences": {
+        "M008": 1,
+        "M048": 1,
+        "M077": 1,
+        "M111": 1,
+        "M124": 1,
+        "M135": 1,
+        "M169": 1,
+        "M173": 1,
+        "M216": 1,
+        "M226": 4,
+        "M228": 1,
+        "M242": 1,
+        "M245": 1,
+        "M289": 1,
+        "M292": 1,
+        "M293": 1,
+        "M294": 1,
+        "M296": 1,
+        "M327": 1,
+        "M334": 1,
+        "M341": 1,
+        "M375": 1,
+        "M387": 1,
+        "M416": 1
+      },
+      "distinct_W_sequence_M_sequence_candidate_triples": 27,
+      "experimental_W525_M254_extension": true,
+      "pool": "strict",
+      "summary": {
+        "candidate_M_pair_incidences": {
+          "M008": 2,
+          "M048": 12,
+          "M077": 2,
+          "M111": 4,
+          "M124": 6,
+          "M135": 2,
+          "M169": 2,
+          "M173": 6,
+          "M216": 2,
+          "M226": 5,
+          "M228": 4,
+          "M242": 2,
+          "M245": 2,
+          "M289": 2,
+          "M292": 8,
+          "M293": 2,
+          "M294": 2,
+          "M296": 4,
+          "M327": 2,
+          "M334": 2,
+          "M341": 2,
+          "M375": 2,
+          "M387": 2,
+          "M416": 2
+        },
+        "matched_rows": 5,
+        "pairs": 81,
+        "selected_distinct_strings": 8,
+        "selected_rows": 10
+      },
+      "target": "W554"
+    },
+    {
+      "deduplicated_context_candidate_incidences": {
+        "M008": 1,
+        "M048": 1,
+        "M054": 1,
+        "M121": 1,
+        "M216": 1,
+        "M223": 1,
+        "M226": 1,
+        "M244": 1,
+        "M327": 1,
+        "M415": 1
+      },
+      "distinct_W_sequence_M_sequence_candidate_triples": 10,
+      "experimental_W525_M254_extension": true,
+      "pool": "multi_document_locator_only",
+      "summary": {
+        "candidate_M_pair_incidences": {
+          "M008": 2,
+          "M048": 2,
+          "M054": 1,
+          "M121": 2,
+          "M216": 1,
+          "M223": 2,
+          "M226": 2,
+          "M244": 12,
+          "M327": 2,
+          "M415": 2
+        },
+        "matched_rows": 5,
+        "pairs": 28,
+        "selected_distinct_strings": 8,
+        "selected_rows": 10
+      },
+      "target": "W554"
+    }
+  ],
+  "global_mapping_promotions": 0,
+  "input_sha256": {
+    "data/processed/catalogue_features.json": "00836515c6f3beec28b3b66e13d8a9c6e94571cfb2e9dbb4b148651b7ff0032d",
+    "data/processed/comb_tablet_protocol.json": "68ba02ec93b9b4e04e0c51178260c8a0a9053b769148e854609c6cc9cd3507ea",
+    "data/processed/lipi_strict.jsonl": "c7600dd5142d0132bcb89ca5490c26f748a0ab542c482583dd3baf8f08fdf250",
+    "data/processed/m77_candidate_records.jsonl": "b29a176da86b125115256a8966c377c3fd9fe39ecaab17bf576b770b83b41bab",
+    "data/processed/m77_candidate_strict.jsonl": "fcdd8b3a7350ebfa851363328ec784b9c8a943525d8549b9df0194fbe1ee7f4a",
+    "results/comb_tablet_screen.json": "55cc344c5f5e5af2e7e9b7f634b314e936b7c17bfde558cbc7fd14e713374775"
+  },
+  "method": "No production helper imports. Independently builds expanded Cartesian slot constraints, checks all candidate records, enforces consistent repeated masked tokens, and compares full ordered experiment and adjacency records.",
+  "pair_incidences_checked_across_experiments": 222,
+  "scope": "Computational verification only. Strict candidates and multi-document diagnostic locators remain separate. Pair incidences include duplicate contexts and duplicated extension branches; distinct sequence triples are also reported, but neither measure is a count of independent artifacts. No primary identity or global sign mapping is authenticated.",
+  "segment_incidences_checked_across_experiments": 486
+}

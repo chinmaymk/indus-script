@@ -1,0 +1,186 @@
+{
+  "review_date": "2026-09-24",
+  "status": "Complete primary catalogue drawings support this abstract multi-sign triple; not names or kinship",
+  "selection": "Only surviving candidate with both shared middle bundles longer than one sign; selected after exploratory counting",
+  "reading_order": "Right-to-left in normalized printed drawings; final metadata digit1 on allthree",
+  "rows": [
+    {
+      "reference": "2463",
+      "pdf_page": 83,
+      "printed_page": 72,
+      "printed_metadata": "100301",
+      "object_code": "1",
+      "side": "0",
+      "field_symbol": "03",
+      "line": "0",
+      "direction": "1",
+      "tokens": [
+        "M343",
+        "M391",
+        "M099",
+        "M387",
+        "M342"
+      ],
+      "export_match": true,
+      "full_row_viewed": true,
+      "continuation_or_loss_or_doubt_marker": false
+    },
+    {
+      "reference": "2302",
+      "pdf_page": 78,
+      "printed_page": 67,
+      "printed_metadata": "100001",
+      "object_code": "1",
+      "side": "0",
+      "field_symbol": "00",
+      "line": "0",
+      "direction": "1",
+      "tokens": [
+        "M391",
+        "M099",
+        "M387",
+        "M102",
+        "M287",
+        "M342"
+      ],
+      "export_match": true,
+      "full_row_viewed": true,
+      "continuation_or_loss_or_doubt_marker": false
+    },
+    {
+      "reference": "4084",
+      "pdf_page": 111,
+      "printed_page": 100,
+      "printed_metadata": "100101",
+      "object_code": "1",
+      "side": "0",
+      "field_symbol": "01",
+      "line": "0",
+      "direction": "1",
+      "tokens": [
+        "M102",
+        "M287",
+        "M329",
+        "M343",
+        "M067",
+        "M008",
+        "M342"
+      ],
+      "export_match": true,
+      "full_row_viewed": true,
+      "continuation_or_loss_or_doubt_marker": false
+    }
+  ],
+  "bundle_chain": [
+    [
+      "M343"
+    ],
+    [
+      "M391",
+      "M099",
+      "M387"
+    ],
+    [
+      "M102",
+      "M287"
+    ],
+    [
+      "M329",
+      "M343",
+      "M067",
+      "M008"
+    ]
+  ],
+  "marker": "M342",
+  "template": "suffix",
+  "glyph_checks": {
+    "M391": "oval wheel with internal spokes",
+    "M099": "two short upper-position strokes",
+    "M387": "oval enclosing trident-like form",
+    "M102": "three vertical strokes, shorter than adjacent full-height glyphs; matches labelled102 on printed32",
+    "M287": "single right-convex curved stroke",
+    "M329": "U with three short internal upper strokes",
+    "M342_vs_M343": "same decorated U outline, M343 has one additional upper internal stroke",
+    "M067": "fish-form with bifurcated upper and lower extensions",
+    "M008": "human-like crossed form with curved raised top"
+  },
+  "scope": "Printed normalized drawings and signlist only; no original artifact autopsy, photographs, chronology, person identities or authenticated word boundaries",
+  "crop_boxes": {
+    "78": [
+      250,
+      245,
+      1800,
+      340
+    ],
+    "83": [
+      450,
+      1175,
+      2020,
+      1300
+    ],
+    "111": [
+      420,
+      715,
+      1960,
+      830
+    ]
+  },
+  "crop_method": "PIL crop only; no glyph alteration, rotation or contrast adjustment",
+  "evidence_files": [
+    {
+      "path": "data/raw/mahadevan_1977_text.pdf",
+      "bytes": 119302608,
+      "sha256": "6dcdd074a0174e5fab149590fbbf82342711d345764e9763f8e5e92c81cf7f99"
+    },
+    {
+      "path": "data/processed/m77_candidate_records.jsonl",
+      "bytes": 4109921,
+      "sha256": "b29a176da86b125115256a8966c377c3fd9fe39ecaab17bf576b770b83b41bab"
+    },
+    {
+      "path": "results/primary_pages/chain-triple-83.png",
+      "bytes": 1930190,
+      "sha256": "8953f9a5acca125997d921a053acfa360574c3cc7e3bc0beebcbefab9201690e"
+    },
+    {
+      "path": "results/primary_pages/chain-triple-83-detail.png",
+      "bytes": 87949,
+      "sha256": "9e1a76e5a0f9d4857740b57ac364c1f5df44dc208b96e63453a3c9541bedc401"
+    },
+    {
+      "path": "results/primary_pages/chain-triple-78.png",
+      "bytes": 2136188,
+      "sha256": "340063a296d206546e17d0740d4338024d5c3ea204ff41e3f5e66efd13b8b330"
+    },
+    {
+      "path": "results/primary_pages/chain-triple-78-detail.png",
+      "bytes": 69248,
+      "sha256": "feb0d2967906d004cd1f0fc1b9ee6b41712d3e312ec62e96135ab9c0465d27bd"
+    },
+    {
+      "path": "results/primary_pages/chain-triple-111.png",
+      "bytes": 2024503,
+      "sha256": "fc4eec712ff9dbce37b7a217d9664bebc0b50a2326028ecad01c0b707da46a90"
+    },
+    {
+      "path": "results/primary_pages/chain-triple-111-detail.png",
+      "bytes": 72652,
+      "sha256": "46804f74e19d113a37a51ac3187cd98ed89f6a65ff4071e00bbdd2782dcd2770"
+    },
+    {
+      "path": "results/primary_pages/hybrid-pat-m77-43.png",
+      "bytes": 2350315,
+      "sha256": "c4fbb59388cdc982aea2f274dc2f88da0f6597635b8e469c608ec7de1f3e4e7c"
+    },
+    {
+      "path": "results/primary_pages/hybrid-pat-pair-45.png",
+      "bytes": 2931715,
+      "sha256": "5a3a3b4955c55fb6b7f8023d52a79191a4d499898ad563db3c7618a5fdc5b24c"
+    },
+    {
+      "path": "results/primary_pages/hybrid-pat-pair-46.png",
+      "bytes": 2656525,
+      "sha256": "b012c5f5674fd7f2c5faa3a5bd0fe887155d4e7623b7c2f42906954dd4fe5761"
+    }
+  ]
+}

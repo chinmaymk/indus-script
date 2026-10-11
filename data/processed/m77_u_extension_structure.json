@@ -1,0 +1,1652 @@
+{
+  "schema_version": 1,
+  "review_date": "2026-09-23",
+  "source": {
+    "path": "data/raw/mahadevan_1977_text.pdf",
+    "bytes": 119302608,
+    "sha256": "6dcdd074a0174e5fab149590fbbf82342711d345764e9763f8e5e92c81cf7f99"
+  },
+  "scope": "Every R-column indexed M328-bearing line on PDF585–587, printed574–576; all three pages remain M328 block. Context lines are excluded.",
+  "protocol": {
+    "selection": "Exhaustive within assigned three printed pages; no corpus-export completion or semantic selection",
+    "normalization": "Reverse literal visual order to primary normalized RTL sequence; actual object writing direction unasserted",
+    "asterisk": "Source doubt attaches to following M code in tokens; not loss or additional-sign marker",
+    "LOSS": "One positive but unspecified damaged span; never substitute for reviewer inability to identify visible glyph",
+    "UNKNOWN": "Visible glyph whose M identity the reviewer cannot authenticate; distinct from primary loss",
+    "indexed_position": "Zero-based position of the M328 aligned under R, preserving multiple sightings if present",
+    "deduplication": "No cross-source deduplication performed; side/line retained explicitly for parent join"
+  },
+  "glyph_authentication": [
+    {
+      "path": "results/primary_pages/sign_list_page_32.png",
+      "bytes": 982719,
+      "sha256": "1e3f91789c947add7ce796479168d84d69636ebdc378493743188ac11c53c90a",
+      "pdf_page": 43,
+      "printed_page": 32,
+      "labels_used": [
+        "M028",
+        "M089"
+      ],
+      "visually_inspected": true
+    },
+    {
+      "path": "results/primary_pages/sign_list-045.png",
+      "bytes": 2312636,
+      "sha256": "972002b288ea77921dcacfe67386dbf585b76be6bca5444b7ff9422e47e70b89",
+      "pdf_page": 45,
+      "printed_page": 34,
+      "labels_used": [
+        "M328"
+      ],
+      "visually_inspected": true
+    }
+  ],
+  "evidence": [
+    {
+      "path": "results/primary_pages/structure-u-extension-585.png",
+      "bytes": 669541,
+      "sha256": "88f9b7a16f14415a50ee12bd8d630c6dc96586cc36235dced3b325494ee60a6c",
+      "pdf_page": 585,
+      "printed_page": 574,
+      "visually_inspected": true,
+      "render_dpi": 150
+    },
+    {
+      "path": "results/primary_pages/structure-u-extension-586.png",
+      "bytes": 723886,
+      "sha256": "467ae0a34a7affd48539f88fa05522f9995fa9e570ef92f44815e082da1faed3",
+      "pdf_page": 586,
+      "printed_page": 575,
+      "visually_inspected": true,
+      "render_dpi": 150
+    },
+    {
+      "path": "results/primary_pages/structure-u-extension-587.png",
+      "bytes": 676900,
+      "sha256": "003d732b57077150046ab9aa68896c20bfb84f62147c650f2de81fd2c418a99b",
+      "pdf_page": 587,
+      "printed_page": 576,
+      "visually_inspected": true,
+      "render_dpi": 150
+    },
+    {
+      "path": "results/primary_pages/structure-u-extension-5283-detail.png",
+      "bytes": 79198,
+      "sha256": "f3147bb7e4424c657a9ab8bb062c395601912199e48a9c1b76aab0f1b9aa4662",
+      "pdf_page": 587,
+      "printed_page": 576,
+      "visually_inspected": true,
+      "render_dpi": 300,
+      "crop_xywh_pixels": [
+        1050,
+        750,
+        750,
+        380
+      ]
+    },
+    {
+      "path": "results/primary_pages/structure-u-extension-5413a-detail.png",
+      "bytes": 58731,
+      "sha256": "5a984140f443223785db7f38f80e5dec191c2e215902589bf7a359ba9b7e8419",
+      "pdf_page": 585,
+      "printed_page": 574,
+      "visually_inspected": true,
+      "render_dpi": 300,
+      "crop_xywh_pixels": [
+        1250,
+        2550,
+        500,
+        350
+      ]
+    },
+    {
+      "path": "results/primary_pages/structure-u-extension-5413b-detail.png",
+      "bytes": 39206,
+      "sha256": "5fed265d0801965acd62a32edbd3b530a2e862198d63684193e5c9cf445a6de3",
+      "pdf_page": 587,
+      "printed_page": 576,
+      "visually_inspected": true,
+      "render_dpi": 300,
+      "crop_xywh_pixels": [
+        1250,
+        2770,
+        500,
+        320
+      ]
+    },
+    {
+      "path": "results/primary_pages/structure-u-extension-sign27-28.png",
+      "bytes": 78785,
+      "sha256": "a4877dc6c3b8d0ae597dfa3d7a750aba7afea950752b136244b21daf7cb0a3a4",
+      "pdf_page": 43,
+      "printed_page": 32,
+      "visually_inspected": true,
+      "render_dpi": 300,
+      "crop_xywh_pixels": [
+        1400,
+        750,
+        550,
+        300
+      ]
+    },
+    {
+      "path": "results/primary_pages/structure-u-extension-doubts585.png",
+      "bytes": 151436,
+      "sha256": "09d635d8d27959429358e5e123d99780a24194c0c6848669068176ef90acbeef",
+      "pdf_page": 585,
+      "printed_page": 574,
+      "visually_inspected": true,
+      "render_dpi": 300,
+      "crop_xywh_pixels": [
+        1450,
+        1370,
+        400,
+        900
+      ]
+    },
+    {
+      "path": "results/primary_pages/structure-u-extension-doubt4596.png",
+      "bytes": 54658,
+      "sha256": "3155ee74b5aef54407aad57a0f8c6636d9d54afddcd35e6d48b0198be103ab13",
+      "pdf_page": 587,
+      "printed_page": 576,
+      "visually_inspected": true,
+      "render_dpi": 300,
+      "crop_xywh_pixels": [
+        1450,
+        340,
+        400,
+        260
+      ]
+    }
+  ],
+  "rows": [
+    {
+      "reference": "5411",
+      "side": "2",
+      "line": "0",
+      "printed_side_line_code": "20",
+      "line_definition": "Only line on that side",
+      "pdf_page": 585,
+      "printed_page": 574,
+      "indexed_entry_on_page": 1,
+      "row_locator": "Indexed occurrence 1 of16, reference5411, side/line20; M328 aligned under R",
+      "tokens": [
+        "M089",
+        "M328"
+      ],
+      "indexed_M328_token_index_zero_based": 1,
+      "full_sequence_primary_checked": true,
+      "normalization": "right-to-left reading of printed concordance line",
+      "actual_direction_code": null,
+      "primary_doubt_token_indices_zero_based": [],
+      "loss_spans": [],
+      "reviewer_unknown_indices_zero_based": [],
+      "preceding_strokes": {
+        "observed_count": 3,
+        "form": "three long parallel vertical strokes, one row",
+        "sign": "M089",
+        "doubtful_in_source": false
+      },
+      "source_render": "results/primary_pages/structure-u-extension-585.png",
+      "notes": []
+    },
+    {
+      "reference": "5412",
+      "side": "2",
+      "line": "0",
+      "printed_side_line_code": "20",
+      "line_definition": "Only line on that side",
+      "pdf_page": 585,
+      "printed_page": 574,
+      "indexed_entry_on_page": 2,
+      "row_locator": "Indexed occurrence 2 of16, reference5412, side/line20; M328 aligned under R",
+      "tokens": [
+        "M089",
+        "M328"
+      ],
+      "indexed_M328_token_index_zero_based": 1,
+      "full_sequence_primary_checked": true,
+      "normalization": "right-to-left reading of printed concordance line",
+      "actual_direction_code": null,
+      "primary_doubt_token_indices_zero_based": [],
+      "loss_spans": [],
+      "reviewer_unknown_indices_zero_based": [],
+      "preceding_strokes": {
+        "observed_count": 3,
+        "form": "three long parallel vertical strokes, one row",
+        "sign": "M089",
+        "doubtful_in_source": false
+      },
+      "source_render": "results/primary_pages/structure-u-extension-585.png",
+      "notes": []
+    },
+    {
+      "reference": "5416",
+      "side": "2",
+      "line": "0",
+      "printed_side_line_code": "20",
+      "line_definition": "Only line on that side",
+      "pdf_page": 585,
+      "printed_page": 574,
+      "indexed_entry_on_page": 3,
+      "row_locator": "Indexed occurrence 3 of16, reference5416, side/line20; M328 aligned under R",
+      "tokens": [
+        "M089",
+        "M328"
+      ],
+      "indexed_M328_token_index_zero_based": 1,
+      "full_sequence_primary_checked": true,
+      "normalization": "right-to-left reading of printed concordance line",
+      "actual_direction_code": null,
+      "primary_doubt_token_indices_zero_based": [],
+      "loss_spans": [],
+      "reviewer_unknown_indices_zero_based": [],
+      "preceding_strokes": {
+        "observed_count": 3,
+        "form": "three long parallel vertical strokes, one row",
+        "sign": "M089",
+        "doubtful_in_source": false
+      },
+      "source_render": "results/primary_pages/structure-u-extension-585.png",
+      "notes": []
+    },
+    {
+      "reference": "5419",
+      "side": "2",
+      "line": "0",
+      "printed_side_line_code": "20",
+      "line_definition": "Only line on that side",
+      "pdf_page": 585,
+      "printed_page": 574,
+      "indexed_entry_on_page": 4,
+      "row_locator": "Indexed occurrence 4 of16, reference5419, side/line20; M328 aligned under R",
+      "tokens": [
+        "M089",
+        "M328"
+      ],
+      "indexed_M328_token_index_zero_based": 1,
+      "full_sequence_primary_checked": true,
+      "normalization": "right-to-left reading of printed concordance line",
+      "actual_direction_code": null,
+      "primary_doubt_token_indices_zero_based": [],
+      "loss_spans": [],
+      "reviewer_unknown_indices_zero_based": [],
+      "preceding_strokes": {
+        "observed_count": 3,
+        "form": "three long parallel vertical strokes, one row",
+        "sign": "M089",
+        "doubtful_in_source": false
+      },
+      "source_render": "results/primary_pages/structure-u-extension-585.png",
+      "notes": []
+    },
+    {
+      "reference": "5421",
+      "side": "2",
+      "line": "0",
+      "printed_side_line_code": "20",
+      "line_definition": "Only line on that side",
+      "pdf_page": 585,
+      "printed_page": 574,
+      "indexed_entry_on_page": 5,
+      "row_locator": "Indexed occurrence 5 of16, reference5421, side/line20; M328 aligned under R",
+      "tokens": [
+        "M089",
+        "M328"
+      ],
+      "indexed_M328_token_index_zero_based": 1,
+      "full_sequence_primary_checked": true,
+      "normalization": "right-to-left reading of printed concordance line",
+      "actual_direction_code": null,
+      "primary_doubt_token_indices_zero_based": [],
+      "loss_spans": [],
+      "reviewer_unknown_indices_zero_based": [],
+      "preceding_strokes": {
+        "observed_count": 3,
+        "form": "three long parallel vertical strokes, one row",
+        "sign": "M089",
+        "doubtful_in_source": false
+      },
+      "source_render": "results/primary_pages/structure-u-extension-585.png",
+      "notes": []
+    },
+    {
+      "reference": "5422",
+      "side": "2",
+      "line": "0",
+      "printed_side_line_code": "20",
+      "line_definition": "Only line on that side",
+      "pdf_page": 585,
+      "printed_page": 574,
+      "indexed_entry_on_page": 6,
+      "row_locator": "Indexed occurrence 6 of16, reference5422, side/line20; M328 aligned under R",
+      "tokens": [
+        "M089",
+        "M328"
+      ],
+      "indexed_M328_token_index_zero_based": 1,
+      "full_sequence_primary_checked": true,
+      "normalization": "right-to-left reading of printed concordance line",
+      "actual_direction_code": null,
+      "primary_doubt_token_indices_zero_based": [],
+      "loss_spans": [],
+      "reviewer_unknown_indices_zero_based": [],
+      "preceding_strokes": {
+        "observed_count": 3,
+        "form": "three long parallel vertical strokes, one row",
+        "sign": "M089",
+        "doubtful_in_source": false
+      },
+      "source_render": "results/primary_pages/structure-u-extension-585.png",
+      "notes": []
+    },
+    {
+      "reference": "5423",
+      "side": "2",
+      "line": "0",
+      "printed_side_line_code": "20",
+      "line_definition": "Only line on that side",
+      "pdf_page": 585,
+      "printed_page": 574,
+      "indexed_entry_on_page": 7,
+      "row_locator": "Indexed occurrence 7 of16, reference5423, side/line20; M328 aligned under R",
+      "tokens": [
+        "M089",
+        "M328"
+      ],
+      "indexed_M328_token_index_zero_based": 1,
+      "full_sequence_primary_checked": true,
+      "normalization": "right-to-left reading of printed concordance line",
+      "actual_direction_code": null,
+      "primary_doubt_token_indices_zero_based": [],
+      "loss_spans": [],
+      "reviewer_unknown_indices_zero_based": [],
+      "preceding_strokes": {
+        "observed_count": 3,
+        "form": "three long parallel vertical strokes, one row",
+        "sign": "M089",
+        "doubtful_in_source": false
+      },
+      "source_render": "results/primary_pages/structure-u-extension-585.png",
+      "notes": []
+    },
+    {
+      "reference": "5425",
+      "side": "2",
+      "line": "0",
+      "printed_side_line_code": "20",
+      "line_definition": "Only line on that side",
+      "pdf_page": 585,
+      "printed_page": 574,
+      "indexed_entry_on_page": 8,
+      "row_locator": "Indexed occurrence 8 of16, reference5425, side/line20; M328 aligned under R",
+      "tokens": [
+        "M089",
+        "*M328"
+      ],
+      "indexed_M328_token_index_zero_based": 1,
+      "full_sequence_primary_checked": true,
+      "normalization": "right-to-left reading of printed concordance line",
+      "actual_direction_code": null,
+      "primary_doubt_token_indices_zero_based": [
+        1
+      ],
+      "loss_spans": [],
+      "reviewer_unknown_indices_zero_based": [],
+      "preceding_strokes": {
+        "observed_count": 3,
+        "form": "three long parallel vertical strokes, one row",
+        "sign": "M089",
+        "doubtful_in_source": false
+      },
+      "source_render": "results/primary_pages/structure-u-extension-585.png",
+      "notes": [
+        "Primary printed star qualifies M328; identity retained with source doubt."
+      ]
+    },
+    {
+      "reference": "5434",
+      "side": "2",
+      "line": "0",
+      "printed_side_line_code": "20",
+      "line_definition": "Only line on that side",
+      "pdf_page": 585,
+      "printed_page": 574,
+      "indexed_entry_on_page": 9,
+      "row_locator": "Indexed occurrence 9 of16, reference5434, side/line20; M328 aligned under R",
+      "tokens": [
+        "M089",
+        "M328"
+      ],
+      "indexed_M328_token_index_zero_based": 1,
+      "full_sequence_primary_checked": true,
+      "normalization": "right-to-left reading of printed concordance line",
+      "actual_direction_code": null,
+      "primary_doubt_token_indices_zero_based": [],
+      "loss_spans": [],
+      "reviewer_unknown_indices_zero_based": [],
+      "preceding_strokes": {
+        "observed_count": 3,
+        "form": "three long parallel vertical strokes, one row",
+        "sign": "M089",
+        "doubtful_in_source": false
+      },
+      "source_render": "results/primary_pages/structure-u-extension-585.png",
+      "notes": []
+    },
+    {
+      "reference": "5437",
+      "side": "2",
+      "line": "0",
+      "printed_side_line_code": "20",
+      "line_definition": "Only line on that side",
+      "pdf_page": 585,
+      "printed_page": 574,
+      "indexed_entry_on_page": 10,
+      "row_locator": "Indexed occurrence 10 of16, reference5437, side/line20; M328 aligned under R",
+      "tokens": [
+        "M089",
+        "M328"
+      ],
+      "indexed_M328_token_index_zero_based": 1,
+      "full_sequence_primary_checked": true,
+      "normalization": "right-to-left reading of printed concordance line",
+      "actual_direction_code": null,
+      "primary_doubt_token_indices_zero_based": [],
+      "loss_spans": [],
+      "reviewer_unknown_indices_zero_based": [],
+      "preceding_strokes": {
+        "observed_count": 3,
+        "form": "three long parallel vertical strokes, one row",
+        "sign": "M089",
+        "doubtful_in_source": false
+      },
+      "source_render": "results/primary_pages/structure-u-extension-585.png",
+      "notes": []
+    },
+    {
+      "reference": "5442",
+      "side": "2",
+      "line": "0",
+      "printed_side_line_code": "20",
+      "line_definition": "Only line on that side",
+      "pdf_page": 585,
+      "printed_page": 574,
+      "indexed_entry_on_page": 11,
+      "row_locator": "Indexed occurrence 11 of16, reference5442, side/line20; M328 aligned under R",
+      "tokens": [
+        "M089",
+        "M328"
+      ],
+      "indexed_M328_token_index_zero_based": 1,
+      "full_sequence_primary_checked": true,
+      "normalization": "right-to-left reading of printed concordance line",
+      "actual_direction_code": null,
+      "primary_doubt_token_indices_zero_based": [],
+      "loss_spans": [],
+      "reviewer_unknown_indices_zero_based": [],
+      "preceding_strokes": {
+        "observed_count": 3,
+        "form": "three long parallel vertical strokes, one row",
+        "sign": "M089",
+        "doubtful_in_source": false
+      },
+      "source_render": "results/primary_pages/structure-u-extension-585.png",
+      "notes": []
+    },
+    {
+      "reference": "5449",
+      "side": "2",
+      "line": "0",
+      "printed_side_line_code": "20",
+      "line_definition": "Only line on that side",
+      "pdf_page": 585,
+      "printed_page": 574,
+      "indexed_entry_on_page": 12,
+      "row_locator": "Indexed occurrence 12 of16, reference5449, side/line20; M328 aligned under R",
+      "tokens": [
+        "*M089",
+        "M328"
+      ],
+      "indexed_M328_token_index_zero_based": 1,
+      "full_sequence_primary_checked": true,
+      "normalization": "right-to-left reading of printed concordance line",
+      "actual_direction_code": null,
+      "primary_doubt_token_indices_zero_based": [
+        0
+      ],
+      "loss_spans": [],
+      "reviewer_unknown_indices_zero_based": [],
+      "preceding_strokes": {
+        "observed_count": 3,
+        "form": "three long parallel vertical strokes, one row",
+        "sign": "M089",
+        "doubtful_in_source": true
+      },
+      "source_render": "results/primary_pages/structure-u-extension-585.png",
+      "notes": [
+        "Primary printed star qualifies M089; identity retained with source doubt."
+      ]
+    },
+    {
+      "reference": "5457",
+      "side": "2",
+      "line": "0",
+      "printed_side_line_code": "20",
+      "line_definition": "Only line on that side",
+      "pdf_page": 585,
+      "printed_page": 574,
+      "indexed_entry_on_page": 13,
+      "row_locator": "Indexed occurrence 13 of16, reference5457, side/line20; M328 aligned under R",
+      "tokens": [
+        "M089",
+        "M328"
+      ],
+      "indexed_M328_token_index_zero_based": 1,
+      "full_sequence_primary_checked": true,
+      "normalization": "right-to-left reading of printed concordance line",
+      "actual_direction_code": null,
+      "primary_doubt_token_indices_zero_based": [],
+      "loss_spans": [],
+      "reviewer_unknown_indices_zero_based": [],
+      "preceding_strokes": {
+        "observed_count": 3,
+        "form": "three long parallel vertical strokes, one row",
+        "sign": "M089",
+        "doubtful_in_source": false
+      },
+      "source_render": "results/primary_pages/structure-u-extension-585.png",
+      "notes": []
+    },
+    {
+      "reference": "5499",
+      "side": "2",
+      "line": "0",
+      "printed_side_line_code": "20",
+      "line_definition": "Only line on that side",
+      "pdf_page": 585,
+      "printed_page": 574,
+      "indexed_entry_on_page": 14,
+      "row_locator": "Indexed occurrence 14 of16, reference5499, side/line20; M328 aligned under R",
+      "tokens": [
+        "M089",
+        "M328"
+      ],
+      "indexed_M328_token_index_zero_based": 1,
+      "full_sequence_primary_checked": true,
+      "normalization": "right-to-left reading of printed concordance line",
+      "actual_direction_code": null,
+      "primary_doubt_token_indices_zero_based": [],
+      "loss_spans": [],
+      "reviewer_unknown_indices_zero_based": [],
+      "preceding_strokes": {
+        "observed_count": 3,
+        "form": "three long parallel vertical strokes, one row",
+        "sign": "M089",
+        "doubtful_in_source": false
+      },
+      "source_render": "results/primary_pages/structure-u-extension-585.png",
+      "notes": []
+    },
+    {
+      "reference": "5413",
+      "side": "2",
+      "line": "0",
+      "printed_side_line_code": "20",
+      "line_definition": "Only line on that side",
+      "pdf_page": 585,
+      "printed_page": 574,
+      "indexed_entry_on_page": 15,
+      "row_locator": "Indexed occurrence 15 of16, reference5413, side/line20; M328 aligned under R",
+      "tokens": [
+        "M089",
+        "M328"
+      ],
+      "indexed_M328_token_index_zero_based": 1,
+      "full_sequence_primary_checked": true,
+      "normalization": "right-to-left reading of printed concordance line",
+      "actual_direction_code": null,
+      "primary_doubt_token_indices_zero_based": [],
+      "loss_spans": [],
+      "reviewer_unknown_indices_zero_based": [],
+      "preceding_strokes": {
+        "observed_count": 3,
+        "form": "three long parallel vertical strokes, one row",
+        "sign": "M089",
+        "doubtful_in_source": false
+      },
+      "source_render": "results/primary_pages/structure-u-extension-585.png",
+      "notes": [
+        "Same object appears on both PDF585 and587, with different indexed sides. R alignment selects side2 on585 and side3 on587. Other III+U side is context at this sighting, not a second indexed row."
+      ]
+    },
+    {
+      "reference": "4352",
+      "side": "2",
+      "line": "0",
+      "printed_side_line_code": "20",
+      "line_definition": "Only line on that side",
+      "pdf_page": 585,
+      "printed_page": 574,
+      "indexed_entry_on_page": 16,
+      "row_locator": "Indexed occurrence 16 of16, reference4352, side/line20; M328 aligned under R",
+      "tokens": [
+        "M089",
+        "M328"
+      ],
+      "indexed_M328_token_index_zero_based": 1,
+      "full_sequence_primary_checked": true,
+      "normalization": "right-to-left reading of printed concordance line",
+      "actual_direction_code": null,
+      "primary_doubt_token_indices_zero_based": [],
+      "loss_spans": [],
+      "reviewer_unknown_indices_zero_based": [],
+      "preceding_strokes": {
+        "observed_count": 3,
+        "form": "three long parallel vertical strokes, one row",
+        "sign": "M089",
+        "doubtful_in_source": false
+      },
+      "source_render": "results/primary_pages/structure-u-extension-585.png",
+      "notes": []
+    },
+    {
+      "reference": "4444",
+      "side": "2",
+      "line": "0",
+      "printed_side_line_code": "20",
+      "line_definition": "Only line on that side",
+      "pdf_page": 586,
+      "printed_page": 575,
+      "indexed_entry_on_page": 1,
+      "row_locator": "Indexed occurrence 1 of16, reference4444, side/line20; M328 aligned under R",
+      "tokens": [
+        "M089",
+        "M328"
+      ],
+      "indexed_M328_token_index_zero_based": 1,
+      "full_sequence_primary_checked": true,
+      "normalization": "right-to-left reading of printed concordance line",
+      "actual_direction_code": null,
+      "primary_doubt_token_indices_zero_based": [],
+      "loss_spans": [],
+      "reviewer_unknown_indices_zero_based": [],
+      "preceding_strokes": {
+        "observed_count": 3,
+        "form": "three long parallel vertical strokes, one row",
+        "sign": "M089",
+        "doubtful_in_source": false
+      },
+      "source_render": "results/primary_pages/structure-u-extension-586.png",
+      "notes": []
+    },
+    {
+      "reference": "4456",
+      "side": "2",
+      "line": "0",
+      "printed_side_line_code": "20",
+      "line_definition": "Only line on that side",
+      "pdf_page": 586,
+      "printed_page": 575,
+      "indexed_entry_on_page": 2,
+      "row_locator": "Indexed occurrence 2 of16, reference4456, side/line20; M328 aligned under R",
+      "tokens": [
+        "M089",
+        "M328"
+      ],
+      "indexed_M328_token_index_zero_based": 1,
+      "full_sequence_primary_checked": true,
+      "normalization": "right-to-left reading of printed concordance line",
+      "actual_direction_code": null,
+      "primary_doubt_token_indices_zero_based": [],
+      "loss_spans": [],
+      "reviewer_unknown_indices_zero_based": [],
+      "preceding_strokes": {
+        "observed_count": 3,
+        "form": "three long parallel vertical strokes, one row",
+        "sign": "M089",
+        "doubtful_in_source": false
+      },
+      "source_render": "results/primary_pages/structure-u-extension-586.png",
+      "notes": []
+    },
+    {
+      "reference": "4605",
+      "side": "2",
+      "line": "0",
+      "printed_side_line_code": "20",
+      "line_definition": "Only line on that side",
+      "pdf_page": 586,
+      "printed_page": 575,
+      "indexed_entry_on_page": 3,
+      "row_locator": "Indexed occurrence 3 of16, reference4605, side/line20; M328 aligned under R",
+      "tokens": [
+        "M089",
+        "M328"
+      ],
+      "indexed_M328_token_index_zero_based": 1,
+      "full_sequence_primary_checked": true,
+      "normalization": "right-to-left reading of printed concordance line",
+      "actual_direction_code": null,
+      "primary_doubt_token_indices_zero_based": [],
+      "loss_spans": [],
+      "reviewer_unknown_indices_zero_based": [],
+      "preceding_strokes": {
+        "observed_count": 3,
+        "form": "three long parallel vertical strokes, one row",
+        "sign": "M089",
+        "doubtful_in_source": false
+      },
+      "source_render": "results/primary_pages/structure-u-extension-586.png",
+      "notes": []
+    },
+    {
+      "reference": "4704",
+      "side": "2",
+      "line": "0",
+      "printed_side_line_code": "20",
+      "line_definition": "Only line on that side",
+      "pdf_page": 586,
+      "printed_page": 575,
+      "indexed_entry_on_page": 4,
+      "row_locator": "Indexed occurrence 4 of16, reference4704, side/line20; M328 aligned under R",
+      "tokens": [
+        "M089",
+        "M328"
+      ],
+      "indexed_M328_token_index_zero_based": 1,
+      "full_sequence_primary_checked": true,
+      "normalization": "right-to-left reading of printed concordance line",
+      "actual_direction_code": null,
+      "primary_doubt_token_indices_zero_based": [],
+      "loss_spans": [],
+      "reviewer_unknown_indices_zero_based": [],
+      "preceding_strokes": {
+        "observed_count": 3,
+        "form": "three long parallel vertical strokes, one row",
+        "sign": "M089",
+        "doubtful_in_source": false
+      },
+      "source_render": "results/primary_pages/structure-u-extension-586.png",
+      "notes": []
+    },
+    {
+      "reference": "4666",
+      "side": "2",
+      "line": "0",
+      "printed_side_line_code": "20",
+      "line_definition": "Only line on that side",
+      "pdf_page": 586,
+      "printed_page": 575,
+      "indexed_entry_on_page": 5,
+      "row_locator": "Indexed occurrence 5 of16, reference4666, side/line20; M328 aligned under R",
+      "tokens": [
+        "M089",
+        "M328"
+      ],
+      "indexed_M328_token_index_zero_based": 1,
+      "full_sequence_primary_checked": true,
+      "normalization": "right-to-left reading of printed concordance line",
+      "actual_direction_code": null,
+      "primary_doubt_token_indices_zero_based": [],
+      "loss_spans": [],
+      "reviewer_unknown_indices_zero_based": [],
+      "preceding_strokes": {
+        "observed_count": 3,
+        "form": "three long parallel vertical strokes, one row",
+        "sign": "M089",
+        "doubtful_in_source": false
+      },
+      "source_render": "results/primary_pages/structure-u-extension-586.png",
+      "notes": []
+    },
+    {
+      "reference": "4602",
+      "side": "2",
+      "line": "0",
+      "printed_side_line_code": "20",
+      "line_definition": "Only line on that side",
+      "pdf_page": 586,
+      "printed_page": 575,
+      "indexed_entry_on_page": 6,
+      "row_locator": "Indexed occurrence 6 of16, reference4602, side/line20; M328 aligned under R",
+      "tokens": [
+        "M089",
+        "M328"
+      ],
+      "indexed_M328_token_index_zero_based": 1,
+      "full_sequence_primary_checked": true,
+      "normalization": "right-to-left reading of printed concordance line",
+      "actual_direction_code": null,
+      "primary_doubt_token_indices_zero_based": [],
+      "loss_spans": [],
+      "reviewer_unknown_indices_zero_based": [],
+      "preceding_strokes": {
+        "observed_count": 3,
+        "form": "three long parallel vertical strokes, one row",
+        "sign": "M089",
+        "doubtful_in_source": false
+      },
+      "source_render": "results/primary_pages/structure-u-extension-586.png",
+      "notes": []
+    },
+    {
+      "reference": "4646",
+      "side": "2",
+      "line": "0",
+      "printed_side_line_code": "20",
+      "line_definition": "Only line on that side",
+      "pdf_page": 586,
+      "printed_page": 575,
+      "indexed_entry_on_page": 7,
+      "row_locator": "Indexed occurrence 7 of16, reference4646, side/line20; M328 aligned under R",
+      "tokens": [
+        "M089",
+        "M328"
+      ],
+      "indexed_M328_token_index_zero_based": 1,
+      "full_sequence_primary_checked": true,
+      "normalization": "right-to-left reading of printed concordance line",
+      "actual_direction_code": null,
+      "primary_doubt_token_indices_zero_based": [],
+      "loss_spans": [],
+      "reviewer_unknown_indices_zero_based": [],
+      "preceding_strokes": {
+        "observed_count": 3,
+        "form": "three long parallel vertical strokes, one row",
+        "sign": "M089",
+        "doubtful_in_source": false
+      },
+      "source_render": "results/primary_pages/structure-u-extension-586.png",
+      "notes": []
+    },
+    {
+      "reference": "5276",
+      "side": "2",
+      "line": "0",
+      "printed_side_line_code": "20",
+      "line_definition": "Only line on that side",
+      "pdf_page": 586,
+      "printed_page": 575,
+      "indexed_entry_on_page": 8,
+      "row_locator": "Indexed occurrence 8 of16, reference5276, side/line20; M328 aligned under R",
+      "tokens": [
+        "M089",
+        "M328"
+      ],
+      "indexed_M328_token_index_zero_based": 1,
+      "full_sequence_primary_checked": true,
+      "normalization": "right-to-left reading of printed concordance line",
+      "actual_direction_code": null,
+      "primary_doubt_token_indices_zero_based": [],
+      "loss_spans": [],
+      "reviewer_unknown_indices_zero_based": [],
+      "preceding_strokes": {
+        "observed_count": 3,
+        "form": "three long parallel vertical strokes, one row",
+        "sign": "M089",
+        "doubtful_in_source": false
+      },
+      "source_render": "results/primary_pages/structure-u-extension-586.png",
+      "notes": []
+    },
+    {
+      "reference": "4523",
+      "side": "2",
+      "line": "0",
+      "printed_side_line_code": "20",
+      "line_definition": "Only line on that side",
+      "pdf_page": 586,
+      "printed_page": 575,
+      "indexed_entry_on_page": 9,
+      "row_locator": "Indexed occurrence 9 of16, reference4523, side/line20; M328 aligned under R",
+      "tokens": [
+        "M089",
+        "M328"
+      ],
+      "indexed_M328_token_index_zero_based": 1,
+      "full_sequence_primary_checked": true,
+      "normalization": "right-to-left reading of printed concordance line",
+      "actual_direction_code": null,
+      "primary_doubt_token_indices_zero_based": [],
+      "loss_spans": [],
+      "reviewer_unknown_indices_zero_based": [],
+      "preceding_strokes": {
+        "observed_count": 3,
+        "form": "three long parallel vertical strokes, one row",
+        "sign": "M089",
+        "doubtful_in_source": false
+      },
+      "source_render": "results/primary_pages/structure-u-extension-586.png",
+      "notes": []
+    },
+    {
+      "reference": "4457",
+      "side": "2",
+      "line": "0",
+      "printed_side_line_code": "20",
+      "line_definition": "Only line on that side",
+      "pdf_page": 586,
+      "printed_page": 575,
+      "indexed_entry_on_page": 10,
+      "row_locator": "Indexed occurrence 10 of16, reference4457, side/line20; M328 aligned under R",
+      "tokens": [
+        "M089",
+        "M328"
+      ],
+      "indexed_M328_token_index_zero_based": 1,
+      "full_sequence_primary_checked": true,
+      "normalization": "right-to-left reading of printed concordance line",
+      "actual_direction_code": null,
+      "primary_doubt_token_indices_zero_based": [],
+      "loss_spans": [],
+      "reviewer_unknown_indices_zero_based": [],
+      "preceding_strokes": {
+        "observed_count": 3,
+        "form": "three long parallel vertical strokes, one row",
+        "sign": "M089",
+        "doubtful_in_source": false
+      },
+      "source_render": "results/primary_pages/structure-u-extension-586.png",
+      "notes": []
+    },
+    {
+      "reference": "4455",
+      "side": "2",
+      "line": "0",
+      "printed_side_line_code": "20",
+      "line_definition": "Only line on that side",
+      "pdf_page": 586,
+      "printed_page": 575,
+      "indexed_entry_on_page": 11,
+      "row_locator": "Indexed occurrence 11 of16, reference4455, side/line20; M328 aligned under R",
+      "tokens": [
+        "M089",
+        "M328"
+      ],
+      "indexed_M328_token_index_zero_based": 1,
+      "full_sequence_primary_checked": true,
+      "normalization": "right-to-left reading of printed concordance line",
+      "actual_direction_code": null,
+      "primary_doubt_token_indices_zero_based": [],
+      "loss_spans": [],
+      "reviewer_unknown_indices_zero_based": [],
+      "preceding_strokes": {
+        "observed_count": 3,
+        "form": "three long parallel vertical strokes, one row",
+        "sign": "M089",
+        "doubtful_in_source": false
+      },
+      "source_render": "results/primary_pages/structure-u-extension-586.png",
+      "notes": []
+    },
+    {
+      "reference": "4492",
+      "side": "2",
+      "line": "0",
+      "printed_side_line_code": "20",
+      "line_definition": "Only line on that side",
+      "pdf_page": 586,
+      "printed_page": 575,
+      "indexed_entry_on_page": 12,
+      "row_locator": "Indexed occurrence 12 of16, reference4492, side/line20; M328 aligned under R",
+      "tokens": [
+        "M089",
+        "M328"
+      ],
+      "indexed_M328_token_index_zero_based": 1,
+      "full_sequence_primary_checked": true,
+      "normalization": "right-to-left reading of printed concordance line",
+      "actual_direction_code": null,
+      "primary_doubt_token_indices_zero_based": [],
+      "loss_spans": [],
+      "reviewer_unknown_indices_zero_based": [],
+      "preceding_strokes": {
+        "observed_count": 3,
+        "form": "three long parallel vertical strokes, one row",
+        "sign": "M089",
+        "doubtful_in_source": false
+      },
+      "source_render": "results/primary_pages/structure-u-extension-586.png",
+      "notes": []
+    },
+    {
+      "reference": "4504",
+      "side": "2",
+      "line": "0",
+      "printed_side_line_code": "20",
+      "line_definition": "Only line on that side",
+      "pdf_page": 586,
+      "printed_page": 575,
+      "indexed_entry_on_page": 13,
+      "row_locator": "Indexed occurrence 13 of16, reference4504, side/line20; M328 aligned under R",
+      "tokens": [
+        "M089",
+        "M328"
+      ],
+      "indexed_M328_token_index_zero_based": 1,
+      "full_sequence_primary_checked": true,
+      "normalization": "right-to-left reading of printed concordance line",
+      "actual_direction_code": null,
+      "primary_doubt_token_indices_zero_based": [],
+      "loss_spans": [],
+      "reviewer_unknown_indices_zero_based": [],
+      "preceding_strokes": {
+        "observed_count": 3,
+        "form": "three long parallel vertical strokes, one row",
+        "sign": "M089",
+        "doubtful_in_source": false
+      },
+      "source_render": "results/primary_pages/structure-u-extension-586.png",
+      "notes": []
+    },
+    {
+      "reference": "4510",
+      "side": "2",
+      "line": "0",
+      "printed_side_line_code": "20",
+      "line_definition": "Only line on that side",
+      "pdf_page": 586,
+      "printed_page": 575,
+      "indexed_entry_on_page": 14,
+      "row_locator": "Indexed occurrence 14 of16, reference4510, side/line20; M328 aligned under R",
+      "tokens": [
+        "M089",
+        "M328"
+      ],
+      "indexed_M328_token_index_zero_based": 1,
+      "full_sequence_primary_checked": true,
+      "normalization": "right-to-left reading of printed concordance line",
+      "actual_direction_code": null,
+      "primary_doubt_token_indices_zero_based": [],
+      "loss_spans": [],
+      "reviewer_unknown_indices_zero_based": [],
+      "preceding_strokes": {
+        "observed_count": 3,
+        "form": "three long parallel vertical strokes, one row",
+        "sign": "M089",
+        "doubtful_in_source": false
+      },
+      "source_render": "results/primary_pages/structure-u-extension-586.png",
+      "notes": []
+    },
+    {
+      "reference": "4371",
+      "side": "2",
+      "line": "0",
+      "printed_side_line_code": "20",
+      "line_definition": "Only line on that side",
+      "pdf_page": 586,
+      "printed_page": 575,
+      "indexed_entry_on_page": 15,
+      "row_locator": "Indexed occurrence 15 of16, reference4371, side/line20; M328 aligned under R",
+      "tokens": [
+        "M089",
+        "M328"
+      ],
+      "indexed_M328_token_index_zero_based": 1,
+      "full_sequence_primary_checked": true,
+      "normalization": "right-to-left reading of printed concordance line",
+      "actual_direction_code": null,
+      "primary_doubt_token_indices_zero_based": [],
+      "loss_spans": [],
+      "reviewer_unknown_indices_zero_based": [],
+      "preceding_strokes": {
+        "observed_count": 3,
+        "form": "three long parallel vertical strokes, one row",
+        "sign": "M089",
+        "doubtful_in_source": false
+      },
+      "source_render": "results/primary_pages/structure-u-extension-586.png",
+      "notes": []
+    },
+    {
+      "reference": "4674",
+      "side": "2",
+      "line": "0",
+      "printed_side_line_code": "20",
+      "line_definition": "Only line on that side",
+      "pdf_page": 586,
+      "printed_page": 575,
+      "indexed_entry_on_page": 16,
+      "row_locator": "Indexed occurrence 16 of16, reference4674, side/line20; M328 aligned under R",
+      "tokens": [
+        "M089",
+        "M328"
+      ],
+      "indexed_M328_token_index_zero_based": 1,
+      "full_sequence_primary_checked": true,
+      "normalization": "right-to-left reading of printed concordance line",
+      "actual_direction_code": null,
+      "primary_doubt_token_indices_zero_based": [],
+      "loss_spans": [],
+      "reviewer_unknown_indices_zero_based": [],
+      "preceding_strokes": {
+        "observed_count": 3,
+        "form": "three long parallel vertical strokes, one row",
+        "sign": "M089",
+        "doubtful_in_source": false
+      },
+      "source_render": "results/primary_pages/structure-u-extension-586.png",
+      "notes": []
+    },
+    {
+      "reference": "5274",
+      "side": "2",
+      "line": "0",
+      "printed_side_line_code": "20",
+      "line_definition": "Only line on that side",
+      "pdf_page": 587,
+      "printed_page": 576,
+      "indexed_entry_on_page": 1,
+      "row_locator": "Indexed occurrence 1 of16, reference5274, side/line20; M328 aligned under R",
+      "tokens": [
+        "M089",
+        "M328"
+      ],
+      "indexed_M328_token_index_zero_based": 1,
+      "full_sequence_primary_checked": true,
+      "normalization": "right-to-left reading of printed concordance line",
+      "actual_direction_code": null,
+      "primary_doubt_token_indices_zero_based": [],
+      "loss_spans": [],
+      "reviewer_unknown_indices_zero_based": [],
+      "preceding_strokes": {
+        "observed_count": 3,
+        "form": "three long parallel vertical strokes, one row",
+        "sign": "M089",
+        "doubtful_in_source": false
+      },
+      "source_render": "results/primary_pages/structure-u-extension-587.png",
+      "notes": []
+    },
+    {
+      "reference": "4596",
+      "side": "2",
+      "line": "0",
+      "printed_side_line_code": "20",
+      "line_definition": "Only line on that side",
+      "pdf_page": 587,
+      "printed_page": 576,
+      "indexed_entry_on_page": 2,
+      "row_locator": "Indexed occurrence 2 of16, reference4596, side/line20; M328 aligned under R",
+      "tokens": [
+        "M089",
+        "*M328"
+      ],
+      "indexed_M328_token_index_zero_based": 1,
+      "full_sequence_primary_checked": true,
+      "normalization": "right-to-left reading of printed concordance line",
+      "actual_direction_code": null,
+      "primary_doubt_token_indices_zero_based": [
+        1
+      ],
+      "loss_spans": [],
+      "reviewer_unknown_indices_zero_based": [],
+      "preceding_strokes": {
+        "observed_count": 3,
+        "form": "three long parallel vertical strokes, one row",
+        "sign": "M089",
+        "doubtful_in_source": false
+      },
+      "source_render": "results/primary_pages/structure-u-extension-587.png",
+      "notes": [
+        "Primary printed star qualifies M328; identity retained with source doubt."
+      ]
+    },
+    {
+      "reference": "4373",
+      "side": "2",
+      "line": "0",
+      "printed_side_line_code": "20",
+      "line_definition": "Only line on that side",
+      "pdf_page": 587,
+      "printed_page": 576,
+      "indexed_entry_on_page": 3,
+      "row_locator": "Indexed occurrence 3 of16, reference4373, side/line20; M328 aligned under R",
+      "tokens": [
+        "M089",
+        "M328"
+      ],
+      "indexed_M328_token_index_zero_based": 1,
+      "full_sequence_primary_checked": true,
+      "normalization": "right-to-left reading of printed concordance line",
+      "actual_direction_code": null,
+      "primary_doubt_token_indices_zero_based": [],
+      "loss_spans": [],
+      "reviewer_unknown_indices_zero_based": [],
+      "preceding_strokes": {
+        "observed_count": 3,
+        "form": "three long parallel vertical strokes, one row",
+        "sign": "M089",
+        "doubtful_in_source": false
+      },
+      "source_render": "results/primary_pages/structure-u-extension-587.png",
+      "notes": []
+    },
+    {
+      "reference": "4702",
+      "side": "2",
+      "line": "0",
+      "printed_side_line_code": "20",
+      "line_definition": "Only line on that side",
+      "pdf_page": 587,
+      "printed_page": 576,
+      "indexed_entry_on_page": 4,
+      "row_locator": "Indexed occurrence 4 of16, reference4702, side/line20; M328 aligned under R",
+      "tokens": [
+        "M089",
+        "M328"
+      ],
+      "indexed_M328_token_index_zero_based": 1,
+      "full_sequence_primary_checked": true,
+      "normalization": "right-to-left reading of printed concordance line",
+      "actual_direction_code": null,
+      "primary_doubt_token_indices_zero_based": [],
+      "loss_spans": [],
+      "reviewer_unknown_indices_zero_based": [],
+      "preceding_strokes": {
+        "observed_count": 3,
+        "form": "three long parallel vertical strokes, one row",
+        "sign": "M089",
+        "doubtful_in_source": false
+      },
+      "source_render": "results/primary_pages/structure-u-extension-587.png",
+      "notes": []
+    },
+    {
+      "reference": "5283",
+      "side": "2",
+      "line": "0",
+      "printed_side_line_code": "20",
+      "line_definition": "Only line on that side",
+      "pdf_page": 587,
+      "printed_page": 576,
+      "indexed_entry_on_page": 5,
+      "row_locator": "Indexed occurrence 5 of16, reference5283, side/line20; M328 aligned under R",
+      "tokens": [
+        "M089",
+        "M328",
+        "M028"
+      ],
+      "indexed_M328_token_index_zero_based": 1,
+      "full_sequence_primary_checked": true,
+      "normalization": "right-to-left reading of printed concordance line",
+      "actual_direction_code": null,
+      "primary_doubt_token_indices_zero_based": [],
+      "loss_spans": [],
+      "reviewer_unknown_indices_zero_based": [],
+      "preceding_strokes": {
+        "observed_count": 3,
+        "form": "three long parallel vertical strokes, one row",
+        "sign": "M089",
+        "doubtful_in_source": false
+      },
+      "source_render": "results/primary_pages/structure-u-extension-587.png",
+      "notes": [
+        "Person-with-bow sign after indexed M328 authenticated against primary sign-list label28; distinct from27. No contextual side1 signs included."
+      ]
+    },
+    {
+      "reference": "4490",
+      "side": "2",
+      "line": "0",
+      "printed_side_line_code": "20",
+      "line_definition": "Only line on that side",
+      "pdf_page": 587,
+      "printed_page": 576,
+      "indexed_entry_on_page": 6,
+      "row_locator": "Indexed occurrence 6 of16, reference4490, side/line20; M328 aligned under R",
+      "tokens": [
+        "M089",
+        "M328"
+      ],
+      "indexed_M328_token_index_zero_based": 1,
+      "full_sequence_primary_checked": true,
+      "normalization": "right-to-left reading of printed concordance line",
+      "actual_direction_code": null,
+      "primary_doubt_token_indices_zero_based": [],
+      "loss_spans": [],
+      "reviewer_unknown_indices_zero_based": [],
+      "preceding_strokes": {
+        "observed_count": 3,
+        "form": "three long parallel vertical strokes, one row",
+        "sign": "M089",
+        "doubtful_in_source": false
+      },
+      "source_render": "results/primary_pages/structure-u-extension-587.png",
+      "notes": []
+    },
+    {
+      "reference": "4374",
+      "side": "2",
+      "line": "0",
+      "printed_side_line_code": "20",
+      "line_definition": "Only line on that side",
+      "pdf_page": 587,
+      "printed_page": 576,
+      "indexed_entry_on_page": 7,
+      "row_locator": "Indexed occurrence 7 of16, reference4374, side/line20; M328 aligned under R",
+      "tokens": [
+        "M089",
+        "M328"
+      ],
+      "indexed_M328_token_index_zero_based": 1,
+      "full_sequence_primary_checked": true,
+      "normalization": "right-to-left reading of printed concordance line",
+      "actual_direction_code": null,
+      "primary_doubt_token_indices_zero_based": [],
+      "loss_spans": [],
+      "reviewer_unknown_indices_zero_based": [],
+      "preceding_strokes": {
+        "observed_count": 3,
+        "form": "three long parallel vertical strokes, one row",
+        "sign": "M089",
+        "doubtful_in_source": false
+      },
+      "source_render": "results/primary_pages/structure-u-extension-587.png",
+      "notes": []
+    },
+    {
+      "reference": "5496",
+      "side": "2",
+      "line": "0",
+      "printed_side_line_code": "20",
+      "line_definition": "Only line on that side",
+      "pdf_page": 587,
+      "printed_page": 576,
+      "indexed_entry_on_page": 8,
+      "row_locator": "Indexed occurrence 8 of16, reference5496, side/line20; M328 aligned under R",
+      "tokens": [
+        "M089",
+        "M328"
+      ],
+      "indexed_M328_token_index_zero_based": 1,
+      "full_sequence_primary_checked": true,
+      "normalization": "right-to-left reading of printed concordance line",
+      "actual_direction_code": null,
+      "primary_doubt_token_indices_zero_based": [],
+      "loss_spans": [],
+      "reviewer_unknown_indices_zero_based": [],
+      "preceding_strokes": {
+        "observed_count": 3,
+        "form": "three long parallel vertical strokes, one row",
+        "sign": "M089",
+        "doubtful_in_source": false
+      },
+      "source_render": "results/primary_pages/structure-u-extension-587.png",
+      "notes": []
+    },
+    {
+      "reference": "4673",
+      "side": "2",
+      "line": "0",
+      "printed_side_line_code": "20",
+      "line_definition": "Only line on that side",
+      "pdf_page": 587,
+      "printed_page": 576,
+      "indexed_entry_on_page": 9,
+      "row_locator": "Indexed occurrence 9 of16, reference4673, side/line20; M328 aligned under R",
+      "tokens": [
+        "M089",
+        "M328"
+      ],
+      "indexed_M328_token_index_zero_based": 1,
+      "full_sequence_primary_checked": true,
+      "normalization": "right-to-left reading of printed concordance line",
+      "actual_direction_code": null,
+      "primary_doubt_token_indices_zero_based": [],
+      "loss_spans": [],
+      "reviewer_unknown_indices_zero_based": [],
+      "preceding_strokes": {
+        "observed_count": 3,
+        "form": "three long parallel vertical strokes, one row",
+        "sign": "M089",
+        "doubtful_in_source": false
+      },
+      "source_render": "results/primary_pages/structure-u-extension-587.png",
+      "notes": []
+    },
+    {
+      "reference": "4718",
+      "side": "2",
+      "line": "0",
+      "printed_side_line_code": "20",
+      "line_definition": "Only line on that side",
+      "pdf_page": 587,
+      "printed_page": 576,
+      "indexed_entry_on_page": 10,
+      "row_locator": "Indexed occurrence 10 of16, reference4718, side/line20; M328 aligned under R",
+      "tokens": [
+        "M089",
+        "M328"
+      ],
+      "indexed_M328_token_index_zero_based": 1,
+      "full_sequence_primary_checked": true,
+      "normalization": "right-to-left reading of printed concordance line",
+      "actual_direction_code": null,
+      "primary_doubt_token_indices_zero_based": [],
+      "loss_spans": [],
+      "reviewer_unknown_indices_zero_based": [],
+      "preceding_strokes": {
+        "observed_count": 3,
+        "form": "three long parallel vertical strokes, one row",
+        "sign": "M089",
+        "doubtful_in_source": false
+      },
+      "source_render": "results/primary_pages/structure-u-extension-587.png",
+      "notes": []
+    },
+    {
+      "reference": "5495",
+      "side": "2",
+      "line": "0",
+      "printed_side_line_code": "20",
+      "line_definition": "Only line on that side",
+      "pdf_page": 587,
+      "printed_page": 576,
+      "indexed_entry_on_page": 11,
+      "row_locator": "Indexed occurrence 11 of16, reference5495, side/line20; M328 aligned under R",
+      "tokens": [
+        "M089",
+        "M328"
+      ],
+      "indexed_M328_token_index_zero_based": 1,
+      "full_sequence_primary_checked": true,
+      "normalization": "right-to-left reading of printed concordance line",
+      "actual_direction_code": null,
+      "primary_doubt_token_indices_zero_based": [],
+      "loss_spans": [],
+      "reviewer_unknown_indices_zero_based": [],
+      "preceding_strokes": {
+        "observed_count": 3,
+        "form": "three long parallel vertical strokes, one row",
+        "sign": "M089",
+        "doubtful_in_source": false
+      },
+      "source_render": "results/primary_pages/structure-u-extension-587.png",
+      "notes": []
+    },
+    {
+      "reference": "5478",
+      "side": "2",
+      "line": "0",
+      "printed_side_line_code": "20",
+      "line_definition": "Only line on that side",
+      "pdf_page": 587,
+      "printed_page": 576,
+      "indexed_entry_on_page": 12,
+      "row_locator": "Indexed occurrence 12 of16, reference5478, side/line20; M328 aligned under R",
+      "tokens": [
+        "M089",
+        "M328"
+      ],
+      "indexed_M328_token_index_zero_based": 1,
+      "full_sequence_primary_checked": true,
+      "normalization": "right-to-left reading of printed concordance line",
+      "actual_direction_code": null,
+      "primary_doubt_token_indices_zero_based": [],
+      "loss_spans": [],
+      "reviewer_unknown_indices_zero_based": [],
+      "preceding_strokes": {
+        "observed_count": 3,
+        "form": "three long parallel vertical strokes, one row",
+        "sign": "M089",
+        "doubtful_in_source": false
+      },
+      "source_render": "results/primary_pages/structure-u-extension-587.png",
+      "notes": []
+    },
+    {
+      "reference": "4410",
+      "side": "2",
+      "line": "0",
+      "printed_side_line_code": "20",
+      "line_definition": "Only line on that side",
+      "pdf_page": 587,
+      "printed_page": 576,
+      "indexed_entry_on_page": 13,
+      "row_locator": "Indexed occurrence 13 of16, reference4410, side/line20; M328 aligned under R",
+      "tokens": [
+        "M089",
+        "M328"
+      ],
+      "indexed_M328_token_index_zero_based": 1,
+      "full_sequence_primary_checked": true,
+      "normalization": "right-to-left reading of printed concordance line",
+      "actual_direction_code": null,
+      "primary_doubt_token_indices_zero_based": [],
+      "loss_spans": [],
+      "reviewer_unknown_indices_zero_based": [],
+      "preceding_strokes": {
+        "observed_count": 3,
+        "form": "three long parallel vertical strokes, one row",
+        "sign": "M089",
+        "doubtful_in_source": false
+      },
+      "source_render": "results/primary_pages/structure-u-extension-587.png",
+      "notes": []
+    },
+    {
+      "reference": "4468",
+      "side": "2",
+      "line": "0",
+      "printed_side_line_code": "20",
+      "line_definition": "Only line on that side",
+      "pdf_page": 587,
+      "printed_page": 576,
+      "indexed_entry_on_page": 14,
+      "row_locator": "Indexed occurrence 14 of16, reference4468, side/line20; M328 aligned under R",
+      "tokens": [
+        "M089",
+        "M328"
+      ],
+      "indexed_M328_token_index_zero_based": 1,
+      "full_sequence_primary_checked": true,
+      "normalization": "right-to-left reading of printed concordance line",
+      "actual_direction_code": null,
+      "primary_doubt_token_indices_zero_based": [],
+      "loss_spans": [],
+      "reviewer_unknown_indices_zero_based": [],
+      "preceding_strokes": {
+        "observed_count": 3,
+        "form": "three long parallel vertical strokes, one row",
+        "sign": "M089",
+        "doubtful_in_source": false
+      },
+      "source_render": "results/primary_pages/structure-u-extension-587.png",
+      "notes": []
+    },
+    {
+      "reference": "4675",
+      "side": "2",
+      "line": "0",
+      "printed_side_line_code": "20",
+      "line_definition": "Only line on that side",
+      "pdf_page": 587,
+      "printed_page": 576,
+      "indexed_entry_on_page": 15,
+      "row_locator": "Indexed occurrence 15 of16, reference4675, side/line20; M328 aligned under R",
+      "tokens": [
+        "M089",
+        "M328"
+      ],
+      "indexed_M328_token_index_zero_based": 1,
+      "full_sequence_primary_checked": true,
+      "normalization": "right-to-left reading of printed concordance line",
+      "actual_direction_code": null,
+      "primary_doubt_token_indices_zero_based": [],
+      "loss_spans": [],
+      "reviewer_unknown_indices_zero_based": [],
+      "preceding_strokes": {
+        "observed_count": 3,
+        "form": "three long parallel vertical strokes, one row",
+        "sign": "M089",
+        "doubtful_in_source": false
+      },
+      "source_render": "results/primary_pages/structure-u-extension-587.png",
+      "notes": []
+    },
+    {
+      "reference": "5413",
+      "side": "3",
+      "line": "0",
+      "printed_side_line_code": "30",
+      "line_definition": "Only line on that side",
+      "pdf_page": 587,
+      "printed_page": 576,
+      "indexed_entry_on_page": 16,
+      "row_locator": "Indexed occurrence 16 of16, reference5413, side/line30; M328 aligned under R",
+      "tokens": [
+        "M089",
+        "M328"
+      ],
+      "indexed_M328_token_index_zero_based": 1,
+      "full_sequence_primary_checked": true,
+      "normalization": "right-to-left reading of printed concordance line",
+      "actual_direction_code": null,
+      "primary_doubt_token_indices_zero_based": [],
+      "loss_spans": [],
+      "reviewer_unknown_indices_zero_based": [],
+      "preceding_strokes": {
+        "observed_count": 3,
+        "form": "three long parallel vertical strokes, one row",
+        "sign": "M089",
+        "doubtful_in_source": false
+      },
+      "source_render": "results/primary_pages/structure-u-extension-587.png",
+      "notes": [
+        "Same object appears on both PDF585 and587, with different indexed sides. R alignment selects side2 on585 and side3 on587. Other III+U side is context at this sighting, not a second indexed row."
+      ]
+    }
+  ],
+  "summary": {
+    "indexed_sightings": 48,
+    "distinct_reference_side_line_keys": 48,
+    "distinct_references": 47,
+    "per_page": {
+      "585": 16,
+      "586": 16,
+      "587": 16
+    },
+    "primary_doubt_rows": 3,
+    "primary_doubt_M328_rows": 2,
+    "primary_doubt_M089_rows": 1,
+    "LOSS_tokens": 0,
+    "UNKNOWN_tokens": 0,
+    "token_sequence_counts": {
+      "M089 M328": 44,
+      "M089 *M328": 2,
+      "*M089 M328": 1,
+      "M089 M328 M028": 1
+    }
+  },
+  "limits": [
+    "No completeness claim outside PDF585–587",
+    "No independent artifact count inferred from concordance sightings",
+    "No semantic translation inferred",
+    "Context signs that resemble U with additions are not silently mapped to M328",
+    "No source export used to assign glyph identities"
+  ]
+}

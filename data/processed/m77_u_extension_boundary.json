@@ -1,0 +1,593 @@
+{
+  "status": "Primary visual transcription of M328-indexed boundary-page block; 17 indexed groups, 20 plain-U instances including one doubtful identity",
+  "source": {
+    "path": "data/raw/mahadevan_1977_text.pdf",
+    "sha256": "6dcdd074a0174e5fab149590fbbf82342711d345764e9763f8e5e92c81cf7f99"
+  },
+  "evidence": [
+    {
+      "path": "results/primary_pages/m77-position-final-575.png",
+      "sha256": "292316d0334ff3fbd2995b533bd78c8776f99262006a8b75095b860e8105b8bb"
+    },
+    {
+      "path": "results/primary_pages/sign_list_page_32.png",
+      "sha256": "1e3f91789c947add7ce796479168d84d69636ebdc378493743188ac11c53c90a"
+    },
+    {
+      "path": "results/primary_pages/sign_list-044.png",
+      "sha256": "33eff554bfdea81af6d1a3510a5b2541d1b74b02ae1e63b253c725b44c7c0b64"
+    },
+    {
+      "path": "results/primary_pages/sign_list-045.png",
+      "sha256": "972002b288ea77921dcacfe67386dbf585b76be6bca5444b7ff9422e47e70b89"
+    },
+    {
+      "path": "results/primary_pages/sign_list-046.png",
+      "sha256": "a191e9297a6ab8b7cad1028eaeac062b4b6fa3cd34aefbdd507f669d736d2e8e"
+    }
+  ],
+  "protocol": "Read PDF575/printed564 after the index changes to plain U at1165. Exclude all preceding M327-indexed rows. Use normalized RTL order, preserving each visible slot and unknown-length hatched spans. IDs compared to labelled primary sign list PDF43-46. Candidate rows were not consulted to fill these transcriptions.",
+  "coverage": {
+    "indexed_groups": 17,
+    "U_instances": 20,
+    "distinct_reference_side_line_keys": 17,
+    "unknown_ID_rows": [
+      "1165",
+      "2169"
+    ],
+    "loss_rows": [
+      "1165",
+      "7238",
+      "4639",
+      "5456"
+    ],
+    "primary_doubt_rows": [
+      "9073"
+    ],
+    "whole_line_identification_supported_rows": 15
+  },
+  "rows": [
+    {
+      "reference": "1165",
+      "side": "0",
+      "line": "0",
+      "pdf_page": 575,
+      "printed_page": 564,
+      "indexed_group_on_page": 1,
+      "tokens": [
+        "M328",
+        "M032",
+        "M099",
+        "UNKNOWN",
+        "LOSS"
+      ],
+      "indexed_M328_token_index_zero_based": 0,
+      "all_M328_token_indices_zero_based": [
+        0
+      ],
+      "full_sequence_primary_checked": false,
+      "full_line_visual_slots_reviewed": true,
+      "complete_line": false,
+      "reviewer_unidentified_glyph": true,
+      "primary_doubt": false,
+      "actual_direction_code": null,
+      "notes": [
+        "Visible fish-shaped glyph between upper two short strokes and loss is left unidentified; one visible slot, not an unknown-length span."
+      ]
+    },
+    {
+      "reference": "8202",
+      "side": "0",
+      "line": "0",
+      "pdf_page": 575,
+      "printed_page": 564,
+      "indexed_group_on_page": 2,
+      "tokens": [
+        "M328",
+        "M053",
+        "M342"
+      ],
+      "indexed_M328_token_index_zero_based": 0,
+      "all_M328_token_indices_zero_based": [
+        0
+      ],
+      "full_sequence_primary_checked": true,
+      "full_line_visual_slots_reviewed": true,
+      "complete_line": true,
+      "reviewer_unidentified_glyph": false,
+      "primary_doubt": false,
+      "actual_direction_code": null,
+      "notes": []
+    },
+    {
+      "reference": "5484",
+      "side": "1",
+      "line": "0",
+      "pdf_page": 575,
+      "printed_page": 564,
+      "indexed_group_on_page": 3,
+      "tokens": [
+        "M328",
+        "M059"
+      ],
+      "indexed_M328_token_index_zero_based": 0,
+      "all_M328_token_indices_zero_based": [
+        0
+      ],
+      "full_sequence_primary_checked": true,
+      "full_line_visual_slots_reviewed": true,
+      "complete_line": true,
+      "reviewer_unidentified_glyph": false,
+      "primary_doubt": false,
+      "actual_direction_code": null,
+      "notes": []
+    },
+    {
+      "reference": "5077",
+      "side": "0",
+      "line": "0",
+      "pdf_page": 575,
+      "printed_page": 564,
+      "indexed_group_on_page": 4,
+      "tokens": [
+        "M328",
+        "M086",
+        "M015"
+      ],
+      "indexed_M328_token_index_zero_based": 0,
+      "all_M328_token_indices_zero_based": [
+        0
+      ],
+      "full_sequence_primary_checked": true,
+      "full_line_visual_slots_reviewed": true,
+      "complete_line": true,
+      "reviewer_unidentified_glyph": false,
+      "primary_doubt": false,
+      "actual_direction_code": null,
+      "notes": [
+        "Carrying-human form has upper paired bars matching M015, not plain M012. The long stroke is a separate M086 slot."
+      ]
+    },
+    {
+      "reference": "7238",
+      "side": "0",
+      "line": "0",
+      "pdf_page": 575,
+      "printed_page": 564,
+      "indexed_group_on_page": 5,
+      "tokens": [
+        "M328",
+        "M299",
+        "M245",
+        "M245",
+        "LOSS"
+      ],
+      "indexed_M328_token_index_zero_based": 0,
+      "all_M328_token_indices_zero_based": [
+        0
+      ],
+      "full_sequence_primary_checked": true,
+      "full_line_visual_slots_reviewed": true,
+      "complete_line": false,
+      "reviewer_unidentified_glyph": false,
+      "primary_doubt": false,
+      "actual_direction_code": null,
+      "notes": [
+        "Two separate lattice rectangles; damage is an unknown-length final span in normalized reading order."
+      ]
+    },
+    {
+      "reference": "4231",
+      "side": "0",
+      "line": "0",
+      "pdf_page": 575,
+      "printed_page": 564,
+      "indexed_group_on_page": 6,
+      "tokens": [
+        "M328",
+        "M307"
+      ],
+      "indexed_M328_token_index_zero_based": 0,
+      "all_M328_token_indices_zero_based": [
+        0
+      ],
+      "full_sequence_primary_checked": true,
+      "full_line_visual_slots_reviewed": true,
+      "complete_line": true,
+      "reviewer_unidentified_glyph": false,
+      "primary_doubt": false,
+      "actual_direction_code": null,
+      "notes": []
+    },
+    {
+      "reference": "6109",
+      "side": "0",
+      "line": "0",
+      "pdf_page": 575,
+      "printed_page": 564,
+      "indexed_group_on_page": 7,
+      "tokens": [
+        "M328",
+        "M307"
+      ],
+      "indexed_M328_token_index_zero_based": 0,
+      "all_M328_token_indices_zero_based": [
+        0
+      ],
+      "full_sequence_primary_checked": true,
+      "full_line_visual_slots_reviewed": true,
+      "complete_line": true,
+      "reviewer_unidentified_glyph": false,
+      "primary_doubt": false,
+      "actual_direction_code": null,
+      "notes": []
+    },
+    {
+      "reference": "9073",
+      "side": "0",
+      "line": "0",
+      "pdf_page": 575,
+      "printed_page": 564,
+      "indexed_group_on_page": 8,
+      "tokens": [
+        "*M328",
+        "M307",
+        "M099",
+        "M087",
+        "M166"
+      ],
+      "indexed_M328_token_index_zero_based": 0,
+      "all_M328_token_indices_zero_based": [
+        0
+      ],
+      "full_sequence_primary_checked": true,
+      "full_line_visual_slots_reviewed": true,
+      "complete_line": true,
+      "reviewer_unidentified_glyph": false,
+      "primary_doubt": true,
+      "actual_direction_code": null,
+      "notes": [
+        "Primary doubt mark belongs to initial M328. Upper short pair is separate from D-shaped M307; followed by full-height pair and fork with lower comb."
+      ]
+    },
+    {
+      "reference": "2169",
+      "side": "0",
+      "line": "0",
+      "pdf_page": 575,
+      "printed_page": 564,
+      "indexed_group_on_page": 9,
+      "tokens": [
+        "M328",
+        "M307",
+        "UNKNOWN",
+        "M301",
+        "M155",
+        "M211",
+        "M242"
+      ],
+      "indexed_M328_token_index_zero_based": 0,
+      "all_M328_token_indices_zero_based": [
+        0
+      ],
+      "full_sequence_primary_checked": false,
+      "full_line_visual_slots_reviewed": true,
+      "complete_line": true,
+      "reviewer_unidentified_glyph": true,
+      "primary_doubt": false,
+      "actual_direction_code": null,
+      "notes": [
+        "Visible A-like / flag-like sign between M307 and looped crescent left UNKNOWN; do not import candidate identity."
+      ]
+    },
+    {
+      "reference": "2035",
+      "side": "0",
+      "line": "0",
+      "pdf_page": 575,
+      "printed_page": 564,
+      "indexed_group_on_page": 10,
+      "tokens": [
+        "M328",
+        "M328",
+        "M176",
+        "M176"
+      ],
+      "indexed_M328_token_index_zero_based": 0,
+      "all_M328_token_indices_zero_based": [
+        0,
+        1
+      ],
+      "full_sequence_primary_checked": true,
+      "full_line_visual_slots_reviewed": true,
+      "complete_line": true,
+      "reviewer_unidentified_glyph": false,
+      "primary_doubt": false,
+      "actual_direction_code": null,
+      "notes": [
+        "Two adjacent U signs and two separate E-shaped signs."
+      ]
+    },
+    {
+      "reference": "1477",
+      "side": "0",
+      "line": "0",
+      "pdf_page": 575,
+      "printed_page": 564,
+      "indexed_group_on_page": 11,
+      "tokens": [
+        "M328",
+        "M328",
+        "M267",
+        "M099"
+      ],
+      "indexed_M328_token_index_zero_based": 0,
+      "all_M328_token_indices_zero_based": [
+        0,
+        1
+      ],
+      "full_sequence_primary_checked": true,
+      "full_line_visual_slots_reviewed": true,
+      "complete_line": true,
+      "reviewer_unidentified_glyph": false,
+      "primary_doubt": false,
+      "actual_direction_code": null,
+      "notes": [
+        "Two adjacent U signs; diamond with upper inset, followed by upper short pair."
+      ]
+    },
+    {
+      "reference": "1475",
+      "side": "1",
+      "line": "0",
+      "pdf_page": 575,
+      "printed_page": 564,
+      "indexed_group_on_page": 12,
+      "tokens": [
+        "M328",
+        "M328",
+        "M267",
+        "M099"
+      ],
+      "indexed_M328_token_index_zero_based": 0,
+      "all_M328_token_indices_zero_based": [
+        0,
+        1
+      ],
+      "full_sequence_primary_checked": true,
+      "full_line_visual_slots_reviewed": true,
+      "complete_line": true,
+      "reviewer_unidentified_glyph": false,
+      "primary_doubt": false,
+      "actual_direction_code": null,
+      "notes": [
+        "Second displayed line is side2 line0 context, not a second indexed group."
+      ]
+    },
+    {
+      "reference": "4147",
+      "side": "0",
+      "line": "0",
+      "pdf_page": 575,
+      "printed_page": 564,
+      "indexed_group_on_page": 13,
+      "tokens": [
+        "M328",
+        "M343",
+        "M089",
+        "M294",
+        "M342"
+      ],
+      "indexed_M328_token_index_zero_based": 0,
+      "all_M328_token_indices_zero_based": [
+        0
+      ],
+      "full_sequence_primary_checked": true,
+      "full_line_visual_slots_reviewed": true,
+      "complete_line": true,
+      "reviewer_unidentified_glyph": false,
+      "primary_doubt": false,
+      "actual_direction_code": null,
+      "notes": [
+        "Modified U with internal upper stroke is M343, separate from indexed plain U."
+      ]
+    },
+    {
+      "reference": "4132",
+      "side": "0",
+      "line": "0",
+      "pdf_page": 575,
+      "printed_page": 564,
+      "indexed_group_on_page": 14,
+      "tokens": [
+        "M328",
+        "M343",
+        "M249",
+        "M162",
+        "M342"
+      ],
+      "indexed_M328_token_index_zero_based": 0,
+      "all_M328_token_indices_zero_based": [
+        0
+      ],
+      "full_sequence_primary_checked": true,
+      "full_line_visual_slots_reviewed": true,
+      "complete_line": true,
+      "reviewer_unidentified_glyph": false,
+      "primary_doubt": false,
+      "actual_direction_code": null,
+      "notes": [
+        "Square-on-stem M249 lies between modified U and fork."
+      ]
+    },
+    {
+      "reference": "2208",
+      "side": "0",
+      "line": "0",
+      "pdf_page": 575,
+      "printed_page": 564,
+      "indexed_group_on_page": 15,
+      "tokens": [
+        "M328",
+        "M391",
+        "M099",
+        "M070",
+        "M336",
+        "M089",
+        "M211"
+      ],
+      "indexed_M328_token_index_zero_based": 0,
+      "all_M328_token_indices_zero_based": [
+        0
+      ],
+      "full_sequence_primary_checked": true,
+      "full_line_visual_slots_reviewed": true,
+      "complete_line": true,
+      "reviewer_unidentified_glyph": false,
+      "primary_doubt": false,
+      "actual_direction_code": null,
+      "notes": [
+        "Internal-drop U-shaped M336 is not another plain M328. Wheel and upper short pair kept as separate slots.",
+        "Correction2026-09-23: token index3 changed M059 to M070 after an enlarged primary PDF575 crop exposed its inner vertical stroke and labelled primary sign70 on PDF43/printed32 confirmed the form. Candidate disagreement triggered reinspection but did not supply the identity."
+      ]
+    },
+    {
+      "reference": "4639",
+      "side": "2",
+      "line": "0",
+      "pdf_page": 575,
+      "printed_page": 564,
+      "indexed_group_on_page": 16,
+      "tokens": [
+        "LOSS",
+        "M328"
+      ],
+      "indexed_M328_token_index_zero_based": 1,
+      "all_M328_token_indices_zero_based": [
+        1
+      ],
+      "full_sequence_primary_checked": true,
+      "full_line_visual_slots_reviewed": true,
+      "complete_line": false,
+      "reviewer_unidentified_glyph": false,
+      "primary_doubt": false,
+      "actual_direction_code": null,
+      "notes": [
+        "Side1 line0 context has loss followed by E-shaped sign."
+      ]
+    },
+    {
+      "reference": "5456",
+      "side": "2",
+      "line": "0",
+      "pdf_page": 575,
+      "printed_page": 564,
+      "indexed_group_on_page": 17,
+      "tokens": [
+        "LOSS",
+        "M328"
+      ],
+      "indexed_M328_token_index_zero_based": 1,
+      "all_M328_token_indices_zero_based": [
+        1
+      ],
+      "full_sequence_primary_checked": true,
+      "full_line_visual_slots_reviewed": true,
+      "complete_line": false,
+      "reviewer_unidentified_glyph": false,
+      "primary_doubt": false,
+      "actual_direction_code": null,
+      "notes": [
+        "Side1 line0 context has loss, modified U and E-shaped sign."
+      ]
+    }
+  ],
+  "other_contexts": [
+    {
+      "reference": "1475",
+      "side": "2",
+      "line": "0",
+      "tokens": [
+        "M048",
+        "M015"
+      ],
+      "scope": "context only; not an indexed M328 occurrence",
+      "primary_visual_checked": true
+    },
+    {
+      "reference": "4639",
+      "side": "1",
+      "line": "0",
+      "tokens": [
+        "LOSS",
+        "M176"
+      ],
+      "scope": "context only; not an indexed M328 occurrence",
+      "primary_visual_checked": true
+    },
+    {
+      "reference": "5456",
+      "side": "1",
+      "line": "0",
+      "tokens": [
+        "LOSS",
+        "M342",
+        "M176"
+      ],
+      "scope": "context only; not an indexed M328 occurrence",
+      "primary_visual_checked": true
+    }
+  ],
+  "limits": [
+    "full_sequence_primary_checked is false where a visible glyph lacks a secure M ID; full_line_visual_slots_reviewed remains true for all17.",
+    "No actual ancient direction inferred from normalized layout; direction remains null.",
+    "All20 M328 positions counted without treating repeated signs as repeated lines.",
+    "No new artifacts, values, or translations inferred. Repeated catalogue observations require object-line deduplication in the integrated corpus."
+  ],
+  "rendering": "Existing whole-page PNG plus in-memory enlarged PDF views; no additional image files saved.",
+  "downloads": [],
+  "correction_history": [
+    {
+      "date": "2026-09-23",
+      "reference": "2208",
+      "side": "0",
+      "line": "0",
+      "token_index_zero_based": 3,
+      "old_sign": "M059",
+      "new_sign": "M070",
+      "old_tokens": [
+        "M328",
+        "M391",
+        "M099",
+        "M059",
+        "M336",
+        "M089",
+        "M211"
+      ],
+      "new_tokens": [
+        "M328",
+        "M391",
+        "M099",
+        "M070",
+        "M336",
+        "M089",
+        "M211"
+      ],
+      "previous_ledger_sha256": "df13752c096318b1f2ed338e0f603a2edca004dc0cd09fa55a2eaabaf4883fa8",
+      "reason": "Visible internal vertical stroke matches labelled M070, absent from plain M059",
+      "primary_evidence": [
+        {
+          "pdf_page": 575,
+          "printed_page": 564,
+          "detail": "enlarged row2208 crop at scale6600 x2410 y5200 width850 height450"
+        },
+        {
+          "pdf_page": 43,
+          "printed_page": 32,
+          "detail": "labelled sign70 enlarged at scale4400 x2460 y2310 width720 height620"
+        }
+      ],
+      "new_images_saved": false
+    }
+  ]
+}

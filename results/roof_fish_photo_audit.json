@@ -1,0 +1,417 @@
+{
+  "corpus_recoded": false,
+  "established_phonetic_values": 0,
+  "established_semantic_values": 0,
+  "evidence_pin_checks": 37,
+  "exact_pixel_crop_checks": 8,
+  "fine_photo_transcriptions_certified": 0,
+  "input_sha256": {
+    "data/processed/roof_fish4493_crop_manifest.json": "f1e88b84e835c46130d1ee350ac641b9df727151517002e0067c254b50ac3c92",
+    "data/processed/roof_fish5477_crop_manifest.json": "19e57cf7abafe36717c69cdc78505ea8c4907dafe08b9099d8d3379af06eaac7",
+    "data/processed/roof_fish_4493_review.json": "d72bef8e99466031c02c926fa1e5b29670eabdb2d82736cab9ba93b35703ed41",
+    "data/processed/roof_fish_5477_review.json": "c2c592388b76d3580490924a0a425d90450d6778a22efd1c20b5df5fb8afb3b2",
+    "data/processed/roof_m176_primary_review.json": "fe8e3fcadf9fcd6171479241dffeced03b0d490b6992773f5b124c371c924d05",
+    "scripts/audit_roof_fish_photos.py": "ffb18a40fca75863274261914bad41299333bb767c6a4a59e80bef365085a362",
+    "scripts/audit_roof_variant_artifacts.py": "5c05c4884a2a794b48d17be60b670fd417c9125a9c7d3623725202606183ea42"
+  },
+  "original_artifacts_reviewed": 2,
+  "reviews": [
+    {
+      "crop_manifest": "data/processed/roof_fish4493_crop_manifest.json",
+      "date": "2026-09-27",
+      "evidence_files": [
+        {
+          "bytes": 1113,
+          "path": "data/processed/roof_fish4493_crop_manifest.json",
+          "sha256": "f1e88b84e835c46130d1ee350ac641b9df727151517002e0067c254b50ac3c92"
+        },
+        {
+          "bytes": 140,
+          "path": "data/processed/roof_fish4493_new_sources.json",
+          "sha256": "0ca1de4f1aac71287ab907779d683a78af25a3f79b428bee0a9a54487ac321ae"
+        },
+        {
+          "bytes": 13315,
+          "path": "data/processed/roof_m176_primary_review.json",
+          "sha256": "fe8e3fcadf9fcd6171479241dffeced03b0d490b6992773f5b124c371c924d05"
+        },
+        {
+          "bytes": 119302608,
+          "path": "data/raw/mahadevan_1977_text.pdf",
+          "sha256": "6dcdd074a0174e5fab149590fbbf82342711d345764e9763f8e5e92c81cf7f99"
+        },
+        {
+          "bytes": 1872293,
+          "path": "data/raw/vats_1940_holdout_leaf377.jpg",
+          "sha256": "84c001dac9868e418a1611a10348b6a1026b1502395bd418e3da1ca80f191eca"
+        },
+        {
+          "bytes": 17325993,
+          "path": "data/raw/vats_1940_plates_9842.pdf",
+          "sha256": "ab14c5c3a25588d3178789f83ae724eecf7cd873fb28c0a2c639a4dee21b8b18"
+        },
+        {
+          "bytes": 1518598,
+          "path": "data/raw/vats_1940_text_18220_djvu.txt",
+          "sha256": "9426186946d5540e6ccff83fdfc8e5af4aaed99926e56fe14287f57f8ccb4d45"
+        },
+        {
+          "bytes": 2692912,
+          "path": "data/raw/vats_1940_text_p58_leaf84.jpg",
+          "sha256": "8cd5de0d8a00415b7d0f4e1f302fc3747399414456a21e7c73727a8d81d25e41"
+        },
+        {
+          "bytes": 5764,
+          "path": "docs/ROOF_FISH_4493_REVIEW.md",
+          "sha256": "fd9cf4b696e1c9f0d1d7260ad8c11a5a0225daf5b2ceb962b0fe7294c74eafec"
+        },
+        {
+          "bytes": 11918,
+          "path": "results/primary_pages/roof-fish4493-493-photo-detail.png",
+          "sha256": "478954cafe1db8d18efd84ba91a60045ef71e55dc7a813e4d72edf423c5cb420"
+        },
+        {
+          "bytes": 285472,
+          "path": "results/primary_pages/roof-fish4493-493-table-detail.png",
+          "sha256": "2517c63160fca299fd62436f8ec1680a1136252fb4f9359c9a366176a3e3c97f"
+        },
+        {
+          "bytes": 1264006,
+          "path": "results/primary_pages/roof-fish4493-group-rows-detail.png",
+          "sha256": "de2a79d27085f20176b6dc660fdf02c9233a1a243c8d89552dfcd4fe1b090327"
+        },
+        {
+          "bytes": 1184408,
+          "path": "results/primary_pages/roof-fish4493-table-heading-detail.png",
+          "sha256": "a25b82c07c0f1da54fc22c19ee1c68f99b4c593b69cbe5e04689e026d3a0afbf"
+        },
+        {
+          "bytes": 1193329,
+          "path": "results/primary_pages/roof-fish4493-vats-200.png",
+          "sha256": "160753b203cb3e7b19e4b0508daf332db5b7eee188bce0693eae5c02107fa6a9"
+        },
+        {
+          "bytes": 96432,
+          "path": "results/primary_pages/roof-m176-4493-detail.png",
+          "sha256": "471235b23c9db6796e6902e69238648f702dc33d275462ad70ea9e02cbaecec1"
+        },
+        {
+          "bytes": 182800,
+          "path": "results/primary_pages/roof-m176-eh-rule-detail.png",
+          "sha256": "682a5f88db97bbc0f1d0e89a587cab81090dac67f4aeb899fbf0b9166a01c8d4"
+        },
+        {
+          "bytes": 373,
+          "path": "results/roof-fish4493-vats_extraction.json",
+          "sha256": "511ba0f503a82480062f6398bf305892a42ef67b71297dada1d4157d6b9e76d4"
+        },
+        {
+          "bytes": 956,
+          "path": "scripts/render_roof_fish4493_crops.py",
+          "sha256": "556e07997957bf7e1860b40ecb1ccb3d825d7847ae8a6b6652fa40a6e86052b6"
+        }
+      ],
+      "failure_log": [
+        {
+          "attempt": "Exact493 retained Vats OCR search",
+          "result": "No reliable exact table row; original image resolved identity."
+        },
+        {
+          "attempt": "Use8650b as individual key or representative433 as493",
+          "result": "Rejected because the exact table and narrative share8650b among multiple objects."
+        },
+        {
+          "attempt": "Independently recount fine side marks and exact reverse stroke count from original photo",
+          "result": "Not certified at scan resolution; retain broad morphology only."
+        }
+      ],
+      "identity_chain": [
+        {
+          "claim": "4001–4713 correspond to EH II items1–713;4493 thereforeEH493",
+          "source": "M77 AppendixV printed821/PDF830"
+        },
+        {
+          "claim": "Two views labelled493",
+          "source": "Vats II plateXCVI/PDF200"
+        },
+        {
+          "claim": "493 belongs to8650b",
+          "source": "Vats I printed349/leaf377 row493"
+        }
+      ],
+      "metadata": {
+        "assemblage_squares": [
+          "H12/21",
+          "I12/1"
+        ],
+        "depth_below_surface_ft": [
+          4,
+          7
+        ],
+        "field": "8650b",
+        "field_key_kind": "shared_find_group_not_unique_artifact",
+        "individual_square_resolved": false,
+        "material": "white steatite",
+        "mound": "F",
+        "size_inches": [
+          0.4,
+          0.23
+        ],
+        "type_literal": "h"
+      },
+      "new_downloads": false,
+      "normalized_fields_from_frozen_review": [
+        {
+          "field_id": "4493:1:0",
+          "literal_metadata": "310001",
+          "tokens": [
+            "M066",
+            "M176"
+          ]
+        },
+        {
+          "field_id": "4493:2:0",
+          "literal_metadata": "20001",
+          "tokens": [
+            "M095",
+            "M328"
+          ]
+        }
+      ],
+      "pending_source_registry": "data/processed/roof_fish4493_new_sources.json",
+      "phonetic_values": null,
+      "photographic_fields": [
+        {
+          "broad_morphology_compatible_with_normalized": true,
+          "description": "Left spine with lateral strokes; right narrow upright body, oblique strokes and angular cap. Broad comb/capped-fish arrangement compatible.",
+          "exact_M066_feature_bundle_photographically_certified": false,
+          "exact_fish_side_mark_count_verified": false,
+          "side": 1
+        },
+        {
+          "broad_morphology_compatible_with_normalized": true,
+          "description": "U-like component at left and long parallel upright-stroke cluster at right. Adjacent U arm and strokes are coarse.",
+          "exact_four_long_strokes_independently_certified": false,
+          "side": 2
+        }
+      ],
+      "preservation": {
+        "explicit_primary_complete_or_fragment_label": null,
+        "fine_damage_and_inscription_completeness": "unresolved",
+        "large_missing_section_observed": false,
+        "minor_edges": "uneven; surface mottling",
+        "outline": "approximately rectangular with full printed margins"
+      },
+      "published_object": {
+        "all_published_views_preserved": true,
+        "catalogued_physical_objects": 1,
+        "exact_modern_museum_alias": null,
+        "other_physical_sides_asserted_uninscribed": false,
+        "plate_item": 493,
+        "views": 2
+      },
+      "reference": "4493",
+      "semantic_values": null,
+      "status": "identity_authenticated_broad_photo_compatibility_fine_features_unresolved"
+    },
+    {
+      "cisi_alias": "H-889",
+      "cisi_photo_source": "P1070",
+      "cisi_photo_source_expansion": "Department of Archaeology and Museums, Government of Pakistan; S.M. Ilyas for CISI",
+      "damage_assessment": {
+        "all_strokes_certified_preserved": false,
+        "minor_wear_and_surface_loss_quantified": false,
+        "obvious_large_missing_sector": false
+      },
+      "date": "2026-09-27",
+      "established_phonetic_values": 0,
+      "established_semantic_values": 0,
+      "evidence_files": [
+        {
+          "bytes": 5955,
+          "path": "docs/ROOF_FISH_5477_REVIEW.md",
+          "sha256": "d3f3b9db3926cfd4e25637ef28e2b6f0f4ec61c3c5f263c3d5620eeb21172a0c"
+        },
+        {
+          "bytes": 5949,
+          "path": "docs/ROOF_M176_PRIMARY_REVIEW.md",
+          "sha256": "6934697fdfe6866cf8312e2123195fe5294e186c03c8dd56c481f2a867b801a1"
+        },
+        {
+          "bytes": 13315,
+          "path": "data/processed/roof_m176_primary_review.json",
+          "sha256": "fe8e3fcadf9fcd6171479241dffeced03b0d490b6992773f5b124c371c924d05"
+        },
+        {
+          "bytes": 119302608,
+          "path": "data/raw/mahadevan_1977_text.pdf",
+          "sha256": "6dcdd074a0174e5fab149590fbbf82342711d345764e9763f8e5e92c81cf7f99"
+        },
+        {
+          "bytes": 35870617,
+          "path": "data/raw/h843_identity_CorpusVol2.pdf",
+          "sha256": "727132579a485ee626e48a64c663148a85fbc0811fb523818fd615231f8a327d"
+        },
+        {
+          "bytes": 1204921,
+          "path": "data/raw/lipi_inscriptions.csv",
+          "sha256": "b8dcb325a2e2cd3cde12ac12e7a418b0348e45713c9ee28aad81b645d2ac5ee4"
+        },
+        {
+          "bytes": 4206206,
+          "path": "results/primary_pages/roof-m176-833.png",
+          "sha256": "d73934b351ab49079963a8913af2d1384cfcfab53ea56e840a5752d6b5841bd5"
+        },
+        {
+          "bytes": 1752291,
+          "path": "results/primary_pages/roof-m176-155.png",
+          "sha256": "1b692121e42f7a25afd529c304de7d65969760fdd64e980987e61cc08f5893ed"
+        },
+        {
+          "bytes": 2283222,
+          "path": "results/primary_pages/h843-cisi2-key-469.png",
+          "sha256": "7e891986c8aa4f5299101b13f80ce0fe1cd27f45e05bcd120857a7730e98884e"
+        },
+        {
+          "bytes": 3254390,
+          "path": "results/primary_pages/roof-x-identity-cisi-478.png",
+          "sha256": "a504a44b560ba1f260a0d6e60f72d16344a255ab1458a8cf6adee0cb3a805311"
+        },
+        {
+          "bytes": 1179,
+          "path": "scripts/render_roof_fish5477_crops.py",
+          "sha256": "dbdb0da66580f8343be324eac00300a7a29896ad7a8af9caa983708b745c9122"
+        },
+        {
+          "bytes": 2002,
+          "path": "data/processed/roof_fish5477_crop_manifest.json",
+          "sha256": "19e57cf7abafe36717c69cdc78505ea8c4907dafe08b9099d8d3379af06eaac7"
+        },
+        {
+          "bytes": 385,
+          "path": "results/roof-fish5477-cisi2_extraction.json",
+          "sha256": "4cfa9f2a047f3f92d9b70c84d0a88f92060163418a2163c4ca51c28b58c5c8af"
+        },
+        {
+          "bytes": 1152541,
+          "path": "results/primary_pages/roof-fish5477-cisi2-372.png",
+          "sha256": "7c0c7fda17ab07134fb289f950fb58300179677f3b1a3bba7755a2fd4304c836"
+        },
+        {
+          "bytes": 1210547,
+          "path": "results/primary_pages/roof-fish5477-cisi2-479.png",
+          "sha256": "e21c517a89479ba7e06a42296c99b4aa1288284bd35fbbfe40552f9eede9cc56"
+        },
+        {
+          "bytes": 50670,
+          "path": "results/primary_pages/roof-fish5477-cisi2-H889.png",
+          "sha256": "6745145dfeb7b4d55a7107c82542b3d96af05ed48abd11946e4a1ded3a34c6cf"
+        },
+        {
+          "bytes": 21075,
+          "path": "results/primary_pages/roof-fish5477-cisi2-H889A.png",
+          "sha256": "9b5ccdd22417ff930861646563a0ac0d62a6cfd6ee072101bdd4414d546c64d4"
+        },
+        {
+          "bytes": 26665,
+          "path": "results/primary_pages/roof-fish5477-cisi2-metadata.png",
+          "sha256": "d2bc80d7a7a104c5002be8271664f6a36080374c5a3750a9192702d391081138"
+        },
+        {
+          "bytes": 129488,
+          "path": "results/primary_pages/roof-fish5477-m77-appendix.png",
+          "sha256": "0d67494753161cd131a6ecd08a36e92ec64adb56916578a2f342752498e99d21"
+        }
+      ],
+      "excavation_number": "13592",
+      "excavation_suffix": null,
+      "finnish_concordance": "4483",
+      "finnish_number_is_not_m77_reference": true,
+      "frozen_prediction": {
+        "first_field": [
+          "M060",
+          "M176"
+        ],
+        "line": 0,
+        "metadata": "310002",
+        "order": "M77 normalized reading order, preserved",
+        "roof_state": "unroofed",
+        "side": 1,
+        "source_direction": 2
+      },
+      "frozen_prior_pins_verified": true,
+      "historical_photo_itself_recovered": false,
+      "historical_photo_locator": "Pu.61:4076",
+      "independent_artifacts_represented": 1,
+      "join_basis": "Exact excavation13592 in visually checked M77 Appendix and CISI2 metadata; not text similarity",
+      "m77_reference": "5477",
+      "museum": "HM332",
+      "museum_expansion": "Harappa Museum",
+      "new_downloads": [],
+      "phonetic_values": null,
+      "photograph_views": [
+        {
+          "fine_four_flank_stroke_identity_equally_clear": false,
+          "label": "H-889 A",
+          "observations": [
+            "Comb-like form at photograph left",
+            "Fish-like outline at photograph right",
+            "Short flanking marks; left pair clearer than right",
+            "No separately recognizable roof",
+            "Fish close to upper edge; striated worn surface"
+          ],
+          "role": "inscription face",
+          "roof_prediction_disposition": "compatible_with_limited_negative_evidence_certainty",
+          "unqualified_roof_absence_certified": false
+        },
+        {
+          "converted_to_script_tokens": false,
+          "label": "H-889 B",
+          "observations": [
+            "Three ring/cup-like circular forms"
+          ],
+          "role": "other face"
+        }
+      ],
+      "search_limits": [
+        "Bounded retained-source search; exact Pu61:4076 photograph not recovered",
+        "Secondary H-889 used only as locator; primary excavation join checked",
+        "Unrelated Vats object4076 not equated with photographic locator",
+        "No physical examination or independently calibrated image-error rate"
+      ],
+      "second_field": {
+        "field_symbol": "83",
+        "line": 9,
+        "metadata": "28390",
+        "script_tokens": [],
+        "side": 2,
+        "source_direction": 0
+      },
+      "semantic_values": null,
+      "sides_concatenated": false,
+      "source_direction_discrepancy_resolved": false,
+      "source_pages": {
+        "cisi_key": {
+          "pdf": 469,
+          "printed": 434
+        },
+        "cisi_metadata": {
+          "pdf": 479,
+          "printed": 444
+        },
+        "cisi_photograph": {
+          "pdf": 372,
+          "printed": 337
+        },
+        "m77_appendix": {
+          "pdf": 833,
+          "printed": 824
+        }
+      },
+      "source_tokens_reversed": false,
+      "status": "Original-object photographs recovered by exact excavation-number bridge; morphology compatible with qualified roof-absence certainty",
+      "strict_corpus_changed": false
+    }
+  ],
+  "scope": "Exact source identity plus qualified broad morphology; hashes/pixels do not prove manual visual judgments. No same-die independence certification."
+}

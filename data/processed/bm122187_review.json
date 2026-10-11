@@ -1,0 +1,161 @@
+{
+  "review_date": "2026-09-24",
+  "object": "BM122187",
+  "identifiers": {
+    "bm_big_number": "122187",
+    "gadd_1932_number": 2,
+    "mahadevan_1977_reference": "9832",
+    "museum_registration": null,
+    "excavation_number": null
+  },
+  "unconfirmed_identifiers": [
+    {
+      "museum_registration": "1929,1017.725",
+      "status": "candidate only",
+      "reason": "Indexed exhibition catalogue identifies a circular Ur Harappan seal by registration but does not show122187; official URL403; original page not reviewed."
+    }
+  ],
+  "exact_join_chain": [
+    {
+      "from": "M77 9832",
+      "to": "Gadd1932 no2",
+      "authority": "M77 printed829/PDF838",
+      "literal_reference": "PBA:18(1932):p.191:No.2"
+    },
+    {
+      "from": "Gadd1932 no2",
+      "to": "BM122187",
+      "authority": "Gadd1932 printed6\u20137/PDF13,16 and PlateI/PDF14"
+    }
+  ],
+  "inscription": {
+    "source": "M77 printed160/PDF171",
+    "metadata": "100401",
+    "normalized_order": "right-to-left",
+    "sequence": [
+      "M254",
+      "M074",
+      "M297",
+      "M184",
+      "M003"
+    ],
+    "gadd_character_count": 5,
+    "semantic_value": null,
+    "phonetic_value": null,
+    "review_scope": "Re-viewed primary row and existing parent code review; broad plate corroboration, not independent stone autopsy or fine allographic collation."
+  },
+  "context": {
+    "obtained_at": "Ur",
+    "season": "1928\u20131929",
+    "precise_findspot": null,
+    "stratigraphic_context": null,
+    "ancient_owner": null,
+    "associated_cuneiform_document": null,
+    "associated_commodity": null,
+    "source_statement": "Gadd printed6 explicitly reports that the actual place of discovery is unknown."
+  },
+  "semantic_anchor": null,
+  "excluded_joins": [
+    "BM120573 / Gadd1 / U7683 cuneiform text",
+    "BM123208 / Gadd16 / PG1847 fill",
+    "LouvreAO22310 interpreter Shu-ilishu",
+    "BM120228 / Gadd17",
+    "Qalaat al-Bahrain tablet names from adjacent compilation passage"
+  ],
+  "parpola_review": {
+    "exact_122187_text_hits": 0,
+    "pdf_pages_visually_reviewed": [
+      150,
+      151
+    ],
+    "printed_pages": [
+      132,
+      133
+    ],
+    "result": "A future test of phonetic readings against foreign names is proposed; no independent name assigned to BM122187. Exact-string absence is not absence under all other identifiers."
+  },
+  "source_fingerprints": [
+    {
+      "path": "data/raw/hybrid_bm_gadd_1932.pdf",
+      "bytes": 3152198,
+      "sha256": "c16c2c3900f7cecc35ca843637087b0bdaf3fbf42b5100bcce0bdaa77803d881"
+    },
+    {
+      "path": "data/raw/mahadevan_1977_text.pdf",
+      "bytes": 119302608,
+      "sha256": "6dcdd074a0174e5fab149590fbbf82342711d345764e9763f8e5e92c81cf7f99"
+    },
+    {
+      "path": "data/raw/umma_old_parpola_1994.pdf",
+      "bytes": 18998517,
+      "sha256": "fd133822f9999c86178a32208465e847c5288b578ad14ca2cd643efe57f0e0b6"
+    },
+    {
+      "path": "data/raw/bm122187_web_capture.json",
+      "bytes": 2502,
+      "sha256": "6e0635bc41a026ccf9f2312a81bb707cdaf7bee89e8d3a8d7073c6fc7a5a332e"
+    }
+  ],
+  "review_image_fingerprints": [
+    {
+      "path": "results/primary_pages/hybrid-bm-gadd-13.png",
+      "bytes": 1155880,
+      "sha256": "b5171897d4372a7a210a2a638e91d427225c2bfcc5133d2bcec8f1552b51c24c"
+    },
+    {
+      "path": "results/primary_pages/hybrid-bm-gadd-middle-16.png",
+      "bytes": 493410,
+      "sha256": "13b049935042f3b90c65c43b4191f127c71db69416010fab7662188c80179707"
+    },
+    {
+      "path": "results/primary_pages/hybrid-bm-gadd-detail-14.png",
+      "bytes": 1338763,
+      "sha256": "a325fe213a1f9db9d05dee053384b932e9eec9b53b4c31585e9c3685953d6167"
+    },
+    {
+      "path": "results/primary_pages/hybrid-pat-m77-171.png",
+      "bytes": 1620104,
+      "sha256": "b146f6ceeb887dcc359010331e759b2fac30c93ef96b3277a83e200d69727d68"
+    },
+    {
+      "path": "results/primary_pages/bm122187-m77-838.png",
+      "bytes": 1285259,
+      "sha256": "ee07d50778e21818b89e67f56bccf248e987f88726c16f662ed3adcd5875e082"
+    },
+    {
+      "path": "results/primary_pages/bm122187-parpola-150.png",
+      "bytes": 292760,
+      "sha256": "d3b33255505dfec636c1c4e524b66ca42b2d1d5746b2dfa84cec231827a6d1f7"
+    },
+    {
+      "path": "results/primary_pages/bm122187-parpola-151.png",
+      "bytes": 233092,
+      "sha256": "7159cca91f9ebd6bb8e47f128ca67880e0dba135fd26c4198f542808d8908017"
+    }
+  ],
+  "prior_review_fingerprints": [
+    {
+      "path": "data/processed/m77_foreign_primary_parent_review.json",
+      "bytes": 1185,
+      "sha256": "b8fa99dfa5cb1505fecacbd08a425ee7504a7dc2ebccdbe11295520f82f100db"
+    },
+    {
+      "path": "data/processed/m77_foreign_selection_review.json",
+      "bytes": 18766,
+      "sha256": "d5daa884835e7274c864b493dedb9b1c5fba47b0ec656d2f2e7a953b2a96054d"
+    }
+  ],
+  "attempts": [
+    "Reused existing PDFs; no new original download.",
+    "Gadd pp6\u20137 and PlateI viewed, M77 row160 and bibliography829 viewed.",
+    "Current Wikipedia museum-link navigation no exact122187; old mirror cache miss.",
+    "Official candidate museum URL403 and no exact indexed record recovered.",
+    "Parpola exact-string search zero, focused text navigation and two relevant page images read.",
+    "Poppler font cache warnings nonfatal; page renders completed and were viewed."
+  ],
+  "next_leads": [
+    "Official BM register for candidate1929,1017.725, with big-number confirmation.",
+    "Original exhibition catalogue India and the World page/image; do not use neighboring boat context.",
+    "Mitchell1986 exact no2 is not Gadd no2; authenticate any catalogue bridge by accession."
+  ]
+}

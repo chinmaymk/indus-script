@@ -1,0 +1,1896 @@
+{
+  "Dholavira_exact_photo_recovered": true,
+  "Dholavira_native_M_transcription_promoted": false,
+  "Nausharo_exact_photo_recovered": false,
+  "U_existing_native_objects": 2,
+  "corpus_recoded": false,
+  "cross_catalogued_objects": 2,
+  "cross_script_fields": 4,
+  "established_phonetic_values": 0,
+  "established_semantic_values": 0,
+  "evidence_pin_checks": 133,
+  "exact_pixel_crop_checks": 26,
+  "independent_review_revision_pin_checks": 23,
+  "input_sha256": {
+    "data/processed/roof_cross_coverage_extension.json": "e656b9c00b70cf7301a3da9d73bc84870f96cc5e310cfb0fe3295a5011702bc2",
+    "data/processed/roof_cross_extension_crop_manifest.json": "f4440ce2c19964893d266fd90fcf1411244f48f07992f1134fe9d3166427a058",
+    "data/processed/roof_trident_candidate_audit.json": "686c91d0b93ea550dcc4462d17a7e4a2357097c3002909a42d532e60373878bd",
+    "data/processed/roof_trident_new_attestations.json": "e3c29a5f2c993ba3c4ca812debac7956c986203eb9f930565c3ce51b4e067db3",
+    "data/processed/roof_trident_new_crop_manifest.json": "fcfb8ef51ec479fb53ecedcdbf531573fae6b8ef4cfb18479241a992c5f4215e",
+    "data/processed/roof_u_artifact_extension.json": "9af11ff57ef825d5d7ac6706720c408cb9c3005fb399f7b7bde4a27e7d8e2ca9",
+    "data/processed/roof_u_extension_crop_manifest.json": "9dd45a9d8cca0b026c21bf2442818427e94f88cd8a288e11b0ca662900fc409a",
+    "docs/ROOF_U_EXTENSION_INDEPENDENT_REVIEW.md": "0c2e67dd453b88acfc5a527f9bd97dbe3ba3d5492341bee39e36ca2eb7be3e65",
+    "results/roof_extension_candidates.json": "768fd2bf9205b193a0410c9a827e950c80b91807e6dc0353909ea8adb6ecf474",
+    "scripts/audit_roof_coverage_extension.py": "1bc49762b1c98aad1829b7d59fecab65db5d2745bbcc1461df5bd41b6b3c1562",
+    "scripts/enumerate_roof_extension_candidates.py": "04255698a8fba28c521e9fe1e5e075f7726d55b11134cddfe2ed9c1b966a97ec"
+  },
+  "prior_frozen_roof_screens_changed": false,
+  "raw_W391_rows_accounted_for": 10,
+  "reviews": [
+    {
+      "coverage_conclusion": {
+        "all_M138_equals_W678": false,
+        "central_corpus_mutated": false,
+        "complete_script_fields": 4,
+        "new_M77_primary_references": [
+          "3319",
+          "3320"
+        ],
+        "new_photo_object_joins": 2,
+        "restored_unknown_tokens": 0
+      },
+      "crop_manifest": "data/processed/roof_cross_extension_crop_manifest.json",
+      "date": "2026-09-27",
+      "evidence_files": [
+        {
+          "bytes": 4109921,
+          "path": "data/processed/m77_candidate_records.jsonl",
+          "sha256": "b29a176da86b125115256a8966c377c3fd9fe39ecaab17bf576b770b83b41bab"
+        },
+        {
+          "bytes": 10709,
+          "path": "data/processed/m77_codebook_review.json",
+          "sha256": "2d88405d6ce077afbd670fb11800fbb717dff03e98581b4a2c19f10b60ee9ea8"
+        },
+        {
+          "bytes": 3508,
+          "path": "data/processed/roof_cross_extension_crop_manifest.json",
+          "sha256": "f4440ce2c19964893d266fd90fcf1411244f48f07992f1134fe9d3166427a058"
+        },
+        {
+          "bytes": 111,
+          "path": "data/processed/roof_cross_extension_new_sources.json",
+          "sha256": "fac4054ce78e4897360b5730e76ebbbb0c419e64a769c7a77d2b5adf750c6026"
+        },
+        {
+          "bytes": 31508998,
+          "path": "data/raw/cisi_76884.pdf",
+          "sha256": "47a4da4227cfb7baa56d6a561e25797225499d0ec54f5a702a82c67ab4746d4d"
+        },
+        {
+          "bytes": 22391887,
+          "path": "data/raw/glossa_canonical_objects.jsonl",
+          "sha256": "e24f42a95ee4cc1fdb16c789c3edfb937993ed7c82223d6daa96d66895174ae5"
+        },
+        {
+          "bytes": 919007,
+          "path": "data/raw/glossa_icit_export.json",
+          "sha256": "e4ddfd064e9f97871cd4c498f39f238c7cecb2f6a646733b0a65f22f81bd7e2d"
+        },
+        {
+          "bytes": 119302608,
+          "path": "data/raw/mahadevan_1977_text.pdf",
+          "sha256": "6dcdd074a0174e5fab149590fbbf82342711d345764e9763f8e5e92c81cf7f99"
+        },
+        {
+          "bytes": 7994,
+          "path": "docs/ROOF_CROSS_COVERAGE_EXTENSION.md",
+          "sha256": "1a7b7cdb4dab6d1d7f030c1ebd951c20bb675bdec3796ab0003352bf2c9e644c"
+        },
+        {
+          "bytes": 1838931,
+          "path": "results/primary_pages/m77-codebook-41.png",
+          "sha256": "80a70e5c3329804153835a35b8c2364e5788b339ca4eb824b6b357c73f5d0e25"
+        },
+        {
+          "bytes": 1997128,
+          "path": "results/primary_pages/m77-codebook-42.png",
+          "sha256": "b4ec143903bd5059cdbf8c524c20e2b0e3b0d0d244065bf6765b9282379b37ce"
+        },
+        {
+          "bytes": 127914,
+          "path": "results/primary_pages/roof-cross-extension-3319-fields-detail.png",
+          "sha256": "cb0e2fbc5d9520bfa5940b8a789c697f8bbd66468d5bd1842de81578d6a3958a"
+        },
+        {
+          "bytes": 134286,
+          "path": "results/primary_pages/roof-cross-extension-3320-fields-detail.png",
+          "sha256": "2b54ef64cb8bc3054a76b6e0f986d4d54e28ef803e058718cf0610f2f3c213f7"
+        },
+        {
+          "bytes": 96518,
+          "path": "results/primary_pages/roof-cross-extension-M509A-detail.png",
+          "sha256": "2d8d6cdf8e7714240bf6c161c4a4b995787664ab88be1b1343bf13e882047089"
+        },
+        {
+          "bytes": 100058,
+          "path": "results/primary_pages/roof-cross-extension-M509B-detail.png",
+          "sha256": "f4e0833c5baae726246ac3fe291696c4eb2be18922c268c04df6a648f95137c9"
+        },
+        {
+          "bytes": 99654,
+          "path": "results/primary_pages/roof-cross-extension-M510A-detail.png",
+          "sha256": "7c6435dbb714f4fe4a198ab8568bb7c06bb410553dd999679e5df76e2b06d802"
+        },
+        {
+          "bytes": 94992,
+          "path": "results/primary_pages/roof-cross-extension-M510B-detail.png",
+          "sha256": "8e0fde00495d3ca7977240deafef92dc6776a01ca082bf6e687e6be4c6ee0e77"
+        },
+        {
+          "bytes": 144181,
+          "path": "results/primary_pages/roof-cross-extension-appendix-detail.png",
+          "sha256": "4f6077f25a398772f6a6ea66c56ac429b4f4b93c762a0b09cf84e8c177433c47"
+        },
+        {
+          "bytes": 4780167,
+          "path": "results/primary_pages/roof-cross-extension-cisi-405.png",
+          "sha256": "6eded5312b57d23060d1e0e622c01208f02804aa7ccf0d004ed0a02e1a81746c"
+        },
+        {
+          "bytes": 69119,
+          "path": "results/primary_pages/roof-cross-extension-cisi-metadata-detail.png",
+          "sha256": "510db6aea633d4032248a872ed79fdbc7b395b8358df38b886fcc8da19502679"
+        },
+        {
+          "bytes": 2300477,
+          "path": "results/primary_pages/roof-cross-extension-m77-104.png",
+          "sha256": "2683d30459f2bb8f178235c74c04b64139b93f046c0539abf9bab6a9a31d606b"
+        },
+        {
+          "bytes": 4979891,
+          "path": "results/primary_pages/roof-cross-extension-m77-829.png",
+          "sha256": "0d9d9450e750aef5097562b17e6697d861355413c3925f25b980b2688675de58"
+        },
+        {
+          "bytes": 925084,
+          "path": "results/primary_pages/roof-cross-extension-photo-164.png",
+          "sha256": "0a9240a7b6bc1be9b3b67891afbf4d0b4bc53bb31f963669ff01455a0ce4ad18"
+        },
+        {
+          "bytes": 14925,
+          "path": "results/primary_pages/roof-cross-extension-sign287-detail.png",
+          "sha256": "8983032755f1a8e64c2f5190d526a206a63e67cedb8381e04a066d3d8cef19fd"
+        },
+        {
+          "bytes": 18563,
+          "path": "results/primary_pages/roof-cross-extension-sign319-detail.png",
+          "sha256": "6d7ea187a94fb8fe925987af3c7c6592e0dfa81007a8a106521f318a3344be4a"
+        },
+        {
+          "bytes": 18347,
+          "path": "results/primary_pages/roof-modifier-M137.png",
+          "sha256": "8503e240e04451477b25c5d53ebc0e828bedcd255bcb845ba939eb7baef1e935"
+        },
+        {
+          "bytes": 19533,
+          "path": "results/primary_pages/roof-modifier-M138.png",
+          "sha256": "749792576be9575fdb49879bb340d220c2c204d5891fc583ed323ddd55b80b20"
+        },
+        {
+          "bytes": 2312636,
+          "path": "results/primary_pages/sign_list-045.png",
+          "sha256": "972002b288ea77921dcacfe67386dbf585b76be6bca5444b7ff9422e47e70b89"
+        },
+        {
+          "bytes": 2099531,
+          "path": "results/primary_pages/sign_list-046.png",
+          "sha256": "a191e9297a6ab8b7cad1028eaeac062b4b6fa3cd34aefbdd507f669d736d2e8e"
+        },
+        {
+          "bytes": 362,
+          "path": "results/roof-cross-extension-cisi_extraction.json",
+          "sha256": "1366977dd083836a05f9832bef6dde806aee7289c48010cd66347d8167bfd858"
+        },
+        {
+          "bytes": 380,
+          "path": "results/roof-cross-extension-m77_extraction.json",
+          "sha256": "694638ad239ec34894af944529921200883185b530f91014bcf7a5ce8826ed65"
+        },
+        {
+          "bytes": 362,
+          "path": "results/roof-cross-extension-photo_extraction.json",
+          "sha256": "5db6e3fad5803957cc695b04afbc01ad1c5ab78371285eff0a487b00ea92706b"
+        },
+        {
+          "bytes": 1455,
+          "path": "scripts/render_roof_cross_extension_crops.py",
+          "sha256": "c3de1c74c370ec35b29f61788d822be837c4f7aaf278cebfdcd6a2051869df06"
+        }
+      ],
+      "failure_log": [
+        {
+          "attempt": "CISI1 text-layer photo locator",
+          "result": "No useful hit; exact plate found through nearby retained pages."
+        },
+        {
+          "attempt": "Complete exact stroke transcription from photos",
+          "result": "Not certified due weak/scratched surfaces; normalized primary drawing and photo observations kept separate."
+        },
+        {
+          "attempt": "Resolve3319 hatched span from3320 similarity",
+          "result": "Not attempted as a restoration; span remains unknown."
+        }
+      ],
+      "pending_source_registry": "data/processed/roof_cross_extension_new_sources.json",
+      "phonetic_values": null,
+      "records": [
+        {
+          "M138_exact_photo_strokes_independently_certified": false,
+          "M138_primary_normalized_confirmed": true,
+          "W678_mapping_established": false,
+          "appendix": {
+            "excavation": "DK4067",
+            "museum": "ASI63.10.271",
+            "pdf_page": 829,
+            "printed_page": 820
+          },
+          "asterisk_in_export": false,
+          "catalogued_physical_objects": 1,
+          "cisi": {
+            "Finnish_number_used": false,
+            "join_keys": [
+              "excavation",
+              "museum"
+            ],
+            "metadata_pdf_page": 405,
+            "metadata_printed_page": 369,
+            "object": "M510",
+            "photo_pdf_page": 164,
+            "photo_printed_page": 128,
+            "photograph_source": "HU264"
+          },
+          "exact_find_depth": null,
+          "exact_secondary_export_diplomatic": "+000-342-067-138+",
+          "export_doc_count": 2,
+          "fields": [
+            {
+              "direction": 1,
+              "field": "00",
+              "field_id": "3319:1:0",
+              "line": 0,
+              "literal_metadata": "510001",
+              "omitted_from_flat_export": true,
+              "photograph_view": "M510B",
+              "side": 1,
+              "tokens": [
+                "M287",
+                "M319"
+              ],
+              "unknown_span": false
+            },
+            {
+              "direction": 1,
+              "field": "00",
+              "field_id": "3319:2:0",
+              "line": 0,
+              "literal_metadata": "20001",
+              "omitted_from_flat_export": false,
+              "photograph_view": "M510A",
+              "side": 2,
+              "tokens": [
+                null,
+                "M342",
+                "M067",
+                "M138"
+              ],
+              "unknown_span": true,
+              "unknown_span_original_length": null
+            }
+          ],
+          "object_type": "copper tablet",
+          "object_type_code": 5,
+          "photo_broad_layout_compatible": true,
+          "photo_views": 2,
+          "preservation": {
+            "fracture_not_inferred_from_reading_loss": true,
+            "large_missing_chunk_identified": false,
+            "reading_loss": "unknown span retained",
+            "surface": "scratched/mottled with weak strokes"
+          },
+          "reference": "3319",
+          "room_or_trench": null,
+          "site": "Mohenjo-daro"
+        },
+        {
+          "M138_exact_photo_strokes_independently_certified": false,
+          "M138_primary_normalized_confirmed": true,
+          "W678_mapping_established": false,
+          "appendix": {
+            "excavation": "DK4069",
+            "museum": "ASI63.10.270",
+            "pdf_page": 829,
+            "printed_page": 820
+          },
+          "asterisk_in_export": false,
+          "catalogued_physical_objects": 1,
+          "cisi": {
+            "Finnish_number_used": false,
+            "join_keys": [
+              "excavation",
+              "museum"
+            ],
+            "metadata_pdf_page": 405,
+            "metadata_printed_page": 369,
+            "object": "M509",
+            "photo_pdf_page": 164,
+            "photo_printed_page": 128,
+            "photograph_source": "HU263"
+          },
+          "exact_find_depth": null,
+          "exact_secondary_export_diplomatic": "+201-099-048-342-067-138+",
+          "export_doc_count": 2,
+          "fields": [
+            {
+              "direction": 1,
+              "field": "00",
+              "field_id": "3320:1:0",
+              "line": 0,
+              "literal_metadata": "510001",
+              "omitted_from_flat_export": true,
+              "photograph_view": "M509B",
+              "side": 1,
+              "tokens": [
+                "M287",
+                "M319"
+              ],
+              "unknown_span": false
+            },
+            {
+              "direction": 1,
+              "field": "00",
+              "field_id": "3320:2:0",
+              "line": 0,
+              "literal_metadata": "20001",
+              "omitted_from_flat_export": false,
+              "photograph_view": "M509A",
+              "side": 2,
+              "tokens": [
+                "M201",
+                "M099",
+                "M048",
+                "M342",
+                "M067",
+                "M138"
+              ],
+              "unknown_span": false,
+              "unknown_span_original_length": null
+            }
+          ],
+          "object_type": "copper tablet",
+          "object_type_code": 5,
+          "photo_broad_layout_compatible": true,
+          "photo_views": 2,
+          "preservation": {
+            "fracture_not_inferred_from_reading_loss": true,
+            "large_missing_chunk_identified": false,
+            "reading_loss": "no unknown span printed by M77",
+            "surface": "scratched/mottled with weak strokes"
+          },
+          "reference": "3320",
+          "room_or_trench": null,
+          "site": "Mohenjo-daro"
+        }
+      ],
+      "scope": "M77 refs3319/3320; no universal W678 mapping",
+      "semantic_values": null,
+      "status": "two_primary_M138_occurrences_with_complete_fields_and_photographic_identity_authenticated"
+    },
+    {
+      "catalogued_objects_reviewed": 2,
+      "corpus_recoded": false,
+      "correspondence_rule_source": "M77 AppendixV printed818/PDF827, MIC1001–1560=items1–560 and FEM2002–2704=items2–704",
+      "date": "2026-09-27",
+      "evidence_files": [
+        {
+          "bytes": 119302608,
+          "path": "data/raw/mahadevan_1977_text.pdf",
+          "sha256": "6dcdd074a0174e5fab149590fbbf82342711d345764e9763f8e5e92c81cf7f99"
+        },
+        {
+          "bytes": 31508998,
+          "path": "data/raw/cisi_76884.pdf",
+          "sha256": "47a4da4227cfb7baa56d6a561e25797225499d0ec54f5a702a82c67ab4746d4d"
+        },
+        {
+          "bytes": 35870617,
+          "path": "data/raw/h843_identity_CorpusVol2.pdf",
+          "sha256": "727132579a485ee626e48a64c663148a85fbc0811fb523818fd615231f8a327d"
+        },
+        {
+          "bytes": 12167700,
+          "path": "data/raw/stone1471_marshall1931_volume2_text.pdf",
+          "sha256": "e58c4d95c9d7dbac29a3cb04d633d20618de71ab7cb58e7dcf035fb88ceb2ef3"
+        },
+        {
+          "bytes": 1204921,
+          "path": "data/raw/lipi_inscriptions.csv",
+          "sha256": "b8dcb325a2e2cd3cde12ac12e7a418b0348e45713c9ee28aad81b645d2ac5ee4"
+        },
+        {
+          "bytes": 1751342,
+          "path": "data/raw/roof_u_mackay_leaf402.jpg",
+          "sha256": "56ba3d75f9d00fda1177a75ab2ce2475a5ce7d5bf6fdd02716966bc65672d540"
+        },
+        {
+          "bytes": 639595,
+          "path": "data/raw/roof_u_marshall_leaf199.jpg",
+          "sha256": "bdbb936ac2d6541614b8effc6c63eca19ee08730851589a68639fa4b51b1655c"
+        },
+        {
+          "bytes": 4109921,
+          "path": "data/processed/m77_candidate_records.jsonl",
+          "sha256": "b29a176da86b125115256a8966c377c3fd9fe39ecaab17bf576b770b83b41bab"
+        },
+        {
+          "bytes": 189902,
+          "path": "data/processed/catalogue_features.json",
+          "sha256": "00836515c6f3beec28b3b66e13d8a9c6e94571cfb2e9dbb4b148651b7ff0032d"
+        },
+        {
+          "bytes": 6575,
+          "path": "data/processed/roof_u_extension_crop_manifest.json",
+          "sha256": "9dd45a9d8cca0b026c21bf2442818427e94f88cd8a288e11b0ca662900fc409a"
+        },
+        {
+          "bytes": 1819,
+          "path": "scripts/render_roof_u_extension_crops.py",
+          "sha256": "33dc203e1de81c7aa938a2d1e5ac7799bbe947652e03ebf1b814aceedc12dcc7"
+        },
+        {
+          "bytes": 1507,
+          "path": "scripts/download_roof_u_sources.py",
+          "sha256": "2a9e8f1e341fdadc2ede937e488b517744e884f208d2f5ed4d0aafb71228f153"
+        },
+        {
+          "bytes": 5833,
+          "path": "docs/ROOF_U_ARTIFACT_EXTENSION.md",
+          "sha256": "d84ad4bfddf0084d4d7076384b6e278f76fb84d6ac288b47fd7cd69e5e76d9c0"
+        },
+        {
+          "bytes": 3459032,
+          "path": "results/primary_pages/crab-cisi-target-404.png",
+          "sha256": "bd71e0c9b9106ed40afcdf016d79791a0c8e91c5927614105272dd6a977402ab"
+        },
+        {
+          "bytes": 380,
+          "path": "results/roof-u-extension-cisi1_extraction.json",
+          "sha256": "66ad8a868f134359a0622ac943039a92e5d74dc3a0997ca37d16c5560ff48c15"
+        },
+        {
+          "bytes": 394,
+          "path": "results/roof-u-extension-cisi_extraction.json",
+          "sha256": "3f9aa7a9343a87a8e15ad2f9a9dd006471d7a8780881ec1db955525fe412709c"
+        },
+        {
+          "bytes": 387,
+          "path": "results/roof-u-extension-m77_extraction.json",
+          "sha256": "ed59a8964afd4918f7fdcbe9ba7785ea0c711152b449c790ce5be04e1541176b"
+        },
+        {
+          "bytes": 386,
+          "path": "results/roof-u-extension-mic-table_extraction.json",
+          "sha256": "22279026b4fe52a9ea50c54a8eb963c0a133491f4925a64385012776f8ab6434"
+        },
+        {
+          "bytes": 402,
+          "path": "results/roof-u-extension-mic_extraction.json",
+          "sha256": "ea90622224c94354b7c0caa4687cb0be7d74c22286e32f315cc13534cfc75f29"
+        },
+        {
+          "bytes": 113513,
+          "path": "results/primary_pages/roof-u-extension-1403-crop.png",
+          "sha256": "16f9963212a8d0156ca3c8faca7ebf24f18c120c439a66dc6d613ee82672f4e8"
+        },
+        {
+          "bytes": 71604,
+          "path": "results/primary_pages/roof-u-extension-2364-crop.png",
+          "sha256": "911aa5ad66ef42c19230156f900d5c9c3a822e8248ea297375710f1b8128e0a8"
+        },
+        {
+          "bytes": 34594,
+          "path": "results/primary_pages/roof-u-extension-M354-metadata-crop.png",
+          "sha256": "b5763291520af8f52ced82df639720d5b0c9cbd01529fe4933e345dd137f359f"
+        },
+        {
+          "bytes": 895103,
+          "path": "results/primary_pages/roof-u-extension-M354-views-crop.png",
+          "sha256": "535edea949b67942f96eca6f0433bc59447fed084f52d84efbe87e18a43b0fa3"
+        },
+        {
+          "bytes": 30118,
+          "path": "results/primary_pages/roof-u-extension-M810-metadata-crop.png",
+          "sha256": "d90de59b8c11c6e2d39246b074ece7ebef385276af8abf24f3055171b6116a3e"
+        },
+        {
+          "bytes": 565776,
+          "path": "results/primary_pages/roof-u-extension-M810-views-crop.png",
+          "sha256": "2d775334f1105de0ca99e73c7bf97ec056dc089824a019ef74c3885dc60d9069"
+        },
+        {
+          "bytes": 101194,
+          "path": "results/primary_pages/roof-u-extension-appendix-fem-crop.png",
+          "sha256": "821388227776760c0dd9d11f9465226fd3c8f7ba2de96a2ddbfa4ecd122dc15d"
+        },
+        {
+          "bytes": 183660,
+          "path": "results/primary_pages/roof-u-extension-appendix-mic-crop.png",
+          "sha256": "ad16f9f5b2a2b7999107d4add952ebf1c8ac28061afc07ec9f6f80eeccd6dca9"
+        },
+        {
+          "bytes": 3601598,
+          "path": "results/primary_pages/roof-u-extension-cisi-104.png",
+          "sha256": "7ca5e961488662f8bd205ac898bcea8350ce4bad1e8d5b0181ae254360de71e4"
+        },
+        {
+          "bytes": 4040114,
+          "path": "results/primary_pages/roof-u-extension-cisi-105.png",
+          "sha256": "5a58f72c0cdac12a0cd69104077c6017143cb8c206a0f3a743ed34dd986a06b5"
+        },
+        {
+          "bytes": 3588492,
+          "path": "results/primary_pages/roof-u-extension-cisi-471.png",
+          "sha256": "99dee99b919b8b5ba6b87b01bf3df8a4f65cc93e52f6f6aac846f31cbd124d0a"
+        },
+        {
+          "bytes": 2311748,
+          "path": "results/primary_pages/roof-u-extension-cisi1-123.png",
+          "sha256": "83b27a7c314a774eac815300f2803bd5105444774e4875412e046b004bdf3567"
+        },
+        {
+          "bytes": 2197855,
+          "path": "results/primary_pages/roof-u-extension-cisi1-124.png",
+          "sha256": "449fd3e46ea018584f9d38f3d812874c3f9a96dd253ae2f1a80b64a4ac722c58"
+        },
+        {
+          "bytes": 2010736,
+          "path": "results/primary_pages/roof-u-extension-cisi1-125.png",
+          "sha256": "76cc2ca09ffd7911978584c61d8cce6e4d3ae60a388b954664d39c405ba54e0d"
+        },
+        {
+          "bytes": 2475254,
+          "path": "results/primary_pages/roof-u-extension-m77-62.png",
+          "sha256": "9bb0303ab2a06f7a5c4f31431ceb11e0c740de5783384d7fe987d5d92d087ce7"
+        },
+        {
+          "bytes": 2175103,
+          "path": "results/primary_pages/roof-u-extension-m77-80.png",
+          "sha256": "50c95bf3dbd49db5c4bc238d3ae38aaca1267409bc186b3c6fd29b4ae8d16d85"
+        },
+        {
+          "bytes": 2304200,
+          "path": "results/primary_pages/roof-u-extension-m77-827.png",
+          "sha256": "0fe0d0681df765836da7528b1c848831fb7e917a4d7ef4d0578e223dc86c2289"
+        },
+        {
+          "bytes": 319018,
+          "path": "results/primary_pages/roof-u-extension-mackay-364-crop.png",
+          "sha256": "d7b188ae609ff009632b6d4fa51ce8195bf3f20d5a23096ad4620118b8c887d0"
+        },
+        {
+          "bytes": 1206853,
+          "path": "results/primary_pages/roof-u-extension-mackay-header-crop.png",
+          "sha256": "c3046fda84dc2cea3bb4b826554eb2da9dce68d8727819f8980b5dad480c3308"
+        },
+        {
+          "bytes": 125548,
+          "path": "results/primary_pages/roof-u-extension-marshall-403-crop.png",
+          "sha256": "24b135911856bb463f0dad47a510dc59774cbc68f899e15bb4d0640b75357d48"
+        },
+        {
+          "bytes": 34053,
+          "path": "results/primary_pages/roof-u-extension-mic-403-crop.png",
+          "sha256": "df5c37ef2b420149b7d86d233285132846a85c3f2b5dfb08144c1e211d7a4513"
+        },
+        {
+          "bytes": 1550323,
+          "path": "results/primary_pages/roof-u-extension-mic-57.png",
+          "sha256": "a324493a3bdfa8128c91179664b6c482d213b22ecdf13790026f3433ea6d535a"
+        },
+        {
+          "bytes": 1548490,
+          "path": "results/primary_pages/roof-u-extension-mic-58.png",
+          "sha256": "61c8e40eafcd97db4f5ef7da5f8529979e1d661ac64effd3930add830b2eb81a"
+        },
+        {
+          "bytes": 1420990,
+          "path": "results/primary_pages/roof-u-extension-mic-59.png",
+          "sha256": "77c418cb8584e2cf44fbeda8f74b0d997a5108682e8251441bc87e169a4d41cf"
+        },
+        {
+          "bytes": 92275,
+          "path": "results/primary_pages/roof-u-extension-mic-header-crop.png",
+          "sha256": "83413aad2d635a277a38b23d76ef02ef9b1780b5816047d951b43d58de31fdd1"
+        },
+        {
+          "bytes": 2900959,
+          "path": "results/primary_pages/roof-u-extension-mic-table-55.png",
+          "sha256": "a857ed306e49fa9e30ffbda3914e3d1ba249a5d0aaae5c5856039fa14037f982"
+        }
+      ],
+      "global_crosswalk_established": false,
+      "new_native_occurrences": 0,
+      "phonetic_values": null,
+      "records": [
+        {
+          "catalogued_physical_objects": 1,
+          "cisi_alias": "M354",
+          "every_neighbouring_sign_certified": false,
+          "excavation": "D262",
+          "existing_native_record": true,
+          "literal_metadata": "100001",
+          "local_position_correspondence": {
+            "M": "M334",
+            "W": "W729",
+            "scope": "this artifact and target position only"
+          },
+          "m77_reference": "1403",
+          "metadata": {
+            "depth": null,
+            "material": "white steatite",
+            "museum": "NMI15",
+            "photo": "HU912",
+            "photo_page": "CISI1 printed88/PDF124; Marshall III plateCXII item403",
+            "size_inches": [
+              2.25,
+              0.6
+            ],
+            "source": "Marshall II printed404/PDF55; CISI1 printed368/PDF404",
+            "type": "F"
+          },
+          "normalized_tokens": [
+            "M028",
+            "M303",
+            "M100",
+            "M066",
+            "M407",
+            "M169",
+            "M334",
+            "M342"
+          ],
+          "photographic_observation": "long basal extension oblique/curved",
+          "preservation": "Broadly preserved text field; uneven edges and surface marks; fine completeness not certified.",
+          "publication_item": "MIC403",
+          "roof_body_basal_arrangement_visible": true,
+          "secondary_row": {
+            "cisi": "M-354",
+            "complete": "Y",
+            "condition": "Fine",
+            "dir.": "R/L",
+            "excavation-idno": "D262403",
+            "id": "2850.1",
+            "preservation": "complete",
+            "site": "Mohenjo-daro",
+            "text": "+740-729-407-845-236-002-906-125+",
+            "type": "SEAL:R"
+          },
+          "strict_flag_unchanged": true
+        },
+        {
+          "catalogued_physical_objects": 1,
+          "cisi_alias": "M810",
+          "every_neighbouring_sign_certified": false,
+          "excavation": "DK5890",
+          "existing_native_record": true,
+          "literal_metadata": "100101",
+          "local_position_correspondence": {
+            "M": "M334",
+            "W": "W731",
+            "scope": "this artifact and target position only"
+          },
+          "m77_reference": "2364",
+          "metadata": {
+            "following_accession_tentative": "50.14",
+            "following_accession_used_for_join": false,
+            "level_ft": -11.7,
+            "locus_literal": "Bet. Bls. 1 (V) & 10",
+            "material": "steatite",
+            "museum_secure_literal": "MD195",
+            "photo_page": "CISI2 printed70/PDF105",
+            "photos": [
+              "JL311",
+              "P231"
+            ],
+            "size_inches": [
+              1.02,
+              1.02,
+              0.26
+            ],
+            "source": "Mackay printed380 row364; CISI2 printed436/PDF471",
+            "type": "B"
+          },
+          "normalized_tokens": [
+            "M334",
+            "M342"
+          ],
+          "photographic_observation": "long basal extension approximately vertical",
+          "preservation": "Large missing lower corner lies in animal field; upper two-sign field broadly preserved; artifact not intact.",
+          "publication_item": "FEM364",
+          "roof_body_basal_arrangement_visible": true,
+          "secondary_row": {
+            "cisi": "M-810",
+            "complete": "Y",
+            "condition": "Good",
+            "dir.": "R/L",
+            "excavation-idno": "DK5890364",
+            "id": "3223.1",
+            "preservation": "slightly chipped",
+            "site": "Mohenjo-daro",
+            "text": "+740-731+",
+            "type": "SEAL:S"
+          },
+          "strict_flag_unchanged": true
+        }
+      ],
+      "scope": "Two already exported M334 objects independently identified and photographed; no new native occurrence.",
+      "semantic_values": null
+    },
+    {
+      "attempts": [
+        {
+          "attempt": "Delimiter-aware CSV scan for391",
+          "result": "Ten rows; exact token scan independently returned same ten. Translation columns excluded from saved fields."
+        },
+        {
+          "attempt": "Scan native candidate records forM163 and inspect selected2923",
+          "result": "Exactly1051,1397,2119,2925,8054. Separate2923 starts unknown span with two doubtful positions."
+        },
+        {
+          "attempt": "Review existing original metal/arch ledgers and primary Texts85/PDF96",
+          "result": "2925target retained with other-sign doubt;2923initial target not recoverable. Primary field7535/later7835 disagreement preserved."
+        },
+        {
+          "attempt": "Inspect M77 Appendix818/PDF827 and827/PDF836, CISI374/PDF410, Marshall402/PDF53",
+          "result": "Verified old publication mapping rules, K45/19360/8054 and HR4945/MIC51/1051 documentary chains."
+        },
+        {
+          "attempt": "Render retained Marshall volumeII PDF55 with roof-trident-marshall prefix",
+          "result": "Printed404 row397 visibly VS3227, giving qualified M1014/MIC397/1397 chain."
+        },
+        {
+          "attempt": "Search retained Mackay OCR for7854 and10551",
+          "result": "No reliable exact hit or new individual bridge. OCR weakness is not absence evidence; no download or speculative repair."
+        }
+      ],
+      "candidate_ledger": [
+        {
+          "candidate_target": "W391",
+          "identity_basis": "K-45 = KLB1 19360 = ASI68.1.51. CISI printed374/PDF410 and M77 Appendix printed827/PDF836 give the same field and registration. Finnish7120 is a separate catalogue number.",
+          "is_extra_raw_candidate_beyond_five_native_target_references": false,
+          "limits": "Raw preservation fragment coexists with complete=Y; do not decide inscription completeness from either field alone. Native target field has no exported doubt/loss, but no new physical roof reading here.",
+          "modern_alias_separately_authenticated": true,
+          "native_export": {
+            "id": "GLI-IND-M77-08054",
+            "source_direction_code": "1",
+            "source_doc_count": 1,
+            "source_reference": "8054",
+            "strict_candidate": true,
+            "tokens": [
+              {
+                "diplomatic": "084",
+                "doubtful": false,
+                "raw": "84",
+                "sign": "M084",
+                "unknown_span": false
+              },
+              {
+                "diplomatic": "127",
+                "doubtful": false,
+                "raw": "127",
+                "sign": "M127",
+                "unknown_span": false
+              },
+              {
+                "diplomatic": "343",
+                "doubtful": false,
+                "raw": "343",
+                "sign": "M343",
+                "unknown_span": false
+              },
+              {
+                "diplomatic": "163",
+                "doubtful": false,
+                "raw": "163",
+                "sign": "M163",
+                "unknown_span": false
+              }
+            ]
+          },
+          "native_object_presence": "present via documented locator",
+          "native_reference": "8054",
+          "new_native_M163_attestation_authenticated": false,
+          "new_physical_artifact_authenticated_by_this_audit": false,
+          "raw": {
+            "cisi": "K-45",
+            "complete": "Y",
+            "condition": "Poor",
+            "dir.": "-",
+            "excavation-idno": "KLB1 19360",
+            "id": "1911.1",
+            "preservation": "fragment",
+            "site": "Kalibangan",
+            "text": "+391-741-442-279+",
+            "type": "SEAL:S"
+          },
+          "status": "old_native_target_documentary_join"
+        },
+        {
+          "candidate_target": "W391",
+          "identity_basis": "Secondary DK10551119 plausibly combines DK10551 and FEM119. M77 Appendix printed818/PDF827 explicitly maps FEM119 to2119. The original field10551-to-item119 row was not authenticated here; modern M1892 alias remains qualified.",
+          "is_extra_raw_candidate_beyond_five_native_target_references": false,
+          "limits": "Raw preservation fragment and complete=Y conflict at object-label level; alternative token706/821 retained. Native2119 has source_doc_count2 and strict=false; identical tail to other tools cannot authenticate identity.",
+          "modern_alias_separately_authenticated": false,
+          "native_export": {
+            "id": "GLI-IND-M77-02119",
+            "source_direction_code": "1",
+            "source_doc_count": 2,
+            "source_reference": "2119",
+            "strict_candidate": false,
+            "tokens": [
+              {
+                "diplomatic": "163",
+                "doubtful": false,
+                "raw": "163",
+                "sign": "M163",
+                "unknown_span": false
+              },
+              {
+                "diplomatic": "252",
+                "doubtful": false,
+                "raw": "252",
+                "sign": "M252",
+                "unknown_span": false
+              },
+              {
+                "diplomatic": "261",
+                "doubtful": false,
+                "raw": "261",
+                "sign": "M261",
+                "unknown_span": false
+              },
+              {
+                "diplomatic": "134",
+                "doubtful": false,
+                "raw": "134",
+                "sign": "M134",
+                "unknown_span": false
+              },
+              {
+                "diplomatic": "098",
+                "doubtful": false,
+                "raw": "98",
+                "sign": "M098",
+                "unknown_span": false
+              },
+              {
+                "diplomatic": "391",
+                "doubtful": false,
+                "raw": "391",
+                "sign": "M391",
+                "unknown_span": false
+              },
+              {
+                "diplomatic": "391",
+                "doubtful": false,
+                "raw": "391",
+                "sign": "M391",
+                "unknown_span": false
+              }
+            ]
+          },
+          "native_object_presence": "present; candidate identity qualification applies",
+          "native_reference": "2119",
+          "new_native_M163_attestation_authenticated": false,
+          "new_physical_artifact_authenticated_by_this_audit": false,
+          "raw": {
+            "cisi": "M-1892",
+            "complete": "Y",
+            "condition": "Poor",
+            "dir.": "R/L",
+            "excavation-idno": "DK10551119",
+            "id": "2221.1",
+            "preservation": "fragment",
+            "site": "Mohenjo-daro",
+            "text": "+368-501-706/821-001-480-850-595-391+",
+            "type": "SEAL:S"
+          },
+          "status": "old_native_target_candidate_join"
+        },
+        {
+          "candidate_target": "W391",
+          "identity_basis": "Raw CXXVI:5 joins existing M77 Appendix2925=CXXVI5 and original Mackay table printed489, field7535. Later Pettersson7835 remains unresolved; no silent repair.",
+          "is_extra_raw_candidate_beyond_five_native_target_references": false,
+          "limits": "Native first field contains doubtfulM098. W string is six tokens versus seven normalized M77 codes; no global one-token equivalence or complete-field agreement is claimed.",
+          "modern_alias_separately_authenticated": false,
+          "native_export": {
+            "id": "GLI-IND-M77-02925",
+            "source_direction_code": "1",
+            "source_doc_count": 2,
+            "source_reference": "2925",
+            "strict_candidate": false,
+            "tokens": [
+              {
+                "diplomatic": "163",
+                "doubtful": false,
+                "raw": "163",
+                "sign": "M163",
+                "unknown_span": false
+              },
+              {
+                "diplomatic": "252",
+                "doubtful": false,
+                "raw": "252",
+                "sign": "M252",
+                "unknown_span": false
+              },
+              {
+                "diplomatic": "261",
+                "doubtful": false,
+                "raw": "261",
+                "sign": "M261",
+                "unknown_span": false
+              },
+              {
+                "diplomatic": "134",
+                "doubtful": false,
+                "raw": "134",
+                "sign": "M134",
+                "unknown_span": false
+              },
+              {
+                "diplomatic": "*098",
+                "doubtful": true,
+                "raw": "*098",
+                "sign": "M098",
+                "unknown_span": false
+              },
+              {
+                "diplomatic": "391",
+                "doubtful": false,
+                "raw": "391",
+                "sign": "M391",
+                "unknown_span": false
+              },
+              {
+                "diplomatic": "391",
+                "doubtful": false,
+                "raw": "391",
+                "sign": "M391",
+                "unknown_span": false
+              }
+            ]
+          },
+          "native_object_presence": "present via documented locator",
+          "native_reference": "2925",
+          "new_native_M163_attestation_authenticated": false,
+          "new_physical_artifact_authenticated_by_this_audit": false,
+          "raw": {
+            "cisi": "M-2121",
+            "complete": "Y",
+            "condition": "Fair",
+            "dir.": "R/L",
+            "excavation-idno": "DK7535CXXVI:5",
+            "id": "2362.1",
+            "preservation": "complete",
+            "site": "Mohenjo-daro",
+            "text": "+821-001-480-850-595-391+",
+            "type": "IMPL"
+          },
+          "status": "old_native_target_documentary_join"
+        },
+        {
+          "candidate_target": "W391",
+          "identity_basis": "Raw DK7854/CXXXI37 retained literally. Prior plate audit only tentatively compared photograph37 with the small axe; no authenticated individual photo-to-field bridge. Do not assign2924,2925 or2923 from similar text.",
+          "is_extra_raw_candidate_beyond_five_native_target_references": true,
+          "limits": "Raw complete=Y does not authenticate original field completeness or W391 roof. Existing M77 Appendix selected tool list has no explicit CXXXI37 row; bounded missing join is not proof of corpus omission.",
+          "modern_alias_separately_authenticated": false,
+          "native_object_presence": "unresolved; no global absence claim",
+          "native_reference": null,
+          "new_native_M163_attestation_authenticated": false,
+          "new_physical_artifact_authenticated_by_this_audit": false,
+          "raw": {
+            "cisi": "-",
+            "complete": "Y",
+            "condition": "Fair",
+            "dir.": "R/L",
+            "excavation-idno": "DK7854CXXXI:37",
+            "id": "2368.1",
+            "preservation": "complete",
+            "site": "Mohenjo-daro",
+            "text": "+821-001-480-850-595-391+",
+            "type": "IMPL"
+          },
+          "status": "unjoined_historical_tool_candidate"
+        },
+        {
+          "candidate_target": "W391",
+          "identity_basis": "CXXVI2 is explicitly M77:2923, conventionally DK7856, with original table digit blur retained. This is the already studied broken tang, not another object.",
+          "is_extra_raw_candidate_beyond_five_native_target_references": true,
+          "limits": "W export suppliesW391 where native first field begins LOSS, followed byM252 M261 M134 doubtfulM098 M391 doubtfulM391. Primary printed85/PDF96 shows the initial hatched span. Cannot insertM163 from the similar2925 inscription. Raw preservation complete/complete=Y differs from original fragmentary tool condition.",
+          "modern_alias_separately_authenticated": false,
+          "native_export": {
+            "id": "GLI-IND-M77-02923",
+            "source_direction_code": "4",
+            "source_doc_count": 2,
+            "source_reference": "2923",
+            "strict_candidate": false,
+            "tokens": [
+              {
+                "diplomatic": "000",
+                "doubtful": false,
+                "raw": "0",
+                "sign": null,
+                "unknown_span": true
+              },
+              {
+                "diplomatic": "252",
+                "doubtful": false,
+                "raw": "252",
+                "sign": "M252",
+                "unknown_span": false
+              },
+              {
+                "diplomatic": "261",
+                "doubtful": false,
+                "raw": "261",
+                "sign": "M261",
+                "unknown_span": false
+              },
+              {
+                "diplomatic": "134",
+                "doubtful": false,
+                "raw": "134",
+                "sign": "M134",
+                "unknown_span": false
+              },
+              {
+                "diplomatic": "*098",
+                "doubtful": true,
+                "raw": "*098",
+                "sign": "M098",
+                "unknown_span": false
+              },
+              {
+                "diplomatic": "391",
+                "doubtful": false,
+                "raw": "391",
+                "sign": "M391",
+                "unknown_span": false
+              },
+              {
+                "diplomatic": "*391",
+                "doubtful": true,
+                "raw": "*391",
+                "sign": "M391",
+                "unknown_span": false
+              }
+            ]
+          },
+          "native_object_presence": "present via documented locator",
+          "native_reference": "2923",
+          "new_native_M163_attestation_authenticated": false,
+          "new_physical_artifact_authenticated_by_this_audit": false,
+          "raw": {
+            "cisi": "M-2118",
+            "complete": "Y",
+            "condition": "Fair",
+            "dir.": "T/B",
+            "excavation-idno": "DK7856CXXVI:2",
+            "id": "2370.1",
+            "preservation": "complete",
+            "site": "Mohenjo-daro",
+            "text": "+821-001-480-850-595-391+",
+            "type": "IMPL"
+          },
+          "status": "old_native_object_target_not_recoverable_in_M77"
+        },
+        {
+          "candidate_target": "W391",
+          "identity_basis": "Marshall volumeII printed402/PDF53 row51 is HR4945. M77 Appendix printed818/PDF827 maps MIC51 to1051. Modern M40 alias was not separately checked in CISI metadata.",
+          "is_extra_raw_candidate_beyond_five_native_target_references": false,
+          "limits": "Native field is strict and undoubted. This is additional cross-catalogue documentation for a known native target, not an additional target artifact.",
+          "modern_alias_separately_authenticated": false,
+          "native_export": {
+            "id": "GLI-IND-M77-01051",
+            "source_direction_code": "1",
+            "source_doc_count": 1,
+            "source_reference": "1051",
+            "strict_candidate": true,
+            "tokens": [
+              {
+                "diplomatic": "106",
+                "doubtful": false,
+                "raw": "106",
+                "sign": "M106",
+                "unknown_span": false
+              },
+              {
+                "diplomatic": "178",
+                "doubtful": false,
+                "raw": "178",
+                "sign": "M178",
+                "unknown_span": false
+              },
+              {
+                "diplomatic": "254",
+                "doubtful": false,
+                "raw": "254",
+                "sign": "M254",
+                "unknown_span": false
+              },
+              {
+                "diplomatic": "099",
+                "doubtful": false,
+                "raw": "99",
+                "sign": "M099",
+                "unknown_span": false
+              },
+              {
+                "diplomatic": "163",
+                "doubtful": false,
+                "raw": "163",
+                "sign": "M163",
+                "unknown_span": false
+              }
+            ]
+          },
+          "native_object_presence": "present via documented locator",
+          "native_reference": "1051",
+          "new_native_M163_attestation_authenticated": false,
+          "new_physical_artifact_authenticated_by_this_audit": false,
+          "raw": {
+            "cisi": "M-40",
+            "complete": "Y",
+            "condition": "Fair",
+            "dir.": "R/L",
+            "excavation-idno": "HR 4945051",
+            "id": "2568.1",
+            "preservation": "complete",
+            "site": "Mohenjo-daro",
+            "text": "+391-002-527-475-005+",
+            "type": "SEAL:S"
+          },
+          "status": "old_native_target_documentary_join"
+        },
+        {
+          "candidate_target": "W391",
+          "identity_basis": "Marshall volumeII printed404/PDF55 row397 is VS3227. M77 Appendix printed818/PDF827 maps MIC397 to1397. Modern M1014 alias remains secondary.",
+          "is_extra_raw_candidate_beyond_five_native_target_references": false,
+          "limits": "Raw fragment, complete=?, and open text boundary agree with a need for caution; native field has LOSS and doubtfulM341. Cannot enter a complete-undoubted test.",
+          "modern_alias_separately_authenticated": false,
+          "native_export": {
+            "id": "GLI-IND-M77-01397",
+            "source_direction_code": "1",
+            "source_doc_count": 1,
+            "source_reference": "1397",
+            "strict_candidate": false,
+            "tokens": [
+              {
+                "diplomatic": "000",
+                "doubtful": false,
+                "raw": "0",
+                "sign": null,
+                "unknown_span": true
+              },
+              {
+                "diplomatic": "*341",
+                "doubtful": true,
+                "raw": "*341",
+                "sign": "M341",
+                "unknown_span": false
+              },
+              {
+                "diplomatic": "336",
+                "doubtful": false,
+                "raw": "336",
+                "sign": "M336",
+                "unknown_span": false
+              },
+              {
+                "diplomatic": "180",
+                "doubtful": false,
+                "raw": "180",
+                "sign": "M180",
+                "unknown_span": false
+              },
+              {
+                "diplomatic": "163",
+                "doubtful": false,
+                "raw": "163",
+                "sign": "M163",
+                "unknown_span": false
+              },
+              {
+                "diplomatic": "404",
+                "doubtful": false,
+                "raw": "404",
+                "sign": "M404",
+                "unknown_span": false
+              }
+            ]
+          },
+          "native_object_presence": "present via documented locator",
+          "native_reference": "1397",
+          "new_native_M163_attestation_authenticated": false,
+          "new_physical_artifact_authenticated_by_this_audit": false,
+          "raw": {
+            "cisi": "M-1014",
+            "complete": "?",
+            "condition": "Poor",
+            "dir.": "R/L",
+            "excavation-idno": "VS 3227397",
+            "id": "3399.1",
+            "preservation": "fragment",
+            "site": "Mohenjo-daro",
+            "text": "+842-391-297-705-717[",
+            "type": "SEAL:S"
+          },
+          "status": "old_native_target_documentary_join"
+        },
+        {
+          "candidate_target": "W391",
+          "identity_basis": "M1384 has no excavation identifier in raw row. Its shared tail does not join it to FEM119,2925,2923 or another tool. Preserve distinct source row without declaring distinct ancient artifact.",
+          "is_extra_raw_candidate_beyond_five_native_target_references": true,
+          "limits": "Raw typeTAG:L, complete=Y and poor condition are source labels; no primary object or original roof state authenticated.",
+          "modern_alias_separately_authenticated": false,
+          "native_object_presence": "unresolved; no global absence claim",
+          "native_reference": null,
+          "new_native_M163_attestation_authenticated": false,
+          "new_physical_artifact_authenticated_by_this_audit": false,
+          "raw": {
+            "cisi": "M-1384",
+            "complete": "Y",
+            "condition": "Poor",
+            "dir.": "R/L",
+            "excavation-idno": "-",
+            "id": "3680.1",
+            "preservation": "complete",
+            "site": "Mohenjo-daro",
+            "text": "+904-004-821-001-480-850-595-391+",
+            "type": "TAG:L"
+          },
+          "status": "unjoined_tag_candidate"
+        },
+        {
+          "candidate_target": "W391",
+          "identity_basis": "Raw DHR-24475 from Dholavira is an additional W-coded candidate outside the five identified nativeM163 target references. No native-M77 identity bridge or photograph assignment made here.",
+          "is_extra_raw_candidate_beyond_five_native_target_references": true,
+          "limits": "Primary image and object identity delegated to separate source review. A new candidate to this native-target selection is not an authenticated newM163 token or independently new physical object.",
+          "modern_alias_separately_authenticated": false,
+          "native_object_presence": "unresolved; no global absence claim",
+          "native_reference": null,
+          "new_native_M163_attestation_authenticated": false,
+          "new_physical_artifact_authenticated_by_this_audit": false,
+          "raw": {
+            "cisi": "-",
+            "complete": "Y",
+            "condition": "Poor",
+            "dir.": "R/L",
+            "excavation-idno": "DHR-24475",
+            "id": "4196.1",
+            "preservation": "complete",
+            "site": "Dholavira",
+            "text": "+391-002-365-550+",
+            "type": "SEAL:S"
+          },
+          "status": "external_source_candidate_pending_other_review"
+        },
+        {
+          "candidate_target": "W391",
+          "identity_basis": "Raw Ns-53 / NS91.02.17.01 from Nausharo is an additional W-coded candidate outside the five identified nativeM163 target references. No native-M77 identity bridge or photograph assignment made here.",
+          "is_extra_raw_candidate_beyond_five_native_target_references": true,
+          "limits": "Primary image and object identity delegated to separate source review. Do not infer discovery date, semantic novelty or physical independence merely from the identifier or site.",
+          "modern_alias_separately_authenticated": false,
+          "native_object_presence": "unresolved; no global absence claim",
+          "native_reference": null,
+          "new_native_M163_attestation_authenticated": false,
+          "new_physical_artifact_authenticated_by_this_audit": false,
+          "raw": {
+            "cisi": "Ns-53",
+            "complete": "Y",
+            "condition": "Poor",
+            "dir.": "R/L",
+            "excavation-idno": "NS 91.02.17.01",
+            "id": "5355.1",
+            "preservation": "complete",
+            "site": "Nausharo",
+            "text": "+861-111-391-060-692+",
+            "type": "SEAL:S"
+          },
+          "status": "external_source_candidate_pending_other_review"
+        }
+      ],
+      "corpus_edits": [],
+      "established_phonetic_values": 0,
+      "established_semantic_values": 0,
+      "evidence_files": [
+        {
+          "bytes": 1204921,
+          "path": "data/raw/lipi_inscriptions.csv",
+          "sha256": "b8dcb325a2e2cd3cde12ac12e7a418b0348e45713c9ee28aad81b645d2ac5ee4"
+        },
+        {
+          "bytes": 4109921,
+          "path": "data/processed/m77_candidate_records.jsonl",
+          "sha256": "b29a176da86b125115256a8966c377c3fd9fe39ecaab17bf576b770b83b41bab"
+        },
+        {
+          "bytes": 189902,
+          "path": "data/processed/catalogue_features.json",
+          "sha256": "00836515c6f3beec28b3b66e13d8a9c6e94571cfb2e9dbb4b148651b7ff0032d"
+        },
+        {
+          "bytes": 17250,
+          "path": "data/processed/arch_extension_catalogue_review.json",
+          "sha256": "1481dba2392ffb74fd841be5ccd44153c3837a5a7ce0bc10ebe8ea55628b4bae"
+        },
+        {
+          "bytes": 7045,
+          "path": "data/processed/bronze2923_identity_review.json",
+          "sha256": "52986586a1d77a2a1d4b7e8d767e812a76ae5b781eec0fa44ae6aa60cf65f21e"
+        },
+        {
+          "bytes": 14811,
+          "path": "data/processed/metal_original_records.json",
+          "sha256": "df2004bef9285e72688715006bb00d63984a446c488d80f394f464ff77ca5659"
+        },
+        {
+          "bytes": 10162,
+          "path": "data/processed/metal_plate_audit.json",
+          "sha256": "7c167f18878a3afd4aca22b4387b4790172fb5322db160a05b8256b8e3870b66"
+        },
+        {
+          "bytes": 119302608,
+          "path": "data/raw/mahadevan_1977_text.pdf",
+          "sha256": "6dcdd074a0174e5fab149590fbbf82342711d345764e9763f8e5e92c81cf7f99"
+        },
+        {
+          "bytes": 31508998,
+          "path": "data/raw/cisi_76884.pdf",
+          "sha256": "47a4da4227cfb7baa56d6a561e25797225499d0ec54f5a702a82c67ab4746d4d"
+        },
+        {
+          "bytes": 12167700,
+          "path": "data/raw/stone1471_marshall1931_volume2_text.pdf",
+          "sha256": "e58c4d95c9d7dbac29a3cb04d633d20618de71ab7cb58e7dcf035fb88ceb2ef3"
+        },
+        {
+          "bytes": 2331705,
+          "path": "data/raw/metal_original_mackay18225_djvu.txt",
+          "sha256": "511ee6deb3921bb33708a4a56166db5264687f5c16db0e16d8c55273a2a564c0"
+        },
+        {
+          "bytes": 1854822,
+          "path": "data/raw/metal_original_mackay_leaf511.jpg",
+          "sha256": "6c03c76f2a5bbf01fb655c385a2bd3409e1304a5d078b202f5236980bbaba7a3"
+        },
+        {
+          "bytes": 1715296,
+          "path": "results/primary_pages/chain-artifact-m77-827.png",
+          "sha256": "367e9c400b92bca24b6b75be9e9d205900c7380e645143fc352fecfdda21332c"
+        },
+        {
+          "bytes": 4604299,
+          "path": "results/primary_pages/roof-m092-artifact-m77-836.png",
+          "sha256": "8719cc879281dec52394c1f160d76ad90e05087b1a2d28e56f89fadf06e741d7"
+        },
+        {
+          "bytes": 4295867,
+          "path": "results/primary_pages/metal-kalibangan-data-410.png",
+          "sha256": "3c12cfe48545e52f176cae4a55a0699ce0a382e05ca6e020e5f51b76181cc399"
+        },
+        {
+          "bytes": 2682507,
+          "path": "results/primary_pages/comb-tablet-mic-53.png",
+          "sha256": "adb739fdb744c7b5b7b84fe615136216a159c59696b97a1e568fab9ec6baf921"
+        },
+        {
+          "bytes": 2093847,
+          "path": "results/primary_pages/roof-trident-marshall-55.png",
+          "sha256": "14fcb794176f7dee3352785a520f98fc06ec7ec4eaa7e8a6baf45eb31632f330"
+        },
+        {
+          "bytes": 1874862,
+          "path": "results/primary_pages/orientation-text-96.png",
+          "sha256": "e3e61f99dffde325843a4b9f0a736c6fa4be276a9a92d36af141a05e50856ced"
+        },
+        {
+          "bytes": 120688,
+          "path": "results/primary_pages/arch-extension-2925-detail.png",
+          "sha256": "7fe3b1ecef3d5565fe46d349601dc5ac87a51bee17b36fed4f7b728149a4f5c8"
+        },
+        {
+          "bytes": 518587,
+          "path": "results/primary_pages/metal-original-table-rows.png",
+          "sha256": "b304b6220fe2b62f68934752d245eda385c20397cfc06f7a9fe71435f0e42794"
+        },
+        {
+          "bytes": 386,
+          "path": "results/roof-trident-marshall_extraction.json",
+          "sha256": "44ec9a31c35b2c0913df674149f388a130b5ba533df9dc7db59d10053cdb455b"
+        },
+        {
+          "bytes": 11293,
+          "path": "scripts/audit_roof_trident_candidates.py",
+          "sha256": "1ed8ff68a72101e001e8cac38c1a8ef25a69f8af983d1c8acd7d6c60524ecb4e"
+        }
+      ],
+      "feature_candidate": {
+        "description": "Three pronged tree with caret hat",
+        "features": [],
+        "id": "P089",
+        "mahadevan_graphemes": [
+          "M163"
+        ],
+        "parpola_graphemes": [
+          "V084",
+          "V801"
+        ],
+        "source_path": "features/P089.json",
+        "wells_graphemes": [
+          "W391"
+        ]
+      },
+      "feature_scope": "P089 listsW391 andM163 as candidate cross-catalogue members; not a universal identity rule. W391 andM391 belong to different schemes.",
+      "native_M163_reference_set": [
+        "1051",
+        "1397",
+        "2119",
+        "2925",
+        "8054"
+      ],
+      "new_downloads": [],
+      "newness_definitions": {
+        "additional_candidate": "Five other W rows are extra candidates relative to that target set; one already maps to native2923 with LOSS, two historical joins remain unresolved, two external-source rows await separate review.",
+        "native_target_export": "Five selected target references already containM163. Four documentary joins and one qualified candidate account for their apparent W391 counterparts.",
+        "new_physical_artifact": "Not established for any candidate merely from source-row counts, shared/different text, or lack of native target mapping.",
+        "raw_source_row": "Ten existing raw W391 rows are enumerated; no new download or new raw record is created."
+      },
+      "raw_target_row_count": 10,
+      "schema_version": 1,
+      "scope": "Complete local rawW391 row enumeration and bounded identity/source-selection audit; no conversion or semantic assignment.",
+      "summary": {
+        "additional_external_source_candidates_pending_primary_review": 2,
+        "candidate_old_native_target_join": 1,
+        "documented_old_native_target_joins": 4,
+        "known_native_object_with_unrecoverable_target": 1,
+        "new_native_M163_attestations_authenticated": 0,
+        "new_physical_artifacts_authenticated_by_this_audit": 0,
+        "unjoined_historical_candidates": 2
+      }
+    },
+    {
+      "DHR24475": {
+        "M163_global_mapping_established": false,
+        "W391_local_graphic_comparison_only": true,
+        "all_secondary_token_ids_authenticated": false,
+        "apparent_inscription_groups": 4,
+        "damage": "surface abrasion and cracks; some strokes approach upper edge; photograph insufficient for complete stroke inventory",
+        "every_stroke_preserved": null,
+        "exact_primary_accession": "24475",
+        "image_type": "colour photograph of seal face, not drawing",
+        "location_in_displayed_photo": "rightmost upper inscription group",
+        "motif_metadata_conflict": "primary stage table Goat versus retained museum title unicorn; unresolved, not used for sign inference",
+        "museum_retained_record": {
+          "_citation": {
+            "authors_credited": [
+              "Ministry of Culture, Government of India — Museums of India Repository",
+              "C-DAC (Centre for Development of Advanced Computing) — portal operator"
+            ],
+            "derivation": "Acquired programmatically from the Museums of India Repository search API (https://museumsofindia.gov.in/repository/search/basic/fetch) using 23 Indus Valley / Harappan keyword search terms. Records represent metadata only (title, description, museum name, object type, image URLs). Images are not downloaded (CDN inaccessible externally). Acquired 2026-05-14 via backend/scripts/acquire_museums_of_india.py.",
+            "glossa_lab_version": "2026-05-14",
+            "license": "india-museum-restricted — see CITATIONS.md I.7",
+            "primary_sources": [
+              "I.7"
+            ],
+            "rights_gate": "NO ML training or redistribution without explicit per-record rights clearance. Use for discovery and metadata reconciliation only. Source URL: https://museumsofindia.gov.in/repository/",
+            "see_also": "CITATIONS.md section I.7",
+            "year_data": "2026"
+          },
+          "_source_extra": {
+            "description": "Seal depicting unicorn. Cracks visible on both the surface.",
+            "search_terms": [
+              "harappan",
+              "steatite",
+              "unicorn"
+            ],
+            "title": "Seal depicting unicorn"
+          },
+          "artifact_type": "unknown",
+          "canonical_grapheme_ids": [],
+          "crosswalk_coverage": 0.0,
+          "current_holding": "National Museum, New Delhi",
+          "glossa_id": "GLI-IND-MOI-000548",
+          "image_master_uri": "http://museumsofindia.gov.in:81/cdn/portal_record/[nat_del]/nat_del-DHR-24475-18639/nat_del-DHR-24475-18639_01_l.jpg",
+          "pipeline_stage": "normalized",
+          "quarantine_reason": null,
+          "review_state": "unreviewed",
+          "rights_status": "india-museum-restricted",
+          "sign_id_scheme": null,
+          "sign_instance_count": 0,
+          "site_name": null,
+          "source_object_id": "nat_del-DHR-24475-18639",
+          "source_system": "MuseumsOfIndia",
+          "text_code_diplomatic": null,
+          "text_code_diplomatic_normalized": null
+        },
+        "primary_exact_identity_authenticated": true,
+        "primary_reference": "Bisht2015p286entry119",
+        "reading_direction_independently_established": false,
+        "roof_over_forked_stem_visible": true,
+        "stage_table": {
+          "GSQ": "25x10x4",
+          "accession": "24475 NM",
+          "area": null,
+          "depth_3DR": "A=470cm; D=980cm",
+          "inscription": null,
+          "motif": "Goat",
+          "reference": "Bisht2015p247row8",
+          "stage": null,
+          "stratum": "6"
+        },
+        "whole_field_completeness_certified": false,
+        "whole_field_extent": "apparently retained between surviving margins; no obvious missing end segment"
+      },
+      "NausharoNs53": {
+        "outcome": "unresolved after bounded primary-source routes",
+        "photograph_recovered": false,
+        "primary_article": "Jarrige1996CRAI140(3)821–878 doi10.3406/crai.1996.15636; directPDF403",
+        "primary_exact_identity_authenticated": null,
+        "related_catalogue": "CISI3.2(2019)includesNausharo; fullscan not recovered",
+        "roof_over_forked_stem_visible": null,
+        "whole_field_completeness": null
+      },
+      "established_phonetic_values": 0,
+      "established_semantic_values": 0,
+      "limitations": [
+        "source-exposed local inspection, not held-out generalization",
+        "no meaning, phonetic value, chronology or productivity inferred",
+        "source complete labels not physical certification",
+        "museum metadata is retained API-derived record, not newly authenticated live museum photograph",
+        "initial error bodies and interrupted fullPDF partial buffer not retained"
+      ],
+      "pins": [
+        {
+          "bytes": 1000,
+          "path": "data/processed/roof_trident_new_crop_manifest.json",
+          "sha256": "fcfb8ef51ec479fb53ecedcdbf531573fae6b8ef4cfb18479241a992c5f4215e"
+        },
+        {
+          "bytes": 7033,
+          "path": "data/processed/roof_trident_new_download_attempts.json",
+          "sha256": "df927602d2f4ae0d637d1f0bde0bb0107f3e005887dd242f5e9abc4f29775640"
+        },
+        {
+          "bytes": 9295,
+          "path": "data/processed/roof_trident_new_new_sources.json",
+          "sha256": "4ab2701a4f1de8a6c70a9ac8b2f9c55404428b5d3f9ee6707b391431a6570602"
+        },
+        {
+          "bytes": 22391887,
+          "path": "data/raw/glossa_canonical_objects.jsonl",
+          "sha256": "e24f42a95ee4cc1fdb16c789c3edfb937993ed7c82223d6daa96d66895174ae5"
+        },
+        {
+          "bytes": 1204921,
+          "path": "data/raw/lipi_inscriptions.csv",
+          "sha256": "b8dcb325a2e2cd3cde12ac12e7a418b0348e45713c9ee28aad81b645d2ac5ee4"
+        },
+        {
+          "bytes": 598,
+          "path": "data/raw/roof_trident_new_archive_cisi32.json",
+          "sha256": "12c39f678a17866874e8eb2401f01685383fa950b87c8ecd225f9954dd652992"
+        },
+        {
+          "bytes": 2743,
+          "path": "data/raw/roof_trident_new_archive_dholavira.json",
+          "sha256": "d917888e0ac949646e97c5b60beae4354038737222258d27f6d2d9890e335062"
+        },
+        {
+          "bytes": 1125,
+          "path": "data/raw/roof_trident_new_cover_headers.txt",
+          "sha256": "d3b4a8afb95d9ffe3448301e8e65489ca3d8dcadbbdd6277759d159e07e2cd73"
+        },
+        {
+          "bytes": 207767,
+          "path": "data/raw/roof_trident_new_cover_response.bin",
+          "sha256": "42307d49d1775698203e902c89d188f5c6877681c655f92d4a9655e6a7d14c87"
+        },
+        {
+          "bytes": 7460,
+          "path": "data/raw/roof_trident_new_dholavira_archive_metadata.json",
+          "sha256": "813435b851ad758b841f403fb3de2a9f5720b6e5b0e629b78cfd46638492e0dd"
+        },
+        {
+          "bytes": 1438361,
+          "path": "data/raw/roof_trident_new_dholavira_djvu.txt",
+          "sha256": "b3ed31a132898da03c3389f26cd555344cae5311b66f97486f2d1f67c801aa6c"
+        },
+        {
+          "bytes": 189352,
+          "path": "data/raw/roof_trident_new_dholavira_page_numbers.json",
+          "sha256": "61a1a6f5a260a0ec0bfe493c9cd69ed3e03c4986bca93ac162230ac7a8b515da"
+        },
+        {
+          "bytes": 2192,
+          "path": "data/raw/roof_trident_new_dholavira_text_headers.txt",
+          "sha256": "f5ce56e3459ec6bfb54c27ec54cde9e05be4e4f0ffc3e0f4f48976410bf865c6"
+        },
+        {
+          "bytes": 514,
+          "path": "data/raw/roof_trident_new_museum_https_headers.txt",
+          "sha256": "b36b12e681f76f0cee17d7a0719178f2e8b8bdc3268bae4040924eb66abc50de"
+        },
+        {
+          "bytes": 282,
+          "path": "data/raw/roof_trident_new_museum_https_response.bin",
+          "sha256": "653be2b6ffc3202f304e82f7749bb81838f8ee80fce33135322bbaba582126c6"
+        },
+        {
+          "bytes": 0,
+          "path": "data/raw/roof_trident_new_museum_image_headers.txt",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "bytes": 2181,
+          "path": "data/raw/roof_trident_new_page_numbers_headers.txt",
+          "sha256": "2c8dfe7f76988faf34d8f91f658798db9d9dc7c5e6e41a31f33a85f8374f93e3"
+        },
+        {
+          "bytes": 4270,
+          "path": "data/raw/roof_trident_new_report_leaf263_headers.txt",
+          "sha256": "e80022ca078a356121236b1250ac91c5bca5cd06c545068fb054a75ed27cfdaa"
+        },
+        {
+          "bytes": 1643683,
+          "path": "data/raw/roof_trident_new_report_leaf263_response.bin",
+          "sha256": "120211db75ae3a9178841ca667c216d0d953db5b65c34833b9cb32537706247f"
+        },
+        {
+          "bytes": 4270,
+          "path": "data/raw/roof_trident_new_report_leaf302_headers.txt",
+          "sha256": "bed3e1fafde3e623196edeb36c1c222891331fab8f0ce2e01dd3fc83a83bdc31"
+        },
+        {
+          "bytes": 1233418,
+          "path": "data/raw/roof_trident_new_report_leaf302_response.bin",
+          "sha256": "1dd282a518949cf97938756d219aec78f86bc975182680f0c3a9ee9c2e5755a6"
+        },
+        {
+          "bytes": 155598,
+          "path": "data/raw/roof_trident_new_web_captures.json",
+          "sha256": "25f94adf160180d46a189b759fd1daf2f83939b7ba29af81bf28e1a8a968f268"
+        },
+        {
+          "bytes": 155869,
+          "path": "data/raw/roof_trident_new_web_captures_final.json",
+          "sha256": "7206f7cbcee54dbfeac8054c84ae9fb6452e45200dc8387e438714bb5c46f72b"
+        },
+        {
+          "bytes": 6026,
+          "path": "docs/ROOF_TRIDENT_NEW_ATTESTATIONS.md",
+          "sha256": "0e873721ed8fdaa72fbb4df7f471ae09c3cef25f5c862d6272cd73f5687b74eb"
+        },
+        {
+          "bytes": 1322482,
+          "path": "results/primary_pages/roof-trident-new-cover-1.png",
+          "sha256": "441217892a871f39298ec09246967e4bdb0e2149d808af009260be508eb63e25"
+        },
+        {
+          "bytes": 35534,
+          "path": "results/primary_pages/roof-trident-new-cover-2.png",
+          "sha256": "7f91cd17a92787683a104042944ab1007dff02d2dd6ec680d1a2c308d6d6264f"
+        },
+        {
+          "bytes": 1314159,
+          "path": "results/primary_pages/roof-trident-new-dhr24475-entry.png",
+          "sha256": "c365518be3af13d9bff7ba590358b4f5300daf1735e92212ef9b5d13fecbe2d1"
+        },
+        {
+          "bytes": 657905,
+          "path": "results/primary_pages/roof-trident-new-dhr24475-field.png",
+          "sha256": "7882d83c0f9831a87662a2c56a857b2c8a556101f3fcaa800b99d5be0e63e77c"
+        },
+        {
+          "bytes": 1107954,
+          "path": "results/primary_pages/roof-trident-new-dhr24475-photo.png",
+          "sha256": "c5753b5ec2040a3a9e3515da6a6d3582ed9b7fc27b7dd1d636383590d601daf9"
+        },
+        {
+          "bytes": 386,
+          "path": "results/roof-trident-new-cover_extraction.json",
+          "sha256": "23451af0c74675854bf1a06ecf1386c470401cd26194c802a5e18a1fc5b8d9bf"
+        },
+        {
+          "bytes": 3217,
+          "path": "scripts/download_roof_trident_new_sources.py",
+          "sha256": "bd3eb846328bb764af36c686bcfaf1f8cc08225466b94a54d4e548e05b889977"
+        },
+        {
+          "bytes": 7460,
+          "path": "scripts/persist_roof_trident_new_review.py",
+          "sha256": "336ebe1434e1e8e681954fb1d3dcb1c9ca334eb258413d0e8969de94ea88e3af"
+        },
+        {
+          "bytes": 986,
+          "path": "scripts/render_roof_trident_new_crops.py",
+          "sha256": "2698d59a26351e8ebb99a1cd299951bd035d3ff636f00eda23e9b6e36baea0fd"
+        }
+      ],
+      "scope": "bounded source-exposed primary photograph recovery, no corpus promotion",
+      "secondary_candidate_rows": [
+        {
+          "cisi": "-",
+          "complete": "Y",
+          "condition": "Poor",
+          "excavation-idno": "DHR-24475",
+          "id": "4196.1",
+          "preservation": "complete",
+          "site": "Dholavira",
+          "text": "+391-002-365-550+",
+          "type": "SEAL:S"
+        },
+        {
+          "cisi": "Ns-53",
+          "complete": "Y",
+          "condition": "Poor",
+          "excavation-idno": "NS 91.02.17.01",
+          "id": "5355.1",
+          "preservation": "complete",
+          "site": "Nausharo",
+          "text": "+861-111-391-060-692+",
+          "type": "SEAL:S"
+        }
+      ],
+      "source_attempts": [
+        {
+          "error": "HTTP Error 404: ",
+          "kind": "official_report_candidate",
+          "planned_path": "data/raw/roof_trident_new_dholavira_report_candidate.pdf",
+          "preservation_note": "Initial downloader recorded HTTP exception without reading response body.",
+          "response_body_retained": false,
+          "retrieved_utc": "2026-09-27T23:00:29.894363+00:00",
+          "url": "https://asi.nic.in/pdf/dholavira_excavation_report.pdf"
+        },
+        {
+          "error": "HTTP Error 403: 403",
+          "kind": "primary_excavator_article",
+          "planned_path": "data/raw/roof_trident_new_nausharo_jarrige1996.pdf",
+          "preservation_note": "Initial downloader recorded HTTP exception without reading response body.",
+          "response_body_retained": false,
+          "retrieved_utc": "2026-09-27T23:00:31.390976+00:00",
+          "url": "https://www.persee.fr/docAsPDF/crai_0065-0536_1996_num_140_3_15636.pdf"
+        },
+        {
+          "bytes": 2743,
+          "content_type": "application/json",
+          "kind": "archive_search_metadata",
+          "path": "data/raw/roof_trident_new_archive_dholavira.json",
+          "planned_path": "data/raw/roof_trident_new_archive_dholavira.json",
+          "resolved_url": "https://archive.org/advancedsearch.php?q=title%3A%28Dholavira%29&fl%5B%5D=identifier&fl%5B%5D=title&rows=50&output=json",
+          "retrieved_utc": "2026-09-27T23:00:32.436560+00:00",
+          "sha256": "d917888e0ac949646e97c5b60beae4354038737222258d27f6d2d9890e335062",
+          "status": 200,
+          "url": "https://archive.org/advancedsearch.php?q=title%3A%28Dholavira%29&fl%5B%5D=identifier&fl%5B%5D=title&rows=50&output=json"
+        },
+        {
+          "bytes": 7460,
+          "content_type": "application/json",
+          "kind": "archive_item_metadata",
+          "path": "data/raw/roof_trident_new_dholavira_archive_metadata.json",
+          "planned_path": "data/raw/roof_trident_new_dholavira_archive_metadata.json",
+          "resolved_url": "https://archive.org/metadata/dholavirareportpreliminaryjan2015_860_K",
+          "retrieved_utc": "2026-09-27T23:01:31.338380+00:00",
+          "sha256": "813435b851ad758b841f403fb3de2a9f5720b6e5b0e629b78cfd46638492e0dd",
+          "status": 200,
+          "url": "https://archive.org/metadata/dholavirareportpreliminaryjan2015_860_K"
+        },
+        {
+          "bytes": 598,
+          "content_type": "application/json",
+          "kind": "archive_search_metadata",
+          "path": "data/raw/roof_trident_new_archive_cisi32.json",
+          "planned_path": "data/raw/roof_trident_new_archive_cisi32.json",
+          "resolved_url": "https://archive.org/advancedsearch.php?q=title%3A%28Corpus+Indus+Seals%29&fl%5B%5D=identifier&fl%5B%5D=title&rows=50&output=json",
+          "retrieved_utc": "2026-09-27T23:01:47.486725+00:00",
+          "sha256": "12c39f678a17866874e8eb2401f01685383fa950b87c8ecd225f9954dd652992",
+          "status": 200,
+          "url": "https://archive.org/advancedsearch.php?q=title%3A%28Corpus+Indus+Seals%29&fl%5B%5D=identifier&fl%5B%5D=title&rows=50&output=json"
+        },
+        {
+          "error": "HTTP Error 500: Internal Server Error",
+          "kind": "third_party_archive_copy_of_primary_report_pending_visual_authentication",
+          "planned_path": "data/raw/roof_trident_new_dholavira_2015.pdf",
+          "preservation_note": "Initial downloader recorded HTTP exception without reading response body.",
+          "response_body_retained": false,
+          "retrieved_utc": "2026-09-27T23:02:21.239741+00:00",
+          "url": "https://archive.org/download/dholavirareportpreliminaryjan2015_860_K/Dholavira%20Report%20%28preliminary%2C%20Jan%202015%29.pdf"
+        },
+        {
+          "error": "KeyboardInterrupt during response.read(); command exited130",
+          "kind": "interrupted_full_pdf_transfer",
+          "preservation_note": "Initial downloader recorded HTTP exception without reading response body.",
+          "response_body_retained": false,
+          "url": "https://ia801906.us.archive.org/19/items/dholavirareportpreliminaryjan2015_860_K/Dholavira%20Report%20%28preliminary%2C%20Jan%202015%29.pdf"
+        },
+        {
+          "bytes": 1438361,
+          "headers": "data/raw/roof_trident_new_dholavira_text_headers.txt",
+          "kind": "archive_generated_ocr_text_navigation_only",
+          "path": "data/raw/roof_trident_new_dholavira_djvu.txt",
+          "sha256": "b3ed31a132898da03c3389f26cd555344cae5311b66f97486f2d1f67c801aa6c",
+          "status": 200,
+          "url": "https://ia801906.us.archive.org/19/items/dholavirareportpreliminaryjan2015_860_K/Dholavira%20Report%20%28preliminary%2C%20Jan%202015%29_djvu.txt"
+        },
+        {
+          "bytes": 189352,
+          "headers": "data/raw/roof_trident_new_page_numbers_headers.txt",
+          "kind": "archive_generated_page_index",
+          "path": "data/raw/roof_trident_new_dholavira_page_numbers.json",
+          "sha256": "61a1a6f5a260a0ec0bfe493c9cd69ed3e03c4986bca93ac162230ac7a8b515da",
+          "status": 200,
+          "url": "https://ia801906.us.archive.org/19/items/dholavirareportpreliminaryjan2015_860_K/Dholavira%20Report%20%28preliminary%2C%20Jan%202015%29_page_numbers.json"
+        },
+        {
+          "error": "curl28 connection timeout45002ms; zero response body",
+          "headers": "data/raw/roof_trident_new_museum_image_headers.txt",
+          "kind": "official_museum_image_attempt",
+          "preservation_note": "Initial downloader recorded HTTP exception without reading response body.",
+          "response_body_retained": false,
+          "url": "http://museumsofindia.gov.in:81/cdn/portal_record/%5Bnat_del%5D/nat_del-DHR-24475-18639/nat_del-DHR-24475-18639_01_l.jpg"
+        },
+        {
+          "bytes": 282,
+          "headers": "data/raw/roof_trident_new_museum_https_headers.txt",
+          "kind": "http404_html_response_not_image",
+          "path": "data/raw/roof_trident_new_museum_https_response.bin",
+          "sha256": "653be2b6ffc3202f304e82f7749bb81838f8ee80fce33135322bbaba582126c6",
+          "status": 404,
+          "url": "https://museumsofindia.gov.in/cdn/portal_record/%5Bnat_del%5D/nat_del-DHR-24475-18639/nat_del-DHR-24475-18639_01_l.jpg"
+        },
+        {
+          "bytes": 1233418,
+          "entry": 119,
+          "headers": "data/raw/roof_trident_new_report_leaf302_headers.txt",
+          "kind": "archived_primary_report_page_image_with_original_artifact_photograph",
+          "path": "data/raw/roof_trident_new_report_leaf302_response.bin",
+          "printed_page": 286,
+          "sha256": "1dd282a518949cf97938756d219aec78f86bc975182680f0c3a9ee9c2e5755a6",
+          "status": 200,
+          "url": "https://archive.org/download/dholavirareportpreliminaryjan2015_860_K/page/n302.jpg"
+        },
+        {
+          "bytes": 1643683,
+          "entry": 8,
+          "headers": "data/raw/roof_trident_new_report_leaf263_headers.txt",
+          "kind": "archived_primary_report_table_page_image",
+          "path": "data/raw/roof_trident_new_report_leaf263_response.bin",
+          "printed_page": 247,
+          "sha256": "120211db75ae3a9178841ca667c216d0d953db5b65c34833b9cb32537706247f",
+          "status": 200,
+          "url": "https://archive.org/download/dholavirareportpreliminaryjan2015_860_K/page/n263.jpg"
+        },
+        {
+          "bytes": 207767,
+          "headers": "data/raw/roof_trident_new_cover_headers.txt",
+          "kind": "official_primary_report_cover_pdf_two_pages_not_full_report",
+          "path": "data/raw/roof_trident_new_cover_response.bin",
+          "sha256": "42307d49d1775698203e902c89d188f5c6877681c655f92d4a9655e6a7d14c87",
+          "status": 200,
+          "url": "https://asi.nic.in/pdf/dholavira_excavation_report_cover.pdf"
+        }
+      ]
+    }
+  ],
+  "scope": "Source coverage and explicit local comparisons; integrity checks do not independently establish visual readings."
+}

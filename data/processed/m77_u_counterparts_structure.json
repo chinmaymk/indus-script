@@ -1,0 +1,2386 @@
+{
+  "schema_version": 1,
+  "status": "complete bounded primary visual review",
+  "scope": "Exactly the 76 references in counterpart protocol partitions.structure. No selected exact stroke+M328 field transcribed here.",
+  "protocol": {
+    "path": "data/processed/m77_u_counterpart_protocol.json",
+    "sha256": "0cc13376618ea9b06ad9bd858dcaf8193e7bf0e6e8d6a193c5a66838b833ee45"
+  },
+  "primary_source": {
+    "path": "data/raw/mahadevan_1977_text.pdf",
+    "sha256": "6dcdd074a0174e5fab149590fbbf82342711d345764e9763f8e5e92c81cf7f99"
+  },
+  "sign_inventory_evidence": [
+    {
+      "path": "results/primary_pages/sign_list_page_32.png",
+      "sha256": "1e3f91789c947add7ce796479168d84d69636ebdc378493743188ac11c53c90a"
+    },
+    {
+      "path": "results/primary_pages/sign_list-044.png",
+      "sha256": "33eff554bfdea81af6d1a3510a5b2541d1b74b02ae1e63b253c725b44c7c0b64"
+    },
+    {
+      "path": "results/primary_pages/sign_list-045.png",
+      "sha256": "972002b288ea77921dcacfe67386dbf585b76be6bca5444b7ff9422e47e70b89"
+    },
+    {
+      "path": "results/primary_pages/sign_list-046.png",
+      "sha256": "a191e9297a6ab8b7cad1028eaeac062b4b6fa3cd34aefbdd507f669d736d2e8e"
+    }
+  ],
+  "normalization": "Tokens in printed normalized right-to-left order, each physical/catalogue side and line separate. UNKNOWN is an inspected visible unresolved glyph; LOSS is a positive damaged span of unknown length, not a sign. Asterisk is printed source doubt, not reviewer uncertainty. full_sequence_primary_checked means the entire printed line was inspected, not that every token is certain. all_counterpart_lines_accounted_for means all printed text and symbol-only entries for this reference are represented, not that lost text is reconstructed.",
+  "records": [
+    {
+      "reference": "4314",
+      "all_counterpart_lines_accounted_for": true,
+      "counterpart_lines": [
+        {
+          "side": "1",
+          "line": "0",
+          "tokens": [
+            "M267",
+            "M099",
+            "M067",
+            "M294",
+            "M342"
+          ],
+          "full_sequence_primary_checked": true,
+          "pdf_page": 117,
+          "printed_page": 106,
+          "printed_metadata_code": "210001",
+          "evidence_path": "results/primary_pages/structure-counterpart-117.jpg",
+          "evidence": {
+            "path": "results/primary_pages/structure-counterpart-117.jpg",
+            "sha256": "e6ae0025f20c4711060ee3f465c6b8efa1e21d0721165a0a905c84cc1c3c84ae"
+          },
+          "notes": "Printed normalized RTL order; actual direction is not inferred from normalization."
+        }
+      ],
+      "symbol_only_entries": [],
+      "notes": "All Texts entries inspected through the next reference; selected side 2 line 0 field excluded."
+    },
+    {
+      "reference": "4324",
+      "all_counterpart_lines_accounted_for": true,
+      "counterpart_lines": [
+        {
+          "side": "1",
+          "line": "0",
+          "tokens": [
+            "M059",
+            "M059",
+            "M155",
+            "M211"
+          ],
+          "full_sequence_primary_checked": true,
+          "pdf_page": 118,
+          "printed_page": 107,
+          "printed_metadata_code": "210001",
+          "evidence_path": "results/primary_pages/structure-counterpart-118.jpg",
+          "evidence": {
+            "path": "results/primary_pages/structure-counterpart-118.jpg",
+            "sha256": "ca1bcb0a9628198f7a87ed08bc4cddd535f1af6d1e935ff49b082134045eb1cf"
+          },
+          "notes": "Printed normalized RTL order; actual direction is not inferred from normalization."
+        }
+      ],
+      "symbol_only_entries": [],
+      "notes": "All Texts entries inspected through the next reference; selected side 2 line 0 field excluded."
+    },
+    {
+      "reference": "4342",
+      "all_counterpart_lines_accounted_for": true,
+      "counterpart_lines": [
+        {
+          "side": "1",
+          "line": "0",
+          "tokens": [
+            "M065",
+            "M008",
+            "M342",
+            "M176"
+          ],
+          "full_sequence_primary_checked": true,
+          "pdf_page": 119,
+          "printed_page": 108,
+          "printed_metadata_code": "210001",
+          "evidence_path": "results/primary_pages/structure-counterpart-119.jpg",
+          "evidence": {
+            "path": "results/primary_pages/structure-counterpart-119.jpg",
+            "sha256": "b9fe13fc2c652333d82d38e7e5d7c2fcdcd2240e499d2ef87166831e053a10d9"
+          },
+          "notes": "Printed normalized RTL order; actual direction is not inferred from normalization."
+        }
+      ],
+      "symbol_only_entries": [
+        {
+          "side": "3",
+          "line": "9",
+          "field_symbol_code": "04",
+          "printed_metadata_code": "30490",
+          "pdf_page": 119,
+          "printed_page": 108,
+          "evidence_path": "results/primary_pages/structure-counterpart-119.jpg",
+          "evidence": {
+            "path": "results/primary_pages/structure-counterpart-119.jpg",
+            "sha256": "b9fe13fc2c652333d82d38e7e5d7c2fcdcd2240e499d2ef87166831e053a10d9"
+          },
+          "notes": "Metadata-only field-symbol entry; no text glyph string printed."
+        }
+      ],
+      "notes": "All Texts entries inspected through the next reference; selected side 2 line 0 field excluded."
+    },
+    {
+      "reference": "4345",
+      "all_counterpart_lines_accounted_for": true,
+      "counterpart_lines": [
+        {
+          "side": "1",
+          "line": "0",
+          "tokens": [
+            "M242",
+            "M336",
+            "M056",
+            "M067",
+            "M244",
+            "M342"
+          ],
+          "full_sequence_primary_checked": true,
+          "pdf_page": 119,
+          "printed_page": 108,
+          "printed_metadata_code": "210001",
+          "evidence_path": "results/primary_pages/structure-counterpart-119.jpg",
+          "evidence": {
+            "path": "results/primary_pages/structure-counterpart-119.jpg",
+            "sha256": "b9fe13fc2c652333d82d38e7e5d7c2fcdcd2240e499d2ef87166831e053a10d9"
+          },
+          "notes": "Printed normalized RTL order; actual direction is not inferred from normalization. C-shaped insect has outward limbs at upper and lower ends, numbered056; not the zigzag395. High-resolution primary recheck follows candidate discrepancy flag."
+        }
+      ],
+      "symbol_only_entries": [],
+      "notes": "All Texts entries inspected through the next reference; selected side 2 line 0 field excluded."
+    },
+    {
+      "reference": "4346",
+      "all_counterpart_lines_accounted_for": true,
+      "counterpart_lines": [
+        {
+          "side": "1",
+          "line": "0",
+          "tokens": [
+            "M150",
+            "M123",
+            "M067",
+            "M244",
+            "M342"
+          ],
+          "full_sequence_primary_checked": true,
+          "pdf_page": 119,
+          "printed_page": 108,
+          "printed_metadata_code": "210001",
+          "evidence_path": "results/primary_pages/structure-counterpart-119.jpg",
+          "evidence": {
+            "path": "results/primary_pages/structure-counterpart-119.jpg",
+            "sha256": "b9fe13fc2c652333d82d38e7e5d7c2fcdcd2240e499d2ef87166831e053a10d9"
+          },
+          "notes": "Printed normalized RTL order; actual direction is not inferred from normalization."
+        }
+      ],
+      "symbol_only_entries": [],
+      "notes": "All Texts entries inspected through the next reference; selected side 2 line 0 field excluded."
+    },
+    {
+      "reference": "4348",
+      "all_counterpart_lines_accounted_for": true,
+      "counterpart_lines": [
+        {
+          "side": "1",
+          "line": "0",
+          "tokens": [
+            "M121",
+            "M051",
+            "M130",
+            "M149",
+            "M342",
+            "M176"
+          ],
+          "full_sequence_primary_checked": true,
+          "pdf_page": 119,
+          "printed_page": 108,
+          "printed_metadata_code": "210001",
+          "evidence_path": "results/primary_pages/structure-counterpart-119.jpg",
+          "evidence": {
+            "path": "results/primary_pages/structure-counterpart-119.jpg",
+            "sha256": "b9fe13fc2c652333d82d38e7e5d7c2fcdcd2240e499d2ef87166831e053a10d9"
+          },
+          "notes": "Printed normalized RTL order; actual direction is not inferred from normalization."
+        }
+      ],
+      "symbol_only_entries": [],
+      "notes": "All Texts entries inspected through the next reference; selected side 2 line 0 field excluded."
+    },
+    {
+      "reference": "4350",
+      "all_counterpart_lines_accounted_for": true,
+      "counterpart_lines": [
+        {
+          "side": "1",
+          "line": "0",
+          "tokens": [
+            "M340",
+            "M094",
+            "M343",
+            "M389",
+            "M342"
+          ],
+          "full_sequence_primary_checked": true,
+          "pdf_page": 119,
+          "printed_page": 108,
+          "printed_metadata_code": "210001",
+          "evidence_path": "results/primary_pages/structure-counterpart-119.jpg",
+          "evidence": {
+            "path": "results/primary_pages/structure-counterpart-119.jpg",
+            "sha256": "b9fe13fc2c652333d82d38e7e5d7c2fcdcd2240e499d2ef87166831e053a10d9"
+          },
+          "notes": "Printed normalized RTL order; actual direction is not inferred from normalization."
+        }
+      ],
+      "symbol_only_entries": [],
+      "notes": "All Texts entries inspected through the next reference; selected side 2 line 0 field excluded."
+    },
+    {
+      "reference": "4352",
+      "all_counterpart_lines_accounted_for": true,
+      "counterpart_lines": [
+        {
+          "side": "1",
+          "line": "0",
+          "tokens": [
+            "M053",
+            "M171",
+            "M059",
+            "M342",
+            "M176"
+          ],
+          "full_sequence_primary_checked": true,
+          "pdf_page": 119,
+          "printed_page": 108,
+          "printed_metadata_code": "210001",
+          "evidence_path": "results/primary_pages/structure-counterpart-119.jpg",
+          "evidence": {
+            "path": "results/primary_pages/structure-counterpart-119.jpg",
+            "sha256": "b9fe13fc2c652333d82d38e7e5d7c2fcdcd2240e499d2ef87166831e053a10d9"
+          },
+          "notes": "Printed normalized RTL order; actual direction is not inferred from normalization."
+        }
+      ],
+      "symbol_only_entries": [],
+      "notes": "All Texts entries inspected through the next reference; selected side 2 line 0 field excluded."
+    },
+    {
+      "reference": "4353",
+      "all_counterpart_lines_accounted_for": true,
+      "counterpart_lines": [
+        {
+          "side": "1",
+          "line": "0",
+          "tokens": [
+            "M173",
+            "M403",
+            "M012"
+          ],
+          "full_sequence_primary_checked": true,
+          "pdf_page": 120,
+          "printed_page": 109,
+          "printed_metadata_code": "210001",
+          "evidence_path": "results/primary_pages/structure-counterpart-120.jpg",
+          "evidence": {
+            "path": "results/primary_pages/structure-counterpart-120.jpg",
+            "sha256": "5b0e26ad06306a0f2ebde107555fcd3d9f1c4ada7a3f1a8db5417d20629b6f77"
+          },
+          "notes": "Printed normalized RTL order; actual direction is not inferred from normalization. Plain-headed carrying-person assigned M012 after close primary inspection. Morphology explanation corrected: the numbered M012 has no detached stroke between the legs; M013 adds that detached stroke. M014 has a triangular head. The earlier note reversed the M012/M013 inner-leg distinction; token assignment is unchanged."
+        }
+      ],
+      "symbol_only_entries": [],
+      "notes": "All Texts entries inspected through the next reference; selected side 2 line 0 field excluded."
+    },
+    {
+      "reference": "4357",
+      "all_counterpart_lines_accounted_for": true,
+      "counterpart_lines": [
+        {
+          "side": "1",
+          "line": "0",
+          "tokens": [
+            "M042",
+            "M015",
+            "M176"
+          ],
+          "full_sequence_primary_checked": true,
+          "pdf_page": 120,
+          "printed_page": 109,
+          "printed_metadata_code": "210001",
+          "evidence_path": "results/primary_pages/structure-counterpart-120.jpg",
+          "evidence": {
+            "path": "results/primary_pages/structure-counterpart-120.jpg",
+            "sha256": "5b0e26ad06306a0f2ebde107555fcd3d9f1c4ada7a3f1a8db5417d20629b6f77"
+          },
+          "notes": "Printed normalized RTL order; actual direction is not inferred from normalization. First glyph has weights/balls at the feet (042), next carrying person has paired head bars (015). Higher-resolution image resolves initial reviewer uncertainty."
+        }
+      ],
+      "symbol_only_entries": [],
+      "notes": "All Texts entries inspected through the next reference; selected side 2 line 0 field excluded."
+    },
+    {
+      "reference": "4358",
+      "all_counterpart_lines_accounted_for": true,
+      "counterpart_lines": [
+        {
+          "side": "1",
+          "line": "0",
+          "tokens": [
+            "M387",
+            "M065",
+            "M072",
+            "M336",
+            "M089",
+            "M342",
+            "M176"
+          ],
+          "full_sequence_primary_checked": true,
+          "pdf_page": 120,
+          "printed_page": 109,
+          "printed_metadata_code": "210001",
+          "evidence_path": "results/primary_pages/structure-counterpart-120.jpg",
+          "evidence": {
+            "path": "results/primary_pages/structure-counterpart-120.jpg",
+            "sha256": "5b0e26ad06306a0f2ebde107555fcd3d9f1c4ada7a3f1a8db5417d20629b6f77"
+          },
+          "notes": "Printed normalized RTL order; actual direction is not inferred from normalization."
+        }
+      ],
+      "symbol_only_entries": [],
+      "notes": "All Texts entries inspected through the next reference; selected side 2 line 0 field excluded."
+    },
+    {
+      "reference": "4359",
+      "all_counterpart_lines_accounted_for": true,
+      "counterpart_lines": [
+        {
+          "side": "1",
+          "line": "0",
+          "tokens": [
+            "M272",
+            "M402"
+          ],
+          "full_sequence_primary_checked": true,
+          "pdf_page": 120,
+          "printed_page": 109,
+          "printed_metadata_code": "210001",
+          "evidence_path": "results/primary_pages/structure-counterpart-120.jpg",
+          "evidence": {
+            "path": "results/primary_pages/structure-counterpart-120.jpg",
+            "sha256": "5b0e26ad06306a0f2ebde107555fcd3d9f1c4ada7a3f1a8db5417d20629b6f77"
+          },
+          "notes": "Printed normalized RTL order; actual direction is not inferred from normalization. Primary recheck corrects prior pilot context M178 to M402; see correction ledger."
+        }
+      ],
+      "symbol_only_entries": [],
+      "notes": "All Texts entries inspected through the next reference; selected side 2 line 0 field excluded."
+    },
+    {
+      "reference": "4360",
+      "all_counterpart_lines_accounted_for": true,
+      "counterpart_lines": [
+        {
+          "side": "1",
+          "line": "0",
+          "tokens": [
+            "M072",
+            "M216",
+            "M254"
+          ],
+          "full_sequence_primary_checked": true,
+          "pdf_page": 120,
+          "printed_page": 109,
+          "printed_metadata_code": "210001",
+          "evidence_path": "results/primary_pages/structure-counterpart-120.jpg",
+          "evidence": {
+            "path": "results/primary_pages/structure-counterpart-120.jpg",
+            "sha256": "5b0e26ad06306a0f2ebde107555fcd3d9f1c4ada7a3f1a8db5417d20629b6f77"
+          },
+          "notes": "Printed normalized RTL order; actual direction is not inferred from normalization."
+        }
+      ],
+      "symbol_only_entries": [],
+      "notes": "All Texts entries inspected through the next reference; selected side 2 line 0 field excluded."
+    },
+    {
+      "reference": "4361",
+      "all_counterpart_lines_accounted_for": true,
+      "counterpart_lines": [
+        {
+          "side": "1",
+          "line": "0",
+          "tokens": [
+            "M124",
+            "M025",
+            "M176",
+            "M342"
+          ],
+          "full_sequence_primary_checked": true,
+          "pdf_page": 120,
+          "printed_page": 109,
+          "printed_metadata_code": "210001",
+          "evidence_path": "results/primary_pages/structure-counterpart-120.jpg",
+          "evidence": {
+            "path": "results/primary_pages/structure-counterpart-120.jpg",
+            "sha256": "5b0e26ad06306a0f2ebde107555fcd3d9f1c4ada7a3f1a8db5417d20629b6f77"
+          },
+          "notes": "Printed normalized RTL order; actual direction is not inferred from normalization."
+        }
+      ],
+      "symbol_only_entries": [],
+      "notes": "All Texts entries inspected through the next reference; selected side 2 line 0 field excluded."
+    },
+    {
+      "reference": "4364",
+      "all_counterpart_lines_accounted_for": true,
+      "counterpart_lines": [
+        {
+          "side": "1",
+          "line": "0",
+          "tokens": [
+            "M007"
+          ],
+          "full_sequence_primary_checked": true,
+          "pdf_page": 120,
+          "printed_page": 109,
+          "printed_metadata_code": "210003",
+          "evidence_path": "results/primary_pages/structure-counterpart-120.jpg",
+          "evidence": {
+            "path": "results/primary_pages/structure-counterpart-120.jpg",
+            "sha256": "5b0e26ad06306a0f2ebde107555fcd3d9f1c4ada7a3f1a8db5417d20629b6f77"
+          },
+          "notes": "Printed normalized RTL order; actual direction is not inferred from normalization."
+        }
+      ],
+      "symbol_only_entries": [],
+      "notes": "All Texts entries inspected through the next reference; selected side 2 line 0 field excluded."
+    },
+    {
+      "reference": "4368",
+      "all_counterpart_lines_accounted_for": true,
+      "counterpart_lines": [
+        {
+          "side": "1",
+          "line": "0",
+          "tokens": [
+            "M153",
+            "M153",
+            "M048",
+            "M342",
+            "M176"
+          ],
+          "full_sequence_primary_checked": true,
+          "pdf_page": 120,
+          "printed_page": 109,
+          "printed_metadata_code": "219102",
+          "evidence_path": "results/primary_pages/structure-counterpart-120.jpg",
+          "evidence": {
+            "path": "results/primary_pages/structure-counterpart-120.jpg",
+            "sha256": "5b0e26ad06306a0f2ebde107555fcd3d9f1c4ada7a3f1a8db5417d20629b6f77"
+          },
+          "notes": "Printed normalized RTL order; actual direction is not inferred from normalization."
+        }
+      ],
+      "symbol_only_entries": [],
+      "notes": "All Texts entries inspected through the next reference; selected side 2 line 0 field excluded."
+    },
+    {
+      "reference": "4369",
+      "all_counterpart_lines_accounted_for": true,
+      "counterpart_lines": [
+        {
+          "side": "1",
+          "line": "0",
+          "tokens": [
+            "M114",
+            "M193",
+            "M342",
+            "M176"
+          ],
+          "full_sequence_primary_checked": true,
+          "pdf_page": 120,
+          "printed_page": 109,
+          "printed_metadata_code": "219101",
+          "evidence_path": "results/primary_pages/structure-counterpart-120.jpg",
+          "evidence": {
+            "path": "results/primary_pages/structure-counterpart-120.jpg",
+            "sha256": "5b0e26ad06306a0f2ebde107555fcd3d9f1c4ada7a3f1a8db5417d20629b6f77"
+          },
+          "notes": "Printed normalized RTL order; actual direction is not inferred from normalization."
+        }
+      ],
+      "symbol_only_entries": [],
+      "notes": "All Texts entries inspected through the next reference; selected side 2 line 0 field excluded."
+    },
+    {
+      "reference": "4370",
+      "all_counterpart_lines_accounted_for": true,
+      "counterpart_lines": [
+        {
+          "side": "1",
+          "line": "0",
+          "tokens": [
+            "M391",
+            "M099",
+            "M226",
+            "M254"
+          ],
+          "full_sequence_primary_checked": true,
+          "pdf_page": 120,
+          "printed_page": 109,
+          "printed_metadata_code": "210001",
+          "evidence_path": "results/primary_pages/structure-counterpart-120.jpg",
+          "evidence": {
+            "path": "results/primary_pages/structure-counterpart-120.jpg",
+            "sha256": "5b0e26ad06306a0f2ebde107555fcd3d9f1c4ada7a3f1a8db5417d20629b6f77"
+          },
+          "notes": "Printed normalized RTL order; actual direction is not inferred from normalization. Primary recheck corrects prior pilot M216 to M226; see correction ledger."
+        }
+      ],
+      "symbol_only_entries": [],
+      "notes": "All Texts entries inspected through the next reference; selected side 2 line 0 field excluded."
+    },
+    {
+      "reference": "4371",
+      "all_counterpart_lines_accounted_for": true,
+      "counterpart_lines": [
+        {
+          "side": "1",
+          "line": "0",
+          "tokens": [
+            "M053",
+            "M067",
+            "M072",
+            "M182",
+            "M293",
+            "M342",
+            "M176"
+          ],
+          "full_sequence_primary_checked": true,
+          "pdf_page": 121,
+          "printed_page": 110,
+          "printed_metadata_code": "210001",
+          "evidence_path": "results/primary_pages/m77-u-types-numerals-121.jpg",
+          "evidence": {
+            "path": "results/primary_pages/m77-u-types-numerals-121.jpg",
+            "sha256": "cc289a30eb0010c1070c0a164f850400d321e4222091ccdbbb13e3db5068d447"
+          },
+          "notes": "Printed normalized RTL order; actual direction is not inferred from normalization."
+        }
+      ],
+      "symbol_only_entries": [],
+      "notes": "All Texts entries inspected through the next reference; selected side 2 line 0 field excluded."
+    },
+    {
+      "reference": "4373",
+      "all_counterpart_lines_accounted_for": true,
+      "counterpart_lines": [
+        {
+          "side": "1",
+          "line": "0",
+          "tokens": [
+            "M067",
+            "M072",
+            "M342",
+            "M388",
+            "M176"
+          ],
+          "full_sequence_primary_checked": true,
+          "pdf_page": 121,
+          "printed_page": 110,
+          "printed_metadata_code": "210001",
+          "evidence_path": "results/primary_pages/m77-u-types-numerals-121.jpg",
+          "evidence": {
+            "path": "results/primary_pages/m77-u-types-numerals-121.jpg",
+            "sha256": "cc289a30eb0010c1070c0a164f850400d321e4222091ccdbbb13e3db5068d447"
+          },
+          "notes": "Printed normalized RTL order; actual direction is not inferred from normalization. Oval psi with four external corner strokes is388. Draft398 was a transcription/mapping error, corrected against numbered list."
+        }
+      ],
+      "symbol_only_entries": [],
+      "notes": "All Texts entries inspected through the next reference; selected side 2 line 0 field excluded."
+    },
+    {
+      "reference": "4374",
+      "all_counterpart_lines_accounted_for": true,
+      "counterpart_lines": [
+        {
+          "side": "1",
+          "line": "0",
+          "tokens": [
+            "M072",
+            "M211"
+          ],
+          "full_sequence_primary_checked": true,
+          "pdf_page": 121,
+          "printed_page": 110,
+          "printed_metadata_code": "210001",
+          "evidence_path": "results/primary_pages/m77-u-types-numerals-121.jpg",
+          "evidence": {
+            "path": "results/primary_pages/m77-u-types-numerals-121.jpg",
+            "sha256": "cc289a30eb0010c1070c0a164f850400d321e4222091ccdbbb13e3db5068d447"
+          },
+          "notes": "Printed normalized RTL order; actual direction is not inferred from normalization."
+        }
+      ],
+      "symbol_only_entries": [],
+      "notes": "All Texts entries inspected through the next reference; selected side 2 line 0 field excluded."
+    },
+    {
+      "reference": "4375",
+      "all_counterpart_lines_accounted_for": true,
+      "counterpart_lines": [
+        {
+          "side": "1",
+          "line": "0",
+          "tokens": [
+            "M267",
+            "M099",
+            "*M051",
+            "*M245",
+            "M342"
+          ],
+          "full_sequence_primary_checked": true,
+          "pdf_page": 121,
+          "printed_page": 110,
+          "printed_metadata_code": "210001",
+          "evidence_path": "results/primary_pages/m77-u-types-numerals-121.jpg",
+          "evidence": {
+            "path": "results/primary_pages/m77-u-types-numerals-121.jpg",
+            "sha256": "cc289a30eb0010c1070c0a164f850400d321e4222091ccdbbb13e3db5068d447"
+          },
+          "notes": "Printed normalized RTL order; actual direction is not inferred from normalization."
+        }
+      ],
+      "symbol_only_entries": [],
+      "notes": "All Texts entries inspected through the next reference; selected side 2 line 0 field excluded."
+    },
+    {
+      "reference": "4376",
+      "all_counterpart_lines_accounted_for": true,
+      "counterpart_lines": [
+        {
+          "side": "1",
+          "line": "0",
+          "tokens": [
+            "*M114",
+            "M193",
+            "M342",
+            "M098"
+          ],
+          "full_sequence_primary_checked": true,
+          "pdf_page": 121,
+          "printed_page": 110,
+          "printed_metadata_code": "219102",
+          "evidence_path": "results/primary_pages/m77-u-types-numerals-121.jpg",
+          "evidence": {
+            "path": "results/primary_pages/m77-u-types-numerals-121.jpg",
+            "sha256": "cc289a30eb0010c1070c0a164f850400d321e4222091ccdbbb13e3db5068d447"
+          },
+          "notes": "Printed normalized RTL order; actual direction is not inferred from normalization. Short vertical at left is in the lower register,098; source asterisk attaches to first token114."
+        }
+      ],
+      "symbol_only_entries": [],
+      "notes": "All Texts entries inspected through the next reference; selected side 2 line 0 field excluded."
+    },
+    {
+      "reference": "4378",
+      "all_counterpart_lines_accounted_for": true,
+      "counterpart_lines": [
+        {
+          "side": "1",
+          "line": "0",
+          "tokens": [
+            "M007",
+            "M176"
+          ],
+          "full_sequence_primary_checked": true,
+          "pdf_page": 121,
+          "printed_page": 110,
+          "printed_metadata_code": "210001",
+          "evidence_path": "results/primary_pages/m77-u-types-numerals-121.jpg",
+          "evidence": {
+            "path": "results/primary_pages/m77-u-types-numerals-121.jpg",
+            "sha256": "cc289a30eb0010c1070c0a164f850400d321e4222091ccdbbb13e3db5068d447"
+          },
+          "notes": "Printed normalized RTL order; actual direction is not inferred from normalization."
+        }
+      ],
+      "symbol_only_entries": [],
+      "notes": "All Texts entries inspected through the next reference; selected side 2 line 0 field excluded."
+    },
+    {
+      "reference": "4381",
+      "all_counterpart_lines_accounted_for": true,
+      "counterpart_lines": [
+        {
+          "side": "1",
+          "line": "0",
+          "tokens": [
+            "M048",
+            "*M047",
+            "LOSS"
+          ],
+          "full_sequence_primary_checked": true,
+          "pdf_page": 121,
+          "printed_page": 110,
+          "printed_metadata_code": "210001",
+          "evidence_path": "results/primary_pages/m77-u-types-numerals-121.jpg",
+          "evidence": {
+            "path": "results/primary_pages/m77-u-types-numerals-121.jpg",
+            "sha256": "cc289a30eb0010c1070c0a164f850400d321e4222091ccdbbb13e3db5068d447"
+          },
+          "notes": "Printed normalized RTL order; actual direction is not inferred from normalization."
+        }
+      ],
+      "symbol_only_entries": [],
+      "notes": "All Texts entries inspected through the next reference; selected side 2 line 0 field excluded."
+    },
+    {
+      "reference": "4386",
+      "all_counterpart_lines_accounted_for": true,
+      "counterpart_lines": [
+        {
+          "side": "1",
+          "line": "1",
+          "tokens": [
+            "M001",
+            "M001",
+            "M209",
+            "M343"
+          ],
+          "full_sequence_primary_checked": true,
+          "pdf_page": 121,
+          "printed_page": 110,
+          "printed_metadata_code": "210011",
+          "evidence_path": "results/primary_pages/m77-u-types-numerals-121.jpg",
+          "evidence": {
+            "path": "results/primary_pages/m77-u-types-numerals-121.jpg",
+            "sha256": "cc289a30eb0010c1070c0a164f850400d321e4222091ccdbbb13e3db5068d447"
+          },
+          "notes": "Printed normalized RTL order; actual direction is not inferred from normalization."
+        },
+        {
+          "side": "1",
+          "line": "2",
+          "tokens": [
+            "M089",
+            "M162"
+          ],
+          "full_sequence_primary_checked": true,
+          "pdf_page": 121,
+          "printed_page": 110,
+          "printed_metadata_code": "21",
+          "evidence_path": "results/primary_pages/m77-u-types-numerals-121.jpg",
+          "evidence": {
+            "path": "results/primary_pages/m77-u-types-numerals-121.jpg",
+            "sha256": "cc289a30eb0010c1070c0a164f850400d321e4222091ccdbbb13e3db5068d447"
+          },
+          "notes": "Two-digit continuation inherits side 1; explicit line 2, direction 1. Separate from line 1 and excluded side-2 field."
+        }
+      ],
+      "symbol_only_entries": [],
+      "notes": "All Texts entries inspected through the next reference; selected side 2 line 0 field excluded."
+    },
+    {
+      "reference": "4387",
+      "all_counterpart_lines_accounted_for": true,
+      "counterpart_lines": [
+        {
+          "side": "1",
+          "line": "0",
+          "tokens": [
+            "M048",
+            "M342",
+            "M176"
+          ],
+          "full_sequence_primary_checked": true,
+          "pdf_page": 121,
+          "printed_page": 110,
+          "printed_metadata_code": "219301",
+          "evidence_path": "results/primary_pages/m77-u-types-numerals-121.jpg",
+          "evidence": {
+            "path": "results/primary_pages/m77-u-types-numerals-121.jpg",
+            "sha256": "cc289a30eb0010c1070c0a164f850400d321e4222091ccdbbb13e3db5068d447"
+          },
+          "notes": "Printed normalized RTL order; actual direction is not inferred from normalization."
+        }
+      ],
+      "symbol_only_entries": [],
+      "notes": "All Texts entries inspected through the next reference; selected side 2 line 0 field excluded."
+    },
+    {
+      "reference": "4402",
+      "all_counterpart_lines_accounted_for": true,
+      "counterpart_lines": [
+        {
+          "side": "1",
+          "line": "0",
+          "tokens": [
+            "M325",
+            "M347",
+            "M342"
+          ],
+          "full_sequence_primary_checked": true,
+          "pdf_page": 122,
+          "printed_page": 111,
+          "printed_metadata_code": "310001",
+          "evidence_path": "results/primary_pages/m77-u-types-numerals-122.jpg",
+          "evidence": {
+            "path": "results/primary_pages/m77-u-types-numerals-122.jpg",
+            "sha256": "34e7c1f8566cc8e32cc91449faddb2e001800cb042a91749d5c090341245415c"
+          },
+          "notes": "Printed normalized RTL order; actual direction is not inferred from normalization."
+        }
+      ],
+      "symbol_only_entries": [
+        {
+          "side": "3",
+          "line": "9",
+          "field_symbol_code": "36",
+          "printed_metadata_code": "33690",
+          "pdf_page": 122,
+          "printed_page": 111,
+          "evidence_path": "results/primary_pages/m77-u-types-numerals-122.jpg",
+          "evidence": {
+            "path": "results/primary_pages/m77-u-types-numerals-122.jpg",
+            "sha256": "34e7c1f8566cc8e32cc91449faddb2e001800cb042a91749d5c090341245415c"
+          },
+          "notes": "Metadata-only field-symbol entry; no text glyph string printed."
+        }
+      ],
+      "notes": "All Texts entries inspected through the next reference; selected side 2 line 0 field excluded."
+    },
+    {
+      "reference": "4403",
+      "all_counterpart_lines_accounted_for": true,
+      "counterpart_lines": [
+        {
+          "side": "1",
+          "line": "0",
+          "tokens": [
+            "M048",
+            "M342",
+            "M176"
+          ],
+          "full_sequence_primary_checked": true,
+          "pdf_page": 122,
+          "printed_page": 111,
+          "printed_metadata_code": "310002",
+          "evidence_path": "results/primary_pages/m77-u-types-numerals-122.jpg",
+          "evidence": {
+            "path": "results/primary_pages/m77-u-types-numerals-122.jpg",
+            "sha256": "34e7c1f8566cc8e32cc91449faddb2e001800cb042a91749d5c090341245415c"
+          },
+          "notes": "Printed normalized RTL order; actual direction is not inferred from normalization."
+        }
+      ],
+      "symbol_only_entries": [],
+      "notes": "All Texts entries inspected through the next reference; selected side 2 line 0 field excluded."
+    },
+    {
+      "reference": "4404",
+      "all_counterpart_lines_accounted_for": true,
+      "counterpart_lines": [
+        {
+          "side": "1",
+          "line": "0",
+          "tokens": [
+            "M293",
+            "M123",
+            "M343",
+            "M048",
+            "M015"
+          ],
+          "full_sequence_primary_checked": true,
+          "pdf_page": 122,
+          "printed_page": 111,
+          "printed_metadata_code": "310002",
+          "evidence_path": "results/primary_pages/m77-u-types-numerals-122.jpg",
+          "evidence": {
+            "path": "results/primary_pages/m77-u-types-numerals-122.jpg",
+            "sha256": "34e7c1f8566cc8e32cc91449faddb2e001800cb042a91749d5c090341245415c"
+          },
+          "notes": "Printed normalized RTL order; actual direction is not inferred from normalization. Right end comprises293 then123 (looped curve, then short stroke plus curved stroke), not one295; all five signs separately primary checked."
+        }
+      ],
+      "symbol_only_entries": [],
+      "notes": "All Texts entries inspected through the next reference; selected side 2 line 0 field excluded."
+    },
+    {
+      "reference": "4405",
+      "all_counterpart_lines_accounted_for": true,
+      "counterpart_lines": [
+        {
+          "side": "1",
+          "line": "0",
+          "tokens": [
+            "M048",
+            "M342",
+            "M176"
+          ],
+          "full_sequence_primary_checked": true,
+          "pdf_page": 122,
+          "printed_page": 111,
+          "printed_metadata_code": "310002",
+          "evidence_path": "results/primary_pages/m77-u-types-numerals-122.jpg",
+          "evidence": {
+            "path": "results/primary_pages/m77-u-types-numerals-122.jpg",
+            "sha256": "34e7c1f8566cc8e32cc91449faddb2e001800cb042a91749d5c090341245415c"
+          },
+          "notes": "Printed normalized RTL order; actual direction is not inferred from normalization."
+        }
+      ],
+      "symbol_only_entries": [],
+      "notes": "All Texts entries inspected through the next reference; selected side 2 line 0 field excluded."
+    },
+    {
+      "reference": "4406",
+      "all_counterpart_lines_accounted_for": true,
+      "counterpart_lines": [
+        {
+          "side": "1",
+          "line": "0",
+          "tokens": [
+            "M100",
+            "M326",
+            "M342"
+          ],
+          "full_sequence_primary_checked": true,
+          "pdf_page": 122,
+          "printed_page": 111,
+          "printed_metadata_code": "310001",
+          "evidence_path": "results/primary_pages/m77-u-types-numerals-122.jpg",
+          "evidence": {
+            "path": "results/primary_pages/m77-u-types-numerals-122.jpg",
+            "sha256": "34e7c1f8566cc8e32cc91449faddb2e001800cb042a91749d5c090341245415c"
+          },
+          "notes": "Printed normalized RTL order; actual direction is not inferred from normalization."
+        }
+      ],
+      "symbol_only_entries": [],
+      "notes": "All Texts entries inspected through the next reference; selected side 2 line 0 field excluded."
+    },
+    {
+      "reference": "4407",
+      "all_counterpart_lines_accounted_for": true,
+      "counterpart_lines": [
+        {
+          "side": "1",
+          "line": "0",
+          "tokens": [
+            "M138",
+            "M176"
+          ],
+          "full_sequence_primary_checked": true,
+          "pdf_page": 122,
+          "printed_page": 111,
+          "printed_metadata_code": "319101",
+          "evidence_path": "results/primary_pages/m77-u-types-numerals-122.jpg",
+          "evidence": {
+            "path": "results/primary_pages/m77-u-types-numerals-122.jpg",
+            "sha256": "34e7c1f8566cc8e32cc91449faddb2e001800cb042a91749d5c090341245415c"
+          },
+          "notes": "Printed normalized RTL order; actual direction is not inferred from normalization."
+        }
+      ],
+      "symbol_only_entries": [],
+      "notes": "All Texts entries inspected through the next reference; selected side 2 line 0 field excluded."
+    },
+    {
+      "reference": "4410",
+      "all_counterpart_lines_accounted_for": true,
+      "counterpart_lines": [
+        {
+          "side": "1",
+          "line": "0",
+          "tokens": [
+            "M072",
+            "M223",
+            "M254"
+          ],
+          "full_sequence_primary_checked": true,
+          "pdf_page": 122,
+          "printed_page": 111,
+          "printed_metadata_code": "310002",
+          "evidence_path": "results/primary_pages/m77-u-types-numerals-122.jpg",
+          "evidence": {
+            "path": "results/primary_pages/m77-u-types-numerals-122.jpg",
+            "sha256": "34e7c1f8566cc8e32cc91449faddb2e001800cb042a91749d5c090341245415c"
+          },
+          "notes": "Printed normalized RTL order; actual direction is not inferred from normalization. Middle angular sign has decorated terminals,223; do not merge with plain216 in4360/4499."
+        }
+      ],
+      "symbol_only_entries": [],
+      "notes": "All Texts entries inspected through the next reference; selected side 2 line 0 field excluded."
+    },
+    {
+      "reference": "4419",
+      "all_counterpart_lines_accounted_for": true,
+      "counterpart_lines": [
+        {
+          "side": "1",
+          "line": "0",
+          "tokens": [
+            "M048",
+            "M193",
+            "M342",
+            "M176"
+          ],
+          "full_sequence_primary_checked": true,
+          "pdf_page": 123,
+          "printed_page": 112,
+          "printed_metadata_code": "310001",
+          "evidence_path": "results/primary_pages/m77-u-types-numerals-123.jpg",
+          "evidence": {
+            "path": "results/primary_pages/m77-u-types-numerals-123.jpg",
+            "sha256": "f2daf6119bc97956ddd5106b07de220febcaadb22994a0599ff9bbdf063acda6"
+          },
+          "notes": "Printed normalized RTL order; actual direction is not inferred from normalization."
+        }
+      ],
+      "symbol_only_entries": [],
+      "notes": "All Texts entries inspected through the next reference; selected side 2 line 0 field excluded."
+    },
+    {
+      "reference": "4420",
+      "all_counterpart_lines_accounted_for": true,
+      "counterpart_lines": [
+        {
+          "side": "1",
+          "line": "0",
+          "tokens": [
+            "M103",
+            "M403",
+            "M087",
+            "M244",
+            "LOSS"
+          ],
+          "full_sequence_primary_checked": true,
+          "pdf_page": 123,
+          "printed_page": 112,
+          "printed_metadata_code": "310001",
+          "evidence_path": "results/primary_pages/m77-u-types-numerals-123.jpg",
+          "evidence": {
+            "path": "results/primary_pages/m77-u-types-numerals-123.jpg",
+            "sha256": "f2daf6119bc97956ddd5106b07de220febcaadb22994a0599ff9bbdf063acda6"
+          },
+          "notes": "Printed normalized RTL order; actual direction is not inferred from normalization."
+        }
+      ],
+      "symbol_only_entries": [],
+      "notes": "All Texts entries inspected through the next reference; selected side 2 line 0 field excluded."
+    },
+    {
+      "reference": "4428",
+      "all_counterpart_lines_accounted_for": true,
+      "counterpart_lines": [
+        {
+          "side": "1",
+          "line": "0",
+          "tokens": [
+            "M072",
+            "M211"
+          ],
+          "full_sequence_primary_checked": true,
+          "pdf_page": 123,
+          "printed_page": 112,
+          "printed_metadata_code": "313701",
+          "evidence_path": "results/primary_pages/m77-u-types-numerals-123.jpg",
+          "evidence": {
+            "path": "results/primary_pages/m77-u-types-numerals-123.jpg",
+            "sha256": "f2daf6119bc97956ddd5106b07de220febcaadb22994a0599ff9bbdf063acda6"
+          },
+          "notes": "Printed normalized RTL order; actual direction is not inferred from normalization."
+        }
+      ],
+      "symbol_only_entries": [],
+      "notes": "All Texts entries inspected through the next reference; selected side 2 line 0 field excluded."
+    },
+    {
+      "reference": "4444",
+      "all_counterpart_lines_accounted_for": true,
+      "counterpart_lines": [
+        {
+          "side": "1",
+          "line": "0",
+          "tokens": [
+            "M119",
+            "M087",
+            "M342",
+            "M176"
+          ],
+          "full_sequence_primary_checked": true,
+          "pdf_page": 124,
+          "printed_page": 113,
+          "printed_metadata_code": "310001",
+          "evidence_path": "results/primary_pages/m77-u-types-numerals-124.jpg",
+          "evidence": {
+            "path": "results/primary_pages/m77-u-types-numerals-124.jpg",
+            "sha256": "bf3935b991cc00482e89bb069249ae919f46bf9d20ac979fe5e803e6b6aaed20"
+          },
+          "notes": "Printed normalized RTL order; actual direction is not inferred from normalization."
+        }
+      ],
+      "symbol_only_entries": [],
+      "notes": "All Texts entries inspected through the next reference; selected side 2 line 0 field excluded."
+    },
+    {
+      "reference": "4445",
+      "all_counterpart_lines_accounted_for": true,
+      "counterpart_lines": [
+        {
+          "side": "1",
+          "line": "0",
+          "tokens": [
+            "M067",
+            "M244",
+            "M149",
+            "M342"
+          ],
+          "full_sequence_primary_checked": true,
+          "pdf_page": 124,
+          "printed_page": 113,
+          "printed_metadata_code": "310002",
+          "evidence_path": "results/primary_pages/m77-u-types-numerals-124.jpg",
+          "evidence": {
+            "path": "results/primary_pages/m77-u-types-numerals-124.jpg",
+            "sha256": "bf3935b991cc00482e89bb069249ae919f46bf9d20ac979fe5e803e6b6aaed20"
+          },
+          "notes": "Printed normalized RTL order; actual direction is not inferred from normalization."
+        }
+      ],
+      "symbol_only_entries": [],
+      "notes": "All Texts entries inspected through the next reference; selected side 2 line 0 field excluded."
+    },
+    {
+      "reference": "4451",
+      "all_counterpart_lines_accounted_for": true,
+      "counterpart_lines": [
+        {
+          "side": "1",
+          "line": "0",
+          "tokens": [
+            "M048",
+            "M193",
+            "M342",
+            "M176"
+          ],
+          "full_sequence_primary_checked": true,
+          "pdf_page": 125,
+          "printed_page": 114,
+          "printed_metadata_code": "310001",
+          "evidence_path": "results/primary_pages/m77-u-types-numerals-125.jpg",
+          "evidence": {
+            "path": "results/primary_pages/m77-u-types-numerals-125.jpg",
+            "sha256": "0d6d8d79110dd17d82b2e9e0cd02a79c9b93f5b42f2f3ef2152e70de8643588f"
+          },
+          "notes": "Printed normalized RTL order; actual direction is not inferred from normalization."
+        }
+      ],
+      "symbol_only_entries": [],
+      "notes": "All Texts entries inspected through the next reference; selected side 2 line 0 field excluded."
+    },
+    {
+      "reference": "4455",
+      "all_counterpart_lines_accounted_for": true,
+      "counterpart_lines": [
+        {
+          "side": "1",
+          "line": "0",
+          "tokens": [
+            "M205",
+            "M267",
+            "M342",
+            "M176"
+          ],
+          "full_sequence_primary_checked": true,
+          "pdf_page": 125,
+          "printed_page": 114,
+          "printed_metadata_code": "310001",
+          "evidence_path": "results/primary_pages/m77-u-types-numerals-125.jpg",
+          "evidence": {
+            "path": "results/primary_pages/m77-u-types-numerals-125.jpg",
+            "sha256": "0d6d8d79110dd17d82b2e9e0cd02a79c9b93f5b42f2f3ef2152e70de8643588f"
+          },
+          "notes": "Printed normalized RTL order; actual direction is not inferred from normalization."
+        }
+      ],
+      "symbol_only_entries": [],
+      "notes": "All Texts entries inspected through the next reference; selected side 2 line 0 field excluded."
+    },
+    {
+      "reference": "4456",
+      "all_counterpart_lines_accounted_for": true,
+      "counterpart_lines": [
+        {
+          "side": "1",
+          "line": "0",
+          "tokens": [
+            "M119",
+            "M087",
+            "M342",
+            "M176"
+          ],
+          "full_sequence_primary_checked": true,
+          "pdf_page": 125,
+          "printed_page": 114,
+          "printed_metadata_code": "310001",
+          "evidence_path": "results/primary_pages/m77-u-types-numerals-125.jpg",
+          "evidence": {
+            "path": "results/primary_pages/m77-u-types-numerals-125.jpg",
+            "sha256": "0d6d8d79110dd17d82b2e9e0cd02a79c9b93f5b42f2f3ef2152e70de8643588f"
+          },
+          "notes": "Printed normalized RTL order; actual direction is not inferred from normalization."
+        }
+      ],
+      "symbol_only_entries": [],
+      "notes": "All Texts entries inspected through the next reference; selected side 2 line 0 field excluded."
+    },
+    {
+      "reference": "4457",
+      "all_counterpart_lines_accounted_for": true,
+      "counterpart_lines": [
+        {
+          "side": "1",
+          "line": "0",
+          "tokens": [
+            "LOSS",
+            "M112",
+            "M197",
+            "M342",
+            "M176"
+          ],
+          "full_sequence_primary_checked": true,
+          "pdf_page": 125,
+          "printed_page": 114,
+          "printed_metadata_code": "310001",
+          "evidence_path": "results/primary_pages/m77-u-types-numerals-125.jpg",
+          "evidence": {
+            "path": "results/primary_pages/m77-u-types-numerals-125.jpg",
+            "sha256": "0d6d8d79110dd17d82b2e9e0cd02a79c9b93f5b42f2f3ef2152e70de8643588f"
+          },
+          "notes": "Printed normalized RTL order; actual direction is not inferred from normalization."
+        }
+      ],
+      "symbol_only_entries": [],
+      "notes": "All Texts entries inspected through the next reference; selected side 2 line 0 field excluded."
+    },
+    {
+      "reference": "4458",
+      "all_counterpart_lines_accounted_for": true,
+      "counterpart_lines": [
+        {
+          "side": "1",
+          "line": "0",
+          "tokens": [
+            "M171",
+            "M059",
+            "M211"
+          ],
+          "full_sequence_primary_checked": true,
+          "pdf_page": 125,
+          "printed_page": 114,
+          "printed_metadata_code": "310002",
+          "evidence_path": "results/primary_pages/m77-u-types-numerals-125.jpg",
+          "evidence": {
+            "path": "results/primary_pages/m77-u-types-numerals-125.jpg",
+            "sha256": "0d6d8d79110dd17d82b2e9e0cd02a79c9b93f5b42f2f3ef2152e70de8643588f"
+          },
+          "notes": "Printed normalized RTL order; actual direction is not inferred from normalization."
+        }
+      ],
+      "symbol_only_entries": [],
+      "notes": "All Texts entries inspected through the next reference; selected side 2 line 0 field excluded."
+    },
+    {
+      "reference": "4459",
+      "all_counterpart_lines_accounted_for": true,
+      "counterpart_lines": [
+        {
+          "side": "1",
+          "line": "0",
+          "tokens": [
+            "LOSS"
+          ],
+          "full_sequence_primary_checked": true,
+          "pdf_page": 125,
+          "printed_page": 114,
+          "printed_metadata_code": "310009",
+          "evidence_path": "results/primary_pages/m77-u-types-numerals-125.jpg",
+          "evidence": {
+            "path": "results/primary_pages/m77-u-types-numerals-125.jpg",
+            "sha256": "0d6d8d79110dd17d82b2e9e0cd02a79c9b93f5b42f2f3ef2152e70de8643588f"
+          },
+          "notes": "Printed normalized RTL order; actual direction is not inferred from normalization."
+        }
+      ],
+      "symbol_only_entries": [],
+      "notes": "All Texts entries inspected through the next reference; selected side 2 line 0 field excluded."
+    },
+    {
+      "reference": "4461",
+      "all_counterpart_lines_accounted_for": true,
+      "counterpart_lines": [
+        {
+          "side": "1",
+          "line": "0",
+          "tokens": [
+            "M250",
+            "M015",
+            "M176"
+          ],
+          "full_sequence_primary_checked": true,
+          "pdf_page": 125,
+          "printed_page": 114,
+          "printed_metadata_code": "310001",
+          "evidence_path": "results/primary_pages/m77-u-types-numerals-125.jpg",
+          "evidence": {
+            "path": "results/primary_pages/m77-u-types-numerals-125.jpg",
+            "sha256": "0d6d8d79110dd17d82b2e9e0cd02a79c9b93f5b42f2f3ef2152e70de8643588f"
+          },
+          "notes": "Printed normalized RTL order; actual direction is not inferred from normalization."
+        }
+      ],
+      "symbol_only_entries": [],
+      "notes": "All Texts entries inspected through the next reference; selected side 2 line 0 field excluded."
+    },
+    {
+      "reference": "4462",
+      "all_counterpart_lines_accounted_for": true,
+      "counterpart_lines": [
+        {
+          "side": "1",
+          "line": "0",
+          "tokens": [
+            "M100",
+            "M017",
+            "M015",
+            "M176"
+          ],
+          "full_sequence_primary_checked": true,
+          "pdf_page": 125,
+          "printed_page": 114,
+          "printed_metadata_code": "310001",
+          "evidence_path": "results/primary_pages/m77-u-types-numerals-125.jpg",
+          "evidence": {
+            "path": "results/primary_pages/m77-u-types-numerals-125.jpg",
+            "sha256": "0d6d8d79110dd17d82b2e9e0cd02a79c9b93f5b42f2f3ef2152e70de8643588f"
+          },
+          "notes": "Printed normalized RTL order; actual direction is not inferred from normalization."
+        }
+      ],
+      "symbol_only_entries": [],
+      "notes": "All Texts entries inspected through the next reference; selected side 2 line 0 field excluded."
+    },
+    {
+      "reference": "4463",
+      "all_counterpart_lines_accounted_for": true,
+      "counterpart_lines": [
+        {
+          "side": "1",
+          "line": "0",
+          "tokens": [
+            "M331",
+            "*M233",
+            "M059",
+            "M099"
+          ],
+          "full_sequence_primary_checked": true,
+          "pdf_page": 125,
+          "printed_page": 114,
+          "printed_metadata_code": "310002",
+          "evidence_path": "results/primary_pages/m77-u-types-numerals-125.jpg",
+          "evidence": {
+            "path": "results/primary_pages/m77-u-types-numerals-125.jpg",
+            "sha256": "0d6d8d79110dd17d82b2e9e0cd02a79c9b93f5b42f2f3ef2152e70de8643588f"
+          },
+          "notes": "Printed normalized RTL order; actual direction is not inferred from normalization."
+        }
+      ],
+      "symbol_only_entries": [],
+      "notes": "All Texts entries inspected through the next reference; selected side 2 line 0 field excluded."
+    },
+    {
+      "reference": "4468",
+      "all_counterpart_lines_accounted_for": true,
+      "counterpart_lines": [
+        {
+          "side": "1",
+          "line": "0",
+          "tokens": [
+            "M201",
+            "M280"
+          ],
+          "full_sequence_primary_checked": true,
+          "pdf_page": 126,
+          "printed_page": 115,
+          "printed_metadata_code": "310001",
+          "evidence_path": "results/primary_pages/m77-u-types-numerals-126.jpg",
+          "evidence": {
+            "path": "results/primary_pages/m77-u-types-numerals-126.jpg",
+            "sha256": "f2d035165cce41df3868e6038f2d59fde8a01e1ebcae0fdcf9050e4c17f7dfbd"
+          },
+          "notes": "Printed normalized RTL order; actual direction is not inferred from normalization."
+        }
+      ],
+      "symbol_only_entries": [],
+      "notes": "All Texts entries inspected through the next reference; selected side 2 line 0 field excluded."
+    },
+    {
+      "reference": "4469",
+      "all_counterpart_lines_accounted_for": true,
+      "counterpart_lines": [
+        {
+          "side": "1",
+          "line": "0",
+          "tokens": [
+            "M223",
+            "M342"
+          ],
+          "full_sequence_primary_checked": true,
+          "pdf_page": 126,
+          "printed_page": 115,
+          "printed_metadata_code": "310001",
+          "evidence_path": "results/primary_pages/m77-u-types-numerals-126.jpg",
+          "evidence": {
+            "path": "results/primary_pages/m77-u-types-numerals-126.jpg",
+            "sha256": "f2d035165cce41df3868e6038f2d59fde8a01e1ebcae0fdcf9050e4c17f7dfbd"
+          },
+          "notes": "Printed normalized RTL order; actual direction is not inferred from normalization."
+        }
+      ],
+      "symbol_only_entries": [],
+      "notes": "All Texts entries inspected through the next reference; selected side 2 line 0 field excluded."
+    },
+    {
+      "reference": "4470",
+      "all_counterpart_lines_accounted_for": true,
+      "counterpart_lines": [
+        {
+          "side": "1",
+          "line": "0",
+          "tokens": [
+            "M173",
+            "M267",
+            "M099"
+          ],
+          "full_sequence_primary_checked": true,
+          "pdf_page": 126,
+          "printed_page": 115,
+          "printed_metadata_code": "310001",
+          "evidence_path": "results/primary_pages/m77-u-types-numerals-126.jpg",
+          "evidence": {
+            "path": "results/primary_pages/m77-u-types-numerals-126.jpg",
+            "sha256": "f2d035165cce41df3868e6038f2d59fde8a01e1ebcae0fdcf9050e4c17f7dfbd"
+          },
+          "notes": "Printed normalized RTL order; actual direction is not inferred from normalization."
+        }
+      ],
+      "symbol_only_entries": [],
+      "notes": "All Texts entries inspected through the next reference; selected side 2 line 0 field excluded."
+    },
+    {
+      "reference": "4473",
+      "all_counterpart_lines_accounted_for": true,
+      "counterpart_lines": [
+        {
+          "side": "1",
+          "line": "0",
+          "tokens": [
+            "M416",
+            "M344"
+          ],
+          "full_sequence_primary_checked": true,
+          "pdf_page": 126,
+          "printed_page": 115,
+          "printed_metadata_code": "310001",
+          "evidence_path": "results/primary_pages/m77-u-types-numerals-126.jpg",
+          "evidence": {
+            "path": "results/primary_pages/m77-u-types-numerals-126.jpg",
+            "sha256": "f2d035165cce41df3868e6038f2d59fde8a01e1ebcae0fdcf9050e4c17f7dfbd"
+          },
+          "notes": "Printed normalized RTL order; actual direction is not inferred from normalization."
+        }
+      ],
+      "symbol_only_entries": [],
+      "notes": "All Texts entries inspected through the next reference; selected side 2 line 0 field excluded."
+    },
+    {
+      "reference": "4479",
+      "all_counterpart_lines_accounted_for": true,
+      "counterpart_lines": [
+        {
+          "side": "1",
+          "line": "0",
+          "tokens": [
+            "M067",
+            "M012"
+          ],
+          "full_sequence_primary_checked": true,
+          "pdf_page": 126,
+          "printed_page": 115,
+          "printed_metadata_code": "310002",
+          "evidence_path": "results/primary_pages/m77-u-types-numerals-126.jpg",
+          "evidence": {
+            "path": "results/primary_pages/m77-u-types-numerals-126.jpg",
+            "sha256": "f2d035165cce41df3868e6038f2d59fde8a01e1ebcae0fdcf9050e4c17f7dfbd"
+          },
+          "notes": "Printed normalized RTL order; actual direction is not inferred from normalization. Plain-headed carrying-person assigned M012 after close primary inspection. Morphology explanation corrected: the numbered M012 has no detached stroke between the legs; M013 adds that detached stroke. M014 has a triangular head. The earlier note reversed the M012/M013 inner-leg distinction; token assignment is unchanged."
+        }
+      ],
+      "symbol_only_entries": [],
+      "notes": "All Texts entries inspected through the next reference; selected side 2 line 0 field excluded."
+    },
+    {
+      "reference": "4483",
+      "all_counterpart_lines_accounted_for": true,
+      "counterpart_lines": [
+        {
+          "side": "1",
+          "line": "0",
+          "tokens": [
+            "*M409",
+            "M096",
+            "M171"
+          ],
+          "full_sequence_primary_checked": true,
+          "pdf_page": 126,
+          "printed_page": 115,
+          "printed_metadata_code": "310001",
+          "evidence_path": "results/primary_pages/m77-u-types-numerals-126.jpg",
+          "evidence": {
+            "path": "results/primary_pages/m77-u-types-numerals-126.jpg",
+            "sha256": "f2d035165cce41df3868e6038f2d59fde8a01e1ebcae0fdcf9050e4c17f7dfbd"
+          },
+          "notes": "Printed normalized RTL order; actual direction is not inferred from normalization."
+        }
+      ],
+      "symbol_only_entries": [],
+      "notes": "All Texts entries inspected through the next reference; selected side 2 line 0 field excluded."
+    },
+    {
+      "reference": "4484",
+      "all_counterpart_lines_accounted_for": true,
+      "counterpart_lines": [
+        {
+          "side": "1",
+          "line": "0",
+          "tokens": [
+            "M086",
+            "M325",
+            "M015",
+            "M176"
+          ],
+          "full_sequence_primary_checked": true,
+          "pdf_page": 127,
+          "printed_page": 116,
+          "printed_metadata_code": "310001",
+          "evidence_path": "results/primary_pages/m77-u-types-numerals-127.jpg",
+          "evidence": {
+            "path": "results/primary_pages/m77-u-types-numerals-127.jpg",
+            "sha256": "cb25cd963cf923cf5066aaf5b66b528d511e49c163f9a5c917c149887139b6da"
+          },
+          "notes": "Printed normalized RTL order; actual direction is not inferred from normalization."
+        }
+      ],
+      "symbol_only_entries": [],
+      "notes": "All Texts entries inspected through the next reference; selected side 2 line 0 field excluded."
+    },
+    {
+      "reference": "4489",
+      "all_counterpart_lines_accounted_for": true,
+      "counterpart_lines": [
+        {
+          "side": "1",
+          "line": "0",
+          "tokens": [
+            "M067",
+            "M012",
+            "M176"
+          ],
+          "full_sequence_primary_checked": true,
+          "pdf_page": 127,
+          "printed_page": 116,
+          "printed_metadata_code": "310001",
+          "evidence_path": "results/primary_pages/m77-u-types-numerals-127.jpg",
+          "evidence": {
+            "path": "results/primary_pages/m77-u-types-numerals-127.jpg",
+            "sha256": "cb25cd963cf923cf5066aaf5b66b528d511e49c163f9a5c917c149887139b6da"
+          },
+          "notes": "Printed normalized RTL order; actual direction is not inferred from normalization. Plain-headed carrying-person assigned M012 after close primary inspection. Morphology explanation corrected: the numbered M012 has no detached stroke between the legs; M013 adds that detached stroke. M014 has a triangular head. The earlier note reversed the M012/M013 inner-leg distinction; token assignment is unchanged."
+        }
+      ],
+      "symbol_only_entries": [],
+      "notes": "All Texts entries inspected through the next reference; selected side 2 line 0 field excluded."
+    },
+    {
+      "reference": "4490",
+      "all_counterpart_lines_accounted_for": true,
+      "counterpart_lines": [
+        {
+          "side": "1",
+          "line": "0",
+          "tokens": [
+            "M109",
+            "M059",
+            "M211"
+          ],
+          "full_sequence_primary_checked": true,
+          "pdf_page": 127,
+          "printed_page": 116,
+          "printed_metadata_code": "310002",
+          "evidence_path": "results/primary_pages/m77-u-types-numerals-127.jpg",
+          "evidence": {
+            "path": "results/primary_pages/m77-u-types-numerals-127.jpg",
+            "sha256": "cb25cd963cf923cf5066aaf5b66b528d511e49c163f9a5c917c149887139b6da"
+          },
+          "notes": "Printed normalized RTL order; actual direction is not inferred from normalization."
+        }
+      ],
+      "symbol_only_entries": [],
+      "notes": "All Texts entries inspected through the next reference; selected side 2 line 0 field excluded."
+    },
+    {
+      "reference": "4491",
+      "all_counterpart_lines_accounted_for": true,
+      "counterpart_lines": [
+        {
+          "side": "1",
+          "line": "0",
+          "tokens": [
+            "*M053",
+            "M114",
+            "LOSS"
+          ],
+          "full_sequence_primary_checked": true,
+          "pdf_page": 127,
+          "printed_page": 116,
+          "printed_metadata_code": "310001",
+          "evidence_path": "results/primary_pages/m77-u-types-numerals-127.jpg",
+          "evidence": {
+            "path": "results/primary_pages/m77-u-types-numerals-127.jpg",
+            "sha256": "cb25cd963cf923cf5066aaf5b66b528d511e49c163f9a5c917c149887139b6da"
+          },
+          "notes": "Printed normalized RTL order; actual direction is not inferred from normalization."
+        }
+      ],
+      "symbol_only_entries": [],
+      "notes": "All Texts entries inspected through the next reference; selected side 2 line 0 field excluded."
+    },
+    {
+      "reference": "4492",
+      "all_counterpart_lines_accounted_for": true,
+      "counterpart_lines": [
+        {
+          "side": "1",
+          "line": "0",
+          "tokens": [
+            "M205",
+            "M267",
+            "M342",
+            "M176"
+          ],
+          "full_sequence_primary_checked": true,
+          "pdf_page": 127,
+          "printed_page": 116,
+          "printed_metadata_code": "310001",
+          "evidence_path": "results/primary_pages/m77-u-types-numerals-127.jpg",
+          "evidence": {
+            "path": "results/primary_pages/m77-u-types-numerals-127.jpg",
+            "sha256": "cb25cd963cf923cf5066aaf5b66b528d511e49c163f9a5c917c149887139b6da"
+          },
+          "notes": "Printed normalized RTL order; actual direction is not inferred from normalization."
+        }
+      ],
+      "symbol_only_entries": [],
+      "notes": "All Texts entries inspected through the next reference; selected side 2 line 0 field excluded."
+    },
+    {
+      "reference": "4493",
+      "all_counterpart_lines_accounted_for": true,
+      "counterpart_lines": [
+        {
+          "side": "1",
+          "line": "0",
+          "tokens": [
+            "M066",
+            "M176"
+          ],
+          "full_sequence_primary_checked": true,
+          "pdf_page": 127,
+          "printed_page": 116,
+          "printed_metadata_code": "310001",
+          "evidence_path": "results/primary_pages/m77-u-types-numerals-127.jpg",
+          "evidence": {
+            "path": "results/primary_pages/m77-u-types-numerals-127.jpg",
+            "sha256": "cb25cd963cf923cf5066aaf5b66b528d511e49c163f9a5c917c149887139b6da"
+          },
+          "notes": "Printed normalized RTL order; actual direction is not inferred from normalization."
+        }
+      ],
+      "symbol_only_entries": [],
+      "notes": "All Texts entries inspected through the next reference; selected side 2 line 0 field excluded."
+    },
+    {
+      "reference": "4497",
+      "all_counterpart_lines_accounted_for": true,
+      "counterpart_lines": [
+        {
+          "side": "1",
+          "line": "0",
+          "tokens": [
+            "M067",
+            "M008",
+            "M342"
+          ],
+          "full_sequence_primary_checked": true,
+          "pdf_page": 127,
+          "printed_page": 116,
+          "printed_metadata_code": "310001",
+          "evidence_path": "results/primary_pages/m77-u-types-numerals-127.jpg",
+          "evidence": {
+            "path": "results/primary_pages/m77-u-types-numerals-127.jpg",
+            "sha256": "cb25cd963cf923cf5066aaf5b66b528d511e49c163f9a5c917c149887139b6da"
+          },
+          "notes": "Printed normalized RTL order; actual direction is not inferred from normalization."
+        }
+      ],
+      "symbol_only_entries": [],
+      "notes": "All Texts entries inspected through the next reference; selected side 2 line 0 field excluded."
+    },
+    {
+      "reference": "4498",
+      "all_counterpart_lines_accounted_for": true,
+      "counterpart_lines": [
+        {
+          "side": "1",
+          "line": "0",
+          "tokens": [
+            "M249",
+            "M402",
+            "M024",
+            "M327"
+          ],
+          "full_sequence_primary_checked": true,
+          "pdf_page": 127,
+          "printed_page": 116,
+          "printed_metadata_code": "310001",
+          "evidence_path": "results/primary_pages/m77-u-types-numerals-127.jpg",
+          "evidence": {
+            "path": "results/primary_pages/m77-u-types-numerals-127.jpg",
+            "sha256": "cb25cd963cf923cf5066aaf5b66b528d511e49c163f9a5c917c149887139b6da"
+          },
+          "notes": "Printed normalized RTL order; actual direction is not inferred from normalization."
+        }
+      ],
+      "symbol_only_entries": [],
+      "notes": "All Texts entries inspected through the next reference; selected side 2 line 0 field excluded."
+    },
+    {
+      "reference": "4499",
+      "all_counterpart_lines_accounted_for": true,
+      "counterpart_lines": [
+        {
+          "side": "1",
+          "line": "0",
+          "tokens": [
+            "M072",
+            "M216",
+            "M254"
+          ],
+          "full_sequence_primary_checked": true,
+          "pdf_page": 127,
+          "printed_page": 116,
+          "printed_metadata_code": "310001",
+          "evidence_path": "results/primary_pages/m77-u-types-numerals-127.jpg",
+          "evidence": {
+            "path": "results/primary_pages/m77-u-types-numerals-127.jpg",
+            "sha256": "cb25cd963cf923cf5066aaf5b66b528d511e49c163f9a5c917c149887139b6da"
+          },
+          "notes": "Printed normalized RTL order; actual direction is not inferred from normalization."
+        }
+      ],
+      "symbol_only_entries": [],
+      "notes": "All Texts entries inspected through the next reference; selected side 2 line 0 field excluded."
+    },
+    {
+      "reference": "4501",
+      "all_counterpart_lines_accounted_for": true,
+      "counterpart_lines": [
+        {
+          "side": "1",
+          "line": "0",
+          "tokens": [
+            "M073",
+            "M176"
+          ],
+          "full_sequence_primary_checked": true,
+          "pdf_page": 127,
+          "printed_page": 116,
+          "printed_metadata_code": "310001",
+          "evidence_path": "results/primary_pages/m77-u-types-numerals-127.jpg",
+          "evidence": {
+            "path": "results/primary_pages/m77-u-types-numerals-127.jpg",
+            "sha256": "cb25cd963cf923cf5066aaf5b66b528d511e49c163f9a5c917c149887139b6da"
+          },
+          "notes": "Printed normalized RTL order; actual direction is not inferred from normalization."
+        }
+      ],
+      "symbol_only_entries": [],
+      "notes": "All Texts entries inspected through the next reference; selected side 2 line 0 field excluded."
+    },
+    {
+      "reference": "4502",
+      "all_counterpart_lines_accounted_for": true,
+      "counterpart_lines": [
+        {
+          "side": "1",
+          "line": "0",
+          "tokens": [
+            "M287",
+            "M402"
+          ],
+          "full_sequence_primary_checked": true,
+          "pdf_page": 128,
+          "printed_page": 117,
+          "printed_metadata_code": "310001",
+          "evidence_path": "results/primary_pages/m77-u-types-numerals-128.jpg",
+          "evidence": {
+            "path": "results/primary_pages/m77-u-types-numerals-128.jpg",
+            "sha256": "1810deb526d7cf821f694b3b410deb455a8c66bf554ce5112c3ce2f8761651bb"
+          },
+          "notes": "Printed normalized RTL order; actual direction is not inferred from normalization."
+        }
+      ],
+      "symbol_only_entries": [],
+      "notes": "All Texts entries inspected through the next reference; selected side 2 line 0 field excluded."
+    },
+    {
+      "reference": "4503",
+      "all_counterpart_lines_accounted_for": true,
+      "counterpart_lines": [
+        {
+          "side": "1",
+          "line": "0",
+          "tokens": [
+            "M073",
+            "M176"
+          ],
+          "full_sequence_primary_checked": true,
+          "pdf_page": 128,
+          "printed_page": 117,
+          "printed_metadata_code": "310001",
+          "evidence_path": "results/primary_pages/m77-u-types-numerals-128.jpg",
+          "evidence": {
+            "path": "results/primary_pages/m77-u-types-numerals-128.jpg",
+            "sha256": "1810deb526d7cf821f694b3b410deb455a8c66bf554ce5112c3ce2f8761651bb"
+          },
+          "notes": "Printed normalized RTL order; actual direction is not inferred from normalization."
+        }
+      ],
+      "symbol_only_entries": [],
+      "notes": "All Texts entries inspected through the next reference; selected side 2 line 0 field excluded."
+    },
+    {
+      "reference": "4504",
+      "all_counterpart_lines_accounted_for": true,
+      "counterpart_lines": [
+        {
+          "side": "1",
+          "line": "0",
+          "tokens": [
+            "M205",
+            "M267",
+            "M342",
+            "M176"
+          ],
+          "full_sequence_primary_checked": true,
+          "pdf_page": 128,
+          "printed_page": 117,
+          "printed_metadata_code": "310001",
+          "evidence_path": "results/primary_pages/m77-u-types-numerals-128.jpg",
+          "evidence": {
+            "path": "results/primary_pages/m77-u-types-numerals-128.jpg",
+            "sha256": "1810deb526d7cf821f694b3b410deb455a8c66bf554ce5112c3ce2f8761651bb"
+          },
+          "notes": "Printed normalized RTL order; actual direction is not inferred from normalization."
+        }
+      ],
+      "symbol_only_entries": [],
+      "notes": "All Texts entries inspected through the next reference; selected side 2 line 0 field excluded."
+    },
+    {
+      "reference": "4508",
+      "all_counterpart_lines_accounted_for": true,
+      "counterpart_lines": [
+        {
+          "side": "1",
+          "line": "0",
+          "tokens": [
+            "M048",
+            "M342",
+            "M176"
+          ],
+          "full_sequence_primary_checked": true,
+          "pdf_page": 128,
+          "printed_page": 117,
+          "printed_metadata_code": "310001",
+          "evidence_path": "results/primary_pages/m77-u-types-numerals-128.jpg",
+          "evidence": {
+            "path": "results/primary_pages/m77-u-types-numerals-128.jpg",
+            "sha256": "1810deb526d7cf821f694b3b410deb455a8c66bf554ce5112c3ce2f8761651bb"
+          },
+          "notes": "Printed normalized RTL order; actual direction is not inferred from normalization."
+        }
+      ],
+      "symbol_only_entries": [],
+      "notes": "All Texts entries inspected through the next reference; selected side 2 line 0 field excluded."
+    },
+    {
+      "reference": "4509",
+      "all_counterpart_lines_accounted_for": true,
+      "counterpart_lines": [
+        {
+          "side": "1",
+          "line": "0",
+          "tokens": [
+            "M048",
+            "M342",
+            "M176"
+          ],
+          "full_sequence_primary_checked": true,
+          "pdf_page": 128,
+          "printed_page": 117,
+          "printed_metadata_code": "310001",
+          "evidence_path": "results/primary_pages/m77-u-types-numerals-128.jpg",
+          "evidence": {
+            "path": "results/primary_pages/m77-u-types-numerals-128.jpg",
+            "sha256": "1810deb526d7cf821f694b3b410deb455a8c66bf554ce5112c3ce2f8761651bb"
+          },
+          "notes": "Printed normalized RTL order; actual direction is not inferred from normalization."
+        }
+      ],
+      "symbol_only_entries": [],
+      "notes": "All Texts entries inspected through the next reference; selected side 2 line 0 field excluded."
+    },
+    {
+      "reference": "4510",
+      "all_counterpart_lines_accounted_for": true,
+      "counterpart_lines": [
+        {
+          "side": "1",
+          "line": "0",
+          "tokens": [
+            "M205",
+            "M267",
+            "M342",
+            "M176"
+          ],
+          "full_sequence_primary_checked": true,
+          "pdf_page": 128,
+          "printed_page": 117,
+          "printed_metadata_code": "310001",
+          "evidence_path": "results/primary_pages/m77-u-types-numerals-128.jpg",
+          "evidence": {
+            "path": "results/primary_pages/m77-u-types-numerals-128.jpg",
+            "sha256": "1810deb526d7cf821f694b3b410deb455a8c66bf554ce5112c3ce2f8761651bb"
+          },
+          "notes": "Printed normalized RTL order; actual direction is not inferred from normalization."
+        }
+      ],
+      "symbol_only_entries": [],
+      "notes": "All Texts entries inspected through the next reference; selected side 2 line 0 field excluded."
+    },
+    {
+      "reference": "4511",
+      "all_counterpart_lines_accounted_for": true,
+      "counterpart_lines": [
+        {
+          "side": "1",
+          "line": "0",
+          "tokens": [
+            "*M335",
+            "M294",
+            "M342"
+          ],
+          "full_sequence_primary_checked": true,
+          "pdf_page": 128,
+          "printed_page": 117,
+          "printed_metadata_code": "310002",
+          "evidence_path": "results/primary_pages/m77-u-types-numerals-128.jpg",
+          "evidence": {
+            "path": "results/primary_pages/m77-u-types-numerals-128.jpg",
+            "sha256": "1810deb526d7cf821f694b3b410deb455a8c66bf554ce5112c3ce2f8761651bb"
+          },
+          "notes": "Printed normalized RTL order; actual direction is not inferred from normalization."
+        }
+      ],
+      "symbol_only_entries": [],
+      "notes": "All Texts entries inspected through the next reference; selected side 2 line 0 field excluded."
+    },
+    {
+      "reference": "4512",
+      "all_counterpart_lines_accounted_for": true,
+      "counterpart_lines": [
+        {
+          "side": "1",
+          "line": "0",
+          "tokens": [
+            "M103",
+            "M403",
+            "M342"
+          ],
+          "full_sequence_primary_checked": true,
+          "pdf_page": 128,
+          "printed_page": 117,
+          "printed_metadata_code": "310001",
+          "evidence_path": "results/primary_pages/m77-u-types-numerals-128.jpg",
+          "evidence": {
+            "path": "results/primary_pages/m77-u-types-numerals-128.jpg",
+            "sha256": "1810deb526d7cf821f694b3b410deb455a8c66bf554ce5112c3ce2f8761651bb"
+          },
+          "notes": "Printed normalized RTL order; actual direction is not inferred from normalization."
+        }
+      ],
+      "symbol_only_entries": [],
+      "notes": "All Texts entries inspected through the next reference; selected side 2 line 0 field excluded."
+    },
+    {
+      "reference": "4515",
+      "all_counterpart_lines_accounted_for": true,
+      "counterpart_lines": [
+        {
+          "side": "1",
+          "line": "0",
+          "tokens": [
+            "LOSS"
+          ],
+          "full_sequence_primary_checked": true,
+          "pdf_page": 128,
+          "printed_page": 117,
+          "printed_metadata_code": "310009",
+          "evidence_path": "results/primary_pages/m77-u-types-numerals-128.jpg",
+          "evidence": {
+            "path": "results/primary_pages/m77-u-types-numerals-128.jpg",
+            "sha256": "1810deb526d7cf821f694b3b410deb455a8c66bf554ce5112c3ce2f8761651bb"
+          },
+          "notes": "Printed normalized RTL order; actual direction is not inferred from normalization."
+        }
+      ],
+      "symbol_only_entries": [],
+      "notes": "All Texts entries inspected through the next reference; selected side 2 line 0 field excluded."
+    },
+    {
+      "reference": "4516",
+      "all_counterpart_lines_accounted_for": true,
+      "counterpart_lines": [
+        {
+          "side": "1",
+          "line": "0",
+          "tokens": [
+            "M048",
+            "M342",
+            "M176"
+          ],
+          "full_sequence_primary_checked": true,
+          "pdf_page": 128,
+          "printed_page": 117,
+          "printed_metadata_code": "310002",
+          "evidence_path": "results/primary_pages/m77-u-types-numerals-128.jpg",
+          "evidence": {
+            "path": "results/primary_pages/m77-u-types-numerals-128.jpg",
+            "sha256": "1810deb526d7cf821f694b3b410deb455a8c66bf554ce5112c3ce2f8761651bb"
+          },
+          "notes": "Printed normalized RTL order; actual direction is not inferred from normalization."
+        }
+      ],
+      "symbol_only_entries": [],
+      "notes": "All Texts entries inspected through the next reference; selected side 2 line 0 field excluded."
+    },
+    {
+      "reference": "4519",
+      "all_counterpart_lines_accounted_for": true,
+      "counterpart_lines": [
+        {
+          "side": "1",
+          "line": "0",
+          "tokens": [
+            "M103",
+            "M403",
+            "M342",
+            "M176"
+          ],
+          "full_sequence_primary_checked": true,
+          "pdf_page": 129,
+          "printed_page": 118,
+          "printed_metadata_code": "310001",
+          "evidence_path": "results/primary_pages/m77-u-types-numerals-129.jpg",
+          "evidence": {
+            "path": "results/primary_pages/m77-u-types-numerals-129.jpg",
+            "sha256": "0779f23430e14154cfa7acd044c53671bea179bbb08ca2ed974cf63c07cc6b74"
+          },
+          "notes": "Printed normalized RTL order; actual direction is not inferred from normalization."
+        }
+      ],
+      "symbol_only_entries": [],
+      "notes": "All Texts entries inspected through the next reference; selected side 2 line 0 field excluded."
+    },
+    {
+      "reference": "4520",
+      "all_counterpart_lines_accounted_for": true,
+      "counterpart_lines": [
+        {
+          "side": "1",
+          "line": "0",
+          "tokens": [
+            "M106",
+            "M287",
+            "M342"
+          ],
+          "full_sequence_primary_checked": true,
+          "pdf_page": 129,
+          "printed_page": 118,
+          "printed_metadata_code": "310001",
+          "evidence_path": "results/primary_pages/m77-u-types-numerals-129.jpg",
+          "evidence": {
+            "path": "results/primary_pages/m77-u-types-numerals-129.jpg",
+            "sha256": "0779f23430e14154cfa7acd044c53671bea179bbb08ca2ed974cf63c07cc6b74"
+          },
+          "notes": "Printed normalized RTL order; actual direction is not inferred from normalization."
+        }
+      ],
+      "symbol_only_entries": [],
+      "notes": "All Texts entries inspected through the next reference; selected side 2 line 0 field excluded."
+    }
+  ],
+  "review_exposure": "A first visual draft was compared with secondary m77_candidate_records.jsonl only to flag discrepancies. All corrections and initially UNKNOWN shapes were then visually checked in primary full pages/detail renders and numbered sign list. No glyph was accepted solely from the secondary export. This is a source recovery, not an independently blinded test.",
+  "candidate_crosscheck_source": {
+    "path": "data/processed/m77_candidate_records.jsonl",
+    "sha256": "b29a176da86b125115256a8966c377c3fd9fe39ecaab17bf576b770b83b41bab"
+  },
+  "additional_primary_image_evidence": [
+    {
+      "path": "results/primary_pages/structure-counterpart-4376.png",
+      "sha256": "c5d7061a5a0f7e652cb120adee26265b462c60c2491da778c22514586bea8fec"
+    },
+    {
+      "path": "results/primary_pages/structure-counterpart-4479.png",
+      "sha256": "32b0ebb5ccfb99148c46fae70c78a635a7a1a04e5f29ee5c884ad5f58c34dd4f"
+    },
+    {
+      "path": "results/primary_pages/structure-counterpart-4489.png",
+      "sha256": "0aeec2b8254183ef1677fb97ba3b8b6b14e42809baf164c4b9f1cac12e65f56b"
+    },
+    {
+      "path": "results/primary_pages/structure-counterpart-detail-119.png",
+      "sha256": "efbe884135f2243eab53e1adc74deec3fd7c902ade335d90e95fd9f9d7c4bbb8"
+    },
+    {
+      "path": "results/primary_pages/structure-counterpart-detail-120.png",
+      "sha256": "9c1df8c05b2f4543788e451e035ad7a0e845373efc092e3c5adc78de4bfd5b77"
+    },
+    {
+      "path": "results/primary_pages/structure-counterpart-detail-121.png",
+      "sha256": "911cf56a945f295f2915c5e6f053cb2c79cb957ab13d5345b5c76ef520db00f0"
+    },
+    {
+      "path": "results/primary_pages/structure-counterpart-detail-122.png",
+      "sha256": "d192e32a60b9eb17447be08fc582f05776a522c58e9ef96081b5df1bb6166731"
+    },
+    {
+      "path": "results/primary_pages/structure-counterpart-detail-124.png",
+      "sha256": "1100b8bed2b4b3be1f3d6d1d78cc5ec6ff8cc429a3f56d456c12acdb695624a4"
+    },
+    {
+      "path": "results/primary_pages/structure-counterpart-detail-125.png",
+      "sha256": "cf498f2a4f4a323ba8f8f516b6853998aa81afefefb296a8f06c4aa72961427c"
+    },
+    {
+      "path": "results/primary_pages/structure-counterpart-detail-126.png",
+      "sha256": "3b3eeaef3e2920cf9fe1973dbddce26cf7f1e0ea1bee4bc871d779a88993a43c"
+    },
+    {
+      "path": "results/primary_pages/structure-counterpart-detail-127.png",
+      "sha256": "f11310aa4f3e83764ce818cb865b8e1cb65892731dc5211da958b9a1f203e101"
+    },
+    {
+      "path": "results/primary_pages/structure-counterpart-detail-128.png",
+      "sha256": "26f586c49ae447dd7d355b6176ba030e4c54c9a5e06ad24c9d3fa1cf3c68b58f"
+    },
+    {
+      "path": "results/primary_pages/structure-counterpart-detail-129.png",
+      "sha256": "0034ce59e29dc9496c48eb858d968be700c372baefd24cb73811a3b18ddcc60f"
+    },
+    {
+      "path": "results/primary_pages/structure-counterpart-hi-119-0.png",
+      "sha256": "4c4122fcdca95f4d2b1100a26664c528bda3bdd3b7d1e7adb0b4210e00c23b03"
+    },
+    {
+      "path": "results/primary_pages/structure-counterpart-hi-119-1.png",
+      "sha256": "614e7e10429cd1f5e4cc7e0d1f9e15cc4c4e6af8d345c746f76eb0d9d32317a1"
+    },
+    {
+      "path": "results/primary_pages/structure-counterpart-hi-119-2.png",
+      "sha256": "d4db1f8dc09b3417dfeecf582add1c74ad1e67c6e21ee65188e16909261c6135"
+    },
+    {
+      "path": "results/primary_pages/structure-counterpart-hi-119.png",
+      "sha256": "b2582930eda34c62e76781522be6d33a85336b3974b8026d4d79678d3daa134c"
+    },
+    {
+      "path": "results/primary_pages/structure-counterpart-hi-120-0.png",
+      "sha256": "62c52e0d47e41486ea2fce74ce31a822fd934c0672179c5e74b2bf7f13f4ebb5"
+    },
+    {
+      "path": "results/primary_pages/structure-counterpart-hi-120-1.png",
+      "sha256": "de442347dfbb36ab14c437d8010271dd574dda9d45e64437389af9606fee5541"
+    },
+    {
+      "path": "results/primary_pages/structure-counterpart-hi-120-2.png",
+      "sha256": "2c27e222334eb80a9d1c7948e79336580861861fbe7c69cad00a0a58f458f0c7"
+    },
+    {
+      "path": "results/primary_pages/structure-counterpart-hi-120.png",
+      "sha256": "06ed7397ce80548d11eeeb9be5d800633147250e6c9cf0781a2a7686b68eff04"
+    },
+    {
+      "path": "results/primary_pages/structure-counterpart-hi-121-0.png",
+      "sha256": "dfbd6a9166f39628293c5806d6373a3c78a7ca5e2b2bb21c1edccfdc170ad627"
+    },
+    {
+      "path": "results/primary_pages/structure-counterpart-hi-121-1.png",
+      "sha256": "637edce60130845e95f00ce1a053df475dfaa94a7e0f1cc57db7f821a3a2597c"
+    },
+    {
+      "path": "results/primary_pages/structure-counterpart-hi-121-2.png",
+      "sha256": "cb7dbd94a2a7d68ae990637c8b6b7b27d37db50890b3296364909dffa0b37f25"
+    },
+    {
+      "path": "results/primary_pages/structure-counterpart-hi-121.png",
+      "sha256": "c147aacc249d9d12a1d29ebc4a4fef4d389338a726ac8c5cd3af94f7646e1d71"
+    },
+    {
+      "path": "results/primary_pages/structure-counterpart-hi-122-0.png",
+      "sha256": "1c8fdbc48ac0604985a2e7bc72fe3df73b827c139611dbf6527a2cc562f46689"
+    },
+    {
+      "path": "results/primary_pages/structure-counterpart-hi-122-1.png",
+      "sha256": "11a4400472b9fa12fcac8415ef6ca66a725a7ca044c17967ed814c33cb735020"
+    },
+    {
+      "path": "results/primary_pages/structure-counterpart-hi-122-2.png",
+      "sha256": "1f7eb6af39bc9c0fc196080db22f08a30043cdb4b9211005854efba9ca103c5b"
+    },
+    {
+      "path": "results/primary_pages/structure-counterpart-hi-122.png",
+      "sha256": "c74f6b1627f2caf6e317803a62ba1db5a93ca1d26e3ce387a1ef0464969d4028"
+    },
+    {
+      "path": "results/primary_pages/structure-counterpart-hi-126-0.png",
+      "sha256": "bce6d231efab9728b89c8639dc2c086177c65b746cd5eb18a4bd2a467f390dca"
+    },
+    {
+      "path": "results/primary_pages/structure-counterpart-hi-126-1.png",
+      "sha256": "6ffc528fe8d4506a1935d97d298150eecbad546903bc3a2830c36df10994c48e"
+    },
+    {
+      "path": "results/primary_pages/structure-counterpart-hi-126-2.png",
+      "sha256": "66d5782317a8a3e06870c79faac8d38c495e822ebffebd974f8e901d48b8d362"
+    },
+    {
+      "path": "results/primary_pages/structure-counterpart-hi-126.png",
+      "sha256": "7d5ec324a539c8940da290e66ed0feb5e3f2e5c69084bd1c374c7a9d180f7b27"
+    },
+    {
+      "path": "results/primary_pages/structure-counterpart-hi-127-0.png",
+      "sha256": "eda8070bbb65206dd9399bd81e6444141e21baa12d80328491dfe94e0ea710dc"
+    },
+    {
+      "path": "results/primary_pages/structure-counterpart-hi-127-1.png",
+      "sha256": "ddd76e0ac9938ac7b38863a2d6b7927c2574b6339bcda8c80ea01acb4d71830b"
+    },
+    {
+      "path": "results/primary_pages/structure-counterpart-hi-127-2.png",
+      "sha256": "45d6808e7ece458d304b21d36fdaabff744dee9c1d22e7ff8cff25e78538e770"
+    },
+    {
+      "path": "results/primary_pages/structure-counterpart-hi-127.png",
+      "sha256": "9c7ab81368f0c727a77b47a1d5e987505cff26ffebdf600af638296cd7cc8ef1"
+    }
+  ],
+  "corrections_to_prior_context_ledger": [
+    {
+      "reference": "4359",
+      "side": "1",
+      "line": "0",
+      "prior_tokens": [
+        "M272",
+        "M178"
+      ],
+      "reviewed_tokens": [
+        "M272",
+        "M402"
+      ],
+      "reason": "Long slant with a filled fan on the right, matching numbered402; not the A-like178.",
+      "prior_ledger": {
+        "path": "data/processed/m77_u_pilot_structure.json",
+        "sha256": "6c8f48d81971b3c3162b0275d3d9853743aa653b81fcf47f5489c50300acee76"
+      }
+    },
+    {
+      "reference": "4370",
+      "side": "1",
+      "line": "0",
+      "prior_tokens": [
+        "M391",
+        "M099",
+        "M216",
+        "M254"
+      ],
+      "reviewed_tokens": [
+        "M391",
+        "M099",
+        "M226",
+        "M254"
+      ],
+      "reason": "Angular sign upper-right terminal bends down, matching226, not216.",
+      "prior_ledger": {
+        "path": "data/processed/m77_u_pilot_structure.json",
+        "sha256": "6c8f48d81971b3c3162b0275d3d9853743aa653b81fcf47f5489c50300acee76"
+      }
+    }
+  ],
+  "summary": {
+    "references": 76,
+    "counterpart_lines": 77,
+    "references_accounted_for": 76,
+    "symbol_only_entries": 2,
+    "fully_inspected_lines": 77,
+    "lines_with_primary_loss": 6,
+    "lines_with_primary_doubt": 7,
+    "lines_with_reviewer_unknown": 0,
+    "undoubted_lossless_identified_lines": 66
+  },
+  "explanation_corrections": [
+    {
+      "scope": "Morphology notes only, references4353/4479/4489; no token or evidence changes.",
+      "trigger": "Independent numerals review of4479 flagged a reversed M012/M013 description; same wording was repeated in two other notes.",
+      "primary_recheck": "Numbered sign list printed32/PDF43 confirms M012 lacks the detached inner-leg stroke added in M013. M014 has a triangular head.",
+      "change": "Removed the incorrect assertion that an inner-leg stroke distinguishes M012; retained all existing token IDs."
+    }
+  ]
+}

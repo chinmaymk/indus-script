@@ -1,0 +1,199 @@
+{
+  "status": "Partial recovery: author-public text gives an earlier dimensional/model table; Wells2015 Table4.1 and visual validation remain unavailable",
+  "accessed_date": "2026-09-22",
+  "primary_author_source": {
+    "author": "Andreas Fuls",
+    "title": "Volumenmaße von Tongefäßen der Induskultur",
+    "url": "https://www.academia.edu/8808307/VOLUMENMA%C3%9FE_VON_TONGEF%C3%84%C3%9FEN_DER_INDUSKULTUR",
+    "publication_year": 2012,
+    "year_note": "Author personal bibliography gives Shaker2012 pp101–114; author Academia page labels the2011 conference. Public text pagination1–14 is manuscript-local.",
+    "verified_format": "Public extracted text only; PDF attempt returned HTTP403",
+    "local_download": null
+  },
+  "measurement_provenance": {
+    "locator": "Manuscript section3.1, p6; Table1 p7",
+    "measurer_reported": "Bryan Wells",
+    "measurement_year": 2009,
+    "source_of_measurements_reported": "Personal communication2009",
+    "measurements_repeated": 3,
+    "direct_dimensions_reported": [
+      "maximum circumference",
+      "opening diameter",
+      "internal height"
+    ],
+    "dependency": "Same Wells2009 measurement campaign behind Wells2015; not a second independent measurement sample",
+    "capacity_is_directly_measured": false
+  },
+  "table1": {
+    "locator": "Manuscript p7, Table1",
+    "units": "cm",
+    "visual_verification": false,
+    "columns": [
+      "CISI number",
+      "excavation number",
+      "maximum external diameter",
+      "external height",
+      "internal height",
+      "opening diameter"
+    ],
+    "rows": [
+      {
+        "cisi": "H-372",
+        "excavation_number": "12908",
+        "dimensional_values_in_extracted_order": [
+          61.4,
+          64.0,
+          33.5
+        ],
+        "column_alignment": "One cell absent in extracted row; do not choose the missing column from expected capacity",
+        "maximum_external_diameter_candidate": 61.4,
+        "external_height": null,
+        "internal_height": null,
+        "opening_diameter_candidate": 33.5
+      },
+      {
+        "cisi": "H-371",
+        "excavation_number": "1033a",
+        "maximum_external_diameter": 85.6,
+        "external_height": 91.4,
+        "internal_height": 74.0,
+        "opening_diameter": 43.5
+      },
+      {
+        "cisi": "H-370",
+        "excavation_number": "1033b",
+        "maximum_external_diameter": 83.6,
+        "external_height": 86.4,
+        "internal_height": 85.0,
+        "opening_diameter": 40.0
+      }
+    ]
+  },
+  "table2": {
+    "locator": "Manuscript p7, Table2",
+    "units": "litres",
+    "visual_verification": false,
+    "quantity_type": "Computed geometric capacities, not direct liquid-fill measurements",
+    "rows": [
+      {
+        "cisi": "H-372",
+        "sphere": 123.6,
+        "ellipsoid": 118.8,
+        "profile_approximate": 121.0
+      },
+      {
+        "cisi": "H-371",
+        "sphere": 248.7,
+        "ellipsoid": 259.1,
+        "profile": 240.6
+      },
+      {
+        "cisi": "H-370",
+        "sphere": 292.9,
+        "ellipsoid": 282.7,
+        "profile": 283.8
+      }
+    ]
+  },
+  "other_specific_leads": [
+    {
+      "object": "H95-2661",
+      "locator": "Section3.2 p6 and Fig6",
+      "external_height_cm": 71,
+      "maximum_diameter_cm": 58,
+      "computed_profile_capacity_litres": 88.3,
+      "cited_original_source": "Meadow etal1995 p53 Fig44.02",
+      "reported_method": "Published scaled cross-section; direct-volume measurement not claimed"
+    },
+    {
+      "object": "MD-1374",
+      "locator": "Section3.3 p7 and Fig7",
+      "external_height_cm": 73,
+      "maximum_diameter_cm": 69,
+      "computed_to_rim_litres": 140.65,
+      "computed_below_rim_litres": 138.84,
+      "cited_original_source": "Dales and Kenoyer1986 pp240–241",
+      "reported_method": "Published scaled profile"
+    },
+    {
+      "object": "K-90",
+      "locator": "Section3.4 pp8–9 and Table3 p10",
+      "computed_profile_capacity_litres": 103.0,
+      "scale_claim": "30cm scale in Joshi and Parpola1987 p319",
+      "visual_scale_authentication": false,
+      "reported_method": "Oblique photo corrected for approximately14-degree image tilt; inferred profile",
+      "text_consistency_issue": "Table3 reports103/2=51.5 L per stroke; section4.1 says56.7. Preserve disagreement; neither proves unit scale."
+    }
+  ],
+  "attempts": [
+    {
+      "url": "https://www.archaeopress.com/Archaeopress/DMS/3608E8E0F92C4920AE82709E2A32643F/9781784910464-sample.pdf",
+      "outcome": "Accessible17-page publisher sample; Table4.1 listed atp61 but sample contains frontmatter and introduction only"
+    },
+    {
+      "url": "https://www.jstor.org/stable/j.ctvr43jmf.12",
+      "outcome": "Chapter4 landing request failed through web tool; parent TOC accessible but no tablecells"
+    },
+    {
+      "url": "https://www.perlego.com/book/2034734/the-archaeology-and-epigraphy-of-indus-writing-pdf",
+      "outcome": "Public title/contents available; no actual Table4.1 cells returned"
+    },
+    {
+      "url": "https://www.epigraphica.de/indus/menueindus.htm",
+      "outcome": "Author bibliography located Fuls2012 capacity paper; ICIT requires administrator access and was not entered"
+    },
+    {
+      "url": "https://www.academia.edu/8808307/VOLUMENMA%C3%9FE_VON_TONGEF%C3%84%C3%9FEN_DER_INDUSKULTUR",
+      "outcome": "Public extracted text returns Tables1–3 and methodology; visual layout not authenticated"
+    },
+    {
+      "url": "https://www.academia.edu/attachments/35154550/download_file?s=profile",
+      "outcome": "Author-listed download URL: web cache miss; normal curl returnedHTTP403; stopped, no file written and no bypass attempted"
+    },
+    {
+      "url": "https://www.jstor.org/stable/j.ctv19vbgkc.46",
+      "outcome": "Wells2018 chapter landing inaccessible through web tool; no tablecells obtained"
+    },
+    {
+      "url": "https://books.google.com/books?id=5RpeEAAAQBAJ&pg=PA61",
+      "outcome": "GoogleBooks Table4.1 location listed in bookcontents; requestedpage inaccessible through tool"
+    }
+  ],
+  "downloads": [],
+  "files_requiring_source_registration": [],
+  "unresolved": [
+    "Wells2015 Table4.1 exact cells",
+    "Visual alignment of Fuls Table1, especially missing H372 cell",
+    "Independent authentication of K90 scale",
+    "Original measurement repeats and errors",
+    "Geometry/fill-level uncertainty",
+    "CISI1 vs Fuls Table1 excavation-number assignments forH-370/H-372"
+  ],
+  "interpretation": "Dimensions and modeled capacities must not be interchanged with values predicted from a numerical reading. Recovered figures are provisional public-text transcriptions, not a verified calibration dataset.",
+  "identifier_conflict": {
+    "source": "data/raw/cisi_76884.pdf",
+    "sha256": "47a4da4227cfb7baa56d6a561e25797225499d0ec54f5a702a82c67ab4746d4d",
+    "locator": "CISI1 printed372/PDF408",
+    "image": "results/primary_pages/capacity-cisi-408.png",
+    "visually_reviewed": true,
+    "cisi_rows": [
+      {
+        "cisi": "H-370",
+        "mahadevan_reference": 4607,
+        "excavation": "12908"
+      },
+      {
+        "cisi": "H-371",
+        "mahadevan_reference": 4608,
+        "excavation": "1033a"
+      },
+      {
+        "cisi": "H-372",
+        "mahadevan_reference": 4609,
+        "excavation": "???"
+      }
+    ],
+    "conflict": "Fuls Table1 public text assigns12908 toH-372 and1033b toH-370. The catalogue gives12908 toH-370 and leavesH-372 unknown.",
+    "consequence": "Do not silently join measurement rows by excavation number or reassign capacities to inscriptions. Source typo, changed identification, and extraction error remain unresolved."
+  }
+}

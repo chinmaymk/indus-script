@@ -1,0 +1,225 @@
+{
+  "schema_version": 1,
+  "scope": "Bounded fair-attribution check of Pettersson (1999) local t notation; not validation of its numerical meaning.",
+  "result": "CXXVII1 upright strokes in a tilted four-mark row are compatible with 7i4t as the author defines t. The previous claim that the drawing challenges an asserted transverse-stroke interpretation is withdrawn.",
+  "definition": [
+    {
+      "printed_page": 89,
+      "pdf_page": 1,
+      "finding": "Boldface t denotes strokes in tilted rows; numerical prefix indicates repetition count."
+    },
+    {
+      "printed_page": 90,
+      "pdf_page": 2,
+      "finding": "Rows run at an angle to other stroke rows; special t notation preserves layout missing in standardized sequential rendering. Italic symbols denote hypothetical values."
+    }
+  ],
+  "alternative_and_preference": [
+    {
+      "printed_page": 98,
+      "pdf_page": 10,
+      "finding": "Explicitly entertains interpreting tilted four as 4i and calculates t=i."
+    },
+    {
+      "printed_page": 100,
+      "pdf_page": 12,
+      "finding": "Revisits t=i then asks whether a tilted row should be treated as another ordinary row."
+    },
+    {
+      "printed_page": 101,
+      "pdf_page": 13,
+      "finding": "DK7857 table reads7i4t. Discussion distinguishes tilted rows; considers four-mark nonnumerical icon alternative."
+    },
+    {
+      "printed_page": 102,
+      "pdf_page": 14,
+      "finding": "Develops octal interpretation; says small fractional t cannot be tested from these mass equations within preservation uncertainty."
+    },
+    {
+      "printed_page": 106,
+      "pdf_page": 18,
+      "finding": "Conclusion favors distinguishing t from i, with numerical and nonnumerical four-group alternatives."
+    },
+    {
+      "printed_page": 107,
+      "pdf_page": 19,
+      "finding": "Requests more objects or inscribed weight units to decide weight hypothesis more securely."
+    }
+  ],
+  "horizontal_claim_audit": {
+    "finding": "No explicit assignment of individually horizontal strokes to DK7857 found in inspected definition, table, discussion or conclusion.",
+    "scope": "Not a claim of exhaustive absence in all writings or all physical representations."
+  },
+  "error_record": {
+    "earlier_inference": "Upright marks in tilted row were said to challenge later transverse-four assignment.",
+    "cause": "Conflation of orientation of individual strokes with orientation of row, and inference from local t abbreviation without checking author definition.",
+    "replacement": "Retain drawn geometry; withdraw alleged contradiction to author notation. Numerical value remains unverified."
+  },
+  "limits": [
+    "Compatible terminology does not prove the original object or every depiction has identical geometry.",
+    "Considering t=i does not mean author endorsed it in the conclusion.",
+    "Knife DK7800 original prose distinguishes vertical and horizontal strokes; do not generalize that specific geometry to DK7857.",
+    "No M77 or physical-value assignments are established by this attribution check."
+  ],
+  "inspected_pages": [
+    {
+      "printed_page": 89,
+      "pdf_page": 1,
+      "path": "results/primary_pages/pettersson-orientation-89.png"
+    },
+    {
+      "printed_page": 90,
+      "pdf_page": 2,
+      "path": "results/primary_pages/pettersson-orientation-90.png"
+    },
+    {
+      "printed_page": 91,
+      "pdf_page": 3,
+      "path": "results/primary_pages/pettersson-1999-followup-3.png"
+    },
+    {
+      "printed_page": 92,
+      "pdf_page": 4,
+      "path": "results/primary_pages/pettersson-1999-4.png"
+    },
+    {
+      "printed_page": 97,
+      "pdf_page": 9,
+      "path": "results/primary_pages/pettersson-1999-9.png"
+    },
+    {
+      "printed_page": 98,
+      "pdf_page": 10,
+      "path": "results/primary_pages/pettersson-1999-10.png"
+    },
+    {
+      "printed_page": 99,
+      "pdf_page": 11,
+      "path": "results/primary_pages/pettersson-1999-11.png"
+    },
+    {
+      "printed_page": 100,
+      "pdf_page": 12,
+      "path": "results/primary_pages/pettersson-1999-followup-12.png"
+    },
+    {
+      "printed_page": 101,
+      "pdf_page": 13,
+      "path": "results/primary_pages/pettersson-1999-13.png"
+    },
+    {
+      "printed_page": 102,
+      "pdf_page": 14,
+      "path": "results/primary_pages/pettersson-1999-followup-14.png"
+    },
+    {
+      "printed_page": 105,
+      "pdf_page": 17,
+      "path": "results/primary_pages/pettersson-identifiability-17.png"
+    },
+    {
+      "printed_page": 106,
+      "pdf_page": 18,
+      "path": "results/primary_pages/pettersson-identifiability-18.png"
+    },
+    {
+      "printed_page": 107,
+      "pdf_page": 19,
+      "path": "results/primary_pages/pettersson-identifiability-19.png"
+    },
+    {
+      "printed_page": 108,
+      "pdf_page": 20,
+      "path": "results/primary_pages/pettersson-identifiability-20.png"
+    }
+  ],
+  "render_command": "FONTCONFIG_FILE=/opt/homebrew/etc/fonts/fonts.conf pdftoppm -f N -l N -scale-to 2200 -png -singlefile data/raw/pettersson_1999_indus_numerals_metal_tools.pdf results/primary_pages/pettersson-orientation-P (N=1,2; P=89,90)",
+  "evidence_files": [
+    {
+      "path": "data/raw/pettersson_1999_indus_numerals_metal_tools.pdf",
+      "bytes": 324816,
+      "sha256": "6668f9ff93612059eaa385f1356f8138ebe76ddeeeb8b51043830131d9265b8a"
+    },
+    {
+      "path": "data/raw/stroke_orientation_9954_leaf267.jpg",
+      "bytes": 1668760,
+      "sha256": "02ce66042c4694565c0d34119bddb7b2fec1baa7233cc375d40138a1d3129fe8"
+    },
+    {
+      "path": "results/primary_pages/stroke-orientation-spear-marks-native.png",
+      "bytes": 31018,
+      "sha256": "42e7658388c2fa8409e75c985e4b2c17d02082f2c3d4834f90930e1dee01f1fa"
+    },
+    {
+      "path": "results/primary_pages/pettersson-orientation-89.png",
+      "bytes": 118564,
+      "sha256": "ee9cfef485bdc3d43e6049f340ab944a74103df6067332a83d4a4f6113a4b13d"
+    },
+    {
+      "path": "results/primary_pages/pettersson-orientation-90.png",
+      "bytes": 168028,
+      "sha256": "1418031fc98796d9119d64658a02ab335b642c21ff51d4299a30edb842246a62"
+    },
+    {
+      "path": "results/primary_pages/pettersson-1999-followup-3.png",
+      "bytes": 155253,
+      "sha256": "99f318564368fecec7a8cd066632f9f5de11f09a56e5c1b17e79250ea7939018"
+    },
+    {
+      "path": "results/primary_pages/pettersson-1999-4.png",
+      "bytes": 157612,
+      "sha256": "a8f67bdcbce30c6c5a65b567a90d856e24b33f91f9566bd8910a3dbd7cd2c043"
+    },
+    {
+      "path": "results/primary_pages/pettersson-1999-9.png",
+      "bytes": 169391,
+      "sha256": "84a66a2bb93638dfda785718dfa3bf7f04256123e2ed8870ebdd6f98fe119ecb"
+    },
+    {
+      "path": "results/primary_pages/pettersson-1999-10.png",
+      "bytes": 158016,
+      "sha256": "fcb38b2bdf985d70cbde329091d480e14e61fd41d45d0fd929038bdcffd813cc"
+    },
+    {
+      "path": "results/primary_pages/pettersson-1999-11.png",
+      "bytes": 158526,
+      "sha256": "7e7d93a682d44325229e9a5b2ba72a9d543faded3d09d88fd021c6893393a573"
+    },
+    {
+      "path": "results/primary_pages/pettersson-1999-followup-12.png",
+      "bytes": 157610,
+      "sha256": "4475c7df33d14de641f34de5542f21fd92437e71c11f6b9bcddfc3498c3d6eae"
+    },
+    {
+      "path": "results/primary_pages/pettersson-1999-13.png",
+      "bytes": 144756,
+      "sha256": "a847bd5cb6d8aa80ef81e5bfb19d7f6aa7db9bb54d441b1fef8b79ce51cf5ae9"
+    },
+    {
+      "path": "results/primary_pages/pettersson-1999-followup-14.png",
+      "bytes": 183806,
+      "sha256": "e9a706431a7152817868367f75f1bc1b4c407a9288d8edcfeb82bd472fab0e1d"
+    },
+    {
+      "path": "results/primary_pages/pettersson-identifiability-17.png",
+      "bytes": 163119,
+      "sha256": "58e85f8c40c6a55ba3367f7eea6249792f4920c194e20ebfa3020f4841d481a8"
+    },
+    {
+      "path": "results/primary_pages/pettersson-identifiability-18.png",
+      "bytes": 164453,
+      "sha256": "76f52de8c9d1463858992caa61f2fb3b62036cdb86fa7f6dee1e79a1cab64603"
+    },
+    {
+      "path": "results/primary_pages/pettersson-identifiability-19.png",
+      "bytes": 134970,
+      "sha256": "bdcdfc021fe9e348a96b1fc680c14124cdf837e22e68674cdd710308a2e0247b"
+    },
+    {
+      "path": "results/primary_pages/pettersson-identifiability-20.png",
+      "bytes": 76683,
+      "sha256": "efbfd545aa282103d01c7bcfd21e4353e56c3d3331cc19c9dc5989c734fe7325"
+    }
+  ],
+  "downloads": []
+}

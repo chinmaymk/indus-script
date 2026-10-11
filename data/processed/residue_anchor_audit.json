@@ -1,0 +1,352 @@
+{
+  "research_date": "2026-09-24",
+  "question": "Do two targeted published residue studies securely join authenticated Indus sign sequences with chemically identified contents?",
+  "result": "No authenticated sign-sequence-to-content join established within reviewed sources.",
+  "universal_absence_claim": false,
+  "established_semantic_values": {},
+  "studies": [
+    {
+      "id": "suryanarayan_2021",
+      "doi": "10.1016/j.jas.2020.105291",
+      "main_pdf": "data/raw/residue_suryanarayan_2021_main.pdf",
+      "supplement_pdf": "data/raw/residue_suryanarayan_2021_si3.pdf",
+      "main_reported_sample_count": 172,
+      "csv_rows": 124,
+      "csv_archaeological_rows": 122,
+      "csv_comparator_rows": 2,
+      "csv_is_full_sample_inventory": false,
+      "inscription_fields": [],
+      "visual_review": {
+        "pages_one_based": [
+          1,
+          2,
+          6,
+          7,
+          8,
+          9,
+          13,
+          14,
+          15,
+          16,
+          19,
+          20,
+          21,
+          23,
+          24,
+          26,
+          27,
+          28,
+          29,
+          32,
+          33,
+          34,
+          35,
+          36
+        ],
+        "page_resolution_max_pixels": 1500,
+        "method": "Directly viewed all 24 rendered SI3 pages containing embedded photographs, not an artifact examination.",
+        "unviewed_pages": "Remaining 18 pages text-extracted only.",
+        "limits": [
+          "Some photos missing or only one side supplied.",
+          "Small published photos can miss faint marks.",
+          "Inventory ink and paint bands are not automatically script."
+        ]
+      },
+      "specific_candidates": [
+        {
+          "sample": "FRN24",
+          "photo_page": 27,
+          "source_photo_table": "S.11",
+          "visible": "painted band pattern",
+          "csv_lipid_ug_g": "7.087342989",
+          "csv_isotope_values": null,
+          "authenticated_sign_sequence": null,
+          "interpretation": "Decoration candidate only; no secure writing identification."
+        },
+        {
+          "sample": "FRN27",
+          "photo_page": 29,
+          "source_photo_table": "S.11",
+          "visible": "painted decorative fragments",
+          "lipid_status": "Starred below 5 ug/g threshold in source",
+          "authenticated_sign_sequence": null,
+          "interpretation": "No secure writing or content anchor."
+        }
+      ]
+    },
+    {
+      "id": "ghosh_2025",
+      "doi": "10.1016/j.qeh.2024.100050",
+      "online_date": "2024-12-13",
+      "publication_volume_year": 2025,
+      "main_source": "data/raw/residue_ghosh_2025_web_excerpt.txt",
+      "supplements": [
+        "data/raw/residue_ghosh_2025_si1.docx",
+        "data/raw/residue_ghosh_2025_si2.docx",
+        "data/raw/residue_ghosh_2025_si3.docx"
+      ],
+      "figure_visually_reviewed": "data/raw/residue_ghosh_2025_fig3.jpg",
+      "supplement_I_rows": 9,
+      "supplement_II_rows": 6,
+      "post_gupta_sample": "RPR18",
+      "site_level_inscriptions_statement_joined_to_sample": false,
+      "specific_candidates": [
+        {
+          "sample": "KRN15",
+          "visible": "repeated wavy incisions",
+          "SI_I_composition": "NA",
+          "SI_I_lipid_yield": "NA",
+          "authenticated_sign_sequence": null
+        },
+        {
+          "sample": "RPR153",
+          "visible": "parallel grooves",
+          "SI_II_composition": "NA",
+          "SI_II_lipid_yield": "NA",
+          "authenticated_sign_sequence": null
+        }
+      ],
+      "unresolved_source_conflicts": [
+        {
+          "sample": "RPR62",
+          "figure_3": "perforated vessel caption and visibly perforated image",
+          "SI_II_and_III": "cooking pot",
+          "identity_repaired": false
+        },
+        {
+          "SI_I": "KRN15",
+          "SI_III": "KRN16",
+          "shared_yield": "NA",
+          "shared_porosity": "24.5996",
+          "identity_repaired": false
+        },
+        {
+          "SI_I": "KRN02",
+          "SI_III": "KRN183",
+          "shared_yield": "NA",
+          "shared_porosity": "20.2227",
+          "identity_repaired": false
+        },
+        {
+          "SI_I": "KRN183",
+          "SI_III": "KRN187",
+          "shared_yield": "312.5233",
+          "shared_porosity": "19.6164",
+          "identity_repaired": false
+        },
+        {
+          "SI_I": "KRN76",
+          "SI_III": "KRN77",
+          "shared_yield": "420.7757",
+          "shared_porosity": "25.4377",
+          "identity_repaired": false
+        }
+      ]
+    }
+  ],
+  "failed_or_partial_attempts": [
+    "Sandbox curl Oxford DNS failure; authorized retrieval succeeded.",
+    "Web PMC returned browser check; direct HTML succeeded.",
+    "ScienceDirect main web/direct curl 403.",
+    "ResearchGate direct HTML and PDF curl 403; web download link returned 404.",
+    "PMC SI3 direct request returned download interstitial HTML, archived separately; publisher CDN PDF succeeded.",
+    "Optional bs4 import unavailable; standard library used instead."
+  ],
+  "reproduction_script": "scripts/audit_residue_samples.py",
+  "metadata_result": "results/residue_sample_metadata.json",
+  "evidence_fingerprints": [
+    {
+      "path": "data/raw/residue_suryanarayan_2021_main.pdf",
+      "bytes": 7789557,
+      "sha256": "288c3b058c57a701720ba703d8a52476b6f541b785d8578410714dea5d590d73"
+    },
+    {
+      "path": "data/raw/residue_cam_repository.html",
+      "bytes": 533903,
+      "sha256": "6d811960740f6452454cfb9f55bcc5360fa841e667f74ede09e587b90b8ce5dc"
+    },
+    {
+      "path": "data/raw/residue_suryanarayan_data.csv",
+      "bytes": 92766,
+      "sha256": "47cdc35c688bf523ab1a2b067d538bcb8e4b03401bc4a2e02e2b5c5d76425945"
+    },
+    {
+      "path": "data/raw/residue_pmc7829615.html",
+      "bytes": 321300,
+      "sha256": "9f67731d32c66706d2298abfcde942f590641659d799fdd5a1279592bcf9052b"
+    },
+    {
+      "path": "data/raw/residue_suryanarayan_2021_si3_download_page.html",
+      "bytes": 1817,
+      "sha256": "120b4432f836efc92493fd2ae73721666e867498be548929b0ebad73b9148360"
+    },
+    {
+      "path": "data/raw/residue_suryanarayan_2021_si3.pdf",
+      "bytes": 2643173,
+      "sha256": "6a7871bc4ead58667d004be920a759ee04300c34868a9de1d187206726e754fe"
+    },
+    {
+      "path": "data/raw/residue_ghosh_2025_fig3.jpg",
+      "bytes": 128900,
+      "sha256": "98e88d7df722cc5dde9012cb11c32b01708d18aa5652dc854fde8da8ce74da57"
+    },
+    {
+      "path": "data/raw/residue_ghosh_2025_web_excerpt.txt",
+      "bytes": 27944,
+      "sha256": "78c902bd73050ce8ef3f7a0adef4c7f3c2f2a09a48644d516b9b039ff1b0465b"
+    },
+    {
+      "path": "data/raw/residue_ghosh_2025_si1.docx",
+      "bytes": 24722,
+      "sha256": "0ac7a12dc7eb44cda66fd9b0501e2ead80842de5a0aa849c5a9adf564217e958"
+    },
+    {
+      "path": "data/raw/residue_ghosh_2025_si2.docx",
+      "bytes": 23883,
+      "sha256": "766463c48813877d186042b88020ef42172e5a60a4aacc39d2865fafe2f8c91d"
+    },
+    {
+      "path": "data/raw/residue_ghosh_2025_si3.docx",
+      "bytes": 20937,
+      "sha256": "d42922505772ff52ed559875e5ad2e31733134e0fe6637888aca756f35c717f4"
+    },
+    {
+      "path": "results/primary_pages/residue-si3-01.png",
+      "bytes": 388298,
+      "sha256": "ad66bc6f291afbd99a804c0ce4b460cfd16d584555d987272ed1a1d460213ad8"
+    },
+    {
+      "path": "results/primary_pages/residue-si3-02.png",
+      "bytes": 429074,
+      "sha256": "a643593624eb625f1145ffbb5ac39d1adb6d939bdf141fa08c8a18206b30e922"
+    },
+    {
+      "path": "results/primary_pages/residue-si3-06.png",
+      "bytes": 591542,
+      "sha256": "265a7828abf67c722d9f51c6b705da8dbb1f8c2cf8f5569ad91f4cc26862c51b"
+    },
+    {
+      "path": "results/primary_pages/residue-si3-07.png",
+      "bytes": 475057,
+      "sha256": "cc282a27ebfd6c0f507d13653ed16f1c2173ce51f545c89f3d19a7e9062f6d23"
+    },
+    {
+      "path": "results/primary_pages/residue-si3-08.png",
+      "bytes": 505635,
+      "sha256": "5343168258d18541c01dc3d7cd330de8cf1acd206ce1246821631981b4503c6e"
+    },
+    {
+      "path": "results/primary_pages/residue-si3-09.png",
+      "bytes": 452675,
+      "sha256": "7052e3c42f937314a9c08fc242b1937abeb5119ec05554d13cab986145555cd7"
+    },
+    {
+      "path": "results/primary_pages/residue-si3-13.png",
+      "bytes": 391237,
+      "sha256": "a6bdbba620e760c3020a351bc5eeed62798035534a1b28aa87538592493c10a6"
+    },
+    {
+      "path": "results/primary_pages/residue-si3-14.png",
+      "bytes": 444161,
+      "sha256": "a524d43fa721ab9ed5a308c30586bd9a79f41bd0578b27cb56c48a798de3c159"
+    },
+    {
+      "path": "results/primary_pages/residue-si3-15.png",
+      "bytes": 420417,
+      "sha256": "6df5abe0246be29d25d5e6e7003d8c021287fc9ecad5d179a21d164d00ec66a1"
+    },
+    {
+      "path": "results/primary_pages/residue-si3-16.png",
+      "bytes": 330891,
+      "sha256": "9e3ed9fec434c29a042a3abfe455a2fe146bddc1765a6a4b623ec46a179ca5b6"
+    },
+    {
+      "path": "results/primary_pages/residue-si3-19.png",
+      "bytes": 342701,
+      "sha256": "c4debfb0dbdb8ac7a52a8966bc097f24594681c240e03b5067bf45c53bd97544"
+    },
+    {
+      "path": "results/primary_pages/residue-si3-20.png",
+      "bytes": 364139,
+      "sha256": "3cb52ec2b51b6fd4216903957188c0e213979b86444a22fe20d6ac750203adc3"
+    },
+    {
+      "path": "results/primary_pages/residue-si3-21.png",
+      "bytes": 300462,
+      "sha256": "3313e3fc0f81b069d5bea7e326d448baac9d702136f597b38bccfb00a65a6e88"
+    },
+    {
+      "path": "results/primary_pages/residue-si3-23.png",
+      "bytes": 210779,
+      "sha256": "8f52fa2529f5a255b6ba981fdc0aa61047fd986b90902803fc11946176b9d0fd"
+    },
+    {
+      "path": "results/primary_pages/residue-si3-24.png",
+      "bytes": 349442,
+      "sha256": "f5265db874b1c53fd61559d23ce8042fe5827cfee04516ac035cb74329047d8a"
+    },
+    {
+      "path": "results/primary_pages/residue-si3-26.png",
+      "bytes": 463286,
+      "sha256": "4b8d9b4bf39975ae65c46fa1e3ee38a369d92ed94d3637ae66ddfac29ca71842"
+    },
+    {
+      "path": "results/primary_pages/residue-si3-27.png",
+      "bytes": 535354,
+      "sha256": "15dd18cdc89040971381a0fe28c9be8713ec4e4c919b9026ed621ddb59f9f3a5"
+    },
+    {
+      "path": "results/primary_pages/residue-si3-28.png",
+      "bytes": 508232,
+      "sha256": "b59c6cb3456d056797c8ed126bcb288def710539e00fbb6bc216014555eb9ec2"
+    },
+    {
+      "path": "results/primary_pages/residue-si3-29.png",
+      "bytes": 442764,
+      "sha256": "b7d6bd6a0ccf5215f0ffd5aa668851f1344186564f49d7bc33761a2e5ba0af65"
+    },
+    {
+      "path": "results/primary_pages/residue-si3-32.png",
+      "bytes": 469078,
+      "sha256": "23f3a77e3a4700bbb295f32139b4a4d8cefd07c5e7ce4fcd4741b2e11bf6272e"
+    },
+    {
+      "path": "results/primary_pages/residue-si3-33.png",
+      "bytes": 510455,
+      "sha256": "4532ddfed3439bd59b83c86115fbdfadd91d339f83ed05a4a35ac8449b518735"
+    },
+    {
+      "path": "results/primary_pages/residue-si3-34.png",
+      "bytes": 493900,
+      "sha256": "d03240d0b53a411c98b59c3a1c4358c733e6db96cb72a0487722651d4875f3a0"
+    },
+    {
+      "path": "results/primary_pages/residue-si3-35.png",
+      "bytes": 528407,
+      "sha256": "e34fce9144a815d5b3d595ac8e5f30b664f2c6d102f96fa1d9bcd2ebfbd9f66c"
+    },
+    {
+      "path": "results/primary_pages/residue-si3-36.png",
+      "bytes": 81674,
+      "sha256": "e7ee38043ae126d0d3728dd9510becde28493dc496e6521ae8d81ce7e1c4224f"
+    }
+  ],
+  "parent_crosscheck": {
+    "figure": "data/raw/residue_ghosh_2025_fig3.jpg",
+    "confirmed": [
+      "RPR62 and RPR49 perforated",
+      "RPR153 parallel grooves",
+      "KRN15 wavy grooves",
+      "Modern ink IDs not ancient inscriptions"
+    ],
+    "SI_II_text_confirmed": [
+      "RPR62 cooking pot",
+      "RPR153 and RPR49 NA lipid fields"
+    ],
+    "SI3_pages_viewed": [
+      27,
+      29
+    ],
+    "SI3_observation": "FRN24 band pattern and FRN27 painted decoration do not establish an authenticated sign sequence in these small photographs."
+  }
+}

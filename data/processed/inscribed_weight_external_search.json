@@ -1,0 +1,176 @@
+{
+  "date": "2026-09-28",
+  "scope": "bounded new external search, not exhaustive museum inventory",
+  "queries_executed": 5,
+  "maximum_queries": 5,
+  "queries": [
+    {
+      "q": "\"Indus\" \"inscribed weight\" museum",
+      "domains": [
+        "britishmuseum.org",
+        "penn.museum",
+        "harappa.com",
+        "mfa.org",
+        "metmuseum.org"
+      ]
+    },
+    {
+      "q": "\"Harappa\" \"weight\" \"inscription\" grams",
+      "domains": [
+        "harappa.com",
+        "asi.nic.in",
+        "penn.museum"
+      ]
+    },
+    {
+      "q": "site:britishmuseum.org/collection/object \"Indus\" \"weight\" \"inscription\""
+    },
+    {
+      "q": "site:harappa.com \"scale\" \"inscribed\" ivory Lothal"
+    },
+    {
+      "q": "\"Harappan\" \"inscribed weight\" museum -site:harappa.com"
+    }
+  ],
+  "batch_result_attribution": "Combined results do not identify an exclusive query for each result.",
+  "qualifying_new_inscribed_weight_or_instrument_anchors": 0,
+  "new_same_class_measured_inscribed_instrument_series": 0,
+  "candidates": [
+    {
+      "artifact_id": "H2000-4496/9880-01",
+      "type": "spherical agate weight with flattened side",
+      "identity_in_downloaded_primary_caption": true,
+      "photograph_inspected": true,
+      "independently_recorded_mass_g": null,
+      "ancient_Indus_signs_authenticated": false,
+      "all_faces_inspected": false,
+      "reason_not_anchor": "No mass stated and no inscription authenticated in the one shown view; unseen surfaces unknown."
+    },
+    {
+      "artifact_id": "BM120228 / 1883,1116.1",
+      "type": "stamp-seal",
+      "indexed_official_record_mass_g": 8,
+      "source_reports_Indus_inscription": true,
+      "measurement_authenticated_against_live_page_or_original_photo": false,
+      "photograph_inspected": false,
+      "direct_page_open_status": 403,
+      "reported_condition": "top of domed reverse broken",
+      "reported_findspot": "Babylon",
+      "instrument_function_authenticated": false,
+      "reason_not_anchor": "A measured inscribed seal is not an independently identified weight or measure; damage and inscription-value relation unresolved."
+    },
+    {
+      "artifact_id": "H98-3827/8447-1",
+      "type": "limestone cubical weight",
+      "evidence_level": "search extract of excavators' report, no downloaded original/photo inspection",
+      "reason_not_anchor": "Weight figure item7 differs from inscribed pottery items8\u201310; adjacency is no same-object join."
+    }
+  ],
+  "previously_reviewed_not_new": [
+    "Susa stroke-marked weights",
+    "Ur and Bahrain weights",
+    "BM134301 / 1963,0715.1",
+    "metal tool masses",
+    "prior vessel dimensions and capacity fits"
+  ],
+  "failed_accesses": [
+    {
+      "url": "https://www.britishmuseum.org/collection/object/W_1883-1116-1?selectedImageId=272276001",
+      "via": "web.open",
+      "status": 403,
+      "response_body_exposed": false
+    },
+    {
+      "url": "https://www.britishmuseum.org/collection/object/W_1963-0715-1?selectedImageId=949886003",
+      "via": "web.open",
+      "status": 403,
+      "response_body_exposed": false
+    }
+  ],
+  "no_outreach": true,
+  "no_access_bypass": true,
+  "negative_result_is_not_nonexistence": true,
+  "no_values_assigned": true,
+  "all_417_values_remain_null": true,
+  "established_semantic_values": 0,
+  "established_phonetic_values": 0,
+  "new_raw_artifact_count": 5,
+  "new_raw_bytes": 117058,
+  "evidence_files": [
+    {
+      "path": "data/processed/fetch_inscribed-weight-anchor-h2000-4496_html.json",
+      "bytes": 865,
+      "sha256": "59d8fe46ecfc68045b6ffcd050d2798cff24c9879f2daf2521280e91b1b6fcbd"
+    },
+    {
+      "path": "data/processed/fetch_inscribed-weight-anchor-h2000-4496_jpg.json",
+      "bytes": 839,
+      "sha256": "ec7b14e90ee3ebf8146f2956759cea6e819af65f88806399db5e27c70bbaa6f9"
+    },
+    {
+      "path": "data/processed/inscribed_weight_anchor_new_sources.json",
+      "bytes": 2779,
+      "sha256": "563e18f0a829b1eb573fd91d4ff099b9eb4c05be74eb1ad6126a85ab8d8262b2"
+    },
+    {
+      "path": "data/raw/inscribed-weight-anchor-h2000-4496.html",
+      "bytes": 27033,
+      "sha256": "ed4ad23b125b080492eb1fec0c4f5cbb835d1e65b5f1ac10ad46879a2aa79ac9"
+    },
+    {
+      "path": "data/raw/inscribed-weight-anchor-h2000-4496.html.headers.json",
+      "bytes": 1526,
+      "sha256": "07d778dfe863a727ef1062dd8cf9c67b4dcacde455a3067c52209453e5dd4a85"
+    },
+    {
+      "path": "data/raw/inscribed-weight-anchor-h2000-4496.jpg",
+      "bytes": 18305,
+      "sha256": "9a2d18063026f7178d6ba9cbc7e05c5f515321ea22e6014f80e808c0d0d54d18"
+    },
+    {
+      "path": "data/raw/inscribed-weight-anchor-h2000-4496.jpg.headers.json",
+      "bytes": 1256,
+      "sha256": "990781c390db98f302ed7db1be2fe3aca446a7eb9fd7d3f7340662f7c192f689"
+    },
+    {
+      "path": "data/raw/inscribed-weight-anchor-web-capture.json",
+      "bytes": 68938,
+      "sha256": "9346ef985fa3372205bd4d7c17bd7c7394b6141bee7f34e8bc3732cc225a81e8"
+    },
+    {
+      "path": "docs/CAPACITY_CONTEXT_RESULTS.md",
+      "bytes": 6652,
+      "sha256": "79bb844a6de4ec821f3d8dd5548d7e5ac2f7f1a03548c96b5b36c7b322754004"
+    },
+    {
+      "path": "docs/DILMUN_WEIGHT_ANCHORS.md",
+      "bytes": 2378,
+      "sha256": "f795c996e7911a0cf5f5756f6fa497856d4a567aecf32cc9dfa5bd54f5cfa0f3"
+    },
+    {
+      "path": "docs/INSCRIBED_WEIGHT_EXTERNAL_SEARCH.md",
+      "bytes": 6979,
+      "sha256": "6d12ecb4cd4e96fb4bcef60c34200a0dd9185aa44ddc6007a61b560d74049d28"
+    },
+    {
+      "path": "docs/INSCRIBED_WEIGHT_SEARCH.md",
+      "bytes": 4682,
+      "sha256": "f337a7c579ab398a157ab4692bfdb873d61bf81e7d7ba7527819180bc83a723e"
+    },
+    {
+      "path": "docs/TOOL_SIGN_MASS_RESULTS.md",
+      "bytes": 4917,
+      "sha256": "cd394dd240e5c46d3bcd414097025898c052c2adb2d6ef3ef8e2cd69093471a2"
+    },
+    {
+      "path": "docs/WEIGHT_ANCHORS.md",
+      "bytes": 9340,
+      "sha256": "85b4dee3f73d5f74ea3bd46b9e1738c24441e3fe77bc6cfdb93e3a538a0041bd"
+    },
+    {
+      "path": "scripts/persist_inscribed_weight_external_search.py",
+      "bytes": 6010,
+      "sha256": "6a231096a85cbef2a425622e25b6253af1ea10a86f16b7e694bcaba647161cb3"
+    }
+  ]
+}

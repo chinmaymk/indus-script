@@ -1,0 +1,554 @@
+{
+  "all_candidate_groups": 20,
+  "all_source_records": {
+    "conflicts": [
+      {
+        "cisi": [
+          "H-306"
+        ],
+        "edge_index": 1,
+        "existing": "1",
+        "from": "W700:long",
+        "required": "3/2",
+        "to": "W840:long"
+      },
+      {
+        "cisi": [
+          "H-306"
+        ],
+        "edge_index": 1,
+        "existing": "1",
+        "from": "W840:long",
+        "required": "2/3",
+        "to": "W700:long"
+      }
+    ],
+    "connected_components": [
+      [
+        "W700:long",
+        "W840:long",
+        "W840:stacked"
+      ]
+    ],
+    "free_positive_scales_if_consistent": null,
+    "normalized_component_values": null,
+    "positive_solution_exists": false
+  },
+  "eligible_frozen_groups": 6,
+  "excluded_from_ratio_graph": [
+    {
+      "cisi": [
+        "H-1354"
+      ],
+      "details": [
+        "W840:no_recognized_adjacent_numeric_run"
+      ],
+      "reason": "outside_frozen_screen_eligibility"
+    },
+    {
+      "cisi": [
+        "H-1152"
+      ],
+      "details": [
+        "W700:not_complete_simple_single_line",
+        "W700:not_marked_complete",
+        "W840:not_complete_simple_single_line",
+        "W840:not_marked_complete"
+      ],
+      "reason": "outside_frozen_screen_eligibility"
+    },
+    {
+      "cisi": [
+        "H-2213"
+      ],
+      "details": [
+        "W840:no_recognized_adjacent_numeric_run"
+      ],
+      "reason": "outside_frozen_screen_eligibility"
+    },
+    {
+      "cisi": [
+        "H-2246"
+      ],
+      "details": [
+        "W840:no_recognized_adjacent_numeric_run"
+      ],
+      "reason": "outside_frozen_screen_eligibility"
+    },
+    {
+      "cisi": [
+        "H-2214"
+      ],
+      "details": [
+        "W840:no_recognized_adjacent_numeric_run"
+      ],
+      "reason": "outside_frozen_screen_eligibility"
+    },
+    {
+      "cisi": [
+        "H-2211"
+      ],
+      "details": [
+        "marker_occurrence_not_unique"
+      ],
+      "reason": "outside_frozen_screen_eligibility"
+    },
+    {
+      "cisi": [
+        "H-1806"
+      ],
+      "details": [
+        "W700:not_complete_simple_single_line",
+        "W700:not_marked_complete",
+        "W700:direction_not_R/L",
+        "W840:not_complete_simple_single_line",
+        "W840:not_marked_complete",
+        "W840:direction_not_R/L"
+      ],
+      "reason": "outside_frozen_screen_eligibility"
+    },
+    {
+      "cisi": [
+        "H-250"
+      ],
+      "details": [
+        "W700:not_complete_simple_single_line",
+        "W700:not_marked_complete",
+        "W840:not_complete_simple_single_line",
+        "W840:not_marked_complete"
+      ],
+      "reason": "outside_frozen_screen_eligibility"
+    },
+    {
+      "cisi": [
+        "H-340"
+      ],
+      "details": [
+        "W840:not_complete_simple_single_line",
+        "W840:not_marked_complete"
+      ],
+      "reason": "outside_frozen_screen_eligibility"
+    },
+    {
+      "cisi": [
+        "H-770"
+      ],
+      "details": [
+        "W840:no_recognized_adjacent_numeric_run"
+      ],
+      "reason": "outside_frozen_screen_eligibility"
+    },
+    {
+      "cisi": [
+        "H-771"
+      ],
+      "details": [
+        "W840:no_recognized_adjacent_numeric_run"
+      ],
+      "reason": "outside_frozen_screen_eligibility"
+    },
+    {
+      "cisi": [
+        "H-904"
+      ],
+      "reason": "mixed_or_nonstroke_expression_not_a_single_ratio_edge"
+    },
+    {
+      "cisi": [
+        "H-926"
+      ],
+      "details": [
+        "W840:unknown_or_separator_token",
+        "W840:not_marked_complete",
+        "W840:sign_count_mismatch"
+      ],
+      "reason": "outside_frozen_screen_eligibility"
+    },
+    {
+      "cisi": [
+        "H-1261"
+      ],
+      "details": [
+        "W700:not_complete_simple_single_line",
+        "W700:not_marked_complete",
+        "W840:not_complete_simple_single_line",
+        "W840:not_marked_complete"
+      ],
+      "reason": "outside_frozen_screen_eligibility"
+    },
+    {
+      "cisi": [
+        "H-1313"
+      ],
+      "details": [
+        "W840:unknown_or_separator_token",
+        "W840:not_marked_complete",
+        "W840:sign_count_mismatch"
+      ],
+      "reason": "outside_frozen_screen_eligibility"
+    }
+  ],
+  "implied_W840_stacked_over_long_without_H1923": "2/3",
+  "input_sha256": {
+    "docs/NUMERAL_IMAGES.md": "30c8b4148f6a44c5906349fe77825ead76e360ebcf20a7ca954ef2180b37b02c",
+    "results/numeral_pair_screen.json": "98a57b7abbfccdd409200373c882cf11ba746b95a18e50c3b7894eb13d399fae",
+    "scripts/screen_numeral_pairs.py": "ea4041060b6c091d1ad07a1caf92b1ab21ed2539aaac60a29703cc4d69c2a78d"
+  },
+  "limitations": [
+    "This does not establish equal represented quantities across faces or the meanings of either marker.",
+    "Dropping H1923 is an explicit source-sensitivity calculation, not deletion or evidence that its transcription is wrong.",
+    "H326,H924,H925 repeat the same numeric pattern and do not supply three independent ratio constraints.",
+    "Compatibility of a more flexible class-context model is not positive evidence for it.",
+    "H904 is mixed and not expressible as one graph edge; its existing conditional equation is retained elsewhere.",
+    "Graph consistency is not a fit to all417 signs or to excluded corpus records."
+  ],
+  "node_definition": "Positive value per stroke conditional on graphic class and marker context.",
+  "pure_class_edges": [
+    {
+      "cisi": [
+        "H-1923"
+      ],
+      "counts": [
+        2,
+        2
+      ],
+      "group_id": "567",
+      "nodes": [
+        "W700:long",
+        "W840:long"
+      ],
+      "numeric_pair_signature": [
+        [
+          [],
+          [
+            "W032"
+          ]
+        ],
+        [
+          [
+            "W032"
+          ],
+          []
+        ]
+      ]
+    },
+    {
+      "cisi": [
+        "H-306"
+      ],
+      "counts": [
+        3,
+        2
+      ],
+      "group_id": "1328",
+      "nodes": [
+        "W700:long",
+        "W840:long"
+      ],
+      "numeric_pair_signature": [
+        [
+          [],
+          [
+            "W033"
+          ]
+        ],
+        [
+          [
+            "W032"
+          ],
+          []
+        ]
+      ]
+    },
+    {
+      "cisi": [
+        "H-326"
+      ],
+      "counts": [
+        3,
+        3
+      ],
+      "group_id": "1348",
+      "nodes": [
+        "W700:long",
+        "W840:stacked"
+      ],
+      "numeric_pair_signature": [
+        [
+          [],
+          [
+            "W033"
+          ]
+        ],
+        [
+          [],
+          [
+            "W013"
+          ]
+        ]
+      ]
+    },
+    {
+      "cisi": [
+        "H-924"
+      ],
+      "counts": [
+        3,
+        3
+      ],
+      "group_id": "1804",
+      "nodes": [
+        "W700:long",
+        "W840:stacked"
+      ],
+      "numeric_pair_signature": [
+        [
+          [],
+          [
+            "W033"
+          ]
+        ],
+        [
+          [],
+          [
+            "W013"
+          ]
+        ]
+      ]
+    },
+    {
+      "cisi": [
+        "H-925"
+      ],
+      "counts": [
+        3,
+        3
+      ],
+      "group_id": "1805",
+      "nodes": [
+        "W700:long",
+        "W840:stacked"
+      ],
+      "numeric_pair_signature": [
+        [
+          [],
+          [
+            "W033"
+          ]
+        ],
+        [
+          [],
+          [
+            "W013"
+          ]
+        ]
+      ]
+    }
+  ],
+  "scope": "Conditional equality graph from the frozen parser; values are effective class-and-marker contributions, not decoded numerals.",
+  "semantic_values_assigned": 0,
+  "without_H1923_but_equating_long_and_stacked": {
+    "conflicts": [
+      {
+        "cisi": [
+          "H-326"
+        ],
+        "edge_index": 1,
+        "existing": "3/2",
+        "from": "W700:long",
+        "required": "1",
+        "to": "W840:long"
+      },
+      {
+        "cisi": [
+          "H-924"
+        ],
+        "edge_index": 2,
+        "existing": "3/2",
+        "from": "W700:long",
+        "required": "1",
+        "to": "W840:long"
+      },
+      {
+        "cisi": [
+          "H-925"
+        ],
+        "edge_index": 3,
+        "existing": "3/2",
+        "from": "W700:long",
+        "required": "1",
+        "to": "W840:long"
+      },
+      {
+        "cisi": [
+          "H-326"
+        ],
+        "edge_index": 1,
+        "existing": "1",
+        "from": "W840:long",
+        "required": "3/2",
+        "to": "W700:long"
+      },
+      {
+        "cisi": [
+          "H-924"
+        ],
+        "edge_index": 2,
+        "existing": "1",
+        "from": "W840:long",
+        "required": "3/2",
+        "to": "W700:long"
+      },
+      {
+        "cisi": [
+          "H-925"
+        ],
+        "edge_index": 3,
+        "existing": "1",
+        "from": "W840:long",
+        "required": "3/2",
+        "to": "W700:long"
+      }
+    ],
+    "connected_components": [
+      [
+        "W700:long",
+        "W840:long"
+      ]
+    ],
+    "free_positive_scales_if_consistent": null,
+    "normalized_component_values": null,
+    "positive_solution_exists": false
+  },
+  "without_unverified_H1923": {
+    "conflicts": [],
+    "connected_components": [
+      [
+        "W700:long",
+        "W840:long",
+        "W840:stacked"
+      ]
+    ],
+    "edges": [
+      {
+        "cisi": [
+          "H-306"
+        ],
+        "counts": [
+          3,
+          2
+        ],
+        "group_id": "1328",
+        "nodes": [
+          "W700:long",
+          "W840:long"
+        ],
+        "numeric_pair_signature": [
+          [
+            [],
+            [
+              "W033"
+            ]
+          ],
+          [
+            [
+              "W032"
+            ],
+            []
+          ]
+        ]
+      },
+      {
+        "cisi": [
+          "H-326"
+        ],
+        "counts": [
+          3,
+          3
+        ],
+        "group_id": "1348",
+        "nodes": [
+          "W700:long",
+          "W840:stacked"
+        ],
+        "numeric_pair_signature": [
+          [
+            [],
+            [
+              "W033"
+            ]
+          ],
+          [
+            [],
+            [
+              "W013"
+            ]
+          ]
+        ]
+      },
+      {
+        "cisi": [
+          "H-924"
+        ],
+        "counts": [
+          3,
+          3
+        ],
+        "group_id": "1804",
+        "nodes": [
+          "W700:long",
+          "W840:stacked"
+        ],
+        "numeric_pair_signature": [
+          [
+            [],
+            [
+              "W033"
+            ]
+          ],
+          [
+            [],
+            [
+              "W013"
+            ]
+          ]
+        ]
+      },
+      {
+        "cisi": [
+          "H-925"
+        ],
+        "counts": [
+          3,
+          3
+        ],
+        "group_id": "1805",
+        "nodes": [
+          "W700:long",
+          "W840:stacked"
+        ],
+        "numeric_pair_signature": [
+          [
+            [],
+            [
+              "W033"
+            ]
+          ],
+          [
+            [],
+            [
+              "W013"
+            ]
+          ]
+        ]
+      }
+    ],
+    "free_positive_scales_if_consistent": 1,
+    "normalized_component_values": {
+      "W700:long": "1",
+      "W840:long": "3/2",
+      "W840:stacked": "1"
+    },
+    "positive_solution_exists": true
+  }
+}

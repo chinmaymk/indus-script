@@ -1,0 +1,1193 @@
+{
+  "additional_reading_alternatives": 2,
+  "complete_uniform_canonical_family": {
+    "integer_radices": "all R >=8",
+    "mass_pair_also_fits_for_all_R_ge_8": "Required ratio p=M*(R+5+4/R)/(m*(7R+6)) decreases forR>0: derivative sign is -(29R^2+56R+24). AtR=8 it is<2.6 for roundedM1910,m165. This uses the hypothetical original-chisel bound, not observed original mass.",
+    "proof": "All lower coefficients are at most7; seven occurs for i and u. For t=1,i=R,u=R^2,x=R^3, canonical carrying is equivalent to every lower coefficient<R. Thus exactly all integersR>=8 fit; there is no finite upper bound."
+  },
+  "constructive_models": [
+    {
+      "cases": [
+        {
+          "abstract_value": {
+            "decimal": 1216.0,
+            "exact": "1216"
+          },
+          "canonical_under_stated_convention": true,
+          "coefficients": {
+            "u": 3,
+            "x": 2
+          },
+          "object_or_alternative": "C-39"
+        },
+        {
+          "abstract_value": {
+            "decimal": 232.0,
+            "exact": "232"
+          },
+          "canonical_under_stated_convention": true,
+          "coefficients": {
+            "i": 5,
+            "u": 3
+          },
+          "object_or_alternative": "C-40"
+        },
+        {
+          "abstract_value": {
+            "decimal": 36.0,
+            "exact": "36"
+          },
+          "canonical_under_stated_convention": true,
+          "coefficients": {
+            "i": 4,
+            "t": 4
+          },
+          "object_or_alternative": "DK-7800"
+        },
+        {
+          "abstract_value": {
+            "decimal": 60.0,
+            "exact": "60"
+          },
+          "canonical_under_stated_convention": true,
+          "coefficients": {
+            "i": 7,
+            "t": 4
+          },
+          "object_or_alternative": "DK-7857"
+        },
+        {
+          "abstract_value": {
+            "decimal": 48.0,
+            "exact": "48"
+          },
+          "canonical_under_stated_convention": true,
+          "coefficients": {
+            "i": 6
+          },
+          "object_or_alternative": "DK-7855"
+        },
+        {
+          "abstract_value": {
+            "decimal": 108.0,
+            "exact": "108"
+          },
+          "canonical_under_stated_convention": true,
+          "coefficients": {
+            "i": 5,
+            "t": 4,
+            "u": 1
+          },
+          "object_or_alternative": "DK-7856"
+        },
+        {
+          "abstract_value": {
+            "decimal": 496.0,
+            "exact": "496"
+          },
+          "canonical_under_stated_convention": true,
+          "coefficients": {
+            "i": 6,
+            "u": 7
+          },
+          "object_or_alternative": "DK-7835"
+        },
+        {
+          "abstract_value": {
+            "decimal": 64.0,
+            "exact": "64"
+          },
+          "canonical_under_stated_convention": true,
+          "coefficients": {
+            "u": 1
+          },
+          "object_or_alternative": "K-121"
+        },
+        {
+          "abstract_value": {
+            "decimal": 40.0,
+            "exact": "40"
+          },
+          "canonical_under_stated_convention": true,
+          "coefficients": {
+            "i": 5
+          },
+          "object_or_alternative": "K-122"
+        },
+        {
+          "abstract_value": {
+            "decimal": 128.0,
+            "exact": "128"
+          },
+          "canonical_under_stated_convention": true,
+          "coefficients": {
+            "u": 2
+          },
+          "object_or_alternative": "K-121:2u"
+        },
+        {
+          "abstract_value": {
+            "decimal": 80.0,
+            "exact": "80"
+          },
+          "canonical_under_stated_convention": true,
+          "coefficients": {
+            "i": 2,
+            "u": 1
+          },
+          "object_or_alternative": "K-121:u+2i"
+        }
+      ],
+      "half_unit_equation_4t_equals_i_over_2": true,
+      "name": "uniform_8",
+      "units": {
+        "i": {
+          "decimal": 8.0,
+          "exact": "8"
+        },
+        "t": {
+          "decimal": 1.0,
+          "exact": "1"
+        },
+        "u": {
+          "decimal": 64.0,
+          "exact": "64"
+        },
+        "x": {
+          "decimal": 512.0,
+          "exact": "512"
+        }
+      }
+    },
+    {
+      "cases": [
+        {
+          "abstract_value": {
+            "decimal": 1701.0,
+            "exact": "1701"
+          },
+          "canonical_under_stated_convention": true,
+          "coefficients": {
+            "u": 3,
+            "x": 2
+          },
+          "object_or_alternative": "C-39"
+        },
+        {
+          "abstract_value": {
+            "decimal": 288.0,
+            "exact": "288"
+          },
+          "canonical_under_stated_convention": true,
+          "coefficients": {
+            "i": 5,
+            "u": 3
+          },
+          "object_or_alternative": "C-40"
+        },
+        {
+          "abstract_value": {
+            "decimal": 40.0,
+            "exact": "40"
+          },
+          "canonical_under_stated_convention": true,
+          "coefficients": {
+            "i": 4,
+            "t": 4
+          },
+          "object_or_alternative": "DK-7800"
+        },
+        {
+          "abstract_value": {
+            "decimal": 67.0,
+            "exact": "67"
+          },
+          "canonical_under_stated_convention": true,
+          "coefficients": {
+            "i": 7,
+            "t": 4
+          },
+          "object_or_alternative": "DK-7857"
+        },
+        {
+          "abstract_value": {
+            "decimal": 54.0,
+            "exact": "54"
+          },
+          "canonical_under_stated_convention": true,
+          "coefficients": {
+            "i": 6
+          },
+          "object_or_alternative": "DK-7855"
+        },
+        {
+          "abstract_value": {
+            "decimal": 130.0,
+            "exact": "130"
+          },
+          "canonical_under_stated_convention": true,
+          "coefficients": {
+            "i": 5,
+            "t": 4,
+            "u": 1
+          },
+          "object_or_alternative": "DK-7856"
+        },
+        {
+          "abstract_value": {
+            "decimal": 621.0,
+            "exact": "621"
+          },
+          "canonical_under_stated_convention": true,
+          "coefficients": {
+            "i": 6,
+            "u": 7
+          },
+          "object_or_alternative": "DK-7835"
+        },
+        {
+          "abstract_value": {
+            "decimal": 81.0,
+            "exact": "81"
+          },
+          "canonical_under_stated_convention": true,
+          "coefficients": {
+            "u": 1
+          },
+          "object_or_alternative": "K-121"
+        },
+        {
+          "abstract_value": {
+            "decimal": 45.0,
+            "exact": "45"
+          },
+          "canonical_under_stated_convention": true,
+          "coefficients": {
+            "i": 5
+          },
+          "object_or_alternative": "K-122"
+        },
+        {
+          "abstract_value": {
+            "decimal": 162.0,
+            "exact": "162"
+          },
+          "canonical_under_stated_convention": true,
+          "coefficients": {
+            "u": 2
+          },
+          "object_or_alternative": "K-121:2u"
+        },
+        {
+          "abstract_value": {
+            "decimal": 99.0,
+            "exact": "99"
+          },
+          "canonical_under_stated_convention": true,
+          "coefficients": {
+            "i": 2,
+            "u": 1
+          },
+          "object_or_alternative": "K-121:u+2i"
+        }
+      ],
+      "half_unit_equation_4t_equals_i_over_2": false,
+      "name": "uniform_9",
+      "units": {
+        "i": {
+          "decimal": 9.0,
+          "exact": "9"
+        },
+        "t": {
+          "decimal": 1.0,
+          "exact": "1"
+        },
+        "u": {
+          "decimal": 81.0,
+          "exact": "81"
+        },
+        "x": {
+          "decimal": 729.0,
+          "exact": "729"
+        }
+      }
+    },
+    {
+      "cases": [
+        {
+          "abstract_value": {
+            "decimal": 2300.0,
+            "exact": "2300"
+          },
+          "canonical_under_stated_convention": true,
+          "coefficients": {
+            "u": 3,
+            "x": 2
+          },
+          "object_or_alternative": "C-39"
+        },
+        {
+          "abstract_value": {
+            "decimal": 350.0,
+            "exact": "350"
+          },
+          "canonical_under_stated_convention": true,
+          "coefficients": {
+            "i": 5,
+            "u": 3
+          },
+          "object_or_alternative": "C-40"
+        },
+        {
+          "abstract_value": {
+            "decimal": 44.0,
+            "exact": "44"
+          },
+          "canonical_under_stated_convention": true,
+          "coefficients": {
+            "i": 4,
+            "t": 4
+          },
+          "object_or_alternative": "DK-7800"
+        },
+        {
+          "abstract_value": {
+            "decimal": 74.0,
+            "exact": "74"
+          },
+          "canonical_under_stated_convention": true,
+          "coefficients": {
+            "i": 7,
+            "t": 4
+          },
+          "object_or_alternative": "DK-7857"
+        },
+        {
+          "abstract_value": {
+            "decimal": 60.0,
+            "exact": "60"
+          },
+          "canonical_under_stated_convention": true,
+          "coefficients": {
+            "i": 6
+          },
+          "object_or_alternative": "DK-7855"
+        },
+        {
+          "abstract_value": {
+            "decimal": 154.0,
+            "exact": "154"
+          },
+          "canonical_under_stated_convention": true,
+          "coefficients": {
+            "i": 5,
+            "t": 4,
+            "u": 1
+          },
+          "object_or_alternative": "DK-7856"
+        },
+        {
+          "abstract_value": {
+            "decimal": 760.0,
+            "exact": "760"
+          },
+          "canonical_under_stated_convention": true,
+          "coefficients": {
+            "i": 6,
+            "u": 7
+          },
+          "object_or_alternative": "DK-7835"
+        },
+        {
+          "abstract_value": {
+            "decimal": 100.0,
+            "exact": "100"
+          },
+          "canonical_under_stated_convention": true,
+          "coefficients": {
+            "u": 1
+          },
+          "object_or_alternative": "K-121"
+        },
+        {
+          "abstract_value": {
+            "decimal": 50.0,
+            "exact": "50"
+          },
+          "canonical_under_stated_convention": true,
+          "coefficients": {
+            "i": 5
+          },
+          "object_or_alternative": "K-122"
+        },
+        {
+          "abstract_value": {
+            "decimal": 200.0,
+            "exact": "200"
+          },
+          "canonical_under_stated_convention": true,
+          "coefficients": {
+            "u": 2
+          },
+          "object_or_alternative": "K-121:2u"
+        },
+        {
+          "abstract_value": {
+            "decimal": 120.0,
+            "exact": "120"
+          },
+          "canonical_under_stated_convention": true,
+          "coefficients": {
+            "i": 2,
+            "u": 1
+          },
+          "object_or_alternative": "K-121:u+2i"
+        }
+      ],
+      "half_unit_equation_4t_equals_i_over_2": false,
+      "name": "uniform_10",
+      "units": {
+        "i": {
+          "decimal": 10.0,
+          "exact": "10"
+        },
+        "t": {
+          "decimal": 1.0,
+          "exact": "1"
+        },
+        "u": {
+          "decimal": 100.0,
+          "exact": "100"
+        },
+        "x": {
+          "decimal": 1000.0,
+          "exact": "1000"
+        }
+      }
+    },
+    {
+      "cases": [
+        {
+          "abstract_value": {
+            "decimal": 3888.0,
+            "exact": "3888"
+          },
+          "canonical_under_stated_convention": true,
+          "coefficients": {
+            "u": 3,
+            "x": 2
+          },
+          "object_or_alternative": "C-39"
+        },
+        {
+          "abstract_value": {
+            "decimal": 492.0,
+            "exact": "492"
+          },
+          "canonical_under_stated_convention": true,
+          "coefficients": {
+            "i": 5,
+            "u": 3
+          },
+          "object_or_alternative": "C-40"
+        },
+        {
+          "abstract_value": {
+            "decimal": 52.0,
+            "exact": "52"
+          },
+          "canonical_under_stated_convention": true,
+          "coefficients": {
+            "i": 4,
+            "t": 4
+          },
+          "object_or_alternative": "DK-7800"
+        },
+        {
+          "abstract_value": {
+            "decimal": 88.0,
+            "exact": "88"
+          },
+          "canonical_under_stated_convention": true,
+          "coefficients": {
+            "i": 7,
+            "t": 4
+          },
+          "object_or_alternative": "DK-7857"
+        },
+        {
+          "abstract_value": {
+            "decimal": 72.0,
+            "exact": "72"
+          },
+          "canonical_under_stated_convention": true,
+          "coefficients": {
+            "i": 6
+          },
+          "object_or_alternative": "DK-7855"
+        },
+        {
+          "abstract_value": {
+            "decimal": 208.0,
+            "exact": "208"
+          },
+          "canonical_under_stated_convention": true,
+          "coefficients": {
+            "i": 5,
+            "t": 4,
+            "u": 1
+          },
+          "object_or_alternative": "DK-7856"
+        },
+        {
+          "abstract_value": {
+            "decimal": 1080.0,
+            "exact": "1080"
+          },
+          "canonical_under_stated_convention": true,
+          "coefficients": {
+            "i": 6,
+            "u": 7
+          },
+          "object_or_alternative": "DK-7835"
+        },
+        {
+          "abstract_value": {
+            "decimal": 144.0,
+            "exact": "144"
+          },
+          "canonical_under_stated_convention": true,
+          "coefficients": {
+            "u": 1
+          },
+          "object_or_alternative": "K-121"
+        },
+        {
+          "abstract_value": {
+            "decimal": 60.0,
+            "exact": "60"
+          },
+          "canonical_under_stated_convention": true,
+          "coefficients": {
+            "i": 5
+          },
+          "object_or_alternative": "K-122"
+        },
+        {
+          "abstract_value": {
+            "decimal": 288.0,
+            "exact": "288"
+          },
+          "canonical_under_stated_convention": true,
+          "coefficients": {
+            "u": 2
+          },
+          "object_or_alternative": "K-121:2u"
+        },
+        {
+          "abstract_value": {
+            "decimal": 168.0,
+            "exact": "168"
+          },
+          "canonical_under_stated_convention": true,
+          "coefficients": {
+            "i": 2,
+            "u": 1
+          },
+          "object_or_alternative": "K-121:u+2i"
+        }
+      ],
+      "half_unit_equation_4t_equals_i_over_2": false,
+      "name": "uniform_12",
+      "units": {
+        "i": {
+          "decimal": 12.0,
+          "exact": "12"
+        },
+        "t": {
+          "decimal": 1.0,
+          "exact": "1"
+        },
+        "u": {
+          "decimal": 144.0,
+          "exact": "144"
+        },
+        "x": {
+          "decimal": 1728.0,
+          "exact": "1728"
+        }
+      }
+    },
+    {
+      "cases": [
+        {
+          "abstract_value": {
+            "decimal": 1840.0,
+            "exact": "1840"
+          },
+          "canonical_under_stated_convention": true,
+          "coefficients": {
+            "u": 3,
+            "x": 2
+          },
+          "object_or_alternative": "C-39"
+        },
+        {
+          "abstract_value": {
+            "decimal": 280.0,
+            "exact": "280"
+          },
+          "canonical_under_stated_convention": true,
+          "coefficients": {
+            "i": 5,
+            "u": 3
+          },
+          "object_or_alternative": "C-40"
+        },
+        {
+          "abstract_value": {
+            "decimal": 36.0,
+            "exact": "36"
+          },
+          "canonical_under_stated_convention": true,
+          "coefficients": {
+            "i": 4,
+            "t": 4
+          },
+          "object_or_alternative": "DK-7800"
+        },
+        {
+          "abstract_value": {
+            "decimal": 60.0,
+            "exact": "60"
+          },
+          "canonical_under_stated_convention": true,
+          "coefficients": {
+            "i": 7,
+            "t": 4
+          },
+          "object_or_alternative": "DK-7857"
+        },
+        {
+          "abstract_value": {
+            "decimal": 48.0,
+            "exact": "48"
+          },
+          "canonical_under_stated_convention": true,
+          "coefficients": {
+            "i": 6
+          },
+          "object_or_alternative": "DK-7855"
+        },
+        {
+          "abstract_value": {
+            "decimal": 124.0,
+            "exact": "124"
+          },
+          "canonical_under_stated_convention": true,
+          "coefficients": {
+            "i": 5,
+            "t": 4,
+            "u": 1
+          },
+          "object_or_alternative": "DK-7856"
+        },
+        {
+          "abstract_value": {
+            "decimal": 608.0,
+            "exact": "608"
+          },
+          "canonical_under_stated_convention": true,
+          "coefficients": {
+            "i": 6,
+            "u": 7
+          },
+          "object_or_alternative": "DK-7835"
+        },
+        {
+          "abstract_value": {
+            "decimal": 80.0,
+            "exact": "80"
+          },
+          "canonical_under_stated_convention": true,
+          "coefficients": {
+            "u": 1
+          },
+          "object_or_alternative": "K-121"
+        },
+        {
+          "abstract_value": {
+            "decimal": 40.0,
+            "exact": "40"
+          },
+          "canonical_under_stated_convention": true,
+          "coefficients": {
+            "i": 5
+          },
+          "object_or_alternative": "K-122"
+        },
+        {
+          "abstract_value": {
+            "decimal": 160.0,
+            "exact": "160"
+          },
+          "canonical_under_stated_convention": true,
+          "coefficients": {
+            "u": 2
+          },
+          "object_or_alternative": "K-121:2u"
+        },
+        {
+          "abstract_value": {
+            "decimal": 96.0,
+            "exact": "96"
+          },
+          "canonical_under_stated_convention": true,
+          "coefficients": {
+            "i": 2,
+            "u": 1
+          },
+          "object_or_alternative": "K-121:u+2i"
+        }
+      ],
+      "half_unit_equation_4t_equals_i_over_2": true,
+      "name": "mixed_8_10_10",
+      "units": {
+        "i": {
+          "decimal": 8.0,
+          "exact": "8"
+        },
+        "t": {
+          "decimal": 1.0,
+          "exact": "1"
+        },
+        "u": {
+          "decimal": 80.0,
+          "exact": "80"
+        },
+        "x": {
+          "decimal": 800.0,
+          "exact": "800"
+        }
+      }
+    }
+  ],
+  "distinct_objects": 9,
+  "free_loss_completeness_proof": "For any positive abstract quantities q_j and surviving masses m_j, choose scale s=max_j(m_j/q_j). Then losses L_j=s*q_j-m_j>=0 reproduce every mass. Thus completely unconstrained per-object loss cannot identify the unit system.",
+  "free_loss_counterexamples": {
+    "10": {
+      "objects": [
+        {
+          "invented_original_mass_g": {
+            "decimal": 1466.08,
+            "exact": "36652/25"
+          },
+          "object": "DK-7856",
+          "surviving_mass_g": {
+            "decimal": 165.343,
+            "exact": "165343/1000"
+          },
+          "unmeasured_loss_g": {
+            "decimal": 1300.737,
+            "exact": "1300737/1000"
+          }
+        },
+        {
+          "invented_original_mass_g": {
+            "decimal": 571.2,
+            "exact": "2856/5"
+          },
+          "object": "DK-7855",
+          "surviving_mass_g": {
+            "decimal": 262.233,
+            "exact": "262233/1000"
+          },
+          "unmeasured_loss_g": {
+            "decimal": 308.967,
+            "exact": "308967/1000"
+          }
+        },
+        {
+          "invented_original_mass_g": {
+            "decimal": 7235.2,
+            "exact": "36176/5"
+          },
+          "object": "DK-7835",
+          "surviving_mass_g": {
+            "decimal": 1910.03,
+            "exact": "191003/100"
+          },
+          "unmeasured_loss_g": {
+            "decimal": 5325.17,
+            "exact": "532517/100"
+          }
+        },
+        {
+          "invented_original_mass_g": {
+            "decimal": 952.0,
+            "exact": "952"
+          },
+          "object": "K-121",
+          "surviving_mass_g": {
+            "decimal": 210.0,
+            "exact": "210"
+          },
+          "unmeasured_loss_g": {
+            "decimal": 742.0,
+            "exact": "742"
+          }
+        },
+        {
+          "invented_original_mass_g": {
+            "decimal": 476.0,
+            "exact": "476"
+          },
+          "object": "K-122",
+          "surviving_mass_g": {
+            "decimal": 476.0,
+            "exact": "476"
+          },
+          "unmeasured_loss_g": {
+            "decimal": 0.0,
+            "exact": "0"
+          }
+        }
+      ],
+      "scale_g_per_abstract_unit": {
+        "decimal": 9.52,
+        "exact": "238/25"
+      },
+      "status": "Constructive overfitting demonstration; not an archaeological damage estimate. Chisel geometry bound is not imposed."
+    },
+    "8": {
+      "objects": [
+        {
+          "invented_original_mass_g": {
+            "decimal": 1285.2,
+            "exact": "6426/5"
+          },
+          "object": "DK-7856",
+          "surviving_mass_g": {
+            "decimal": 165.343,
+            "exact": "165343/1000"
+          },
+          "unmeasured_loss_g": {
+            "decimal": 1119.857,
+            "exact": "1119857/1000"
+          }
+        },
+        {
+          "invented_original_mass_g": {
+            "decimal": 571.2,
+            "exact": "2856/5"
+          },
+          "object": "DK-7855",
+          "surviving_mass_g": {
+            "decimal": 262.233,
+            "exact": "262233/1000"
+          },
+          "unmeasured_loss_g": {
+            "decimal": 308.967,
+            "exact": "308967/1000"
+          }
+        },
+        {
+          "invented_original_mass_g": {
+            "decimal": 5902.4,
+            "exact": "29512/5"
+          },
+          "object": "DK-7835",
+          "surviving_mass_g": {
+            "decimal": 1910.03,
+            "exact": "191003/100"
+          },
+          "unmeasured_loss_g": {
+            "decimal": 3992.37,
+            "exact": "399237/100"
+          }
+        },
+        {
+          "invented_original_mass_g": {
+            "decimal": 761.6,
+            "exact": "3808/5"
+          },
+          "object": "K-121",
+          "surviving_mass_g": {
+            "decimal": 210.0,
+            "exact": "210"
+          },
+          "unmeasured_loss_g": {
+            "decimal": 551.6,
+            "exact": "2758/5"
+          }
+        },
+        {
+          "invented_original_mass_g": {
+            "decimal": 476.0,
+            "exact": "476"
+          },
+          "object": "K-122",
+          "surviving_mass_g": {
+            "decimal": 476.0,
+            "exact": "476"
+          },
+          "unmeasured_loss_g": {
+            "decimal": 0.0,
+            "exact": "0"
+          }
+        }
+      ],
+      "scale_g_per_abstract_unit": {
+        "decimal": 11.9,
+        "exact": "119/10"
+      },
+      "status": "Constructive overfitting demonstration; not an archaeological damage estimate. Chisel geometry bound is not imposed."
+    }
+  },
+  "mass_constraint_scope": "Requires shared units, the proposed complete expressions6i and7u+6i, exact surviving masses, and u/i>=8 from canonical integer carrying. No chisel reconstruction required. Corrosion, missing signs or another denotation change the model.",
+  "maximum_coefficients": {
+    "i": 7,
+    "t": 4,
+    "u": 7,
+    "x": 2
+  },
+  "new_established_sign_values": 0,
+  "original_ledger_sha256": "df2004bef9285e72688715006bb00d63984a446c488d80f394f464ff77ca5659",
+  "pair_calibrations_rounded": [
+    {
+      "chisel_g": {
+        "decimal": 415.88709677419354,
+        "exact": "25785/62"
+      },
+      "fits_hypothetical_strict_2_6_cap": true,
+      "i_g": {
+        "decimal": 30.806451612903224,
+        "exact": "955/31"
+      },
+      "i_over_t": {
+        "decimal": 8.0,
+        "exact": "8"
+      },
+      "required_whole_to_tang_ratio": {
+        "decimal": 2.5205278592375366,
+        "exact": "1719/682"
+      },
+      "small_axe_6i_prediction_g": {
+        "decimal": 184.83870967741936,
+        "exact": "5730/31"
+      },
+      "u_over_i": {
+        "decimal": 8.0,
+        "exact": "8"
+      }
+    },
+    {
+      "chisel_g": {
+        "decimal": 399.8389694041868,
+        "exact": "248300/621"
+      },
+      "fits_hypothetical_strict_2_6_cap": true,
+      "i_g": {
+        "decimal": 27.681159420289855,
+        "exact": "1910/69"
+      },
+      "i_over_t": {
+        "decimal": 9.0,
+        "exact": "9"
+      },
+      "required_whole_to_tang_ratio": {
+        "decimal": 2.4232664812374956,
+        "exact": "49660/20493"
+      },
+      "small_axe_6i_prediction_g": {
+        "decimal": 166.08695652173913,
+        "exact": "3820/23"
+      },
+      "u_over_i": {
+        "decimal": 9.0,
+        "exact": "9"
+      }
+    },
+    {
+      "chisel_g": {
+        "decimal": 387.0263157894737,
+        "exact": "14707/38"
+      },
+      "fits_hypothetical_strict_2_6_cap": true,
+      "i_g": {
+        "decimal": 25.13157894736842,
+        "exact": "955/38"
+      },
+      "i_over_t": {
+        "decimal": 10.0,
+        "exact": "10"
+      },
+      "required_whole_to_tang_ratio": {
+        "decimal": 2.3456140350877193,
+        "exact": "1337/570"
+      },
+      "small_axe_6i_prediction_g": {
+        "decimal": 150.78947368421052,
+        "exact": "2865/19"
+      },
+      "u_over_i": {
+        "decimal": 10.0,
+        "exact": "10"
+      }
+    },
+    {
+      "chisel_g": {
+        "decimal": 367.85185185185185,
+        "exact": "9932/27"
+      },
+      "fits_hypothetical_strict_2_6_cap": true,
+      "i_g": {
+        "decimal": 21.22222222222222,
+        "exact": "191/9"
+      },
+      "i_over_t": {
+        "decimal": 12.0,
+        "exact": "12"
+      },
+      "required_whole_to_tang_ratio": {
+        "decimal": 2.229405162738496,
+        "exact": "9932/4455"
+      },
+      "small_axe_6i_prediction_g": {
+        "decimal": 127.33333333333333,
+        "exact": "382/3"
+      },
+      "u_over_i": {
+        "decimal": 12.0,
+        "exact": "12"
+      }
+    },
+    {
+      "chisel_g": {
+        "decimal": 389.5394736842105,
+        "exact": "29605/76"
+      },
+      "fits_hypothetical_strict_2_6_cap": true,
+      "i_g": {
+        "decimal": 25.13157894736842,
+        "exact": "955/38"
+      },
+      "i_over_t": {
+        "decimal": 8.0,
+        "exact": "8"
+      },
+      "required_whole_to_tang_ratio": {
+        "decimal": 2.3608452950558214,
+        "exact": "5921/2508"
+      },
+      "small_axe_6i_prediction_g": {
+        "decimal": 150.78947368421052,
+        "exact": "2865/19"
+      },
+      "u_over_i": {
+        "decimal": 10.0,
+        "exact": "10"
+      }
+    }
+  ],
+  "primary_plate_review_sha256": "7c167f18878a3afd4aca22b4387b4790172fb5322db160a05b8256b8e3870b66",
+  "published_drawing_counts": [
+    {
+      "arches": 1,
+      "item": "2",
+      "transverse_strokes": 4,
+      "upright_strokes": 5
+    },
+    {
+      "arches": 0,
+      "item": "3",
+      "transverse_strokes": 0,
+      "upright_strokes": 6
+    },
+    {
+      "arches": 7,
+      "item": "5",
+      "transverse_strokes": 0,
+      "upright_strokes": 6
+    }
+  ],
+  "review_sha256": "21a5f356f7ca3e4bbcf26384bc36b526215e910e0867a123b23a8defcb05694a",
+  "scope": "Countermodels to unique base inference for proposed expression counts; not translations or verified numeral values.",
+  "source_ledger_sha256": "47ff98eef6b64e9254a1fbf6fd7ab6b002933d7004164659dbf402f07815d3ed",
+  "two_axes_only_canonical_constraint": {
+    "calibrated_u_over_i": {
+      "decimal": 5.386040004772201,
+      "exact": "3295594/611877"
+    },
+    "compatible": false,
+    "large_minus_minimum_g": {
+      "decimal": -493.7725,
+      "exact": "-197509/400"
+    },
+    "minimum_large_mass_g": {
+      "decimal": 2403.8025,
+      "exact": "961521/400"
+    },
+    "minimum_u_over_i_assumed": {
+      "decimal": 7.0,
+      "exact": "7"
+    },
+    "observed_large_over_small": {
+      "decimal": 7.283713338900901,
+      "exact": "1910030/262233"
+    },
+    "ratio_is_integer": false,
+    "satisfies_minimum_ratio_bound": false
+  },
+  "two_axes_only_scope": "Even without the other seven objects, six i signs in7u+6i require integer u/i>=7 under canonical carrying. These two masses also fail that weaker bound.",
+  "two_axes_primary_mass_constraint": {
+    "calibrated_u_over_i": {
+      "decimal": 5.386040004772201,
+      "exact": "3295594/611877"
+    },
+    "compatible": false,
+    "large_minus_minimum_g": {
+      "decimal": -799.711,
+      "exact": "-799711/1000"
+    },
+    "minimum_large_mass_g": {
+      "decimal": 2709.741,
+      "exact": "2709741/1000"
+    },
+    "minimum_u_over_i_assumed": {
+      "decimal": 8.0,
+      "exact": "8"
+    },
+    "observed_large_over_small": {
+      "decimal": 7.283713338900901,
+      "exact": "1910030/262233"
+    },
+    "ratio_is_integer": false,
+    "satisfies_minimum_ratio_bound": false
+  },
+  "two_axes_rounded_mass_constraint": {
+    "calibrated_u_over_i": {
+      "decimal": 5.391494002181025,
+      "exact": "4944/917"
+    },
+    "compatible": false,
+    "large_minus_minimum_g": {
+      "decimal": -797.3333333333334,
+      "exact": "-2392/3"
+    },
+    "minimum_large_mass_g": {
+      "decimal": 2707.3333333333335,
+      "exact": "8122/3"
+    },
+    "minimum_u_over_i_assumed": {
+      "decimal": 8.0,
+      "exact": "8"
+    },
+    "observed_large_over_small": {
+      "decimal": 7.290076335877862,
+      "exact": "955/131"
+    },
+    "ratio_is_integer": false,
+    "satisfies_minimum_ratio_bound": false
+  }
+}

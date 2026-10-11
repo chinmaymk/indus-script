@@ -1,0 +1,157 @@
+{
+  "schema": "gungunum-tablet-audit-v1",
+  "date": "2026-09-24",
+  "identity": {
+    "museum_number": "YBC 5447",
+    "archibab": "T24413",
+    "cdli": "P306518",
+    "cdli_status": "explicit ARCHIBAB outgoing photo link verified; CDLI object page inaccessible",
+    "seal_catalogue": "Buchanan 1981 no1090 independently audited by companion task"
+  },
+  "source_fingerprints": [
+    {
+      "path": "data/raw/gungunum_as16_1965.pdf",
+      "bytes": 45022472,
+      "sha256": "d98f1529b0f811028030fac99bf84659580f1aa393526a05be00821cdea7a66d"
+    },
+    {
+      "path": "data/raw/gungunum_as16_redirect.html",
+      "bytes": 186519,
+      "sha256": "8dabbf7ba76b1b583ecd6da92f8214e033b6b7cff412a6e18a1dda73bbbdd528"
+    },
+    {
+      "path": "data/raw/gungunum_archibab4_2020.pdf",
+      "bytes": 15455227,
+      "sha256": "e2768449d4a40f97316e4d5a2ffe4d02fb4c79ca1cc5a86f75423ebbeb375173"
+    },
+    {
+      "path": "data/raw/gungunum_archibab_t24413.html",
+      "bytes": 1476,
+      "sha256": "0c48381c73850c5be849470fc6758f8bba9bddb77f2c020c5501ce42f09bdef8"
+    },
+    {
+      "path": "data/raw/gungunum_archibab_ui_capture.json",
+      "bytes": 2253,
+      "sha256": "6b76cf92bca61ab223c53bee91a014ef52b2c7ae5712f5a0cded3940dd50a9c8"
+    }
+  ],
+  "review_image_fingerprints": [
+    {
+      "path": "results/primary_pages/gungunum-as16-220.png",
+      "bytes": 256910,
+      "sha256": "3533a14d3f907a6c7263b3541cff1d692364c0eb97165181bd09480e1b1fae19"
+    },
+    {
+      "path": "results/primary_pages/gungunum-as16-221.png",
+      "bytes": 127607,
+      "sha256": "3db82863aa4d641b62630d73baba8bf763a8e34456421632832e9cd7b6401c03"
+    },
+    {
+      "path": "results/primary_pages/gungunum-as16-222.png",
+      "bytes": 301071,
+      "sha256": "05f3e7e074da9a7193b83e8ab6c2f1639b3d7fec516fd8bd27fef7091e25cb08"
+    },
+    {
+      "path": "results/primary_pages/gungunum-as16-223.png",
+      "bytes": 284088,
+      "sha256": "2ff174ff4f41562e9c90c1cc79c54f3609ac11356b1b23bffde13815217c12e2"
+    },
+    {
+      "path": "results/primary_pages/gungunum-archibab4-50.png",
+      "bytes": 471492,
+      "sha256": "f07906e50968f5da7073bb56129f79954254e2794dae058975c380a91c93c1e3"
+    }
+  ],
+  "persons": [
+    {
+      "name": "Lumaa",
+      "role": "consignor / silent partner"
+    },
+    {
+      "name": "Hatin-Ibanum",
+      "role": "recipient / active obligated partner; inferred owner"
+    },
+    {
+      "name": "Apkallum",
+      "role": "father of recipient"
+    },
+    {
+      "name": "Ur-Shulpae",
+      "role": "seer / witness"
+    },
+    {
+      "name": "Erishti-ili",
+      "role": "partly restored name; fishermen foreman / witness"
+    }
+  ],
+  "goods": [
+    {
+      "quantity": 4,
+      "unit": "talent",
+      "commodity": "wool",
+      "grade": "tentative haltikku(?) per Hallo"
+    },
+    {
+      "quantity": 2,
+      "unit": "GUR",
+      "commodity": "wheat per Hallo; cereals in ARCHIBAB summary"
+    },
+    {
+      "quantity": 2,
+      "unit": "GUR",
+      "commodity": "sesame"
+    }
+  ],
+  "date_evidence": {
+    "regnal_year": "Gungunum 10",
+    "middle_chronology_bce": 1923,
+    "hallo_day": 20,
+    "archibab_transliteration_day": 20,
+    "archibab_header_day": 2,
+    "charpin2020_table_day": 2,
+    "month": 2,
+    "resolution": "retain conflict; no independent corrected collation recovered"
+  },
+  "seal_owner": {
+    "candidate": "Hatin-Ibanum",
+    "status": "role-based inference in Hallo1965 p202",
+    "explicit_owner_label": false
+  },
+  "seal_epigraphy": {
+    "archibab_description": "uninscribed",
+    "indus_sequence_verified": false,
+    "new_semantic_values": 0,
+    "new_phonetic_values": 0,
+    "count_caveat": "ARCHIBAB two impressions versus more surface impressions in Buchanan1981; not proof of two dies"
+  },
+  "provenance": {
+    "place_candidate": "Ur",
+    "status": "literary inference; current database fields not excavation evidence"
+  },
+  "limitations": [
+    "No independent cuneiform collation",
+    "No direct CDLI record/image recovered",
+    "Restored witness name and supplied receipt formula preserved",
+    "No ethnolinguistic conclusion from personal names",
+    "No symbol-to-name or symbol-to-commodity mapping"
+  ],
+  "retrieval_failures": [
+    "Sandbox DNS failure AS16",
+    "AS16 legacy URL returned publisher HTML then recovered S3 PDF",
+    "Web ARCHIBAB inaccessible; curl application shell; browser UI successful",
+    "CDLI link click no navigation; new tab unsupported visibility; direct navigation timeout",
+    "CDLI web inaccessible and curl 30-second timeout zero bytes"
+  ],
+  "processed_fingerprints": [
+    {
+      "path": "data/processed/gungunum_as16_extract.txt",
+      "bytes": 63899,
+      "sha256": "0b6e4dde70b268afcf5040dc2dfba1ea09fb9aefe4616db371ad4dc427b43678"
+    },
+    {
+      "path": "data/processed/gungunum_archibab4_excerpt.txt",
+      "bytes": 19156,
+      "sha256": "1b58f20e528ed98f7b87bc5f7758953cdfbd6ea99e5eeb2d615a83b81df70e8f"
+    }
+  ]
+}

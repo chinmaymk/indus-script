@@ -1,0 +1,93 @@
+{
+  "source": "data/raw/cisi_76884.pdf",
+  "source_sha256": "47a4da4227cfb7baa56d6a561e25797225499d0ec54f5a702a82c67ab4746d4d",
+  "review_date": "2026-09-23",
+  "pair": [
+    "W090",
+    "W400"
+  ],
+  "status": "Cooccurrence graphically corroborated; substitution pair remains secondary-transcription evidence",
+  "shared_frame": {
+    "sequence": [
+      "?",
+      "W740",
+      "W220"
+    ],
+    "witnesses": [
+      {
+        "artifact": "H-1342",
+        "id": "4084.1",
+        "replacement": "W090",
+        "condition": "Poor",
+        "primary_photo_checked": false
+      },
+      {
+        "artifact": "M-1312",
+        "id": "3617.1",
+        "replacement": "W400",
+        "condition": "Fair",
+        "primary_photo_checked": false
+      }
+    ],
+    "confounds": "Different sites and object types; one Poor. Not an independently authenticated semantic contrast."
+  },
+  "cooccurrence_visual_checks": [
+    {
+      "artifact": "M-263",
+      "id": "2786.1",
+      "pdf_page": 101,
+      "printed_page": 65,
+      "image": "results/primary_pages/substitution-targets-101.png",
+      "observation": "OriginalA and impressiona show a person-like glyph and a comb-like glyph on the same text face, separated by the jar-shaped glyph. Six displayed groups match the broad sequence layout.",
+      "sequence": [
+        "W090",
+        "W740",
+        "W400",
+        "W350",
+        "W031",
+        "W545"
+      ]
+    },
+    {
+      "artifact": "H-188",
+      "id": "1221.1",
+      "pdf_page": 246,
+      "printed_page": 210,
+      "image": "results/primary_pages/substitution-h188-246.png",
+      "observation": "FaceA clearly shows comb-like and person-like groups followed by jar-shaped, branching and trident-like groups in displayed left-to-right order.",
+      "sequence": [
+        "W400",
+        "W090",
+        "W740",
+        "W100",
+        "W415"
+      ]
+    }
+  ],
+  "catalogue_links": [
+    {
+      "P": "P013",
+      "M": [
+        "M001"
+      ],
+      "W": [
+        "W090"
+      ]
+    },
+    {
+      "P": "P098",
+      "M": [
+        "M176"
+      ],
+      "W": [
+        "W400",
+        "W402"
+      ]
+    }
+  ],
+  "limits": [
+    "Broad glyph correspondence; no new alias or independent W400-versus-W402 variant discrimination.",
+    "Cooccurrence refutes only an asserted maximum of one family member in the whole inscription, not ordinary substitution, allography, synonymy, repeated fields or semantic identity.",
+    "Physical drawings do not establish sounds or meanings."
+  ]
+}

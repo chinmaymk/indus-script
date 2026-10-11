@@ -1,0 +1,78 @@
+{
+  "scope": "Independent parent crosschecks of8117 side1 and5471 side2 counterparts; does not replace exhaustive partition audit",
+  "method": "Viewed full primary Texts PDF168/printed157 and three supplied inventoryglyphs. Candidate export suggested76/342/176, accepted only after image comparison. Read normalized line right-to-left.",
+  "rows": [
+    {
+      "reference": "8117",
+      "side": "1",
+      "line": "0",
+      "tokens": [
+        "M076",
+        "M342",
+        "M176"
+      ],
+      "full_sequence_primary_checked": true,
+      "pdf_page": 168,
+      "printed_page": 157,
+      "evidence_path": "results/primary_pages/m77-u-types-parent-extra-168.png",
+      "printed_metadata_code": "210001",
+      "notes": [
+        "Bird form at right matchesM076; U-shaped form with external shortticksM342; left vertical combM176.",
+        "Field onside2 isM087M328, separately included in previous fullUrecovery. No extra side/line for8117 appears before pageend."
+      ]
+    },
+    {
+      "reference": "5471",
+      "side": "2",
+      "line": "0",
+      "tokens": [
+        "M076",
+        "M343",
+        "M224"
+      ],
+      "full_sequence_primary_checked": true,
+      "pdf_page": 154,
+      "printed_page": 143,
+      "evidence_path": "results/primary_pages/u-types-iconography-154.png",
+      "printed_metadata_code": "20001",
+      "notes": [
+        "Independent parent review confirms one interior neck tick on jarM343, unlike untickedM342. Candidate export not used for this comparison; agent flagged distinction, then parent compared primary and numbered inventory.",
+        "There are other textual and symbol-only entries on this reference; this row crosschecks side2 only."
+      ]
+    }
+  ],
+  "evidence": [
+    {
+      "path": "data/raw/mahadevan_1977_text.pdf",
+      "sha256": "6dcdd074a0174e5fab149590fbbf82342711d345764e9763f8e5e92c81cf7f99"
+    },
+    {
+      "path": "results/primary_pages/m77-u-types-parent-extra-168.png",
+      "sha256": "d2020300794aa98d6aa6abeb3cb9bbe1dfb94a65f2027f9ef4ec2f48bdf7d81c"
+    },
+    {
+      "path": "IM_417_150_PNG/76.png",
+      "sha256": "dbabd8e97a383e8a8b10470073cfeca7d3eefb17a77184cdcd2cf67b68544b14"
+    },
+    {
+      "path": "IM_417_150_PNG/342.png",
+      "sha256": "be577acc0d46e60056b2d867d718e3ae99df64cdd3342e7ce6e61892750f3538"
+    },
+    {
+      "path": "IM_417_150_PNG/176.png",
+      "sha256": "566afb1f181ee697fb8092d67f4935eb83108833ad850ea58408a598f5496d6b"
+    },
+    {
+      "path": "results/primary_pages/u-types-iconography-154.png",
+      "sha256": "d7c000d9ce23cff3a59c0d5ec1ba9f59fd7f956425587b1723d53c88289cb0ed"
+    },
+    {
+      "path": "IM_417_150_PNG/343.png",
+      "sha256": "f51035d2dd46147b72c7150ccec9b243a8947199cdb05f9ba3739a273974ad05"
+    },
+    {
+      "path": "IM_417_150_PNG/224.png",
+      "sha256": "aae0f6cde02b9676e405c0a844fec555e678b316b170b5f7c1000d358d0548cf"
+    }
+  ]
+}

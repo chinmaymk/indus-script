@@ -1,0 +1,189 @@
+{
+  "review_date": "2026-09-25",
+  "status": "Source-exposed selected primary comparison, not full decipherment",
+  "artifact": {
+    "cisi": "M-63",
+    "finnish_number": "0223",
+    "excavation": "DK8333",
+    "museum": "ASI63.10.12",
+    "photo": "HU98; impression Si.21 p.1:215",
+    "M77_text": "3068",
+    "identity_uses_text_similarity": false,
+    "CISI_photo_pdf_page": 64,
+    "CISI_metadata_pdf_page": 402,
+    "M77_text_pdf_page": 98,
+    "M77_identity_pdf_page": 828
+  },
+  "W_file_sequence": [
+    "W526",
+    "W555",
+    "W060",
+    "W550"
+  ],
+  "M_candidate_reading_sequence": [
+    "M216",
+    "M123",
+    "M222",
+    "M254"
+  ],
+  "local_target_correspondences": [
+    {
+      "W": "W550",
+      "M": "M216"
+    },
+    {
+      "W": "W555",
+      "M": "M222"
+    }
+  ],
+  "observations": {
+    "both_crossed_forms_on_same_object": true,
+    "same_form_proven": false,
+    "different_meanings_proven": false,
+    "comb_gross_corner_loss_observed": false,
+    "comb_orientation_differs_from_L89_impression": true,
+    "complete_fine_transcription_certified": false,
+    "physical_autopsy": false
+  },
+  "limits": [
+    "Site/object differences alone cannot explain within-object graphic contrast",
+    "Position-dependent allography or scribal variation remain possible",
+    "P230 family membership is not an exhaustive exact W-to-M conversion",
+    "No global conversion or semantic/phonetic assignment"
+  ],
+  "render_invocations": [
+    {
+      "source": "cisi_76884.pdf",
+      "pages": [
+        66,
+        402
+      ],
+      "scale": 3000,
+      "prefix": "pincer-cisi"
+    },
+    {
+      "source": "cisi_76884.pdf",
+      "pages": [
+        65
+      ],
+      "scale": 3500,
+      "prefix": "pincer-cisi"
+    },
+    {
+      "source": "cisi_76884.pdf",
+      "pages": [
+        64
+      ],
+      "scale": 4000,
+      "prefix": "pincer-m63"
+    },
+    {
+      "source": "mahadevan_1977_text.pdf",
+      "pages": [
+        98,
+        828
+      ],
+      "scale": 3000,
+      "prefix": "pincer-m77"
+    }
+  ],
+  "established_semantic_values": 0,
+  "established_phonetic_values": 0,
+  "evidence_files": [
+    {
+      "path": "data/raw/cisi_76884.pdf",
+      "bytes": 31508998,
+      "sha256": "47a4da4227cfb7baa56d6a561e25797225499d0ec54f5a702a82c67ab4746d4d"
+    },
+    {
+      "path": "data/raw/mahadevan_1977_text.pdf",
+      "bytes": 119302608,
+      "sha256": "6dcdd074a0174e5fab149590fbbf82342711d345764e9763f8e5e92c81cf7f99"
+    },
+    {
+      "path": "data/raw/lipi_inscriptions.csv",
+      "bytes": 1204921,
+      "sha256": "b8dcb325a2e2cd3cde12ac12e7a418b0348e45713c9ee28aad81b645d2ac5ee4"
+    },
+    {
+      "path": "data/processed/catalogue_features.json",
+      "bytes": 189902,
+      "sha256": "00836515c6f3beec28b3b66e13d8a9c6e94571cfb2e9dbb4b148651b7ff0032d"
+    },
+    {
+      "path": "results/primary_pages/chain-signlist-44.png",
+      "bytes": 2622908,
+      "sha256": "20cace271efa652e7c70ba9796f1980a7edfc6852be6a28d3e57c3d0ba1b440d"
+    },
+    {
+      "path": "results/primary_pages/ending-signlist-045.png",
+      "bytes": 2725499,
+      "sha256": "a091d2d01efc661a93f28e1a0141cd583f326ffeb813a38313f06c8d17ce5252"
+    },
+    {
+      "path": "docs/PINCER_PRIMARY_REVIEW.md",
+      "bytes": 5121,
+      "sha256": "cc3b2e20c0158a33f49b374ba9d391154126ef3edf76027246b150f65fbc3a94"
+    },
+    {
+      "path": "scripts/render_pincer_primary_crops.py",
+      "bytes": 763,
+      "sha256": "d60e92099e72c0926ecd96fc2501ca220e4d10756841e92dd14bab3d96a9c725"
+    },
+    {
+      "path": "results/primary_pages/pincer-cisi-402.png",
+      "bytes": 3186059,
+      "sha256": "dd6e896b8becd4ab49c0ac2c0997d9c88ec6cd6bcf6a534af91334c109146001"
+    },
+    {
+      "path": "results/primary_pages/pincer-cisi-65.png",
+      "bytes": 2489102,
+      "sha256": "c7b729f1c9d3d7842084f7c98d70c92bc3bd726a32714f43575e8ca602a081cc"
+    },
+    {
+      "path": "results/primary_pages/pincer-cisi-66.png",
+      "bytes": 2187591,
+      "sha256": "63647066d7b7a8d66eda4ae93063a19137d191d0c1801271f3267b125c58917d"
+    },
+    {
+      "path": "results/primary_pages/pincer-m63-64.png",
+      "bytes": 3325116,
+      "sha256": "ed0379473dc19d253d96b11d86210a9159130e904e5d48bd9c6c875e4e607b4f"
+    },
+    {
+      "path": "results/primary_pages/pincer-m63-cisi-identity.png",
+      "bytes": 29821,
+      "sha256": "766b60af90696ce510662fc6a3a551a2f86e7612d62849549f073c6dfc3175b7"
+    },
+    {
+      "path": "results/primary_pages/pincer-m63-impression.png",
+      "bytes": 536003,
+      "sha256": "07cf8c9c2c9a8b5413f85297724fbccce32424498c7b0155528390f2b24bc8bb"
+    },
+    {
+      "path": "results/primary_pages/pincer-m63-m77-identity.png",
+      "bytes": 56445,
+      "sha256": "0e1c0d71bbb034f261a5befd02a4acbce13aaba26168d633a34fc3013034aae4"
+    },
+    {
+      "path": "results/primary_pages/pincer-m63-m77-text.png",
+      "bytes": 83543,
+      "sha256": "192cd0bfa77596777b0eef493ed9cc547a86addcf0f438e6b87a6263d8cb6bc5"
+    },
+    {
+      "path": "results/primary_pages/pincer-m63-original.png",
+      "bytes": 510296,
+      "sha256": "0368743f905c34609834354701054a67401637c750cb4a9e25bcf54622d5f717"
+    },
+    {
+      "path": "results/primary_pages/pincer-m77-098.png",
+      "bytes": 1964859,
+      "sha256": "427bdd6f799e589e2a13b79b46194be08ef8f571463ac82eb9589a43efff0300"
+    },
+    {
+      "path": "results/primary_pages/pincer-m77-828.png",
+      "bytes": 3276388,
+      "sha256": "059971d9fba008d5e1133f884d42332f132dc02f26c25b808acaa7ba1f59ab71"
+    }
+  ]
+}

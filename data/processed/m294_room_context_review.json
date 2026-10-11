@@ -1,0 +1,133 @@
+{
+  "review_date": "2026-09-25",
+  "identity": {
+    "marshall_seal": 376,
+    "excavation_id": "HR4212e",
+    "CISI_alias": "parent independently verifies M-294"
+  },
+  "context": {
+    "area": "HR",
+    "section": "B",
+    "block": 2,
+    "house": "VIII",
+    "room": 8,
+    "room_internal_ft": [
+      8,
+      7
+    ],
+    "depth_below_surface_ft": 6,
+    "deposition": "immediately beneath floor; hoard",
+    "original_owner_inference": "probable goldsmith; scrap for remelting",
+    "workshop_in_room_established": false,
+    "semantic_value": null,
+    "phonetic_value": null
+  },
+  "evidence": [
+    {
+      "id": "M294-R01",
+      "source": "data/raw/m294_marshall722_djvu.xml",
+      "printed_page": 189,
+      "image": "data/raw/m294_marshall722_leaf231.jpg",
+      "claim": "Block2 includes housesV\u2013XIII; HouseVIII in this range.",
+      "verification": "manual image review"
+    },
+    {
+      "id": "M294-R02",
+      "source": "data/raw/m294_marshall722_djvu.xml",
+      "printed_page": 193,
+      "image": "data/raw/m294_marshall722_leaf235.jpg",
+      "claim": "HouseVIII54\u00d737ft, roughly12rooms, nonepaved; passage7 accessesroom8.",
+      "verification": "manual image review"
+    },
+    {
+      "id": "M294-R03",
+      "source": "data/raw/m294_marshall722_djvu.xml",
+      "printed_page": 194,
+      "image": "data/raw/m294_marshall722_leaf236.jpg",
+      "claim": "Room8 is8\u00d77ft; find immediately beneath floor.",
+      "verification": "manual image review"
+    },
+    {
+      "id": "M294-R04",
+      "source": "data/raw/m294_marshall722_djvu.xml",
+      "printed_page": 194,
+      "image": "data/raw/m294_marshall722_leaf236.jpg",
+      "claim": "Fragmentary seal plateCXII376 expressly included in find with chert scraper; three pictographs described.",
+      "verification": "manual image review"
+    },
+    {
+      "id": "M294-R05",
+      "source": "data/raw/stone1471_marshall1931_volume2_text.pdf",
+      "printed_page": 376,
+      "image": "results/primary_pages/m294-vol2-p376.png",
+      "claim": "Seal376 exact original aliasHR4212e; two animal registers.",
+      "verification": "manual image review"
+    },
+    {
+      "id": "M294-R06",
+      "source": "data/raw/stone1471_marshall1931_volume2_text.pdf",
+      "printed_page": 493,
+      "image": "results/primary_pages/m294-vol2-p493.png",
+      "claim": "SilvervasesHR4212d/c depth6ft; ornaments/beads, much gold scrap; Room8HouseVIIIBlock2HR.",
+      "verification": "manual image review"
+    },
+    {
+      "id": "M294-R07",
+      "source": "data/raw/stone1471_marshall1931_volume2_text.pdf",
+      "printed_page": 522,
+      "image": "results/primary_pages/m294-vol2-p522.png",
+      "claim": "HoardNo3HR4212a Room8HouseVIIIBlock2SectionB6ftbelow surface; LatePeriodassigned.",
+      "verification": "manual image review"
+    },
+    {
+      "id": "M294-R08",
+      "source": "data/raw/stone1471_marshall1931_volume2_text.pdf",
+      "printed_page": 522,
+      "image": "results/primary_pages/m294-vol2-p522.png",
+      "claim": "Majority beads loose in soil, former clothwrap indications; probable goldsmith ownership inferred from metal waste and rolled-up ornaments kept for remelting.",
+      "verification": "manual image review"
+    }
+  ],
+  "evidence_files": [
+    {
+      "path": "data/raw/m294_marshall722_djvu.xml",
+      "bytes": 14468421,
+      "sha256": "5b3c20e54ab6d555f7d2356bdbb066849305a82be00787768e38deea684ac626"
+    },
+    {
+      "path": "data/raw/m294_marshall722_leaf231.jpg",
+      "bytes": 2193575,
+      "sha256": "a185afbcbb617e2e3d2539d09ab5e82ce74398a8e07a541016992a2d09705443"
+    },
+    {
+      "path": "data/raw/m294_marshall722_leaf235.jpg",
+      "bytes": 2175094,
+      "sha256": "4e4113c662f9891ebfb1ec9538ceea01184547034b3d1403596cdf58abfe9735"
+    },
+    {
+      "path": "data/raw/m294_marshall722_leaf236.jpg",
+      "bytes": 2086795,
+      "sha256": "159ff4e09fe9c0eab19dfe9bb9e2cebf89f0d385379fcc4e0e3236ff8af0521c"
+    },
+    {
+      "path": "data/raw/stone1471_marshall1931_volume2_text.pdf",
+      "bytes": 12167700,
+      "sha256": "e58c4d95c9d7dbac29a3cb04d633d20618de71ab7cb58e7dcf035fb88ceb2ef3"
+    },
+    {
+      "path": "results/primary_pages/m294-vol2-p376.png",
+      "bytes": 424165,
+      "sha256": "61eacc8782e34e2d6fdb564e5fe7fdb7d068c32058c1ae2ebf72e5ea739e4080"
+    },
+    {
+      "path": "results/primary_pages/m294-vol2-p493.png",
+      "bytes": 518718,
+      "sha256": "075d3d2bd6544f06ce9d0e6cb08ad9f6cf6de7dfddf1cb03cf9fcf2d76cd832a"
+    },
+    {
+      "path": "results/primary_pages/m294-vol2-p522.png",
+      "bytes": 446968,
+      "sha256": "f2ffe863b16a50df9ed370addffb1462c7f86b657f69db4d826e99e7c38ab638"
+    }
+  ]
+}

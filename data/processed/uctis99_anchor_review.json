@@ -1,0 +1,259 @@
+{
+  "schema_version": 1,
+  "review_date": "2026-09-23",
+  "status": "catalogue identity authenticated; no Indus phonetic anchor",
+  "publication": {
+    "abbreviation": "UCTIS",
+    "item": "099",
+    "author": "Abid, Basima Jalil",
+    "year": 2017,
+    "title_as_catalogued": "Unpublished cuneiform texts of the Third Dynasty of Ur from the the city of Iri-Sag-rig7 / Al-Šarraki",
+    "language": "Arabic",
+    "original_page": null,
+    "publisher": null,
+    "full_publication_obtained": false,
+    "catalogue_publication_link": "https://www.researchgate.net/publication/350889492"
+  },
+  "identity": {
+    "bdtns_id": "205179",
+    "museum_number": "IM 226931",
+    "collection": "Iraq Museum, Baghdad, Iraq",
+    "cdli_id": null,
+    "cdli_identity_status": "No ID displayed by BDTNS; not an exhaustive absence claim",
+    "provenience_as_catalogued": "Irisaĝrig",
+    "date_as_catalogued": "SS09 - 01 - 00",
+    "object": "Tablet",
+    "language": "Sumerian",
+    "period": "Ur III",
+    "seal_flag_as_catalogued": "N",
+    "accession_number": null,
+    "excavation_number": null,
+    "measurements": null
+  },
+  "transliteration": {
+    "type": "manual transcription of current BDTNS HTML, not CDLI ATF export",
+    "contributors": [
+      {
+        "year": 2017,
+        "name": "Abid, Basima Jalil",
+        "role": "Transliteration of text"
+      },
+      {
+        "year": 2020,
+        "name": "Molina, M.",
+        "role": "Revision of text"
+      },
+      {
+        "year": 2022,
+        "name": "Arrojería, J.",
+        "role": "Revision of text"
+      }
+    ],
+    "lines": [
+      {
+        "side": "obverse",
+        "line": 1,
+        "text": "1 sila3 i3-giš"
+      },
+      {
+        "side": "obverse",
+        "line": 2,
+        "text": "Na-na-za"
+      },
+      {
+        "side": "obverse",
+        "line": 3,
+        "text": "1 sila3 Sa6-ma-ar"
+      },
+      {
+        "side": "obverse",
+        "line": 4,
+        "text": "½ sila3 A-li-a-hi dam-a-ni"
+      },
+      {
+        "side": "obverse",
+        "line": 5,
+        "text": "[i3]-ba lu2 Me-luh-<ha>ki-me"
+      },
+      {
+        "side": "reverse",
+        "line": 1,
+        "text": "zi-ga iti šu-gar"
+      },
+      {
+        "side": "reverse",
+        "line": 2,
+        "text": "mu dŠu-dSuen [lugal] Uri5ki-ma-ke4 e2 dŠara2 Ummaki-ka mu-du3"
+      }
+    ]
+  },
+  "people": [
+    {
+      "name_as_catalogued": "Na-na-za",
+      "allocation_sila": 1
+    },
+    {
+      "name_as_catalogued": "Sa6-ma-ar",
+      "allocation_sila": 1
+    },
+    {
+      "name_as_catalogued": "A-li-a-hi",
+      "allocation_sila": 0.5,
+      "role_in_text": "dam-a-ni (his wife)"
+    }
+  ],
+  "group_designation": "lu2 Me-luh-<ha>ki-me",
+  "roles_not_present_in_this_text": [
+    "merchant",
+    "interpreter",
+    "shepherd"
+  ],
+  "handcopy_observation": {
+    "viewed": true,
+    "two_cuneiform_faces": true,
+    "separate_seal_depiction_or_legend": false,
+    "photograph": false,
+    "fresh_cuneiform_collation": false
+  },
+  "comparisons": [
+    {
+      "cdli_ids": [
+        "P453801",
+        "P516366"
+      ],
+      "same_ration_amounts_and_name_pattern": true,
+      "differences": [
+        "Na-na-za versus current CDLI na-na-sa3",
+        "month",
+        "year formula",
+        "royal offerings/herdsmen wording absent in UCTIS",
+        "seal status",
+        "museum label"
+      ],
+      "merge_by_name_pattern": false,
+      "physical_independence_proven": false
+    },
+    {
+      "cdli_ids": [
+        "P516138"
+      ],
+      "publication": "CUSAS 40, 1354",
+      "date_referenced_as_catalogued": "Šū-Suen.06.03.00",
+      "same_ration_amounts_and_name_pattern": true,
+      "reverse_month_atf": "iti {gesz}apin",
+      "reverse_year_damaged": true,
+      "seal_atf": [
+        "[...]",
+        "dub-[sar]",
+        "dumu [...]"
+      ],
+      "positive_equivalence_evidence": false,
+      "physical_independence_proven": false,
+      "status": "Current CDLI JSON and ATF inspected; no merge supported by this comparison"
+    }
+  ],
+  "indus_anchor": {
+    "authenticated_indus_signs": 0,
+    "bilingual_alignment": false,
+    "phonetic_value_assigned": false
+  },
+  "limitations": [
+    "Original full publication not obtained",
+    "Museum provenance is catalogue information, not excavation proof",
+    "Seal N is explicit catalogue flag, not new physical examination",
+    "No CDLI cross-ID found does not establish none exists",
+    "Repeated people and amounts alone neither establish nor refute duplicate identity"
+  ],
+  "failed_acquisitions": [
+    {
+      "url": "https://unora.unior.it/retrieve/7fe98bfa-4b70-456e-873e-2b173af0d96f/Borrelli%202024_Fs%20Catagnoti.pdf",
+      "reason": "HTTP403",
+      "file_saved": false
+    }
+  ],
+  "sources": [
+    {
+      "path": "data/raw/bdtns_uctis_bibliography_form.html",
+      "url": "https://bdtns.cesga.es/formulario_bibliografia.php",
+      "bytes": 8941,
+      "sha256": "04d84186aff156ad0aad604df8c64b4ef646d499eb83ce69d3fdc5de616d938a"
+    },
+    {
+      "path": "data/raw/bdtns_uctis_abbreviation.html",
+      "url": "https://bdtns.cesga.es/resultado_bibliografia.php?abreviatura=UCTIS",
+      "bytes": 3120,
+      "sha256": "8c16da1900c4b24012ee02b80349d23a5f75d334e23816d86a1cd3d628829726"
+    },
+    {
+      "path": "data/raw/bdtns_uctis_catalogue_form.html",
+      "url": "https://bdtns.cesga.es/index.php?p=formulario_urIII",
+      "bytes": 38226,
+      "sha256": "5a7a3b0ea7b741ffe3a992b4bb8dca34d2f5444914fb3f8d880e5d3e91a8cf1c"
+    },
+    {
+      "path": "data/raw/bdtns_uctis99_search.html",
+      "url": "https://bdtns.cesga.es/principal.php?numMuseo=&numBDTS=&numCDLI=&procedencia=TODOS&sello=TODOS&fechaPub=&datacion=&abreviatura=UCTIS+099&autor=&propietario=&tipoobjeto=TODOS&tipotexto=TODOS&lexema_sello=&tipoperiodo=TODOS&tipolenguaje=TODOS&orden=",
+      "bytes": 533,
+      "sha256": "cd7ec914aeedc549359a716b7568e6961c6e55657d59d253d06167351fabc26c"
+    },
+    {
+      "path": "data/raw/bdtns_uctis99_control.html",
+      "url": "https://bdtns.cesga.es/control_bloque.php",
+      "bytes": 4578,
+      "sha256": "80d688f4596b0b6fff85e68a757dd5ae6c2bb8c149c166634b58eba852e1e00b",
+      "context": "Session-dependent result of preceding UCTIS099 catalogue query; bare URL alone does not reproduce search"
+    },
+    {
+      "path": "data/raw/bdtns_uctis99_results.html",
+      "url": "https://bdtns.cesga.es/columna1.php?lexema_sello=&lexema=",
+      "bytes": 6496,
+      "sha256": "d7b3d4b258234793c8f7dd2be78f2fe0a9c8f49f4e5b564c8e97f26b38b09fd6",
+      "context": "Session-dependent result of preceding UCTIS099 catalogue query; bare URL alone does not reproduce search"
+    },
+    {
+      "path": "data/raw/bdtns_205179_catalogue.html",
+      "url": "https://bdtns.cesga.es/catalogo_directo_new.php?numBDTS=205179",
+      "bytes": 21474,
+      "sha256": "53b839c6c336509fc2a01adb5bc3b4103976f403adb1cba9854db80c95a60818"
+    },
+    {
+      "path": "data/raw/bdtns_205179_abid_handcopy.jpg",
+      "url": "https://bdtns.cesga.es/UR3_imagenes/imagenes/imagenes_076/U205179_2.jpg",
+      "bytes": 37062,
+      "sha256": "2365093b69028a35418ae91cac42c63daa07405ff7e926cbb717d837159959c1"
+    },
+    {
+      "path": "data/raw/bdtns_205179_bibliography.html",
+      "url": "https://bdtns.cesga.es/resultado_bibliografia.php?id_bdts=205179",
+      "bytes": 3604,
+      "sha256": "bbfd2898d4f4c81fbc2c108cf720d857ea9a051db59e5b3711ba3e042da87b36"
+    },
+    {
+      "path": "data/raw/uctis99_web_capture.json",
+      "url": null,
+      "bytes": 51719,
+      "sha256": "daf64f56dda3e4b302afc1772fe40c0815ab145281a108adf3329a847cb0e5e8",
+      "kind": "web tool response capture, not original HTML",
+      "urls": [
+        "https://www.tandfonline.com/doi/full/10.1080/00856401.2025.2488137",
+        "https://bdtns.cesga.es/",
+        "https://bdtns.cesga.es/205179",
+        "https://www.researchgate.net/publication/350889492"
+      ]
+    },
+    {
+      "path": "data/raw/cdli_p516138_artifact.json",
+      "url": "https://cdli.earth/artifacts/516138/json",
+      "bytes": 3651,
+      "sha256": "3e3749dd6b0b84ce792fc5dbfc635377a42b32e8ef1e4cf185735d739b4acfde",
+      "acquired_by": "parent or sibling; reused without duplicate download"
+    },
+    {
+      "path": "data/raw/cdli_p516138_inscription.atf",
+      "url": "https://cdli.earth/inscriptions/2334411/atf",
+      "bytes": 379,
+      "sha256": "d94b7a981e2ed829d0c08335b8867d2a589ef43da6676ca2451b7b93c11eddd5",
+      "acquired_by": "parent or sibling; reused without duplicate download"
+    }
+  ]
+}

@@ -1,0 +1,137 @@
+{
+  "schema_version": 1,
+  "review_date": "2026-09-23",
+  "scope": "Bounded catalogue and primary-image availability check of CUSAS 40/2,1354; no physical image available for independent glyph inspection.",
+  "sources": [
+    {
+      "path": "data/raw/cdli_p516138_artifact.json",
+      "url": "https://cdli.earth/artifacts/516138/json",
+      "kind": "official JSON export",
+      "bytes": 3651,
+      "sha256": "3e3749dd6b0b84ce792fc5dbfc635377a42b32e8ef1e4cf185735d739b4acfde"
+    },
+    {
+      "path": "data/raw/cdli_p516138_inscription.atf",
+      "url": "https://cdli.earth/inscriptions/2334411/atf",
+      "kind": "official ATF export",
+      "bytes": 379,
+      "sha256": "d94b7a981e2ed829d0c08335b8867d2a589ef43da6676ca2451b7b93c11eddd5"
+    },
+    {
+      "path": "data/raw/cdli_p516138_artifact.html",
+      "url": "https://cdli.earth/artifacts/516138",
+      "kind": "official HTML",
+      "bytes": 58725,
+      "sha256": "c53d7ae3604674554f257306ef60e09885f0fdab2e2226dec359a07bc671c21c"
+    },
+    {
+      "path": "data/raw/cdli_p516138_web_capture.txt",
+      "url": "https://cdli.earth/artifacts/516138",
+      "kind": "web tool textual extraction; not original HTML",
+      "bytes": 10120,
+      "sha256": "4a35e3a49082df871ee744dd8992c079514822e965d2360142399c3086d1ee0c"
+    },
+    {
+      "path": "data/raw/cusas40_preview_web_capture.txt",
+      "url": "https://biblia.com/api/plugins/embeddedpreview?historybuttons=false&layout=minimal&navigationbox=false&resourceName=LLS:TBLTSRSRGRCHV&sharebutton=false",
+      "kind": "licensed book preview web tool textual extraction; not original book",
+      "bytes": 7490,
+      "sha256": "4bf165702db9d6b68edbf1c14d3f65b0175a4481bf954342b630d435f1b9b7a5"
+    }
+  ],
+  "identity": {
+    "cdli": "P516138",
+    "designation": "CUSAS 40, 1354",
+    "primary_publication": "Sigrist and Ozaki 2019, CUSAS 40, exact reference 1354",
+    "publication_id": 232547,
+    "part_two_citation": "CUSAS 40/2,1354 is the investigation lead; CDLI writes CUSAS 40,1354 without volume part.",
+    "join_status": "explicit primary-publication association in official JSON",
+    "museum_number": "IM —",
+    "numeric_accession_verified": false,
+    "material": "clay",
+    "artifact_type": "tablet",
+    "language": "Sumerian",
+    "provenience": "Irisagrig (mod. uncertain)",
+    "excavation_context_verified": false,
+    "excavation_context_note": "No excavation number, findspot, stratum or accession in current record. Generic page heading says excavated; insufficient to establish controlled context."
+  },
+  "text": {
+    "inscription_id": 2334411,
+    "atf": "&P516138 = CUSAS 40, 1354\n#atf: lang sux \n@tablet \n@obverse \n1. 1(disz) [sila3 i3]-gesz \n2. na-na-sa3 \n3. 1(disz) sila3 sa6-ma-ar \n4. 1/2(disz) sila3 a-li-a-hi dam-a-ni \n5. i3-ba lu2 me-luh-ha{ki}-me \n@reverse \n1. a-ru-a lugal \n2. sipa# a-dara4-me \n3. zi-ga \n4. iti {gesz}apin \n5. mu {d}szu-{d}suen lugal uri5#{ki}-ma-ke4 [...] \n@seal 1 \n1. [...] \n2. dub-[sar] \n3. dumu [...] \n \n",
+    "atf_download_equals_json": true,
+    "date_metadata": "Šū-Suen.06.03.00",
+    "date_limit": "Reverse 5 ends in lacuna after royal name/title; year 06 is not independently recoverable from preserved formula shown. Month written iti {gesz}apin. Preserve catalogue date without inventing restoration.",
+    "recipients": [
+      {
+        "name_atf": "na-na-sa3",
+        "location": "obverse 2",
+        "allocation": "1 sila3",
+        "uncertainty": "Oil/unit in obverse 1 partly restored: [sila3 i3]-gesz"
+      },
+      {
+        "name_atf": "sa6-ma-ar",
+        "location": "obverse 3",
+        "allocation": "1 sila3"
+      },
+      {
+        "name_atf": "a-li-a-hi",
+        "location": "obverse 4",
+        "allocation": "1/2 sila3",
+        "relationship": "dam-a-ni (his wife), following sa6-ma-ar; grammatical interpretation, not a seal-ownership assertion"
+      }
+    ],
+    "group_label": {
+      "location": "obverse 5",
+      "atf": "i3-ba lu2 me-luh-ha{ki}-me",
+      "reading": "Oil allotment; people/men of Meluhha"
+    },
+    "roles": {
+      "reverse_1": "a-ru-a lugal",
+      "reverse_2": "sipa# a-dara4-me",
+      "catalogue_description": "Oil rations to sheperds, men of Meluhha",
+      "caution": "Royal a-ru-a and herding description preserved without resolving legal/social status. sipa is marked uncertain (#)."
+    }
+  },
+  "seal": {
+    "present_in_catalogue": true,
+    "lines": [
+      "[...]",
+      "dub-[sar]",
+      "dumu [...]"
+    ],
+    "reading": "Lost name; partially restored scribal title; son of lost name.",
+    "script_evidence": "Catalogue transliterates cuneiform; no readable Indus sequence supplied.",
+    "owner_name_verified": false,
+    "owner_equals_any_recipient": false,
+    "owner_equals_any_recipient_status": "unsupported, not disproven",
+    "linked_cdli": "P533185",
+    "linked_seal_number": "S999999",
+    "linked_record_label": "dummy composite seal for unidentified seals",
+    "dummy_is_physical_identity": false,
+    "physical_impression_photo_inspected": false
+  },
+  "image_search": {
+    "cdli_html_viewer": "/images/no-image.jpg",
+    "social_preview_metadata": "https://cdli.earth/dl/photo/P516138.jpg",
+    "social_preview_caution": "Generated social-preview URL is not proof of an available photograph; not treated as one.",
+    "handcopy_or_photo_obtained": false,
+    "publication_preview": "Only limited front matter/content description accessible; no text 1354 or seal handcopy. Description says originals could not be photographed and volume 2 supplies transliterations; ancillary availability evidence, not proof no photograph exists anywhere.",
+    "publisher_doi_access": "https://www.degruyterbrill.com/document/doi/10.1515/9781646021437/html returned web fetch 405; not bypassed.",
+    "bdtns_join": null,
+    "bdtns_status": "No external_resources in CDLI JSON; exact catalogue number not independently located in this bounded search."
+  },
+  "anchor_assessment": {
+    "known_names_in_tablet_body": true,
+    "known_name_associated_with_readable_indus": false,
+    "indus_signs_identified": 0,
+    "owner_name_identified": false,
+    "usable_name_to_indus_anchor": false,
+    "conclusion": "Useful Meluhha-person administrative evidence, but no verified name-to-Indus-sign anchor. Seal title is partly readable cuneiform and names are lost. Recipient identity is not owner identity."
+  },
+  "comparison_limits": [
+    "Repeated names and identical allocations in other texts do not alone prove duplicate physical tablet or same event.",
+    "CDLI gives SS06.03.00 here, unlike dates of cited Nisaba371/CUSAS1582/UCTIS099; parent reviews those records separately.",
+    "na-na-sa3 is retained literally; do not silently replace by Nanaza/na-na-za from another publication.",
+    "Surdi/De Graef 2025 note22 was the lead; this audit did not access its full article or attribute the seal to an Indus owner."
+  ]
+}

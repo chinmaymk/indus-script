@@ -1,0 +1,122 @@
+{
+  "candidates": [
+    {
+      "A": 36,
+      "B": 61,
+      "B_over_A": "61/36",
+      "candidate": {
+        "L": 10,
+        "S": 8,
+        "v": 6
+      }
+    },
+    {
+      "A": 112,
+      "B": 145,
+      "B_over_A": "145/112",
+      "candidate": {
+        "L": 36,
+        "S": 20,
+        "v": 4
+      }
+    }
+  ],
+  "critical_error_approximation": 0.06717868054652319,
+  "current_authenticated_commensurate_quantity_pairs": 0,
+  "disjoint_criterion": "R*(1-e)^2 > (1+e)^2; equality permits touching intervals",
+  "error_sensitivity": [
+    {
+      "exact_separation_certificate": "403/1305",
+      "per_object_error": "0",
+      "ratio_intervals": [
+        [
+          "61/36",
+          "61/36"
+        ],
+        [
+          "145/112",
+          "145/112"
+        ]
+      ],
+      "strictly_disjoint": true
+    },
+    {
+      "exact_separation_certificate": "706603/3262500",
+      "per_object_error": "1/50",
+      "ratio_intervals": [
+        [
+          "2989/1836",
+          "1037/588"
+        ],
+        [
+          "1015/816",
+          "7395/5488"
+        ]
+      ],
+      "strictly_disjoint": true
+    },
+    {
+      "exact_separation_certificate": "41083/522000",
+      "per_object_error": "1/20",
+      "ratio_intervals": [
+        [
+          "1159/756",
+          "427/228"
+        ],
+        [
+          "2755/2352",
+          "435/304"
+        ]
+      ],
+      "strictly_disjoint": true
+    },
+    {
+      "exact_separation_certificate": "-2173/14500",
+      "per_object_error": "1/10",
+      "ratio_intervals": [
+        [
+          "61/44",
+          "671/324"
+        ],
+        [
+          "1305/1232",
+          "1595/1008"
+        ]
+      ],
+      "strictly_disjoint": false
+    }
+  ],
+  "essential_unverified_assumptions": [
+    "A and B are intended numerical totals with the proposed grouping and operations.",
+    "Sign identities and object crosswalks are correct; W899/source900 is not silently equated.",
+    "The independently measured quantities are what the inscriptions represent.",
+    "Both measured quantities use the same physical dimension and one common positive unit within each candidate.",
+    "Object-specific uncertainty is honestly bounded; quantities are not merely surviving object masses."
+  ],
+  "input_sha256": {
+    "data/processed/numeral_equation_claims.json": "f286e0aa6a4dcf69bf9d9fbe0dc93db0e4c783e931376194b28a234e390f3b80",
+    "docs/NUMERAL_EQUATIONS.md": "ad09336b345d5d9a4e92d5194d86cc585ab8ff54be1420f782b569aae1abc70b",
+    "docs/NUMERAL_IMAGES.md": "30c8b4148f6a44c5906349fe77825ead76e360ebcf20a7ca954ef2180b37b02c",
+    "docs/NUMERAL_SCREEN.md": "2d03eb8f99c2b54aaf790ee14c971dc10c261a272d554e373ab75791ab6e7973",
+    "results/numeral_equation_audit.json": "ed2d921d7c0df0ae42bc6c989778134589bd532bc24c243478260700d27c21f4"
+  },
+  "integer_polynomial_certificate": "403*e^2 - 6026*e + 403 > 0, for 0 <= e < 1",
+  "ratio_of_candidate_ratios": "1708/1305",
+  "relative_error_definition": "A shared positive unit u must satisfy q_i*(1-e) <= u*n_i <= q_i*(1+e) for every independently linked observed total q_i.",
+  "scope": "Conditional calibration design, not measured data or validation of either numerical interpretation.",
+  "scope_limits": [
+    "An ambiguous or lost sign adds discrete prediction uncertainty not included in e.",
+    "Independent free units per object remove ratio discrimination.",
+    "Overlapping intervals do not imply every possible observation is ambiguous.",
+    "A future observation can reject both candidates; the candidates are not exhaustive historical systems.",
+    "Even discriminating these candidates would not decipher the remaining inventory."
+  ],
+  "single_hypothetical_total": {
+    "candidate_units": [
+      "25/9",
+      "25/28"
+    ],
+    "distinguishes_candidates_without_fixed_unit": false,
+    "q_A": "100"
+  }
+}

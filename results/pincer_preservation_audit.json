@@ -1,0 +1,3716 @@
+{
+  "M897_primary_disposition": "FEM545=DK9111 and M77text2545 joins verified; normalized M222 retained alongside unresolved fine photographic W550/W555 geometry. Raw code unchanged.",
+  "established_phonetic_values": 0,
+  "established_semantic_values": 0,
+  "input_sha256": {
+    "data/processed/ending_india_review.json": "cb4eb8d04f9982b359d398c2b7abc96ce4990f8320fa3f6be52f815e0e9e0938",
+    "data/processed/m897_mapping_review.json": "b4444f92e8a19809015bf8b1e671154933324b840ce27469d4bc579e7fa61847",
+    "data/processed/m897_primary_review.json": "c5c5c536c82b99cf5122f0da7c203af225dc2bc7cb7a85c6e9c50d9aa4de5fb5",
+    "data/processed/pincer_preservation_protocol.json": "886bbec272fb939358f5f7bd6513341f63d7f82b29a63f3a98969967e58937e7",
+    "data/raw/lipi_inscriptions.csv": "b8dcb325a2e2cd3cde12ac12e7a418b0348e45713c9ee28aad81b645d2ac5ee4",
+    "results/pincer_context_screen.json": "9a680e61fb8633a47472212e63c02396b0934cc97039f55cb1762922dffa1bec"
+  },
+  "partitions": {
+    "all": {
+      "models": {
+        "both_M216": {
+          "compatible": [
+            "H-2084",
+            "H-1294",
+            "H-421",
+            "H-611",
+            "L-1",
+            "L-9",
+            "L-58",
+            "L-122",
+            "M-1847",
+            "M-1764",
+            "M-1800",
+            "M-821",
+            "M-42",
+            "M-56",
+            "M-82",
+            "M-149",
+            "M-158",
+            "M-307",
+            "M-365",
+            "M-873",
+            "M-939",
+            "M-964",
+            "M-1299",
+            "M-1351",
+            "M-1371",
+            "M-1381"
+          ],
+          "incompatible_given_candidate_set": [
+            "H-459",
+            "L-89",
+            "M-940",
+            "M-1917",
+            "M-1693",
+            "M-63",
+            "M-897",
+            "M-934",
+            "M-1081",
+            "M-1320"
+          ],
+          "no_candidate_uninformative": [
+            "B-1",
+            "-",
+            "H-1123",
+            "H-1924",
+            "H-1893",
+            "H-1776",
+            "H-1816",
+            "H-2069",
+            "H-1767",
+            "H-1814",
+            "H-1813",
+            "H-1951",
+            "H-2040",
+            "H-1840",
+            "H-1812",
+            "H-1811",
+            "H-20",
+            "H-21",
+            "H-49",
+            "H-386",
+            "H-483",
+            "H-645",
+            "H-715",
+            "H-774",
+            "H-791",
+            "L-51",
+            "L-145",
+            "M-2041",
+            "M-2040",
+            "M-2014",
+            "M-49",
+            "M-81",
+            "M-108",
+            "M-133",
+            "M-253",
+            "M-304",
+            "M-396",
+            "M-401",
+            "M-501",
+            "M-739",
+            "M-777",
+            "M-833",
+            "M-849",
+            "M-921",
+            "M-955",
+            "M-980",
+            "M-1080",
+            "M-1113",
+            "M-1390",
+            "M-1444",
+            "M-1445",
+            "-",
+            "?-5",
+            "M-1973",
+            "-",
+            "-",
+            "-"
+          ]
+        },
+        "both_M222": {
+          "compatible": [
+            "H-2084",
+            "H-459",
+            "L-9",
+            "L-89",
+            "M-1847",
+            "M-940",
+            "M-1800",
+            "M-1917",
+            "M-1693",
+            "M-821",
+            "M-897",
+            "M-934",
+            "M-939",
+            "M-1081",
+            "M-1320",
+            "M-1351"
+          ],
+          "incompatible_given_candidate_set": [
+            "H-1294",
+            "H-421",
+            "H-611",
+            "L-1",
+            "L-58",
+            "L-122",
+            "M-1764",
+            "M-42",
+            "M-56",
+            "M-63",
+            "M-82",
+            "M-149",
+            "M-158",
+            "M-307",
+            "M-365",
+            "M-873",
+            "M-964",
+            "M-1299",
+            "M-1371",
+            "M-1381"
+          ],
+          "no_candidate_uninformative": [
+            "B-1",
+            "-",
+            "H-1123",
+            "H-1924",
+            "H-1893",
+            "H-1776",
+            "H-1816",
+            "H-2069",
+            "H-1767",
+            "H-1814",
+            "H-1813",
+            "H-1951",
+            "H-2040",
+            "H-1840",
+            "H-1812",
+            "H-1811",
+            "H-20",
+            "H-21",
+            "H-49",
+            "H-386",
+            "H-483",
+            "H-645",
+            "H-715",
+            "H-774",
+            "H-791",
+            "L-51",
+            "L-145",
+            "M-2041",
+            "M-2040",
+            "M-2014",
+            "M-49",
+            "M-81",
+            "M-108",
+            "M-133",
+            "M-253",
+            "M-304",
+            "M-396",
+            "M-401",
+            "M-501",
+            "M-739",
+            "M-777",
+            "M-833",
+            "M-849",
+            "M-921",
+            "M-955",
+            "M-980",
+            "M-1080",
+            "M-1113",
+            "M-1390",
+            "M-1444",
+            "M-1445",
+            "-",
+            "?-5",
+            "M-1973",
+            "-",
+            "-",
+            "-"
+          ]
+        },
+        "local_split": {
+          "compatible": [
+            "H-2084",
+            "H-1294",
+            "H-421",
+            "H-459",
+            "H-611",
+            "L-1",
+            "L-9",
+            "L-58",
+            "L-89",
+            "L-122",
+            "M-1847",
+            "M-1764",
+            "M-940",
+            "M-1800",
+            "M-1917",
+            "M-1693",
+            "M-821",
+            "M-42",
+            "M-56",
+            "M-63",
+            "M-82",
+            "M-149",
+            "M-158",
+            "M-307",
+            "M-365",
+            "M-873",
+            "M-934",
+            "M-939",
+            "M-964",
+            "M-1081",
+            "M-1299",
+            "M-1320",
+            "M-1351",
+            "M-1371",
+            "M-1381"
+          ],
+          "incompatible_given_candidate_set": [
+            "M-897"
+          ],
+          "no_candidate_uninformative": [
+            "B-1",
+            "-",
+            "H-1123",
+            "H-1924",
+            "H-1893",
+            "H-1776",
+            "H-1816",
+            "H-2069",
+            "H-1767",
+            "H-1814",
+            "H-1813",
+            "H-1951",
+            "H-2040",
+            "H-1840",
+            "H-1812",
+            "H-1811",
+            "H-20",
+            "H-21",
+            "H-49",
+            "H-386",
+            "H-483",
+            "H-645",
+            "H-715",
+            "H-774",
+            "H-791",
+            "L-51",
+            "L-145",
+            "M-2041",
+            "M-2040",
+            "M-2014",
+            "M-49",
+            "M-81",
+            "M-108",
+            "M-133",
+            "M-253",
+            "M-304",
+            "M-396",
+            "M-401",
+            "M-501",
+            "M-739",
+            "M-777",
+            "M-833",
+            "M-849",
+            "M-921",
+            "M-955",
+            "M-980",
+            "M-1080",
+            "M-1113",
+            "M-1390",
+            "M-1444",
+            "M-1445",
+            "-",
+            "?-5",
+            "M-1973",
+            "-",
+            "-",
+            "-"
+          ]
+        },
+        "reversed_split": {
+          "compatible": [
+            "H-2084",
+            "L-9",
+            "M-1847",
+            "M-1800",
+            "M-821",
+            "M-897",
+            "M-939",
+            "M-1351"
+          ],
+          "incompatible_given_candidate_set": [
+            "H-1294",
+            "H-421",
+            "H-459",
+            "H-611",
+            "L-1",
+            "L-58",
+            "L-89",
+            "L-122",
+            "M-1764",
+            "M-940",
+            "M-1917",
+            "M-1693",
+            "M-42",
+            "M-56",
+            "M-63",
+            "M-82",
+            "M-149",
+            "M-158",
+            "M-307",
+            "M-365",
+            "M-873",
+            "M-934",
+            "M-964",
+            "M-1081",
+            "M-1299",
+            "M-1320",
+            "M-1371",
+            "M-1381"
+          ],
+          "no_candidate_uninformative": [
+            "B-1",
+            "-",
+            "H-1123",
+            "H-1924",
+            "H-1893",
+            "H-1776",
+            "H-1816",
+            "H-2069",
+            "H-1767",
+            "H-1814",
+            "H-1813",
+            "H-1951",
+            "H-2040",
+            "H-1840",
+            "H-1812",
+            "H-1811",
+            "H-20",
+            "H-21",
+            "H-49",
+            "H-386",
+            "H-483",
+            "H-645",
+            "H-715",
+            "H-774",
+            "H-791",
+            "L-51",
+            "L-145",
+            "M-2041",
+            "M-2040",
+            "M-2014",
+            "M-49",
+            "M-81",
+            "M-108",
+            "M-133",
+            "M-253",
+            "M-304",
+            "M-396",
+            "M-401",
+            "M-501",
+            "M-739",
+            "M-777",
+            "M-833",
+            "M-849",
+            "M-921",
+            "M-955",
+            "M-980",
+            "M-1080",
+            "M-1113",
+            "M-1390",
+            "M-1444",
+            "M-1445",
+            "-",
+            "?-5",
+            "M-1973",
+            "-",
+            "-",
+            "-"
+          ]
+        }
+      },
+      "preservation_counts": {
+        "chipped": 4,
+        "complete": 72,
+        "fragment": 7,
+        "partly damaged": 3,
+        "slightly chipped": 7
+      },
+      "selected_rows": 93,
+      "with_candidates": 36
+    },
+    "source_complete": {
+      "models": {
+        "both_M216": {
+          "compatible": [
+            "H-2084",
+            "H-1294",
+            "L-1",
+            "L-9",
+            "L-58",
+            "L-122",
+            "M-1847",
+            "M-1764",
+            "M-1800",
+            "M-42",
+            "M-56",
+            "M-82",
+            "M-158",
+            "M-365",
+            "M-939",
+            "M-964",
+            "M-1299",
+            "M-1351",
+            "M-1371",
+            "M-1381"
+          ],
+          "incompatible_given_candidate_set": [
+            "H-459",
+            "L-89",
+            "M-940",
+            "M-1693",
+            "M-934",
+            "M-1081",
+            "M-1320"
+          ],
+          "no_candidate_uninformative": [
+            "B-1",
+            "-",
+            "H-1123",
+            "H-1924",
+            "H-1893",
+            "H-1776",
+            "H-1816",
+            "H-2069",
+            "H-1814",
+            "H-1813",
+            "H-1951",
+            "H-2040",
+            "H-1840",
+            "H-1811",
+            "H-20",
+            "H-21",
+            "H-49",
+            "H-645",
+            "H-774",
+            "H-791",
+            "L-51",
+            "M-2041",
+            "M-2040",
+            "M-2014",
+            "M-81",
+            "M-108",
+            "M-133",
+            "M-396",
+            "M-401",
+            "M-501",
+            "M-739",
+            "M-777",
+            "M-833",
+            "M-849",
+            "M-921",
+            "M-1080",
+            "M-1113",
+            "M-1390",
+            "M-1444",
+            "M-1445",
+            "-",
+            "?-5",
+            "M-1973",
+            "-",
+            "-"
+          ]
+        },
+        "both_M222": {
+          "compatible": [
+            "H-2084",
+            "H-459",
+            "L-9",
+            "L-89",
+            "M-1847",
+            "M-940",
+            "M-1800",
+            "M-1693",
+            "M-934",
+            "M-939",
+            "M-1081",
+            "M-1320",
+            "M-1351"
+          ],
+          "incompatible_given_candidate_set": [
+            "H-1294",
+            "L-1",
+            "L-58",
+            "L-122",
+            "M-1764",
+            "M-42",
+            "M-56",
+            "M-82",
+            "M-158",
+            "M-365",
+            "M-964",
+            "M-1299",
+            "M-1371",
+            "M-1381"
+          ],
+          "no_candidate_uninformative": [
+            "B-1",
+            "-",
+            "H-1123",
+            "H-1924",
+            "H-1893",
+            "H-1776",
+            "H-1816",
+            "H-2069",
+            "H-1814",
+            "H-1813",
+            "H-1951",
+            "H-2040",
+            "H-1840",
+            "H-1811",
+            "H-20",
+            "H-21",
+            "H-49",
+            "H-645",
+            "H-774",
+            "H-791",
+            "L-51",
+            "M-2041",
+            "M-2040",
+            "M-2014",
+            "M-81",
+            "M-108",
+            "M-133",
+            "M-396",
+            "M-401",
+            "M-501",
+            "M-739",
+            "M-777",
+            "M-833",
+            "M-849",
+            "M-921",
+            "M-1080",
+            "M-1113",
+            "M-1390",
+            "M-1444",
+            "M-1445",
+            "-",
+            "?-5",
+            "M-1973",
+            "-",
+            "-"
+          ]
+        },
+        "local_split": {
+          "compatible": [
+            "H-2084",
+            "H-1294",
+            "H-459",
+            "L-1",
+            "L-9",
+            "L-58",
+            "L-89",
+            "L-122",
+            "M-1847",
+            "M-1764",
+            "M-940",
+            "M-1800",
+            "M-1693",
+            "M-42",
+            "M-56",
+            "M-82",
+            "M-158",
+            "M-365",
+            "M-934",
+            "M-939",
+            "M-964",
+            "M-1081",
+            "M-1299",
+            "M-1320",
+            "M-1351",
+            "M-1371",
+            "M-1381"
+          ],
+          "incompatible_given_candidate_set": [],
+          "no_candidate_uninformative": [
+            "B-1",
+            "-",
+            "H-1123",
+            "H-1924",
+            "H-1893",
+            "H-1776",
+            "H-1816",
+            "H-2069",
+            "H-1814",
+            "H-1813",
+            "H-1951",
+            "H-2040",
+            "H-1840",
+            "H-1811",
+            "H-20",
+            "H-21",
+            "H-49",
+            "H-645",
+            "H-774",
+            "H-791",
+            "L-51",
+            "M-2041",
+            "M-2040",
+            "M-2014",
+            "M-81",
+            "M-108",
+            "M-133",
+            "M-396",
+            "M-401",
+            "M-501",
+            "M-739",
+            "M-777",
+            "M-833",
+            "M-849",
+            "M-921",
+            "M-1080",
+            "M-1113",
+            "M-1390",
+            "M-1444",
+            "M-1445",
+            "-",
+            "?-5",
+            "M-1973",
+            "-",
+            "-"
+          ]
+        },
+        "reversed_split": {
+          "compatible": [
+            "H-2084",
+            "L-9",
+            "M-1847",
+            "M-1800",
+            "M-939",
+            "M-1351"
+          ],
+          "incompatible_given_candidate_set": [
+            "H-1294",
+            "H-459",
+            "L-1",
+            "L-58",
+            "L-89",
+            "L-122",
+            "M-1764",
+            "M-940",
+            "M-1693",
+            "M-42",
+            "M-56",
+            "M-82",
+            "M-158",
+            "M-365",
+            "M-934",
+            "M-964",
+            "M-1081",
+            "M-1299",
+            "M-1320",
+            "M-1371",
+            "M-1381"
+          ],
+          "no_candidate_uninformative": [
+            "B-1",
+            "-",
+            "H-1123",
+            "H-1924",
+            "H-1893",
+            "H-1776",
+            "H-1816",
+            "H-2069",
+            "H-1814",
+            "H-1813",
+            "H-1951",
+            "H-2040",
+            "H-1840",
+            "H-1811",
+            "H-20",
+            "H-21",
+            "H-49",
+            "H-645",
+            "H-774",
+            "H-791",
+            "L-51",
+            "M-2041",
+            "M-2040",
+            "M-2014",
+            "M-81",
+            "M-108",
+            "M-133",
+            "M-396",
+            "M-401",
+            "M-501",
+            "M-739",
+            "M-777",
+            "M-833",
+            "M-849",
+            "M-921",
+            "M-1080",
+            "M-1113",
+            "M-1390",
+            "M-1444",
+            "M-1445",
+            "-",
+            "?-5",
+            "M-1973",
+            "-",
+            "-"
+          ]
+        }
+      },
+      "preservation_counts": {
+        "complete": 72
+      },
+      "selected_rows": 72,
+      "with_candidates": 27
+    },
+    "source_complete_two_context_positions": {
+      "models": {
+        "both_M216": {
+          "compatible": [
+            "H-2084",
+            "H-1294",
+            "L-1",
+            "L-9",
+            "L-122",
+            "M-1847",
+            "M-1764",
+            "M-42",
+            "M-56",
+            "M-82",
+            "M-158",
+            "M-365",
+            "M-964",
+            "M-1299",
+            "M-1351",
+            "M-1371",
+            "M-1381"
+          ],
+          "incompatible_given_candidate_set": [
+            "H-459",
+            "L-89",
+            "M-940",
+            "M-1693",
+            "M-934",
+            "M-1081",
+            "M-1320"
+          ],
+          "no_candidate_uninformative": [
+            "B-1",
+            "H-1123",
+            "H-1924",
+            "H-1893",
+            "H-1776",
+            "H-1816",
+            "H-2069",
+            "H-1814",
+            "H-1813",
+            "H-1951",
+            "H-2040",
+            "H-1840",
+            "H-1811",
+            "H-20",
+            "H-21",
+            "H-49",
+            "H-645",
+            "H-774",
+            "L-51",
+            "M-2041",
+            "M-2040",
+            "M-2014",
+            "M-81",
+            "M-108",
+            "M-133",
+            "M-396",
+            "M-401",
+            "M-501",
+            "M-739",
+            "M-777",
+            "M-833",
+            "M-849",
+            "M-921",
+            "M-1080",
+            "M-1113",
+            "M-1390",
+            "M-1444",
+            "M-1445",
+            "-",
+            "?-5",
+            "M-1973",
+            "-",
+            "-"
+          ]
+        },
+        "both_M222": {
+          "compatible": [
+            "H-2084",
+            "H-459",
+            "L-9",
+            "L-89",
+            "M-1847",
+            "M-940",
+            "M-1693",
+            "M-934",
+            "M-1081",
+            "M-1320",
+            "M-1351"
+          ],
+          "incompatible_given_candidate_set": [
+            "H-1294",
+            "L-1",
+            "L-122",
+            "M-1764",
+            "M-42",
+            "M-56",
+            "M-82",
+            "M-158",
+            "M-365",
+            "M-964",
+            "M-1299",
+            "M-1371",
+            "M-1381"
+          ],
+          "no_candidate_uninformative": [
+            "B-1",
+            "H-1123",
+            "H-1924",
+            "H-1893",
+            "H-1776",
+            "H-1816",
+            "H-2069",
+            "H-1814",
+            "H-1813",
+            "H-1951",
+            "H-2040",
+            "H-1840",
+            "H-1811",
+            "H-20",
+            "H-21",
+            "H-49",
+            "H-645",
+            "H-774",
+            "L-51",
+            "M-2041",
+            "M-2040",
+            "M-2014",
+            "M-81",
+            "M-108",
+            "M-133",
+            "M-396",
+            "M-401",
+            "M-501",
+            "M-739",
+            "M-777",
+            "M-833",
+            "M-849",
+            "M-921",
+            "M-1080",
+            "M-1113",
+            "M-1390",
+            "M-1444",
+            "M-1445",
+            "-",
+            "?-5",
+            "M-1973",
+            "-",
+            "-"
+          ]
+        },
+        "local_split": {
+          "compatible": [
+            "H-2084",
+            "H-1294",
+            "H-459",
+            "L-1",
+            "L-9",
+            "L-89",
+            "L-122",
+            "M-1847",
+            "M-1764",
+            "M-940",
+            "M-1693",
+            "M-42",
+            "M-56",
+            "M-82",
+            "M-158",
+            "M-365",
+            "M-934",
+            "M-964",
+            "M-1081",
+            "M-1299",
+            "M-1320",
+            "M-1351",
+            "M-1371",
+            "M-1381"
+          ],
+          "incompatible_given_candidate_set": [],
+          "no_candidate_uninformative": [
+            "B-1",
+            "H-1123",
+            "H-1924",
+            "H-1893",
+            "H-1776",
+            "H-1816",
+            "H-2069",
+            "H-1814",
+            "H-1813",
+            "H-1951",
+            "H-2040",
+            "H-1840",
+            "H-1811",
+            "H-20",
+            "H-21",
+            "H-49",
+            "H-645",
+            "H-774",
+            "L-51",
+            "M-2041",
+            "M-2040",
+            "M-2014",
+            "M-81",
+            "M-108",
+            "M-133",
+            "M-396",
+            "M-401",
+            "M-501",
+            "M-739",
+            "M-777",
+            "M-833",
+            "M-849",
+            "M-921",
+            "M-1080",
+            "M-1113",
+            "M-1390",
+            "M-1444",
+            "M-1445",
+            "-",
+            "?-5",
+            "M-1973",
+            "-",
+            "-"
+          ]
+        },
+        "reversed_split": {
+          "compatible": [
+            "H-2084",
+            "L-9",
+            "M-1847",
+            "M-1351"
+          ],
+          "incompatible_given_candidate_set": [
+            "H-1294",
+            "H-459",
+            "L-1",
+            "L-89",
+            "L-122",
+            "M-1764",
+            "M-940",
+            "M-1693",
+            "M-42",
+            "M-56",
+            "M-82",
+            "M-158",
+            "M-365",
+            "M-934",
+            "M-964",
+            "M-1081",
+            "M-1299",
+            "M-1320",
+            "M-1371",
+            "M-1381"
+          ],
+          "no_candidate_uninformative": [
+            "B-1",
+            "H-1123",
+            "H-1924",
+            "H-1893",
+            "H-1776",
+            "H-1816",
+            "H-2069",
+            "H-1814",
+            "H-1813",
+            "H-1951",
+            "H-2040",
+            "H-1840",
+            "H-1811",
+            "H-20",
+            "H-21",
+            "H-49",
+            "H-645",
+            "H-774",
+            "L-51",
+            "M-2041",
+            "M-2040",
+            "M-2014",
+            "M-81",
+            "M-108",
+            "M-133",
+            "M-396",
+            "M-401",
+            "M-501",
+            "M-739",
+            "M-777",
+            "M-833",
+            "M-849",
+            "M-921",
+            "M-1080",
+            "M-1113",
+            "M-1390",
+            "M-1444",
+            "M-1445",
+            "-",
+            "?-5",
+            "M-1973",
+            "-",
+            "-"
+          ]
+        }
+      },
+      "preservation_counts": {
+        "complete": 67
+      },
+      "selected_rows": 67,
+      "with_candidates": 24
+    }
+  },
+  "protocol": {
+    "compatibility_rule": "A row is model-compatible only if at least one complete candidate pair has every target occurrence consistent with that same model. Do not combine positions from different pairs. No candidate means uninformative for these models, not contradicted.",
+    "established_phonetic_values": 0,
+    "established_semantic_values": 0,
+    "input_screen": "results/pincer_context_screen.json",
+    "known_prior_primary_caveat": "The source-complete partition includes L9, whose previously reviewed photograph has a broken comb corner. Add prior review annotation without changing selection or calling this a physically authenticated complete sample.",
+    "limits": [
+      "Preservation is a secondary label, not independently certified completeness",
+      "Models apply only to the two target mappings and are not translations",
+      "Matched contexts can belong to different objects",
+      "Fixed target alphabet and incomplete background crosswalk limit discovery",
+      "No p-values, global accuracy or independent replication claims"
+    ],
+    "models": {
+      "both_M216": {
+        "W550": "M216",
+        "W555": "M216"
+      },
+      "both_M222": {
+        "W550": "M222",
+        "W555": "M222"
+      },
+      "local_split": {
+        "W550": "M216",
+        "W555": "M222"
+      },
+      "reversed_split": {
+        "W550": "M222",
+        "W555": "M216"
+      }
+    },
+    "partitions": [
+      "all selected rows",
+      "raw preservation exactly complete",
+      "raw preservation exactly complete and at least two non-target token positions"
+    ],
+    "purpose": "Assess whether the apparent exception to a local W550/M216 and W555/M222 split survives literal preservation filtering; test whole-pair compatibility rather than marginal token matches",
+    "status": "Source-exposed sensitivity fixed after M897 fragment flag was observed and before new partition/model counts"
+  },
+  "rows": [
+    {
+      "candidate_pair_ids": [],
+      "has_candidate": false,
+      "model_compatible": {
+        "both_M216": null,
+        "both_M222": null,
+        "local_split": null,
+        "reversed_split": null
+      },
+      "non_target_positions": 6,
+      "previous_primary_review_corner_loss": null,
+      "sequence": [
+        "W090",
+        "W740",
+        "W220",
+        "W002",
+        "W368",
+        "W550",
+        "W821"
+      ],
+      "source": {
+        "cisi": "B-1",
+        "complete": "Y",
+        "excavation-idno": "BNL1 1027",
+        "id": "27.1",
+        "preservation": "complete",
+        "type": "SEAL:S"
+      }
+    },
+    {
+      "candidate_pair_ids": [],
+      "has_candidate": false,
+      "model_compatible": {
+        "both_M216": null,
+        "both_M222": null,
+        "local_split": null,
+        "reversed_split": null
+      },
+      "non_target_positions": 1,
+      "previous_primary_review_corner_loss": null,
+      "sequence": [
+        "W060",
+        "W550"
+      ],
+      "source": {
+        "cisi": "-",
+        "complete": "Y",
+        "excavation-idno": "11794561",
+        "id": "236.1",
+        "preservation": "complete",
+        "type": "MISC"
+      }
+    },
+    {
+      "candidate_pair_ids": [],
+      "has_candidate": false,
+      "model_compatible": {
+        "both_M216": null,
+        "both_M222": null,
+        "local_split": null,
+        "reversed_split": null
+      },
+      "non_target_positions": 2,
+      "previous_primary_review_corner_loss": null,
+      "sequence": [
+        "W525",
+        "W550",
+        "W220"
+      ],
+      "source": {
+        "cisi": "H-1123",
+        "complete": "Y",
+        "excavation-idno": "9015360",
+        "id": "313.1",
+        "preservation": "complete",
+        "type": "TAB:B"
+      }
+    },
+    {
+      "candidate_pair_ids": [],
+      "has_candidate": false,
+      "model_compatible": {
+        "both_M216": null,
+        "both_M222": null,
+        "local_split": null,
+        "reversed_split": null
+      },
+      "non_target_positions": 2,
+      "previous_primary_review_corner_loss": null,
+      "sequence": [
+        "W550",
+        "W003",
+        "W435"
+      ],
+      "source": {
+        "cisi": "H-1924",
+        "complete": "Y",
+        "excavation-idno": "H2000-4377Figure 36.04",
+        "id": "373.2",
+        "preservation": "complete",
+        "type": "TAB:B"
+      }
+    },
+    {
+      "candidate_pair_ids": [],
+      "has_candidate": false,
+      "model_compatible": {
+        "both_M216": null,
+        "both_M222": null,
+        "local_split": null,
+        "reversed_split": null
+      },
+      "non_target_positions": 3,
+      "previous_primary_review_corner_loss": null,
+      "sequence": [
+        "W390",
+        "W003",
+        "W060",
+        "W550"
+      ],
+      "source": {
+        "cisi": "H-1893",
+        "complete": "Y",
+        "excavation-idno": "H2000-4378Figure 36.01",
+        "id": "374.2",
+        "preservation": "complete",
+        "type": "TAB:B"
+      }
+    },
+    {
+      "candidate_pair_ids": [],
+      "has_candidate": false,
+      "model_compatible": {
+        "both_M216": null,
+        "both_M222": null,
+        "local_split": null,
+        "reversed_split": null
+      },
+      "non_target_positions": 4,
+      "previous_primary_review_corner_loss": null,
+      "sequence": [
+        "W740",
+        "W390",
+        "W590",
+        "W060",
+        "W550"
+      ],
+      "source": {
+        "cisi": "H-1776",
+        "complete": "Y",
+        "excavation-idno": "H2000-4387Figure 37.02",
+        "id": "378.1",
+        "preservation": "complete",
+        "type": "TAB:B"
+      }
+    },
+    {
+      "candidate_pair_ids": [
+        "472.1__GLI-IND-M77-01269",
+        "472.1__GLI-IND-M77-02142"
+      ],
+      "has_candidate": true,
+      "model_compatible": {
+        "both_M216": true,
+        "both_M222": true,
+        "local_split": true,
+        "reversed_split": true
+      },
+      "non_target_positions": 2,
+      "previous_primary_review_corner_loss": null,
+      "sequence": [
+        "W526",
+        "W555",
+        "W235"
+      ],
+      "source": {
+        "cisi": "H-2084",
+        "complete": "Y",
+        "excavation-idno": "H2001-5088Figure 45.01",
+        "id": "472.1",
+        "preservation": "complete",
+        "type": "TAB:I"
+      }
+    },
+    {
+      "candidate_pair_ids": [],
+      "has_candidate": false,
+      "model_compatible": {
+        "both_M216": null,
+        "both_M222": null,
+        "local_split": null,
+        "reversed_split": null
+      },
+      "non_target_positions": 5,
+      "previous_primary_review_corner_loss": null,
+      "sequence": [
+        "W400",
+        "W525",
+        "W550",
+        "W033",
+        "W705",
+        "W240"
+      ],
+      "source": {
+        "cisi": "H-1816",
+        "complete": "Y",
+        "excavation-idno": "H90-1601Figure 13.44 (h)",
+        "id": "512.2",
+        "preservation": "complete",
+        "type": "TAB:B"
+      }
+    },
+    {
+      "candidate_pair_ids": [],
+      "has_candidate": false,
+      "model_compatible": {
+        "both_M216": null,
+        "both_M222": null,
+        "local_split": null,
+        "reversed_split": null
+      },
+      "non_target_positions": 4,
+      "previous_primary_review_corner_loss": null,
+      "sequence": [
+        "W700",
+        "W034",
+        "W400",
+        "W525",
+        "W550"
+      ],
+      "source": {
+        "cisi": "H-2069",
+        "complete": "Y",
+        "excavation-idno": "H93-2106Figure 16.e",
+        "id": "532.2",
+        "preservation": "complete",
+        "type": "TAB:I"
+      }
+    },
+    {
+      "candidate_pair_ids": [],
+      "has_candidate": false,
+      "model_compatible": {
+        "both_M216": null,
+        "both_M222": null,
+        "local_split": null,
+        "reversed_split": null
+      },
+      "non_target_positions": 2,
+      "previous_primary_review_corner_loss": null,
+      "sequence": [
+        "W617",
+        "W550",
+        "W003"
+      ],
+      "source": {
+        "cisi": "H-1767",
+        "complete": "Y",
+        "excavation-idno": "H94-2184Figure 18.03",
+        "id": "552.1",
+        "preservation": "slightly chipped",
+        "type": "TAB:B"
+      }
+    },
+    {
+      "candidate_pair_ids": [],
+      "has_candidate": false,
+      "model_compatible": {
+        "both_M216": null,
+        "both_M222": null,
+        "local_split": null,
+        "reversed_split": null
+      },
+      "non_target_positions": 5,
+      "previous_primary_review_corner_loss": null,
+      "sequence": [
+        "W400",
+        "W525",
+        "W550",
+        "W033",
+        "W705",
+        "W240"
+      ],
+      "source": {
+        "cisi": "H-1814",
+        "complete": "Y",
+        "excavation-idno": "H95-2420Figure 26.09",
+        "id": "635.1",
+        "preservation": "complete",
+        "type": "TAB:B"
+      }
+    },
+    {
+      "candidate_pair_ids": [],
+      "has_candidate": false,
+      "model_compatible": {
+        "both_M216": null,
+        "both_M222": null,
+        "local_split": null,
+        "reversed_split": null
+      },
+      "non_target_positions": 5,
+      "previous_primary_review_corner_loss": null,
+      "sequence": [
+        "W400",
+        "W525",
+        "W550",
+        "W033",
+        "W705",
+        "W220"
+      ],
+      "source": {
+        "cisi": "H-1813",
+        "complete": "Y",
+        "excavation-idno": "H95-2443Figure 26.11",
+        "id": "653.1",
+        "preservation": "complete",
+        "type": "TAB:B"
+      }
+    },
+    {
+      "candidate_pair_ids": [],
+      "has_candidate": false,
+      "model_compatible": {
+        "both_M216": null,
+        "both_M222": null,
+        "local_split": null,
+        "reversed_split": null
+      },
+      "non_target_positions": 3,
+      "previous_primary_review_corner_loss": null,
+      "sequence": [
+        "W617",
+        "W550",
+        "W003",
+        "W790"
+      ],
+      "source": {
+        "cisi": "H-1951",
+        "complete": "Y",
+        "excavation-idno": "H95-2485Figure 24.01",
+        "id": "662.1",
+        "preservation": "complete",
+        "type": "TAB:B"
+      }
+    },
+    {
+      "candidate_pair_ids": [],
+      "has_candidate": false,
+      "model_compatible": {
+        "both_M216": null,
+        "both_M222": null,
+        "local_split": null,
+        "reversed_split": null
+      },
+      "non_target_positions": 3,
+      "previous_primary_review_corner_loss": null,
+      "sequence": [
+        "W740",
+        "W803",
+        "W060",
+        "W550"
+      ],
+      "source": {
+        "cisi": "H-2040",
+        "complete": "Y",
+        "excavation-idno": "H96-2790Figure 18.07",
+        "id": "760.1",
+        "preservation": "complete",
+        "type": "TAB:I"
+      }
+    },
+    {
+      "candidate_pair_ids": [],
+      "has_candidate": false,
+      "model_compatible": {
+        "both_M216": null,
+        "both_M222": null,
+        "local_split": null,
+        "reversed_split": null
+      },
+      "non_target_positions": 5,
+      "previous_primary_review_corner_loss": null,
+      "sequence": [
+        "W090",
+        "W740",
+        "W255",
+        "W705",
+        "W060",
+        "W550"
+      ],
+      "source": {
+        "cisi": "H-1840",
+        "complete": "Y",
+        "excavation-idno": "H96-3115Figure 21.03",
+        "id": "788.1",
+        "preservation": "complete",
+        "type": "TAB:B"
+      }
+    },
+    {
+      "candidate_pair_ids": [],
+      "has_candidate": false,
+      "model_compatible": {
+        "both_M216": null,
+        "both_M222": null,
+        "local_split": null,
+        "reversed_split": null
+      },
+      "non_target_positions": 5,
+      "previous_primary_review_corner_loss": null,
+      "sequence": [
+        "W400",
+        "W525",
+        "W550",
+        "W033",
+        "W705",
+        "W240"
+      ],
+      "source": {
+        "cisi": "H-1812",
+        "complete": "Y",
+        "excavation-idno": "H97-3329Figure 14.05",
+        "id": "867.1",
+        "preservation": "chipped",
+        "type": "TAB:B"
+      }
+    },
+    {
+      "candidate_pair_ids": [],
+      "has_candidate": false,
+      "model_compatible": {
+        "both_M216": null,
+        "both_M222": null,
+        "local_split": null,
+        "reversed_split": null
+      },
+      "non_target_positions": 5,
+      "previous_primary_review_corner_loss": null,
+      "sequence": [
+        "W400",
+        "W525",
+        "W550",
+        "W033",
+        "W705",
+        "W240"
+      ],
+      "source": {
+        "cisi": "H-1811",
+        "complete": "Y",
+        "excavation-idno": "H97-3421Figure 14.06",
+        "id": "916.1",
+        "preservation": "complete",
+        "type": "TAB:B"
+      }
+    },
+    {
+      "candidate_pair_ids": [
+        "1061.1__GLI-IND-M77-05469"
+      ],
+      "has_candidate": true,
+      "model_compatible": {
+        "both_M216": true,
+        "both_M222": false,
+        "local_split": true,
+        "reversed_split": false
+      },
+      "non_target_positions": 2,
+      "previous_primary_review_corner_loss": null,
+      "sequence": [
+        "W527",
+        "W550",
+        "W233"
+      ],
+      "source": {
+        "cisi": "H-1294",
+        "complete": "Y",
+        "excavation-idno": "PII-1499",
+        "id": "1061.1",
+        "preservation": "complete",
+        "type": "TAB:I"
+      }
+    },
+    {
+      "candidate_pair_ids": [],
+      "has_candidate": false,
+      "model_compatible": {
+        "both_M216": null,
+        "both_M222": null,
+        "local_split": null,
+        "reversed_split": null
+      },
+      "non_target_positions": 9,
+      "previous_primary_review_corner_loss": null,
+      "sequence": [
+        "W740",
+        "W176",
+        "W690",
+        "W435",
+        "W255",
+        "W220",
+        "W032",
+        "W806",
+        "W060",
+        "W550"
+      ],
+      "source": {
+        "cisi": "H-20",
+        "complete": "Y",
+        "excavation-idno": "3170019",
+        "id": "1080.1",
+        "preservation": "complete",
+        "type": "SEAL:S"
+      }
+    },
+    {
+      "candidate_pair_ids": [],
+      "has_candidate": false,
+      "model_compatible": {
+        "both_M216": null,
+        "both_M222": null,
+        "local_split": null,
+        "reversed_split": null
+      },
+      "non_target_positions": 8,
+      "previous_primary_review_corner_loss": null,
+      "sequence": [
+        "W405",
+        "W061",
+        "W527",
+        "W555",
+        "W233",
+        "W235",
+        "W806",
+        "W002",
+        "W817"
+      ],
+      "source": {
+        "cisi": "H-21",
+        "complete": "Y",
+        "excavation-idno": "3725022",
+        "id": "1081.1",
+        "preservation": "complete",
+        "type": "SEAL:S"
+      }
+    },
+    {
+      "candidate_pair_ids": [],
+      "has_candidate": false,
+      "model_compatible": {
+        "both_M216": null,
+        "both_M222": null,
+        "local_split": null,
+        "reversed_split": null
+      },
+      "non_target_positions": 2,
+      "previous_primary_review_corner_loss": null,
+      "sequence": [
+        "W617",
+        "W550",
+        "W003"
+      ],
+      "source": {
+        "cisi": "H-49",
+        "complete": "Y",
+        "excavation-idno": "11630133",
+        "id": "1108.1",
+        "preservation": "complete",
+        "type": "SEAL:S"
+      }
+    },
+    {
+      "candidate_pair_ids": [],
+      "has_candidate": false,
+      "model_compatible": {
+        "both_M216": null,
+        "both_M222": null,
+        "local_split": null,
+        "reversed_split": null
+      },
+      "non_target_positions": 8,
+      "previous_primary_review_corner_loss": null,
+      "sequence": [
+        "W527",
+        "W555",
+        "W740",
+        "W055",
+        "W240",
+        "W415",
+        "W798",
+        "W060",
+        "W201"
+      ],
+      "source": {
+        "cisi": "H-386",
+        "complete": "Y",
+        "excavation-idno": "PII-21025",
+        "id": "1400.1",
+        "preservation": "slightly chipped",
+        "type": "SEAL:S"
+      }
+    },
+    {
+      "candidate_pair_ids": [
+        "1423.1__GLI-IND-M77-04026"
+      ],
+      "has_candidate": true,
+      "model_compatible": {
+        "both_M216": true,
+        "both_M222": false,
+        "local_split": true,
+        "reversed_split": false
+      },
+      "non_target_positions": 4,
+      "previous_primary_review_corner_loss": null,
+      "sequence": [
+        "W679",
+        "W740",
+        "W240",
+        "W060",
+        "W550"
+      ],
+      "source": {
+        "cisi": "H-421",
+        "complete": "Y",
+        "excavation-idno": "8921026",
+        "id": "1423.1",
+        "preservation": "partly damaged",
+        "type": "SEAL:S"
+      }
+    },
+    {
+      "candidate_pair_ids": [
+        "1449.1__GLI-IND-M77-04092"
+      ],
+      "has_candidate": true,
+      "model_compatible": {
+        "both_M216": false,
+        "both_M222": true,
+        "local_split": true,
+        "reversed_split": false
+      },
+      "non_target_positions": 4,
+      "previous_primary_review_corner_loss": null,
+      "sequence": [
+        "W527",
+        "W555",
+        "W231",
+        "W002",
+        "W817"
+      ],
+      "source": {
+        "cisi": "H-459",
+        "complete": "Y",
+        "excavation-idno": "1199092",
+        "id": "1449.1",
+        "preservation": "complete",
+        "type": "SEAL:S"
+      }
+    },
+    {
+      "candidate_pair_ids": [],
+      "has_candidate": false,
+      "model_compatible": {
+        "both_M216": null,
+        "both_M222": null,
+        "local_split": null,
+        "reversed_split": null
+      },
+      "non_target_positions": 5,
+      "previous_primary_review_corner_loss": null,
+      "sequence": [
+        "W740",
+        "W032",
+        "W840",
+        "W233",
+        "W060",
+        "W550"
+      ],
+      "source": {
+        "cisi": "H-483",
+        "complete": "Y",
+        "excavation-idno": "12749",
+        "id": "1471.1",
+        "preservation": "fragment",
+        "type": "SEAL:S"
+      }
+    },
+    {
+      "candidate_pair_ids": [
+        "1551.1__GLI-IND-M77-04260"
+      ],
+      "has_candidate": true,
+      "model_compatible": {
+        "both_M216": true,
+        "both_M222": false,
+        "local_split": true,
+        "reversed_split": false
+      },
+      "non_target_positions": 4,
+      "previous_primary_review_corner_loss": null,
+      "sequence": [
+        "W527",
+        "W550",
+        "W002",
+        "W125",
+        "W590"
+      ],
+      "source": {
+        "cisi": "H-611",
+        "complete": "Y",
+        "excavation-idno": "2731260",
+        "id": "1551.1",
+        "preservation": "fragment",
+        "type": "SEAL:S"
+      }
+    },
+    {
+      "candidate_pair_ids": [],
+      "has_candidate": false,
+      "model_compatible": {
+        "both_M216": null,
+        "both_M222": null,
+        "local_split": null,
+        "reversed_split": null
+      },
+      "non_target_positions": 3,
+      "previous_primary_review_corner_loss": null,
+      "sequence": [
+        "W595",
+        "W632",
+        "W740",
+        "W550"
+      ],
+      "source": {
+        "cisi": "H-645",
+        "complete": "Y",
+        "excavation-idno": "7546265",
+        "id": "1560.1",
+        "preservation": "complete",
+        "type": "SEAL:R"
+      }
+    },
+    {
+      "candidate_pair_ids": [],
+      "has_candidate": false,
+      "model_compatible": {
+        "both_M216": null,
+        "both_M222": null,
+        "local_split": null,
+        "reversed_split": null
+      },
+      "non_target_positions": 3,
+      "previous_primary_review_corner_loss": null,
+      "sequence": [
+        "W526",
+        "W550",
+        "W060",
+        "W820"
+      ],
+      "source": {
+        "cisi": "H-715",
+        "complete": "Y",
+        "excavation-idno": "12993",
+        "id": "1619.1",
+        "preservation": "chipped",
+        "type": "TAB:B"
+      }
+    },
+    {
+      "candidate_pair_ids": [],
+      "has_candidate": false,
+      "model_compatible": {
+        "both_M216": null,
+        "both_M222": null,
+        "local_split": null,
+        "reversed_split": null
+      },
+      "non_target_positions": 5,
+      "previous_primary_review_corner_loss": null,
+      "sequence": [
+        "W400",
+        "W525",
+        "W550",
+        "W033",
+        "W705",
+        "W240"
+      ],
+      "source": {
+        "cisi": "H-774",
+        "complete": "Y",
+        "excavation-idno": "Ab473672",
+        "id": "1666.1",
+        "preservation": "complete",
+        "type": "TAB:B"
+      }
+    },
+    {
+      "candidate_pair_ids": [],
+      "has_candidate": false,
+      "model_compatible": {
+        "both_M216": null,
+        "both_M222": null,
+        "local_split": null,
+        "reversed_split": null
+      },
+      "non_target_positions": 1,
+      "previous_primary_review_corner_loss": null,
+      "sequence": [
+        "W550",
+        "W233"
+      ],
+      "source": {
+        "cisi": "H-791",
+        "complete": "Y",
+        "excavation-idno": "7060676",
+        "id": "1682.2",
+        "preservation": "complete",
+        "type": "TAB:B"
+      }
+    },
+    {
+      "candidate_pair_ids": [
+        "1984.1__GLI-IND-M77-07015"
+      ],
+      "has_candidate": true,
+      "model_compatible": {
+        "both_M216": true,
+        "both_M222": false,
+        "local_split": true,
+        "reversed_split": false
+      },
+      "non_target_positions": 5,
+      "previous_primary_review_corner_loss": null,
+      "sequence": [
+        "W527",
+        "W550",
+        "W233",
+        "W002",
+        "W812",
+        "W095"
+      ],
+      "source": {
+        "cisi": "L-1",
+        "complete": "Y",
+        "excavation-idno": "03017(S001) CLIII-A",
+        "id": "1984.1",
+        "preservation": "complete",
+        "type": "SEAL:S"
+      }
+    },
+    {
+      "candidate_pair_ids": [
+        "1988.1__GLI-IND-M77-01269",
+        "1988.1__GLI-IND-M77-02142"
+      ],
+      "has_candidate": true,
+      "model_compatible": {
+        "both_M216": true,
+        "both_M222": true,
+        "local_split": true,
+        "reversed_split": true
+      },
+      "non_target_positions": 2,
+      "previous_primary_review_corner_loss": true,
+      "sequence": [
+        "W526",
+        "W555",
+        "W235"
+      ],
+      "source": {
+        "cisi": "L-9",
+        "complete": "Y",
+        "excavation-idno": "04261(S020) CLVII-B1",
+        "id": "1988.1",
+        "preservation": "complete",
+        "type": "SEAL:S"
+      }
+    },
+    {
+      "candidate_pair_ids": [],
+      "has_candidate": false,
+      "model_compatible": {
+        "both_M216": null,
+        "both_M222": null,
+        "local_split": null,
+        "reversed_split": null
+      },
+      "non_target_positions": 3,
+      "previous_primary_review_corner_loss": null,
+      "sequence": [
+        "W527",
+        "W555",
+        "W231",
+        "W235"
+      ],
+      "source": {
+        "cisi": "L-51",
+        "complete": "Y",
+        "excavation-idno": "11358(S058) CLIX-C5",
+        "id": "2020.1",
+        "preservation": "complete",
+        "type": "SEAL:S"
+      }
+    },
+    {
+      "candidate_pair_ids": [
+        "2025.1__GLI-IND-M77-07029"
+      ],
+      "has_candidate": true,
+      "model_compatible": {
+        "both_M216": true,
+        "both_M222": false,
+        "local_split": true,
+        "reversed_split": false
+      },
+      "non_target_positions": 1,
+      "previous_primary_review_corner_loss": null,
+      "sequence": [
+        "W740",
+        "W550"
+      ],
+      "source": {
+        "cisi": "L-58",
+        "complete": "Y",
+        "excavation-idno": "05094(S079) CLX-E2",
+        "id": "2025.1",
+        "preservation": "complete",
+        "type": "SEAL:S"
+      }
+    },
+    {
+      "candidate_pair_ids": [
+        "2043.1__GLI-IND-M77-01158",
+        "2043.1__GLI-IND-M77-02545",
+        "2043.1__GLI-IND-M77-07090"
+      ],
+      "has_candidate": true,
+      "model_compatible": {
+        "both_M216": false,
+        "both_M222": true,
+        "local_split": true,
+        "reversed_split": false
+      },
+      "non_target_positions": 4,
+      "previous_primary_review_corner_loss": false,
+      "sequence": [
+        "W527",
+        "W555",
+        "W235",
+        "W002",
+        "W861"
+      ],
+      "source": {
+        "cisi": "L-89",
+        "complete": "Y",
+        "excavation-idno": "15337(S067)",
+        "id": "2043.1",
+        "preservation": "complete",
+        "type": "SEAL:R"
+      }
+    },
+    {
+      "candidate_pair_ids": [
+        "2067.1__GLI-IND-M77-07069"
+      ],
+      "has_candidate": true,
+      "model_compatible": {
+        "both_M216": true,
+        "both_M222": false,
+        "local_split": true,
+        "reversed_split": false
+      },
+      "non_target_positions": 5,
+      "previous_primary_review_corner_loss": null,
+      "sequence": [
+        "W527",
+        "W550",
+        "W740",
+        "W443",
+        "W060",
+        "W820"
+      ],
+      "source": {
+        "cisi": "L-122",
+        "complete": "Y",
+        "excavation-idno": "09989(S062) CLX-A4",
+        "id": "2067.1",
+        "preservation": "complete",
+        "type": "SEAL:R"
+      }
+    },
+    {
+      "candidate_pair_ids": [],
+      "has_candidate": false,
+      "model_compatible": {
+        "both_M216": null,
+        "both_M222": null,
+        "local_split": null,
+        "reversed_split": null
+      },
+      "non_target_positions": 3,
+      "previous_primary_review_corner_loss": null,
+      "sequence": [
+        "W390",
+        "W415",
+        "W002",
+        "W550"
+      ],
+      "source": {
+        "cisi": "L-145",
+        "complete": "Y",
+        "excavation-idno": "1980/5C",
+        "id": "2087.1",
+        "preservation": "fragment",
+        "type": "TAG"
+      }
+    },
+    {
+      "candidate_pair_ids": [
+        "2181.1__GLI-IND-M77-01269",
+        "2181.1__GLI-IND-M77-02142"
+      ],
+      "has_candidate": true,
+      "model_compatible": {
+        "both_M216": true,
+        "both_M222": true,
+        "local_split": true,
+        "reversed_split": true
+      },
+      "non_target_positions": 2,
+      "previous_primary_review_corner_loss": null,
+      "sequence": [
+        "W527",
+        "W550",
+        "W235"
+      ],
+      "source": {
+        "cisi": "M-1847",
+        "complete": "Y",
+        "excavation-idno": "DK-B 650269",
+        "id": "2181.1",
+        "preservation": "complete",
+        "type": "SEAL:S"
+      }
+    },
+    {
+      "candidate_pair_ids": [
+        "2196.1__GLI-IND-M77-01136"
+      ],
+      "has_candidate": true,
+      "model_compatible": {
+        "both_M216": true,
+        "both_M222": false,
+        "local_split": true,
+        "reversed_split": false
+      },
+      "non_target_positions": 2,
+      "previous_primary_review_corner_loss": null,
+      "sequence": [
+        "W679",
+        "W060",
+        "W550"
+      ],
+      "source": {
+        "cisi": "M-1764",
+        "complete": "Y",
+        "excavation-idno": "DK-C 329136",
+        "id": "2196.1",
+        "preservation": "complete",
+        "type": "SEAL:S"
+      }
+    },
+    {
+      "candidate_pair_ids": [
+        "2243.1__GLI-IND-M77-02060"
+      ],
+      "has_candidate": true,
+      "model_compatible": {
+        "both_M216": false,
+        "both_M222": true,
+        "local_split": true,
+        "reversed_split": false
+      },
+      "non_target_positions": 3,
+      "previous_primary_review_corner_loss": null,
+      "sequence": [
+        "W527",
+        "W555",
+        "W002",
+        "W817"
+      ],
+      "source": {
+        "cisi": "M-940",
+        "complete": "Y",
+        "excavation-idno": "DK1211060",
+        "id": "2243.1",
+        "preservation": "complete",
+        "type": "SEAL:S"
+      }
+    },
+    {
+      "candidate_pair_ids": [
+        "2253.1__GLI-IND-M77-01238",
+        "2253.1__GLI-IND-M77-02244",
+        "2253.1__GLI-IND-M77-02652",
+        "2253.1__GLI-IND-M77-07011"
+      ],
+      "has_candidate": true,
+      "model_compatible": {
+        "both_M216": true,
+        "both_M222": true,
+        "local_split": true,
+        "reversed_split": true
+      },
+      "non_target_positions": 1,
+      "previous_primary_review_corner_loss": null,
+      "sequence": [
+        "W527",
+        "W550"
+      ],
+      "source": {
+        "cisi": "M-1800",
+        "complete": "Y",
+        "excavation-idno": "DK12783244",
+        "id": "2253.1",
+        "preservation": "complete",
+        "type": "SEAL:S"
+      }
+    },
+    {
+      "candidate_pair_ids": [
+        "2294.1__GLI-IND-M77-01350"
+      ],
+      "has_candidate": true,
+      "model_compatible": {
+        "both_M216": false,
+        "both_M222": true,
+        "local_split": true,
+        "reversed_split": false
+      },
+      "non_target_positions": 4,
+      "previous_primary_review_corner_loss": null,
+      "sequence": [
+        "W400",
+        "W527",
+        "W555",
+        "W233",
+        "W235"
+      ],
+      "source": {
+        "cisi": "M-1917",
+        "complete": "Y",
+        "excavation-idno": "DK-C 426350",
+        "id": "2294.1",
+        "preservation": "chipped",
+        "type": "SEAL:S"
+      }
+    },
+    {
+      "candidate_pair_ids": [],
+      "has_candidate": false,
+      "model_compatible": {
+        "both_M216": null,
+        "both_M222": null,
+        "local_split": null,
+        "reversed_split": null
+      },
+      "non_target_positions": 3,
+      "previous_primary_review_corner_loss": null,
+      "sequence": [
+        "W740",
+        "W690",
+        "W060",
+        "W550"
+      ],
+      "source": {
+        "cisi": "M-2041",
+        "complete": "Y",
+        "excavation-idno": "DK5748220",
+        "id": "2322.2",
+        "preservation": "complete",
+        "type": "TAB:I"
+      }
+    },
+    {
+      "candidate_pair_ids": [
+        "2359.1__GLI-IND-M77-02583"
+      ],
+      "has_candidate": true,
+      "model_compatible": {
+        "both_M216": false,
+        "both_M222": true,
+        "local_split": true,
+        "reversed_split": false
+      },
+      "non_target_positions": 6,
+      "previous_primary_review_corner_loss": null,
+      "sequence": [
+        "W527",
+        "W555",
+        "W033",
+        "W706",
+        "W235",
+        "W002",
+        "W817"
+      ],
+      "source": {
+        "cisi": "M-1693",
+        "complete": "Y",
+        "excavation-idno": "DK7402583",
+        "id": "2359.1",
+        "preservation": "complete",
+        "type": "SEAL:S"
+      }
+    },
+    {
+      "candidate_pair_ids": [],
+      "has_candidate": false,
+      "model_compatible": {
+        "both_M216": null,
+        "both_M222": null,
+        "local_split": null,
+        "reversed_split": null
+      },
+      "non_target_positions": 3,
+      "previous_primary_review_corner_loss": null,
+      "sequence": [
+        "W740",
+        "W690",
+        "W060",
+        "W550"
+      ],
+      "source": {
+        "cisi": "M-2040",
+        "complete": "Y",
+        "excavation-idno": "DK8089508",
+        "id": "2382.2",
+        "preservation": "complete",
+        "type": "TAB:I"
+      }
+    },
+    {
+      "candidate_pair_ids": [],
+      "has_candidate": false,
+      "model_compatible": {
+        "both_M216": null,
+        "both_M222": null,
+        "local_split": null,
+        "reversed_split": null
+      },
+      "non_target_positions": 3,
+      "previous_primary_review_corner_loss": null,
+      "sequence": [
+        "W527",
+        "W550",
+        "W798",
+        "W220"
+      ],
+      "source": {
+        "cisi": "M-2014",
+        "complete": "Y",
+        "excavation-idno": "HR 1051CXVI:28",
+        "id": "2432.2",
+        "preservation": "complete",
+        "type": "TAB:B"
+      }
+    },
+    {
+      "candidate_pair_ids": [
+        "2437.1__GLI-IND-M77-01238",
+        "2437.1__GLI-IND-M77-02244",
+        "2437.1__GLI-IND-M77-02652",
+        "2437.1__GLI-IND-M77-07011"
+      ],
+      "has_candidate": true,
+      "model_compatible": {
+        "both_M216": true,
+        "both_M222": true,
+        "local_split": true,
+        "reversed_split": true
+      },
+      "non_target_positions": 1,
+      "previous_primary_review_corner_loss": null,
+      "sequence": [
+        "W527",
+        "W555"
+      ],
+      "source": {
+        "cisi": "M-821",
+        "complete": "Y",
+        "excavation-idno": "HR 1673238",
+        "id": "2437.1",
+        "preservation": "fragment",
+        "type": "SEAL:S"
+      }
+    },
+    {
+      "candidate_pair_ids": [
+        "2570.1__GLI-IND-M77-01096"
+      ],
+      "has_candidate": true,
+      "model_compatible": {
+        "both_M216": true,
+        "both_M222": false,
+        "local_split": true,
+        "reversed_split": false
+      },
+      "non_target_positions": 4,
+      "previous_primary_review_corner_loss": null,
+      "sequence": [
+        "W527",
+        "W550",
+        "W240",
+        "W002",
+        "W817"
+      ],
+      "source": {
+        "cisi": "M-42",
+        "complete": "Y",
+        "excavation-idno": "HR 4625a096",
+        "id": "2570.1",
+        "preservation": "complete",
+        "type": "SEAL:S"
+      }
+    },
+    {
+      "candidate_pair_ids": [],
+      "has_candidate": false,
+      "model_compatible": {
+        "both_M216": null,
+        "both_M222": null,
+        "local_split": null,
+        "reversed_split": null
+      },
+      "non_target_positions": 9,
+      "previous_primary_review_corner_loss": null,
+      "sequence": [
+        "W527",
+        "W550",
+        "W240",
+        "W220",
+        "W032",
+        "W002",
+        "W300",
+        "W350",
+        "W032",
+        "W190"
+      ],
+      "source": {
+        "cisi": "M-49",
+        "complete": "Y",
+        "excavation-idno": "VS 3414047",
+        "id": "2577.1",
+        "preservation": "slightly chipped",
+        "type": "SEAL:S"
+      }
+    },
+    {
+      "candidate_pair_ids": [
+        "2584.1__GLI-IND-M77-02406"
+      ],
+      "has_candidate": true,
+      "model_compatible": {
+        "both_M216": true,
+        "both_M222": false,
+        "local_split": true,
+        "reversed_split": false
+      },
+      "non_target_positions": 7,
+      "previous_primary_review_corner_loss": null,
+      "sequence": [
+        "W740",
+        "W877",
+        "W032",
+        "W235",
+        "W060",
+        "W550",
+        "W611",
+        "W840"
+      ],
+      "source": {
+        "cisi": "M-56",
+        "complete": "Y",
+        "excavation-idno": "DK7925406",
+        "id": "2584.1",
+        "preservation": "complete",
+        "type": "SEAL:S"
+      }
+    },
+    {
+      "candidate_pair_ids": [
+        "2591.1__GLI-IND-M77-03068"
+      ],
+      "has_candidate": true,
+      "model_compatible": {
+        "both_M216": false,
+        "both_M222": false,
+        "local_split": true,
+        "reversed_split": false
+      },
+      "non_target_positions": 2,
+      "previous_primary_review_corner_loss": null,
+      "sequence": [
+        "W526",
+        "W555",
+        "W060",
+        "W550"
+      ],
+      "source": {
+        "cisi": "M-63",
+        "complete": "Y",
+        "excavation-idno": "DK8333",
+        "id": "2591.1",
+        "preservation": "slightly chipped",
+        "type": "SEAL:S"
+      }
+    },
+    {
+      "candidate_pair_ids": [],
+      "has_candidate": false,
+      "model_compatible": {
+        "both_M216": null,
+        "both_M222": null,
+        "local_split": null,
+        "reversed_split": null
+      },
+      "non_target_positions": 5,
+      "previous_primary_review_corner_loss": false,
+      "sequence": [
+        "W527",
+        "W555",
+        "W240",
+        "W002",
+        "W617",
+        "W070"
+      ],
+      "source": {
+        "cisi": "M-81",
+        "complete": "Y",
+        "excavation-idno": "DK-C 3133180",
+        "id": "2608.1",
+        "preservation": "complete",
+        "type": "SEAL:S"
+      }
+    },
+    {
+      "candidate_pair_ids": [
+        "2609.1__GLI-IND-M77-02451"
+      ],
+      "has_candidate": true,
+      "model_compatible": {
+        "both_M216": true,
+        "both_M222": false,
+        "local_split": true,
+        "reversed_split": false
+      },
+      "non_target_positions": 5,
+      "previous_primary_review_corner_loss": null,
+      "sequence": [
+        "W740",
+        "W222",
+        "W002",
+        "W207",
+        "W550",
+        "W390"
+      ],
+      "source": {
+        "cisi": "M-82",
+        "complete": "Y",
+        "excavation-idno": "DK5341451",
+        "id": "2609.1",
+        "preservation": "complete",
+        "type": "SEAL:S"
+      }
+    },
+    {
+      "candidate_pair_ids": [],
+      "has_candidate": false,
+      "model_compatible": {
+        "both_M216": null,
+        "both_M222": null,
+        "local_split": null,
+        "reversed_split": null
+      },
+      "non_target_positions": 6,
+      "previous_primary_review_corner_loss": null,
+      "sequence": [
+        "W413",
+        "W820",
+        "W220",
+        "W065",
+        "W798",
+        "W550",
+        "W820"
+      ],
+      "source": {
+        "cisi": "M-108",
+        "complete": "Y",
+        "excavation-idno": "HR 4111110",
+        "id": "2635.1",
+        "preservation": "complete",
+        "type": "SEAL:S"
+      }
+    },
+    {
+      "candidate_pair_ids": [],
+      "has_candidate": false,
+      "model_compatible": {
+        "both_M216": null,
+        "both_M222": null,
+        "local_split": null,
+        "reversed_split": null
+      },
+      "non_target_positions": 7,
+      "previous_primary_review_corner_loss": false,
+      "sequence": [
+        "W527",
+        "W550",
+        "W240",
+        "W220",
+        "W255",
+        "W812",
+        "W906",
+        "W388"
+      ],
+      "source": {
+        "cisi": "M-133",
+        "complete": "Y",
+        "excavation-idno": "DK1035952",
+        "id": "2660.1",
+        "preservation": "complete",
+        "type": "SEAL:S"
+      }
+    },
+    {
+      "candidate_pair_ids": [
+        "2676.1__GLI-IND-M77-01233"
+      ],
+      "has_candidate": true,
+      "model_compatible": {
+        "both_M216": true,
+        "both_M222": false,
+        "local_split": true,
+        "reversed_split": false
+      },
+      "non_target_positions": 4,
+      "previous_primary_review_corner_loss": null,
+      "sequence": [
+        "W740",
+        "W760",
+        "W440",
+        "W060",
+        "W550"
+      ],
+      "source": {
+        "cisi": "M-149",
+        "complete": "Y",
+        "excavation-idno": "D619233",
+        "id": "2676.1",
+        "preservation": "slightly chipped",
+        "type": "SEAL:S"
+      }
+    },
+    {
+      "candidate_pair_ids": [
+        "2684.1__GLI-IND-M77-02198"
+      ],
+      "has_candidate": true,
+      "model_compatible": {
+        "both_M216": true,
+        "both_M222": false,
+        "local_split": true,
+        "reversed_split": false
+      },
+      "non_target_positions": 3,
+      "previous_primary_review_corner_loss": null,
+      "sequence": [
+        "W390",
+        "W016",
+        "W060",
+        "W550"
+      ],
+      "source": {
+        "cisi": "M-158",
+        "complete": "Y",
+        "excavation-idno": "DK8100198",
+        "id": "2684.1",
+        "preservation": "complete",
+        "type": "SEAL:S"
+      }
+    },
+    {
+      "candidate_pair_ids": [],
+      "has_candidate": false,
+      "model_compatible": {
+        "both_M216": null,
+        "both_M222": null,
+        "local_split": null,
+        "reversed_split": null
+      },
+      "non_target_positions": 5,
+      "previous_primary_review_corner_loss": null,
+      "sequence": [
+        "W527",
+        "W550",
+        "W803",
+        "W002",
+        "W368",
+        "W518"
+      ],
+      "source": {
+        "cisi": "M-253",
+        "complete": "Y",
+        "excavation-idno": "SD 3192701",
+        "id": "2776.1",
+        "preservation": "slightly chipped",
+        "type": "SEAL:S"
+      }
+    },
+    {
+      "candidate_pair_ids": [],
+      "has_candidate": false,
+      "model_compatible": {
+        "both_M216": null,
+        "both_M222": null,
+        "local_split": null,
+        "reversed_split": null
+      },
+      "non_target_positions": 6,
+      "previous_primary_review_corner_loss": null,
+      "sequence": [
+        "W090",
+        "W740",
+        "W220",
+        "W742",
+        "W534",
+        "W550",
+        "W090"
+      ],
+      "source": {
+        "cisi": "M-304",
+        "complete": "Y",
+        "excavation-idno": "DK5175420",
+        "id": "2823.1",
+        "preservation": "partly damaged",
+        "type": "SEAL:S"
+      }
+    },
+    {
+      "candidate_pair_ids": [
+        "2826.1__GLI-IND-M77-02122"
+      ],
+      "has_candidate": true,
+      "model_compatible": {
+        "both_M216": true,
+        "both_M222": false,
+        "local_split": true,
+        "reversed_split": false
+      },
+      "non_target_positions": 4,
+      "previous_primary_review_corner_loss": null,
+      "sequence": [
+        "W740",
+        "W904",
+        "W032",
+        "W060",
+        "W550"
+      ],
+      "source": {
+        "cisi": "M-307",
+        "complete": "Y",
+        "excavation-idno": "DK11373122",
+        "id": "2826.1",
+        "preservation": "partly damaged",
+        "type": "SEAL:S"
+      }
+    },
+    {
+      "candidate_pair_ids": [
+        "2861.1__GLI-IND-M77-02273"
+      ],
+      "has_candidate": true,
+      "model_compatible": {
+        "both_M216": true,
+        "both_M222": false,
+        "local_split": true,
+        "reversed_split": false
+      },
+      "non_target_positions": 6,
+      "previous_primary_review_corner_loss": null,
+      "sequence": [
+        "W527",
+        "W550",
+        "W033",
+        "W705",
+        "W220",
+        "W415",
+        "W060",
+        "W550"
+      ],
+      "source": {
+        "cisi": "M-365",
+        "complete": "Y",
+        "excavation-idno": "DK4604273",
+        "id": "2861.1",
+        "preservation": "complete",
+        "type": "SEAL:R"
+      }
+    },
+    {
+      "candidate_pair_ids": [],
+      "has_candidate": false,
+      "model_compatible": {
+        "both_M216": null,
+        "both_M222": null,
+        "local_split": null,
+        "reversed_split": null
+      },
+      "non_target_positions": 9,
+      "previous_primary_review_corner_loss": null,
+      "sequence": [
+        "W204",
+        "W630",
+        "W233",
+        "W832",
+        "W904",
+        "W794",
+        "W630",
+        "W235",
+        "W060",
+        "W550"
+      ],
+      "source": {
+        "cisi": "M-396",
+        "complete": "Y",
+        "excavation-idno": "VS 1082421",
+        "id": "2892.1",
+        "preservation": "complete",
+        "type": "SEAL:R"
+      }
+    },
+    {
+      "candidate_pair_ids": [],
+      "has_candidate": false,
+      "model_compatible": {
+        "both_M216": null,
+        "both_M222": null,
+        "local_split": null,
+        "reversed_split": null
+      },
+      "non_target_positions": 2,
+      "previous_primary_review_corner_loss": null,
+      "sequence": [
+        "W617",
+        "W550",
+        "W003"
+      ],
+      "source": {
+        "cisi": "M-401",
+        "complete": "Y",
+        "excavation-idno": "DK12576346",
+        "id": "2897.1",
+        "preservation": "complete",
+        "type": "SEAL:R"
+      }
+    },
+    {
+      "candidate_pair_ids": [],
+      "has_candidate": false,
+      "model_compatible": {
+        "both_M216": null,
+        "both_M222": null,
+        "local_split": null,
+        "reversed_split": null
+      },
+      "non_target_positions": 3,
+      "previous_primary_review_corner_loss": null,
+      "sequence": [
+        "W740",
+        "W690",
+        "W060",
+        "W550"
+      ],
+      "source": {
+        "cisi": "M-501",
+        "complete": "Y",
+        "excavation-idno": "DK-E 2039412+413",
+        "id": "2978.2",
+        "preservation": "complete",
+        "type": "SEAL:R"
+      }
+    },
+    {
+      "candidate_pair_ids": [],
+      "has_candidate": false,
+      "model_compatible": {
+        "both_M216": null,
+        "both_M222": null,
+        "local_split": null,
+        "reversed_split": null
+      },
+      "non_target_positions": 8,
+      "previous_primary_review_corner_loss": null,
+      "sequence": [
+        "W090",
+        "W740",
+        "W100",
+        "W415",
+        "W002",
+        "W031",
+        "W350",
+        "W550",
+        "W692"
+      ],
+      "source": {
+        "cisi": "M-739",
+        "complete": "Y",
+        "excavation-idno": "-",
+        "id": "3163.1",
+        "preservation": "complete",
+        "type": "SEAL:S"
+      }
+    },
+    {
+      "candidate_pair_ids": [],
+      "has_candidate": false,
+      "model_compatible": {
+        "both_M216": null,
+        "both_M222": null,
+        "local_split": null,
+        "reversed_split": null
+      },
+      "non_target_positions": 4,
+      "previous_primary_review_corner_loss": null,
+      "sequence": [
+        "W173",
+        "W520",
+        "W235",
+        "W060",
+        "W550"
+      ],
+      "source": {
+        "cisi": "M-777",
+        "complete": "Y",
+        "excavation-idno": "DK6002536",
+        "id": "3191.1",
+        "preservation": "complete",
+        "type": "SEAL:S"
+      }
+    },
+    {
+      "candidate_pair_ids": [],
+      "has_candidate": false,
+      "model_compatible": {
+        "both_M216": null,
+        "both_M222": null,
+        "local_split": null,
+        "reversed_split": null
+      },
+      "non_target_positions": 5,
+      "previous_primary_review_corner_loss": null,
+      "sequence": [
+        "W527",
+        "W550",
+        "W740",
+        "W240",
+        "W002",
+        "W808"
+      ],
+      "source": {
+        "cisi": "M-833",
+        "complete": "Y",
+        "excavation-idno": "DK3422281",
+        "id": "3245.1",
+        "preservation": "complete",
+        "type": "SEAL:S"
+      }
+    },
+    {
+      "candidate_pair_ids": [],
+      "has_candidate": false,
+      "model_compatible": {
+        "both_M216": null,
+        "both_M222": null,
+        "local_split": null,
+        "reversed_split": null
+      },
+      "non_target_positions": 4,
+      "previous_primary_review_corner_loss": null,
+      "sequence": [
+        "W151",
+        "W350",
+        "W002",
+        "W550",
+        "W615"
+      ],
+      "source": {
+        "cisi": "M-849",
+        "complete": "Y",
+        "excavation-idno": "VS 2542121",
+        "id": "3261.1",
+        "preservation": "complete",
+        "type": "SEAL:S"
+      }
+    },
+    {
+      "candidate_pair_ids": [
+        "3282.1__GLI-IND-M77-01170"
+      ],
+      "has_candidate": true,
+      "model_compatible": {
+        "both_M216": true,
+        "both_M222": false,
+        "local_split": true,
+        "reversed_split": false
+      },
+      "non_target_positions": 5,
+      "previous_primary_review_corner_loss": null,
+      "sequence": [
+        "W520",
+        "W033",
+        "W705",
+        "W231",
+        "W060",
+        "W550"
+      ],
+      "source": {
+        "cisi": "M-873",
+        "complete": "Y",
+        "excavation-idno": "DK-E 2053170",
+        "id": "3282.1",
+        "preservation": "chipped",
+        "type": "SEAL:S"
+      }
+    },
+    {
+      "candidate_pair_ids": [
+        "3302.1__GLI-IND-M77-01158",
+        "3302.1__GLI-IND-M77-02545",
+        "3302.1__GLI-IND-M77-07090"
+      ],
+      "has_candidate": true,
+      "model_compatible": {
+        "both_M216": false,
+        "both_M222": true,
+        "local_split": false,
+        "reversed_split": true
+      },
+      "non_target_positions": 4,
+      "previous_primary_review_corner_loss": null,
+      "sequence": [
+        "W527",
+        "W550",
+        "W235",
+        "W002",
+        "W817"
+      ],
+      "source": {
+        "cisi": "M-897",
+        "complete": "Y",
+        "excavation-idno": "DK9111545",
+        "id": "3302.1",
+        "preservation": "fragment",
+        "type": "SEAL:S"
+      }
+    },
+    {
+      "candidate_pair_ids": [],
+      "has_candidate": false,
+      "model_compatible": {
+        "both_M216": null,
+        "both_M222": null,
+        "local_split": null,
+        "reversed_split": null
+      },
+      "non_target_positions": 5,
+      "previous_primary_review_corner_loss": null,
+      "sequence": [
+        "W550",
+        "W740",
+        "W220",
+        "W060",
+        "W297",
+        "W630"
+      ],
+      "source": {
+        "cisi": "M-921",
+        "complete": "Y",
+        "excavation-idno": "DK-i 1087",
+        "id": "3318.1",
+        "preservation": "complete",
+        "type": "SEAL:S"
+      }
+    },
+    {
+      "candidate_pair_ids": [
+        "3329.1__GLI-IND-M77-01158",
+        "3329.1__GLI-IND-M77-02545",
+        "3329.1__GLI-IND-M77-07090"
+      ],
+      "has_candidate": true,
+      "model_compatible": {
+        "both_M216": false,
+        "both_M222": true,
+        "local_split": true,
+        "reversed_split": false
+      },
+      "non_target_positions": 4,
+      "previous_primary_review_corner_loss": null,
+      "sequence": [
+        "W526",
+        "W555",
+        "W235",
+        "W002",
+        "W861"
+      ],
+      "source": {
+        "cisi": "M-934",
+        "complete": "Y",
+        "excavation-idno": "DM50158",
+        "id": "3329.1",
+        "preservation": "complete",
+        "type": "SEAL:S"
+      }
+    },
+    {
+      "candidate_pair_ids": [
+        "3334.1__GLI-IND-M77-01238",
+        "3334.1__GLI-IND-M77-02244",
+        "3334.1__GLI-IND-M77-02652",
+        "3334.1__GLI-IND-M77-07011"
+      ],
+      "has_candidate": true,
+      "model_compatible": {
+        "both_M216": true,
+        "both_M222": true,
+        "local_split": true,
+        "reversed_split": true
+      },
+      "non_target_positions": 1,
+      "previous_primary_review_corner_loss": null,
+      "sequence": [
+        "W527",
+        "W550"
+      ],
+      "source": {
+        "cisi": "M-939",
+        "complete": "Y",
+        "excavation-idno": "DK9343652",
+        "id": "3334.1",
+        "preservation": "complete",
+        "type": "SEAL:S"
+      }
+    },
+    {
+      "candidate_pair_ids": [],
+      "has_candidate": false,
+      "model_compatible": {
+        "both_M216": null,
+        "both_M222": null,
+        "local_split": null,
+        "reversed_split": null
+      },
+      "non_target_positions": 3,
+      "previous_primary_review_corner_loss": null,
+      "sequence": [
+        "W031",
+        "W031",
+        "W550",
+        "W003"
+      ],
+      "source": {
+        "cisi": "M-955",
+        "complete": "Y",
+        "excavation-idno": "DK6448547",
+        "id": "3350.1",
+        "preservation": "slightly chipped",
+        "type": "SEAL:S"
+      }
+    },
+    {
+      "candidate_pair_ids": [
+        "3358.1__GLI-IND-M77-02010"
+      ],
+      "has_candidate": true,
+      "model_compatible": {
+        "both_M216": true,
+        "both_M222": false,
+        "local_split": true,
+        "reversed_split": false
+      },
+      "non_target_positions": 4,
+      "previous_primary_review_corner_loss": null,
+      "sequence": [
+        "W527",
+        "W550",
+        "W741",
+        "W060",
+        "W920"
+      ],
+      "source": {
+        "cisi": "M-964",
+        "complete": "Y",
+        "excavation-idno": "DK1161710",
+        "id": "3358.1",
+        "preservation": "complete",
+        "type": "SEAL:S"
+      }
+    },
+    {
+      "candidate_pair_ids": [],
+      "has_candidate": false,
+      "model_compatible": {
+        "both_M216": null,
+        "both_M222": null,
+        "local_split": null,
+        "reversed_split": null
+      },
+      "non_target_positions": 8,
+      "previous_primary_review_corner_loss": null,
+      "sequence": [
+        "W740",
+        "W617",
+        "W550",
+        "W061",
+        "W435",
+        "W093",
+        "W740",
+        "W100",
+        "W415"
+      ],
+      "source": {
+        "cisi": "M-980",
+        "complete": "Y",
+        "excavation-idno": "DK6498317",
+        "id": "3373.1",
+        "preservation": "fragment",
+        "type": "SEAL:S"
+      }
+    },
+    {
+      "candidate_pair_ids": [],
+      "has_candidate": false,
+      "model_compatible": {
+        "both_M216": null,
+        "both_M222": null,
+        "local_split": null,
+        "reversed_split": null
+      },
+      "non_target_positions": 2,
+      "previous_primary_review_corner_loss": null,
+      "sequence": [
+        "W617",
+        "W550",
+        "W033"
+      ],
+      "source": {
+        "cisi": "M-1080",
+        "complete": "Y",
+        "excavation-idno": "L 785542",
+        "id": "3454.1",
+        "preservation": "complete",
+        "type": "SEAL:S"
+      }
+    },
+    {
+      "candidate_pair_ids": [
+        "3455.1__GLI-IND-M77-02129"
+      ],
+      "has_candidate": true,
+      "model_compatible": {
+        "both_M216": false,
+        "both_M222": true,
+        "local_split": true,
+        "reversed_split": false
+      },
+      "non_target_positions": 7,
+      "previous_primary_review_corner_loss": null,
+      "sequence": [
+        "W527",
+        "W555",
+        "W055",
+        "W233",
+        "W235",
+        "W741",
+        "W831",
+        "W518"
+      ],
+      "source": {
+        "cisi": "M-1081",
+        "complete": "Y",
+        "excavation-idno": "DK11349129",
+        "id": "3455.1",
+        "preservation": "complete",
+        "type": "SEAL:S"
+      }
+    },
+    {
+      "candidate_pair_ids": [],
+      "has_candidate": false,
+      "model_compatible": {
+        "both_M216": null,
+        "both_M222": null,
+        "local_split": null,
+        "reversed_split": null
+      },
+      "non_target_positions": 2,
+      "previous_primary_review_corner_loss": null,
+      "sequence": [
+        "W550",
+        "W233",
+        "W235"
+      ],
+      "source": {
+        "cisi": "M-1113",
+        "complete": "Y",
+        "excavation-idno": "DK8159441",
+        "id": "3484.1",
+        "preservation": "complete",
+        "type": "SEAL:S"
+      }
+    },
+    {
+      "candidate_pair_ids": [
+        "3604.1__GLI-IND-M77-01456"
+      ],
+      "has_candidate": true,
+      "model_compatible": {
+        "both_M216": true,
+        "both_M222": false,
+        "local_split": true,
+        "reversed_split": false
+      },
+      "non_target_positions": 6,
+      "previous_primary_review_corner_loss": null,
+      "sequence": [
+        "W527",
+        "W550",
+        "W033",
+        "W705",
+        "W233",
+        "W002",
+        "W817"
+      ],
+      "source": {
+        "cisi": "M-1299",
+        "complete": "Y",
+        "excavation-idno": "DK-C 204456",
+        "id": "3604.1",
+        "preservation": "complete",
+        "type": "SEAL:R"
+      }
+    },
+    {
+      "candidate_pair_ids": [
+        "3625.1__GLI-IND-M77-01447"
+      ],
+      "has_candidate": true,
+      "model_compatible": {
+        "both_M216": false,
+        "both_M222": true,
+        "local_split": true,
+        "reversed_split": false
+      },
+      "non_target_positions": 4,
+      "previous_primary_review_corner_loss": null,
+      "sequence": [
+        "W527",
+        "W555",
+        "W231",
+        "W240",
+        "W798"
+      ],
+      "source": {
+        "cisi": "M-1320",
+        "complete": "Y",
+        "excavation-idno": "VS 2289447",
+        "id": "3625.1",
+        "preservation": "complete",
+        "type": "SEAL:R"
+      }
+    },
+    {
+      "candidate_pair_ids": [
+        "3652.1__GLI-IND-M77-01269",
+        "3652.1__GLI-IND-M77-02142"
+      ],
+      "has_candidate": true,
+      "model_compatible": {
+        "both_M216": true,
+        "both_M222": true,
+        "local_split": true,
+        "reversed_split": true
+      },
+      "non_target_positions": 2,
+      "previous_primary_review_corner_loss": null,
+      "sequence": [
+        "W527",
+        "W555",
+        "W235"
+      ],
+      "source": {
+        "cisi": "M-1351",
+        "complete": "Y",
+        "excavation-idno": "DK11456142",
+        "id": "3652.1",
+        "preservation": "complete",
+        "type": "SEAL:R"
+      }
+    },
+    {
+      "candidate_pair_ids": [
+        "3670.1__GLI-IND-M77-01559"
+      ],
+      "has_candidate": true,
+      "model_compatible": {
+        "both_M216": true,
+        "both_M222": false,
+        "local_split": true,
+        "reversed_split": false
+      },
+      "non_target_positions": 3,
+      "previous_primary_review_corner_loss": null,
+      "sequence": [
+        "W527",
+        "W550",
+        "W002",
+        "W370"
+      ],
+      "source": {
+        "cisi": "M-1371",
+        "complete": "Y",
+        "excavation-idno": "DK-i 1169",
+        "id": "3670.1",
+        "preservation": "complete",
+        "type": "POT:T:s"
+      }
+    },
+    {
+      "candidate_pair_ids": [
+        "3677.1__GLI-IND-M77-01559"
+      ],
+      "has_candidate": true,
+      "model_compatible": {
+        "both_M216": true,
+        "both_M222": false,
+        "local_split": true,
+        "reversed_split": false
+      },
+      "non_target_positions": 3,
+      "previous_primary_review_corner_loss": null,
+      "sequence": [
+        "W527",
+        "W550",
+        "W002",
+        "W370"
+      ],
+      "source": {
+        "cisi": "M-1381",
+        "complete": "Y",
+        "excavation-idno": "L 515CXV:559",
+        "id": "3677.1",
+        "preservation": "complete",
+        "type": "POT:T:s"
+      }
+    },
+    {
+      "candidate_pair_ids": [],
+      "has_candidate": false,
+      "model_compatible": {
+        "both_M216": null,
+        "both_M222": null,
+        "local_split": null,
+        "reversed_split": null
+      },
+      "non_target_positions": 2,
+      "previous_primary_review_corner_loss": null,
+      "sequence": [
+        "W400",
+        "W525",
+        "W550"
+      ],
+      "source": {
+        "cisi": "M-1390",
+        "complete": "Y",
+        "excavation-idno": "DK8489102.15",
+        "id": "3684.1",
+        "preservation": "complete",
+        "type": "TAB:B"
+      }
+    },
+    {
+      "candidate_pair_ids": [],
+      "has_candidate": false,
+      "model_compatible": {
+        "both_M216": null,
+        "both_M222": null,
+        "local_split": null,
+        "reversed_split": null
+      },
+      "non_target_positions": 3,
+      "previous_primary_review_corner_loss": null,
+      "sequence": [
+        "W740",
+        "W690",
+        "W060",
+        "W550"
+      ],
+      "source": {
+        "cisi": "M-1444",
+        "complete": "Y",
+        "excavation-idno": "DK5663339",
+        "id": "3725.2",
+        "preservation": "complete",
+        "type": "TAB:I"
+      }
+    },
+    {
+      "candidate_pair_ids": [],
+      "has_candidate": false,
+      "model_compatible": {
+        "both_M216": null,
+        "both_M222": null,
+        "local_split": null,
+        "reversed_split": null
+      },
+      "non_target_positions": 3,
+      "previous_primary_review_corner_loss": null,
+      "sequence": [
+        "W740",
+        "W690",
+        "W060",
+        "W550"
+      ],
+      "source": {
+        "cisi": "M-1445",
+        "complete": "Y",
+        "excavation-idno": "DK5671505",
+        "id": "3726.2",
+        "preservation": "complete",
+        "type": "TAB:I"
+      }
+    },
+    {
+      "candidate_pair_ids": [],
+      "has_candidate": false,
+      "model_compatible": {
+        "both_M216": null,
+        "both_M222": null,
+        "local_split": null,
+        "reversed_split": null
+      },
+      "non_target_positions": 4,
+      "previous_primary_review_corner_loss": null,
+      "sequence": [
+        "W740",
+        "W740",
+        "W001",
+        "W550",
+        "W467"
+      ],
+      "source": {
+        "cisi": "-",
+        "complete": "Y",
+        "excavation-idno": "-",
+        "id": "3889.1",
+        "preservation": "complete",
+        "type": "SEAL:C"
+      }
+    },
+    {
+      "candidate_pair_ids": [],
+      "has_candidate": false,
+      "model_compatible": {
+        "both_M216": null,
+        "both_M222": null,
+        "local_split": null,
+        "reversed_split": null
+      },
+      "non_target_positions": 3,
+      "previous_primary_review_corner_loss": null,
+      "sequence": [
+        "W555",
+        "W233",
+        "W002",
+        "W820"
+      ],
+      "source": {
+        "cisi": "?-5",
+        "complete": "Y",
+        "excavation-idno": "-",
+        "id": "3894.1",
+        "preservation": "complete",
+        "type": "TAB:B"
+      }
+    },
+    {
+      "candidate_pair_ids": [],
+      "has_candidate": false,
+      "model_compatible": {
+        "both_M216": null,
+        "both_M222": null,
+        "local_split": null,
+        "reversed_split": null
+      },
+      "non_target_positions": 6,
+      "previous_primary_review_corner_loss": null,
+      "sequence": [
+        "W740",
+        "W575",
+        "W017",
+        "W233",
+        "W550",
+        "W002",
+        "W861"
+      ],
+      "source": {
+        "cisi": "M-1973",
+        "complete": "Y",
+        "excavation-idno": "DK-B 940720",
+        "id": "4010.1",
+        "preservation": "complete",
+        "type": "SEAL:R"
+      }
+    },
+    {
+      "candidate_pair_ids": [],
+      "has_candidate": false,
+      "model_compatible": {
+        "both_M216": null,
+        "both_M222": null,
+        "local_split": null,
+        "reversed_split": null
+      },
+      "non_target_positions": 3,
+      "previous_primary_review_corner_loss": null,
+      "sequence": [
+        "W391",
+        "W002",
+        "W365",
+        "W550"
+      ],
+      "source": {
+        "cisi": "-",
+        "complete": "Y",
+        "excavation-idno": "DHR-24475",
+        "id": "4196.1",
+        "preservation": "complete",
+        "type": "SEAL:S"
+      }
+    },
+    {
+      "candidate_pair_ids": [],
+      "has_candidate": false,
+      "model_compatible": {
+        "both_M216": null,
+        "both_M222": null,
+        "local_split": null,
+        "reversed_split": null
+      },
+      "non_target_positions": 4,
+      "previous_primary_review_corner_loss": null,
+      "sequence": [
+        "W390",
+        "W550",
+        "W452",
+        "W060",
+        "W690"
+      ],
+      "source": {
+        "cisi": "-",
+        "complete": "Y",
+        "excavation-idno": "DHR-9094",
+        "id": "4198.1",
+        "preservation": "complete",
+        "type": "SEAL:S"
+      }
+    },
+    {
+      "candidate_pair_ids": [],
+      "has_candidate": false,
+      "model_compatible": {
+        "both_M216": null,
+        "both_M222": null,
+        "local_split": null,
+        "reversed_split": null
+      },
+      "non_target_positions": 5,
+      "previous_primary_review_corner_loss": null,
+      "sequence": [
+        "W740",
+        "W798",
+        "W706",
+        "W061",
+        "W060",
+        "W550"
+      ],
+      "source": {
+        "cisi": "-",
+        "complete": "Y",
+        "excavation-idno": "-",
+        "id": "4287.1",
+        "preservation": "fragment",
+        "type": "SEAL:S"
+      }
+    }
+  ]
+}

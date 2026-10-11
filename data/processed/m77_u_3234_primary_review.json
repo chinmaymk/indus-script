@@ -1,0 +1,83 @@
+{
+  "scope": "Later primary correction to historical M328 recovery; applied in the combined primary context corpus, keeping previous-stage inputs reproducible and unchanged",
+  "trigger": "Union audit found three M280 tokens versus Table I total2; each individual earlier selected corpus had passed its marginal bound. Frequency triggered review; glyph morphology and its own concordance index determine correction.",
+  "rows": [
+    {
+      "id": "M77:3234:side1:line0",
+      "reference": "3234",
+      "side": "1",
+      "line": "0",
+      "old_tokens": [
+        "UNKNOWN",
+        "M326",
+        "M328",
+        "M280"
+      ],
+      "new_tokens": [
+        "UNKNOWN",
+        "M326",
+        "M328",
+        "M283"
+      ],
+      "reason": "Primary3234 glyph has extra enclosed right-edge cell and oblique internal stem. Direct Concordance PDF544\u2013545 indexes M280 only at5325/20 and4468/10; M283 block begins4165/00 at foot544 and continues2855/10,2851/10,3234/10 on545 beforeM284 begins. Numbered glyphM283 and four-occurrence marginal corroborate. Leading human/bow glyph remains UNKNOWN.",
+      "effect": "No change to M328 occurrence/position, field selection, loss or doubt; M280 decremented1, M283 incremented1."
+    }
+  ],
+  "evidence": [
+    {
+      "path": "data/raw/mahadevan_1977_text.pdf",
+      "sha256": "6dcdd074a0174e5fab149590fbbf82342711d345764e9763f8e5e92c81cf7f99"
+    },
+    {
+      "path": "results/primary_pages/table_i_highres-732.png",
+      "sha256": "80c9b7e99be8d946b1d300c635d942c5b7a6ccb1436802c015f7c0beae8506a6"
+    },
+    {
+      "path": "results/primary_pages/m77-m280-index-parent-544.png",
+      "sha256": "19ef5c5ee4a6fb27022d6cb031ec7689061d77c96dd5f40d7f25f9efd8dcd90e"
+    },
+    {
+      "path": "results/primary_pages/m77-m280-index-parent-545.png",
+      "sha256": "590d0f2dcebee03b9d4dd2969d900ef586c6e15f20d82f71321139907c86d19a"
+    },
+    {
+      "path": "results/primary_pages/m77-m280-iconography-3234.png",
+      "sha256": "42acce4e49ea5cd590aba596a6edf7351af489a3d642ed51588519a2a6b60055"
+    },
+    {
+      "path": "results/primary_pages/m77-m280-iconography-4468.png",
+      "sha256": "a955108ca6d0615a8e5ef65352fe11e8e61a343b242f36801094fe20380342c1"
+    },
+    {
+      "path": "results/primary_pages/m77-m280-iconography-5325.png",
+      "sha256": "46079d482cc07e0532c20303893a38c0bd9c23305a2ee996359289fb022955ed"
+    },
+    {
+      "path": "IM_417_150_PNG/280.png",
+      "sha256": "2a9d55e0b2542ff7ad1ba18bd75fbef0ef8e7622534d4c6bf80c490590585cac"
+    },
+    {
+      "path": "IM_417_150_PNG/283.png",
+      "sha256": "6f17af1292e4524fa4590a5321ca31536f9fabf5a48173dd3814c7fff1b26f88"
+    },
+    {
+      "path": "data/processed/m77_m280_discrepancy_iconography.json",
+      "sha256": "907dd40a3a5a98027deb9c8e6fb342d2ae38ffc80d1d97f911b2dd972d59c370"
+    }
+  ],
+  "historical_inputs": [
+    {
+      "path": "data/processed/m77_u_extension_parent.json",
+      "sha256": "1d45c83fad9a6cf0f2d7eacf6a4bacae6fa8372df5a0cf8e074e77800ecf3143"
+    },
+    {
+      "path": "data/processed/m77_u_recovered_lines.jsonl",
+      "sha256": "afb0ee5b056c2193fcf6d91fdc28e4a2af347fb3bdaeaa17d966685c3f0d0cad"
+    },
+    {
+      "path": "data/processed/m77_u_typed_lines.jsonl",
+      "sha256": "bd76e46995d40792e969f9320fac21f2382166135fe17bf57f9cbe3522e71004"
+    }
+  ],
+  "status": "Primary glyph and independent sign-index confirmation; adopted in new consolidated dataset. Earlier-stage datasets retain their versioned historical reading and are explicitly superseded for this token."
+}

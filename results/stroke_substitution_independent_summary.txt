@@ -1,0 +1,592 @@
+{
+  "method": "Exhaustive unordered same-length complete-string Hamming-distance-one pairs",
+  "sample": {
+    "records": 1175,
+    "unique_strings": 1066,
+    "same_length_unordered_pairs_examined": 83691,
+    "hamming_one_pairs_all_substitutions": 681
+  },
+  "target_pair_count": 3,
+  "target_pairs": [
+    {
+      "left": [
+        "M102",
+        "M015"
+      ],
+      "left_references": [
+        "2368",
+        "2497",
+        "2514",
+        "5063",
+        "5093"
+      ],
+      "right": [
+        "M106",
+        "M015"
+      ],
+      "right_references": [
+        "2113",
+        "2382",
+        "7040"
+      ],
+      "changed_index": 0,
+      "substitution": [
+        "M102",
+        "M106"
+      ]
+    },
+    {
+      "left": [
+        "M102",
+        "M169"
+      ],
+      "left_references": [
+        "1411",
+        "8024"
+      ],
+      "right": [
+        "M106",
+        "M169"
+      ],
+      "right_references": [
+        "1422",
+        "1441",
+        "2215",
+        "2525",
+        "8058"
+      ],
+      "changed_index": 0,
+      "substitution": [
+        "M102",
+        "M106"
+      ]
+    },
+    {
+      "left": [
+        "M267",
+        "M099",
+        "M102",
+        "M162"
+      ],
+      "left_references": [
+        "1091",
+        "2080",
+        "2180",
+        "2354",
+        "4126",
+        "6214"
+      ],
+      "right": [
+        "M267",
+        "M099",
+        "M106",
+        "M162"
+      ],
+      "right_references": [
+        "1131"
+      ],
+      "changed_index": 2,
+      "substitution": [
+        "M102",
+        "M106"
+      ]
+    }
+  ],
+  "target_exact_frames_with_all_occupants": [
+    {
+      "frame": [
+        "?",
+        "M015"
+      ],
+      "changed_index": 0,
+      "occupants": [
+        {
+          "sign": "M025",
+          "sequence": [
+            "M025",
+            "M015"
+          ],
+          "references": [
+            "2108",
+            "2342"
+          ]
+        },
+        {
+          "sign": "M069",
+          "sequence": [
+            "M069",
+            "M015"
+          ],
+          "references": [
+            "6209"
+          ]
+        },
+        {
+          "sign": "M086",
+          "sequence": [
+            "M086",
+            "M015"
+          ],
+          "references": [
+            "1171",
+            "1287",
+            "2639",
+            "3075",
+            "4166"
+          ]
+        },
+        {
+          "sign": "M102",
+          "sequence": [
+            "M102",
+            "M015"
+          ],
+          "references": [
+            "2368",
+            "2497",
+            "2514",
+            "5063",
+            "5093"
+          ]
+        },
+        {
+          "sign": "M104",
+          "sequence": [
+            "M104",
+            "M015"
+          ],
+          "references": [
+            "2698",
+            "7002"
+          ]
+        },
+        {
+          "sign": "M106",
+          "sequence": [
+            "M106",
+            "M015"
+          ],
+          "references": [
+            "2113",
+            "2382",
+            "7040"
+          ]
+        },
+        {
+          "sign": "M326",
+          "sequence": [
+            "M326",
+            "M015"
+          ],
+          "references": [
+            "3095"
+          ]
+        },
+        {
+          "sign": "M387",
+          "sequence": [
+            "M387",
+            "M015"
+          ],
+          "references": [
+            "4029"
+          ]
+        },
+        {
+          "sign": "M389",
+          "sequence": [
+            "M389",
+            "M015"
+          ],
+          "references": [
+            "2682"
+          ]
+        }
+      ]
+    },
+    {
+      "frame": [
+        "?",
+        "M169"
+      ],
+      "changed_index": 0,
+      "occupants": [
+        {
+          "sign": "M100",
+          "sequence": [
+            "M100",
+            "M169"
+          ],
+          "references": [
+            "5006"
+          ]
+        },
+        {
+          "sign": "M102",
+          "sequence": [
+            "M102",
+            "M169"
+          ],
+          "references": [
+            "1411",
+            "8024"
+          ]
+        },
+        {
+          "sign": "M104",
+          "sequence": [
+            "M104",
+            "M169"
+          ],
+          "references": [
+            "2008",
+            "4160"
+          ]
+        },
+        {
+          "sign": "M106",
+          "sequence": [
+            "M106",
+            "M169"
+          ],
+          "references": [
+            "1422",
+            "1441",
+            "2215",
+            "2525",
+            "8058"
+          ]
+        },
+        {
+          "sign": "M107",
+          "sequence": [
+            "M107",
+            "M169"
+          ],
+          "references": [
+            "7072"
+          ]
+        },
+        {
+          "sign": "M112",
+          "sequence": [
+            "M112",
+            "M169"
+          ],
+          "references": [
+            "1025"
+          ]
+        }
+      ]
+    },
+    {
+      "frame": [
+        "M267",
+        "M099",
+        "?",
+        "M162"
+      ],
+      "changed_index": 2,
+      "occupants": [
+        {
+          "sign": "M102",
+          "sequence": [
+            "M267",
+            "M099",
+            "M102",
+            "M162"
+          ],
+          "references": [
+            "1091",
+            "2080",
+            "2180",
+            "2354",
+            "4126",
+            "6214"
+          ]
+        },
+        {
+          "sign": "M104",
+          "sequence": [
+            "M267",
+            "M099",
+            "M104",
+            "M162"
+          ],
+          "references": [
+            "1143",
+            "1229"
+          ]
+        },
+        {
+          "sign": "M106",
+          "sequence": [
+            "M267",
+            "M099",
+            "M106",
+            "M162"
+          ],
+          "references": [
+            "1131"
+          ]
+        },
+        {
+          "sign": "M107",
+          "sequence": [
+            "M267",
+            "M099",
+            "M107",
+            "M162"
+          ],
+          "references": [
+            "1157"
+          ]
+        }
+      ]
+    }
+  ],
+  "target_pairs_followed_by_M287_M342": [],
+  "excluded_apparent_solus_counterpart_records": [
+    {
+      "reference": "2659",
+      "diplomatic": "+*102-287-342+",
+      "exclusion_reasons": [
+        "doubt"
+      ]
+    },
+    {
+      "reference": "4520",
+      "diplomatic": "+106-287-342+",
+      "exclusion_reasons": [
+        "not_seal",
+        "multiple_export_documents"
+      ]
+    }
+  ],
+  "partial_M102_or_M106_M287_M342_matches": [
+    {
+      "sequence": [
+        "M028",
+        "M162",
+        "M343",
+        "M106",
+        "M287",
+        "M342"
+      ],
+      "references": [
+        "1092"
+      ],
+      "changed_sign": "M106",
+      "index": 3,
+      "left_complete_context": [
+        "M028",
+        "M162",
+        "M343"
+      ],
+      "right_complete_context": [
+        "M287",
+        "M342"
+      ],
+      "at_end": true
+    },
+    {
+      "sequence": [
+        "M089",
+        "M106",
+        "M287",
+        "M342"
+      ],
+      "references": [
+        "4239"
+      ],
+      "changed_sign": "M106",
+      "index": 1,
+      "left_complete_context": [
+        "M089"
+      ],
+      "right_complete_context": [
+        "M287",
+        "M342"
+      ],
+      "at_end": true
+    },
+    {
+      "sequence": [
+        "M106",
+        "M287",
+        "M342"
+      ],
+      "references": [
+        "1460",
+        "2381",
+        "4618"
+      ],
+      "changed_sign": "M106",
+      "index": 0,
+      "left_complete_context": [],
+      "right_complete_context": [
+        "M287",
+        "M342"
+      ],
+      "at_end": true
+    },
+    {
+      "sequence": [
+        "M106",
+        "M287",
+        "M342",
+        "M001"
+      ],
+      "references": [
+        "2254"
+      ],
+      "changed_sign": "M106",
+      "index": 0,
+      "left_complete_context": [],
+      "right_complete_context": [
+        "M287",
+        "M342",
+        "M001"
+      ],
+      "at_end": false
+    },
+    {
+      "sequence": [
+        "M121",
+        "M065",
+        "M336",
+        "M089",
+        "M389",
+        "M102",
+        "M287",
+        "M342"
+      ],
+      "references": [
+        "4081"
+      ],
+      "changed_sign": "M102",
+      "index": 5,
+      "left_complete_context": [
+        "M121",
+        "M065",
+        "M336",
+        "M089",
+        "M389"
+      ],
+      "right_complete_context": [
+        "M287",
+        "M342"
+      ],
+      "at_end": true
+    },
+    {
+      "sequence": [
+        "M204",
+        "M245",
+        "M102",
+        "M287",
+        "M342"
+      ],
+      "references": [
+        "2097"
+      ],
+      "changed_sign": "M102",
+      "index": 2,
+      "left_complete_context": [
+        "M204",
+        "M245"
+      ],
+      "right_complete_context": [
+        "M287",
+        "M342"
+      ],
+      "at_end": true
+    },
+    {
+      "sequence": [
+        "M336",
+        "M064",
+        "M099",
+        "M102",
+        "M287",
+        "M342"
+      ],
+      "references": [
+        "4087"
+      ],
+      "changed_sign": "M102",
+      "index": 3,
+      "left_complete_context": [
+        "M336",
+        "M064",
+        "M099"
+      ],
+      "right_complete_context": [
+        "M287",
+        "M342"
+      ],
+      "at_end": true
+    },
+    {
+      "sequence": [
+        "M391",
+        "M099",
+        "M106",
+        "M287",
+        "M342"
+      ],
+      "references": [
+        "4134"
+      ],
+      "changed_sign": "M106",
+      "index": 2,
+      "left_complete_context": [
+        "M391",
+        "M099"
+      ],
+      "right_complete_context": [
+        "M287",
+        "M342"
+      ],
+      "at_end": true
+    },
+    {
+      "sequence": [
+        "M391",
+        "M099",
+        "M387",
+        "M102",
+        "M287",
+        "M342"
+      ],
+      "references": [
+        "2302"
+      ],
+      "changed_sign": "M102",
+      "index": 3,
+      "left_complete_context": [
+        "M391",
+        "M099",
+        "M387"
+      ],
+      "right_complete_context": [
+        "M287",
+        "M342"
+      ],
+      "at_end": true
+    }
+  ],
+  "new_semantic_values": 0,
+  "new_phonetic_values": 0,
+  "input_sha256": {
+    "data/processed/m77_candidate_records.jsonl": "b29a176da86b125115256a8966c377c3fd9fe39ecaab17bf576b770b83b41bab",
+    "scripts/analyze_m77_foreign.py": "8062ce1900421f2ac9e4353d23d888c51ad2db28cbdbe8a1eaeb894ca62d42c3",
+    "scripts/verify_stroke_substitutions_independent.py": "b6e567f09a9095ab301af08333a3b77d36de8e1796a7886a23839d653fb5e3b2"
+  },
+  "limits": [
+    "Exploratory same-corpus analysis, not a held-out test.",
+    "Transcription-based; this script does not inspect glyph images.",
+    "Complete strings are deduplicated; independence of objects or producers is not established.",
+    "Distributional substitution cannot distinguish quantities, phonetic alternatives, lexical alternatives, allographs, or other sign functions."
+  ]
+}

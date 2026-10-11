@@ -1,0 +1,88 @@
+{
+  "assumption": "Each selected adjacent subrun belongs to a single field requiring a monotone strict rank order of distinct long/short classes.",
+  "evaluations": [
+    {
+      "order": [
+        "long",
+        "short"
+      ],
+      "patterns": [
+        {
+          "classes": [
+            "long",
+            "short"
+          ],
+          "reference": "M77:2286",
+          "required_cuts_before_indices": []
+        },
+        {
+          "classes": [
+            "short",
+            "long"
+          ],
+          "reference": "M77:1066",
+          "required_cuts_before_indices": [
+            1
+          ]
+        },
+        {
+          "classes": [
+            "long",
+            "short",
+            "long"
+          ],
+          "reference": "M77:2427",
+          "required_cuts_before_indices": [
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "order": [
+        "short",
+        "long"
+      ],
+      "patterns": [
+        {
+          "classes": [
+            "long",
+            "short"
+          ],
+          "reference": "M77:2286",
+          "required_cuts_before_indices": [
+            1
+          ]
+        },
+        {
+          "classes": [
+            "short",
+            "long"
+          ],
+          "reference": "M77:1066",
+          "required_cuts_before_indices": []
+        },
+        {
+          "classes": [
+            "long",
+            "short",
+            "long"
+          ],
+          "reference": "M77:2427",
+          "required_cuts_before_indices": [
+            1
+          ]
+        }
+      ]
+    }
+  ],
+  "limits": [
+    "Stroke counts are graphic counts, not numerical values.",
+    "Publication drawings can contain editorial error; only M-160 has a separately checked artifact photograph.",
+    "The proposed CISI crosswalk is not needed to make claims directly about these M77 printed references.",
+    "No W/M sign-number correspondence is inferred.",
+    "These may overlap earlier source objects; never add them as independent corpus samples."
+  ],
+  "manual_ledger_sha256": "9dd9f6c4e7a4d3fa132d01983b20dd1a2fcc6859f5056ce62b0aa64417002548",
+  "orders_fitting_all_patterns": []
+}

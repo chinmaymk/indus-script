@@ -1,0 +1,181 @@
+{
+  "review_date": "2026-09-27",
+  "status": "supported_artifact_local_catalogue_correspondence",
+  "review_mode": "Source-exposed visual inspection of original-page scans and normalized M77 transcription; not physical autopsy or held-out prediction",
+  "secondary_row": "1174.1",
+  "secondary_cisi_label": "H-133",
+  "secondary_excavation_field": "8360261",
+  "secondary_source_sequence": [
+    "W740",
+    "W554",
+    "W220",
+    "W415",
+    "W798",
+    "W060",
+    "W692"
+  ],
+  "secondary_preservation": "slightly chipped",
+  "modern_CISI_alias_independently_checked": false,
+  "primary_identity": {
+    "publication": "Vats, Excavations at Harappa",
+    "metadata_printed_page": 53,
+    "metadata_archive_leaf": 79,
+    "field_number": "8360",
+    "plate": "XCII",
+    "plate_item": 261,
+    "plate_pdf_page": 192,
+    "material": "steatite",
+    "description": "rectangular plano-convex seal with seven pictograms",
+    "site": "Harappa",
+    "area": "Mound F, Trench IV",
+    "stratum": "I",
+    "square": "I13/7",
+    "depth_feet_below_surface": 2,
+    "furnace_association_established": false
+  },
+  "m77_bridge": {
+    "appendix_printed_page": 821,
+    "appendix_pdf_page": 830,
+    "rule": "EH volumeII items1\u2013713 map respectively to4001\u20134713",
+    "reference": 4261,
+    "text_printed_page": 104,
+    "text_pdf_page": 115
+  },
+  "target_correspondence": {
+    "W": "W554",
+    "M": "M226",
+    "source_file_position_zero_based": 1,
+    "reversed_reading_position_zero_based": 5,
+    "numbered_sign_list_printed_page": 34,
+    "numbered_sign_list_pdf_page": 45,
+    "shape": "Triangular left half at crossing, straight descending right arm, upper right arm with small angular terminal turn",
+    "basis": "Authenticated M77 reference4261 target glyph matches numbered226; original photo corroborates seven-sign object and broad placement",
+    "photo_fine_stroke_limit": "Second sign terminal turn is weaker in photograph; exact numbered classification rests on normalized drawing"
+  },
+  "secondary_M77_candidate_sequence": [
+    "M150",
+    "M123",
+    "M053",
+    "M171",
+    "M059",
+    "M226",
+    "M342"
+  ],
+  "full_numbered_transcription_independently_audited": false,
+  "H1817_authenticated_by_this_review": false,
+  "global_mapping_promoted": false,
+  "semantic_value": null,
+  "phonetic_value": null,
+  "established_semantic_values": 0,
+  "established_phonetic_values": 0,
+  "attempts_and_limits": [
+    "OCR readB360; primary page visually reads8360.",
+    "Source plateXCII261 and field8360 joined by explicit original metadata, not numeric tail guess.",
+    "Photo corroborates object/layout but does not resolve every fine target stroke.",
+    "FurnaceI13/21 and sealI13/7 are different squares; no workshop or deposit association promoted.",
+    "ModernCISIalias not independently checked.",
+    "Other six M77 numeric codes remain secondary candidate transcription; only targetM226 newly checked against numbered sign."
+  ],
+  "evidence_files": [
+    {
+      "path": "data/raw/h133_vats_leaf79.jpg",
+      "bytes": 2514955,
+      "sha256": "55bd37c4ec9b8a6dbefe59f25c93ac85d3923c1c47c134b2109df4a477120461"
+    },
+    {
+      "path": "data/raw/vats_1940_text_18220_djvu.txt",
+      "bytes": 1518598,
+      "sha256": "9426186946d5540e6ccff83fdfc8e5af4aaed99926e56fe14287f57f8ccb4d45"
+    },
+    {
+      "path": "data/raw/vats_1940_plates_9842.pdf",
+      "bytes": 17325993,
+      "sha256": "ab14c5c3a25588d3178789f83ae724eecf7cd873fb28c0a2c639a4dee21b8b18"
+    },
+    {
+      "path": "data/raw/mahadevan_1977_text.pdf",
+      "bytes": 119302608,
+      "sha256": "6dcdd074a0174e5fab149590fbbf82342711d345764e9763f8e5e92c81cf7f99"
+    },
+    {
+      "path": "data/raw/lipi_inscriptions.csv",
+      "bytes": 1204921,
+      "sha256": "b8dcb325a2e2cd3cde12ac12e7a418b0348e45713c9ee28aad81b645d2ac5ee4"
+    },
+    {
+      "path": "data/processed/m77_candidate_strict.jsonl",
+      "bytes": 346446,
+      "sha256": "fcdd8b3a7350ebfa851363328ec784b9c8a943525d8549b9df0194fbe1ee7f4a"
+    },
+    {
+      "path": "results/comb_tablet_screen.json",
+      "bytes": 475342,
+      "sha256": "55cc344c5f5e5af2e7e9b7f634b314e936b7c17bfde558cbc7fd14e713374775"
+    },
+    {
+      "path": "results/h133-m77_extraction.json",
+      "bytes": 388,
+      "sha256": "759e53f702aba0aad35f30dda616d5a629b2a21e7c1ef9779889422f51e25b6d"
+    },
+    {
+      "path": "results/h133-vats_extraction.json",
+      "bytes": 373,
+      "sha256": "0719b7cca301049b6964704626a2999c2cd5005c4ac4036d61af61fd06a0dcdd"
+    },
+    {
+      "path": "scripts/render_h133_w554_crops.py",
+      "bytes": 921,
+      "sha256": "0455bc9c17eca52bba9f2127eb98b666b4dced14357b4027cb967e2e1479d8c4"
+    },
+    {
+      "path": "docs/H133_W554_PRIMARY_REVIEW.md",
+      "bytes": 5305,
+      "sha256": "c84ad161cdb953fe42555d13704300e96cf7430df082cac7f7f8de1e2988ef4f"
+    },
+    {
+      "path": "results/primary_pages/h133-vats-192.png",
+      "bytes": 2960945,
+      "sha256": "ab744522a0b144117a1ba90928995f33d33772f53aed473f70a5c23fe0baaa1d"
+    },
+    {
+      "path": "results/primary_pages/h133-m77-115.png",
+      "bytes": 2661063,
+      "sha256": "30fe9ffc1ea0e2715fe48066047bee2d8e216d721095ec36b0b3ef0dd5b30d1e"
+    },
+    {
+      "path": "results/primary_pages/h133-m77-45.png",
+      "bytes": 3540840,
+      "sha256": "2eae0d450fddd23c41960e471173ecd924a4f45a9cd47f63433079cf105fdd69"
+    },
+    {
+      "path": "results/primary_pages/h133-m77-830.png",
+      "bytes": 4286320,
+      "sha256": "cf8c597e0736a04b6121634539e7e42766cfdaba1ca1803597f6a732961f12af"
+    },
+    {
+      "path": "results/primary_pages/h133-vats-metadata-detail.png",
+      "bytes": 662162,
+      "sha256": "28af4d80f1e6a95c08e90b87c3066bcd1e3fa49a8111c1219eb578664e8dc023"
+    },
+    {
+      "path": "results/primary_pages/h133-vats-261-detail.png",
+      "bytes": 119972,
+      "sha256": "5360b38070e98a123e7a8a7ff49d1f72fdf021b79d53abcaac4c048888882f6d"
+    },
+    {
+      "path": "results/primary_pages/h133-m77-4261-detail.png",
+      "bytes": 89525,
+      "sha256": "34cc55c6356dcc05964c7051d9db83059e1fd4a443f61f729956f3ce14be37d5"
+    },
+    {
+      "path": "results/primary_pages/h133-m77-M226-detail.png",
+      "bytes": 29486,
+      "sha256": "1a470419304316a774bd094c1fd8da038ac2a1220629168b7c7f9a752374418e"
+    },
+    {
+      "path": "results/primary_pages/h133-m77-EH-rule-detail.png",
+      "bytes": 270529,
+      "sha256": "27e11292f4956d3d1b5eb1223f6869d286ddfd8eaa857acea465199726d8dd27"
+    }
+  ]
+}

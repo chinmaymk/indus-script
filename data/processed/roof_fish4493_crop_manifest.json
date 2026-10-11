@@ -1,0 +1,50 @@
+[
+  {
+    "name": "493-table",
+    "source": "data/raw/vats_1940_holdout_leaf377.jpg",
+    "fractional_box": [
+      0.17,
+      0.513,
+      0.809,
+      0.543
+    ],
+    "crop": "results/primary_pages/roof-fish4493-493-table-detail.png",
+    "processing": "crop only"
+  },
+  {
+    "name": "table-heading",
+    "source": "data/raw/vats_1940_holdout_leaf377.jpg",
+    "fractional_box": [
+      0.165,
+      0.1,
+      0.82,
+      0.197
+    ],
+    "crop": "results/primary_pages/roof-fish4493-table-heading-detail.png",
+    "processing": "crop only"
+  },
+  {
+    "name": "group-rows",
+    "source": "data/raw/vats_1940_holdout_leaf377.jpg",
+    "fractional_box": [
+      0.17,
+      0.41,
+      0.809,
+      0.543
+    ],
+    "crop": "results/primary_pages/roof-fish4493-group-rows-detail.png",
+    "processing": "crop only"
+  },
+  {
+    "name": "493-photo",
+    "source": "results/primary_pages/roof-fish4493-vats-200.png",
+    "fractional_box": [
+      0.632,
+      0.832,
+      0.693,
+      0.923
+    ],
+    "crop": "results/primary_pages/roof-fish4493-493-photo-detail.png",
+    "processing": "crop only"
+  }
+]

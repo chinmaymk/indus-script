@@ -1,0 +1,4986 @@
+{
+  "aggregate_by_strength": {
+    "100": {
+      "bootstrap_scope": "Fixed out-of-fold predictions and fixed supported families; not selection-adjusted or causal",
+      "component_bootstrap_95_percentile_interval": [
+        0.0032281750673584736,
+        0.01646205633804696
+      ],
+      "connected_groups": 925,
+      "frequency_bits_per_token": 1.2932570608401142,
+      "group_size_sensitivity": {
+        "equal_component_weight_improvement_bits": 0.005960960583308971,
+        "excluding_largest_component_improvement_bits": 0.007948146504875292,
+        "largest_selected_group": "13abe89c94cc45a225e34a7b81880205f7f623f7f9d149589c3164dc4f80c8ca",
+        "largest_selected_group_tokens": 275,
+        "status": "Added after inspecting group sizes; fixed predictions, no refitting"
+      },
+      "metadata_bits_per_token": 1.2732316764444647,
+      "neighbor_bits_per_token": 1.262715732456745,
+      "neighbor_improvement_over_metadata_bits": 0.010515943987719422,
+      "tokens": 2283
+    },
+    "20": {
+      "bootstrap_scope": "Fixed out-of-fold predictions and fixed supported families; not selection-adjusted or causal",
+      "component_bootstrap_95_percentile_interval": [
+        0.00021472109547858106,
+        0.04205281514299881
+      ],
+      "connected_groups": 925,
+      "frequency_bits_per_token": 1.2932570608401142,
+      "group_size_sensitivity": {
+        "equal_component_weight_improvement_bits": 0.006207558778547968,
+        "excluding_largest_component_improvement_bits": 0.01101643563375377,
+        "largest_selected_group": "13abe89c94cc45a225e34a7b81880205f7f623f7f9d149589c3164dc4f80c8ca",
+        "largest_selected_group_tokens": 275,
+        "status": "Added after inspecting group sizes; fixed predictions, no refitting"
+      },
+      "metadata_bits_per_token": 1.2374242667110904,
+      "neighbor_bits_per_token": 1.2156841283261308,
+      "neighbor_improvement_over_metadata_bits": 0.021740138384959667,
+      "tokens": 2283
+    },
+    "5": {
+      "bootstrap_scope": "Fixed out-of-fold predictions and fixed supported families; not selection-adjusted or causal",
+      "component_bootstrap_95_percentile_interval": [
+        -0.028721220939882455,
+        0.06216481599457309
+      ],
+      "connected_groups": 925,
+      "frequency_bits_per_token": 1.2932570608401142,
+      "group_size_sensitivity": {
+        "equal_component_weight_improvement_bits": -0.013956294251119111,
+        "excluding_largest_component_improvement_bits": -0.010684849636326411,
+        "largest_selected_group": "13abe89c94cc45a225e34a7b81880205f7f623f7f9d149589c3164dc4f80c8ca",
+        "largest_selected_group_tokens": 275,
+        "status": "Added after inspecting group sizes; fixed predictions, no refitting"
+      },
+      "metadata_bits_per_token": 1.2106603191809677,
+      "neighbor_bits_per_token": 1.1961743507143716,
+      "neighbor_improvement_over_metadata_bits": 0.014485968466595858,
+      "tokens": 2283
+    }
+  },
+  "all_M_coverage": {
+    "mapped_family_meets_support_gate": 31,
+    "mapped_family_too_sparse": 73,
+    "no_multi_W_family_asserted": 313
+  },
+  "candidate_families": 76,
+  "connected_groups": 1497,
+  "deduplicated_artifact_sequence_context_units": 2898,
+  "families": {
+    "P003": {
+      "allograph_status": "not established",
+      "evaluations": [
+        {
+          "fold_improvements": {
+            "0": 0.2756344426134274,
+            "1": 0.077030573840583,
+            "2": 0.0,
+            "3": 0.06753908214913577,
+            "4": 0.04514306141045521
+          },
+          "neighbor_improvement_over_metadata_bits": 0.06887652464770369,
+          "strength": 5,
+          "tokens": 16,
+          "tokens_with_seen_neighbor_context": 5,
+          "tokens_with_variant_absent_in_training": 0
+        },
+        {
+          "fold_improvements": {
+            "0": 0.09354076783942189,
+            "1": 0.027403882674373353,
+            "2": 0.0,
+            "3": 0.023250613699169607,
+            "4": 0.013484701777700947
+          },
+          "neighbor_improvement_over_metadata_bits": 0.023334260883972946,
+          "strength": 20,
+          "tokens": 16,
+          "tokens_with_seen_neighbor_context": 5,
+          "tokens_with_variant_absent_in_training": 0
+        },
+        {
+          "fold_improvements": {
+            "0": 0.02069475092549955,
+            "1": 0.006166421096675867,
+            "2": 0.0,
+            "3": 0.005175726365121092,
+            "4": 0.002845567109134556
+          },
+          "neighbor_improvement_over_metadata_bits": 0.005163833473396669,
+          "strength": 100,
+          "tokens": 16,
+          "tokens_with_seen_neighbor_context": 5,
+          "tokens_with_variant_absent_in_training": 0
+        }
+      ],
+      "exact_substitution_frames": [],
+      "meets_support_gate": false,
+      "members": [
+        "W159",
+        "W160",
+        "W161"
+      ],
+      "observed_variant_counts": {
+        "W159": 4,
+        "W160": 2,
+        "W161": 10
+      },
+      "texts_with_distinct_members": []
+    },
+    "P004": {
+      "allograph_status": "not established",
+      "evaluations": [
+        {
+          "fold_improvements": {
+            "0": 0.1870959752885591,
+            "1": 0.22589495881378135,
+            "2": -0.04622027670336989,
+            "3": -0.1019720185693711,
+            "4": 0.11654762326624639
+          },
+          "neighbor_improvement_over_metadata_bits": 0.09780338702483733,
+          "strength": 5,
+          "tokens": 159,
+          "tokens_with_seen_neighbor_context": 85,
+          "tokens_with_variant_absent_in_training": 0
+        },
+        {
+          "fold_improvements": {
+            "0": 0.10097284815893208,
+            "1": 0.1608897681081014,
+            "2": 0.011791273578955324,
+            "3": 0.04435496536315587,
+            "4": 0.10140398204790853
+          },
+          "neighbor_improvement_over_metadata_bits": 0.08126743245503712,
+          "strength": 20,
+          "tokens": 159,
+          "tokens_with_seen_neighbor_context": 85,
+          "tokens_with_variant_absent_in_training": 0
+        },
+        {
+          "fold_improvements": {
+            "0": 0.02938000825012864,
+            "1": 0.06419132251514514,
+            "2": 0.013869258540603033,
+            "3": 0.0361855838399266,
+            "4": 0.04624087206302077
+          },
+          "neighbor_improvement_over_metadata_bits": 0.03232463432099917,
+          "strength": 100,
+          "tokens": 159,
+          "tokens_with_seen_neighbor_context": 85,
+          "tokens_with_variant_absent_in_training": 0
+        }
+      ],
+      "exact_substitution_frames": [
+        {
+          "frame": "? W003",
+          "variants": [
+            "W154",
+            "W156"
+          ]
+        },
+        {
+          "frame": "? W004",
+          "variants": [
+            "W154",
+            "W156"
+          ]
+        },
+        {
+          "frame": "? W005",
+          "variants": [
+            "W154",
+            "W155",
+            "W156"
+          ]
+        },
+        {
+          "frame": "? W435 W255",
+          "variants": [
+            "W154",
+            "W156"
+          ]
+        },
+        {
+          "frame": "? W806 W468",
+          "variants": [
+            "W154",
+            "W155"
+          ]
+        },
+        {
+          "frame": "W400 ? W118",
+          "variants": [
+            "W153",
+            "W156"
+          ]
+        },
+        {
+          "frame": "W400 ? W690",
+          "variants": [
+            "W154",
+            "W158"
+          ]
+        },
+        {
+          "frame": "W400 ? W806 W467",
+          "variants": [
+            "W154",
+            "W158"
+          ]
+        }
+      ],
+      "meets_support_gate": true,
+      "members": [
+        "W153",
+        "W154",
+        "W155",
+        "W156",
+        "W158"
+      ],
+      "observed_variant_counts": {
+        "W153": 4,
+        "W154": 37,
+        "W155": 5,
+        "W156": 85,
+        "W158": 28
+      },
+      "texts_with_distinct_members": []
+    },
+    "P007": {
+      "allograph_status": "not established",
+      "evaluations": [
+        {
+          "fold_improvements": {
+            "0": 0.0,
+            "1": 0.0
+          },
+          "neighbor_improvement_over_metadata_bits": 0.0,
+          "strength": 5,
+          "tokens": 2,
+          "tokens_with_seen_neighbor_context": 0,
+          "tokens_with_variant_absent_in_training": 2
+        },
+        {
+          "fold_improvements": {
+            "0": 0.0,
+            "1": 0.0
+          },
+          "neighbor_improvement_over_metadata_bits": 0.0,
+          "strength": 20,
+          "tokens": 2,
+          "tokens_with_seen_neighbor_context": 0,
+          "tokens_with_variant_absent_in_training": 2
+        },
+        {
+          "fold_improvements": {
+            "0": 0.0,
+            "1": 0.0
+          },
+          "neighbor_improvement_over_metadata_bits": 0.0,
+          "strength": 100,
+          "tokens": 2,
+          "tokens_with_seen_neighbor_context": 0,
+          "tokens_with_variant_absent_in_training": 2
+        }
+      ],
+      "exact_substitution_frames": [],
+      "meets_support_gate": false,
+      "members": [
+        "W105",
+        "W107"
+      ],
+      "observed_variant_counts": {
+        "W105": 1,
+        "W107": 1
+      },
+      "texts_with_distinct_members": []
+    },
+    "P010": {
+      "allograph_status": "not established",
+      "evaluations": [
+        {
+          "fold_improvements": {
+            "0": -0.0018785134143266824,
+            "1": -0.48542682717024155,
+            "2": -0.2630344058337939,
+            "3": -0.032425572174983985,
+            "4": -0.06575860145844847
+          },
+          "neighbor_improvement_over_metadata_bits": -0.09032173640375867,
+          "strength": 5,
+          "tokens": 12,
+          "tokens_with_seen_neighbor_context": 5,
+          "tokens_with_variant_absent_in_training": 0
+        },
+        {
+          "fold_improvements": {
+            "0": -0.004650048426406095,
+            "1": -0.1375035237499349,
+            "2": -0.07038932789139807,
+            "3": -0.010159992189797906,
+            "4": -0.01759733197284949
+          },
+          "neighbor_improvement_over_metadata_bits": -0.026433529801495926,
+          "strength": 20,
+          "tokens": 12,
+          "tokens_with_seen_neighbor_context": 5,
+          "tokens_with_variant_absent_in_training": 0
+        },
+        {
+          "fold_improvements": {
+            "0": -0.001230057494906872,
+            "1": -0.02856915219677081,
+            "2": -0.014355292977070278,
+            "3": -0.00217929930244809,
+            "4": -0.003588823244267514
+          },
+          "neighbor_improvement_over_metadata_bits": -0.005546547227952901,
+          "strength": 100,
+          "tokens": 12,
+          "tokens_with_seen_neighbor_context": 5,
+          "tokens_with_variant_absent_in_training": 0
+        }
+      ],
+      "exact_substitution_frames": [],
+      "meets_support_gate": false,
+      "members": [
+        "W101",
+        "W103"
+      ],
+      "observed_variant_counts": {
+        "W101": 8,
+        "W103": 4
+      },
+      "texts_with_distinct_members": []
+    },
+    "P035": {
+      "allograph_status": "not established",
+      "evaluations": [
+        {
+          "fold_improvements": {
+            "0": 0.0018493062355413098,
+            "1": 0.002828836464053919,
+            "2": 0.00561147962108662,
+            "3": 0.0014028699052716271,
+            "4": 0.004205237081094209
+          },
+          "neighbor_improvement_over_metadata_bits": 0.003290157972417891,
+          "strength": 5,
+          "tokens": 49,
+          "tokens_with_seen_neighbor_context": 11,
+          "tokens_with_variant_absent_in_training": 0
+        },
+        {
+          "fold_improvements": {
+            "0": 0.0005649447037616115,
+            "1": 0.0009030962244986007,
+            "2": 0.0016099725347314038,
+            "3": 0.0004024931336828787,
+            "4": 0.0012595942296992056
+          },
+          "neighbor_improvement_over_metadata_bits": 0.0009715328164083706,
+          "strength": 20,
+          "tokens": 49,
+          "tokens_with_seen_neighbor_context": 11,
+          "tokens_with_variant_absent_in_training": 0
+        },
+        {
+          "fold_improvements": {
+            "0": 0.00011989941737121136,
+            "1": 0.0001950246834488828,
+            "2": 0.0003351908875948069,
+            "3": 8.37977218987318e-05,
+            "4": 0.0002657963572380472
+          },
+          "neighbor_improvement_over_metadata_bits": 0.0002042008452474755,
+          "strength": 100,
+          "tokens": 49,
+          "tokens_with_seen_neighbor_context": 11,
+          "tokens_with_variant_absent_in_training": 0
+        }
+      ],
+      "exact_substitution_frames": [
+        {
+          "frame": "W700 ?",
+          "variants": [
+            "W125",
+            "W126"
+          ]
+        }
+      ],
+      "meets_support_gate": false,
+      "members": [
+        "W125",
+        "W126"
+      ],
+      "observed_variant_counts": {
+        "W125": 47,
+        "W126": 2
+      },
+      "texts_with_distinct_members": []
+    },
+    "P040": {
+      "allograph_status": "not established",
+      "evaluations": [
+        {
+          "fold_improvements": {
+            "0": 0.0,
+            "1": 8.326672684688674e-17,
+            "2": 0.0
+          },
+          "neighbor_improvement_over_metadata_bits": 2.3790493384824782e-17,
+          "strength": 5,
+          "tokens": 7,
+          "tokens_with_seen_neighbor_context": 0,
+          "tokens_with_variant_absent_in_training": 0
+        },
+        {
+          "fold_improvements": {
+            "0": 4.85722573273506e-17,
+            "1": 0.0,
+            "2": 0.0
+          },
+          "neighbor_improvement_over_metadata_bits": 2.7755575615628914e-17,
+          "strength": 20,
+          "tokens": 7,
+          "tokens_with_seen_neighbor_context": 0,
+          "tokens_with_variant_absent_in_training": 0
+        },
+        {
+          "fold_improvements": {
+            "0": 0.0,
+            "1": 0.0,
+            "2": 0.0
+          },
+          "neighbor_improvement_over_metadata_bits": 0.0,
+          "strength": 100,
+          "tokens": 7,
+          "tokens_with_seen_neighbor_context": 0,
+          "tokens_with_variant_absent_in_training": 0
+        }
+      ],
+      "exact_substitution_frames": [],
+      "meets_support_gate": false,
+      "members": [
+        "W110",
+        "W111"
+      ],
+      "observed_variant_counts": {
+        "W111": 7
+      },
+      "texts_with_distinct_members": []
+    },
+    "P043": {
+      "allograph_status": "not established",
+      "evaluations": [
+        {
+          "fold_improvements": {
+            "0": -0.17506382920556468,
+            "1": 0.0,
+            "2": 0.0,
+            "3": -0.6998264577531592,
+            "4": 0.0
+          },
+          "neighbor_improvement_over_metadata_bits": -0.1531540468630504,
+          "strength": 5,
+          "tokens": 16,
+          "tokens_with_seen_neighbor_context": 10,
+          "tokens_with_variant_absent_in_training": 13
+        },
+        {
+          "fold_improvements": {
+            "0": -0.04008431942323076,
+            "1": 0.0,
+            "2": 0.0,
+            "3": -0.16965465663858126,
+            "4": 0.0
+          },
+          "neighbor_improvement_over_metadata_bits": -0.035656115679430556,
+          "strength": 20,
+          "tokens": 16,
+          "tokens_with_seen_neighbor_context": 10,
+          "tokens_with_variant_absent_in_training": 13
+        },
+        {
+          "fold_improvements": {
+            "0": -0.007421562020047489,
+            "1": 0.0,
+            "2": 0.0,
+            "3": -0.024914031954677007,
+            "4": 0.0
+          },
+          "neighbor_improvement_over_metadata_bits": -0.006195603259696994,
+          "strength": 100,
+          "tokens": 16,
+          "tokens_with_seen_neighbor_context": 10,
+          "tokens_with_variant_absent_in_training": 13
+        }
+      ],
+      "exact_substitution_frames": [],
+      "meets_support_gate": false,
+      "members": [
+        "W340",
+        "W341",
+        "W342",
+        "W343",
+        "W344",
+        "W345",
+        "W347",
+        "W348"
+      ],
+      "observed_variant_counts": {
+        "W340": 1,
+        "W342": 1,
+        "W343": 1,
+        "W344": 1,
+        "W345": 3,
+        "W347": 9
+      },
+      "texts_with_distinct_members": []
+    },
+    "P047": {
+      "allograph_status": "not established",
+      "evaluations": [
+        {
+          "fold_improvements": {
+            "0": 0.0,
+            "3": 0.0,
+            "4": 0.0
+          },
+          "neighbor_improvement_over_metadata_bits": 0.0,
+          "strength": 5,
+          "tokens": 5,
+          "tokens_with_seen_neighbor_context": 0,
+          "tokens_with_variant_absent_in_training": 0
+        },
+        {
+          "fold_improvements": {
+            "0": 0.0,
+            "3": 0.0,
+            "4": 0.0
+          },
+          "neighbor_improvement_over_metadata_bits": 0.0,
+          "strength": 20,
+          "tokens": 5,
+          "tokens_with_seen_neighbor_context": 0,
+          "tokens_with_variant_absent_in_training": 0
+        },
+        {
+          "fold_improvements": {
+            "0": 0.0,
+            "3": 0.0,
+            "4": 0.0
+          },
+          "neighbor_improvement_over_metadata_bits": 0.0,
+          "strength": 100,
+          "tokens": 5,
+          "tokens_with_seen_neighbor_context": 0,
+          "tokens_with_variant_absent_in_training": 0
+        }
+      ],
+      "exact_substitution_frames": [],
+      "meets_support_gate": false,
+      "members": [
+        "W517",
+        "W518"
+      ],
+      "observed_variant_counts": {
+        "W518": 5
+      },
+      "texts_with_distinct_members": []
+    },
+    "P055": {
+      "allograph_status": "not established",
+      "evaluations": [
+        {
+          "fold_improvements": {
+            "3": 0.0
+          },
+          "neighbor_improvement_over_metadata_bits": 0.0,
+          "strength": 5,
+          "tokens": 1,
+          "tokens_with_seen_neighbor_context": 0,
+          "tokens_with_variant_absent_in_training": 1
+        },
+        {
+          "fold_improvements": {
+            "3": 0.0
+          },
+          "neighbor_improvement_over_metadata_bits": 0.0,
+          "strength": 20,
+          "tokens": 1,
+          "tokens_with_seen_neighbor_context": 0,
+          "tokens_with_variant_absent_in_training": 1
+        },
+        {
+          "fold_improvements": {
+            "3": 0.0
+          },
+          "neighbor_improvement_over_metadata_bits": 0.0,
+          "strength": 100,
+          "tokens": 1,
+          "tokens_with_seen_neighbor_context": 0,
+          "tokens_with_variant_absent_in_training": 1
+        }
+      ],
+      "exact_substitution_frames": [],
+      "meets_support_gate": false,
+      "members": [
+        "W942",
+        "W943"
+      ],
+      "observed_variant_counts": {
+        "W942": 1
+      },
+      "texts_with_distinct_members": []
+    },
+    "P062": {
+      "allograph_status": "not established",
+      "evaluations": [
+        {
+          "fold_improvements": {
+            "0": 0.00030479223026384073,
+            "1": 0.0010049786914981093,
+            "2": -0.003746418908660432,
+            "3": 0.0007914159452443463,
+            "4": -0.0071341963257209665
+          },
+          "neighbor_improvement_over_metadata_bits": -0.0016087433825225114,
+          "strength": 5,
+          "tokens": 255,
+          "tokens_with_seen_neighbor_context": 77,
+          "tokens_with_variant_absent_in_training": 1
+        },
+        {
+          "fold_improvements": {
+            "0": 0.00010880647754934946,
+            "1": 0.0003475036440873908,
+            "2": -0.0009887162594668223,
+            "3": 0.0003140001780042869,
+            "4": -0.0018236704650439572
+          },
+          "neighbor_improvement_over_metadata_bits": -0.00037749255747638526,
+          "strength": 20,
+          "tokens": 255,
+          "tokens_with_seen_neighbor_context": 77,
+          "tokens_with_variant_absent_in_training": 1
+        },
+        {
+          "fold_improvements": {
+            "0": 2.6289665194845013e-05,
+            "1": 7.923128084919327e-05,
+            "2": -0.00019979270518507872,
+            "3": 8.018026160969358e-05,
+            "4": -0.0003525729012991643
+          },
+          "neighbor_improvement_over_metadata_bits": -6.866757256843246e-05,
+          "strength": 100,
+          "tokens": 255,
+          "tokens_with_seen_neighbor_context": 77,
+          "tokens_with_variant_absent_in_training": 1
+        }
+      ],
+      "exact_substitution_frames": [],
+      "meets_support_gate": false,
+      "members": [
+        "W240",
+        "W242"
+      ],
+      "observed_variant_counts": {
+        "W240": 254,
+        "W242": 1
+      },
+      "texts_with_distinct_members": []
+    },
+    "P064": {
+      "allograph_status": "not established",
+      "evaluations": [
+        {
+          "fold_improvements": {
+            "3": 0.0
+          },
+          "neighbor_improvement_over_metadata_bits": 0.0,
+          "strength": 5,
+          "tokens": 1,
+          "tokens_with_seen_neighbor_context": 0,
+          "tokens_with_variant_absent_in_training": 1
+        },
+        {
+          "fold_improvements": {
+            "3": 0.0
+          },
+          "neighbor_improvement_over_metadata_bits": 0.0,
+          "strength": 20,
+          "tokens": 1,
+          "tokens_with_seen_neighbor_context": 0,
+          "tokens_with_variant_absent_in_training": 1
+        },
+        {
+          "fold_improvements": {
+            "3": 0.0
+          },
+          "neighbor_improvement_over_metadata_bits": 0.0,
+          "strength": 100,
+          "tokens": 1,
+          "tokens_with_seen_neighbor_context": 0,
+          "tokens_with_variant_absent_in_training": 1
+        }
+      ],
+      "exact_substitution_frames": [],
+      "meets_support_gate": false,
+      "members": [
+        "W227",
+        "W228"
+      ],
+      "observed_variant_counts": {
+        "W228": 1
+      },
+      "texts_with_distinct_members": []
+    },
+    "P066": {
+      "allograph_status": "not established",
+      "evaluations": [
+        {
+          "fold_improvements": {
+            "0": 0.0,
+            "1": 0.0,
+            "2": 0.0,
+            "3": 0.0
+          },
+          "neighbor_improvement_over_metadata_bits": 0.0,
+          "strength": 5,
+          "tokens": 5,
+          "tokens_with_seen_neighbor_context": 0,
+          "tokens_with_variant_absent_in_training": 2
+        },
+        {
+          "fold_improvements": {
+            "0": 0.0,
+            "1": 0.0,
+            "2": 0.0,
+            "3": 0.0
+          },
+          "neighbor_improvement_over_metadata_bits": 0.0,
+          "strength": 20,
+          "tokens": 5,
+          "tokens_with_seen_neighbor_context": 0,
+          "tokens_with_variant_absent_in_training": 2
+        },
+        {
+          "fold_improvements": {
+            "0": 0.0,
+            "1": 0.0,
+            "2": 0.0,
+            "3": 0.0
+          },
+          "neighbor_improvement_over_metadata_bits": 0.0,
+          "strength": 100,
+          "tokens": 5,
+          "tokens_with_seen_neighbor_context": 0,
+          "tokens_with_variant_absent_in_training": 2
+        }
+      ],
+      "exact_substitution_frames": [],
+      "meets_support_gate": false,
+      "members": [
+        "W264",
+        "W266",
+        "W268"
+      ],
+      "observed_variant_counts": {
+        "W264": 1,
+        "W266": 1,
+        "W268": 3
+      },
+      "texts_with_distinct_members": []
+    },
+    "P067": {
+      "allograph_status": "not established",
+      "evaluations": [
+        {
+          "fold_improvements": {
+            "0": 0.23815973719476435,
+            "1": 0.0,
+            "2": 0.0,
+            "3": 0.0,
+            "4": 0.10322543873371315
+          },
+          "neighbor_improvement_over_metadata_bits": 0.03705088455518255,
+          "strength": 5,
+          "tokens": 12,
+          "tokens_with_seen_neighbor_context": 2,
+          "tokens_with_variant_absent_in_training": 0
+        },
+        {
+          "fold_improvements": {
+            "0": 0.0721497857558353,
+            "1": 0.0,
+            "2": 0.0,
+            "3": 0.0,
+            "4": 0.031030484066125852
+          },
+          "neighbor_improvement_over_metadata_bits": 0.011184229490673917,
+          "strength": 20,
+          "tokens": 12,
+          "tokens_with_seen_neighbor_context": 2,
+          "tokens_with_variant_absent_in_training": 0
+        },
+        {
+          "fold_improvements": {
+            "0": 0.015301454477306464,
+            "1": 0.0,
+            "2": 0.0,
+            "3": 0.0,
+            "4": 0.006562721722518483
+          },
+          "neighbor_improvement_over_metadata_bits": 0.0023689081601952857,
+          "strength": 100,
+          "tokens": 12,
+          "tokens_with_seen_neighbor_context": 2,
+          "tokens_with_variant_absent_in_training": 0
+        }
+      ],
+      "exact_substitution_frames": [],
+      "meets_support_gate": false,
+      "members": [
+        "W265",
+        "W267",
+        "W269",
+        "W270",
+        "W271"
+      ],
+      "observed_variant_counts": {
+        "W267": 5,
+        "W269": 7
+      },
+      "texts_with_distinct_members": []
+    },
+    "P075": {
+      "allograph_status": "not established",
+      "evaluations": [
+        {
+          "fold_improvements": {
+            "0": 0.012032968146985918,
+            "1": 0.021039572956659758,
+            "2": 0.004839818534721273,
+            "3": 0.011157287981327967,
+            "4": 0.004836536255031158
+          },
+          "neighbor_improvement_over_metadata_bits": 0.011099221591216209,
+          "strength": 5,
+          "tokens": 109,
+          "tokens_with_seen_neighbor_context": 56,
+          "tokens_with_variant_absent_in_training": 3
+        },
+        {
+          "fold_improvements": {
+            "0": 0.0047103317897428075,
+            "1": 0.008250233678970252,
+            "2": 0.0018403519454941485,
+            "3": 0.004886453775036098,
+            "4": 0.0016827788074725474
+          },
+          "neighbor_improvement_over_metadata_bits": 0.004385513422732567,
+          "strength": 20,
+          "tokens": 109,
+          "tokens_with_seen_neighbor_context": 56,
+          "tokens_with_variant_absent_in_training": 3
+        },
+        {
+          "fold_improvements": {
+            "0": 0.0011476558871495429,
+            "1": 0.0019311225589586447,
+            "2": 0.00042730112611986525,
+            "3": 0.0012407690451308887,
+            "4": 0.00038111036663533205
+          },
+          "neighbor_improvement_over_metadata_bits": 0.001049919305256241,
+          "strength": 100,
+          "tokens": 109,
+          "tokens_with_seen_neighbor_context": 56,
+          "tokens_with_variant_absent_in_training": 3
+        }
+      ],
+      "exact_substitution_frames": [
+        {
+          "frame": "W740 ?",
+          "variants": [
+            "W797",
+            "W798"
+          ]
+        }
+      ],
+      "meets_support_gate": false,
+      "members": [
+        "W193",
+        "W797",
+        "W798"
+      ],
+      "observed_variant_counts": {
+        "W193": 3,
+        "W797": 2,
+        "W798": 104
+      },
+      "texts_with_distinct_members": []
+    },
+    "P076": {
+      "allograph_status": "not established",
+      "evaluations": [
+        {
+          "fold_improvements": {
+            "0": 0.0,
+            "1": 0.0,
+            "2": 0.05549511259170359,
+            "3": 0.024049928585278435,
+            "4": 0.0
+          },
+          "neighbor_improvement_over_metadata_bits": 0.01276448983475389,
+          "strength": 5,
+          "tokens": 10,
+          "tokens_with_seen_neighbor_context": 2,
+          "tokens_with_variant_absent_in_training": 1
+        },
+        {
+          "fold_improvements": {
+            "0": 0.0,
+            "1": 0.0,
+            "2": 0.01607476285807119,
+            "3": 0.00699500837644527,
+            "4": 0.0
+          },
+          "neighbor_improvement_over_metadata_bits": 0.0037059787987407,
+          "strength": 20,
+          "tokens": 10,
+          "tokens_with_seen_neighbor_context": 2,
+          "tokens_with_variant_absent_in_training": 1
+        },
+        {
+          "fold_improvements": {
+            "0": 0.0,
+            "1": 0.0,
+            "2": 0.0033570580380693493,
+            "3": 0.001462809787875848,
+            "4": 0.0
+          },
+          "neighbor_improvement_over_metadata_bits": 0.0007745487401696893,
+          "strength": 100,
+          "tokens": 10,
+          "tokens_with_seen_neighbor_context": 2,
+          "tokens_with_variant_absent_in_training": 1
+        }
+      ],
+      "exact_substitution_frames": [],
+      "meets_support_gate": false,
+      "members": [
+        "W190",
+        "W192",
+        "W194"
+      ],
+      "observed_variant_counts": {
+        "W190": 9,
+        "W192": 1
+      },
+      "texts_with_distinct_members": []
+    },
+    "P082": {
+      "allograph_status": "not established",
+      "evaluations": [
+        {
+          "fold_improvements": {
+            "0": 0.637429920615292,
+            "1": 0.0,
+            "3": 0.32384912803455945,
+            "4": 0.0
+          },
+          "neighbor_improvement_over_metadata_bits": 0.25702563533688216,
+          "strength": 5,
+          "tokens": 5,
+          "tokens_with_seen_neighbor_context": 2,
+          "tokens_with_variant_absent_in_training": 3
+        },
+        {
+          "fold_improvements": {
+            "0": 0.21254463538010104,
+            "1": 0.0,
+            "3": 0.09179996916969446,
+            "4": 0.0
+          },
+          "neighbor_improvement_over_metadata_bits": 0.079228914743898,
+          "strength": 20,
+          "tokens": 5,
+          "tokens_with_seen_neighbor_context": 2,
+          "tokens_with_variant_absent_in_training": 3
+        },
+        {
+          "fold_improvements": {
+            "0": 0.04684486345966743,
+            "1": 0.0,
+            "3": 0.01905348721278788,
+            "4": 0.0
+          },
+          "neighbor_improvement_over_metadata_bits": 0.016990367577048637,
+          "strength": 100,
+          "tokens": 5,
+          "tokens_with_seen_neighbor_context": 2,
+          "tokens_with_variant_absent_in_training": 3
+        }
+      ],
+      "exact_substitution_frames": [],
+      "meets_support_gate": false,
+      "members": [
+        "W205",
+        "W206",
+        "W207",
+        "W208",
+        "W209"
+      ],
+      "observed_variant_counts": {
+        "W205": 2,
+        "W207": 1,
+        "W208": 1,
+        "W209": 1
+      },
+      "texts_with_distinct_members": []
+    },
+    "P084": {
+      "allograph_status": "not established",
+      "evaluations": [
+        {
+          "fold_improvements": {
+            "0": 0.0,
+            "1": 0.0,
+            "2": 0.0,
+            "3": 0.0,
+            "4": 0.0
+          },
+          "neighbor_improvement_over_metadata_bits": 0.0,
+          "strength": 5,
+          "tokens": 7,
+          "tokens_with_seen_neighbor_context": 0,
+          "tokens_with_variant_absent_in_training": 0
+        },
+        {
+          "fold_improvements": {
+            "0": 0.0,
+            "1": 0.0,
+            "2": 0.0,
+            "3": 0.0,
+            "4": 0.0
+          },
+          "neighbor_improvement_over_metadata_bits": 0.0,
+          "strength": 20,
+          "tokens": 7,
+          "tokens_with_seen_neighbor_context": 0,
+          "tokens_with_variant_absent_in_training": 0
+        },
+        {
+          "fold_improvements": {
+            "0": 0.0,
+            "1": 0.0,
+            "2": 0.0,
+            "3": 0.0,
+            "4": 0.0
+          },
+          "neighbor_improvement_over_metadata_bits": 0.0,
+          "strength": 100,
+          "tokens": 7,
+          "tokens_with_seen_neighbor_context": 0,
+          "tokens_with_variant_absent_in_training": 0
+        }
+      ],
+      "exact_substitution_frames": [],
+      "meets_support_gate": false,
+      "members": [
+        "W285",
+        "W286",
+        "W287"
+      ],
+      "observed_variant_counts": {
+        "W285": 3,
+        "W286": 2,
+        "W287": 2
+      },
+      "texts_with_distinct_members": []
+    },
+    "P086": {
+      "allograph_status": "not established",
+      "evaluations": [
+        {
+          "fold_improvements": {
+            "0": 0.07607605516785203,
+            "1": -0.09967158119253616,
+            "2": -0.002014193167693951,
+            "3": -0.04238740341369195,
+            "4": 0.03172306840871845
+          },
+          "neighbor_improvement_over_metadata_bits": -0.007363837309165697,
+          "strength": 5,
+          "tokens": 414,
+          "tokens_with_seen_neighbor_context": 261,
+          "tokens_with_variant_absent_in_training": 0
+        },
+        {
+          "fold_improvements": {
+            "0": 0.04192196880425486,
+            "1": -0.044692588187642594,
+            "2": 0.033181507601672496,
+            "3": -0.00048215674116250325,
+            "4": 0.03180027552891691
+          },
+          "neighbor_improvement_over_metadata_bits": 0.011472912821752904,
+          "strength": 20,
+          "tokens": 414,
+          "tokens_with_seen_neighbor_context": 261,
+          "tokens_with_variant_absent_in_training": 0
+        },
+        {
+          "fold_improvements": {
+            "0": 0.016142499008779343,
+            "1": -0.014394973108124154,
+            "2": 0.024276466562470473,
+            "3": 0.012091772406676693,
+            "4": 0.01854966190898373
+          },
+          "neighbor_improvement_over_metadata_bits": 0.010329383998272209,
+          "strength": 100,
+          "tokens": 414,
+          "tokens_with_seen_neighbor_context": 261,
+          "tokens_with_variant_absent_in_training": 0
+        }
+      ],
+      "exact_substitution_frames": [
+        {
+          "frame": "? W003",
+          "variants": [
+            "W390",
+            "W405",
+            "W407"
+          ]
+        },
+        {
+          "frame": "? W004",
+          "variants": [
+            "W390",
+            "W405",
+            "W407"
+          ]
+        },
+        {
+          "frame": "? W004 W002 W820",
+          "variants": [
+            "W390",
+            "W407"
+          ]
+        },
+        {
+          "frame": "? W004 W002 W861",
+          "variants": [
+            "W390",
+            "W405",
+            "W407"
+          ]
+        },
+        {
+          "frame": "? W004 W104",
+          "variants": [
+            "W390",
+            "W405"
+          ]
+        },
+        {
+          "frame": "? W005",
+          "variants": [
+            "W390",
+            "W405"
+          ]
+        },
+        {
+          "frame": "? W016 W002 W861",
+          "variants": [
+            "W390",
+            "W405"
+          ]
+        },
+        {
+          "frame": "? W017",
+          "variants": [
+            "W390",
+            "W405"
+          ]
+        },
+        {
+          "frame": "W740 ? W590",
+          "variants": [
+            "W390",
+            "W405",
+            "W407"
+          ]
+        },
+        {
+          "frame": "W740 ? W590 W220 W003",
+          "variants": [
+            "W390",
+            "W405"
+          ]
+        },
+        {
+          "frame": "W740 ? W590 W235",
+          "variants": [
+            "W390",
+            "W405"
+          ]
+        }
+      ],
+      "meets_support_gate": true,
+      "members": [
+        "W390",
+        "W392",
+        "W405",
+        "W406",
+        "W407",
+        "W408"
+      ],
+      "observed_variant_counts": {
+        "W390": 186,
+        "W392": 4,
+        "W405": 92,
+        "W406": 8,
+        "W407": 121,
+        "W408": 3
+      },
+      "texts_with_distinct_members": [
+        {
+          "sequence": "W104 W892 W390 W406",
+          "variants": [
+            "W390",
+            "W406"
+          ]
+        }
+      ]
+    },
+    "P091": {
+      "allograph_status": "not established",
+      "evaluations": [
+        {
+          "fold_improvements": {
+            "0": -0.04564192402523143,
+            "1": -0.08359464947921079,
+            "2": -0.021432206286372484,
+            "3": -0.06662150218482261,
+            "4": -0.09738824732766492
+          },
+          "neighbor_improvement_over_metadata_bits": -0.06198193951150808,
+          "strength": 5,
+          "tokens": 40,
+          "tokens_with_seen_neighbor_context": 17,
+          "tokens_with_variant_absent_in_training": 0
+        },
+        {
+          "fold_improvements": {
+            "0": -0.01039676903306327,
+            "1": -0.01931118287639545,
+            "2": -0.007778254860339483,
+            "3": -0.02006310942808089,
+            "4": -0.022391979050301637
+          },
+          "neighbor_improvement_over_metadata_bits": -0.015581003681035835,
+          "strength": 20,
+          "tokens": 40,
+          "tokens_with_seen_neighbor_context": 17,
+          "tokens_with_variant_absent_in_training": 0
+        },
+        {
+          "fold_improvements": {
+            "0": -0.0019039715575113636,
+            "1": -0.003576022569391359,
+            "2": -0.0017691034936903366,
+            "3": -0.004284048124060643,
+            "4": -0.004250940747476273
+          },
+          "neighbor_improvement_over_metadata_bits": -0.0030500682225014205,
+          "strength": 100,
+          "tokens": 40,
+          "tokens_with_seen_neighbor_context": 17,
+          "tokens_with_variant_absent_in_training": 0
+        }
+      ],
+      "exact_substitution_frames": [
+        {
+          "frame": "W520 W400 ? W002 W817",
+          "variants": [
+            "W350",
+            "W354"
+          ]
+        }
+      ],
+      "meets_support_gate": true,
+      "members": [
+        "W350",
+        "W352",
+        "W353",
+        "W354"
+      ],
+      "observed_variant_counts": {
+        "W350": 27,
+        "W352": 5,
+        "W353": 2,
+        "W354": 6
+      },
+      "texts_with_distinct_members": []
+    },
+    "P096": {
+      "allograph_status": "not established",
+      "evaluations": [
+        {
+          "fold_improvements": {
+            "0": 0.07137493511761583,
+            "1": 0.0007118064035563504,
+            "2": 0.13151720291689695,
+            "3": -0.5182582196376141,
+            "4": -0.05055109564646651
+          },
+          "neighbor_improvement_over_metadata_bits": -0.013200496656021552,
+          "strength": 5,
+          "tokens": 18,
+          "tokens_with_seen_neighbor_context": 8,
+          "tokens_with_variant_absent_in_training": 0
+        },
+        {
+          "fold_improvements": {
+            "0": 0.02983271694636754,
+            "1": 0.012469913227700857,
+            "2": 0.05551565619437204,
+            "3": -0.16451968245902937,
+            "4": -0.004718252746803792
+          },
+          "neighbor_improvement_over_metadata_bits": 0.006494226422400501,
+          "strength": 20,
+          "tokens": 18,
+          "tokens_with_seen_neighbor_context": 8,
+          "tokens_with_variant_absent_in_training": 0
+        },
+        {
+          "fold_improvements": {
+            "0": 0.00727270340189697,
+            "1": 0.00415227207724661,
+            "2": 0.013610734367512145,
+            "3": -0.035731857770273434,
+            "4": 0.00028054778555491877
+          },
+          "neighbor_improvement_over_metadata_bits": 0.002647116051701907,
+          "strength": 100,
+          "tokens": 18,
+          "tokens_with_seen_neighbor_context": 8,
+          "tokens_with_variant_absent_in_training": 0
+        }
+      ],
+      "exact_substitution_frames": [],
+      "meets_support_gate": false,
+      "members": [
+        "W770",
+        "W772",
+        "W773"
+      ],
+      "observed_variant_counts": {
+        "W770": 2,
+        "W772": 8,
+        "W773": 8
+      },
+      "texts_with_distinct_members": []
+    },
+    "P098": {
+      "allograph_status": "not established",
+      "evaluations": [
+        {
+          "fold_improvements": {
+            "0": 0.0063055594210803066,
+            "1": -0.003640954042579275,
+            "2": 0.00345688417471395,
+            "3": 0.0014143951598704844,
+            "4": -0.009087141189099836
+          },
+          "neighbor_improvement_over_metadata_bits": 0.003373550804953584,
+          "strength": 5,
+          "tokens": 326,
+          "tokens_with_seen_neighbor_context": 243,
+          "tokens_with_variant_absent_in_training": 1
+        },
+        {
+          "fold_improvements": {
+            "0": 0.005936659529740713,
+            "1": 0.0003510657528492124,
+            "2": 0.0021965846974605946,
+            "3": 0.0013382272653836757,
+            "4": -0.002089555839979024
+          },
+          "neighbor_improvement_over_metadata_bits": 0.0039499454836354544,
+          "strength": 20,
+          "tokens": 326,
+          "tokens_with_seen_neighbor_context": 243,
+          "tokens_with_variant_absent_in_training": 1
+        },
+        {
+          "fold_improvements": {
+            "0": 0.002609067512456173,
+            "1": 0.001144659215067079,
+            "2": 0.0010898032751362444,
+            "3": 0.0010172762792650038,
+            "4": -0.00014373042032830895
+          },
+          "neighbor_improvement_over_metadata_bits": 0.001939152301119264,
+          "strength": 100,
+          "tokens": 326,
+          "tokens_with_seen_neighbor_context": 243,
+          "tokens_with_variant_absent_in_training": 1
+        }
+      ],
+      "exact_substitution_frames": [],
+      "meets_support_gate": false,
+      "members": [
+        "W400",
+        "W402"
+      ],
+      "observed_variant_counts": {
+        "W400": 325,
+        "W402": 1
+      },
+      "texts_with_distinct_members": []
+    },
+    "P108": {
+      "allograph_status": "not established",
+      "evaluations": [
+        {
+          "fold_improvements": {
+            "0": 0.04927746026974682,
+            "1": -0.242713413585121,
+            "2": 0.15947821400719642,
+            "3": 0.0,
+            "4": 0.051612719366856574
+          },
+          "neighbor_improvement_over_metadata_bits": 0.00845930437687432,
+          "strength": 5,
+          "tokens": 15,
+          "tokens_with_seen_neighbor_context": 5,
+          "tokens_with_variant_absent_in_training": 1
+        },
+        {
+          "fold_improvements": {
+            "0": 0.019333884993192996,
+            "1": -0.06875176187496745,
+            "2": 0.05268031667617756,
+            "3": 0.0,
+            "4": 0.015515242033062926
+          },
+          "neighbor_improvement_over_metadata_bits": 0.004927145734963956,
+          "strength": 20,
+          "tokens": 15,
+          "tokens_with_seen_neighbor_context": 5,
+          "tokens_with_variant_absent_in_training": 1
+        },
+        {
+          "fold_improvements": {
+            "0": 0.004543334802398791,
+            "1": -0.01428457609838546,
+            "2": 0.011526253381027418,
+            "3": 0.0,
+            "4": 0.0032813608612592415
+          },
+          "neighbor_improvement_over_metadata_bits": 0.0012532812427524945,
+          "strength": 100,
+          "tokens": 15,
+          "tokens_with_seen_neighbor_context": 5,
+          "tokens_with_variant_absent_in_training": 1
+        }
+      ],
+      "exact_substitution_frames": [],
+      "meets_support_gate": false,
+      "members": [
+        "W370",
+        "W371",
+        "W372"
+      ],
+      "observed_variant_counts": {
+        "W370": 6,
+        "W371": 8,
+        "W372": 1
+      },
+      "texts_with_distinct_members": []
+    },
+    "P112": {
+      "allograph_status": "not established",
+      "evaluations": [
+        {
+          "fold_improvements": {
+            "0": 0.010220374205089854,
+            "1": 0.006821367519905225,
+            "2": 0.0,
+            "3": 0.0,
+            "4": 0.031364170909335146
+          },
+          "neighbor_improvement_over_metadata_bits": 0.00782154236785901,
+          "strength": 5,
+          "tokens": 21,
+          "tokens_with_seen_neighbor_context": 5,
+          "tokens_with_variant_absent_in_training": 1
+        },
+        {
+          "fold_improvements": {
+            "0": 0.002947296806340798,
+            "1": 0.001958855445556453,
+            "2": 0.0,
+            "3": 0.0,
+            "4": 0.010053664663923031
+          },
+          "neighbor_improvement_over_metadata_bits": 0.0023024045652543412,
+          "strength": 20,
+          "tokens": 21,
+          "tokens_with_seen_neighbor_context": 5,
+          "tokens_with_variant_absent_in_training": 1
+        },
+        {
+          "fold_improvements": {
+            "0": 0.0006146248850100455,
+            "1": 0.0004079443312324192,
+            "2": 0.0,
+            "3": 0.0,
+            "4": 0.0021743712343369886
+          },
+          "neighbor_improvement_over_metadata_bits": 0.000483765617292607,
+          "strength": 100,
+          "tokens": 21,
+          "tokens_with_seen_neighbor_context": 5,
+          "tokens_with_variant_absent_in_training": 1
+        }
+      ],
+      "exact_substitution_frames": [],
+      "meets_support_gate": false,
+      "members": [
+        "W384",
+        "W385"
+      ],
+      "observed_variant_counts": {
+        "W384": 20,
+        "W385": 1
+      },
+      "texts_with_distinct_members": []
+    },
+    "P114": {
+      "allograph_status": "not established",
+      "evaluations": [
+        {
+          "fold_improvements": {
+            "0": -0.12456735490316577,
+            "1": 0.018803336801552217,
+            "2": -0.06526204940135248,
+            "3": -0.025929393119923615,
+            "4": -0.0717235269204859
+          },
+          "neighbor_improvement_over_metadata_bits": -0.058539717803989325,
+          "strength": 5,
+          "tokens": 39,
+          "tokens_with_seen_neighbor_context": 22,
+          "tokens_with_variant_absent_in_training": 0
+        },
+        {
+          "fold_improvements": {
+            "0": -0.03412058112614986,
+            "1": 0.006545982950913756,
+            "2": -0.016911997986941964,
+            "3": -0.0066905158592283276,
+            "4": -0.016181977831911776
+          },
+          "neighbor_improvement_over_metadata_bits": -0.015059442530076307,
+          "strength": 20,
+          "tokens": 39,
+          "tokens_with_seen_neighbor_context": 22,
+          "tokens_with_variant_absent_in_training": 0
+        },
+        {
+          "fold_improvements": {
+            "0": -0.007011035149021273,
+            "1": 0.0014470463840916686,
+            "2": -0.0034002450934547223,
+            "3": -0.0013442045936241855,
+            "4": -0.0030605925502579234
+          },
+          "neighbor_improvement_over_metadata_bits": -0.0030203078196143875,
+          "strength": 100,
+          "tokens": 39,
+          "tokens_with_seen_neighbor_context": 22,
+          "tokens_with_variant_absent_in_training": 0
+        }
+      ],
+      "exact_substitution_frames": [],
+      "meets_support_gate": true,
+      "members": [
+        "W070",
+        "W072"
+      ],
+      "observed_variant_counts": {
+        "W070": 27,
+        "W072": 12
+      },
+      "texts_with_distinct_members": []
+    },
+    "P117": {
+      "allograph_status": "not established",
+      "evaluations": [
+        {
+          "fold_improvements": {
+            "0": 0.0,
+            "1": 0.0,
+            "4": 0.0
+          },
+          "neighbor_improvement_over_metadata_bits": 0.0,
+          "strength": 5,
+          "tokens": 10,
+          "tokens_with_seen_neighbor_context": 0,
+          "tokens_with_variant_absent_in_training": 0
+        },
+        {
+          "fold_improvements": {
+            "0": 0.0,
+            "1": 0.0,
+            "4": 0.0
+          },
+          "neighbor_improvement_over_metadata_bits": 0.0,
+          "strength": 20,
+          "tokens": 10,
+          "tokens_with_seen_neighbor_context": 0,
+          "tokens_with_variant_absent_in_training": 0
+        },
+        {
+          "fold_improvements": {
+            "0": 0.0,
+            "1": 0.0,
+            "4": 0.0
+          },
+          "neighbor_improvement_over_metadata_bits": 0.0,
+          "strength": 100,
+          "tokens": 10,
+          "tokens_with_seen_neighbor_context": 0,
+          "tokens_with_variant_absent_in_training": 0
+        }
+      ],
+      "exact_substitution_frames": [],
+      "meets_support_gate": false,
+      "members": [
+        "W776",
+        "W783",
+        "W784",
+        "W785",
+        "W786"
+      ],
+      "observed_variant_counts": {
+        "W776": 8,
+        "W786": 2
+      },
+      "texts_with_distinct_members": []
+    },
+    "P118": {
+      "allograph_status": "not established",
+      "evaluations": [
+        {
+          "fold_improvements": {
+            "2": 0.0,
+            "4": 0.0
+          },
+          "neighbor_improvement_over_metadata_bits": 0.0,
+          "strength": 5,
+          "tokens": 2,
+          "tokens_with_seen_neighbor_context": 0,
+          "tokens_with_variant_absent_in_training": 2
+        },
+        {
+          "fold_improvements": {
+            "2": 0.0,
+            "4": 0.0
+          },
+          "neighbor_improvement_over_metadata_bits": 0.0,
+          "strength": 20,
+          "tokens": 2,
+          "tokens_with_seen_neighbor_context": 0,
+          "tokens_with_variant_absent_in_training": 2
+        },
+        {
+          "fold_improvements": {
+            "2": 0.0,
+            "4": 0.0
+          },
+          "neighbor_improvement_over_metadata_bits": 0.0,
+          "strength": 100,
+          "tokens": 2,
+          "tokens_with_seen_neighbor_context": 0,
+          "tokens_with_variant_absent_in_training": 2
+        }
+      ],
+      "exact_substitution_frames": [],
+      "meets_support_gate": false,
+      "members": [
+        "W777",
+        "W778",
+        "W782"
+      ],
+      "observed_variant_counts": {
+        "W777": 1,
+        "W778": 1
+      },
+      "texts_with_distinct_members": []
+    },
+    "P124": {
+      "allograph_status": "not established",
+      "evaluations": [
+        {
+          "fold_improvements": {
+            "0": -0.051229472130515846,
+            "1": -0.0175127558690266,
+            "2": -0.013493630256232824,
+            "3": 0.008344462971625543,
+            "4": 0.05036152823708263
+          },
+          "neighbor_improvement_over_metadata_bits": 0.0023186600682138653,
+          "strength": 5,
+          "tokens": 67,
+          "tokens_with_seen_neighbor_context": 46,
+          "tokens_with_variant_absent_in_training": 0
+        },
+        {
+          "fold_improvements": {
+            "0": -0.013951780228161953,
+            "1": 0.00047671909102676893,
+            "2": -0.004134948224786719,
+            "3": 0.012156726919303563,
+            "4": 0.024555982475607824
+          },
+          "neighbor_improvement_over_metadata_bits": 0.006321812077595327,
+          "strength": 20,
+          "tokens": 67,
+          "tokens_with_seen_neighbor_context": 46,
+          "tokens_with_variant_absent_in_training": 0
+        },
+        {
+          "fold_improvements": {
+            "0": -0.002506979296832946,
+            "1": 0.001088288151905584,
+            "2": -0.0005913913929770032,
+            "3": 0.004316507452259594,
+            "4": 0.006541988154348585
+          },
+          "neighbor_improvement_over_metadata_bits": 0.002312563251673304,
+          "strength": 100,
+          "tokens": 67,
+          "tokens_with_seen_neighbor_context": 46,
+          "tokens_with_variant_absent_in_training": 0
+        }
+      ],
+      "exact_substitution_frames": [
+        {
+          "frame": "W700 ?",
+          "variants": [
+            "W004",
+            "W014"
+          ]
+        }
+      ],
+      "meets_support_gate": true,
+      "members": [
+        "W004",
+        "W014"
+      ],
+      "observed_variant_counts": {
+        "W004": 62,
+        "W014": 5
+      },
+      "texts_with_distinct_members": []
+    },
+    "P125": {
+      "allograph_status": "not established",
+      "evaluations": [
+        {
+          "fold_improvements": {
+            "0": 0.0,
+            "1": -0.0038359678035049145,
+            "2": 0.004756848048948566,
+            "3": 0.0,
+            "4": 0.006849664078768594
+          },
+          "neighbor_improvement_over_metadata_bits": -0.0001648346604708865,
+          "strength": 5,
+          "tokens": 46,
+          "tokens_with_seen_neighbor_context": 18,
+          "tokens_with_variant_absent_in_training": 0
+        },
+        {
+          "fold_improvements": {
+            "0": 0.0,
+            "1": 0.0009755075690799456,
+            "2": 0.002405920890645216,
+            "3": 0.0,
+            "4": 0.001368262166649925
+          },
+          "neighbor_improvement_over_metadata_bits": 0.0012555713263534998,
+          "strength": 20,
+          "tokens": 46,
+          "tokens_with_seen_neighbor_context": 18,
+          "tokens_with_variant_absent_in_training": 0
+        },
+        {
+          "fold_improvements": {
+            "0": 0.0,
+            "1": 0.00039912850140219613,
+            "2": 0.000582297039766889,
+            "3": 0.0,
+            "4": 0.00022108015850856588
+          },
+          "neighbor_improvement_over_metadata_bits": 0.0003793688944541226,
+          "strength": 100,
+          "tokens": 46,
+          "tokens_with_seen_neighbor_context": 18,
+          "tokens_with_variant_absent_in_training": 0
+        }
+      ],
+      "exact_substitution_frames": [],
+      "meets_support_gate": true,
+      "members": [
+        "W005",
+        "W015"
+      ],
+      "observed_variant_counts": {
+        "W005": 39,
+        "W015": 7
+      },
+      "texts_with_distinct_members": []
+    },
+    "P126": {
+      "allograph_status": "not established",
+      "evaluations": [
+        {
+          "fold_improvements": {
+            "0": 0.012472890393858274,
+            "1": 0.01229754664915867,
+            "2": -0.028293873945644393,
+            "3": 0.003518796302930713,
+            "4": -0.043368561109642406
+          },
+          "neighbor_improvement_over_metadata_bits": -0.007673883438595978,
+          "strength": 5,
+          "tokens": 38,
+          "tokens_with_seen_neighbor_context": 21,
+          "tokens_with_variant_absent_in_training": 0
+        },
+        {
+          "fold_improvements": {
+            "0": -0.0031048182427739074,
+            "1": 0.0036849838361631207,
+            "2": -0.007389376936474546,
+            "3": 0.0010088783087892038,
+            "4": -0.015808448730912267
+          },
+          "neighbor_improvement_over_metadata_bits": -0.002732260888525728,
+          "strength": 20,
+          "tokens": 38,
+          "tokens_with_seen_neighbor_context": 21,
+          "tokens_with_variant_absent_in_training": 0
+        },
+        {
+          "fold_improvements": {
+            "0": -0.001091989010858399,
+            "1": 0.0007794483006112359,
+            "2": -0.0014848276976914647,
+            "3": 0.00020999928408234336,
+            "4": -0.0036022516521942625
+          },
+          "neighbor_improvement_over_metadata_bits": -0.0006090809617783566,
+          "strength": 100,
+          "tokens": 38,
+          "tokens_with_seen_neighbor_context": 21,
+          "tokens_with_variant_absent_in_training": 0
+        }
+      ],
+      "exact_substitution_frames": [],
+      "meets_support_gate": false,
+      "members": [
+        "W006",
+        "W016"
+      ],
+      "observed_variant_counts": {
+        "W006": 2,
+        "W016": 36
+      },
+      "texts_with_distinct_members": []
+    },
+    "P127": {
+      "allograph_status": "not established",
+      "evaluations": [
+        {
+          "fold_improvements": {
+            "0": 0.00828681430420716,
+            "1": 0.006853490834455407,
+            "2": -0.05951532187926608,
+            "3": 0.2711752610546043,
+            "4": 0.4303962791867974
+          },
+          "neighbor_improvement_over_metadata_bits": 0.08566518546858216,
+          "strength": 5,
+          "tokens": 63,
+          "tokens_with_seen_neighbor_context": 30,
+          "tokens_with_variant_absent_in_training": 0
+        },
+        {
+          "fold_improvements": {
+            "0": 0.0025042203678761815,
+            "1": 0.0025653472739825566,
+            "2": -0.019936513571159026,
+            "3": 0.1517599663619411,
+            "4": 0.2405583034460626
+          },
+          "neighbor_improvement_over_metadata_bits": 0.052719422258762604,
+          "strength": 20,
+          "tokens": 63,
+          "tokens_with_seen_neighbor_context": 30,
+          "tokens_with_variant_absent_in_training": 0
+        },
+        {
+          "fold_improvements": {
+            "0": 0.0005311119679376178,
+            "1": 0.0005860915889321014,
+            "2": -0.0043947180720612,
+            "3": 0.05004332493865065,
+            "4": 0.07645972880196177
+          },
+          "neighbor_improvement_over_metadata_bits": 0.017712224500137968,
+          "strength": 100,
+          "tokens": 63,
+          "tokens_with_seen_neighbor_context": 30,
+          "tokens_with_variant_absent_in_training": 0
+        }
+      ],
+      "exact_substitution_frames": [
+        {
+          "frame": "W740 ? W503",
+          "variants": [
+            "W007",
+            "W017"
+          ]
+        }
+      ],
+      "meets_support_gate": false,
+      "members": [
+        "W007",
+        "W017"
+      ],
+      "observed_variant_counts": {
+        "W007": 3,
+        "W017": 60
+      },
+      "texts_with_distinct_members": []
+    },
+    "P136": {
+      "allograph_status": "not established",
+      "evaluations": [
+        {
+          "fold_improvements": {
+            "0": 0.0,
+            "1": 0.0,
+            "3": 0.0,
+            "4": 0.0
+          },
+          "neighbor_improvement_over_metadata_bits": 0.0,
+          "strength": 5,
+          "tokens": 22,
+          "tokens_with_seen_neighbor_context": 0,
+          "tokens_with_variant_absent_in_training": 0
+        },
+        {
+          "fold_improvements": {
+            "0": 0.0,
+            "1": 0.0,
+            "3": 0.0,
+            "4": 0.0
+          },
+          "neighbor_improvement_over_metadata_bits": 0.0,
+          "strength": 20,
+          "tokens": 22,
+          "tokens_with_seen_neighbor_context": 0,
+          "tokens_with_variant_absent_in_training": 0
+        },
+        {
+          "fold_improvements": {
+            "0": 0.0,
+            "1": 0.0,
+            "3": 0.0,
+            "4": 0.0
+          },
+          "neighbor_improvement_over_metadata_bits": 0.0,
+          "strength": 100,
+          "tokens": 22,
+          "tokens_with_seen_neighbor_context": 0,
+          "tokens_with_variant_absent_in_training": 0
+        }
+      ],
+      "exact_substitution_frames": [],
+      "meets_support_gate": false,
+      "members": [
+        "W048",
+        "W049"
+      ],
+      "observed_variant_counts": {
+        "W048": 18,
+        "W049": 4
+      },
+      "texts_with_distinct_members": []
+    },
+    "P141": {
+      "allograph_status": "not established",
+      "evaluations": [
+        {
+          "fold_improvements": {
+            "0": -0.3594367222957573,
+            "1": -1.765534746362977,
+            "3": -0.5460896090768661,
+            "4": 0.0
+          },
+          "neighbor_improvement_over_metadata_bits": -0.44753059290665526,
+          "strength": 5,
+          "tokens": 14,
+          "tokens_with_seen_neighbor_context": 13,
+          "tokens_with_variant_absent_in_training": 9
+        },
+        {
+          "fold_improvements": {
+            "0": -0.09565754971199136,
+            "1": -0.6780719051126369,
+            "3": -0.09604918134530127,
+            "4": 0.0
+          },
+          "neighbor_improvement_over_metadata_bits": -0.13045386666356024,
+          "strength": 20,
+          "tokens": 14,
+          "tokens_with_seen_neighbor_context": 13,
+          "tokens_with_variant_absent_in_training": 9
+        },
+        {
+          "fold_improvements": {
+            "0": -0.0192427022342171,
+            "1": -0.16349873228287937,
+            "3": -0.0026708938489670153,
+            "4": 0.0
+          },
+          "neighbor_improvement_over_metadata_bits": -0.02698852505058818,
+          "strength": 100,
+          "tokens": 14,
+          "tokens_with_seen_neighbor_context": 13,
+          "tokens_with_variant_absent_in_training": 9
+        }
+      ],
+      "exact_substitution_frames": [
+        {
+          "frame": "W400 W740 W032 ?",
+          "variants": [
+            "W025",
+            "W027",
+            "W028"
+          ]
+        },
+        {
+          "frame": "W740 W032 ?",
+          "variants": [
+            "W025",
+            "W028"
+          ]
+        }
+      ],
+      "meets_support_gate": false,
+      "members": [
+        "W025",
+        "W026",
+        "W027",
+        "W028",
+        "W029"
+      ],
+      "observed_variant_counts": {
+        "W025": 3,
+        "W027": 5,
+        "W028": 4,
+        "W029": 2
+      },
+      "texts_with_distinct_members": []
+    },
+    "P148": {
+      "allograph_status": "not established",
+      "evaluations": [
+        {
+          "fold_improvements": {
+            "0": 0.0,
+            "3": 0.0,
+            "4": 0.0
+          },
+          "neighbor_improvement_over_metadata_bits": 0.0,
+          "strength": 5,
+          "tokens": 3,
+          "tokens_with_seen_neighbor_context": 0,
+          "tokens_with_variant_absent_in_training": 1
+        },
+        {
+          "fold_improvements": {
+            "0": 0.0,
+            "3": 0.0,
+            "4": 0.0
+          },
+          "neighbor_improvement_over_metadata_bits": 0.0,
+          "strength": 20,
+          "tokens": 3,
+          "tokens_with_seen_neighbor_context": 0,
+          "tokens_with_variant_absent_in_training": 1
+        },
+        {
+          "fold_improvements": {
+            "0": 0.0,
+            "3": 0.0,
+            "4": 0.0
+          },
+          "neighbor_improvement_over_metadata_bits": 0.0,
+          "strength": 100,
+          "tokens": 3,
+          "tokens_with_seen_neighbor_context": 0,
+          "tokens_with_variant_absent_in_training": 1
+        }
+      ],
+      "exact_substitution_frames": [],
+      "meets_support_gate": false,
+      "members": [
+        "W045",
+        "W046"
+      ],
+      "observed_variant_counts": {
+        "W045": 1,
+        "W046": 2
+      },
+      "texts_with_distinct_members": []
+    },
+    "P172": {
+      "allograph_status": "not established",
+      "evaluations": [
+        {
+          "fold_improvements": {
+            "0": -0.09008276645368538,
+            "1": 0.0065641187205960115,
+            "2": 0.02457151147324426,
+            "3": -0.17831664226458419,
+            "4": -0.11483575005007365
+          },
+          "neighbor_improvement_over_metadata_bits": -0.08846055996170377,
+          "strength": 5,
+          "tokens": 51,
+          "tokens_with_seen_neighbor_context": 23,
+          "tokens_with_variant_absent_in_training": 0
+        },
+        {
+          "fold_improvements": {
+            "0": -0.02662035449719797,
+            "1": -0.004943287621579632,
+            "2": 0.008001263848631604,
+            "3": -0.051190839101372856,
+            "4": -0.03384785233608726
+          },
+          "neighbor_improvement_over_metadata_bits": -0.02676786243965292,
+          "strength": 20,
+          "tokens": 51,
+          "tokens_with_seen_neighbor_context": 23,
+          "tokens_with_variant_absent_in_training": 0
+        },
+        {
+          "fold_improvements": {
+            "0": -0.005595058519123343,
+            "1": -0.001560202985421961,
+            "2": 0.0017408395142904237,
+            "3": -0.010696097822791802,
+            "4": -0.007109921704516853
+          },
+          "neighbor_improvement_over_metadata_bits": -0.005681898090795737,
+          "strength": 100,
+          "tokens": 51,
+          "tokens_with_seen_neighbor_context": 23,
+          "tokens_with_variant_absent_in_training": 0
+        }
+      ],
+      "exact_substitution_frames": [],
+      "meets_support_gate": true,
+      "members": [
+        "W904",
+        "W927"
+      ],
+      "observed_variant_counts": {
+        "W904": 42,
+        "W927": 9
+      },
+      "texts_with_distinct_members": []
+    },
+    "P173": {
+      "allograph_status": "not established",
+      "evaluations": [
+        {
+          "fold_improvements": {
+            "0": 0.0,
+            "3": 0.04054775552430575,
+            "4": 0.04556257738044371
+          },
+          "neighbor_improvement_over_metadata_bits": 0.03659965178339822,
+          "strength": 5,
+          "tokens": 9,
+          "tokens_with_seen_neighbor_context": 7,
+          "tokens_with_variant_absent_in_training": 0
+        },
+        {
+          "fold_improvements": {
+            "0": 0.0,
+            "3": 0.011721374483208424,
+            "4": 0.019452362666172632
+          },
+          "neighbor_improvement_over_metadata_bits": 0.011277998227625733,
+          "strength": 20,
+          "tokens": 9,
+          "tokens_with_seen_neighbor_context": 7,
+          "tokens_with_variant_absent_in_training": 0
+        },
+        {
+          "fold_improvements": {
+            "0": 0.0,
+            "3": 0.0024462831901311344,
+            "4": 0.0047956666016491095
+          },
+          "neighbor_improvement_over_metadata_bits": 0.0024355165480630056,
+          "strength": 100,
+          "tokens": 9,
+          "tokens_with_seen_neighbor_context": 7,
+          "tokens_with_variant_absent_in_training": 0
+        }
+      ],
+      "exact_substitution_frames": [],
+      "meets_support_gate": false,
+      "members": [
+        "W905",
+        "W928"
+      ],
+      "observed_variant_counts": {
+        "W905": 9
+      },
+      "texts_with_distinct_members": []
+    },
+    "P186": {
+      "allograph_status": "not established",
+      "evaluations": [
+        {
+          "fold_improvements": {
+            "0": -0.242713413585121,
+            "1": -0.242713413585121,
+            "2": -0.9544533419883721,
+            "3": -0.7474647708961859,
+            "4": -0.0970853654340483
+          },
+          "neighbor_improvement_over_metadata_bits": -0.6872960517247371,
+          "strength": 5,
+          "tokens": 36,
+          "tokens_with_seen_neighbor_context": 27,
+          "tokens_with_variant_absent_in_training": 6
+        },
+        {
+          "fold_improvements": {
+            "0": -0.06875176187496757,
+            "1": -0.06875176187496734,
+            "2": -0.3373861993923837,
+            "3": -0.2906632876174197,
+            "4": -0.027500704749987025
+          },
+          "neighbor_improvement_over_metadata_bits": -0.24892397259846102,
+          "strength": 20,
+          "tokens": 36,
+          "tokens_with_seen_neighbor_context": 27,
+          "tokens_with_variant_absent_in_training": 6
+        },
+        {
+          "fold_improvements": {
+            "0": -0.014284576098385404,
+            "1": -0.014284576098385404,
+            "2": -0.07700444737311778,
+            "3": -0.07001287351543534,
+            "4": -0.005713830439354162
+          },
+          "neighbor_improvement_over_metadata_bits": -0.057803573593675085,
+          "strength": 100,
+          "tokens": 36,
+          "tokens_with_seen_neighbor_context": 27,
+          "tokens_with_variant_absent_in_training": 6
+        }
+      ],
+      "exact_substitution_frames": [
+        {
+          "frame": "W154 W806 ? W001 W740 W877 W032",
+          "variants": [
+            "W468",
+            "W469"
+          ]
+        },
+        {
+          "frame": "W400 W154 W806 ?",
+          "variants": [
+            "W467",
+            "W468"
+          ]
+        },
+        {
+          "frame": "W400 W158 W806 ?",
+          "variants": [
+            "W467",
+            "W470",
+            "W472",
+            "W473",
+            "W475"
+          ]
+        }
+      ],
+      "meets_support_gate": true,
+      "members": [
+        "W465",
+        "W467",
+        "W468",
+        "W469",
+        "W470",
+        "W471",
+        "W472",
+        "W473",
+        "W474",
+        "W475"
+      ],
+      "observed_variant_counts": {
+        "W465": 6,
+        "W467": 8,
+        "W468": 8,
+        "W469": 1,
+        "W470": 3,
+        "W471": 1,
+        "W472": 5,
+        "W473": 1,
+        "W474": 1,
+        "W475": 2
+      },
+      "texts_with_distinct_members": []
+    },
+    "P188": {
+      "allograph_status": "not established",
+      "evaluations": [
+        {
+          "fold_improvements": {
+            "0": -0.006737847189249738,
+            "1": 0.14318826373944663,
+            "2": -0.20073325137069079,
+            "3": -0.3221362797582198,
+            "4": -0.14807070697036268
+          },
+          "neighbor_improvement_over_metadata_bits": -0.029016901044462078,
+          "strength": 5,
+          "tokens": 65,
+          "tokens_with_seen_neighbor_context": 43,
+          "tokens_with_variant_absent_in_training": 0
+        },
+        {
+          "fold_improvements": {
+            "0": -0.006387757368652931,
+            "1": 0.10223813649582593,
+            "2": -0.14312709257005243,
+            "3": -0.18941922917989135,
+            "4": -0.10181860619331563
+          },
+          "neighbor_improvement_over_metadata_bits": -0.01845169044763828,
+          "strength": 20,
+          "tokens": 65,
+          "tokens_with_seen_neighbor_context": 43,
+          "tokens_with_variant_absent_in_training": 0
+        },
+        {
+          "fold_improvements": {
+            "0": -0.00240663712613983,
+            "1": 0.03952815905119794,
+            "2": -0.05558180442666134,
+            "3": -0.0699352456323141,
+            "4": -0.04026247726270673
+          },
+          "neighbor_improvement_over_metadata_bits": -0.007034179982610858,
+          "strength": 100,
+          "tokens": 65,
+          "tokens_with_seen_neighbor_context": 43,
+          "tokens_with_variant_absent_in_training": 0
+        }
+      ],
+      "exact_substitution_frames": [
+        {
+          "frame": "W740 W690 ? W255",
+          "variants": [
+            "W435",
+            "W436"
+          ]
+        }
+      ],
+      "meets_support_gate": true,
+      "members": [
+        "W435",
+        "W436"
+      ],
+      "observed_variant_counts": {
+        "W435": 50,
+        "W436": 15
+      },
+      "texts_with_distinct_members": []
+    },
+    "P194": {
+      "allograph_status": "not established",
+      "evaluations": [
+        {
+          "fold_improvements": {
+            "0": -0.028879784416417666,
+            "1": 0.0067657220960599986,
+            "2": -0.14044341751382952,
+            "3": 0.005538356720528827,
+            "4": 0.0037817885563368073
+          },
+          "neighbor_improvement_over_metadata_bits": -0.03263237218790724,
+          "strength": 5,
+          "tokens": 154,
+          "tokens_with_seen_neighbor_context": 107,
+          "tokens_with_variant_absent_in_training": 1
+        },
+        {
+          "fold_improvements": {
+            "0": -0.013302978268177841,
+            "1": 0.0038419055802310317,
+            "2": -0.06767710626457613,
+            "3": 0.002484079623366671,
+            "4": 0.0029103465475202287
+          },
+          "neighbor_improvement_over_metadata_bits": -0.015165080192004871,
+          "strength": 20,
+          "tokens": 154,
+          "tokens_with_seen_neighbor_context": 107,
+          "tokens_with_variant_absent_in_training": 1
+        },
+        {
+          "fold_improvements": {
+            "0": -0.0034880373925091335,
+            "1": 0.001078820701120165,
+            "2": -0.019975912381371558,
+            "3": 0.0007733423438574635,
+            "4": 0.0009214559173831438
+          },
+          "neighbor_improvement_over_metadata_bits": -0.004238748713872213,
+          "strength": 100,
+          "tokens": 154,
+          "tokens_with_seen_neighbor_context": 107,
+          "tokens_with_variant_absent_in_training": 1
+        }
+      ],
+      "exact_substitution_frames": [
+        {
+          "frame": "W740 ?",
+          "variants": [
+            "W176",
+            "W177"
+          ]
+        }
+      ],
+      "meets_support_gate": false,
+      "members": [
+        "W176",
+        "W177",
+        "W178",
+        "W179"
+      ],
+      "observed_variant_counts": {
+        "W176": 151,
+        "W177": 2,
+        "W179": 1
+      },
+      "texts_with_distinct_members": []
+    },
+    "P200": {
+      "allograph_status": "not established",
+      "evaluations": [
+        {
+          "fold_improvements": {
+            "0": 0.07800251200127306,
+            "1": 0.0,
+            "3": 0.011315777307779237
+          },
+          "neighbor_improvement_over_metadata_bits": 0.018658307320768463,
+          "strength": 5,
+          "tokens": 6,
+          "tokens_with_seen_neighbor_context": 2,
+          "tokens_with_variant_absent_in_training": 1
+        },
+        {
+          "fold_improvements": {
+            "0": 0.022720076500083453,
+            "1": 0.0,
+            "3": 0.0032603402641951107
+          },
+          "neighbor_improvement_over_metadata_bits": 0.005416849548778131,
+          "strength": 20,
+          "tokens": 6,
+          "tokens_with_seen_neighbor_context": 2,
+          "tokens_with_variant_absent_in_training": 1
+        },
+        {
+          "fold_improvements": {
+            "0": 0.004753529970634551,
+            "1": 0.0,
+            "3": 0.0006797150911995268
+          },
+          "neighbor_improvement_over_metadata_bits": 0.001132112540705522,
+          "strength": 100,
+          "tokens": 6,
+          "tokens_with_seen_neighbor_context": 2,
+          "tokens_with_variant_absent_in_training": 1
+        }
+      ],
+      "exact_substitution_frames": [],
+      "meets_support_gate": false,
+      "members": [
+        "W604",
+        "W605"
+      ],
+      "observed_variant_counts": {
+        "W604": 1,
+        "W605": 5
+      },
+      "texts_with_distinct_members": []
+    },
+    "P202": {
+      "allograph_status": "not established",
+      "evaluations": [
+        {
+          "fold_improvements": {
+            "0": -0.012554047437543106,
+            "1": -0.04502236711022239,
+            "2": -0.019797720244626327,
+            "3": -0.011349550404739053,
+            "4": -0.0024696096051616207
+          },
+          "neighbor_improvement_over_metadata_bits": -0.0169318681203239,
+          "strength": 5,
+          "tokens": 91,
+          "tokens_with_seen_neighbor_context": 19,
+          "tokens_with_variant_absent_in_training": 1
+        },
+        {
+          "fold_improvements": {
+            "0": -0.0037314514834388213,
+            "1": -0.01337557347666908,
+            "2": -0.005349801920391257,
+            "3": -0.0020055510177711296,
+            "4": -0.0005228776854031189
+          },
+          "neighbor_improvement_over_metadata_bits": -0.0046846280865469,
+          "strength": 20,
+          "tokens": 91,
+          "tokens_with_seen_neighbor_context": 19,
+          "tokens_with_variant_absent_in_training": 1
+        },
+        {
+          "fold_improvements": {
+            "0": -0.0007946348016320862,
+            "1": -0.002827702775981749,
+            "2": -0.0010214222418008032,
+            "3": -0.0002994072320185535,
+            "4": -6.840859840777986e-05
+          },
+          "neighbor_improvement_over_metadata_bits": -0.0009487890506386406,
+          "strength": 100,
+          "tokens": 91,
+          "tokens_with_seen_neighbor_context": 19,
+          "tokens_with_variant_absent_in_training": 1
+        }
+      ],
+      "exact_substitution_frames": [
+        {
+          "frame": "? W900",
+          "variants": [
+            "W365",
+            "W368"
+          ]
+        },
+        {
+          "frame": "W690 ? W817",
+          "variants": [
+            "W365",
+            "W368"
+          ]
+        }
+      ],
+      "meets_support_gate": true,
+      "members": [
+        "W365",
+        "W367",
+        "W368"
+      ],
+      "observed_variant_counts": {
+        "W365": 7,
+        "W367": 1,
+        "W368": 83
+      },
+      "texts_with_distinct_members": []
+    },
+    "P204": {
+      "allograph_status": "not established",
+      "evaluations": [
+        {
+          "fold_improvements": {
+            "0": 0.012661434546120105,
+            "1": -0.04757649584435049,
+            "2": -0.02203397352880731,
+            "3": -0.02422208930626604,
+            "4": 0.031948154503512904
+          },
+          "neighbor_improvement_over_metadata_bits": -0.001698141450170174,
+          "strength": 5,
+          "tokens": 83,
+          "tokens_with_seen_neighbor_context": 39,
+          "tokens_with_variant_absent_in_training": 0
+        },
+        {
+          "fold_improvements": {
+            "0": 0.0038608736016542346,
+            "1": -0.01118328423066198,
+            "2": -0.005334429482054586,
+            "3": -0.007147135338614945,
+            "4": 0.013635698818306341
+          },
+          "neighbor_improvement_over_metadata_bits": 0.0014992732869879098,
+          "strength": 20,
+          "tokens": 83,
+          "tokens_with_seen_neighbor_context": 39,
+          "tokens_with_variant_absent_in_training": 0
+        },
+        {
+          "fold_improvements": {
+            "0": 0.0008130695506825214,
+            "1": -0.0013345580821482615,
+            "2": -0.0010412639499217762,
+            "3": -0.001500611910170428,
+            "4": 0.003386193778245663
+          },
+          "neighbor_improvement_over_metadata_bits": 0.0006951528318771235,
+          "strength": 100,
+          "tokens": 83,
+          "tokens_with_seen_neighbor_context": 39,
+          "tokens_with_variant_absent_in_training": 0
+        }
+      ],
+      "exact_substitution_frames": [
+        {
+          "frame": "W407 ? W845 W240 W798",
+          "variants": [
+            "W061",
+            "W063"
+          ]
+        },
+        {
+          "frame": "W740 W142 ? W002 W817",
+          "variants": [
+            "W061",
+            "W062"
+          ]
+        }
+      ],
+      "meets_support_gate": true,
+      "members": [
+        "W061",
+        "W062",
+        "W063"
+      ],
+      "observed_variant_counts": {
+        "W061": 73,
+        "W062": 2,
+        "W063": 8
+      },
+      "texts_with_distinct_members": []
+    },
+    "P205": {
+      "allograph_status": "not established",
+      "evaluations": [
+        {
+          "fold_improvements": {
+            "0": -0.03757634369054192,
+            "1": -0.20564801002904623,
+            "2": 0.021924898234899626,
+            "3": -0.035137270353550284,
+            "4": -0.04383906763896558
+          },
+          "neighbor_improvement_over_metadata_bits": -0.061170750746523166,
+          "strength": 5,
+          "tokens": 31,
+          "tokens_with_seen_neighbor_context": 8,
+          "tokens_with_variant_absent_in_training": 6
+        },
+        {
+          "fold_improvements": {
+            "0": -0.01005561827019966,
+            "1": -0.057566062565211386,
+            "2": 0.007816433048109639,
+            "3": -0.009203967093240197,
+            "4": -0.011731554648566345
+          },
+          "neighbor_improvement_over_metadata_bits": -0.016500665664070876,
+          "strength": 20,
+          "tokens": 31,
+          "tokens_with_seen_neighbor_context": 8,
+          "tokens_with_variant_absent_in_training": 6
+        },
+        {
+          "fold_improvements": {
+            "0": -0.002050756139581405,
+            "1": -0.01191559956176865,
+            "2": 0.0017638710549499504,
+            "3": -0.0018602761892801173,
+            "4": -0.002392548829511639
+          },
+          "neighbor_improvement_over_metadata_bits": -0.0033679600443536333,
+          "strength": 100,
+          "tokens": 31,
+          "tokens_with_seen_neighbor_context": 8,
+          "tokens_with_variant_absent_in_training": 6
+        }
+      ],
+      "exact_substitution_frames": [],
+      "meets_support_gate": false,
+      "members": [
+        "W289",
+        "W290",
+        "W291",
+        "W292",
+        "W293",
+        "W294",
+        "W295",
+        "W296",
+        "W297",
+        "W299",
+        "W300",
+        "W301",
+        "W302",
+        "W303",
+        "W304",
+        "W305",
+        "W306"
+      ],
+      "observed_variant_counts": {
+        "W291": 1,
+        "W292": 3,
+        "W293": 1,
+        "W294": 1,
+        "W295": 1,
+        "W297": 12,
+        "W299": 2,
+        "W300": 2,
+        "W301": 2,
+        "W302": 2,
+        "W304": 2,
+        "W305": 1,
+        "W306": 1
+      },
+      "texts_with_distinct_members": []
+    },
+    "P206": {
+      "allograph_status": "not established",
+      "evaluations": [
+        {
+          "fold_improvements": {
+            "2": 0.0,
+            "3": 0.0
+          },
+          "neighbor_improvement_over_metadata_bits": 0.0,
+          "strength": 5,
+          "tokens": 3,
+          "tokens_with_seen_neighbor_context": 0,
+          "tokens_with_variant_absent_in_training": 3
+        },
+        {
+          "fold_improvements": {
+            "2": 0.0,
+            "3": 0.0
+          },
+          "neighbor_improvement_over_metadata_bits": 0.0,
+          "strength": 20,
+          "tokens": 3,
+          "tokens_with_seen_neighbor_context": 0,
+          "tokens_with_variant_absent_in_training": 3
+        },
+        {
+          "fold_improvements": {
+            "2": 0.0,
+            "3": 0.0
+          },
+          "neighbor_improvement_over_metadata_bits": 0.0,
+          "strength": 100,
+          "tokens": 3,
+          "tokens_with_seen_neighbor_context": 0,
+          "tokens_with_variant_absent_in_training": 3
+        }
+      ],
+      "exact_substitution_frames": [],
+      "meets_support_gate": false,
+      "members": [
+        "W307",
+        "W308",
+        "W309"
+      ],
+      "observed_variant_counts": {
+        "W307": 1,
+        "W308": 1,
+        "W309": 1
+      },
+      "texts_with_distinct_members": []
+    },
+    "P228": {
+      "allograph_status": "not established",
+      "evaluations": [
+        {
+          "fold_improvements": {
+            "0": 0.6880559936852597,
+            "1": 0.0,
+            "2": 0.6880559936852597,
+            "3": 0.0
+          },
+          "neighbor_improvement_over_metadata_bits": 0.19658742676721705,
+          "strength": 5,
+          "tokens": 7,
+          "tokens_with_seen_neighbor_context": 2,
+          "tokens_with_variant_absent_in_training": 0
+        },
+        {
+          "fold_improvements": {
+            "0": 0.23217344212903357,
+            "1": 0.0,
+            "2": 0.23217344212903357,
+            "3": 0.0
+          },
+          "neighbor_improvement_over_metadata_bits": 0.06633526917972388,
+          "strength": 20,
+          "tokens": 7,
+          "tokens_with_seen_neighbor_context": 2,
+          "tokens_with_variant_absent_in_training": 0
+        },
+        {
+          "fold_improvements": {
+            "0": 0.05144676541867632,
+            "1": 5.551115123125783e-17,
+            "2": 0.05144676541867632,
+            "3": 0.0
+          },
+          "neighbor_improvement_over_metadata_bits": 0.014699075833907551,
+          "strength": 100,
+          "tokens": 7,
+          "tokens_with_seen_neighbor_context": 2,
+          "tokens_with_variant_absent_in_training": 0
+        }
+      ],
+      "exact_substitution_frames": [],
+      "meets_support_gate": false,
+      "members": [
+        "W531",
+        "W533"
+      ],
+      "observed_variant_counts": {
+        "W531": 5,
+        "W533": 2
+      },
+      "texts_with_distinct_members": []
+    },
+    "P230": {
+      "allograph_status": "not established",
+      "evaluations": [
+        {
+          "fold_improvements": {
+            "0": 0.16047360756900475,
+            "1": 0.12188576499685169,
+            "2": 0.0819957856586872,
+            "3": 0.02351347445144765,
+            "4": 0.121155342625092
+          },
+          "neighbor_improvement_over_metadata_bits": 0.11171231466898311,
+          "strength": 5,
+          "tokens": 95,
+          "tokens_with_seen_neighbor_context": 62,
+          "tokens_with_variant_absent_in_training": 0
+        },
+        {
+          "fold_improvements": {
+            "0": 0.08116202422753276,
+            "1": 0.08000422462109354,
+            "2": 0.06579389516439971,
+            "3": 0.02127871280868861,
+            "4": 0.07172852327483115
+          },
+          "neighbor_improvement_over_metadata_bits": 0.0673874620735908,
+          "strength": 20,
+          "tokens": 95,
+          "tokens_with_seen_neighbor_context": 62,
+          "tokens_with_variant_absent_in_training": 0
+        },
+        {
+          "fold_improvements": {
+            "0": 0.0228830726764121,
+            "1": 0.0250805036121935,
+            "2": 0.02272386545009021,
+            "3": 0.0071891537496564595,
+            "4": 0.022456292358573826
+          },
+          "neighbor_improvement_over_metadata_bits": 0.02076907308641477,
+          "strength": 100,
+          "tokens": 95,
+          "tokens_with_seen_neighbor_context": 62,
+          "tokens_with_variant_absent_in_training": 0
+        }
+      ],
+      "exact_substitution_frames": [
+        {
+          "frame": "W527 ?",
+          "variants": [
+            "W550",
+            "W555"
+          ]
+        },
+        {
+          "frame": "W527 ? W235",
+          "variants": [
+            "W550",
+            "W555"
+          ]
+        }
+      ],
+      "meets_support_gate": true,
+      "members": [
+        "W550",
+        "W555"
+      ],
+      "observed_variant_counts": {
+        "W550": 77,
+        "W555": 18
+      },
+      "texts_with_distinct_members": [
+        {
+          "sequence": "W526 W555 W060 W550",
+          "variants": [
+            "W550",
+            "W555"
+          ]
+        }
+      ]
+    },
+    "P232": {
+      "allograph_status": "not established",
+      "evaluations": [
+        {
+          "fold_improvements": {
+            "0": 0.0,
+            "1": 0.0,
+            "2": 0.0
+          },
+          "neighbor_improvement_over_metadata_bits": 0.0,
+          "strength": 5,
+          "tokens": 4,
+          "tokens_with_seen_neighbor_context": 0,
+          "tokens_with_variant_absent_in_training": 0
+        },
+        {
+          "fold_improvements": {
+            "0": 0.0,
+            "1": 0.0,
+            "2": 0.0
+          },
+          "neighbor_improvement_over_metadata_bits": 0.0,
+          "strength": 20,
+          "tokens": 4,
+          "tokens_with_seen_neighbor_context": 0,
+          "tokens_with_variant_absent_in_training": 0
+        },
+        {
+          "fold_improvements": {
+            "0": 0.0,
+            "1": 0.0,
+            "2": 0.0
+          },
+          "neighbor_improvement_over_metadata_bits": 0.0,
+          "strength": 100,
+          "tokens": 4,
+          "tokens_with_seen_neighbor_context": 0,
+          "tokens_with_variant_absent_in_training": 0
+        }
+      ],
+      "exact_substitution_frames": [],
+      "meets_support_gate": false,
+      "members": [
+        "W560",
+        "W561"
+      ],
+      "observed_variant_counts": {
+        "W560": 2,
+        "W561": 2
+      },
+      "texts_with_distinct_members": []
+    },
+    "P254": {
+      "allograph_status": "not established",
+      "evaluations": [
+        {
+          "fold_improvements": {
+            "1": 0.0,
+            "4": 0.0
+          },
+          "neighbor_improvement_over_metadata_bits": 0.0,
+          "strength": 5,
+          "tokens": 3,
+          "tokens_with_seen_neighbor_context": 0,
+          "tokens_with_variant_absent_in_training": 1
+        },
+        {
+          "fold_improvements": {
+            "1": 0.0,
+            "4": 0.0
+          },
+          "neighbor_improvement_over_metadata_bits": 0.0,
+          "strength": 20,
+          "tokens": 3,
+          "tokens_with_seen_neighbor_context": 0,
+          "tokens_with_variant_absent_in_training": 1
+        },
+        {
+          "fold_improvements": {
+            "1": 0.0,
+            "4": 0.0
+          },
+          "neighbor_improvement_over_metadata_bits": 0.0,
+          "strength": 100,
+          "tokens": 3,
+          "tokens_with_seen_neighbor_context": 0,
+          "tokens_with_variant_absent_in_training": 1
+        }
+      ],
+      "exact_substitution_frames": [],
+      "meets_support_gate": false,
+      "members": [
+        "W683",
+        "W684"
+      ],
+      "observed_variant_counts": {
+        "W683": 2,
+        "W684": 1
+      },
+      "texts_with_distinct_members": []
+    },
+    "P262": {
+      "allograph_status": "not established",
+      "evaluations": [
+        {
+          "fold_improvements": {
+            "1": 0.0,
+            "2": 0.0,
+            "3": 0.0,
+            "4": 0.0
+          },
+          "neighbor_improvement_over_metadata_bits": 0.0,
+          "strength": 5,
+          "tokens": 5,
+          "tokens_with_seen_neighbor_context": 0,
+          "tokens_with_variant_absent_in_training": 0
+        },
+        {
+          "fold_improvements": {
+            "1": 0.0,
+            "2": 0.0,
+            "3": 0.0,
+            "4": 0.0
+          },
+          "neighbor_improvement_over_metadata_bits": 0.0,
+          "strength": 20,
+          "tokens": 5,
+          "tokens_with_seen_neighbor_context": 0,
+          "tokens_with_variant_absent_in_training": 0
+        },
+        {
+          "fold_improvements": {
+            "1": 0.0,
+            "2": 0.0,
+            "3": 0.0,
+            "4": 0.0
+          },
+          "neighbor_improvement_over_metadata_bits": 0.0,
+          "strength": 100,
+          "tokens": 5,
+          "tokens_with_seen_neighbor_context": 0,
+          "tokens_with_variant_absent_in_training": 0
+        }
+      ],
+      "exact_substitution_frames": [],
+      "meets_support_gate": false,
+      "members": [
+        "W600",
+        "W625"
+      ],
+      "observed_variant_counts": {
+        "W600": 2,
+        "W625": 3
+      },
+      "texts_with_distinct_members": []
+    },
+    "P265": {
+      "allograph_status": "not established",
+      "evaluations": [
+        {
+          "fold_improvements": {
+            "0": 0.008985628484031028,
+            "1": 0.0,
+            "2": 0.0075932019073380284,
+            "3": 0.011273011469838968,
+            "4": 0.0061816671292789374
+          },
+          "neighbor_improvement_over_metadata_bits": 0.007910683277430924,
+          "strength": 5,
+          "tokens": 15,
+          "tokens_with_seen_neighbor_context": 11,
+          "tokens_with_variant_absent_in_training": 0
+        },
+        {
+          "fold_improvements": {
+            "0": 0.0030296872300459117,
+            "1": 0.0,
+            "2": 0.002424699830697905,
+            "3": 0.004680136975210555,
+            "4": 0.0020722506842484716
+          },
+          "neighbor_improvement_over_metadata_bits": 0.002821816631616728,
+          "strength": 20,
+          "tokens": 15,
+          "tokens_with_seen_neighbor_context": 11,
+          "tokens_with_variant_absent_in_training": 0
+        },
+        {
+          "fold_improvements": {
+            "0": 0.0006690197457652508,
+            "1": 0.0,
+            "2": 0.0005236642846636018,
+            "3": 0.0011043967820458106,
+            "4": 0.000457865011202185
+          },
+          "neighbor_improvement_over_metadata_bits": 0.0006358051792733087,
+          "strength": 100,
+          "tokens": 15,
+          "tokens_with_seen_neighbor_context": 11,
+          "tokens_with_variant_absent_in_training": 0
+        }
+      ],
+      "exact_substitution_frames": [],
+      "meets_support_gate": false,
+      "members": [
+        "W621",
+        "W622"
+      ],
+      "observed_variant_counts": {
+        "W621": 15
+      },
+      "texts_with_distinct_members": []
+    },
+    "P270": {
+      "allograph_status": "not established",
+      "evaluations": [
+        {
+          "fold_improvements": {
+            "0": 1.0934594325531866,
+            "1": -0.22392046047401473,
+            "2": 0.20997898075479407,
+            "3": 0.19110134879700508,
+            "4": -0.002291766785951729
+          },
+          "neighbor_improvement_over_metadata_bits": 0.4306650999803881,
+          "strength": 5,
+          "tokens": 56,
+          "tokens_with_seen_neighbor_context": 40,
+          "tokens_with_variant_absent_in_training": 2
+        },
+        {
+          "fold_improvements": {
+            "0": 0.5743846736595906,
+            "1": -0.08434723659655456,
+            "2": 0.10143911606764752,
+            "3": 0.10509042521864369,
+            "4": 0.04182952416292918
+          },
+          "neighbor_improvement_over_metadata_bits": 0.23944459614283967,
+          "strength": 20,
+          "tokens": 56,
+          "tokens_with_seen_neighbor_context": 40,
+          "tokens_with_variant_absent_in_training": 2
+        },
+        {
+          "fold_improvements": {
+            "0": 0.16960969393751726,
+            "1": -0.019960380269272625,
+            "2": 0.02830909806355425,
+            "3": 0.03818463250978751,
+            "4": 0.016808921872337703
+          },
+          "neighbor_improvement_over_metadata_bits": 0.07317591715559343,
+          "strength": 100,
+          "tokens": 56,
+          "tokens_with_seen_neighbor_context": 40,
+          "tokens_with_variant_absent_in_training": 2
+        }
+      ],
+      "exact_substitution_frames": [
+        {
+          "frame": "W400 W740 ? W240",
+          "variants": [
+            "W636",
+            "W637"
+          ]
+        }
+      ],
+      "meets_support_gate": true,
+      "members": [
+        "W630",
+        "W631",
+        "W632",
+        "W633",
+        "W634",
+        "W635",
+        "W636",
+        "W637",
+        "W638",
+        "W639"
+      ],
+      "observed_variant_counts": {
+        "W630": 22,
+        "W632": 14,
+        "W634": 3,
+        "W635": 1,
+        "W636": 12,
+        "W637": 3,
+        "W639": 1
+      },
+      "texts_with_distinct_members": []
+    },
+    "P275": {
+      "allograph_status": "not established",
+      "evaluations": [
+        {
+          "fold_improvements": {
+            "0": 0.0,
+            "1": -0.08652125247687531,
+            "2": 0.0,
+            "4": 0.0
+          },
+          "neighbor_improvement_over_metadata_bits": -0.014420208746145885,
+          "strength": 5,
+          "tokens": 12,
+          "tokens_with_seen_neighbor_context": 4,
+          "tokens_with_variant_absent_in_training": 1
+        },
+        {
+          "fold_improvements": {
+            "0": 0.0,
+            "1": -0.015294159916711847,
+            "2": 0.0,
+            "4": 0.0
+          },
+          "neighbor_improvement_over_metadata_bits": -0.002549026652785308,
+          "strength": 20,
+          "tokens": 12,
+          "tokens_with_seen_neighbor_context": 4,
+          "tokens_with_variant_absent_in_training": 1
+        },
+        {
+          "fold_improvements": {
+            "0": 0.0,
+            "1": -0.002414715563750114,
+            "2": 0.0,
+            "4": 0.0
+          },
+          "neighbor_improvement_over_metadata_bits": -0.0004024525939583523,
+          "strength": 100,
+          "tokens": 12,
+          "tokens_with_seen_neighbor_context": 4,
+          "tokens_with_variant_absent_in_training": 1
+        }
+      ],
+      "exact_substitution_frames": [],
+      "meets_support_gate": false,
+      "members": [
+        "W510",
+        "W511",
+        "W512",
+        "W513"
+      ],
+      "observed_variant_counts": {
+        "W510": 7,
+        "W511": 4,
+        "W513": 1
+      },
+      "texts_with_distinct_members": []
+    },
+    "P290": {
+      "allograph_status": "not established",
+      "evaluations": [
+        {
+          "fold_improvements": {
+            "0": 0.015600502400254613,
+            "3": 0.5849625007211561
+          },
+          "neighbor_improvement_over_metadata_bits": 0.11049416878707152,
+          "strength": 5,
+          "tokens": 6,
+          "tokens_with_seen_neighbor_context": 2,
+          "tokens_with_variant_absent_in_training": 4
+        },
+        {
+          "fold_improvements": {
+            "0": 0.0045440153000166905,
+            "3": 0.19264507794239583
+          },
+          "neighbor_improvement_over_metadata_bits": 0.03589419240707988,
+          "strength": 20,
+          "tokens": 6,
+          "tokens_with_seen_neighbor_context": 2,
+          "tokens_with_variant_absent_in_training": 4
+        },
+        {
+          "fold_improvements": {
+            "0": 0.0009507059941269103,
+            "3": 0.04222823538929754
+          },
+          "neighbor_improvement_over_metadata_bits": 0.007830294226655349,
+          "strength": 100,
+          "tokens": 6,
+          "tokens_with_seen_neighbor_context": 2,
+          "tokens_with_variant_absent_in_training": 4
+        }
+      ],
+      "exact_substitution_frames": [],
+      "meets_support_gate": false,
+      "members": [
+        "W578",
+        "W579"
+      ],
+      "observed_variant_counts": {
+        "W578": 4,
+        "W579": 2
+      },
+      "texts_with_distinct_members": []
+    },
+    "P292": {
+      "allograph_status": "not established",
+      "evaluations": [
+        {
+          "fold_improvements": {
+            "3": 0.0,
+            "4": 0.0
+          },
+          "neighbor_improvement_over_metadata_bits": 0.0,
+          "strength": 5,
+          "tokens": 2,
+          "tokens_with_seen_neighbor_context": 0,
+          "tokens_with_variant_absent_in_training": 2
+        },
+        {
+          "fold_improvements": {
+            "3": 0.0,
+            "4": 0.0
+          },
+          "neighbor_improvement_over_metadata_bits": 0.0,
+          "strength": 20,
+          "tokens": 2,
+          "tokens_with_seen_neighbor_context": 0,
+          "tokens_with_variant_absent_in_training": 2
+        },
+        {
+          "fold_improvements": {
+            "3": 0.0,
+            "4": 0.0
+          },
+          "neighbor_improvement_over_metadata_bits": 0.0,
+          "strength": 100,
+          "tokens": 2,
+          "tokens_with_seen_neighbor_context": 0,
+          "tokens_with_variant_absent_in_training": 2
+        }
+      ],
+      "exact_substitution_frames": [],
+      "meets_support_gate": false,
+      "members": [
+        "W570",
+        "W571"
+      ],
+      "observed_variant_counts": {
+        "W570": 1,
+        "W571": 1
+      },
+      "texts_with_distinct_members": []
+    },
+    "P293": {
+      "allograph_status": "not established",
+      "evaluations": [
+        {
+          "fold_improvements": {
+            "0": 0.0,
+            "1": 0.0,
+            "2": 0.0,
+            "3": 0.0,
+            "4": 0.0
+          },
+          "neighbor_improvement_over_metadata_bits": 0.0,
+          "strength": 5,
+          "tokens": 15,
+          "tokens_with_seen_neighbor_context": 0,
+          "tokens_with_variant_absent_in_training": 0
+        },
+        {
+          "fold_improvements": {
+            "0": 0.0,
+            "1": 0.0,
+            "2": 0.0,
+            "3": 0.0,
+            "4": 0.0
+          },
+          "neighbor_improvement_over_metadata_bits": 0.0,
+          "strength": 20,
+          "tokens": 15,
+          "tokens_with_seen_neighbor_context": 0,
+          "tokens_with_variant_absent_in_training": 0
+        },
+        {
+          "fold_improvements": {
+            "0": 0.0,
+            "1": 0.0,
+            "2": 0.0,
+            "3": 0.0,
+            "4": 0.0
+          },
+          "neighbor_improvement_over_metadata_bits": 0.0,
+          "strength": 100,
+          "tokens": 15,
+          "tokens_with_seen_neighbor_context": 0,
+          "tokens_with_variant_absent_in_training": 0
+        }
+      ],
+      "exact_substitution_frames": [],
+      "meets_support_gate": false,
+      "members": [
+        "W315",
+        "W360"
+      ],
+      "observed_variant_counts": {
+        "W315": 7,
+        "W360": 8
+      },
+      "texts_with_distinct_members": []
+    },
+    "P301": {
+      "allograph_status": "not established",
+      "evaluations": [
+        {
+          "fold_improvements": {
+            "0": -0.04450310642686224,
+            "1": -0.051343142766560365,
+            "2": -0.18676439914179352,
+            "3": 0.07616104254723766,
+            "4": 0.030814824133675246
+          },
+          "neighbor_improvement_over_metadata_bits": -0.04637630384814117,
+          "strength": 5,
+          "tokens": 54,
+          "tokens_with_seen_neighbor_context": 45,
+          "tokens_with_variant_absent_in_training": 0
+        },
+        {
+          "fold_improvements": {
+            "0": -0.009341031300461529,
+            "1": -0.014690575837589022,
+            "2": -0.047545305096035335,
+            "3": 0.03959667779456901,
+            "4": 0.02260549079515813
+          },
+          "neighbor_improvement_over_metadata_bits": -0.007003171229008949,
+          "strength": 20,
+          "tokens": 54,
+          "tokens_with_seen_neighbor_context": 45,
+          "tokens_with_variant_absent_in_training": 0
+        },
+        {
+          "fold_improvements": {
+            "0": -0.0015816241328380082,
+            "1": -0.0007534564262577648,
+            "2": -0.007461169161183173,
+            "3": 0.010520510821960604,
+            "4": 0.00862674031139977
+          },
+          "neighbor_improvement_over_metadata_bits": 0.00047145297665249783,
+          "strength": 100,
+          "tokens": 54,
+          "tokens_with_seen_neighbor_context": 45,
+          "tokens_with_variant_absent_in_training": 0
+        }
+      ],
+      "exact_substitution_frames": [
+        {
+          "frame": "? W388",
+          "variants": [
+            "W526",
+            "W527"
+          ]
+        },
+        {
+          "frame": "? W555 W235",
+          "variants": [
+            "W526",
+            "W527"
+          ]
+        },
+        {
+          "frame": "? W555 W235 W002 W861",
+          "variants": [
+            "W526",
+            "W527"
+          ]
+        }
+      ],
+      "meets_support_gate": true,
+      "members": [
+        "W526",
+        "W527"
+      ],
+      "observed_variant_counts": {
+        "W526": 9,
+        "W527": 45
+      },
+      "texts_with_distinct_members": []
+    },
+    "P303": {
+      "allograph_status": "not established",
+      "evaluations": [
+        {
+          "fold_improvements": {
+            "0": 0.0,
+            "1": 0.05412644532601174,
+            "2": 0.0,
+            "4": -0.06934668959574886
+          },
+          "neighbor_improvement_over_metadata_bits": -0.026940995465587037,
+          "strength": 5,
+          "tokens": 14,
+          "tokens_with_seen_neighbor_context": 3,
+          "tokens_with_variant_absent_in_training": 3
+        },
+        {
+          "fold_improvements": {
+            "0": 0.0,
+            "1": 0.017666536556140366,
+            "2": 0.0,
+            "4": -0.019643360535705017
+          },
+          "neighbor_improvement_over_metadata_bits": -0.007297889331261028,
+          "strength": 20,
+          "tokens": 14,
+          "tokens_with_seen_neighbor_context": 3,
+          "tokens_with_variant_absent_in_training": 3
+        },
+        {
+          "fold_improvements": {
+            "0": 0.0,
+            "1": 0.003847195895000377,
+            "2": 0.0,
+            "4": -0.004081307456681544
+          },
+          "neighbor_improvement_over_metadata_bits": -0.0014910543147692895,
+          "strength": 100,
+          "tokens": 14,
+          "tokens_with_seen_neighbor_context": 3,
+          "tokens_with_variant_absent_in_training": 3
+        }
+      ],
+      "exact_substitution_frames": [
+        {
+          "frame": "W690 ?",
+          "variants": [
+            "W322",
+            "W323"
+          ]
+        }
+      ],
+      "meets_support_gate": false,
+      "members": [
+        "W322",
+        "W323",
+        "W324",
+        "W325"
+      ],
+      "observed_variant_counts": {
+        "W322": 4,
+        "W323": 7,
+        "W324": 2,
+        "W325": 1
+      },
+      "texts_with_distinct_members": []
+    },
+    "P306": {
+      "allograph_status": "not established",
+      "evaluations": [
+        {
+          "fold_improvements": {
+            "0": -0.18903466609684802,
+            "1": -0.7427134135851208,
+            "2": 0.2220919224691802,
+            "3": -0.15291736116689006,
+            "4": 0.03410785432026442
+          },
+          "neighbor_improvement_over_metadata_bits": -0.1592148143885909,
+          "strength": 5,
+          "tokens": 25,
+          "tokens_with_seen_neighbor_context": 22,
+          "tokens_with_variant_absent_in_training": 8
+        },
+        {
+          "fold_improvements": {
+            "0": -0.06506516866666218,
+            "1": -0.2456637143049627,
+            "2": 0.13769275447516627,
+            "3": -8.981734784399009e-05,
+            "4": 0.019159578283455048
+          },
+          "neighbor_improvement_over_metadata_bits": -0.0271953083048386,
+          "strength": 20,
+          "tokens": 25,
+          "tokens_with_seen_neighbor_context": 22,
+          "tokens_with_variant_absent_in_training": 8
+        },
+        {
+          "fold_improvements": {
+            "0": -0.01545455185969366,
+            "1": -0.04896125582377131,
+            "2": 0.04561020266945537,
+            "3": 0.008660319201008359,
+            "4": 0.005740934916977469
+          },
+          "neighbor_improvement_over_metadata_bits": -0.0010605009770066065,
+          "strength": 100,
+          "tokens": 25,
+          "tokens_with_seen_neighbor_context": 22,
+          "tokens_with_variant_absent_in_training": 8
+        }
+      ],
+      "exact_substitution_frames": [
+        {
+          "frame": "? W003",
+          "variants": [
+            "W422",
+            "W426",
+            "W430"
+          ]
+        }
+      ],
+      "meets_support_gate": true,
+      "members": [
+        "W421",
+        "W422",
+        "W423",
+        "W425",
+        "W426",
+        "W427",
+        "W428",
+        "W429",
+        "W430"
+      ],
+      "observed_variant_counts": {
+        "W421": 4,
+        "W422": 8,
+        "W423": 4,
+        "W426": 5,
+        "W427": 1,
+        "W428": 1,
+        "W429": 1,
+        "W430": 1
+      },
+      "texts_with_distinct_members": []
+    },
+    "P309": {
+      "allograph_status": "not established",
+      "evaluations": [
+        {
+          "fold_improvements": {
+            "0": 0.1633994572572028,
+            "1": 0.19336558184978003,
+            "2": 0.0,
+            "3": 0.3575520046180837,
+            "4": 0.3575520046180837
+          },
+          "neighbor_improvement_over_metadata_bits": 0.18191734027145517,
+          "strength": 5,
+          "tokens": 17,
+          "tokens_with_seen_neighbor_context": 9,
+          "tokens_with_variant_absent_in_training": 1
+        },
+        {
+          "fold_improvements": {
+            "0": 0.055323005711723654,
+            "1": 0.08187490919138825,
+            "2": 0.0,
+            "3": 0.17020375616077,
+            "4": 0.17020375616077
+          },
+          "neighbor_improvement_over_metadata_bits": 0.07026972368968618,
+          "strength": 20,
+          "tokens": 17,
+          "tokens_with_seen_neighbor_context": 9,
+          "tokens_with_variant_absent_in_training": 1
+        },
+        {
+          "fold_improvements": {
+            "0": 0.012223329072160142,
+            "1": 0.020168996972279512,
+            "2": 0.0,
+            "3": 0.04294880831853931,
+            "4": 0.04294880831853931
+          },
+          "neighbor_improvement_over_metadata_bits": 0.01652124866751051,
+          "strength": 100,
+          "tokens": 17,
+          "tokens_with_seen_neighbor_context": 9,
+          "tokens_with_variant_absent_in_training": 1
+        }
+      ],
+      "exact_substitution_frames": [
+        {
+          "frame": "W740 ? W176",
+          "variants": [
+            "W336",
+            "W337"
+          ]
+        }
+      ],
+      "meets_support_gate": false,
+      "members": [
+        "W336",
+        "W337",
+        "W338"
+      ],
+      "observed_variant_counts": {
+        "W336": 7,
+        "W337": 9,
+        "W338": 1
+      },
+      "texts_with_distinct_members": []
+    },
+    "P313": {
+      "allograph_status": "not established",
+      "evaluations": [
+        {
+          "fold_improvements": {
+            "0": 0.0,
+            "1": 0.0,
+            "4": 0.0
+          },
+          "neighbor_improvement_over_metadata_bits": 0.0,
+          "strength": 5,
+          "tokens": 3,
+          "tokens_with_seen_neighbor_context": 0,
+          "tokens_with_variant_absent_in_training": 1
+        },
+        {
+          "fold_improvements": {
+            "0": 0.0,
+            "1": 0.0,
+            "4": 0.0
+          },
+          "neighbor_improvement_over_metadata_bits": 0.0,
+          "strength": 20,
+          "tokens": 3,
+          "tokens_with_seen_neighbor_context": 0,
+          "tokens_with_variant_absent_in_training": 1
+        },
+        {
+          "fold_improvements": {
+            "0": 0.0,
+            "1": 0.0,
+            "4": 0.0
+          },
+          "neighbor_improvement_over_metadata_bits": 0.0,
+          "strength": 100,
+          "tokens": 3,
+          "tokens_with_seen_neighbor_context": 0,
+          "tokens_with_variant_absent_in_training": 1
+        }
+      ],
+      "exact_substitution_frames": [],
+      "meets_support_gate": false,
+      "members": [
+        "W732",
+        "W734"
+      ],
+      "observed_variant_counts": {
+        "W732": 2,
+        "W734": 1
+      },
+      "texts_with_distinct_members": []
+    },
+    "P316": {
+      "allograph_status": "not established",
+      "evaluations": [
+        {
+          "fold_improvements": {
+            "0": -0.08168589883624565,
+            "1": -0.17285273297717374,
+            "2": 0.01632253297375287,
+            "3": -0.08679914098658847,
+            "4": -0.060078229579603244
+          },
+          "neighbor_improvement_over_metadata_bits": -0.08529875091262337,
+          "strength": 5,
+          "tokens": 212,
+          "tokens_with_seen_neighbor_context": 136,
+          "tokens_with_variant_absent_in_training": 1
+        },
+        {
+          "fold_improvements": {
+            "0": -0.027876866966961938,
+            "1": -0.06318863749018469,
+            "2": 0.0092269192498405,
+            "3": -0.03612500598584905,
+            "4": -0.01629855412854873
+          },
+          "neighbor_improvement_over_metadata_bits": -0.030268469658657215,
+          "strength": 20,
+          "tokens": 212,
+          "tokens_with_seen_neighbor_context": 136,
+          "tokens_with_variant_absent_in_training": 1
+        },
+        {
+          "fold_improvements": {
+            "0": -0.004309767321260216,
+            "1": -0.013669116284703358,
+            "2": 0.004739196859967051,
+            "3": -0.009009325740337646,
+            "4": -0.0005893050258732749
+          },
+          "neighbor_improvement_over_metadata_bits": -0.005503796895566036,
+          "strength": 100,
+          "tokens": 212,
+          "tokens_with_seen_neighbor_context": 136,
+          "tokens_with_variant_absent_in_training": 1
+        }
+      ],
+      "exact_substitution_frames": [
+        {
+          "frame": "W001 W740 W923 W033 ?",
+          "variants": [
+            "W705",
+            "W706"
+          ]
+        },
+        {
+          "frame": "W154 W388 W717 ?",
+          "variants": [
+            "W705",
+            "W706"
+          ]
+        },
+        {
+          "frame": "W167 ?",
+          "variants": [
+            "W704",
+            "W705",
+            "W706"
+          ]
+        },
+        {
+          "frame": "W520 W033 ?",
+          "variants": [
+            "W705",
+            "W706"
+          ]
+        },
+        {
+          "frame": "W520 W033 ? W031",
+          "variants": [
+            "W705",
+            "W706"
+          ]
+        },
+        {
+          "frame": "W868 ? W590",
+          "variants": [
+            "W705",
+            "W706"
+          ]
+        }
+      ],
+      "meets_support_gate": true,
+      "members": [
+        "W704",
+        "W705",
+        "W706",
+        "W707"
+      ],
+      "observed_variant_counts": {
+        "W704": 4,
+        "W705": 140,
+        "W706": 67,
+        "W707": 1
+      },
+      "texts_with_distinct_members": []
+    },
+    "P317": {
+      "allograph_status": "not established",
+      "evaluations": [
+        {
+          "fold_improvements": {
+            "4": 0.0
+          },
+          "neighbor_improvement_over_metadata_bits": 0.0,
+          "strength": 5,
+          "tokens": 4,
+          "tokens_with_seen_neighbor_context": 0,
+          "tokens_with_variant_absent_in_training": 4
+        },
+        {
+          "fold_improvements": {
+            "4": 0.0
+          },
+          "neighbor_improvement_over_metadata_bits": 0.0,
+          "strength": 20,
+          "tokens": 4,
+          "tokens_with_seen_neighbor_context": 0,
+          "tokens_with_variant_absent_in_training": 4
+        },
+        {
+          "fold_improvements": {
+            "4": 0.0
+          },
+          "neighbor_improvement_over_metadata_bits": 0.0,
+          "strength": 100,
+          "tokens": 4,
+          "tokens_with_seen_neighbor_context": 0,
+          "tokens_with_variant_absent_in_training": 4
+        }
+      ],
+      "exact_substitution_frames": [],
+      "meets_support_gate": false,
+      "members": [
+        "W735",
+        "W736"
+      ],
+      "observed_variant_counts": {
+        "W736": 4
+      },
+      "texts_with_distinct_members": []
+    },
+    "P320": {
+      "allograph_status": "not established",
+      "evaluations": [
+        {
+          "fold_improvements": {
+            "0": 0.002740148546409568,
+            "1": 0.0014075185211722852,
+            "2": 0.0020291189910170405,
+            "3": 0.009949778718852397,
+            "4": 0.004058237982034081
+          },
+          "neighbor_improvement_over_metadata_bits": 0.0028716851956847,
+          "strength": 5,
+          "tokens": 36,
+          "tokens_with_seen_neighbor_context": 11,
+          "tokens_with_variant_absent_in_training": 1
+        },
+        {
+          "fold_improvements": {
+            "0": 0.0008067425151155324,
+            "1": 0.000403551323515676,
+            "2": 0.0005814976799799615,
+            "3": 0.003992708646329515,
+            "4": 0.0011629953599599507
+          },
+          "neighbor_improvement_over_metadata_bits": 0.000893577748578935,
+          "strength": 20,
+          "tokens": 36,
+          "tokens_with_seen_neighbor_context": 11,
+          "tokens_with_variant_absent_in_training": 1
+        },
+        {
+          "fold_improvements": {
+            "0": 0.0001695506999502119,
+            "1": 8.399971363293735e-05,
+            "2": 0.00012102131292216166,
+            "3": 0.0009304242983369029,
+            "4": 0.00024204262584432332
+          },
+          "neighbor_improvement_over_metadata_bits": 0.00019205104902790643,
+          "strength": 100,
+          "tokens": 36,
+          "tokens_with_seen_neighbor_context": 11,
+          "tokens_with_variant_absent_in_training": 1
+        }
+      ],
+      "exact_substitution_frames": [],
+      "meets_support_gate": false,
+      "members": [
+        "W716",
+        "W717"
+      ],
+      "observed_variant_counts": {
+        "W716": 1,
+        "W717": 35
+      },
+      "texts_with_distinct_members": []
+    },
+    "P323": {
+      "allograph_status": "not established",
+      "evaluations": [
+        {
+          "fold_improvements": {
+            "3": 0.0
+          },
+          "neighbor_improvement_over_metadata_bits": 0.0,
+          "strength": 5,
+          "tokens": 1,
+          "tokens_with_seen_neighbor_context": 0,
+          "tokens_with_variant_absent_in_training": 1
+        },
+        {
+          "fold_improvements": {
+            "3": 0.0
+          },
+          "neighbor_improvement_over_metadata_bits": 0.0,
+          "strength": 20,
+          "tokens": 1,
+          "tokens_with_seen_neighbor_context": 0,
+          "tokens_with_variant_absent_in_training": 1
+        },
+        {
+          "fold_improvements": {
+            "3": 0.0
+          },
+          "neighbor_improvement_over_metadata_bits": 0.0,
+          "strength": 100,
+          "tokens": 1,
+          "tokens_with_seen_neighbor_context": 0,
+          "tokens_with_variant_absent_in_training": 1
+        }
+      ],
+      "exact_substitution_frames": [],
+      "meets_support_gate": false,
+      "members": [
+        "W708",
+        "W709",
+        "W710"
+      ],
+      "observed_variant_counts": {
+        "W710": 1
+      },
+      "texts_with_distinct_members": []
+    },
+    "P326": {
+      "allograph_status": "not established",
+      "evaluations": [
+        {
+          "fold_improvements": {
+            "0": 4.85722573273506e-17,
+            "1": -0.06934668959574881,
+            "2": -2.7755575615628914e-17,
+            "3": -0.08767813527793115,
+            "4": -4.163336342344337e-17
+          },
+          "neighbor_improvement_over_metadata_bits": -0.0374628014384381,
+          "strength": 5,
+          "tokens": 27,
+          "tokens_with_seen_neighbor_context": 3,
+          "tokens_with_variant_absent_in_training": 0
+        },
+        {
+          "fold_improvements": {
+            "0": -4.85722573273506e-17,
+            "1": -0.019643360535704972,
+            "2": 0.0,
+            "3": -0.02346310929713269,
+            "4": 4.85722573273506e-17
+          },
+          "neighbor_improvement_over_metadata_bits": -0.010306747390101146,
+          "strength": 20,
+          "tokens": 27,
+          "tokens_with_seen_neighbor_context": 3,
+          "tokens_with_variant_absent_in_training": 0
+        },
+        {
+          "fold_improvements": {
+            "0": 0.0,
+            "1": -0.004081307456681568,
+            "2": 0.0,
+            "3": -0.004785097659023306,
+            "4": 0.0
+          },
+          "neighbor_improvement_over_metadata_bits": -0.002121471783367067,
+          "strength": 100,
+          "tokens": 27,
+          "tokens_with_seen_neighbor_context": 3,
+          "tokens_with_variant_absent_in_training": 0
+        }
+      ],
+      "exact_substitution_frames": [],
+      "meets_support_gate": false,
+      "members": [
+        "W742",
+        "W743",
+        "W744"
+      ],
+      "observed_variant_counts": {
+        "W742": 24,
+        "W744": 3
+      },
+      "texts_with_distinct_members": []
+    },
+    "P327": {
+      "allograph_status": "not established",
+      "evaluations": [
+        {
+          "fold_improvements": {
+            "0": -0.05260688116675869,
+            "1": 0.024053828814825734,
+            "2": -0.026303440583379366,
+            "3": 0.0,
+            "4": 0.08017034868398343
+          },
+          "neighbor_improvement_over_metadata_bits": -0.01520361511844786,
+          "strength": 5,
+          "tokens": 23,
+          "tokens_with_seen_neighbor_context": 4,
+          "tokens_with_variant_absent_in_training": 1
+        },
+        {
+          "fold_improvements": {
+            "0": -0.014077865578279614,
+            "1": 0.00703776007853725,
+            "2": -0.007038932789139784,
+            "3": 0.0,
+            "4": 0.023363993065510347
+          },
+          "neighbor_improvement_over_metadata_bits": -0.0038810270610059377,
+          "strength": 20,
+          "tokens": 23,
+          "tokens_with_seen_neighbor_context": 4,
+          "tokens_with_variant_absent_in_training": 1
+        },
+        {
+          "fold_improvements": {
+            "0": -0.002871058595413878,
+            "1": 0.0014746477519242962,
+            "2": -0.0014355292977070056,
+            "3": 0.0,
+            "4": 0.004889115238427388
+          },
+          "neighbor_improvement_over_metadata_bits": -0.0007792556394789075,
+          "strength": 100,
+          "tokens": 23,
+          "tokens_with_seen_neighbor_context": 4,
+          "tokens_with_variant_absent_in_training": 1
+        }
+      ],
+      "exact_substitution_frames": [],
+      "meets_support_gate": false,
+      "members": [
+        "W745",
+        "W746",
+        "W747"
+      ],
+      "observed_variant_counts": {
+        "W745": 18,
+        "W746": 4,
+        "W747": 1
+      },
+      "texts_with_distinct_members": []
+    },
+    "P332": {
+      "allograph_status": "not established",
+      "evaluations": [
+        {
+          "fold_improvements": {
+            "0": 0.04130497224388688,
+            "1": -0.03708865674725415,
+            "2": 0.08284942574658541,
+            "3": -0.0471372842708789,
+            "4": -0.3130868768187687
+          },
+          "neighbor_improvement_over_metadata_bits": -0.10840669937060429,
+          "strength": 5,
+          "tokens": 123,
+          "tokens_with_seen_neighbor_context": 85,
+          "tokens_with_variant_absent_in_training": 0
+        },
+        {
+          "fold_improvements": {
+            "0": 0.006058112502653227,
+            "1": -0.0015447974033974638,
+            "2": 0.030232638224400404,
+            "3": -0.021879836023990937,
+            "4": -0.08590976655438463
+          },
+          "neighbor_improvement_over_metadata_bits": -0.03034026286379448,
+          "strength": 20,
+          "tokens": 123,
+          "tokens_with_seen_neighbor_context": 85,
+          "tokens_with_variant_absent_in_training": 0
+        },
+        {
+          "fold_improvements": {
+            "0": -0.0012917054694318295,
+            "1": 0.001170253151662213,
+            "2": 0.0077584329393837245,
+            "3": -0.0064857583900911064,
+            "4": -0.017430169936375906
+          },
+          "neighbor_improvement_over_metadata_bits": -0.006575381763400033,
+          "strength": 100,
+          "tokens": 123,
+          "tokens_with_seen_neighbor_context": 85,
+          "tokens_with_variant_absent_in_training": 0
+        }
+      ],
+      "exact_substitution_frames": [
+        {
+          "frame": "W740 ?",
+          "variants": [
+            "W752",
+            "W760"
+          ]
+        }
+      ],
+      "meets_support_gate": true,
+      "members": [
+        "W752",
+        "W760"
+      ],
+      "observed_variant_counts": {
+        "W752": 49,
+        "W760": 74
+      },
+      "texts_with_distinct_members": []
+    },
+    "P353": {
+      "allograph_status": "not established",
+      "evaluations": [
+        {
+          "fold_improvements": {
+            "0": 0.0,
+            "1": 0.1687557234840342,
+            "2": 0.0425851823994576,
+            "3": 0.5193741590935794,
+            "4": 0.0
+          },
+          "neighbor_improvement_over_metadata_bits": 0.1281552085271172,
+          "strength": 5,
+          "tokens": 9,
+          "tokens_with_seen_neighbor_context": 4,
+          "tokens_with_variant_absent_in_training": 0
+        },
+        {
+          "fold_improvements": {
+            "0": 0.0,
+            "1": 0.05210497148822472,
+            "2": 0.012556805988685027,
+            "3": 0.16839753169571847,
+            "4": 0.0
+          },
+          "neighbor_improvement_over_metadata_bits": 0.04026476268071641,
+          "strength": 20,
+          "tokens": 9,
+          "tokens_with_seen_neighbor_context": 4,
+          "tokens_with_variant_absent_in_training": 0
+        },
+        {
+          "fold_improvements": {
+            "0": 0.0,
+            "1": 0.01113294747289458,
+            "2": 0.00263795695465426,
+            "3": 0.0366687100473968,
+            "4": 0.0
+          },
+          "neighbor_improvement_over_metadata_bits": 0.008664602592227035,
+          "strength": 100,
+          "tokens": 9,
+          "tokens_with_seen_neighbor_context": 4,
+          "tokens_with_variant_absent_in_training": 0
+        }
+      ],
+      "exact_substitution_frames": [],
+      "meets_support_gate": false,
+      "members": [
+        "W215",
+        "W216"
+      ],
+      "observed_variant_counts": {
+        "W215": 6,
+        "W216": 3
+      },
+      "texts_with_distinct_members": []
+    },
+    "P355": {
+      "allograph_status": "not established",
+      "evaluations": [
+        {
+          "fold_improvements": {
+            "0": 0.12281087589894847,
+            "1": 0.03415230392183026,
+            "2": -0.04782443742432618,
+            "3": 0.13013921593633176,
+            "4": 0.056745633025725675
+          },
+          "neighbor_improvement_over_metadata_bits": 0.06211593679156778,
+          "strength": 5,
+          "tokens": 60,
+          "tokens_with_seen_neighbor_context": 15,
+          "tokens_with_variant_absent_in_training": 0
+        },
+        {
+          "fold_improvements": {
+            "0": 0.04426826987734469,
+            "1": 0.00942084702540864,
+            "2": -0.01279805961661783,
+            "3": 0.049037114288007944,
+            "4": 0.02047528313701328
+          },
+          "neighbor_improvement_over_metadata_bits": 0.02328993886827372,
+          "strength": 20,
+          "tokens": 60,
+          "tokens_with_seen_neighbor_context": 15,
+          "tokens_with_variant_absent_in_training": 0
+        },
+        {
+          "fold_improvements": {
+            "0": 0.010039735396978595,
+            "1": 0.001927730199136768,
+            "2": -0.0026100532685581616,
+            "3": 0.011681199457494426,
+            "4": 0.004684850917754343
+          },
+          "neighbor_improvement_over_metadata_bits": 0.005416617083158924,
+          "strength": 100,
+          "tokens": 60,
+          "tokens_with_seen_neighbor_context": 15,
+          "tokens_with_variant_absent_in_training": 0
+        }
+      ],
+      "exact_substitution_frames": [],
+      "meets_support_gate": true,
+      "members": [
+        "W790",
+        "W850"
+      ],
+      "observed_variant_counts": {
+        "W790": 25,
+        "W850": 35
+      },
+      "texts_with_distinct_members": []
+    },
+    "P364": {
+      "allograph_status": "not established",
+      "evaluations": [
+        {
+          "fold_improvements": {
+            "0": 0.010633904771203526,
+            "1": 0.09829747264025342,
+            "2": 0.2222049073105417,
+            "3": 0.21073422509759887,
+            "4": 0.13364138168341183
+          },
+          "neighbor_improvement_over_metadata_bits": 0.14331174686891987,
+          "strength": 5,
+          "tokens": 215,
+          "tokens_with_seen_neighbor_context": 128,
+          "tokens_with_variant_absent_in_training": 0
+        },
+        {
+          "fold_improvements": {
+            "0": 0.031076035140455642,
+            "1": 0.05864858557203518,
+            "2": 0.15520394770349455,
+            "3": 0.13507039242442673,
+            "4": 0.09962168283178569
+          },
+          "neighbor_improvement_over_metadata_bits": 0.10187147684549384,
+          "strength": 20,
+          "tokens": 215,
+          "tokens_with_seen_neighbor_context": 128,
+          "tokens_with_variant_absent_in_training": 0
+        },
+        {
+          "fold_improvements": {
+            "0": 0.013148740169050863,
+            "1": 0.02229126228381232,
+            "2": 0.05711221595198125,
+            "3": 0.04943947481198111,
+            "4": 0.04036470685024463
+          },
+          "neighbor_improvement_over_metadata_bits": 0.03860277846815416,
+          "strength": 100,
+          "tokens": 215,
+          "tokens_with_seen_neighbor_context": 128,
+          "tokens_with_variant_absent_in_training": 0
+        }
+      ],
+      "exact_substitution_frames": [
+        {
+          "frame": "W740 W176 W233 ?",
+          "variants": [
+            "W803",
+            "W806"
+          ]
+        },
+        {
+          "frame": "W740 W923 ?",
+          "variants": [
+            "W803",
+            "W806"
+          ]
+        }
+      ],
+      "meets_support_gate": true,
+      "members": [
+        "W803",
+        "W805",
+        "W806"
+      ],
+      "observed_variant_counts": {
+        "W803": 102,
+        "W805": 3,
+        "W806": 110
+      },
+      "texts_with_distinct_members": [
+        {
+          "sequence": "W400 W806 W805",
+          "variants": [
+            "W805",
+            "W806"
+          ]
+        }
+      ]
+    },
+    "P365": {
+      "allograph_status": "not established",
+      "evaluations": [
+        {
+          "fold_improvements": {
+            "0": 0.0,
+            "1": 0.0,
+            "2": 0.0,
+            "3": 0.0
+          },
+          "neighbor_improvement_over_metadata_bits": 0.0,
+          "strength": 5,
+          "tokens": 8,
+          "tokens_with_seen_neighbor_context": 0,
+          "tokens_with_variant_absent_in_training": 0
+        },
+        {
+          "fold_improvements": {
+            "0": 0.0,
+            "1": 0.0,
+            "2": 0.0,
+            "3": 0.0
+          },
+          "neighbor_improvement_over_metadata_bits": 0.0,
+          "strength": 20,
+          "tokens": 8,
+          "tokens_with_seen_neighbor_context": 0,
+          "tokens_with_variant_absent_in_training": 0
+        },
+        {
+          "fold_improvements": {
+            "0": 0.0,
+            "1": 0.0,
+            "2": 0.0,
+            "3": 0.0
+          },
+          "neighbor_improvement_over_metadata_bits": 0.0,
+          "strength": 100,
+          "tokens": 8,
+          "tokens_with_seen_neighbor_context": 0,
+          "tokens_with_variant_absent_in_training": 0
+        }
+      ],
+      "exact_substitution_frames": [],
+      "meets_support_gate": false,
+      "members": [
+        "W804",
+        "W807"
+      ],
+      "observed_variant_counts": {
+        "W804": 6,
+        "W807": 2
+      },
+      "texts_with_distinct_members": []
+    },
+    "P368": {
+      "allograph_status": "not established",
+      "evaluations": [
+        {
+          "fold_improvements": {
+            "0": 0.0,
+            "1": 0.0,
+            "2": 0.0,
+            "4": 0.0
+          },
+          "neighbor_improvement_over_metadata_bits": 0.0,
+          "strength": 5,
+          "tokens": 6,
+          "tokens_with_seen_neighbor_context": 0,
+          "tokens_with_variant_absent_in_training": 1
+        },
+        {
+          "fold_improvements": {
+            "0": 0.0,
+            "1": 0.0,
+            "2": 0.0,
+            "4": 0.0
+          },
+          "neighbor_improvement_over_metadata_bits": 0.0,
+          "strength": 20,
+          "tokens": 6,
+          "tokens_with_seen_neighbor_context": 0,
+          "tokens_with_variant_absent_in_training": 1
+        },
+        {
+          "fold_improvements": {
+            "0": 0.0,
+            "1": 0.0,
+            "2": 0.0,
+            "4": 0.0
+          },
+          "neighbor_improvement_over_metadata_bits": 0.0,
+          "strength": 100,
+          "tokens": 6,
+          "tokens_with_seen_neighbor_context": 0,
+          "tokens_with_variant_absent_in_training": 1
+        }
+      ],
+      "exact_substitution_frames": [],
+      "meets_support_gate": false,
+      "members": [
+        "W808",
+        "W809",
+        "W810"
+      ],
+      "observed_variant_counts": {
+        "W808": 5,
+        "W810": 1
+      },
+      "texts_with_distinct_members": []
+    },
+    "P369": {
+      "allograph_status": "not established",
+      "evaluations": [
+        {
+          "fold_improvements": {
+            "0": 0.0,
+            "1": 0.0,
+            "2": 0.0,
+            "3": 0.0,
+            "4": 0.0
+          },
+          "neighbor_improvement_over_metadata_bits": 0.0,
+          "strength": 5,
+          "tokens": 12,
+          "tokens_with_seen_neighbor_context": 0,
+          "tokens_with_variant_absent_in_training": 0
+        },
+        {
+          "fold_improvements": {
+            "0": 0.0,
+            "1": 0.0,
+            "2": 0.0,
+            "3": 0.0,
+            "4": 0.0
+          },
+          "neighbor_improvement_over_metadata_bits": 0.0,
+          "strength": 20,
+          "tokens": 12,
+          "tokens_with_seen_neighbor_context": 0,
+          "tokens_with_variant_absent_in_training": 0
+        },
+        {
+          "fold_improvements": {
+            "0": 0.0,
+            "1": 0.0,
+            "2": 0.0,
+            "3": 0.0,
+            "4": 0.0
+          },
+          "neighbor_improvement_over_metadata_bits": 0.0,
+          "strength": 100,
+          "tokens": 12,
+          "tokens_with_seen_neighbor_context": 0,
+          "tokens_with_variant_absent_in_training": 0
+        }
+      ],
+      "exact_substitution_frames": [],
+      "meets_support_gate": false,
+      "members": [
+        "W812",
+        "W813",
+        "W814"
+      ],
+      "observed_variant_counts": {
+        "W812": 8,
+        "W813": 2,
+        "W814": 2
+      },
+      "texts_with_distinct_members": []
+    },
+    "P371": {
+      "allograph_status": "not established",
+      "evaluations": [
+        {
+          "fold_improvements": {
+            "4": 0.0
+          },
+          "neighbor_improvement_over_metadata_bits": 0.0,
+          "strength": 5,
+          "tokens": 1,
+          "tokens_with_seen_neighbor_context": 0,
+          "tokens_with_variant_absent_in_training": 1
+        },
+        {
+          "fold_improvements": {
+            "4": 0.0
+          },
+          "neighbor_improvement_over_metadata_bits": 0.0,
+          "strength": 20,
+          "tokens": 1,
+          "tokens_with_seen_neighbor_context": 0,
+          "tokens_with_variant_absent_in_training": 1
+        },
+        {
+          "fold_improvements": {
+            "4": 0.0
+          },
+          "neighbor_improvement_over_metadata_bits": 0.0,
+          "strength": 100,
+          "tokens": 1,
+          "tokens_with_seen_neighbor_context": 0,
+          "tokens_with_variant_absent_in_training": 1
+        }
+      ],
+      "exact_substitution_frames": [],
+      "meets_support_gate": false,
+      "members": [
+        "W815",
+        "W816"
+      ],
+      "observed_variant_counts": {
+        "W815": 1
+      },
+      "texts_with_distinct_members": []
+    },
+    "P372": {
+      "allograph_status": "not established",
+      "evaluations": [
+        {
+          "fold_improvements": {
+            "0": 0.0,
+            "1": 0.0,
+            "2": 0.0,
+            "3": 0.0,
+            "4": 0.0
+          },
+          "neighbor_improvement_over_metadata_bits": 0.0,
+          "strength": 5,
+          "tokens": 14,
+          "tokens_with_seen_neighbor_context": 0,
+          "tokens_with_variant_absent_in_training": 1
+        },
+        {
+          "fold_improvements": {
+            "0": 0.0,
+            "1": 0.0,
+            "2": 0.0,
+            "3": 0.0,
+            "4": 0.0
+          },
+          "neighbor_improvement_over_metadata_bits": 0.0,
+          "strength": 20,
+          "tokens": 14,
+          "tokens_with_seen_neighbor_context": 0,
+          "tokens_with_variant_absent_in_training": 1
+        },
+        {
+          "fold_improvements": {
+            "0": 0.0,
+            "1": 0.0,
+            "2": 0.0,
+            "3": 0.0,
+            "4": 0.0
+          },
+          "neighbor_improvement_over_metadata_bits": 0.0,
+          "strength": 100,
+          "tokens": 14,
+          "tokens_with_seen_neighbor_context": 0,
+          "tokens_with_variant_absent_in_training": 1
+        }
+      ],
+      "exact_substitution_frames": [],
+      "meets_support_gate": false,
+      "members": [
+        "W831",
+        "W833"
+      ],
+      "observed_variant_counts": {
+        "W831": 13,
+        "W833": 1
+      },
+      "texts_with_distinct_members": []
+    },
+    "P385": {
+      "allograph_status": "not established",
+      "evaluations": [
+        {
+          "fold_improvements": {
+            "0": 0.15403581186816748,
+            "1": -0.02322059080419703,
+            "2": 0.025646649557118307,
+            "3": -0.03287793030028889,
+            "4": 0.14359496321380463
+          },
+          "neighbor_improvement_over_metadata_bits": 0.07567914288937505,
+          "strength": 5,
+          "tokens": 352,
+          "tokens_with_seen_neighbor_context": 254,
+          "tokens_with_variant_absent_in_training": 0
+        },
+        {
+          "fold_improvements": {
+            "0": 0.0726944124685158,
+            "1": -0.021918980474610533,
+            "2": 0.0143923209585794,
+            "3": 0.006624073997727188,
+            "4": 0.06406449645636725
+          },
+          "neighbor_improvement_over_metadata_bits": 0.035837119457757055,
+          "strength": 20,
+          "tokens": 352,
+          "tokens_with_seen_neighbor_context": 254,
+          "tokens_with_variant_absent_in_training": 0
+        },
+        {
+          "fold_improvements": {
+            "0": 0.02635583581454376,
+            "1": -0.012828086246692424,
+            "2": 0.007308265301897151,
+            "3": 0.022024220319264556,
+            "4": 0.01744632381298235
+          },
+          "neighbor_improvement_over_metadata_bits": 0.01362787741707846,
+          "strength": 100,
+          "tokens": 352,
+          "tokens_with_seen_neighbor_context": 254,
+          "tokens_with_variant_absent_in_training": 0
+        }
+      ],
+      "exact_substitution_frames": [
+        {
+          "frame": "W090 W740 W100 W415 W240 W002 ?",
+          "variants": [
+            "W817",
+            "W861"
+          ]
+        },
+        {
+          "frame": "W390 W003 W002 ?",
+          "variants": [
+            "W817",
+            "W861"
+          ]
+        },
+        {
+          "frame": "W390 W004 W002 ?",
+          "variants": [
+            "W817",
+            "W861"
+          ]
+        },
+        {
+          "frame": "W740 W032 W840 W235 W002 ?",
+          "variants": [
+            "W817",
+            "W861"
+          ]
+        },
+        {
+          "frame": "W740 W100 W415 W002 ?",
+          "variants": [
+            "W817",
+            "W861"
+          ]
+        },
+        {
+          "frame": "W740 W142 W061 W002 ?",
+          "variants": [
+            "W817",
+            "W861"
+          ]
+        },
+        {
+          "frame": "W740 W176 W002 ?",
+          "variants": [
+            "W817",
+            "W861"
+          ]
+        },
+        {
+          "frame": "W740 W390 W590 W002 ?",
+          "variants": [
+            "W817",
+            "W861"
+          ]
+        },
+        {
+          "frame": "W740 W690 W435 W255 W002 ?",
+          "variants": [
+            "W817",
+            "W861"
+          ]
+        },
+        {
+          "frame": "W740 W772 W002 ?",
+          "variants": [
+            "W817",
+            "W861"
+          ]
+        }
+      ],
+      "meets_support_gate": true,
+      "members": [
+        "W817",
+        "W861"
+      ],
+      "observed_variant_counts": {
+        "W817": 157,
+        "W861": 195
+      },
+      "texts_with_distinct_members": [
+        {
+          "sequence": "W408 W817 W920 W002 W861",
+          "variants": [
+            "W817",
+            "W861"
+          ]
+        },
+        {
+          "sequence": "W861 W260 W832 W390 W590 W002 W817 W690 W544",
+          "variants": [
+            "W817",
+            "W861"
+          ]
+        }
+      ]
+    },
+    "P390": {
+      "allograph_status": "not established",
+      "evaluations": [
+        {
+          "fold_improvements": {
+            "0": 0.0,
+            "2": 0.0,
+            "4": 0.0
+          },
+          "neighbor_improvement_over_metadata_bits": 0.0,
+          "strength": 5,
+          "tokens": 5,
+          "tokens_with_seen_neighbor_context": 0,
+          "tokens_with_variant_absent_in_training": 1
+        },
+        {
+          "fold_improvements": {
+            "0": 0.0,
+            "2": 0.0,
+            "4": 0.0
+          },
+          "neighbor_improvement_over_metadata_bits": 0.0,
+          "strength": 20,
+          "tokens": 5,
+          "tokens_with_seen_neighbor_context": 0,
+          "tokens_with_variant_absent_in_training": 1
+        },
+        {
+          "fold_improvements": {
+            "0": 0.0,
+            "2": 0.0,
+            "4": 0.0
+          },
+          "neighbor_improvement_over_metadata_bits": 0.0,
+          "strength": 100,
+          "tokens": 5,
+          "tokens_with_seen_neighbor_context": 0,
+          "tokens_with_variant_absent_in_training": 1
+        }
+      ],
+      "exact_substitution_frames": [],
+      "meets_support_gate": false,
+      "members": [
+        "W869",
+        "W871"
+      ],
+      "observed_variant_counts": {
+        "W869": 4,
+        "W871": 1
+      },
+      "texts_with_distinct_members": []
+    }
+  },
+  "family_tokens": 3779,
+  "features_sha256": "00836515c6f3beec28b3b66e13d8a9c6e94571cfb2e9dbb4b148651b7ff0032d",
+  "fold_unit_counts": {
+    "0": 1197,
+    "1": 406,
+    "2": 443,
+    "3": 403,
+    "4": 449
+  },
+  "interpretation": "Variant-context predictability conditional on family. Neither positive nor absent gain identifies allography or meaning.",
+  "largest_group_units": 834,
+  "leakage_checks": {
+    "artifacts_crossing_folds": 0,
+    "family_normalized_texts_crossing_folds": 0
+  },
+  "new_established_sign_values": 0,
+  "protocol_sha256": "eb56c4a2a5cc4e80d1e693c472df9f57c7fa93160046c8e2ba5479bbfc38e6e8",
+  "source_rows": 2914,
+  "supported_families": [
+    "P004",
+    "P086",
+    "P091",
+    "P114",
+    "P124",
+    "P125",
+    "P172",
+    "P186",
+    "P188",
+    "P202",
+    "P204",
+    "P230",
+    "P270",
+    "P301",
+    "P306",
+    "P316",
+    "P332",
+    "P355",
+    "P364",
+    "P385"
+  ]
+}

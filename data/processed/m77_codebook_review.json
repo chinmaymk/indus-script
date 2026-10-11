@@ -1,0 +1,295 @@
+{
+  "status": "Primary code tables and conventions visually verified; digital 000 bridge and doc_count semantics not authenticated",
+  "source": {
+    "path": "data/raw/mahadevan_1977_text.pdf",
+    "sha256": "6dcdd074a0174e5fab149590fbbf82342711d345764e9763f8e5e92c81cf7f99",
+    "title": "The Indus Script: Texts, Concordance and Tables",
+    "author": "Iravatham Mahadevan",
+    "year": 1977
+  },
+  "visually_reviewed_pages": [
+    {
+      "printed_page": 19,
+      "pdf_page": 30,
+      "image": "results/primary_pages/m77-codebook-30.png"
+    },
+    {
+      "printed_page": 20,
+      "pdf_page": 31,
+      "image": "results/primary_pages/m77-codebook-31.png"
+    },
+    {
+      "printed_page": 30,
+      "pdf_page": 41,
+      "image": "results/primary_pages/m77-codebook-41.png"
+    },
+    {
+      "printed_page": 31,
+      "pdf_page": 42,
+      "image": "results/primary_pages/m77-codebook-42.png"
+    }
+  ],
+  "object_type_codes": {
+    "primary_locator": "Printed30/PDF41, Code2",
+    "column_in_texts": 5,
+    "values": {
+      "1": "Seals",
+      "2": "Sealings",
+      "3": "Miniature tablets (stone, terracotta or faience)",
+      "4": "Pottery graffiti",
+      "5": "Copper tablets",
+      "6": "Bronze implements",
+      "7": "Ivory or bone rods",
+      "9": "Miscellaneous inscribed objects"
+    },
+    "undefined_requested_codes": [
+      "8"
+    ],
+    "note": "No code8 appears in the primary table; do not invent its meaning"
+  },
+  "direction_codes": {
+    "primary_locator": "Printed31/PDF42, Code6",
+    "column_in_texts": 10,
+    "values": {
+      "1": "Right to left",
+      "2": "Left to right",
+      "3": "Single sign in the line of text",
+      "4": "Top to bottom",
+      "5": "Symmetrical arrangement of signs",
+      "9": "Doubtful because of damaged or illegible signs",
+      "0": "No line of text"
+    },
+    "reference_surface": "Seal impressions; originals of other inscribed objects (note4)"
+  },
+  "other_codes": {
+    "sides": {
+      "primary_locator": "Printed30/PDF41, Code3",
+      "column_in_texts": 6,
+      "values": {
+        "0": "Only side",
+        "1": "First side",
+        "2": "Second side",
+        "3": "Third side",
+        "4": "Fourth side",
+        "5": "Fifth side",
+        "6": "Sixth side"
+      }
+    },
+    "lines": {
+      "primary_locator": "Printed31/PDF42, Code5",
+      "column_in_texts": 9,
+      "values": {
+        "0": "Only line of text on side",
+        "1": "First line",
+        "2": "Second line",
+        "3": "Third line",
+        "9": "No line of text; only a field symbol"
+      }
+    }
+  },
+  "reference_layout": {
+    "primary_locator": "Printed19/PDF30, section12.2",
+    "texts_columns": {
+      "1-4": "Text number",
+      "5": "Type of inscribed object",
+      "6": "Side number",
+      "7-8": "Field symbol on side",
+      "9": "Line number",
+      "10": "Direction of writing of line"
+    },
+    "continuations": "Text/type omitted for extra sides; text/type/side/field-symbol omitted for extra lines on same side",
+    "concordance_columns": {
+      "1-4": "Text number",
+      "5": "Side number",
+      "6": "Line number"
+    }
+  },
+  "normalization": {
+    "primary_locator": "Printed19–20/PDF30–31, section13.2",
+    "seal_orientation": "Copied as impressions; other objects copied from originals",
+    "printed_line_direction": "Every line normalized right to left, independently of actual direction recorded in the direction code",
+    "sign_orientation": "Normalized signary; variants not distinguished in Texts, Concordance and Tables; asymmetric signs printed in normal orientation",
+    "consequence": "Do not reverse a digital sequence solely from its direction label until digital serialization relative to the normalized page is authenticated"
+  },
+  "damage_conventions": {
+    "primary_locators": [
+      "Printed19/PDF30 section12.1",
+      "Printed31/PDF42 Code8"
+    ],
+    "asterisk": "Doubtfully read sign; printed at top right of sign",
+    "hatched_block": "Illegible or lost passage containing one or more signs; number of lost signs is not recoverable from the block",
+    "000": "Not a printed primary convention on these pages. Digital representation is upstream-specific and requires a separate transformation check",
+    "zero_notation_distinctions": "Side0, line0, direction0 and field-symbol00 have different defined metadata meanings; none establishes a numerical value or sign000",
+    "digital_canonical_observation": "Example1001 uses raw_signs token0 and diplomatic000; this demonstrates digital padding but does not independently authenticate its correspondence to the primary hatched block"
+  },
+  "primary_corpus_definition": {
+    "primary_locator": "Printed19/PDF30 section13.1",
+    "texts": 2906,
+    "lines": 3573,
+    "legible_sign_occurrences": 13372,
+    "symbol_only_sides": "Listed separately in Texts but not included in Concordance"
+  },
+  "doc_count_review": {
+    "status": "Undocumented upstream field; do not decode from numerical range alone",
+    "primary_field_named_doc_count": false,
+    "canonical_source": "data/raw/glossa_canonical_objects.jsonl",
+    "canonical_sha256": "e24f42a95ee4cc1fdb16c789c3edfb937993ed7c82223d6daa96d66895174ae5",
+    "witness": {
+      "text_number": 2405,
+      "primary_locator": "Printed20/PDF31 section13.3 specimen",
+      "sides": 6,
+      "displayed_line_entries": 7,
+      "displayed_directions_in_order": [
+        "1",
+        "2",
+        "1",
+        "1",
+        "1",
+        "3",
+        "9"
+      ],
+      "last_line": "Wholly illegible; retained because other lines of text are legible",
+      "canonical_row": {
+        "glossa_id": "GLI-IND-M77-02405",
+        "source_system": "indusscript-m77",
+        "source_object_id": "2405",
+        "artifact_type": "seal",
+        "site_name": "Mohenjo-daro",
+        "locus": "31",
+        "rights_status": "rmrl-research",
+        "text_code_diplomatic": "+293-123-343-065-294-342+",
+        "sign_id_scheme": "Mahadevan1977",
+        "canonical_grapheme_ids": [
+          "293",
+          "123",
+          "343",
+          "065",
+          "294",
+          "342"
+        ],
+        "sign_instance_count": 6,
+        "raw_signs": [
+          "293",
+          "123",
+          "343",
+          "65",
+          "294",
+          "342"
+        ],
+        "inscobj": "1",
+        "direction": "1",
+        "review_state": "unreviewed",
+        "pipeline_stage": "normalized",
+        "quarantine_reason": null,
+        "_source_extra": {
+          "textnum": 2405,
+          "doc_count": 7,
+          "fs80": 13,
+          "level": "-12"
+        },
+        "_citation": {
+          "primary_sources": [
+            "I.6",
+            "A.1"
+          ],
+          "derivation": "IM77 text 2405 from indusscript.in Firestore (RMRL, 2021). Original: Mahadevan (1977) The Indus Script: Texts, Concordance and Tables."
+        },
+        "text_code_diplomatic_normalized": "+293-123-343-065-294-342+",
+        "crosswalk_coverage": 1.0
+      },
+      "interpretation": "doc_count7 coincides with seven displayed entries in this witness, but its general semantics remain unverified. One exported sequence and one direction label cannot preserve all seven primary entries and their different directions.",
+      "first_line_identification": {
+        "status": "Visually matched against primary sign list",
+        "side_code": "1",
+        "line_code": "0",
+        "field_symbol_code": "01",
+        "direction_code": "1",
+        "display_left_to_right": [
+          "M342",
+          "M294",
+          "M065",
+          "M343",
+          "M123",
+          "M293"
+        ],
+        "normalized_reading_right_to_left": [
+          "M293",
+          "M123",
+          "M343",
+          "M065",
+          "M294",
+          "M342"
+        ],
+        "matches_canonical_sequence": true,
+        "scope": "Canonical sequence matches first side only; other six displayed line entries absent from its single sequence",
+        "detail_image": "results/primary_pages/m77-codebook-2405-first-line-detail.png",
+        "crop_provenance": {
+          "source_image": "results/primary_pages/m77-codebook-31.png",
+          "source_size": [
+            2036,
+            2600
+          ],
+          "crop_box": [
+            1170,
+            970,
+            1670,
+            1080
+          ],
+          "resize": [
+            1500,
+            330
+          ],
+          "method": "PIL crop and resize; source pixels only"
+        },
+        "sign_list_locators": {
+          "M065": "Printed32/PDF43",
+          "M123": "Printed33/PDF44",
+          "M293": "Printed34/PDF45",
+          "M294": "Printed34/PDF45",
+          "M342": "Printed35/PDF46",
+          "M343": "Printed35/PDF46"
+        }
+      }
+    }
+  },
+  "scope_limits": [
+    "No original artifact photograph was inspected",
+    "No inference that each 000 equals one missing sign",
+    "No invented object code8 or doc_count definition",
+    "Only specimen2405 first-side sign sequence and serialization were authenticated; do not generalize to all exported rows"
+  ],
+  "downloads": [],
+  "additional_sign_list_pages_visually_reviewed": [
+    {
+      "printed_page": 32,
+      "pdf_page": 43,
+      "image": "results/primary_pages/sign_list_page_32.png"
+    },
+    {
+      "printed_page": 33,
+      "pdf_page": 44,
+      "image": "results/primary_pages/sign_list-044.png"
+    },
+    {
+      "printed_page": 34,
+      "pdf_page": 45,
+      "image": "results/primary_pages/sign_list-045.png"
+    },
+    {
+      "printed_page": 35,
+      "pdf_page": 46,
+      "image": "results/primary_pages/sign_list-046.png"
+    }
+  ],
+  "image_hashes": {
+    "results/primary_pages/m77-codebook-30.png": "2b66004a5f14e0cdd762581ca907347d3a0b8cfbfa0629cf38b6fe86aa2c9cdf",
+    "results/primary_pages/m77-codebook-31.png": "2d02126be99255e7ae57f04b4b26f7329959e2dfa170f851871060f6854aa0c9",
+    "results/primary_pages/m77-codebook-41.png": "80a70e5c3329804153835a35b8c2364e5788b339ca4eb824b6b357c73f5d0e25",
+    "results/primary_pages/m77-codebook-42.png": "b4ec143903bd5059cdbf8c524c20e2b0e3b0d0d244065bf6765b9282379b37ce",
+    "results/primary_pages/sign_list_page_32.png": "1e3f91789c947add7ce796479168d84d69636ebdc378493743188ac11c53c90a",
+    "results/primary_pages/sign_list-044.png": "33eff554bfdea81af6d1a3510a5b2541d1b74b02ae1e63b253c725b44c7c0b64",
+    "results/primary_pages/sign_list-045.png": "972002b288ea77921dcacfe67386dbf585b76be6bca5444b7ff9422e47e70b89",
+    "results/primary_pages/sign_list-046.png": "a191e9297a6ab8b7cad1028eaeac062b4b6fa3cd34aefbdd507f669d736d2e8e",
+    "results/primary_pages/m77-codebook-2405-first-line-detail.png": "479bb0a6fcc5c2dbf5b87f6e050a1997f88b56a595c32d6f7f31a60204c84d21"
+  }
+}

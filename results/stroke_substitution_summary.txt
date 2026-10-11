@@ -1,0 +1,99 @@
+{
+  "samples": {
+    "records": 1175,
+    "unique_strings": 1066
+  },
+  "shared_frame_counts": {
+    "all": 3,
+    "minimum_length_3": 1,
+    "minimum_length_4": 1,
+    "followed_by_anchor": 0
+  },
+  "anchor_predecessors": [
+    {
+      "sign": "M102",
+      "complete_strings": 58,
+      "shared_full_frames_with": {
+        "M102": [],
+        "M106": [
+          [
+            "?",
+            "M015"
+          ],
+          [
+            "?",
+            "M169"
+          ],
+          [
+            "M267",
+            "M099",
+            "?",
+            "M162"
+          ]
+        ]
+      },
+      "before_anchor_occurrences": 4,
+      "before_final_anchor_occurrences": 4,
+      "before_anchor_unique_strings": 4,
+      "before_anchor_references": [
+        "2097",
+        "2302",
+        "4081",
+        "4087"
+      ]
+    },
+    {
+      "sign": "M106",
+      "complete_strings": 16,
+      "shared_full_frames_with": {
+        "M102": [
+          [
+            "?",
+            "M015"
+          ],
+          [
+            "?",
+            "M169"
+          ],
+          [
+            "M267",
+            "M099",
+            "?",
+            "M162"
+          ]
+        ],
+        "M106": []
+      },
+      "before_anchor_occurrences": 5,
+      "before_final_anchor_occurrences": 4,
+      "before_anchor_unique_strings": 5,
+      "before_anchor_references": [
+        "1092",
+        "1460",
+        "2254",
+        "2381",
+        "4134",
+        "4239",
+        "4618"
+      ]
+    },
+    {
+      "sign": "M373",
+      "complete_strings": 11,
+      "shared_full_frames_with": {
+        "M102": [],
+        "M106": []
+      },
+      "before_anchor_occurrences": 5,
+      "before_final_anchor_occurrences": 4,
+      "before_anchor_unique_strings": 5,
+      "before_anchor_references": [
+        "1188",
+        "2022",
+        "2205",
+        "3107",
+        "3156"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,180 @@
+{
+  "all_strict_unique": {
+    "permutations": {
+      "iterations": 499,
+      "length_position": {
+        "mi": {
+          "null_95_interval": [
+            1.9640581948353817,
+            2.011567702030433
+          ],
+          "null_mean": 1.9886372971999793,
+          "observed_minus_null_mean": 1.1806250830753153,
+          "p_upper": 0.002
+        }
+      },
+      "observed": {
+        "endpoint_js": 0.764114837508509,
+        "mi": 3.1692623802752946
+      },
+      "seed": 20260922,
+      "within_text": {
+        "endpoint_js": {
+          "null_95_interval": [
+            0.09275017943189301,
+            0.11891685230824933
+          ],
+          "null_mean": 0.10608081473619184,
+          "observed_minus_null_mean": 0.6580340227723172,
+          "p_upper": 0.002
+        },
+        "mi": {
+          "null_95_interval": [
+            2.112196698552704,
+            2.179562501222008
+          ],
+          "null_mean": 2.1462164992322843,
+          "observed_minus_null_mean": 1.0230458810430103,
+          "p_upper": 0.002
+        }
+      }
+    },
+    "summary": {
+      "adjacent_mutual_information_bits": 3.1692623802752946,
+      "endpoint_js_bits": 0.764114837508509,
+      "hapax_sign_types": 87,
+      "length_histogram": {
+        "2": 112,
+        "3": 195,
+        "4": 191,
+        "5": 245,
+        "6": 173,
+        "7": 116,
+        "8": 54,
+        "9": 25,
+        "10": 19,
+        "11": 7,
+        "12": 1,
+        "13": 1,
+        "14": 2
+      },
+      "length_max": 14,
+      "length_mean": 4.92988606485539,
+      "sequences": 1141,
+      "sign_types": 332,
+      "texts_with_repeated_sign_fraction": 0.09290096406660824,
+      "tokens": 5625,
+      "unigram_entropy_bits": 6.599855164446726
+    }
+  },
+  "input_sha256": {
+    "data/processed/m77_candidate_strict.jsonl": "fcdd8b3a7350ebfa851363328ec784b9c8a943525d8549b9df0194fbe1ee7f4a"
+  },
+  "scope": [
+    "Every test uses whole-text deduplication; no tokens bridge line boundaries.",
+    "The length-position null preserves each (length, slot) frequency exactly.",
+    "Seal-only replication controls this source object code, not all archaeological confounds.",
+    "Two complete lines, one damaged first line and one multiline-object first line checked against primary images; no corpus-wide transcription accuracy established.",
+    "M77 and W datasets can describe the same physical objects: not independent archaeological evidence.",
+    "Sign order dependence is not proof of language or of a particular linguistic family.",
+    "Stroke runs do not establish numerical values or segmentation into numeral fields."
+  ],
+  "seal_only_unique": {
+    "permutations": {
+      "iterations": 499,
+      "length_position": {
+        "mi": {
+          "null_95_interval": [
+            1.9832847154943956,
+            2.03728417667778
+          ],
+          "null_mean": 2.009056174309432,
+          "observed_minus_null_mean": 1.1666212596139713,
+          "p_upper": 0.002
+        }
+      },
+      "observed": {
+        "endpoint_js": 0.7795324218872954,
+        "mi": 3.1756774339234033
+      },
+      "seed": 20260922,
+      "within_text": {
+        "endpoint_js": {
+          "null_95_interval": [
+            0.09561249283962159,
+            0.1236403735431395
+          ],
+          "null_mean": 0.10943260748323488,
+          "observed_minus_null_mean": 0.6700998144040605,
+          "p_upper": 0.002
+        },
+        "mi": {
+          "null_95_interval": [
+            2.130115923232073,
+            2.1948592626902426
+          ],
+          "null_mean": 2.1617746435049012,
+          "observed_minus_null_mean": 1.013902790418502,
+          "p_upper": 0.002
+        }
+      }
+    },
+    "summary": {
+      "adjacent_mutual_information_bits": 3.1756774339234033,
+      "endpoint_js_bits": 0.7795324218872954,
+      "hapax_sign_types": 87,
+      "length_histogram": {
+        "2": 94,
+        "3": 173,
+        "4": 170,
+        "5": 228,
+        "6": 170,
+        "7": 112,
+        "8": 51,
+        "9": 25,
+        "10": 19,
+        "11": 7,
+        "12": 1,
+        "13": 1,
+        "14": 2
+      },
+      "length_max": 14,
+      "length_mean": 5.018043684710351,
+      "sequences": 1053,
+      "sign_types": 321,
+      "texts_with_repeated_sign_fraction": 0.09591642924976258,
+      "tokens": 5284,
+      "unigram_entropy_bits": 6.578301375307761
+    }
+  },
+  "selected_stroke_run_witnesses": [
+    {
+      "sequence": [
+        "M086",
+        "M099"
+      ],
+      "source_references": [
+        "1066",
+        "1214",
+        "4028",
+        "5090",
+        "8016"
+      ]
+    },
+    {
+      "sequence": [
+        "M099",
+        "M086"
+      ],
+      "source_references": [
+        "2066",
+        "2286",
+        "2504",
+        "3039",
+        "7096",
+        "7278",
+        "9121"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,990 @@
+{
+  "status": "Selected primary counterexample and paired-comparison audit; not a semantic decipherment or whole-corpus validation.",
+  "namespace": "Mahadevan1977 only; no Wells/Parpola mappings",
+  "primary_source": {
+    "path": "data/raw/mahadevan_1977_text.pdf",
+    "bytes": 119302608,
+    "sha256": "6dcdd074a0174e5fab149590fbbf82342711d345764e9763f8e5e92c81cf7f99"
+  },
+  "canonical_source": {
+    "path": "data/raw/glossa_canonical_objects.jsonl",
+    "bytes": 22391887,
+    "sha256": "e24f42a95ee4cc1fdb16c789c3edfb937993ed7c82223d6daa96d66895174ae5"
+  },
+  "selection": "Requested concordance pages575,592,626 followed to original Texts; purposeful witnesses for solus, initial, medial, nonstroke predecessor and damaged-edge contexts. Not a random sample or frequency estimate.",
+  "orientation": "Printed normalized signs are read right to left. Original direction is separately transcribed from each original Texts line; concordance side/line fields do not themselves supply it.",
+  "unknown_span": "000 denotes one or more lost/illegible signs, not a zero sign or fixed single missing sign.",
+  "witnesses": [
+    {
+      "text_reference": "1206",
+      "primary_text": {
+        "pdf_page": 56,
+        "printed_page": 45,
+        "render": {
+          "path": "results/primary_pages/m77-u-counterexample-56.png",
+          "bytes": 1339176,
+          "sha256": "fec3f86c4eb84778f848a335aaa39011f0682ae99ca6285806bde807dd7c020b"
+        }
+      },
+      "lines": [
+        {
+          "side_code": 0,
+          "line_code": 0,
+          "original_direction_code": 1,
+          "original_direction_label": "right to left",
+          "printed_metadata_code": "100101",
+          "normalized_order": "right to left",
+          "tokens": [
+            {
+              "id": "M329",
+              "kind": "identified_sign",
+              "doubtful_asterisk_observed": false
+            },
+            {
+              "id": "M212",
+              "kind": "identified_sign",
+              "doubtful_asterisk_observed": false
+            },
+            {
+              "id": "M328",
+              "kind": "identified_sign",
+              "doubtful_asterisk_observed": false
+            }
+          ],
+          "editorial_sequence": "329-212-328",
+          "role": "M328 final after a nonstroke sign; distinguishes M329 from M328",
+          "complete_line": true
+        }
+      ],
+      "note": "Complete nonstroke predecessor M212; first glyph is modified U M329, not another plain U.",
+      "canonical_record_excerpt": {
+        "glossa_id": "GLI-IND-M77-01206",
+        "text_code_diplomatic": "+329-212-328+",
+        "raw_signs": [
+          "329",
+          "212",
+          "328"
+        ],
+        "direction": "1",
+        "inscobj": "1",
+        "_source_extra": {
+          "textnum": 1206,
+          "doc_count": 1,
+          "fs80": 13,
+          "level": "-4"
+        }
+      },
+      "canonical_record_covers_reviewed_other_side": null
+    },
+    {
+      "text_reference": "1532",
+      "primary_text": {
+        "pdf_page": 65,
+        "printed_page": 54,
+        "render": {
+          "path": "results/primary_pages/m77-u-counterexample-65.png",
+          "bytes": 1352973,
+          "sha256": "879ef744d88e627033bdaa8b727e36bd3ff6087364bade2dbd66c036ec8387f0"
+        }
+      },
+      "lines": [
+        {
+          "side_code": 0,
+          "line_code": 0,
+          "original_direction_code": 1,
+          "original_direction_label": "right to left",
+          "printed_metadata_code": "700001",
+          "normalized_order": "right to left",
+          "tokens": [
+            {
+              "id": "M095",
+              "kind": "identified_sign",
+              "doubtful_asterisk_observed": false
+            },
+            {
+              "id": "M328",
+              "kind": "identified_sign",
+              "doubtful_asterisk_observed": false
+            },
+            {
+              "id": "M002",
+              "kind": "identified_sign",
+              "doubtful_asterisk_observed": false
+            },
+            {
+              "id": "M012",
+              "kind": "identified_sign",
+              "doubtful_asterisk_observed": false
+            }
+          ],
+          "editorial_sequence": "095-328-002-012",
+          "role": "M328 medial",
+          "complete_line": true
+        }
+      ],
+      "note": "Four long strokes precede U, but U is followed by two further signs; not a line terminator here.",
+      "canonical_record_excerpt": {
+        "glossa_id": "GLI-IND-M77-01532",
+        "text_code_diplomatic": "+095-328-002-012+",
+        "raw_signs": [
+          "95",
+          "328",
+          "2",
+          "12"
+        ],
+        "direction": "1",
+        "inscobj": "7",
+        "_source_extra": {
+          "textnum": 1532,
+          "doc_count": 1,
+          "fs80": 0,
+          "level": "-12"
+        }
+      },
+      "canonical_record_covers_reviewed_other_side": null
+    },
+    {
+      "text_reference": "4231",
+      "primary_text": {
+        "pdf_page": 114,
+        "printed_page": 103,
+        "render": {
+          "path": "results/primary_pages/m77-u-counterexample-114.png",
+          "bytes": 1328647,
+          "sha256": "d939200b9fe8c06e373c3e22679627f7df0fd3b21641b40c4352949d4530b2a2"
+        }
+      },
+      "lines": [
+        {
+          "side_code": 0,
+          "line_code": 0,
+          "original_direction_code": 1,
+          "original_direction_label": "right to left",
+          "printed_metadata_code": "100701",
+          "normalized_order": "right to left",
+          "tokens": [
+            {
+              "id": "M328",
+              "kind": "identified_sign",
+              "doubtful_asterisk_observed": false
+            },
+            {
+              "id": "M307",
+              "kind": "identified_sign",
+              "doubtful_asterisk_observed": false
+            }
+          ],
+          "editorial_sequence": "328-307",
+          "role": "M328 initial without preceding strokes",
+          "complete_line": true
+        }
+      ],
+      "note": "Complete two-sign line, no preceding stroke group or loss block.",
+      "canonical_record_excerpt": {
+        "glossa_id": "GLI-IND-M77-04231",
+        "text_code_diplomatic": "+328-307+",
+        "raw_signs": [
+          "328",
+          "307"
+        ],
+        "direction": "1",
+        "inscobj": "1",
+        "_source_extra": {
+          "textnum": 4231,
+          "doc_count": 1,
+          "fs80": 71,
+          "level": "0"
+        }
+      },
+      "canonical_record_covers_reviewed_other_side": null
+    },
+    {
+      "text_reference": "8202",
+      "primary_text": {
+        "pdf_page": 169,
+        "printed_page": 158,
+        "render": {
+          "path": "results/primary_pages/m77-u-counterexample-169.png",
+          "bytes": 1359941,
+          "sha256": "a3e2742cb68a031cc61ae720b424e203569171578c563a40cc3e220f74d0340e"
+        }
+      },
+      "lines": [
+        {
+          "side_code": 0,
+          "line_code": 0,
+          "original_direction_code": 1,
+          "original_direction_label": "right to left",
+          "printed_metadata_code": "400001",
+          "normalized_order": "right to left",
+          "tokens": [
+            {
+              "id": "M328",
+              "kind": "identified_sign",
+              "doubtful_asterisk_observed": false
+            },
+            {
+              "id": "M053",
+              "kind": "identified_sign",
+              "doubtful_asterisk_observed": false
+            },
+            {
+              "id": "M342",
+              "kind": "identified_sign",
+              "doubtful_asterisk_observed": false
+            }
+          ],
+          "editorial_sequence": "328-053-342",
+          "role": "M328 initial without preceding strokes",
+          "complete_line": true
+        }
+      ],
+      "note": "Plain initial U and decorated final M342 occur in the same line; do not merge their identities.",
+      "canonical_record_excerpt": {
+        "glossa_id": "GLI-IND-M77-08202",
+        "text_code_diplomatic": "+328-053-342+",
+        "raw_signs": [
+          "328",
+          "53",
+          "342"
+        ],
+        "direction": "1",
+        "inscobj": "4",
+        "_source_extra": {
+          "textnum": 8202,
+          "doc_count": 1,
+          "fs80": 0,
+          "level": "0"
+        }
+      },
+      "canonical_record_covers_reviewed_other_side": null
+    },
+    {
+      "text_reference": "4401",
+      "primary_text": {
+        "pdf_page": 121,
+        "printed_page": 110,
+        "render": {
+          "path": "results/primary_pages/m77-u-counterexample-121.png",
+          "bytes": 1126183,
+          "sha256": "da1d12b62c2911711e00b1f814fc68c6ed00c4fdef0f9546796d6164824eafbb"
+        }
+      },
+      "lines": [
+        {
+          "side_code": 1,
+          "line_code": 0,
+          "original_direction_code": 3,
+          "original_direction_label": "only sign in line",
+          "printed_metadata_code": "310003",
+          "normalized_order": "right to left",
+          "tokens": [
+            {
+              "id": "M089",
+              "kind": "identified_sign",
+              "doubtful_asterisk_observed": false
+            }
+          ],
+          "editorial_sequence": "089",
+          "role": "separate side with singleton stroke-group sign",
+          "complete_line": true
+        },
+        {
+          "side_code": 2,
+          "line_code": 0,
+          "original_direction_code": 3,
+          "original_direction_label": "only sign in line",
+          "printed_metadata_code": "20003",
+          "normalized_order": "right to left",
+          "tokens": [
+            {
+              "id": "M328",
+              "kind": "identified_sign",
+              "doubtful_asterisk_observed": false
+            }
+          ],
+          "editorial_sequence": "328",
+          "role": "M328 solus",
+          "complete_line": true
+        }
+      ],
+      "note": "Plain U forms the whole side2 line. Separate side1 contains the three-stroke sign M089. Side3 code38390 has no displayed text; not recovered here. Solus is line-level, not an assertion that U is the sole sign on the object.",
+      "canonical_record_excerpt": {
+        "glossa_id": "GLI-IND-M77-04401",
+        "text_code_diplomatic": "+089+",
+        "raw_signs": [
+          "89"
+        ],
+        "direction": "3",
+        "inscobj": "3",
+        "_source_extra": {
+          "textnum": 4401,
+          "doc_count": 3,
+          "fs80": 0,
+          "level": "-7"
+        }
+      },
+      "canonical_record_covers_reviewed_other_side": false
+    },
+    {
+      "text_reference": "4639",
+      "primary_text": {
+        "pdf_page": 135,
+        "printed_page": 124,
+        "render": {
+          "path": "results/primary_pages/m77-u-counterexample-135.png",
+          "bytes": 1125207,
+          "sha256": "1739a787809dd66e73de40ed96721dbfea97d10258e7394dccab707639bd63a8"
+        }
+      },
+      "lines": [
+        {
+          "side_code": 2,
+          "line_code": 0,
+          "original_direction_code": 9,
+          "original_direction_label": "doubtful",
+          "printed_metadata_code": "20009",
+          "normalized_order": "right to left",
+          "tokens": [
+            {
+              "id": null,
+              "kind": "unknown_span",
+              "minimum_signs": 1,
+              "maximum_signs": null
+            },
+            {
+              "id": "M328",
+              "kind": "identified_sign",
+              "doubtful_asterisk_observed": false
+            }
+          ],
+          "editorial_sequence": "000-328",
+          "role": "M328 adjacent to damaged preceding edge",
+          "complete_line": false
+        }
+      ],
+      "note": "Hatching precedes surviving U in normalized reading order. No preceding stroke count can be recovered; original direction is doubtful.",
+      "canonical_record_excerpt": {
+        "glossa_id": "GLI-IND-M77-04639",
+        "text_code_diplomatic": "+000-176+",
+        "raw_signs": [
+          "0",
+          "176"
+        ],
+        "direction": "9",
+        "inscobj": "2",
+        "_source_extra": {
+          "textnum": 4639,
+          "doc_count": 2,
+          "fs80": 0,
+          "level": "-3"
+        }
+      },
+      "canonical_record_covers_reviewed_other_side": false
+    },
+    {
+      "text_reference": "5456",
+      "primary_text": {
+        "pdf_page": 154,
+        "printed_page": 143,
+        "render": {
+          "path": "results/primary_pages/m77-u-counterexample-154.png",
+          "bytes": 1170554,
+          "sha256": "178de9c0a38c52cb56f1b17d73a8aee452797d044f78fcd486fd8949af2ac45f"
+        }
+      },
+      "lines": [
+        {
+          "side_code": 2,
+          "line_code": 0,
+          "original_direction_code": 9,
+          "original_direction_label": "doubtful",
+          "printed_metadata_code": "20009",
+          "normalized_order": "right to left",
+          "tokens": [
+            {
+              "id": null,
+              "kind": "unknown_span",
+              "minimum_signs": 1,
+              "maximum_signs": null
+            },
+            {
+              "id": "M328",
+              "kind": "identified_sign",
+              "doubtful_asterisk_observed": false
+            }
+          ],
+          "editorial_sequence": "000-328",
+          "role": "M328 adjacent to damaged preceding edge",
+          "complete_line": false
+        }
+      ],
+      "note": "Same unknown-span limit. Side1 direction2 in canonical data must not be projected onto side2, whose own printed direction is9.",
+      "canonical_record_excerpt": {
+        "glossa_id": "GLI-IND-M77-05456",
+        "text_code_diplomatic": "+000-342-176+",
+        "raw_signs": [
+          "0",
+          "342",
+          "176"
+        ],
+        "direction": "2",
+        "inscobj": "3",
+        "_source_extra": {
+          "textnum": 5456,
+          "doc_count": 2,
+          "fs80": 0,
+          "level": "0"
+        }
+      },
+      "canonical_record_covers_reviewed_other_side": false
+    },
+    {
+      "text_reference": "4373",
+      "primary_text": {
+        "pdf_page": 121,
+        "printed_page": 110,
+        "render": {
+          "path": "results/primary_pages/m77-u-counterexample-121.png",
+          "bytes": 1126183,
+          "sha256": "da1d12b62c2911711e00b1f814fc68c6ed00c4fdef0f9546796d6164824eafbb"
+        }
+      },
+      "lines": [
+        {
+          "side_code": 1,
+          "line_code": 0,
+          "original_direction_code": 1,
+          "original_direction_label": "right to left",
+          "printed_metadata_code": "210001",
+          "normalized_order": "right to left",
+          "tokens": [
+            {
+              "id": "M067",
+              "kind": "identified_sign",
+              "doubtful_asterisk_observed": false
+            },
+            {
+              "id": "M072",
+              "kind": "identified_sign",
+              "doubtful_asterisk_observed": false
+            },
+            {
+              "id": "M342",
+              "kind": "identified_sign",
+              "doubtful_asterisk_observed": false
+            },
+            {
+              "id": "M388",
+              "kind": "identified_sign",
+              "doubtful_asterisk_observed": false
+            },
+            {
+              "id": "M176",
+              "kind": "identified_sign",
+              "doubtful_asterisk_observed": false
+            }
+          ],
+          "editorial_sequence": "067-072-342-388-176",
+          "role": "matched main line",
+          "complete_line": true
+        },
+        {
+          "side_code": 2,
+          "line_code": 0,
+          "original_direction_code": 1,
+          "original_direction_label": "right to left",
+          "printed_metadata_code": "20001",
+          "normalized_order": "right to left",
+          "tokens": [
+            {
+              "id": "M089",
+              "kind": "identified_sign",
+              "doubtful_asterisk_observed": false
+            },
+            {
+              "id": "M328",
+              "kind": "identified_sign",
+              "doubtful_asterisk_observed": false
+            }
+          ],
+          "editorial_sequence": "089-328",
+          "role": "paired other-side line",
+          "complete_line": true
+        }
+      ],
+      "note": "Three long strokes precede plain U; matches4702, not a stroke-count contrast.",
+      "canonical_record_excerpt": {
+        "glossa_id": "GLI-IND-M77-04373",
+        "text_code_diplomatic": "+067-072-342-388-176+",
+        "raw_signs": [
+          "67",
+          "72",
+          "342",
+          "388",
+          "176"
+        ],
+        "direction": "1",
+        "inscobj": "2",
+        "_source_extra": {
+          "textnum": 4373,
+          "doc_count": 2,
+          "fs80": 0,
+          "level": "0"
+        }
+      },
+      "canonical_record_covers_reviewed_other_side": false
+    },
+    {
+      "text_reference": "4702",
+      "primary_text": {
+        "pdf_page": 138,
+        "printed_page": 127,
+        "render": {
+          "path": "results/primary_pages/m77-u-counterexample-138.png",
+          "bytes": 1163771,
+          "sha256": "c6fed93ad8ce6c2ddde2cd61b3551b149efb9cc824b994c69f96feefe7416b07"
+        }
+      },
+      "lines": [
+        {
+          "side_code": 1,
+          "line_code": 0,
+          "original_direction_code": 1,
+          "original_direction_label": "right to left",
+          "printed_metadata_code": "210001",
+          "normalized_order": "right to left",
+          "tokens": [
+            {
+              "id": "M067",
+              "kind": "identified_sign",
+              "doubtful_asterisk_observed": false
+            },
+            {
+              "id": "M072",
+              "kind": "identified_sign",
+              "doubtful_asterisk_observed": false
+            },
+            {
+              "id": "M342",
+              "kind": "identified_sign",
+              "doubtful_asterisk_observed": false
+            },
+            {
+              "id": "M388",
+              "kind": "identified_sign",
+              "doubtful_asterisk_observed": false
+            },
+            {
+              "id": "M176",
+              "kind": "identified_sign",
+              "doubtful_asterisk_observed": false
+            }
+          ],
+          "editorial_sequence": "067-072-342-388-176",
+          "role": "matched main line",
+          "complete_line": true
+        },
+        {
+          "side_code": 2,
+          "line_code": 0,
+          "original_direction_code": 1,
+          "original_direction_label": "right to left",
+          "printed_metadata_code": "20001",
+          "normalized_order": "right to left",
+          "tokens": [
+            {
+              "id": "M089",
+              "kind": "identified_sign",
+              "doubtful_asterisk_observed": false
+            },
+            {
+              "id": "M328",
+              "kind": "identified_sign",
+              "doubtful_asterisk_observed": false
+            }
+          ],
+          "editorial_sequence": "089-328",
+          "role": "paired other-side line",
+          "complete_line": true
+        }
+      ],
+      "note": "Three long strokes precede plain U; matches4373.",
+      "canonical_record_excerpt": {
+        "glossa_id": "GLI-IND-M77-04702",
+        "text_code_diplomatic": "+067-072-342-388-176+",
+        "raw_signs": [
+          "67",
+          "72",
+          "342",
+          "388",
+          "176"
+        ],
+        "direction": "1",
+        "inscobj": "2",
+        "_source_extra": {
+          "textnum": 4702,
+          "doc_count": 2,
+          "fs80": 0,
+          "level": "-4"
+        }
+      },
+      "canonical_record_covers_reviewed_other_side": false
+    },
+    {
+      "text_reference": "5461",
+      "primary_text": {
+        "pdf_page": 154,
+        "printed_page": 143,
+        "render": {
+          "path": "results/primary_pages/m77-u-counterexample-154.png",
+          "bytes": 1170554,
+          "sha256": "178de9c0a38c52cb56f1b17d73a8aee452797d044f78fcd486fd8949af2ac45f"
+        }
+      },
+      "lines": [
+        {
+          "side_code": 2,
+          "line_code": 0,
+          "original_direction_code": 1,
+          "original_direction_label": "right to left",
+          "printed_metadata_code": "20001",
+          "normalized_order": "right to left",
+          "tokens": [
+            {
+              "id": "M095",
+              "kind": "identified_sign",
+              "doubtful_asterisk_observed": false
+            },
+            {
+              "id": "M328",
+              "kind": "identified_sign",
+              "doubtful_asterisk_observed": false
+            },
+            {
+              "id": "M059",
+              "kind": "identified_sign",
+              "doubtful_asterisk_observed": false
+            }
+          ],
+          "editorial_sequence": "095-328-059",
+          "role": "M328 medial in a side-line that appears among U-final examples",
+          "complete_line": true
+        }
+      ],
+      "note": "Four long strokes, plain U, plain fish-shaped M059. The extra final glyph makes U medial, even on the concordance page containing many stroke+U endings.",
+      "canonical_record_excerpt": {
+        "glossa_id": "GLI-IND-M77-05461",
+        "text_code_diplomatic": "+173-059-347-342-176+",
+        "raw_signs": [
+          "173",
+          "59",
+          "347",
+          "342",
+          "176"
+        ],
+        "direction": "1",
+        "inscobj": "3",
+        "_source_extra": {
+          "textnum": 5461,
+          "doc_count": 2,
+          "fs80": 0,
+          "level": "-6"
+        }
+      },
+      "canonical_record_covers_reviewed_other_side": false
+    }
+  ],
+  "paired_comparison": {
+    "references": [
+      "4373",
+      "4702"
+    ],
+    "concordance_pdf_page": 626,
+    "concordance_printed_page": 615,
+    "concordance_render": {
+      "path": "results/primary_pages/m77-position-626.png",
+      "bytes": 1475180,
+      "sha256": "b4c6d6c542c11c795e22469e38419039e7b7406dbc4b618076897777f754867d"
+    },
+    "detail_render": {
+      "path": "results/primary_pages/m77-u-counterexample-pair-detail.png",
+      "bytes": 178400,
+      "sha256": "ce425d458b815607def51280ff4abdebafbf508c07d646c7ec7d3c1887e124e8"
+    },
+    "main_sequence_both": "067-072-342-388-176",
+    "other_side_sequence_both": "089-328",
+    "visible_long_strokes_before_U": {
+      "4373": 3,
+      "4702": 3
+    },
+    "same_main_text": true,
+    "different_stroke_count": false,
+    "interpretation": "This requested pair repeats both lines. It gives no stroke-count variation and must not be used as a contrast proving quantity."
+  },
+  "metadata_followup": [
+    {
+      "reference": "4509",
+      "primary_text": {
+        "pdf_page": 128,
+        "printed_page": 117,
+        "render": {
+          "path": "results/primary_pages/m77-u-counterexample-128.png",
+          "bytes": 1083107,
+          "sha256": "febdc38ee5b8f3253131fcbc3fbd98ae1e45aa7f27f9ead25376cec91b3c557d"
+        }
+      },
+      "type_code": 3,
+      "type_label": "miniature tablet",
+      "side1_metadata": "310001",
+      "side2_metadata": "20001",
+      "side1_direction": 1,
+      "side2_direction": 1,
+      "side1_line": 0,
+      "side2_line": 0,
+      "field_symbol_both": "00",
+      "side2_visual_stroke_count": 3,
+      "scope": "Original metadata, main printed glyph sequence and other-side stroke count independently visually checked; no phonetic or numeric values assigned.",
+      "main_sequence": "048-342-176",
+      "side2_sequence": "089-328"
+    },
+    {
+      "reference": "4548",
+      "primary_text": {
+        "pdf_page": 130,
+        "printed_page": 119,
+        "render": {
+          "path": "results/primary_pages/m77-u-counterexample-130.png",
+          "bytes": 1174520,
+          "sha256": "142493e967187c1d6a867e1e9352434943aade5c335da8cc9f1c3346907eac3e"
+        }
+      },
+      "type_code": 3,
+      "type_label": "miniature tablet",
+      "side1_metadata": "310001",
+      "side2_metadata": "20001",
+      "side1_direction": 1,
+      "side2_direction": 1,
+      "side1_line": 0,
+      "side2_line": 0,
+      "field_symbol_both": "00",
+      "side2_visual_stroke_count": 2,
+      "scope": "Original metadata, main printed glyph sequence and other-side stroke count independently visually checked; no phonetic or numeric values assigned.",
+      "main_sequence": "048-342-176",
+      "side2_sequence": "087-328"
+    },
+    {
+      "reference": "4508",
+      "primary_text": {
+        "pdf_page": 128,
+        "printed_page": 117,
+        "render": {
+          "path": "results/primary_pages/m77-u-counterexample-128.png",
+          "bytes": 1083107,
+          "sha256": "febdc38ee5b8f3253131fcbc3fbd98ae1e45aa7f27f9ead25376cec91b3c557d"
+        }
+      },
+      "type_code": 3,
+      "type_label": "miniature tablet",
+      "side1_metadata": "310001",
+      "side2_metadata": "20001",
+      "side1_direction": 1,
+      "side2_direction": 1,
+      "side1_line": 0,
+      "side2_line": 0,
+      "field_symbol_both": "00",
+      "side2_visual_stroke_count": 4,
+      "scope": "Original metadata, main printed glyph sequence and other-side stroke count independently visually checked; no phonetic or numeric values assigned.",
+      "main_sequence": "048-342-176",
+      "side2_sequence": "095-328"
+    }
+  ],
+  "identity_checks": {
+    "M328": "Plain open U, without extra internal marks or terminal decorations; explicitly labelled328 on Sign List printed34/PDF45.",
+    "M329": "U with short interior top strokes; initial glyph of1206.",
+    "M342": "U with outward end ticks; distinct from plainU in8202 and the paired main texts.",
+    "M095": "Four full-height vertical strokes, not short strokes.",
+    "M089": "Three full-height vertical strokes.",
+    "M059": "Plain fish-shaped sign in5461side2; no diagonal interior stroke of M072."
+  },
+  "identity_sources": [
+    {
+      "path": "results/primary_pages/sign_list-045.png",
+      "bytes": 2312636,
+      "sha256": "972002b288ea77921dcacfe67386dbf585b76be6bca5444b7ff9422e47e70b89"
+    },
+    {
+      "path": "results/primary_pages/sign_list-046.png",
+      "bytes": 2099531,
+      "sha256": "a191e9297a6ab8b7cad1028eaeac062b4b6fa3cd34aefbdd507f669d736d2e8e"
+    }
+  ],
+  "supplied_glyphs": [
+    {
+      "path": "IM_417_150_PNG/2.png",
+      "bytes": 1992,
+      "sha256": "1274e95bd37b08a3d9c4129af8be0c59d1f1c541b842eb4109d093a5ca1feba8"
+    },
+    {
+      "path": "IM_417_150_PNG/12.png",
+      "bytes": 2745,
+      "sha256": "2ea8b9133ce8e48c008ca85d0d070c079dced549308a6f8761af689083075b55"
+    },
+    {
+      "path": "IM_417_150_PNG/53.png",
+      "bytes": 1974,
+      "sha256": "cbf22588cc6ea901f29bbcb81fdec5ea0fa2aa02257f4a079c5e97a7100e0958"
+    },
+    {
+      "path": "IM_417_150_PNG/59.png",
+      "bytes": 1510,
+      "sha256": "1f3f2bacc936ac89ff3948bb3a4aaf8a4052edc17e75f3b329c03ba056601e54"
+    },
+    {
+      "path": "IM_417_150_PNG/67.png",
+      "bytes": 1664,
+      "sha256": "d7d6e0244381afc04a86871ac91f7d734c89e7247c8fd4ccf23cde381548adb7"
+    },
+    {
+      "path": "IM_417_150_PNG/72.png",
+      "bytes": 1634,
+      "sha256": "a2b971409f28b4a38b8498de2f8bff257bfcea96e63be140680953910fdbfc3b"
+    },
+    {
+      "path": "IM_417_150_PNG/89.png",
+      "bytes": 1465,
+      "sha256": "9f2774ac3b3689305af94d5f1640c944b8941be2107e47322d5ef8f0ff41a402"
+    },
+    {
+      "path": "IM_417_150_PNG/95.png",
+      "bytes": 1948,
+      "sha256": "829c0ed78f9ad8407a97f662f2112bb357154fa0e971ed131eb5924a7650c2b9"
+    },
+    {
+      "path": "IM_417_150_PNG/176.png",
+      "bytes": 905,
+      "sha256": "566afb1f181ee697fb8092d67f4935eb83108833ad850ea58408a598f5496d6b"
+    },
+    {
+      "path": "IM_417_150_PNG/212.png",
+      "bytes": 1541,
+      "sha256": "d6d14cccfbb5b4e4b595d9c0996b6688482f387b90e49ee529bf12e9043a8fc1"
+    },
+    {
+      "path": "IM_417_150_PNG/307.png",
+      "bytes": 1685,
+      "sha256": "f02479caa60b267712039233fa579197db25116d14bc1efaa3461d6d07c5d459"
+    },
+    {
+      "path": "IM_417_150_PNG/328.png",
+      "bytes": 1273,
+      "sha256": "f349474f4c20682cdbc359fbe1aa6a06d325163d14e359b4d41c14fcaef0d82b"
+    },
+    {
+      "path": "IM_417_150_PNG/329.png",
+      "bytes": 1521,
+      "sha256": "a7bc67049311c4d05159c393cde0bce80680f13845fe79c5a38d7c77b3cba7b4"
+    },
+    {
+      "path": "IM_417_150_PNG/342.png",
+      "bytes": 1426,
+      "sha256": "be577acc0d46e60056b2d867d718e3ae99df64cdd3342e7ce6e61892750f3538"
+    },
+    {
+      "path": "IM_417_150_PNG/388.png",
+      "bytes": 2542,
+      "sha256": "7f576ccd2cc6023c636792d31eedddb10e63c61d7cc2f3f72edcf53ab2189452"
+    },
+    {
+      "path": "IM_417_150_PNG/48.png",
+      "bytes": 1744,
+      "sha256": "f1c15475d4b1fc1d2aede7728324f6574e78694ce61eb75db5c562b86b15fd8b"
+    },
+    {
+      "path": "IM_417_150_PNG/87.png",
+      "bytes": 1056,
+      "sha256": "31ddbfc3fadd792ba2199c0d3c21524da1d2e9ea020bba442e34fb67364b198a"
+    }
+  ],
+  "other_reviewed_images": [
+    {
+      "path": "results/primary_pages/m77-position-final-575.png",
+      "bytes": 1220088,
+      "sha256": "292316d0334ff3fbd2995b533bd78c8776f99262006a8b75095b860e8105b8bb"
+    },
+    {
+      "path": "results/primary_pages/m77-position-final-592.png",
+      "bytes": 1092001,
+      "sha256": "7ca656dfc25231db3a5d47a236a596227afdeed89a9fc850f3adb04692a1219c"
+    },
+    {
+      "path": "results/primary_pages/m77-u-counterexample-576.png",
+      "bytes": 1148839,
+      "sha256": "326ed1efb9ae747e605655fa16a80d25fbecab0b3e214e54ae393cf2630fa98c"
+    },
+    {
+      "path": "results/primary_pages/m77-u-counterexample-593.png",
+      "bytes": 1106185,
+      "sha256": "95d8f18aa273815a2a7d8f8ebcec44ae8dbd0511b9449a6bfce96db336bfbe7d"
+    }
+  ],
+  "conclusions": {
+    "strict_universal_stroke_plus_U_line_pattern": "Contradicted: complete initialU lines, solus side-line, nonstroke predecessor and medialU exist.",
+    "every_U_is_line_final": "Contradicted by4231,8202,1532,5461.",
+    "every_U_is_preceded_in_its_line_by_a_stroke_group": "Contradicted by1206,4231,8202,4401side2.",
+    "damaged_U_as_solus_or_reconstructed_stroke_U": "Unsupported:4639/5456 have unknown preceding spans.",
+    "generic_quantity_or_measure_interpretation": "Not refuted by these syntactic counterexamples. A broader theory could use non-numeric contexts, omitted quantities or cross-side relations; it must specify those rules prospectively rather than inventing them per case.",
+    "numeric_values": "No numeric values or unit assignments authenticated; three/four here describe visible stroke counts only."
+  },
+  "limits": [
+    "Normalized published glyphs and their metadata, not photographs or artifact autopsy.",
+    "Selected cases cannot estimate population proportions or validate all canonical lines.",
+    "The source does not guarantee continuity or reading order across sides; keep them separate.",
+    "Physical object duplication/casting relations were not checked; paired references are not assumed statistically independent artifacts.",
+    "No canonical source, strict set or shared analysis was edited."
+  ],
+  "render_reproduction": {
+    "executable": "pdftoppm",
+    "arguments": "-f PAGE -l PAGE -scale-to 2200 -png -singlefile data/raw/mahadevan_1977_text.pdf results/primary_pages/m77-u-counterexample-PAGE",
+    "pair_crop": "Existing m77-position-626.png cropped to relative box[0.45,0.15,0.62,0.27], resized700x800 for legibility; preserve original full page for geometry.",
+    "trio_crop": "m77-u-counterexample-128.png cropped to relative box[0.17,0.38,0.84,0.50], resized1400x550 for legibility."
+  },
+  "counts": {
+    "selected_references": 10,
+    "reviewed_lines": 13,
+    "complete_lines": 11,
+    "identified_sign_positions": 33,
+    "unknown_spans": 2,
+    "metadata_only_followup_references": 0,
+    "additional_paired_trio_references": 3,
+    "additional_trio_complete_lines": 6,
+    "additional_trio_identified_sign_positions": 15
+  },
+  "variable_stroke_trio": {
+    "references": [
+      "4548",
+      "4509",
+      "4508"
+    ],
+    "main_sequence_both_sides_comparison": "All three side1 lines are048-342-176.",
+    "side2_sequences": {
+      "4548": "087-328",
+      "4509": "089-328",
+      "4508": "095-328"
+    },
+    "stroke_counts": {
+      "4548": 2,
+      "4509": 3,
+      "4508": 4
+    },
+    "same_type_code": 3,
+    "same_original_direction_on_each_side": 1,
+    "same_side_and_line_structure": true,
+    "interpretation": "Three visible stroke-count states occur with matching main text, object type and direction. This is positive evidence for a variable stroke-group slot associated with U, compatible with quantity hypotheses; it does not identify the semantic unit or numeric values.",
+    "crop": {
+      "path": "results/primary_pages/m77-u-counterexample-4508-4509-detail.png",
+      "bytes": 220098,
+      "sha256": "1abd9d94c197d90ccdf6ae2758c5239f2e1ae09cab615165cde1054267297fc6"
+    }
+  }
+}

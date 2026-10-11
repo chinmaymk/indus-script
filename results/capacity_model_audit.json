@@ -1,0 +1,387 @@
+{
+  "input_hashes": {
+    "data/processed/capacity_primary_review.json": "95ddd8abfb06e67fae5df3264a6f93a26f2193320c5ba64e03bc348b87cd3818",
+    "data/processed/capacity_table_followup.json": "15a8bc4e1dfaa3a98d80ffc49eef40f4e0aef312bd96631fa7a1dcfa8689b129"
+  },
+  "limits": [
+    "Three selected pots; geometry alternatives share measurements.",
+    "Leave-one-out does not undo prior source/hypothesis selection.",
+    "Permutation ranks are descriptive, not confirmatory p-values.",
+    "External vessels appeared in the same publication; not blind predictions.",
+    "Model disagreement is not a calibrated measurement confidence interval.",
+    "Excavation-number conflict unresolved; no measurements reassigned.",
+    "No phonetic value, universal volume unit, commodity or absolute stroke value established."
+  ],
+  "models": {
+    "ellipsoid": {
+      "all_six_permutations": [
+        {
+          "counts": [
+            3,
+            6,
+            7
+          ],
+          "sse": 194.0292553191496
+        },
+        {
+          "counts": [
+            3,
+            7,
+            6
+          ],
+          "sse": 2141.3305319148935
+        },
+        {
+          "counts": [
+            6,
+            3,
+            7
+          ],
+          "sse": 33144.67829787235
+        },
+        {
+          "counts": [
+            6,
+            7,
+            3
+          ],
+          "sse": 40017.399999999994
+        },
+        {
+          "counts": [
+            7,
+            3,
+            6
+          ],
+          "sse": 44956.11436170213
+        },
+        {
+          "counts": [
+            7,
+            6,
+            3
+          ],
+          "sse": 49881.53478723404
+        }
+      ],
+      "capacities_litres": [
+        118.8,
+        259.1,
+        282.7
+      ],
+      "leave_one_out": [
+        {
+          "index": 0,
+          "observed_model_litres": 118.8,
+          "prediction_litres": 124.71176470588236,
+          "relative_prediction_error": 0.049762329174093956,
+          "training_unit": 41.57058823529412
+        },
+        {
+          "index": 1,
+          "observed_model_litres": 259.1,
+          "prediction_litres": 241.58275862068962,
+          "relative_prediction_error": -0.06760803311196605,
+          "training_unit": 40.26379310344827
+        },
+        {
+          "index": 2,
+          "observed_model_litres": 282.7,
+          "prediction_litres": 297.26666666666665,
+          "relative_prediction_error": 0.05152694257752622,
+          "training_unit": 42.46666666666667
+        }
+      ],
+      "litres_per_stroke": 41.38191489361702,
+      "litres_per_stroke_each": [
+        39.6,
+        43.18333333333334,
+        40.385714285714286
+      ],
+      "permutation_rank": 1,
+      "relative_residuals": [
+        -0.04499785084891473,
+        0.04171559489887259,
+        -0.024667153361581772
+      ],
+      "residuals_litres": [
+        -5.34574468085107,
+        10.80851063829789,
+        -6.973404255319167
+      ],
+      "sse": 194.0292553191496
+    },
+    "profile": {
+      "all_six_permutations": [
+        {
+          "counts": [
+            3,
+            6,
+            7
+          ],
+          "sse": 4.074042553191436
+        },
+        {
+          "counts": [
+            3,
+            7,
+            6
+          ],
+          "sse": 3470.7361702127664
+        },
+        {
+          "counts": [
+            6,
+            3,
+            7
+          ],
+          "sse": 27591.977021276594
+        },
+        {
+          "counts": [
+            6,
+            7,
+            3
+          ],
+          "sse": 39901.21957446809
+        },
+        {
+          "counts": [
+            7,
+            3,
+            6
+          ],
+          "sse": 39206.19829787234
+        },
+        {
+          "counts": [
+            7,
+            6,
+            3
+          ],
+          "sse": 48048.77872340426
+        }
+      ],
+      "capacities_litres": [
+        121.0,
+        240.6,
+        283.8
+      ],
+      "leave_one_out": [
+        {
+          "index": 0,
+          "observed_model_litres": 121.0,
+          "prediction_litres": 121.06588235294117,
+          "relative_prediction_error": 0.0005444822557121768,
+          "training_unit": 40.355294117647055
+        },
+        {
+          "index": 1,
+          "observed_model_litres": 240.6,
+          "prediction_litres": 243.0620689655173,
+          "relative_prediction_error": 0.010233038094419443,
+          "training_unit": 40.510344827586216
+        },
+        {
+          "index": 2,
+          "observed_model_litres": 283.8,
+          "prediction_litres": 281.02666666666664,
+          "relative_prediction_error": -0.00977214000469827,
+          "training_unit": 40.14666666666666
+        }
+      ],
+      "litres_per_stroke": 40.3531914893617,
+      "litres_per_stroke_each": [
+        40.333333333333336,
+        40.1,
+        40.542857142857144
+      ],
+      "permutation_rank": 1,
+      "relative_residuals": [
+        -0.0004923509759098222,
+        -0.00631400222847125,
+        0.00467815212990874
+      ],
+      "residuals_litres": [
+        -0.05957446808508848,
+        -1.5191489361701827,
+        1.3276595744681003
+      ],
+      "sse": 4.074042553191436
+    },
+    "sphere": {
+      "all_six_permutations": [
+        {
+          "counts": [
+            3,
+            6,
+            7
+          ],
+          "sse": 5.050531914893547
+        },
+        {
+          "counts": [
+            3,
+            7,
+            6
+          ],
+          "sse": 3664.4343617021295
+        },
+        {
+          "counts": [
+            6,
+            3,
+            7
+          ],
+          "sse": 29754.76212765957
+        },
+        {
+          "counts": [
+            6,
+            7,
+            3
+          ],
+          "sse": 42731.12978723403
+        },
+        {
+          "counts": [
+            7,
+            3,
+            6
+          ],
+          "sse": 42194.16968085106
+        },
+        {
+          "counts": [
+            7,
+            6,
+            3
+          ],
+          "sse": 51511.15351063829
+        }
+      ],
+      "capacities_litres": [
+        123.6,
+        248.7,
+        292.9
+      ],
+      "leave_one_out": [
+        {
+          "index": 0,
+          "observed_model_litres": 123.6,
+          "prediction_litres": 125.02941176470587,
+          "relative_prediction_error": 0.011564820102798346,
+          "training_unit": 41.67647058823529
+        },
+        {
+          "index": 1,
+          "observed_model_litres": 248.7,
+          "prediction_litres": 250.4586206896551,
+          "relative_prediction_error": 0.007071253275653871,
+          "training_unit": 41.74310344827585
+        },
+        {
+          "index": 2,
+          "observed_model_litres": 292.9,
+          "prediction_litres": 289.79999999999995,
+          "relative_prediction_error": -0.010583817002389972,
+          "training_unit": 41.39999999999999
+        }
+      ],
+      "litres_per_stroke": 41.63085106382978,
+      "litres_per_stroke_each": [
+        41.199999999999996,
+        41.449999999999996,
+        41.84285714285714
+      ],
+      "permutation_rank": 1,
+      "relative_residuals": [
+        -0.010457550092955882,
+        -0.004363113723275809,
+        0.005066720905399455
+      ],
+      "residuals_litres": [
+        -1.2925531914893469,
+        -1.0851063829786938,
+        1.4840425531915002
+      ],
+      "sse": 5.050531914893547
+    }
+  },
+  "objects": [
+    "H-372",
+    "H-371",
+    "H-370"
+  ],
+  "status": "Conditional on provisional public-text Table2 transcription and CISI-number identity",
+  "stroke_counts": [
+    3,
+    6,
+    7
+  ],
+  "transfer_without_refitting": [
+    {
+      "count_assumption": "Four rim strokes reported in Fuls section3.2/Table3; later Kenoyer drawing review provisionally supports four, with three as sensitivity. Separate profile trace saved in h95_profile_volume.json; this row retains the Fuls88.3L value.",
+      "litres_per_stroke": 22.075,
+      "object": "H95-2661",
+      "predictions": {
+        "ellipsoid": {
+          "prediction_litres": 165.5276595744681,
+          "relative_prediction_error": 0.8746054311944291
+        },
+        "profile": {
+          "prediction_litres": 161.4127659574468,
+          "relative_prediction_error": 0.8280041444784462
+        },
+        "sphere": {
+          "prediction_litres": 166.52340425531912,
+          "relative_prediction_error": 0.8858822678971588
+        }
+      },
+      "reported_count": 4,
+      "reported_model_capacity_litres": 88.3
+    },
+    {
+      "count_assumption": "Three vertical plus three slanted strokes counted equally, conditionally; original profile not inspected.",
+      "litres_per_stroke": 23.14,
+      "object": "MD-1374",
+      "predictions": {
+        "ellipsoid": {
+          "prediction_litres": 248.29148936170213,
+          "relative_prediction_error": 0.7883282149359128
+        },
+        "profile": {
+          "prediction_litres": 242.11914893617018,
+          "relative_prediction_error": 0.7438717151841701
+        },
+        "sphere": {
+          "prediction_litres": 249.78510638297868,
+          "relative_prediction_error": 0.7990860442450207
+        }
+      },
+      "reported_count": 6,
+      "reported_model_capacity_litres": 138.84
+    },
+    {
+      "count_assumption": "Two rim strokes visually checked; 30cm bar length not authenticated.",
+      "litres_per_stroke": 51.5,
+      "object": "K-90",
+      "predictions": {
+        "ellipsoid": {
+          "prediction_litres": 82.76382978723404,
+          "relative_prediction_error": -0.19646767196860151
+        },
+        "profile": {
+          "prediction_litres": 80.7063829787234,
+          "relative_prediction_error": -0.21644288370171458
+        },
+        "sphere": {
+          "prediction_litres": 83.26170212765956,
+          "relative_prediction_error": -0.19163395992563534
+        }
+      },
+      "reported_count": 2,
+      "reported_model_capacity_litres": 103.0
+    }
+  ]
+}

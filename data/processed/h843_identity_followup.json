@@ -1,0 +1,341 @@
+{
+  "date": "2026-09-27",
+  "status": "H843_field_identity_and_primary_photographs_recovered",
+  "scope": "H843 only; H1817 unavailable; no meanings or global sign mapping",
+  "semantic_values": null,
+  "phonetic_values": null,
+  "primary_source": {
+    "title": "Corpus of Indus Seals and Inscriptions 2: Collections in Pakistan",
+    "editors": [
+      "Sayid Ghulam Mustafa Shah",
+      "Asko Parpola"
+    ],
+    "year": 1991,
+    "pdf_pages": 486,
+    "archive_identifier": "corpus-vol-2_202409",
+    "distinct_from_rejected_item": "corpus-vol-2",
+    "visually_authenticated_title_pdf_page": 4
+  },
+  "identity": {
+    "cisi": "H-843",
+    "excavation": "14307",
+    "finnish_concordance": "4162",
+    "museum": "Harappa Museum",
+    "museum_number": "269",
+    "photos": [
+      "AV405",
+      "B+C: P859"
+    ],
+    "metadata_printed_page": 444,
+    "metadata_pdf_page": 479,
+    "metadata_key_printed_page": 434,
+    "metadata_key_pdf_page": 469,
+    "H843_to_14307": "primary_catalogue_authenticated",
+    "H843_to_M775326": "unresolved",
+    "14307_to_Pu63_4394_4395": "unresolved"
+  },
+  "photographs": {
+    "printed_page": 331,
+    "pdf_page": 366,
+    "labels": [
+      "H-843 A",
+      "H-843 B",
+      "H-843 C",
+      "H-843 F",
+      "H-843 B+C"
+    ],
+    "observations": [
+      "A has three visible sign groups",
+      "central comb stem on left with short right-extending strokes in published orientation; exact tooth count not asserted",
+      "rightmost glyph curved/looped with projecting branches; broad graphic consistency with numbered M054, faint stroke topology uncertain",
+      "B and C have distinct crosshatching",
+      "F shows triangular end",
+      "both ends of A retained; no large missing fragment through central/right group apparent; fine surface and illumination uncertainty remains"
+    ],
+    "not_claimed": [
+      "precise dimensions",
+      "detailed find context",
+      "all strokes intact",
+      "quantitative damage grade",
+      "same object as M775326",
+      "equivalence with H1817",
+      "semantic value"
+    ]
+  },
+  "M775326_comparison": {
+    "old_reverse": "M77 figure139, printed813/PDF822, Pu63:4395",
+    "conclusion": "Generic crosshatching is compatible but no unique resolvable damaged edge or intersection pattern proves physical identity",
+    "explicit_catalogue_join": false
+  },
+  "tested_sources": [
+    {
+      "capture": "data/raw/h843_identity_institution_search.json",
+      "request": {
+        "search_query": [
+          {
+            "q": "\"Corpus of Indus Seals and Inscriptions\" site:helda.helsinki.fi"
+          },
+          {
+            "q": "\"Corpus of Indus Seals\" site:tuhat.helsinki.fi \"Pakistan\""
+          },
+          {
+            "q": "\"Corpus of Indus Seals\" site:ignca.gov.in"
+          },
+          {
+            "q": "Archaeological Survey India photographic albums Punjab digitized"
+          }
+        ],
+        "response_length": "long"
+      }
+    },
+    {
+      "capture": "data/raw/h843_identity_catalogues_capture.json",
+      "request": {
+        "open": [
+          {
+            "ref_id": "https://www.harappa.com/content/introduction-discovery-harappa"
+          },
+          {
+            "ref_id": "https://lahorefortarchives.com/catalogues/"
+          },
+          {
+            "ref_id": "https://data.nationallibrary.fi/bib/me/W00003846100"
+          }
+        ],
+        "response_length": "long"
+      }
+    },
+    {
+      "capture": "data/raw/h843_identity_photo_catalogue_search.json",
+      "request": {
+        "click": [
+          {
+            "ref_id": "turn424view0",
+            "id": 9
+          }
+        ],
+        "search_query": [
+          {
+            "q": "site:harappa.com \"4395\""
+          },
+          {
+            "q": "site:harappa.com \"14307\""
+          },
+          {
+            "q": "site:searcharchives.bl.uk \"Harappa\" \"seals\""
+          },
+          {
+            "q": "site:tuhat.helsinki.fi/en/publications/ \"Collections in Pakistan\""
+          }
+        ],
+        "response_length": "long"
+      }
+    }
+  ],
+  "research_outcomes": [
+    {
+      "source": "Helsinki repositories and IGNCA",
+      "result": "citations and already-known volume1 only"
+    },
+    {
+      "source": "Harappa original-photograph project, exact14307/4395 searches",
+      "result": "no target inventory join obtained"
+    },
+    {
+      "source": "British Library Photo685 catalogue",
+      "result": "seal catalogue locators but no14307/Pu63 bridge or accessible target photo"
+    },
+    {
+      "source": "https://lahorefortarchives.com/catalogues/",
+      "result": "web fetch content-size limit exceeded"
+    },
+    {
+      "source": "https://data.nationallibrary.fi/bib/me/W00003846100",
+      "result": "web cache miss"
+    },
+    {
+      "source": "Archive exact-title API",
+      "result": "new distinct full volume2 successfully downloaded and authenticated"
+    }
+  ],
+  "ocr_limitation": "Native PDF text extraction unhelpful; companion multilingual OCR locatesH843 photo but not14307; no identity claim based solely on OCR",
+  "reproduction": {
+    "crop_script": "scripts/render_h843_identity_crops.py",
+    "download_script": "scripts/download_h843_followup_sources.py",
+    "source_registry": "data/processed/h843_identity_new_sources.json",
+    "central_registry_edited": false,
+    "raw_downloads_same_folder": true
+  },
+  "evidence_files": [
+    {
+      "path": "data/raw/h843_identity_archive_search.json",
+      "bytes": 2792,
+      "sha256": "4770b3638e690ca81c4a9e433828322064ee0056fead97d42c82366fc1af87fd"
+    },
+    {
+      "path": "data/raw/h843_identity_cisi2_archive_metadata.json",
+      "bytes": 7632,
+      "sha256": "1eedc89c227a4d52e25ee81a42628d6dd3b889d72d537ddad87fc35e9bb174f3"
+    },
+    {
+      "path": "data/raw/h843_identity_CorpusVol2.pdf",
+      "bytes": 35870617,
+      "sha256": "727132579a485ee626e48a64c663148a85fbc0811fb523818fd615231f8a327d"
+    },
+    {
+      "path": "data/raw/h843_identity_CorpusVol2_djvu.txt",
+      "bytes": 218644,
+      "sha256": "ae797e9bc4bed1993e6997030a62bcbb5e0b2900ca8812e5ab3f392915c0abf9"
+    },
+    {
+      "path": "data/raw/h843_identity_CorpusVol2_page_numbers.json",
+      "bytes": 82243,
+      "sha256": "b9d830c105852e4ea817aa46c014e70008319bbc195b81c5b814dc5ada8c2030"
+    },
+    {
+      "path": "data/raw/h843_identity_institution_search.json",
+      "bytes": 34688,
+      "sha256": "ca22b5177205dda62219d4edbe84ea5459387866d4f9ad9ced26f41342c29f8b"
+    },
+    {
+      "path": "data/raw/h843_identity_catalogues_capture.json",
+      "bytes": 12051,
+      "sha256": "6388c40967be22539bdfc36c256c9581256b3fd52c08dea15fdf5f7354691000"
+    },
+    {
+      "path": "data/raw/h843_identity_photo_catalogue_search.json",
+      "bytes": 30097,
+      "sha256": "ba6c73d862e6bb83a2225aa157330a389fc8cceaa733fa84be48f84155b85a2f"
+    },
+    {
+      "path": "data/processed/h843_identity_new_sources.json",
+      "bytes": 11041,
+      "sha256": "a20b9bbe581ba91eff7b1af6346ce4aeae706e4023952a9b4acd97571cd1270f"
+    },
+    {
+      "path": "docs/H843_IDENTITY_FOLLOWUP.md",
+      "bytes": 8164,
+      "sha256": "81a52c59b81d3d50a85a8261ed95bafccaaf5776f49094642fc91fd82b49404b"
+    },
+    {
+      "path": "scripts/download_h843_followup_sources.py",
+      "bytes": 810,
+      "sha256": "12fb80b360484d5945e7ec662a3578daeca1e2530da7a0a274877cb176b8d879"
+    },
+    {
+      "path": "scripts/render_h843_identity_crops.py",
+      "bytes": 642,
+      "sha256": "437682cff344e67e4e568550ff0c35e9b1eb81b8ff45e2df704c5c9e884d4cd4"
+    },
+    {
+      "path": "scripts/inspect_research_pdf.py",
+      "bytes": 2775,
+      "sha256": "15e90b9cd0e00cd67991eeb50cb83599e1ae75825c8a39fb9ec16cea1c22bc03"
+    },
+    {
+      "path": "docs/COMB_TABLET_PRIMARY_REVIEW.md",
+      "bytes": 8152,
+      "sha256": "34da1a2ea562933adbc20cae3818ba20d380e60fd26f46dfc20b9c56de79e028"
+    },
+    {
+      "path": "data/processed/comb_tablet_primary_review.json",
+      "bytes": 9243,
+      "sha256": "0d9a5c5db1c946de22c7051daad8deca5fc5fa192dece802d13972f6f5966c5c"
+    },
+    {
+      "path": "data/raw/mahadevan_1977_text.pdf",
+      "bytes": 119302608,
+      "sha256": "6dcdd074a0174e5fab149590fbbf82342711d345764e9763f8e5e92c81cf7f99"
+    },
+    {
+      "path": "results/primary_pages/h843-cisi2-main-4.png",
+      "bytes": 1745493,
+      "sha256": "05139124bba21a9c1c114493442708f482531cae1f7c0e3a38927755789d28ae"
+    },
+    {
+      "path": "results/primary_pages/h843-cisi2-title-5.png",
+      "bytes": 468881,
+      "sha256": "897d58ea0da60b38aec806ffd0202f5617217774ffb88c7b93c011e8a63cbd72"
+    },
+    {
+      "path": "results/primary_pages/h843-cisi2-target-366.png",
+      "bytes": 3088756,
+      "sha256": "bc9a4a490efb9b0606ad57800b0af7363a704ba1b0404323f19419b444b99b3a"
+    },
+    {
+      "path": "results/primary_pages/h843-cisi2-target-479.png",
+      "bytes": 4143314,
+      "sha256": "da3402c45622f39a8401fbef8e341da28a32cce5a7796e53866909a24f90d06c"
+    },
+    {
+      "path": "results/primary_pages/h843-cisi2-key-469.png",
+      "bytes": 2283222,
+      "sha256": "7e891986c8aa4f5299101b13f80ce0fe1cd27f45e05bcd120857a7730e98884e"
+    },
+    {
+      "path": "results/primary_pages/h843-identity-h843-a.png",
+      "bytes": 161319,
+      "sha256": "a18a826aa5ad9104832d779d17e7c803eb11edbc5171484915b39880dfc7cb0a"
+    },
+    {
+      "path": "results/primary_pages/h843-identity-h843-all.png",
+      "bytes": 654241,
+      "sha256": "8c9e83c554c997e26159bbebc1bb56fc76acc60c590325aac25e04ae76a1c73b"
+    },
+    {
+      "path": "results/primary_pages/h843-identity-h843-metadata.png",
+      "bytes": 140400,
+      "sha256": "064a2c7dc002dfe5ad8e873a870d2151a9e019b36da1d83be5aa453d3ae881d3"
+    },
+    {
+      "path": "results/primary_pages/comb-tablet-m054-sign.png",
+      "bytes": 26370,
+      "sha256": "17cd90973f9bc8a172dac81ba804f8d52f00d2cdc555bdad066eba55afd5479e"
+    },
+    {
+      "path": "results/primary_pages/comb-tablet-m77-5326-text.png",
+      "bytes": 76295,
+      "sha256": "4654cb350f2631a0231e0a1da282ae90220ac7107f00e1b4342e8a037b112f6b"
+    },
+    {
+      "path": "results/primary_pages/comb-tablet-m77-5326-reverse.png",
+      "bytes": 69603,
+      "sha256": "896bcc56179fe256ad3d23abc235f11d911406dab4492173f7b3f606ac86fe96"
+    },
+    {
+      "path": "results/primary_pages/comb-tablet-m77-detail-43.png",
+      "bytes": 3281280,
+      "sha256": "ebb35d20d3f7035a6d68aa0e967a8d18ccfe5b8f4330f62a3a264a5a9b463793"
+    },
+    {
+      "path": "results/primary_pages/comb-tablet-m77-detail-821.png",
+      "bytes": 1644209,
+      "sha256": "069b99e0781969cb52a1bd62da5513db6eb73e0603884bf418a7ebcf5792d029"
+    },
+    {
+      "path": "results/primary_pages/comb-tablet-m77-822.png",
+      "bytes": 3152275,
+      "sha256": "04764b91009b31f9bcfc99d7b3290a96c5b73a7a641dad34a7319b5a10ae1ffe"
+    },
+    {
+      "path": "results/primary_pages/chain-artifact-m77-832.png",
+      "bytes": 2888406,
+      "sha256": "fb9073109c4990270759bc448726861efa49441565c3e01d8926eeac2a6c4cbb"
+    },
+    {
+      "path": "results/h843-cisi2-main_extraction.json",
+      "bytes": 392,
+      "sha256": "0cabfa306ef29ea3b3a455df886838d98e6aad1c274ff2aa0864b842d2ddb9cc"
+    },
+    {
+      "path": "results/h843-cisi2-target_extraction.json",
+      "bytes": 385,
+      "sha256": "a827417d12c8444f99ef4506646baebc9a9771eabb7e63c0e85e531ea812d642"
+    },
+    {
+      "path": "results/h843-cisi2-key_extraction.json",
+      "bytes": 393,
+      "sha256": "9db58558c2e122d332e6305e236e826f6268013318ecc71e51c3257b00a0e10d"
+    }
+  ]
+}

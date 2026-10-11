@@ -1,0 +1,3496 @@
+{
+  "review_date": "2026-09-23",
+  "source": {
+    "path": "data/raw/mahadevan_1977_text.pdf",
+    "bytes": 119302608,
+    "sha256": "6dcdd074a0174e5fab149590fbbf82342711d345764e9763f8e5e92c81cf7f99"
+  },
+  "scope": "All indexed M328-bearing lines on PDF579–581/printed568–570 only. Context lines are not additional indexed occurrences. Selected other-side sequences are recorded where confidently read.",
+  "protocol": "Visual transcription of full rendered pages and detail crops, then comparison with primary numbered sign list. No secondary export used to fill glyph identities or missing segments; parent performs canonical join independently.",
+  "sign_namespace": "Mahadevan1977",
+  "evidence": [
+    {
+      "path": "results/primary_pages/structure-u-pilot-579.png",
+      "bytes": 1458754,
+      "sha256": "b767bbdca2f7359c60b5a0a6a57e301eef50b7345bfa76a67834848c3d322f14",
+      "pdf_page": 579,
+      "printed_page": 568,
+      "visually_inspected": true
+    },
+    {
+      "path": "results/primary_pages/structure-u-pilot-580.png",
+      "bytes": 1527554,
+      "sha256": "d39ad7016fe8f09ea71efaa7837066c7be37cece464bb0e240e2b68119a86e8c",
+      "pdf_page": 580,
+      "printed_page": 569,
+      "visually_inspected": true
+    },
+    {
+      "path": "results/primary_pages/structure-u-pilot-581.png",
+      "bytes": 1410585,
+      "sha256": "0464edfe4cb055f47fbdd270a304c6128c9d2ad3ef74021fac462f0ad7a41cbf",
+      "pdf_page": 581,
+      "printed_page": 570,
+      "visually_inspected": true
+    },
+    {
+      "path": "results/primary_pages/structure-u-pilot-4446-detail.png",
+      "bytes": 258843,
+      "sha256": "3be8c2e7600ac98c80f0aa2eaba9e2e192b92a7279f113501f9503e575d2eb18",
+      "pdf_page": 580,
+      "printed_page": 569,
+      "visually_inspected": true
+    },
+    {
+      "path": "results/primary_pages/structure-u-pilot-4349-detail.png",
+      "bytes": 175792,
+      "sha256": "375d7544fc18b73c2c25ae20c31308ee4f11b6dca2734dec5b0543debaf3f472",
+      "pdf_page": 581,
+      "printed_page": 570,
+      "visually_inspected": true
+    },
+    {
+      "path": "results/primary_pages/structure-u-pilot-4559-detail.png",
+      "bytes": 112138,
+      "sha256": "f66dcbbf0bf04f5ca68dc784971c8ec5ed62aec173fcb309b3e39da465420a60",
+      "pdf_page": 581,
+      "printed_page": 570,
+      "visually_inspected": true
+    },
+    {
+      "path": "results/primary_pages/structure-u-pilot-4347-detail.png",
+      "bytes": 110946,
+      "sha256": "3ab5b9e5011396ce0973eab26e2363ffdc61d3d833da678081dd5dddc49b3f02",
+      "pdf_page": 579,
+      "printed_page": 568,
+      "visually_inspected": true
+    },
+    {
+      "path": "results/primary_pages/structure-u-pilot-5464-pair.png",
+      "bytes": 97193,
+      "sha256": "832ac7ba43c56a7e2785d87107c9da77d013b683695f6967a0196d335414f84c",
+      "pdf_page": 579,
+      "printed_page": 568,
+      "visually_inspected": true,
+      "purpose": "Independent paired-context check; PDF584 not included in three-page46-row tally"
+    },
+    {
+      "path": "results/primary_pages/structure-u-pilot-4387-pair.png",
+      "bytes": 119937,
+      "sha256": "4f7844dd55df1d328fa6256ce45850cb3d23896c3910e1c2254e5cb68601245e",
+      "pdf_page": 584,
+      "printed_page": 573,
+      "visually_inspected": true,
+      "purpose": "Independent paired-context check; PDF584 not included in three-page46-row tally"
+    },
+    {
+      "path": "results/primary_pages/parent-u-pilot-584.png",
+      "bytes": 1304416,
+      "sha256": "5f7c3fa18f17538e41cb740255df5a7c21a80b433b54f24dfd7487b6fe053959",
+      "pdf_page": 584,
+      "printed_page": 573,
+      "visually_inspected": true,
+      "purpose": "Independent paired-context check; PDF584 not included in three-page46-row tally"
+    }
+  ],
+  "glyph_authentication": [
+    {
+      "path": "results/primary_pages/sign_list_page_32.png",
+      "bytes": 982719,
+      "sha256": "1e3f91789c947add7ce796479168d84d69636ebdc378493743188ac11c53c90a",
+      "pdf_page": 43,
+      "printed_page": 32
+    },
+    {
+      "path": "results/primary_pages/sign_list-044.png",
+      "bytes": 2228064,
+      "sha256": "33eff554bfdea81af6d1a3510a5b2541d1b74b02ae1e63b253c725b44c7c0b64",
+      "pdf_page": 44,
+      "printed_page": 33
+    },
+    {
+      "path": "results/primary_pages/sign_list-045.png",
+      "bytes": 2312636,
+      "sha256": "972002b288ea77921dcacfe67386dbf585b76be6bca5444b7ff9422e47e70b89",
+      "pdf_page": 45,
+      "printed_page": 34
+    },
+    {
+      "path": "results/primary_pages/sign_list-046.png",
+      "bytes": 2099531,
+      "sha256": "a191e9297a6ab8b7cad1028eaeac062b4b6fa3cd34aefbdd507f669d736d2e8e",
+      "pdf_page": 46,
+      "printed_page": 35
+    }
+  ],
+  "rendering": {
+    "main_pages_scale_to": 3200,
+    "tool": "Poppler pdftoppm",
+    "detail_scale_to": 4800,
+    "detail_crops": {
+      "4446": {
+        "pdf_page": 580,
+        "x": 1850,
+        "y": 3030,
+        "width": 680,
+        "height": 1100
+      },
+      "4349": {
+        "pdf_page": 581,
+        "x": 2200,
+        "y": 230,
+        "width": 1000,
+        "height": 600
+      },
+      "4559": {
+        "pdf_page": 581,
+        "x": 2240,
+        "y": 3020,
+        "width": 520,
+        "height": 700
+      },
+      "4347": {
+        "pdf_page": 579,
+        "x": 2110,
+        "y": 3530,
+        "width": 630,
+        "height": 620
+      },
+      "5464_pair": {
+        "pdf_page": 579,
+        "x": 400,
+        "y": 220,
+        "width": 2380,
+        "height": 290
+      },
+      "4387_pair": {
+        "pdf_page": 584,
+        "x": 150,
+        "y": 2280,
+        "width": 2350,
+        "height": 330
+      }
+    }
+  },
+  "records": [
+    {
+      "reference": "5464",
+      "pdf_page": 579,
+      "printed_page": 568,
+      "indexed_entry_on_page": 1,
+      "row_locator": "Indexed M328 occurrence 1 of 15 on page; printed reference 5464, continuation 20",
+      "side_code": "2",
+      "line_code": "0",
+      "line_definition": "Only line on that side",
+      "printed_side_line_code": "20",
+      "concordance_reference_expanded": "546420",
+      "direction_code": null,
+      "direction_note": "Concordance reference encodes side/line, not direction. Sequence read RTL under primary normalized-layout convention.",
+      "normalized_rtl": [
+        "M087",
+        "M328"
+      ],
+      "sequence": [
+        {
+          "sign": "M087",
+          "doubtful": false,
+          "unknown_span": false
+        },
+        {
+          "sign": "M328",
+          "doubtful": false,
+          "unknown_span": false
+        }
+      ],
+      "preceding_strokes": {
+        "observed_count": 2,
+        "form": "two long parallel vertical strokes in one row, approximately full glyph height",
+        "sign": "M087",
+        "doubtful_in_source": false,
+        "immediately_precedes_M328_in_RTL": true,
+        "identity_authentication": "Primary Sign List printed32/PDF43 labelled87; differs from short stroke pairs99/100. Long form visually compared with M328 height."
+      },
+      "target_doubtful": false,
+      "target_has_loss": false,
+      "identified_positions": 2,
+      "M328_last_known_sign": true,
+      "M328_at_certain_line_end": true,
+      "source_render": "results/primary_pages/structure-u-pilot-579.png",
+      "other_side_context": [
+        {
+          "printed_side_line_code": "10",
+          "side_code": "1",
+          "line_code": "0",
+          "normalized_rtl": [
+            "M048",
+            "M342",
+            "M176"
+          ],
+          "sequence": [
+            {
+              "sign": "M048",
+              "doubtful": false,
+              "unknown_span": false
+            },
+            {
+              "sign": "M342",
+              "doubtful": false,
+              "unknown_span": false
+            },
+            {
+              "sign": "M176",
+              "doubtful": false,
+              "unknown_span": false
+            }
+          ],
+          "status": "Selected direct visual transcription; primary normalized form IDs, not artifact autopsy."
+        }
+      ]
+    },
+    {
+      "reference": "4368",
+      "pdf_page": 579,
+      "printed_page": 568,
+      "indexed_entry_on_page": 2,
+      "row_locator": "Indexed M328 occurrence 2 of 15 on page; printed reference 4368, continuation 20",
+      "side_code": "2",
+      "line_code": "0",
+      "line_definition": "Only line on that side",
+      "printed_side_line_code": "20",
+      "concordance_reference_expanded": "436820",
+      "direction_code": null,
+      "direction_note": "Concordance reference encodes side/line, not direction. Sequence read RTL under primary normalized-layout convention.",
+      "normalized_rtl": [
+        "M087",
+        "M328"
+      ],
+      "sequence": [
+        {
+          "sign": "M087",
+          "doubtful": false,
+          "unknown_span": false
+        },
+        {
+          "sign": "M328",
+          "doubtful": false,
+          "unknown_span": false
+        }
+      ],
+      "preceding_strokes": {
+        "observed_count": 2,
+        "form": "two long parallel vertical strokes in one row, approximately full glyph height",
+        "sign": "M087",
+        "doubtful_in_source": false,
+        "immediately_precedes_M328_in_RTL": true,
+        "identity_authentication": "Primary Sign List printed32/PDF43 labelled87; differs from short stroke pairs99/100. Long form visually compared with M328 height."
+      },
+      "target_doubtful": false,
+      "target_has_loss": false,
+      "identified_positions": 2,
+      "M328_last_known_sign": true,
+      "M328_at_certain_line_end": true,
+      "source_render": "results/primary_pages/structure-u-pilot-579.png",
+      "other_side_context": [],
+      "context_limit": "Other-side glyphs visible in full-page render but not assigned a complete verified code sequence in this bounded review; no canonical tokens substituted."
+    },
+    {
+      "reference": "8117",
+      "pdf_page": 579,
+      "printed_page": 568,
+      "indexed_entry_on_page": 3,
+      "row_locator": "Indexed M328 occurrence 3 of 15 on page; printed reference 8117, continuation 20",
+      "side_code": "2",
+      "line_code": "0",
+      "line_definition": "Only line on that side",
+      "printed_side_line_code": "20",
+      "concordance_reference_expanded": "811720",
+      "direction_code": null,
+      "direction_note": "Concordance reference encodes side/line, not direction. Sequence read RTL under primary normalized-layout convention.",
+      "normalized_rtl": [
+        "M087",
+        "M328"
+      ],
+      "sequence": [
+        {
+          "sign": "M087",
+          "doubtful": false,
+          "unknown_span": false
+        },
+        {
+          "sign": "M328",
+          "doubtful": false,
+          "unknown_span": false
+        }
+      ],
+      "preceding_strokes": {
+        "observed_count": 2,
+        "form": "two long parallel vertical strokes in one row, approximately full glyph height",
+        "sign": "M087",
+        "doubtful_in_source": false,
+        "immediately_precedes_M328_in_RTL": true,
+        "identity_authentication": "Primary Sign List printed32/PDF43 labelled87; differs from short stroke pairs99/100. Long form visually compared with M328 height."
+      },
+      "target_doubtful": false,
+      "target_has_loss": false,
+      "identified_positions": 2,
+      "M328_last_known_sign": true,
+      "M328_at_certain_line_end": true,
+      "source_render": "results/primary_pages/structure-u-pilot-579.png",
+      "other_side_context": [
+        {
+          "printed_side_line_code": "10",
+          "side_code": "1",
+          "line_code": "0",
+          "normalized_rtl": [
+            "M076",
+            "M342",
+            "M176"
+          ],
+          "sequence": [
+            {
+              "sign": "M076",
+              "doubtful": false,
+              "unknown_span": false
+            },
+            {
+              "sign": "M342",
+              "doubtful": false,
+              "unknown_span": false
+            },
+            {
+              "sign": "M176",
+              "doubtful": false,
+              "unknown_span": false
+            }
+          ],
+          "status": "Selected direct visual transcription; primary normalized form IDs, not artifact autopsy."
+        }
+      ]
+    },
+    {
+      "reference": "5498",
+      "pdf_page": 579,
+      "printed_page": 568,
+      "indexed_entry_on_page": 4,
+      "row_locator": "Indexed M328 occurrence 4 of 15 on page; printed reference 5498, continuation 20",
+      "side_code": "2",
+      "line_code": "0",
+      "line_definition": "Only line on that side",
+      "printed_side_line_code": "20",
+      "concordance_reference_expanded": "549820",
+      "direction_code": null,
+      "direction_note": "Concordance reference encodes side/line, not direction. Sequence read RTL under primary normalized-layout convention.",
+      "normalized_rtl": [
+        "M087",
+        "M328"
+      ],
+      "sequence": [
+        {
+          "sign": "M087",
+          "doubtful": false,
+          "unknown_span": false
+        },
+        {
+          "sign": "M328",
+          "doubtful": false,
+          "unknown_span": false
+        }
+      ],
+      "preceding_strokes": {
+        "observed_count": 2,
+        "form": "two long parallel vertical strokes in one row, approximately full glyph height",
+        "sign": "M087",
+        "doubtful_in_source": false,
+        "immediately_precedes_M328_in_RTL": true,
+        "identity_authentication": "Primary Sign List printed32/PDF43 labelled87; differs from short stroke pairs99/100. Long form visually compared with M328 height."
+      },
+      "target_doubtful": false,
+      "target_has_loss": false,
+      "identified_positions": 2,
+      "M328_last_known_sign": true,
+      "M328_at_certain_line_end": true,
+      "source_render": "results/primary_pages/structure-u-pilot-579.png",
+      "other_side_context": [],
+      "context_limit": "Other-side glyphs visible in full-page render but not assigned a complete verified code sequence in this bounded review; no canonical tokens substituted."
+    },
+    {
+      "reference": "4358",
+      "pdf_page": 579,
+      "printed_page": 568,
+      "indexed_entry_on_page": 5,
+      "row_locator": "Indexed M328 occurrence 5 of 15 on page; printed reference 4358, continuation 20",
+      "side_code": "2",
+      "line_code": "0",
+      "line_definition": "Only line on that side",
+      "printed_side_line_code": "20",
+      "concordance_reference_expanded": "435820",
+      "direction_code": null,
+      "direction_note": "Concordance reference encodes side/line, not direction. Sequence read RTL under primary normalized-layout convention.",
+      "normalized_rtl": [
+        "M087",
+        "M328"
+      ],
+      "sequence": [
+        {
+          "sign": "M087",
+          "doubtful": false,
+          "unknown_span": false
+        },
+        {
+          "sign": "M328",
+          "doubtful": false,
+          "unknown_span": false
+        }
+      ],
+      "preceding_strokes": {
+        "observed_count": 2,
+        "form": "two long parallel vertical strokes in one row, approximately full glyph height",
+        "sign": "M087",
+        "doubtful_in_source": false,
+        "immediately_precedes_M328_in_RTL": true,
+        "identity_authentication": "Primary Sign List printed32/PDF43 labelled87; differs from short stroke pairs99/100. Long form visually compared with M328 height."
+      },
+      "target_doubtful": false,
+      "target_has_loss": false,
+      "identified_positions": 2,
+      "M328_last_known_sign": true,
+      "M328_at_certain_line_end": true,
+      "source_render": "results/primary_pages/structure-u-pilot-579.png",
+      "other_side_context": [],
+      "context_limit": "Other-side glyphs visible in full-page render but not assigned a complete verified code sequence in this bounded review; no canonical tokens substituted."
+    },
+    {
+      "reference": "4348",
+      "pdf_page": 579,
+      "printed_page": 568,
+      "indexed_entry_on_page": 6,
+      "row_locator": "Indexed M328 occurrence 6 of 15 on page; printed reference 4348, continuation 20",
+      "side_code": "2",
+      "line_code": "0",
+      "line_definition": "Only line on that side",
+      "printed_side_line_code": "20",
+      "concordance_reference_expanded": "434820",
+      "direction_code": null,
+      "direction_note": "Concordance reference encodes side/line, not direction. Sequence read RTL under primary normalized-layout convention.",
+      "normalized_rtl": [
+        "M087",
+        "M328"
+      ],
+      "sequence": [
+        {
+          "sign": "M087",
+          "doubtful": false,
+          "unknown_span": false
+        },
+        {
+          "sign": "M328",
+          "doubtful": false,
+          "unknown_span": false
+        }
+      ],
+      "preceding_strokes": {
+        "observed_count": 2,
+        "form": "two long parallel vertical strokes in one row, approximately full glyph height",
+        "sign": "M087",
+        "doubtful_in_source": false,
+        "immediately_precedes_M328_in_RTL": true,
+        "identity_authentication": "Primary Sign List printed32/PDF43 labelled87; differs from short stroke pairs99/100. Long form visually compared with M328 height."
+      },
+      "target_doubtful": false,
+      "target_has_loss": false,
+      "identified_positions": 2,
+      "M328_last_known_sign": true,
+      "M328_at_certain_line_end": true,
+      "source_render": "results/primary_pages/structure-u-pilot-579.png",
+      "other_side_context": [
+        {
+          "printed_side_line_code": "10",
+          "side_code": "1",
+          "line_code": "0",
+          "normalized_rtl": [
+            "M121",
+            "M051",
+            "M130",
+            "M149",
+            "M342",
+            "M176"
+          ],
+          "sequence": [
+            {
+              "sign": "M121",
+              "doubtful": false,
+              "unknown_span": false
+            },
+            {
+              "sign": "M051",
+              "doubtful": false,
+              "unknown_span": false
+            },
+            {
+              "sign": "M130",
+              "doubtful": false,
+              "unknown_span": false
+            },
+            {
+              "sign": "M149",
+              "doubtful": false,
+              "unknown_span": false
+            },
+            {
+              "sign": "M342",
+              "doubtful": false,
+              "unknown_span": false
+            },
+            {
+              "sign": "M176",
+              "doubtful": false,
+              "unknown_span": false
+            }
+          ],
+          "status": "Selected direct visual transcription; primary normalized form IDs, not artifact autopsy."
+        }
+      ]
+    },
+    {
+      "reference": "4647",
+      "pdf_page": 579,
+      "printed_page": 568,
+      "indexed_entry_on_page": 7,
+      "row_locator": "Indexed M328 occurrence 7 of 15 on page; printed reference 4647, continuation 20",
+      "side_code": "2",
+      "line_code": "0",
+      "line_definition": "Only line on that side",
+      "printed_side_line_code": "20",
+      "concordance_reference_expanded": "464720",
+      "direction_code": null,
+      "direction_note": "Concordance reference encodes side/line, not direction. Sequence read RTL under primary normalized-layout convention.",
+      "normalized_rtl": [
+        "M087",
+        "M328"
+      ],
+      "sequence": [
+        {
+          "sign": "M087",
+          "doubtful": false,
+          "unknown_span": false
+        },
+        {
+          "sign": "M328",
+          "doubtful": false,
+          "unknown_span": false
+        }
+      ],
+      "preceding_strokes": {
+        "observed_count": 2,
+        "form": "two long parallel vertical strokes in one row, approximately full glyph height",
+        "sign": "M087",
+        "doubtful_in_source": false,
+        "immediately_precedes_M328_in_RTL": true,
+        "identity_authentication": "Primary Sign List printed32/PDF43 labelled87; differs from short stroke pairs99/100. Long form visually compared with M328 height."
+      },
+      "target_doubtful": false,
+      "target_has_loss": false,
+      "identified_positions": 2,
+      "M328_last_known_sign": true,
+      "M328_at_certain_line_end": true,
+      "source_render": "results/primary_pages/structure-u-pilot-579.png",
+      "other_side_context": [
+        {
+          "printed_side_line_code": "10",
+          "side_code": "1",
+          "line_code": "0",
+          "normalized_rtl": [
+            "UNKNOWN_SPAN",
+            "M193",
+            "M342",
+            "M176"
+          ],
+          "sequence": [
+            {
+              "sign": null,
+              "doubtful": false,
+              "unknown_span": true,
+              "minimum_lost_signs": 1,
+              "maximum_lost_signs": null
+            },
+            {
+              "sign": "M193",
+              "doubtful": false,
+              "unknown_span": false
+            },
+            {
+              "sign": "M342",
+              "doubtful": false,
+              "unknown_span": false
+            },
+            {
+              "sign": "M176",
+              "doubtful": false,
+              "unknown_span": false
+            }
+          ],
+          "status": "Selected direct visual transcription; primary normalized form IDs, not artifact autopsy."
+        }
+      ]
+    },
+    {
+      "reference": "4419",
+      "pdf_page": 579,
+      "printed_page": 568,
+      "indexed_entry_on_page": 8,
+      "row_locator": "Indexed M328 occurrence 8 of 15 on page; printed reference 4419, continuation 20",
+      "side_code": "2",
+      "line_code": "0",
+      "line_definition": "Only line on that side",
+      "printed_side_line_code": "20",
+      "concordance_reference_expanded": "441920",
+      "direction_code": null,
+      "direction_note": "Concordance reference encodes side/line, not direction. Sequence read RTL under primary normalized-layout convention.",
+      "normalized_rtl": [
+        "M087",
+        "M328"
+      ],
+      "sequence": [
+        {
+          "sign": "M087",
+          "doubtful": false,
+          "unknown_span": false
+        },
+        {
+          "sign": "M328",
+          "doubtful": false,
+          "unknown_span": false
+        }
+      ],
+      "preceding_strokes": {
+        "observed_count": 2,
+        "form": "two long parallel vertical strokes in one row, approximately full glyph height",
+        "sign": "M087",
+        "doubtful_in_source": false,
+        "immediately_precedes_M328_in_RTL": true,
+        "identity_authentication": "Primary Sign List printed32/PDF43 labelled87; differs from short stroke pairs99/100. Long form visually compared with M328 height."
+      },
+      "target_doubtful": false,
+      "target_has_loss": false,
+      "identified_positions": 2,
+      "M328_last_known_sign": true,
+      "M328_at_certain_line_end": true,
+      "source_render": "results/primary_pages/structure-u-pilot-579.png",
+      "other_side_context": [
+        {
+          "printed_side_line_code": "10",
+          "side_code": "1",
+          "line_code": "0",
+          "normalized_rtl": [
+            "M048",
+            "M193",
+            "M342",
+            "M176"
+          ],
+          "sequence": [
+            {
+              "sign": "M048",
+              "doubtful": false,
+              "unknown_span": false
+            },
+            {
+              "sign": "M193",
+              "doubtful": false,
+              "unknown_span": false
+            },
+            {
+              "sign": "M342",
+              "doubtful": false,
+              "unknown_span": false
+            },
+            {
+              "sign": "M176",
+              "doubtful": false,
+              "unknown_span": false
+            }
+          ],
+          "status": "Selected direct visual transcription; primary normalized form IDs, not artifact autopsy."
+        }
+      ]
+    },
+    {
+      "reference": "4369",
+      "pdf_page": 579,
+      "printed_page": 568,
+      "indexed_entry_on_page": 9,
+      "row_locator": "Indexed M328 occurrence 9 of 15 on page; printed reference 4369, continuation 20",
+      "side_code": "2",
+      "line_code": "0",
+      "line_definition": "Only line on that side",
+      "printed_side_line_code": "20",
+      "concordance_reference_expanded": "436920",
+      "direction_code": null,
+      "direction_note": "Concordance reference encodes side/line, not direction. Sequence read RTL under primary normalized-layout convention.",
+      "normalized_rtl": [
+        "M087",
+        "M328"
+      ],
+      "sequence": [
+        {
+          "sign": "M087",
+          "doubtful": false,
+          "unknown_span": false
+        },
+        {
+          "sign": "M328",
+          "doubtful": false,
+          "unknown_span": false
+        }
+      ],
+      "preceding_strokes": {
+        "observed_count": 2,
+        "form": "two long parallel vertical strokes in one row, approximately full glyph height",
+        "sign": "M087",
+        "doubtful_in_source": false,
+        "immediately_precedes_M328_in_RTL": true,
+        "identity_authentication": "Primary Sign List printed32/PDF43 labelled87; differs from short stroke pairs99/100. Long form visually compared with M328 height."
+      },
+      "target_doubtful": false,
+      "target_has_loss": false,
+      "identified_positions": 2,
+      "M328_last_known_sign": true,
+      "M328_at_certain_line_end": true,
+      "source_render": "results/primary_pages/structure-u-pilot-579.png",
+      "other_side_context": [],
+      "context_limit": "Other-side glyphs visible in full-page render but not assigned a complete verified code sequence in this bounded review; no canonical tokens substituted."
+    },
+    {
+      "reference": "4679",
+      "pdf_page": 579,
+      "printed_page": 568,
+      "indexed_entry_on_page": 10,
+      "row_locator": "Indexed M328 occurrence 10 of 15 on page; printed reference 4679, continuation 20",
+      "side_code": "2",
+      "line_code": "0",
+      "line_definition": "Only line on that side",
+      "printed_side_line_code": "20",
+      "concordance_reference_expanded": "467920",
+      "direction_code": null,
+      "direction_note": "Concordance reference encodes side/line, not direction. Sequence read RTL under primary normalized-layout convention.",
+      "normalized_rtl": [
+        "M087",
+        "M328"
+      ],
+      "sequence": [
+        {
+          "sign": "M087",
+          "doubtful": false,
+          "unknown_span": false
+        },
+        {
+          "sign": "M328",
+          "doubtful": false,
+          "unknown_span": false
+        }
+      ],
+      "preceding_strokes": {
+        "observed_count": 2,
+        "form": "two long parallel vertical strokes in one row, approximately full glyph height",
+        "sign": "M087",
+        "doubtful_in_source": false,
+        "immediately_precedes_M328_in_RTL": true,
+        "identity_authentication": "Primary Sign List printed32/PDF43 labelled87; differs from short stroke pairs99/100. Long form visually compared with M328 height."
+      },
+      "target_doubtful": false,
+      "target_has_loss": false,
+      "identified_positions": 2,
+      "M328_last_known_sign": true,
+      "M328_at_certain_line_end": true,
+      "source_render": "results/primary_pages/structure-u-pilot-579.png",
+      "other_side_context": [
+        {
+          "printed_side_line_code": "10",
+          "side_code": "1",
+          "line_code": "0",
+          "normalized_rtl": [
+            "M136",
+            "M193",
+            "M342",
+            "M176"
+          ],
+          "sequence": [
+            {
+              "sign": "M136",
+              "doubtful": false,
+              "unknown_span": false
+            },
+            {
+              "sign": "M193",
+              "doubtful": false,
+              "unknown_span": false
+            },
+            {
+              "sign": "M342",
+              "doubtful": false,
+              "unknown_span": false
+            },
+            {
+              "sign": "M176",
+              "doubtful": false,
+              "unknown_span": false
+            }
+          ],
+          "status": "Selected direct visual transcription; primary normalized form IDs, not artifact autopsy."
+        }
+      ]
+    },
+    {
+      "reference": "4642",
+      "pdf_page": 579,
+      "printed_page": 568,
+      "indexed_entry_on_page": 11,
+      "row_locator": "Indexed M328 occurrence 11 of 15 on page; printed reference 4642, continuation 30",
+      "side_code": "3",
+      "line_code": "0",
+      "line_definition": "Only line on that side",
+      "printed_side_line_code": "30",
+      "concordance_reference_expanded": "464230",
+      "direction_code": null,
+      "direction_note": "Concordance reference encodes side/line, not direction. Sequence read RTL under primary normalized-layout convention.",
+      "normalized_rtl": [
+        "M087",
+        "M328"
+      ],
+      "sequence": [
+        {
+          "sign": "M087",
+          "doubtful": false,
+          "unknown_span": false
+        },
+        {
+          "sign": "M328",
+          "doubtful": false,
+          "unknown_span": false
+        }
+      ],
+      "preceding_strokes": {
+        "observed_count": 2,
+        "form": "two long parallel vertical strokes in one row, approximately full glyph height",
+        "sign": "M087",
+        "doubtful_in_source": false,
+        "immediately_precedes_M328_in_RTL": true,
+        "identity_authentication": "Primary Sign List printed32/PDF43 labelled87; differs from short stroke pairs99/100. Long form visually compared with M328 height."
+      },
+      "target_doubtful": false,
+      "target_has_loss": false,
+      "identified_positions": 2,
+      "M328_last_known_sign": true,
+      "M328_at_certain_line_end": true,
+      "source_render": "results/primary_pages/structure-u-pilot-579.png",
+      "other_side_context": [
+        {
+          "printed_side_line_code": "10",
+          "side_code": "1",
+          "line_code": "0",
+          "normalized_rtl": [
+            "M059"
+          ],
+          "sequence": [
+            {
+              "sign": "M059",
+              "doubtful": false,
+              "unknown_span": false
+            }
+          ],
+          "status": "Selected direct visual transcription; primary normalized form IDs, not artifact autopsy."
+        },
+        {
+          "printed_side_line_code": "20",
+          "side_code": "2",
+          "line_code": "0",
+          "normalized_rtl": [
+            "M245",
+            "M245",
+            "M307",
+            "M342",
+            "M176"
+          ],
+          "sequence": [
+            {
+              "sign": "M245",
+              "doubtful": false,
+              "unknown_span": false
+            },
+            {
+              "sign": "M245",
+              "doubtful": false,
+              "unknown_span": false
+            },
+            {
+              "sign": "M307",
+              "doubtful": false,
+              "unknown_span": false
+            },
+            {
+              "sign": "M342",
+              "doubtful": false,
+              "unknown_span": false
+            },
+            {
+              "sign": "M176",
+              "doubtful": false,
+              "unknown_span": false
+            }
+          ],
+          "status": "Selected direct visual transcription; primary normalized form IDs, not artifact autopsy."
+        }
+      ]
+    },
+    {
+      "reference": "4645",
+      "pdf_page": 579,
+      "printed_page": 568,
+      "indexed_entry_on_page": 12,
+      "row_locator": "Indexed M328 occurrence 12 of 15 on page; printed reference 4645, continuation 30",
+      "side_code": "3",
+      "line_code": "0",
+      "line_definition": "Only line on that side",
+      "printed_side_line_code": "30",
+      "concordance_reference_expanded": "464530",
+      "direction_code": null,
+      "direction_note": "Concordance reference encodes side/line, not direction. Sequence read RTL under primary normalized-layout convention.",
+      "normalized_rtl": [
+        "M087",
+        "M328"
+      ],
+      "sequence": [
+        {
+          "sign": "M087",
+          "doubtful": false,
+          "unknown_span": false
+        },
+        {
+          "sign": "M328",
+          "doubtful": false,
+          "unknown_span": false
+        }
+      ],
+      "preceding_strokes": {
+        "observed_count": 2,
+        "form": "two long parallel vertical strokes in one row, approximately full glyph height",
+        "sign": "M087",
+        "doubtful_in_source": false,
+        "immediately_precedes_M328_in_RTL": true,
+        "identity_authentication": "Primary Sign List printed32/PDF43 labelled87; differs from short stroke pairs99/100. Long form visually compared with M328 height."
+      },
+      "target_doubtful": false,
+      "target_has_loss": false,
+      "identified_positions": 2,
+      "M328_last_known_sign": true,
+      "M328_at_certain_line_end": true,
+      "source_render": "results/primary_pages/structure-u-pilot-579.png",
+      "other_side_context": [
+        {
+          "printed_side_line_code": "10",
+          "side_code": "1",
+          "line_code": "0",
+          "normalized_rtl": [
+            "M059"
+          ],
+          "sequence": [
+            {
+              "sign": "M059",
+              "doubtful": false,
+              "unknown_span": false
+            }
+          ],
+          "status": "Selected direct visual transcription; primary normalized form IDs, not artifact autopsy."
+        },
+        {
+          "printed_side_line_code": "20",
+          "side_code": "2",
+          "line_code": "0",
+          "normalized_rtl": [
+            "M245",
+            "M245",
+            "M307",
+            "M342",
+            "M176"
+          ],
+          "sequence": [
+            {
+              "sign": "M245",
+              "doubtful": false,
+              "unknown_span": false
+            },
+            {
+              "sign": "M245",
+              "doubtful": false,
+              "unknown_span": false
+            },
+            {
+              "sign": "M307",
+              "doubtful": false,
+              "unknown_span": false
+            },
+            {
+              "sign": "M342",
+              "doubtful": false,
+              "unknown_span": false
+            },
+            {
+              "sign": "M176",
+              "doubtful": false,
+              "unknown_span": false
+            }
+          ],
+          "status": "Selected direct visual transcription; primary normalized form IDs, not artifact autopsy."
+        }
+      ]
+    },
+    {
+      "reference": "4347",
+      "pdf_page": 579,
+      "printed_page": 568,
+      "indexed_entry_on_page": 13,
+      "row_locator": "Indexed M328 occurrence 13 of 15 on page; printed reference 4347, continuation 20",
+      "side_code": "2",
+      "line_code": "0",
+      "line_definition": "Only line on that side",
+      "printed_side_line_code": "20",
+      "concordance_reference_expanded": "434720",
+      "direction_code": null,
+      "direction_note": "Concordance reference encodes side/line, not direction. Sequence read RTL under primary normalized-layout convention.",
+      "normalized_rtl": [
+        "M087",
+        "M328",
+        "UNKNOWN_SPAN"
+      ],
+      "sequence": [
+        {
+          "sign": "M087",
+          "doubtful": false,
+          "unknown_span": false
+        },
+        {
+          "sign": "M328",
+          "doubtful": false,
+          "unknown_span": false
+        },
+        {
+          "sign": null,
+          "doubtful": false,
+          "unknown_span": true,
+          "minimum_lost_signs": 1,
+          "maximum_lost_signs": null
+        }
+      ],
+      "preceding_strokes": {
+        "observed_count": 2,
+        "form": "two long parallel vertical strokes in one row, approximately full glyph height",
+        "sign": "M087",
+        "doubtful_in_source": false,
+        "immediately_precedes_M328_in_RTL": true,
+        "identity_authentication": "Primary Sign List printed32/PDF43 labelled87; differs from short stroke pairs99/100. Long form visually compared with M328 height."
+      },
+      "target_doubtful": false,
+      "target_has_loss": true,
+      "identified_positions": 2,
+      "M328_last_known_sign": true,
+      "M328_at_certain_line_end": false,
+      "source_render": "results/primary_pages/structure-u-pilot-579.png",
+      "other_side_context": [
+        {
+          "printed_side_line_code": "10",
+          "side_code": "1",
+          "line_code": "0",
+          "normalized_rtl": [
+            "M325",
+            "M342",
+            "M176"
+          ],
+          "sequence": [
+            {
+              "sign": "M325",
+              "doubtful": false,
+              "unknown_span": false
+            },
+            {
+              "sign": "M342",
+              "doubtful": false,
+              "unknown_span": false
+            },
+            {
+              "sign": "M176",
+              "doubtful": false,
+              "unknown_span": false
+            }
+          ],
+          "status": "Selected direct visual transcription; primary normalized form IDs, not artifact autopsy."
+        }
+      ]
+    },
+    {
+      "reference": "4519",
+      "pdf_page": 579,
+      "printed_page": 568,
+      "indexed_entry_on_page": 14,
+      "row_locator": "Indexed M328 occurrence 14 of 15 on page; printed reference 4519, continuation 20",
+      "side_code": "2",
+      "line_code": "0",
+      "line_definition": "Only line on that side",
+      "printed_side_line_code": "20",
+      "concordance_reference_expanded": "451920",
+      "direction_code": null,
+      "direction_note": "Concordance reference encodes side/line, not direction. Sequence read RTL under primary normalized-layout convention.",
+      "normalized_rtl": [
+        "M087",
+        "M328"
+      ],
+      "sequence": [
+        {
+          "sign": "M087",
+          "doubtful": false,
+          "unknown_span": false
+        },
+        {
+          "sign": "M328",
+          "doubtful": false,
+          "unknown_span": false
+        }
+      ],
+      "preceding_strokes": {
+        "observed_count": 2,
+        "form": "two long parallel vertical strokes in one row, approximately full glyph height",
+        "sign": "M087",
+        "doubtful_in_source": false,
+        "immediately_precedes_M328_in_RTL": true,
+        "identity_authentication": "Primary Sign List printed32/PDF43 labelled87; differs from short stroke pairs99/100. Long form visually compared with M328 height."
+      },
+      "target_doubtful": false,
+      "target_has_loss": false,
+      "identified_positions": 2,
+      "M328_last_known_sign": true,
+      "M328_at_certain_line_end": true,
+      "source_render": "results/primary_pages/structure-u-pilot-579.png",
+      "other_side_context": [
+        {
+          "printed_side_line_code": "10",
+          "side_code": "1",
+          "line_code": "0",
+          "normalized_rtl": [
+            "M103",
+            "M403",
+            "M342",
+            "M176"
+          ],
+          "sequence": [
+            {
+              "sign": "M103",
+              "doubtful": false,
+              "unknown_span": false
+            },
+            {
+              "sign": "M403",
+              "doubtful": false,
+              "unknown_span": false
+            },
+            {
+              "sign": "M342",
+              "doubtful": false,
+              "unknown_span": false
+            },
+            {
+              "sign": "M176",
+              "doubtful": false,
+              "unknown_span": false
+            }
+          ],
+          "status": "Selected direct visual transcription; primary normalized form IDs, not artifact autopsy."
+        }
+      ]
+    },
+    {
+      "reference": "4551",
+      "pdf_page": 579,
+      "printed_page": 568,
+      "indexed_entry_on_page": 15,
+      "row_locator": "Indexed M328 occurrence 15 of 15 on page; printed reference 4551, continuation 20",
+      "side_code": "2",
+      "line_code": "0",
+      "line_definition": "Only line on that side",
+      "printed_side_line_code": "20",
+      "concordance_reference_expanded": "455120",
+      "direction_code": null,
+      "direction_note": "Concordance reference encodes side/line, not direction. Sequence read RTL under primary normalized-layout convention.",
+      "normalized_rtl": [
+        "M087",
+        "M328"
+      ],
+      "sequence": [
+        {
+          "sign": "M087",
+          "doubtful": false,
+          "unknown_span": false
+        },
+        {
+          "sign": "M328",
+          "doubtful": false,
+          "unknown_span": false
+        }
+      ],
+      "preceding_strokes": {
+        "observed_count": 2,
+        "form": "two long parallel vertical strokes in one row, approximately full glyph height",
+        "sign": "M087",
+        "doubtful_in_source": false,
+        "immediately_precedes_M328_in_RTL": true,
+        "identity_authentication": "Primary Sign List printed32/PDF43 labelled87; differs from short stroke pairs99/100. Long form visually compared with M328 height."
+      },
+      "target_doubtful": false,
+      "target_has_loss": false,
+      "identified_positions": 2,
+      "M328_last_known_sign": true,
+      "M328_at_certain_line_end": true,
+      "source_render": "results/primary_pages/structure-u-pilot-579.png",
+      "other_side_context": [],
+      "context_limit": "Other-side glyphs visible in full-page render but not assigned a complete verified code sequence in this bounded review; no canonical tokens substituted."
+    },
+    {
+      "reference": "4324",
+      "pdf_page": 580,
+      "printed_page": 569,
+      "indexed_entry_on_page": 1,
+      "row_locator": "Indexed M328 occurrence 1 of 15 on page; printed reference 4324, continuation 20",
+      "side_code": "2",
+      "line_code": "0",
+      "line_definition": "Only line on that side",
+      "printed_side_line_code": "20",
+      "concordance_reference_expanded": "432420",
+      "direction_code": null,
+      "direction_note": "Concordance reference encodes side/line, not direction. Sequence read RTL under primary normalized-layout convention.",
+      "normalized_rtl": [
+        "M087",
+        "M328"
+      ],
+      "sequence": [
+        {
+          "sign": "M087",
+          "doubtful": false,
+          "unknown_span": false
+        },
+        {
+          "sign": "M328",
+          "doubtful": false,
+          "unknown_span": false
+        }
+      ],
+      "preceding_strokes": {
+        "observed_count": 2,
+        "form": "two long parallel vertical strokes in one row, approximately full glyph height",
+        "sign": "M087",
+        "doubtful_in_source": false,
+        "immediately_precedes_M328_in_RTL": true,
+        "identity_authentication": "Primary Sign List printed32/PDF43 labelled87; differs from short stroke pairs99/100. Long form visually compared with M328 height."
+      },
+      "target_doubtful": false,
+      "target_has_loss": false,
+      "identified_positions": 2,
+      "M328_last_known_sign": true,
+      "M328_at_certain_line_end": true,
+      "source_render": "results/primary_pages/structure-u-pilot-580.png",
+      "other_side_context": [],
+      "context_limit": "Other-side glyphs visible in full-page render but not assigned a complete verified code sequence in this bounded review; no canonical tokens substituted."
+    },
+    {
+      "reference": "5327",
+      "pdf_page": 580,
+      "printed_page": 569,
+      "indexed_entry_on_page": 2,
+      "row_locator": "Indexed M328 occurrence 2 of 15 on page; printed reference 5327, continuation 20",
+      "side_code": "2",
+      "line_code": "0",
+      "line_definition": "Only line on that side",
+      "printed_side_line_code": "20",
+      "concordance_reference_expanded": "532720",
+      "direction_code": null,
+      "direction_note": "Concordance reference encodes side/line, not direction. Sequence read RTL under primary normalized-layout convention.",
+      "normalized_rtl": [
+        "M087",
+        "M328"
+      ],
+      "sequence": [
+        {
+          "sign": "M087",
+          "doubtful": false,
+          "unknown_span": false
+        },
+        {
+          "sign": "M328",
+          "doubtful": false,
+          "unknown_span": false
+        }
+      ],
+      "preceding_strokes": {
+        "observed_count": 2,
+        "form": "two long parallel vertical strokes in one row, approximately full glyph height",
+        "sign": "M087",
+        "doubtful_in_source": false,
+        "immediately_precedes_M328_in_RTL": true,
+        "identity_authentication": "Primary Sign List printed32/PDF43 labelled87; differs from short stroke pairs99/100. Long form visually compared with M328 height."
+      },
+      "target_doubtful": false,
+      "target_has_loss": false,
+      "identified_positions": 2,
+      "M328_last_known_sign": true,
+      "M328_at_certain_line_end": true,
+      "source_render": "results/primary_pages/structure-u-pilot-580.png",
+      "other_side_context": [
+        {
+          "printed_side_line_code": "10",
+          "side_code": "1",
+          "line_code": "0",
+          "normalized_rtl": [
+            "M397",
+            "M233"
+          ],
+          "sequence": [
+            {
+              "sign": "M397",
+              "doubtful": false,
+              "unknown_span": false
+            },
+            {
+              "sign": "M233",
+              "doubtful": false,
+              "unknown_span": false
+            }
+          ],
+          "status": "Selected direct visual transcription; primary normalized form IDs, not artifact autopsy."
+        }
+      ]
+    },
+    {
+      "reference": "4603",
+      "pdf_page": 580,
+      "printed_page": 569,
+      "indexed_entry_on_page": 3,
+      "row_locator": "Indexed M328 occurrence 3 of 15 on page; printed reference 4603, continuation 20",
+      "side_code": "2",
+      "line_code": "0",
+      "line_definition": "Only line on that side",
+      "printed_side_line_code": "20",
+      "concordance_reference_expanded": "460320",
+      "direction_code": null,
+      "direction_note": "Concordance reference encodes side/line, not direction. Sequence read RTL under primary normalized-layout convention.",
+      "normalized_rtl": [
+        "M087",
+        "M328"
+      ],
+      "sequence": [
+        {
+          "sign": "M087",
+          "doubtful": false,
+          "unknown_span": false
+        },
+        {
+          "sign": "M328",
+          "doubtful": false,
+          "unknown_span": false
+        }
+      ],
+      "preceding_strokes": {
+        "observed_count": 2,
+        "form": "two long parallel vertical strokes in one row, approximately full glyph height",
+        "sign": "M087",
+        "doubtful_in_source": false,
+        "immediately_precedes_M328_in_RTL": true,
+        "identity_authentication": "Primary Sign List printed32/PDF43 labelled87; differs from short stroke pairs99/100. Long form visually compared with M328 height."
+      },
+      "target_doubtful": false,
+      "target_has_loss": false,
+      "identified_positions": 2,
+      "M328_last_known_sign": true,
+      "M328_at_certain_line_end": true,
+      "source_render": "results/primary_pages/structure-u-pilot-580.png",
+      "other_side_context": [
+        {
+          "printed_side_line_code": "10",
+          "side_code": "1",
+          "line_code": "0",
+          "normalized_rtl": [
+            "M171",
+            "M008",
+            "M391",
+            "M252"
+          ],
+          "sequence": [
+            {
+              "sign": "M171",
+              "doubtful": false,
+              "unknown_span": false
+            },
+            {
+              "sign": "M008",
+              "doubtful": false,
+              "unknown_span": false
+            },
+            {
+              "sign": "M391",
+              "doubtful": false,
+              "unknown_span": false
+            },
+            {
+              "sign": "M252",
+              "doubtful": false,
+              "unknown_span": false
+            }
+          ],
+          "status": "Selected direct visual transcription; primary normalized form IDs, not artifact autopsy."
+        }
+      ]
+    },
+    {
+      "reference": "4606",
+      "pdf_page": 580,
+      "printed_page": 569,
+      "indexed_entry_on_page": 4,
+      "row_locator": "Indexed M328 occurrence 4 of 15 on page; printed reference 4606, continuation 20",
+      "side_code": "2",
+      "line_code": "0",
+      "line_definition": "Only line on that side",
+      "printed_side_line_code": "20",
+      "concordance_reference_expanded": "460620",
+      "direction_code": null,
+      "direction_note": "Concordance reference encodes side/line, not direction. Sequence read RTL under primary normalized-layout convention.",
+      "normalized_rtl": [
+        "M087",
+        "M328"
+      ],
+      "sequence": [
+        {
+          "sign": "M087",
+          "doubtful": false,
+          "unknown_span": false
+        },
+        {
+          "sign": "M328",
+          "doubtful": false,
+          "unknown_span": false
+        }
+      ],
+      "preceding_strokes": {
+        "observed_count": 2,
+        "form": "two long parallel vertical strokes in one row, approximately full glyph height",
+        "sign": "M087",
+        "doubtful_in_source": false,
+        "immediately_precedes_M328_in_RTL": true,
+        "identity_authentication": "Primary Sign List printed32/PDF43 labelled87; differs from short stroke pairs99/100. Long form visually compared with M328 height."
+      },
+      "target_doubtful": false,
+      "target_has_loss": false,
+      "identified_positions": 2,
+      "M328_last_known_sign": true,
+      "M328_at_certain_line_end": true,
+      "source_render": "results/primary_pages/structure-u-pilot-580.png",
+      "other_side_context": [
+        {
+          "printed_side_line_code": "10",
+          "side_code": "1",
+          "line_code": "0",
+          "normalized_rtl": [
+            "M171",
+            "M008",
+            "M391",
+            "M252"
+          ],
+          "sequence": [
+            {
+              "sign": "M171",
+              "doubtful": false,
+              "unknown_span": false
+            },
+            {
+              "sign": "M008",
+              "doubtful": false,
+              "unknown_span": false
+            },
+            {
+              "sign": "M391",
+              "doubtful": false,
+              "unknown_span": false
+            },
+            {
+              "sign": "M252",
+              "doubtful": false,
+              "unknown_span": false
+            }
+          ],
+          "status": "Selected direct visual transcription; primary normalized form IDs, not artifact autopsy."
+        }
+      ]
+    },
+    {
+      "reference": "4360",
+      "pdf_page": 580,
+      "printed_page": 569,
+      "indexed_entry_on_page": 5,
+      "row_locator": "Indexed M328 occurrence 5 of 15 on page; printed reference 4360, continuation 20",
+      "side_code": "2",
+      "line_code": "0",
+      "line_definition": "Only line on that side",
+      "printed_side_line_code": "20",
+      "concordance_reference_expanded": "436020",
+      "direction_code": null,
+      "direction_note": "Concordance reference encodes side/line, not direction. Sequence read RTL under primary normalized-layout convention.",
+      "normalized_rtl": [
+        "M087",
+        "M328"
+      ],
+      "sequence": [
+        {
+          "sign": "M087",
+          "doubtful": false,
+          "unknown_span": false
+        },
+        {
+          "sign": "M328",
+          "doubtful": false,
+          "unknown_span": false
+        }
+      ],
+      "preceding_strokes": {
+        "observed_count": 2,
+        "form": "two long parallel vertical strokes in one row, approximately full glyph height",
+        "sign": "M087",
+        "doubtful_in_source": false,
+        "immediately_precedes_M328_in_RTL": true,
+        "identity_authentication": "Primary Sign List printed32/PDF43 labelled87; differs from short stroke pairs99/100. Long form visually compared with M328 height."
+      },
+      "target_doubtful": false,
+      "target_has_loss": false,
+      "identified_positions": 2,
+      "M328_last_known_sign": true,
+      "M328_at_certain_line_end": true,
+      "source_render": "results/primary_pages/structure-u-pilot-580.png",
+      "other_side_context": [
+        {
+          "printed_side_line_code": "10",
+          "side_code": "1",
+          "line_code": "0",
+          "normalized_rtl": [
+            "M072",
+            "M216",
+            "M254"
+          ],
+          "sequence": [
+            {
+              "sign": "M072",
+              "doubtful": false,
+              "unknown_span": false
+            },
+            {
+              "sign": "M216",
+              "doubtful": false,
+              "unknown_span": false
+            },
+            {
+              "sign": "M254",
+              "doubtful": false,
+              "unknown_span": false
+            }
+          ],
+          "status": "Selected direct visual transcription; primary normalized form IDs, not artifact autopsy."
+        }
+      ]
+    },
+    {
+      "reference": "4499",
+      "pdf_page": 580,
+      "printed_page": 569,
+      "indexed_entry_on_page": 6,
+      "row_locator": "Indexed M328 occurrence 6 of 15 on page; printed reference 4499, continuation 20",
+      "side_code": "2",
+      "line_code": "0",
+      "line_definition": "Only line on that side",
+      "printed_side_line_code": "20",
+      "concordance_reference_expanded": "449920",
+      "direction_code": null,
+      "direction_note": "Concordance reference encodes side/line, not direction. Sequence read RTL under primary normalized-layout convention.",
+      "normalized_rtl": [
+        "M087",
+        "M328"
+      ],
+      "sequence": [
+        {
+          "sign": "M087",
+          "doubtful": false,
+          "unknown_span": false
+        },
+        {
+          "sign": "M328",
+          "doubtful": false,
+          "unknown_span": false
+        }
+      ],
+      "preceding_strokes": {
+        "observed_count": 2,
+        "form": "two long parallel vertical strokes in one row, approximately full glyph height",
+        "sign": "M087",
+        "doubtful_in_source": false,
+        "immediately_precedes_M328_in_RTL": true,
+        "identity_authentication": "Primary Sign List printed32/PDF43 labelled87; differs from short stroke pairs99/100. Long form visually compared with M328 height."
+      },
+      "target_doubtful": false,
+      "target_has_loss": false,
+      "identified_positions": 2,
+      "M328_last_known_sign": true,
+      "M328_at_certain_line_end": true,
+      "source_render": "results/primary_pages/structure-u-pilot-580.png",
+      "other_side_context": [
+        {
+          "printed_side_line_code": "10",
+          "side_code": "1",
+          "line_code": "0",
+          "normalized_rtl": [
+            "M072",
+            "M216",
+            "M254"
+          ],
+          "sequence": [
+            {
+              "sign": "M072",
+              "doubtful": false,
+              "unknown_span": false
+            },
+            {
+              "sign": "M216",
+              "doubtful": false,
+              "unknown_span": false
+            },
+            {
+              "sign": "M254",
+              "doubtful": false,
+              "unknown_span": false
+            }
+          ],
+          "status": "Selected direct visual transcription; primary normalized form IDs, not artifact autopsy."
+        }
+      ]
+    },
+    {
+      "reference": "4580",
+      "pdf_page": 580,
+      "printed_page": 569,
+      "indexed_entry_on_page": 7,
+      "row_locator": "Indexed M328 occurrence 7 of 15 on page; printed reference 4580, continuation 20",
+      "side_code": "2",
+      "line_code": "0",
+      "line_definition": "Only line on that side",
+      "printed_side_line_code": "20",
+      "concordance_reference_expanded": "458020",
+      "direction_code": null,
+      "direction_note": "Concordance reference encodes side/line, not direction. Sequence read RTL under primary normalized-layout convention.",
+      "normalized_rtl": [
+        "M087",
+        "M328"
+      ],
+      "sequence": [
+        {
+          "sign": "M087",
+          "doubtful": false,
+          "unknown_span": false
+        },
+        {
+          "sign": "M328",
+          "doubtful": false,
+          "unknown_span": false
+        }
+      ],
+      "preceding_strokes": {
+        "observed_count": 2,
+        "form": "two long parallel vertical strokes in one row, approximately full glyph height",
+        "sign": "M087",
+        "doubtful_in_source": false,
+        "immediately_precedes_M328_in_RTL": true,
+        "identity_authentication": "Primary Sign List printed32/PDF43 labelled87; differs from short stroke pairs99/100. Long form visually compared with M328 height."
+      },
+      "target_doubtful": false,
+      "target_has_loss": false,
+      "identified_positions": 2,
+      "M328_last_known_sign": true,
+      "M328_at_certain_line_end": true,
+      "source_render": "results/primary_pages/structure-u-pilot-580.png",
+      "other_side_context": [
+        {
+          "printed_side_line_code": "10",
+          "side_code": "1",
+          "line_code": "0",
+          "normalized_rtl": [
+            "M072",
+            "M216",
+            "M254"
+          ],
+          "sequence": [
+            {
+              "sign": "M072",
+              "doubtful": false,
+              "unknown_span": false
+            },
+            {
+              "sign": "M216",
+              "doubtful": false,
+              "unknown_span": false
+            },
+            {
+              "sign": "M254",
+              "doubtful": false,
+              "unknown_span": false
+            }
+          ],
+          "status": "Selected direct visual transcription; primary normalized form IDs, not artifact autopsy."
+        }
+      ]
+    },
+    {
+      "reference": "4370",
+      "pdf_page": 580,
+      "printed_page": 569,
+      "indexed_entry_on_page": 8,
+      "row_locator": "Indexed M328 occurrence 8 of 15 on page; printed reference 4370, continuation 20",
+      "side_code": "2",
+      "line_code": "0",
+      "line_definition": "Only line on that side",
+      "printed_side_line_code": "20",
+      "concordance_reference_expanded": "437020",
+      "direction_code": null,
+      "direction_note": "Concordance reference encodes side/line, not direction. Sequence read RTL under primary normalized-layout convention.",
+      "normalized_rtl": [
+        "M087",
+        "M328"
+      ],
+      "sequence": [
+        {
+          "sign": "M087",
+          "doubtful": false,
+          "unknown_span": false
+        },
+        {
+          "sign": "M328",
+          "doubtful": false,
+          "unknown_span": false
+        }
+      ],
+      "preceding_strokes": {
+        "observed_count": 2,
+        "form": "two long parallel vertical strokes in one row, approximately full glyph height",
+        "sign": "M087",
+        "doubtful_in_source": false,
+        "immediately_precedes_M328_in_RTL": true,
+        "identity_authentication": "Primary Sign List printed32/PDF43 labelled87; differs from short stroke pairs99/100. Long form visually compared with M328 height."
+      },
+      "target_doubtful": false,
+      "target_has_loss": false,
+      "identified_positions": 2,
+      "M328_last_known_sign": true,
+      "M328_at_certain_line_end": true,
+      "source_render": "results/primary_pages/structure-u-pilot-580.png",
+      "other_side_context": [
+        {
+          "printed_side_line_code": "10",
+          "side_code": "1",
+          "line_code": "0",
+          "normalized_rtl": [
+            "M391",
+            "M099",
+            "M216",
+            "M254"
+          ],
+          "sequence": [
+            {
+              "sign": "M391",
+              "doubtful": false,
+              "unknown_span": false
+            },
+            {
+              "sign": "M099",
+              "doubtful": false,
+              "unknown_span": false
+            },
+            {
+              "sign": "M216",
+              "doubtful": false,
+              "unknown_span": false
+            },
+            {
+              "sign": "M254",
+              "doubtful": false,
+              "unknown_span": false
+            }
+          ],
+          "status": "Selected direct visual transcription; primary normalized form IDs, not artifact autopsy."
+        }
+      ]
+    },
+    {
+      "reference": "4589",
+      "pdf_page": 580,
+      "printed_page": 569,
+      "indexed_entry_on_page": 9,
+      "row_locator": "Indexed M328 occurrence 9 of 15 on page; printed reference 4589, continuation 30",
+      "side_code": "3",
+      "line_code": "0",
+      "line_definition": "Only line on that side",
+      "printed_side_line_code": "30",
+      "concordance_reference_expanded": "458930",
+      "direction_code": null,
+      "direction_note": "Concordance reference encodes side/line, not direction. Sequence read RTL under primary normalized-layout convention.",
+      "normalized_rtl": [
+        "M087",
+        "M328"
+      ],
+      "sequence": [
+        {
+          "sign": "M087",
+          "doubtful": false,
+          "unknown_span": false
+        },
+        {
+          "sign": "M328",
+          "doubtful": false,
+          "unknown_span": false
+        }
+      ],
+      "preceding_strokes": {
+        "observed_count": 2,
+        "form": "two long parallel vertical strokes in one row, approximately full glyph height",
+        "sign": "M087",
+        "doubtful_in_source": false,
+        "immediately_precedes_M328_in_RTL": true,
+        "identity_authentication": "Primary Sign List printed32/PDF43 labelled87; differs from short stroke pairs99/100. Long form visually compared with M328 height."
+      },
+      "target_doubtful": false,
+      "target_has_loss": false,
+      "identified_positions": 2,
+      "M328_last_known_sign": true,
+      "M328_at_certain_line_end": true,
+      "source_render": "results/primary_pages/structure-u-pilot-580.png",
+      "other_side_context": [
+        {
+          "printed_side_line_code": "10",
+          "side_code": "1",
+          "line_code": "0",
+          "normalized_rtl": [
+            "M048",
+            "M047",
+            "M379",
+            "M245",
+            "M245"
+          ],
+          "sequence": [
+            {
+              "sign": "M048",
+              "doubtful": false,
+              "unknown_span": false
+            },
+            {
+              "sign": "M047",
+              "doubtful": false,
+              "unknown_span": false
+            },
+            {
+              "sign": "M379",
+              "doubtful": false,
+              "unknown_span": false
+            },
+            {
+              "sign": "M245",
+              "doubtful": false,
+              "unknown_span": false
+            },
+            {
+              "sign": "M245",
+              "doubtful": false,
+              "unknown_span": false
+            }
+          ],
+          "status": "Selected direct visual transcription; primary normalized form IDs, not artifact autopsy."
+        },
+        {
+          "printed_side_line_code": "20",
+          "side_code": "2",
+          "line_code": "0",
+          "normalized_rtl": [
+            "M307",
+            "M267"
+          ],
+          "sequence": [
+            {
+              "sign": "M307",
+              "doubtful": false,
+              "unknown_span": false
+            },
+            {
+              "sign": "M267",
+              "doubtful": false,
+              "unknown_span": false
+            }
+          ],
+          "status": "Selected direct visual transcription; primary normalized form IDs, not artifact autopsy."
+        }
+      ]
+    },
+    {
+      "reference": "5490",
+      "pdf_page": 580,
+      "printed_page": 569,
+      "indexed_entry_on_page": 10,
+      "row_locator": "Indexed M328 occurrence 10 of 15 on page; printed reference 5490, continuation 30",
+      "side_code": "3",
+      "line_code": "0",
+      "line_definition": "Only line on that side",
+      "printed_side_line_code": "30",
+      "concordance_reference_expanded": "549030",
+      "direction_code": null,
+      "direction_note": "Concordance reference encodes side/line, not direction. Sequence read RTL under primary normalized-layout convention.",
+      "normalized_rtl": [
+        "M087",
+        "M328"
+      ],
+      "sequence": [
+        {
+          "sign": "M087",
+          "doubtful": false,
+          "unknown_span": false
+        },
+        {
+          "sign": "M328",
+          "doubtful": false,
+          "unknown_span": false
+        }
+      ],
+      "preceding_strokes": {
+        "observed_count": 2,
+        "form": "two long parallel vertical strokes in one row, approximately full glyph height",
+        "sign": "M087",
+        "doubtful_in_source": false,
+        "immediately_precedes_M328_in_RTL": true,
+        "identity_authentication": "Primary Sign List printed32/PDF43 labelled87; differs from short stroke pairs99/100. Long form visually compared with M328 height."
+      },
+      "target_doubtful": false,
+      "target_has_loss": false,
+      "identified_positions": 2,
+      "M328_last_known_sign": true,
+      "M328_at_certain_line_end": true,
+      "source_render": "results/primary_pages/structure-u-pilot-580.png",
+      "other_side_context": [
+        {
+          "printed_side_line_code": "10",
+          "side_code": "1",
+          "line_code": "0",
+          "normalized_rtl": [
+            "M048",
+            "M047",
+            "M379",
+            "M245",
+            "M245"
+          ],
+          "sequence": [
+            {
+              "sign": "M048",
+              "doubtful": false,
+              "unknown_span": false
+            },
+            {
+              "sign": "M047",
+              "doubtful": false,
+              "unknown_span": false
+            },
+            {
+              "sign": "M379",
+              "doubtful": false,
+              "unknown_span": false
+            },
+            {
+              "sign": "M245",
+              "doubtful": false,
+              "unknown_span": false
+            },
+            {
+              "sign": "M245",
+              "doubtful": false,
+              "unknown_span": false
+            }
+          ],
+          "status": "Selected direct visual transcription; primary normalized form IDs, not artifact autopsy."
+        },
+        {
+          "printed_side_line_code": "20",
+          "side_code": "2",
+          "line_code": "0",
+          "normalized_rtl": [
+            "M307",
+            "M267"
+          ],
+          "sequence": [
+            {
+              "sign": "M307",
+              "doubtful": false,
+              "unknown_span": false
+            },
+            {
+              "sign": "M267",
+              "doubtful": false,
+              "unknown_span": false
+            }
+          ],
+          "status": "Selected direct visual transcription; primary normalized form IDs, not artifact autopsy."
+        }
+      ]
+    },
+    {
+      "reference": "4446",
+      "pdf_page": 580,
+      "printed_page": 569,
+      "indexed_entry_on_page": 11,
+      "row_locator": "Indexed M328 occurrence 11 of 15 on page; printed reference 4446, continuation 20",
+      "side_code": "2",
+      "line_code": "0",
+      "line_definition": "Only line on that side",
+      "printed_side_line_code": "20",
+      "concordance_reference_expanded": "444620",
+      "direction_code": null,
+      "direction_note": "Concordance reference encodes side/line, not direction. Sequence read RTL under primary normalized-layout convention.",
+      "normalized_rtl": [
+        "M177",
+        "M197",
+        "M192",
+        "M341",
+        "M087",
+        "M328"
+      ],
+      "sequence": [
+        {
+          "sign": "M177",
+          "doubtful": false,
+          "unknown_span": false
+        },
+        {
+          "sign": "M197",
+          "doubtful": false,
+          "unknown_span": false
+        },
+        {
+          "sign": "M192",
+          "doubtful": false,
+          "unknown_span": false
+        },
+        {
+          "sign": "M341",
+          "doubtful": false,
+          "unknown_span": false
+        },
+        {
+          "sign": "M087",
+          "doubtful": false,
+          "unknown_span": false
+        },
+        {
+          "sign": "M328",
+          "doubtful": false,
+          "unknown_span": false
+        }
+      ],
+      "preceding_strokes": {
+        "observed_count": 2,
+        "form": "two long parallel vertical strokes in one row, approximately full glyph height",
+        "sign": "M087",
+        "doubtful_in_source": false,
+        "immediately_precedes_M328_in_RTL": true,
+        "identity_authentication": "Primary Sign List printed32/PDF43 labelled87; differs from short stroke pairs99/100. Long form visually compared with M328 height."
+      },
+      "target_doubtful": false,
+      "target_has_loss": false,
+      "identified_positions": 6,
+      "M328_last_known_sign": true,
+      "M328_at_certain_line_end": true,
+      "source_render": "results/primary_pages/structure-u-pilot-580.png",
+      "other_side_context": [],
+      "context_limit": "Other-side glyphs visible in full-page render but not assigned a complete verified code sequence in this bounded review; no canonical tokens substituted."
+    },
+    {
+      "reference": "4355",
+      "pdf_page": 580,
+      "printed_page": 569,
+      "indexed_entry_on_page": 12,
+      "row_locator": "Indexed M328 occurrence 12 of 15 on page; printed reference 4355, continuation 20",
+      "side_code": "2",
+      "line_code": "0",
+      "line_definition": "Only line on that side",
+      "printed_side_line_code": "20",
+      "concordance_reference_expanded": "435520",
+      "direction_code": null,
+      "direction_note": "Concordance reference encodes side/line, not direction. Sequence read RTL under primary normalized-layout convention.",
+      "normalized_rtl": [
+        "*M087",
+        "M328"
+      ],
+      "sequence": [
+        {
+          "sign": "M087",
+          "doubtful": true,
+          "unknown_span": false
+        },
+        {
+          "sign": "M328",
+          "doubtful": false,
+          "unknown_span": false
+        }
+      ],
+      "preceding_strokes": {
+        "observed_count": 2,
+        "form": "two long parallel vertical strokes in one row, approximately full glyph height",
+        "sign": "M087",
+        "doubtful_in_source": true,
+        "immediately_precedes_M328_in_RTL": true,
+        "identity_authentication": "Primary Sign List printed32/PDF43 labelled87; differs from short stroke pairs99/100. Long form visually compared with M328 height."
+      },
+      "target_doubtful": false,
+      "target_has_loss": false,
+      "identified_positions": 2,
+      "M328_last_known_sign": true,
+      "M328_at_certain_line_end": true,
+      "source_render": "results/primary_pages/structure-u-pilot-580.png",
+      "other_side_context": [],
+      "context_limit": "Other-side glyphs visible in full-page render but not assigned a complete verified code sequence in this bounded review; no canonical tokens substituted."
+    },
+    {
+      "reference": "5476",
+      "pdf_page": 580,
+      "printed_page": 569,
+      "indexed_entry_on_page": 13,
+      "row_locator": "Indexed M328 occurrence 13 of 15 on page; printed reference 5476, continuation 20",
+      "side_code": "2",
+      "line_code": "0",
+      "line_definition": "Only line on that side",
+      "printed_side_line_code": "20",
+      "concordance_reference_expanded": "547620",
+      "direction_code": null,
+      "direction_note": "Concordance reference encodes side/line, not direction. Sequence read RTL under primary normalized-layout convention.",
+      "normalized_rtl": [
+        "M087",
+        "M328"
+      ],
+      "sequence": [
+        {
+          "sign": "M087",
+          "doubtful": false,
+          "unknown_span": false
+        },
+        {
+          "sign": "M328",
+          "doubtful": false,
+          "unknown_span": false
+        }
+      ],
+      "preceding_strokes": {
+        "observed_count": 2,
+        "form": "two long parallel vertical strokes in one row, approximately full glyph height",
+        "sign": "M087",
+        "doubtful_in_source": false,
+        "immediately_precedes_M328_in_RTL": true,
+        "identity_authentication": "Primary Sign List printed32/PDF43 labelled87; differs from short stroke pairs99/100. Long form visually compared with M328 height."
+      },
+      "target_doubtful": false,
+      "target_has_loss": false,
+      "identified_positions": 2,
+      "M328_last_known_sign": true,
+      "M328_at_certain_line_end": true,
+      "source_render": "results/primary_pages/structure-u-pilot-580.png",
+      "other_side_context": [],
+      "context_limit": "Other-side glyphs visible in full-page render but not assigned a complete verified code sequence in this bounded review; no canonical tokens substituted."
+    },
+    {
+      "reference": "4562",
+      "pdf_page": 580,
+      "printed_page": 569,
+      "indexed_entry_on_page": 14,
+      "row_locator": "Indexed M328 occurrence 14 of 15 on page; printed reference 4562, continuation 20",
+      "side_code": "2",
+      "line_code": "0",
+      "line_definition": "Only line on that side",
+      "printed_side_line_code": "20",
+      "concordance_reference_expanded": "456220",
+      "direction_code": null,
+      "direction_note": "Concordance reference encodes side/line, not direction. Sequence read RTL under primary normalized-layout convention.",
+      "normalized_rtl": [
+        "M087",
+        "M328"
+      ],
+      "sequence": [
+        {
+          "sign": "M087",
+          "doubtful": false,
+          "unknown_span": false
+        },
+        {
+          "sign": "M328",
+          "doubtful": false,
+          "unknown_span": false
+        }
+      ],
+      "preceding_strokes": {
+        "observed_count": 2,
+        "form": "two long parallel vertical strokes in one row, approximately full glyph height",
+        "sign": "M087",
+        "doubtful_in_source": false,
+        "immediately_precedes_M328_in_RTL": true,
+        "identity_authentication": "Primary Sign List printed32/PDF43 labelled87; differs from short stroke pairs99/100. Long form visually compared with M328 height."
+      },
+      "target_doubtful": false,
+      "target_has_loss": false,
+      "identified_positions": 2,
+      "M328_last_known_sign": true,
+      "M328_at_certain_line_end": true,
+      "source_render": "results/primary_pages/structure-u-pilot-580.png",
+      "other_side_context": [],
+      "context_limit": "Other-side glyphs visible in full-page render but not assigned a complete verified code sequence in this bounded review; no canonical tokens substituted."
+    },
+    {
+      "reference": "5402",
+      "pdf_page": 580,
+      "printed_page": 569,
+      "indexed_entry_on_page": 15,
+      "row_locator": "Indexed M328 occurrence 15 of 15 on page; printed reference 5402, continuation 20",
+      "side_code": "2",
+      "line_code": "0",
+      "line_definition": "Only line on that side",
+      "printed_side_line_code": "20",
+      "concordance_reference_expanded": "540220",
+      "direction_code": null,
+      "direction_note": "Concordance reference encodes side/line, not direction. Sequence read RTL under primary normalized-layout convention.",
+      "normalized_rtl": [
+        "M087",
+        "M328"
+      ],
+      "sequence": [
+        {
+          "sign": "M087",
+          "doubtful": false,
+          "unknown_span": false
+        },
+        {
+          "sign": "M328",
+          "doubtful": false,
+          "unknown_span": false
+        }
+      ],
+      "preceding_strokes": {
+        "observed_count": 2,
+        "form": "two long parallel vertical strokes in one row, approximately full glyph height",
+        "sign": "M087",
+        "doubtful_in_source": false,
+        "immediately_precedes_M328_in_RTL": true,
+        "identity_authentication": "Primary Sign List printed32/PDF43 labelled87; differs from short stroke pairs99/100. Long form visually compared with M328 height."
+      },
+      "target_doubtful": false,
+      "target_has_loss": false,
+      "identified_positions": 2,
+      "M328_last_known_sign": true,
+      "M328_at_certain_line_end": true,
+      "source_render": "results/primary_pages/structure-u-pilot-580.png",
+      "other_side_context": [],
+      "context_limit": "Other-side glyphs visible in full-page render but not assigned a complete verified code sequence in this bounded review; no canonical tokens substituted."
+    },
+    {
+      "reference": "5479",
+      "pdf_page": 581,
+      "printed_page": 570,
+      "indexed_entry_on_page": 1,
+      "row_locator": "Indexed M328 occurrence 1 of 16 on page; printed reference 5479, continuation 20",
+      "side_code": "2",
+      "line_code": "0",
+      "line_definition": "Only line on that side",
+      "printed_side_line_code": "20",
+      "concordance_reference_expanded": "547920",
+      "direction_code": null,
+      "direction_note": "Concordance reference encodes side/line, not direction. Sequence read RTL under primary normalized-layout convention.",
+      "normalized_rtl": [
+        "M087",
+        "M328"
+      ],
+      "sequence": [
+        {
+          "sign": "M087",
+          "doubtful": false,
+          "unknown_span": false
+        },
+        {
+          "sign": "M328",
+          "doubtful": false,
+          "unknown_span": false
+        }
+      ],
+      "preceding_strokes": {
+        "observed_count": 2,
+        "form": "two long parallel vertical strokes in one row, approximately full glyph height",
+        "sign": "M087",
+        "doubtful_in_source": false,
+        "immediately_precedes_M328_in_RTL": true,
+        "identity_authentication": "Primary Sign List printed32/PDF43 labelled87; differs from short stroke pairs99/100. Long form visually compared with M328 height."
+      },
+      "target_doubtful": false,
+      "target_has_loss": false,
+      "identified_positions": 2,
+      "M328_last_known_sign": true,
+      "M328_at_certain_line_end": true,
+      "source_render": "results/primary_pages/structure-u-pilot-581.png",
+      "other_side_context": [
+        {
+          "printed_side_line_code": "10",
+          "side_code": "1",
+          "line_code": "0",
+          "normalized_rtl": [
+            "M067",
+            "M244",
+            "M149",
+            "M342"
+          ],
+          "sequence": [
+            {
+              "sign": "M067",
+              "doubtful": false,
+              "unknown_span": false
+            },
+            {
+              "sign": "M244",
+              "doubtful": false,
+              "unknown_span": false
+            },
+            {
+              "sign": "M149",
+              "doubtful": false,
+              "unknown_span": false
+            },
+            {
+              "sign": "M342",
+              "doubtful": false,
+              "unknown_span": false
+            }
+          ],
+          "status": "Selected direct visual transcription; primary normalized form IDs, not artifact autopsy."
+        }
+      ]
+    },
+    {
+      "reference": "4349",
+      "pdf_page": 581,
+      "printed_page": 570,
+      "indexed_entry_on_page": 2,
+      "row_locator": "Indexed M328 occurrence 2 of 16 on page; printed reference 4349, continuation 20",
+      "side_code": "2",
+      "line_code": "0",
+      "line_definition": "Only line on that side",
+      "printed_side_line_code": "20",
+      "concordance_reference_expanded": "434920",
+      "direction_code": null,
+      "direction_note": "Concordance reference encodes side/line, not direction. Sequence read RTL under primary normalized-layout convention.",
+      "normalized_rtl": [
+        "M177",
+        "M197",
+        "M192",
+        "M342",
+        "M087",
+        "M328"
+      ],
+      "sequence": [
+        {
+          "sign": "M177",
+          "doubtful": false,
+          "unknown_span": false
+        },
+        {
+          "sign": "M197",
+          "doubtful": false,
+          "unknown_span": false
+        },
+        {
+          "sign": "M192",
+          "doubtful": false,
+          "unknown_span": false
+        },
+        {
+          "sign": "M342",
+          "doubtful": false,
+          "unknown_span": false
+        },
+        {
+          "sign": "M087",
+          "doubtful": false,
+          "unknown_span": false
+        },
+        {
+          "sign": "M328",
+          "doubtful": false,
+          "unknown_span": false
+        }
+      ],
+      "preceding_strokes": {
+        "observed_count": 2,
+        "form": "two long parallel vertical strokes in one row, approximately full glyph height",
+        "sign": "M087",
+        "doubtful_in_source": false,
+        "immediately_precedes_M328_in_RTL": true,
+        "identity_authentication": "Primary Sign List printed32/PDF43 labelled87; differs from short stroke pairs99/100. Long form visually compared with M328 height."
+      },
+      "target_doubtful": false,
+      "target_has_loss": false,
+      "identified_positions": 6,
+      "M328_last_known_sign": true,
+      "M328_at_certain_line_end": true,
+      "source_render": "results/primary_pages/structure-u-pilot-581.png",
+      "other_side_context": [],
+      "context_limit": "Other-side glyphs visible in full-page render but not assigned a complete verified code sequence in this bounded review; no canonical tokens substituted."
+    },
+    {
+      "reference": "5293",
+      "pdf_page": 581,
+      "printed_page": 570,
+      "indexed_entry_on_page": 3,
+      "row_locator": "Indexed M328 occurrence 3 of 16 on page; printed reference 5293, continuation 20",
+      "side_code": "2",
+      "line_code": "0",
+      "line_definition": "Only line on that side",
+      "printed_side_line_code": "20",
+      "concordance_reference_expanded": "529320",
+      "direction_code": null,
+      "direction_note": "Concordance reference encodes side/line, not direction. Sequence read RTL under primary normalized-layout convention.",
+      "normalized_rtl": [
+        "M087",
+        "M328"
+      ],
+      "sequence": [
+        {
+          "sign": "M087",
+          "doubtful": false,
+          "unknown_span": false
+        },
+        {
+          "sign": "M328",
+          "doubtful": false,
+          "unknown_span": false
+        }
+      ],
+      "preceding_strokes": {
+        "observed_count": 2,
+        "form": "two long parallel vertical strokes in one row, approximately full glyph height",
+        "sign": "M087",
+        "doubtful_in_source": false,
+        "immediately_precedes_M328_in_RTL": true,
+        "identity_authentication": "Primary Sign List printed32/PDF43 labelled87; differs from short stroke pairs99/100. Long form visually compared with M328 height."
+      },
+      "target_doubtful": false,
+      "target_has_loss": false,
+      "identified_positions": 2,
+      "M328_last_known_sign": true,
+      "M328_at_certain_line_end": true,
+      "source_render": "results/primary_pages/structure-u-pilot-581.png",
+      "other_side_context": [
+        {
+          "printed_side_line_code": "10",
+          "side_code": "1",
+          "line_code": "0",
+          "normalized_rtl": [
+            "M048",
+            "M193",
+            "M342"
+          ],
+          "sequence": [
+            {
+              "sign": "M048",
+              "doubtful": false,
+              "unknown_span": false
+            },
+            {
+              "sign": "M193",
+              "doubtful": false,
+              "unknown_span": false
+            },
+            {
+              "sign": "M342",
+              "doubtful": false,
+              "unknown_span": false
+            }
+          ],
+          "status": "Selected direct visual transcription; primary normalized form IDs, not artifact autopsy."
+        }
+      ]
+    },
+    {
+      "reference": "5336",
+      "pdf_page": 581,
+      "printed_page": 570,
+      "indexed_entry_on_page": 4,
+      "row_locator": "Indexed M328 occurrence 4 of 16 on page; printed reference 5336, continuation 20",
+      "side_code": "2",
+      "line_code": "0",
+      "line_definition": "Only line on that side",
+      "printed_side_line_code": "20",
+      "concordance_reference_expanded": "533620",
+      "direction_code": null,
+      "direction_note": "Concordance reference encodes side/line, not direction. Sequence read RTL under primary normalized-layout convention.",
+      "normalized_rtl": [
+        "M087",
+        "M328"
+      ],
+      "sequence": [
+        {
+          "sign": "M087",
+          "doubtful": false,
+          "unknown_span": false
+        },
+        {
+          "sign": "M328",
+          "doubtful": false,
+          "unknown_span": false
+        }
+      ],
+      "preceding_strokes": {
+        "observed_count": 2,
+        "form": "two long parallel vertical strokes in one row, approximately full glyph height",
+        "sign": "M087",
+        "doubtful_in_source": false,
+        "immediately_precedes_M328_in_RTL": true,
+        "identity_authentication": "Primary Sign List printed32/PDF43 labelled87; differs from short stroke pairs99/100. Long form visually compared with M328 height."
+      },
+      "target_doubtful": false,
+      "target_has_loss": false,
+      "identified_positions": 2,
+      "M328_last_known_sign": true,
+      "M328_at_certain_line_end": true,
+      "source_render": "results/primary_pages/structure-u-pilot-581.png",
+      "other_side_context": [
+        {
+          "printed_side_line_code": "10",
+          "side_code": "1",
+          "line_code": "0",
+          "normalized_rtl": [
+            "M136",
+            "M193",
+            "M342"
+          ],
+          "sequence": [
+            {
+              "sign": "M136",
+              "doubtful": false,
+              "unknown_span": false
+            },
+            {
+              "sign": "M193",
+              "doubtful": false,
+              "unknown_span": false
+            },
+            {
+              "sign": "M342",
+              "doubtful": false,
+              "unknown_span": false
+            }
+          ],
+          "status": "Selected direct visual transcription; primary normalized form IDs, not artifact autopsy."
+        }
+      ]
+    },
+    {
+      "reference": "4314",
+      "pdf_page": 581,
+      "printed_page": 570,
+      "indexed_entry_on_page": 5,
+      "row_locator": "Indexed M328 occurrence 5 of 16 on page; printed reference 4314, continuation 20",
+      "side_code": "2",
+      "line_code": "0",
+      "line_definition": "Only line on that side",
+      "printed_side_line_code": "20",
+      "concordance_reference_expanded": "431420",
+      "direction_code": null,
+      "direction_note": "Concordance reference encodes side/line, not direction. Sequence read RTL under primary normalized-layout convention.",
+      "normalized_rtl": [
+        "M087",
+        "M328"
+      ],
+      "sequence": [
+        {
+          "sign": "M087",
+          "doubtful": false,
+          "unknown_span": false
+        },
+        {
+          "sign": "M328",
+          "doubtful": false,
+          "unknown_span": false
+        }
+      ],
+      "preceding_strokes": {
+        "observed_count": 2,
+        "form": "two long parallel vertical strokes in one row, approximately full glyph height",
+        "sign": "M087",
+        "doubtful_in_source": false,
+        "immediately_precedes_M328_in_RTL": true,
+        "identity_authentication": "Primary Sign List printed32/PDF43 labelled87; differs from short stroke pairs99/100. Long form visually compared with M328 height."
+      },
+      "target_doubtful": false,
+      "target_has_loss": false,
+      "identified_positions": 2,
+      "M328_last_known_sign": true,
+      "M328_at_certain_line_end": true,
+      "source_render": "results/primary_pages/structure-u-pilot-581.png",
+      "other_side_context": [
+        {
+          "printed_side_line_code": "10",
+          "side_code": "1",
+          "line_code": "0",
+          "normalized_rtl": [
+            "M267",
+            "M099",
+            "M067",
+            "M294",
+            "M342"
+          ],
+          "sequence": [
+            {
+              "sign": "M267",
+              "doubtful": false,
+              "unknown_span": false
+            },
+            {
+              "sign": "M099",
+              "doubtful": false,
+              "unknown_span": false
+            },
+            {
+              "sign": "M067",
+              "doubtful": false,
+              "unknown_span": false
+            },
+            {
+              "sign": "M294",
+              "doubtful": false,
+              "unknown_span": false
+            },
+            {
+              "sign": "M342",
+              "doubtful": false,
+              "unknown_span": false
+            }
+          ],
+          "status": "Selected direct visual transcription; primary normalized form IDs, not artifact autopsy."
+        }
+      ]
+    },
+    {
+      "reference": "5264",
+      "pdf_page": 581,
+      "printed_page": 570,
+      "indexed_entry_on_page": 6,
+      "row_locator": "Indexed M328 occurrence 6 of 16 on page; printed reference 5264, continuation 20",
+      "side_code": "2",
+      "line_code": "0",
+      "line_definition": "Only line on that side",
+      "printed_side_line_code": "20",
+      "concordance_reference_expanded": "526420",
+      "direction_code": null,
+      "direction_note": "Concordance reference encodes side/line, not direction. Sequence read RTL under primary normalized-layout convention.",
+      "normalized_rtl": [
+        "M087",
+        "M328"
+      ],
+      "sequence": [
+        {
+          "sign": "M087",
+          "doubtful": false,
+          "unknown_span": false
+        },
+        {
+          "sign": "M328",
+          "doubtful": false,
+          "unknown_span": false
+        }
+      ],
+      "preceding_strokes": {
+        "observed_count": 2,
+        "form": "two long parallel vertical strokes in one row, approximately full glyph height",
+        "sign": "M087",
+        "doubtful_in_source": false,
+        "immediately_precedes_M328_in_RTL": true,
+        "identity_authentication": "Primary Sign List printed32/PDF43 labelled87; differs from short stroke pairs99/100. Long form visually compared with M328 height."
+      },
+      "target_doubtful": false,
+      "target_has_loss": false,
+      "identified_positions": 2,
+      "M328_last_known_sign": true,
+      "M328_at_certain_line_end": true,
+      "source_render": "results/primary_pages/structure-u-pilot-581.png",
+      "other_side_context": [
+        {
+          "printed_side_line_code": "10",
+          "side_code": "1",
+          "line_code": "0",
+          "normalized_rtl": [
+            "M267",
+            "M099",
+            "M067",
+            "M294",
+            "M342"
+          ],
+          "sequence": [
+            {
+              "sign": "M267",
+              "doubtful": false,
+              "unknown_span": false
+            },
+            {
+              "sign": "M099",
+              "doubtful": false,
+              "unknown_span": false
+            },
+            {
+              "sign": "M067",
+              "doubtful": false,
+              "unknown_span": false
+            },
+            {
+              "sign": "M294",
+              "doubtful": false,
+              "unknown_span": false
+            },
+            {
+              "sign": "M342",
+              "doubtful": false,
+              "unknown_span": false
+            }
+          ],
+          "status": "Selected direct visual transcription; primary normalized form IDs, not artifact autopsy."
+        }
+      ]
+    },
+    {
+      "reference": "4594",
+      "pdf_page": 581,
+      "printed_page": 570,
+      "indexed_entry_on_page": 7,
+      "row_locator": "Indexed M328 occurrence 7 of 16 on page; printed reference 4594, continuation 20",
+      "side_code": "2",
+      "line_code": "0",
+      "line_definition": "Only line on that side",
+      "printed_side_line_code": "20",
+      "concordance_reference_expanded": "459420",
+      "direction_code": null,
+      "direction_note": "Concordance reference encodes side/line, not direction. Sequence read RTL under primary normalized-layout convention.",
+      "normalized_rtl": [
+        "M087",
+        "M328"
+      ],
+      "sequence": [
+        {
+          "sign": "M087",
+          "doubtful": false,
+          "unknown_span": false
+        },
+        {
+          "sign": "M328",
+          "doubtful": false,
+          "unknown_span": false
+        }
+      ],
+      "preceding_strokes": {
+        "observed_count": 2,
+        "form": "two long parallel vertical strokes in one row, approximately full glyph height",
+        "sign": "M087",
+        "doubtful_in_source": false,
+        "immediately_precedes_M328_in_RTL": true,
+        "identity_authentication": "Primary Sign List printed32/PDF43 labelled87; differs from short stroke pairs99/100. Long form visually compared with M328 height."
+      },
+      "target_doubtful": false,
+      "target_has_loss": false,
+      "identified_positions": 2,
+      "M328_last_known_sign": true,
+      "M328_at_certain_line_end": true,
+      "source_render": "results/primary_pages/structure-u-pilot-581.png",
+      "other_side_context": [],
+      "context_limit": "Other-side glyphs visible in full-page render but not assigned a complete verified code sequence in this bounded review; no canonical tokens substituted."
+    },
+    {
+      "reference": "5466",
+      "pdf_page": 581,
+      "printed_page": 570,
+      "indexed_entry_on_page": 8,
+      "row_locator": "Indexed M328 occurrence 8 of 16 on page; printed reference 5466, continuation 20",
+      "side_code": "2",
+      "line_code": "0",
+      "line_definition": "Only line on that side",
+      "printed_side_line_code": "20",
+      "concordance_reference_expanded": "546620",
+      "direction_code": null,
+      "direction_note": "Concordance reference encodes side/line, not direction. Sequence read RTL under primary normalized-layout convention.",
+      "normalized_rtl": [
+        "M087",
+        "M328"
+      ],
+      "sequence": [
+        {
+          "sign": "M087",
+          "doubtful": false,
+          "unknown_span": false
+        },
+        {
+          "sign": "M328",
+          "doubtful": false,
+          "unknown_span": false
+        }
+      ],
+      "preceding_strokes": {
+        "observed_count": 2,
+        "form": "two long parallel vertical strokes in one row, approximately full glyph height",
+        "sign": "M087",
+        "doubtful_in_source": false,
+        "immediately_precedes_M328_in_RTL": true,
+        "identity_authentication": "Primary Sign List printed32/PDF43 labelled87; differs from short stroke pairs99/100. Long form visually compared with M328 height."
+      },
+      "target_doubtful": false,
+      "target_has_loss": false,
+      "identified_positions": 2,
+      "M328_last_known_sign": true,
+      "M328_at_certain_line_end": true,
+      "source_render": "results/primary_pages/structure-u-pilot-581.png",
+      "other_side_context": [
+        {
+          "printed_side_line_code": "10",
+          "side_code": "1",
+          "line_code": "0",
+          "normalized_rtl": [
+            "M053",
+            "M347",
+            "M342"
+          ],
+          "sequence": [
+            {
+              "sign": "M053",
+              "doubtful": false,
+              "unknown_span": false
+            },
+            {
+              "sign": "M347",
+              "doubtful": false,
+              "unknown_span": false
+            },
+            {
+              "sign": "M342",
+              "doubtful": false,
+              "unknown_span": false
+            }
+          ],
+          "status": "Selected direct visual transcription; primary normalized form IDs, not artifact autopsy."
+        }
+      ]
+    },
+    {
+      "reference": "5317",
+      "pdf_page": 581,
+      "printed_page": 570,
+      "indexed_entry_on_page": 9,
+      "row_locator": "Indexed M328 occurrence 9 of 16 on page; printed reference 5317, continuation 20",
+      "side_code": "2",
+      "line_code": "0",
+      "line_definition": "Only line on that side",
+      "printed_side_line_code": "20",
+      "concordance_reference_expanded": "531720",
+      "direction_code": null,
+      "direction_note": "Concordance reference encodes side/line, not direction. Sequence read RTL under primary normalized-layout convention.",
+      "normalized_rtl": [
+        "M087",
+        "M328"
+      ],
+      "sequence": [
+        {
+          "sign": "M087",
+          "doubtful": false,
+          "unknown_span": false
+        },
+        {
+          "sign": "M328",
+          "doubtful": false,
+          "unknown_span": false
+        }
+      ],
+      "preceding_strokes": {
+        "observed_count": 2,
+        "form": "two long parallel vertical strokes in one row, approximately full glyph height",
+        "sign": "M087",
+        "doubtful_in_source": false,
+        "immediately_precedes_M328_in_RTL": true,
+        "identity_authentication": "Primary Sign List printed32/PDF43 labelled87; differs from short stroke pairs99/100. Long form visually compared with M328 height."
+      },
+      "target_doubtful": false,
+      "target_has_loss": false,
+      "identified_positions": 2,
+      "M328_last_known_sign": true,
+      "M328_at_certain_line_end": true,
+      "source_render": "results/primary_pages/structure-u-pilot-581.png",
+      "other_side_context": [],
+      "context_limit": "Other-side glyphs visible in full-page render but not assigned a complete verified code sequence in this bounded review; no canonical tokens substituted."
+    },
+    {
+      "reference": "5318",
+      "pdf_page": 581,
+      "printed_page": 570,
+      "indexed_entry_on_page": 10,
+      "row_locator": "Indexed M328 occurrence 10 of 16 on page; printed reference 5318, continuation 20",
+      "side_code": "2",
+      "line_code": "0",
+      "line_definition": "Only line on that side",
+      "printed_side_line_code": "20",
+      "concordance_reference_expanded": "531820",
+      "direction_code": null,
+      "direction_note": "Concordance reference encodes side/line, not direction. Sequence read RTL under primary normalized-layout convention.",
+      "normalized_rtl": [
+        "M087",
+        "M328"
+      ],
+      "sequence": [
+        {
+          "sign": "M087",
+          "doubtful": false,
+          "unknown_span": false
+        },
+        {
+          "sign": "M328",
+          "doubtful": false,
+          "unknown_span": false
+        }
+      ],
+      "preceding_strokes": {
+        "observed_count": 2,
+        "form": "two long parallel vertical strokes in one row, approximately full glyph height",
+        "sign": "M087",
+        "doubtful_in_source": false,
+        "immediately_precedes_M328_in_RTL": true,
+        "identity_authentication": "Primary Sign List printed32/PDF43 labelled87; differs from short stroke pairs99/100. Long form visually compared with M328 height."
+      },
+      "target_doubtful": false,
+      "target_has_loss": false,
+      "identified_positions": 2,
+      "M328_last_known_sign": true,
+      "M328_at_certain_line_end": true,
+      "source_render": "results/primary_pages/structure-u-pilot-581.png",
+      "other_side_context": [],
+      "context_limit": "Other-side glyphs visible in full-page render but not assigned a complete verified code sequence in this bounded review; no canonical tokens substituted."
+    },
+    {
+      "reference": "4402",
+      "pdf_page": 581,
+      "printed_page": 570,
+      "indexed_entry_on_page": 11,
+      "row_locator": "Indexed M328 occurrence 11 of 16 on page; printed reference 4402, continuation 20",
+      "side_code": "2",
+      "line_code": "0",
+      "line_definition": "Only line on that side",
+      "printed_side_line_code": "20",
+      "concordance_reference_expanded": "440220",
+      "direction_code": null,
+      "direction_note": "Concordance reference encodes side/line, not direction. Sequence read RTL under primary normalized-layout convention.",
+      "normalized_rtl": [
+        "M087",
+        "M328"
+      ],
+      "sequence": [
+        {
+          "sign": "M087",
+          "doubtful": false,
+          "unknown_span": false
+        },
+        {
+          "sign": "M328",
+          "doubtful": false,
+          "unknown_span": false
+        }
+      ],
+      "preceding_strokes": {
+        "observed_count": 2,
+        "form": "two long parallel vertical strokes in one row, approximately full glyph height",
+        "sign": "M087",
+        "doubtful_in_source": false,
+        "immediately_precedes_M328_in_RTL": true,
+        "identity_authentication": "Primary Sign List printed32/PDF43 labelled87; differs from short stroke pairs99/100. Long form visually compared with M328 height."
+      },
+      "target_doubtful": false,
+      "target_has_loss": false,
+      "identified_positions": 2,
+      "M328_last_known_sign": true,
+      "M328_at_certain_line_end": true,
+      "source_render": "results/primary_pages/structure-u-pilot-581.png",
+      "other_side_context": [
+        {
+          "printed_side_line_code": "10",
+          "side_code": "1",
+          "line_code": "0",
+          "normalized_rtl": [
+            "M325",
+            "M347",
+            "M342"
+          ],
+          "sequence": [
+            {
+              "sign": "M325",
+              "doubtful": false,
+              "unknown_span": false
+            },
+            {
+              "sign": "M347",
+              "doubtful": false,
+              "unknown_span": false
+            },
+            {
+              "sign": "M342",
+              "doubtful": false,
+              "unknown_span": false
+            }
+          ],
+          "status": "Selected direct visual transcription; primary normalized form IDs, not artifact autopsy."
+        }
+      ]
+    },
+    {
+      "reference": "4559",
+      "pdf_page": 581,
+      "printed_page": 570,
+      "indexed_entry_on_page": 12,
+      "row_locator": "Indexed M328 occurrence 12 of 16 on page; printed reference 4559, continuation 20",
+      "side_code": "2",
+      "line_code": "0",
+      "line_definition": "Only line on that side",
+      "printed_side_line_code": "20",
+      "concordance_reference_expanded": "455920",
+      "direction_code": null,
+      "direction_note": "Concordance reference encodes side/line, not direction. Sequence read RTL under primary normalized-layout convention.",
+      "normalized_rtl": [
+        "*M087",
+        "M328"
+      ],
+      "sequence": [
+        {
+          "sign": "M087",
+          "doubtful": true,
+          "unknown_span": false
+        },
+        {
+          "sign": "M328",
+          "doubtful": false,
+          "unknown_span": false
+        }
+      ],
+      "preceding_strokes": {
+        "observed_count": 2,
+        "form": "two long parallel vertical strokes in one row, approximately full glyph height",
+        "sign": "M087",
+        "doubtful_in_source": true,
+        "immediately_precedes_M328_in_RTL": true,
+        "identity_authentication": "Primary Sign List printed32/PDF43 labelled87; differs from short stroke pairs99/100. Long form visually compared with M328 height."
+      },
+      "target_doubtful": false,
+      "target_has_loss": false,
+      "identified_positions": 2,
+      "M328_last_known_sign": true,
+      "M328_at_certain_line_end": true,
+      "source_render": "results/primary_pages/structure-u-pilot-581.png",
+      "other_side_context": [
+        {
+          "printed_side_line_code": "10",
+          "side_code": "1",
+          "line_code": "0",
+          "normalized_rtl": [
+            "UNKNOWN_SPAN",
+            "*M373",
+            "M342"
+          ],
+          "sequence": [
+            {
+              "sign": null,
+              "doubtful": false,
+              "unknown_span": true,
+              "minimum_lost_signs": 1,
+              "maximum_lost_signs": null
+            },
+            {
+              "sign": "M373",
+              "doubtful": true,
+              "unknown_span": false
+            },
+            {
+              "sign": "M342",
+              "doubtful": false,
+              "unknown_span": false
+            }
+          ],
+          "status": "Selected direct visual transcription; primary normalized form IDs, not artifact autopsy."
+        }
+      ]
+    },
+    {
+      "reference": "4554",
+      "pdf_page": 581,
+      "printed_page": 570,
+      "indexed_entry_on_page": 13,
+      "row_locator": "Indexed M328 occurrence 13 of 16 on page; printed reference 4554, continuation 20",
+      "side_code": "2",
+      "line_code": "0",
+      "line_definition": "Only line on that side",
+      "printed_side_line_code": "20",
+      "concordance_reference_expanded": "455420",
+      "direction_code": null,
+      "direction_note": "Concordance reference encodes side/line, not direction. Sequence read RTL under primary normalized-layout convention.",
+      "normalized_rtl": [
+        "M087",
+        "M328"
+      ],
+      "sequence": [
+        {
+          "sign": "M087",
+          "doubtful": false,
+          "unknown_span": false
+        },
+        {
+          "sign": "M328",
+          "doubtful": false,
+          "unknown_span": false
+        }
+      ],
+      "preceding_strokes": {
+        "observed_count": 2,
+        "form": "two long parallel vertical strokes in one row, approximately full glyph height",
+        "sign": "M087",
+        "doubtful_in_source": false,
+        "immediately_precedes_M328_in_RTL": true,
+        "identity_authentication": "Primary Sign List printed32/PDF43 labelled87; differs from short stroke pairs99/100. Long form visually compared with M328 height."
+      },
+      "target_doubtful": false,
+      "target_has_loss": false,
+      "identified_positions": 2,
+      "M328_last_known_sign": true,
+      "M328_at_certain_line_end": true,
+      "source_render": "results/primary_pages/structure-u-pilot-581.png",
+      "other_side_context": [
+        {
+          "printed_side_line_code": "10",
+          "side_code": "1",
+          "line_code": "0",
+          "normalized_rtl": [
+            "M103",
+            "M403",
+            "M342"
+          ],
+          "sequence": [
+            {
+              "sign": "M103",
+              "doubtful": false,
+              "unknown_span": false
+            },
+            {
+              "sign": "M403",
+              "doubtful": false,
+              "unknown_span": false
+            },
+            {
+              "sign": "M342",
+              "doubtful": false,
+              "unknown_span": false
+            }
+          ],
+          "status": "Selected direct visual transcription; primary normalized form IDs, not artifact autopsy."
+        }
+      ]
+    },
+    {
+      "reference": "5454",
+      "pdf_page": 581,
+      "printed_page": 570,
+      "indexed_entry_on_page": 14,
+      "row_locator": "Indexed M328 occurrence 14 of 16 on page; printed reference 5454, continuation 20",
+      "side_code": "2",
+      "line_code": "0",
+      "line_definition": "Only line on that side",
+      "printed_side_line_code": "20",
+      "concordance_reference_expanded": "545420",
+      "direction_code": null,
+      "direction_note": "Concordance reference encodes side/line, not direction. Sequence read RTL under primary normalized-layout convention.",
+      "normalized_rtl": [
+        "M087",
+        "M328"
+      ],
+      "sequence": [
+        {
+          "sign": "M087",
+          "doubtful": false,
+          "unknown_span": false
+        },
+        {
+          "sign": "M328",
+          "doubtful": false,
+          "unknown_span": false
+        }
+      ],
+      "preceding_strokes": {
+        "observed_count": 2,
+        "form": "two long parallel vertical strokes in one row, approximately full glyph height",
+        "sign": "M087",
+        "doubtful_in_source": false,
+        "immediately_precedes_M328_in_RTL": true,
+        "identity_authentication": "Primary Sign List printed32/PDF43 labelled87; differs from short stroke pairs99/100. Long form visually compared with M328 height."
+      },
+      "target_doubtful": false,
+      "target_has_loss": false,
+      "identified_positions": 2,
+      "M328_last_known_sign": true,
+      "M328_at_certain_line_end": true,
+      "source_render": "results/primary_pages/structure-u-pilot-581.png",
+      "other_side_context": [],
+      "context_limit": "Other-side glyphs visible in full-page render but not assigned a complete verified code sequence in this bounded review; no canonical tokens substituted."
+    },
+    {
+      "reference": "4359",
+      "pdf_page": 581,
+      "printed_page": 570,
+      "indexed_entry_on_page": 15,
+      "row_locator": "Indexed M328 occurrence 15 of 16 on page; printed reference 4359, continuation 20",
+      "side_code": "2",
+      "line_code": "0",
+      "line_definition": "Only line on that side",
+      "printed_side_line_code": "20",
+      "concordance_reference_expanded": "435920",
+      "direction_code": null,
+      "direction_note": "Concordance reference encodes side/line, not direction. Sequence read RTL under primary normalized-layout convention.",
+      "normalized_rtl": [
+        "M087",
+        "M328"
+      ],
+      "sequence": [
+        {
+          "sign": "M087",
+          "doubtful": false,
+          "unknown_span": false
+        },
+        {
+          "sign": "M328",
+          "doubtful": false,
+          "unknown_span": false
+        }
+      ],
+      "preceding_strokes": {
+        "observed_count": 2,
+        "form": "two long parallel vertical strokes in one row, approximately full glyph height",
+        "sign": "M087",
+        "doubtful_in_source": false,
+        "immediately_precedes_M328_in_RTL": true,
+        "identity_authentication": "Primary Sign List printed32/PDF43 labelled87; differs from short stroke pairs99/100. Long form visually compared with M328 height."
+      },
+      "target_doubtful": false,
+      "target_has_loss": false,
+      "identified_positions": 2,
+      "M328_last_known_sign": true,
+      "M328_at_certain_line_end": true,
+      "source_render": "results/primary_pages/structure-u-pilot-581.png",
+      "other_side_context": [
+        {
+          "printed_side_line_code": "10",
+          "side_code": "1",
+          "line_code": "0",
+          "normalized_rtl": [
+            "M272",
+            "M178"
+          ],
+          "sequence": [
+            {
+              "sign": "M272",
+              "doubtful": false,
+              "unknown_span": false
+            },
+            {
+              "sign": "M178",
+              "doubtful": false,
+              "unknown_span": false
+            }
+          ],
+          "status": "Selected direct visual transcription; primary normalized form IDs, not artifact autopsy."
+        }
+      ]
+    },
+    {
+      "reference": "5410",
+      "pdf_page": 581,
+      "printed_page": 570,
+      "indexed_entry_on_page": 16,
+      "row_locator": "Indexed M328 occurrence 16 of 16 on page; printed reference 5410, continuation 20",
+      "side_code": "2",
+      "line_code": "0",
+      "line_definition": "Only line on that side",
+      "printed_side_line_code": "20",
+      "concordance_reference_expanded": "541020",
+      "direction_code": null,
+      "direction_note": "Concordance reference encodes side/line, not direction. Sequence read RTL under primary normalized-layout convention.",
+      "normalized_rtl": [
+        "M087",
+        "M328"
+      ],
+      "sequence": [
+        {
+          "sign": "M087",
+          "doubtful": false,
+          "unknown_span": false
+        },
+        {
+          "sign": "M328",
+          "doubtful": false,
+          "unknown_span": false
+        }
+      ],
+      "preceding_strokes": {
+        "observed_count": 2,
+        "form": "two long parallel vertical strokes in one row, approximately full glyph height",
+        "sign": "M087",
+        "doubtful_in_source": false,
+        "immediately_precedes_M328_in_RTL": true,
+        "identity_authentication": "Primary Sign List printed32/PDF43 labelled87; differs from short stroke pairs99/100. Long form visually compared with M328 height."
+      },
+      "target_doubtful": false,
+      "target_has_loss": false,
+      "identified_positions": 2,
+      "M328_last_known_sign": true,
+      "M328_at_certain_line_end": true,
+      "source_render": "results/primary_pages/structure-u-pilot-581.png",
+      "other_side_context": [
+        {
+          "printed_side_line_code": "10",
+          "side_code": "1",
+          "line_code": "0",
+          "normalized_rtl": [
+            "M287",
+            "M178"
+          ],
+          "sequence": [
+            {
+              "sign": "M287",
+              "doubtful": false,
+              "unknown_span": false
+            },
+            {
+              "sign": "M178",
+              "doubtful": false,
+              "unknown_span": false
+            }
+          ],
+          "status": "Selected direct visual transcription; primary normalized form IDs, not artifact autopsy."
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "indexed_M328_lines": 46,
+    "distinct_references": 46,
+    "by_pdf_page": {
+      "579": 15,
+      "580": 15,
+      "581": 16
+    },
+    "all_immediately_preceded_by_two_long_strokes": true,
+    "preceding_sign": "M087",
+    "unstarred_preceding_signs": 44,
+    "doubtfully_read_preceding_signs": 2,
+    "doubtful_references": [
+      "4355",
+      "4559"
+    ],
+    "target_lines_with_loss": 1,
+    "loss_references": [
+      "4347"
+    ],
+    "two_identified_sign_lines_without_loss": 43,
+    "certain_two_sign_lines_without_loss": 41,
+    "longer_six_sign_lines": 2,
+    "longer_line_references": [
+      "4446",
+      "4349"
+    ],
+    "loss_bearing_line_with_two_identified_signs": 1,
+    "complete_certain_target_lines": 43,
+    "side2_target_lines": 42,
+    "side3_target_lines": 4,
+    "identified_target_sign_positions": 100,
+    "certain_target_sign_positions": 98,
+    "unknown_span_count": 1,
+    "context_transcribed_references": 30,
+    "context_transcribed_lines": 34
+  },
+  "limits": [
+    "Concordance-selected pages group similar environments; these are descriptive counts, not unbiased corpus frequencies or a significance test.",
+    "No reading, quantity unit, commodity or semantic interpretation assigned.",
+    "Starred signs remain doubtful despite recognizable normalized drawings.",
+    "Loss after M328 in4347 prevents claiming certain line-finality or exact original length.",
+    "Side/line codes are primary concordance codes; no inferred ancient direction code is attached.",
+    "Canonical may preserve any selected side; this review makes no blanket omitted-side claim.",
+    "No completeness claim beyond these three pages; parent integrates a six-page pilot without treating concordance repetition as independent objects."
+  ],
+  "paired_context_check": {
+    "selection": "Parent suggested same-main-text comparison after inspecting its adjacent pages; exploratory source-grounded check, not independently held-out.",
+    "independently_visually_checked": true,
+    "common_other_side": {
+      "side_code": "1",
+      "line_code": "0",
+      "normalized_rtl": [
+        "M048",
+        "M342",
+        "M176"
+      ],
+      "drawing_description": "Bent figure with oblique side ticks, U with outward top ticks, E-like comb; primary numbered glyphs48,342,176."
+    },
+    "two_stroke_example": {
+      "reference": "5464",
+      "pdf_page": 579,
+      "printed_page": 568,
+      "indexed_entry_on_page": 1,
+      "side_code": "2",
+      "line_code": "0",
+      "normalized_rtl": [
+        "M087",
+        "M328"
+      ],
+      "observed_long_strokes": 2,
+      "doubt_or_loss_seen": false,
+      "render": "results/primary_pages/structure-u-pilot-5464-pair.png"
+    },
+    "three_stroke_example": {
+      "reference": "4387",
+      "pdf_page": 584,
+      "printed_page": 573,
+      "indexed_entry_on_page": 9,
+      "side_code": "2",
+      "line_code": "0",
+      "normalized_rtl": [
+        "M089",
+        "M328"
+      ],
+      "observed_long_strokes": 3,
+      "doubt_or_loss_seen": false,
+      "render": "results/primary_pages/structure-u-pilot-4387-pair.png"
+    },
+    "additional_same_shape_refs_visually_seen_on_pdf584": [
+      "4403",
+      "4405",
+      "4509",
+      "4543",
+      "4575",
+      "5407",
+      "5409"
+    ],
+    "identity_authentication": "M087 andM089 labelled primary Sign List printed32/PDF43; M328 printed34/PDF45; M048 printed32, M342 printed35, M176 printed33.",
+    "structural_inference": "Exact same normalized other-side sequence can accompany different stroke-group+M328 sequences. This is a counterexample to a deterministic mapping from that exact other-side text alone to the stroke group.",
+    "not_demonstrated": [
+      "Numeric value or unit",
+      "Semantic translation of M328 or other signs",
+      "Statistical independence of repeated referenced objects",
+      "Prospective held-out prediction"
+    ]
+  }
+}

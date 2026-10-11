@@ -1,0 +1,29 @@
+{
+  "ledger_sha256": {
+    "data/processed/m77_1001_recovered_lines.json": "6cb9ea09e02a08706de24e472195c05566103eb5e766eccc68e14c09e7257e9f",
+    "data/processed/m77_2405_recovered_lines.json": "c1eab14e20c1d1d76a3fc34efe7b4380860f251ff409e808c1d117148a678c8b"
+  },
+  "scope": "Selected, visually reviewed primary lines. Separate from the unmodified canonical corpus and strict subset. No sounds or meanings assigned.",
+  "summary": {
+    "comparisons": [
+      {
+        "additional_lines_absent_from_export": 1,
+        "first_line_matches_export": true,
+        "reference": "1001",
+        "reviewed_line_count": 2
+      },
+      {
+        "additional_lines_absent_from_export": 6,
+        "first_line_matches_export": true,
+        "reference": "2405",
+        "reviewed_line_count": 7
+      }
+    ],
+    "complete_line_position_check": "No count exceeds the full primary positional marginal; compatibility does not prove identity.",
+    "complete_printed_sequences": 6,
+    "distinct_identified_signs": 22,
+    "identified_sign_positions": 24,
+    "lines": 9,
+    "unknown_spans": 3
+  }
+}

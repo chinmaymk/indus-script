@@ -1,0 +1,235 @@
+{
+  "allography_or_separate_values_resolved": false,
+  "established_phonetic_values": 0,
+  "established_semantic_values": 0,
+  "global_mapping_established": false,
+  "identity_basis": "Primary excavation DK8333 and photograph references, not computed context match",
+  "input_sha256": {
+    "data/processed/mahadevan_1977_table_i.csv": "0c472d01a938fd61b9090db2afc29dbecc00f3751ea4f796f6034e2a8268891c",
+    "data/processed/pincer_primary_review.json": "a1a7769fb36ca0907a4f1b3a2e68c70d173e5110fa09f6e954f08bd067ed1df3",
+    "results/pincer_context_screen.json": "9a680e61fb8633a47472212e63c02396b0934cc97039f55cb1762922dffa1bec"
+  },
+  "matching_screen_pair_id": "2591.1__GLI-IND-M77-03068",
+  "primary_Table_I_position_profiles": [
+    {
+      "final": 3,
+      "initial": 36,
+      "medial": 49,
+      "pdf_page": "731",
+      "printed_page": "720",
+      "row_in_half": "24",
+      "row_sum_matches": "True",
+      "row_y_ocr": "4503.6",
+      "sign": "M216",
+      "solus": 2,
+      "source": "Mahadevan 1977 Table I",
+      "table_half": "1",
+      "total": 90
+    },
+    {
+      "final": 0,
+      "initial": 2,
+      "medial": 20,
+      "pdf_page": "731",
+      "printed_page": "720",
+      "row_in_half": "30",
+      "row_sum_matches": "True",
+      "row_y_ocr": "5525.2",
+      "sign": "M222",
+      "solus": 0,
+      "source": "Mahadevan 1977 Table I",
+      "table_half": "1",
+      "total": 22
+    }
+  ],
+  "primary_review": {
+    "M_candidate_reading_sequence": [
+      "M216",
+      "M123",
+      "M222",
+      "M254"
+    ],
+    "W_file_sequence": [
+      "W526",
+      "W555",
+      "W060",
+      "W550"
+    ],
+    "artifact": {
+      "CISI_metadata_pdf_page": 402,
+      "CISI_photo_pdf_page": 64,
+      "M77_identity_pdf_page": 828,
+      "M77_text": "3068",
+      "M77_text_pdf_page": 98,
+      "cisi": "M-63",
+      "excavation": "DK8333",
+      "finnish_number": "0223",
+      "identity_uses_text_similarity": false,
+      "museum": "ASI63.10.12",
+      "photo": "HU98; impression Si.21 p.1:215"
+    },
+    "established_phonetic_values": 0,
+    "established_semantic_values": 0,
+    "evidence_files": [
+      {
+        "bytes": 31508998,
+        "path": "data/raw/cisi_76884.pdf",
+        "sha256": "47a4da4227cfb7baa56d6a561e25797225499d0ec54f5a702a82c67ab4746d4d"
+      },
+      {
+        "bytes": 119302608,
+        "path": "data/raw/mahadevan_1977_text.pdf",
+        "sha256": "6dcdd074a0174e5fab149590fbbf82342711d345764e9763f8e5e92c81cf7f99"
+      },
+      {
+        "bytes": 1204921,
+        "path": "data/raw/lipi_inscriptions.csv",
+        "sha256": "b8dcb325a2e2cd3cde12ac12e7a418b0348e45713c9ee28aad81b645d2ac5ee4"
+      },
+      {
+        "bytes": 189902,
+        "path": "data/processed/catalogue_features.json",
+        "sha256": "00836515c6f3beec28b3b66e13d8a9c6e94571cfb2e9dbb4b148651b7ff0032d"
+      },
+      {
+        "bytes": 2622908,
+        "path": "results/primary_pages/chain-signlist-44.png",
+        "sha256": "20cace271efa652e7c70ba9796f1980a7edfc6852be6a28d3e57c3d0ba1b440d"
+      },
+      {
+        "bytes": 2725499,
+        "path": "results/primary_pages/ending-signlist-045.png",
+        "sha256": "a091d2d01efc661a93f28e1a0141cd583f326ffeb813a38313f06c8d17ce5252"
+      },
+      {
+        "bytes": 5121,
+        "path": "docs/PINCER_PRIMARY_REVIEW.md",
+        "sha256": "cc3b2e20c0158a33f49b374ba9d391154126ef3edf76027246b150f65fbc3a94"
+      },
+      {
+        "bytes": 763,
+        "path": "scripts/render_pincer_primary_crops.py",
+        "sha256": "d60e92099e72c0926ecd96fc2501ca220e4d10756841e92dd14bab3d96a9c725"
+      },
+      {
+        "bytes": 3186059,
+        "path": "results/primary_pages/pincer-cisi-402.png",
+        "sha256": "dd6e896b8becd4ab49c0ac2c0997d9c88ec6cd6bcf6a534af91334c109146001"
+      },
+      {
+        "bytes": 2489102,
+        "path": "results/primary_pages/pincer-cisi-65.png",
+        "sha256": "c7b729f1c9d3d7842084f7c98d70c92bc3bd726a32714f43575e8ca602a081cc"
+      },
+      {
+        "bytes": 2187591,
+        "path": "results/primary_pages/pincer-cisi-66.png",
+        "sha256": "63647066d7b7a8d66eda4ae93063a19137d191d0c1801271f3267b125c58917d"
+      },
+      {
+        "bytes": 3325116,
+        "path": "results/primary_pages/pincer-m63-64.png",
+        "sha256": "ed0379473dc19d253d96b11d86210a9159130e904e5d48bd9c6c875e4e607b4f"
+      },
+      {
+        "bytes": 29821,
+        "path": "results/primary_pages/pincer-m63-cisi-identity.png",
+        "sha256": "766b60af90696ce510662fc6a3a551a2f86e7612d62849549f073c6dfc3175b7"
+      },
+      {
+        "bytes": 536003,
+        "path": "results/primary_pages/pincer-m63-impression.png",
+        "sha256": "07cf8c9c2c9a8b5413f85297724fbccce32424498c7b0155528390f2b24bc8bb"
+      },
+      {
+        "bytes": 56445,
+        "path": "results/primary_pages/pincer-m63-m77-identity.png",
+        "sha256": "0e1c0d71bbb034f261a5befd02a4acbce13aaba26168d633a34fc3013034aae4"
+      },
+      {
+        "bytes": 83543,
+        "path": "results/primary_pages/pincer-m63-m77-text.png",
+        "sha256": "192cd0bfa77596777b0eef493ed9cc547a86addcf0f438e6b87a6263d8cb6bc5"
+      },
+      {
+        "bytes": 510296,
+        "path": "results/primary_pages/pincer-m63-original.png",
+        "sha256": "0368743f905c34609834354701054a67401637c750cb4a9e25bcf54622d5f717"
+      },
+      {
+        "bytes": 1964859,
+        "path": "results/primary_pages/pincer-m77-098.png",
+        "sha256": "427bdd6f799e589e2a13b79b46194be08ef8f571463ac82eb9589a43efff0300"
+      },
+      {
+        "bytes": 3276388,
+        "path": "results/primary_pages/pincer-m77-828.png",
+        "sha256": "059971d9fba008d5e1133f884d42332f132dc02f26c25b808acaa7ba1f59ab71"
+      }
+    ],
+    "limits": [
+      "Site/object differences alone cannot explain within-object graphic contrast",
+      "Position-dependent allography or scribal variation remain possible",
+      "P230 family membership is not an exhaustive exact W-to-M conversion",
+      "No global conversion or semantic/phonetic assignment"
+    ],
+    "local_target_correspondences": [
+      {
+        "M": "M216",
+        "W": "W550"
+      },
+      {
+        "M": "M222",
+        "W": "W555"
+      }
+    ],
+    "observations": {
+      "both_crossed_forms_on_same_object": true,
+      "comb_gross_corner_loss_observed": false,
+      "comb_orientation_differs_from_L89_impression": true,
+      "complete_fine_transcription_certified": false,
+      "different_meanings_proven": false,
+      "physical_autopsy": false,
+      "same_form_proven": false
+    },
+    "render_invocations": [
+      {
+        "pages": [
+          66,
+          402
+        ],
+        "prefix": "pincer-cisi",
+        "scale": 3000,
+        "source": "cisi_76884.pdf"
+      },
+      {
+        "pages": [
+          65
+        ],
+        "prefix": "pincer-cisi",
+        "scale": 3500,
+        "source": "cisi_76884.pdf"
+      },
+      {
+        "pages": [
+          64
+        ],
+        "prefix": "pincer-m63",
+        "scale": 4000,
+        "source": "cisi_76884.pdf"
+      },
+      {
+        "pages": [
+          98,
+          828
+        ],
+        "prefix": "pincer-m77",
+        "scale": 3000,
+        "source": "mahadevan_1977_text.pdf"
+      }
+    ],
+    "review_date": "2026-09-25",
+    "status": "Source-exposed selected primary comparison, not full decipherment"
+  },
+  "profile_scope": "Reused historical primary transcription, not new counts; descriptive positions do not resolve allography or meaning"
+}

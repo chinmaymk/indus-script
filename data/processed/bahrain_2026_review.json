@@ -1,0 +1,130 @@
+{
+  "review_date": "2026-09-24",
+  "publication": {
+    "doi": "10.1086/739820",
+    "year": 2026,
+    "volume": 85,
+    "issue": 1,
+    "pages": "115–145",
+    "title": "Stamped Tokens with Cuneiform Inscriptions from Bahrain: New Light on Kingship and the Gods in Early 2nd Millennium BC Dilmun"
+  },
+  "source_fingerprints": [
+    {
+      "path": "data/raw/bahrain_2026_unibo.html",
+      "bytes": 57921,
+      "sha256": "237b23a9e90a16d6a36406005c17100c922a4122362ea9e74850ca9b9b4cdb78",
+      "url": "https://cris.unibo.it/handle/11585/1059790",
+      "kind": "download",
+      "retrieved_date": "2026-09-24"
+    },
+    {
+      "path": "data/raw/bahrain_2026_first_page.png",
+      "bytes": 114671,
+      "sha256": "8b7cf3b64bcaa18a924d299b323a5afa3daee34e5ba075b14dab963ef0a62d3f",
+      "url": "https://www.journals.uchicago.edu/cms/10.1086/739820/asset/a546b601-f5d4-49bb-8a19-4bb1bbf147b9/assets/739820.fp.png",
+      "kind": "download",
+      "retrieved_date": "2026-09-24"
+    },
+    {
+      "path": "data/raw/bahrain_2026_author_post.html",
+      "bytes": 157416,
+      "sha256": "b2b17a4464cfb1e6d363645313e07b71367f0bc315051b72048c06569a51bfe2",
+      "url": "https://www.linkedin.com/posts/steffen-terp-laursen-33487267_new-sensational-discovery-royal-seals-activity-7451676890135678976-8qUs",
+      "kind": "download",
+      "retrieved_date": "2026-09-24"
+    }
+  ],
+  "image_fingerprints": [
+    {
+      "path": "data/raw/bahrain_2026_first_page.png",
+      "bytes": 114671,
+      "sha256": "8b7cf3b64bcaa18a924d299b323a5afa3daee34e5ba075b14dab963ef0a62d3f",
+      "url": "https://www.journals.uchicago.edu/cms/10.1086/739820/asset/a546b601-f5d4-49bb-8a19-4bb1bbf147b9/assets/739820.fp.png",
+      "kind": "download",
+      "retrieved_date": "2026-09-24",
+      "viewed": true,
+      "printed_page": 115,
+      "scope": "Publisher first-page preview only; no objects depicted"
+    }
+  ],
+  "primary_full_article_recovered": false,
+  "primary_first_page_viewed": true,
+  "repository_pdf_embargo_end": "2027-04-01",
+  "evidence": {
+    "author_repository_abstract": {
+      "token_count": 3,
+      "inscribed_seal_count": 2,
+      "name": "Yaglī-’el",
+      "rendered_title": "servant of the goddess Panipa",
+      "comparison_title": "servant of Inzak of Agaš",
+      "same_person_as_vessel_king": "Question explicitly raised by abstract; outcome not in abstract",
+      "exact_inscription_transliteration": null,
+      "object_accessions": []
+    },
+    "first_page_p115": {
+      "find_location": "Al Maqsha, near Avenue 50 and Budaiya Highway",
+      "excavations_since": 1978,
+      "visible_figure_labels": [
+        "Tokens 1 & 2"
+      ],
+      "full_context_continues_on_next_unrecovered_page": true,
+      "no_token_photographs_on_preview": true
+    },
+    "author_public_announcement": {
+      "two_tokens": "Al Maqsha",
+      "third_token": "Qal’at al-Bahrain palatial quarter",
+      "third_token_same_seal_reported": true,
+      "additional_seals_reported": 3,
+      "additional_seal_style_reported": "Style II",
+      "nearby_royal_mound_date_BCE": [
+        1665,
+        1540
+      ],
+      "date_scope": "Nearby royal mound, not independently verified token context",
+      "interpretation": "Author identifies Yagli-el with ruler known from A’ali tomb; king or crown-prince administrative role",
+      "peer_reviewed_details_checked": false
+    }
+  },
+  "indus_anchor": {
+    "authenticated_indus_sequence": null,
+    "matched_mahadevan_id": null,
+    "same_owner_or_text_alignment_with_indus": null,
+    "new_semantic_or_phonetic_values": 0,
+    "conclusion": "No Indus translation anchor established in accessible evidence; not a claim that the unrecovered complete paper contains no relevant comparanda."
+  },
+  "attempts": [
+    {
+      "action": "Search exact DOI and article title",
+      "result": "Publisher metadata, university author repository, ResearchGate request page; no public complete paper recovered."
+    },
+    {
+      "action": "Open publisher full-text URL using web tool",
+      "url": "https://www.journals.uchicago.edu/doi/full/10.1086/739820",
+      "result": "Redirected to abstract/access page; no article body. PDF endpoint also indexed as access page."
+    },
+    {
+      "action": "Open repository linked PDF through web tool",
+      "result": "Internal error; downloaded public record explicitly marks embargo to 2027-04-01. No attempt to bypass lock."
+    },
+    {
+      "action": "Download public repository record in sandbox",
+      "result": "DNS resolution failure; authorized network download then succeeded, 57921 bytes."
+    },
+    {
+      "action": "Download and visually inspect publisher first-page preview",
+      "result": "Succeeded; only printed page115, introduction. No object photographs or cuneiform collation."
+    },
+    {
+      "action": "Search exact title with filetype:pdf and academia, Al Maqsha/Panipa and Yagli/tokens/2026",
+      "result": "No complete author copy found. ResearchGate explicitly says no full-text available. Author public announcement located and archived."
+    },
+    {
+      "action": "Inspect author public announcement",
+      "result": "Reports sites, same-seal repetition and three additional Style II seals; lacks exact inventory IDs, stratigraphic dates, Indus readings and drawings. No message sent to author."
+    },
+    {
+      "action": "Assess potential Indus bridge",
+      "result": "Known cuneiform personal name is useful only as a future comparandum; no securely joined Indus-labelled object recovered. All Indus values remain unresolved."
+    }
+  ]
+}

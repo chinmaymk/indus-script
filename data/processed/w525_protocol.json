@@ -1,0 +1,19 @@
+{
+  "research_date": "2026-09-26",
+  "status": "Source-exposed missing-code investigation; saved after seeing nine pincer-selected W525 rows, before masked M-code candidate counts",
+  "purpose": "Discover constrained W525 correspondences without guessing a shape or meaning from its code number",
+  "selection": "All strict Wells rows containing W525; flag membership in the preceding pincer selection. No chronological or physical-identity equivalence assumed.",
+  "masked_code": "W525",
+  "masked_domain": "M001 through M417; exactly one M token per W525 occurrence. If W525 repeats in a row, require the same M value throughout that candidate pair.",
+  "background": "Prior family memberships and source-exposed W550/W555 candidate set M216/M222, with only the declared W617 to two M245 tokenization rule. Exact order and full sequence consumption. No other unknowns, deletions, rotations or semantic inference.",
+  "primary_review": "Independently authenticate older H1123 and M1390 sources if possible; modern tablet rows may postdate M77 and cannot be assumed shared artifacts.",
+  "limits": [
+    "A compatible complete context can be a repeated formula on a different object",
+    "A unique candidate code is conditional on incomplete background mappings and available texts",
+    "The masked search is discovery, not a blind prediction or decipherment",
+    "No candidate does not refute a sign value"
+  ],
+  "established_semantic_values": 0,
+  "established_phonetic_values": 0,
+  "post_null_diagnostic": "After the strict search returned zero and candidate record2868 was noticed outside strict, perform a separately labelled source-locator scan of multi-document records whose flat token array has no doubt or unknown and reported directionR/L. Do not add them to strict results or promote their collapsed arrays to recovered face-level texts."
+}

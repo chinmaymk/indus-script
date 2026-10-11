@@ -1,0 +1,46 @@
+{
+  "review_date": "2026-09-27",
+  "scope": "Incidental primary basic-data entry inspected during H843 source recovery; verifies the modern M735 excavation-field alias only",
+  "CISI_volume": 2,
+  "printed_page": 435,
+  "pdf_page": 470,
+  "cisi_alias": "M-735",
+  "excavation_field": "DK-C 3070",
+  "finnish_concordance": "1060",
+  "column_key_printed_page": 434,
+  "column_key_pdf_page": 469,
+  "finnish_number_used_as_M77_identity": false,
+  "modern_alias_to_field_verified": true,
+  "original_seal_photo_newly_reinspected": false,
+  "prior_review": "data/processed/m735_primary_review.json",
+  "prior_MIC60_to_M77_1060_basis": "Explicit Mahadevan MIC appendix rule, not equality of Finnish and M77 numbers",
+  "semantic_value": null,
+  "phonetic_value": null,
+  "evidence_files": [
+    {
+      "path": "data/raw/h843_identity_CorpusVol2.pdf",
+      "bytes": 35870617,
+      "sha256": "727132579a485ee626e48a64c663148a85fbc0811fb523818fd615231f8a327d"
+    },
+    {
+      "path": "results/primary_pages/h843-cisi2-key-469.png",
+      "bytes": 2283222,
+      "sha256": "7e891986c8aa4f5299101b13f80ce0fe1cd27f45e05bcd120857a7730e98884e"
+    },
+    {
+      "path": "results/primary_pages/h843-cisi2-key-470.png",
+      "bytes": 2906408,
+      "sha256": "c8c64e496195277f8dd1567b6b15c0f2cda7bdd4f5e113d174d14a962f007770"
+    },
+    {
+      "path": "results/primary_pages/m735-cisi2-alias-detail.png",
+      "bytes": 35925,
+      "sha256": "95e008c6d603825c2a19ffaf95c20a902bc50078ac91ce92eeee498fe5902415"
+    },
+    {
+      "path": "scripts/render_m735_alias_crop.py",
+      "bytes": 455,
+      "sha256": "2584efc0f01900884ddaa2ae39163796e9898a736f06ba6ee294eb5077b40186"
+    }
+  ]
+}

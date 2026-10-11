@@ -1,0 +1,364 @@
+{
+  "branches": {
+    "at_least_one_u": {
+      "combined_premises_inconsistent": true,
+      "damage_constraint": {
+        "coefficient_chisel": "7",
+        "coefficient_large_axe": "-1",
+        "coefficient_small_axe": "1",
+        "lower_bound_g": "177797/1000"
+      },
+      "deficit_g": {
+        "decimal": 177.797,
+        "fraction": "177797/1000"
+      },
+      "large_axe_observed_g": {
+        "decimal": 1910.03,
+        "fraction": "191003/100"
+      },
+      "large_axe_upper_bound_g": {
+        "decimal": 1732.233,
+        "fraction": "1732233/1000"
+      },
+      "minimum_added_chisel_mass_if_axes_held_fixed_g": {
+        "decimal": 25.399571428571427,
+        "fraction": "177797/7000"
+      },
+      "minimum_added_small_axe_mass_if_other_two_held_fixed_g": {
+        "decimal": 177.797,
+        "fraction": "177797/1000"
+      },
+      "minimum_arch_units_in_chisel": {
+        "decimal": 1.0,
+        "fraction": "1"
+      },
+      "minimum_chisel_mass_if_axes_held_fixed_g": {
+        "decimal": 235.39957142857142,
+        "fraction": "1647797/7000"
+      },
+      "proof": "S=A+r with r>=0; K=n*u+q with q>=0. Hence L=A+7u<=S+7K/n. No assumption r=0 or A=6i is required."
+    },
+    "at_least_two_u": {
+      "combined_premises_inconsistent": true,
+      "damage_constraint": {
+        "coefficient_chisel": "7/2",
+        "coefficient_large_axe": "-1",
+        "coefficient_small_axe": "1",
+        "lower_bound_g": "912797/1000"
+      },
+      "deficit_g": {
+        "decimal": 912.797,
+        "fraction": "912797/1000"
+      },
+      "large_axe_observed_g": {
+        "decimal": 1910.03,
+        "fraction": "191003/100"
+      },
+      "large_axe_upper_bound_g": {
+        "decimal": 997.233,
+        "fraction": "997233/1000"
+      },
+      "minimum_added_chisel_mass_if_axes_held_fixed_g": {
+        "decimal": 260.79914285714284,
+        "fraction": "912797/3500"
+      },
+      "minimum_added_small_axe_mass_if_other_two_held_fixed_g": {
+        "decimal": 912.797,
+        "fraction": "912797/1000"
+      },
+      "minimum_arch_units_in_chisel": {
+        "decimal": 2.0,
+        "fraction": "2"
+      },
+      "minimum_chisel_mass_if_axes_held_fixed_g": {
+        "decimal": 470.79914285714284,
+        "fraction": "1647797/3500"
+      },
+      "proof": "S=A+r with r>=0; K=n*u+q with q>=0. Hence L=A+7u<=S+7K/n. No assumption r=0 or A=6i is required."
+    }
+  },
+  "coverage_scope": "Six source-qualified fields, overlapping earlier reviews; do not add their counts as independent corpus observations",
+  "established_phonetic_values": 0,
+  "established_semantic_values": 0,
+  "input_sha256": {
+    "data/processed/arch_extension_catalogue_review.json": "1481dba2392ffb74fd841be5ccd44153c3837a5a7ce0bc10ebe8ea55628b4bae",
+    "data/processed/arch_mass_bound_protocol.json": "97d01b5861743c2a8eb06d50b619b9c5aca45c05c73fdb58abb2f69d14064cad",
+    "data/processed/kalibangan_tool_record_review.json": "9ae77513e88ffa4c3572c8d2df8df71052695adcb78f5d1ab569d8d3213a56cb",
+    "data/processed/mahadevan_1977_table_i.csv": "0c472d01a938fd61b9090db2afc29dbecc00f3751ea4f796f6034e2a8268891c",
+    "data/processed/metal_original_records.json": "df2004bef9285e72688715006bb00d63984a446c488d80f394f464ff77ca5659",
+    "data/processed/metal_tool_weight_anchors.json": "47ff98eef6b64e9254a1fbf6fd7ab6b002933d7004164659dbf402f07815d3ed"
+  },
+  "mass_inputs_g": {
+    "K121": "210",
+    "large_axe": "1910.030",
+    "small_axe": "262.233"
+  },
+  "new_mass_observations": 0,
+  "primary_counts_reconciled": {
+    "M315": {
+      "final": 1,
+      "total": 1
+    },
+    "M316": {
+      "final": 1,
+      "total": 1
+    },
+    "M317": {
+      "initial": 1,
+      "total": 1
+    },
+    "M318": {
+      "final": 1,
+      "total": 1
+    }
+  },
+  "primary_fields": [
+    {
+      "concordance_field_visually_checked_this_review": true,
+      "concordance_pdf_page": 568,
+      "direction_code": 1,
+      "direction_definition": "Right to left",
+      "doubtful_token_indices": [
+        4
+      ],
+      "expanded_metadata": "610001",
+      "field_symbol_code": "00",
+      "has_loss": false,
+      "line": 0,
+      "line_id": "2925.1.0",
+      "loss_token_indices": [],
+      "metadata": "610001",
+      "normalized_order": "right_to_left",
+      "object_type_code": 6,
+      "physical_original_marks_reexamined": false,
+      "reference": "2925",
+      "role": "context_other_side",
+      "side": 1,
+      "texts_field_visually_checked_this_review": true,
+      "texts_pdf_page": 96,
+      "texts_printed_page": 85,
+      "tokens": [
+        "M163",
+        "M252",
+        "M261",
+        "M134",
+        "M098",
+        "M391",
+        "M391"
+      ]
+    },
+    {
+      "concordance_field_visually_checked_this_review": true,
+      "concordance_pdf_page": 568,
+      "direction_code": 4,
+      "direction_definition": "Top to bottom",
+      "doubtful_token_indices": [],
+      "expanded_metadata": "620004",
+      "field_symbol_code": "00",
+      "has_loss": false,
+      "line": 0,
+      "line_id": "2925.2.0",
+      "loss_token_indices": [],
+      "metadata": "20004",
+      "normalized_order": "right_to_left",
+      "object_type_code": 6,
+      "physical_original_marks_reexamined": false,
+      "reference": "2925",
+      "role": "selected_indexed_field",
+      "side": 2,
+      "texts_field_visually_checked_this_review": true,
+      "texts_pdf_page": 96,
+      "texts_printed_page": 85,
+      "tokens": [
+        "M108",
+        "M315"
+      ]
+    },
+    {
+      "concordance_field_visually_checked_this_review": true,
+      "concordance_pdf_page": 568,
+      "direction_code": 1,
+      "direction_definition": "Right to left",
+      "doubtful_token_indices": [],
+      "expanded_metadata": "100101",
+      "field_symbol_code": "01",
+      "has_loss": false,
+      "line": 0,
+      "line_id": "1262.0.0",
+      "loss_token_indices": [],
+      "metadata": "100101",
+      "normalized_order": "right_to_left",
+      "object_type_code": 1,
+      "physical_original_marks_reexamined": false,
+      "reference": "1262",
+      "role": "selected_indexed_field",
+      "side": 0,
+      "texts_field_visually_checked_this_review": true,
+      "texts_pdf_page": 58,
+      "texts_printed_page": 47,
+      "tokens": [
+        "M202",
+        "M051",
+        "M342",
+        "M316"
+      ]
+    },
+    {
+      "concordance_field_visually_checked_this_review": true,
+      "concordance_pdf_page": 568,
+      "direction_code": 9,
+      "direction_definition": "Doubtful (on account of damaged or illegible signs)",
+      "doubtful_token_indices": [],
+      "expanded_metadata": "100109",
+      "field_symbol_code": "01",
+      "has_loss": true,
+      "line": 0,
+      "line_id": "4032.0.0",
+      "loss_token_indices": [
+        1
+      ],
+      "metadata": "100109",
+      "normalized_order": "right_to_left",
+      "object_type_code": 1,
+      "physical_original_marks_reexamined": false,
+      "reference": "4032",
+      "role": "selected_indexed_field",
+      "side": 0,
+      "texts_field_visually_checked_this_review": true,
+      "texts_pdf_page": 109,
+      "texts_printed_page": 98,
+      "tokens": [
+        "M317",
+        "LOSS"
+      ]
+    },
+    {
+      "concordance_field_visually_checked_this_review": true,
+      "concordance_pdf_page": 568,
+      "direction_code": 1,
+      "direction_definition": "Right to left",
+      "doubtful_token_indices": [],
+      "expanded_metadata": "100101",
+      "field_symbol_code": "01",
+      "has_loss": false,
+      "line": 0,
+      "line_id": "1548.0.0",
+      "loss_token_indices": [],
+      "metadata": "100101",
+      "normalized_order": "right_to_left",
+      "object_type_code": 1,
+      "physical_original_marks_reexamined": false,
+      "reference": "1548",
+      "role": "selected_indexed_field",
+      "side": 0,
+      "texts_field_visually_checked_this_review": true,
+      "texts_pdf_page": 65,
+      "texts_printed_page": 54,
+      "tokens": [
+        "M121",
+        "M342",
+        "M318"
+      ]
+    },
+    {
+      "concordance_field_visually_checked_this_review": false,
+      "concordance_pdf_page": null,
+      "direction_code": 2,
+      "direction_definition": "Left to right",
+      "doubtful_token_indices": [],
+      "expanded_metadata": "600002",
+      "field_symbol_code": "00",
+      "has_loss": false,
+      "line": 0,
+      "line_id": "2924.0.0",
+      "loss_token_indices": [],
+      "metadata": "600002",
+      "normalized_order": "right_to_left",
+      "object_type_code": 6,
+      "physical_original_marks_reexamined": false,
+      "reference": "2924",
+      "role": "shared_M108_support",
+      "side": 0,
+      "texts_field_visually_checked_this_review": true,
+      "texts_pdf_page": 96,
+      "texts_printed_page": 85,
+      "tokens": [
+        "M108",
+        "M342",
+        "M001",
+        "M375"
+      ]
+    }
+  ],
+  "protocol": {
+    "damage_extension": "For added missing masses dS,dL,dK>=0 the necessary inequality becomes dS+(7/n)dK-dL>=D. These are model requirements, not observed losses",
+    "limits": [
+      "K121 graphical interpretation remains disputed; M77M313 normalization is not proof of two equivalent units",
+      "Other sides are not concatenated with candidate quantity fields",
+      "Negative residuals, multiplicative operations, context-dependent units, or different quantity targets alter the tested model",
+      "Published mass decimals are not balance uncertainty estimates; original masses are unknown"
+    ],
+    "objects": {
+      "chisel": "M778302 / CISI K121",
+      "large_axe": "M772925 / FEM CXXVI5",
+      "small_axe": "M772924 / FEM CXXVI3"
+    },
+    "premises": [
+      "Selected complete fields encode reported surviving masses on a common additive scalar scale",
+      "The whole M108 group contributes the same amount A on both axes",
+      "Small axe's other signs have net contribution r>=0, so S=A+r",
+      "Seven-arch M315 contributes7u, so L=A+7u with no additional unencoded component in this selected field",
+      "K121 selected candidate interpretation contains at least n arch units u plus a nonnegative contribution q, so K=n*u+q, with u>=0",
+      "Weak branch n=1 covers1u,2u,and u+2i only when their remaining contributions are nonnegative; stronger n=2 requires the disputed2u interpretation"
+    ],
+    "proof": "A<=S and u<=K/n, so L<=S+7K/n. Positive D=L-S-7K/n rejects the combined premises",
+    "scope": "Exploratory conditional bound chosen after source inspection and prior mass-model failures; not a decipherment or independent quantity prediction"
+  },
+  "scope": "Conditional shared additive weight model, not established numeral values",
+  "selected_occurrences": [
+    {
+      "direction_uncertain": false,
+      "indexed_total": 1,
+      "line": 0,
+      "position_class": "final",
+      "position_is_catalogue_normalized": true,
+      "reference": "2925",
+      "side": 2,
+      "sign": "M315",
+      "token_index": 1
+    },
+    {
+      "direction_uncertain": false,
+      "indexed_total": 1,
+      "line": 0,
+      "position_class": "final",
+      "position_is_catalogue_normalized": true,
+      "reference": "1262",
+      "side": 0,
+      "sign": "M316",
+      "token_index": 3
+    },
+    {
+      "direction_uncertain": true,
+      "indexed_total": 1,
+      "line": 0,
+      "position_class": "initial",
+      "position_is_catalogue_normalized": true,
+      "reference": "4032",
+      "side": 0,
+      "sign": "M317",
+      "token_index": 0
+    },
+    {
+      "direction_uncertain": false,
+      "indexed_total": 1,
+      "line": 0,
+      "position_class": "final",
+      "position_is_catalogue_normalized": true,
+      "reference": "1548",
+      "side": 0,
+      "sign": "M318",
+      "token_index": 2
+    }
+  ]
+}

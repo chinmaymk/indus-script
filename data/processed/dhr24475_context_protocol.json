@@ -1,0 +1,126 @@
+{
+  "schema_version": 1,
+  "status": "frozen_before_context_screen_outcomes",
+  "purpose": "Locate source-photography comparanda for the exact retained DHR-24475 W string; no semantic or decipherment test.",
+  "source": {
+    "path": "data/raw/lipi_inscriptions.csv",
+    "sha256": "b8dcb325a2e2cd3cde12ac12e7a418b0348e45713c9ee28aad81b645d2ac5ee4",
+    "bytes": 1204921
+  },
+  "seed": {
+    "id": "4196.1",
+    "text": "+391-002-365-550+",
+    "tokens": [
+      "391",
+      "002",
+      "365",
+      "550"
+    ],
+    "raw_metadata": {
+      "id": "4196.1",
+      "cisi": "-",
+      "region": "Gujarat/Kutch",
+      "site": "Dholavira",
+      "area-section": "--",
+      "block-house": "25 x 10 x 4-",
+      "room-grid": "--",
+      "excavation-idno": "DHR-24475",
+      "time": "-",
+      "period": "-",
+      "phase": "-",
+      "depth": "- -",
+      "boss": "PBSG",
+      "material": "Steatite",
+      "color": "-",
+      "shape": "square",
+      "cross-section": "-",
+      "preservation": "complete",
+      "symbol": "Bull1:J",
+      "cult": "SAN",
+      "type": "SEAL:S",
+      "sides": "1",
+      "condition": "Poor",
+      "complete": "Y",
+      "dir.": "R/L",
+      "class": "SC",
+      "text length": "4",
+      "signs": "4",
+      "h": "",
+      "v": "",
+      "th": "",
+      "horizontal(mm)": "25",
+      "vertical(mm)": "25",
+      "thickness(mm)": "0 - 12",
+      "text": "+391-002-365-550+"
+    }
+  },
+  "scope": {
+    "corpus": "All rows of the pinned CSV, using text and non-translation metadata only.",
+    "excluded_columns": [
+      "sanskrit",
+      "translation",
+      "notes"
+    ],
+    "order": "Stored token order only; initial means serialized index 0, not asserted ancient reading order.",
+    "normalization": "Trim outer whitespace only for parsing; retain exact raw text and leading zeros. No reversal, global W-to-M conversion, field concatenation, or repaired punctuation."
+  },
+  "parser": {
+    "primary": "Fullmatch ^\\+[0-9]{3}(?:-[0-9]{3}){3}\\+$ and no token 000. This is a closed-plus syntax branch, not a complete physical field claim.",
+    "boundary_sensitivity": "Fullmatch ^[+\\[\\]][0-9]{3}(?:-[0-9]{3}){3}[+\\[\\]]$ with at least one non-plus endpoint and no 000. Preserve endpoints literally; do not pool with primary.",
+    "slash_sensitivity": "Exactly four hyphen-delimited cells, each fullmatching [0-9]{3}(?:/[0-9]{3})*, with at least one slash and exactly one endpoint marker from +, [, ] at each end. No token 000. Preserve endpoints, cell strings and alternatives; no expansion into certain hits or multiple formulas. Label results mechanical compatibility, since slash semantics are not authenticated here.",
+    "unknown": "Any 000 in an otherwise eligible four-cell parse is uncertainty, never a literal substitution or wildcard in certain hits. Retain in an uncertainty ledger with raw cells and no finite-distance classification.",
+    "other": "Other punctuation, interior boundary markers, missing endpoints, other lengths, or malformed cells are outside declared matching grammar. Report mutually exclusive exclusion reason totals; do not strip or repair them. Multi-field strings are not split or concatenated.",
+    "classification_order": [
+      "primary",
+      "boundary_sensitivity",
+      "slash_sensitivity",
+      "unknown_four_cell",
+      "other_excluded"
+    ]
+  },
+  "classes": {
+    "exact_duplicate": "All four literal tokens equal the seed; label seed itself separately and report additional rows. Preserve literal raw-string equality as a separate flag.",
+    "initial_substitution_exact_tail": "Exactly four literal tokens; slots 1,2,3 equal 002,365,550; slot 0 differs from 391. This is a subset of one_position_substitution.",
+    "one_position_substitution": "Exactly one of four literal tokens differs from the seed. Record zero-based changed position and both literal codes. No indels or partial-tail hits.",
+    "overlap": "Classes overlap: do not sum them as disjoint totals. Apply literal classes independently within primary and boundary sensitivity; never pool branches.",
+    "slash_compatibility": {
+      "minimum_distance": "Number of positions whose option set lacks the seed token.",
+      "maximum_distance": "Number of positions whose option set contains at least one token differing from the seed token.",
+      "possible_duplicate": "minimum_distance == 0",
+      "possible_one_position": "minimum_distance <= 1 <= maximum_distance",
+      "possible_initial_substitution_exact_tail": "Each tail option set contains its seed token, and initial option set contains a token other than 391.",
+      "certainty": "All are possible compatibility flags only, never certain hits."
+    }
+  },
+  "metadata": {
+    "preserve": "All raw columns except the three excluded columns, plus source row index and exact row id. Keep direction, preservation, complete, condition, sides, declared lengths and other metadata independent of syntax. No Poor-condition exclusion.",
+    "row_family": "For ids fullmatching digits.digits, the digits before the dot are only a possible face/row-family key. They do not establish a shared physical artifact or archaeological independence. Companion rows may be listed separately; they are not extra hits and are never concatenated.",
+    "identity": "Neither equal formulas nor equal metadata prove identical or independent artifacts. Do not merge sequences or physical objects."
+  },
+  "reporting": {
+    "counts": [
+      "source rows (with both row indices and ids)",
+      "distinct exact raw text strings within each branch/class",
+      "distinct literal token tuples within each literal branch/class, explicitly separate from raw strings"
+    ],
+    "slash_formulas": "Count each raw slash formula once, without counting expanded options as attestations.",
+    "ordering": "CSV source order, with class flags; any photography queue may prioritize primary exact-tail substitutions, then exact duplicates, then remaining one-position neighbors, preserving all results.",
+    "denominators": "Report total scanned rows, parser-category totals, branch-specific class counts, and seed-versus-additional duplicate counts. No physical-artifact counts or significance claims."
+  },
+  "falsifiable_screen": "Does this pinned CSV contain an additional primary closed-plus four-code row X-002-365-550 with X != 391? Zero is a negative result only under this exact grammar and source; it does not establish no ancient comparandum or refute common roof semantics.",
+  "limitations": [
+    "Source-selected post-hypothesis photography locator, not independent semantic validation.",
+    "No direction, preservation, sign identity or physical independence is established by CSV syntax.",
+    "No source-graphic verification or W-M sign equivalence follows from context similarity."
+  ],
+  "attempt_log": [
+    {
+      "action": "Read the seed row and CSV header; hash raw source.",
+      "result": "Seed exact text and metadata confirmed; no context outcome screen run."
+    },
+    {
+      "action": "Freeze literal, boundary and slash grammar plus overlapping comparison classes.",
+      "result": "Protocol fixed before parent implementation/outcomes."
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "ancient_distinct_vessel_count": null,
+  "input_sha256": {
+    "data/processed/inscribed_jar_text_bridges.json": "b7a8a3f24e3e76c5696bf705da799ae1e7f7c3342eb84a886f1c4cd682fbe5fb",
+    "data/processed/jar156_165_contained_marks_review.json": "fd402b5dbe7d24302976bcb1f076111aa2f4e317065261f6f25df6066b7bccc4",
+    "data/processed/jar44_contained_goblets_review.json": "ddcaa774e975d23adf0002f038336917672180618654b13c0237fab76daf3751",
+    "data/processed/jar54_contained_seal_review.json": "08342c93137f64b359a02a395a9183d6b298ed1d1beb4b40a16d1460ff1e38ea",
+    "results/inscribed_jar_frame.json": "c15af4204ba34b4265f6ba927a3d6879982dd978e55421000f9023116ee6cd7a",
+    "scripts/build_contained_mark_coverage.py": "5d8448895be25e88598e8d6b10d49185e71096377d2d6472415bb79bd2f3d125"
+  },
+  "newly_established_contained_text_bridges": 0,
+  "newly_established_own_jar_texts": 0,
+  "phonetic_values_assigned": 0,
+  "row_serials": [
+    44,
+    54,
+    116,
+    156,
+    165
+  ],
+  "rows": [
+    {
+      "bridge_status": "Shared register also describes an inscribed goblet in narrative; precise contained-item link unresolved.",
+      "contained_item": "two goblet sherds: incised and seal-impressed",
+      "container_register": "7856",
+      "primary_text_reference": null,
+      "rejected_promotions": [
+        "Illustrated CIV73 is only a similarity comparator",
+        "DK7856 is a different site and object"
+      ],
+      "review": "data/processed/jar44_contained_goblets_review.json",
+      "serial": 44
+    },
+    {
+      "bridge_status": "J630 candidate has matching square/depth/stratum but no explicit containment and a trench discrepancy.",
+      "candidate_chain": {
+        "CISI": "H890",
+        "M77": "4446",
+        "Vats": "XCVI446",
+        "accepted_as_contained_item": false,
+        "field": "J630"
+      },
+      "contained_item": "two-sided inscribed rectangular steatite seal",
+      "container_register": "XII",
+      "primary_text_reference": null,
+      "review": "data/processed/jar54_contained_seal_review.json",
+      "serial": 54
+    },
+    {
+      "bridge_status": "Explicit contained-object publication reference and primary EH numbering rule.",
+      "contained_item": "discoid faience sealing",
+      "container_register": "10252",
+      "counterpart": [
+        "LOSS"
+      ],
+      "jar_own_text_transcribed": false,
+      "primary_text_reference": "M77:4671",
+      "review": "data/processed/inscribed_jar_text_bridges.json",
+      "serial": 116,
+      "surviving_normalized_field": [
+        "M089",
+        "M328"
+      ]
+    },
+    {
+      "bridge_status": "No separate field number, plate or surviving text established.",
+      "contained_item": "unicorn-seal fragment",
+      "container_register": null,
+      "primary_text_reference": null,
+      "review": "data/processed/jar156_165_contained_marks_review.json",
+      "serial": 156
+    },
+    {
+      "bridge_status": "Stroke report without exact photograph or catalogue bridge; marks belong to goblet.",
+      "contained_item": "one of three reported goblets, with four upright incisions",
+      "container_register": "7737",
+      "numeral_value": null,
+      "primary_text_reference": null,
+      "review": "data/processed/jar156_165_contained_marks_review.json",
+      "serial": 165
+    }
+  ],
+  "rows_with_accepted_primary_text_bridge": 1,
+  "rows_with_accepted_primary_text_bridge_before_this_followup": 1,
+  "rows_with_no_accepted_primary_text_bridge": 4,
+  "scope": "All five contained-mark/seal-fragment rows in the fixed prior table screen",
+  "semantic_values_assigned": 0
+}

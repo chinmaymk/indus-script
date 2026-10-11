@@ -1,0 +1,352 @@
+{
+  "schema_version": 2,
+  "scope": "Bounded source and visual audit of two stroke-only metal-tool inscriptions; no semantic or phonetic reading.",
+  "blindness": "Not blinded: prior Pettersson 4i4t and 7i4t claims were known. OCR used to find original pages; claims checked on page images.",
+  "initial_locator_correction": {
+    "requested": "CXXVI items 1 and 4",
+    "result": "Not the targets: p489 identifies item1 as spear-head DK7858 and item4 as axe DK7853. No inscription patches visible on those drawings. Correct target locators are CXXVII1 and CXXXIII1. This does not assert those non-target objects were uninscribed on every physical surface."
+  },
+  "rows": [
+    {
+      "field_number": "DK7857",
+      "drawing": "FEM CXXVII1",
+      "photographs": "FEM CXXXI38 and39, explicitly joined by p460",
+      "catalogue_page": 489,
+      "description_page": 460,
+      "material": "copper",
+      "type": "Spear-head (?) in table; p460 also suggests a large double-edged knife. Functional uncertainty retained.",
+      "dimensions_inches": {
+        "length": "11.4",
+        "width": "3.1",
+        "tang_thickness_table": "0.11",
+        "blade_thickness_table": "0.1",
+        "greatest_thickness_near_tang_prose": "0.13"
+      },
+      "dimension_caveat": "Restored/unfolded length; estimated width. Table tang thickness 0.11 versus prose greatest thickness near tang 0.13 retained without harmonization.",
+      "locus": {
+        "block": "12A",
+        "house": "I",
+        "room": "15",
+        "level_feet": "-24.4"
+      },
+      "drawn_mark_groups": [
+        {
+          "count": 4,
+          "position": "above and slightly right of seven-mark group",
+          "orientation": "upright strokes in a tilted light rectangular patch; not a four-horizontal-stroke stack in this drawing"
+        },
+        {
+          "count": 7,
+          "position": "below four-mark group",
+          "orientation": "upright strokes in near-horizontal light strip"
+        }
+      ],
+      "nonstroke_signs": "None depicted on the CXXVII1 drawing. Three round perforations are object features, not promoted to signs.",
+      "primary_text_counts": "Two rows, one of four and other of seven; p460 does not specify vertical/horizontal contrast.",
+      "photo_reading": "Folded blade and perforations visible. Corrosion/contrast prevent an independent recount and orientation assignment to all eleven strokes.",
+      "mass_grams": null,
+      "mass_evidence": "p454 explicitly calls weighing CXXVII1 useless owing to its thinness and oxidation; no numeric mass supplied there.",
+      "comparison_with_later_notation": "Pettersson defines4t as a tilted row, not necessarily four individually horizontal strokes. The tilted upper group is compatible with that notation; the earlier assertion of a source conflict on this basis is withdrawn. Numerical meaning and equality of this group with knife/tang groups remain unproved."
+    },
+    {
+      "field_number": "DK7800",
+      "drawing": null,
+      "photograph": "FEM CXXXIII1",
+      "catalogue_page": 493,
+      "description_page": 463,
+      "material": "copper",
+      "type": "Knife, very badly corroded; no fresh functional classification.",
+      "dimensions_inches": {
+        "surviving_length": "4.95",
+        "width": "1.51",
+        "tang_thickness": "0.12",
+        "blade_thickness": "0.09"
+      },
+      "locus": {
+        "block": "3",
+        "house": "VI",
+        "room": "40",
+        "level_feet": "-18.4",
+        "house_reading": "Ditto from preceding catalogue row, not a separate printed VI on target row."
+      },
+      "primary_text_counts": "p463 explicitly describes eight strokes in a close group: four vertical just above four horizontal.",
+      "drawn_mark_groups": null,
+      "photo_reading": "Photo shows corroded knife, tang/perforation and marks on upper blade; neither four-plus-four count nor each orientation is independently secure at retained resolution.",
+      "nonstroke_signs": "No additional complex sign independently identified in photograph. Surface damage prevents proof of absence.",
+      "mass_grams": null,
+      "mass_evidence": "No numerical mass in reviewed p454,463,493 passages. This is a bounded absence, not an exhaustive museum/conservation search.",
+      "comparison_with_later_notation": "4i4t agrees with original prose, but repeated publications are not independent object observations."
+    }
+  ],
+  "limits": [
+    "Strokes counted on drawing/prose are not identified numeral values.",
+    "Published drawing, text and photograph are representations of the same objects, not independent semantic anchors.",
+    "The two target objects have different excavation loci and levels; no common hoard inferred for knife.",
+    "No physical autopsy or modern independent surface imaging.",
+    "No M77 sign crosswalk made in this file; parent audit verifies it independently."
+  ],
+  "excluded_attempts": [
+    {
+      "attempt": "Requested CXXVI1/4",
+      "result": "Wrong plate/item joins, corrected against catalogue."
+    },
+    {
+      "attempt": "Use original photos to verify every stroke",
+      "result": "Insufficient surface clarity for reliable full recount."
+    },
+    {
+      "attempt": "Find target field numbers in OCR",
+      "result": "Exact DK7857/knife DK7800 failed or collided with unrelated rows; plate numbers and narrative supplied reliable locators."
+    }
+  ],
+  "crop_records": [
+    {
+      "source": "data/raw/stroke_orientation_9954_leaf267.jpg",
+      "box_xyxy": [
+        100,
+        650,
+        1300,
+        4400
+      ],
+      "path": "results/primary_pages/stroke-orientation-spear-whole.png",
+      "method": "Pillow crop; no rotation or contrast editing; native pixels"
+    },
+    {
+      "source": "data/raw/stroke_orientation_9954_leaf267.jpg",
+      "box_xyxy": [
+        480,
+        2510,
+        745,
+        2730
+      ],
+      "path": "results/primary_pages/stroke-orientation-spear-marks-native.png",
+      "method": "Pillow crop; no rotation or contrast editing; native pixels"
+    },
+    {
+      "source": "data/raw/stroke_orientation_9954_leaf267.jpg",
+      "box_xyxy": [
+        480,
+        2510,
+        745,
+        2730
+      ],
+      "path": "results/primary_pages/stroke-orientation-spear-marks.png",
+      "method": "Pillow crop; no rotation or contrast editing; resize to 1060x880 using Pillow default BICUBIC"
+    },
+    {
+      "source": "data/raw/stroke_orientation_9954_leaf279.jpg",
+      "box_xyxy": [
+        180,
+        500,
+        650,
+        1570
+      ],
+      "path": "results/primary_pages/stroke-orientation-knife-whole.png",
+      "method": "Pillow crop; no rotation or contrast editing; native pixels"
+    },
+    {
+      "source": "data/raw/stroke_orientation_9954_leaf279.jpg",
+      "box_xyxy": [
+        250,
+        690,
+        555,
+        1060
+      ],
+      "path": "results/primary_pages/stroke-orientation-knife-marks.png",
+      "method": "Pillow crop; no rotation or contrast editing; native pixels"
+    },
+    {
+      "source": "data/raw/stroke_orientation_18225_leaf515.jpg",
+      "box_xyxy": [
+        530,
+        3130,
+        4200,
+        3420
+      ],
+      "path": "results/primary_pages/stroke-orientation-knife-table.png",
+      "method": "Pillow crop; no rotation or contrast editing; native pixels"
+    },
+    {
+      "source": "data/raw/metal_original_mackay_leaf511.jpg",
+      "box_xyxy": [
+        570,
+        2750,
+        4170,
+        3530
+      ],
+      "path": "results/primary_pages/stroke-orientation-spear-table.png",
+      "method": "Pillow crop; no rotation or contrast editing; native pixels"
+    },
+    {
+      "source": "data/raw/stroke_orientation_18225_leaf482.jpg",
+      "box_xyxy": [
+        970,
+        4300,
+        4760,
+        5370
+      ],
+      "path": "results/primary_pages/stroke-orientation-spear-text.png",
+      "method": "Pillow crop; no rotation or contrast editing; native pixels"
+    },
+    {
+      "source": "data/raw/stroke_orientation_18225_leaf485.jpg",
+      "box_xyxy": [
+        650,
+        1670,
+        4510,
+        2250
+      ],
+      "path": "results/primary_pages/stroke-orientation-knife-text.png",
+      "method": "Pillow crop; no rotation or contrast editing; native pixels"
+    },
+    {
+      "source": "data/raw/metal_original_mackay_leaf511.jpg",
+      "box_xyxy": [
+        1650,
+        3290,
+        2570,
+        3450
+      ],
+      "path": "results/primary_pages/stroke-orientation-spear-dimensions.png",
+      "method": "Pillow crop; no rotation or contrast editing; native pixels"
+    },
+    {
+      "source": "data/raw/metal_plate_9954_leaf275.jpg",
+      "box_xyxy": [
+        3460,
+        5220,
+        4680,
+        6600
+      ],
+      "path": "results/primary_pages/stroke-orientation-spear-photos.png",
+      "method": "Pillow crop; no rotation or contrast editing; native pixels"
+    }
+  ],
+  "evidence_files": [
+    {
+      "path": "data/raw/stroke_orientation_9954_leaf267.jpg",
+      "bytes": 1668760,
+      "sha256": "02ce66042c4694565c0d34119bddb7b2fec1baa7233cc375d40138a1d3129fe8"
+    },
+    {
+      "path": "data/raw/stroke_orientation_9954_leaf279.jpg",
+      "bytes": 1349511,
+      "sha256": "9ff15b39b8a16234f60b92365e4773869a6b878322aa436b1f72216a6604b856"
+    },
+    {
+      "path": "data/raw/stroke_orientation_18225_leaf482.jpg",
+      "bytes": 2994953,
+      "sha256": "3f52b6cbcbaec1b8f08de577beb01a610fc0cd91e0210915e4bd7dd01dd5167d"
+    },
+    {
+      "path": "data/raw/stroke_orientation_18225_leaf485.jpg",
+      "bytes": 2927330,
+      "sha256": "89d6ea54b80dcde8272aea98d0774b2ec63b406fd2c0a84b1bc2749f711bba0d"
+    },
+    {
+      "path": "data/raw/stroke_orientation_18225_leaf515.jpg",
+      "bytes": 1993545,
+      "sha256": "5235ab2d1cae25f638171131f2864993a55a06788bb36fdf6fd0e8ab337990c1"
+    },
+    {
+      "path": "data/raw/metal_plate_9954_leaf265.jpg",
+      "bytes": 1501585,
+      "sha256": "02d3fd1f4dd021a65eddf10b759fa42ab105a70b6320804f5b5471550f80827f"
+    },
+    {
+      "path": "data/raw/metal_original_mackay_leaf511.jpg",
+      "bytes": 1854822,
+      "sha256": "6c03c76f2a5bbf01fb655c385a2bd3409e1304a5d078b202f5236980bbaba7a3"
+    },
+    {
+      "path": "data/raw/metal_original_mackay_leaf476.jpg",
+      "bytes": 2834926,
+      "sha256": "77ece53617c103b7100627f3a16d5a6869f719fa35b24be4f2d923f43739b3c5"
+    },
+    {
+      "path": "data/raw/metal_plate_9954_leaf275.jpg",
+      "bytes": 1502280,
+      "sha256": "217f3c7f6113aef38dcdabd8d3bbbf84f36f743b27194dee8a050d25e71829dc"
+    },
+    {
+      "path": "data/raw/metal_plate_9954_leaf12.jpg",
+      "bytes": 1879516,
+      "sha256": "b0dd4982a01886201ffc0adfe9edcccb922d6cda4f60151395853118f67497c6"
+    },
+    {
+      "path": "data/raw/metal_original_mackay18225_djvu.txt",
+      "bytes": 2331705,
+      "sha256": "511ee6deb3921bb33708a4a56166db5264687f5c16db0e16d8c55273a2a564c0"
+    },
+    {
+      "path": "data/processed/metal_tool_weight_anchors.json",
+      "bytes": 21391,
+      "sha256": "47ff98eef6b64e9254a1fbf6fd7ab6b002933d7004164659dbf402f07815d3ed"
+    },
+    {
+      "path": "results/primary_pages/stroke-orientation-spear-whole.png",
+      "bytes": 1058371,
+      "sha256": "72f3421a33d26733cdb6f720f83cc15fbbae76a73da615fec89e54193011cc74"
+    },
+    {
+      "path": "results/primary_pages/stroke-orientation-spear-marks-native.png",
+      "bytes": 31018,
+      "sha256": "42e7658388c2fa8409e75c985e4b2c17d02082f2c3d4834f90930e1dee01f1fa"
+    },
+    {
+      "path": "results/primary_pages/stroke-orientation-spear-marks.png",
+      "bytes": 191150,
+      "sha256": "1d0796097947ad0cb9cc8aba863ed38503d0cbe9c8112d580b9ef8394f2ca862"
+    },
+    {
+      "path": "results/primary_pages/stroke-orientation-knife-whole.png",
+      "bytes": 131357,
+      "sha256": "0d449324483c8ea9fa33c8116b6cc9f7b3120c92606416326504f2482796144e"
+    },
+    {
+      "path": "results/primary_pages/stroke-orientation-knife-marks.png",
+      "bytes": 55838,
+      "sha256": "99595d3083d05c02e6156d5959658f220ef3413ee1a7dddace25660c433bce2d"
+    },
+    {
+      "path": "results/primary_pages/stroke-orientation-knife-table.png",
+      "bytes": 431803,
+      "sha256": "f4db24dceabea2d50f52ad72518468032acfcd3b1fb06175345d89523f1c6141"
+    },
+    {
+      "path": "results/primary_pages/stroke-orientation-spear-table.png",
+      "bytes": 1122085,
+      "sha256": "5c54dd121ee139c00bdc65693be91038604447016c8f9ee9f89198757a766193"
+    },
+    {
+      "path": "results/primary_pages/stroke-orientation-spear-text.png",
+      "bytes": 3348086,
+      "sha256": "c5282cf684410bb6dc7ab04b928140df6431bb294d1fb5ba8196521dd9451937"
+    },
+    {
+      "path": "results/primary_pages/stroke-orientation-knife-text.png",
+      "bytes": 1606171,
+      "sha256": "93ee421e7742166768f3730e64e19297cd03a30cb2d795db07140b6e287fc515"
+    },
+    {
+      "path": "results/primary_pages/stroke-orientation-spear-dimensions.png",
+      "bytes": 62806,
+      "sha256": "2dd9717c48938c5d02e02ea44a274965ce3b9100703942113980f23d08528c7f"
+    },
+    {
+      "path": "results/primary_pages/stroke-orientation-spear-photos.png",
+      "bytes": 418015,
+      "sha256": "c2d815161f845d799c7bae47833b4dfeab3a3473b4b5aabec8090a5598281723"
+    }
+  ],
+  "downloads_manifest": "data/processed/stroke_orientation_tools_downloads.json",
+  "corrections": [
+    {
+      "date": "2026-09-24",
+      "field": "DK7857 comparison_with_later_notation",
+      "superseded_text": "Pettersson table 7i4t cannot be treated as independently confirmed four transverse strokes from this original drawing. Possible difference in source representation remains unresolved.",
+      "reason": "Re-read Pettersson1999 pp98,101: t labels tilted rows. Group layout was incorrectly conflated with individual stroke orientation in our attribution. Original drawing observations unchanged.",
+      "review": "data/processed/pettersson_orientation_attribution_review.json"
+    }
+  ]
+}

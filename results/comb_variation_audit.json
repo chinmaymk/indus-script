@@ -1,0 +1,125 @@
+{
+  "M77_candidate_rows": {
+    "1158": {
+      "id": "GLI-IND-M77-01158",
+      "sequence": [
+        "M267",
+        "M099",
+        "M065",
+        "M222",
+        "M254"
+      ],
+      "source_direction_code": "1",
+      "source_doc_count": 1,
+      "source_object_code": "1",
+      "source_reference": "1158",
+      "status": "conditional secondary corpus; not all lines visually authenticated"
+    },
+    "7090": {
+      "id": "GLI-IND-M77-07090",
+      "sequence": [
+        "M267",
+        "M099",
+        "M065",
+        "M222",
+        "M254"
+      ],
+      "source_direction_code": "1",
+      "source_doc_count": 1,
+      "source_object_code": "1",
+      "source_reference": "7090",
+      "status": "conditional secondary corpus; not all lines visually authenticated"
+    }
+  },
+  "established_phonetic_values": 0,
+  "established_semantic_values": 0,
+  "identity_basis": "Reviewed original excavation/plate numbers and explicit M77 catalogue references, not sequence similarity",
+  "input_sha256": {
+    "data/processed/comb_variation_review.json": "204b53e2cd01dfe84776465dee5f6a60e4d82d43658124730d781ccbf9d2dc43",
+    "data/processed/ending_mapping_review.json": "eb49aa0a68bea2de158eb9f21996024cd242c0f4f086fdee75cc3bb59abb3618",
+    "data/processed/m77_candidate_strict.jsonl": "fcdd8b3a7350ebfa851363328ec784b9c8a943525d8549b9df0194fbe1ee7f4a",
+    "data/processed/m934_primary_review.json": "68d9a0cd8e78da62d57a76040ac7bf87bc7d39f5468702ea9bb494b5b5b66af1",
+    "data/raw/lipi_inscriptions.csv": "b8dcb325a2e2cd3cde12ac12e7a418b0348e45713c9ee28aad81b645d2ac5ee4"
+  },
+  "interpretation": "Primary-supported candidate orientation variant in this context; global allography, phonetic and semantic identity unresolved",
+  "only_literal_W_difference": "W526 versus W527 at file first token",
+  "primary_review": {
+    "counterpart": {
+      "M77_text": "7090",
+      "cisi": "L-89",
+      "excavation": "15337",
+      "primary_bridge_review": "data/processed/ending_mapping_review.json"
+    },
+    "established_phonetic_values": 0,
+    "established_semantic_values": 0,
+    "evidence_files": [
+      {
+        "bytes": 119302608,
+        "path": "data/raw/mahadevan_1977_text.pdf",
+        "sha256": "6dcdd074a0174e5fab149590fbbf82342711d345764e9763f8e5e92c81cf7f99"
+      },
+      {
+        "bytes": 1715296,
+        "path": "results/primary_pages/chain-artifact-m77-827.png",
+        "sha256": "367e9c400b92bca24b6b75be9e9d205900c7380e645143fc352fecfdda21332c"
+      },
+      {
+        "bytes": 2077850,
+        "path": "results/primary_pages/pincer-m934-m77-054.png",
+        "sha256": "bab40f72bbbf7a1bd1e704f23a77d878b39adce806117c9fa38cd38b4853c3df"
+      },
+      {
+        "bytes": 5859,
+        "path": "data/processed/m934_primary_review.json",
+        "sha256": "68d9a0cd8e78da62d57a76040ac7bf87bc7d39f5468702ea9bb494b5b5b66af1"
+      },
+      {
+        "bytes": 4805,
+        "path": "data/processed/ending_mapping_review.json",
+        "sha256": "eb49aa0a68bea2de158eb9f21996024cd242c0f4f086fdee75cc3bb59abb3618"
+      },
+      {
+        "bytes": 3065,
+        "path": "docs/COMB_VARIATION_REVIEW.md",
+        "sha256": "b1ba20eb8a8457fd35f80aeb5b585495f76b98031b4915774ae774c63781f31d"
+      }
+    ],
+    "interpretation": "Graphic orientation contrast supported in matching context; global allography and meaning unresolved",
+    "navigation_failure": "Exact WORD1158 search failed because OCR split1 158; neighboring-page navigation located54 and line visually checked",
+    "observed_normalized_reading_order": [
+      "M267",
+      "M099",
+      "M065",
+      "M222",
+      "M254"
+    ],
+    "primary_identity": {
+      "CISI_M934_label_primary_verified": false,
+      "M77_catalogue_rule": "Appendix printed818/PDF827: MIC items1–560 respectively refs1001–1560",
+      "M77_text": "1158",
+      "M77_text_pdf_page": 54,
+      "M77_text_printed_page": 43,
+      "MIC_seal": "158",
+      "excavation": "DM50"
+    },
+    "review_date": "2026-09-25"
+  },
+  "secondary_rows": {
+    "2043.1": {
+      "cisi": "L-89",
+      "excavation-idno": "15337(S067)",
+      "id": "2043.1",
+      "preservation": "complete",
+      "text": "+527-555-235-002-861+",
+      "type": "SEAL:R"
+    },
+    "3329.1": {
+      "cisi": "M-934",
+      "excavation-idno": "DM50158",
+      "id": "3329.1",
+      "preservation": "complete",
+      "text": "+526-555-235-002-861+",
+      "type": "SEAL:S"
+    }
+  }
+}

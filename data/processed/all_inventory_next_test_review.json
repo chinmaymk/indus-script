@@ -1,0 +1,279 @@
+{
+  "date": "2026-09-28",
+  "scope": "Local independent inferential review and exact calibration validation; no new fit or historical measurement.",
+  "inventory": {
+    "rows": 417,
+    "null_semantic_values": 417,
+    "null_phonetic_values": 417,
+    "candidate_sequence_signs": 332,
+    "candidate_sequence_unobserved_signs": 85,
+    "tokens": 13372,
+    "hapax_signs": 112,
+    "signs_with_fewer_than_10_occurrences": 264,
+    "tokens_top_67": 10769
+  },
+  "deposit_support": {
+    "framed_objects": 65,
+    "new_sign_outcomes_examined": 0,
+    "reviewed_association_tiers": {
+      "alternative_craft_vicinity_only": 1,
+      "associated_production_complex": 3,
+      "lower_evidence_comparison_candidate": 2,
+      "no_secured_deposit_join_in_current_review": 58,
+      "production_context_level_conflict": 1
+    },
+    "reviewed_named_seal_associations": 7,
+    "semantic_values_assigned": 0,
+    "status": "No secured matched deposit contrast in the reviewed evidence; broader area-based comparison remains assumption-dependent.",
+    "strict_eligible_objects": 0,
+    "strict_matched_strata": 0
+  },
+  "control_counts": {
+    "all_background_observed_controls": 81,
+    "half_to_twice_observed_positive_count": 71,
+    "same_observed_positive_count": 9,
+    "same_positive_and_unknown_counts": 6
+  },
+  "roof_passing_folds": {
+    "complete_known_labels": [],
+    "complete_unknown_allowed": [],
+    "strict_known_labels": [],
+    "strict_unknown_allowed": []
+  },
+  "new_capacity_fill_measurements": 0,
+  "new_capacity_external_test_pairs": 0,
+  "new_weight_search_queries": 5,
+  "new_weight_anchor_count": 0,
+  "zero_pair_scope": "Reviewed cases only; not an exhaustive global claim.",
+  "priorities": [
+    {
+      "rank": 1,
+      "test": "Unit-free commensurate quantity ratio between two existing numerical candidates",
+      "mathematics_executable": true,
+      "historical_test_available_in_reviewed_data": false,
+      "missing": "Two secure represented quantities with shared units, authenticated fields and bounded nuisance errors"
+    },
+    {
+      "rank": 2,
+      "test": "Replicated bead-domain prediction across independently classified deposits",
+      "historical_test_available_in_reviewed_data": false,
+      "missing": "Secured matched archaeological strata and independent complex replication"
+    }
+  ],
+  "calibration_independent_validation": {
+    "producer_imported": false,
+    "candidate_totals": [
+      {
+        "candidate": {
+          "L": 10,
+          "S": 8,
+          "v": 6
+        },
+        "A": 36,
+        "B": 61,
+        "B_over_A": "61/36"
+      },
+      {
+        "candidate": {
+          "L": 36,
+          "S": 20,
+          "v": 4
+        },
+        "A": 112,
+        "B": 145,
+        "B_over_A": "145/112"
+      }
+    ],
+    "ratio_of_ratios": "1708/1305",
+    "polynomial_coefficients_descending": [
+      403,
+      -6026,
+      403
+    ],
+    "error_cases": [
+      {
+        "error": "0",
+        "polynomial": "403",
+        "disjoint": true
+      },
+      {
+        "error": "1/50",
+        "polynomial": "706603/2500",
+        "disjoint": true
+      },
+      {
+        "error": "1/20",
+        "polynomial": "41083/400",
+        "disjoint": true
+      },
+      {
+        "error": "1/10",
+        "polynomial": "-19557/100",
+        "disjoint": false
+      }
+    ],
+    "critical_relative_error_decimal": "0.0671786805465231728887651496819275972021599473743076837314764",
+    "input_hash_checks": {
+      "data/processed/numeral_equation_claims.json": true,
+      "docs/NUMERAL_EQUATIONS.md": true,
+      "docs/NUMERAL_IMAGES.md": true,
+      "docs/NUMERAL_SCREEN.md": true,
+      "results/numeral_equation_audit.json": true
+    },
+    "mismatches": 0,
+    "limits": "Conditional arithmetic only; no new measured anchor or sign value."
+  },
+  "model_class_cautions": [
+    "Null evidence fields do not prove inherent impossibility.",
+    "No model-independent external-anchor count.",
+    "For known-label bijections only, k anchors leave (417-k)! keys.",
+    "Additive rank-nullity needs unrestricted or interior-feasible values for a continuum; boundary and integer restrictions matter.",
+    "One anchor can identify a local value without identifying the full inventory."
+  ],
+  "new_fits": 0,
+  "downloads": 0,
+  "established_semantic_values": 0,
+  "established_phonetic_values": 0,
+  "evidence_files": [
+    {
+      "path": "data/processed/inscribed_weight_external_search.json",
+      "bytes": 6157,
+      "sha256": "217c8ec9d996c1f9bdc31618f880aeb39409271c6b6ed28d082477d7bdb5c1a4"
+    },
+    {
+      "path": "data/processed/numeral_equation_claims.json",
+      "bytes": 2047,
+      "sha256": "f286e0aa6a4dcf69bf9d9fbe0dc93db0e4c783e931376194b28a234e390f3b80"
+    },
+    {
+      "path": "docs/ALL_INVENTORY_NEXT_TEST_REVIEW.md",
+      "bytes": 12692,
+      "sha256": "eff11a3a1997e41843560522b9d05db47f498ffccc99e7801b26ea5b0a5faf0b"
+    },
+    {
+      "path": "docs/ALL_SIGN_EVIDENCE.md",
+      "bytes": 18107,
+      "sha256": "49baa471d2f3b26a0f18d5881b934d0bfb7f76b45b5b78cbba737c273380c248"
+    },
+    {
+      "path": "docs/CAPACITY_CONTEXT_RESULTS.md",
+      "bytes": 6652,
+      "sha256": "79bb844a6de4ec821f3d8dd5548d7e5ac2f7f1a03548c96b5b36c7b322754004"
+    },
+    {
+      "path": "docs/CHANHU_DEPOSIT_RESULTS.md",
+      "bytes": 7292,
+      "sha256": "c051da81b94c8dd4157536a06d3c27ab0dfe4050d966b4c070011009199dedec"
+    },
+    {
+      "path": "docs/CHANHU_LOCAL_GRAPHICS_AND_SPECIFICITY.md",
+      "bytes": 7067,
+      "sha256": "f173dd750c0398b22397ed77f45ed4ba48d00296c4d2546fc42dcae3956f4cc9"
+    },
+    {
+      "path": "docs/DECIPHERMENT_EVIDENCE_GAP_REVIEW.md",
+      "bytes": 16440,
+      "sha256": "9ecefb453465cb5a6726b082b6b35e9106ed690ae0c74b7e888a22c1532ac665"
+    },
+    {
+      "path": "docs/HIND_LEG_HYPOTHESIS.md",
+      "bytes": 7240,
+      "sha256": "99af187b594986118a762ff1561b8ac1d38f8e11f09b2d9f0da34e4c27be5ff0"
+    },
+    {
+      "path": "docs/IDENTIFIABILITY.md",
+      "bytes": 3726,
+      "sha256": "5fe021b13743cdf95670f60ded36dd641320b5f0952adedaa739a879ea5bd1d2"
+    },
+    {
+      "path": "docs/INSCRIBED_WEIGHT_EXTERNAL_SEARCH.md",
+      "bytes": 6979,
+      "sha256": "6d12ecb4cd4e96fb4bcef60c34200a0dd9185aa44ddc6007a61b560d74049d28"
+    },
+    {
+      "path": "docs/METAL_NUMERAL_IDENTIFIABILITY.md",
+      "bytes": 7001,
+      "sha256": "1e144f98b38b27e1f336976e4374c63a38e8d500c906554aedba55f5ee7d4d3a"
+    },
+    {
+      "path": "docs/NUMERAL_EQUATIONS.md",
+      "bytes": 6184,
+      "sha256": "ad09336b345d5d9a4e92d5194d86cc585ab8ff54be1420f782b569aae1abc70b"
+    },
+    {
+      "path": "docs/NUMERAL_IMAGES.md",
+      "bytes": 5637,
+      "sha256": "30c8b4148f6a44c5906349fe77825ead76e360ebcf20a7ca954ef2180b37b02c"
+    },
+    {
+      "path": "docs/NUMERAL_SCREEN.md",
+      "bytes": 6054,
+      "sha256": "2d03eb8f99c2b54aaf790ee14c971dc10c261a272d554e373ab75791ab6e7973"
+    },
+    {
+      "path": "docs/REPEATED_GOBLET_STAMP_REVIEW.md",
+      "bytes": 2168,
+      "sha256": "f8ed27df077c3e537c3889bfa03d5471d3a09cc1f4325b433e7730ef23c24f63"
+    },
+    {
+      "path": "results/capacity_context_measurements.json",
+      "bytes": 5090,
+      "sha256": "cf3f8bb27a95d10f939ad298774fca54b5af5a7ded57176e726341e529a4c905"
+    },
+    {
+      "path": "results/chanhu_deposit_support.json",
+      "bytes": 42795,
+      "sha256": "3d41c3a942f518f5e9e7820472bd0185a8eeeba5fd880c4dd8804baaf6c89b6b"
+    },
+    {
+      "path": "results/chanhu_local_specificity.json",
+      "bytes": 196902,
+      "sha256": "8613aeef3ac44168aa2621646b3d7f259c7ec0f5b61aaeae90cf43234a486913"
+    },
+    {
+      "path": "results/chanhu_photo_sensitivity.json",
+      "bytes": 3813,
+      "sha256": "0f97940e6a386f2862e3c77355afa57c8224feb58be1f9c9f2ab87d8913ef5ae"
+    },
+    {
+      "path": "results/numeral_calibration_design.json",
+      "bytes": 3838,
+      "sha256": "22beb968b6929c825fe5224b895c3af04e5a6348c8bd34542704a261848a2ea1"
+    },
+    {
+      "path": "results/numeral_equation_audit.json",
+      "bytes": 1706,
+      "sha256": "ed2d921d7c0df0ae42bc6c989778134589bd532bc24c243478260700d27c21f4"
+    },
+    {
+      "path": "results/primary_inventory_findings.json",
+      "bytes": 1116,
+      "sha256": "7e62dd5efde34d9a84921cccd65be9aa5a15ad5be5cb858208e1756eba85879c"
+    },
+    {
+      "path": "results/roof_transfer_support.json",
+      "bytes": 5545508,
+      "sha256": "4cc5fb4b56729515496b248b0ebe1dbb3803790e8972afdc0f401d81843c3de5"
+    },
+    {
+      "path": "results/sign_evidence_417.json",
+      "bytes": 2140307,
+      "sha256": "c2044cd0ad804c0b275953c0c330887919f478c794c3bc9ff5363c63e2825076"
+    },
+    {
+      "path": "scripts/analyze_numeral_calibration_design.py",
+      "bytes": 5232,
+      "sha256": "23744ed95863e33ae4aaf8fd3b93ff9a3b08e39d63ba4a80ff6a40a3d6a73d47"
+    },
+    {
+      "path": "scripts/pin_all_inventory_next_test_review.py",
+      "bytes": 8450,
+      "sha256": "b3f9b1553a2e326eb90cd8a52b9e828657742aae8a560dd164fc38f9fe5ce352"
+    },
+    {
+      "path": "tests/test_numeral_calibration_design.py",
+      "bytes": 2088,
+      "sha256": "edbc78a8573b64de2426eee5e55da94ce96b9c9b7ba2c6458d93d98cb475aa76"
+    }
+  ]
+}

@@ -1,0 +1,466 @@
+{
+  "status": "Two complete normalized lines and one first-line unknown-span case visually authenticated; not whole-corpus or whole-artifact validation",
+  "source": "data/raw/mahadevan_1977_text.pdf",
+  "source_sha256": "6dcdd074a0174e5fab149590fbbf82342711d345764e9763f8e5e92c81cf7f99",
+  "export": "data/raw/glossa_icit_export.json",
+  "export_sha256": "e4ddfd064e9f97871cd4c498f39f238c7cecb2f6a646733b0a65f22f81bd7e2d",
+  "namespace": "Mahadevan1977 only; no Wells conversion attempted",
+  "reviewed_token_count": 22,
+  "unstarred_token_count": 20,
+  "doubtful_token_count": 1,
+  "distinct_base_sign_ids": 16,
+  "records": [
+    {
+      "raw_record": {
+        "glossa_id": "GLI-IND-M77-01066",
+        "source_system": "indusscript-m77",
+        "site_name": null,
+        "artifact_type": "seal",
+        "icit_text": "+210-086-099-389-060-204-108-358-342+",
+        "sign_count": 9,
+        "sign_id_scheme": "Mahadevan1977",
+        "rights_status": "rmrl-research"
+      },
+      "printed_text_reference": 1066,
+      "primary_pdf_page": 52,
+      "primary_printed_page": 41,
+      "printed_following_code": "100101",
+      "page_heading": "MOHENJODARO",
+      "full_page_render": "results/primary_pages/numeral-followup-52.png",
+      "detail_render": "results/primary_pages/numeral-followup-52-detail.png",
+      "full_page_render_sha256": "8f8c581b2ebf73fa16d44f21e236667cf0305968bd6974d3677e4a96dfd001ef",
+      "source_glyph_order": "right_to_left",
+      "export_token_order_matches": "rightmost printed glyph to leftmost printed glyph",
+      "all_glyph_positions_accounted_for": true,
+      "positions": [
+        {
+          "position_from_right": 1,
+          "export_token": "210",
+          "mahadevan_id": "M210",
+          "morphology": "Triangular outline with horizontal tiers and a central vertical divider.",
+          "supplied_glyph": "IM_417_150_PNG/210.png",
+          "supplied_glyph_sha256": "85200f81f6b6112935a60e8561300d2aacee7a5bea32baf271b22394a72a5170",
+          "primary_table_i": {
+            "pdf_page": 731,
+            "printed_page": 720,
+            "half": "left",
+            "row_in_half": 18
+          },
+          "assessment": "Visible normalized drawing agrees with supplied glyph and TableI identification.",
+          "doubtful_in_primary": false
+        },
+        {
+          "position_from_right": 2,
+          "export_token": "086",
+          "mahadevan_id": "M086",
+          "morphology": "One long vertical stroke.",
+          "supplied_glyph": "IM_417_150_PNG/86.png",
+          "supplied_glyph_sha256": "7e4cdf2a2f67412ebe945e4aa42ca27d358e9eb2465cde215b2e582cd5930574",
+          "primary_table_i": {
+            "pdf_page": 729,
+            "printed_page": 718,
+            "half": "left",
+            "row_in_half": 22
+          },
+          "assessment": "Visible normalized drawing agrees with supplied glyph and TableI identification.",
+          "doubtful_in_primary": false
+        },
+        {
+          "position_from_right": 3,
+          "export_token": "099",
+          "mahadevan_id": "M099",
+          "morphology": "Two short parallel vertical strokes.",
+          "supplied_glyph": "IM_417_150_PNG/99.png",
+          "supplied_glyph_sha256": "c234d0a50c5ab8850bfadd6fe862b4f8d4db97ff274dbf507cfd5ae02acd9c56",
+          "primary_table_i": {
+            "pdf_page": 729,
+            "printed_page": 718,
+            "half": "right",
+            "row_in_half": 3
+          },
+          "assessment": "Visible normalized drawing agrees with supplied glyph and TableI identification.",
+          "doubtful_in_primary": false
+        },
+        {
+          "position_from_right": 4,
+          "export_token": "389",
+          "mahadevan_id": "M389",
+          "morphology": "Oval enclosure containing a rising stem with upper branches.",
+          "supplied_glyph": "IM_417_150_PNG/389.png",
+          "supplied_glyph_sha256": "3c9eaa1fbc4df0790aac0a4fb2748a00144afcaaba3c9c86c40ec5380305925f",
+          "primary_table_i": {
+            "pdf_page": 734,
+            "printed_page": 723,
+            "half": "left",
+            "row_in_half": 5
+          },
+          "assessment": "Visible normalized drawing agrees with supplied glyph and TableI identification.",
+          "doubtful_in_primary": false
+        },
+        {
+          "position_from_right": 5,
+          "export_token": "060",
+          "mahadevan_id": "M060",
+          "morphology": "Pointed oval/fish-like form and forked lower end, accompanied by four short outside ticks.",
+          "supplied_glyph": "IM_417_150_PNG/60.png",
+          "supplied_glyph_sha256": "f98fc76e014ca5ab3f03a9005284a0fa9b4df1cde4e3fab38a1732fc61ea81ff",
+          "primary_table_i": {
+            "pdf_page": 728,
+            "printed_page": 717,
+            "half": "right",
+            "row_in_half": 28
+          },
+          "assessment": "Visible normalized drawing agrees with supplied glyph and TableI identification.",
+          "doubtful_in_primary": false
+        },
+        {
+          "position_from_right": 6,
+          "export_token": "204",
+          "mahadevan_id": "M204",
+          "morphology": "Triangular outline with horizontal tiers and without the central divider of M210.",
+          "supplied_glyph": "IM_417_150_PNG/204.png",
+          "supplied_glyph_sha256": "a0e15a5dcc6d657d3529323947023d3a0a8322a60d16e9c519412a1d17137563",
+          "primary_table_i": {
+            "pdf_page": 731,
+            "printed_page": 720,
+            "half": "left",
+            "row_in_half": 12
+          },
+          "assessment": "Visible normalized drawing agrees with supplied glyph and TableI identification.",
+          "doubtful_in_primary": false
+        },
+        {
+          "position_from_right": 7,
+          "export_token": "108",
+          "mahadevan_id": "M108",
+          "morphology": "Six short parallel vertical strokes in one row.",
+          "supplied_glyph": "IM_417_150_PNG/108.png",
+          "supplied_glyph_sha256": "84a9cd2750d73f09e67f69a5b883a2a476b3c1d4a1637b7a5a1794a0bfbca38f",
+          "primary_table_i": {
+            "pdf_page": 729,
+            "printed_page": 718,
+            "half": "right",
+            "row_in_half": 12
+          },
+          "assessment": "Visible normalized drawing agrees with supplied glyph and TableI identification.",
+          "doubtful_in_primary": false
+        },
+        {
+          "position_from_right": 8,
+          "export_token": "358",
+          "mahadevan_id": "M358",
+          "morphology": "Open U with flag-like oblique caps at both upper ends.",
+          "supplied_glyph": "IM_417_150_PNG/358.png",
+          "supplied_glyph_sha256": "ac69cfe72cb3b0d7d9dadd476b76c6362ea9f7d4b3f22197da9b38900fecf7ff",
+          "primary_table_i": {
+            "pdf_page": 733,
+            "printed_page": 722,
+            "half": "right",
+            "row_in_half": 6
+          },
+          "assessment": "Visible normalized drawing agrees with supplied glyph and TableI identification.",
+          "doubtful_in_primary": false
+        },
+        {
+          "position_from_right": 9,
+          "export_token": "342",
+          "mahadevan_id": "M342",
+          "morphology": "Open U with outward horizontal ticks at both upper ends.",
+          "supplied_glyph": "IM_417_150_PNG/342.png",
+          "supplied_glyph_sha256": "be577acc0d46e60056b2d867d718e3ae99df64cdd3342e7ce6e61892750f3538",
+          "primary_table_i": {
+            "pdf_page": 733,
+            "printed_page": 722,
+            "half": "left",
+            "row_in_half": 22
+          },
+          "assessment": "Visible normalized drawing agrees with supplied glyph and TableI identification.",
+          "doubtful_in_primary": false
+        }
+      ]
+    },
+    {
+      "raw_record": {
+        "glossa_id": "GLI-IND-M77-02427",
+        "source_system": "indusscript-m77",
+        "site_name": "Mohenjo-daro",
+        "artifact_type": "seal",
+        "icit_text": "+307-086-099-086-121-391-391-*402+",
+        "sign_count": 8,
+        "sign_id_scheme": "Mahadevan1977",
+        "rights_status": "rmrl-research"
+      },
+      "printed_text_reference": 2427,
+      "primary_pdf_page": 82,
+      "primary_printed_page": 71,
+      "printed_following_code": "100101",
+      "page_heading": "MOHENJODARO",
+      "full_page_render": "results/primary_pages/numeral-followup-82.png",
+      "detail_render": "results/primary_pages/numeral-followup-82-detail.png",
+      "full_page_render_sha256": "a3bc63e1cfd1826ba127a4dcbc74628e48baed989a74b501e5ee0bd991bd326c",
+      "source_glyph_order": "right_to_left",
+      "export_token_order_matches": "rightmost printed glyph to leftmost printed glyph",
+      "all_glyph_positions_accounted_for": true,
+      "positions": [
+        {
+          "position_from_right": 1,
+          "export_token": "307",
+          "mahadevan_id": "M307",
+          "morphology": "D-like outline crossed by an oblique line continuing beyond its upper right.",
+          "supplied_glyph": "IM_417_150_PNG/307.png",
+          "supplied_glyph_sha256": "f02479caa60b267712039233fa579197db25116d14bc1efaa3461d6d07c5d459",
+          "primary_table_i": {
+            "pdf_page": 732,
+            "printed_page": 721,
+            "half": "right",
+            "row_in_half": 19
+          },
+          "assessment": "Visible normalized drawing agrees with supplied glyph and TableI identification.",
+          "doubtful_in_primary": false
+        },
+        {
+          "position_from_right": 2,
+          "export_token": "086",
+          "mahadevan_id": "M086",
+          "morphology": "One long vertical stroke.",
+          "supplied_glyph": "IM_417_150_PNG/86.png",
+          "supplied_glyph_sha256": "7e4cdf2a2f67412ebe945e4aa42ca27d358e9eb2465cde215b2e582cd5930574",
+          "primary_table_i": {
+            "pdf_page": 729,
+            "printed_page": 718,
+            "half": "left",
+            "row_in_half": 22
+          },
+          "assessment": "Visible normalized drawing agrees with supplied glyph and TableI identification.",
+          "doubtful_in_primary": false
+        },
+        {
+          "position_from_right": 3,
+          "export_token": "099",
+          "mahadevan_id": "M099",
+          "morphology": "Two short parallel vertical strokes.",
+          "supplied_glyph": "IM_417_150_PNG/99.png",
+          "supplied_glyph_sha256": "c234d0a50c5ab8850bfadd6fe862b4f8d4db97ff274dbf507cfd5ae02acd9c56",
+          "primary_table_i": {
+            "pdf_page": 729,
+            "printed_page": 718,
+            "half": "right",
+            "row_in_half": 3
+          },
+          "assessment": "Visible normalized drawing agrees with supplied glyph and TableI identification.",
+          "doubtful_in_primary": false
+        },
+        {
+          "position_from_right": 4,
+          "export_token": "086",
+          "mahadevan_id": "M086",
+          "morphology": "One long vertical stroke.",
+          "supplied_glyph": "IM_417_150_PNG/86.png",
+          "supplied_glyph_sha256": "7e4cdf2a2f67412ebe945e4aa42ca27d358e9eb2465cde215b2e582cd5930574",
+          "primary_table_i": {
+            "pdf_page": 729,
+            "printed_page": 718,
+            "half": "left",
+            "row_in_half": 22
+          },
+          "assessment": "Visible normalized drawing agrees with supplied glyph and TableI identification.",
+          "doubtful_in_primary": false
+        },
+        {
+          "position_from_right": 5,
+          "export_token": "121",
+          "mahadevan_id": "M121",
+          "morphology": "Twelve short strokes arranged in three rows of four.",
+          "supplied_glyph": "IM_417_150_PNG/121.png",
+          "supplied_glyph_sha256": "5cce4af49a3267750ece4de631582a2ab9d86d4b8a5f2295deab08e1d815e0ff",
+          "primary_table_i": {
+            "pdf_page": 729,
+            "printed_page": 718,
+            "half": "right",
+            "row_in_half": 25
+          },
+          "assessment": "Visible normalized drawing agrees with supplied glyph and TableI identification.",
+          "doubtful_in_primary": false
+        },
+        {
+          "position_from_right": 6,
+          "export_token": "391",
+          "mahadevan_id": "M391",
+          "morphology": "Oval divided by a vertical line and crossing diagonals into spoke-like sectors.",
+          "supplied_glyph": "IM_417_150_PNG/391.png",
+          "supplied_glyph_sha256": "14e3a84e99226647c39a48a208908526c0bd4547d41789e97b982b3a38d5fafd",
+          "primary_table_i": {
+            "pdf_page": 734,
+            "printed_page": 723,
+            "half": "left",
+            "row_in_half": 7
+          },
+          "assessment": "Visible normalized drawing agrees with supplied glyph and TableI identification.",
+          "doubtful_in_primary": false
+        },
+        {
+          "position_from_right": 7,
+          "export_token": "391",
+          "mahadevan_id": "M391",
+          "morphology": "Oval divided by a vertical line and crossing diagonals into spoke-like sectors.",
+          "supplied_glyph": "IM_417_150_PNG/391.png",
+          "supplied_glyph_sha256": "14e3a84e99226647c39a48a208908526c0bd4547d41789e97b982b3a38d5fafd",
+          "primary_table_i": {
+            "pdf_page": 734,
+            "printed_page": 723,
+            "half": "left",
+            "row_in_half": 7
+          },
+          "assessment": "Visible normalized drawing agrees with supplied glyph and TableI identification.",
+          "doubtful_in_primary": false
+        },
+        {
+          "position_from_right": 8,
+          "export_token": "*402",
+          "mahadevan_id": "M402",
+          "morphology": "Slanting stem with a small triangular/wedge-shaped attachment on its right.",
+          "supplied_glyph": "IM_417_150_PNG/402.png",
+          "supplied_glyph_sha256": "747273ce9479597643114d266f115130cb645e8e87a07bb539d5f69f4721db9d",
+          "primary_table_i": {
+            "pdf_page": 734,
+            "printed_page": 723,
+            "half": "right",
+            "row_in_half": 1
+          },
+          "assessment": "Drawing matches M402 form but retains authorial doubtful-reading mark.",
+          "doubtful_in_primary": true
+        }
+      ]
+    },
+    {
+      "raw_record": {
+        "glossa_id": "GLI-IND-M77-01001",
+        "source_system": "indusscript-m77",
+        "site_name": "Mohenjo-daro",
+        "artifact_type": "seal",
+        "icit_text": "+000-067-072-008-342+",
+        "sign_count": 4,
+        "sign_id_scheme": "Mahadevan1977",
+        "rights_status": "rmrl-research"
+      },
+      "printed_text_reference": 1001,
+      "primary_pdf_page": 50,
+      "primary_printed_page": 39,
+      "printed_following_code": "103511",
+      "full_page_render": "results/primary_pages/texts-050.png",
+      "full_page_render_sha256": "a78ab810777334783148b605932fceac6cf0144fd6faab6f8581f9967409e781",
+      "source_glyph_order": "right_to_left",
+      "export_token_order_matches": "rightmost printed hatched span followed by four identified glyphs moving left",
+      "all_export_segments_accounted_for": true,
+      "all_ancient_glyph_positions_accounted_for": false,
+      "scope": "First printed line only. Reference1001 also includes a second line marked by continuation code23 with one drawn glyph; that line is not covered by this export record check.",
+      "export_sign_count": 4,
+      "visible_identified_sign_count": 4,
+      "encoded_segment_count_including_unknown_marker": 5,
+      "minimum_original_sign_count_in_first_line": 5,
+      "exact_original_sign_count_in_first_line": null,
+      "positions": [
+        {
+          "position_from_right": 1,
+          "export_token": "000",
+          "mahadevan_id": null,
+          "morphology": "Rectangular cluster of oblique hatching at right end of the first printed line.",
+          "assessment": "Unknown or illegible passage marker, potentially spanning multiple signs; not a M000 glyph.",
+          "unknown_sign_count_minimum": 1,
+          "unknown_sign_count_maximum": null
+        },
+        {
+          "position_from_right": 2,
+          "export_token": "067",
+          "mahadevan_id": "M067",
+          "morphology": "Pointed oval/fish-like outline with extensions at upper and lower ends.",
+          "supplied_glyph": "IM_417_150_PNG/67.png",
+          "supplied_glyph_sha256": "d7d6e0244381afc04a86871ac91f7d734c89e7247c8fd4ccf23cde381548adb7",
+          "primary_table_i": {
+            "pdf_page": 729,
+            "printed_page": 718,
+            "half": "left",
+            "row_in_half": 3
+          },
+          "assessment": "Visible normalized drawing agrees with supplied glyph and TableI identification.",
+          "doubtful_in_primary": false
+        },
+        {
+          "position_from_right": 3,
+          "export_token": "072",
+          "mahadevan_id": "M072",
+          "morphology": "Pointed oval/fish-like outline crossed internally by a diagonal.",
+          "supplied_glyph": "IM_417_150_PNG/72.png",
+          "supplied_glyph_sha256": "a2b971409f28b4a38b8498de2f8bff257bfcea96e63be140680953910fdbfc3b",
+          "primary_table_i": {
+            "pdf_page": 729,
+            "printed_page": 718,
+            "half": "left",
+            "row_in_half": 8
+          },
+          "assessment": "Visible normalized drawing agrees with supplied glyph and TableI identification.",
+          "doubtful_in_primary": false
+        },
+        {
+          "position_from_right": 4,
+          "export_token": "008",
+          "mahadevan_id": "M008",
+          "morphology": "Branched anthropomorphic-looking figure with raised upper arms or horns.",
+          "supplied_glyph": "IM_417_150_PNG/8.png",
+          "supplied_glyph_sha256": "44b27158c8cbfd9f89d208449bd7b55724f0edd902a3c7766e47620774f01cff",
+          "primary_table_i": {
+            "pdf_page": 728,
+            "printed_page": 717,
+            "half": "left",
+            "row_in_half": 8
+          },
+          "assessment": "Visible normalized drawing agrees with supplied glyph and TableI identification.",
+          "doubtful_in_primary": false
+        },
+        {
+          "position_from_right": 5,
+          "export_token": "342",
+          "mahadevan_id": "M342",
+          "morphology": "Open U with outward horizontal ticks at both upper ends.",
+          "supplied_glyph": "IM_417_150_PNG/342.png",
+          "supplied_glyph_sha256": "be577acc0d46e60056b2d867d718e3ae99df64cdd3342e7ce6e61892750f3538",
+          "primary_table_i": {
+            "pdf_page": 733,
+            "printed_page": 722,
+            "half": "left",
+            "row_in_half": 22
+          },
+          "assessment": "Visible normalized drawing agrees with supplied glyph and TableI identification.",
+          "doubtful_in_primary": false
+        }
+      ]
+    }
+  ],
+  "orientation_and_star_conventions": {
+    "source_pdf_page": 42,
+    "source_printed_page": 31,
+    "render": "results/primary_pages/context-042.png",
+    "render_sha256": "b7febb9df235fd2452e3098386003e5457eaf9a891db487abb1b512475b52ae1",
+    "direction_code": "Numerical column10 code1 means right-to-left. Both text rows end in1.",
+    "reference_surface": "Source note4 says right/left refer to impressions for seals and originals for other inscribed objects.",
+    "star": "Section8 identifies a top-right prefixed asterisk as a sign read doubtfully. The dot-like printed star at the top right of the leftmost2427 glyph agrees with exported *402.",
+    "implications": [
+      "Retain uncertainty for402; matching the drawn form does not resolve the excavated sign.",
+      "The star is not an extra sign, lost-passage marker, value marker or phonetic annotation.",
+      "Do not silently strip the star and call this a fully certain eight-sign reading."
+    ],
+    "unknown_span": "The same source Codes page section 8 identifies hatching as an illegible or lost passage with one or more signs. This authenticates 000 as an unknown span in 1001 without fixing span length."
+  },
+  "limits": [
+    "Mahadevan printed normalized readings are checked, not new autopsy of original artifacts.",
+    "Neither record is converted to a CISI identifier here.",
+    "A three-record selected pilot cannot validate all3085 exported sequences, namespace aliases, orientation elsewhere or proposed translations.",
+    "All 21 readable positions and the unknown-span marker were inspected, including distinctions between long and short stroke groups and the two U variants.",
+    "The source page gives Mohenjo-daro for1066 although the export leaves site null; this is a metadata observation, not a silent source edit.",
+    "The 1001 record covers an incomplete first line of a multi-line printed reference. Excluding the entire 000-containing line from strict complete-sequence analysis is supported; deleting the marker would invent an initial boundary and certain line length."
+  ],
+  "reviewed_export_segment_count": 22,
+  "reviewed_readable_sign_positions": 21,
+  "unknown_span_segment_count": 1,
+  "counting_note": "22 exported segments = 20 unstarred sign positions + 1 doubtful sign position + 1 unknown-span marker. The unknown span represents one or more ancient signs, not necessarily one. Original complete-line subset remains17positions."
+}

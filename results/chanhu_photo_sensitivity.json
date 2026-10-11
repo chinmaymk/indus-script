@@ -1,0 +1,162 @@
+{
+  "comparison_original_text_edge_sensitivity": [
+    {
+      "CH3207_original_absence_withheld": false,
+      "CH3215_original_absence_withheld": false,
+      "difference_bounds": [
+        "1/3",
+        "2/3"
+      ],
+      "profile": [
+        "unknown",
+        "positive",
+        "negative",
+        "negative",
+        "negative"
+      ]
+    },
+    {
+      "CH3207_original_absence_withheld": true,
+      "CH3215_original_absence_withheld": false,
+      "difference_bounds": [
+        "-1/6",
+        "2/3"
+      ],
+      "profile": [
+        "unknown",
+        "positive",
+        "negative",
+        "negative",
+        "unknown"
+      ]
+    },
+    {
+      "CH3207_original_absence_withheld": false,
+      "CH3215_original_absence_withheld": true,
+      "difference_bounds": [
+        "-1/6",
+        "2/3"
+      ],
+      "profile": [
+        "unknown",
+        "positive",
+        "negative",
+        "unknown",
+        "negative"
+      ]
+    },
+    {
+      "CH3207_original_absence_withheld": true,
+      "CH3215_original_absence_withheld": true,
+      "difference_bounds": [
+        "-2/3",
+        "2/3"
+      ],
+      "profile": [
+        "unknown",
+        "positive",
+        "negative",
+        "unknown",
+        "unknown"
+      ]
+    }
+  ],
+  "control_morphology_sensitivity": [
+    {
+      "code": "W220",
+      "review_conditioned_bounds": [
+        "1/3",
+        "2/3"
+      ],
+      "review_conditioned_profile": [
+        "unknown",
+        "positive",
+        "negative",
+        "negative",
+        "negative"
+      ],
+      "source_bounds": [
+        "1/3",
+        "2/3"
+      ],
+      "source_profile": [
+        "unknown",
+        "positive",
+        "negative",
+        "negative",
+        "negative"
+      ]
+    },
+    {
+      "code": "W368",
+      "review_conditioned_bounds": [
+        "0",
+        "2/3"
+      ],
+      "review_conditioned_profile": [
+        "unknown",
+        "unknown",
+        "negative",
+        "negative",
+        "negative"
+      ],
+      "source_bounds": [
+        "1/3",
+        "2/3"
+      ],
+      "source_profile": [
+        "positive",
+        "unknown",
+        "negative",
+        "negative",
+        "negative"
+      ]
+    },
+    {
+      "code": "W790",
+      "review_conditioned_bounds": [
+        "1/3",
+        "2/3"
+      ],
+      "review_conditioned_profile": [
+        "positive",
+        "unknown",
+        "negative",
+        "negative",
+        "negative"
+      ],
+      "source_bounds": [
+        "1/3",
+        "2/3"
+      ],
+      "source_profile": [
+        "positive",
+        "unknown",
+        "negative",
+        "negative",
+        "negative"
+      ]
+    }
+  ],
+  "fixed_order": [
+    "LI.15",
+    "LII.19",
+    "LII.23",
+    "LI.14",
+    "LI.22"
+  ],
+  "input_sha256": {
+    "data/processed/chanhu_local_primary_comparators_review.json": "84ba816e10ed13373425a23b76f48551ae01d5cfb9f11f871912640ba41370e7",
+    "data/processed/chanhu_local_primary_positive_review.json": "dc04d48ec84413787ca4711d438f489fc75ba341164c85883cc33d33c7af537e",
+    "results/chanhu_local_specificity.json": "8613aeef3ac44168aa2621646b3d7f259c7ec0f5b61aaeae90cf43234a486913"
+  },
+  "interpretation": [
+    "W368 is partly supported morphologically but its full diagnostic form is not independently secure; W790 oval graphic is clear.",
+    "Neither bath object has a securely visible fixed-family fish. Withholding original-whole-text absence is a sensitivity, not evidence a missing fish existed.",
+    "Core-object and archaeological assumptions remain unchanged in these limited alternatives.",
+    "No photographs establish meanings or exhaustive fine-code equivalence."
+  ],
+  "phonetic_values_assigned": 0,
+  "scope": "Post-outcome, post-photo sensitivities; no source correction or new family definition.",
+  "semantic_values_assigned": 0
+}

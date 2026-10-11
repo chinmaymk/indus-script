@@ -1,0 +1,629 @@
+{
+  "status": "Primary catalogue site/metadata review; not independent excavation provenance or full glyph transcription",
+  "primary_source": {
+    "path": "data/raw/mahadevan_1977_text.pdf",
+    "sha256": "6dcdd074a0174e5fab149590fbbf82342711d345764e9763f8e5e92c81cf7f99"
+  },
+  "reviewed_pages": [
+    {
+      "pdf": 17,
+      "printed": 6,
+      "subject": "Introduction site counts"
+    },
+    {
+      "pdf": 41,
+      "printed": 30,
+      "subject": "Reference/object/side codes"
+    },
+    {
+      "pdf": 42,
+      "printed": 31,
+      "subject": "Line/direction/site definitions"
+    },
+    {
+      "pdf": 171,
+      "printed": 160,
+      "subject": "Entire West Asian Texts block"
+    },
+    {
+      "pdf": 837,
+      "printed": 828,
+      "subject": "Appendix9a Other Sites"
+    },
+    {
+      "pdf": 838,
+      "printed": 829,
+      "subject": "Appendix9b West Asian Finds"
+    }
+  ],
+  "primary_definition": {
+    "WA": "Harappan inscribed objects found in West Asia; not manufacturing location",
+    "OS": "Smaller Harappan sites in Indian subcontinent",
+    "side0": "Only side",
+    "line0": "Only line",
+    "direction1": "Right to left",
+    "direction2": "Left to right",
+    "direction3": "Single sign in line",
+    "direction9": "Doubtful due to damaged or illegible signs",
+    "orientation": "Direction refers to impressions of seals and originals of others. Printed lines normalizedRTL; do not reverse exports merely for code2."
+  },
+  "selection": {
+    "named_site_references": [
+      "9801",
+      "9811",
+      "9821",
+      "9822",
+      "9832",
+      "9833",
+      "9834",
+      "9842",
+      "9845",
+      "9846",
+      "9851",
+      "9852"
+    ],
+    "unknown_probable_WA_references": [
+      "9901",
+      "9902",
+      "9903",
+      "9904",
+      "9905"
+    ],
+    "combined_WA_references": [
+      "9801",
+      "9811",
+      "9821",
+      "9822",
+      "9832",
+      "9833",
+      "9834",
+      "9842",
+      "9845",
+      "9846",
+      "9851",
+      "9852",
+      "9901",
+      "9902",
+      "9903",
+      "9904",
+      "9905"
+    ],
+    "method": "Explicit Appendix9b rows, not every integer in range9801–9905"
+  },
+  "domestic_reference_ranges": [
+    {
+      "lower": 1001,
+      "upper": 1905,
+      "site": "Mohenjodaro"
+    },
+    {
+      "lower": 2002,
+      "upper": 2952,
+      "site": "Mohenjodaro"
+    },
+    {
+      "lower": 3001,
+      "upper": 3513,
+      "site": "Mohenjodaro"
+    },
+    {
+      "lower": 4001,
+      "upper": 4905,
+      "site": "Harappa"
+    },
+    {
+      "lower": 5001,
+      "upper": 5601,
+      "site": "Harappa"
+    },
+    {
+      "lower": 6104,
+      "upper": 6306,
+      "site": "Chanhudaro"
+    },
+    {
+      "lower": 6402,
+      "upper": 6405,
+      "site": "Chanhudaro"
+    },
+    {
+      "lower": 7001,
+      "upper": 7301,
+      "site": "Lothal"
+    },
+    {
+      "lower": 8001,
+      "upper": 8302,
+      "site": "Kalibangan"
+    }
+  ],
+  "other_named_domestic_references": {
+    "9001": "Jhukar",
+    "9011": "Lohumjodaro",
+    "9021": "Rupar",
+    "9022": "Rupar",
+    "9031": "Tarkhanawala Dera",
+    "9041": "Rojdi",
+    "9042": "Rojdi",
+    "9051": "Kot Diji",
+    "9061": "Alamgirpur",
+    "9062": "Alamgirpur",
+    "9063": "Alamgirpur",
+    "9071": "Desalpar",
+    "9073": "Desalpar",
+    "9084": "Amri",
+    "9085": "Amri",
+    "9091": "Surkotada",
+    "9092": "Surkotada",
+    "9093": "Surkotada",
+    "9094": "Surkotada",
+    "9095": "Surkotada",
+    "9101": "Chandigarh",
+    "9102": "Chandigarh",
+    "9103": "Chandigarh",
+    "9104": "Chandigarh",
+    "9111": "Rakhigadhi",
+    "9121": "Dholavira",
+    "9201": "Banawali",
+    "9202": "Banawali",
+    "9203": "Banawali",
+    "9204": "Banawali",
+    "9205": "Banawali",
+    "9211": "Banawali",
+    "9221": "Banawali"
+  },
+  "domestic_selection_note": "Classify actual source rows only; absent numbers are not objects. Domestic is named-site catalogue attribution, not independent excavation authentication.",
+  "unknown_domestic_candidate": {
+    "reference": "9701",
+    "appendix_label": "Unknown prov.",
+    "appendix_identifier": "NM35/35",
+    "intro_qualification": "ProbablyIndian subcontinent",
+    "primary_object_code": "2",
+    "sides": [
+      "1",
+      "2",
+      "3"
+    ],
+    "line_code_each": "0",
+    "direction_each": "1",
+    "canonical_doc_count": 3,
+    "named_domestic": false,
+    "WA": false
+  },
+  "rows": [
+    {
+      "reference": "9801",
+      "primary_site_label": "Susa",
+      "provenance_group": "named_site_attribution_by_M77",
+      "primary_appendix_citation_literal": "CCO:vol.I:Pl.XXV.15",
+      "primary_text_metadata": "100402",
+      "primary_lines": [
+        {
+          "object_code": "1",
+          "side_code": "0",
+          "field_symbol_code": "04",
+          "line_code": "0",
+          "direction_code": "2"
+        }
+      ],
+      "candidate_doc_count": 1,
+      "candidate_diplomatic_not_fully_reauthenticated": "+173-010-097-121-185-097-297-057+",
+      "candidate_strict": false,
+      "candidate_exclusion_reasons": [
+        "direction_not_right_to_left"
+      ],
+      "primary_metadata_visually_verified": true
+    },
+    {
+      "reference": "9811",
+      "primary_site_label": "Djoka (Umma)",
+      "provenance_group": "named_site_attribution_by_M77",
+      "primary_appendix_citation_literal": "RA:XXII(1925):p.56",
+      "primary_text_metadata": "200101",
+      "primary_lines": [
+        {
+          "object_code": "2",
+          "side_code": "0",
+          "field_symbol_code": "01",
+          "line_code": "0",
+          "direction_code": "1"
+        }
+      ],
+      "candidate_doc_count": 1,
+      "candidate_diplomatic_not_fully_reauthenticated": "+029-336-099-104-162+",
+      "candidate_strict": true,
+      "candidate_exclusion_reasons": [],
+      "primary_metadata_visually_verified": true
+    },
+    {
+      "reference": "9821",
+      "primary_site_label": "Kish",
+      "provenance_group": "named_site_attribution_by_M77",
+      "primary_appendix_citation_literal": "JRAS:1925:p.698:Pl.X",
+      "primary_text_metadata": "100101",
+      "primary_lines": [
+        {
+          "object_code": "1",
+          "side_code": "0",
+          "field_symbol_code": "01",
+          "line_code": "0",
+          "direction_code": "1"
+        }
+      ],
+      "candidate_doc_count": 1,
+      "candidate_diplomatic_not_fully_reauthenticated": "+000-067-244-342+",
+      "candidate_strict": false,
+      "candidate_exclusion_reasons": [
+        "unknown_span_present"
+      ],
+      "primary_metadata_visually_verified": true
+    },
+    {
+      "reference": "9822",
+      "primary_site_label": "Kish",
+      "provenance_group": "named_site_attribution_by_M77",
+      "primary_appendix_citation_literal": "JRAS:1931:p.595:Fig.B",
+      "primary_text_metadata": "100101",
+      "primary_lines": [
+        {
+          "object_code": "1",
+          "side_code": "0",
+          "field_symbol_code": "01",
+          "line_code": "0",
+          "direction_code": "1"
+        }
+      ],
+      "candidate_doc_count": 1,
+      "candidate_diplomatic_not_fully_reauthenticated": "+173-403-123-102-059-249-162-342+",
+      "candidate_strict": true,
+      "candidate_exclusion_reasons": [],
+      "primary_metadata_visually_verified": true
+    },
+    {
+      "reference": "9832",
+      "primary_site_label": "Ur",
+      "provenance_group": "named_site_attribution_by_M77",
+      "primary_appendix_citation_literal": "PBA:18(1932):p.191:No.2",
+      "primary_text_metadata": "100401",
+      "primary_lines": [
+        {
+          "object_code": "1",
+          "side_code": "0",
+          "field_symbol_code": "04",
+          "line_code": "0",
+          "direction_code": "1"
+        }
+      ],
+      "candidate_doc_count": 1,
+      "candidate_diplomatic_not_fully_reauthenticated": "+254-074-297-184-003+",
+      "candidate_strict": true,
+      "candidate_exclusion_reasons": [],
+      "primary_metadata_visually_verified": true
+    },
+    {
+      "reference": "9833",
+      "primary_site_label": "Ur",
+      "provenance_group": "named_site_attribution_by_M77",
+      "primary_appendix_citation_literal": "PBA:18(1932):p.191:No.3",
+      "primary_text_metadata": "109901",
+      "primary_lines": [
+        {
+          "object_code": "1",
+          "side_code": "0",
+          "field_symbol_code": "99",
+          "line_code": "0",
+          "direction_code": "1"
+        }
+      ],
+      "candidate_doc_count": 1,
+      "candidate_diplomatic_not_fully_reauthenticated": "+000-001-000-157-097-000+",
+      "candidate_strict": false,
+      "candidate_exclusion_reasons": [
+        "unknown_span_present"
+      ],
+      "primary_metadata_visually_verified": true
+    },
+    {
+      "reference": "9834",
+      "primary_site_label": "Ur",
+      "provenance_group": "named_site_attribution_by_M77",
+      "primary_appendix_citation_literal": "PBA:18(1932):p.191:No.4",
+      "primary_text_metadata": "100009",
+      "primary_lines": [
+        {
+          "object_code": "1",
+          "side_code": "0",
+          "field_symbol_code": "00",
+          "line_code": "0",
+          "direction_code": "9"
+        }
+      ],
+      "candidate_doc_count": 1,
+      "candidate_diplomatic_not_fully_reauthenticated": "+000-075-000+",
+      "candidate_strict": false,
+      "candidate_exclusion_reasons": [
+        "direction_not_right_to_left",
+        "unknown_span_present"
+      ],
+      "primary_metadata_visually_verified": true
+    },
+    {
+      "reference": "9842",
+      "primary_site_label": "Ur",
+      "provenance_group": "named_site_attribution_by_M77",
+      "primary_appendix_citation_literal": "PBA:18(1932):p.191:No.12",
+      "primary_text_metadata": "100001",
+      "primary_lines": [
+        {
+          "object_code": "1",
+          "side_code": "0",
+          "field_symbol_code": "00",
+          "line_code": "0",
+          "direction_code": "1"
+        }
+      ],
+      "candidate_doc_count": 1,
+      "candidate_diplomatic_not_fully_reauthenticated": "+*175-012-*182+",
+      "candidate_strict": false,
+      "candidate_exclusion_reasons": [
+        "doubtful_reading_present"
+      ],
+      "primary_metadata_visually_verified": true
+    },
+    {
+      "reference": "9845",
+      "primary_site_label": "Ur",
+      "provenance_group": "named_site_attribution_by_M77",
+      "primary_appendix_citation_literal": "PBA:18(1932):p.191:No.15",
+      "primary_text_metadata": "100411",
+      "primary_lines": [
+        {
+          "object_code": "1",
+          "side_code": "0",
+          "field_symbol_code": "04",
+          "line_code": "1",
+          "direction_code": "1"
+        },
+        {
+          "object_code": "1",
+          "side_code": "0",
+          "field_symbol_code": "04",
+          "line_code": "2",
+          "direction_code": "3",
+          "printed_continuation": "23"
+        }
+      ],
+      "candidate_doc_count": 2,
+      "candidate_diplomatic_not_fully_reauthenticated": "+175-001-000-*059-051+",
+      "candidate_strict": false,
+      "candidate_exclusion_reasons": [
+        "multiple_source_documents_line_recovery_unverified",
+        "unknown_span_present",
+        "doubtful_reading_present"
+      ],
+      "primary_metadata_visually_verified": true
+    },
+    {
+      "reference": "9846",
+      "primary_site_label": "Ur",
+      "provenance_group": "named_site_attribution_by_M77",
+      "primary_appendix_citation_literal": "PBA:18(1932):p.191:No.16",
+      "primary_text_metadata": "100401",
+      "primary_lines": [
+        {
+          "object_code": "1",
+          "side_code": "0",
+          "field_symbol_code": "04",
+          "line_code": "0",
+          "direction_code": "1"
+        }
+      ],
+      "candidate_doc_count": 1,
+      "candidate_diplomatic_not_fully_reauthenticated": "+171-387-097-341-107+",
+      "candidate_strict": true,
+      "candidate_exclusion_reasons": [],
+      "primary_metadata_visually_verified": true
+    },
+    {
+      "reference": "9851",
+      "primary_site_label": "Telloh",
+      "provenance_group": "named_site_attribution_by_M77",
+      "primary_appendix_citation_literal": "RA:XXII(1925):p.99",
+      "primary_text_metadata": "100901",
+      "primary_lines": [
+        {
+          "object_code": "1",
+          "side_code": "0",
+          "field_symbol_code": "09",
+          "line_code": "0",
+          "direction_code": "1"
+        }
+      ],
+      "candidate_doc_count": 1,
+      "candidate_diplomatic_not_fully_reauthenticated": "+327-*128-162-048-015+",
+      "candidate_strict": false,
+      "candidate_exclusion_reasons": [
+        "doubtful_reading_present"
+      ],
+      "primary_metadata_visually_verified": true
+    },
+    {
+      "reference": "9852",
+      "primary_site_label": "Telloh",
+      "provenance_group": "named_site_attribution_by_M77",
+      "primary_appendix_citation_literal": "CCO:vol.I:Pl.II.8",
+      "primary_text_metadata": "100401",
+      "primary_lines": [
+        {
+          "object_code": "1",
+          "side_code": "0",
+          "field_symbol_code": "04",
+          "line_code": "0",
+          "direction_code": "1"
+        }
+      ],
+      "candidate_doc_count": 1,
+      "candidate_diplomatic_not_fully_reauthenticated": "+051-103-345-*307-342+",
+      "candidate_strict": false,
+      "candidate_exclusion_reasons": [
+        "doubtful_reading_present"
+      ],
+      "primary_metadata_visually_verified": true
+    },
+    {
+      "reference": "9901",
+      "primary_site_label": "prob.WA.",
+      "provenance_group": "unknown_provenance_probably_West_Asia",
+      "primary_appendix_citation_literal": "PBA:18(1932):p.191:No.17",
+      "primary_text_metadata": "100401",
+      "primary_lines": [
+        {
+          "object_code": "1",
+          "side_code": "0",
+          "field_symbol_code": "04",
+          "line_code": "0",
+          "direction_code": "1"
+        }
+      ],
+      "candidate_doc_count": 1,
+      "candidate_diplomatic_not_fully_reauthenticated": "+178-053-097-342-342+",
+      "candidate_strict": true,
+      "candidate_exclusion_reasons": [],
+      "primary_metadata_visually_verified": true
+    },
+    {
+      "reference": "9902",
+      "primary_site_label": "prob.WA.",
+      "provenance_group": "unknown_provenance_probably_West_Asia",
+      "primary_appendix_citation_literal": "PBA:18(1932):p.191:No.18",
+      "primary_text_metadata": "101901",
+      "primary_lines": [
+        {
+          "object_code": "1",
+          "side_code": "0",
+          "field_symbol_code": "19",
+          "line_code": "0",
+          "direction_code": "1"
+        }
+      ],
+      "candidate_doc_count": 1,
+      "candidate_diplomatic_not_fully_reauthenticated": "+*065-001-001-245-245+",
+      "candidate_strict": false,
+      "candidate_exclusion_reasons": [
+        "doubtful_reading_present"
+      ],
+      "primary_metadata_visually_verified": true
+    },
+    {
+      "reference": "9903",
+      "primary_site_label": "prob.WA.",
+      "provenance_group": "unknown_provenance_probably_West_Asia",
+      "primary_appendix_citation_literal": "JRAS:1932:p.48",
+      "primary_text_metadata": "100402",
+      "primary_lines": [
+        {
+          "object_code": "1",
+          "side_code": "0",
+          "field_symbol_code": "04",
+          "line_code": "0",
+          "direction_code": "2"
+        }
+      ],
+      "candidate_doc_count": 1,
+      "candidate_diplomatic_not_fully_reauthenticated": "+*018-102-059-098-*294-134-089+",
+      "candidate_strict": false,
+      "candidate_exclusion_reasons": [
+        "direction_not_right_to_left",
+        "doubtful_reading_present"
+      ],
+      "primary_metadata_visually_verified": true
+    },
+    {
+      "reference": "9904",
+      "primary_site_label": "prob.WA.",
+      "provenance_group": "unknown_provenance_probably_West_Asia",
+      "primary_appendix_citation_literal": "AOS:Pl.III.23",
+      "primary_text_metadata": "100401",
+      "primary_lines": [
+        {
+          "object_code": "1",
+          "side_code": "0",
+          "field_symbol_code": "04",
+          "line_code": "0",
+          "direction_code": "1"
+        }
+      ],
+      "candidate_doc_count": 1,
+      "candidate_diplomatic_not_fully_reauthenticated": "+011-326-021-021-153+",
+      "candidate_strict": true,
+      "candidate_exclusion_reasons": [],
+      "primary_metadata_visually_verified": true
+    },
+    {
+      "reference": "9905",
+      "primary_site_label": "prob.WA.",
+      "provenance_group": "unknown_provenance_probably_West_Asia",
+      "primary_appendix_citation_literal": "Iraq:III(1936):p.101:Fig.1",
+      "primary_text_metadata": "108102",
+      "primary_lines": [
+        {
+          "object_code": "1",
+          "side_code": "0",
+          "field_symbol_code": "81",
+          "line_code": "0",
+          "direction_code": "2"
+        }
+      ],
+      "candidate_doc_count": 1,
+      "candidate_diplomatic_not_fully_reauthenticated": "+059-059-167+",
+      "candidate_strict": false,
+      "candidate_exclusion_reasons": [
+        "direction_not_right_to_left"
+      ],
+      "primary_metadata_visually_verified": true
+    }
+  ],
+  "summary": {
+    "objects": 17,
+    "named_site_attributions": 12,
+    "unknown_probable_WA": 5,
+    "seals": 16,
+    "sealings": 1,
+    "only_side_objects": 17,
+    "primary_text_lines": 18,
+    "canonical_metadata_matches": 17,
+    "current_strict_named": [
+      "9811",
+      "9822",
+      "9832",
+      "9846"
+    ],
+    "current_strict_probable": [
+      "9901",
+      "9904"
+    ]
+  },
+  "limitations": [
+    "Named sites are M77 attributions with bibliography; original excavation reports not independently reviewed here.",
+    "Findspot does not establish manufacturing place, language, writer identity, date or exchange function.",
+    "Five990xentries unknown provenance; keep separate from named-site attribution.",
+    "1977selectedHarappan-inscriptioncorpus is not every foreign excavation assemblage or Gulf inscription.",
+    "Object/direction match does not authenticate all candidate sign IDs.",
+    "9845 has two lines on onlyside0; candidate doc_count2 but singlearray omits line2. Do not generalize doc_count semantics from this alone.",
+    "Currentstrict selection excludesLTR,doubtful,damaged,multiline rows, hence describes a filtered subset."
+  ],
+  "rendering": "PDF17,171,837,838 visually reviewed via pdftoppm JPEG tostdout/base64 due diskwritefailure; existingcodebook41/42images also reviewed. No newrenderfiles required.",
+  "downloads": [],
+  "inputs": [
+    {
+      "path": "data/processed/m77_candidate_records.jsonl",
+      "sha256": "b29a176da86b125115256a8966c377c3fd9fe39ecaab17bf576b770b83b41bab",
+      "bytes": 4109921
+    },
+    {
+      "path": "data/raw/glossa_canonical_objects.jsonl",
+      "sha256": "e24f42a95ee4cc1fdb16c789c3edfb937993ed7c82223d6daa96d66895174ae5",
+      "bytes": 22391887
+    }
+  ]
+}

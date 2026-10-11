@@ -1,0 +1,157 @@
+{
+  "schema_version": 1,
+  "question": "Can an exact securely Harappan stone-weight object be joined to its measured mass and authenticated ancient marks on that same object?",
+  "result": "No qualifying inscribed-weight anchor found in this bounded review.",
+  "qualifying_anchors": [],
+  "scope": {
+    "primary_sources": "Hemmy in Marshall1931 chapterXXIX pp589\u2013598; Hemmy in Mackay1938 chapterXVII plus AppendixII (public20-page extract); Vats1940 volI weights pp360\u2013364 via existing OCR, with original360\u2013361 visually checked; volII plateCXVIII visually checked.",
+    "web_search": "Two targeted search batches for Harappan/Indus/Mohenjo-daro weights with inscriptions, incisions or marks; official museum/excavator leads inspected. Parent independently reviews Kenoyer2010.",
+    "exclusions": "Nearby inscribed seals, inferred metrological labels, Western Asian weights of disputed Indus attribution, modern catalogue numbers, and unmeasured marked artifacts do not satisfy the same-object anchor requirement."
+  },
+  "sources": [
+    {
+      "path": "data/raw/weight_anchor_structure_hemmy_1931.pdf",
+      "url": "https://rws.xoba.com/indus_weights/Marshall-1931-Weights-Mohenjodaro.pdf",
+      "bytes": 441038,
+      "sha256": "f434ee1626bdf0093e6765862f5e2b0993a5fecf61d32e678b07d647aa26a8bc",
+      "retrieved_utc_date": "2026-09-23"
+    },
+    {
+      "path": "data/raw/weight_anchor_structure_hemmy_1938.pdf",
+      "url": "https://www.rws.xoba.com/indus_weights/Hemmy-1938-weights-Mohenjodaro-Mackay.pdf",
+      "bytes": 767588,
+      "sha256": "2f606caf8e3cd544f803f4be28bc339e2c30141e716189476af226e3fd93c354",
+      "retrieved_utc_date": "2026-09-23"
+    },
+    {
+      "path": "data/raw/weight_anchor_structure_vats_leaf388.jpg",
+      "url": "https://archive.org/download/in.gov.ignca.18220/page/n388.jpg",
+      "bytes": 2564372,
+      "sha256": "83f512f60009da56d1609e1d85ef34a0b2cfbad22cf15e173c4575870a53c8da",
+      "retrieved_utc_date": "2026-09-23"
+    },
+    {
+      "path": "data/raw/weight_anchor_structure_vats_leaf389.jpg",
+      "url": "https://archive.org/download/in.gov.ignca.18220/page/n389.jpg",
+      "bytes": 2550724,
+      "sha256": "f013d3ce56575e21f4615fc6c25fb1a0568847cae32724b8c18ae67de43e9ae1",
+      "retrieved_utc_date": "2026-09-23"
+    }
+  ],
+  "reused_sources": [
+    {
+      "path": "data/raw/vats_1940_text_18220_djvu.txt",
+      "sha256": "9426186946d5540e6ccff83fdfc8e5af4aaed99926e56fe14287f57f8ccb4d45",
+      "bytes": 1518598
+    },
+    {
+      "path": "data/raw/vats_1940_plates_9842.pdf",
+      "sha256": "ab14c5c3a25588d3178789f83ae724eecf7cd873fb28c0a2c639a4dee21b8b18",
+      "bytes": 17325993
+    },
+    {
+      "path": "data/raw/vats_1940_18220_page_numbers.json",
+      "sha256": "3395ba6126b68a053a6178ef2fca82d641ec1185dcca460304f8d47ba116a5f7",
+      "bytes": 100789
+    }
+  ],
+  "page_evidence": [
+    {
+      "path": "results/primary_pages/weight-anchor-structure-vats-244.jpg",
+      "sha256": "90cf862dbf396270d132b83b34b90a2b4b175d6c055b4bdc71a5056d8d97433b",
+      "bytes": 142799
+    },
+    {
+      "path": "results/primary_pages/weight-anchor-structure-hemmy1931-09.png",
+      "sha256": "b451e179a12214f20ee5f4fcc8235a47bad5ef40c5a831914704064ae3260cc0",
+      "bytes": 123451
+    },
+    {
+      "path": "results/primary_pages/weight-anchor-structure-hemmy1938-17.png",
+      "sha256": "4a15cba430648398ea9e05dc26250f884f3f89b441c0ae3d0ef0681c9e02ef59",
+      "bytes": 130478
+    }
+  ],
+  "findings": [
+    {
+      "id": "hemmy1931_negative",
+      "source_path": "data/raw/weight_anchor_structure_hemmy_1931.pdf",
+      "locator": "printed589/PDF2 and printed596/PDF9",
+      "claim": "Author explicitly reports no inscription or mark indicating value on examined weights.",
+      "verified": "Printed596 visually checked;589 text layer inspected.",
+      "short_quote": "No inscription nor mark of value has been found on any of the weights.",
+      "limit": "Statement about this historical reported collection, not proof that no inscribed weight can ever exist. Do not accept the following author inference that traders were illiterate; absence of labels does not entail that."
+    },
+    {
+      "id": "vats_bounded_negative",
+      "source_path": "data/raw/weight_anchor_structure_vats_leaf389.jpg",
+      "locator": "printed361; plateCXVIII, weights1\u201331, PDF244 in existing plates scan",
+      "claim": "Mass, object ID, material and provenance are available for specific weights, but no ancient inscription/value mark is authenticated by these entries and depicted views.",
+      "limit": "Some faces are not shown; no autopsy or detection of lost paint. Visible modern Arabic catalogue labels and natural stone bands are not ancient sign inscriptions."
+    },
+    {
+      "id": "susa_strokes_false_lead",
+      "source_path": "data/raw/weight_anchor_structure_hemmy_1938.pdf",
+      "locator": "printed675/PDF17; TableIX and paragraph below",
+      "mass_g": [
+        2.3,
+        2.25,
+        540.0
+      ],
+      "reported_marks": [
+        "four strokes",
+        "four strokes",
+        "six strokes"
+      ],
+      "object_ids": null,
+      "depiction": null,
+      "provenance": "Susa; a proposed Indus-type attribution by Belaiew is being criticized by Hemmy.",
+      "claim": "Real published mass-plus-stroke descriptions, but not secure Harappan anchors. No exact museum/field IDs or mark drawings in this excerpt. Hemmy argues their marks and distributions do not justify the proposed Indus metrology.",
+      "limit": "Do not assign any M77 identity or transfer the proposed quarter/sixfold interpretations to Indus signs."
+    }
+  ],
+  "measured_but_not_inscription_anchors": [
+    {
+      "object_id": "Harappa635",
+      "mass_g": 2652.8,
+      "material": "chert",
+      "plate": "CXVIII nos4 and13 (two views of one object)",
+      "provenance": "MoundF,TrenchI,SquareM12/17,depth4ft below surface,StratumII",
+      "mark_depiction": "No authenticated ancient inscription in the described/depicted views.",
+      "cautions": "Edges and corners broken; reported mass not reconstructed ideal mass. OCR incorrectly has2052.8; original page shows2652.8."
+    },
+    {
+      "object_id": "Harappa902",
+      "mass_g": 49.75,
+      "material": "grey granite mottled black",
+      "plate": "CXVIII no27",
+      "provenance": "MoundF,GreatGranaryArea,SquareJ9/23,depth2ft3in below surface,StratumI",
+      "mark_depiction": "No authenticated ancient inscription in described/depicted view.",
+      "cautions": "Stone mottling is not script; one published view does not inventory every face."
+    },
+    {
+      "object_id": "Harappa4368",
+      "mass_g": 27.65,
+      "material": "granite, described as similar to902",
+      "plate": "CXVIII no28",
+      "provenance": "MoundAB,ExtensionofPitsIandII,SquareQ24/21,depth3ft below surface,StratumI",
+      "mark_depiction": "No authenticated ancient inscription in described/depicted view.",
+      "cautions": "OCR mistakenly gives4363; original page reads4368. No inference from pictorial size, since plate cutouts are not proportional."
+    }
+  ],
+  "secondary_or_museum_search_leads_not_used_as_anchors": [
+    {
+      "url": "https://networksofthepast.csmvs.in/object/duck-weight-with-cuneiform-inscription/",
+      "object_id": "BM134301 /1963,0715.1",
+      "observation": "Museum exhibition page gives approximately16kg and cuneiform, but explicitly Mesopotamia; a Harappan-themed exhibition category does not make the object Harappan.",
+      "status": "Rejected geographical/script mismatch; no separate image authentication in this task."
+    },
+    {
+      "url": "https://artsandculture.google.com/asset/weight-and-measurements/YwFUJIVmytM3hA",
+      "observation": "NationalMuseumNewDelhi collection description reports no inscription/value mark on the displayed Indus weights.",
+      "status": "Corroborating search lead only; core result rests on preserved primary sources."
+    }
+  ],
+  "next_discriminating_evidence": "An object-specific excavation/museum ID joined to calibrated mass, material, archaeological context and images of all faces showing demonstrably ancient marks. A short repeated stroke mark alone needs exclusion of catalogue numbering, damage and manufacture. Search should target a concrete published exception to the historical uninscribed-weight statement, not retune a mass unit until an unrelated sign fits.",
+  "limits": "Not exhaustive across all Indus excavations or modern collections. No semantic, phonetic, numerical-sign or commodity reading follows from these sources."
+}

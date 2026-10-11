@@ -1,0 +1,143 @@
+{
+  "review_date": "2026-09-25",
+  "reviewer_task": "/root/m294_completeness",
+  "scope": "Independent visual completeness review; no semantic assignment or corpus counts",
+  "page_pins": {
+    "cisi_photo": {
+      "pdf_page": 107,
+      "printed_page": 71
+    },
+    "cisi_metadata": {
+      "pdf_page": 404,
+      "printed_page": 368
+    },
+    "bulletin_figure3": {
+      "pdf_page": 15,
+      "printed_page": 9
+    }
+  },
+  "crop": {
+    "source": "results/primary_pages/m294-completeness-cisi-107.png",
+    "source_pixels": [
+      4127,
+      6000
+    ],
+    "fractional_box": [
+      0.545,
+      0.7,
+      0.965,
+      0.944
+    ],
+    "integer_box": [
+      2249,
+      4200,
+      3983,
+      5664
+    ],
+    "output": "results/primary_pages/m294-completeness-cisi-photo-crop.png",
+    "method": "Pillow Image.crop; round fractional coordinates times corresponding image dimension; no mirroring, sharpening or reconstruction"
+  },
+  "identity": {
+    "cisi": "M-294",
+    "finnish_catalogue": "1376",
+    "excavation": "HR 4212e",
+    "museum": "ASI 63.10.378",
+    "photograph": "HU 448",
+    "finnish_id_is_not_asserted_mahadevan_text_id": true
+  },
+  "secondary_rows": [
+    {
+      "id": "2441.1",
+      "cisi": "M-1912",
+      "excavation-idno": "HR 1965365",
+      "preservation": "complete",
+      "condition": "Fair",
+      "complete": "Y",
+      "dir.": "R/L",
+      "text": "+520-220-003+"
+    },
+    {
+      "id": "2814.1",
+      "cisi": "M-294",
+      "excavation-idno": "HR 4212E376",
+      "preservation": "fragment",
+      "condition": "Poor",
+      "complete": "Y",
+      "dir.": "R/L",
+      "text": "+740-220-003+"
+    }
+  ],
+  "observations": [
+    {
+      "id": "O1",
+      "evidence": "CISI printed71 M-294 A/a",
+      "statement": "Original seal and impression are mirrored. The visibly damaged/clipped side is image-right in A and image-left in a. This lies beside the jar-like terminal form, not beside the three short strokes."
+    },
+    {
+      "id": "O2",
+      "evidence": "CISI printed71 M-294 A/a",
+      "statement": "Three short strokes, a fish-like central form and jar-like form are visible. No additional partly cut glyph is securely identifiable in this scan. This does not prove the missing portion lacked inscription."
+    },
+    {
+      "id": "O3",
+      "evidence": "CISI printed71 M-294 A/a",
+      "statement": "There is surviving surface between the jar-like form and the damaged edge, making a complete short inscription plausible. The scan does not preserve the original outer margin across the clipped side and does not measure the width of lost material."
+    },
+    {
+      "id": "O4",
+      "evidence": "Bulletin printed9 Figure3a",
+      "statement": "Representative drawing includes a dashed reconstructed outer boundary and restored animal parts beyond the fracture. These additions are a reconstruction, not an independent photograph of the lost portion."
+    },
+    {
+      "id": "O5",
+      "evidence": "Bulletin printed9 Figure3b/c",
+      "statement": "M-1912 is drawn with a pointed terminal form rather than the jar-like M-294 form. Figure3c gives M-294, M-1439, M-1441, M-1442, M-1443 and H-669 as related examples; these are selected structural analogies, not proof of M-294 original blank margin."
+    }
+  ],
+  "logical_result": {
+    "plausible": "A three-sign complete short message, as represented in the secondary transcription.",
+    "not_established": "Whether any further signs, or other inscribed material, originally occupied the clipped portion.",
+    "no_positive_lost_sign_claim": true,
+    "terminal_assumption": "Even accepting a phrase-ending function does not establish that no other phrase or material followed on a lost margin. The functional label is itself a hypothesis.",
+    "orientation_caution": "Under normalized RTL the damage is on the reading-end side. Corpus prefix extensions alone are not a direct geometrical model of the observed loss. File-left extensions in the parent audit concern the relevant reading-suffix side, contingent on reported direction."
+  },
+  "semantic_value": null,
+  "phonetic_value": null,
+  "evidence_files": [
+    {
+      "path": "data/raw/cisi_76884.pdf",
+      "bytes": 31508998,
+      "sha256": "47a4da4227cfb7baa56d6a561e25797225499d0ec54f5a702a82c67ab4746d4d"
+    },
+    {
+      "path": "data/raw/irc_2025_fish_bulletin.pdf",
+      "bytes": 10858996,
+      "sha256": "af5f67d803a4c8bdda75c27bf113fd67f32cf2a88a680fc5530e3aa334e86a87"
+    },
+    {
+      "path": "data/raw/lipi_inscriptions.csv",
+      "bytes": 1204921,
+      "sha256": "b8dcb325a2e2cd3cde12ac12e7a418b0348e45713c9ee28aad81b645d2ac5ee4"
+    },
+    {
+      "path": "results/primary_pages/m294-cisi-404.png",
+      "bytes": 2495298,
+      "sha256": "24e78611862871f02346b3fe0b3fe3bb3baf724d0ab40bce71cd566d92786a2f"
+    },
+    {
+      "path": "results/primary_pages/m294-completeness-cisi-107.png",
+      "bytes": 1128643,
+      "sha256": "6d3b880b93849586e58fdd275873a9e36ea4dbd8dedcfc0e9d8e9cd7edcb857b"
+    },
+    {
+      "path": "results/primary_pages/m294-completeness-cisi-photo-crop.png",
+      "bytes": 152802,
+      "sha256": "5dce22ecafdb7ee2b41d34d62d01ef8d6086779bbe7bca76877c31bfbf1a3313"
+    },
+    {
+      "path": "results/primary_pages/m294-completeness-bulletin-15.png",
+      "bytes": 1692600,
+      "sha256": "9e391c88088b95db204228faf734c04e33074e57ea1ee1a69fdb3e182ddb6798"
+    }
+  ]
+}

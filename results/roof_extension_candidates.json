@@ -1,0 +1,2162 @@
+{
+  "schema_version": 1,
+  "scope": "Bounded source enumeration for integration; no inferred W-to-M joins or new attestations.",
+  "selection": {
+    "raw_W_targets": [
+      "W678",
+      "W391",
+      "W731",
+      "W044"
+    ],
+    "supplement": "W729 on source CISI label M-354 only",
+    "native_M_endpoints": [
+      "M138",
+      "M163",
+      "M334",
+      "M092"
+    ],
+    "raw_selection_column": "text",
+    "raw_supplement_label_column": "cisi",
+    "translation_columns_used": false,
+    "excluded_raw_columns": [
+      "notes",
+      "sanskrit",
+      "translation"
+    ],
+    "retained_raw_columns": [
+      "id",
+      "cisi",
+      "region",
+      "site",
+      "area-section",
+      "block-house",
+      "room-grid",
+      "excavation-idno",
+      "time",
+      "period",
+      "phase",
+      "depth",
+      "boss",
+      "material",
+      "color",
+      "shape",
+      "cross-section",
+      "preservation",
+      "symbol",
+      "cult",
+      "type",
+      "sides",
+      "condition",
+      "complete",
+      "dir.",
+      "class",
+      "text length",
+      "signs",
+      "h",
+      "v",
+      "th",
+      "horizontal(mm)",
+      "vertical(mm)",
+      "thickness(mm)",
+      "text"
+    ]
+  },
+  "raw_W_rows": [
+    {
+      "csv_row_number_including_header": 283,
+      "raw": {
+        "id": "255.2",
+        "cisi": "H-1319",
+        "region": "Inter-Riverine",
+        "site": "Harappa",
+        "area-section": "AB-",
+        "block-house": "--",
+        "room-grid": "-R24/7",
+        "excavation-idno": "1722407",
+        "time": "Period 3B/C",
+        "period": "-",
+        "phase": "Stratum VI",
+        "depth": "-15.5 ft",
+        "boss": "-",
+        "material": "Steatite",
+        "color": "White",
+        "shape": "notched oval",
+        "cross-section": "rectangular",
+        "preservation": "complete",
+        "symbol": "None",
+        "cult": "None",
+        "type": "TAB:I",
+        "sides": "2",
+        "condition": "Fair",
+        "complete": "Y",
+        "dir.": "R/L",
+        "class": "SC",
+        "text length": "2",
+        "signs": "2",
+        "h": "0.7",
+        "v": "0.35",
+        "th": "",
+        "horizontal(mm)": "17.8",
+        "vertical(mm)": "8.9",
+        "thickness(mm)": "0",
+        "text": "+400-678+"
+      },
+      "queried_code_hits": [
+        {
+          "code": "W678",
+          "raw_digits": "678",
+          "text_character_span_zero_based": [
+            5,
+            8
+          ]
+        }
+      ],
+      "scope": "Raw source row; no physical identity, token equivalence or completeness adjudication"
+    },
+    {
+      "csv_row_number_including_header": 2644,
+      "raw": {
+        "id": "1903.1",
+        "cisi": "K-29",
+        "region": "Inter-Riverine",
+        "site": "Kalibangan",
+        "area-section": "KLB-2-",
+        "block-house": "--",
+        "room-grid": "--",
+        "excavation-idno": "KLB2 8219",
+        "time": "-",
+        "period": "2",
+        "phase": "Late",
+        "depth": "- -",
+        "boss": "-",
+        "material": "Steatite",
+        "color": "White",
+        "shape": "square",
+        "cross-section": "rectangular",
+        "preservation": "fragment",
+        "symbol": "-",
+        "cult": "Trough",
+        "type": "SEAL:S",
+        "sides": "1",
+        "condition": "Poor",
+        "complete": "N",
+        "dir.": "-",
+        "class": "??",
+        "text length": "2+?",
+        "signs": "1",
+        "h": "",
+        "v": "",
+        "th": "",
+        "horizontal(mm)": "0",
+        "vertical(mm)": "27",
+        "thickness(mm)": "7.5",
+        "text": "]000-044+"
+      },
+      "queried_code_hits": [
+        {
+          "code": "W044",
+          "raw_digits": "044",
+          "text_character_span_zero_based": [
+            5,
+            8
+          ]
+        }
+      ],
+      "scope": "Raw source row; no physical identity, token equivalence or completeness adjudication"
+    },
+    {
+      "csv_row_number_including_header": 2652,
+      "raw": {
+        "id": "1911.1",
+        "cisi": "K-45",
+        "region": "Inter-Riverine",
+        "site": "Kalibangan",
+        "area-section": "KLB-1-",
+        "block-house": "--",
+        "room-grid": "ZB9-",
+        "excavation-idno": "KLB1 19360",
+        "time": "Period 3C",
+        "period": "2",
+        "phase": "Late",
+        "depth": "- -",
+        "boss": "PB",
+        "material": "Steatite",
+        "color": "White",
+        "shape": "square",
+        "cross-section": "rectangular",
+        "preservation": "fragment",
+        "symbol": "-",
+        "cult": "-",
+        "type": "SEAL:S",
+        "sides": "1",
+        "condition": "Poor",
+        "complete": "Y",
+        "dir.": "-",
+        "class": "SC",
+        "text length": "4",
+        "signs": "4",
+        "h": "",
+        "v": "15+?",
+        "th": "",
+        "horizontal(mm)": "22",
+        "vertical(mm)": "0",
+        "thickness(mm)": "6",
+        "text": "+391-741-442-279+"
+      },
+      "queried_code_hits": [
+        {
+          "code": "W391",
+          "raw_digits": "391",
+          "text_character_span_zero_based": [
+            1,
+            4
+          ]
+        }
+      ],
+      "scope": "Raw source row; no physical identity, token equivalence or completeness adjudication"
+    },
+    {
+      "csv_row_number_including_header": 3005,
+      "raw": {
+        "id": "2221.1",
+        "cisi": "M-1892",
+        "region": "Lower Indus",
+        "site": "Mohenjo-daro",
+        "area-section": "DKG. (N)",
+        "block-house": "26I",
+        "room-grid": "5-",
+        "excavation-idno": "DK10551119",
+        "time": "Period 3C-4",
+        "period": "Late",
+        "phase": "II",
+        "depth": "-6.7 ft",
+        "boss": "-",
+        "material": "Steatite",
+        "color": "-",
+        "shape": "-",
+        "cross-section": "-",
+        "preservation": "fragment",
+        "symbol": "Zebu",
+        "cult": "-",
+        "type": "SEAL:S",
+        "sides": "1",
+        "condition": "Poor",
+        "complete": "Y",
+        "dir.": "R/L",
+        "class": "2L",
+        "text length": "9",
+        "signs": "9",
+        "h": "1.6",
+        "v": "",
+        "th": "0.35",
+        "horizontal(mm)": "40.6",
+        "vertical(mm)": "0",
+        "thickness(mm)": "8.9",
+        "text": "+368-501-706/821-001-480-850-595-391+"
+      },
+      "queried_code_hits": [
+        {
+          "code": "W391",
+          "raw_digits": "391",
+          "text_character_span_zero_based": [
+            33,
+            36
+          ]
+        }
+      ],
+      "scope": "Raw source row; no physical identity, token equivalence or completeness adjudication"
+    },
+    {
+      "csv_row_number_including_header": 3152,
+      "raw": {
+        "id": "2362.1",
+        "cisi": "M-2121",
+        "region": "Lower Indus",
+        "site": "Mohenjo-daro",
+        "area-section": "DKG. (S)",
+        "block-house": "12AI",
+        "room-grid": "15-",
+        "excavation-idno": "DK7535CXXVI:5",
+        "time": "Period 3B-2",
+        "period": "Early",
+        "phase": "I",
+        "depth": "-24.4 ft",
+        "boss": "-",
+        "material": "Copper",
+        "color": "-",
+        "shape": "-",
+        "cross-section": "-",
+        "preservation": "complete",
+        "symbol": "None",
+        "cult": "None",
+        "type": "IMPL",
+        "sides": "2",
+        "condition": "Fair",
+        "complete": "Y",
+        "dir.": "R/L",
+        "class": "LC",
+        "text length": "6",
+        "signs": "6",
+        "h": "4.31",
+        "v": "11.15",
+        "th": "0.47",
+        "horizontal(mm)": "109.5",
+        "vertical(mm)": "283.2",
+        "thickness(mm)": "11.9",
+        "text": "+821-001-480-850-595-391+"
+      },
+      "queried_code_hits": [
+        {
+          "code": "W391",
+          "raw_digits": "391",
+          "text_character_span_zero_based": [
+            21,
+            24
+          ]
+        }
+      ],
+      "scope": "Raw source row; no physical identity, token equivalence or completeness adjudication"
+    },
+    {
+      "csv_row_number_including_header": 3160,
+      "raw": {
+        "id": "2368.1",
+        "cisi": "-",
+        "region": "Lower Indus",
+        "site": "Mohenjo-daro",
+        "area-section": "DKG. (S)",
+        "block-house": "12AI",
+        "room-grid": "15-",
+        "excavation-idno": "DK7854CXXXI:37",
+        "time": "Period 3B-2",
+        "period": "Early",
+        "phase": "I",
+        "depth": "-24.4 ft",
+        "boss": "-",
+        "material": "Copper",
+        "color": "-",
+        "shape": "-",
+        "cross-section": "-",
+        "preservation": "complete",
+        "symbol": "None",
+        "cult": "None",
+        "type": "IMPL",
+        "sides": "1",
+        "condition": "Fair",
+        "complete": "Y",
+        "dir.": "R/L",
+        "class": "LC",
+        "text length": "6",
+        "signs": "6",
+        "h": "4.17",
+        "v": "9.35",
+        "th": "0.4",
+        "horizontal(mm)": "105.9",
+        "vertical(mm)": "237.5",
+        "thickness(mm)": "10.2",
+        "text": "+821-001-480-850-595-391+"
+      },
+      "queried_code_hits": [
+        {
+          "code": "W391",
+          "raw_digits": "391",
+          "text_character_span_zero_based": [
+            21,
+            24
+          ]
+        }
+      ],
+      "scope": "Raw source row; no physical identity, token equivalence or completeness adjudication"
+    },
+    {
+      "csv_row_number_including_header": 3162,
+      "raw": {
+        "id": "2370.1",
+        "cisi": "M-2118",
+        "region": "Lower Indus",
+        "site": "Mohenjo-daro",
+        "area-section": "DKG. (S)",
+        "block-house": "12AI",
+        "room-grid": "15-",
+        "excavation-idno": "DK7856CXXVI:2",
+        "time": "Period 3B-2",
+        "period": "Early",
+        "phase": "I",
+        "depth": "-24.4 ft",
+        "boss": "-",
+        "material": "Copper",
+        "color": "-",
+        "shape": "-",
+        "cross-section": "-",
+        "preservation": "complete",
+        "symbol": "None",
+        "cult": "None",
+        "type": "IMPL",
+        "sides": "2",
+        "condition": "Fair",
+        "complete": "Y",
+        "dir.": "T/B",
+        "class": "LC",
+        "text length": "6",
+        "signs": "6",
+        "h": "0.91",
+        "v": "5.22",
+        "th": "0.3",
+        "horizontal(mm)": "23.1",
+        "vertical(mm)": "132.6",
+        "thickness(mm)": "7.6",
+        "text": "+821-001-480-850-595-391+"
+      },
+      "queried_code_hits": [
+        {
+          "code": "W391",
+          "raw_digits": "391",
+          "text_character_span_zero_based": [
+            21,
+            24
+          ]
+        }
+      ],
+      "scope": "Raw source row; no physical identity, token equivalence or completeness adjudication"
+    },
+    {
+      "csv_row_number_including_header": 3369,
+      "raw": {
+        "id": "2568.1",
+        "cisi": "M-40",
+        "region": "Lower Indus",
+        "site": "Mohenjo-daro",
+        "area-section": "HRB",
+        "block-house": "2XI",
+        "room-grid": "117-",
+        "excavation-idno": "HR 4945051",
+        "time": "-",
+        "period": "-",
+        "phase": "-",
+        "depth": "-6.0 ft",
+        "boss": "PB",
+        "material": "Steatite",
+        "color": "White",
+        "shape": "square",
+        "cross-section": "-",
+        "preservation": "complete",
+        "symbol": "Bull1:J",
+        "cult": "SAN",
+        "type": "SEAL:S",
+        "sides": "1",
+        "condition": "Fair",
+        "complete": "Y",
+        "dir.": "R/L",
+        "class": "SC",
+        "text length": "5",
+        "signs": "5",
+        "h": "1.35",
+        "v": "1.35",
+        "th": "",
+        "horizontal(mm)": "34.3",
+        "vertical(mm)": "34.3",
+        "thickness(mm)": "0",
+        "text": "+391-002-527-475-005+"
+      },
+      "queried_code_hits": [
+        {
+          "code": "W391",
+          "raw_digits": "391",
+          "text_character_span_zero_based": [
+            1,
+            4
+          ]
+        }
+      ],
+      "scope": "Raw source row; no physical identity, token equivalence or completeness adjudication"
+    },
+    {
+      "csv_row_number_including_header": 4079,
+      "raw": {
+        "id": "3223.1",
+        "cisi": "M-810",
+        "region": "Lower Indus",
+        "site": "Mohenjo-daro",
+        "area-section": "DKG. (S)",
+        "block-house": "Fore Lane1(V)/10",
+        "room-grid": "--",
+        "excavation-idno": "DK5890364",
+        "time": "Period 3C-2",
+        "period": "Intermediate",
+        "phase": "I",
+        "depth": "-11.7 ft",
+        "boss": "PB",
+        "material": "Steatite",
+        "color": "-",
+        "shape": "square",
+        "cross-section": "-",
+        "preservation": "slightly chipped",
+        "symbol": "Bull1:J",
+        "cult": "SAN",
+        "type": "SEAL:S",
+        "sides": "1",
+        "condition": "Good",
+        "complete": "Y",
+        "dir.": "R/L",
+        "class": "SS",
+        "text length": "2",
+        "signs": "2",
+        "h": "1.02",
+        "v": "1.02",
+        "th": "0.26",
+        "horizontal(mm)": "25.9",
+        "vertical(mm)": "25.9",
+        "thickness(mm)": "6.6",
+        "text": "+740-731+"
+      },
+      "queried_code_hits": [
+        {
+          "code": "W731",
+          "raw_digits": "731",
+          "text_character_span_zero_based": [
+            5,
+            8
+          ]
+        }
+      ],
+      "scope": "Raw source row; no physical identity, token equivalence or completeness adjudication"
+    },
+    {
+      "csv_row_number_including_header": 4254,
+      "raw": {
+        "id": "3399.1",
+        "cisi": "M-1014",
+        "region": "Lower Indus",
+        "site": "Mohenjo-daro",
+        "area-section": "VSA",
+        "block-house": "4XXVII",
+        "room-grid": "court30AA/17",
+        "excavation-idno": "VS 3227397",
+        "time": "-",
+        "period": "-",
+        "phase": "-",
+        "depth": "-12.0 ft",
+        "boss": "PB",
+        "material": "Steatite",
+        "color": "White",
+        "shape": "square",
+        "cross-section": "-",
+        "preservation": "fragment",
+        "symbol": "None",
+        "cult": "None",
+        "type": "SEAL:S",
+        "sides": "1",
+        "condition": "Poor",
+        "complete": "?",
+        "dir.": "R/L",
+        "class": "UC",
+        "text length": "5+?",
+        "signs": "5",
+        "h": "",
+        "v": "",
+        "th": "",
+        "horizontal(mm)": "0",
+        "vertical(mm)": "0",
+        "thickness(mm)": "0",
+        "text": "+842-391-297-705-717["
+      },
+      "queried_code_hits": [
+        {
+          "code": "W391",
+          "raw_digits": "391",
+          "text_character_span_zero_based": [
+            5,
+            8
+          ]
+        }
+      ],
+      "scope": "Raw source row; no physical identity, token equivalence or completeness adjudication"
+    },
+    {
+      "csv_row_number_including_header": 4548,
+      "raw": {
+        "id": "3680.1",
+        "cisi": "M-1384",
+        "region": "Lower Indus",
+        "site": "Mohenjo-daro",
+        "area-section": "--",
+        "block-house": "--",
+        "room-grid": "--",
+        "excavation-idno": "-",
+        "time": "-",
+        "period": "-",
+        "phase": "-",
+        "depth": "- -",
+        "boss": "-",
+        "material": "Clay",
+        "color": "-",
+        "shape": "-",
+        "cross-section": "-",
+        "preservation": "complete",
+        "symbol": "None",
+        "cult": "None",
+        "type": "TAG:L",
+        "sides": "1",
+        "condition": "Poor",
+        "complete": "Y",
+        "dir.": "R/L",
+        "class": "LC",
+        "text length": "8",
+        "signs": "8",
+        "h": "",
+        "v": "",
+        "th": "",
+        "horizontal(mm)": "0",
+        "vertical(mm)": "0",
+        "thickness(mm)": "0",
+        "text": "+904-004-821-001-480-850-595-391+"
+      },
+      "queried_code_hits": [
+        {
+          "code": "W391",
+          "raw_digits": "391",
+          "text_character_span_zero_based": [
+            29,
+            32
+          ]
+        }
+      ],
+      "scope": "Raw source row; no physical identity, token equivalence or completeness adjudication"
+    },
+    {
+      "csv_row_number_including_header": 5016,
+      "raw": {
+        "id": "4072.1",
+        "cisi": "H-1320",
+        "region": "Inter-Riverine",
+        "site": "Harappa",
+        "area-section": "F-",
+        "block-house": "--",
+        "room-grid": "--",
+        "excavation-idno": "3027558",
+        "time": "Period 3B/C",
+        "period": "-",
+        "phase": "-",
+        "depth": "-12 ft",
+        "boss": "-",
+        "material": "-",
+        "color": "White",
+        "shape": "notched oval",
+        "cross-section": "rectangular",
+        "preservation": "complete",
+        "symbol": "None",
+        "cult": "None",
+        "type": "TAB:I",
+        "sides": "2",
+        "condition": "Poor",
+        "complete": "Y",
+        "dir.": "R/L",
+        "class": "SC",
+        "text length": "2",
+        "signs": "2",
+        "h": "",
+        "v": "",
+        "th": "",
+        "horizontal(mm)": "17",
+        "vertical(mm)": "10",
+        "thickness(mm)": "0",
+        "text": "+400-678+"
+      },
+      "queried_code_hits": [
+        {
+          "code": "W678",
+          "raw_digits": "678",
+          "text_character_span_zero_based": [
+            5,
+            8
+          ]
+        }
+      ],
+      "scope": "Raw source row; no physical identity, token equivalence or completeness adjudication"
+    },
+    {
+      "csv_row_number_including_header": 5153,
+      "raw": {
+        "id": "4196.1",
+        "cisi": "-",
+        "region": "Gujarat/Kutch",
+        "site": "Dholavira",
+        "area-section": "--",
+        "block-house": "25 x 10 x 4-",
+        "room-grid": "--",
+        "excavation-idno": "DHR-24475",
+        "time": "-",
+        "period": "-",
+        "phase": "-",
+        "depth": "- -",
+        "boss": "PBSG",
+        "material": "Steatite",
+        "color": "-",
+        "shape": "square",
+        "cross-section": "-",
+        "preservation": "complete",
+        "symbol": "Bull1:J",
+        "cult": "SAN",
+        "type": "SEAL:S",
+        "sides": "1",
+        "condition": "Poor",
+        "complete": "Y",
+        "dir.": "R/L",
+        "class": "SC",
+        "text length": "4",
+        "signs": "4",
+        "h": "",
+        "v": "",
+        "th": "",
+        "horizontal(mm)": "25",
+        "vertical(mm)": "25",
+        "thickness(mm)": "0 - 12",
+        "text": "+391-002-365-550+"
+      },
+      "queried_code_hits": [
+        {
+          "code": "W391",
+          "raw_digits": "391",
+          "text_character_span_zero_based": [
+            1,
+            4
+          ]
+        }
+      ],
+      "scope": "Raw source row; no physical identity, token equivalence or completeness adjudication"
+    },
+    {
+      "csv_row_number_including_header": 5395,
+      "raw": {
+        "id": "5249.1",
+        "cisi": "-",
+        "region": "Lower Indus",
+        "site": "Lakhanjo-daro",
+        "area-section": "--",
+        "block-house": "--",
+        "room-grid": "--",
+        "excavation-idno": "LJD2k10:Tr. 31(1) 27",
+        "time": "-",
+        "period": "-",
+        "phase": "-",
+        "depth": "- -",
+        "boss": "-",
+        "material": "Clay",
+        "color": "-",
+        "shape": "-",
+        "cross-section": "-",
+        "preservation": "fragment",
+        "symbol": "-",
+        "cult": "-",
+        "type": "POT:T:g",
+        "sides": "1",
+        "condition": "Poor",
+        "complete": "?",
+        "dir.": "-",
+        "class": "UC",
+        "text length": "1+?",
+        "signs": "1",
+        "h": "",
+        "v": "",
+        "th": "",
+        "horizontal(mm)": "0",
+        "vertical(mm)": "0",
+        "thickness(mm)": "0",
+        "text": "]678+"
+      },
+      "queried_code_hits": [
+        {
+          "code": "W678",
+          "raw_digits": "678",
+          "text_character_span_zero_based": [
+            1,
+            4
+          ]
+        }
+      ],
+      "scope": "Raw source row; no physical identity, token equivalence or completeness adjudication"
+    },
+    {
+      "csv_row_number_including_header": 5490,
+      "raw": {
+        "id": "5355.1",
+        "cisi": "Ns-53",
+        "region": "Lower Indus",
+        "site": "Nausharo",
+        "area-section": "--",
+        "block-house": "--",
+        "room-grid": "--",
+        "excavation-idno": "NS 91.02.17.01",
+        "time": "-",
+        "period": "3",
+        "phase": "-",
+        "depth": "- -",
+        "boss": "-",
+        "material": "Steatite",
+        "color": "White",
+        "shape": "square",
+        "cross-section": "-",
+        "preservation": "complete",
+        "symbol": "Bull1:I",
+        "cult": "HAN",
+        "type": "SEAL:S",
+        "sides": "1",
+        "condition": "Poor",
+        "complete": "Y",
+        "dir.": "R/L",
+        "class": "IC",
+        "text length": "5",
+        "signs": "5",
+        "h": "",
+        "v": "",
+        "th": "",
+        "horizontal(mm)": "32",
+        "vertical(mm)": "32",
+        "thickness(mm)": "8",
+        "text": "+861-111-391-060-692+"
+      },
+      "queried_code_hits": [
+        {
+          "code": "W391",
+          "raw_digits": "391",
+          "text_character_span_zero_based": [
+            9,
+            12
+          ]
+        }
+      ],
+      "scope": "Raw source row; no physical identity, token equivalence or completeness adjudication"
+    }
+  ],
+  "raw_W_row_ids_by_target": {
+    "W678": [
+      "255.2",
+      "4072.1",
+      "5249.1"
+    ],
+    "W391": [
+      "1911.1",
+      "2221.1",
+      "2362.1",
+      "2368.1",
+      "2370.1",
+      "2568.1",
+      "3399.1",
+      "3680.1",
+      "4196.1",
+      "5355.1"
+    ],
+    "W731": [
+      "3223.1"
+    ],
+    "W044": [
+      "1903.1"
+    ]
+  },
+  "supplemental_W729_M354_rows": [
+    {
+      "csv_row_number_including_header": 3663,
+      "raw": {
+        "id": "2850.1",
+        "cisi": "M-354",
+        "region": "Lower Indus",
+        "site": "Mohenjo-daro",
+        "area-section": "DKD",
+        "block-house": "Trench D-",
+        "room-grid": "--",
+        "excavation-idno": "D262403",
+        "time": "-",
+        "period": "-",
+        "phase": "-",
+        "depth": "- -",
+        "boss": "PN",
+        "material": "Steatite",
+        "color": "White",
+        "shape": "cuboid-convex",
+        "cross-section": "plano-convex",
+        "preservation": "complete",
+        "symbol": "None",
+        "cult": "None",
+        "type": "SEAL:R",
+        "sides": "1",
+        "condition": "Fine",
+        "complete": "Y",
+        "dir.": "R/L",
+        "class": "LP",
+        "text length": "8",
+        "signs": "8",
+        "h": "2.25",
+        "v": "0.6",
+        "th": "",
+        "horizontal(mm)": "57.2",
+        "vertical(mm)": "15.2",
+        "thickness(mm)": "5 - 9",
+        "text": "+740-729-407-845-236-002-906-125+"
+      },
+      "queried_code_hits": [
+        {
+          "code": "W729",
+          "raw_digits": "729",
+          "text_character_span_zero_based": [
+            5,
+            8
+          ]
+        }
+      ],
+      "scope": "Raw source row; no physical identity, token equivalence or completeness adjudication"
+    }
+  ],
+  "native_endpoint_records": [
+    {
+      "native_record": {
+        "id": "GLI-IND-M77-01051",
+        "source_reference": "1051",
+        "namespace": "Mahadevan1977",
+        "diplomatic": "+106-178-254-099-163+",
+        "tokens": [
+          {
+            "raw": "106",
+            "sign": "M106",
+            "doubtful": false,
+            "unknown_span": false,
+            "diplomatic": "106"
+          },
+          {
+            "raw": "178",
+            "sign": "M178",
+            "doubtful": false,
+            "unknown_span": false,
+            "diplomatic": "178"
+          },
+          {
+            "raw": "254",
+            "sign": "M254",
+            "doubtful": false,
+            "unknown_span": false,
+            "diplomatic": "254"
+          },
+          {
+            "raw": "99",
+            "sign": "M099",
+            "doubtful": false,
+            "unknown_span": false,
+            "diplomatic": "099"
+          },
+          {
+            "raw": "163",
+            "sign": "M163",
+            "doubtful": false,
+            "unknown_span": false,
+            "diplomatic": "163"
+          }
+        ],
+        "source_doc_count": 1,
+        "source_direction_code": "1",
+        "primary_direction_definition": "right to left",
+        "source_object_code": "1",
+        "primary_object_definition": "seal",
+        "upstream_artifact_type": "seal",
+        "site_label_unverified": "Mohenjo-daro",
+        "source_extra": {
+          "textnum": 1051,
+          "doc_count": 1,
+          "fs80": 13,
+          "level": "-6"
+        },
+        "source_citation": {
+          "primary_sources": [
+            "I.6",
+            "A.1"
+          ],
+          "derivation": "IM77 text 1051 from indusscript.in Firestore (RMRL, 2021). Original: Mahadevan (1977) The Indus Script: Texts, Concordance and Tables."
+        },
+        "strict_candidate": true,
+        "exclusion_reasons": [],
+        "order": "preserved source array; agrees with reading printed normalized glyphs right to left in two checked examples",
+        "authentication": "secondary transcription, two selected complete lines checked; no population error rate or complete physical-object crosswalk"
+      },
+      "endpoint_hits": [
+        {
+          "code": "M163",
+          "token_index_zero_based": 4,
+          "doubtful": false,
+          "unknown_span": false
+        }
+      ],
+      "scope": "Existing native candidate record; source flags retained, not a new primary re-reading"
+    },
+    {
+      "native_record": {
+        "id": "GLI-IND-M77-01397",
+        "source_reference": "1397",
+        "namespace": "Mahadevan1977",
+        "diplomatic": "+000-*341-336-180-163-404+",
+        "tokens": [
+          {
+            "raw": "0",
+            "sign": null,
+            "doubtful": false,
+            "unknown_span": true,
+            "diplomatic": "000"
+          },
+          {
+            "raw": "*341",
+            "sign": "M341",
+            "doubtful": true,
+            "unknown_span": false,
+            "diplomatic": "*341"
+          },
+          {
+            "raw": "336",
+            "sign": "M336",
+            "doubtful": false,
+            "unknown_span": false,
+            "diplomatic": "336"
+          },
+          {
+            "raw": "180",
+            "sign": "M180",
+            "doubtful": false,
+            "unknown_span": false,
+            "diplomatic": "180"
+          },
+          {
+            "raw": "163",
+            "sign": "M163",
+            "doubtful": false,
+            "unknown_span": false,
+            "diplomatic": "163"
+          },
+          {
+            "raw": "404",
+            "sign": "M404",
+            "doubtful": false,
+            "unknown_span": false,
+            "diplomatic": "404"
+          }
+        ],
+        "source_doc_count": 1,
+        "source_direction_code": "1",
+        "primary_direction_definition": "right to left",
+        "source_object_code": "1",
+        "primary_object_definition": "seal",
+        "upstream_artifact_type": "seal",
+        "site_label_unverified": null,
+        "source_extra": {
+          "textnum": 1397,
+          "doc_count": 1,
+          "fs80": 0,
+          "level": "-12"
+        },
+        "source_citation": {
+          "primary_sources": [
+            "I.6",
+            "A.1"
+          ],
+          "derivation": "IM77 text 1397 from indusscript.in Firestore (RMRL, 2021). Original: Mahadevan (1977) The Indus Script: Texts, Concordance and Tables."
+        },
+        "strict_candidate": false,
+        "exclusion_reasons": [
+          "unknown_span_present",
+          "doubtful_reading_present"
+        ],
+        "order": "preserved source array; agrees with reading printed normalized glyphs right to left in two checked examples",
+        "authentication": "secondary transcription, two selected complete lines checked; no population error rate or complete physical-object crosswalk"
+      },
+      "endpoint_hits": [
+        {
+          "code": "M163",
+          "token_index_zero_based": 4,
+          "doubtful": false,
+          "unknown_span": false
+        }
+      ],
+      "scope": "Existing native candidate record; source flags retained, not a new primary re-reading"
+    },
+    {
+      "native_record": {
+        "id": "GLI-IND-M77-01403",
+        "source_reference": "1403",
+        "namespace": "Mahadevan1977",
+        "diplomatic": "+028-303-100-066-407-169-334-342+",
+        "tokens": [
+          {
+            "raw": "28",
+            "sign": "M028",
+            "doubtful": false,
+            "unknown_span": false,
+            "diplomatic": "028"
+          },
+          {
+            "raw": "303",
+            "sign": "M303",
+            "doubtful": false,
+            "unknown_span": false,
+            "diplomatic": "303"
+          },
+          {
+            "raw": "100",
+            "sign": "M100",
+            "doubtful": false,
+            "unknown_span": false,
+            "diplomatic": "100"
+          },
+          {
+            "raw": "66",
+            "sign": "M066",
+            "doubtful": false,
+            "unknown_span": false,
+            "diplomatic": "066"
+          },
+          {
+            "raw": "407",
+            "sign": "M407",
+            "doubtful": false,
+            "unknown_span": false,
+            "diplomatic": "407"
+          },
+          {
+            "raw": "169",
+            "sign": "M169",
+            "doubtful": false,
+            "unknown_span": false,
+            "diplomatic": "169"
+          },
+          {
+            "raw": "334",
+            "sign": "M334",
+            "doubtful": false,
+            "unknown_span": false,
+            "diplomatic": "334"
+          },
+          {
+            "raw": "342",
+            "sign": "M342",
+            "doubtful": false,
+            "unknown_span": false,
+            "diplomatic": "342"
+          }
+        ],
+        "source_doc_count": 1,
+        "source_direction_code": "1",
+        "primary_direction_definition": "right to left",
+        "source_object_code": "1",
+        "primary_object_definition": "seal",
+        "upstream_artifact_type": "seal",
+        "site_label_unverified": null,
+        "source_extra": {
+          "textnum": 1403,
+          "doc_count": 1,
+          "fs80": 0,
+          "level": "0"
+        },
+        "source_citation": {
+          "primary_sources": [
+            "I.6",
+            "A.1"
+          ],
+          "derivation": "IM77 text 1403 from indusscript.in Firestore (RMRL, 2021). Original: Mahadevan (1977) The Indus Script: Texts, Concordance and Tables."
+        },
+        "strict_candidate": true,
+        "exclusion_reasons": [],
+        "order": "preserved source array; agrees with reading printed normalized glyphs right to left in two checked examples",
+        "authentication": "secondary transcription, two selected complete lines checked; no population error rate or complete physical-object crosswalk"
+      },
+      "endpoint_hits": [
+        {
+          "code": "M334",
+          "token_index_zero_based": 6,
+          "doubtful": false,
+          "unknown_span": false
+        }
+      ],
+      "scope": "Existing native candidate record; source flags retained, not a new primary re-reading"
+    },
+    {
+      "native_record": {
+        "id": "GLI-IND-M77-02119",
+        "source_reference": "2119",
+        "namespace": "Mahadevan1977",
+        "diplomatic": "+163-252-261-134-098-391-391+",
+        "tokens": [
+          {
+            "raw": "163",
+            "sign": "M163",
+            "doubtful": false,
+            "unknown_span": false,
+            "diplomatic": "163"
+          },
+          {
+            "raw": "252",
+            "sign": "M252",
+            "doubtful": false,
+            "unknown_span": false,
+            "diplomatic": "252"
+          },
+          {
+            "raw": "261",
+            "sign": "M261",
+            "doubtful": false,
+            "unknown_span": false,
+            "diplomatic": "261"
+          },
+          {
+            "raw": "134",
+            "sign": "M134",
+            "doubtful": false,
+            "unknown_span": false,
+            "diplomatic": "134"
+          },
+          {
+            "raw": "98",
+            "sign": "M098",
+            "doubtful": false,
+            "unknown_span": false,
+            "diplomatic": "098"
+          },
+          {
+            "raw": "391",
+            "sign": "M391",
+            "doubtful": false,
+            "unknown_span": false,
+            "diplomatic": "391"
+          },
+          {
+            "raw": "391",
+            "sign": "M391",
+            "doubtful": false,
+            "unknown_span": false,
+            "diplomatic": "391"
+          }
+        ],
+        "source_doc_count": 2,
+        "source_direction_code": "1",
+        "primary_direction_definition": "right to left",
+        "source_object_code": "1",
+        "primary_object_definition": "seal",
+        "upstream_artifact_type": "seal",
+        "site_label_unverified": null,
+        "source_extra": {
+          "textnum": 2119,
+          "doc_count": 2,
+          "fs80": 31,
+          "level": "-7"
+        },
+        "source_citation": {
+          "primary_sources": [
+            "I.6",
+            "A.1"
+          ],
+          "derivation": "IM77 text 2119 from indusscript.in Firestore (RMRL, 2021). Original: Mahadevan (1977) The Indus Script: Texts, Concordance and Tables."
+        },
+        "strict_candidate": false,
+        "exclusion_reasons": [
+          "multiple_source_documents_line_recovery_unverified"
+        ],
+        "order": "preserved source array; agrees with reading printed normalized glyphs right to left in two checked examples",
+        "authentication": "secondary transcription, two selected complete lines checked; no population error rate or complete physical-object crosswalk"
+      },
+      "endpoint_hits": [
+        {
+          "code": "M163",
+          "token_index_zero_based": 0,
+          "doubtful": false,
+          "unknown_span": false
+        }
+      ],
+      "scope": "Existing native candidate record; source flags retained, not a new primary re-reading"
+    },
+    {
+      "native_record": {
+        "id": "GLI-IND-M77-02364",
+        "source_reference": "2364",
+        "namespace": "Mahadevan1977",
+        "diplomatic": "+334-342+",
+        "tokens": [
+          {
+            "raw": "334",
+            "sign": "M334",
+            "doubtful": false,
+            "unknown_span": false,
+            "diplomatic": "334"
+          },
+          {
+            "raw": "342",
+            "sign": "M342",
+            "doubtful": false,
+            "unknown_span": false,
+            "diplomatic": "342"
+          }
+        ],
+        "source_doc_count": 1,
+        "source_direction_code": "1",
+        "primary_direction_definition": "right to left",
+        "source_object_code": "1",
+        "primary_object_definition": "seal",
+        "upstream_artifact_type": "seal",
+        "site_label_unverified": "Mohenjo-daro",
+        "source_extra": {
+          "textnum": 2364,
+          "doc_count": 1,
+          "fs80": 13,
+          "level": "-12"
+        },
+        "source_citation": {
+          "primary_sources": [
+            "I.6",
+            "A.1"
+          ],
+          "derivation": "IM77 text 2364 from indusscript.in Firestore (RMRL, 2021). Original: Mahadevan (1977) The Indus Script: Texts, Concordance and Tables."
+        },
+        "strict_candidate": true,
+        "exclusion_reasons": [],
+        "order": "preserved source array; agrees with reading printed normalized glyphs right to left in two checked examples",
+        "authentication": "secondary transcription, two selected complete lines checked; no population error rate or complete physical-object crosswalk"
+      },
+      "endpoint_hits": [
+        {
+          "code": "M334",
+          "token_index_zero_based": 0,
+          "doubtful": false,
+          "unknown_span": false
+        }
+      ],
+      "scope": "Existing native candidate record; source flags retained, not a new primary re-reading"
+    },
+    {
+      "native_record": {
+        "id": "GLI-IND-M77-02431",
+        "source_reference": "2431",
+        "namespace": "Mahadevan1977",
+        "diplomatic": "+172-245-*334+",
+        "tokens": [
+          {
+            "raw": "172",
+            "sign": "M172",
+            "doubtful": false,
+            "unknown_span": false,
+            "diplomatic": "172"
+          },
+          {
+            "raw": "245",
+            "sign": "M245",
+            "doubtful": false,
+            "unknown_span": false,
+            "diplomatic": "245"
+          },
+          {
+            "raw": "*334",
+            "sign": "M334",
+            "doubtful": true,
+            "unknown_span": false,
+            "diplomatic": "*334"
+          }
+        ],
+        "source_doc_count": 2,
+        "source_direction_code": "1",
+        "primary_direction_definition": "right to left",
+        "source_object_code": "1",
+        "primary_object_definition": "seal",
+        "upstream_artifact_type": "seal",
+        "site_label_unverified": "Mohenjo-daro",
+        "source_extra": {
+          "textnum": 2431,
+          "doc_count": 2,
+          "fs80": 31,
+          "level": "-13"
+        },
+        "source_citation": {
+          "primary_sources": [
+            "I.6",
+            "A.1"
+          ],
+          "derivation": "IM77 text 2431 from indusscript.in Firestore (RMRL, 2021). Original: Mahadevan (1977) The Indus Script: Texts, Concordance and Tables."
+        },
+        "strict_candidate": false,
+        "exclusion_reasons": [
+          "multiple_source_documents_line_recovery_unverified",
+          "doubtful_reading_present"
+        ],
+        "order": "preserved source array; agrees with reading printed normalized glyphs right to left in two checked examples",
+        "authentication": "secondary transcription, two selected complete lines checked; no population error rate or complete physical-object crosswalk"
+      },
+      "endpoint_hits": [
+        {
+          "code": "M334",
+          "token_index_zero_based": 2,
+          "doubtful": true,
+          "unknown_span": false
+        }
+      ],
+      "scope": "Existing native candidate record; source flags retained, not a new primary re-reading"
+    },
+    {
+      "native_record": {
+        "id": "GLI-IND-M77-02700",
+        "source_reference": "2700",
+        "namespace": "Mahadevan1977",
+        "diplomatic": "+087-059-*072-334-*342+",
+        "tokens": [
+          {
+            "raw": "87",
+            "sign": "M087",
+            "doubtful": false,
+            "unknown_span": false,
+            "diplomatic": "087"
+          },
+          {
+            "raw": "59",
+            "sign": "M059",
+            "doubtful": false,
+            "unknown_span": false,
+            "diplomatic": "059"
+          },
+          {
+            "raw": "*072",
+            "sign": "M072",
+            "doubtful": true,
+            "unknown_span": false,
+            "diplomatic": "*072"
+          },
+          {
+            "raw": "334",
+            "sign": "M334",
+            "doubtful": false,
+            "unknown_span": false,
+            "diplomatic": "334"
+          },
+          {
+            "raw": "*342",
+            "sign": "M342",
+            "doubtful": true,
+            "unknown_span": false,
+            "diplomatic": "*342"
+          }
+        ],
+        "source_doc_count": 1,
+        "source_direction_code": "1",
+        "primary_direction_definition": "right to left",
+        "source_object_code": "1",
+        "primary_object_definition": "seal",
+        "upstream_artifact_type": "seal",
+        "site_label_unverified": null,
+        "source_extra": {
+          "textnum": 2700,
+          "doc_count": 1,
+          "fs80": 13,
+          "level": "-2"
+        },
+        "source_citation": {
+          "primary_sources": [
+            "I.6",
+            "A.1"
+          ],
+          "derivation": "IM77 text 2700 from indusscript.in Firestore (RMRL, 2021). Original: Mahadevan (1977) The Indus Script: Texts, Concordance and Tables."
+        },
+        "strict_candidate": false,
+        "exclusion_reasons": [
+          "doubtful_reading_present"
+        ],
+        "order": "preserved source array; agrees with reading printed normalized glyphs right to left in two checked examples",
+        "authentication": "secondary transcription, two selected complete lines checked; no population error rate or complete physical-object crosswalk"
+      },
+      "endpoint_hits": [
+        {
+          "code": "M334",
+          "token_index_zero_based": 3,
+          "doubtful": false,
+          "unknown_span": false
+        }
+      ],
+      "scope": "Existing native candidate record; source flags retained, not a new primary re-reading"
+    },
+    {
+      "native_record": {
+        "id": "GLI-IND-M77-02925",
+        "source_reference": "2925",
+        "namespace": "Mahadevan1977",
+        "diplomatic": "+163-252-261-134-*098-391-391+",
+        "tokens": [
+          {
+            "raw": "163",
+            "sign": "M163",
+            "doubtful": false,
+            "unknown_span": false,
+            "diplomatic": "163"
+          },
+          {
+            "raw": "252",
+            "sign": "M252",
+            "doubtful": false,
+            "unknown_span": false,
+            "diplomatic": "252"
+          },
+          {
+            "raw": "261",
+            "sign": "M261",
+            "doubtful": false,
+            "unknown_span": false,
+            "diplomatic": "261"
+          },
+          {
+            "raw": "134",
+            "sign": "M134",
+            "doubtful": false,
+            "unknown_span": false,
+            "diplomatic": "134"
+          },
+          {
+            "raw": "*098",
+            "sign": "M098",
+            "doubtful": true,
+            "unknown_span": false,
+            "diplomatic": "*098"
+          },
+          {
+            "raw": "391",
+            "sign": "M391",
+            "doubtful": false,
+            "unknown_span": false,
+            "diplomatic": "391"
+          },
+          {
+            "raw": "391",
+            "sign": "M391",
+            "doubtful": false,
+            "unknown_span": false,
+            "diplomatic": "391"
+          }
+        ],
+        "source_doc_count": 2,
+        "source_direction_code": "1",
+        "primary_direction_definition": "right to left",
+        "source_object_code": "6",
+        "primary_object_definition": "bronze implement",
+        "upstream_artifact_type": "seal",
+        "site_label_unverified": "Mohenjo-daro",
+        "source_extra": {
+          "textnum": 2925,
+          "doc_count": 2,
+          "fs80": 0,
+          "level": "-24"
+        },
+        "source_citation": {
+          "primary_sources": [
+            "I.6",
+            "A.1"
+          ],
+          "derivation": "IM77 text 2925 from indusscript.in Firestore (RMRL, 2021). Original: Mahadevan (1977) The Indus Script: Texts, Concordance and Tables."
+        },
+        "strict_candidate": false,
+        "exclusion_reasons": [
+          "multiple_source_documents_line_recovery_unverified",
+          "doubtful_reading_present"
+        ],
+        "order": "preserved source array; agrees with reading printed normalized glyphs right to left in two checked examples",
+        "authentication": "secondary transcription, two selected complete lines checked; no population error rate or complete physical-object crosswalk"
+      },
+      "endpoint_hits": [
+        {
+          "code": "M163",
+          "token_index_zero_based": 0,
+          "doubtful": false,
+          "unknown_span": false
+        }
+      ],
+      "scope": "Existing native candidate record; source flags retained, not a new primary re-reading"
+    },
+    {
+      "native_record": {
+        "id": "GLI-IND-M77-03319",
+        "source_reference": "3319",
+        "namespace": "Mahadevan1977",
+        "diplomatic": "+000-342-067-138+",
+        "tokens": [
+          {
+            "raw": "0",
+            "sign": null,
+            "doubtful": false,
+            "unknown_span": true,
+            "diplomatic": "000"
+          },
+          {
+            "raw": "342",
+            "sign": "M342",
+            "doubtful": false,
+            "unknown_span": false,
+            "diplomatic": "342"
+          },
+          {
+            "raw": "67",
+            "sign": "M067",
+            "doubtful": false,
+            "unknown_span": false,
+            "diplomatic": "067"
+          },
+          {
+            "raw": "138",
+            "sign": "M138",
+            "doubtful": false,
+            "unknown_span": false,
+            "diplomatic": "138"
+          }
+        ],
+        "source_doc_count": 2,
+        "source_direction_code": "1",
+        "primary_direction_definition": "right to left",
+        "source_object_code": "5",
+        "primary_object_definition": "copper tablet",
+        "upstream_artifact_type": "seal",
+        "site_label_unverified": null,
+        "source_extra": {
+          "textnum": 3319,
+          "doc_count": 2,
+          "fs80": 0,
+          "level": "0"
+        },
+        "source_citation": {
+          "primary_sources": [
+            "I.6",
+            "A.1"
+          ],
+          "derivation": "IM77 text 3319 from indusscript.in Firestore (RMRL, 2021). Original: Mahadevan (1977) The Indus Script: Texts, Concordance and Tables."
+        },
+        "strict_candidate": false,
+        "exclusion_reasons": [
+          "multiple_source_documents_line_recovery_unverified",
+          "unknown_span_present"
+        ],
+        "order": "preserved source array; agrees with reading printed normalized glyphs right to left in two checked examples",
+        "authentication": "secondary transcription, two selected complete lines checked; no population error rate or complete physical-object crosswalk"
+      },
+      "endpoint_hits": [
+        {
+          "code": "M138",
+          "token_index_zero_based": 3,
+          "doubtful": false,
+          "unknown_span": false
+        }
+      ],
+      "scope": "Existing native candidate record; source flags retained, not a new primary re-reading"
+    },
+    {
+      "native_record": {
+        "id": "GLI-IND-M77-03320",
+        "source_reference": "3320",
+        "namespace": "Mahadevan1977",
+        "diplomatic": "+201-099-048-342-067-138+",
+        "tokens": [
+          {
+            "raw": "201",
+            "sign": "M201",
+            "doubtful": false,
+            "unknown_span": false,
+            "diplomatic": "201"
+          },
+          {
+            "raw": "99",
+            "sign": "M099",
+            "doubtful": false,
+            "unknown_span": false,
+            "diplomatic": "099"
+          },
+          {
+            "raw": "48",
+            "sign": "M048",
+            "doubtful": false,
+            "unknown_span": false,
+            "diplomatic": "048"
+          },
+          {
+            "raw": "342",
+            "sign": "M342",
+            "doubtful": false,
+            "unknown_span": false,
+            "diplomatic": "342"
+          },
+          {
+            "raw": "67",
+            "sign": "M067",
+            "doubtful": false,
+            "unknown_span": false,
+            "diplomatic": "067"
+          },
+          {
+            "raw": "138",
+            "sign": "M138",
+            "doubtful": false,
+            "unknown_span": false,
+            "diplomatic": "138"
+          }
+        ],
+        "source_doc_count": 2,
+        "source_direction_code": "1",
+        "primary_direction_definition": "right to left",
+        "source_object_code": "5",
+        "primary_object_definition": "copper tablet",
+        "upstream_artifact_type": "seal",
+        "site_label_unverified": null,
+        "source_extra": {
+          "textnum": 3320,
+          "doc_count": 2,
+          "fs80": 0,
+          "level": "0"
+        },
+        "source_citation": {
+          "primary_sources": [
+            "I.6",
+            "A.1"
+          ],
+          "derivation": "IM77 text 3320 from indusscript.in Firestore (RMRL, 2021). Original: Mahadevan (1977) The Indus Script: Texts, Concordance and Tables."
+        },
+        "strict_candidate": false,
+        "exclusion_reasons": [
+          "multiple_source_documents_line_recovery_unverified"
+        ],
+        "order": "preserved source array; agrees with reading printed normalized glyphs right to left in two checked examples",
+        "authentication": "secondary transcription, two selected complete lines checked; no population error rate or complete physical-object crosswalk"
+      },
+      "endpoint_hits": [
+        {
+          "code": "M138",
+          "token_index_zero_based": 5,
+          "doubtful": false,
+          "unknown_span": false
+        }
+      ],
+      "scope": "Existing native candidate record; source flags retained, not a new primary re-reading"
+    },
+    {
+      "native_record": {
+        "id": "GLI-IND-M77-04407",
+        "source_reference": "4407",
+        "namespace": "Mahadevan1977",
+        "diplomatic": "+138-176+",
+        "tokens": [
+          {
+            "raw": "138",
+            "sign": "M138",
+            "doubtful": false,
+            "unknown_span": false,
+            "diplomatic": "138"
+          },
+          {
+            "raw": "176",
+            "sign": "M176",
+            "doubtful": false,
+            "unknown_span": false,
+            "diplomatic": "176"
+          }
+        ],
+        "source_doc_count": 2,
+        "source_direction_code": "1",
+        "primary_direction_definition": "right to left",
+        "source_object_code": "3",
+        "primary_object_definition": "miniature tablet",
+        "upstream_artifact_type": "seal",
+        "site_label_unverified": null,
+        "source_extra": {
+          "textnum": 4407,
+          "doc_count": 2,
+          "fs80": 910,
+          "level": "-16"
+        },
+        "source_citation": {
+          "primary_sources": [
+            "I.6",
+            "A.1"
+          ],
+          "derivation": "IM77 text 4407 from indusscript.in Firestore (RMRL, 2021). Original: Mahadevan (1977) The Indus Script: Texts, Concordance and Tables."
+        },
+        "strict_candidate": false,
+        "exclusion_reasons": [
+          "multiple_source_documents_line_recovery_unverified"
+        ],
+        "order": "preserved source array; agrees with reading printed normalized glyphs right to left in two checked examples",
+        "authentication": "secondary transcription, two selected complete lines checked; no population error rate or complete physical-object crosswalk"
+      },
+      "endpoint_hits": [
+        {
+          "code": "M138",
+          "token_index_zero_based": 0,
+          "doubtful": false,
+          "unknown_span": false
+        }
+      ],
+      "scope": "Existing native candidate record; source flags retained, not a new primary re-reading"
+    },
+    {
+      "native_record": {
+        "id": "GLI-IND-M77-05444",
+        "source_reference": "5444",
+        "namespace": "Mahadevan1977",
+        "diplomatic": "+138-176+",
+        "tokens": [
+          {
+            "raw": "138",
+            "sign": "M138",
+            "doubtful": false,
+            "unknown_span": false,
+            "diplomatic": "138"
+          },
+          {
+            "raw": "176",
+            "sign": "M176",
+            "doubtful": false,
+            "unknown_span": false,
+            "diplomatic": "176"
+          }
+        ],
+        "source_doc_count": 2,
+        "source_direction_code": "1",
+        "primary_direction_definition": "right to left",
+        "source_object_code": "3",
+        "primary_object_definition": "miniature tablet",
+        "upstream_artifact_type": "seal",
+        "site_label_unverified": null,
+        "source_extra": {
+          "textnum": 5444,
+          "doc_count": 2,
+          "fs80": 910,
+          "level": "0"
+        },
+        "source_citation": {
+          "primary_sources": [
+            "I.6",
+            "A.1"
+          ],
+          "derivation": "IM77 text 5444 from indusscript.in Firestore (RMRL, 2021). Original: Mahadevan (1977) The Indus Script: Texts, Concordance and Tables."
+        },
+        "strict_candidate": false,
+        "exclusion_reasons": [
+          "multiple_source_documents_line_recovery_unverified"
+        ],
+        "order": "preserved source array; agrees with reading printed normalized glyphs right to left in two checked examples",
+        "authentication": "secondary transcription, two selected complete lines checked; no population error rate or complete physical-object crosswalk"
+      },
+      "endpoint_hits": [
+        {
+          "code": "M138",
+          "token_index_zero_based": 0,
+          "doubtful": false,
+          "unknown_span": false
+        }
+      ],
+      "scope": "Existing native candidate record; source flags retained, not a new primary re-reading"
+    },
+    {
+      "native_record": {
+        "id": "GLI-IND-M77-08018",
+        "source_reference": "8018",
+        "namespace": "Mahadevan1977",
+        "diplomatic": "+092-099-000+",
+        "tokens": [
+          {
+            "raw": "92",
+            "sign": "M092",
+            "doubtful": false,
+            "unknown_span": false,
+            "diplomatic": "092"
+          },
+          {
+            "raw": "99",
+            "sign": "M099",
+            "doubtful": false,
+            "unknown_span": false,
+            "diplomatic": "099"
+          },
+          {
+            "raw": "0",
+            "sign": null,
+            "doubtful": false,
+            "unknown_span": true,
+            "diplomatic": "000"
+          }
+        ],
+        "source_doc_count": 1,
+        "source_direction_code": "1",
+        "primary_direction_definition": "right to left",
+        "source_object_code": "1",
+        "primary_object_definition": "seal",
+        "upstream_artifact_type": "seal",
+        "site_label_unverified": null,
+        "source_extra": {
+          "textnum": 8018,
+          "doc_count": 1,
+          "fs80": 999,
+          "level": "0"
+        },
+        "source_citation": {
+          "primary_sources": [
+            "I.6",
+            "A.1"
+          ],
+          "derivation": "IM77 text 8018 from indusscript.in Firestore (RMRL, 2021). Original: Mahadevan (1977) The Indus Script: Texts, Concordance and Tables."
+        },
+        "strict_candidate": false,
+        "exclusion_reasons": [
+          "unknown_span_present"
+        ],
+        "order": "preserved source array; agrees with reading printed normalized glyphs right to left in two checked examples",
+        "authentication": "secondary transcription, two selected complete lines checked; no population error rate or complete physical-object crosswalk"
+      },
+      "endpoint_hits": [
+        {
+          "code": "M092",
+          "token_index_zero_based": 0,
+          "doubtful": false,
+          "unknown_span": false
+        }
+      ],
+      "scope": "Existing native candidate record; source flags retained, not a new primary re-reading"
+    },
+    {
+      "native_record": {
+        "id": "GLI-IND-M77-08054",
+        "source_reference": "8054",
+        "namespace": "Mahadevan1977",
+        "diplomatic": "+084-127-343-163+",
+        "tokens": [
+          {
+            "raw": "84",
+            "sign": "M084",
+            "doubtful": false,
+            "unknown_span": false,
+            "diplomatic": "084"
+          },
+          {
+            "raw": "127",
+            "sign": "M127",
+            "doubtful": false,
+            "unknown_span": false,
+            "diplomatic": "127"
+          },
+          {
+            "raw": "343",
+            "sign": "M343",
+            "doubtful": false,
+            "unknown_span": false,
+            "diplomatic": "343"
+          },
+          {
+            "raw": "163",
+            "sign": "M163",
+            "doubtful": false,
+            "unknown_span": false,
+            "diplomatic": "163"
+          }
+        ],
+        "source_doc_count": 1,
+        "source_direction_code": "1",
+        "primary_direction_definition": "right to left",
+        "source_object_code": "1",
+        "primary_object_definition": "seal",
+        "upstream_artifact_type": "seal",
+        "site_label_unverified": null,
+        "source_extra": {
+          "textnum": 8054,
+          "doc_count": 1,
+          "fs80": 351,
+          "level": "0"
+        },
+        "source_citation": {
+          "primary_sources": [
+            "I.6",
+            "A.1"
+          ],
+          "derivation": "IM77 text 8054 from indusscript.in Firestore (RMRL, 2021). Original: Mahadevan (1977) The Indus Script: Texts, Concordance and Tables."
+        },
+        "strict_candidate": true,
+        "exclusion_reasons": [],
+        "order": "preserved source array; agrees with reading printed normalized glyphs right to left in two checked examples",
+        "authentication": "secondary transcription, two selected complete lines checked; no population error rate or complete physical-object crosswalk"
+      },
+      "endpoint_hits": [
+        {
+          "code": "M163",
+          "token_index_zero_based": 3,
+          "doubtful": false,
+          "unknown_span": false
+        }
+      ],
+      "scope": "Existing native candidate record; source flags retained, not a new primary re-reading"
+    }
+  ],
+  "native_endpoints": {
+    "M138": [
+      {
+        "record_id": "GLI-IND-M77-03319",
+        "source_reference": "3319",
+        "target_positions_zero_based": [
+          3
+        ]
+      },
+      {
+        "record_id": "GLI-IND-M77-03320",
+        "source_reference": "3320",
+        "target_positions_zero_based": [
+          5
+        ]
+      },
+      {
+        "record_id": "GLI-IND-M77-04407",
+        "source_reference": "4407",
+        "target_positions_zero_based": [
+          0
+        ]
+      },
+      {
+        "record_id": "GLI-IND-M77-05444",
+        "source_reference": "5444",
+        "target_positions_zero_based": [
+          0
+        ]
+      }
+    ],
+    "M163": [
+      {
+        "record_id": "GLI-IND-M77-01051",
+        "source_reference": "1051",
+        "target_positions_zero_based": [
+          4
+        ]
+      },
+      {
+        "record_id": "GLI-IND-M77-01397",
+        "source_reference": "1397",
+        "target_positions_zero_based": [
+          4
+        ]
+      },
+      {
+        "record_id": "GLI-IND-M77-02119",
+        "source_reference": "2119",
+        "target_positions_zero_based": [
+          0
+        ]
+      },
+      {
+        "record_id": "GLI-IND-M77-02925",
+        "source_reference": "2925",
+        "target_positions_zero_based": [
+          0
+        ]
+      },
+      {
+        "record_id": "GLI-IND-M77-08054",
+        "source_reference": "8054",
+        "target_positions_zero_based": [
+          3
+        ]
+      }
+    ],
+    "M334": [
+      {
+        "record_id": "GLI-IND-M77-01403",
+        "source_reference": "1403",
+        "target_positions_zero_based": [
+          6
+        ]
+      },
+      {
+        "record_id": "GLI-IND-M77-02364",
+        "source_reference": "2364",
+        "target_positions_zero_based": [
+          0
+        ]
+      },
+      {
+        "record_id": "GLI-IND-M77-02431",
+        "source_reference": "2431",
+        "target_positions_zero_based": [
+          2
+        ]
+      },
+      {
+        "record_id": "GLI-IND-M77-02700",
+        "source_reference": "2700",
+        "target_positions_zero_based": [
+          3
+        ]
+      }
+    ],
+    "M092": [
+      {
+        "record_id": "GLI-IND-M77-08018",
+        "source_reference": "8018",
+        "target_positions_zero_based": [
+          0
+        ]
+      }
+    ]
+  },
+  "summary": {
+    "raw_target_rows": 15,
+    "raw_target_rows_by_code": {
+      "W678": 3,
+      "W391": 10,
+      "W731": 1,
+      "W044": 1
+    },
+    "supplemental_rows": 1,
+    "total_distinct_raw_rows": 16,
+    "native_records": 14,
+    "native_records_by_endpoint": {
+      "M138": 4,
+      "M163": 5,
+      "M334": 4,
+      "M092": 1
+    }
+  },
+  "join_policy": "The W and M sections are enumerated independently. No sequence resemblance, number suffix, feature-family label or shared target code creates an identity join. Consult cited review documents for their individually scoped findings.",
+  "review_references_only": [
+    {
+      "path": "docs/ROOF_CROSS_COVERAGE_EXTENSION.md",
+      "sha256": "1a7b7cdb4dab6d1d7f030c1ebd951c20bb675bdec3796ab0003352bf2c9e644c"
+    },
+    {
+      "path": "docs/ROOF_X_IDENTITY_REVIEW.md",
+      "sha256": "a539284150071887ce23b88daee48a931c52b93be016d34d3be29981cff3f46e"
+    },
+    {
+      "path": "docs/ROOF_TRIDENT_CANDIDATE_AUDIT.md",
+      "sha256": "d824abcca7fd4346add72bf1a003d08983cdb0cd7a6ab0260af30aa98fcdb1c2"
+    },
+    {
+      "path": "docs/ROOF_NONFISH_VARIANT_REVIEW.md",
+      "sha256": "04ee93fab25e4c6e5002b237b746914fd80e43b6cd4b9a8f85707e2ad77ca970"
+    },
+    {
+      "path": "docs/ROOF_M092_ARTIFACT_REVIEW.md",
+      "sha256": "274bf902a3fb1ffb2a3bb81e0f5898ecea8f2d06a8a7376205aa750243aea8ac"
+    }
+  ],
+  "source_integrity_checks": [
+    {
+      "path": "data/raw/lipi_inscriptions.csv",
+      "bytes": 1204921,
+      "sha256": "b8dcb325a2e2cd3cde12ac12e7a418b0348e45713c9ee28aad81b645d2ac5ee4",
+      "sha256_matches": true,
+      "bytes_match": true
+    },
+    {
+      "path": "data/processed/m77_candidate_records.jsonl",
+      "bytes": 4109921,
+      "sha256": "b29a176da86b125115256a8966c377c3fd9fe39ecaab17bf576b770b83b41bab",
+      "sha256_matches": true,
+      "bytes_match": true
+    }
+  ],
+  "enumerator_sha256": "04255698a8fba28c521e9fe1e5e075f7726d55b11134cddfe2ed9c1b966a97ec",
+  "limits": [
+    "Raw preservation, complete and condition values can disagree; no flag is repaired.",
+    "Numeric catalogue namespaces remain separate, including W391 versus M391.",
+    "Native endpoint records can contain other doubtful signs or lost spans; all flags remain literal.",
+    "Source rows and references are not independently counted physical artifacts or dies.",
+    "This enumeration neither adds candidates to a frozen test nor assigns eligibility or newness."
+  ],
+  "new_downloads": [],
+  "corpus_edits": [],
+  "established_semantic_values": 0,
+  "established_phonetic_values": 0
+}

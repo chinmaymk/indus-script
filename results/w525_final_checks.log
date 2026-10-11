@@ -1,0 +1,538 @@
+RUN ['scripts/audit_comb_family_contexts.py']
+{
+  "signs": {
+    "W525": {
+      "row_count": 10,
+      "occurrences": 10,
+      "distinct_whole_strings": 6
+    },
+    "W526": {
+      "row_count": 9,
+      "occurrences": 9,
+      "distinct_whole_strings": 7
+    },
+    "W527": {
+      "row_count": 45,
+      "occurrences": 45,
+      "distinct_whole_strings": 43
+    }
+  },
+  "counterparts": {
+    "W526": {
+      "distinct_sequence_pairs": 0,
+      "W525_row_ids": [],
+      "alternative_row_ids": []
+    },
+    "W527": {
+      "distinct_sequence_pairs": 0,
+      "W525_row_ids": [],
+      "alternative_row_ids": []
+    }
+  },
+  "mixed_rows": 0,
+  "repeated_form_rows": 0
+}
+RUN ['scripts/verify_comb_family_contexts.py']
+Comb-family counts, exact-counterpart null, sole final W525 and all shared-stratum members independently agree.
+RUN ['scripts/build_evidence_index.py']
+{
+  "M_rows": 417,
+  "M_rows_with_conditional_context_audits": 22,
+  "M_rows_with_conditional_copper_links": 6,
+  "copper_W_codes_without_M_catalogue_link": [
+    "W780",
+    "W781"
+  ],
+  "M_rows_with_conditional_substitution_links": 300,
+  "M_rows_with_candidate_substitution_edge": 181,
+  "substitution_W_codes_without_M_catalogue_link": [
+    "W036",
+    "W041",
+    "W042",
+    "W050",
+    "W056",
+    "W058",
+    "W059",
+    "W065",
+    "W067",
+    "W069",
+    "W082",
+    "W084",
+    "W092",
+    "W096",
+    "W102",
+    "W116",
+    "W132",
+    "W136",
+    "W138",
+    "W139",
+    "W141",
+    "W143",
+    "W145",
+    "W150",
+    "W152",
+    "W157",
+    "W172",
+    "W173",
+    "W180",
+    "W191",
+    "W195",
+    "W219",
+    "W221",
+    "W223",
+    "W224",
+    "W229",
+    "W230",
+    "W250",
+    "W252",
+    "W253",
+    "W257",
+    "W263",
+    "W276",
+    "W277",
+    "W278",
+    "W279",
+    "W298",
+    "W311",
+    "W316",
+    "W319",
+    "W320",
+    "W326",
+    "W327",
+    "W328",
+    "W330",
+    "W351",
+    "W376",
+    "W381",
+    "W383",
+    "W389",
+    "W401",
+    "W409",
+    "W412",
+    "W424",
+    "W441",
+    "W444",
+    "W445",
+    "W452",
+    "W463",
+    "W479",
+    "W481",
+    "W490",
+    "W491",
+    "W493",
+    "W494",
+    "W495",
+    "W501",
+    "W506",
+    "W514",
+    "W515",
+    "W516",
+    "W519",
+    "W521",
+    "W525",
+    "W528",
+    "W534",
+    "W541",
+    "W542",
+    "W544",
+    "W552",
+    "W563",
+    "W576",
+    "W577",
+    "W585",
+    "W586",
+    "W596",
+    "W597",
+    "W601",
+    "W606",
+    "W617",
+    "W620",
+    "W627",
+    "W629",
+    "W640",
+    "W642",
+    "W643",
+    "W647",
+    "W681",
+    "W687",
+    "W697",
+    "W698",
+    "W702",
+    "W710",
+    "W711",
+    "W712",
+    "W714",
+    "W718",
+    "W720",
+    "W723",
+    "W727",
+    "W728",
+    "W729",
+    "W748",
+    "W751",
+    "W759",
+    "W775",
+    "W791",
+    "W792",
+    "W793",
+    "W794",
+    "W795",
+    "W799",
+    "W808",
+    "W810",
+    "W811",
+    "W818",
+    "W821",
+    "W822",
+    "W824",
+    "W826",
+    "W828",
+    "W829",
+    "W830",
+    "W836",
+    "W838",
+    "W842",
+    "W843",
+    "W844",
+    "W849",
+    "W852",
+    "W854",
+    "W855",
+    "W859",
+    "W862",
+    "W866",
+    "W872",
+    "W875",
+    "W879",
+    "W893",
+    "W897",
+    "W898",
+    "W910",
+    "W912",
+    "W914",
+    "W918",
+    "W919",
+    "W922",
+    "W933",
+    "W956",
+    "W958"
+  ],
+  "M_rows_observed_in_candidate_M77_strict": 332,
+  "M_rows_identified_in_primary_U_contexts": 60,
+  "M_rows_identified_in_primary_U_counterparts": 121,
+  "M_rows_with_object_specific_tool_graphics": 5,
+  "M_rows_with_object_specific_orientation_reviews": 2,
+  "M_rows_in_primary_c40_fields": 16,
+  "M_rows_with_selected_arch_primary_occurrences": 3,
+  "M_rows_in_arch_extension_primary_fields": 17,
+  "M_rows_with_arch_extension_selected_occurrences": 4,
+  "M_rows_with_one_to_two_context_matches": 186,
+  "established_semantic_values": 0,
+  "established_phonetic_values": 0,
+  "primary_token_total": 13372,
+  "sources": {
+    "dossiers": {
+      "path": "results/sign_dossiers_417.json",
+      "sha256": "08dada5ae0e61c2879293bafb7afcc7c34da4d4822eddbd14bf4d66eb834d072"
+    },
+    "families": {
+      "path": "results/sign_family_index_417.csv",
+      "sha256": "d63ef5bd8cd64545b1e7b26467f77396d7c71324ae99fc4812e878791352a82c"
+    },
+    "features": {
+      "path": "data/processed/catalogue_features.json",
+      "sha256": "00836515c6f3beec28b3b66e13d8a9c6e94571cfb2e9dbb4b148651b7ff0032d"
+    },
+    "copper": {
+      "path": "results/copper_bridge_audit.json",
+      "sha256": "ece477f46a19d7157dc1361b52ff6aa73553dd184b225ee4cc898af5f9ac7fd7"
+    },
+    "substitution": {
+      "path": "results/substitution_network.json",
+      "sha256": "58767ee5df6b26037ddc0abda9c36fc19b54479f2afaa4793f874152564c1079"
+    },
+    "candidate_m77": {
+      "path": "results/m77_candidate_profiles_417.json",
+      "sha256": "65b932db17aa6d5e848b783dbf3a6e5c46a41b5916f3f9dda814dbc8133a6196"
+    },
+    "reviewed_u": {
+      "path": "results/m77_u_recovery_audit.json",
+      "sha256": "f4e803a6f1557d4cebbd0f0d340f4eb81cdb2ad613ab25674ecebadd2fb9b0a5"
+    },
+    "reviewed_u_counterparts": {
+      "path": "results/m77_u_counterparts.json",
+      "sha256": "476a905ecd675977e5e7210402f81f36cf16356553220112eea65732e210ba60"
+    },
+    "tool_graphics": {
+      "path": "data/processed/tool_sign_bridge_review.json",
+      "sha256": "6de8ba1fb8fc385728f06dbfae93b8901fa8a6c50432da760fcc77c2084a7215"
+    },
+    "tool_orientation": {
+      "path": "results/stroke_orientation_audit.json",
+      "sha256": "c5b17286bcea857d82b8b9d469a70e77c7cc274e2bf46eb00c962c18dd99c0a9"
+    },
+    "c40_layout": {
+      "path": "results/c40_layout_audit.json",
+      "sha256": "09ce29e4357fc4cac8466b3bbb9c2e5aa58d317852fe27dbe624f48d7dc8f280"
+    },
+    "arch_extension": {
+      "path": "results/arch_mass_bound.json",
+      "sha256": "13428f52e8e8d23514e35327853b3f6c7af850d1f7f6c9aa199f96692ec74d3b"
+    },
+    "composite_expansion": {
+      "path": "results/composite_expansion_audit.json",
+      "sha256": "e89a9418156a04679e4b4d7c84a05958122d72e5db2942823e7b2b5b1ceed39c"
+    },
+    "context_audits": {
+      "path": "data/processed/context_audit_links.json",
+      "sha256": "20e257a89bd87bf1ef63755395b93bb5da886f56af2323df680b5e50068e0231"
+    },
+    "context_audit_M294_hoard": {
+      "path": "results/m294_audit.json",
+      "sha256": "1305595f457031432ea5e90a95fb4f93a4dfef5c004d7b0f2e87cf8a6c4bb596"
+    },
+    "context_audit_pipe_chain": {
+      "path": "results/pipe_chain_audit.json",
+      "sha256": "e1ca7487589c28a9f79307541409f04b34d4b86552a88f51d02ab2d1b881b480"
+    },
+    "context_audit_L51_motif_ending": {
+      "path": "results/l51_audit.json",
+      "sha256": "4f7b356b2c33f7c11d287b07eecc54fd37088f9f44b928daa453789be341c27f"
+    },
+    "context_audit_ending_primary_validation": {
+      "path": "results/ending_validation_audit.json",
+      "sha256": "c575f73c14f9392e50595b561f887672b6f0696c3475b1d6c71cffe18f5ad22d"
+    },
+    "context_audit_pincer_within_artifact": {
+      "path": "results/pincer_primary_audit.json",
+      "sha256": "149e65e9d0bd70a73fa8a6c425b76bf860ee78a1d04d832f36fe8c35d6edf634"
+    },
+    "context_audit_comb_orientation_counterpart": {
+      "path": "results/comb_variation_audit.json",
+      "sha256": "2c0ca05f1d28f2329cc3ef38d7a240295407026a429c821f60d79242189aa794"
+    },
+    "context_audit_pincer_mapping_sensitivity": {
+      "path": "results/pincer_preservation_audit.json",
+      "sha256": "7a5bb86206c8e2c08ed68362a1def8a150ab1484fb8277ee3a30a2327e750bf0"
+    },
+    "context_audit_double_grid_tokenization": {
+      "path": "results/double_grid_screen.json",
+      "sha256": "924799f6fc167d262ed6c46afa16d934c1c540733953f36f45a5689c8c697c40"
+    },
+    "context_audit_w525_primary_correspondence": {
+      "path": "results/w525_primary_audit.json",
+      "sha256": "a3f8c004caf5907d9f1e58f695e54ff6981305d4a71ad8c8c0499666b36e588b"
+    },
+    "context_audit_comb_family_contexts": {
+      "path": "results/comb_family_contexts.json",
+      "sha256": "7ceebada77e95ea9ebab7b8fe42f6f96e62ac97c73078d64fd23fdf3773355df"
+    }
+  },
+  "scope": "Evidence coverage is not decipherment coverage. Conditional links are not readings; absence of a bridge is not evidence that a sign lacks meaning."
+}
+RUN ['-m', 'unittest', 'discover', '-s', 'tests', '-v']
+test_equal_cap_is_feasible_and_negative_residual_can_escape_bound (test_arch_mass_bound.ArchBoundTests.test_equal_cap_is_feasible_and_negative_residual_can_escape_bound) ... ok
+test_missing_chisel_mass_threshold_is_conditional (test_arch_mass_bound.ArchBoundTests.test_missing_chisel_mass_threshold_is_conditional) ... ok
+test_object_exclusion_and_doubt_change_available_evidence (test_c40_layout.LayoutTests.test_object_exclusion_and_doubt_change_available_evidence) ... ok
+test_exact_proportionality_and_scale_nonidentifiability (test_capacity_models.CapacityModelTests.test_exact_proportionality_and_scale_nonidentifiability) ... ok
+test_held_out_value_cannot_change_its_prediction (test_capacity_models.CapacityModelTests.test_held_out_value_cannot_change_its_prediction) ... ok
+test_invalid_values (test_capacity_models.CapacityModelTests.test_invalid_values) ... ok
+test_missingness_bounds_and_exact_tail (test_chanhu_fish.ChanhuTests.test_missingness_bounds_and_exact_tail) ... ok
+test_square_boundaries_and_damage (test_chanhu_fish.ChanhuTests.test_square_boundaries_and_damage) ... ok
+test_exact_one_position_preserves_other_tokens_and_duplicate_rows (test_comb_family_contexts.CombFamilyContextsTest.test_exact_one_position_preserves_other_tokens_and_duplicate_rows) ... ok
+test_reading_positions_and_singleton_are_explicit (test_comb_family_contexts.CombFamilyContextsTest.test_reading_positions_and_singleton_are_explicit) ... ok
+test_empty_context_and_same_object_alone_are_excluded (test_composite_expansion.CompositeExpansionTests.test_empty_context_and_same_object_alone_are_excluded) ... ok
+test_entire_context_and_order_are_preserved (test_composite_expansion.CompositeExpansionTests.test_entire_context_and_order_are_preserved) ... ok
+test_duplicate_witnesses_are_rejected_instead_of_inflating_counts (test_consistent_chains.ConsistentChainTests.test_duplicate_witnesses_are_rejected_instead_of_inflating_counts) ... ok
+test_exhaustive_terminal_overlap_length_oracle (test_consistent_chains.ConsistentChainTests.test_exhaustive_terminal_overlap_length_oracle) ... ok
+test_incompatible_middle_boundary_is_rejected (test_consistent_chains.ConsistentChainTests.test_incompatible_middle_boundary_is_rejected) ... ok
+test_internal_fixed_boundary_has_no_inconsistent_triples (test_consistent_chains.ConsistentChainTests.test_internal_fixed_boundary_has_no_inconsistent_triples) ... ok
+test_nonkinship_category_model_has_many_consistent_paths (test_consistent_chains.ConsistentChainTests.test_nonkinship_category_model_has_many_consistent_paths) ... ok
+test_one_compatible_realization_suffices_among_alternatives (test_consistent_chains.ConsistentChainTests.test_one_compatible_realization_suffices_among_alternatives) ... ok
+test_reversal_maps_all_triples_and_their_realization_counts (test_consistent_chains.ConsistentChainTests.test_reversal_maps_all_triples_and_their_realization_counts) ... ok
+test_two_strings_cannot_make_a_three_distinct_string_path (test_consistent_chains.ConsistentChainTests.test_two_strings_cannot_make_a_three_distinct_string_path) ... ok
+test_many_way_bridge_preserves_uncertainty (test_context_audit_links.ContextAuditLinkTest.test_many_way_bridge_preserves_uncertainty) ... ok
+test_primary_conflict_retains_both_signs_without_merging (test_context_audit_links.ContextAuditLinkTest.test_primary_conflict_retains_both_signs_without_merging) ... ok
+test_intersection_bounds_are_attainable (test_context_bounds.ContextBoundsTests.test_intersection_bounds_are_attainable) ... ok
+test_jar_mohenjodaro_bound_from_source_marginals (test_context_bounds.ContextBoundsTests.test_jar_mohenjodaro_bound_from_source_marginals) ... ok
+test_joint_confounding_not_excluded_by_separate_marginals (test_context_bounds.ContextBoundsTests.test_joint_confounding_not_excluded_by_separate_marginals) ... ok
+test_selected_source_rows_agree_with_position_totals (test_context_bounds.ContextBoundsTests.test_selected_source_rows_agree_with_position_totals) ... ok
+test_total_variation_is_maximum_binary_mixture_gap (test_context_bounds.ContextBoundsTests.test_total_variation_is_maximum_binary_mixture_gap) ... ok
+test_ambiguous_donor_and_motif_bearing_donor_rejected (test_copper_bridges.CopperBridges.test_ambiguous_donor_and_motif_bearing_donor_rejected) ... ok
+test_nr_only_for_singleton_and_unknowns_rejected (test_copper_bridges.CopperBridges.test_nr_only_for_singleton_and_unknowns_rejected) ... ok
+test_poor_donor_removed_and_duplicate_motif_artifact_counted_once (test_copper_bridges.CopperBridges.test_poor_donor_removed_and_duplicate_motif_artifact_counted_once) ... ok
+test_same_text_bridge_is_not_sign_merger (test_copper_bridges.CopperBridges.test_same_text_bridge_is_not_sign_merger) ... ok
+test_reading_neighbor_does_not_cross_damage_or_change_direction (test_crab_fish.CrabFishTests.test_reading_neighbor_does_not_cross_damage_or_change_direction) ... ok
+test_suffix_is_anchored_and_entire_earlier_text_is_retained (test_crab_fish.CrabFishTests.test_suffix_is_anchored_and_entire_earlier_text_is_retained) ... ok
+test_one_source_token_requires_exactly_two_grid_tokens (test_double_grid.ExplicitExpansionTest.test_one_source_token_requires_exactly_two_grid_tokens) ... ok
+test_repeated_compounds_keep_each_boundary (test_double_grid.ExplicitExpansionTest.test_repeated_compounds_keep_each_boundary) ... ok
+test_removal_is_exactly_one_specified_position (test_ending_validation.EndingCounterpartTest.test_removal_is_exactly_one_specified_position) ... ok
+test_ambiguous_link_retains_full_membership_and_unmapped_candidate (test_evidence_index.EvidenceIndex.test_ambiguous_link_retains_full_membership_and_unmapped_candidate) ... ok
+test_candidate_transcription_stays_separate_from_primary_and_readings (test_evidence_index.EvidenceIndex.test_candidate_transcription_stays_separate_from_primary_and_readings) ... ok
+test_duplicate_or_missing_sign_rejected (test_evidence_index.EvidenceIndex.test_duplicate_or_missing_sign_rejected) ... ok
+test_substitution_join_preserves_missing_and_ambiguous_members (test_evidence_index.EvidenceIndex.test_substitution_join_preserves_missing_and_ambiguous_members) ... ok
+test_binomial_sensitivity_against_polynomial (test_gemstone_context.GemstoneContextTests.test_binomial_sensitivity_against_polynomial) ... ok
+test_find_group_does_not_collapse_distinct_objects_or_import_readings (test_gemstone_context.GemstoneContextTests.test_find_group_does_not_collapse_distinct_objects_or_import_readings) ... ok
+test_out_of_namespace_sign_cannot_inflate_m77_coverage (test_glossa_key.ExternalKeyAuditTests.test_out_of_namespace_sign_cannot_inflate_m77_coverage) ... ok
+test_proposed_reading_does_not_become_an_established_reading (test_glossa_key.ExternalKeyAuditTests.test_proposed_reading_does_not_become_an_established_reading) ... ok
+test_reported_counts_never_override_computed_counts (test_glossa_key.ExternalKeyAuditTests.test_reported_counts_never_override_computed_counts) ... ok
+test_cylinder_and_cone_exact (test_h95_profile.ProfileVolumeTests.test_cylinder_and_cone_exact) ... ok
+test_invalid_profile (test_h95_profile.ProfileVolumeTests.test_invalid_profile) ... ok
+test_scale_cube_and_fill_monotonicity (test_h95_profile.ProfileVolumeTests.test_scale_cube_and_fill_monotonicity) ... ok
+test_split_frustum_preserves_volume (test_h95_profile.ProfileVolumeTests.test_split_frustum_preserves_volume) ... ok
+test_does_not_bridge_damage_or_newline (test_hind_leg_hypothesis.HindLegAuditTests.test_does_not_bridge_damage_or_newline) ... ok
+test_exact_code_not_substring_or_nearby_code (test_hind_leg_hypothesis.HindLegAuditTests.test_exact_code_not_substring_or_nearby_code) ... ok
+test_non_discovery_source_exposure_not_claimed_blind (test_hind_leg_hypothesis.HindLegAuditTests.test_non_discovery_source_exposure_not_claimed_blind) ... ok
+test_reading_order_is_explicit_and_direction_required (test_hind_leg_hypothesis.HindLegAuditTests.test_reading_order_is_explicit_and_direction_required) ... ok
+test_discovery_artifact_and_duplicate_are_not_extra_targets (test_iconography_theory.IconographyTheoryTests.test_discovery_artifact_and_duplicate_are_not_extra_targets) ... ok
+test_full_text_requires_exact_order_and_length (test_iconography_theory.IconographyTheoryTests.test_full_text_requires_exact_order_and_length) ... ok
+test_nonmatching_label_is_operational_counterexample_not_missing (test_iconography_theory.IconographyTheoryTests.test_nonmatching_label_is_operational_counterexample_not_missing) ... ok
+test_nr_exception_is_only_singleton (test_iconography_theory.IconographyTheoryTests.test_nr_exception_is_only_singleton) ... ok
+test_deduplication_preserves_context_and_artifacts_as_specified (test_joint_context.JointContextTests.test_deduplication_preserves_context_and_artifacts_as_specified) ... ok
+test_singles_do_not_become_final_tokens (test_joint_context.JointContextTests.test_singles_do_not_become_final_tokens) ... ok
+test_sparse_support_is_absent_not_zero_effect (test_joint_context.JointContextTests.test_sparse_support_is_absent_not_zero_effect) ... ok
+test_unmatched_contexts_do_not_affect_matched_rates (test_joint_context.JointContextTests.test_unmatched_contexts_do_not_affect_matched_rates) ... ok
+test_terminal_specific_comparison (test_l51.L51Test.test_terminal_specific_comparison) ... ok
+test_extensions_preserve_reported_direction_and_token_boundaries (test_m294.M294DirectionTest.test_extensions_preserve_reported_direction_and_token_boundaries) ... ok
+test_corruption_or_wrong_namespace_fails_closed (test_m77_candidate.M77CandidateTests.test_corruption_or_wrong_namespace_fails_closed) ... ok
+test_doubtful_reading_is_not_silently_made_certain (test_m77_candidate.M77CandidateTests.test_doubtful_reading_is_not_silently_made_certain) ... ok
+test_multidocument_record_not_treated_as_complete_line_recovery (test_m77_candidate.M77CandidateTests.test_multidocument_record_not_treated_as_complete_line_recovery) ... ok
+test_non_rtl_record_excluded_without_reversing_or_destroying_it (test_m77_candidate.M77CandidateTests.test_non_rtl_record_excluded_without_reversing_or_destroying_it) ... ok
+test_primary_object_code_is_not_overridden_by_generic_seal_label (test_m77_candidate.M77CandidateTests.test_primary_object_code_is_not_overridden_by_generic_seal_label) ... ok
+test_zero_gap_is_preserved_and_excludes_whole_line (test_m77_candidate.M77CandidateTests.test_zero_gap_is_preserved_and_excludes_whole_line) ... ok
+test_add_one_probabilities_normalize_over_full_inventory (test_m77_foreign.ForeignComparisonTests.test_add_one_probabilities_normalize_over_full_inventory) ... ok
+test_complete_string_exclusion_removes_repeated_pairs (test_m77_foreign.ForeignComparisonTests.test_complete_string_exclusion_removes_repeated_pairs) ... ok
+test_doubt_loss_and_multiline_not_repaired (test_m77_foreign.ForeignComparisonTests.test_doubt_loss_and_multiline_not_repaired) ... ok
+test_empirical_comparison_keeps_ties_and_empty_controls (test_m77_foreign.ForeignComparisonTests.test_empirical_comparison_keeps_ties_and_empty_controls) ... ok
+test_no_pair_crosses_string_boundary (test_m77_foreign.ForeignComparisonTests.test_no_pair_crosses_string_boundary) ... ok
+test_shared_pairs_survive_exclusion (test_m77_foreign.ForeignComparisonTests.test_shared_pairs_survive_exclusion) ... ok
+test_bounds_equal_exhaustive_feasible_extrema (test_m77_omissions.OmissionBoundsTests.test_bounds_equal_exhaustive_feasible_extrema) ... ok
+test_impossible_subset_is_rejected_not_clipped (test_m77_omissions.OmissionBoundsTests.test_impossible_subset_is_rejected_not_clipped) ... ok
+test_fields_and_duplicate_lines_cannot_be_reused_as_context (test_m77_u_counterparts.UCounterpartTests.test_fields_and_duplicate_lines_cannot_be_reused_as_context) ... ok
+test_historical_correction_requires_exact_old_reading_and_preserves_input (test_m77_u_counterparts.UCounterpartTests.test_historical_correction_requires_exact_old_reading_and_preserves_input) ... ok
+test_same_context_with_different_counts_has_exact_exception_bound (test_m77_u_counterparts.UCounterpartTests.test_same_context_with_different_counts_has_exact_exception_bound) ... ok
+test_two_fields_on_one_reference_form_one_multifield_state (test_m77_u_counterparts.UCounterpartTests.test_two_fields_on_one_reference_form_one_multifield_state) ... ok
+test_type_and_field_layout_are_retained_in_grouping (test_m77_u_counterparts.UCounterpartTests.test_type_and_field_layout_are_retained_in_grouping) ... ok
+test_uncertainty_or_incomplete_bundle_prevents_identity_claim (test_m77_u_counterparts.UCounterpartTests.test_uncertainty_or_incomplete_bundle_prevents_identity_claim) ... ok
+test_conflicting_same_line_transcriptions_rejected (test_m77_u_fields.UFieldsTest.test_conflicting_same_line_transcriptions_rejected) ... ok
+test_graphic_height_damage_and_doubt_are_not_silently_collapsed (test_m77_u_fields.UFieldsTest.test_graphic_height_damage_and_doubt_are_not_silently_collapsed) ... ok
+test_same_main_can_have_multiple_fields_without_duplicate_inflation (test_m77_u_fields.UFieldsTest.test_same_main_can_have_multiple_fields_without_duplicate_inflation) ... ok
+test_uncertain_contexts_cannot_create_contrast (test_m77_u_fields.UFieldsTest.test_uncertain_contexts_cannot_create_contrast) ... ok
+test_duplicate_and_incomplete_coverage_fail (test_m77_u_object_types.UObjectTypeTests.test_duplicate_and_incomplete_coverage_fail) ... ok
+test_metadata_column_order_and_missing_object_digit (test_m77_u_object_types.UObjectTypeTests.test_metadata_column_order_and_missing_object_digit) ... ok
+test_occurrences_are_separate_from_references_and_lines (test_m77_u_object_types.UObjectTypeTests.test_occurrences_are_separate_from_references_and_lines) ... ok
+test_type_join_does_not_propagate_first_line_direction (test_m77_u_object_types.UObjectTypeTests.test_type_join_does_not_propagate_first_line_direction) ... ok
+test_unverified_metadata_remains_unknown (test_m77_u_object_types.UObjectTypeTests.test_unverified_metadata_remains_unknown) ... ok
+test_conflicting_transcriptions_require_review (test_m77_u_recovery.URecoveryTests.test_conflicting_transcriptions_require_review) ... ok
+test_doubt_unknown_and_loss_are_not_interchangeable (test_m77_u_recovery.URecoveryTests.test_doubt_unknown_and_loss_are_not_interchangeable) ... ok
+test_export_string_does_not_identify_which_side (test_m77_u_recovery.URecoveryTests.test_export_string_does_not_identify_which_side) ... ok
+test_same_string_on_different_sides_remains_two_lines (test_m77_u_recovery.URecoveryTests.test_same_string_on_different_sides_remains_two_lines) ... ok
+test_three_indexed_sightings_are_one_three_token_line (test_m77_u_recovery.URecoveryTests.test_three_indexed_sightings_are_one_three_token_line) ... ok
+test_exact_tokens_do_not_silently_repair_damage_or_extend_names (test_meluhha_name_pool.NamePoolTests.test_exact_tokens_do_not_silently_repair_damage_or_extend_names) ... ok
+test_missing_seal_field_is_not_physical_absence (test_meluhha_name_pool.NamePoolTests.test_missing_seal_field_is_not_physical_absence) ... ok
+test_recipient_name_is_not_seal_ownership (test_meluhha_name_pool.NamePoolTests.test_recipient_name_is_not_seal_ownership) ... ok
+test_wrong_artifact_rejected (test_meluhha_name_pool.NamePoolTests.test_wrong_artifact_rejected) ... ok
+test_axes_incompatible_and_compatible_control (test_metal_numeral_conventions.ConventionTests.test_axes_incompatible_and_compatible_control) ... ok
+test_carry_boundary_and_unbounded_leading_unit (test_metal_numeral_conventions.ConventionTests.test_carry_boundary_and_unbounded_leading_unit) ... ok
+test_half_unit_does_not_fix_upper_ratio (test_metal_numeral_conventions.ConventionTests.test_half_unit_does_not_fix_upper_ratio) ... ok
+test_pair_survives_two_distinct_radices (test_metal_numeral_conventions.ConventionTests.test_pair_survives_two_distinct_radices) ... ok
+test_unrestricted_losses_make_distinct_bases_fit (test_metal_numeral_conventions.ConventionTests.test_unrestricted_losses_make_distinct_bases_fit) ... ok
+test_corrected_bound_and_boundary (test_metal_weight_anchors.MetalWeightTests.test_corrected_bound_and_boundary) ... ok
+test_negative_mass_certificate_and_feasible_control (test_metal_weight_anchors.MetalWeightTests.test_negative_mass_certificate_and_feasible_control) ... ok
+test_precision_and_base_sensitivity (test_metal_weight_anchors.MetalWeightTests.test_precision_and_base_sensitivity) ... ok
+test_signed_fit_is_not_nonnegative_fit_or_validation (test_metal_weight_anchors.MetalWeightTests.test_signed_fit_is_not_nonnegative_fit_or_validation) ... ok
+test_third_object_contradiction (test_metal_weight_anchors.MetalWeightTests.test_third_object_contradiction) ... ok
+test_complete_solution_set (test_numeral_equations.NumeralEquationTests.test_complete_solution_set) ... ok
+test_counterexample_to_uniqueness_without_anchor (test_numeral_equations.NumeralEquationTests.test_counterexample_to_uniqueness_without_anchor) ... ok
+test_divisor_identity_and_enumeration (test_numeral_equations.NumeralEquationTests.test_divisor_identity_and_enumeration) ... ok
+test_independent_bounded_enumeration (test_numeral_equations.NumeralEquationTests.test_independent_bounded_enumeration) ... ok
+test_integer_quotient_does_not_force_even_base (test_numeral_equations.NumeralEquationTests.test_integer_quotient_does_not_force_even_base) ... ok
+test_constant_unit_conversion_cannot_rescue_conflicting_ratios (test_numeral_screen.NumeralScreenTests.test_constant_unit_conversion_cannot_rescue_conflicting_ratios) ... ok
+test_direction_sensitivity_retains_positive_base_contradiction (test_numeral_screen.NumeralScreenTests.test_direction_sensitivity_retains_positive_base_contradiction) ... ok
+test_matched_pattern_does_not_identify_unique_values (test_numeral_screen.NumeralScreenTests.test_matched_pattern_does_not_identify_unique_values) ... ok
+test_no_skipping_or_partial_number_matching (test_numeral_screen.NumeralScreenTests.test_no_skipping_or_partial_number_matching) ... ok
+test_sensitivity_never_accepts_damage_or_ambiguous_markers (test_numeral_screen.NumeralScreenTests.test_sensitivity_never_accepts_damage_or_ambiguous_markers) ... ok
+test_dedup_keeps_distinct_artifacts_but_not_duplicate_export_rows (test_numeral_theory.NumeralTheoryTests.test_dedup_keeps_distinct_artifacts_but_not_duplicate_export_rows) ... ok
+test_exact_minimum_boundaries_matches_exhaustive_partitions (test_numeral_theory.NumeralTheoryTests.test_exact_minimum_boundaries_matches_exhaustive_partitions) ... ok
+test_lr_sensitivity_never_accepts_damage (test_numeral_theory.NumeralTheoryTests.test_lr_sensitivity_never_accepts_damage) ... ok
+test_return_to_first_class_refutes_both_orders (test_numeral_theory.NumeralTheoryTests.test_return_to_first_class_refutes_both_orders) ... ok
+test_unknown_signs_are_boundaries_not_deleted (test_numeral_theory.NumeralTheoryTests.test_unknown_signs_are_boundaries_not_deleted) ... ok
+test_damage_and_spelling_changes_not_normalized_away (test_p453801_anchor.AnchorAuditTests.test_damage_and_spelling_changes_not_normalized_away) ... ok
+test_language_and_unread_seal_remain_separate (test_p453801_anchor.AnchorAuditTests.test_language_and_unread_seal_remain_separate) ... ok
+test_repeated_line_numbers_on_different_faces_preserved (test_p453801_anchor.AnchorAuditTests.test_repeated_line_numbers_on_different_faces_preserved) ... ok
+test_shared_placeholder_is_not_an_identity_join (test_p453801_anchor.AnchorAuditTests.test_shared_placeholder_is_not_an_identity_join) ... ok
+test_literal_whole_flanks_and_no_self_match (test_patronymic_chains.PatronymicChainTests.test_literal_whole_flanks_and_no_self_match) ... ok
+test_no_endpoint_empty_or_repeated_delimiter_parse (test_patronymic_chains.PatronymicChainTests.test_no_endpoint_empty_or_repeated_delimiter_parse) ... ok
+test_right_endpoint_shuffle_keeps_marginal_walk_count (test_patronymic_chains.PatronymicChainTests.test_right_endpoint_shuffle_keeps_marginal_walk_count) ... ok
+test_feature_union_preserves_ambiguity_and_provenance (test_pincer_context_screen.PincerContextTest.test_feature_union_preserves_ambiguity_and_provenance) ... ok
+test_reversal_context_gate_and_exact_token_count (test_pincer_context_screen.PincerContextTest.test_reversal_context_gate_and_exact_token_count) ... ok
+test_positions_cannot_be_combined_across_witnesses (test_pincer_preservation.WholePairCompatibilityTest.test_positions_cannot_be_combined_across_witnesses) ... ok
+test_exact_fixed_margin_tail (test_pipe_chain.PipeChainTest.test_exact_fixed_margin_tail) ... ok
+test_uncertain_token_is_not_positive (test_pipe_chain.PipeChainTest.test_uncertain_token_is_not_positive) ... ok
+test_missing_duplicate_or_edited_rows_rejected (test_primary_table.PrimaryTableTests.test_missing_duplicate_or_edited_rows_rejected) ... ok
+test_ocr_uncertainty_is_explicit (test_primary_table.PrimaryTableTests.test_ocr_uncertainty_is_explicit) ... ok
+test_pilot_does_not_splice_across_damage_or_doubt (test_primary_table.PrimaryTableTests.test_pilot_does_not_splice_across_damage_or_doubt) ... ok
+test_pilot_printed_order_is_reversed_once (test_primary_table.PrimaryTableTests.test_pilot_printed_order_is_reversed_once) ... ok
+test_primary_anchor_readings (test_primary_table.PrimaryTableTests.test_primary_anchor_readings) ... ok
+test_printed_constraints (test_primary_table.PrimaryTableTests.test_printed_constraints) ... ok
+test_exact_count_can_identify_under_explicit_restriction (test_quantity_anchors.QuantityAnchorTests.test_exact_count_can_identify_under_explicit_restriction) ... ok
+test_interval_does_not_uniquely_fix_decimal (test_quantity_anchors.QuantityAnchorTests.test_interval_does_not_uniquely_fix_decimal) ... ok
+test_invalid_inputs (test_quantity_anchors.QuantityAnchorTests.test_invalid_inputs) ... ok
+test_scale_symmetry_preserves_fit_even_with_noise (test_quantity_anchors.QuantityAnchorTests.test_scale_symmetry_preserves_fit_even_with_noise) ... ok
+test_unknown_image_scale_absorbs_units (test_quantity_anchors.QuantityAnchorTests.test_unknown_image_scale_absorbs_units) ... ok
+test_alternative_boundaries_never_chain_to_same_string (test_relation_templates.RelationTemplateTests.test_alternative_boundaries_never_chain_to_same_string) ... ok
+test_endpoint_parser_matches_independent_overlap_oracle (test_relation_templates.RelationTemplateTests.test_endpoint_parser_matches_independent_overlap_oracle) ... ok
+test_marker_uniqueness_minimum_length_and_fixed_internal_boundary (test_relation_templates.RelationTemplateTests.test_marker_uniqueness_minimum_length_and_fixed_internal_boundary) ... ok
+test_parse_witnesses_are_not_distinct_string_pairs (test_relation_templates.RelationTemplateTests.test_parse_witnesses_are_not_distinct_string_pairs) ... ok
+test_reversal_swaps_endpoint_templates_and_chain_order (test_relation_templates.RelationTemplateTests.test_reversal_swaps_endpoint_templates_and_chain_order) ... ok
+test_whole_bundle_not_partial_match (test_relation_templates.RelationTemplateTests.test_whole_bundle_not_partial_match) ... ok
+test_exact_context_and_alternatives_are_retained (test_repetition_expansion.ExpansionTest.test_exact_context_and_alternatives_are_retained) ... ok
+test_loss_is_not_deleted_to_create_run (test_repetition_expansion.ExpansionTest.test_loss_is_not_deleted_to_create_run) ... ok
+test_maximal_not_overlapping_run_windows (test_repetition_expansion.ExpansionTest.test_maximal_not_overlapping_run_windows) ... ok
+test_no_unchanged_self_match_and_keep_order_distinct (test_repetition_expansion.ExpansionTest.test_no_unchanged_self_match_and_keep_order_distinct) ... ok
+test_repeated_reference_does_not_multiply_string_matches (test_repetition_expansion.ExpansionTest.test_repeated_reference_does_not_multiply_string_matches) ... ok
+test_connected_groups_and_deduplication (test_research.ResearchTests.test_connected_groups_and_deduplication) ... ok
+test_damage_not_silently_removed (test_research.ResearchTests.test_damage_not_silently_removed) ... ok
+test_entropy_known_values (test_research.ResearchTests.test_entropy_known_values) ... ok
+test_literal_signs_and_order (test_research.ResearchTests.test_literal_signs_and_order) ... ok
+test_metadata_constraints (test_research.ResearchTests.test_metadata_constraints) ... ok
+test_position_null_preserves_length_and_slot_counts (test_research.ResearchTests.test_position_null_preserves_length_and_slot_counts) ... ok
+test_probability_normalization_unseen_contexts (test_research.ResearchTests.test_probability_normalization_unseen_contexts) ... ok
+test_relabeling_invariance (test_research.ResearchTests.test_relabeling_invariance) ... ok
+test_renamed_models_have_same_likelihood (test_research.ResearchTests.test_renamed_models_have_same_likelihood) ... ok
+test_reversal_invariance (test_research.ResearchTests.test_reversal_invariance) ... ok
+test_within_null_preserves_each_bag (test_research.ResearchTests.test_within_null_preserves_each_bag) ... ok
+test_ambiguity_can_preserve_or_break_a_shared_label (test_sealing_function_anchors.DomainTests.test_ambiguity_can_preserve_or_break_a_shared_label) ... ok
+test_empty_domain_is_a_data_error (test_sealing_function_anchors.DomainTests.test_empty_domain_is_a_data_error) ... ok
+test_unknown_is_not_a_counterexample (test_sealing_function_anchors.DomainTests.test_unknown_is_not_a_counterexample) ... ok
+test_ambiguous_catalogue_family_fails_closed (test_sign_families.SignFamilyTests.test_ambiguous_catalogue_family_fails_closed) ... ok
+test_collapsed_text_and_artifact_links_are_transitive (test_sign_families.SignFamilyTests.test_collapsed_text_and_artifact_links_are_transitive) ... ok
+test_dedup_retains_ids_and_target_is_not_a_feature (test_sign_families.SignFamilyTests.test_dedup_retains_ids_and_target_is_not_a_feature) ... ok
+test_duplicate_inscriptions_do_not_multiply_exact_frames (test_sign_families.SignFamilyTests.test_duplicate_inscriptions_do_not_multiply_exact_frames) ... ok
+test_probability_normalization_with_unseen_classes_and_contexts (test_sign_families.SignFamilyTests.test_probability_normalization_with_unseen_classes_and_contexts) ... ok
+test_total_agreement_does_not_imply_local_agreement (test_stroke_orientation.OrientationTests.test_total_agreement_does_not_imply_local_agreement) ... ok
+test_variable_count_breaks_fixed_component_equivalence (test_stroke_orientation.OrientationTests.test_variable_count_breaks_fixed_component_equivalence) ... ok
+test_anchor_at_end_is_distinct_from_medial_anchor (test_stroke_substitution.StrokeSubstitutionTests.test_anchor_at_end_is_distinct_from_medial_anchor) ... ok
+test_common_anchor_does_not_hide_prefix_change (test_stroke_substitution.StrokeSubstitutionTests.test_common_anchor_does_not_hide_prefix_change) ... ok
+test_exact_context_counts_once_despite_repeated_objects (test_stroke_substitution.StrokeSubstitutionTests.test_exact_context_counts_once_despite_repeated_objects) ... ok
+test_mask_index_matches_exhaustive_hamming_oracle (test_stroke_substitution.StrokeSubstitutionTests.test_mask_index_matches_exhaustive_hamming_oracle) ... ok
+test_controls_reproducible_and_distinct (test_structure_theory.StructureTheoryTests.test_controls_reproducible_and_distinct) ... ok
+test_groups_keep_artifacts_and_duplicate_text_together (test_structure_theory.StructureTheoryTests.test_groups_keep_artifacts_and_duplicate_text_together) ... ok
+test_no_target_or_future_in_features (test_structure_theory.StructureTheoryTests.test_no_target_or_future_in_features) ... ok
+test_probabilities_normalized_in_unseen_context (test_structure_theory.StructureTheoryTests.test_probabilities_normalized_in_unseen_context) ... ok
+test_unseen_higher_context_backs_off_exactly (test_structure_theory.StructureTheoryTests.test_unseen_higher_context_backs_off_exactly) ... ok
+test_cooccurrence_and_same_sign_repetition_count_texts (test_substitution_network.SubstitutionNetworkTests.test_cooccurrence_and_same_sign_repetition_count_texts) ... ok
+test_duplicates_do_not_inflate_frames_and_sources_survive (test_substitution_network.SubstitutionNetworkTests.test_duplicates_do_not_inflate_frames_and_sources_survive) ... ok
+test_every_sign_including_isolates_and_length_sensitivity (test_substitution_network.SubstitutionNetworkTests.test_every_sign_including_isolates_and_length_sensitivity) ... ok
+test_exact_single_position_required_and_lengths_preserved (test_substitution_network.SubstitutionNetworkTests.test_exact_single_position_required_and_lengths_preserved) ... ok
+test_real_open_wedge_logic_does_not_add_transitive_edge (test_substitution_network.SubstitutionNetworkTests.test_real_open_wedge_logic_does_not_add_transitive_edge) ... ok
+test_reordering_rows_keeps_complete_outputs_stable (test_substitution_network.SubstitutionNetworkTests.test_reordering_rows_keeps_complete_outputs_stable) ... ok
+test_equality_fits_current_mass_but_not_strict_upper_cap (test_tool_sign_mass.ToolSignMassTests.test_equality_fits_current_mass_but_not_strict_upper_cap) ... ok
+test_larger_original_cap_can_remove_only_reconstruction_conflict (test_tool_sign_mass.ToolSignMassTests.test_larger_original_cap_can_remove_only_reconstruction_conflict) ... ok
+test_no_other_unknowns_or_deleted_material (test_w525.MaskedMappingTest.test_no_other_unknowns_or_deleted_material) ... ok
+test_repeated_unknown_requires_consistent_value (test_w525.MaskedMappingTest.test_repeated_unknown_requires_consistent_value) ... ok
+
+----------------------------------------------------------------------
+Ran 200 tests in 0.361s
+
+OK

@@ -1,0 +1,138 @@
+[
+  {
+    "url": "https://asi.nic.in/pdf/dholavira_excavation_report.pdf",
+    "planned_path": "data/raw/roof_trident_new_dholavira_report_candidate.pdf",
+    "kind": "official_report_candidate",
+    "retrieved_utc": "2026-09-27T23:00:29.894363+00:00",
+    "error": "HTTP Error 404: ",
+    "response_body_retained": false,
+    "preservation_note": "Initial downloader recorded HTTP exception without reading response body."
+  },
+  {
+    "url": "https://www.persee.fr/docAsPDF/crai_0065-0536_1996_num_140_3_15636.pdf",
+    "planned_path": "data/raw/roof_trident_new_nausharo_jarrige1996.pdf",
+    "kind": "primary_excavator_article",
+    "retrieved_utc": "2026-09-27T23:00:31.390976+00:00",
+    "error": "HTTP Error 403: 403",
+    "response_body_retained": false,
+    "preservation_note": "Initial downloader recorded HTTP exception without reading response body."
+  },
+  {
+    "url": "https://archive.org/advancedsearch.php?q=title%3A%28Dholavira%29&fl%5B%5D=identifier&fl%5B%5D=title&rows=50&output=json",
+    "planned_path": "data/raw/roof_trident_new_archive_dholavira.json",
+    "kind": "archive_search_metadata",
+    "retrieved_utc": "2026-09-27T23:00:32.436560+00:00",
+    "status": 200,
+    "resolved_url": "https://archive.org/advancedsearch.php?q=title%3A%28Dholavira%29&fl%5B%5D=identifier&fl%5B%5D=title&rows=50&output=json",
+    "content_type": "application/json",
+    "path": "data/raw/roof_trident_new_archive_dholavira.json",
+    "bytes": 2743,
+    "sha256": "d917888e0ac949646e97c5b60beae4354038737222258d27f6d2d9890e335062"
+  },
+  {
+    "url": "https://archive.org/metadata/dholavirareportpreliminaryjan2015_860_K",
+    "planned_path": "data/raw/roof_trident_new_dholavira_archive_metadata.json",
+    "kind": "archive_item_metadata",
+    "retrieved_utc": "2026-09-27T23:01:31.338380+00:00",
+    "status": 200,
+    "resolved_url": "https://archive.org/metadata/dholavirareportpreliminaryjan2015_860_K",
+    "content_type": "application/json",
+    "path": "data/raw/roof_trident_new_dholavira_archive_metadata.json",
+    "bytes": 7460,
+    "sha256": "813435b851ad758b841f403fb3de2a9f5720b6e5b0e629b78cfd46638492e0dd"
+  },
+  {
+    "url": "https://archive.org/advancedsearch.php?q=title%3A%28Corpus+Indus+Seals%29&fl%5B%5D=identifier&fl%5B%5D=title&rows=50&output=json",
+    "planned_path": "data/raw/roof_trident_new_archive_cisi32.json",
+    "kind": "archive_search_metadata",
+    "retrieved_utc": "2026-09-27T23:01:47.486725+00:00",
+    "status": 200,
+    "resolved_url": "https://archive.org/advancedsearch.php?q=title%3A%28Corpus+Indus+Seals%29&fl%5B%5D=identifier&fl%5B%5D=title&rows=50&output=json",
+    "content_type": "application/json",
+    "path": "data/raw/roof_trident_new_archive_cisi32.json",
+    "bytes": 598,
+    "sha256": "12c39f678a17866874e8eb2401f01685383fa950b87c8ecd225f9954dd652992"
+  },
+  {
+    "url": "https://archive.org/download/dholavirareportpreliminaryjan2015_860_K/Dholavira%20Report%20%28preliminary%2C%20Jan%202015%29.pdf",
+    "planned_path": "data/raw/roof_trident_new_dholavira_2015.pdf",
+    "kind": "third_party_archive_copy_of_primary_report_pending_visual_authentication",
+    "retrieved_utc": "2026-09-27T23:02:21.239741+00:00",
+    "error": "HTTP Error 500: Internal Server Error",
+    "response_body_retained": false,
+    "preservation_note": "Initial downloader recorded HTTP exception without reading response body."
+  },
+  {
+    "url": "https://ia801906.us.archive.org/19/items/dholavirareportpreliminaryjan2015_860_K/Dholavira%20Report%20%28preliminary%2C%20Jan%202015%29.pdf",
+    "kind": "interrupted_full_pdf_transfer",
+    "error": "KeyboardInterrupt during response.read(); command exited130",
+    "response_body_retained": false,
+    "preservation_note": "Initial downloader recorded HTTP exception without reading response body."
+  },
+  {
+    "url": "https://ia801906.us.archive.org/19/items/dholavirareportpreliminaryjan2015_860_K/Dholavira%20Report%20%28preliminary%2C%20Jan%202015%29_djvu.txt",
+    "kind": "archive_generated_ocr_text_navigation_only",
+    "path": "data/raw/roof_trident_new_dholavira_djvu.txt",
+    "headers": "data/raw/roof_trident_new_dholavira_text_headers.txt",
+    "status": 200,
+    "bytes": 1438361,
+    "sha256": "b3ed31a132898da03c3389f26cd555344cae5311b66f97486f2d1f67c801aa6c"
+  },
+  {
+    "url": "https://ia801906.us.archive.org/19/items/dholavirareportpreliminaryjan2015_860_K/Dholavira%20Report%20%28preliminary%2C%20Jan%202015%29_page_numbers.json",
+    "kind": "archive_generated_page_index",
+    "path": "data/raw/roof_trident_new_dholavira_page_numbers.json",
+    "headers": "data/raw/roof_trident_new_page_numbers_headers.txt",
+    "status": 200,
+    "bytes": 189352,
+    "sha256": "61a1a6f5a260a0ec0bfe493c9cd69ed3e03c4986bca93ac162230ac7a8b515da"
+  },
+  {
+    "url": "http://museumsofindia.gov.in:81/cdn/portal_record/%5Bnat_del%5D/nat_del-DHR-24475-18639/nat_del-DHR-24475-18639_01_l.jpg",
+    "kind": "official_museum_image_attempt",
+    "error": "curl28 connection timeout45002ms; zero response body",
+    "headers": "data/raw/roof_trident_new_museum_image_headers.txt",
+    "response_body_retained": false,
+    "preservation_note": "Initial downloader recorded HTTP exception without reading response body."
+  },
+  {
+    "url": "https://museumsofindia.gov.in/cdn/portal_record/%5Bnat_del%5D/nat_del-DHR-24475-18639/nat_del-DHR-24475-18639_01_l.jpg",
+    "kind": "http404_html_response_not_image",
+    "path": "data/raw/roof_trident_new_museum_https_response.bin",
+    "headers": "data/raw/roof_trident_new_museum_https_headers.txt",
+    "status": 404,
+    "bytes": 282,
+    "sha256": "653be2b6ffc3202f304e82f7749bb81838f8ee80fce33135322bbaba582126c6"
+  },
+  {
+    "url": "https://archive.org/download/dholavirareportpreliminaryjan2015_860_K/page/n302.jpg",
+    "kind": "archived_primary_report_page_image_with_original_artifact_photograph",
+    "path": "data/raw/roof_trident_new_report_leaf302_response.bin",
+    "headers": "data/raw/roof_trident_new_report_leaf302_headers.txt",
+    "status": 200,
+    "printed_page": 286,
+    "entry": 119,
+    "bytes": 1233418,
+    "sha256": "1dd282a518949cf97938756d219aec78f86bc975182680f0c3a9ee9c2e5755a6"
+  },
+  {
+    "url": "https://archive.org/download/dholavirareportpreliminaryjan2015_860_K/page/n263.jpg",
+    "kind": "archived_primary_report_table_page_image",
+    "path": "data/raw/roof_trident_new_report_leaf263_response.bin",
+    "headers": "data/raw/roof_trident_new_report_leaf263_headers.txt",
+    "status": 200,
+    "printed_page": 247,
+    "entry": 8,
+    "bytes": 1643683,
+    "sha256": "120211db75ae3a9178841ca667c216d0d953db5b65c34833b9cb32537706247f"
+  },
+  {
+    "url": "https://asi.nic.in/pdf/dholavira_excavation_report_cover.pdf",
+    "kind": "official_primary_report_cover_pdf_two_pages_not_full_report",
+    "path": "data/raw/roof_trident_new_cover_response.bin",
+    "headers": "data/raw/roof_trident_new_cover_headers.txt",
+    "status": 200,
+    "bytes": 207767,
+    "sha256": "42307d49d1775698203e902c89d188f5c6877681c655f92d4a9655e6a7d14c87"
+  }
+]

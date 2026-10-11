@@ -1,0 +1,320 @@
+{
+  "scope": "local locator only; no translation/transliteration fields selected",
+  "secondary_source": {
+    "path": "data/raw/lipi_inscriptions.csv",
+    "bytes": 1204921,
+    "sha256": "b8dcb325a2e2cd3cde12ac12e7a418b0348e45713c9ee28aad81b645d2ac5ee4"
+  },
+  "secondary_rows": [
+    {
+      "id": "567.1",
+      "cisi": "H-1923",
+      "site": "Harappa",
+      "area-section": "ETrench 10W/11",
+      "excavation-idno": "H94-2217Figure 28.01",
+      "material": "Faience",
+      "preservation": "complete",
+      "type": "TAB:B",
+      "sides": "2",
+      "condition": "Good",
+      "complete": "Y",
+      "dir.": "R/L",
+      "signs": "2",
+      "text": "+700-032+"
+    },
+    {
+      "id": "567.2",
+      "cisi": "H-1923",
+      "site": "Harappa",
+      "area-section": "ETrench 10W/11",
+      "excavation-idno": "H94-2217Figure 28.01",
+      "material": "Faience",
+      "preservation": "complete",
+      "type": "TAB:B",
+      "sides": "2",
+      "condition": "Good",
+      "complete": "Y",
+      "dir.": "R/L",
+      "signs": "4",
+      "text": "+400-740-032-840+"
+    }
+  ],
+  "searches": [
+    {
+      "source": {
+        "path": "data/raw/h843_identity_CorpusVol2_djvu.txt",
+        "bytes": 218644,
+        "sha256": "ae797e9bc4bed1993e6997030a62bcbb5e0b2900ca8812e5ab3f392915c0abf9"
+      },
+      "nonseparator_characters": 202130,
+      "patterns": [
+        {
+          "pattern": "H[\\s-]*1923",
+          "hits": []
+        },
+        {
+          "pattern": "H94[\\s-]*2217",
+          "hits": []
+        },
+        {
+          "pattern": "28\\.01",
+          "hits": []
+        }
+      ],
+      "negative_search_does_not_establish_absence": true
+    },
+    {
+      "source": {
+        "path": "data/raw/mahadevan_1977_ocr.txt",
+        "bytes": 673943,
+        "sha256": "11441e38286784a1f4215f73d91cbba8acd153b7e5b30daed9252f9f7b77304a"
+      },
+      "nonseparator_characters": 665014,
+      "patterns": [
+        {
+          "pattern": "H[\\s-]*1923",
+          "hits": []
+        },
+        {
+          "pattern": "H94[\\s-]*2217",
+          "hits": []
+        },
+        {
+          "pattern": "28\\.01",
+          "hits": []
+        }
+      ],
+      "negative_search_does_not_establish_absence": true
+    },
+    {
+      "source": {
+        "path": "results/cisi1_extracted.txt",
+        "bytes": 18856,
+        "sha256": "72760b29d4bd4825ec6a42b7f1148a76cf35607a2b35480096a31f79cc55b772"
+      },
+      "nonseparator_characters": 0,
+      "patterns": [
+        {
+          "pattern": "H[\\s-]*1923",
+          "hits": []
+        },
+        {
+          "pattern": "H94[\\s-]*2217",
+          "hits": []
+        },
+        {
+          "pattern": "28\\.01",
+          "hits": []
+        }
+      ],
+      "negative_search_does_not_establish_absence": true
+    },
+    {
+      "source": {
+        "path": "results/h843-cisi2_extracted.txt",
+        "bytes": 10584,
+        "sha256": "db34852f9830f249ea2bb33a40d1d73cdbcc8f2170866bf7170f842fa80c8957"
+      },
+      "nonseparator_characters": 0,
+      "patterns": [
+        {
+          "pattern": "H[\\s-]*1923",
+          "hits": []
+        },
+        {
+          "pattern": "H94[\\s-]*2217",
+          "hits": []
+        },
+        {
+          "pattern": "28\\.01",
+          "hits": []
+        }
+      ],
+      "negative_search_does_not_establish_absence": true
+    },
+    {
+      "source": {
+        "path": "data/raw/comb_tablet_kenoyer1997_web_capture.json",
+        "bytes": 22614,
+        "sha256": "fafa8cec9203e7d4f3c2fd52791531a6a73bc36fa64116bd461bfb774c11b82a"
+      },
+      "nonseparator_characters": 22541,
+      "patterns": [
+        {
+          "pattern": "H[\\s-]*1923",
+          "hits": []
+        },
+        {
+          "pattern": "H94[\\s-]*2217",
+          "hits": []
+        },
+        {
+          "pattern": "28\\.01",
+          "hits": []
+        }
+      ],
+      "negative_search_does_not_establish_absence": true
+    },
+    {
+      "source": {
+        "path": "data/raw/comb_tablet_kenoyer2010_web_capture.json",
+        "bytes": 28127,
+        "sha256": "87caf456afbf7bacdf0f415dc305c02a676635d32f8bae5eedfe57ba6c4082d7"
+      },
+      "nonseparator_characters": 28108,
+      "patterns": [
+        {
+          "pattern": "H[\\s-]*1923",
+          "hits": []
+        },
+        {
+          "pattern": "H94[\\s-]*2217",
+          "hits": []
+        },
+        {
+          "pattern": "28\\.01",
+          "hits": []
+        }
+      ],
+      "negative_search_does_not_establish_absence": true
+    },
+    {
+      "source": {
+        "path": "data/raw/h1817_identity_web_captures.json",
+        "bytes": 174417,
+        "sha256": "a1620a2c0997d2fc63f4e7a97d897f30d392ad5653808d9aa59937c91ca2fb97"
+      },
+      "nonseparator_characters": 170638,
+      "patterns": [
+        {
+          "pattern": "H[\\s-]*1923",
+          "hits": []
+        },
+        {
+          "pattern": "H94[\\s-]*2217",
+          "hits": []
+        },
+        {
+          "pattern": "28\\.01",
+          "hits": []
+        }
+      ],
+      "negative_search_does_not_establish_absence": true
+    }
+  ],
+  "primary_page_renders": [
+    {
+      "pdf": {
+        "path": "data/raw/cisi_76884.pdf",
+        "bytes": 31508998,
+        "sha256": "47a4da4227cfb7baa56d6a561e25797225499d0ec54f5a702a82c67ab4746d4d"
+      },
+      "pdf_page_1based": 5,
+      "scale_to": 1200,
+      "render": {
+        "path": "results/primary_pages/h1923-numeral-cisi1-title-5.png",
+        "bytes": 356557,
+        "sha256": "95708502cad2e4e76e4f45e0e488320e55feb47650f49a92a4aad844989d9bd3"
+      }
+    },
+    {
+      "pdf": {
+        "path": "data/raw/cisi_76884.pdf",
+        "bytes": 31508998,
+        "sha256": "47a4da4227cfb7baa56d6a561e25797225499d0ec54f5a702a82c67ab4746d4d"
+      },
+      "pdf_page_1based": 7,
+      "scale_to": 1200,
+      "render": {
+        "path": "results/primary_pages/h1923-numeral-cisi1-title-7.png",
+        "bytes": 578618,
+        "sha256": "5713d83e2725f3c52e7335dfe2b48b74bac9a6e19d3288cab3c59b6844ea3c40"
+      }
+    },
+    {
+      "pdf": {
+        "path": "data/raw/h843_identity_CorpusVol2.pdf",
+        "bytes": 35870617,
+        "sha256": "727132579a485ee626e48a64c663148a85fbc0811fb523818fd615231f8a327d"
+      },
+      "pdf_page_1based": 4,
+      "scale_to": 1800,
+      "render": {
+        "path": "results/primary_pages/h1923-numeral-cisi2-4.png",
+        "bytes": 727375,
+        "sha256": "72c227d21387b67db3c9aa08f65b273a3cb754124585c4e5c551ef34d02b108f"
+      }
+    },
+    {
+      "pdf": {
+        "path": "data/raw/h843_identity_CorpusVol2.pdf",
+        "bytes": 35870617,
+        "sha256": "727132579a485ee626e48a64c663148a85fbc0811fb523818fd615231f8a327d"
+      },
+      "pdf_page_1based": 6,
+      "scale_to": 1800,
+      "render": {
+        "path": "results/primary_pages/h1923-numeral-cisi2-contents-6.png",
+        "bytes": 1209585,
+        "sha256": "52197b6f51a9f1570a3a864c517d78be20439f602c0e75b40226a91ebf2d7510"
+      }
+    }
+  ],
+  "crops": [
+    {
+      "source": {
+        "path": "results/primary_pages/h1923-numeral-cisi1-title-7.png",
+        "bytes": 578618,
+        "sha256": "5713d83e2725f3c52e7335dfe2b48b74bac9a6e19d3288cab3c59b6844ea3c40"
+      },
+      "source_dimensions": [
+        831,
+        1200
+      ],
+      "box_xyxy": [
+        35,
+        985,
+        800,
+        1072
+      ],
+      "output": {
+        "path": "results/primary_pages/h1923-numeral-cisi1-harappa-coverage.png",
+        "bytes": 42036,
+        "sha256": "dc7ac06009e27035f2a526f6480306f92193a8a5ca31da0ad20c8b93e8bc30e7"
+      },
+      "operations": [
+        "native pixel crop"
+      ],
+      "mirrored": false,
+      "rotated": false
+    },
+    {
+      "source": {
+        "path": "results/primary_pages/h1923-numeral-cisi2-contents-6.png",
+        "bytes": 1209585,
+        "sha256": "52197b6f51a9f1570a3a864c517d78be20439f602c0e75b40226a91ebf2d7510"
+      },
+      "source_dimensions": [
+        1233,
+        1800
+      ],
+      "box_xyxy": [
+        75,
+        1425,
+        1145,
+        1515
+      ],
+      "output": {
+        "path": "results/primary_pages/h1923-numeral-cisi2-harappa-coverage.png",
+        "bytes": 85144,
+        "sha256": "dc4ac831e6d68466b3627349354f52085928575f204ed68332635b02b60250f8"
+      },
+      "operations": [
+        "native pixel crop"
+      ],
+      "mirrored": false,
+      "rotated": false
+    }
+  ],
+  "new_downloads": []
+}

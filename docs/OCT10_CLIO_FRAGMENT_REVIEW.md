@@ -1,0 +1,11 @@
+# Native-image review of the new Chanhu-daro fragment
+
+Research date: 2026-10-10. **Fixed fish-family status: U (unknown).** The photograph adds no authenticated positive or negative occurrence to the existing test.
+
+Figure4, PDF/printed p6 of the retained Clio2017 report, places a light rectangular fragment in the right-hand assemblage, captioned as2017 material. The native embedded panel is only655×926 pixels; the fragment occupies roughly81×35 pixels. A91×45 crop retains surrounding margin. Curved parallel grooves survive at left and near-vertical or oblique grooves toward the middle-right, beneath an uneven broken upper edge. No complete diagnostic fish outline is securely recognizable. Whether these are script signs or residual iconographic lines is unresolved. No glyph ID, reading direction or complete sign band is authenticated.
+
+Pages5–7 independently describe a production complex containing abundant lapidary materials and tools. Page6 reports two steatite seal fragments, but the figure supplies no individual field number, precise deposit or assured mapping of the pictured piece to those two fragments. It also does not establish that two fragments represent two physical seals. The caption's broad chronology differs from the page7 heading; neither dates this piece individually.
+
+Thus this is a new campaign and promising source of contextualized seals, but it cannot presently become an independent matched fish/production observation. Unknown fish presence, missing object-specific context and absent comparable nonproduction reporting prevent that inference. U must not be converted into N because no fish is readable.
+
+`scripts/review_oct10_clio_fragment.py` preserves exact embedded JPEG bytes and a native-resolution crop following explicit CMYK-to-RGB conversion. The separate8× nearest-neighbor enlargement is only a display aid. There is no restoration, mirroring, contrast adjustment or added detail. The first PNG attempt failed on CMYK input; the corrected conversion is logged in `data/processed/oct10_clio_fragment_review.json`. That file preserves page text, image hashes, extraction locators, crop coordinates and the unchanged fixed family from the prior review. No new download or central-file edit occurred.

@@ -1,0 +1,92 @@
+{
+  "secondary_rows": [
+    {
+      "id": "624.1",
+      "cisi": "H-1817",
+      "site": "Harappa",
+      "area-section": "ETrench 10W/11",
+      "excavation-idno": "H94-2326Figure 26.06",
+      "material": "Faience",
+      "shape": "rectangular",
+      "cross-section": "rectangular",
+      "preservation": "complete",
+      "symbol": "None",
+      "type": "TAB:B",
+      "sides": "2",
+      "condition": "Good",
+      "complete": "Y",
+      "text": "+700-034+",
+      "horizontal(mm)": "13.5",
+      "vertical(mm)": "8",
+      "thickness(mm)": "3.3"
+    },
+    {
+      "id": "624.2",
+      "cisi": "H-1817",
+      "site": "Harappa",
+      "area-section": "ETrench 10W/11",
+      "excavation-idno": "H94-2326Figure 26.06",
+      "material": "Faience",
+      "shape": "rectangular",
+      "cross-section": "rectangular",
+      "preservation": "complete",
+      "symbol": "None",
+      "type": "TAB:B",
+      "sides": "2",
+      "condition": "Good",
+      "complete": "Y",
+      "text": "+400-525-554+",
+      "horizontal(mm)": "13.5",
+      "vertical(mm)": "8",
+      "thickness(mm)": "3.3"
+    },
+    {
+      "id": "1729.1",
+      "cisi": "H-843",
+      "site": "Harappa",
+      "area-section": "--",
+      "excavation-idno": "14307",
+      "material": "-",
+      "shape": "prism",
+      "cross-section": "triangular",
+      "preservation": "complete",
+      "symbol": "Xhch",
+      "type": "TAB:B",
+      "sides": "1",
+      "condition": "Fair",
+      "complete": "Y",
+      "text": "+400-527-195+",
+      "horizontal(mm)": "29",
+      "vertical(mm)": "11",
+      "thickness(mm)": "0"
+    }
+  ],
+  "excluded_columns": [
+    "sanskrit",
+    "translation",
+    "notes"
+  ],
+  "local_searches": [
+    {
+      "source": "data/raw/vats_1940_text_18220_djvu.txt",
+      "pattern": "14307",
+      "matches": []
+    },
+    {
+      "source": "data/raw/vats_1940_text_18220_djvu.txt",
+      "pattern": "14[\\s,.]*307",
+      "matches": []
+    },
+    {
+      "source": "results/iconography-mahadevan_extracted.txt",
+      "pattern": "14307",
+      "matches": []
+    },
+    {
+      "source": "results/iconography-mahadevan_extracted.txt",
+      "pattern": "14[\\s,.]*307",
+      "matches": []
+    }
+  ],
+  "warning": "No OCR hit does not prove absence from original book; OCR and coverage can fail."
+}

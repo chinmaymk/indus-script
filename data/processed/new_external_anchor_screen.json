@@ -1,0 +1,189 @@
+{
+  "schema_version": 1,
+  "screen_date": "2026-09-28",
+  "query_bound": 5,
+  "queries_executed": [
+    "Indus inscribed pottery residue analysis 2024 2025 2026",
+    "Harappan seals sealings contents excavation 2024 2025 journal",
+    "Indus bilingual inscription new discovery 2024 2025 2026 journal",
+    "2024 2025 2026 Indus inscription seal contents residue site:cambridge.org OR site:nature.com OR site:sciencedirect.com",
+    "2024 2025 2026 Harappan inscribed vessel quantity capacity excavation site:asi.nic.in OR site:harappa.com OR site:penn.museum"
+  ],
+  "qualifying_anchors_authenticated": 0,
+  "conclusion_scope": "bounded search; not global absence",
+  "candidate_records": [
+    {
+      "id": "kotada_bhadli_2024",
+      "url": "https://www.sciencedirect.com/science/article/pii/S2950236524000367",
+      "publication": "December2024;2(6):100038",
+      "discovery_date": null,
+      "available": "Publisher search extraction:11 sampled sherds with measured lipids; protein attribution unsuccessful",
+      "join_exists": "sample group to measured chemical observations per abstract",
+      "join_missing": "exact sampled artifact to authenticated inscription/photo; full table unavailable",
+      "status": "measurement_side_lead_unresolved",
+      "fulltext_reviewed": false
+    },
+    {
+      "id": "karanpura_ropar_2025",
+      "url": "https://www.sciencedirect.com/science/article/pii/S2950236524000483",
+      "publication": "March2025 issue; online December2024 in existing audit",
+      "discovery_date": null,
+      "join_exists": "sample/context/chemical data previously audited",
+      "join_missing": "sample to authenticated inscription",
+      "status": "already_reviewed_no_new_anchor",
+      "prior_review": "docs/RESIDUE_ANCHOR_AUDIT.md"
+    },
+    {
+      "id": "rakhigarhi_RGR3",
+      "url": "https://www.researchgate.net/publication/394241579_A_NOTE_ON_HARAPPAN_CULTURE_WITH_SOME_HIGHLIGHTS_OF_FIRST_SEASON%27S_EXCAVATION_AT_RAKHIGARHI_MOUND_NO_3_2021-22",
+      "publication": "repository August2025/upload2August2025; deposited issue header2026; release chronology unresolved",
+      "discovery_date": "excavation season2021\u201322",
+      "join_exists": "steatite seal to TrenchS40W10; Antiquities printed38",
+      "join_missing": "Indus inscription endpoint: author explicitly says no Harappan character on this seal",
+      "status": "not_inscribed_target",
+      "fulltext_reviewed": "bounded author-deposited extraction; PDF link cache miss"
+    },
+    {
+      "id": "bahaj_2026",
+      "url": "https://bssspublications.com/PublishedPaper/Publish_751.pdf?v=639159167669753099",
+      "publication": "2026 issue4(1),pp27\u201370",
+      "discovery_date": "January2024\u2013July2025 excavation interval",
+      "join_exists": "item14\u2192BHJ-II,ZB5/Q1,825cm\u2192Brahmi and Kharoshthi,printed44\u201345/PDF18\u201319",
+      "join_missing": "Indus endpoint; different scripts/period",
+      "status": "non_Indus_biscript_exclusion",
+      "fulltext_reviewed": "targeted PDF text and printed44 visual"
+    },
+    {
+      "id": "asi_download60",
+      "url": "https://asi.nic.in/admin/publications/ePublicationReportsDetails/download/60",
+      "publication": "2015 title/copyright; recent search timestamp misleading",
+      "discovery_date": "1960\u201369 excavations",
+      "join_exists": "official PDF identity authenticated",
+      "join_missing": "no new2024\u201326 artifact evidence",
+      "status": "out_of_date_and_byte_duplicate",
+      "fulltext_reviewed": "title/copyright only for exclusion"
+    },
+    {
+      "id": "merchant_marks_2025",
+      "url": "https://www.cambridge.org/engage/coe/article-details/6914735f65a54c2d4acf319d",
+      "publication": "14November2025 version1; non-peer-reviewed working paper",
+      "discovery_date": null,
+      "join_exists": "aggregate existing catalogue/context claims",
+      "join_missing": "independently measured new artifact-to-inscription referent",
+      "status": "interpretive_not_qualifying_in_screened_record",
+      "fulltext_reviewed": false
+    },
+    {
+      "id": "administrative_media_2026",
+      "url": "https://gipublishing.org/index.php/jis/article/view/115",
+      "publication": "30June2026 journal page",
+      "discovery_date": null,
+      "join_exists": "stated synthesis of existing reports",
+      "join_missing": "new artifact-level measurement and inscription pairing",
+      "status": "synthesis_not_qualifying_in_screened_record",
+      "fulltext_reviewed": false
+    }
+  ],
+  "raw_sources": [
+    {
+      "path": "data/raw/new-anchor-2026-asi-report60.pdf",
+      "bytes": 17063708,
+      "sha256": "b6defc2423ef2f2805f7e5a5a5f807af03aa6997990dac3c950cec48634dd3e6",
+      "kind": "original_publisher_PDF",
+      "url": "https://asi.nic.in/admin/publications/ePublicationReportsDetails/download/60",
+      "resolved_url": "https://asi.nic.in/admin/publications/ePublicationReportsDetails/download/60",
+      "status": "pending_parent_registration"
+    },
+    {
+      "path": "data/raw/new-anchor-2026-asi-report60.pdf.headers.json",
+      "bytes": 1157,
+      "sha256": "8a00d063eede2a3bd54919bbd9271f9bbf4262149b50f0d36bed4d67b68b11e8",
+      "kind": "locally_serialized_HTTP_response_headers",
+      "url": "https://asi.nic.in/admin/publications/ePublicationReportsDetails/download/60",
+      "resolved_url": "https://asi.nic.in/admin/publications/ePublicationReportsDetails/download/60",
+      "status": "pending_parent_registration"
+    },
+    {
+      "path": "data/raw/new-anchor-2026-bahaj.pdf",
+      "bytes": 2210116,
+      "sha256": "db6c36c06fadf39c3d86e7ff073580eba3bfeca782eba7138f2735ec3b8f8ed1",
+      "kind": "original_publisher_PDF",
+      "url": "https://bssspublications.com/PublishedPaper/Publish_751.pdf?v=639159167669753099",
+      "resolved_url": "https://bssspublications.com/PublishedPaper/Publish_751.pdf?v=639159167669753099",
+      "status": "pending_parent_registration"
+    },
+    {
+      "path": "data/raw/new-anchor-2026-bahaj.pdf.headers.json",
+      "bytes": 317,
+      "sha256": "342eccae7cc3d8d3197db464ba8ca1c473c4387281d8e2bcff7f8e9f0ddb370a",
+      "kind": "locally_serialized_HTTP_response_headers",
+      "url": "https://bssspublications.com/PublishedPaper/Publish_751.pdf?v=639159167669753099",
+      "resolved_url": "https://bssspublications.com/PublishedPaper/Publish_751.pdf?v=639159167669753099",
+      "status": "pending_parent_registration"
+    },
+    {
+      "path": "data/raw/new-anchor-2026-search-results.json",
+      "bytes": 68362,
+      "sha256": "8f490731264aeb66051d16a70bb4536f7fdfec375ad6fdaf580c77a28da54c74",
+      "kind": "web_tool_search_results_serialization_not_HTTP",
+      "url": null,
+      "origin": "exact tool requests and responses embedded in artifact",
+      "status": "pending_parent_registration"
+    },
+    {
+      "path": "data/raw/new-anchor-2026-primary-page-captures.json",
+      "bytes": 68414,
+      "sha256": "f065c0deac8a5d28dbc5ba27b0e6a08cd4bb1677784397781d94827ee2c449a3",
+      "kind": "web_tool_primary_page_extraction_and_errors_not_HTTP",
+      "url": null,
+      "origin": "exact tool requests and responses embedded in artifact",
+      "status": "pending_parent_registration"
+    }
+  ],
+  "pins": [
+    {
+      "path": "docs/DECIPHERMENT_EVIDENCE_GAP_REVIEW.md",
+      "bytes": 16440,
+      "sha256": "9ecefb453465cb5a6726b082b6b35e9106ed690ae0c74b7e888a22c1532ac665"
+    },
+    {
+      "path": "README.md",
+      "bytes": 12386,
+      "sha256": "6277a19b644ec812681c3a412468c9b672f6430382222f678d62bcb4cf2559b6"
+    },
+    {
+      "path": "docs/RESIDUE_ANCHOR_AUDIT.md",
+      "bytes": 5269,
+      "sha256": "20284d02869120ca97c774c75125143df497067e3c866076c611d529dba2e7c7"
+    },
+    {
+      "path": "docs/NEW_EXTERNAL_ANCHOR_SCREEN.md",
+      "bytes": 8057,
+      "sha256": "069d2691b55fc7c55c408a0db1b079956ba6745cfad3d3c455a2abe79611b279"
+    },
+    {
+      "path": "data/processed/new_external_anchor_downloads.json",
+      "bytes": 3027,
+      "sha256": "3a1f97f5d323a868ce866d34d619f715633ab5927d4c15ad1f222af13c159420"
+    },
+    {
+      "path": "results/primary_pages/new-anchor-2026-asi-title.png",
+      "bytes": 146455,
+      "sha256": "940272c04585f2c68f36d1a901ef622e7eb91b4a48cadab41e3955ea6c4a589d"
+    },
+    {
+      "path": "results/primary_pages/new-anchor-2026-bahaj-p44.png",
+      "bytes": 422925,
+      "sha256": "b7a5efa65ed20e1d682e8691b18884d7deb86b1b5c849ba3856b5c1f09b37ef8"
+    }
+  ],
+  "errors": [
+    "ScienceDirect fulltext403; no retry/bypass",
+    "ASI web open too large17063708 bytes; streaming helper succeeded",
+    "Rakhigarhi PDF cache miss; retained primary author fulltext extraction",
+    "Bahaj rendering font-cache warnings; completed image visually checked"
+  ],
+  "no_outreach": true,
+  "old_files_edited": false,
+  "next_test": "Only if a legitimate accessible full Kotada Bhadli2024 version is recovered, seek sampled vessel fieldID\u2192inscription photograph; do not assign content from same-site cooccurrence."
+}

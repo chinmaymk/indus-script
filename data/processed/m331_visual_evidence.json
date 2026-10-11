@@ -1,0 +1,67 @@
+{
+  "artifact": "M-331",
+  "status": "Manual visual review of published photographs; no decipherment",
+  "source": "data/raw/cisi_76884.pdf",
+  "source_sha256": "47a4da4227cfb7baa56d6a561e25797225499d0ec54f5a702a82c67ab4746d4d",
+  "identifier_review": {
+    "pdf_page": 404,
+    "printed_page": 368,
+    "reviewed": true,
+    "excavation_number": "HR 2240",
+    "museum_reference": "NMI 155",
+    "photograph_reference": "HU 1137"
+  },
+  "photographs": {
+    "pdf_page": 120,
+    "printed_page": 84,
+    "reviewed": true,
+    "labelled_faces": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F"
+    ],
+    "faces_with_inscribed_text": [
+      "A",
+      "B",
+      "D",
+      "F"
+    ],
+    "caveat": "Four inscribed faces on a six-face object; do not conflate text-face ordinal with physical-face label."
+  },
+  "local_face_crosswalk": [
+    {
+      "local_row": "2849.1",
+      "cisi_face": "A",
+      "observation": "Two-line text; lower photographic line includes five strokes in two rows, intervening bow-like sign, and four short strokes.",
+      "proposed_source_ordinal": "Side 1"
+    },
+    {
+      "local_row": "2849.2",
+      "cisi_face": "B",
+      "observation": "Curved sign beside one short stroke.",
+      "proposed_source_ordinal": "Side 2"
+    },
+    {
+      "local_row": "2849.4",
+      "cisi_face": "D",
+      "observation": "Three short strokes.",
+      "proposed_source_ordinal": "Side 3"
+    },
+    {
+      "local_row": "2849.3",
+      "cisi_face": "F",
+      "observation": "Compound signs between curved flanks.",
+      "proposed_source_ordinal": "Side 4"
+    }
+  ],
+  "crosswalk_scope": "Local row to physical CISI face is based on sign pattern. Proposed source ordinals inferred from public prose, not verification of Fuls Figure 18.",
+  "unresolved": [
+    "No primary Wells signary authentication of local W899 versus source W900; no global alias applied",
+    "No evidence establishing positional multipliers, addition, or a total on face B",
+    "The full meaning of non-stroke signs remains unknown"
+  ],
+  "established_semantics": []
+}

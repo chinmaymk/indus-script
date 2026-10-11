@@ -1,0 +1,371 @@
+{
+  "review_date": "2026-09-25",
+  "status": "graphical and source audit; no semantic assignment",
+  "source_pages": {
+    "section_4_1": {
+      "pdf": 22,
+      "printed": 16
+    },
+    "section_4_2": {
+      "pdf": 24,
+      "printed": 18
+    },
+    "figure_7": {
+      "pdf": 25,
+      "printed": 19
+    },
+    "section_7_1": {
+      "pdf": 36,
+      "printed": 30
+    },
+    "figure_9": {
+      "pdf": 37,
+      "printed": 31
+    }
+  },
+  "figure7A_labels_in_order": [
+    "K-20",
+    "M-636",
+    "H-155",
+    "H-446",
+    "M-268",
+    "Krs-1",
+    "M-1765",
+    "M-1783",
+    "M-324",
+    "M-324",
+    "H-656",
+    "M-99",
+    "M-46"
+  ],
+  "figure7A_row_count": 13,
+  "figure7A_distinct_label_count": 12,
+  "duplicated_label": "M-324",
+  "nine_more_than_two_known_signs": [
+    "M-636",
+    "H-155",
+    "H-446",
+    "M-268",
+    "Krs-1",
+    "M-1765",
+    "M-1783",
+    "M-99",
+    "M-46"
+  ],
+  "author_four_named_positive_examples": [
+    "M-46",
+    "M-636",
+    "M-1765",
+    "Krs-1"
+  ],
+  "figure7A_candidate_positive_Wcodes": {
+    "M-46": [
+      "W220",
+      "W235",
+      "W240"
+    ],
+    "M-636": [
+      "W220",
+      "W235"
+    ],
+    "M-1765": [
+      "W705"
+    ],
+    "Krs-1": [
+      "W706"
+    ]
+  },
+  "candidate_U_family": {
+    "P": "P316",
+    "M": [
+      "M336"
+    ],
+    "W": [
+      "W704",
+      "W705",
+      "W706",
+      "W707"
+    ],
+    "scope": "Author gold-like candidate, no established meaning; only W705/W706 visually anchored in the named Figure7 examples."
+  },
+  "chain_family": {
+    "P": "P353",
+    "M": [
+      "M415",
+      "M417"
+    ],
+    "W": [
+      "W215",
+      "W216"
+    ],
+    "scope": "Provisional family bridge only; no exact variant crosswalk or meaning assignment. M415 plain three loops; M417 three loops with central vertical stroke."
+  },
+  "H656_note": "Shaded damage in Figure7A; secondary text length 2+?, complete ?, preservation fragment. Not an established originally two-sign inscription.",
+  "figure7B_K20": "Caption KLB-1, ZE10, early Period II, ASI18902; supplied secondary row W216. Distinct from later ZA8 pipe find.",
+  "figure9_observations": [
+    "A joins fish pipe above chain pipe; B photographs fish pipe on left and chain pipe on right.",
+    "Fish outline and irregular three-loop chain are visible; printed sign diagrams are cleaner than incisions.",
+    "No per-pipe registration labels appear in Figure9.",
+    "Page36 quoted source assigns fish21582 and chain21583; secondary K447 fish row instead carries KLB1 21583. Conflict left unresolved pending primary report.",
+    "No beads or closures are depicted with archaeological pipe photos; proposed contents/closures are inference.",
+    "Middle-oval stroke does not establish full-axis sign variant; preserve the published cf. M415/M417 qualification."
+  ],
+  "secondary_rows": [
+    {
+      "id": "1196.1",
+      "cisi": "H-155",
+      "excavation-idno": "H605630",
+      "type": "SEAL:R",
+      "text": "+740-176-001-367-861-216+",
+      "text length": "6",
+      "signs": "6",
+      "complete": "Y",
+      "preservation": "complete"
+    },
+    {
+      "id": "1436.1",
+      "cisi": "H-446",
+      "excavation-idno": "4991034",
+      "type": "SEAL:S",
+      "text": "+740-585-798-002-861-216+",
+      "text length": "6",
+      "signs": "6",
+      "complete": "Y",
+      "preservation": "complete"
+    },
+    {
+      "id": "1571.1",
+      "cisi": "H-656",
+      "excavation-idno": "4276286",
+      "type": "SEAL:S",
+      "text": "+740-215[",
+      "text length": "2+?",
+      "signs": "2",
+      "complete": "?",
+      "preservation": "fragment"
+    },
+    {
+      "id": "1895.1",
+      "cisi": "K-20",
+      "excavation-idno": "KLB1 18902",
+      "type": "SEAL:S",
+      "text": "+151-216+",
+      "text length": "2",
+      "signs": "2",
+      "complete": "Y",
+      "preservation": "fragment"
+    },
+    {
+      "id": "1968.1",
+      "cisi": "Krs-1",
+      "excavation-idno": "-",
+      "type": "SEAL:R",
+      "text": "+215-001-480-306-813-033-060-413-346-706+",
+      "text length": "10",
+      "signs": "10",
+      "complete": "Y",
+      "preservation": "complete"
+    },
+    {
+      "id": "2255.1",
+      "cisi": "M-1765",
+      "excavation-idno": "DK12963111",
+      "type": "SEAL:S",
+      "text": "+215-031-480-140-632-705-002-093-033+",
+      "text length": "9",
+      "signs": "9",
+      "complete": "Y",
+      "preservation": "complete"
+    },
+    {
+      "id": "2315.1",
+      "cisi": "M-1783",
+      "excavation-idno": "DK5641601",
+      "type": "SEAL:S",
+      "text": "+520-442/425-003-002-000-215+",
+      "text length": "7",
+      "signs": "6",
+      "complete": "N",
+      "preservation": "complete"
+    },
+    {
+      "id": "2574.1",
+      "cisi": "M-46",
+      "excavation-idno": "DK12985",
+      "type": "SEAL:S",
+      "text": "+740-798-240-235-002-220-065-215+",
+      "text length": "8",
+      "signs": "8",
+      "complete": "Y",
+      "preservation": "complete"
+    },
+    {
+      "id": "2626.1",
+      "cisi": "M-99",
+      "excavation-idno": "DK6777475",
+      "type": "SEAL:S",
+      "text": "+740-215-002-368-119+",
+      "text length": "5",
+      "signs": "5",
+      "complete": "Y",
+      "preservation": "slightly chipped"
+    },
+    {
+      "id": "2791.1",
+      "cisi": "M-268",
+      "excavation-idno": "DK6390445",
+      "type": "SEAL:S",
+      "text": "+215-001-480-090-820+",
+      "text length": "5",
+      "signs": "5",
+      "complete": "Y",
+      "preservation": "complete"
+    },
+    {
+      "id": "2842.1",
+      "cisi": "M-324",
+      "excavation-idno": "HR 2596252/378",
+      "type": "SEAL:S",
+      "text": "+740-215+",
+      "text length": "2",
+      "signs": "2",
+      "complete": "Y",
+      "preservation": "complete"
+    },
+    {
+      "id": "2842.2",
+      "cisi": "M-324",
+      "excavation-idno": "HR 2596252/378",
+      "type": "SEAL:S",
+      "text": "+740-215+",
+      "text length": "2",
+      "signs": "2",
+      "complete": "Y",
+      "preservation": "complete"
+    },
+    {
+      "id": "3085.1",
+      "cisi": "M-636",
+      "excavation-idno": "DK335619",
+      "type": "SEAL:S",
+      "text": "+527-555-235-220-032-002-000-216+",
+      "text length": "8",
+      "signs": "7",
+      "complete": "N",
+      "preservation": "partly damaged"
+    },
+    {
+      "id": "5350.1",
+      "cisi": "K-446",
+      "excavation-idno": "-",
+      "type": "MISC",
+      "text": "+215+",
+      "text length": "1",
+      "signs": "1",
+      "complete": "Y",
+      "preservation": "complete"
+    },
+    {
+      "id": "5351.1",
+      "cisi": "K-447",
+      "excavation-idno": "KLB1 21583",
+      "type": "MISC",
+      "text": "+220+",
+      "text length": "1",
+      "signs": "1",
+      "complete": "Y",
+      "preservation": "slightly chipped"
+    }
+  ],
+  "review_corrections": [
+    {
+      "initial_inference": "W480 shared by M1765 and Krs1 may be the author gold candidate, giving an omitted M268 positive.",
+      "result": "REJECTED before analysis: page22 explicitly shows U-based glyphs; correct Figure7 candidates W705/W706. W480/P184/M134 is plain caret and is not counted as gold-like."
+    },
+    {
+      "attempt": "Crop Figure7 with system python3 Pillow",
+      "result": "Failed: no PIL; reran successfully using bundled Python."
+    }
+  ],
+  "crop": {
+    "source": "results/primary_pages/pipes-figure-bulletin-25.png",
+    "source_size": [
+      2881,
+      4000
+    ],
+    "box_pixels": [
+      530,
+      1860,
+      1135,
+      2710
+    ],
+    "output": "results/primary_pages/pipes-figure7-table.png"
+  },
+  "evidence_files": [
+    {
+      "path": "data/raw/irc_2025_fish_bulletin.pdf",
+      "bytes": 10858996,
+      "sha256": "af5f67d803a4c8bdda75c27bf113fd67f32cf2a88a680fc5530e3aa334e86a87"
+    },
+    {
+      "path": "data/raw/lipi_inscriptions.csv",
+      "bytes": 1204921,
+      "sha256": "b8dcb325a2e2cd3cde12ac12e7a418b0348e45713c9ee28aad81b645d2ac5ee4"
+    },
+    {
+      "path": "data/processed/catalogue_features.json",
+      "bytes": 189902,
+      "sha256": "00836515c6f3beec28b3b66e13d8a9c6e94571cfb2e9dbb4b148651b7ff0032d"
+    },
+    {
+      "path": "results/irc_2025_fish_bulletin_extracted.txt",
+      "bytes": 101582,
+      "sha256": "d9ae69459984e87aba08fe216729c9577d697185ac74e08c81244d7e1f4a92e4"
+    },
+    {
+      "path": "results/primary_pages/pipes-figure-bulletin-25.png",
+      "bytes": 2373788,
+      "sha256": "6a63213d0290f0347964fc781dad1501abe00c6b3293a41e52aa5492ff6e798a"
+    },
+    {
+      "path": "results/primary_pages/pipes-figure-bulletin-37.png",
+      "bytes": 2705800,
+      "sha256": "15ae3749cf6b1c2c1d3e0a1e267f85964b2bd1f2f723ab033549beac97db4a98"
+    },
+    {
+      "path": "results/primary_pages/pipes-figure7-table.png",
+      "bytes": 286316,
+      "sha256": "4290825ee79501ef9afbc3d3acfe7b639ac40cdfbc9ae55e9a5742800a51459f"
+    },
+    {
+      "path": "results/pipes-figure-bulletin_extraction.json",
+      "bytes": 380,
+      "sha256": "8bd69d30bdcc0544c163962120dcfbe60d674bee2ac1a21d7eb576f64aedc4dc"
+    },
+    {
+      "path": "results/primary_pages/pipes-gold-bulletin-22.png",
+      "bytes": 733489,
+      "sha256": "fbeca4848356f263df6dc2004627f86fceeaa00e0acc31d0cdde0b9535963de2"
+    },
+    {
+      "path": "results/primary_pages/pipes-gold-bulletin-23.png",
+      "bytes": 3909868,
+      "sha256": "220b3032be78dcfc77a5844c3fa6b917adbb5487c6ec3d0fd86a8b5bf887794f"
+    },
+    {
+      "path": "results/primary_pages/pipes-gold-bulletin-24.png",
+      "bytes": 736849,
+      "sha256": "512861b3aaa5827d7d1c4f55a5227d27c1f8fdd0d8d5448fbac679b7ec079e09"
+    },
+    {
+      "path": "results/pipes-gold-bulletin_extraction.json",
+      "bytes": 388,
+      "sha256": "1c08ab2bbb2ef7fdff5f0ed8fa9d00e1201e417027cdbd81b734dff2fd4974d5"
+    },
+    {
+      "path": "results/primary_pages/sign_list-046.png",
+      "bytes": 2099531,
+      "sha256": "a191e9297a6ab8b7cad1028eaeac062b4b6fa3cd34aefbdd507f669d736d2e8e"
+    }
+  ]
+}

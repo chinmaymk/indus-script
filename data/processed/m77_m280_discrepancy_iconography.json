@@ -1,0 +1,184 @@
+{
+  "schema_version": 1,
+  "reviewer": "test_iconography",
+  "review_date": "2026-09-23",
+  "scope": "Three proposed M280 occurrences flagged by the parent. Independent image/inventory comparison; primary table frequency is not the decision criterion.",
+  "source": {
+    "path": "data/raw/mahadevan_1977_text.pdf",
+    "sha256": "6dcdd074a0174e5fab149590fbbf82342711d345764e9763f8e5e92c81cf7f99",
+    "bytes": 119302608
+  },
+  "inventory": {
+    "path": "results/primary_pages/sign_list-045.png",
+    "sha256": "972002b288ea77921dcacfe67386dbf585b76be6bca5444b7ff9422e47e70b89",
+    "bytes": 2312636
+  },
+  "inventory_crop": {
+    "path": "results/primary_pages/m77-m280-iconography-inventory.png",
+    "sha256": "a40beab65d9908f7a8682361e8ce0f6f040664213dae67c9a02f1017231c2f29",
+    "bytes": 427705,
+    "source_pixel_box": [
+      100,
+      1160,
+      1800,
+      1560
+    ],
+    "pdf_page": 45,
+    "printed_page": 34
+  },
+  "records": [
+    {
+      "reference": "3234",
+      "side": "1",
+      "line": "0",
+      "pdf_page": 594,
+      "printed_page": 583,
+      "target_token_index_zero_based": 3,
+      "original_target_token": "M280",
+      "reviewed_target_token": "M283",
+      "recommended_tokens": [
+        "UNKNOWN",
+        "M326",
+        "M328",
+        "M283"
+      ],
+      "full_sequence_primary_checked": false,
+      "target_primary_checked": true,
+      "recommendation": "Recommend replacing M280 with M283; retain leading UNKNOWN from supplied line, which is outside this targeted audit.",
+      "reasons": [
+        "The final diamond has a separate small enclosed cell at its right boundary, absent from M280.",
+        "Its internal stroke runs obliquely down-left rather than forming the small symmetric fork of M280. Numbered M283 combines this oblique internally marked stem with an extra right-hand cell.",
+        "M279 also has an extra right cell, but its interior has two curved descending legs; that morphology is less consistent with the angular oblique stem visible here. M277 lacks the extra right cell.",
+        "The scan blurs the tiny terminal ticks, so rejection of M280 is firmer than the detailed M283 identification. No total-frequency target was used to select the sign."
+      ],
+      "confidence": "High rejection of M280; moderate-to-high M283 identification because fine internal ticks are blurred.",
+      "evidence_path": "results/primary_pages/m77-u-extension-parent-594.png",
+      "evidence": {
+        "path": "results/primary_pages/m77-u-extension-parent-594.png",
+        "sha256": "500d8f5cf460be069fcb33160d253f51937b059629aff7b01e5331646f1ce4ca",
+        "bytes": 1558937
+      },
+      "crop": {
+        "path": "results/primary_pages/m77-m280-iconography-3234.png",
+        "sha256": "42acce4e49ea5cd590aba596a6edf7351af489a3d642ed51588519a2a6b60055",
+        "bytes": 103430,
+        "source_pixel_box": [
+          1020,
+          130,
+          1250,
+          210
+        ],
+        "enlargement_factor": 4,
+        "source": {
+          "path": "results/primary_pages/m77-u-extension-parent-594.png",
+          "sha256": "500d8f5cf460be069fcb33160d253f51937b059629aff7b01e5331646f1ce4ca",
+          "bytes": 1558937
+        }
+      },
+      "additional_crop": {
+        "path": "results/primary_pages/m77-m280-iconography-3234-high.png",
+        "sha256": "40a5f9cb420a6066b896e59b1b14cdda29fa6af0f211aef3979685157e314c4d",
+        "bytes": 109902,
+        "generation": "Primary PDF594 rendered with pdftoppm -scale-to4200; crop rounded coordinates derived from [1010,120,1260,220] at2600px page height, then resized1000x400. Source PDF hash recorded at top level."
+      }
+    },
+    {
+      "reference": "5325",
+      "side": "2",
+      "line": "0",
+      "pdf_page": 593,
+      "printed_page": 582,
+      "target_token_index_zero_based": 0,
+      "original_target_token": "M280",
+      "reviewed_target_token": "M280",
+      "recommended_tokens": [
+        "M280",
+        "M328",
+        "M342"
+      ],
+      "full_sequence_primary_checked": true,
+      "target_primary_checked": true,
+      "recommendation": "Retain M280.",
+      "reasons": [
+        "The diamond has a small top cell with a descending central stem that branches into a short fork; it matches numbered M280.",
+        "No extra enclosed right-edge cell or long oblique stem is visible. M277 lacks the lower fork; M279/M283 introduce an additional right cell."
+      ],
+      "confidence": "High for M280 morphology",
+      "evidence_path": "results/primary_pages/m77-u-extension-parent-593.png",
+      "evidence": {
+        "path": "results/primary_pages/m77-u-extension-parent-593.png",
+        "sha256": "3fc1ce39b88c4f6a400bc84d1f0a0cd4cb89692b3703bebae1986b8cf1c85340",
+        "bytes": 1300153
+      },
+      "crop": {
+        "path": "results/primary_pages/m77-m280-iconography-5325.png",
+        "sha256": "46079d482cc07e0532c20303893a38c0bd9c23305a2ee996359289fb022955ed",
+        "bytes": 68673,
+        "source_pixel_box": [
+          1060,
+          1850,
+          1240,
+          1940
+        ],
+        "enlargement_factor": 4,
+        "source": {
+          "path": "results/primary_pages/m77-u-extension-parent-593.png",
+          "sha256": "3fc1ce39b88c4f6a400bc84d1f0a0cd4cb89692b3703bebae1986b8cf1c85340",
+          "bytes": 1300153
+        }
+      }
+    },
+    {
+      "reference": "4468",
+      "side": "1",
+      "line": "0",
+      "pdf_page": 126,
+      "printed_page": 115,
+      "target_token_index_zero_based": 1,
+      "original_target_token": "M280",
+      "reviewed_target_token": "M280",
+      "recommended_tokens": [
+        "M201",
+        "M280"
+      ],
+      "full_sequence_primary_checked": true,
+      "target_primary_checked": true,
+      "recommendation": "Retain M280.",
+      "reasons": [
+        "Full Texts page authenticates reference4468 with first-line metadata310001. The second glyph is a diamond with a top cell and a short branched central stem.",
+        "The high-resolution crop supports the internal fork of M280, not the simple unbranched stem of M277 or the extra right-edge cell of M279/M283."
+      ],
+      "confidence": "High for M280 morphology",
+      "evidence_path": "results/primary_pages/m77-u-types-numerals-126.jpg",
+      "evidence": {
+        "path": "results/primary_pages/m77-u-types-numerals-126.jpg",
+        "sha256": "f2d035165cce41df3868e6038f2d59fde8a01e1ebcae0fdcf9050e4c17f7dfbd",
+        "bytes": 149554
+      },
+      "crop": {
+        "path": "results/primary_pages/m77-m280-iconography-4468.png",
+        "sha256": "a955108ca6d0615a8e5ef65352fe11e8e61a343b242f36801094fe20380342c1",
+        "bytes": 70228,
+        "source_pixel_box": [
+          260,
+          195,
+          425,
+          295
+        ],
+        "enlargement_factor": 4,
+        "source": {
+          "path": "results/primary_pages/structure-counterpart-hi-126.png",
+          "sha256": "7d5ec324a539c8940da290e66ed0feb5e3f2e5c69084bd1c374c7a9d180f7b27",
+          "bytes": 608361
+        }
+      }
+    }
+  ],
+  "conclusion": "The two clear M280 occurrences are5325/20 and4468/10. The final sign of3234/10 differs visibly and is best matched to M283, with a fine-detail scan-quality qualification. This explains the apparent excess independently of a forced frequency fit.",
+  "limitations": [
+    "The opening UNKNOWN of3234/10 was not assigned an identity in this bounded audit.",
+    "Glyph identities concern Mahadevan editorial drawings, not independent artifact photographs.",
+    "Primary TableI totals were not re-read by this reviewer; parent handles the table check."
+  ],
+  "downloads": []
+}

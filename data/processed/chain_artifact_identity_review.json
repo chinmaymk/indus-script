@@ -1,0 +1,327 @@
+{
+  "review_date": "2026-09-24",
+  "status": "Primary object identities and bounded excavation contexts established; no names, genealogy or absolute dates",
+  "rows": [
+    {
+      "m77_reference": "2463",
+      "site": "Mohenjodaro",
+      "source": "FEM",
+      "source_item": "463",
+      "field_number": "DK7722",
+      "source_printed_page": 383,
+      "source_leaf": 405,
+      "material": "steatite",
+      "type": "B",
+      "dimensions_inches": [
+        1.1,
+        1.1,
+        0.35
+      ],
+      "locus": {
+        "block": "10",
+        "house": "II",
+        "room": "26"
+      },
+      "level_feet": -13.6,
+      "cisi_identifier": null,
+      "museum_number": null
+    },
+    {
+      "m77_reference": "2302",
+      "site": "Mohenjodaro",
+      "source": "FEM",
+      "source_item": "302",
+      "field_number": "DK3463",
+      "source_printed_page": 378,
+      "source_leaf": 400,
+      "material": "steatite",
+      "type": "F",
+      "dimensions_inches": [
+        1.14,
+        0.5,
+        0.35
+      ],
+      "locus": "between blocks3 and4",
+      "level_feet": -10.2,
+      "cisi_identifier": "M-384",
+      "cisi_data_locator": "printed368/PDF404",
+      "museum_number": "ASI63.10.187",
+      "photograph_locator": "CISI1 printed95/PDF131, M-384A/a",
+      "photograph_sources": [
+        "HU842",
+        "HU71/87"
+      ]
+    },
+    {
+      "m77_reference": "4084",
+      "site": "Harappa",
+      "source": "EH",
+      "source_item": "84",
+      "field_number": "474",
+      "source_printed_page": 338,
+      "source_leaf": 364,
+      "material": "blue steatite",
+      "type": "a",
+      "dimensions_inches": [
+        1.1,
+        1.1
+      ],
+      "mound": "F",
+      "depth_below_surface": "7ft3in",
+      "narrative_context": {
+        "source_printed_page": 38,
+        "source_leaf": 64,
+        "stratum": "III",
+        "wall": "31ft east-west wall, centre of trench at squaresK8/5 andJ8/25",
+        "companion_find": "272",
+        "relation": "finds272 and474 on either side of wall; exact side for474 not specified"
+      },
+      "photograph_locator": "EH plateLXXXVIII84, platesPDF184",
+      "cisi_identifier": null,
+      "museum_number": null
+    }
+  ],
+  "mapping_basis": "M77 appendixV printed816/PDF825 and printed818/PDF827 explicitly key publication ranges; never join unqualified integers",
+  "warnings": [
+    "CISI data second column is Finnish Concordance, not general M77 ID",
+    "Levels across different loci/sites do not establish chronological succession",
+    "No independently identified names, word boundaries, absolute dates, or genealogy"
+  ],
+  "excluded_locator_attempts": [
+    "Mackayleaf398 is printed376 and does not contain seal302",
+    "Vatsleaf365 is printed339 and does not contain seal84",
+    "VatsplatesPDF100 is plateXLVI",
+    "M77PDF829/832 are printed820/823, not target range tables",
+    "CISI402/403/405/406 inspected without additional target identification",
+    "CISI photo132 rendered but not visually reviewed"
+  ],
+  "render_commands": [
+    {
+      "source": "mahadevan_1977_text.pdf",
+      "prefix": "chain-artifact-m77",
+      "pages": [
+        825,
+        827,
+        829,
+        832
+      ],
+      "scale": 2600
+    },
+    {
+      "source": "vats_1940_plates_9842.pdf",
+      "prefix": "chain-artifact-vats",
+      "pages": [
+        100
+      ],
+      "scale": 2600
+    },
+    {
+      "source": "vats_1940_plates_9842.pdf",
+      "prefix": "chain-artifact-vats-plate",
+      "pages": [
+        184
+      ],
+      "scale": 3000
+    },
+    {
+      "source": "cisi_76884.pdf",
+      "prefix": "chain-artifact-cisi",
+      "pages": [
+        402,
+        403,
+        405,
+        406
+      ],
+      "scale": 3000
+    },
+    {
+      "source": "cisi_76884.pdf",
+      "prefix": "chain-artifact-cisi-photo",
+      "pages": [
+        130,
+        131,
+        132
+      ],
+      "scale": 2800
+    }
+  ],
+  "crop_boxes": {
+    "data/raw/chain_artifact_mackay_leaf400.jpg": [
+      1100,
+      5050,
+      4800,
+      5720
+    ],
+    "data/raw/chain_artifact_mackay_leaf405.jpg": [
+      500,
+      5050,
+      4250,
+      5640
+    ],
+    "data/raw/chain_artifact_vats_leaf364.jpg": [
+      1000,
+      4650,
+      4700,
+      4920
+    ],
+    "results/primary_pages/chain-artifact-vats-plate-184.png": [
+      820,
+      1480,
+      1135,
+      1820
+    ]
+  },
+  "crop_method": "Pillow crop only, no alteration",
+  "evidence_files": [
+    {
+      "path": "data/processed/consistent_chain_primary_review.json",
+      "bytes": 5170,
+      "sha256": "49d38234780ffab8c9650c6948aa5a3405988ba70347a5db333611be1e07cfe0"
+    },
+    {
+      "path": "data/raw/chain_artifact_mackay_leaf398.jpg",
+      "bytes": 1712653,
+      "sha256": "661b12fe50f8c9b5a77d4bfb86b6204f5cd04395a6296d104b06cdeb560e8de3"
+    },
+    {
+      "path": "data/raw/chain_artifact_mackay_leaf400.jpg",
+      "bytes": 1709064,
+      "sha256": "13a4aaedec242847d33dcf79c127725dec41808f864bc1db1715a3855dea159a"
+    },
+    {
+      "path": "data/raw/chain_artifact_mackay_leaf405.jpg",
+      "bytes": 1813820,
+      "sha256": "06e12e7f91a3da54a322b8891ca6bad49c2d965e4811bce0d33d5c9101c5045b"
+    },
+    {
+      "path": "data/raw/chain_artifact_vats_leaf364.jpg",
+      "bytes": 1986369,
+      "sha256": "e6fd8d717be51cb845c8f2bc0496dcf087cec5666427cd002464136c1929b4c6"
+    },
+    {
+      "path": "data/raw/chain_artifact_vats_leaf365.jpg",
+      "bytes": 1979359,
+      "sha256": "a60a5e6206ef3014cc3c0295c70d0ed9553b6e4c5c256bd415ead4159e414778"
+    },
+    {
+      "path": "data/raw/chain_artifact_vats_leaf64.jpg",
+      "bytes": 2773730,
+      "sha256": "aca5ba92ea7d29bbc6fd64d4cfee7295b8d1ae4c443df6e64f8be23907ffd8ed"
+    },
+    {
+      "path": "data/raw/cisi_76884.pdf",
+      "bytes": 31508998,
+      "sha256": "47a4da4227cfb7baa56d6a561e25797225499d0ec54f5a702a82c67ab4746d4d"
+    },
+    {
+      "path": "data/raw/mahadevan_1977_text.pdf",
+      "bytes": 119302608,
+      "sha256": "6dcdd074a0174e5fab149590fbbf82342711d345764e9763f8e5e92c81cf7f99"
+    },
+    {
+      "path": "data/raw/metal_original_mackay18225_page_numbers.json",
+      "bytes": 142059,
+      "sha256": "e42db27645509f189765152d9fe088a15552f3bfb1cc955cf33b94ad8f49ca2a"
+    },
+    {
+      "path": "data/raw/vats_1940_18220_page_numbers.json",
+      "bytes": 100789,
+      "sha256": "3395ba6126b68a053a6178ef2fca82d641ec1185dcca460304f8d47ba116a5f7"
+    },
+    {
+      "path": "data/raw/vats_1940_plates_9842.pdf",
+      "bytes": 17325993,
+      "sha256": "ab14c5c3a25588d3178789f83ae724eecf7cd873fb28c0a2c639a4dee21b8b18"
+    },
+    {
+      "path": "results/primary_pages/chain-artifact-cisi-402.png",
+      "bytes": 3186059,
+      "sha256": "dd6e896b8becd4ab49c0ac2c0997d9c88ec6cd6bcf6a534af91334c109146001"
+    },
+    {
+      "path": "results/primary_pages/chain-artifact-cisi-403.png",
+      "bytes": 3134230,
+      "sha256": "dc22d351d9aadf699ccf6723c077b451e67ffa2f4bcbe5cbb111d9ce3cc775ac"
+    },
+    {
+      "path": "results/primary_pages/chain-artifact-cisi-405.png",
+      "bytes": 3084686,
+      "sha256": "cb9e83cfdaf4b6dcb5b9ce648b279fb38a1a87b39e96039d62f7078e352b332f"
+    },
+    {
+      "path": "results/primary_pages/chain-artifact-cisi-406.png",
+      "bytes": 3028361,
+      "sha256": "459d0401af4cd4c29ce1669b2506a2dd82fa2a3864203b97c0bd03d4aa71e308"
+    },
+    {
+      "path": "results/primary_pages/chain-artifact-cisi-photo-130.png",
+      "bytes": 2063766,
+      "sha256": "791a49853ffa953ba4b77efc02f339ed2e25a3a80ffdfacb29191eea88f8e327"
+    },
+    {
+      "path": "results/primary_pages/chain-artifact-cisi-photo-131.png",
+      "bytes": 1800647,
+      "sha256": "fe9eb422428c2e0b77e2f4d645902a84808b062e235ba4b2af3ea995cf410daa"
+    },
+    {
+      "path": "results/primary_pages/chain-artifact-cisi-photo-132.png",
+      "bytes": 1650833,
+      "sha256": "52655095b53e2bf922158e03bfc255c127bf0e407c94b3f3601dd2a6701da530"
+    },
+    {
+      "path": "results/primary_pages/chain-artifact-m77-825.png",
+      "bytes": 2174244,
+      "sha256": "6ccffb5bc3aeccb76919ec2dca94c4c84db9c1760fdfd630219ed5d77b505a84"
+    },
+    {
+      "path": "results/primary_pages/chain-artifact-m77-827.png",
+      "bytes": 1715296,
+      "sha256": "367e9c400b92bca24b6b75be9e9d205900c7380e645143fc352fecfdda21332c"
+    },
+    {
+      "path": "results/primary_pages/chain-artifact-m77-829.png",
+      "bytes": 2933399,
+      "sha256": "325cf2961ddc4fef3e1af5e5e90887f9e9dbb205c113ec7eb1efd6096f9cf12d"
+    },
+    {
+      "path": "results/primary_pages/chain-artifact-m77-832.png",
+      "bytes": 2888406,
+      "sha256": "fb9073109c4990270759bc448726861efa49441565c3e01d8926eeac2a6c4cbb"
+    },
+    {
+      "path": "results/primary_pages/chain-artifact-mackay_leaf400-detail.png",
+      "bytes": 936158,
+      "sha256": "f96ef5440eb5a043949213eab3ec8587573045ca59b8e878451b5ac62faaf795"
+    },
+    {
+      "path": "results/primary_pages/chain-artifact-mackay_leaf405-detail.png",
+      "bytes": 926364,
+      "sha256": "2ba84eae0dc1daf3e9838f3476a0774892b7b7fa05d4f9e32cdc8be668b12470"
+    },
+    {
+      "path": "results/primary_pages/chain-artifact-vats-100.png",
+      "bytes": 1937524,
+      "sha256": "63fc45057271356403dc341c0141f19d5195141f839eca46929d7508db8bf31a"
+    },
+    {
+      "path": "results/primary_pages/chain-artifact-vats-plate-184.png",
+      "bytes": 2220562,
+      "sha256": "ad676af0f1cc60326b7d8d78fddbf43d53d380fdfbe6dfa6a8b147281399e131"
+    },
+    {
+      "path": "results/primary_pages/chain-artifact-vats84-photo-detail.png",
+      "bytes": 58334,
+      "sha256": "b680c147229a6f3102febdee00c4ef804c849a3d2ecc44f39269a9221bace72a"
+    },
+    {
+      "path": "results/primary_pages/chain-artifact-vats84-table-detail.png",
+      "bytes": 361710,
+      "sha256": "395f85cb619bad68da32f1c554ebb421f5e2b144c32f7f0d7b3e5bfc194045ba"
+    },
+    {
+      "path": "results/primary_pages/cisi1-404.png",
+      "bytes": 3883517,
+      "sha256": "bc2f8f147744c3fbde4c5be79848b67a25f2e3fd2cad81b75aad703d0879ac7f"
+    }
+  ]
+}

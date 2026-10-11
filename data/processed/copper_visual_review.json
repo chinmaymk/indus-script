@@ -1,0 +1,60 @@
+{
+  "source": "data/raw/cisi_76884.pdf",
+  "sha256": "47a4da4227cfb7baa56d6a561e25797225499d0ec54f5a702a82c67ab4746d4d",
+  "review_date": "2026-09-22",
+  "review_method": "Single visual review of rendered first-copy pages. This locates evidence and records legibility; it is not an independent sign-by-sign transcription.",
+  "objects": [
+    {
+      "cisi": "M-534",
+      "pdf_page": 170,
+      "printed_page": 134,
+      "image": "results/primary_pages/cisi1-170.png",
+      "observation": "A carries a clearly outlined multi-sign text; B carries a large long-eared animal with vegetation. Excavation DK151 is visible on A. These corroborate an inscription/hare-like-motif pairing on one object.",
+      "limit": "Seven W codes are retained from the export, not independently authenticated as exact code identities by the photograph.",
+      "bridge_status": "motif-side pairing located; not a complete authenticated bridge"
+    },
+    {
+      "cisi": "M-593",
+      "pdf_page": 186,
+      "printed_page": 150,
+      "image": "results/primary_pages/cisi1-186.png",
+      "observation": "A has a text with several shapes resembling the M-534 sequence. B is very faint; the composite singleton cannot be resolved sufficiently in this scan. DK10045 is visible on A.",
+      "limit": "Does not independently verify W753 or exact full text equality.",
+      "bridge_status": "reverse authentication unresolved"
+    },
+    {
+      "cisi": "M-585/M-587",
+      "pdf_page": 184,
+      "printed_page": 148,
+      "image": "results/primary_pages/cisi1-184.png",
+      "observation": "B shows a human-like figure with bow/long implements; M-585 B is clearer than M-587 B. A texts are worn and partly obscured.",
+      "limit": "Does not independently authenticate every code in the proposed seven-sign common text.",
+      "bridge_status": "archer motif located; full code equality unresolved"
+    },
+    {
+      "cisi": "M-599",
+      "pdf_page": 187,
+      "printed_page": 151,
+      "image": "results/primary_pages/cisi1-187.png",
+      "observation": "A text and B large U-like composite are visible. The internal and upper details of B are less clear than the reconstructed type figure.",
+      "limit": "L/R text is deliberately excluded by the literal R/L bridge screen. No reversal or W781-to-W777 merger is introduced.",
+      "bridge_status": "located, excluded direction"
+    },
+    {
+      "cisi": "M-604",
+      "pdf_page": 188,
+      "printed_page": 152,
+      "image": "results/primary_pages/cisi1-188.png",
+      "observation": "A and two photographs of B are printed. B includes a large composite with upper branches; details are degraded. The second B image is labelled bis, not a new object.",
+      "limit": "The source condition Good does not itself authenticate the exact W777 identity or full A transcription.",
+      "bridge_status": "located; exact glyph authentication unresolved"
+    }
+  ],
+  "not_located_in_downloaded_volume": [
+    "M-1555",
+    "M-1556",
+    "M-1557",
+    "M-1558"
+  ],
+  "overall": "No complete text-to-singleton-to-animal bridge has been independently authenticated from both artifact photographs in this review. Published reconstructed-type evidence and literal secondary-data matches remain separate."
+}

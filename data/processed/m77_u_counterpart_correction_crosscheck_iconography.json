@@ -1,0 +1,125 @@
+{
+  "schema_version": 1,
+  "reviewer": "test_iconography",
+  "review_date": "2026-09-23",
+  "purpose": "Independent visual check of two corrections proposed by the structure reviewer; no edits to that reviewer ledger.",
+  "source": {
+    "path": "data/raw/mahadevan_1977_text.pdf",
+    "sha256": "6dcdd074a0174e5fab149590fbbf82342711d345764e9763f8e5e92c81cf7f99",
+    "bytes": 119302608
+  },
+  "method": "Compared full primary Texts PDF120/printed109 and enlarged crops directly with explicitly numbered primary sign-list glyphs. Correction alternatives were disclosed in the task, so the review is independent but not blind.",
+  "sign_inventory_evidence": [
+    {
+      "path": "results/primary_pages/sign_list_page_32.png",
+      "sha256": "1e3f91789c947add7ce796479168d84d69636ebdc378493743188ac11c53c90a",
+      "bytes": 982719
+    },
+    {
+      "path": "results/primary_pages/sign_list-044.png",
+      "sha256": "33eff554bfdea81af6d1a3510a5b2541d1b74b02ae1e63b253c725b44c7c0b64",
+      "bytes": 2228064
+    },
+    {
+      "path": "results/primary_pages/sign_list-045.png",
+      "sha256": "972002b288ea77921dcacfe67386dbf585b76be6bca5444b7ff9422e47e70b89",
+      "bytes": 2312636
+    },
+    {
+      "path": "results/primary_pages/sign_list-046.png",
+      "sha256": "a191e9297a6ab8b7cad1028eaeac062b4b6fa3cd34aefbdd507f669d736d2e8e",
+      "bytes": 2099531
+    }
+  ],
+  "records": [
+    {
+      "reference": "4359",
+      "side": "1",
+      "line": "0",
+      "pdf_page": 120,
+      "printed_page": 109,
+      "printed_metadata_code": "210001",
+      "tokens": [
+        "M272",
+        "M402"
+      ],
+      "full_sequence_primary_checked": true,
+      "disputed_token_index_zero_based": 1,
+      "prior_pilot_token": "M178",
+      "reviewed_token": "M402",
+      "result": "supports correction",
+      "confidence": "high for M402 versus M178 morphology",
+      "reasons": [
+        "Printed second sign has one long oblique stem extending above and below a small right-attached triangular flag with internal subdivision. It matches numbered M402 (PDF46, printed35).",
+        "Numbered M178 (PDF44, printed33) is an A-like two-leg form whose right leg ends in small terminal branches. The primary 4359 sign does not have that two-legged outline.",
+        "The rightmost diamond with radiating upper strokes matches numbered M272. RTL-normalized complete line is M272 M402."
+      ],
+      "evidence_path": "results/primary_pages/structure-counterpart-120.jpg",
+      "evidence": {
+        "path": "results/primary_pages/structure-counterpart-120.jpg",
+        "sha256": "5b0e26ad06306a0f2ebde107555fcd3d9f1c4ada7a3f1a8db5417d20629b6f77",
+        "bytes": 114615
+      },
+      "crop": {
+        "path": "results/primary_pages/u-counterpart-correction-iconography-4359.png",
+        "sha256": "6ca0ebef1184cfc4038575dd8db8a15e7320cb638d46763f7674f4a8f7188485",
+        "bytes": 50493,
+        "source_pixel_box": [
+          960,
+          686,
+          1075,
+          743
+        ],
+        "enlargement_factor": 5
+      }
+    },
+    {
+      "reference": "4370",
+      "side": "1",
+      "line": "0",
+      "pdf_page": 120,
+      "printed_page": 109,
+      "printed_metadata_code": "210001",
+      "tokens": [
+        "M391",
+        "M099",
+        "M226",
+        "M254"
+      ],
+      "full_sequence_primary_checked": true,
+      "disputed_token_index_zero_based": 2,
+      "prior_pilot_token": "M216",
+      "reviewed_token": "M226",
+      "result": "supports correction",
+      "confidence": "high for M226 versus M216 morphology",
+      "reasons": [
+        "Printed disputed sign has a closed triangular left portion and two branches extending right. Its upper-right branch has a terminal down-and-up bend, while the lower-right branch is plain and straight. This matches numbered M226 (PDF45, printed34).",
+        "Numbered M216 (PDF44, printed33) has bent terminals on both right branches. The primary 4370 sign does not have the lower terminal bend required for that identification.",
+        "The other glyphs match the spoked oval M391, two short upper-position strokes M099, and offset three-bar enclosure M254. RTL-normalized complete line is M391 M099 M226 M254."
+      ],
+      "evidence_path": "results/primary_pages/structure-counterpart-120.jpg",
+      "evidence": {
+        "path": "results/primary_pages/structure-counterpart-120.jpg",
+        "sha256": "5b0e26ad06306a0f2ebde107555fcd3d9f1c4ada7a3f1a8db5417d20629b6f77",
+        "bytes": 114615
+      },
+      "crop": {
+        "path": "results/primary_pages/u-counterpart-correction-iconography-4370.png",
+        "sha256": "c8c055e0ecfb996e8c57f5c6bedde590200e518646aa60087012049579663e44",
+        "bytes": 73279,
+        "source_pixel_box": [
+          930,
+          1510,
+          1075,
+          1560
+        ],
+        "enlargement_factor": 5
+      }
+    }
+  ],
+  "limits": [
+    "This confirms editorial glyph identity and transcription, not the physical artifact, phonetics, semantics, or equivalence across other sign-numbering systems.",
+    "Enlargement adds no source detail; complete page is retained with reference labels and metadata."
+  ],
+  "downloads": []
+}

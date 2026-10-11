@@ -1,0 +1,50 @@
+{
+  "status": "Exploratory prospective follow-up specification after discovering a fit in three selected examples; not an externally registered or blinded study",
+  "written_date": "2026-09-23",
+  "training_references": [
+    "4548",
+    "4509",
+    "4508"
+  ],
+  "training_graphic_counts": [
+    2,
+    3,
+    4
+  ],
+  "training_nominal_lengths_inches": [
+    "5/16",
+    "3/8",
+    "7/16"
+  ],
+  "candidate_rule": "nominal_length_inches = (graphic_stroke_count + 3)/16",
+  "training_width_inches": "1/4",
+  "hypothesis_scope": "Same mainM048 M342 M176, miniature tablets with two displayed single-line sides; independently authenticate steatite material, actual source identity and source dimensions before inclusion. Do not assume direction or shape mustmatchtraining.",
+  "heldout_reference_candidates": [
+    "4403",
+    "4405",
+    "4476",
+    "4516",
+    "4543"
+  ],
+  "known_auxiliary_counts_before_targeted_dimension_lookup": {
+    "4403": 3,
+    "4405": 3,
+    "4516": 4,
+    "4543": 3
+  },
+  "predicted_lengths_before_targeted_dimension_lookup": {
+    "4403": "3/8",
+    "4405": "3/8",
+    "4516": "7/16",
+    "4543": "3/8"
+  },
+  "unread_target_policy": "4476 stroke count must be independently read before its dimension; record both timestamps/order, including unexpected counts.",
+  "falsification": "One correctly joined, legible, eligible source measurement inconsistent with the exact nominal formula falsifies this restricted rule. Do not changeintercept, slope or subset after seeingthe result. Report rounding and measurement uncertainty separately; cannot callan exactroundednominalmatch physicalprecision.",
+  "independence": "Differentreferencesmaybecopies. Keepmold/engraver/stratacontextsseparate; this isnot a population correlationtest.",
+  "limits": [
+    "The trainingfit does not establish representedquantity.",
+    "A genuine size/countrelation could reflect space needed to engrave strokes, visualdesign or manufacturing classes.",
+    "Tablet length is not vesselcapacity, weight, numberof goods or an exchangevalue.",
+    "Do not use a failed length rule to reject every numerical interpretation."
+  ]
+}

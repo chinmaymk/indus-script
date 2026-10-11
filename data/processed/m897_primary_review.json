@@ -1,0 +1,99 @@
+{
+  "review_date": "2026-09-25",
+  "review_mode": "Source-exposed visual review of original excavation report; no physical autopsy",
+  "secondary_cisi": "M-897",
+  "secondary_row": "3302.1",
+  "raw_text": "+527-550-235-002-817+",
+  "raw_preservation": "fragment",
+  "raw_complete": "Y",
+  "primary": {
+    "fem_seal_number": 545,
+    "field_number": "DK9111",
+    "table_page": 386,
+    "table_leaf": 408,
+    "photo_plate": "XCVII",
+    "photo_leaf": 207,
+    "type": "B",
+    "material": "steatite",
+    "dimensions_inches": [
+      0.95,
+      0.82,
+      0.29
+    ],
+    "block": "8",
+    "house": "II",
+    "room": "18",
+    "level_feet": -16.2
+  },
+  "verified": {
+    "FEM545_to_DK9111": true,
+    "numbered_FEM545_impression": true,
+    "CISI2_metadata": false,
+    "primary_Mahadevan_alias": false,
+    "original_seal_photo": false,
+    "capped_fish_visible": true,
+    "five_broad_groups_compatible": true,
+    "fine_W550_identity": false
+  },
+  "fine_sign_disposition": "Unresolved: raw W550 retained; damaged W555 neither demonstrated nor excluded by this reproduction",
+  "recommended_sensitivity": "Exclude source-preservation fragments separately from raw complete=Y analysis",
+  "semantic_value": null,
+  "phonetic_value": null,
+  "evidence_files": [
+    {
+      "path": "data/raw/m897_mackay_leaf408.jpg",
+      "bytes": 1817507,
+      "sha256": "d60f927b51e7e06244472bf1509a595cb1291dd423ba40cfc0e5084f62124ced"
+    },
+    {
+      "path": "data/raw/ending_fem_plates_leaf207.jpg",
+      "bytes": 2638720,
+      "sha256": "0f8b2cb8ae125b6764f4c45443584e964d4a68cb2745ffa671dc39d0ab3a20d2"
+    },
+    {
+      "path": "data/raw/lipi_inscriptions.csv",
+      "bytes": 1204921,
+      "sha256": "b8dcb325a2e2cd3cde12ac12e7a418b0348e45713c9ee28aad81b645d2ac5ee4"
+    },
+    {
+      "path": "results/primary_pages/m897-fem545.png",
+      "bytes": 206782,
+      "sha256": "d07fd9f32a1329e170de18bfe85bf37611178772dfee3abf34493ada661a5140"
+    },
+    {
+      "path": "results/primary_pages/m897-table545.png",
+      "bytes": 222689,
+      "sha256": "ddfaade8583711ba024aee91b02b9695bf3e0de47f9ac7610ed0ff5b01bb9cd8"
+    },
+    {
+      "path": "results/primary_pages/ending-india-m133-original.png",
+      "bytes": 273289,
+      "sha256": "9fac9ce0acaf92326e9803695b0f8c9e59c7064c7162d34acd3af5507c14baeb"
+    },
+    {
+      "path": "results/primary_pages/ending-india-l89-pair.png",
+      "bytes": 158514,
+      "sha256": "c9489378e86948fcd8082ec6383093663a84169a4fe28c6d5e32c8e464bb5a3b"
+    },
+    {
+      "path": "scripts/render_m897_crops.py",
+      "bytes": 568,
+      "sha256": "11487f332914cc0d47453183eb2fc4d4fb34525b2ea25b3d759e6ebd0d7502d5"
+    },
+    {
+      "path": "scripts/download_m897_sources.py",
+      "bytes": 821,
+      "sha256": "ff36a0a42f1cc4163f88d7ef09be691053a00b83e38fc8ec0d4ed6712a622357"
+    },
+    {
+      "path": "data/processed/m897_new_sources.json",
+      "bytes": 332,
+      "sha256": "ea98001dcc66a1299bf59c5f934faf0fdeed3122c04b7fa0b6f2d7a92751e054"
+    },
+    {
+      "path": "docs/M897_PRIMARY_REVIEW.md",
+      "bytes": 4888,
+      "sha256": "82a553478e3983ed3d2ebda1411a6ad237906d3e0194dbe3bd87639e65d371d6"
+    }
+  ]
+}

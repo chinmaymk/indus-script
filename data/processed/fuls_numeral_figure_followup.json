@@ -1,0 +1,187 @@
+{
+  "schema_version": 1,
+  "scope": "At most four targeted queries: exactly four executed; direct exposed author links only.",
+  "outcome": "bounded_negative_for_figures_16_and_18_pixels",
+  "images_inspected": [],
+  "source_label": "900",
+  "same_author_label_in_two_arguments": true,
+  "graphic_identity_verified": false,
+  "source_ID3786_equals_H904_verified": false,
+  "source900_equals_local_W899_verified": false,
+  "global_alias_applied": false,
+  "source": "https://www.researchgate.net/publication/373522958_Ancient_Writing_and_Modern_Technologies_-_Structural_Analysis_of_Numerical_Indus_Inscriptions",
+  "source_upload_date": "2023-08-31",
+  "source_publication_label": "January2020",
+  "pagination": {
+    "bibliography": "57\u201390",
+    "new_web_extraction_start": "15",
+    "PDF_pagination_visually_verified": false,
+    "offset_inferred": false
+  },
+  "evidence": [
+    {
+      "locator": "web lines152\u2013160",
+      "finding": "Extended Wells sign list stated."
+    },
+    {
+      "locator": "extracted p26, web lines546\u2013563",
+      "finding": "Sign900 discussed with repeated forms904,914,908; numerical meaning is author hypothesis."
+    },
+    {
+      "locator": "extracted p30, web lines675\u2013688",
+      "finding": "ID3786 explicitly assigned sign900 in the two-face equation."
+    },
+    {
+      "locator": "extracted p32, web lines769\u2013806",
+      "finding": "M331 Side2 explicitly assigned sign900 in total hypothesis."
+    },
+    {
+      "locator": "Figure11 public landing page",
+      "finding": "Page identifies Figure11 although route uses fig5; image404. No graphic inspected."
+    }
+  ],
+  "fetch_attempts": [
+    {
+      "metadata": {
+        "path": "data/processed/fetch_fuls-numeral-figure-author-attachment_pdf.json",
+        "bytes": 890,
+        "sha256": "b22ff35fed12c6236b95ba95afb1efdf6433b1ffb672cf514de85d29bd5a3456"
+      },
+      "record": {
+        "url": "https://www.academia.edu/attachments/62075458/download_file?s=profile",
+        "retrieval_started_utc": "2026-09-28T17:10:14.956289+00:00",
+        "response_complete": true,
+        "http_status": 403,
+        "response_body_received": true,
+        "resolved_url": "https://www.academia.edu/attachments/62075458/download_file?s=profile",
+        "header_artifact": {
+          "path": "data/raw/fuls-numeral-figure-author-attachment.pdf.headers.json",
+          "bytes": 2340,
+          "sha256": "54ce8eb90c7b47c67e7497ddcb55001d59ad003621ee94d6515a2731d24606aa",
+          "kind": "locally_serialized_HTTP_response_headers"
+        },
+        "kind": "complete_error_response_body_not_requested_research_content",
+        "path": "data/raw/fuls-numeral-figure-author-attachment.pdf.partial",
+        "bytes": 5639,
+        "sha256": "77b3cc18bbc7a6b8f9a735ac0145789f5ce4bbda763d9acc56558e52986be867",
+        "retrieval_ended_utc": "2026-09-28T17:10:15.167576+00:00"
+      }
+    },
+    {
+      "metadata": {
+        "path": "data/processed/fetch_fuls-numeral-figure-author-new-deposit_html.json",
+        "bytes": 1045,
+        "sha256": "1ab43f1f147ab137de6aaf6b77b5b5cc2e6a883632c31e51812c662abb0c2162"
+      },
+      "record": {
+        "url": "https://www.researchgate.net/publication/373522958_Ancient_Writing_and_Modern_Technologies_-_Structural_Analysis_of_Numerical_Indus_Inscriptions",
+        "retrieval_started_utc": "2026-09-28T17:09:33.892354+00:00",
+        "response_complete": true,
+        "http_status": 403,
+        "response_body_received": true,
+        "resolved_url": "https://www.researchgate.net/publication/373522958_Ancient_Writing_and_Modern_Technologies_-_Structural_Analysis_of_Numerical_Indus_Inscriptions",
+        "header_artifact": {
+          "path": "data/raw/fuls-numeral-figure-author-new-deposit.html.headers.json",
+          "bytes": 1921,
+          "sha256": "6c2cdd6feae50e7036d5db3b962c2c2581a9ce540d6315728d95cfa3b76afb7e",
+          "kind": "locally_serialized_HTTP_response_headers"
+        },
+        "kind": "complete_error_response_body_not_requested_research_content",
+        "path": "data/raw/fuls-numeral-figure-author-new-deposit.html.partial",
+        "bytes": 23560,
+        "sha256": "d6c043d7743d5b4212a91161292538c5d1c9a63f13560c4700ce3c3a9196b642",
+        "retrieval_ended_utc": "2026-09-28T17:09:34.017994+00:00"
+      }
+    }
+  ],
+  "other_failures": [
+    "RG new-deposit PDF button: web internal error",
+    "Figure11 image: web404, exposed URL retained in capture; no guessed URL correction",
+    "Figure11 download link: cache miss",
+    "Academia author profile attachment62075458: cache miss, then completeHTTP403 retained"
+  ],
+  "raw_sources": [
+    {
+      "path": "data/raw/fuls-numeral-figure-author-attachment.pdf.partial",
+      "bytes": 5639,
+      "sha256": "77b3cc18bbc7a6b8f9a735ac0145789f5ce4bbda763d9acc56558e52986be867",
+      "kind": "complete_error_response_body_not_requested_research_content",
+      "url": "https://www.academia.edu/attachments/62075458/download_file?s=profile",
+      "http_status": 403
+    },
+    {
+      "path": "data/raw/fuls-numeral-figure-author-attachment.pdf.headers.json",
+      "bytes": 2340,
+      "sha256": "54ce8eb90c7b47c67e7497ddcb55001d59ad003621ee94d6515a2731d24606aa",
+      "kind": "locally_serialized_HTTP_response_headers",
+      "url": "https://www.academia.edu/attachments/62075458/download_file?s=profile"
+    },
+    {
+      "path": "data/raw/fuls-numeral-figure-author-new-deposit.html.partial",
+      "bytes": 23560,
+      "sha256": "d6c043d7743d5b4212a91161292538c5d1c9a63f13560c4700ce3c3a9196b642",
+      "kind": "complete_error_response_body_not_requested_research_content",
+      "url": "https://www.researchgate.net/publication/373522958_Ancient_Writing_and_Modern_Technologies_-_Structural_Analysis_of_Numerical_Indus_Inscriptions",
+      "http_status": 403
+    },
+    {
+      "path": "data/raw/fuls-numeral-figure-author-new-deposit.html.headers.json",
+      "bytes": 1921,
+      "sha256": "6c2cdd6feae50e7036d5db3b962c2c2581a9ce540d6315728d95cfa3b76afb7e",
+      "kind": "locally_serialized_HTTP_response_headers",
+      "url": "https://www.researchgate.net/publication/373522958_Ancient_Writing_and_Modern_Technologies_-_Structural_Analysis_of_Numerical_Indus_Inscriptions"
+    },
+    {
+      "path": "data/raw/fuls-numeral-figure-search.json",
+      "bytes": 34661,
+      "sha256": "2e7684c6e51d5f2046efec78d1fe9c922fd5ce7a1e14d48a38443b7f2f41e74c",
+      "kind": "web_tool_result_serialization_not_HTTP_body",
+      "url": null
+    },
+    {
+      "path": "data/raw/fuls-numeral-figure-primary-captures.json",
+      "bytes": 96784,
+      "sha256": "5f05f0791778f99f49b4409ed5d4a2ff3bfe27dba0dc5a161570138f50c0ba9b",
+      "kind": "web_tool_result_serialization_not_HTTP_body",
+      "url": null
+    }
+  ],
+  "prior_pins": [
+    {
+      "path": "docs/NUMERAL_EQUATIONS.md",
+      "bytes": 6184,
+      "sha256": "ad09336b345d5d9a4e92d5194d86cc585ab8ff54be1420f782b569aae1abc70b"
+    },
+    {
+      "path": "docs/NUMERAL_IMAGES.md",
+      "bytes": 5637,
+      "sha256": "30c8b4148f6a44c5906349fe77825ead76e360ebcf20a7ca954ef2180b37b02c"
+    },
+    {
+      "path": "data/processed/numeral_source_search.json",
+      "bytes": 1696,
+      "sha256": "dbff8e5a513b609a50270287debcb9dc15682c4596233203205c33c57ad0567f"
+    },
+    {
+      "path": "data/processed/numeral_equation_claims.json",
+      "bytes": 2047,
+      "sha256": "f286e0aa6a4dcf69bf9d9fbe0dc93db0e4c783e931376194b28a234e390f3b80"
+    },
+    {
+      "path": "data/processed/m331_visual_evidence.json",
+      "bytes": 2085,
+      "sha256": "87764a7a7ef79f423c993a890083283a370be98302070488e91f3fac4c7ca8b2"
+    }
+  ],
+  "review_doc": {
+    "path": "docs/FULS_NUMERAL_FIGURE_FOLLOWUP.md",
+    "bytes": 4869,
+    "sha256": "8d52b529e079c6b35a81a6026ee1f6c0108d46660442c5851d6b75b60292fc97"
+  },
+  "limitations": [
+    "Text attribution is not physical sign identity.",
+    "No new contents anchor, numerical semantics or total confirmed.",
+    "No target PDF or figure pixels recovered.",
+    "No conclusion that public images do not exist."
+  ]
+}

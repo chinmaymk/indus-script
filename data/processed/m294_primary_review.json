@@ -1,0 +1,71 @@
+{
+  "review_mode": "Source-exposed image review; no physical autopsy",
+  "object": {
+    "cisi": "M-294",
+    "finnish_number": "1376",
+    "excavation_number": "HR4212e",
+    "museum_number": "ASI63.10.378",
+    "photo_reference": "HU448",
+    "metadata_printed_page": 368,
+    "metadata_pdf_page": 404,
+    "photo_printed_page": 71,
+    "photo_pdf_page": 107,
+    "views": [
+      "A",
+      "a"
+    ],
+    "observations": [
+      "The impression shows an ending-shaped sign at left, fish-shaped sign in middle, three short strokes at right. Original and impression are mirrored; clipping is original-right/impression-left beside the ending-shaped sign, not beside the strokes.",
+      "The animal scenes are visibly truncated at the clipped edge; complete original inscription length is not established by the photograph.",
+      "Secondary exact transcription W740 W220 W003 is compatible with local visible forms; fine catalogue variant identities are not independently certified."
+    ],
+    "established_complete_original_text": false
+  },
+  "navigation_attempts": [
+    "Metadata PDF403 is printed367 M101\u2013272 and lacks M294; correct metadataPDF404 printed368 verified."
+  ],
+  "evidence_files": [
+    {
+      "path": "data/raw/cisi_76884.pdf",
+      "bytes": 31508998,
+      "sha256": "47a4da4227cfb7baa56d6a561e25797225499d0ec54f5a702a82c67ab4746d4d"
+    },
+    {
+      "path": "data/raw/lipi_inscriptions.csv",
+      "bytes": 1204921,
+      "sha256": "b8dcb325a2e2cd3cde12ac12e7a418b0348e45713c9ee28aad81b645d2ac5ee4"
+    },
+    {
+      "path": "data/raw/irc_2025_fish_bulletin.pdf",
+      "bytes": 10858996,
+      "sha256": "af5f67d803a4c8bdda75c27bf113fd67f32cf2a88a680fc5530e3aa334e86a87"
+    },
+    {
+      "path": "results/primary_pages/m294-cisi-107.png",
+      "bytes": 1757431,
+      "sha256": "daa4464620e49da66f0752c8f252268d03fdde0a1cd5326807e7c233c4b83643"
+    },
+    {
+      "path": "results/primary_pages/m294-cisi-403.png",
+      "bytes": 2463435,
+      "sha256": "4119536b943747b4be445952932c9f61ec445ede73e6eccb764e68fd07dbac1c"
+    },
+    {
+      "path": "results/primary_pages/m294-cisi-404.png",
+      "bytes": 2495298,
+      "sha256": "24e78611862871f02346b3fe0b3fe3bb3baf724d0ab40bce71cd566d92786a2f"
+    },
+    {
+      "path": "results/m294-cisi_extraction.json",
+      "bytes": 409,
+      "sha256": "73f8a498eb7a0c463276fdc6c649d1fd7c6d7c6dc8be195bfd306ed939facaec"
+    }
+  ],
+  "parent_additional_page_checks": [
+    "Visually checked volI printed194 rawm294_marshall722_leaf236.jpg: beneathfloor and includedfragmentseal376 explicit.",
+    "Visually checked volII printed522 render: Hoard3 HR4212a,Room8HouseVIIIBlock2SectionB,6ftdepth, goldsmith-remelting inference explicit."
+  ],
+  "corrections": [
+    "Initial parent observation conflated original and impression edge: said impression right/stroke-side clipped. Independent review corrected this to impression-left/ending-side. Relevant possible missing extension is reading-suffix under reported R/L. No actual lost sign established."
+  ]
+}

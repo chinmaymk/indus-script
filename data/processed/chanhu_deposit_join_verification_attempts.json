@@ -1,0 +1,11 @@
+{
+  "stage": "first independent verification before producer refreshed final register annotations",
+  "register_sha256": "8da9684265a7094abf5505134f1053814d3f6032ed8fa04f8e13d02c398ca081",
+  "producer_register_sha256": "8da9684265a7094abf5505134f1053814d3f6032ed8fa04f8e13d02c398ca081",
+  "failed_checks": [
+    "producer input hash data/processed/chanhu_deposit_seal_register.json",
+    "all full join rows"
+  ],
+  "differences": "register pin plus newly added primary.notes on LI.12,LI.31,LII.15; no join decisions/counts/provenance values differed",
+  "action": "parent notified to refresh producer output against final register"
+}

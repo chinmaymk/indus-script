@@ -1,0 +1,78 @@
+{
+  "scope": "independent visual verification of historical report; conditional counterexample, not statistical test",
+  "printed_page": 91,
+  "source_statement": {
+    "container_type": "trough",
+    "container_register": "470",
+    "square": "M12/13",
+    "goblets_reported": 2,
+    "goblet_form": "pointed bases",
+    "each_stamped_with_same_seal": true,
+    "plate_reference": "CII,21",
+    "proposed_potter_name": "author conjecture only"
+  },
+  "conditional_inference": {
+    "premise": "The report accurately describes two distinct goblets sharing a stamp design.",
+    "contradicted_claim": "That stamp design alone uniquely identifies each individual physical vessel.",
+    "formal_reason": "A != B and design(A) == design(B), so design is not injective on physical vessels."
+  },
+  "not_excluded": [
+    "owner identifier",
+    "maker or workshop identifier",
+    "batch identifier",
+    "class identifier",
+    "additional distinguishing marks or information",
+    "accidental impression differences"
+  ],
+  "individual_goblet_field_numbers": [
+    null,
+    null
+  ],
+  "cisi_aliases": [
+    null,
+    null
+  ],
+  "m77_texts": [
+    null,
+    null
+  ],
+  "later3262_reference": "same page and same plate reference do not by themselves identify3262 as one of this pair",
+  "plate_inspected": false,
+  "new_downloads": 0,
+  "established_semantic_values": 0,
+  "established_phonetic_values": 0,
+  "all_417_values_remain_null": true,
+  "crop": {
+    "source": "data/raw/capacity-context-vats-leaf117.jpg",
+    "output": "results/primary_pages/repeated-goblet-p91-first-paragraph.png",
+    "box_xyxy": [
+      650,
+      970,
+      4400,
+      1790
+    ],
+    "operation": "native rectangular crop only"
+  },
+  "evidence_files": [
+    {
+      "path": "data/raw/capacity-context-vats-leaf117.jpg",
+      "bytes": 2623937,
+      "sha256": "8ab56e2b2e416378105c89579e842a220a77199b6a43e6d85737f09913d7df08"
+    },
+    {
+      "path": "results/primary_pages/repeated-goblet-p91-first-paragraph.png",
+      "bytes": 1903458,
+      "sha256": "1b8cc8b65d442828e608bc93b0daee826a87ae286b6edbdbf1d5ba0834093592"
+    },
+    {
+      "path": "docs/REPEATED_GOBLET_STAMP_REVIEW.md",
+      "bytes": 2168,
+      "sha256": "f8ed27df077c3e537c3889bfa03d5471d3a09cc1f4325b433e7730ef23c24f63"
+    },
+    {
+      "path": "scripts/persist_repeated_goblet_stamp_review.py",
+      "bytes": 2374,
+      "sha256": "067095a1157997184a33a587d9a82b5f996b3f91eea790194d8856c41d03e482"
+    }
+  ]
+}

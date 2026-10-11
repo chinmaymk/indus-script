@@ -1,0 +1,101 @@
+{
+  "crosswalk_scope": "Web-extracted catalogue references; illustrations not inspected",
+  "evidence_sha256": {
+    "data/processed/bahrain_gelb_p2_extract.txt": "78dd2d60a2da8253949085fe21e83541647de4d392e0cf3c3eff26b16bbecc80",
+    "data/processed/bahrain_parent_parpola_text.txt": "1544f8be70ca7c8c275af733627913a971394b70e18642fa2452b7e0de9ac3d1",
+    "data/raw/bahrain_2026_author_post.html": "b2b17a4464cfb1e6d363645313e07b71367f0bc315051b72048c06569a51bfe2",
+    "data/raw/bahrain_2026_first_page.png": "8b7cf3b64bcaa18a924d299b323a5afa3daee34e5ba075b14dab963ef0a62d3f",
+    "data/raw/bahrain_2026_unibo.html": "237b23a9e90a16d6a36406005c17100c922a4122362ea9e74850ca9b9b4cdb78",
+    "data/raw/bahrain_context_web_capture.json": "6bc6aa926bbfdd5792b6a519fddeba94f81396b20a7195a8cfc7c1405ccc3be5",
+    "data/raw/bahrain_gelb_1980_as21.pdf": "7577395b6a51d71859652b8b4ca2bd408d26f873ae18054cbfd53705682a4b75",
+    "data/raw/bahrain_gelb_landing.html": "f4f5681264b3e0f342b4373b7fca9ffe6dfc34ca34ef8af6833f2dd64ae90b7c",
+    "data/raw/bahrain_laursen_web_capture.json": "f057ee410cd419fe0f22acdd39ea6cb77dc5514d85dbb17e6ee7eaff6c584e51",
+    "data/raw/umma_old_parpola_1994.pdf": "fd133822f9999c86178a32208465e847c5288b578ad14ca2cd643efe57f0e0b6",
+    "results/primary_pages/bahrain-gelb-18.png": "dbbfbfe18094187651ee05ed76aeb79ad1fde4ab8f3759c771d23266a2283d27",
+    "results/primary_pages/bahrain_parpola-29.png": "4ef3e372e8b7d6d08b50b60a4cce3c747e11fd3bf61d0fb7ec31b911808b88c5",
+    "results/primary_pages/yale-parpola-148.png": "02af76c5ac3b228989c2ff423de5e1056a1980d67179d88f0033cda488b3bba1"
+  },
+  "gulf_seal_catalogue_crosswalk": [
+    {
+      "kjaerum_1994_figure": 1726,
+      "laursen_2010": 6,
+      "site": "Qalaat al-Bahrain"
+    },
+    {
+      "alsindi_1999": 279,
+      "kjaerum_1994_figure": 1725,
+      "laursen_2010": 7,
+      "site": "Qalaat al-Bahrain"
+    },
+    {
+      "kjaerum_1983": 279,
+      "laursen_2010": 13,
+      "site": "Failaka"
+    }
+  ],
+  "new_phonetic_values": 0,
+  "new_semantic_values": 0,
+  "old_tablet": {
+    "associated_seal_id": null,
+    "distance": {
+      "indexed_horizontal_metres": 0.5,
+      "reason": "Indexed SindQuarterly1983p53 unit corrupted; original403. Neither 3cm nor300 accepted.",
+      "relative_depth": null,
+      "verified_primary_measurement": false
+    },
+    "excavation_id": null,
+    "published_reading": [
+      {
+        "item": "obverse1",
+        "text": "1 Ia-a-bi-na-im"
+      },
+      {
+        "item": "obverse2",
+        "text": "1 DINGIR-mi-il-kum"
+      },
+      {
+        "item": "reverse3",
+        "text": "1 I-zi-ta-am-bu"
+      },
+      {
+        "item": "reverse4",
+        "text": "DUMU I-a-bi-na-im"
+      }
+    ],
+    "relationship": "Three people; third is son of first.",
+    "source_basis": "Rough copy brought from Denmark by Juris Zarins; no autopsy asserted by Gelb"
+  },
+  "review_fingerprint_counts": {
+    "data/processed/bahrain_2026_review.json": 4,
+    "data/processed/bahrain_parent_review.json": 6,
+    "data/processed/bahrain_tablet_context_review.json": 5
+  },
+  "review_sha256": {
+    "data/processed/bahrain_2026_review.json": "812d778862b2f7f2ae42488c4cf36df4fdba9093a59a8e78c71589699a0b7f43",
+    "data/processed/bahrain_parent_review.json": "b40c95dcbda37f725c95731d790ceca76cd13a6c6aa0501b64e5d872dcd9b887",
+    "data/processed/bahrain_tablet_context_review.json": "ef5adfb70c0a6bfe63dac904fdf10b1a5771808d9d5ed10c6e817484ce8af3b2"
+  },
+  "status": "No independently authenticated cuneiform-to-Indus alignment",
+  "tokens_2026": {
+    "epigraphy_from_abstract": {
+      "comparison_title": "servant of Inzak of Agaš",
+      "exact_inscription_transliteration": null,
+      "inscribed_seal_count": 2,
+      "name": "Yaglī-’el",
+      "object_accessions": [],
+      "rendered_title": "servant of the goddess Panipa",
+      "same_person_as_vessel_king": "Question explicitly raised by abstract; outcome not in abstract",
+      "token_count": 3
+    },
+    "full_article_recovered": false,
+    "indus_anchor": {
+      "authenticated_indus_sequence": null,
+      "conclusion": "No Indus translation anchor established in accessible evidence; not a claim that the unrecovered complete paper contains no relevant comparanda.",
+      "matched_mahadevan_id": null,
+      "new_semantic_or_phonetic_values": 0,
+      "same_owner_or_text_alignment_with_indus": null
+    }
+  },
+  "unique_evidence_files": 13,
+  "verification_scope": "Exact file integrity and reproducible extraction; not cuneiform collation or proof of an interpretation"
+}

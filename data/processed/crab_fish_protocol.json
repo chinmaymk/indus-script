@@ -1,0 +1,10 @@
+{
+  "status":"Exploratory audit of an already published hypothesis; fixed before new occurrence/context counts",
+  "claim_source":"Parpola2009 printed50/PDF14: crab+fish reported three times; shared subsequent part on CISI M387/M57 suggested as support for synonymy with crab alone",
+  "attribution_limits":["Author claims a shared subsequent part, not identical preceding text","Author does not state that every crab occurrence must accompany fish","Phonetic kooL/miin and semantic planet interpretations remain attributed hypotheses"],
+  "main_literal_candidates":{"crab":"W798","fish_on_M57":"W231","source_family_mapping":{"W798":"P075/M053 many-W family, not exact allograph equivalence","W231":"P056/M070","W220":"P050/M059 plain fish","W032":"P145/M087","W226":"P051/M060"}},
+  "count_rules":["Search every raw row for exact token occurrences, never bridge uncertainty or line delimiters","Reading-following neighbor for reported R/L is file-left; do not silently reverse L/R or unknown cases","Keep strict membership, condition, completeness, object identity and author exposure","Report W798->W231 and W798->W220 separately","Related crab W193/W797 sensitivity stays separate; do not pool as established allographs","Optional simple-fish-family sensitivity uses P050,P051,P056 throughP064, excluding enclosing-compound and bird-fish P052-P055/P065; report exact codes separately"],
+  "suffix_control":{"file_prefix":["W226","W032"],"reading_suffix":["W032","W226"],"rules":"All strict records with literal prefix; enumerate next-one and next-two-sign alternatives, preserve entire earlier text; do not interpret shared suffix as semantic equality"},
+  "M77_control":{"target":"M053","pair":["M053","M070"],"rules":"Query both orders in existing full-context all-sign expansion results; report broad and strict branches, no alias merging or semantic equation"},
+  "source_checks":"Inspect CISI photographs for M57/M387 and exact paper page; object labels control identity, catalogue variants not inferred from guessed visual semantics"
+}

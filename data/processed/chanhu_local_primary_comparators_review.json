@@ -1,0 +1,289 @@
+{
+  "review_date": "2026-09-28",
+  "scope": "Three physical objects, source-exposed graphic review; no semantics or new global crosswalk.",
+  "fixed_family": [
+    "P050",
+    "P051",
+    "P056",
+    "P057",
+    "P058",
+    "P059",
+    "P060",
+    "P061",
+    "P062",
+    "P063",
+    "P064"
+  ],
+  "objects": [
+    {
+      "excavation": "CH3215",
+      "alias": "C74",
+      "alias_status": "exact secondary field+LI14 join; original CISI C74 not independently inspected",
+      "plate": "LI.14",
+      "square": "9/B",
+      "locus": "283",
+      "level_ft": 6.9,
+      "visible_fixed_family_status": "no securely identified member",
+      "observed_shape": "Asymmetric stem/limbs with side bow-like structure; no securely closed fish body.",
+      "whole_original_text_certified_complete": false,
+      "source_asserted_shape_comparison": {
+        "W125": [
+          "P035",
+          "M028"
+        ]
+      },
+      "damage_limit": "Mackay impression boundary does not establish original-edge completeness."
+    },
+    {
+      "excavation": "CH3207",
+      "alias": "C17",
+      "alias_status": "CISI1 p374 fieldnumber and CE LI22 explicit",
+      "plate": "LI.22",
+      "square": "9/B",
+      "locus": "442",
+      "level_ft": 7.7,
+      "visible_fixed_family_status": "no securely identified member",
+      "observed_shape": "Tall form with diverging lower strokes, hanging lateral strokes and upper extensions beside U; no closed fish body.",
+      "whole_original_text_certified_complete": false,
+      "source_asserted_shape_comparison": {
+        "W100": [
+          "P009",
+          "M008"
+        ]
+      },
+      "damage_limit": "Irregular original left outline and top details meeting boundary; no pristine completeness certified."
+    },
+    {
+      "excavation": "CH2285",
+      "alias": "C22",
+      "alias_status": "CISI1 p375 fieldnumber and CE LI15 explicit",
+      "plate": "LI.15",
+      "square": "9/D",
+      "locus": "215",
+      "level_ft": 10.4,
+      "visible_fixed_family_status": "no securely identified member in preserved field",
+      "original_whole_text_fixed_family_status": "unknown_due_to_face_loss",
+      "observed_shape": "Plain oval/leaf loop and upright/forked marks survive; upper corner is physically lost.",
+      "whole_original_text_certified_complete": false,
+      "damage_limit": "Upper-right corner in original A / upper-left in mirrored a bis. Loss is part of inscribed face, not authenticated missing second face.",
+      "export_flag_explanation": "complete=N consistent with observed loss; reason for exporterflag not independently known."
+    }
+  ],
+  "secondary_rows_selected_fields_only": [
+    {
+      "id": "76.1",
+      "cisi": "C-74",
+      "excavation-idno": "CH 3215Pl. LI:14",
+      "preservation": "complete",
+      "complete": "Y",
+      "condition": "Fair",
+      "sides": "1",
+      "text": "+125-002-861+"
+    },
+    {
+      "id": "105.1",
+      "cisi": "C-17",
+      "excavation-idno": "CH 3207Pl. LI:22",
+      "preservation": "complete",
+      "complete": "Y",
+      "condition": "Good",
+      "sides": "1",
+      "text": "+740-100+"
+    },
+    {
+      "id": "109.1",
+      "cisi": "C-22",
+      "excavation-idno": "CH 2285Pl. LI:15",
+      "preservation": "complete",
+      "complete": "N",
+      "condition": "Good",
+      "sides": "1",
+      "text": "+440-390-032/368-390-790+"
+    }
+  ],
+  "controls_post_selection": [
+    {
+      "raw_code": "W790",
+      "source_asserted_feature": "P355",
+      "candidate_M": [
+        "M261",
+        "M373",
+        "M374"
+      ],
+      "graphic_presence": "secure_plain_oval_leaf",
+      "exact_M_assignment": null,
+      "qualification": "Broad sourceasserted mapping; no exact M value established."
+    },
+    {
+      "raw_code": "W368",
+      "source_asserted_feature": "P202",
+      "candidate_M": [
+        "M402"
+      ],
+      "graphic_presence": "partial_compatible_remnant_only",
+      "exact_M_assignment": null,
+      "qualification": "Break intersects shaft/wing-like form; full triangular perimeter and divisions uncertain. Export presence not independently fully authenticated."
+    }
+  ],
+  "research_log": [
+    {
+      "attempt": "Small Mackay image",
+      "result": "Preliminary false fish-like suggestions for LI14/22 withdrawn after native crop and primary sign comparisons."
+    },
+    {
+      "attempt": "Original CISI identity/photo recovery",
+      "result": "C17 and C22 explicit joins secured. C74 kept secondary alias plus original Mackay bridge."
+    },
+    {
+      "attempt": "C22 completeness",
+      "result": "Original and later impression reveal lost uppercorner; old rectangular impression does not certify intact face."
+    },
+    {
+      "attempt": "Post-selection control review",
+      "result": "W790 graphic secure; W368 partial and not certain from photographs. Frozen statistics unchanged."
+    }
+  ],
+  "new_downloads": [],
+  "evidence_files": [
+    {
+      "path": "docs/CHANHU_LOCAL_PRIMARY_COMPARATORS_REVIEW.md",
+      "bytes": 7861,
+      "sha256": "f62326653ac490e966d74fa821e96e78428b1baaff98f0600132825de233453d"
+    },
+    {
+      "path": "scripts/render_chanhu_local_comparators.py",
+      "bytes": 2027,
+      "sha256": "e0b5eb6be491a610a5780ddd050be5394f85fe2042423b4cc874552fdab80b11"
+    },
+    {
+      "path": "data/processed/chanhu_local_comparators_crop_manifest.json",
+      "bytes": 3742,
+      "sha256": "8c4162a4ddf921c98b25bb46ec5cf997c15280bf982ccc13d0d98801949914b7"
+    },
+    {
+      "path": "data/raw/cisi_76884.pdf",
+      "bytes": 31508998,
+      "sha256": "47a4da4227cfb7baa56d6a561e25797225499d0ec54f5a702a82c67ab4746d4d"
+    },
+    {
+      "path": "data/raw/mahadevan_1977.pdf",
+      "bytes": 36288883,
+      "sha256": "afa32284c375b4f501a4c38efba7806b64765f041db07b22ea2e56f7205f0f67"
+    },
+    {
+      "path": "data/raw/lipi_inscriptions.csv",
+      "bytes": 1204921,
+      "sha256": "b8dcb325a2e2cd3cde12ac12e7a418b0348e45713c9ee28aad81b645d2ac5ee4"
+    },
+    {
+      "path": "data/processed/candidate_crosswalk.csv",
+      "bytes": 44758,
+      "sha256": "446b340bded5fe70b344ecfc79f6ab8a83d6b121c022a8ba267841dfed57ad44"
+    },
+    {
+      "path": "data/processed/catalogue_features.json",
+      "bytes": 189902,
+      "sha256": "00836515c6f3beec28b3b66e13d8a9c6e94571cfb2e9dbb4b148651b7ff0032d"
+    },
+    {
+      "path": "results/primary_pages/sign_list-045.png",
+      "bytes": 2312636,
+      "sha256": "972002b288ea77921dcacfe67386dbf585b76be6bca5444b7ff9422e47e70b89"
+    },
+    {
+      "path": "results/primary_pages/sign_list-046.png",
+      "bytes": 2099531,
+      "sha256": "a191e9297a6ab8b7cad1028eaeac062b4b6fa3cd34aefbdd507f669d736d2e8e"
+    },
+    {
+      "path": "data/raw/chanhu_context_leaf416.jpg",
+      "bytes": 2185869,
+      "sha256": "87299acfe422f7b67a29d61c720983a5d16240e5ea5e44471bc92cefe8aec17e"
+    },
+    {
+      "path": "data/raw/chanhu_context_leaf312.jpg",
+      "bytes": 2468783,
+      "sha256": "8c60faf3c99fd9a6b9670a4f25851cfadace630805fdd778bd55ab216c0595ff"
+    },
+    {
+      "path": "results/primary_pages/chanhu-local-hi-367.png",
+      "bytes": 2785963,
+      "sha256": "b85b0938a6b3829cc632f6620880456ee0f29e2cf8eaaf0c75af964ebe97135c"
+    },
+    {
+      "path": "results/primary_pages/chanhu-local-hi-368.png",
+      "bytes": 3006674,
+      "sha256": "b26b80396def3ba74fee3f5459c3c6f7d8db940e2aad40023bcb2a485785de41"
+    },
+    {
+      "path": "results/primary_pages/chanhu-local-cisi410.png",
+      "bytes": 2346930,
+      "sha256": "08304fe67c96c56c6dbb4121c7cdaa38bd0dd16119499d7b862aa017537b693e"
+    },
+    {
+      "path": "results/primary_pages/chanhu-local-cisi411.png",
+      "bytes": 2992503,
+      "sha256": "82b5bc4c2a4734e1e638d628874418516d66c13d049f11042d763b3e921e28dc"
+    },
+    {
+      "path": "results/primary_pages/sign_list_page_32.png",
+      "bytes": 982719,
+      "sha256": "1e3f91789c947add7ce796479168d84d69636ebdc378493743188ac11c53c90a"
+    },
+    {
+      "path": "results/primary_pages/chanhu-local-LI14.png",
+      "bytes": 202489,
+      "sha256": "e673cf1cd879af614c8cdc073bfc23d24128f0a7ff5e24eb0f40ada3756c3924"
+    },
+    {
+      "path": "results/primary_pages/chanhu-local-LI15.png",
+      "bytes": 304744,
+      "sha256": "55a27aa24977dcbb6ba8c7d3f74aa617b4d235ad9f2cf4a5f173a4502f610b76"
+    },
+    {
+      "path": "results/primary_pages/chanhu-local-LI22.png",
+      "bytes": 247328,
+      "sha256": "7d4d2cbe57ea1428d87fff5f36a1af4bf14e75b5ba913ad39934f6b845156315"
+    },
+    {
+      "path": "results/primary_pages/chanhu-local-catalogue14-15.png",
+      "bytes": 759080,
+      "sha256": "df6974238ab3c9e856472ab3ba41530b4915618a3f76e92ad8646f1ce73801e1"
+    },
+    {
+      "path": "results/primary_pages/chanhu-local-catalogue22.png",
+      "bytes": 309694,
+      "sha256": "a3620fef88fb99c024d31659346e49637cf5e9a91c5ca4190767c5b33dd88202"
+    },
+    {
+      "path": "results/primary_pages/chanhu-local-C17.png",
+      "bytes": 434518,
+      "sha256": "36c171d2b14180ba2e7db8d3e7e19599b777d64b6749fe6b0d5c2eee3a9e1b79"
+    },
+    {
+      "path": "results/primary_pages/chanhu-local-C22.png",
+      "bytes": 1120695,
+      "sha256": "58dea73d1dffba2b69abed22e2d506299f1bc24ff46f8675729e21843a05fea8"
+    },
+    {
+      "path": "results/primary_pages/chanhu-local-C17-metadata.png",
+      "bytes": 34647,
+      "sha256": "ae4e908415d4692dbee7d2c6c423ab06402050918f4435013b27bebd226f3b8e"
+    },
+    {
+      "path": "results/primary_pages/chanhu-local-C22-metadata.png",
+      "bytes": 37342,
+      "sha256": "602706f163fd6ea846528de07be3d6c0f2bb10f0f170b465ddae5a17e62e02a7"
+    },
+    {
+      "path": "results/primary_pages/chanhu-local-M008.png",
+      "bytes": 8056,
+      "sha256": "b1583ca5a99931323f27c92239b1cbfa8c96bcee580d51d59c3c53b8e61c0c95"
+    },
+    {
+      "path": "results/primary_pages/chanhu-local-M028.png",
+      "bytes": 10016,
+      "sha256": "80b77f38daa45737f4766a228fea15132022d3e8c1e5c0933a9b9e42237b2d39"
+    }
+  ]
+}

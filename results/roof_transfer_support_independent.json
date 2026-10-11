@@ -1,0 +1,16 @@
+{
+  "verified_root_support_pools": 100,
+  "review_revision_pins_verified": 6,
+  "strict_flags_independently_reconstructed": 2906,
+  "independent_grouping": "BFS over reference/formula adjacency",
+  "independent_edges": "All opposite-state occurrence pairs",
+  "all_417_null_values_verified": true,
+  "monotonicity_lemma": "Purge removes vertices/edges. A root failing the two-disjoint-edge gate cannot pass after purge. Fewer than three marginally passing roots implies every declared fold fails.",
+  "semantic_claim": null,
+  "input_sha256": {
+    "results/roof_transfer_support.json": "4cc5fb4b56729515496b248b0ebe1dbb3803790e8972afdc0f401d81843c3de5",
+    "scripts/verify_roof_transfer_support.py": "734261cdf818467f03a017b416d0aa3303118f19d1725c360fe14af784b57409",
+    "docs/ROOF_TRANSFER_SUPPORT_DESIGN.md": "630ba61ce044e449fc0f71ba2d6134db84ef2a63539a1c3cf17f9536394f456a",
+    "docs/ROOF_TRANSFER_SUPPORT_CODE_REVIEW.md": "4b88239d41a56433bfbb54e6f15b18194ff8c2a272f6a55278f45cdf6ca7d4c2"
+  }
+}

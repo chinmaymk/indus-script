@@ -1,0 +1,32 @@
+{
+  "status": "exploratory; designed after source inspection; not preregistered",
+  "source_columns": [
+    "id",
+    "cisi",
+    "type",
+    "site",
+    "condition",
+    "dir.",
+    "class",
+    "signs",
+    "complete",
+    "text",
+    "symbol",
+    "cult"
+  ],
+  "scope": "Mohenjo-daro rows catalogued TAB:C; not assumed identical to Parpola incised/painted copper category",
+  "literal_parser": "Reuse parse_lipi; additionally permit NR only for a literal one-token text. No variant merging, direction reversal, or inferred missing signs.",
+  "donor": "Exactly one retained singleton row and one retained longer-text row on an artifact, distinct IDs, and no retained motif-bearing row. This counts qualified source rows, not an authenticated physical-face inventory.",
+  "match": "Donor longer text exactly equals motif-bearing text on a different artifact; keep literal source labels including Othr without translating them.",
+  "missing_motif_labels": [
+    "",
+    "-",
+    "--",
+    "?",
+    "None",
+    "Unknown"
+  ],
+  "deduplication": "Count distinct donor artifacts and distinct recipient artifacts; retain recipient row IDs. Duplicate source rows do not become independent artifacts.",
+  "sensitivity": "Repeat requiring Good or Fair condition on every retained contributing row. Quality is source metadata, not independent visual verification.",
+  "inference_limit": "Bridges associate motifs with entire shared texts and singleton reverses. They cannot identify a particular sign in the longer text as the animal name. Source-derived and reconstructed evidence is not independent replication."
+}

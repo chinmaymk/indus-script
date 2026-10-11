@@ -1,0 +1,207 @@
+{
+  "date": "2026-09-28",
+  "scope": "Five-query bounded public official museum/library source follow-up; no outreach or restricted access.",
+  "queries": [
+    {
+      "q": "(\"Chanhu-daro\" OR Chanhudaro) (\"2428\" OR \"2285\" OR \"2529\" OR \"3215\" OR \"3207\")",
+      "domains": [
+        "penn.museum",
+        "collections.mfa.org",
+        "harappa.com",
+        "nationalmuseumindia.gov.in",
+        "asi.nic.in"
+      ]
+    },
+    {
+      "q": "(\"63.12.16\" OR \"63.12.29\") seal",
+      "domains": [
+        "asi.nic.in",
+        "nationalmuseumindia.gov.in",
+        "indianculture.gov.in",
+        "museumsofindia.gov.in"
+      ]
+    },
+    {
+      "q": "(\"Chanhu-daro\" OR Chanhudaro) (\"object card\" OR \"field card\" OR \"register\") digitized",
+      "domains": [
+        "penn.museum",
+        "library.upenn.edu",
+        "archives.upenn.edu",
+        "collections.mfa.org"
+      ]
+    },
+    {
+      "q": "Chanhudaro",
+      "domains": [
+        "collections.mfa.org"
+      ]
+    },
+    {
+      "q": "\"Chanhu\" seal",
+      "domains": [
+        "collections.penn.museum"
+      ]
+    }
+  ],
+  "queries_total": 5,
+  "query_limit": 5,
+  "target_records": [
+    {
+      "excavation": "CH2428",
+      "public_fieldcard_inspected": false,
+      "independently_maintained_target_record_located": false,
+      "result": "not_located_in_bounded_search_not_global_absence"
+    },
+    {
+      "excavation": "CH2285",
+      "public_fieldcard_inspected": false,
+      "independently_maintained_target_record_located": false,
+      "result": "not_located_in_bounded_search_not_global_absence"
+    },
+    {
+      "excavation": "CH2529CC",
+      "public_fieldcard_inspected": false,
+      "independently_maintained_target_record_located": false,
+      "result": "not_located_in_bounded_search_not_global_absence"
+    },
+    {
+      "excavation": "CH3215",
+      "public_fieldcard_inspected": false,
+      "independently_maintained_target_record_located": false,
+      "result": "not_located_in_bounded_search_not_global_absence"
+    },
+    {
+      "excavation": "CH3207",
+      "public_fieldcard_inspected": false,
+      "independently_maintained_target_record_located": false,
+      "result": "not_located_in_bounded_search_not_global_absence"
+    }
+  ],
+  "HU_clarification": {
+    "source": "CISI1 printed366 PDF402",
+    "HU": "Helsinki University, Department of Asian and African Studies; photographs taken by Eija Lahdenper\u00e4 for CISI",
+    "column4": "holding museum and registration numbers",
+    "column5": "photograph source",
+    "HU817_HU804_are_museum_accessions": false,
+    "image_verified": true
+  },
+  "non_target_object_record": {
+    "url": "https://collections.penn.museum/collections/object/329820",
+    "repository": "Penn Museum",
+    "object_number": "L-141-177",
+    "MFA_number": "36.0967",
+    "field_numbers_as_listed": [
+      "3051",
+      "2558"
+    ],
+    "matched_any_target": false,
+    "independent_museum_page": true,
+    "underlying_record_image_inspected": false,
+    "new_deposit_metadata": false,
+    "warning": "Preserve dual fieldnumbers as written; no identity merge inferred."
+  },
+  "tested_urls": [
+    "https://collections.penn.museum/collections/object/329820",
+    "https://collections.penn.museum/collections/archives/",
+    "https://collections.penn.museum/collections/archives/findingaid/552843",
+    "https://collections.penn.museum/collections/archives/findingaid/552839"
+  ],
+  "access_failures": [
+    {
+      "url": "https://collections.penn.museum/collections/archives/findingaid/552843",
+      "tool_result": "400 Timeout fetching"
+    },
+    {
+      "url": "https://collections.penn.museum/collections/archives/findingaid/552839",
+      "tool_result": "Cache miss"
+    }
+  ],
+  "search_limitations": [
+    "Batched responses do not label every result by individualquery.",
+    "First domainlist inadvertently included harappa.com; no result fromit opened or used.",
+    "No applicable MFA result is not exhaustive catalogue absence.",
+    "Search errors do not establish physicalrecord absence."
+  ],
+  "success": "HU photographic-provenance disambiguation; public non-target Penn object record found.",
+  "failure": "No five-target fieldcard or independent accession-linked source content recovered.",
+  "research_log": [
+    {
+      "attempt": "Review prior archivefindingaid and identifiers",
+      "result": "Specific cards not previously inspected; use accession and exactfieldnumbers."
+    },
+    {
+      "attempt": "Five targeted queries and bounded officialpage followups",
+      "result": "No targetrecord; non-target L-141-177 and findingaid pointers only."
+    },
+    {
+      "attempt": "Read primary CISIkey",
+      "result": "HU is Helsinki photographic source, not objectholdingmuseum."
+    },
+    {
+      "attempt": "Preserve sources and stop",
+      "result": "Allwebtoolresponses captured indata/raw; no new HTTPbodydownload, nooutreach."
+    }
+  ],
+  "evidence_files": [
+    {
+      "path": "data/raw/chanhu-public-records-web-capture.json",
+      "bytes": 83002,
+      "sha256": "d402c61808d9cb1444c9bb8566b3e8ba9858ce597b5b5fabfd560246b85899e8"
+    },
+    {
+      "path": "docs/CHANHU_PUBLIC_RECORDS_FOLLOWUP.md",
+      "bytes": 5475,
+      "sha256": "5f10326f437e731eb8750102ac3cf6d736db784d5099d1b398ce498fabd18727"
+    },
+    {
+      "path": "docs/CHANHU_FIELDCARD_ARCHIVE_SEARCH.md",
+      "bytes": 4330,
+      "sha256": "1bc95200bf5a053b788615d65a2e239a2d81dc76cb23d0752d8587f52efef0e3"
+    },
+    {
+      "path": "data/processed/chanhu_fieldcard_archive_search.json",
+      "bytes": 9530,
+      "sha256": "30e8f3e2cd158483a37dc1856fc1e6bec03d95f258dd4ac9e3503223e0c35f75"
+    },
+    {
+      "path": "data/processed/chanhu_public_records_new_sources.json",
+      "bytes": 814,
+      "sha256": "0a47b00f76ca740d83e8a17faed50bcb7aa2b54261f398f2577661861616cd4b"
+    },
+    {
+      "path": "data/raw/cisi_76884.pdf",
+      "bytes": 31508998,
+      "sha256": "47a4da4227cfb7baa56d6a561e25797225499d0ec54f5a702a82c67ab4746d4d"
+    },
+    {
+      "path": "results/primary_pages/capacity-h370-key-abbreviations.png",
+      "bytes": 164291,
+      "sha256": "87033da3d02cc9b28ba565fe7972196e17b65cc4ce0c479e895584ef167f5dcd"
+    },
+    {
+      "path": "results/primary_pages/capacity-h370-key-column345.png",
+      "bytes": 95715,
+      "sha256": "51b4e0aa4a4beee9e510f614af5da21da3318d1c4f0918527cd118cf9b822805"
+    },
+    {
+      "path": "results/primary_pages/capacity-h370-source-402.png",
+      "bytes": 1434718,
+      "sha256": "e2bdc845a2199ca2f1eb62567438d8d48b9bcaf9dfa22b27273afc1e75fc14cf"
+    },
+    {
+      "path": "scripts/render_capacity_h370_crops.py",
+      "bytes": 1355,
+      "sha256": "f17526fb5234cc3026741431d2298ecb4ec980c18e42203a7c06a6b527f2dc49"
+    },
+    {
+      "path": "data/processed/capacity_h370_crop_manifest.json",
+      "bytes": 3289,
+      "sha256": "c3c10727e6ae9c896636cbe37056bd62c852034d26be24ae8f18006a00aa0f5d"
+    },
+    {
+      "path": "data/processed/chanhu_local_primary_comparators_review.json",
+      "bytes": 9935,
+      "sha256": "84ba816e10ed13373425a23b76f48551ae01d5cfb9f11f871912640ba41370e7"
+    }
+  ]
+}

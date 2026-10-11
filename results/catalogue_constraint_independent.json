@@ -1,0 +1,5553 @@
+{
+  "schema_version": 1,
+  "passed": true,
+  "failed_checks": [],
+  "scope": "Independent reconstruction of ten recorded local targets and finite-model verification; no new primary-image authentication or global catalogue conversion.",
+  "independence": "No producer import. Targets reconstructed from named reviews plus selected raw metadata columns. Set-based function/relation construction and exhaustive subsets find inclusion-minimal contradictions.",
+  "reconstructed_core_assertions": [
+    {
+      "id": "M63_W550",
+      "W": "W550",
+      "M": [
+        "M216"
+      ],
+      "review": "data/processed/pincer_primary_review.json",
+      "primary_object_reference": "DK8333/M77:3068",
+      "source_field": "local_target_correspondences"
+    },
+    {
+      "id": "M63_W555",
+      "W": "W555",
+      "M": [
+        "M222"
+      ],
+      "review": "data/processed/pincer_primary_review.json",
+      "primary_object_reference": "DK8333/M77:3068",
+      "source_field": "local_target_correspondences"
+    },
+    {
+      "id": "L89_W555",
+      "W": "W555",
+      "M": [
+        "M222"
+      ],
+      "review": "data/processed/ending_mapping_review.json",
+      "primary_object_reference": "15337/M77:7090",
+      "source_field": "catalogue_conflict.observed_ending_W/primary_comparison_M"
+    },
+    {
+      "id": "L89_W527",
+      "W": "W527",
+      "M": [
+        "M254"
+      ],
+      "review": "data/processed/ending_mapping_review.json",
+      "primary_object_reference": "15337/M77:7090",
+      "source_field": "primary_artifact_bridge.finding and final candidate target; raw L89 comb code"
+    },
+    {
+      "id": "MIC158_W526",
+      "W": "W526",
+      "M": [
+        "M254"
+      ],
+      "review": "data/processed/comb_variation_review.json",
+      "primary_object_reference": "DM50/MIC158/M77:1158",
+      "source_field": "comb-context target plus nested m934 primary review/raw row3329.1; qualified alias"
+    },
+    {
+      "id": "M81_W617",
+      "W": "W617",
+      "M": [
+        "M245",
+        "M245"
+      ],
+      "review": "data/processed/double_grid_primary_review.json",
+      "primary_object_reference": "C3133/MIC180/M77:1180",
+      "source_field": "span_alignment"
+    },
+    {
+      "id": "M-1390_W525",
+      "W": "W525",
+      "M": [
+        "M254"
+      ],
+      "review": "data/processed/w525_primary_review.json",
+      "primary_object_reference": "DK8489/M77:2868",
+      "source_field": "cases[].local_W525_to with supported status"
+    },
+    {
+      "id": "H-774_W525",
+      "W": "W525",
+      "M": [
+        "M254"
+      ],
+      "review": "data/processed/w525_primary_review.json",
+      "primary_object_reference": "Ab473/M77:4672",
+      "source_field": "cases[].local_W525_to with supported status"
+    },
+    {
+      "id": "MIC60_W195",
+      "W": "W195",
+      "M": [
+        "M054"
+      ],
+      "review": "data/processed/m735_primary_review.json",
+      "primary_object_reference": "C3070/MIC60/M77:1060",
+      "source_field": "local_target/local_M"
+    },
+    {
+      "id": "EH261_W554",
+      "W": "W554",
+      "M": [
+        "M226"
+      ],
+      "review": "data/processed/h133_w554_primary_review.json",
+      "primary_object_reference": "8360/EH261/M77:4261",
+      "source_field": "target_correspondence only"
+    }
+  ],
+  "uncertain_sensitivity_assertion": {
+    "id": "FEM545_W550_uncertain",
+    "W": "W550",
+    "M": [
+      "M222"
+    ],
+    "review": "data/processed/m897_mapping_review.json",
+    "primary_object_reference": "DK9111/FEM545/M77:2545"
+  },
+  "outcomes": {
+    "core_local_targets": {
+      "bijective_single": {
+        "satisfiable_on_these_assertions": false,
+        "minimal_contradiction_sets": [
+          [
+            "M81_W617"
+          ],
+          [
+            "H-774_W525",
+            "L89_W527"
+          ],
+          [
+            "H-774_W525",
+            "MIC158_W526"
+          ],
+          [
+            "L89_W527",
+            "M-1390_W525"
+          ],
+          [
+            "L89_W527",
+            "MIC158_W526"
+          ],
+          [
+            "M-1390_W525",
+            "MIC158_W526"
+          ]
+        ],
+        "all_minimal_sets_are_singletons_or_pairs": true,
+        "possible_subsets": 1024
+      },
+      "deterministic_single": {
+        "satisfiable_on_these_assertions": false,
+        "minimal_contradiction_sets": [
+          [
+            "M81_W617"
+          ]
+        ],
+        "all_minimal_sets_are_singletons_or_pairs": true,
+        "possible_subsets": 1024
+      },
+      "deterministic_span": {
+        "satisfiable_on_these_assertions": true,
+        "minimal_contradiction_sets": [],
+        "all_minimal_sets_are_singletons_or_pairs": true,
+        "possible_subsets": 1024
+      },
+      "span_relation": {
+        "satisfiable_on_these_assertions": true,
+        "minimal_contradiction_sets": [],
+        "all_minimal_sets_are_singletons_or_pairs": true,
+        "possible_subsets": 1024
+      }
+    },
+    "with_uncertain_M897": {
+      "bijective_single": {
+        "satisfiable_on_these_assertions": false,
+        "minimal_contradiction_sets": [
+          [
+            "M81_W617"
+          ],
+          [
+            "FEM545_W550_uncertain",
+            "L89_W555"
+          ],
+          [
+            "FEM545_W550_uncertain",
+            "M63_W550"
+          ],
+          [
+            "FEM545_W550_uncertain",
+            "M63_W555"
+          ],
+          [
+            "H-774_W525",
+            "L89_W527"
+          ],
+          [
+            "H-774_W525",
+            "MIC158_W526"
+          ],
+          [
+            "L89_W527",
+            "M-1390_W525"
+          ],
+          [
+            "L89_W527",
+            "MIC158_W526"
+          ],
+          [
+            "M-1390_W525",
+            "MIC158_W526"
+          ]
+        ],
+        "all_minimal_sets_are_singletons_or_pairs": true,
+        "possible_subsets": 2048
+      },
+      "deterministic_single": {
+        "satisfiable_on_these_assertions": false,
+        "minimal_contradiction_sets": [
+          [
+            "M81_W617"
+          ],
+          [
+            "FEM545_W550_uncertain",
+            "M63_W550"
+          ]
+        ],
+        "all_minimal_sets_are_singletons_or_pairs": true,
+        "possible_subsets": 2048
+      },
+      "deterministic_span": {
+        "satisfiable_on_these_assertions": false,
+        "minimal_contradiction_sets": [
+          [
+            "FEM545_W550_uncertain",
+            "M63_W550"
+          ]
+        ],
+        "all_minimal_sets_are_singletons_or_pairs": true,
+        "possible_subsets": 2048
+      },
+      "span_relation": {
+        "satisfiable_on_these_assertions": true,
+        "minimal_contradiction_sets": [],
+        "all_minimal_sets_are_singletons_or_pairs": true,
+        "possible_subsets": 2048
+      }
+    }
+  },
+  "M_inventory_coverage": [
+    {
+      "M": "M001",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M002",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M003",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M004",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M005",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M006",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M007",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M008",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M009",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M010",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M011",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M012",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M013",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M014",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M015",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M016",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M017",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M018",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M019",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M020",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M021",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M022",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M023",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M024",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M025",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M026",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M027",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M028",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M029",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M030",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M031",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M032",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M033",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M034",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M035",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M036",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M037",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M038",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M039",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M040",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M041",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M042",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M043",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M044",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M045",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M046",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M047",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M048",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M049",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M050",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M051",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M052",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M053",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M054",
+      "local_assertion_ids": [
+        "MIC60_W195"
+      ],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "local catalogue evidence only"
+    },
+    {
+      "M": "M055",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M056",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M057",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M058",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M059",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M060",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M061",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M062",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M063",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M064",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M065",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M066",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M067",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M068",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M069",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M070",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M071",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M072",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M073",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M074",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M075",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M076",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M077",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M078",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M079",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M080",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M081",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M082",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M083",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M084",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M085",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M086",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M087",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M088",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M089",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M090",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M091",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M092",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M093",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M094",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M095",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M096",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M097",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M098",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M099",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M100",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M101",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M102",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M103",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M104",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M105",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M106",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M107",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M108",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M109",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M110",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M111",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M112",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M113",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M114",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M115",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M116",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M117",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M118",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M119",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M120",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M121",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M122",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M123",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M124",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M125",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M126",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M127",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M128",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M129",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M130",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M131",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M132",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M133",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M134",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M135",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M136",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M137",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M138",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M139",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M140",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M141",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M142",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M143",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M144",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M145",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M146",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M147",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M148",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M149",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M150",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M151",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M152",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M153",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M154",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M155",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M156",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M157",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M158",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M159",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M160",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M161",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M162",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M163",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M164",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M165",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M166",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M167",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M168",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M169",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M170",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M171",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M172",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M173",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M174",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M175",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M176",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M177",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M178",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M179",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M180",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M181",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M182",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M183",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M184",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M185",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M186",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M187",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M188",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M189",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M190",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M191",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M192",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M193",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M194",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M195",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M196",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M197",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M198",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M199",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M200",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M201",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M202",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M203",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M204",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M205",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M206",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M207",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M208",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M209",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M210",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M211",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M212",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M213",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M214",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M215",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M216",
+      "local_assertion_ids": [
+        "M63_W550"
+      ],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "local catalogue evidence only"
+    },
+    {
+      "M": "M217",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M218",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M219",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M220",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M221",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M222",
+      "local_assertion_ids": [
+        "M63_W555",
+        "L89_W555"
+      ],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "local catalogue evidence only"
+    },
+    {
+      "M": "M223",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M224",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M225",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M226",
+      "local_assertion_ids": [
+        "EH261_W554"
+      ],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "local catalogue evidence only"
+    },
+    {
+      "M": "M227",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M228",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M229",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M230",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M231",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M232",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M233",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M234",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M235",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M236",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M237",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M238",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M239",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M240",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M241",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M242",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M243",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M244",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M245",
+      "local_assertion_ids": [
+        "M81_W617"
+      ],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "local catalogue evidence only"
+    },
+    {
+      "M": "M246",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M247",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M248",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M249",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M250",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M251",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M252",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M253",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M254",
+      "local_assertion_ids": [
+        "L89_W527",
+        "MIC158_W526",
+        "M-1390_W525",
+        "H-774_W525"
+      ],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "local catalogue evidence only"
+    },
+    {
+      "M": "M255",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M256",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M257",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M258",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M259",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M260",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M261",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M262",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M263",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M264",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M265",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M266",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M267",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M268",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M269",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M270",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M271",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M272",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M273",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M274",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M275",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M276",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M277",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M278",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M279",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M280",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M281",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M282",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M283",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M284",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M285",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M286",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M287",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M288",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M289",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M290",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M291",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M292",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M293",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M294",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M295",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M296",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M297",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M298",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M299",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M300",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M301",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M302",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M303",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M304",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M305",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M306",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M307",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M308",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M309",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M310",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M311",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M312",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M313",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M314",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M315",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M316",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M317",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M318",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M319",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M320",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M321",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M322",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M323",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M324",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M325",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M326",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M327",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M328",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M329",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M330",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M331",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M332",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M333",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M334",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M335",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M336",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M337",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M338",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M339",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M340",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M341",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M342",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M343",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M344",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M345",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M346",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M347",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M348",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M349",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M350",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M351",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M352",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M353",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M354",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M355",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M356",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M357",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M358",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M359",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M360",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M361",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M362",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M363",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M364",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M365",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M366",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M367",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M368",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M369",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M370",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M371",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M372",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M373",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M374",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M375",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M376",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M377",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M378",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M379",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M380",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M381",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M382",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M383",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M384",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M385",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M386",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M387",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M388",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M389",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M390",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M391",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M392",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M393",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M394",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M395",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M396",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M397",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M398",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M399",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M400",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M401",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M402",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M403",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M404",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M405",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M406",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M407",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M408",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M409",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M410",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M411",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M412",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M413",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M414",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M415",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M416",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    },
+    {
+      "M": "M417",
+      "local_assertion_ids": [],
+      "semantic_value": null,
+      "phonetic_value": null,
+      "status": "not constrained by this selected audit"
+    }
+  ],
+  "summary": {
+    "core_local_assertions": 10,
+    "distinct_W_to_span_assertions": 8,
+    "constrained_W_codes": [
+      "W195",
+      "W525",
+      "W526",
+      "W527",
+      "W550",
+      "W554",
+      "W555",
+      "W617"
+    ],
+    "M_members": [
+      "M054",
+      "M216",
+      "M222",
+      "M226",
+      "M245",
+      "M254"
+    ],
+    "M_inventory_members": 417
+  },
+  "checks": [
+    {
+      "check": "pincer selected object identity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "exactly one explicit pincer target W550",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "exactly one explicit pincer target W555",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "L89 explicit object identity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "L89 comb target explicitly stated",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "L89 raw W527 occurs at selected comb end",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "MIC158 old-publication identity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "M934 alias left unverified in frozen input reviews",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "M934 raw selected target and old-publication locator",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "double grid local span only",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "W525 alias qualification M-1390",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "W525 alias qualification H-774",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "conflicting H1123 remains excluded",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "MIC60 old-publication identity",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "M735 secondary raw target retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "M735 alias and row dependency preserved in source",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "H133 target-only scope",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "exactly ten selected targets",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "uncertain M897 source still unresolved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "uncertain M897 W550 remains a secondary unresolved label",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "uncertain target not core",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "reported model definitions match independently tested meanings",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "all ten reconstructed assertions match producer",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "separate sensitivity assertion matches",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "M934 alias qualification retained in output",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "M735 row dependency retained in output",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "minimal sets core_local_targets/bijective_single",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "satisfiability core_local_targets/bijective_single",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "minimal sets core_local_targets/deterministic_single",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "satisfiability core_local_targets/deterministic_single",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "minimal sets core_local_targets/deterministic_span",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "satisfiability core_local_targets/deterministic_span",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "minimal sets core_local_targets/span_relation",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "satisfiability core_local_targets/span_relation",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "minimal sets with_uncertain_M897/bijective_single",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "satisfiability with_uncertain_M897/bijective_single",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "minimal sets with_uncertain_M897/deterministic_single",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "satisfiability with_uncertain_M897/deterministic_single",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "minimal sets with_uncertain_M897/deterministic_span",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "satisfiability with_uncertain_M897/deterministic_span",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "minimal sets with_uncertain_M897/span_relation",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "satisfiability with_uncertain_M897/span_relation",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "all 417 coverage entries and null values match",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "all 417 codes present exactly once",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "no uncertain assertion enters any coverage row",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "deduplication preserves all supporting assertion IDs",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "summary equals independent reconstruction",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "producer input pin data/processed/catalogue_constraint_protocol.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "producer input pin data/processed/comb_variation_review.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "producer input pin data/processed/double_grid_primary_review.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "producer input pin data/processed/ending_mapping_review.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "producer input pin data/processed/h133_w554_primary_review.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "producer input pin data/processed/m735_primary_review.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "producer input pin data/processed/m897_mapping_review.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "producer input pin data/processed/pincer_primary_review.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "producer input pin data/processed/w525_primary_review.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evidence pin data/processed/pincer_primary_review.json -> data/raw/cisi_76884.pdf",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evidence pin data/processed/pincer_primary_review.json -> data/raw/mahadevan_1977_text.pdf",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evidence pin data/processed/pincer_primary_review.json -> data/raw/lipi_inscriptions.csv",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evidence pin data/processed/pincer_primary_review.json -> data/processed/catalogue_features.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evidence pin data/processed/pincer_primary_review.json -> results/primary_pages/chain-signlist-44.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evidence pin data/processed/pincer_primary_review.json -> results/primary_pages/ending-signlist-045.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evidence pin data/processed/pincer_primary_review.json -> docs/PINCER_PRIMARY_REVIEW.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evidence pin data/processed/pincer_primary_review.json -> scripts/render_pincer_primary_crops.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evidence pin data/processed/pincer_primary_review.json -> results/primary_pages/pincer-cisi-402.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evidence pin data/processed/pincer_primary_review.json -> results/primary_pages/pincer-cisi-65.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evidence pin data/processed/pincer_primary_review.json -> results/primary_pages/pincer-cisi-66.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evidence pin data/processed/pincer_primary_review.json -> results/primary_pages/pincer-m63-64.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evidence pin data/processed/pincer_primary_review.json -> results/primary_pages/pincer-m63-cisi-identity.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evidence pin data/processed/pincer_primary_review.json -> results/primary_pages/pincer-m63-impression.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evidence pin data/processed/pincer_primary_review.json -> results/primary_pages/pincer-m63-m77-identity.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evidence pin data/processed/pincer_primary_review.json -> results/primary_pages/pincer-m63-m77-text.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evidence pin data/processed/pincer_primary_review.json -> results/primary_pages/pincer-m63-original.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evidence pin data/processed/pincer_primary_review.json -> results/primary_pages/pincer-m77-098.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evidence pin data/processed/pincer_primary_review.json -> results/primary_pages/pincer-m77-828.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evidence pin data/processed/ending_mapping_review.json -> data/raw/mahadevan_1977_text.pdf",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evidence pin data/processed/ending_mapping_review.json -> data/raw/cisi_76884.pdf",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evidence pin data/processed/ending_mapping_review.json -> data/processed/catalogue_features.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evidence pin data/processed/ending_mapping_review.json -> results/primary_pages/chain-signlist-44.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evidence pin data/processed/ending_mapping_review.json -> results/primary_pages/ending-signlist-045.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evidence pin data/processed/ending_mapping_review.json -> results/primary_pages/ending-l89-identity-835.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evidence pin data/processed/ending_mapping_review.json -> results/primary_pages/ending-l89-text-108.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evidence pin data/processed/ending_mapping_review.json -> results/primary_pages/ending-l89-text-162.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evidence pin data/processed/ending_mapping_review.json -> results/primary_pages/ending-india-l89-metadata.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evidence pin data/processed/ending_mapping_review.json -> results/primary_pages/ending-india-l89-pair.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evidence pin data/processed/ending_mapping_review.json -> results/primary_pages/ending-pakistan-m77-70.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evidence pin data/processed/ending_mapping_review.json -> results/primary_pages/ending-pakistan-m77-73.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evidence pin data/processed/comb_variation_review.json -> data/raw/mahadevan_1977_text.pdf",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evidence pin data/processed/comb_variation_review.json -> results/primary_pages/chain-artifact-m77-827.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evidence pin data/processed/comb_variation_review.json -> results/primary_pages/pincer-m934-m77-054.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evidence pin data/processed/comb_variation_review.json -> data/processed/m934_primary_review.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evidence pin data/processed/m934_primary_review.json -> data/processed/m934_new_sources.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evidence pin data/processed/m934_primary_review.json -> data/raw/lipi_inscriptions.csv",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evidence pin data/processed/m934_primary_review.json -> data/raw/m934_archive_search.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evidence pin data/processed/m934_primary_review.json -> data/raw/m934_marshall48270_djvu.txt",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evidence pin data/processed/m934_primary_review.json -> data/raw/m934_marshall48270_djvu.xml",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evidence pin data/processed/m934_primary_review.json -> data/raw/m934_marshall48270_leaf183.jpg",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evidence pin data/processed/m934_primary_review.json -> data/raw/m934_marshall48270_leaf189.jpg",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evidence pin data/processed/m934_primary_review.json -> data/raw/m934_marshall48270_leaf191.jpg",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evidence pin data/processed/m934_primary_review.json -> data/raw/m934_marshall48270_leaf203.jpg",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evidence pin data/processed/m934_primary_review.json -> data/raw/m934_marshall48270_metadata.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evidence pin data/processed/m934_primary_review.json -> data/raw/m934_marshall48270_page_numbers.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evidence pin data/processed/m934_primary_review.json -> data/raw/stone1471_marshall1931_volume2_text.pdf",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evidence pin data/processed/m934_primary_review.json -> docs/M934_PRIMARY_REVIEW.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evidence pin data/processed/m934_primary_review.json -> results/m934-marshall_extraction.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evidence pin data/processed/m934_primary_review.json -> results/primary_pages/ending-india-l89-pair.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evidence pin data/processed/m934_primary_review.json -> results/primary_pages/m934-m63-impression.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evidence pin data/processed/m934_primary_review.json -> results/primary_pages/m934-m63-original.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evidence pin data/processed/m934_primary_review.json -> results/primary_pages/m934-marshall-54.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evidence pin data/processed/m934_primary_review.json -> results/primary_pages/m934-mic158-table.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evidence pin data/processed/m934_primary_review.json -> results/primary_pages/m934-mic158.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evidence pin data/processed/m934_primary_review.json -> results/primary_pages/pincer-m63-64.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evidence pin data/processed/m934_primary_review.json -> scripts/download_m934_sources.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evidence pin data/processed/m934_primary_review.json -> scripts/render_m934_crops.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evidence pin data/processed/comb_variation_review.json -> data/processed/ending_mapping_review.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evidence pin data/processed/comb_variation_review.json -> docs/COMB_VARIATION_REVIEW.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evidence pin data/processed/double_grid_primary_review.json -> data/processed/double_grid_new_sources.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evidence pin data/processed/double_grid_primary_review.json -> data/processed/m77_candidate_records.jsonl",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evidence pin data/processed/double_grid_primary_review.json -> data/raw/cisi_76884.pdf",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evidence pin data/processed/double_grid_primary_review.json -> data/raw/lipi_inscriptions.csv",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evidence pin data/processed/double_grid_primary_review.json -> data/raw/m934_marshall48270_leaf191.jpg",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evidence pin data/processed/double_grid_primary_review.json -> data/raw/mahadevan_1977_text.pdf",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evidence pin data/processed/double_grid_primary_review.json -> data/raw/stone1471_marshall1931_volume2_text.pdf",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evidence pin data/processed/double_grid_primary_review.json -> docs/DOUBLE_GRID_PRIMARY_REVIEW.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evidence pin data/processed/double_grid_primary_review.json -> results/double-grid-m77_extraction.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evidence pin data/processed/double_grid_primary_review.json -> results/primary_pages/chain-artifact-m77-827.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evidence pin data/processed/double_grid_primary_review.json -> results/primary_pages/double-grid-m245-sign.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evidence pin data/processed/double_grid_primary_review.json -> results/primary_pages/double-grid-m77-1180.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evidence pin data/processed/double_grid_primary_review.json -> results/primary_pages/double-grid-m77-55.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evidence pin data/processed/double_grid_primary_review.json -> results/primary_pages/double-grid-m77-mic-rule.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evidence pin data/processed/double_grid_primary_review.json -> results/primary_pages/double-grid-mic180-table.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evidence pin data/processed/double_grid_primary_review.json -> results/primary_pages/double-grid-mic180.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evidence pin data/processed/double_grid_primary_review.json -> results/primary_pages/ending-india-m81-metadata.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evidence pin data/processed/double_grid_primary_review.json -> results/primary_pages/ending-india-m81-pair.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evidence pin data/processed/double_grid_primary_review.json -> results/primary_pages/ending-signlist-045.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evidence pin data/processed/double_grid_primary_review.json -> results/primary_pages/m934-marshall-54.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evidence pin data/processed/double_grid_primary_review.json -> results/primary_pages/sign_list-044.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evidence pin data/processed/double_grid_primary_review.json -> results/primary_pages/table_i_highres-731.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evidence pin data/processed/double_grid_primary_review.json -> results/primary_pages/table_i_highres-732.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evidence pin data/processed/double_grid_primary_review.json -> scripts/render_double_grid_crops.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evidence pin data/processed/double_grid_primary_review.json -> results/primary_pages/sign_list_page_32.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evidence pin data/processed/w525_primary_review.json -> data/processed/w525_new_sources.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evidence pin data/processed/w525_primary_review.json -> data/raw/lipi_inscriptions.csv",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evidence pin data/processed/w525_primary_review.json -> data/raw/mahadevan_1977_text.pdf",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evidence pin data/processed/w525_primary_review.json -> data/raw/vats_1940_plates_9842.pdf",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evidence pin data/processed/w525_primary_review.json -> data/raw/w525_fem_leaf217.jpg",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evidence pin data/processed/w525_primary_review.json -> data/raw/w525_fem_leaf219.jpg",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evidence pin data/processed/w525_primary_review.json -> data/raw/w525_mackay_leaf385.jpg",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evidence pin data/processed/w525_primary_review.json -> data/raw/w525_vats_leaf49.jpg",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evidence pin data/processed/w525_primary_review.json -> data/raw/w525_vats_leaf59.jpg",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evidence pin data/processed/w525_primary_review.json -> docs/W525_PRIMARY_REVIEW.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evidence pin data/processed/w525_primary_review.json -> results/primary_pages/chain-artifact-m77-827.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evidence pin data/processed/w525_primary_review.json -> results/primary_pages/ending-signlist-045.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evidence pin data/processed/w525_primary_review.json -> results/primary_pages/sign_list-044.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evidence pin data/processed/w525_primary_review.json -> results/primary_pages/w525-fem-cii-15.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evidence pin data/processed/w525_primary_review.json -> results/primary_pages/w525-fem-ciii-15.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evidence pin data/processed/w525_primary_review.json -> results/primary_pages/w525-m254-sign.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evidence pin data/processed/w525_primary_review.json -> results/primary_pages/w525-m77-2868.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evidence pin data/processed/w525_primary_review.json -> results/primary_pages/w525-m77-4360.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evidence pin data/processed/w525_primary_review.json -> results/primary_pages/w525-m77-4672.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evidence pin data/processed/w525_primary_review.json -> results/primary_pages/w525-m77-95.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evidence pin data/processed/w525_primary_review.json -> results/primary_pages/w525-m77-cii-rule.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evidence pin data/processed/w525_primary_review.json -> results/primary_pages/w525-m77-eh-rule.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evidence pin data/processed/w525_primary_review.json -> results/primary_pages/w525-m77-h-120.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evidence pin data/processed/w525_primary_review.json -> results/primary_pages/w525-m77-h-137.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evidence pin data/processed/w525_primary_review.json -> results/primary_pages/w525-m77-h-830.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evidence pin data/processed/w525_primary_review.json -> results/primary_pages/w525-mackay-dk8489.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evidence pin data/processed/w525_primary_review.json -> results/primary_pages/w525-vats-198.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evidence pin data/processed/w525_primary_review.json -> results/primary_pages/w525-vats-356.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evidence pin data/processed/w525_primary_review.json -> results/primary_pages/w525-vats-360.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evidence pin data/processed/w525_primary_review.json -> results/primary_pages/w525-vats-672.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evidence pin data/processed/w525_primary_review.json -> results/primary_pages/w525-vats-9015-metadata.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evidence pin data/processed/w525_primary_review.json -> results/primary_pages/w525-vats-ab473-metadata.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evidence pin data/processed/w525_primary_review.json -> results/primary_pages/w525-vats-c-208.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evidence pin data/processed/w525_primary_review.json -> results/primary_pages/w525-vats-correct-197.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evidence pin data/processed/w525_primary_review.json -> results/primary_pages/w525-vats-xciv-196.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evidence pin data/processed/w525_primary_review.json -> results/w525-m77-h_extraction.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evidence pin data/processed/w525_primary_review.json -> results/w525-m77_extraction.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evidence pin data/processed/w525_primary_review.json -> results/w525-vats-c_extraction.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evidence pin data/processed/w525_primary_review.json -> results/w525-vats-correct_extraction.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evidence pin data/processed/w525_primary_review.json -> results/w525-vats-xciv_extraction.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evidence pin data/processed/w525_primary_review.json -> results/w525-vats_extraction.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evidence pin data/processed/w525_primary_review.json -> scripts/download_w525_sources.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evidence pin data/processed/w525_primary_review.json -> scripts/inspect_research_pdf.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evidence pin data/processed/w525_primary_review.json -> scripts/render_w525_crops.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evidence pin data/processed/m735_primary_review.json -> data/processed/m735_new_sources.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evidence pin data/processed/m735_primary_review.json -> docs/M735_W195_PRIMARY_REVIEW.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evidence pin data/processed/m735_primary_review.json -> data/raw/comb_tablet_marshall_leaf185.jpg",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evidence pin data/processed/m735_primary_review.json -> data/raw/stone1471_marshall1931_volume2_text.pdf",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evidence pin data/processed/m735_primary_review.json -> data/raw/mahadevan_1977_text.pdf",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evidence pin data/processed/m735_primary_review.json -> data/raw/lipi_inscriptions.csv",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evidence pin data/processed/m735_primary_review.json -> results/primary_pages/comb-tablet-mic-53.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evidence pin data/processed/m735_primary_review.json -> results/primary_pages/comb-tablet-m77-51.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evidence pin data/processed/m735_primary_review.json -> results/primary_pages/comb-tablet-m77-42.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evidence pin data/processed/m735_primary_review.json -> results/primary_pages/chain-artifact-m77-827.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evidence pin data/processed/m735_primary_review.json -> results/primary_pages/sign_list_page_32.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evidence pin data/processed/m735_primary_review.json -> results/primary_pages/ending-signlist-045.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evidence pin data/processed/m735_primary_review.json -> scripts/render_m735_crops.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evidence pin data/processed/m735_primary_review.json -> results/comb-tablet-mic_extraction.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evidence pin data/processed/m735_primary_review.json -> results/m735_m77_extraction.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evidence pin data/processed/m735_primary_review.json -> results/primary_pages/m735-mic60-table.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evidence pin data/processed/m735_primary_review.json -> results/primary_pages/m735-mic60-photo.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evidence pin data/processed/m735_primary_review.json -> results/primary_pages/m735-m054-sign.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evidence pin data/processed/m735_primary_review.json -> results/primary_pages/m735-m77-1060.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evidence pin data/processed/h133_w554_primary_review.json -> data/raw/h133_vats_leaf79.jpg",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evidence pin data/processed/h133_w554_primary_review.json -> data/raw/vats_1940_text_18220_djvu.txt",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evidence pin data/processed/h133_w554_primary_review.json -> data/raw/vats_1940_plates_9842.pdf",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evidence pin data/processed/h133_w554_primary_review.json -> data/raw/mahadevan_1977_text.pdf",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evidence pin data/processed/h133_w554_primary_review.json -> data/raw/lipi_inscriptions.csv",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evidence pin data/processed/h133_w554_primary_review.json -> data/processed/m77_candidate_strict.jsonl",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evidence pin data/processed/h133_w554_primary_review.json -> results/comb_tablet_screen.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evidence pin data/processed/h133_w554_primary_review.json -> results/h133-m77_extraction.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evidence pin data/processed/h133_w554_primary_review.json -> results/h133-vats_extraction.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evidence pin data/processed/h133_w554_primary_review.json -> scripts/render_h133_w554_crops.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evidence pin data/processed/h133_w554_primary_review.json -> docs/H133_W554_PRIMARY_REVIEW.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evidence pin data/processed/h133_w554_primary_review.json -> results/primary_pages/h133-vats-192.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evidence pin data/processed/h133_w554_primary_review.json -> results/primary_pages/h133-m77-115.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evidence pin data/processed/h133_w554_primary_review.json -> results/primary_pages/h133-m77-45.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evidence pin data/processed/h133_w554_primary_review.json -> results/primary_pages/h133-m77-830.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evidence pin data/processed/h133_w554_primary_review.json -> results/primary_pages/h133-vats-metadata-detail.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evidence pin data/processed/h133_w554_primary_review.json -> results/primary_pages/h133-vats-261-detail.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evidence pin data/processed/h133_w554_primary_review.json -> results/primary_pages/h133-m77-4261-detail.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evidence pin data/processed/h133_w554_primary_review.json -> results/primary_pages/h133-m77-M226-detail.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evidence pin data/processed/h133_w554_primary_review.json -> results/primary_pages/h133-m77-EH-rule-detail.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evidence pin data/processed/m897_mapping_review.json -> data/raw/mahadevan_1977_text.pdf",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evidence pin data/processed/m897_mapping_review.json -> results/primary_pages/chain-artifact-m77-827.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evidence pin data/processed/m897_mapping_review.json -> results/primary_pages/m897-m77-086.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evidence pin data/processed/m897_mapping_review.json -> data/processed/m897_primary_review.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evidence pin data/processed/m897_primary_review.json -> data/raw/m897_mackay_leaf408.jpg",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evidence pin data/processed/m897_primary_review.json -> data/raw/ending_fem_plates_leaf207.jpg",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evidence pin data/processed/m897_primary_review.json -> data/raw/lipi_inscriptions.csv",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evidence pin data/processed/m897_primary_review.json -> results/primary_pages/m897-fem545.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evidence pin data/processed/m897_primary_review.json -> results/primary_pages/m897-table545.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evidence pin data/processed/m897_primary_review.json -> results/primary_pages/ending-india-m133-original.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evidence pin data/processed/m897_primary_review.json -> results/primary_pages/ending-india-l89-pair.png",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evidence pin data/processed/m897_primary_review.json -> scripts/render_m897_crops.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evidence pin data/processed/m897_primary_review.json -> scripts/download_m897_sources.py",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evidence pin data/processed/m897_primary_review.json -> data/processed/m897_new_sources.json",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evidence pin data/processed/m897_primary_review.json -> docs/M897_PRIMARY_REVIEW.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "evidence pin data/processed/m897_mapping_review.json -> docs/PINCER_MAPPING_SENSITIVITY.md",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "no semantic/global claims in result",
+      "passed": true,
+      "detail": null
+    }
+  ],
+  "source_evidence_pins_checked": [
+    {
+      "parent": "data/processed/pincer_primary_review.json",
+      "path": "data/raw/cisi_76884.pdf",
+      "hash_matches": true,
+      "size_matches_if_recorded": true
+    },
+    {
+      "parent": "data/processed/pincer_primary_review.json",
+      "path": "data/raw/mahadevan_1977_text.pdf",
+      "hash_matches": true,
+      "size_matches_if_recorded": true
+    },
+    {
+      "parent": "data/processed/pincer_primary_review.json",
+      "path": "data/raw/lipi_inscriptions.csv",
+      "hash_matches": true,
+      "size_matches_if_recorded": true
+    },
+    {
+      "parent": "data/processed/pincer_primary_review.json",
+      "path": "data/processed/catalogue_features.json",
+      "hash_matches": true,
+      "size_matches_if_recorded": true
+    },
+    {
+      "parent": "data/processed/pincer_primary_review.json",
+      "path": "results/primary_pages/chain-signlist-44.png",
+      "hash_matches": true,
+      "size_matches_if_recorded": true
+    },
+    {
+      "parent": "data/processed/pincer_primary_review.json",
+      "path": "results/primary_pages/ending-signlist-045.png",
+      "hash_matches": true,
+      "size_matches_if_recorded": true
+    },
+    {
+      "parent": "data/processed/pincer_primary_review.json",
+      "path": "docs/PINCER_PRIMARY_REVIEW.md",
+      "hash_matches": true,
+      "size_matches_if_recorded": true
+    },
+    {
+      "parent": "data/processed/pincer_primary_review.json",
+      "path": "scripts/render_pincer_primary_crops.py",
+      "hash_matches": true,
+      "size_matches_if_recorded": true
+    },
+    {
+      "parent": "data/processed/pincer_primary_review.json",
+      "path": "results/primary_pages/pincer-cisi-402.png",
+      "hash_matches": true,
+      "size_matches_if_recorded": true
+    },
+    {
+      "parent": "data/processed/pincer_primary_review.json",
+      "path": "results/primary_pages/pincer-cisi-65.png",
+      "hash_matches": true,
+      "size_matches_if_recorded": true
+    },
+    {
+      "parent": "data/processed/pincer_primary_review.json",
+      "path": "results/primary_pages/pincer-cisi-66.png",
+      "hash_matches": true,
+      "size_matches_if_recorded": true
+    },
+    {
+      "parent": "data/processed/pincer_primary_review.json",
+      "path": "results/primary_pages/pincer-m63-64.png",
+      "hash_matches": true,
+      "size_matches_if_recorded": true
+    },
+    {
+      "parent": "data/processed/pincer_primary_review.json",
+      "path": "results/primary_pages/pincer-m63-cisi-identity.png",
+      "hash_matches": true,
+      "size_matches_if_recorded": true
+    },
+    {
+      "parent": "data/processed/pincer_primary_review.json",
+      "path": "results/primary_pages/pincer-m63-impression.png",
+      "hash_matches": true,
+      "size_matches_if_recorded": true
+    },
+    {
+      "parent": "data/processed/pincer_primary_review.json",
+      "path": "results/primary_pages/pincer-m63-m77-identity.png",
+      "hash_matches": true,
+      "size_matches_if_recorded": true
+    },
+    {
+      "parent": "data/processed/pincer_primary_review.json",
+      "path": "results/primary_pages/pincer-m63-m77-text.png",
+      "hash_matches": true,
+      "size_matches_if_recorded": true
+    },
+    {
+      "parent": "data/processed/pincer_primary_review.json",
+      "path": "results/primary_pages/pincer-m63-original.png",
+      "hash_matches": true,
+      "size_matches_if_recorded": true
+    },
+    {
+      "parent": "data/processed/pincer_primary_review.json",
+      "path": "results/primary_pages/pincer-m77-098.png",
+      "hash_matches": true,
+      "size_matches_if_recorded": true
+    },
+    {
+      "parent": "data/processed/pincer_primary_review.json",
+      "path": "results/primary_pages/pincer-m77-828.png",
+      "hash_matches": true,
+      "size_matches_if_recorded": true
+    },
+    {
+      "parent": "data/processed/ending_mapping_review.json",
+      "path": "data/raw/mahadevan_1977_text.pdf",
+      "hash_matches": true,
+      "size_matches_if_recorded": true
+    },
+    {
+      "parent": "data/processed/ending_mapping_review.json",
+      "path": "data/raw/cisi_76884.pdf",
+      "hash_matches": true,
+      "size_matches_if_recorded": true
+    },
+    {
+      "parent": "data/processed/ending_mapping_review.json",
+      "path": "data/processed/catalogue_features.json",
+      "hash_matches": true,
+      "size_matches_if_recorded": true
+    },
+    {
+      "parent": "data/processed/ending_mapping_review.json",
+      "path": "results/primary_pages/chain-signlist-44.png",
+      "hash_matches": true,
+      "size_matches_if_recorded": true
+    },
+    {
+      "parent": "data/processed/ending_mapping_review.json",
+      "path": "results/primary_pages/ending-signlist-045.png",
+      "hash_matches": true,
+      "size_matches_if_recorded": true
+    },
+    {
+      "parent": "data/processed/ending_mapping_review.json",
+      "path": "results/primary_pages/ending-l89-identity-835.png",
+      "hash_matches": true,
+      "size_matches_if_recorded": true
+    },
+    {
+      "parent": "data/processed/ending_mapping_review.json",
+      "path": "results/primary_pages/ending-l89-text-108.png",
+      "hash_matches": true,
+      "size_matches_if_recorded": true
+    },
+    {
+      "parent": "data/processed/ending_mapping_review.json",
+      "path": "results/primary_pages/ending-l89-text-162.png",
+      "hash_matches": true,
+      "size_matches_if_recorded": true
+    },
+    {
+      "parent": "data/processed/ending_mapping_review.json",
+      "path": "results/primary_pages/ending-india-l89-metadata.png",
+      "hash_matches": true,
+      "size_matches_if_recorded": true
+    },
+    {
+      "parent": "data/processed/ending_mapping_review.json",
+      "path": "results/primary_pages/ending-india-l89-pair.png",
+      "hash_matches": true,
+      "size_matches_if_recorded": true
+    },
+    {
+      "parent": "data/processed/ending_mapping_review.json",
+      "path": "results/primary_pages/ending-pakistan-m77-70.png",
+      "hash_matches": true,
+      "size_matches_if_recorded": true
+    },
+    {
+      "parent": "data/processed/ending_mapping_review.json",
+      "path": "results/primary_pages/ending-pakistan-m77-73.png",
+      "hash_matches": true,
+      "size_matches_if_recorded": true
+    },
+    {
+      "parent": "data/processed/comb_variation_review.json",
+      "path": "data/raw/mahadevan_1977_text.pdf",
+      "hash_matches": true,
+      "size_matches_if_recorded": true
+    },
+    {
+      "parent": "data/processed/comb_variation_review.json",
+      "path": "results/primary_pages/chain-artifact-m77-827.png",
+      "hash_matches": true,
+      "size_matches_if_recorded": true
+    },
+    {
+      "parent": "data/processed/comb_variation_review.json",
+      "path": "results/primary_pages/pincer-m934-m77-054.png",
+      "hash_matches": true,
+      "size_matches_if_recorded": true
+    },
+    {
+      "parent": "data/processed/comb_variation_review.json",
+      "path": "data/processed/m934_primary_review.json",
+      "hash_matches": true,
+      "size_matches_if_recorded": true
+    },
+    {
+      "parent": "data/processed/m934_primary_review.json",
+      "path": "data/processed/m934_new_sources.json",
+      "hash_matches": true,
+      "size_matches_if_recorded": true
+    },
+    {
+      "parent": "data/processed/m934_primary_review.json",
+      "path": "data/raw/lipi_inscriptions.csv",
+      "hash_matches": true,
+      "size_matches_if_recorded": true
+    },
+    {
+      "parent": "data/processed/m934_primary_review.json",
+      "path": "data/raw/m934_archive_search.json",
+      "hash_matches": true,
+      "size_matches_if_recorded": true
+    },
+    {
+      "parent": "data/processed/m934_primary_review.json",
+      "path": "data/raw/m934_marshall48270_djvu.txt",
+      "hash_matches": true,
+      "size_matches_if_recorded": true
+    },
+    {
+      "parent": "data/processed/m934_primary_review.json",
+      "path": "data/raw/m934_marshall48270_djvu.xml",
+      "hash_matches": true,
+      "size_matches_if_recorded": true
+    },
+    {
+      "parent": "data/processed/m934_primary_review.json",
+      "path": "data/raw/m934_marshall48270_leaf183.jpg",
+      "hash_matches": true,
+      "size_matches_if_recorded": true
+    },
+    {
+      "parent": "data/processed/m934_primary_review.json",
+      "path": "data/raw/m934_marshall48270_leaf189.jpg",
+      "hash_matches": true,
+      "size_matches_if_recorded": true
+    },
+    {
+      "parent": "data/processed/m934_primary_review.json",
+      "path": "data/raw/m934_marshall48270_leaf191.jpg",
+      "hash_matches": true,
+      "size_matches_if_recorded": true
+    },
+    {
+      "parent": "data/processed/m934_primary_review.json",
+      "path": "data/raw/m934_marshall48270_leaf203.jpg",
+      "hash_matches": true,
+      "size_matches_if_recorded": true
+    },
+    {
+      "parent": "data/processed/m934_primary_review.json",
+      "path": "data/raw/m934_marshall48270_metadata.json",
+      "hash_matches": true,
+      "size_matches_if_recorded": true
+    },
+    {
+      "parent": "data/processed/m934_primary_review.json",
+      "path": "data/raw/m934_marshall48270_page_numbers.json",
+      "hash_matches": true,
+      "size_matches_if_recorded": true
+    },
+    {
+      "parent": "data/processed/m934_primary_review.json",
+      "path": "data/raw/stone1471_marshall1931_volume2_text.pdf",
+      "hash_matches": true,
+      "size_matches_if_recorded": true
+    },
+    {
+      "parent": "data/processed/m934_primary_review.json",
+      "path": "docs/M934_PRIMARY_REVIEW.md",
+      "hash_matches": true,
+      "size_matches_if_recorded": true
+    },
+    {
+      "parent": "data/processed/m934_primary_review.json",
+      "path": "results/m934-marshall_extraction.json",
+      "hash_matches": true,
+      "size_matches_if_recorded": true
+    },
+    {
+      "parent": "data/processed/m934_primary_review.json",
+      "path": "results/primary_pages/ending-india-l89-pair.png",
+      "hash_matches": true,
+      "size_matches_if_recorded": true
+    },
+    {
+      "parent": "data/processed/m934_primary_review.json",
+      "path": "results/primary_pages/m934-m63-impression.png",
+      "hash_matches": true,
+      "size_matches_if_recorded": true
+    },
+    {
+      "parent": "data/processed/m934_primary_review.json",
+      "path": "results/primary_pages/m934-m63-original.png",
+      "hash_matches": true,
+      "size_matches_if_recorded": true
+    },
+    {
+      "parent": "data/processed/m934_primary_review.json",
+      "path": "results/primary_pages/m934-marshall-54.png",
+      "hash_matches": true,
+      "size_matches_if_recorded": true
+    },
+    {
+      "parent": "data/processed/m934_primary_review.json",
+      "path": "results/primary_pages/m934-mic158-table.png",
+      "hash_matches": true,
+      "size_matches_if_recorded": true
+    },
+    {
+      "parent": "data/processed/m934_primary_review.json",
+      "path": "results/primary_pages/m934-mic158.png",
+      "hash_matches": true,
+      "size_matches_if_recorded": true
+    },
+    {
+      "parent": "data/processed/m934_primary_review.json",
+      "path": "results/primary_pages/pincer-m63-64.png",
+      "hash_matches": true,
+      "size_matches_if_recorded": true
+    },
+    {
+      "parent": "data/processed/m934_primary_review.json",
+      "path": "scripts/download_m934_sources.py",
+      "hash_matches": true,
+      "size_matches_if_recorded": true
+    },
+    {
+      "parent": "data/processed/m934_primary_review.json",
+      "path": "scripts/render_m934_crops.py",
+      "hash_matches": true,
+      "size_matches_if_recorded": true
+    },
+    {
+      "parent": "data/processed/comb_variation_review.json",
+      "path": "data/processed/ending_mapping_review.json",
+      "hash_matches": true,
+      "size_matches_if_recorded": true
+    },
+    {
+      "parent": "data/processed/comb_variation_review.json",
+      "path": "docs/COMB_VARIATION_REVIEW.md",
+      "hash_matches": true,
+      "size_matches_if_recorded": true
+    },
+    {
+      "parent": "data/processed/double_grid_primary_review.json",
+      "path": "data/processed/double_grid_new_sources.json",
+      "hash_matches": true,
+      "size_matches_if_recorded": true
+    },
+    {
+      "parent": "data/processed/double_grid_primary_review.json",
+      "path": "data/processed/m77_candidate_records.jsonl",
+      "hash_matches": true,
+      "size_matches_if_recorded": true
+    },
+    {
+      "parent": "data/processed/double_grid_primary_review.json",
+      "path": "data/raw/cisi_76884.pdf",
+      "hash_matches": true,
+      "size_matches_if_recorded": true
+    },
+    {
+      "parent": "data/processed/double_grid_primary_review.json",
+      "path": "data/raw/lipi_inscriptions.csv",
+      "hash_matches": true,
+      "size_matches_if_recorded": true
+    },
+    {
+      "parent": "data/processed/double_grid_primary_review.json",
+      "path": "data/raw/m934_marshall48270_leaf191.jpg",
+      "hash_matches": true,
+      "size_matches_if_recorded": true
+    },
+    {
+      "parent": "data/processed/double_grid_primary_review.json",
+      "path": "data/raw/mahadevan_1977_text.pdf",
+      "hash_matches": true,
+      "size_matches_if_recorded": true
+    },
+    {
+      "parent": "data/processed/double_grid_primary_review.json",
+      "path": "data/raw/stone1471_marshall1931_volume2_text.pdf",
+      "hash_matches": true,
+      "size_matches_if_recorded": true
+    },
+    {
+      "parent": "data/processed/double_grid_primary_review.json",
+      "path": "docs/DOUBLE_GRID_PRIMARY_REVIEW.md",
+      "hash_matches": true,
+      "size_matches_if_recorded": true
+    },
+    {
+      "parent": "data/processed/double_grid_primary_review.json",
+      "path": "results/double-grid-m77_extraction.json",
+      "hash_matches": true,
+      "size_matches_if_recorded": true
+    },
+    {
+      "parent": "data/processed/double_grid_primary_review.json",
+      "path": "results/primary_pages/chain-artifact-m77-827.png",
+      "hash_matches": true,
+      "size_matches_if_recorded": true
+    },
+    {
+      "parent": "data/processed/double_grid_primary_review.json",
+      "path": "results/primary_pages/double-grid-m245-sign.png",
+      "hash_matches": true,
+      "size_matches_if_recorded": true
+    },
+    {
+      "parent": "data/processed/double_grid_primary_review.json",
+      "path": "results/primary_pages/double-grid-m77-1180.png",
+      "hash_matches": true,
+      "size_matches_if_recorded": true
+    },
+    {
+      "parent": "data/processed/double_grid_primary_review.json",
+      "path": "results/primary_pages/double-grid-m77-55.png",
+      "hash_matches": true,
+      "size_matches_if_recorded": true
+    },
+    {
+      "parent": "data/processed/double_grid_primary_review.json",
+      "path": "results/primary_pages/double-grid-m77-mic-rule.png",
+      "hash_matches": true,
+      "size_matches_if_recorded": true
+    },
+    {
+      "parent": "data/processed/double_grid_primary_review.json",
+      "path": "results/primary_pages/double-grid-mic180-table.png",
+      "hash_matches": true,
+      "size_matches_if_recorded": true
+    },
+    {
+      "parent": "data/processed/double_grid_primary_review.json",
+      "path": "results/primary_pages/double-grid-mic180.png",
+      "hash_matches": true,
+      "size_matches_if_recorded": true
+    },
+    {
+      "parent": "data/processed/double_grid_primary_review.json",
+      "path": "results/primary_pages/ending-india-m81-metadata.png",
+      "hash_matches": true,
+      "size_matches_if_recorded": true
+    },
+    {
+      "parent": "data/processed/double_grid_primary_review.json",
+      "path": "results/primary_pages/ending-india-m81-pair.png",
+      "hash_matches": true,
+      "size_matches_if_recorded": true
+    },
+    {
+      "parent": "data/processed/double_grid_primary_review.json",
+      "path": "results/primary_pages/ending-signlist-045.png",
+      "hash_matches": true,
+      "size_matches_if_recorded": true
+    },
+    {
+      "parent": "data/processed/double_grid_primary_review.json",
+      "path": "results/primary_pages/m934-marshall-54.png",
+      "hash_matches": true,
+      "size_matches_if_recorded": true
+    },
+    {
+      "parent": "data/processed/double_grid_primary_review.json",
+      "path": "results/primary_pages/sign_list-044.png",
+      "hash_matches": true,
+      "size_matches_if_recorded": true
+    },
+    {
+      "parent": "data/processed/double_grid_primary_review.json",
+      "path": "results/primary_pages/table_i_highres-731.png",
+      "hash_matches": true,
+      "size_matches_if_recorded": true
+    },
+    {
+      "parent": "data/processed/double_grid_primary_review.json",
+      "path": "results/primary_pages/table_i_highres-732.png",
+      "hash_matches": true,
+      "size_matches_if_recorded": true
+    },
+    {
+      "parent": "data/processed/double_grid_primary_review.json",
+      "path": "scripts/render_double_grid_crops.py",
+      "hash_matches": true,
+      "size_matches_if_recorded": true
+    },
+    {
+      "parent": "data/processed/double_grid_primary_review.json",
+      "path": "results/primary_pages/sign_list_page_32.png",
+      "hash_matches": true,
+      "size_matches_if_recorded": true
+    },
+    {
+      "parent": "data/processed/w525_primary_review.json",
+      "path": "data/processed/w525_new_sources.json",
+      "hash_matches": true,
+      "size_matches_if_recorded": true
+    },
+    {
+      "parent": "data/processed/w525_primary_review.json",
+      "path": "data/raw/lipi_inscriptions.csv",
+      "hash_matches": true,
+      "size_matches_if_recorded": true
+    },
+    {
+      "parent": "data/processed/w525_primary_review.json",
+      "path": "data/raw/mahadevan_1977_text.pdf",
+      "hash_matches": true,
+      "size_matches_if_recorded": true
+    },
+    {
+      "parent": "data/processed/w525_primary_review.json",
+      "path": "data/raw/vats_1940_plates_9842.pdf",
+      "hash_matches": true,
+      "size_matches_if_recorded": true
+    },
+    {
+      "parent": "data/processed/w525_primary_review.json",
+      "path": "data/raw/w525_fem_leaf217.jpg",
+      "hash_matches": true,
+      "size_matches_if_recorded": true
+    },
+    {
+      "parent": "data/processed/w525_primary_review.json",
+      "path": "data/raw/w525_fem_leaf219.jpg",
+      "hash_matches": true,
+      "size_matches_if_recorded": true
+    },
+    {
+      "parent": "data/processed/w525_primary_review.json",
+      "path": "data/raw/w525_mackay_leaf385.jpg",
+      "hash_matches": true,
+      "size_matches_if_recorded": true
+    },
+    {
+      "parent": "data/processed/w525_primary_review.json",
+      "path": "data/raw/w525_vats_leaf49.jpg",
+      "hash_matches": true,
+      "size_matches_if_recorded": true
+    },
+    {
+      "parent": "data/processed/w525_primary_review.json",
+      "path": "data/raw/w525_vats_leaf59.jpg",
+      "hash_matches": true,
+      "size_matches_if_recorded": true
+    },
+    {
+      "parent": "data/processed/w525_primary_review.json",
+      "path": "docs/W525_PRIMARY_REVIEW.md",
+      "hash_matches": true,
+      "size_matches_if_recorded": true
+    },
+    {
+      "parent": "data/processed/w525_primary_review.json",
+      "path": "results/primary_pages/chain-artifact-m77-827.png",
+      "hash_matches": true,
+      "size_matches_if_recorded": true
+    },
+    {
+      "parent": "data/processed/w525_primary_review.json",
+      "path": "results/primary_pages/ending-signlist-045.png",
+      "hash_matches": true,
+      "size_matches_if_recorded": true
+    },
+    {
+      "parent": "data/processed/w525_primary_review.json",
+      "path": "results/primary_pages/sign_list-044.png",
+      "hash_matches": true,
+      "size_matches_if_recorded": true
+    },
+    {
+      "parent": "data/processed/w525_primary_review.json",
+      "path": "results/primary_pages/w525-fem-cii-15.png",
+      "hash_matches": true,
+      "size_matches_if_recorded": true
+    },
+    {
+      "parent": "data/processed/w525_primary_review.json",
+      "path": "results/primary_pages/w525-fem-ciii-15.png",
+      "hash_matches": true,
+      "size_matches_if_recorded": true
+    },
+    {
+      "parent": "data/processed/w525_primary_review.json",
+      "path": "results/primary_pages/w525-m254-sign.png",
+      "hash_matches": true,
+      "size_matches_if_recorded": true
+    },
+    {
+      "parent": "data/processed/w525_primary_review.json",
+      "path": "results/primary_pages/w525-m77-2868.png",
+      "hash_matches": true,
+      "size_matches_if_recorded": true
+    },
+    {
+      "parent": "data/processed/w525_primary_review.json",
+      "path": "results/primary_pages/w525-m77-4360.png",
+      "hash_matches": true,
+      "size_matches_if_recorded": true
+    },
+    {
+      "parent": "data/processed/w525_primary_review.json",
+      "path": "results/primary_pages/w525-m77-4672.png",
+      "hash_matches": true,
+      "size_matches_if_recorded": true
+    },
+    {
+      "parent": "data/processed/w525_primary_review.json",
+      "path": "results/primary_pages/w525-m77-95.png",
+      "hash_matches": true,
+      "size_matches_if_recorded": true
+    },
+    {
+      "parent": "data/processed/w525_primary_review.json",
+      "path": "results/primary_pages/w525-m77-cii-rule.png",
+      "hash_matches": true,
+      "size_matches_if_recorded": true
+    },
+    {
+      "parent": "data/processed/w525_primary_review.json",
+      "path": "results/primary_pages/w525-m77-eh-rule.png",
+      "hash_matches": true,
+      "size_matches_if_recorded": true
+    },
+    {
+      "parent": "data/processed/w525_primary_review.json",
+      "path": "results/primary_pages/w525-m77-h-120.png",
+      "hash_matches": true,
+      "size_matches_if_recorded": true
+    },
+    {
+      "parent": "data/processed/w525_primary_review.json",
+      "path": "results/primary_pages/w525-m77-h-137.png",
+      "hash_matches": true,
+      "size_matches_if_recorded": true
+    },
+    {
+      "parent": "data/processed/w525_primary_review.json",
+      "path": "results/primary_pages/w525-m77-h-830.png",
+      "hash_matches": true,
+      "size_matches_if_recorded": true
+    },
+    {
+      "parent": "data/processed/w525_primary_review.json",
+      "path": "results/primary_pages/w525-mackay-dk8489.png",
+      "hash_matches": true,
+      "size_matches_if_recorded": true
+    },
+    {
+      "parent": "data/processed/w525_primary_review.json",
+      "path": "results/primary_pages/w525-vats-198.png",
+      "hash_matches": true,
+      "size_matches_if_recorded": true
+    },
+    {
+      "parent": "data/processed/w525_primary_review.json",
+      "path": "results/primary_pages/w525-vats-356.png",
+      "hash_matches": true,
+      "size_matches_if_recorded": true
+    },
+    {
+      "parent": "data/processed/w525_primary_review.json",
+      "path": "results/primary_pages/w525-vats-360.png",
+      "hash_matches": true,
+      "size_matches_if_recorded": true
+    },
+    {
+      "parent": "data/processed/w525_primary_review.json",
+      "path": "results/primary_pages/w525-vats-672.png",
+      "hash_matches": true,
+      "size_matches_if_recorded": true
+    },
+    {
+      "parent": "data/processed/w525_primary_review.json",
+      "path": "results/primary_pages/w525-vats-9015-metadata.png",
+      "hash_matches": true,
+      "size_matches_if_recorded": true
+    },
+    {
+      "parent": "data/processed/w525_primary_review.json",
+      "path": "results/primary_pages/w525-vats-ab473-metadata.png",
+      "hash_matches": true,
+      "size_matches_if_recorded": true
+    },
+    {
+      "parent": "data/processed/w525_primary_review.json",
+      "path": "results/primary_pages/w525-vats-c-208.png",
+      "hash_matches": true,
+      "size_matches_if_recorded": true
+    },
+    {
+      "parent": "data/processed/w525_primary_review.json",
+      "path": "results/primary_pages/w525-vats-correct-197.png",
+      "hash_matches": true,
+      "size_matches_if_recorded": true
+    },
+    {
+      "parent": "data/processed/w525_primary_review.json",
+      "path": "results/primary_pages/w525-vats-xciv-196.png",
+      "hash_matches": true,
+      "size_matches_if_recorded": true
+    },
+    {
+      "parent": "data/processed/w525_primary_review.json",
+      "path": "results/w525-m77-h_extraction.json",
+      "hash_matches": true,
+      "size_matches_if_recorded": true
+    },
+    {
+      "parent": "data/processed/w525_primary_review.json",
+      "path": "results/w525-m77_extraction.json",
+      "hash_matches": true,
+      "size_matches_if_recorded": true
+    },
+    {
+      "parent": "data/processed/w525_primary_review.json",
+      "path": "results/w525-vats-c_extraction.json",
+      "hash_matches": true,
+      "size_matches_if_recorded": true
+    },
+    {
+      "parent": "data/processed/w525_primary_review.json",
+      "path": "results/w525-vats-correct_extraction.json",
+      "hash_matches": true,
+      "size_matches_if_recorded": true
+    },
+    {
+      "parent": "data/processed/w525_primary_review.json",
+      "path": "results/w525-vats-xciv_extraction.json",
+      "hash_matches": true,
+      "size_matches_if_recorded": true
+    },
+    {
+      "parent": "data/processed/w525_primary_review.json",
+      "path": "results/w525-vats_extraction.json",
+      "hash_matches": true,
+      "size_matches_if_recorded": true
+    },
+    {
+      "parent": "data/processed/w525_primary_review.json",
+      "path": "scripts/download_w525_sources.py",
+      "hash_matches": true,
+      "size_matches_if_recorded": true
+    },
+    {
+      "parent": "data/processed/w525_primary_review.json",
+      "path": "scripts/inspect_research_pdf.py",
+      "hash_matches": true,
+      "size_matches_if_recorded": true
+    },
+    {
+      "parent": "data/processed/w525_primary_review.json",
+      "path": "scripts/render_w525_crops.py",
+      "hash_matches": true,
+      "size_matches_if_recorded": true
+    },
+    {
+      "parent": "data/processed/m735_primary_review.json",
+      "path": "data/processed/m735_new_sources.json",
+      "hash_matches": true,
+      "size_matches_if_recorded": true
+    },
+    {
+      "parent": "data/processed/m735_primary_review.json",
+      "path": "docs/M735_W195_PRIMARY_REVIEW.md",
+      "hash_matches": true,
+      "size_matches_if_recorded": true
+    },
+    {
+      "parent": "data/processed/m735_primary_review.json",
+      "path": "data/raw/comb_tablet_marshall_leaf185.jpg",
+      "hash_matches": true,
+      "size_matches_if_recorded": true
+    },
+    {
+      "parent": "data/processed/m735_primary_review.json",
+      "path": "data/raw/stone1471_marshall1931_volume2_text.pdf",
+      "hash_matches": true,
+      "size_matches_if_recorded": true
+    },
+    {
+      "parent": "data/processed/m735_primary_review.json",
+      "path": "data/raw/mahadevan_1977_text.pdf",
+      "hash_matches": true,
+      "size_matches_if_recorded": true
+    },
+    {
+      "parent": "data/processed/m735_primary_review.json",
+      "path": "data/raw/lipi_inscriptions.csv",
+      "hash_matches": true,
+      "size_matches_if_recorded": true
+    },
+    {
+      "parent": "data/processed/m735_primary_review.json",
+      "path": "results/primary_pages/comb-tablet-mic-53.png",
+      "hash_matches": true,
+      "size_matches_if_recorded": true
+    },
+    {
+      "parent": "data/processed/m735_primary_review.json",
+      "path": "results/primary_pages/comb-tablet-m77-51.png",
+      "hash_matches": true,
+      "size_matches_if_recorded": true
+    },
+    {
+      "parent": "data/processed/m735_primary_review.json",
+      "path": "results/primary_pages/comb-tablet-m77-42.png",
+      "hash_matches": true,
+      "size_matches_if_recorded": true
+    },
+    {
+      "parent": "data/processed/m735_primary_review.json",
+      "path": "results/primary_pages/chain-artifact-m77-827.png",
+      "hash_matches": true,
+      "size_matches_if_recorded": true
+    },
+    {
+      "parent": "data/processed/m735_primary_review.json",
+      "path": "results/primary_pages/sign_list_page_32.png",
+      "hash_matches": true,
+      "size_matches_if_recorded": true
+    },
+    {
+      "parent": "data/processed/m735_primary_review.json",
+      "path": "results/primary_pages/ending-signlist-045.png",
+      "hash_matches": true,
+      "size_matches_if_recorded": true
+    },
+    {
+      "parent": "data/processed/m735_primary_review.json",
+      "path": "scripts/render_m735_crops.py",
+      "hash_matches": true,
+      "size_matches_if_recorded": true
+    },
+    {
+      "parent": "data/processed/m735_primary_review.json",
+      "path": "results/comb-tablet-mic_extraction.json",
+      "hash_matches": true,
+      "size_matches_if_recorded": true
+    },
+    {
+      "parent": "data/processed/m735_primary_review.json",
+      "path": "results/m735_m77_extraction.json",
+      "hash_matches": true,
+      "size_matches_if_recorded": true
+    },
+    {
+      "parent": "data/processed/m735_primary_review.json",
+      "path": "results/primary_pages/m735-mic60-table.png",
+      "hash_matches": true,
+      "size_matches_if_recorded": true
+    },
+    {
+      "parent": "data/processed/m735_primary_review.json",
+      "path": "results/primary_pages/m735-mic60-photo.png",
+      "hash_matches": true,
+      "size_matches_if_recorded": true
+    },
+    {
+      "parent": "data/processed/m735_primary_review.json",
+      "path": "results/primary_pages/m735-m054-sign.png",
+      "hash_matches": true,
+      "size_matches_if_recorded": true
+    },
+    {
+      "parent": "data/processed/m735_primary_review.json",
+      "path": "results/primary_pages/m735-m77-1060.png",
+      "hash_matches": true,
+      "size_matches_if_recorded": true
+    },
+    {
+      "parent": "data/processed/h133_w554_primary_review.json",
+      "path": "data/raw/h133_vats_leaf79.jpg",
+      "hash_matches": true,
+      "size_matches_if_recorded": true
+    },
+    {
+      "parent": "data/processed/h133_w554_primary_review.json",
+      "path": "data/raw/vats_1940_text_18220_djvu.txt",
+      "hash_matches": true,
+      "size_matches_if_recorded": true
+    },
+    {
+      "parent": "data/processed/h133_w554_primary_review.json",
+      "path": "data/raw/vats_1940_plates_9842.pdf",
+      "hash_matches": true,
+      "size_matches_if_recorded": true
+    },
+    {
+      "parent": "data/processed/h133_w554_primary_review.json",
+      "path": "data/raw/mahadevan_1977_text.pdf",
+      "hash_matches": true,
+      "size_matches_if_recorded": true
+    },
+    {
+      "parent": "data/processed/h133_w554_primary_review.json",
+      "path": "data/raw/lipi_inscriptions.csv",
+      "hash_matches": true,
+      "size_matches_if_recorded": true
+    },
+    {
+      "parent": "data/processed/h133_w554_primary_review.json",
+      "path": "data/processed/m77_candidate_strict.jsonl",
+      "hash_matches": true,
+      "size_matches_if_recorded": true
+    },
+    {
+      "parent": "data/processed/h133_w554_primary_review.json",
+      "path": "results/comb_tablet_screen.json",
+      "hash_matches": true,
+      "size_matches_if_recorded": true
+    },
+    {
+      "parent": "data/processed/h133_w554_primary_review.json",
+      "path": "results/h133-m77_extraction.json",
+      "hash_matches": true,
+      "size_matches_if_recorded": true
+    },
+    {
+      "parent": "data/processed/h133_w554_primary_review.json",
+      "path": "results/h133-vats_extraction.json",
+      "hash_matches": true,
+      "size_matches_if_recorded": true
+    },
+    {
+      "parent": "data/processed/h133_w554_primary_review.json",
+      "path": "scripts/render_h133_w554_crops.py",
+      "hash_matches": true,
+      "size_matches_if_recorded": true
+    },
+    {
+      "parent": "data/processed/h133_w554_primary_review.json",
+      "path": "docs/H133_W554_PRIMARY_REVIEW.md",
+      "hash_matches": true,
+      "size_matches_if_recorded": true
+    },
+    {
+      "parent": "data/processed/h133_w554_primary_review.json",
+      "path": "results/primary_pages/h133-vats-192.png",
+      "hash_matches": true,
+      "size_matches_if_recorded": true
+    },
+    {
+      "parent": "data/processed/h133_w554_primary_review.json",
+      "path": "results/primary_pages/h133-m77-115.png",
+      "hash_matches": true,
+      "size_matches_if_recorded": true
+    },
+    {
+      "parent": "data/processed/h133_w554_primary_review.json",
+      "path": "results/primary_pages/h133-m77-45.png",
+      "hash_matches": true,
+      "size_matches_if_recorded": true
+    },
+    {
+      "parent": "data/processed/h133_w554_primary_review.json",
+      "path": "results/primary_pages/h133-m77-830.png",
+      "hash_matches": true,
+      "size_matches_if_recorded": true
+    },
+    {
+      "parent": "data/processed/h133_w554_primary_review.json",
+      "path": "results/primary_pages/h133-vats-metadata-detail.png",
+      "hash_matches": true,
+      "size_matches_if_recorded": true
+    },
+    {
+      "parent": "data/processed/h133_w554_primary_review.json",
+      "path": "results/primary_pages/h133-vats-261-detail.png",
+      "hash_matches": true,
+      "size_matches_if_recorded": true
+    },
+    {
+      "parent": "data/processed/h133_w554_primary_review.json",
+      "path": "results/primary_pages/h133-m77-4261-detail.png",
+      "hash_matches": true,
+      "size_matches_if_recorded": true
+    },
+    {
+      "parent": "data/processed/h133_w554_primary_review.json",
+      "path": "results/primary_pages/h133-m77-M226-detail.png",
+      "hash_matches": true,
+      "size_matches_if_recorded": true
+    },
+    {
+      "parent": "data/processed/h133_w554_primary_review.json",
+      "path": "results/primary_pages/h133-m77-EH-rule-detail.png",
+      "hash_matches": true,
+      "size_matches_if_recorded": true
+    },
+    {
+      "parent": "data/processed/m897_mapping_review.json",
+      "path": "data/raw/mahadevan_1977_text.pdf",
+      "hash_matches": true,
+      "size_matches_if_recorded": true
+    },
+    {
+      "parent": "data/processed/m897_mapping_review.json",
+      "path": "results/primary_pages/chain-artifact-m77-827.png",
+      "hash_matches": true,
+      "size_matches_if_recorded": true
+    },
+    {
+      "parent": "data/processed/m897_mapping_review.json",
+      "path": "results/primary_pages/m897-m77-086.png",
+      "hash_matches": true,
+      "size_matches_if_recorded": true
+    },
+    {
+      "parent": "data/processed/m897_mapping_review.json",
+      "path": "data/processed/m897_primary_review.json",
+      "hash_matches": true,
+      "size_matches_if_recorded": true
+    },
+    {
+      "parent": "data/processed/m897_primary_review.json",
+      "path": "data/raw/m897_mackay_leaf408.jpg",
+      "hash_matches": true,
+      "size_matches_if_recorded": true
+    },
+    {
+      "parent": "data/processed/m897_primary_review.json",
+      "path": "data/raw/ending_fem_plates_leaf207.jpg",
+      "hash_matches": true,
+      "size_matches_if_recorded": true
+    },
+    {
+      "parent": "data/processed/m897_primary_review.json",
+      "path": "data/raw/lipi_inscriptions.csv",
+      "hash_matches": true,
+      "size_matches_if_recorded": true
+    },
+    {
+      "parent": "data/processed/m897_primary_review.json",
+      "path": "results/primary_pages/m897-fem545.png",
+      "hash_matches": true,
+      "size_matches_if_recorded": true
+    },
+    {
+      "parent": "data/processed/m897_primary_review.json",
+      "path": "results/primary_pages/m897-table545.png",
+      "hash_matches": true,
+      "size_matches_if_recorded": true
+    },
+    {
+      "parent": "data/processed/m897_primary_review.json",
+      "path": "results/primary_pages/ending-india-m133-original.png",
+      "hash_matches": true,
+      "size_matches_if_recorded": true
+    },
+    {
+      "parent": "data/processed/m897_primary_review.json",
+      "path": "results/primary_pages/ending-india-l89-pair.png",
+      "hash_matches": true,
+      "size_matches_if_recorded": true
+    },
+    {
+      "parent": "data/processed/m897_primary_review.json",
+      "path": "scripts/render_m897_crops.py",
+      "hash_matches": true,
+      "size_matches_if_recorded": true
+    },
+    {
+      "parent": "data/processed/m897_primary_review.json",
+      "path": "scripts/download_m897_sources.py",
+      "hash_matches": true,
+      "size_matches_if_recorded": true
+    },
+    {
+      "parent": "data/processed/m897_primary_review.json",
+      "path": "data/processed/m897_new_sources.json",
+      "hash_matches": true,
+      "size_matches_if_recorded": true
+    },
+    {
+      "parent": "data/processed/m897_primary_review.json",
+      "path": "docs/M897_PRIMARY_REVIEW.md",
+      "hash_matches": true,
+      "size_matches_if_recorded": true
+    },
+    {
+      "parent": "data/processed/m897_mapping_review.json",
+      "path": "docs/PINCER_MAPPING_SENSITIVITY.md",
+      "hash_matches": true,
+      "size_matches_if_recorded": true
+    }
+  ],
+  "alias_limits": {
+    "M934": "Frozen inputs link MIC158/DM50 to M77:1158 and leave the modern CISI alias unchecked. Later m934_cisi2_review.json supplies labelled photographs but retains DM56/DM50 conflict. W526 remains secondary row3329.1, not a newly certified fine-stroke label; these ten constraints are unchanged.",
+    "M735": "Frozen input review links MIC60/C3070 to M77:1060 and leaves the modern alias unchecked. Later m735_alias_followup.json is separate evidence and does not alter these ten frozen constraints."
+  },
+  "logical_limits": [
+    "Bijective label means a locally injective partial one-to-one correspondence; no global surjectivity, W-inventory cardinality or completion to full inventories is tested.",
+    "Satisfiable selected constraints do not establish validity elsewhere.",
+    "Recorded assertions and primary evidence truth are distinct; hashes authenticate file identity, not historical correctness.",
+    "M897 remains sensitivity-only and cannot change core conclusions.",
+    "No candidate sequence beyond the ten selected targets was promoted."
+  ],
+  "new_downloads": [],
+  "established_semantic_values": 0,
+  "established_phonetic_values": 0,
+  "input_sha256": {
+    "results/catalogue_constraint_audit.json": "5916f5b7d6317cd4e5d4cf8b0f4a857a71e54afda9ac502cac0e6f0f5bbd08d8",
+    "scripts/audit_catalogue_constraints.py": "17494c8cc55a6b095504bee5408d4f849d0d941c4bda354332b08e84a34ac3b5",
+    "scripts/verify_catalogue_constraints.py": "812134bbdcf0d7e77b5f447897148f01d57ec5b7d089c72bcd8d177eb468880e",
+    "data/raw/lipi_inscriptions.csv": "b8dcb325a2e2cd3cde12ac12e7a418b0348e45713c9ee28aad81b645d2ac5ee4",
+    "data/processed/comb_variation_review.json": "204b53e2cd01dfe84776465dee5f6a60e4d82d43658124730d781ccbf9d2dc43",
+    "data/processed/double_grid_primary_review.json": "899bf1a7db91d2ccedf9d6978b1a4b2a3d9faba52ba7ebed74e528d859c57b2e",
+    "data/processed/ending_mapping_review.json": "eb49aa0a68bea2de158eb9f21996024cd242c0f4f086fdee75cc3bb59abb3618",
+    "data/processed/h133_w554_primary_review.json": "dffd1cd845b4542b0cea17bf9a800eb5b01ae00e20626e2aa698598843419504",
+    "data/processed/m735_primary_review.json": "fa6f61706d07a04b55c86780b59923e5e3b5c882fb00a75c3eb4dc6ef1df7c4c",
+    "data/processed/m897_mapping_review.json": "b4444f92e8a19809015bf8b1e671154933324b840ce27469d4bc579e7fa61847",
+    "data/processed/m897_primary_review.json": "c5c5c536c82b99cf5122f0da7c203af225dc2bc7cb7a85c6e9c50d9aa4de5fb5",
+    "data/processed/m934_primary_review.json": "68d9a0cd8e78da62d57a76040ac7bf87bc7d39f5468702ea9bb494b5b5b66af1",
+    "data/processed/pincer_primary_review.json": "a1a7769fb36ca0907a4f1b3a2e68c70d173e5110fa09f6e954f08bd067ed1df3",
+    "data/processed/w525_primary_review.json": "973acc34cfe4703cf4a5074f32314749783ed98994246a6445e19ee975d6212e"
+  }
+}

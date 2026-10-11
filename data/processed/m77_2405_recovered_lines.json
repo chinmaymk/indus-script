@@ -1,0 +1,707 @@
+{
+  "status": "All seven printed entries manually recovered; two lost or illegible spans retained as unknowns. No artifact autopsy or semantic decipherment.",
+  "namespace": "Mahadevan1977 only; no Wells or Parpola conversion",
+  "source": {
+    "path": "data/raw/mahadevan_1977_text.pdf",
+    "sha256": "6dcdd074a0174e5fab149590fbbf82342711d345764e9763f8e5e92c81cf7f99",
+    "bytes": 119302608
+  },
+  "specimen": {
+    "pdf_page": 31,
+    "printed_page": 20,
+    "section": "13.3",
+    "primary_object_reference": "FEM 405",
+    "render": {
+      "path": "results/primary_pages/m77-codebook-31.png",
+      "sha256": "2d02126be99255e7ae57f04b4b26f7329959e2dfa170f851871060f6854aa0c9",
+      "bytes": 2376085
+    }
+  },
+  "ordinary_text": {
+    "pdf_page": 81,
+    "printed_page": 70,
+    "render": {
+      "path": "results/primary_pages/numeral-followup-81.png",
+      "sha256": "598306c95c78f2d81616afd2347a7b40b127e8bbb5a6f3178b84605928b4eef4",
+      "bytes": 1608407
+    },
+    "all_seven_entries_agree_with_specimen": true
+  },
+  "table_i_renders": [
+    {
+      "path": "results/primary_pages/table_i_highres-728.png",
+      "sha256": "f5dd455c870b19be487b615c9349de9e91f24a178fde19d982b239230d238492",
+      "bytes": 1792408
+    },
+    {
+      "path": "results/primary_pages/table_i_highres-729.png",
+      "sha256": "654f3ca23d59636def8b165ce5d12202c346ef6771f5fbfca154ae4e5e3b23c3",
+      "bytes": 1504752
+    },
+    {
+      "path": "results/primary_pages/table_i_highres-730.png",
+      "sha256": "0a3bf5fff4c656b6558ff59c6e5c944e5005e892a10876f541c6e3a35ba75cfc",
+      "bytes": 1370236
+    },
+    {
+      "path": "results/primary_pages/table_i_highres-731.png",
+      "sha256": "ca23a2fe83ee9bb9c0b7f260e8966db770447a89a9d55aa88cc1a8cddfa4dbb8",
+      "bytes": 1539964
+    },
+    {
+      "path": "results/primary_pages/table_i_highres-732.png",
+      "sha256": "80c9b7e99be8d946b1d300c635d942c5b7a6ccb1436802c015f7c0beae8506a6",
+      "bytes": 1543336
+    },
+    {
+      "path": "results/primary_pages/table_i_highres-733.png",
+      "sha256": "3c2f4f3aa2c438c1d70ab7dcfc40aed59fe4a432d81f7a8d90768303ae9d1168",
+      "bytes": 1461348
+    },
+    {
+      "path": "results/primary_pages/table_i_highres-734.png",
+      "sha256": "7ef0bf17898fe200c9a5550a25d34e7121366644110c37b69546297ca40951eb",
+      "bytes": 1157444
+    }
+  ],
+  "orientation_rule": "Section13.2(ii), printed20, says all displayed lines are copied right to left irrespective of original direction or seal-impression direction. Direction metadata is preserved independently. Do not reverse the side2 first-line sequence because its original direction is code2.",
+  "normalization_rule": "Section13.2(iii) states that normalized signs and normal orientations of asymmetric signs are printed, without distinguishing original variants.",
+  "unknown_span_rule": "The specimen note explicitly defines hatching as an illegible or lost passage with one or more signs. It states that side6 is wholly illegible but included because other lines of the text are legible.",
+  "serialization_note": "000 is an editorial unknown-span serialization in this recovery, consistent with the export pilot convention; it is not a Mahadevan sign number or evidence of exactly one missing sign. The recovered extra lines are not claimed to occur in the raw export.",
+  "raw_export": {
+    "source": {
+      "path": "data/raw/glossa_icit_export.json",
+      "sha256": "e4ddfd064e9f97871cd4c498f39f238c7cecb2f6a646733b0a65f22f81bd7e2d",
+      "bytes": 919007
+    },
+    "record": {
+      "glossa_id": "GLI-IND-M77-02405",
+      "source_system": "indusscript-m77",
+      "site_name": "Mohenjo-daro",
+      "artifact_type": "seal",
+      "icit_text": "+293-123-343-065-294-342+",
+      "sign_count": 6,
+      "sign_id_scheme": "Mahadevan1977",
+      "rights_status": "rmrl-research"
+    },
+    "matches_only_display_entry": 1,
+    "additional_displayed_entries_not_in_this_record": 6
+  },
+  "entries": [
+    {
+      "display_entry": 1,
+      "text_reference": 2405,
+      "type_code": 1,
+      "type_label": "seal",
+      "side_code": 1,
+      "field_symbol_code": "01",
+      "field_symbol_label": "unicorn",
+      "line_code": 0,
+      "line_label": "only line",
+      "original_direction_code": 1,
+      "original_direction_label": "right_to_left",
+      "normalized_printed_order": "right_to_left",
+      "ordinary_text_page_literal_following_code": "110101",
+      "expanded_metadata_code": "110101",
+      "editorial_sequence": "293-123-343-065-294-342",
+      "segments": [
+        {
+          "position_from_right": 1,
+          "kind": "identified_sign",
+          "mahadevan_id": "M293",
+          "token": "293",
+          "primary_doubtful_asterisk_observed": false,
+          "identification_status": "visual_match_to_normalized_printed_form",
+          "morphology": "Curved bracket with a small inward loop.",
+          "supplied_glyph": {
+            "path": "IM_417_150_PNG/293.png",
+            "sha256": "52aa00d78079dc9ebcd4014e4088c4de7fe8ad95c7923c53c1b10257b077ca37",
+            "bytes": 1149
+          },
+          "primary_table_i": {
+            "pdf_page": 732,
+            "printed_page": 721,
+            "half": "right",
+            "row_in_half": 5
+          }
+        },
+        {
+          "position_from_right": 2,
+          "kind": "identified_sign",
+          "mahadevan_id": "M123",
+          "token": "123",
+          "primary_doubtful_asterisk_observed": false,
+          "identification_status": "visual_match_to_normalized_printed_form",
+          "morphology": "Curved stroke with a separate short vertical stroke at its upper left.",
+          "supplied_glyph": {
+            "path": "IM_417_150_PNG/123.png",
+            "sha256": "173087546db7fd1bac625a0137d48d5357d3cf0384bdd3bbc34c1a160426530a",
+            "bytes": 1084
+          },
+          "primary_table_i": {
+            "pdf_page": 729,
+            "printed_page": 718,
+            "half": "right",
+            "row_in_half": 27
+          }
+        },
+        {
+          "position_from_right": 3,
+          "kind": "identified_sign",
+          "mahadevan_id": "M343",
+          "token": "343",
+          "primary_doubtful_asterisk_observed": false,
+          "identification_status": "visual_match_to_normalized_printed_form",
+          "morphology": "U with outward horizontal end ticks and an additional short internal upright.",
+          "supplied_glyph": {
+            "path": "IM_417_150_PNG/343.png",
+            "sha256": "f51035d2dd46147b72c7150ccec9b243a8947199cdb05f9ba3739a273974ad05",
+            "bytes": 1579
+          },
+          "primary_table_i": {
+            "pdf_page": 733,
+            "printed_page": 722,
+            "half": "left",
+            "row_in_half": 23
+          }
+        },
+        {
+          "position_from_right": 4,
+          "kind": "identified_sign",
+          "mahadevan_id": "M065",
+          "token": "065",
+          "primary_doubtful_asterisk_observed": false,
+          "identification_status": "visual_match_to_normalized_printed_form",
+          "morphology": "Fish-like form with an arch above.",
+          "supplied_glyph": {
+            "path": "IM_417_150_PNG/65.png",
+            "sha256": "15d9b136daf401bb6989905c28579213f3f01ac56038edd6593e360067bea78e",
+            "bytes": 1572
+          },
+          "primary_table_i": {
+            "pdf_page": 729,
+            "printed_page": 718,
+            "half": "left",
+            "row_in_half": 1
+          }
+        },
+        {
+          "position_from_right": 5,
+          "kind": "identified_sign",
+          "mahadevan_id": "M294",
+          "token": "294",
+          "primary_doubtful_asterisk_observed": false,
+          "identification_status": "visual_match_to_normalized_printed_form",
+          "morphology": "Two parallel curved brackets.",
+          "supplied_glyph": {
+            "path": "IM_417_150_PNG/294.png",
+            "sha256": "3845249c6895eebf02297fcec7388d8e2c17763ba4c7c1942a54a8997297c915",
+            "bytes": 1684
+          },
+          "primary_table_i": {
+            "pdf_page": 732,
+            "printed_page": 721,
+            "half": "right",
+            "row_in_half": 6
+          }
+        },
+        {
+          "position_from_right": 6,
+          "kind": "identified_sign",
+          "mahadevan_id": "M342",
+          "token": "342",
+          "primary_doubtful_asterisk_observed": false,
+          "identification_status": "visual_match_to_normalized_printed_form",
+          "morphology": "U with two outward horizontal ticks at each top end; no extra internal upright.",
+          "supplied_glyph": {
+            "path": "IM_417_150_PNG/342.png",
+            "sha256": "be577acc0d46e60056b2d867d718e3ae99df64cdd3342e7ce6e61892750f3538",
+            "bytes": 1426
+          },
+          "primary_table_i": {
+            "pdf_page": 733,
+            "printed_page": 722,
+            "half": "left",
+            "row_in_half": 22
+          }
+        }
+      ],
+      "readable_sign_count": 6,
+      "unknown_span_count": 0,
+      "minimum_actual_sign_count": 6,
+      "exact_actual_sign_count": 6,
+      "complete_normalized_line": true
+    },
+    {
+      "display_entry": 2,
+      "text_reference": 2405,
+      "type_code": 1,
+      "type_label": "seal",
+      "side_code": 2,
+      "field_symbol_code": "00",
+      "field_symbol_label": "nil",
+      "line_code": 1,
+      "line_label": "first line",
+      "original_direction_code": 2,
+      "original_direction_label": "left_to_right",
+      "normalized_printed_order": "right_to_left",
+      "ordinary_text_page_literal_following_code": "20012",
+      "expanded_metadata_code": "120012",
+      "editorial_sequence": "391-089-137-253",
+      "segments": [
+        {
+          "position_from_right": 1,
+          "kind": "identified_sign",
+          "mahadevan_id": "M391",
+          "token": "391",
+          "primary_doubtful_asterisk_observed": false,
+          "identification_status": "visual_match_to_normalized_printed_form",
+          "morphology": "Oval divided into six radial sectors.",
+          "supplied_glyph": {
+            "path": "IM_417_150_PNG/391.png",
+            "sha256": "14e3a84e99226647c39a48a208908526c0bd4547d41789e97b982b3a38d5fafd",
+            "bytes": 2194
+          },
+          "primary_table_i": {
+            "pdf_page": 734,
+            "printed_page": 723,
+            "half": "left",
+            "row_in_half": 7
+          }
+        },
+        {
+          "position_from_right": 2,
+          "kind": "identified_sign",
+          "mahadevan_id": "M089",
+          "token": "089",
+          "primary_doubtful_asterisk_observed": false,
+          "identification_status": "visual_match_to_normalized_printed_form",
+          "morphology": "Three long vertical strokes.",
+          "supplied_glyph": {
+            "path": "IM_417_150_PNG/89.png",
+            "sha256": "9f2774ac3b3689305af94d5f1640c944b8941be2107e47322d5ef8f0ff41a402",
+            "bytes": 1465
+          },
+          "primary_table_i": {
+            "pdf_page": 729,
+            "printed_page": 718,
+            "half": "left",
+            "row_in_half": 25
+          }
+        },
+        {
+          "position_from_right": 3,
+          "kind": "identified_sign",
+          "mahadevan_id": "M137",
+          "token": "137",
+          "primary_doubtful_asterisk_observed": false,
+          "identification_status": "visual_match_to_normalized_printed_form",
+          "morphology": "Plain X.",
+          "supplied_glyph": {
+            "path": "IM_417_150_PNG/137.png",
+            "sha256": "4c8ffa03b343326821d28465f86955cfe71837653f88ba6956de50222d8d8030",
+            "bytes": 1567
+          },
+          "primary_table_i": {
+            "pdf_page": 730,
+            "printed_page": 719,
+            "half": "left",
+            "row_in_half": 9
+          }
+        },
+        {
+          "position_from_right": 4,
+          "kind": "identified_sign",
+          "mahadevan_id": "M253",
+          "token": "253",
+          "primary_doubtful_asterisk_observed": false,
+          "identification_status": "visual_match_to_normalized_printed_form",
+          "morphology": "Square with a short central stem extending above and below.",
+          "supplied_glyph": {
+            "path": "IM_417_150_PNG/253.png",
+            "sha256": "bb83a6f73bb5b458df4607b46ae09a809c315f2b5bbe9785467d4ee76d709b07",
+            "bytes": 1026
+          },
+          "primary_table_i": {
+            "pdf_page": 731,
+            "printed_page": 720,
+            "half": "right",
+            "row_in_half": 29
+          }
+        }
+      ],
+      "readable_sign_count": 4,
+      "unknown_span_count": 0,
+      "minimum_actual_sign_count": 4,
+      "exact_actual_sign_count": 4,
+      "complete_normalized_line": true
+    },
+    {
+      "display_entry": 3,
+      "text_reference": 2405,
+      "type_code": 1,
+      "type_label": "seal",
+      "side_code": 2,
+      "field_symbol_code": "00",
+      "field_symbol_label": "nil",
+      "line_code": 2,
+      "line_label": "second line",
+      "original_direction_code": 1,
+      "original_direction_label": "right_to_left",
+      "normalized_printed_order": "right_to_left",
+      "ordinary_text_page_literal_following_code": "21",
+      "expanded_metadata_code": "120021",
+      "editorial_sequence": "409-094-409-000",
+      "segments": [
+        {
+          "position_from_right": 1,
+          "kind": "identified_sign",
+          "mahadevan_id": "M409",
+          "token": "409",
+          "primary_doubtful_asterisk_observed": false,
+          "identification_status": "visual_match_to_normalized_printed_form",
+          "morphology": "Two separate ovals joined horizontally, with a central stem extending downward.",
+          "supplied_glyph": {
+            "path": "IM_417_150_PNG/409.png",
+            "sha256": "ce30de28a1c738c34395c653425057f1fc8f756c51c63ea738ffacf7a0e3f7cb",
+            "bytes": 2027
+          },
+          "primary_table_i": {
+            "pdf_page": 734,
+            "printed_page": 723,
+            "half": "right",
+            "row_in_half": 8
+          }
+        },
+        {
+          "position_from_right": 2,
+          "kind": "identified_sign",
+          "mahadevan_id": "M094",
+          "token": "094",
+          "primary_doubtful_asterisk_observed": false,
+          "identification_status": "visual_match_to_normalized_printed_form",
+          "morphology": "One upright stroke and two slanting strokes.",
+          "supplied_glyph": {
+            "path": "IM_417_150_PNG/94.png",
+            "sha256": "459b34b57444a23447037d1470d09f9ae32e8634b9cd49d458366ada2e23c730",
+            "bytes": 1973
+          },
+          "primary_table_i": {
+            "pdf_page": 729,
+            "printed_page": 718,
+            "half": "left",
+            "row_in_half": 30
+          }
+        },
+        {
+          "position_from_right": 3,
+          "kind": "identified_sign",
+          "mahadevan_id": "M409",
+          "token": "409",
+          "primary_doubtful_asterisk_observed": false,
+          "identification_status": "visual_match_to_normalized_printed_form",
+          "morphology": "Two separate ovals joined horizontally, with a central stem extending downward.",
+          "supplied_glyph": {
+            "path": "IM_417_150_PNG/409.png",
+            "sha256": "ce30de28a1c738c34395c653425057f1fc8f756c51c63ea738ffacf7a0e3f7cb",
+            "bytes": 2027
+          },
+          "primary_table_i": {
+            "pdf_page": 734,
+            "printed_page": 723,
+            "half": "right",
+            "row_in_half": 8
+          }
+        },
+        {
+          "position_from_right": 4,
+          "kind": "unknown_span",
+          "editorial_serialization": "000",
+          "mahadevan_id": null,
+          "primary_mark": "diagonal hatching",
+          "minimum_signs": 1,
+          "maximum_signs": null,
+          "uncertainty": "Illegible or lost passage containing one or more signs; identities and exact length unresolved."
+        }
+      ],
+      "readable_sign_count": 3,
+      "unknown_span_count": 1,
+      "minimum_actual_sign_count": 4,
+      "exact_actual_sign_count": null,
+      "complete_normalized_line": false
+    },
+    {
+      "display_entry": 4,
+      "text_reference": 2405,
+      "type_code": 1,
+      "type_label": "seal",
+      "side_code": 3,
+      "field_symbol_code": "00",
+      "field_symbol_label": "nil",
+      "line_code": 0,
+      "line_label": "only line",
+      "original_direction_code": 1,
+      "original_direction_label": "right_to_left",
+      "normalized_printed_order": "right_to_left",
+      "ordinary_text_page_literal_following_code": "30001",
+      "expanded_metadata_code": "130001",
+      "editorial_sequence": "319-032-162",
+      "segments": [
+        {
+          "position_from_right": 1,
+          "kind": "identified_sign",
+          "mahadevan_id": "M319",
+          "token": "319",
+          "primary_doubtful_asterisk_observed": false,
+          "identification_status": "visual_match_to_normalized_printed_form",
+          "morphology": "Oval-like enclosing curve with an inward lower curl.",
+          "supplied_glyph": {
+            "path": "IM_417_150_PNG/319.png",
+            "sha256": "0db499c830b2b8a32d9b30f5853498f452936418546d5a22b17090ba28eed3e6",
+            "bytes": 1824
+          },
+          "primary_table_i": {
+            "pdf_page": 732,
+            "printed_page": 721,
+            "half": "right",
+            "row_in_half": 31
+          }
+        },
+        {
+          "position_from_right": 2,
+          "kind": "identified_sign",
+          "mahadevan_id": "M032",
+          "token": "032",
+          "primary_doubtful_asterisk_observed": false,
+          "identification_status": "visual_match_to_normalized_printed_form",
+          "morphology": "Anthropomorphic form with a plain U attached on its right.",
+          "supplied_glyph": {
+            "path": "IM_417_150_PNG/32.png",
+            "sha256": "a082f2eca6d5398d8af594fb6f1d5f80c4c73149422e4c02b856386f997bcbbd",
+            "bytes": 1830
+          },
+          "primary_table_i": {
+            "pdf_page": 728,
+            "printed_page": 717,
+            "half": "left",
+            "row_in_half": 32
+          }
+        },
+        {
+          "position_from_right": 3,
+          "kind": "identified_sign",
+          "mahadevan_id": "M162",
+          "token": "162",
+          "primary_doubtful_asterisk_observed": false,
+          "identification_status": "visual_match_to_normalized_printed_form",
+          "morphology": "Three-pronged top on a vertical stem.",
+          "supplied_glyph": {
+            "path": "IM_417_150_PNG/162.png",
+            "sha256": "aa0e14cf16ee15959417be7fd49c68bfd17eebbc95b3bb6e9b713a954f7a61a3",
+            "bytes": 1127
+          },
+          "primary_table_i": {
+            "pdf_page": 730,
+            "printed_page": 719,
+            "half": "right",
+            "row_in_half": 2
+          }
+        }
+      ],
+      "readable_sign_count": 3,
+      "unknown_span_count": 0,
+      "minimum_actual_sign_count": 3,
+      "exact_actual_sign_count": 3,
+      "complete_normalized_line": true
+    },
+    {
+      "display_entry": 5,
+      "text_reference": 2405,
+      "type_code": 1,
+      "type_label": "seal",
+      "side_code": 4,
+      "field_symbol_code": "00",
+      "field_symbol_label": "nil",
+      "line_code": 0,
+      "line_label": "only line",
+      "original_direction_code": 1,
+      "original_direction_label": "right_to_left",
+      "normalized_printed_order": "right_to_left",
+      "ordinary_text_page_literal_following_code": "40001",
+      "expanded_metadata_code": "140001",
+      "editorial_sequence": "403-231",
+      "segments": [
+        {
+          "position_from_right": 1,
+          "kind": "identified_sign",
+          "mahadevan_id": "M403",
+          "token": "403",
+          "primary_doubtful_asterisk_observed": false,
+          "identification_status": "visual_match_to_normalized_printed_form",
+          "morphology": "Two overlapping ovals.",
+          "supplied_glyph": {
+            "path": "IM_417_150_PNG/403.png",
+            "sha256": "b3c84c3b826554f7e2aea81ed7dc12326865e5c097c97b953079ddb8c4b18e39",
+            "bytes": 2510
+          },
+          "primary_table_i": {
+            "pdf_page": 734,
+            "printed_page": 723,
+            "half": "right",
+            "row_in_half": 2
+          }
+        },
+        {
+          "position_from_right": 2,
+          "kind": "identified_sign",
+          "mahadevan_id": "M231",
+          "token": "231",
+          "primary_doubtful_asterisk_observed": false,
+          "identification_status": "visual_match_to_normalized_printed_form",
+          "morphology": "Three upward triangles above three downward triangles, separated by horizontal bars.",
+          "supplied_glyph": {
+            "path": "IM_417_150_PNG/231.png",
+            "sha256": "e34e614a2c545c61a0c17f7275ac23d7b240f79f385c3a99defd1ac9d317f3fe",
+            "bytes": 2437
+          },
+          "primary_table_i": {
+            "pdf_page": 731,
+            "printed_page": 720,
+            "half": "right",
+            "row_in_half": 7
+          }
+        }
+      ],
+      "readable_sign_count": 2,
+      "unknown_span_count": 0,
+      "minimum_actual_sign_count": 2,
+      "exact_actual_sign_count": 2,
+      "complete_normalized_line": true
+    },
+    {
+      "display_entry": 6,
+      "text_reference": 2405,
+      "type_code": 1,
+      "type_label": "seal",
+      "side_code": 5,
+      "field_symbol_code": "00",
+      "field_symbol_label": "nil",
+      "line_code": 0,
+      "line_label": "only line",
+      "original_direction_code": 3,
+      "original_direction_label": "only_sign_in_line",
+      "normalized_printed_order": "right_to_left",
+      "ordinary_text_page_literal_following_code": "50003",
+      "expanded_metadata_code": "150003",
+      "editorial_sequence": "408",
+      "segments": [
+        {
+          "position_from_right": 1,
+          "kind": "identified_sign",
+          "mahadevan_id": "M408",
+          "token": "408",
+          "primary_doubtful_asterisk_observed": false,
+          "identification_status": "visual_match_to_normalized_printed_form",
+          "morphology": "Two separate ovals joined horizontally, without a central downward stem.",
+          "supplied_glyph": {
+            "path": "IM_417_150_PNG/408.png",
+            "sha256": "2b8653cd0a8f524a5ba94fc5fd6f4fca55220016c23143b4c5c3ab5b36e525a0",
+            "bytes": 2114
+          },
+          "primary_table_i": {
+            "pdf_page": 734,
+            "printed_page": 723,
+            "half": "right",
+            "row_in_half": 7
+          }
+        }
+      ],
+      "readable_sign_count": 1,
+      "unknown_span_count": 0,
+      "minimum_actual_sign_count": 1,
+      "exact_actual_sign_count": 1,
+      "complete_normalized_line": true
+    },
+    {
+      "display_entry": 7,
+      "text_reference": 2405,
+      "type_code": 1,
+      "type_label": "seal",
+      "side_code": 6,
+      "field_symbol_code": "00",
+      "field_symbol_label": "nil",
+      "line_code": 0,
+      "line_label": "only line",
+      "original_direction_code": 9,
+      "original_direction_label": "doubtful",
+      "normalized_printed_order": "right_to_left",
+      "ordinary_text_page_literal_following_code": "60009",
+      "expanded_metadata_code": "160009",
+      "editorial_sequence": "000",
+      "segments": [
+        {
+          "position_from_right": 1,
+          "kind": "unknown_span",
+          "editorial_serialization": "000",
+          "mahadevan_id": null,
+          "primary_mark": "diagonal hatching",
+          "minimum_signs": 1,
+          "maximum_signs": null,
+          "uncertainty": "Illegible or lost passage containing one or more signs; identities and exact length unresolved."
+        }
+      ],
+      "readable_sign_count": 0,
+      "unknown_span_count": 1,
+      "minimum_actual_sign_count": 1,
+      "exact_actual_sign_count": null,
+      "complete_normalized_line": false
+    }
+  ],
+  "summary": {
+    "displayed_entries": 7,
+    "sides": 6,
+    "complete_normalized_lines": 5,
+    "partially_readable_lines": 1,
+    "wholly_illegible_lines": 1,
+    "readable_sign_positions": 19,
+    "distinct_identified_sign_ids": 18,
+    "unknown_spans": 2,
+    "serialized_segments_including_spans": 21,
+    "minimum_actual_signs": 21,
+    "exact_actual_signs": null,
+    "new_entries_beyond_export": 6,
+    "new_readable_sign_positions_beyond_export": 13
+  },
+  "discriminating_checks": [
+    {
+      "entry": 3,
+      "choice": "M094",
+      "alternative_rejected": "M093",
+      "reason": "One vertical plus two slanted strokes appears in both text reproductions. M093 has two vertical strokes plus one slant."
+    },
+    {
+      "entry": 4,
+      "choice": "M032",
+      "alternative_rejected": "M034",
+      "reason": "Attached U has no additional internal upright, unlike M034; this agrees with TableI left final row on printed717."
+    },
+    {
+      "entry": 3,
+      "choice": "M409 at both occurrences",
+      "alternative_rejected": "M408",
+      "reason": "Both paired-oval forms have a central downward stem. Side5 singleton lacks that stem and is M408."
+    },
+    {
+      "entry": 2,
+      "choice": "M089",
+      "reason": "Three full-height vertical strokes; not the short-stroke triad M102."
+    }
+  ],
+  "limits": [
+    "Checks authenticate normalized published transcription, not photographs, stroke variants or actual direction by autopsy.",
+    "No phonetic values, numerical values, lexical readings or translation are inferred.",
+    "Both unknown spans remain unresolved in identity and length; no boundary across them should be invented.",
+    "Side2 lines are separately recorded. No artificial adjacency across lines or sides is licensed.",
+    "No canonical export, strict dataset or source registry was modified."
+  ]
+}

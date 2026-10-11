@@ -1,0 +1,8012 @@
+[
+  {
+    "description": "Represents a section of significant damage or lost material",
+    "features": [
+      {
+        "description": "How much of the inscription was lost in this stretch of damage",
+        "percent_lost": "integer"
+      }
+    ],
+    "id": "P000",
+    "mahadevan_graphemes": [],
+    "parpola_graphemes": [
+      "V599"
+    ],
+    "source_path": "features/P000.json",
+    "wells_graphemes": []
+  },
+  {
+    "description": "Person carrying two burdens, ",
+    "features": [
+      {
+        "burden_shape": "integer",
+        "description": "What shape are the burdens? 0 = oval, 1 = circle, 2 = indeterminate"
+      },
+      {
+        "description": "Are the burdens suspended by ropes? 0 = no, 1 = yes",
+        "ropes": "integer"
+      }
+    ],
+    "id": "P001",
+    "mahadevan_graphemes": [
+      "M012"
+    ],
+    "parpola_graphemes": [
+      "V144",
+      "V143",
+      "V385",
+      "V539"
+    ],
+    "source_path": "features/P001.json",
+    "wells_graphemes": [
+      "W151"
+    ]
+  },
+  {
+    "description": "Person carrying two burdens, small vertical stroke between legs",
+    "features": [
+      {
+        "burden_shape": "integer",
+        "description": "What shape are the burdens? 0 = oval, 1 = circle, 2 = indeterminate"
+      },
+      {
+        "description": "Are the burdens suspended by ropes? 0 = no, 1 = yes",
+        "ropes": "integer"
+      }
+    ],
+    "id": "P002",
+    "mahadevan_graphemes": [
+      "M013"
+    ],
+    "parpola_graphemes": [
+      "V586"
+    ],
+    "source_path": "features/P002.json",
+    "wells_graphemes": []
+  },
+  {
+    "description": "Person carrying two burdens, triangle or diamond for a head",
+    "features": [
+      {
+        "burden_shape": "integer",
+        "description": "What shape are the burdens? 0 = oval, 1 = circle, 2 = triangle, 3 = indeterminate, 4 = none"
+      },
+      {
+        "description": "Are the burdens suspended by ropes? 0 = no, 1 = yes, 2 = N/A",
+        "ropes": "integer"
+      },
+      {
+        "description": "Are there both arms and a yoke support? 0 = no, 1 = yes, 2 = arms look like the yoke",
+        "yoke": "integer"
+      },
+      {
+        "description": "What shape is the head? 0 = triangle, 1 = diamond, 2 = caret",
+        "head_shape": "integer"
+      }
+    ],
+    "id": "P003",
+    "mahadevan_graphemes": [
+      "M011",
+      "M014"
+    ],
+    "parpola_graphemes": [
+      "V244",
+      "V320",
+      "V341",
+      "V465"
+    ],
+    "source_path": "features/P003.json",
+    "wells_graphemes": [
+      "W159",
+      "W160",
+      "W161"
+    ]
+  },
+  {
+    "description": "Person carrying two burdens, jar handles for a head",
+    "features": [
+      {
+        "burden_shape": "integer",
+        "description": "What shape are the burdens? 0 = oval, 1 = circle, 2 = indeterminate"
+      },
+      {
+        "description": "Are the burdens suspended by ropes? 0 = no, 1 = yes",
+        "ropes": "integer"
+      },
+      {
+        "description": "Are there both arms and a yoke support? 0 = no, 1 = yes",
+        "yoke": "integer"
+      }
+    ],
+    "id": "P004",
+    "mahadevan_graphemes": [
+      "M015"
+    ],
+    "parpola_graphemes": [
+      "V145",
+      "V538"
+    ],
+    "source_path": "features/P004.json",
+    "wells_graphemes": [
+      "W153",
+      "W154",
+      "W155",
+      "W156",
+      "W158"
+    ]
+  },
+  {
+    "description": "Person carrying two burdens, jar handles for a head. Pitchfork off shoulder",
+    "features": [
+      {
+        "burden_shape": "integer",
+        "description": "What shape are the burdens? 0 = oval, 1 = circle, 2 = indeterminate"
+      },
+      {
+        "description": "Are the burdens suspended by ropes? 0 = no, 1 = yes",
+        "ropes": "integer"
+      },
+      {
+        "description": "Are there both arms and a yoke support? 0 = no, 1 = yes",
+        "yoke": "integer"
+      },
+      {
+        "description": "How many tines are on the pitchfork?",
+        "tines": "integer"
+      }
+    ],
+    "id": "P005",
+    "mahadevan_graphemes": [],
+    "parpola_graphemes": [
+      "V750"
+    ],
+    "source_path": "features/P005.json",
+    "wells_graphemes": []
+  },
+  {
+    "description": "Two people, each carrying two burdens, carrying a tall hatched triangle between them",
+    "features": [
+      {
+        "burden_shape": "integer",
+        "description": "What shape are the burdens? 0 = oval, 1 = circle, 2 = indeterminate"
+      },
+      {
+        "description": "Are the burdens suspended by ropes? 0 = no, 1 = yes",
+        "ropes": "integer"
+      },
+      {
+        "description": "Are there both arms and a yoke support? 0 = no, 1 = yes",
+        "yoke": "integer"
+      },
+      {
+        "description": "How many lines are in the central triangle?",
+        "lines": "integer"
+      }
+    ],
+    "id": "P006",
+    "mahadevan_graphemes": [
+      "M016"
+    ],
+    "parpola_graphemes": [
+      "V370"
+    ],
+    "source_path": "features/P006.json",
+    "wells_graphemes": [
+      "W123"
+    ]
+  },
+  {
+    "description": "Person with flag for a head",
+    "features": [
+      {
+        "description": "Is the person also holding a wand? 1 = yes, 0 = no",
+        "wand": "integer"
+      }
+    ],
+    "id": "P007",
+    "mahadevan_graphemes": [
+      "M004"
+    ],
+    "parpola_graphemes": [
+      "V146",
+      "V374"
+    ],
+    "source_path": "features/P007.json",
+    "wells_graphemes": [
+      "W105",
+      "W107"
+    ]
+  },
+  {
+    "description": "Person with two flags for a head",
+    "features": [],
+    "id": "P008",
+    "mahadevan_graphemes": [
+      "M005"
+    ],
+    "parpola_graphemes": [
+      "V147"
+    ],
+    "source_path": "features/P008.json",
+    "wells_graphemes": [
+      "W106"
+    ]
+  },
+  {
+    "description": "Person with three heads",
+    "features": [
+      {
+        "description": "Do the heads come off the arms? 1 = yes, 0 = no",
+        "heads_on_arms": "integer"
+      }
+    ],
+    "id": "P009",
+    "mahadevan_graphemes": [
+      "M008"
+    ],
+    "parpola_graphemes": [
+      "V134",
+      "V559"
+    ],
+    "source_path": "features/P009.json",
+    "wells_graphemes": [
+      "W100"
+    ]
+  },
+  {
+    "description": "Person with three heads, bracketed by right parentheses",
+    "features": [
+      {
+        "description": "Do the heads come off the arms? 1 = yes, 0 = no",
+        "heads_on_arms": "integer"
+      },
+      {
+        "description": "Style of the right parentheses. 0 = normal, 1 = extra wavy bit on bottom",
+        "paren_style": "integer"
+      }
+    ],
+    "id": "P010",
+    "mahadevan_graphemes": [
+      "M009"
+    ],
+    "parpola_graphemes": [
+      "V505",
+      "V071",
+      "V252",
+      "V685"
+    ],
+    "source_path": "features/P010.json",
+    "wells_graphemes": [
+      "W101",
+      "W103"
+    ]
+  },
+  {
+    "description": "Person with round breasts and one raised arm",
+    "features": [
+      {
+        "description": "Which arm is raised? 0 = left, 1 = right",
+        "raised_arm": "integer"
+      }
+    ],
+    "id": "P011",
+    "mahadevan_graphemes": [
+      "M017"
+    ],
+    "parpola_graphemes": [
+      "V097",
+      "V534"
+    ],
+    "source_path": "features/P011.json",
+    "wells_graphemes": [
+      "W140"
+    ]
+  },
+  {
+    "description": "Person with an extra raised arm",
+    "features": [
+      {
+        "description": "Which arm is raised? 0 = left, 1 = right",
+        "raised_arm": "integer"
+      }
+    ],
+    "id": "P012",
+    "mahadevan_graphemes": [
+      "M007"
+    ],
+    "parpola_graphemes": [
+      "V268",
+      "V743"
+    ],
+    "source_path": "features/P012.json",
+    "wells_graphemes": [
+      "W098"
+    ]
+  },
+  {
+    "description": "Person with two arms and two legs, ",
+    "features": [],
+    "id": "P013",
+    "mahadevan_graphemes": [
+      "M001"
+    ],
+    "parpola_graphemes": [
+      "V133",
+      "V535"
+    ],
+    "source_path": "features/P013.json",
+    "wells_graphemes": [
+      "W090"
+    ]
+  },
+  {
+    "description": "Person with two arms and two legs, small vertical stroke between legs",
+    "features": [],
+    "id": "P014",
+    "mahadevan_graphemes": [
+      "M003"
+    ],
+    "parpola_graphemes": [
+      "V394"
+    ],
+    "source_path": "features/P014.json",
+    "wells_graphemes": [
+      "W093"
+    ]
+  },
+  {
+    "description": "Person with two arms and two legs, bracketed by tall vertical lines",
+    "features": [],
+    "id": "P015",
+    "mahadevan_graphemes": [
+      "M002"
+    ],
+    "parpola_graphemes": [
+      "V518",
+      "V150"
+    ],
+    "source_path": "features/P015.json",
+    "wells_graphemes": [
+      "W097"
+    ]
+  },
+  {
+    "description": "Two simple persons standing side by side",
+    "features": [],
+    "id": "P016",
+    "mahadevan_graphemes": [
+      "M002"
+    ],
+    "parpola_graphemes": [
+      "V110",
+      "V692"
+    ],
+    "source_path": "features/P016.json",
+    "wells_graphemes": [
+      "W091"
+    ]
+  },
+  {
+    "description": "Person with two arms and two legs, standing on a long horizontal stroke",
+    "features": [],
+    "id": "P017",
+    "mahadevan_graphemes": [
+      "M043"
+    ],
+    "parpola_graphemes": [
+      "V391"
+    ],
+    "source_path": "features/P017.json",
+    "wells_graphemes": []
+  },
+  {
+    "description": "Person with two arms and two legs, standing on a long horizontal stroke, bracketed by tall vertical strokes",
+    "features": [],
+    "id": "P018",
+    "mahadevan_graphemes": [],
+    "parpola_graphemes": [
+      "V754"
+    ],
+    "source_path": "features/P018.json",
+    "wells_graphemes": []
+  },
+  {
+    "description": "Person with two arms and two legs, small leaf almost like a phallus on right thigh",
+    "features": [],
+    "id": "P019",
+    "mahadevan_graphemes": [
+      "M040"
+    ],
+    "parpola_graphemes": [
+      "V148",
+      "V786"
+    ],
+    "source_path": "features/P019.json",
+    "wells_graphemes": [
+      "W137"
+    ]
+  },
+  {
+    "description": "Person with a half-height caret coming off the right foot",
+    "features": [],
+    "id": "P020",
+    "mahadevan_graphemes": [
+      "M041"
+    ],
+    "parpola_graphemes": [
+      "V149",
+      "V772"
+    ],
+    "source_path": "features/P020.json",
+    "wells_graphemes": [
+      "W104"
+    ]
+  },
+  {
+    "description": "Person standing on two wagon wheels",
+    "features": [],
+    "id": "P021",
+    "mahadevan_graphemes": [
+      "M042"
+    ],
+    "parpola_graphemes": [
+      "V741"
+    ],
+    "source_path": "features/P021.json",
+    "wells_graphemes": [
+      "W118"
+    ]
+  },
+  {
+    "description": "Person with pitchfork head across waist",
+    "features": [
+      {
+        "description": "Number of tines on pitchfork",
+        "tines": "integer"
+      }
+    ],
+    "id": "P022",
+    "mahadevan_graphemes": [
+      "M038"
+    ],
+    "parpola_graphemes": [
+      "V307"
+    ],
+    "source_path": "features/P022.json",
+    "wells_graphemes": [
+      "W094"
+    ]
+  },
+  {
+    "description": "Person with short stick",
+    "features": [
+      {
+        "description": "What angle is the stick? 0 = away from person, 1 = vertical, 2 = towards person",
+        "stick_angle": "integer"
+      }
+    ],
+    "id": "P023",
+    "mahadevan_graphemes": [
+      "M018"
+    ],
+    "parpola_graphemes": [
+      "V135",
+      "V427"
+    ],
+    "source_path": "features/P023.json",
+    "wells_graphemes": [
+      "W095"
+    ]
+  },
+  {
+    "description": "Person with large animal leg",
+    "features": [],
+    "id": "P024",
+    "mahadevan_graphemes": [
+      "M037"
+    ],
+    "parpola_graphemes": [
+      "V449"
+    ],
+    "source_path": "features/P024.json",
+    "wells_graphemes": [
+      "W121"
+    ]
+  },
+  {
+    "description": "Person holding tree with branches",
+    "features": [
+      {
+        "branches": "integer",
+        "description": "Number of branches on tree"
+      }
+    ],
+    "id": "P025",
+    "mahadevan_graphemes": [
+      "M021"
+    ],
+    "parpola_graphemes": [
+      "V388",
+      "V237"
+    ],
+    "source_path": "features/P025.json",
+    "wells_graphemes": []
+  },
+  {
+    "description": "Person with pitchfork",
+    "features": [
+      {
+        "description": "Number of tines on the pitchfork",
+        "tines": "integer"
+      }
+    ],
+    "id": "P026",
+    "mahadevan_graphemes": [
+      "M019"
+    ],
+    "parpola_graphemes": [
+      "V138",
+      "V763"
+    ],
+    "source_path": "features/P026.json",
+    "wells_graphemes": [
+      "W130"
+    ]
+  },
+  {
+    "description": "Person with pitchfork, small vertical stroke between feet",
+    "features": [
+      {
+        "description": "Number of tines on the pitchfork",
+        "tines": "integer"
+      }
+    ],
+    "id": "P027",
+    "mahadevan_graphemes": [
+      "M020"
+    ],
+    "parpola_graphemes": [
+      "V353"
+    ],
+    "source_path": "features/P027.json",
+    "wells_graphemes": [
+      "W131"
+    ]
+  },
+  {
+    "description": "Person with antenna",
+    "features": [
+      {
+        "description": "Number of tines on the antenna",
+        "tines": "integer"
+      }
+    ],
+    "id": "P028",
+    "mahadevan_graphemes": [
+      "M023"
+    ],
+    "parpola_graphemes": [
+      "V336"
+    ],
+    "source_path": "features/P028.json",
+    "wells_graphemes": [
+      "W133"
+    ]
+  },
+  {
+    "description": "Person with two antennae",
+    "features": [
+      {
+        "description": "Number of tines on the antennae",
+        "tines": "integer"
+      }
+    ],
+    "id": "P029",
+    "mahadevan_graphemes": [
+      "M024"
+    ],
+    "parpola_graphemes": [
+      "V697"
+    ],
+    "source_path": "features/P029.json",
+    "wells_graphemes": [
+      "W134"
+    ]
+  },
+  {
+    "description": "Person with short stick, several small vertical strokes coming away from stick",
+    "features": [
+      {
+        "description": "What angle is the stick? 0 = away from person, 1 = vertical, 2 = towards person",
+        "stick_angle": "integer"
+      },
+      {
+        "description": "How many strokes are coming away from the stick?",
+        "number_of_strokes": "integer"
+      }
+    ],
+    "id": "P030",
+    "mahadevan_graphemes": [],
+    "parpola_graphemes": [
+      "V340",
+      "V305"
+    ],
+    "source_path": "features/P030.json",
+    "wells_graphemes": [
+      "W145"
+    ]
+  },
+  {
+    "description": "Person with staff",
+    "features": [],
+    "id": "P031",
+    "mahadevan_graphemes": [
+      "M025"
+    ],
+    "parpola_graphemes": [
+      "V136",
+      "V450"
+    ],
+    "source_path": "features/P031.json",
+    "wells_graphemes": [
+      "W142"
+    ]
+  },
+  {
+    "description": "Person with staff, caged by four small vertical strokes",
+    "features": [],
+    "id": "P032",
+    "mahadevan_graphemes": [
+      "M026"
+    ],
+    "parpola_graphemes": [
+      "V570"
+    ],
+    "source_path": "features/P032.json",
+    "wells_graphemes": [
+      "W144"
+    ]
+  },
+  {
+    "description": "Person with two staves",
+    "features": [],
+    "id": "P033",
+    "mahadevan_graphemes": [],
+    "parpola_graphemes": [
+      "V348"
+    ],
+    "source_path": "features/P033.json",
+    "wells_graphemes": [
+      "W143"
+    ]
+  },
+  {
+    "description": "Person with bow and arrow, but no bowstring",
+    "features": [],
+    "id": "P034",
+    "mahadevan_graphemes": [
+      "M027"
+    ],
+    "parpola_graphemes": [
+      "V137"
+    ],
+    "source_path": "features/P034.json",
+    "wells_graphemes": [
+      "W146"
+    ]
+  },
+  {
+    "description": "Person with bow and arrow",
+    "features": [
+      {
+        "description": "How round is the bow? 0 = round, 1 = angular, 2 = mixed or indeterminate",
+        "roundedness": "integer"
+      },
+      {
+        "description": "Is the box on the right? 0 = yes, 1 = no",
+        "facing": "integer"
+      }
+    ],
+    "id": "P035",
+    "mahadevan_graphemes": [
+      "M028"
+    ],
+    "parpola_graphemes": [
+      "V139",
+      "V390"
+    ],
+    "source_path": "features/P035.json",
+    "wells_graphemes": [
+      "W125",
+      "W126"
+    ]
+  },
+  {
+    "description": "Person with two bows and arrows",
+    "features": [],
+    "id": "P036",
+    "mahadevan_graphemes": [
+      "M029"
+    ],
+    "parpola_graphemes": [
+      "V304"
+    ],
+    "source_path": "features/P036.json",
+    "wells_graphemes": [
+      "W127"
+    ]
+  },
+  {
+    "description": "Person with triangular 'pincer'",
+    "features": [],
+    "id": "P037",
+    "mahadevan_graphemes": [
+      "M036"
+    ],
+    "parpola_graphemes": [
+      "V316",
+      "V718"
+    ],
+    "source_path": "features/P037.json",
+    "wells_graphemes": [
+      "W122"
+    ]
+  },
+  {
+    "description": "Person with diamond connected to the right",
+    "features": [
+      {
+        "connection": "integer",
+        "description": "Does the person have a stick as well? 0 = no, 1 = yes"
+      }
+    ],
+    "id": "P038",
+    "mahadevan_graphemes": [
+      "M030"
+    ],
+    "parpola_graphemes": [
+      "V366"
+    ],
+    "source_path": "features/P038.json",
+    "wells_graphemes": [
+      "W119"
+    ]
+  },
+  {
+    "description": "Person with large leaf, dot in leaf",
+    "features": [],
+    "id": "P039",
+    "mahadevan_graphemes": [
+      "M031"
+    ],
+    "parpola_graphemes": [
+      "V417"
+    ],
+    "source_path": "features/P039.json",
+    "wells_graphemes": [
+      "W117"
+    ]
+  },
+  {
+    "description": "Person with U",
+    "features": [
+      {
+        "description": "Is the U on the right? (1 = yes, 0 = no)",
+        "facing": "integer"
+      },
+      {
+        "description": "Are the legs single straight lines (and not articulated)? 0 = no, 1 = yes, 2 = indeterminate",
+        "legs": "integer"
+      }
+    ],
+    "id": "P040",
+    "mahadevan_graphemes": [
+      "M032"
+    ],
+    "parpola_graphemes": [
+      "V140",
+      "V096"
+    ],
+    "source_path": "features/P040.json",
+    "wells_graphemes": [
+      "W110",
+      "W111"
+    ]
+  },
+  {
+    "description": "Person with U with vertical stroke inserted, stroke has a small dot at the bottom",
+    "features": [],
+    "id": "P041",
+    "mahadevan_graphemes": [
+      "M034"
+    ],
+    "parpola_graphemes": [
+      "V141"
+    ],
+    "source_path": "features/P041.json",
+    "wells_graphemes": [
+      "W112"
+    ]
+  },
+  {
+    "description": "Person with cat's paw",
+    "features": [],
+    "id": "P042",
+    "mahadevan_graphemes": [
+      "M035"
+    ],
+    "parpola_graphemes": [
+      "V142",
+      "V780"
+    ],
+    "source_path": "features/P042.json",
+    "wells_graphemes": [
+      "W113"
+    ]
+  },
+  {
+    "description": "Deer facing to the right (see also P303)",
+    "features": [
+      {
+        "description": "What shape is the head? 0 = realistic with round ears, 1 = realistic with line ears, 2 = inverted triangle, 3 = no head on neck, 4 = caret on neck, 5 = triangles on left side, 6 = triangles on both sides, 7 = plus sign",
+        "head_shape": "integer"
+      }
+    ],
+    "id": "P043",
+    "mahadevan_graphemes": [
+      "M050"
+    ],
+    "parpola_graphemes": [
+      "V288"
+    ],
+    "source_path": "features/P043.json",
+    "wells_graphemes": [
+      "W340",
+      "W341",
+      "W342",
+      "W343",
+      "W344",
+      "W345",
+      "W347",
+      "W348"
+    ]
+  },
+  {
+    "description": "Deer facing to the left",
+    "features": [],
+    "id": "P044",
+    "mahadevan_graphemes": [
+      "M050"
+    ],
+    "parpola_graphemes": [
+      "V077"
+    ],
+    "source_path": "features/P044.json",
+    "wells_graphemes": [
+      "W346"
+    ]
+  },
+  {
+    "description": "Cow's leg with horizontal hatching",
+    "features": [
+      {
+        "description": "Number of horizontal hatches",
+        "hatch_count": "integer"
+      }
+    ],
+    "id": "P045",
+    "mahadevan_graphemes": [
+      "M084"
+    ],
+    "parpola_graphemes": [
+      "V328",
+      "V269"
+    ],
+    "source_path": "features/P045.json",
+    "wells_graphemes": [
+      "W280"
+    ]
+  },
+  {
+    "description": "Cow's leg with horizontal hatching, bracketed by angled vertical lines",
+    "features": [
+      {
+        "description": "Number of horizontal hatches",
+        "hatch_count": "integer"
+      }
+    ],
+    "id": "P046",
+    "mahadevan_graphemes": [
+      "M085"
+    ],
+    "parpola_graphemes": [
+      "V408"
+    ],
+    "source_path": "features/P046.json",
+    "wells_graphemes": [
+      "W281"
+    ]
+  },
+  {
+    "description": "Vertical line with rounded and hatched decoration at the middle, capped by a caret hat",
+    "features": [
+      {
+        "description": "Is the decoration a circle or an oval? 0 = circle, 1 = oval, 2 = indeterminate",
+        "shape": "integer"
+      }
+    ],
+    "id": "P047",
+    "mahadevan_graphemes": [
+      "M398"
+    ],
+    "parpola_graphemes": [
+      "V323",
+      "V264"
+    ],
+    "source_path": "features/P047.json",
+    "wells_graphemes": [
+      "W517",
+      "W518"
+    ]
+  },
+  {
+    "description": "Fish with no arms, caret hat, diagonal hatching throughout",
+    "features": [
+      {
+        "description": "How many diagonal hatches are there?",
+        "hatch_count": "integer"
+      }
+    ],
+    "id": "P048",
+    "mahadevan_graphemes": [
+      "M075"
+    ],
+    "parpola_graphemes": [
+      "V087"
+    ],
+    "source_path": "features/P048.json",
+    "wells_graphemes": [
+      "W243"
+    ]
+  },
+  {
+    "description": "Fish with no arms and no other decoration",
+    "features": [],
+    "id": "P049",
+    "mahadevan_graphemes": [],
+    "parpola_graphemes": [
+      "V354"
+    ],
+    "source_path": "features/P049.json",
+    "wells_graphemes": []
+  },
+  {
+    "description": "Fish with no other decoration",
+    "features": [],
+    "id": "P050",
+    "mahadevan_graphemes": [
+      "M059"
+    ],
+    "parpola_graphemes": [
+      "V177",
+      "V517"
+    ],
+    "source_path": "features/P050.json",
+    "wells_graphemes": [
+      "W220"
+    ]
+  },
+  {
+    "description": "Fish with four small vertical strokes around the four corners",
+    "features": [],
+    "id": "P051",
+    "mahadevan_graphemes": [
+      "M060"
+    ],
+    "parpola_graphemes": [
+      "V513",
+      "V321"
+    ],
+    "source_path": "features/P051.json",
+    "wells_graphemes": [
+      "W226"
+    ]
+  },
+  {
+    "description": "Fish and 'table' with four small vertical strokes around the four corners, 'table' has a small box on top",
+    "features": [],
+    "id": "P052",
+    "mahadevan_graphemes": [
+      "M061"
+    ],
+    "parpola_graphemes": [
+      "V546"
+    ],
+    "source_path": "features/P052.json",
+    "wells_graphemes": [
+      "W944"
+    ]
+  },
+  {
+    "description": "Simple fish inside parentheses, with a small tooth coming off the top right or the right paren",
+    "features": [],
+    "id": "P053",
+    "mahadevan_graphemes": [
+      "M062"
+    ],
+    "parpola_graphemes": [
+      "V521"
+    ],
+    "source_path": "features/P053.json",
+    "wells_graphemes": [
+      "W222"
+    ]
+  },
+  {
+    "description": "Simple fish and bird inside parentheses",
+    "features": [],
+    "id": "P054",
+    "mahadevan_graphemes": [
+      "M064"
+    ],
+    "parpola_graphemes": [
+      "V588",
+      "V325"
+    ],
+    "source_path": "features/P054.json",
+    "wells_graphemes": [
+      "W940"
+    ]
+  },
+  {
+    "description": "Simple bird and fish inside parentheses",
+    "features": [
+      {
+        "bird_decoration": "integer",
+        "description": "How is the bird decorated? 0 = nothing, 1 = hatching"
+      }
+    ],
+    "id": "P055",
+    "mahadevan_graphemes": [
+      "M064"
+    ],
+    "parpola_graphemes": [
+      "V558"
+    ],
+    "source_path": "features/P055.json",
+    "wells_graphemes": [
+      "W942",
+      "W943"
+    ]
+  },
+  {
+    "description": "Fish with a small vertical stroke in the body",
+    "features": [
+      {
+        "description": "Is the marking a dot or a proper vertical line? 0 = dot, 1 = line",
+        "dot_or_stroke": "integer"
+      }
+    ],
+    "id": "P056",
+    "mahadevan_graphemes": [
+      "M070"
+    ],
+    "parpola_graphemes": [
+      "V178",
+      "V461"
+    ],
+    "source_path": "features/P056.json",
+    "wells_graphemes": [
+      "W231"
+    ]
+  },
+  {
+    "description": "Fish with a small vertical stroke in the body, caged by four small vertical strokes",
+    "features": [],
+    "id": "P057",
+    "mahadevan_graphemes": [
+      "M071"
+    ],
+    "parpola_graphemes": [
+      "V522",
+      "V669"
+    ],
+    "source_path": "features/P057.json",
+    "wells_graphemes": [
+      "W232"
+    ]
+  },
+  {
+    "description": "Fish with a horizontal line through body",
+    "features": [
+      {
+        "angle": "integer",
+        "description": "Is the horizontal line at an angle? 0 = no, 1 = yes"
+      }
+    ],
+    "id": "P058",
+    "mahadevan_graphemes": [
+      "M072"
+    ],
+    "parpola_graphemes": [
+      "V179",
+      "V463"
+    ],
+    "source_path": "features/P058.json",
+    "wells_graphemes": [
+      "W233"
+    ]
+  },
+  {
+    "description": "Fish with a horizontal line through body, caged by four small vertical lines",
+    "features": [
+      {
+        "angle": "integer",
+        "description": "Is the horizontal line at an angle? 0 = no, 1 = yes"
+      }
+    ],
+    "id": "P059",
+    "mahadevan_graphemes": [
+      "M073"
+    ],
+    "parpola_graphemes": [
+      "V530",
+      "V172"
+    ],
+    "source_path": "features/P059.json",
+    "wells_graphemes": [
+      "W234"
+    ]
+  },
+  {
+    "description": "Fish with a caret shaped hat",
+    "features": [],
+    "id": "P060",
+    "mahadevan_graphemes": [
+      "M065"
+    ],
+    "parpola_graphemes": [
+      "V086",
+      "V568"
+    ],
+    "source_path": "features/P060.json",
+    "wells_graphemes": [
+      "W235"
+    ]
+  },
+  {
+    "description": "Fish with a caret shaped hat, caged by four small vertical strokes",
+    "features": [],
+    "id": "P061",
+    "mahadevan_graphemes": [
+      "M066"
+    ],
+    "parpola_graphemes": [
+      "V520"
+    ],
+    "source_path": "features/P061.json",
+    "wells_graphemes": [
+      "W236"
+    ]
+  },
+  {
+    "description": "Fish with extra whiskers on cheeks",
+    "features": [
+      {
+        "description": "Number of whisker pairs on cheeks",
+        "whisker_pairs": "integer"
+      },
+      {
+        "description": "Number of horizontal lines on body",
+        "horizontal_decoration": "integer"
+      }
+    ],
+    "id": "P062",
+    "mahadevan_graphemes": [
+      "M067"
+    ],
+    "parpola_graphemes": [
+      "V180",
+      "V236",
+      "V541"
+    ],
+    "source_path": "features/P062.json",
+    "wells_graphemes": [
+      "W240",
+      "W242"
+    ]
+  },
+  {
+    "description": "Fish with extra whiskers on cheeks, caged by four small vertical strokes",
+    "features": [
+      {
+        "description": "Number of whisker pairs on cheeks",
+        "whisker_pairs": "integer"
+      },
+      {
+        "description": "Number of horizontal lines on body",
+        "horizontal_decoration": "integer"
+      }
+    ],
+    "id": "P063",
+    "mahadevan_graphemes": [
+      "M068"
+    ],
+    "parpola_graphemes": [
+      "V512",
+      "V120"
+    ],
+    "source_path": "features/P063.json",
+    "wells_graphemes": [
+      "W241"
+    ]
+  },
+  {
+    "description": "Fish with extra legs",
+    "features": [
+      {
+        "description": "Number of leg pairs on the body",
+        "leg_pairs": "integer"
+      }
+    ],
+    "id": "P064",
+    "mahadevan_graphemes": [
+      "M074"
+    ],
+    "parpola_graphemes": [
+      "V181"
+    ],
+    "source_path": "features/P064.json",
+    "wells_graphemes": [
+      "W227",
+      "W228"
+    ]
+  },
+  {
+    "description": "Fish with bird wings and a three feather tail",
+    "features": [],
+    "id": "P065",
+    "mahadevan_graphemes": [
+      "M083"
+    ],
+    "parpola_graphemes": [
+      "V183"
+    ],
+    "source_path": "features/P065.json",
+    "wells_graphemes": [
+      "W244"
+    ]
+  },
+  {
+    "description": "Semi-realistic bird with no wings",
+    "features": [
+      {
+        "description": "What shape is the bird's head? 0 = triangle, 1 = simple stroke, 2 = curved line",
+        "head_shape": "integer"
+      },
+      {
+        "decoration": "integer",
+        "description": "How is the body decorated? 0 = empty, 1 = hatching"
+      },
+      {
+        "body_shape": "integer",
+        "description": "What shape is the bird's body? 0 = fat bulge, 1 = delicate oval, 2 = triangular"
+      },
+      {
+        "description": "Which way is the bird facing? 0 = left, 1 = upward",
+        "direction": "integer"
+      }
+    ],
+    "id": "P066",
+    "mahadevan_graphemes": [
+      "M076",
+      "M077",
+      "M078"
+    ],
+    "parpola_graphemes": [
+      "V188",
+      "V531"
+    ],
+    "source_path": "features/P066.json",
+    "wells_graphemes": [
+      "W264",
+      "W266",
+      "W268"
+    ]
+  },
+  {
+    "description": "Large left and right parentheses surrounding an upward-pointing bird with no wings",
+    "features": [
+      {
+        "cage_shape": "integer",
+        "description": "Are the cage parenthesis round? 0 = round, 1 = angular, 2 = indeterminate"
+      },
+      {
+        "description": "What shape is the bird's head? 0 = triangle, 1 = simple stroke, 2 = curved line",
+        "head_shape": "integer"
+      },
+      {
+        "decoration": "integer",
+        "description": "How is the body decorated? 0 = empty, 1 = hatching"
+      },
+      {
+        "body_shape": "integer",
+        "description": "What shape is the bird's body? 0 = fat bulge, 1 = delicate oval, 2 = triangular"
+      }
+    ],
+    "id": "P067",
+    "mahadevan_graphemes": [
+      "M081"
+    ],
+    "parpola_graphemes": [
+      "V503",
+      "V263"
+    ],
+    "source_path": "features/P067.json",
+    "wells_graphemes": [
+      "W265",
+      "W267",
+      "W269",
+      "W270",
+      "W271"
+    ]
+  },
+  {
+    "description": "Duck in circular pond",
+    "features": [],
+    "id": "P068",
+    "mahadevan_graphemes": [
+      "M082"
+    ],
+    "parpola_graphemes": [
+      "V515"
+    ],
+    "source_path": "features/P068.json",
+    "wells_graphemes": [
+      "W952"
+    ]
+  },
+  {
+    "description": "Semi-realistic bird with no wings, swan's neck pointing backwards",
+    "features": [
+      {
+        "decoration": "integer",
+        "description": "How is the body decorated? 0 = empty, 1 = hatching"
+      }
+    ],
+    "id": "P069",
+    "mahadevan_graphemes": [
+      "M079"
+    ],
+    "parpola_graphemes": [
+      "V524"
+    ],
+    "source_path": "features/P069.json",
+    "wells_graphemes": [
+      "W262"
+    ]
+  },
+  {
+    "description": "Upward-pointing bird with wings",
+    "features": [],
+    "id": "P070",
+    "mahadevan_graphemes": [
+      "M080"
+    ],
+    "parpola_graphemes": [
+      "V747"
+    ],
+    "source_path": "features/P070.json",
+    "wells_graphemes": [
+      "W272"
+    ]
+  },
+  {
+    "description": "Leftward-pointing bird with vertical tail",
+    "features": [],
+    "id": "P071",
+    "mahadevan_graphemes": [
+      "M076"
+    ],
+    "parpola_graphemes": [
+      "V189",
+      "V489"
+    ],
+    "source_path": "features/P071.json",
+    "wells_graphemes": [
+      "W260"
+    ]
+  },
+  {
+    "description": "Leftward-pointing bird with rooster tail",
+    "features": [],
+    "id": "P072",
+    "mahadevan_graphemes": [],
+    "parpola_graphemes": [
+      "V527"
+    ],
+    "source_path": "features/P072.json",
+    "wells_graphemes": []
+  },
+  {
+    "description": "Unknown asymmetric animal? Perhaps a fish with asymmetric fins and legs?",
+    "features": [
+      {
+        "description": "How many horizontal hatches are in the upper left wing?",
+        "ul_hatches": "integer"
+      },
+      {
+        "description": "Is the 'foot' pointed to the left? 0 = no, 1 = yes",
+        "mirror": "integer"
+      }
+    ],
+    "id": "P073",
+    "mahadevan_graphemes": [
+      "M051"
+    ],
+    "parpola_graphemes": [
+      "V184",
+      "V460"
+    ],
+    "source_path": "features/P073.json",
+    "wells_graphemes": [
+      "W255"
+    ]
+  },
+  {
+    "description": "Unknown asymmetric animal? Perhaps a fish with asymmetric fins and legs? Attached on left to a tall vertical stroke",
+    "features": [
+      {
+        "description": "How many horizontal hatches are in the upper left wing?",
+        "ul_hatches": "integer"
+      },
+      {
+        "description": "Is the 'foot' pointed to the left? 0 = no, 1 = yes",
+        "mirror": "integer"
+      }
+    ],
+    "id": "P074",
+    "mahadevan_graphemes": [
+      "M052"
+    ],
+    "parpola_graphemes": [
+      "V368"
+    ],
+    "source_path": "features/P074.json",
+    "wells_graphemes": [
+      "W256"
+    ]
+  },
+  {
+    "description": "Leaf with 'pincers' coming off the right, possibly with small stroke legs off top and bottom of leaf",
+    "features": [
+      {
+        "description": "Are the pincers on the right? 0 = no, 1 = yes",
+        "direction": "integer"
+      },
+      {
+        "description": "How many legs come off top and bottom?",
+        "legs": "integer"
+      },
+      {
+        "description": "How large is the leaf? 0 = small, 1 = large",
+        "leaf_size": "integer"
+      }
+    ],
+    "id": "P075",
+    "mahadevan_graphemes": [
+      "M053"
+    ],
+    "parpola_graphemes": [
+      "V168",
+      "V579"
+    ],
+    "source_path": "features/P075.json",
+    "wells_graphemes": [
+      "W193",
+      "W797",
+      "W798"
+    ]
+  },
+  {
+    "description": "Squashed spider, with right two legs slightly more away from the body",
+    "features": [
+      {
+        "curvy": "integer",
+        "description": "Are the right two legs curvy? 0 = curvy, 1 = straight"
+      },
+      {
+        "decoration": "integer",
+        "description": "Is there a small marking in the body? 0 = no, 1 = yes"
+      },
+      {
+        "description": "How many legs are there (including the right two)?",
+        "legs": "integer"
+      }
+    ],
+    "id": "P076",
+    "mahadevan_graphemes": [
+      "M054",
+      "M055"
+    ],
+    "parpola_graphemes": [
+      "V190",
+      "V544"
+    ],
+    "source_path": "features/P076.json",
+    "wells_graphemes": [
+      "W190",
+      "W192",
+      "W194"
+    ]
+  },
+  {
+    "description": "Two stacked leaves, with ladder going up and to the right from the center",
+    "features": [
+      {
+        "description": "How many rungs are on the ladder?",
+        "rungs": "integer"
+      }
+    ],
+    "id": "P077",
+    "mahadevan_graphemes": [
+      "M412"
+    ],
+    "parpola_graphemes": [
+      "V193",
+      "V490"
+    ],
+    "source_path": "features/P077.json",
+    "wells_graphemes": [
+      "W201"
+    ]
+  },
+  {
+    "description": "Two stacked half-leaves (just the right half), with long stroke going up and to the right from the center",
+    "features": [
+      {
+        "curve": "integer",
+        "description": "Is the stroke going away curved? 0 = no, 1 = yes"
+      }
+    ],
+    "id": "P078",
+    "mahadevan_graphemes": [
+      "M310"
+    ],
+    "parpola_graphemes": [
+      "V357"
+    ],
+    "source_path": "features/P078.json",
+    "wells_graphemes": [
+      "W894"
+    ]
+  },
+  {
+    "description": "Two stacked leaves",
+    "features": [],
+    "id": "P079",
+    "mahadevan_graphemes": [
+      "M410"
+    ],
+    "parpola_graphemes": [
+      "V781"
+    ],
+    "source_path": "features/P079.json",
+    "wells_graphemes": [
+      "W200"
+    ]
+  },
+  {
+    "description": "Two stacked leaves, connected on left to a tall vertical stroke",
+    "features": [],
+    "id": "P080",
+    "mahadevan_graphemes": [
+      "M413"
+    ],
+    "parpola_graphemes": [
+      "V419"
+    ],
+    "source_path": "features/P080.json",
+    "wells_graphemes": [
+      "W203"
+    ]
+  },
+  {
+    "description": "Serif'd three sided hat, over two small dots connected by a diagonal line",
+    "features": [],
+    "id": "P081",
+    "mahadevan_graphemes": [],
+    "parpola_graphemes": [
+      "V722"
+    ],
+    "source_path": "features/P081.json",
+    "wells_graphemes": []
+  },
+  {
+    "description": "Two stacked leaves, two inverted caret legs on each leaf, and wings pointing away from each other on each leaf",
+    "features": [
+      {
+        "decoration": "integer",
+        "description": "What is the decoration in each leaf? 0 = none, 1 = hatching, 2 = dot"
+      },
+      {
+        "description": "What side do the caret legs appear on? 0 = left, 1 = right",
+        "direction": "integer"
+      },
+      {
+        "description": "What shape is each wings? 0 = two curved lines, 1 = horn shaped, 2 = connected horns (wings connected to each other)",
+        "wing_shape": "integer"
+      }
+    ],
+    "id": "P082",
+    "mahadevan_graphemes": [
+      "M057"
+    ],
+    "parpola_graphemes": [
+      "V195"
+    ],
+    "source_path": "features/P082.json",
+    "wells_graphemes": [
+      "W205",
+      "W206",
+      "W207",
+      "W208",
+      "W209"
+    ]
+  },
+  {
+    "description": "Two stacked leaves, with lines coming away on the right of each leaf",
+    "features": [
+      {
+        "description": "How many rays come off each leaf?",
+        "ray_count": "integer"
+      }
+    ],
+    "id": "P083",
+    "mahadevan_graphemes": [
+      "M056"
+    ],
+    "parpola_graphemes": [
+      "V194"
+    ],
+    "source_path": "features/P083.json",
+    "wells_graphemes": [
+      "W204"
+    ]
+  },
+  {
+    "description": "Oval with several short strokes coming off the bottom, and a very small tree-like shape at the top.",
+    "features": [
+      {
+        "description": "How many rays come off the bottom?",
+        "ray_count": "integer"
+      },
+      {
+        "branch_count": "integer",
+        "description": "How many branches come off the tree? (0 = indeterminate)"
+      }
+    ],
+    "id": "P084",
+    "mahadevan_graphemes": [
+      "M395"
+    ],
+    "parpola_graphemes": [
+      "V191",
+      "V557"
+    ],
+    "source_path": "features/P084.json",
+    "wells_graphemes": [
+      "W285",
+      "W286",
+      "W287"
+    ]
+  },
+  {
+    "description": "Singly, symetrically bifurcated tall vertical stroke",
+    "features": [],
+    "id": "P085",
+    "mahadevan_graphemes": [
+      "M161"
+    ],
+    "parpola_graphemes": [
+      "V443"
+    ],
+    "source_path": "features/P085.json",
+    "wells_graphemes": [
+      "W064"
+    ]
+  },
+  {
+    "description": "Simple tree with branches at the top",
+    "features": [
+      {
+        "branch_factor": "integer",
+        "description": "How many branches stem from a single branching point?"
+      },
+      {
+        "branch_count": "integer",
+        "description": "How many times does the tree branch?"
+      },
+      {
+        "branch_direction": "integer",
+        "description": "In what direction does branching continue? N/A = 0, left = 1, right = 2"
+      },
+      {
+        "description": "What shape is the final branch? 0 = branched, 1 = only a right angle into one branch",
+        "final_branch_shape": "integer"
+      }
+    ],
+    "id": "P086",
+    "mahadevan_graphemes": [
+      "M161",
+      "M162",
+      "M167",
+      "M168",
+      "M169"
+    ],
+    "parpola_graphemes": [
+      "V126",
+      "V127",
+      "V151",
+      "V508"
+    ],
+    "source_path": "features/P086.json",
+    "wells_graphemes": [
+      "W390",
+      "W392",
+      "W405",
+      "W406",
+      "W407",
+      "W408"
+    ]
+  },
+  {
+    "description": "Simple tree with branches at the top, caged in four pairs of small vertical strokes",
+    "features": [
+      {
+        "branch_factor": "integer",
+        "description": "How many branches stem from a single branching point?"
+      },
+      {
+        "branch_count": "integer",
+        "description": "How many times does the tree branch?"
+      },
+      {
+        "branch_direction": "integer",
+        "description": "In what direction does branching continue? N/A = 0, left = 1, right = 2"
+      },
+      {
+        "description": "What shape is the final branch? 0 = branched, 1 = only a right angle into one branch",
+        "final_branch_shape": "integer"
+      }
+    ],
+    "id": "P087",
+    "mahadevan_graphemes": [
+      "M164"
+    ],
+    "parpola_graphemes": [
+      "V748"
+    ],
+    "source_path": "features/P087.json",
+    "wells_graphemes": [
+      "W393"
+    ]
+  },
+  {
+    "description": "Simple tree with branches at the top, with a pitchfork head at either top or bottom",
+    "features": [
+      {
+        "branch_factor": "integer",
+        "description": "How many branches stem from a single branching point?"
+      },
+      {
+        "branch_count": "integer",
+        "description": "How many times does the tree branch?"
+      },
+      {
+        "branch_direction": "integer",
+        "description": "In what direction does branching continue? N/A = 0, left = 1, right = 2"
+      },
+      {
+        "description": "What shape is the final branch? 0 = branched, 1 = only a right angle into one branch",
+        "final_branch_shape": "integer"
+      }
+    ],
+    "id": "P088",
+    "mahadevan_graphemes": [
+      "M165",
+      "M166"
+    ],
+    "parpola_graphemes": [
+      "V466",
+      "V547"
+    ],
+    "source_path": "features/P088.json",
+    "wells_graphemes": [
+      "W394"
+    ]
+  },
+  {
+    "description": "Three pronged tree with caret hat",
+    "features": [],
+    "id": "P089",
+    "mahadevan_graphemes": [
+      "M163"
+    ],
+    "parpola_graphemes": [
+      "V084",
+      "V801"
+    ],
+    "source_path": "features/P089.json",
+    "wells_graphemes": [
+      "W391"
+    ]
+  },
+  {
+    "description": "Tall vertical stroke, with M shaped diagonal wiggle through middle",
+    "features": [],
+    "id": "P090",
+    "mahadevan_graphemes": [],
+    "parpola_graphemes": [
+      "V592"
+    ],
+    "source_path": "features/P090.json",
+    "wells_graphemes": [
+      "W956"
+    ]
+  },
+  {
+    "description": "Horizontal line with multiple lines out the top, lines or U out the bottom",
+    "features": [
+      {
+        "description": "How many lines come off the top?",
+        "top_lines": "integer"
+      },
+      {
+        "description": "Are the top lines purely vertical? yes = 0, no = 1",
+        "top_style": "integer"
+      },
+      {
+        "bottom_style": "integer",
+        "description": "What shape is the bottom? U = 0, two lines = 1, oval = 2"
+      }
+    ],
+    "id": "P091",
+    "mahadevan_graphemes": [
+      "M174",
+      "M175"
+    ],
+    "parpola_graphemes": [
+      "V045",
+      "V044",
+      "V523"
+    ],
+    "source_path": "features/P091.json",
+    "wells_graphemes": [
+      "W350",
+      "W352",
+      "W353",
+      "W354"
+    ]
+  },
+  {
+    "description": "Pitchfork with tines",
+    "features": [
+      {
+        "description": "How many tines come off the top?",
+        "tines": "integer"
+      }
+    ],
+    "id": "P092",
+    "mahadevan_graphemes": [
+      "M171"
+    ],
+    "parpola_graphemes": [
+      "V042",
+      "V182"
+    ],
+    "source_path": "features/P092.json",
+    "wells_graphemes": [
+      "W415"
+    ]
+  },
+  {
+    "description": "Two pitchforks with tines, facing each other vertically",
+    "features": [
+      {
+        "description": "How many tines come off the pitchfork tops?",
+        "tines": "integer"
+      }
+    ],
+    "id": "P093",
+    "mahadevan_graphemes": [
+      "M172"
+    ],
+    "parpola_graphemes": [
+      "V360"
+    ],
+    "source_path": "features/P093.json",
+    "wells_graphemes": [
+      "W417"
+    ]
+  },
+  {
+    "description": "Pitckfork with two vertical tines on ends, one triangular tine in the middle",
+    "features": [],
+    "id": "P094",
+    "mahadevan_graphemes": [],
+    "parpola_graphemes": [
+      "V247",
+      "V464"
+    ],
+    "source_path": "features/P094.json",
+    "wells_graphemes": [
+      "W521"
+    ]
+  },
+  {
+    "description": "Pitckfork with two stacked heads",
+    "features": [
+      {
+        "description": "Number of tines on the pitchforks",
+        "tine_count": "integer"
+      }
+    ],
+    "id": "P095",
+    "mahadevan_graphemes": [
+      "M173"
+    ],
+    "parpola_graphemes": [
+      "V043",
+      "V404"
+    ],
+    "source_path": "features/P095.json",
+    "wells_graphemes": [
+      "W416"
+    ]
+  },
+  {
+    "description": "U where one arm has a double headed pitchfork, the other is a tree symbol",
+    "features": [
+      {
+        "description": "Number of tines on the pitchforks",
+        "pitchfork_tines": "integer"
+      },
+      {
+        "description": "How many branches in the tree",
+        "tree_branches": "integer"
+      },
+      {
+        "branching shape": "integer",
+        "description": "What shape are the branches? 0 = bifurcating, 1 = off to one side, 2 = off to one side with closing horizontal line at top"
+      }
+    ],
+    "id": "P096",
+    "mahadevan_graphemes": [
+      "M348"
+    ],
+    "parpola_graphemes": [
+      "V212"
+    ],
+    "source_path": "features/P096.json",
+    "wells_graphemes": [
+      "W770",
+      "W772",
+      "W773"
+    ]
+  },
+  {
+    "description": "Pitckfork with two stacked heads, inside a rectangular box, possibly with a small tooth off the right edge of the box",
+    "features": [
+      {
+        "description": "Number of tines on the pitchforks",
+        "tine_count": "integer"
+      },
+      {
+        "description": "Is there a tooth? 0 = no, 1 = yes, 2 = indeterminate",
+        "tooth": "integer"
+      }
+    ],
+    "id": "P097",
+    "mahadevan_graphemes": [],
+    "parpola_graphemes": [
+      "V733"
+    ],
+    "source_path": "features/P097.json",
+    "wells_graphemes": [
+      "W642"
+    ]
+  },
+  {
+    "description": "Vertical line with small horizontal lines coming off one side across the entire height",
+    "features": [
+      {
+        "description": "Number of tines coming off the vertical line",
+        "tines": "integer"
+      },
+      {
+        "description": "Direction of the tines. 0 is left, 1 is right",
+        "direction": "integer"
+      },
+      {
+        "description": "Angle of the tines. 0 = straight, 1 = angled",
+        "stroke_angle": "integer"
+      }
+    ],
+    "id": "P098",
+    "mahadevan_graphemes": [
+      "M176"
+    ],
+    "parpola_graphemes": [
+      "V051",
+      "V486"
+    ],
+    "source_path": "features/P098.json",
+    "wells_graphemes": [
+      "W400",
+      "W402"
+    ]
+  },
+  {
+    "description": "Vertical line with small horizontal lines crossing it across the entire height",
+    "features": [
+      {
+        "description": "Number of tines coming off the vertical line",
+        "tines": "integer"
+      },
+      {
+        "description": "Do the tines run the full height of the vertical line? 0 = no, 1 = yes",
+        "extent": "integer"
+      }
+    ],
+    "id": "P099",
+    "mahadevan_graphemes": [
+      "M177"
+    ],
+    "parpola_graphemes": [
+      "V026"
+    ],
+    "source_path": "features/P099.json",
+    "wells_graphemes": [
+      "W413"
+    ]
+  },
+  {
+    "description": "Wheat shaft. Vertical stroke with upward pointing diagonal strokes on both sides, going the full length of the shaft",
+    "features": [
+      {
+        "description": "Do the leaves get smaller toward the top? 0 = no, 1 = yes, 2 = indeterminate",
+        "taper": "integer"
+      }
+    ],
+    "id": "P100",
+    "mahadevan_graphemes": [
+      "M168"
+    ],
+    "parpola_graphemes": [
+      "V470"
+    ],
+    "source_path": "features/P100.json",
+    "wells_graphemes": [
+      "W411"
+    ]
+  },
+  {
+    "description": "Wheat shaft. Vertical stroke with upward pointing diagonal strokes on both sides, but leaves only at the top",
+    "features": [
+      {
+        "description": "Do the leaves get smaller toward the top? 0 = no, 1 = yes, 2 = indeterminate",
+        "taper": "integer"
+      }
+    ],
+    "id": "P101",
+    "mahadevan_graphemes": [
+      "M167"
+    ],
+    "parpola_graphemes": [
+      "V795"
+    ],
+    "source_path": "features/P101.json",
+    "wells_graphemes": []
+  },
+  {
+    "description": "Curved wheat shaft in two long vertical strokes. Wheat shaft is: curved stroke with upward pointing diagonal strokes on both sides, going the full length of the shaft",
+    "features": [
+      {
+        "description": "Do the leaves get smaller toward the top? 0 = no, 1 = yes, 2 = indeterminate",
+        "taper": "integer"
+      }
+    ],
+    "id": "P102",
+    "mahadevan_graphemes": [],
+    "parpola_graphemes": [
+      "V382"
+    ],
+    "source_path": "features/P102.json",
+    "wells_graphemes": [
+      "W412"
+    ]
+  },
+  {
+    "description": "Plant curving left, small leaf at top, larger leaf at middle forming two leaves on either side of stem",
+    "features": [],
+    "id": "P103",
+    "mahadevan_graphemes": [
+      "M400"
+    ],
+    "parpola_graphemes": [
+      "V187",
+      "V295"
+    ],
+    "source_path": "features/P103.json",
+    "wells_graphemes": [
+      "W374"
+    ]
+  },
+  {
+    "description": "Plant curving left, small leaf at top, larger leaf at middle forming two leaves on either side of stem. Bracketed by two inward taperd vertical lines",
+    "features": [
+      {
+        "description": "How are the vertical bars tapered? 0 = none, 1 = slightly, 2 = moderately",
+        "taper": "integer"
+      }
+    ],
+    "id": "P104",
+    "mahadevan_graphemes": [
+      "M401"
+    ],
+    "parpola_graphemes": [
+      "V476"
+    ],
+    "source_path": "features/P104.json",
+    "wells_graphemes": [
+      "W375"
+    ]
+  },
+  {
+    "description": "Plant curving left, small leaf at top, larger leaf at middle forming two leaves on either side of stem. Standing on top of horizontal pedestal",
+    "features": [],
+    "id": "P105",
+    "mahadevan_graphemes": [],
+    "parpola_graphemes": [
+      "V272"
+    ],
+    "source_path": "features/P105.json",
+    "wells_graphemes": []
+  },
+  {
+    "description": "Flowering plant with 'sapling' on right, 'tree branch' on left",
+    "features": [],
+    "id": "P106",
+    "mahadevan_graphemes": [
+      "M351"
+    ],
+    "parpola_graphemes": [
+      "V238"
+    ],
+    "source_path": "features/P106.json",
+    "wells_graphemes": [
+      "W767"
+    ]
+  },
+  {
+    "description": "Flowering plant with 'sapling' on left, 'tree branch' on right, 'garlic' in center",
+    "features": [],
+    "id": "P107",
+    "mahadevan_graphemes": [
+      "M372"
+    ],
+    "parpola_graphemes": [
+      "V342"
+    ],
+    "source_path": "features/P107.json",
+    "wells_graphemes": [
+      "W768"
+    ]
+  },
+  {
+    "description": "The 'garlic' motif. Vertical stroke, broken by a circle with a dot in it",
+    "features": [
+      {
+        "description": "How round is the central circle? 0 = round, 1 = angular, 2 = mixed or indeterminate",
+        "roundedness": "integer"
+      },
+      {
+        "circle_position": "integer",
+        "description": "Where is the circle located? 0 = top, 1 = middle, 2 = bottom, 3 = indeterminate"
+      },
+      {
+        "circle_decoration": "integer",
+        "description": "How is the circle decorated? 0 = dot, 1 = hatches, 2 = mixed or indeterminate"
+      }
+    ],
+    "id": "P108",
+    "mahadevan_graphemes": [
+      "M397"
+    ],
+    "parpola_graphemes": [
+      "V174",
+      "V573"
+    ],
+    "source_path": "features/P108.json",
+    "wells_graphemes": [
+      "W370",
+      "W371",
+      "W372"
+    ]
+  },
+  {
+    "description": "The 'garlic' motif next to a leaf with a small vertical center decoration, all inside a cage of four small vertical strokes",
+    "features": [
+      {
+        "description": "Is the garlic on the left? 0 = no, 1 = yes",
+        "orientation": "integer"
+      }
+    ],
+    "id": "P109",
+    "mahadevan_graphemes": [
+      "M377"
+    ],
+    "parpola_graphemes": [
+      "V561"
+    ],
+    "source_path": "features/P109.json",
+    "wells_graphemes": [
+      "W946"
+    ]
+  },
+  {
+    "description": "Upside-down heart symbol with horizontal hatching, with vertical stroke coming from bottom of heart. Heart has two small decorations coming off the top center",
+    "features": [],
+    "id": "P110",
+    "mahadevan_graphemes": [
+      "M327"
+    ],
+    "parpola_graphemes": [
+      "V094",
+      "V739"
+    ],
+    "source_path": "features/P110.json",
+    "wells_graphemes": [
+      "W388"
+    ]
+  },
+  {
+    "description": "Upside-down heart symbol, with vertical stroke coming from bottom of heart",
+    "features": [
+      {
+        "description": "How long is the vertical stroke? (0 = short, 1 = long, 2 = indeterminate)",
+        "stroke": "integer"
+      }
+    ],
+    "id": "P111",
+    "mahadevan_graphemes": [
+      "M325"
+    ],
+    "parpola_graphemes": [
+      "V167",
+      "V483"
+    ],
+    "source_path": "features/P111.json",
+    "wells_graphemes": [
+      "W382"
+    ]
+  },
+  {
+    "description": "Upside-down heart symbol, possibly with vertical stroke coming from bottom of heart, vertical stroke decoration",
+    "features": [
+      {
+        "decoration": "integer",
+        "description": "Does the decoration span the entire interior of the heart symbol? 0 = no, 1 = yes"
+      }
+    ],
+    "id": "P112",
+    "mahadevan_graphemes": [
+      "M326"
+    ],
+    "parpola_graphemes": [
+      "V093",
+      "V293"
+    ],
+    "source_path": "features/P112.json",
+    "wells_graphemes": [
+      "W384",
+      "W385"
+    ]
+  },
+  {
+    "description": "Upside-down heart symbol, possibly with vertical stroke coming from bottom of heart, vertical stroke decoration. On top of three horizontally adjacent triangles",
+    "features": [
+      {
+        "decoration": "integer",
+        "description": "Does the decoration span the entire interior of the heart symbol? 0 = no, 1 = yes"
+      }
+    ],
+    "id": "P113",
+    "mahadevan_graphemes": [],
+    "parpola_graphemes": [
+      "V745"
+    ],
+    "source_path": "features/P113.json",
+    "wells_graphemes": []
+  },
+  {
+    "description": "A single vertical line, with two person arms; head may be circle or continuation of line",
+    "features": [
+      {
+        "description": "What shape is the head? 0 = circle, 1 = continuation of line",
+        "head": "integer"
+      }
+    ],
+    "id": "P114",
+    "mahadevan_graphemes": [
+      "M155"
+    ],
+    "parpola_graphemes": [
+      "V173",
+      "V091",
+      "V373",
+      "V528"
+    ],
+    "source_path": "features/P114.json",
+    "wells_graphemes": [
+      "W070",
+      "W072"
+    ]
+  },
+  {
+    "description": "A single vertical line, with two person arms; head may be circle or continuation of line. Bracketed by inverted parentheses",
+    "features": [
+      {
+        "description": "What shape is the head? 0 = circle, 1 = continuation of line, 2 = 'plus' sign",
+        "head": "integer"
+      }
+    ],
+    "id": "P115",
+    "mahadevan_graphemes": [
+      "M156"
+    ],
+    "parpola_graphemes": [
+      "V555"
+    ],
+    "source_path": "features/P115.json",
+    "wells_graphemes": [
+      "W073"
+    ]
+  },
+  {
+    "description": "A single vertical line, with two person arms; head is crossed by a horizontal decoration",
+    "features": [
+      {
+        "description": "What shape is the head decoration? 0 = straight line, 1 = flag head with hair, 2 = single stroke on left, 3 = indeterminate",
+        "head": "integer"
+      }
+    ],
+    "id": "P116",
+    "mahadevan_graphemes": [
+      "M157"
+    ],
+    "parpola_graphemes": [
+      "V326"
+    ],
+    "source_path": "features/P116.json",
+    "wells_graphemes": [
+      "W071"
+    ]
+  },
+  {
+    "description": "Flowering plant with three stems that meet at the bottom",
+    "features": [
+      {
+        "description": "What shape is the flower? 0 = leaf, 1 = circle with low arms, 2 = triple horizontal bars, 3 = circle with double caret arms, 4 = circle with horn shaped leaves",
+        "flower": "integer"
+      }
+    ],
+    "id": "P117",
+    "mahadevan_graphemes": [
+      "M367"
+    ],
+    "parpola_graphemes": [
+      "V215",
+      "V214",
+      "V266"
+    ],
+    "source_path": "features/P117.json",
+    "wells_graphemes": [
+      "W776",
+      "W783",
+      "W784",
+      "W785",
+      "W786"
+    ]
+  },
+  {
+    "description": "Flowering plant with two stems that meet at the bottom. Leaf with pincers between stems",
+    "features": [
+      {
+        "description": "What shape is the flower? 0 = leaf, 1 = pair of small hatches, 2 = two pairs of small hatches, 3 = upside down solid heart, 4 = upside down hatched heart",
+        "flower": "integer"
+      }
+    ],
+    "id": "P118",
+    "mahadevan_graphemes": [
+      "M362",
+      "M363",
+      "M364"
+    ],
+    "parpola_graphemes": [
+      "V497",
+      "V724"
+    ],
+    "source_path": "features/P118.json",
+    "wells_graphemes": [
+      "W777",
+      "W778",
+      "W782"
+    ]
+  },
+  {
+    "description": "Two top-aligned small vertical strokes (prefer P122)",
+    "features": [],
+    "id": "P119",
+    "mahadevan_graphemes": [
+      "M099"
+    ],
+    "parpola_graphemes": [
+      "V025",
+      "V509"
+    ],
+    "source_path": "features/P119.json",
+    "wells_graphemes": []
+  },
+  {
+    "description": "A single small vertical line, then another vertical line with the bottom half slanting under the first line (like a Japanese 'ri' character).",
+    "features": [
+      {
+        "description": "Is the right line rounded? 0 = rounded, 1 = angled, 2 = straight, 3 = mixed or indeterminate",
+        "rounded": "integer"
+      },
+      {
+        "description": "0 = full height, 1 = partial-height",
+        "height": "integer"
+      }
+    ],
+    "id": "P120",
+    "mahadevan_graphemes": [
+      "M123"
+    ],
+    "parpola_graphemes": [
+      "V154",
+      "V469"
+    ],
+    "source_path": "features/P120.json",
+    "wells_graphemes": [
+      "W060"
+    ]
+  },
+  {
+    "description": "Simple, half-height vertical stroke",
+    "features": [
+      {
+        "description": "Where do the strokes appear? 0 = top, 1 = mid, 2 = bottom",
+        "vertical_position": "integer"
+      }
+    ],
+    "id": "P121",
+    "mahadevan_graphemes": [
+      "M097",
+      "M098"
+    ],
+    "parpola_graphemes": [
+      "V001",
+      "V023",
+      "V258",
+      "V423",
+      "V764",
+      "V768"
+    ],
+    "source_path": "features/P121.json",
+    "wells_graphemes": [
+      "W001"
+    ]
+  },
+  {
+    "description": "Two adjacent half-height simple vertical strokes",
+    "features": [
+      {
+        "description": "Where do the strokes appear? 0 = top, 1 = mid, 2 = bottom",
+        "vertical_position": "integer"
+      }
+    ],
+    "id": "P122",
+    "mahadevan_graphemes": [
+      "M099",
+      "M100"
+    ],
+    "parpola_graphemes": [
+      "V002",
+      "V231",
+      "V765",
+      "V769"
+    ],
+    "source_path": "features/P122.json",
+    "wells_graphemes": [
+      "W002"
+    ]
+  },
+  {
+    "description": "Three adjacent half-height simple vertical strokes",
+    "features": [
+      {
+        "description": "Where do the strokes appear? 0 = top, 1 = mid, 2 = bottom",
+        "vertical_position": "integer"
+      }
+    ],
+    "id": "P123",
+    "mahadevan_graphemes": [
+      "M102",
+      "M103"
+    ],
+    "parpola_graphemes": [
+      "V003",
+      "V199",
+      "V766",
+      "V770"
+    ],
+    "source_path": "features/P123.json",
+    "wells_graphemes": [
+      "W003"
+    ]
+  },
+  {
+    "description": "Four adjacent half-height simple vertical strokes",
+    "features": [
+      {
+        "description": "Where do the strokes appear? 0 = top, 1 = mid, 2 = bottom",
+        "vertical_position": "integer"
+      },
+      {
+        "description": "Are the strokes in a straight line? 0 = no, 1 = yes",
+        "linear": "integer"
+      }
+    ],
+    "id": "P124",
+    "mahadevan_graphemes": [
+      "M104",
+      "M105"
+    ],
+    "parpola_graphemes": [
+      "V004",
+      "V016",
+      "V438",
+      "V678",
+      "V767",
+      "V771"
+    ],
+    "source_path": "features/P124.json",
+    "wells_graphemes": [
+      "W004",
+      "W014"
+    ]
+  },
+  {
+    "description": "Five simple vertical strokes",
+    "features": [
+      {
+        "description": "Where do the strokes appear? 0 = top, 1 = mid, 2 = bottom",
+        "vertical_position": "integer"
+      },
+      {
+        "description": "Are the strokes in a line? 0 = no, 1 = yes",
+        "linear": "integer"
+      }
+    ],
+    "id": "P125",
+    "mahadevan_graphemes": [
+      "M106",
+      "M107"
+    ],
+    "parpola_graphemes": [
+      "V005",
+      "V017",
+      "V715",
+      "V799"
+    ],
+    "source_path": "features/P125.json",
+    "wells_graphemes": [
+      "W005",
+      "W015"
+    ]
+  },
+  {
+    "description": "Six short vertical strokes",
+    "features": [
+      {
+        "description": "Where do the strokes appear? 0 = top, 1 = mid, 2 = bottom",
+        "vertical_position": "integer"
+      },
+      {
+        "description": "Are the strokes in a line? 0 = no, 1 = yes",
+        "linear": "integer"
+      }
+    ],
+    "id": "P126",
+    "mahadevan_graphemes": [
+      "M108",
+      "M109"
+    ],
+    "parpola_graphemes": [
+      "V006",
+      "V018",
+      "V670",
+      "V723"
+    ],
+    "source_path": "features/P126.json",
+    "wells_graphemes": [
+      "W006",
+      "W016"
+    ]
+  },
+  {
+    "description": "Seven short vertical strokes",
+    "features": [
+      {
+        "description": "Where do the strokes appear? 0 = top, 1 = mid, 2 = bottom",
+        "vertical_position": "integer"
+      },
+      {
+        "description": "Are the strokes in a line? 0 = no, 1 = yes",
+        "linear": "integer"
+      }
+    ],
+    "id": "P127",
+    "mahadevan_graphemes": [
+      "M110",
+      "M112"
+    ],
+    "parpola_graphemes": [
+      "V007",
+      "V019",
+      "V690"
+    ],
+    "source_path": "features/P127.json",
+    "wells_graphemes": [
+      "W007",
+      "W017"
+    ]
+  },
+  {
+    "description": "Eight short vertical strokes",
+    "features": [
+      {
+        "description": "Where do the strokes appear? 0 = top, 1 = mid, 2 = bottom",
+        "vertical_position": "integer"
+      },
+      {
+        "description": "Are the strokes in a line? 0 = no, 1 = yes",
+        "linear": "integer"
+      }
+    ],
+    "id": "P128",
+    "mahadevan_graphemes": [
+      "M114"
+    ],
+    "parpola_graphemes": [
+      "V020"
+    ],
+    "source_path": "features/P128.json",
+    "wells_graphemes": [
+      "W018"
+    ]
+  },
+  {
+    "description": "Nine short vertical strokes",
+    "features": [
+      {
+        "description": "Where do the strokes appear? 0 = top, 1 = mid, 2 = bottom",
+        "vertical_position": "integer"
+      },
+      {
+        "description": "Are the strokes in a line? 0 = no, 1 = yes",
+        "linear": "integer"
+      }
+    ],
+    "id": "P129",
+    "mahadevan_graphemes": [
+      "M115",
+      "M116"
+    ],
+    "parpola_graphemes": [
+      "V314",
+      "V021"
+    ],
+    "source_path": "features/P129.json",
+    "wells_graphemes": [
+      "W019"
+    ]
+  },
+  {
+    "description": "Ten short vertical strokes",
+    "features": [
+      {
+        "description": "Where do the strokes appear? 0 = top, 1 = mid, 2 = bottom",
+        "vertical_position": "integer"
+      },
+      {
+        "description": "Are the strokes in a line? 0 = no, 1 = yes",
+        "linear": "integer"
+      }
+    ],
+    "id": "P130",
+    "mahadevan_graphemes": [
+      "M118"
+    ],
+    "parpola_graphemes": [
+      "V022"
+    ],
+    "source_path": "features/P130.json",
+    "wells_graphemes": [
+      "W020"
+    ]
+  },
+  {
+    "description": "One tiny caret",
+    "features": [],
+    "id": "P131",
+    "mahadevan_graphemes": [
+      "M312"
+    ],
+    "parpola_graphemes": [
+      "V594",
+      "V310"
+    ],
+    "source_path": "features/P131.json",
+    "wells_graphemes": []
+  },
+  {
+    "description": "Two tiny stacked carets",
+    "features": [],
+    "id": "P132",
+    "mahadevan_graphemes": [
+      "M313"
+    ],
+    "parpola_graphemes": [
+      "V498",
+      "V311"
+    ],
+    "source_path": "features/P132.json",
+    "wells_graphemes": []
+  },
+  {
+    "description": "Three tiny stacked carets",
+    "features": [],
+    "id": "P133",
+    "mahadevan_graphemes": [
+      "M314"
+    ],
+    "parpola_graphemes": [
+      "V473"
+    ],
+    "source_path": "features/P133.json",
+    "wells_graphemes": []
+  },
+  {
+    "description": "Four tiny stacked carets",
+    "features": [],
+    "id": "P134",
+    "mahadevan_graphemes": [],
+    "parpola_graphemes": [
+      "V499"
+    ],
+    "source_path": "features/P134.json",
+    "wells_graphemes": []
+  },
+  {
+    "description": "Many tiny stacked carets",
+    "features": [
+      {
+        "count": "integer",
+        "description": "Number of stacked carets"
+      }
+    ],
+    "id": "P135",
+    "mahadevan_graphemes": [],
+    "parpola_graphemes": [
+      "V500"
+    ],
+    "source_path": "features/P135.json",
+    "wells_graphemes": []
+  },
+  {
+    "description": "Seven short vertical strokes, bracketed by parentheses",
+    "features": [
+      {
+        "description": "Where do the strokes appear? 0 = top, 1 = mid, 2 = bottom",
+        "vertical_position": "integer"
+      },
+      {
+        "description": "Are the strokes in a line? 0 = no, 1 = yes",
+        "linear": "integer"
+      }
+    ],
+    "id": "P136",
+    "mahadevan_graphemes": [
+      "M111",
+      "M113"
+    ],
+    "parpola_graphemes": [
+      "V529",
+      "V397",
+      "V717",
+      "V796"
+    ],
+    "source_path": "features/P136.json",
+    "wells_graphemes": [
+      "W048",
+      "W049"
+    ]
+  },
+  {
+    "description": "Nine short vertical strokes, capped by 'table' hat",
+    "features": [
+      {
+        "description": "Where do the strokes appear? 0 = top, 1 = mid, 2 = bottom",
+        "vertical_position": "integer"
+      },
+      {
+        "description": "Are the strokes in a line? 0 = no, 1 = yes",
+        "linear": "integer"
+      }
+    ],
+    "id": "P137",
+    "mahadevan_graphemes": [
+      "M117"
+    ],
+    "parpola_graphemes": [
+      "V437"
+    ],
+    "source_path": "features/P137.json",
+    "wells_graphemes": [
+      "W051"
+    ]
+  },
+  {
+    "description": "Caret above a small vertical stroke",
+    "features": [],
+    "id": "P138",
+    "mahadevan_graphemes": [
+      "M153"
+    ],
+    "parpola_graphemes": [
+      "V082",
+      "V459"
+    ],
+    "source_path": "features/P138.json",
+    "wells_graphemes": []
+  },
+  {
+    "description": "Two small vertical strokes over one small vertical stroke",
+    "features": [],
+    "id": "P139",
+    "mahadevan_graphemes": [
+      "M103"
+    ],
+    "parpola_graphemes": [
+      "V015",
+      "V292"
+    ],
+    "source_path": "features/P139.json",
+    "wells_graphemes": [
+      "W013"
+    ]
+  },
+  {
+    "description": "Two stacked small vertical strokes",
+    "features": [],
+    "id": "P140",
+    "mahadevan_graphemes": [
+      "M101"
+    ],
+    "parpola_graphemes": [
+      "V014"
+    ],
+    "source_path": "features/P140.json",
+    "wells_graphemes": [
+      "W012"
+    ]
+  },
+  {
+    "description": "Three rows of off-center or slanted small vertical strokes",
+    "features": [
+      {
+        "description": "Number of strokes in the first row",
+        "first_row_count": "integer"
+      },
+      {
+        "description": "Number of strokes in the second row",
+        "second_row_count": "integer"
+      },
+      {
+        "description": "Number of strokes in the third row",
+        "third_row_count": "integer"
+      },
+      {
+        "description": "Are some of the lines slanted? 0 = no, 1 = yes, 2 = indeterminate",
+        "slant": "integer"
+      }
+    ],
+    "id": "P141",
+    "mahadevan_graphemes": [
+      "M119",
+      "M120"
+    ],
+    "parpola_graphemes": [
+      "V492",
+      "V130",
+      "V729"
+    ],
+    "source_path": "features/P141.json",
+    "wells_graphemes": [
+      "W025",
+      "W026",
+      "W027",
+      "W028",
+      "W029"
+    ]
+  },
+  {
+    "description": "Four small vertical strokes above the same, above the same",
+    "features": [],
+    "id": "P142",
+    "mahadevan_graphemes": [
+      "M121"
+    ],
+    "parpola_graphemes": [
+      "V024",
+      "V280"
+    ],
+    "source_path": "features/P142.json",
+    "wells_graphemes": [
+      "W055"
+    ]
+  },
+  {
+    "description": "Four small vertical strokes above the same, above the same. Bracketed by right parentheses",
+    "features": [],
+    "id": "P143",
+    "mahadevan_graphemes": [
+      "M122"
+    ],
+    "parpola_graphemes": [
+      "V493"
+    ],
+    "source_path": "features/P143.json",
+    "wells_graphemes": [
+      "W057"
+    ]
+  },
+  {
+    "description": "One full-height vertical stroke",
+    "features": [],
+    "id": "P144",
+    "mahadevan_graphemes": [
+      "M086"
+    ],
+    "parpola_graphemes": [
+      "V008",
+      "V501"
+    ],
+    "source_path": "features/P144.json",
+    "wells_graphemes": [
+      "W031"
+    ]
+  },
+  {
+    "description": "Two adjacent full-height vertical strokes",
+    "features": [],
+    "id": "P145",
+    "mahadevan_graphemes": [
+      "M087"
+    ],
+    "parpola_graphemes": [
+      "V009",
+      "V543"
+    ],
+    "source_path": "features/P145.json",
+    "wells_graphemes": [
+      "W032"
+    ]
+  },
+  {
+    "description": "Two adjacent full-height vertical strokes, surrounded on either side by a vertical bar over another vertical bar",
+    "features": [],
+    "id": "P146",
+    "mahadevan_graphemes": [
+      "M088"
+    ],
+    "parpola_graphemes": [
+      "V756"
+    ],
+    "source_path": "features/P146.json",
+    "wells_graphemes": []
+  },
+  {
+    "description": "Three adjacent full-height vertical strokes",
+    "features": [],
+    "id": "P147",
+    "mahadevan_graphemes": [
+      "M089"
+    ],
+    "parpola_graphemes": [
+      "V010",
+      "V424"
+    ],
+    "source_path": "features/P147.json",
+    "wells_graphemes": [
+      "W033"
+    ]
+  },
+  {
+    "description": "Three adjacent full-height vertical strokes. Small 'tree' off right side",
+    "features": [
+      {
+        "branches": "integer",
+        "description": "Number of branches"
+      },
+      {
+        "branch_style": "integer",
+        "description": "How are the branches drawn? 0 = to one side, 1 = to both sides"
+      }
+    ],
+    "id": "P148",
+    "mahadevan_graphemes": [
+      "M090",
+      "M091"
+    ],
+    "parpola_graphemes": [
+      "V331"
+    ],
+    "source_path": "features/P148.json",
+    "wells_graphemes": [
+      "W045",
+      "W046"
+    ]
+  },
+  {
+    "description": "Three adjacent full-height vertical strokes. Caret hat",
+    "features": [],
+    "id": "P149",
+    "mahadevan_graphemes": [
+      "M092"
+    ],
+    "parpola_graphemes": [
+      "V759"
+    ],
+    "source_path": "features/P149.json",
+    "wells_graphemes": [
+      "W044"
+    ]
+  },
+  {
+    "description": "Four adjacent full-height vertical strokes",
+    "features": [],
+    "id": "P150",
+    "mahadevan_graphemes": [
+      "M095"
+    ],
+    "parpola_graphemes": [
+      "V294"
+    ],
+    "source_path": "features/P150.json",
+    "wells_graphemes": [
+      "W034"
+    ]
+  },
+  {
+    "description": "Five adjacent simple tall vertical strokes",
+    "features": [],
+    "id": "P151",
+    "mahadevan_graphemes": [
+      "M096"
+    ],
+    "parpola_graphemes": [
+      "V012",
+      "V784"
+    ],
+    "source_path": "features/P151.json",
+    "wells_graphemes": [
+      "W035"
+    ]
+  },
+  {
+    "description": "Three adjacent full-height vertical strokes, third (and maybe second) stroke is angled away slightly",
+    "features": [
+      {
+        "description": "Is the second stroke vertical? 0 = no, 1 = yes",
+        "second_stroke": "integer"
+      }
+    ],
+    "id": "P152",
+    "mahadevan_graphemes": [
+      "M093",
+      "M094"
+    ],
+    "parpola_graphemes": [
+      "V250"
+    ],
+    "source_path": "features/P152.json",
+    "wells_graphemes": []
+  },
+  {
+    "description": "Three adjacent full-height vertical strokes, first stroke is angled away slightly",
+    "features": [],
+    "id": "P153",
+    "mahadevan_graphemes": [],
+    "parpola_graphemes": [
+      "V383"
+    ],
+    "source_path": "features/P153.json",
+    "wells_graphemes": []
+  },
+  {
+    "description": "Right parenthesis (perhaps with a backward curve at the bottom)",
+    "features": [
+      {
+        "backward_curve": "integer",
+        "description": "Is there a backward curve at the bottom of the stroke? 0 = no, 1 = yes"
+      }
+    ],
+    "id": "P154",
+    "mahadevan_graphemes": [
+      "M287"
+    ],
+    "parpola_graphemes": [
+      "V153",
+      "V265",
+      "V289",
+      "V511"
+    ],
+    "source_path": "features/P154.json",
+    "wells_graphemes": [
+      "W900"
+    ]
+  },
+  {
+    "description": "Wavy line caged by short double vertical strokes, possibly with a stroke missing",
+    "features": [
+      {
+        "curve": "integer",
+        "description": "Is the top of the wavy line pointed right? 0 = no, 1 = yes"
+      },
+      {
+        "description": "Which cage stroke is missing? 0 = none, 1 = top left, 2 = top right, 3 = bottom left, 4 = bottom right",
+        "missing_stroke": "integer"
+      }
+    ],
+    "id": "P155",
+    "mahadevan_graphemes": [
+      "M289"
+    ],
+    "parpola_graphemes": [
+      "V514"
+    ],
+    "source_path": "features/P155.json",
+    "wells_graphemes": [
+      "W926"
+    ]
+  },
+  {
+    "description": "Right parenthesis with small, slightly inward-and-downward horizontal line from middle",
+    "features": [
+      {
+        "description": "Where is the small line? 0 = top third of paren, 1 = middle third, 2 = bottom third",
+        "line_location": "integer"
+      }
+    ],
+    "id": "P156",
+    "mahadevan_graphemes": [
+      "M288"
+    ],
+    "parpola_graphemes": [
+      "V445",
+      "V681"
+    ],
+    "source_path": "features/P156.json",
+    "wells_graphemes": [
+      "W901"
+    ]
+  },
+  {
+    "description": "Right parenthesis with small, diagonal stroke through it",
+    "features": [
+      {
+        "description": "Where is the small line? 0 = top third of paren, 1 = middle third, 2 = bottom third",
+        "line_location": "integer"
+      }
+    ],
+    "id": "P157",
+    "mahadevan_graphemes": [],
+    "parpola_graphemes": [
+      "V495"
+    ],
+    "source_path": "features/P157.json",
+    "wells_graphemes": []
+  },
+  {
+    "description": "Right parenthesis with small tooth on it facing right",
+    "features": [
+      {
+        "description": "Where is the small tooth? 0 = top third of paren, 1 = middle third, 2 = bottom third",
+        "line_location": "integer"
+      }
+    ],
+    "id": "P158",
+    "mahadevan_graphemes": [],
+    "parpola_graphemes": [
+      "V319"
+    ],
+    "source_path": "features/P158.json",
+    "wells_graphemes": []
+  },
+  {
+    "description": "Right parenthesis with small inward strokes on top, and a tooth outward on top",
+    "features": [],
+    "id": "P159",
+    "mahadevan_graphemes": [],
+    "parpola_graphemes": [
+      "V221",
+      "V735"
+    ],
+    "source_path": "features/P159.json",
+    "wells_graphemes": []
+  },
+  {
+    "description": "Right parenthesis with small leaf at middle",
+    "features": [],
+    "id": "P160",
+    "mahadevan_graphemes": [
+      "M293"
+    ],
+    "parpola_graphemes": [
+      "V220",
+      "V155"
+    ],
+    "source_path": "features/P160.json",
+    "wells_graphemes": [
+      "W920"
+    ]
+  },
+  {
+    "description": "Right parenthesis with small leaf at middle, stroke crossing top part of paren",
+    "features": [],
+    "id": "P161",
+    "mahadevan_graphemes": [],
+    "parpola_graphemes": [
+      "V355"
+    ],
+    "source_path": "features/P161.json",
+    "wells_graphemes": [
+      "W922"
+    ]
+  },
+  {
+    "description": "Right parenthesis with small lines away from it at top",
+    "features": [
+      {
+        "count": "integer",
+        "description": "Number of small lines away from the top of the right parenthesis"
+      }
+    ],
+    "id": "P162",
+    "mahadevan_graphemes": [
+      "M290"
+    ],
+    "parpola_graphemes": [
+      "V591"
+    ],
+    "source_path": "features/P162.json",
+    "wells_graphemes": [
+      "W903"
+    ]
+  },
+  {
+    "description": "Left parenthesis",
+    "features": [],
+    "id": "P163",
+    "mahadevan_graphemes": [
+      "M299"
+    ],
+    "parpola_graphemes": [
+      "V152",
+      "V332"
+    ],
+    "source_path": "features/P163.json",
+    "wells_graphemes": [
+      "W909"
+    ]
+  },
+  {
+    "description": "Left parenthesis with small inward pointing tooth near top",
+    "features": [],
+    "id": "P164",
+    "mahadevan_graphemes": [
+      "M300"
+    ],
+    "parpola_graphemes": [
+      "V399"
+    ],
+    "source_path": "features/P164.json",
+    "wells_graphemes": [
+      "W902"
+    ]
+  },
+  {
+    "description": "Left parenthesis with small semicircle against the very middle",
+    "features": [],
+    "id": "P165",
+    "mahadevan_graphemes": [
+      "M301"
+    ],
+    "parpola_graphemes": [
+      "V216"
+    ],
+    "source_path": "features/P165.json",
+    "wells_graphemes": [
+      "W921"
+    ]
+  },
+  {
+    "description": "Left parenthesis with small semicircle against the very middle, diagonal line extending past the paren from the bottom of the semicircle",
+    "features": [
+      {
+        "description": "What shape is the paren? 0 = round, 1 = angular",
+        "paren_style": "integer"
+      }
+    ],
+    "id": "P166",
+    "mahadevan_graphemes": [],
+    "parpola_graphemes": [
+      "V277"
+    ],
+    "source_path": "features/P166.json",
+    "wells_graphemes": []
+  },
+  {
+    "description": "Left parenthesis with small semicircle against the very middle, diagonal line extending past the paren from the bottom of the semicircle. T-bar diagonally against top of parenthesis",
+    "features": [],
+    "id": "P167",
+    "mahadevan_graphemes": [],
+    "parpola_graphemes": [
+      "V777"
+    ],
+    "source_path": "features/P167.json",
+    "wells_graphemes": []
+  },
+  {
+    "description": "Left parenthesis with small semicircle against the very middle, diagonal extending from bottom of semicircle, caret over all",
+    "features": [],
+    "id": "P168",
+    "mahadevan_graphemes": [],
+    "parpola_graphemes": [
+      "V778"
+    ],
+    "source_path": "features/P168.json",
+    "wells_graphemes": []
+  },
+  {
+    "description": "Left parenthesis with small semicircle against the very middle, diagonal extending from bottom of semicircle, caret over all, some damage",
+    "features": [],
+    "id": "P169",
+    "mahadevan_graphemes": [],
+    "parpola_graphemes": [
+      "V565"
+    ],
+    "source_path": "features/P169.json",
+    "wells_graphemes": []
+  },
+  {
+    "description": "Left parenthesis with small semicircle against the very middle, caret extending from top of semicircle",
+    "features": [],
+    "id": "P170",
+    "mahadevan_graphemes": [],
+    "parpola_graphemes": [
+      "V291"
+    ],
+    "source_path": "features/P170.json",
+    "wells_graphemes": []
+  },
+  {
+    "description": "Left parenthesis, two perpendiculars coming away both from top and bottom, caged by four small vertical strokes",
+    "features": [],
+    "id": "P171",
+    "mahadevan_graphemes": [
+      "M292"
+    ],
+    "parpola_graphemes": [
+      "V228"
+    ],
+    "source_path": "features/P171.json",
+    "wells_graphemes": []
+  },
+  {
+    "description": "Two slightly nested right parentheses",
+    "features": [
+      {
+        "description": "0 = right-parentheses, 1 = waves",
+        "design": "integer"
+      }
+    ],
+    "id": "P172",
+    "mahadevan_graphemes": [
+      "M294"
+    ],
+    "parpola_graphemes": [
+      "V242",
+      "V226",
+      "V347"
+    ],
+    "source_path": "features/P172.json",
+    "wells_graphemes": [
+      "W904",
+      "W927"
+    ]
+  },
+  {
+    "description": "Two slightly nested right parentheses, small tooth facing outward from top of right parenthesis",
+    "features": [
+      {
+        "description": "0 = right-parentheses, 1 = waves",
+        "design": "integer"
+      }
+    ],
+    "id": "P173",
+    "mahadevan_graphemes": [
+      "M295"
+    ],
+    "parpola_graphemes": [
+      "V455",
+      "V365",
+      "V682"
+    ],
+    "source_path": "features/P173.json",
+    "wells_graphemes": [
+      "W905",
+      "W928"
+    ]
+  },
+  {
+    "description": "Right parenthesis next to left parenthesis",
+    "features": [],
+    "id": "P174",
+    "mahadevan_graphemes": [
+      "M303"
+    ],
+    "parpola_graphemes": [
+      "V553",
+      "V446"
+    ],
+    "source_path": "features/P174.json",
+    "wells_graphemes": [
+      "W906"
+    ]
+  },
+  {
+    "description": "Right parenthesis drawn in outline",
+    "features": [],
+    "id": "P175",
+    "mahadevan_graphemes": [
+      "M296"
+    ],
+    "parpola_graphemes": [
+      "V218",
+      "V416"
+    ],
+    "source_path": "features/P175.json",
+    "wells_graphemes": [
+      "W923"
+    ]
+  },
+  {
+    "description": "Right parenthesis drawn in outline, horizontal hatching throughout",
+    "features": [],
+    "id": "P176",
+    "mahadevan_graphemes": [
+      "M297"
+    ],
+    "parpola_graphemes": [
+      "V219"
+    ],
+    "source_path": "features/P176.json",
+    "wells_graphemes": [
+      "W924"
+    ]
+  },
+  {
+    "description": "Many slightly nested right parentheses",
+    "features": [
+      {
+        "count": "integer",
+        "description": "Number of nested right parentheses"
+      },
+      {
+        "description": "Is there a small wedge at the front? 0 = no, 1 = yes",
+        "wedge": "integer"
+      }
+    ],
+    "id": "P177",
+    "mahadevan_graphemes": [
+      "M298"
+    ],
+    "parpola_graphemes": [
+      "V243",
+      "V719"
+    ],
+    "source_path": "features/P177.json",
+    "wells_graphemes": [
+      "W908"
+    ]
+  },
+  {
+    "description": "Right facing bow, i.e. a vertical stroke with a right-parenthesis fully attached on the right",
+    "features": [],
+    "id": "P178",
+    "mahadevan_graphemes": [
+      "M304"
+    ],
+    "parpola_graphemes": [
+      "V327",
+      "V794"
+    ],
+    "source_path": "features/P178.json",
+    "wells_graphemes": [
+      "W890"
+    ]
+  },
+  {
+    "description": "Right facing bow, i.e. a vertical stroke with a right-parenthesis fully attached on the right. Several small perpendiculars coming off top",
+    "features": [
+      {
+        "count": "integer",
+        "description": "Number of perpendiculars coming off the top of the bow"
+      }
+    ],
+    "id": "P179",
+    "mahadevan_graphemes": [
+      "M305"
+    ],
+    "parpola_graphemes": [
+      "V330",
+      "V789"
+    ],
+    "source_path": "features/P179.json",
+    "wells_graphemes": [
+      "W891"
+    ]
+  },
+  {
+    "description": "Leaf, small perpendicular strokes radiating from the top. Surrounded by a capital Gamma",
+    "features": [
+      {
+        "description": "Number of strokes coming off the half-leaf",
+        "strokes": "integer"
+      },
+      {
+        "description": "What shape is the leaf? 0 = complete, 1 = right-half only",
+        "leaf_shape": "integer"
+      }
+    ],
+    "id": "P180",
+    "mahadevan_graphemes": [
+      "M306"
+    ],
+    "parpola_graphemes": [
+      "V346"
+    ],
+    "source_path": "features/P180.json",
+    "wells_graphemes": [
+      "W796"
+    ]
+  },
+  {
+    "description": "Lyre, or a left parenthesis with multiple vertical lines inside",
+    "features": [
+      {
+        "description": "What shape is the box? 0 = rounded, 1 = angular, 2 = indeterminate",
+        "shape": "integer"
+      }
+    ],
+    "id": "P181",
+    "mahadevan_graphemes": [
+      "M311"
+    ],
+    "parpola_graphemes": [
+      "V217"
+    ],
+    "source_path": "features/P181.json",
+    "wells_graphemes": [
+      "W896"
+    ]
+  },
+  {
+    "description": "Bow and arrow",
+    "features": [
+      {
+        "description": "Is the bow angular or rounded? 0 = round, 1 = angular, 2 = mixed or indeterminate",
+        "roundedness": "integer"
+      },
+      {
+        "description": "What direction is the bow facing? 0 = left, 1 = right",
+        "direction": "integer"
+      }
+    ],
+    "id": "P182",
+    "mahadevan_graphemes": [
+      "M307"
+    ],
+    "parpola_graphemes": [
+      "V081",
+      "V253"
+    ],
+    "source_path": "features/P182.json",
+    "wells_graphemes": [
+      "W892"
+    ]
+  },
+  {
+    "description": "Bow and arrow, caged by pairs of small vertical strokes",
+    "features": [
+      {
+        "description": "Is the bow angular or rounded? 0 = round, 1 = angular, 2 = mixed or indeterminate",
+        "roundedness": "integer"
+      }
+    ],
+    "id": "P183",
+    "mahadevan_graphemes": [
+      "M308"
+    ],
+    "parpola_graphemes": [
+      "V757"
+    ],
+    "source_path": "features/P183.json",
+    "wells_graphemes": [
+      "W895"
+    ]
+  },
+  {
+    "description": "Tall, slightly narrow caret (mountain motif)",
+    "features": [
+      {
+        "description": "How tall is the caret? 0 = full height, 1 = partial height",
+        "height": "integer"
+      }
+    ],
+    "id": "P184",
+    "mahadevan_graphemes": [
+      "M134"
+    ],
+    "parpola_graphemes": [
+      "V299",
+      "V475"
+    ],
+    "source_path": "features/P184.json",
+    "wells_graphemes": [
+      "W480"
+    ]
+  },
+  {
+    "description": "Tall, slightly narrow caret (mountain motif), with a bit of the right leg removed",
+    "features": [
+      {
+        "description": "How tall is the caret? 0 = full height, 1 = partial height",
+        "height": "integer"
+      }
+    ],
+    "id": "P185",
+    "mahadevan_graphemes": [
+      "M129"
+    ],
+    "parpola_graphemes": [
+      "V099",
+      "V402"
+    ],
+    "source_path": "features/P185.json",
+    "wells_graphemes": [
+      "W066"
+    ]
+  },
+  {
+    "description": "A with right leg only partially formed, possibly with pitchfork foot on right",
+    "features": [
+      {
+        "description": "Is the top rounded? 0 = round, 1 = angled",
+        "rounded_top": "integer"
+      },
+      {
+        "description": "How many prongs does the pitchfork have? 0 = no prongs, 1,2,... = 1,2,... prongs",
+        "pitchfork": "integer"
+      },
+      {
+        "description": "Is the A missing its crossbar? 0 = no, 1 = yes, 2 = indeterminate",
+        "missing_crossbar": "integer"
+      },
+      {
+        "description": "Is there a connecting line for the pitchfork tines? 0 = no, 1 = yes, 2 = indeterminate",
+        "pitchfork_crossbar": "integer"
+      },
+      {
+        "description": "Is the pitchfork oriented perpendicular to the A leg? 0 = no, 1 = yes, 2 = yes and facing the A, 3 = indeterminate",
+        "pitchfork_orientation": "integer"
+      }
+    ],
+    "id": "P186",
+    "mahadevan_graphemes": [
+      "M178"
+    ],
+    "parpola_graphemes": [
+      "V100",
+      "V708",
+      "V782",
+      "V790"
+    ],
+    "source_path": "features/P186.json",
+    "wells_graphemes": [
+      "W465",
+      "W467",
+      "W468",
+      "W469",
+      "W470",
+      "W471",
+      "W472",
+      "W473",
+      "W474",
+      "W475"
+    ]
+  },
+  {
+    "description": "A with right leg only partially formed, caged by pairs of small vertical strokes",
+    "features": [],
+    "id": "P187",
+    "mahadevan_graphemes": [
+      "M179"
+    ],
+    "parpola_graphemes": [
+      "V552"
+    ],
+    "source_path": "features/P187.json",
+    "wells_graphemes": [
+      "W466"
+    ]
+  },
+  {
+    "description": "Vertical line with diagonal going down from top right, diagonal going up from bottom left",
+    "features": [
+      {
+        "description": "Does the top diagonal go left? (0 = no, 1 = yes)",
+        "facing": "integer"
+      },
+      {
+        "description": "Is the central line purely vertical or tilted? 0 = vertical, 1 = titled",
+        "tilt": "integer"
+      }
+    ],
+    "id": "P188",
+    "mahadevan_graphemes": [
+      "M130"
+    ],
+    "parpola_graphemes": [
+      "V101",
+      "V306"
+    ],
+    "source_path": "features/P188.json",
+    "wells_graphemes": [
+      "W435",
+      "W436"
+    ]
+  },
+  {
+    "description": "Caret with diagonal continuing upwards and left from the bottom left. Under a 'table' motif",
+    "features": [],
+    "id": "P189",
+    "mahadevan_graphemes": [
+      "M131"
+    ],
+    "parpola_graphemes": [
+      "V303"
+    ],
+    "source_path": "features/P189.json",
+    "wells_graphemes": [
+      "W454"
+    ]
+  },
+  {
+    "description": "A 'W' symbol",
+    "features": [
+      {
+        "description": "How straight are the strokes? 0 = rounded, 1 = angular, 2 = mixed or indeterminate",
+        "style": "integer"
+      }
+    ],
+    "id": "P190",
+    "mahadevan_graphemes": [],
+    "parpola_graphemes": [
+      "V403"
+    ],
+    "source_path": "features/P190.json",
+    "wells_graphemes": [
+      "W452"
+    ]
+  },
+  {
+    "description": "A 'W' symbol with an extra stroke going down and left from the left tip ('wave' motif)",
+    "features": [
+      {
+        "description": "How straight are the strokes? 0 = rounded, 1 = angular, 2 = mixed or indeterminate",
+        "style": "integer"
+      }
+    ],
+    "id": "P191",
+    "mahadevan_graphemes": [
+      "M132"
+    ],
+    "parpola_graphemes": [
+      "V107"
+    ],
+    "source_path": "features/P191.json",
+    "wells_graphemes": [
+      "W450"
+    ]
+  },
+  {
+    "description": "Two vertically stacked 'wave' motifs (see P191)",
+    "features": [
+      {
+        "description": "How straight are the strokes? 0 = rounded, 1 = angular, 2 = mixed or indeterminate",
+        "style": "integer"
+      }
+    ],
+    "id": "P192",
+    "mahadevan_graphemes": [
+      "M133"
+    ],
+    "parpola_graphemes": [
+      "V516"
+    ],
+    "source_path": "features/P192.json",
+    "wells_graphemes": [
+      "W451"
+    ]
+  },
+  {
+    "description": "Person sitting with bent knees, no small tangent lines coming off the back",
+    "features": [
+      {
+        "description": "Which way is the person facing? 0 = left, 1 = right",
+        "facing": "integer"
+      },
+      {
+        "description": "What shape is the head? 0 = leaf, 1 = diamond, 2 = upside down U, 3 = indeterminate",
+        "head_shape": "integer"
+      }
+    ],
+    "id": "P193",
+    "mahadevan_graphemes": [
+      "M047"
+    ],
+    "parpola_graphemes": [
+      "V185",
+      "V676"
+    ],
+    "source_path": "features/P193.json",
+    "wells_graphemes": [
+      "W175"
+    ]
+  },
+  {
+    "description": "Person sitting with bent knees, four small tangent lines coming off the back",
+    "features": [
+      {
+        "description": "How many tangent lines are coming off the back of the person?",
+        "tangents": "integer"
+      },
+      {
+        "description": "Which way is the person facing? 0 = left, 1 = right",
+        "facing": "integer"
+      },
+      {
+        "description": "What shape is the head? 0 = leaf, 1 = diamond, 2 = upside down U, 3 = indeterminate",
+        "head_shape": "integer"
+      }
+    ],
+    "id": "P194",
+    "mahadevan_graphemes": [
+      "M048"
+    ],
+    "parpola_graphemes": [
+      "V186",
+      "V434"
+    ],
+    "source_path": "features/P194.json",
+    "wells_graphemes": [
+      "W176",
+      "W177",
+      "W178",
+      "W179"
+    ]
+  },
+  {
+    "description": "Tall caret drawn in outline, with hatching throughout",
+    "features": [],
+    "id": "P195",
+    "mahadevan_graphemes": [
+      "M136"
+    ],
+    "parpola_graphemes": [
+      "V329",
+      "V300"
+    ],
+    "source_path": "features/P195.json",
+    "wells_graphemes": [
+      "W484"
+    ]
+  },
+  {
+    "description": "Upside-down heart symbol",
+    "features": [],
+    "id": "P196",
+    "mahadevan_graphemes": [
+      "M323"
+    ],
+    "parpola_graphemes": [
+      "V302"
+    ],
+    "source_path": "features/P196.json",
+    "wells_graphemes": [
+      "W380"
+    ]
+  },
+  {
+    "description": "Tall caret drawn in outline, with diamond inscribed at the point",
+    "features": [],
+    "id": "P197",
+    "mahadevan_graphemes": [
+      "M135"
+    ],
+    "parpola_graphemes": [
+      "V109",
+      "V308"
+    ],
+    "source_path": "features/P197.json",
+    "wells_graphemes": [
+      "W482"
+    ]
+  },
+  {
+    "description": "Tall lambda drawn in outline, with V or diamond inscribed at the connector",
+    "features": [
+      {
+        "decoration": "integer",
+        "description": "Is the center a full diamond? 0 = no, 1 = yes"
+      }
+    ],
+    "id": "P198",
+    "mahadevan_graphemes": [
+      "M259"
+    ],
+    "parpola_graphemes": [
+      "V131"
+    ],
+    "source_path": "features/P198.json",
+    "wells_graphemes": [
+      "W483"
+    ]
+  },
+  {
+    "description": "Two or three tall vertical strokes, with a small box off the right center of the second stroke",
+    "features": [
+      {
+        "count": "integer",
+        "description": "How many vertical strokes are there?"
+      }
+    ],
+    "id": "P199",
+    "mahadevan_graphemes": [],
+    "parpola_graphemes": [
+      "V384"
+    ],
+    "source_path": "features/P199.json",
+    "wells_graphemes": [
+      "W058"
+    ]
+  },
+  {
+    "description": "Tall box with horizontal hatching throughout, possibly a small handle off right hand side",
+    "features": [
+      {
+        "count": "integer",
+        "description": "How many horizontal strokes are there?"
+      },
+      {
+        "description": "What is the handle like? (0 = none, 1 = orthogonal, 2 = slanted a bit)",
+        "handle": "integer"
+      }
+    ],
+    "id": "P200",
+    "mahadevan_graphemes": [
+      "M258"
+    ],
+    "parpola_graphemes": [
+      "V054",
+      "V701"
+    ],
+    "source_path": "features/P200.json",
+    "wells_graphemes": [
+      "W604",
+      "W605"
+    ]
+  },
+  {
+    "description": "Vertical stroke with a small slightly downward horizontal stroke at the left middle",
+    "features": [
+      {
+        "angle": "integer",
+        "description": "How vertical is the stroke? 0 = straight, 1 = slightly angled"
+      }
+    ],
+    "id": "P201",
+    "mahadevan_graphemes": [],
+    "parpola_graphemes": [
+      "V052",
+      "V108"
+    ],
+    "source_path": "features/P201.json",
+    "wells_graphemes": [
+      "W065"
+    ]
+  },
+  {
+    "description": "Vertical stroke with a triangular wing attached near the middle",
+    "features": [
+      {
+        "angle": "integer",
+        "description": "How vertical is the stroke? 0 = straight, 1 = slightly angled"
+      },
+      {
+        "description": "How many vertical hatches are in the wing?",
+        "hatches": "integer"
+      }
+    ],
+    "id": "P202",
+    "mahadevan_graphemes": [
+      "M402"
+    ],
+    "parpola_graphemes": [
+      "V053",
+      "V582"
+    ],
+    "source_path": "features/P202.json",
+    "wells_graphemes": [
+      "W365",
+      "W367",
+      "W368"
+    ]
+  },
+  {
+    "description": "Upside down 'Y' motif",
+    "features": [],
+    "id": "P203",
+    "mahadevan_graphemes": [
+      "M126"
+    ],
+    "parpola_graphemes": [
+      "V090",
+      "V698"
+    ],
+    "source_path": "features/P203.json",
+    "wells_graphemes": []
+  },
+  {
+    "description": "Simple lambda but reversed horizontally, and the leg may not be quite connected to the long stem",
+    "features": [
+      {
+        "connected": "integer",
+        "description": "Is the leg connected to the long stem? (0 = no, 1 = yes)"
+      },
+      {
+        "description": "Is the leg of the lambda facing left or right? (0 = left, 1 = right)",
+        "facing": "integer"
+      }
+    ],
+    "id": "P204",
+    "mahadevan_graphemes": [
+      "M124",
+      "M125"
+    ],
+    "parpola_graphemes": [
+      "V156",
+      "V119"
+    ],
+    "source_path": "features/P204.json",
+    "wells_graphemes": [
+      "W061",
+      "W062",
+      "W063"
+    ]
+  },
+  {
+    "description": "Prismed light rays, with opposite slanting on top vs bottom, more rays on bottom",
+    "features": [
+      {
+        "description": "How many rays are in the top half?",
+        "top_ray_count": "integer"
+      },
+      {
+        "bottom_ray_count": "integer",
+        "description": "How many rays are in the bottom half?"
+      },
+      {
+        "connected_top": "integer",
+        "description": "Is there a horizontal connector at the top? 1 for yes, 0 for no"
+      },
+      {
+        "branching_rays": "integer",
+        "description": "Conjoined int representing which rays bifurcate between top and bottom. E.g., 13 means the first and third rays bifurcate. 0 means no bifurcation."
+      },
+      {
+        "decoration": "integer",
+        "description": "Decoration. 0 = none, 1 = fancy (as in M-9)"
+      }
+    ],
+    "id": "P205",
+    "mahadevan_graphemes": [
+      "M180"
+    ],
+    "parpola_graphemes": [
+      "V129",
+      "V233"
+    ],
+    "source_path": "features/P205.json",
+    "wells_graphemes": [
+      "W289",
+      "W290",
+      "W291",
+      "W292",
+      "W293",
+      "W294",
+      "W295",
+      "W296",
+      "W297",
+      "W299",
+      "W300",
+      "W301",
+      "W302",
+      "W303",
+      "W304",
+      "W305",
+      "W306"
+    ]
+  },
+  {
+    "description": "Prismed lines like P205, but with a decoration on top. Possibly with an up and down caret attached at top right",
+    "features": [
+      {
+        "decoration": "integer",
+        "description": "What is the decoration above the prism? 0 = dot, 1 = jar"
+      },
+      {
+        "description": "Are there two pincers attached to the top? 0 = no, 1 = yes",
+        "pincers": "integer"
+      }
+    ],
+    "id": "P206",
+    "mahadevan_graphemes": [
+      "M181"
+    ],
+    "parpola_graphemes": [
+      "V457",
+      "V078"
+    ],
+    "source_path": "features/P206.json",
+    "wells_graphemes": [
+      "W307",
+      "W308",
+      "W309"
+    ]
+  },
+  {
+    "description": "Tall triangle with no decoration, either isocolese or more horn-shaped",
+    "features": [
+      {
+        "description": "What shape is the triangle? 0 = isocolese, 1 = horn-shaped",
+        "shape": "integer"
+      },
+      {
+        "decoration": "integer",
+        "description": "What decoration is in the triangle? 0 = nothing, 1 = tree"
+      }
+    ],
+    "id": "P207",
+    "mahadevan_graphemes": [],
+    "parpola_graphemes": [
+      "V349"
+    ],
+    "source_path": "features/P207.json",
+    "wells_graphemes": [
+      "W490"
+    ]
+  },
+  {
+    "description": "Tall triangle with vertical divider, either isocolese or more horn-shaped",
+    "features": [
+      {
+        "description": "What shape is the triangle? 0 = isocolese, 1 = horn-shaped",
+        "shape": "integer"
+      }
+    ],
+    "id": "P208",
+    "mahadevan_graphemes": [
+      "M209"
+    ],
+    "parpola_graphemes": [
+      "V102",
+      "V703"
+    ],
+    "source_path": "features/P208.json",
+    "wells_graphemes": [
+      "W500"
+    ]
+  },
+  {
+    "description": "Tall triangle with vertical divider, horizontal hatching throughout, either isocolese or more horn-shaped",
+    "features": [
+      {
+        "description": "What shape is the triangle? 0 = isocolese, 1 = horn-shaped",
+        "shape": "integer"
+      },
+      {
+        "count": "integer",
+        "description": "How many horizontal hatches are there?"
+      }
+    ],
+    "id": "P209",
+    "mahadevan_graphemes": [
+      "M210"
+    ],
+    "parpola_graphemes": [
+      "V103",
+      "V245"
+    ],
+    "source_path": "features/P209.json",
+    "wells_graphemes": [
+      "W502"
+    ]
+  },
+  {
+    "description": "Tall isoceles triangle with horizontal stripes",
+    "features": [
+      {
+        "description": "How many stripes are there?",
+        "stripes": "integer"
+      }
+    ],
+    "id": "P210",
+    "mahadevan_graphemes": [
+      "M204"
+    ],
+    "parpola_graphemes": [
+      "V104",
+      "V223",
+      "V389",
+      "V732"
+    ],
+    "source_path": "features/P210.json",
+    "wells_graphemes": [
+      "W503"
+    ]
+  },
+  {
+    "description": "Horizontally striped isocolese triange, with serifed T on top",
+    "features": [
+      {
+        "description": "How many stripes are there?",
+        "stripes": "integer"
+      }
+    ],
+    "id": "P211",
+    "mahadevan_graphemes": [
+      "M206"
+    ],
+    "parpola_graphemes": [
+      "V271",
+      "V260"
+    ],
+    "source_path": "features/P211.json",
+    "wells_graphemes": [
+      "W504"
+    ]
+  },
+  {
+    "description": "Horizontally striped isocolese triange, with serifed T on top, caged by four small vertical strokes",
+    "features": [
+      {
+        "description": "How many stripes are there?",
+        "stripes": "integer"
+      }
+    ],
+    "id": "P212",
+    "mahadevan_graphemes": [
+      "M207"
+    ],
+    "parpola_graphemes": [
+      "V048"
+    ],
+    "source_path": "features/P212.json",
+    "wells_graphemes": []
+  },
+  {
+    "description": "Horizontally striped isocolese triange, with serifed T on top, capped by a 'table' motif",
+    "features": [
+      {
+        "description": "How many stripes are there?",
+        "stripes": "integer"
+      }
+    ],
+    "id": "P213",
+    "mahadevan_graphemes": [
+      "M208"
+    ],
+    "parpola_graphemes": [
+      "V324"
+    ],
+    "source_path": "features/P213.json",
+    "wells_graphemes": [
+      "W505"
+    ]
+  },
+  {
+    "description": "Two adjacent carets",
+    "features": [],
+    "id": "P214",
+    "mahadevan_graphemes": [],
+    "parpola_graphemes": [
+      "V380",
+      "V775"
+    ],
+    "source_path": "features/P214.json",
+    "wells_graphemes": []
+  },
+  {
+    "description": "Three tall, thin isoceles triangles",
+    "features": [
+      {
+        "description": "Do the side triangles obscure the central triangle? 0 = no, 1 = yes",
+        "overlap": "integer"
+      },
+      {
+        "description": "Is the entire thing written at a diagonal? 0 = no, 1 = yes",
+        "diagonal": "integer"
+      }
+    ],
+    "id": "P215",
+    "mahadevan_graphemes": [
+      "M230"
+    ],
+    "parpola_graphemes": [
+      "V105",
+      "V312"
+    ],
+    "source_path": "features/P215.json",
+    "wells_graphemes": [
+      "W460"
+    ]
+  },
+  {
+    "description": "Three short isoceles triangles, above three short isocoles triangles but pointed downward",
+    "features": [],
+    "id": "P216",
+    "mahadevan_graphemes": [
+      "M231"
+    ],
+    "parpola_graphemes": [
+      "V580"
+    ],
+    "source_path": "features/P216.json",
+    "wells_graphemes": [
+      "W461"
+    ]
+  },
+  {
+    "description": "Isocolese triangle on top of vertical line (arrow? spear?)",
+    "features": [
+      {
+        "description": "What shape is the tip? 0 = triangle, 1 = caret",
+        "tip_shape": "integer"
+      }
+    ],
+    "id": "P217",
+    "mahadevan_graphemes": [
+      "M211"
+    ],
+    "parpola_graphemes": [
+      "V095",
+      "V549"
+    ],
+    "source_path": "features/P217.json",
+    "wells_graphemes": [
+      "W520"
+    ]
+  },
+  {
+    "description": "Five pointed star, with lines completely connecting point to point",
+    "features": [],
+    "id": "P218",
+    "mahadevan_graphemes": [],
+    "parpola_graphemes": [
+      "V679"
+    ],
+    "source_path": "features/P218.json",
+    "wells_graphemes": []
+  },
+  {
+    "description": "A 'K' with a vertical line connecting the bottom point, and the top right arm is a rectangle",
+    "features": [],
+    "id": "P219",
+    "mahadevan_graphemes": [],
+    "parpola_graphemes": [
+      "V755"
+    ],
+    "source_path": "features/P219.json",
+    "wells_graphemes": []
+  },
+  {
+    "description": "Three triangles, one large isocoles pointing right on left, two small on right, all linked at the point of the left triangle",
+    "features": [
+      {
+        "description": "How are the small right-hand triangles oriented? 0 = same as large triangle, 1 = pointed up&left and down&left",
+        "small_triangle_orientation": "integer"
+      }
+    ],
+    "id": "P221",
+    "mahadevan_graphemes": [
+      "M233"
+    ],
+    "parpola_graphemes": [
+      "V040",
+      "V504"
+    ],
+    "source_path": "features/P221.json",
+    "wells_graphemes": [
+      "W455"
+    ]
+  },
+  {
+    "description": "Three triangles, one large isocoles pointing right on left, two small on right, all linked at the point of the left triangle. Capped by a 'table' motif",
+    "features": [
+      {
+        "description": "How are the small right-hand triangles oriented? 0 = same as large triangle, 1 = pointed up&left and down&left",
+        "small_triangle_orientation": "integer"
+      }
+    ],
+    "id": "P222",
+    "mahadevan_graphemes": [
+      "M234"
+    ],
+    "parpola_graphemes": [
+      "V046",
+      "V422"
+    ],
+    "source_path": "features/P222.json",
+    "wells_graphemes": [
+      "W456"
+    ]
+  },
+  {
+    "description": "Three triangles, one large isocoles pointing right on left, two small on right, all linked at the point of the left triangle, with a small tree growing from the lower right",
+    "features": [
+      {
+        "description": "How are the small right-hand triangles oriented? 0 = same as large triangle, 1 = pointed up&left and down&left",
+        "small_triangle_orientation": "integer"
+      },
+      {
+        "branches": "integer",
+        "description": "How many branches are in the tree?"
+      }
+    ],
+    "id": "P223",
+    "mahadevan_graphemes": [
+      "M235"
+    ],
+    "parpola_graphemes": [
+      "V343"
+    ],
+    "source_path": "features/P223.json",
+    "wells_graphemes": [
+      "W457"
+    ]
+  },
+  {
+    "description": "A 'Bowtie' motif. Or, an 'X' with vertical line connecting the left points, and same on right",
+    "features": [],
+    "id": "P224",
+    "mahadevan_graphemes": [
+      "M214"
+    ],
+    "parpola_graphemes": [
+      "V234",
+      "V235"
+    ],
+    "source_path": "features/P224.json",
+    "wells_graphemes": [
+      "W540"
+    ]
+  },
+  {
+    "description": "A 'Bowtie' motif. Or, an 'X' with vertical line connecting the left points, and same on right. Small vertical stroke in left side",
+    "features": [],
+    "id": "P225",
+    "mahadevan_graphemes": [],
+    "parpola_graphemes": [
+      "V035"
+    ],
+    "source_path": "features/P225.json",
+    "wells_graphemes": [
+      "W542"
+    ]
+  },
+  {
+    "description": "Bowtie with another left-pointing triangle attached on the right, hatching throughout",
+    "features": [],
+    "id": "P226",
+    "mahadevan_graphemes": [
+      "M215"
+    ],
+    "parpola_graphemes": [
+      "V036"
+    ],
+    "source_path": "features/P226.json",
+    "wells_graphemes": [
+      "W545"
+    ]
+  },
+  {
+    "description": "A 'Bowtie' motif, but without the vertical line connecting the right points",
+    "features": [],
+    "id": "P227",
+    "mahadevan_graphemes": [
+      "M225"
+    ],
+    "parpola_graphemes": [
+      "V229",
+      "V298"
+    ],
+    "source_path": "features/P227.json",
+    "wells_graphemes": [
+      "W530"
+    ]
+  },
+  {
+    "description": "X with left points connected by vertical line, with another such X underneath, and a vertical bar connecting the cross-point of the two X's",
+    "features": [
+      {
+        "description": "Separation distance of the top and bottom X's. 0 = not separated, 1 = separated",
+        "separation": "integer"
+      },
+      {
+        "center_line_length": "integer",
+        "description": "Is the center line extended past the X cross points? 0 = not extended, 1 = extended"
+      }
+    ],
+    "id": "P228",
+    "mahadevan_graphemes": [
+      "M228",
+      "M309"
+    ],
+    "parpola_graphemes": [
+      "V037"
+    ],
+    "source_path": "features/P228.json",
+    "wells_graphemes": [
+      "W531",
+      "W533"
+    ]
+  },
+  {
+    "description": "A 'Bowtie' motif, but without the vertical line connecting the right points. Small 'v' coming off top right point",
+    "features": [],
+    "id": "P229",
+    "mahadevan_graphemes": [
+      "M226"
+    ],
+    "parpola_graphemes": [
+      "V032"
+    ],
+    "source_path": "features/P229.json",
+    "wells_graphemes": [
+      "W554"
+    ]
+  },
+  {
+    "description": "The 'pincer' motif. Right-pointing isocoles triangle on left, left-pointing isosceles triangle on right, with small part of right line removed in middle",
+    "features": [
+      {
+        "description": "0 = rounded, 1 = angular",
+        "rounded-lhs": "integer"
+      },
+      {
+        "description": "Is there a lower right tangent? 0 = no, 1 = yes",
+        "lower-right-tangent": "integer"
+      },
+      {
+        "decoration": "integer",
+        "description": "What is the decoration inside the parts? 0 = none, 1 = vertical lines"
+      },
+      {
+        "description": "Angle of the pincer. 0 = vertical, 1 = outward, 2 = mixed or indeterminate",
+        "pincer_angle": "integer"
+      }
+    ],
+    "id": "P230",
+    "mahadevan_graphemes": [
+      "M216"
+    ],
+    "parpola_graphemes": [
+      "V241",
+      "V033",
+      "V412",
+      "V593"
+    ],
+    "source_path": "features/P230.json",
+    "wells_graphemes": [
+      "W550",
+      "W555"
+    ]
+  },
+  {
+    "description": "The 'pincer' motif, with vertical stroke through the middle point",
+    "features": [
+      {
+        "description": "0 = rounded, 1 = angular",
+        "rounded-lhs": "integer"
+      }
+    ],
+    "id": "P231",
+    "mahadevan_graphemes": [
+      "M221"
+    ],
+    "parpola_graphemes": [
+      "V240"
+    ],
+    "source_path": "features/P231.json",
+    "wells_graphemes": [
+      "W556"
+    ]
+  },
+  {
+    "description": "Right-pointing isocoles triangle on left, left-pointing isosceles triangle on right, with small part of right line removed in middle. Two leaves coming out of the connecting point.",
+    "features": [
+      {
+        "description": "Are the interior leaves connected as one full large leaf? 0 = no, 1 = yes",
+        "leaves": "integer"
+      }
+    ],
+    "id": "P232",
+    "mahadevan_graphemes": [
+      "M219"
+    ],
+    "parpola_graphemes": [
+      "V038",
+      "V583"
+    ],
+    "source_path": "features/P232.json",
+    "wells_graphemes": [
+      "W560",
+      "W561"
+    ]
+  },
+  {
+    "description": "The 'pincer' motif, with two vertically stacked leaves intersecting at the middle point. Caged by four small vertical strokes",
+    "features": [
+      {
+        "description": "0 = rounded, 1 = angular",
+        "rounded-lhs": "integer"
+      }
+    ],
+    "id": "P233",
+    "mahadevan_graphemes": [
+      "M220"
+    ],
+    "parpola_graphemes": [
+      "V564"
+    ],
+    "source_path": "features/P233.json",
+    "wells_graphemes": [
+      "W562"
+    ]
+  },
+  {
+    "description": "Left-pointing isocoles triangle on right, right-pointing isosceles triangle on left, with small part of left line removed in middle.",
+    "features": [],
+    "id": "P234",
+    "mahadevan_graphemes": [
+      "M216"
+    ],
+    "parpola_graphemes": [
+      "V350",
+      "V793"
+    ],
+    "source_path": "features/P234.json",
+    "wells_graphemes": [
+      "W551"
+    ]
+  },
+  {
+    "description": "The 'pincer' motif with 'rake' coming from lower left. Rake is a long stroke with multiple short perpendiculars coming off one side. Pincer is missing at least one of the pincer teeth",
+    "features": [
+      {
+        "description": "Which pincer teeth are missing? 0 = top, 1 = bottom, 2 = both",
+        "missing_pincers": "integer"
+      }
+    ],
+    "id": "P235",
+    "mahadevan_graphemes": [
+      "M227"
+    ],
+    "parpola_graphemes": [
+      "V117"
+    ],
+    "source_path": "features/P235.json",
+    "wells_graphemes": [
+      "W532"
+    ]
+  },
+  {
+    "description": "The 'pincer' motif with 'rake' coming from lower left. Rake is a long stroke with multiple short perpendiculars coming off one side.",
+    "features": [],
+    "id": "P236",
+    "mahadevan_graphemes": [],
+    "parpola_graphemes": [
+      "V378"
+    ],
+    "source_path": "features/P236.json",
+    "wells_graphemes": []
+  },
+  {
+    "description": "X with vertical connection on left two tips, right tips both have a slight vertical line toward each other, and three lines off the tip away from each other",
+    "features": [],
+    "id": "P237",
+    "mahadevan_graphemes": [
+      "M223"
+    ],
+    "parpola_graphemes": [
+      "V034"
+    ],
+    "source_path": "features/P237.json",
+    "wells_graphemes": [
+      "W564"
+    ]
+  },
+  {
+    "description": "X with vertical connection on left two tips, right tips both have a slight vertical line toward each other, and three lines off the tip away from each other. Line with three downward lines coming off left",
+    "features": [],
+    "id": "P238",
+    "mahadevan_graphemes": [
+      "M224"
+    ],
+    "parpola_graphemes": [
+      "V249",
+      "V198"
+    ],
+    "source_path": "features/P238.json",
+    "wells_graphemes": [
+      "W565"
+    ]
+  },
+  {
+    "description": "An 'X' where each arm is decorated with wheat sheaves",
+    "features": [
+      {
+        "count": "integer",
+        "description": "How many wheat sheaves are there on each arm of the 'X'?"
+      }
+    ],
+    "id": "P239",
+    "mahadevan_graphemes": [],
+    "parpola_graphemes": [
+      "V688",
+      "V689"
+    ],
+    "source_path": "features/P239.json",
+    "wells_graphemes": []
+  },
+  {
+    "description": "An 'X' with no decoration",
+    "features": [],
+    "id": "P240",
+    "mahadevan_graphemes": [
+      "M137"
+    ],
+    "parpola_graphemes": [
+      "V122",
+      "V728"
+    ],
+    "source_path": "features/P240.json",
+    "wells_graphemes": [
+      "W645"
+    ]
+  },
+  {
+    "description": "An 'X' with no decoration, inside a cage of four small vertical strokes",
+    "features": [],
+    "id": "P241",
+    "mahadevan_graphemes": [],
+    "parpola_graphemes": [
+      "V488"
+    ],
+    "source_path": "features/P241.json",
+    "wells_graphemes": []
+  },
+  {
+    "description": "An 'X' with two vertical strokes inside each angle of the X",
+    "features": [],
+    "id": "P242",
+    "mahadevan_graphemes": [
+      "M140"
+    ],
+    "parpola_graphemes": [
+      "V124"
+    ],
+    "source_path": "features/P242.json",
+    "wells_graphemes": [
+      "W680"
+    ]
+  },
+  {
+    "description": "An 'X' with a 'table' hat",
+    "features": [],
+    "id": "P243",
+    "mahadevan_graphemes": [
+      "M139"
+    ],
+    "parpola_graphemes": [
+      "V047"
+    ],
+    "source_path": "features/P243.json",
+    "wells_graphemes": [
+      "W679"
+    ]
+  },
+  {
+    "description": "An 'X' with a 'caret' hat",
+    "features": [],
+    "id": "P244",
+    "mahadevan_graphemes": [
+      "M138"
+    ],
+    "parpola_graphemes": [
+      "V282"
+    ],
+    "source_path": "features/P244.json",
+    "wells_graphemes": [
+      "W678"
+    ]
+  },
+  {
+    "description": "An 'X' with vertical lines connected to each arm, forming two 'fat arrows' pointed toward each other",
+    "features": [],
+    "id": "P245",
+    "mahadevan_graphemes": [
+      "M141"
+    ],
+    "parpola_graphemes": [
+      "V313",
+      "V393"
+    ],
+    "source_path": "features/P245.json",
+    "wells_graphemes": [
+      "W685"
+    ]
+  },
+  {
+    "description": "X with two vertical strokes through it, caged by 4 short pairs of vertical lines",
+    "features": [],
+    "id": "P246",
+    "mahadevan_graphemes": [
+      "M143"
+    ],
+    "parpola_graphemes": [
+      "V562"
+    ],
+    "source_path": "features/P246.json",
+    "wells_graphemes": [
+      "W689"
+    ]
+  },
+  {
+    "description": "X with two vertical strokes through it, caged by inverted parentheses",
+    "features": [],
+    "id": "P247",
+    "mahadevan_graphemes": [
+      "M144"
+    ],
+    "parpola_graphemes": [
+      "V560"
+    ],
+    "source_path": "features/P247.json",
+    "wells_graphemes": [
+      "W688"
+    ]
+  },
+  {
+    "description": "An 'X' with vertical lines connected to each arm, forming two 'fat arrows' pointed toward each other. All under a 'table' hat",
+    "features": [],
+    "id": "P248",
+    "mahadevan_graphemes": [
+      "M142"
+    ],
+    "parpola_graphemes": [
+      "V432",
+      "V791"
+    ],
+    "source_path": "features/P248.json",
+    "wells_graphemes": []
+  },
+  {
+    "description": "An 'X' with vertical lines connected to each arm, forming two 'fat arrows' pointed toward each other. Pitchfork head going across the center",
+    "features": [],
+    "id": "P249",
+    "mahadevan_graphemes": [
+      "M145"
+    ],
+    "parpola_graphemes": [
+      "V672"
+    ],
+    "source_path": "features/P249.json",
+    "wells_graphemes": [
+      "W686"
+    ]
+  },
+  {
+    "description": "A vertical stroke with a smallish X centered on the top",
+    "features": [],
+    "id": "P250",
+    "mahadevan_graphemes": [
+      "M158"
+    ],
+    "parpola_graphemes": [
+      "V335"
+    ],
+    "source_path": "features/P250.json",
+    "wells_graphemes": [
+      "W080"
+    ]
+  },
+  {
+    "description": "An X on top of a vertical stroke, with a decorated triangle hanging off the upper right",
+    "features": [
+      {
+        "decorations": "integer",
+        "description": "How many lines decorate the small triangle?"
+      }
+    ],
+    "id": "P251",
+    "mahadevan_graphemes": [
+      "M160"
+    ],
+    "parpola_graphemes": [
+      "V287",
+      "V803"
+    ],
+    "source_path": "features/P251.json",
+    "wells_graphemes": [
+      "W081"
+    ]
+  },
+  {
+    "description": "A full-height vertical stroke with a smallish X near the top",
+    "features": [],
+    "id": "P252",
+    "mahadevan_graphemes": [],
+    "parpola_graphemes": [
+      "V575"
+    ],
+    "source_path": "features/P252.json",
+    "wells_graphemes": []
+  },
+  {
+    "description": "An X near the top of a vertical stroke, with a caret hat",
+    "features": [],
+    "id": "P253",
+    "mahadevan_graphemes": [
+      "M159"
+    ],
+    "parpola_graphemes": [
+      "V085"
+    ],
+    "source_path": "features/P253.json",
+    "wells_graphemes": [
+      "W083"
+    ]
+  },
+  {
+    "description": "Two or more crossed lines (line an X or *) with small perpendicular decorations (ovals? lines) at each tip",
+    "features": [
+      {
+        "description": "How many lines cross at the center?",
+        "line_count": "integer"
+      },
+      {
+        "description": "What are the decorations at the tips of the lines? 0 = oval, 1 = line, 2 = other",
+        "perpendicular_decorations": "string"
+      }
+    ],
+    "id": "P254",
+    "mahadevan_graphemes": [
+      "M146",
+      "M147"
+    ],
+    "parpola_graphemes": [
+      "V125",
+      "V736"
+    ],
+    "source_path": "features/P254.json",
+    "wells_graphemes": [
+      "W683",
+      "W684"
+    ]
+  },
+  {
+    "description": "Two nested greater-than symbols, touching two nested less-than symbols",
+    "features": [],
+    "id": "P255",
+    "mahadevan_graphemes": [
+      "M149"
+    ],
+    "parpola_graphemes": [
+      "V232",
+      "V712"
+    ],
+    "source_path": "features/P255.json",
+    "wells_graphemes": [
+      "W690"
+    ]
+  },
+  {
+    "description": "An X but drawn in outline",
+    "features": [
+      {
+        "center_vline": "integer",
+        "description": "Does the center have a solid vline? 1 = yes, 0 = no"
+      }
+    ],
+    "id": "P256",
+    "mahadevan_graphemes": [
+      "M150"
+    ],
+    "parpola_graphemes": [
+      "V123",
+      "V507"
+    ],
+    "source_path": "features/P256.json",
+    "wells_graphemes": [
+      "W692"
+    ]
+  },
+  {
+    "description": "An X but drawn in outline. Three small adjacent triangles affixed diagonally to the top right arm",
+    "features": [],
+    "id": "P257",
+    "mahadevan_graphemes": [
+      "M151"
+    ],
+    "parpola_graphemes": [
+      "V372"
+    ],
+    "source_path": "features/P257.json",
+    "wells_graphemes": [
+      "W694"
+    ]
+  },
+  {
+    "description": "An X but drawn in outline, with tree stemming from bottom right corner",
+    "features": [
+      {
+        "center_vline": "integer",
+        "description": "Does the center have a solid vline? 1 = yes, 0 = no"
+      },
+      {
+        "branches": "integer",
+        "description": "Number of branches"
+      }
+    ],
+    "id": "P258",
+    "mahadevan_graphemes": [
+      "M152"
+    ],
+    "parpola_graphemes": [
+      "V574"
+    ],
+    "source_path": "features/P258.json",
+    "wells_graphemes": [
+      "W693"
+    ]
+  },
+  {
+    "description": "A central box, with orthogonal lines coming off in a pinwheel manner",
+    "features": [
+      {
+        "description": "Which side is the top extension on? 0 = left, 1 = right",
+        "orientation": "integer"
+      }
+    ],
+    "id": "P259",
+    "mahadevan_graphemes": [],
+    "parpola_graphemes": [
+      "V453"
+    ],
+    "source_path": "features/P259.json",
+    "wells_graphemes": [
+      "W528"
+    ]
+  },
+  {
+    "description": "An octothorpe, possibly rotated 45 degrees (see similarity with P359)",
+    "features": [
+      {
+        "description": "Is the symbol rotated 45 degrees? (1 = yes, 0 = no)",
+        "rotated": "integer"
+      }
+    ],
+    "id": "P260",
+    "mahadevan_graphemes": [
+      "M264"
+    ],
+    "parpola_graphemes": [
+      "V742",
+      "V478"
+    ],
+    "source_path": "features/P260.json",
+    "wells_graphemes": []
+  },
+  {
+    "description": "Box with inward facing triangles on each corner, filled with small U's and X's",
+    "features": [],
+    "id": "P261",
+    "mahadevan_graphemes": [],
+    "parpola_graphemes": [
+      "V441"
+    ],
+    "source_path": "features/P261.json",
+    "wells_graphemes": []
+  },
+  {
+    "description": "Tall rectangle with no decoration",
+    "features": [],
+    "id": "P262",
+    "mahadevan_graphemes": [
+      "M237"
+    ],
+    "parpola_graphemes": [
+      "V059"
+    ],
+    "source_path": "features/P262.json",
+    "wells_graphemes": [
+      "W600",
+      "W625"
+    ]
+  },
+  {
+    "description": "Tall rectangle with no decoration, connected to a tall vertical stroke on the left by a short diagonal line",
+    "features": [],
+    "id": "P263",
+    "mahadevan_graphemes": [],
+    "parpola_graphemes": [
+      "V721"
+    ],
+    "source_path": "features/P263.json",
+    "wells_graphemes": []
+  },
+  {
+    "description": "Tall rectangle with two horizontal hatches going across the center",
+    "features": [],
+    "id": "P264",
+    "mahadevan_graphemes": [
+      "M238"
+    ],
+    "parpola_graphemes": [
+      "V060",
+      "V545"
+    ],
+    "source_path": "features/P264.json",
+    "wells_graphemes": [
+      "W603"
+    ]
+  },
+  {
+    "description": "Tall rectangle with vertical full height bar inside, and a horizontal bar across the left or right area",
+    "features": [
+      {
+        "crossbar_location": "integer",
+        "description": "Location of the crossbar, 0 for left, 1 for right"
+      }
+    ],
+    "id": "P265",
+    "mahadevan_graphemes": [
+      "M242"
+    ],
+    "parpola_graphemes": [
+      "V061",
+      "V687"
+    ],
+    "source_path": "features/P265.json",
+    "wells_graphemes": [
+      "W621",
+      "W622"
+    ]
+  },
+  {
+    "description": "Tall rectangle with vertical full height bar inside, and a horizontal bar across the left or right area. Small U in the other area",
+    "features": [
+      {
+        "crossbar_location": "integer",
+        "description": "Location of the crossbar, 0 for left, 1 for right"
+      }
+    ],
+    "id": "P266",
+    "mahadevan_graphemes": [
+      "M243"
+    ],
+    "parpola_graphemes": [
+      "V345"
+    ],
+    "source_path": "features/P266.json",
+    "wells_graphemes": [
+      "W623"
+    ]
+  },
+  {
+    "description": "Tall rectangle a box affixed to the left interior, the box has a horizontal crossbar",
+    "features": [],
+    "id": "P267",
+    "mahadevan_graphemes": [
+      "M239"
+    ],
+    "parpola_graphemes": [
+      "V064"
+    ],
+    "source_path": "features/P267.json",
+    "wells_graphemes": [
+      "W602"
+    ]
+  },
+  {
+    "description": "A grid of x by y cells",
+    "features": [
+      {
+        "columns": "integer",
+        "description": "The number of columns in the grid"
+      },
+      {
+        "description": "The number of rows in the grid",
+        "rows": "integer"
+      }
+    ],
+    "id": "P268",
+    "mahadevan_graphemes": [
+      "M241",
+      "M245"
+    ],
+    "parpola_graphemes": [
+      "V069",
+      "V062",
+      "V092",
+      "V554",
+      "V696"
+    ],
+    "source_path": "features/P268.json",
+    "wells_graphemes": [
+      "W615"
+    ]
+  },
+  {
+    "description": "A grid of x by y cells, with a tall vertical stroke on one side, both connected by a short diagonal line",
+    "features": [
+      {
+        "columns": "integer",
+        "description": "The number of columns in the grid"
+      },
+      {
+        "description": "The number of rows in the grid",
+        "rows": "integer"
+      },
+      {
+        "description": "The side of the grid with the tall vertical stroke. 0 = left, 1 = right",
+        "stroke": "string"
+      }
+    ],
+    "id": "P269",
+    "mahadevan_graphemes": [
+      "M246"
+    ],
+    "parpola_graphemes": [
+      "V758"
+    ],
+    "source_path": "features/P269.json",
+    "wells_graphemes": [
+      "W616"
+    ]
+  },
+  {
+    "description": "Rectangle, taller than wide, with vertical strokes for teeth inside on top and bottom",
+    "features": [
+      {
+        "description": "The number of teeth",
+        "teeth": "integer"
+      },
+      {
+        "decoration": "integer",
+        "description": "The interior decoration. 0 = none, 1 = half circle on left with two vertical teeth in mid, 2 = two horizontal teeth in mid, 3 = two horizontal teeth on left, 4 = two horizontal strokes inside, 5 = three horizontal strokes inside"
+      }
+    ],
+    "id": "P270",
+    "mahadevan_graphemes": [
+      "M244"
+    ],
+    "parpola_graphemes": [
+      "V066",
+      "V065",
+      "V067",
+      "V068",
+      "V396",
+      "V400",
+      "V693"
+    ],
+    "source_path": "features/P270.json",
+    "wells_graphemes": [
+      "W630",
+      "W631",
+      "W632",
+      "W633",
+      "W634",
+      "W635",
+      "W636",
+      "W637",
+      "W638",
+      "W639"
+    ]
+  },
+  {
+    "description": "Rectangle, taller than wide, with vertical strokes for teeth inside on top and bottom. Two right parentheses inside everything",
+    "features": [
+      {
+        "description": "The number of teeth",
+        "teeth": "integer"
+      }
+    ],
+    "id": "P271",
+    "mahadevan_graphemes": [],
+    "parpola_graphemes": [
+      "V405"
+    ],
+    "source_path": "features/P271.json",
+    "wells_graphemes": [
+      "W640"
+    ]
+  },
+  {
+    "description": "Trapezoid with inner rectangle",
+    "features": [
+      {
+        "description": "What shape is the inner shape? 0 = rectangle, 1 = trapezoid",
+        "inner_shape": "integer"
+      }
+    ],
+    "id": "P272",
+    "mahadevan_graphemes": [
+      "M201"
+    ],
+    "parpola_graphemes": [
+      "V318",
+      "V290"
+    ],
+    "source_path": "features/P272.json",
+    "wells_graphemes": [
+      "W362"
+    ]
+  },
+  {
+    "description": "Wide rectangle, with an X from corner to corner",
+    "features": [],
+    "id": "P273",
+    "mahadevan_graphemes": [],
+    "parpola_graphemes": [
+      "V731",
+      "V792"
+    ],
+    "source_path": "features/P273.json",
+    "wells_graphemes": []
+  },
+  {
+    "description": "Tall central rectangle, flanked by two small boxes on the bottom",
+    "features": [
+      {
+        "bottom_decoration": "integer",
+        "description": "Is the bottom of the central rectangle also a box? 0 = no, 1 = yes"
+      }
+    ],
+    "id": "P274",
+    "mahadevan_graphemes": [
+      "M257"
+    ],
+    "parpola_graphemes": [
+      "V029"
+    ],
+    "source_path": "features/P274.json",
+    "wells_graphemes": [
+      "W610"
+    ]
+  },
+  {
+    "description": "Square in middle, possibly with horizontal lines across, and lines coming from top and bottom",
+    "features": [
+      {
+        "description": "How is the top extended? 0 = inverted U, 1 = vertical line",
+        "top_decoration": "integer"
+      },
+      {
+        "bottom_decoration": "integer",
+        "description": "How is the bottom extended? 0 = two greater-than symbol legs, 1 = vertical line, 2 = nothing"
+      },
+      {
+        "description": "How is the middle decorated? 0 = empty, 1 = as a grid, 2 = with partial horizontal lines",
+        "middle_decoration": "integer"
+      }
+    ],
+    "id": "P275",
+    "mahadevan_graphemes": [
+      "M253"
+    ],
+    "parpola_graphemes": [
+      "V072",
+      "V073",
+      "V074",
+      "V317",
+      "V783"
+    ],
+    "source_path": "features/P275.json",
+    "wells_graphemes": [
+      "W510",
+      "W511",
+      "W512",
+      "W513"
+    ]
+  },
+  {
+    "description": "Square at bottom with vertical bar coming off top middle",
+    "features": [],
+    "id": "P276",
+    "mahadevan_graphemes": [
+      "M249"
+    ],
+    "parpola_graphemes": [
+      "V027",
+      "V491"
+    ],
+    "source_path": "features/P276.json",
+    "wells_graphemes": [
+      "W590"
+    ]
+  },
+  {
+    "description": "Square at bottom with vertical bar coming off top middle. Caged by four small vertical strokes",
+    "features": [],
+    "id": "P277",
+    "mahadevan_graphemes": [
+      "M250"
+    ],
+    "parpola_graphemes": [
+      "V536"
+    ],
+    "source_path": "features/P277.json",
+    "wells_graphemes": [
+      "W592"
+    ]
+  },
+  {
+    "description": "Square at bottom with vertical bar coming off top middle. Interior is the 'pincer' motif with two leaves at the middle",
+    "features": [],
+    "id": "P278",
+    "mahadevan_graphemes": [
+      "M251"
+    ],
+    "parpola_graphemes": [
+      "V572"
+    ],
+    "source_path": "features/P278.json",
+    "wells_graphemes": [
+      "W593"
+    ]
+  },
+  {
+    "description": "Square at bottom with vertical bar coming off top middle, and two diagonals also coming from the bottom of the vertical bar",
+    "features": [],
+    "id": "P279",
+    "mahadevan_graphemes": [],
+    "parpola_graphemes": [
+      "V451"
+    ],
+    "source_path": "features/P279.json",
+    "wells_graphemes": []
+  },
+  {
+    "description": "Box with vertical stroke off top center, horizontal striping",
+    "features": [
+      {
+        "description": "Number of horizontal stripes",
+        "stripes": "integer"
+      }
+    ],
+    "id": "P280",
+    "mahadevan_graphemes": [
+      "M252"
+    ],
+    "parpola_graphemes": [
+      "V028",
+      "V256"
+    ],
+    "source_path": "features/P280.json",
+    "wells_graphemes": [
+      "W595"
+    ]
+  },
+  {
+    "description": "Vertical line with two small boxes attached to the top",
+    "features": [],
+    "id": "P281",
+    "mahadevan_graphemes": [
+      "M256"
+    ],
+    "parpola_graphemes": [
+      "V358"
+    ],
+    "source_path": "features/P281.json",
+    "wells_graphemes": [
+      "W611"
+    ]
+  },
+  {
+    "description": "Box on top left, vertical extender from bottom left, horizontal extenders all along the right side",
+    "features": [],
+    "id": "P282",
+    "mahadevan_graphemes": [
+      "M170"
+    ],
+    "parpola_graphemes": [
+      "V259"
+    ],
+    "source_path": "features/P282.json",
+    "wells_graphemes": [
+      "W950"
+    ]
+  },
+  {
+    "description": "Rectangle, but with bottom line missing, and bottom-half of left line missing (like backward greek capital gamma with a prominent serif)",
+    "features": [],
+    "id": "P283",
+    "mahadevan_graphemes": [
+      "M127"
+    ],
+    "parpola_graphemes": [
+      "V031",
+      "V502"
+    ],
+    "source_path": "features/P283.json",
+    "wells_graphemes": [
+      "W440"
+    ]
+  },
+  {
+    "description": "Backward capital Gamma with serif, small vertical stroke inside the area",
+    "features": [
+      {
+        "description": "What orientation is the central stroke? 0 = vertical, 1 = horiztonal, 2 = mixed or indeterminate",
+        "stroke_style": "integer"
+      }
+    ],
+    "id": "P284",
+    "mahadevan_graphemes": [
+      "M128"
+    ],
+    "parpola_graphemes": [
+      "V477",
+      "V171"
+    ],
+    "source_path": "features/P284.json",
+    "wells_graphemes": [
+      "W443"
+    ]
+  },
+  {
+    "description": "Trapezoid with no bottom line, bird-foot in bottom",
+    "features": [],
+    "id": "P285",
+    "mahadevan_graphemes": [
+      "M195"
+    ],
+    "parpola_graphemes": [
+      "V049"
+    ],
+    "source_path": "features/P285.json",
+    "wells_graphemes": [
+      "W572"
+    ]
+  },
+  {
+    "description": "Trapezoid with no bottom line, bird-foot in bottom, 'table' hat",
+    "features": [
+      {
+        "description": "What style is the 'table' hat? 0 = normal, 1 = flared legs, 2 = flared legs and slanted top",
+        "table_style": "integer"
+      }
+    ],
+    "id": "P286",
+    "mahadevan_graphemes": [
+      "M196"
+    ],
+    "parpola_graphemes": [
+      "V589"
+    ],
+    "source_path": "features/P286.json",
+    "wells_graphemes": [
+      "W573"
+    ]
+  },
+  {
+    "description": "Trapezoid with no bottom line, bird-foot in bottom. Two small vertical strokes on top",
+    "features": [],
+    "id": "P287",
+    "mahadevan_graphemes": [],
+    "parpola_graphemes": [
+      "V711"
+    ],
+    "source_path": "features/P287.json",
+    "wells_graphemes": []
+  },
+  {
+    "description": "Trapezoid with no bottom line, two short outward perpendiculars off bottom left and right and from top center, bird-foot in bottom",
+    "features": [],
+    "id": "P288",
+    "mahadevan_graphemes": [
+      "M194"
+    ],
+    "parpola_graphemes": [
+      "V050",
+      "V683"
+    ],
+    "source_path": "features/P288.json",
+    "wells_graphemes": []
+  },
+  {
+    "description": "Trapezoid with no bottom line, small box resting on the top middle",
+    "features": [
+      {
+        "description": "Is the trapezoid angled or straight? 0 = angled, 1 = straight, 2 = indeterminate",
+        "trapezoid_shape": "integer"
+      }
+    ],
+    "id": "P289",
+    "mahadevan_graphemes": [
+      "M197"
+    ],
+    "parpola_graphemes": [
+      "V030",
+      "V261"
+    ],
+    "source_path": "features/P289.json",
+    "wells_graphemes": [
+      "W575"
+    ]
+  },
+  {
+    "description": "Tall table. Underside has a horizontal line enclosing the top part of the underside, with vertical hatches inside. Small box on top of the table.",
+    "features": [
+      {
+        "description": "Is the trapezoid angled or straight? 0 = angled, 1 = straight, 2 = indeterminate",
+        "trapezoid_shape": "integer"
+      },
+      {
+        "description": "How is the top box decorated? 0 = none, 1 = horizontal hatching",
+        "top_interior": "integer"
+      }
+    ],
+    "id": "P290",
+    "mahadevan_graphemes": [
+      "M198"
+    ],
+    "parpola_graphemes": [
+      "V436"
+    ],
+    "source_path": "features/P290.json",
+    "wells_graphemes": [
+      "W578",
+      "W579"
+    ]
+  },
+  {
+    "description": "Tall table. Underside has a horizontal line enclosing the top part of the underside, with vertical hatches inside. Small box on top of the table. Left paren attached to left side, paren has small semicircle at center. Semicircle has diagonal continuing through the paren.",
+    "features": [],
+    "id": "P291",
+    "mahadevan_graphemes": [],
+    "parpola_graphemes": [
+      "V576"
+    ],
+    "source_path": "features/P291.json",
+    "wells_graphemes": []
+  },
+  {
+    "description": "Tall table. Small decoration on top",
+    "features": [
+      {
+        "decoration": "integer",
+        "description": "What is the decoration? 0 = bird foot, 1 = pitchfork head"
+      }
+    ],
+    "id": "P292",
+    "mahadevan_graphemes": [
+      "M199",
+      "M200"
+    ],
+    "parpola_graphemes": [
+      "V371",
+      "V773"
+    ],
+    "source_path": "features/P292.json",
+    "wells_graphemes": [
+      "W570",
+      "W571"
+    ]
+  },
+  {
+    "description": "Large 'H', possibly with top points connected by horizontal bar",
+    "features": [
+      {
+        "description": "Is the top enclosed? 0 = no, 1 = yes",
+        "top": "integer"
+      }
+    ],
+    "id": "P293",
+    "mahadevan_graphemes": [
+      "M199"
+    ],
+    "parpola_graphemes": [
+      "V057",
+      "V055",
+      "V447"
+    ],
+    "source_path": "features/P293.json",
+    "wells_graphemes": [
+      "W315",
+      "W360"
+    ]
+  },
+  {
+    "description": "Large 'H', possibly with top points connected by horizontal bar. Table for a hat.",
+    "features": [
+      {
+        "description": "Is the top enclosed? 0 = no, 1 = yes",
+        "top": "integer"
+      }
+    ],
+    "id": "P294",
+    "mahadevan_graphemes": [
+      "M203"
+    ],
+    "parpola_graphemes": [
+      "V334"
+    ],
+    "source_path": "features/P294.json",
+    "wells_graphemes": [
+      "W361"
+    ]
+  },
+  {
+    "description": "Large 'H', possibly with top points connected by horizontal bar. Vertical lines come down from the crossbar.",
+    "features": [
+      {
+        "description": "Is the top enclosed? 0 = no, 1 = yes",
+        "top": "integer"
+      },
+      {
+        "count": "integer",
+        "description": "Number of vertical lines"
+      }
+    ],
+    "id": "P295",
+    "mahadevan_graphemes": [
+      "M188"
+    ],
+    "parpola_graphemes": [
+      "V279"
+    ],
+    "source_path": "features/P295.json",
+    "wells_graphemes": [
+      "W318"
+    ]
+  },
+  {
+    "description": "Two long vertical strokes, connected by multiple horizontal lines",
+    "features": [
+      {
+        "description": "How many horizontal lines go across the middle?",
+        "lines": "integer"
+      }
+    ],
+    "id": "P296",
+    "mahadevan_graphemes": [
+      "M186"
+    ],
+    "parpola_graphemes": [
+      "V056",
+      "V686"
+    ],
+    "source_path": "features/P296.json",
+    "wells_graphemes": [
+      "W317"
+    ]
+  },
+  {
+    "description": "Ladder motif. Two nearby vertical lines with a number of horizontal lines going across the middle, going the length of the verticals.",
+    "features": [
+      {
+        "description": "How many horizontal lines go across the middle?",
+        "lines": "integer"
+      }
+    ],
+    "id": "P297",
+    "mahadevan_graphemes": [],
+    "parpola_graphemes": [
+      "V725"
+    ],
+    "source_path": "features/P297.json",
+    "wells_graphemes": []
+  },
+  {
+    "description": "An 'H', but the crossbar is multiple small boxes. Possibly with an upward tail coming from the bottom left",
+    "features": [
+      {
+        "boxes": "integer",
+        "description": "How many boxes go across the middle?"
+      }
+    ],
+    "id": "P298",
+    "mahadevan_graphemes": [],
+    "parpola_graphemes": [
+      "V379",
+      "V704"
+    ],
+    "source_path": "features/P298.json",
+    "wells_graphemes": [
+      "W319"
+    ]
+  },
+  {
+    "description": "Two 'H's, but the crossbars are multiple small boxes. H's share one of the vertical lines.",
+    "features": [
+      {
+        "boxes": "integer",
+        "description": "How many boxes go across the middle?"
+      }
+    ],
+    "id": "P299",
+    "mahadevan_graphemes": [
+      "M185"
+    ],
+    "parpola_graphemes": [
+      "V444"
+    ],
+    "source_path": "features/P299.json",
+    "wells_graphemes": []
+  },
+  {
+    "description": "Two narrow vertical lines, three diagonals connecting them. Tail coming horizontally off top, right edge has a thin triangle sharing part of the edge",
+    "features": [],
+    "id": "P300",
+    "mahadevan_graphemes": [
+      "M187"
+    ],
+    "parpola_graphemes": [
+      "V270",
+      "V333"
+    ],
+    "source_path": "features/P300.json",
+    "wells_graphemes": []
+  },
+  {
+    "description": "Small box with horizontal hatching, vertical lines coming from top left and bottom right corners",
+    "features": [
+      {
+        "description": "How many horizontal lines are in the 'box' in the middle?",
+        "hatches": "integer"
+      },
+      {
+        "description": "Is the entire symbol in mirror image along the vertical axis? 0 = no, 1 = yes",
+        "flipped": "integer"
+      }
+    ],
+    "id": "P301",
+    "mahadevan_graphemes": [
+      "M254"
+    ],
+    "parpola_graphemes": [
+      "V041",
+      "V479"
+    ],
+    "source_path": "features/P301.json",
+    "wells_graphemes": [
+      "W526",
+      "W527"
+    ]
+  },
+  {
+    "description": "Box in center. Vertical lines coming from top left and right. Vertical coming from bottom right, extended by a horizontal at the bottom.",
+    "features": [],
+    "id": "P302",
+    "mahadevan_graphemes": [
+      "M255"
+    ],
+    "parpola_graphemes": [
+      "V567"
+    ],
+    "source_path": "features/P302.json",
+    "wells_graphemes": [
+      "W363"
+    ]
+  },
+  {
+    "description": "H with two horizontal bars across the middle, with vertical lines dropping down from the crossbar",
+    "features": [
+      {
+        "description": "How many vertical lines are in the 'box' in the bottom?",
+        "lines": "integer"
+      },
+      {
+        "decoration": "integer",
+        "description": "Is the top of the H solid with crosshatching? 0 = no, 1 = yes"
+      },
+      {
+        "animal": "integer",
+        "description": "Is the shape a discernable animal? 0 = no, 1 = yes"
+      }
+    ],
+    "id": "P303",
+    "mahadevan_graphemes": [
+      "M182"
+    ],
+    "parpola_graphemes": [
+      "V275",
+      "V519"
+    ],
+    "source_path": "features/P303.json",
+    "wells_graphemes": [
+      "W322",
+      "W323",
+      "W324",
+      "W325"
+    ]
+  },
+  {
+    "description": "H with two horizontal bars across the middle, with vertical lines dropping down from the crossbar. All connected by a short diagonal to a tall vertical stroke on left",
+    "features": [
+      {
+        "description": "How many vertical lines are in the 'box' in the bottom?",
+        "lines": "integer"
+      },
+      {
+        "decoration": "integer",
+        "description": "Is the top of the H solid with crosshatching? 0 = no, 1 = yes"
+      },
+      {
+        "animal": "integer",
+        "description": "Is the shape a discernable animal? 0 = no, 1 = yes"
+      }
+    ],
+    "id": "P304",
+    "mahadevan_graphemes": [
+      "M183"
+    ],
+    "parpola_graphemes": [
+      "V079",
+      "V800"
+    ],
+    "source_path": "features/P304.json",
+    "wells_graphemes": [
+      "W321"
+    ]
+  },
+  {
+    "description": "Long horizontal at bottom, multiple vertical lines coming off for the entire length",
+    "features": [
+      {
+        "description": "How many vertical lines are there?",
+        "verticals": "integer"
+      }
+    ],
+    "id": "P305",
+    "mahadevan_graphemes": [
+      "M189"
+    ],
+    "parpola_graphemes": [
+      "V058",
+      "V716"
+    ],
+    "source_path": "features/P305.json",
+    "wells_graphemes": [
+      "W420"
+    ]
+  },
+  {
+    "description": "Long horizontal at bottom, multiple vertical lines coming off for the entire length. Each vertical decorated near top, low horizontal is made of abutting small rectangles, possibly decorated",
+    "features": [
+      {
+        "description": "How are the vertical lines decorated? 0 = none, 1 = top bifurcation, 2 = tail on one side at middle",
+        "vertical_decoration": "integer"
+      },
+      {
+        "description": "How is the low horizontal decorated? 0 = none, 1 = abutting small rectangles, 2 = abutting small rectangles with a diagonal, 3 = extra horizontal lines, 4 = extra vertical lines",
+        "horizontal_decoration": "integer"
+      }
+    ],
+    "id": "P306",
+    "mahadevan_graphemes": [
+      "M190"
+    ],
+    "parpola_graphemes": [
+      "V080",
+      "V474"
+    ],
+    "source_path": "features/P306.json",
+    "wells_graphemes": [
+      "W421",
+      "W422",
+      "W423",
+      "W425",
+      "W426",
+      "W427",
+      "W428",
+      "W429",
+      "W430"
+    ]
+  },
+  {
+    "description": "Box with open top, diagonal line coming off top right and outward. Bottom has a small rect with vertical lines",
+    "features": [
+      {
+        "description": "How many vertical lines are in the 'box' in the bottom?",
+        "lines": "integer"
+      }
+    ],
+    "id": "P307",
+    "mahadevan_graphemes": [
+      "M191"
+    ],
+    "parpola_graphemes": [
+      "V362"
+    ],
+    "source_path": "features/P307.json",
+    "wells_graphemes": [
+      "W329"
+    ]
+  },
+  {
+    "description": "M with the bottom of the legs connected by a horizontal line, and vertical lines connected at midpoint by horizontal line",
+    "features": [
+      {
+        "description": "What shape are the diagonals of the 'M'? 0 = straight, 1 = curved",
+        "diagonal_style": "integer"
+      }
+    ],
+    "id": "P308",
+    "mahadevan_graphemes": [
+      "M192"
+    ],
+    "parpola_graphemes": [
+      "V075"
+    ],
+    "source_path": "features/P308.json",
+    "wells_graphemes": [
+      "W335"
+    ]
+  },
+  {
+    "description": "M with the bottom of the legs connected by horizontal lines, and vertical line decoration",
+    "features": [
+      {
+        "description": "Number of horizontal lines across center",
+        "horizontal_line_count": "integer"
+      },
+      {
+        "description": "How many vertical lines are in the 'box' in the bottom?",
+        "vertical_line_count": "integer"
+      },
+      {
+        "description": "What form are the triangles of the M-top? 0 = empty, 1 = hatched",
+        "top_decoration": "integer"
+      },
+      {
+        "bottom_decoration": "integer",
+        "description": "What form is the very bottom? 0 = no horizontal line, 1 = horizontal line"
+      }
+    ],
+    "id": "P309",
+    "mahadevan_graphemes": [
+      "M193"
+    ],
+    "parpola_graphemes": [
+      "V076"
+    ],
+    "source_path": "features/P309.json",
+    "wells_graphemes": [
+      "W336",
+      "W337",
+      "W338"
+    ]
+  },
+  {
+    "description": "Simple U with no other decoration",
+    "features": [
+      {
+        "description": "What shape is the U? 0 = wide mouthed and rounded, 1 = mostly vertical sides",
+        "rounded": "integer"
+      },
+      {
+        "description": "How tall are the sides of the U? 0 = full height, 1 = partial height",
+        "u_height": "integer"
+      }
+    ],
+    "id": "P310",
+    "mahadevan_graphemes": [
+      "M328"
+    ],
+    "parpola_graphemes": [
+      "V246",
+      "V548"
+    ],
+    "source_path": "features/P310.json",
+    "wells_graphemes": [
+      "W700"
+    ]
+  },
+  {
+    "description": "U with two small vertical strokes inside the top",
+    "features": [
+      {
+        "description": "Is the U rounded? 0 = yes, 1 = no",
+        "rounded": "integer"
+      },
+      {
+        "description": "How tall are the sides of the U? 0 = full height, 1 = partial height",
+        "u_height": "integer"
+      }
+    ],
+    "id": "P311",
+    "mahadevan_graphemes": [
+      "M329"
+    ],
+    "parpola_graphemes": [
+      "V201",
+      "V720"
+    ],
+    "source_path": "features/P311.json",
+    "wells_graphemes": [
+      "W701"
+    ]
+  },
+  {
+    "description": "U with three small vertical strokes inside the top",
+    "features": [
+      {
+        "description": "Is the U rounded? 0 = yes, 1 = no",
+        "rounded": "integer"
+      },
+      {
+        "description": "How tall are the sides of the U? 0 = full height, 1 = partial height",
+        "u_height": "integer"
+      }
+    ],
+    "id": "P312",
+    "mahadevan_graphemes": [
+      "M330"
+    ],
+    "parpola_graphemes": [
+      "V202",
+      "V707"
+    ],
+    "source_path": "features/P312.json",
+    "wells_graphemes": [
+      "W703"
+    ]
+  },
+  {
+    "description": "U with several small strokes off the bottom",
+    "features": [
+      {
+        "description": "Is the U rounded? 0 = yes, 1 = no",
+        "rounded": "integer"
+      },
+      {
+        "description": "How many strokes come off the bottom?",
+        "stroke_count": "integer"
+      }
+    ],
+    "id": "P313",
+    "mahadevan_graphemes": [
+      "M332"
+    ],
+    "parpola_graphemes": [
+      "V359",
+      "V267"
+    ],
+    "source_path": "features/P313.json",
+    "wells_graphemes": [
+      "W732",
+      "W734"
+    ]
+  },
+  {
+    "description": "U with several small strokes off the bottom, caret hat",
+    "features": [
+      {
+        "description": "Is the U rounded? 0 = yes, 1 = no",
+        "rounded": "integer"
+      },
+      {
+        "description": "How many strokes come off the bottom?",
+        "stroke_count": "integer"
+      }
+    ],
+    "id": "P314",
+    "mahadevan_graphemes": [
+      "M334"
+    ],
+    "parpola_graphemes": [
+      "V088",
+      "V779"
+    ],
+    "source_path": "features/P314.json",
+    "wells_graphemes": [
+      "W731"
+    ]
+  },
+  {
+    "description": "Large 'V' with a tall vertical coming from the vertex (making a large bird foot)",
+    "features": [],
+    "id": "P315",
+    "mahadevan_graphemes": [
+      "M365"
+    ],
+    "parpola_graphemes": [
+      "V710"
+    ],
+    "source_path": "features/P315.json",
+    "wells_graphemes": []
+  },
+  {
+    "description": "U with a long vertical stroke inserted into the gap of U",
+    "features": [
+      {
+        "description": "Is the U rounded? 0 = yes, 1 = no",
+        "rounded": "integer"
+      },
+      {
+        "description": "How tall are the sides of the U? 0 = full height, 1 = partial height",
+        "u_height": "integer"
+      },
+      {
+        "description": "How far into the U does the line extend? 0 = full height, 1 = partial height",
+        "line_height": "integer"
+      },
+      {
+        "description": "How is the bottom of the inserted stroke decorated? 0 = plain, 1 = triangle, 2 = circle, 3 = indeterminate",
+        "stroke_decoration": "integer"
+      }
+    ],
+    "id": "P316",
+    "mahadevan_graphemes": [
+      "M336"
+    ],
+    "parpola_graphemes": [
+      "V197",
+      "V398",
+      "V532"
+    ],
+    "source_path": "features/P316.json",
+    "wells_graphemes": [
+      "W704",
+      "W705",
+      "W706",
+      "W707"
+    ]
+  },
+  {
+    "description": "U with several small strokes off the bottom, vertical line with possible decoration at bottom inserted into the U",
+    "features": [
+      {
+        "description": "Is the U rounded? 0 = yes, 1 = no",
+        "rounded": "integer"
+      },
+      {
+        "description": "How many strokes come off the bottom?",
+        "stroke_count": "integer"
+      },
+      {
+        "decoration": "integer",
+        "description": "What is the decoration on the inserted line? 0 = none, 1 = circle"
+      }
+    ],
+    "id": "P317",
+    "mahadevan_graphemes": [
+      "M335"
+    ],
+    "parpola_graphemes": [
+      "V407",
+      "V322"
+    ],
+    "source_path": "features/P317.json",
+    "wells_graphemes": [
+      "W735",
+      "W736"
+    ]
+  },
+  {
+    "description": "U with upward-bowed line or wagon wheel near the bottom",
+    "features": [
+      {
+        "decoration": "integer",
+        "description": "What is the decoration near the bottom? 0 = circle, 1 = wagon wheel"
+      }
+    ],
+    "id": "P318",
+    "mahadevan_graphemes": [],
+    "parpola_graphemes": [
+      "V283"
+    ],
+    "source_path": "features/P318.json",
+    "wells_graphemes": [
+      "W712"
+    ]
+  },
+  {
+    "description": "U with X going from side to side near the bottom",
+    "features": [],
+    "id": "P319",
+    "mahadevan_graphemes": [],
+    "parpola_graphemes": [
+      "V714",
+      "V746"
+    ],
+    "source_path": "features/P319.json",
+    "wells_graphemes": [
+      "W711"
+    ]
+  },
+  {
+    "description": "A cat's paw perhaps, two vertical strokes on each side, and four fingers, with fingers on one side a little shorter than the other",
+    "features": [
+      {
+        "description": "How many vertical hatches make up the fingers?",
+        "hatches": "integer"
+      }
+    ],
+    "id": "P320",
+    "mahadevan_graphemes": [
+      "M341"
+    ],
+    "parpola_graphemes": [
+      "V203",
+      "V484"
+    ],
+    "source_path": "features/P320.json",
+    "wells_graphemes": [
+      "W716",
+      "W717"
+    ]
+  },
+  {
+    "description": "Tall vertical on left, half vertical on top right, the right vertical then continues in a curve to connect to the bottom of the left vertical. Top is closed by a horizontal. Three vertical lines off top horizontal. Capped by 'table'.",
+    "features": [
+      {
+        "description": "How many vertical lines come off the top?",
+        "hatches": "integer"
+      },
+      {
+        "curve": "integer",
+        "description": "Which side is the curve on? 0 = left, 1 = right"
+      },
+      {
+        "description": "What is the table decorated with? 0 = nothing, 1 = small vertical line",
+        "top_decoration": "integer"
+      }
+    ],
+    "id": "P321",
+    "mahadevan_graphemes": [
+      "M339"
+    ],
+    "parpola_graphemes": [
+      "V751"
+    ],
+    "source_path": "features/P321.json",
+    "wells_graphemes": [
+      "W719"
+    ]
+  },
+  {
+    "description": "Tall vertical on left, half vertical on top right, the right vertical then continues in a curve to connect to the bottom of the left vertical. Top is closed by a horizontal. Top is a sequence of small boxes",
+    "features": [
+      {
+        "boxes": "integer",
+        "description": "How many boxes are in the top?"
+      },
+      {
+        "curve": "integer",
+        "description": "Which side is the curve on? 0 = left, 1 = right"
+      }
+    ],
+    "id": "P322",
+    "mahadevan_graphemes": [
+      "M338"
+    ],
+    "parpola_graphemes": [
+      "V337",
+      "V705"
+    ],
+    "source_path": "features/P322.json",
+    "wells_graphemes": [
+      "W721"
+    ]
+  },
+  {
+    "description": "U with 'tree' motif sprouting from the bottom",
+    "features": [
+      {
+        "branches": "integer",
+        "description": "How many branches are on the tree?"
+      },
+      {
+        "description": "Where does the tree come from? 0 = bottom, 1 = a bit up the side",
+        "sprout_location": "integer"
+      }
+    ],
+    "id": "P323",
+    "mahadevan_graphemes": [],
+    "parpola_graphemes": [
+      "V128",
+      "V776"
+    ],
+    "source_path": "features/P323.json",
+    "wells_graphemes": [
+      "W708",
+      "W709",
+      "W710"
+    ]
+  },
+  {
+    "description": "Classic jar symbol with two horizontal handles at the top of each arm pointed outward",
+    "features": [
+      {
+        "description": "Are the left and right sides straight or bulging? 0 = bulging, 1 = straight, 2 = mixed or indeterminate",
+        "round_sides": "integer"
+      },
+      {
+        "description": "Width of the jar. 0 = narrow, 1 = medium, 2 = wide",
+        "width": "integer"
+      },
+      {
+        "angled_bottom": "integer",
+        "description": "What shape is the jar bottom? 0 = rounded, 1 = angled, 2 = mixed or indeterminate"
+      },
+      {
+        "description": "Are the lips of the jar straight or flared outward? 0 = flared, 1 = straight, 2 = mixed or indeterminate",
+        "lips": "integer"
+      },
+      {
+        "description": "Do the jar handles droop? 0 = no, 1 = yes, 2 = mixed or indeterminate",
+        "handles": "integer"
+      }
+    ],
+    "id": "P324",
+    "mahadevan_graphemes": [
+      "M342"
+    ],
+    "parpola_graphemes": [
+      "V204",
+      "V526"
+    ],
+    "source_path": "features/P324.json",
+    "wells_graphemes": [
+      "W740"
+    ]
+  },
+  {
+    "description": "Classic jar symbol with two horizontal handles at the top of each arm pointed outward, single small vertical stroke inside mouth of jar",
+    "features": [
+      {
+        "description": "Are the left and right sides straight or bulging? 0 = bulging, 1 = straight, 2 = mixed or indeterminate",
+        "round_sides": "integer"
+      },
+      {
+        "description": "Width of the jar. 0 = narrow, 1 = medium, 2 = wide",
+        "width": "integer"
+      },
+      {
+        "angled_bottom": "integer",
+        "description": "What shape is the jar bottom? 0 = rounded, 1 = angled, 2 = mixed or indeterminate"
+      },
+      {
+        "description": "Are the lips of the jar straight or flared outward? 0 = flared, 1 = straight, 2 = mixed or indeterminate",
+        "lips": "integer"
+      },
+      {
+        "description": "Do the jar handles droop? 0 = no, 1 = yes, 2 = mixed or indeterminate",
+        "handles": "integer"
+      }
+    ],
+    "id": "P325",
+    "mahadevan_graphemes": [
+      "M343"
+    ],
+    "parpola_graphemes": [
+      "V205",
+      "V209"
+    ],
+    "source_path": "features/P325.json",
+    "wells_graphemes": [
+      "W741"
+    ]
+  },
+  {
+    "description": "Classic jar symbol with two horizontal handles at the top of each arm pointed outward, two small vertical strokes inside mouth of jar",
+    "features": [
+      {
+        "description": "Are the left and right sides straight or bulging? 0 = bulging, 1 = straight, 2 = mixed or indeterminate",
+        "round_sides": "integer"
+      },
+      {
+        "description": "Width of the jar. 0 = narrow, 1 = medium, 2 = wide",
+        "width": "integer"
+      },
+      {
+        "angled_bottom": "integer",
+        "description": "What shape is the jar bottom? 0 = rounded, 1 = angled, 2 = mixed or indeterminate"
+      },
+      {
+        "description": "Are the lips of the jar straight or flared outward? 0 = flared, 1 = straight, 2 = mixed or indeterminate",
+        "lips": "integer"
+      },
+      {
+        "description": "Do the jar handles droop? 0 = no, 1 = yes, 2 = mixed or indeterminate",
+        "handles": "integer"
+      },
+      {
+        "description": "In what direction are the small strokes? 0 = vertical, 1 = tilted right, 2 = tilted left, 3 = mixed or indeterminate",
+        "small_strokes": "integer"
+      }
+    ],
+    "id": "P326",
+    "mahadevan_graphemes": [
+      "M344"
+    ],
+    "parpola_graphemes": [
+      "V206",
+      "V413"
+    ],
+    "source_path": "features/P326.json",
+    "wells_graphemes": [
+      "W742",
+      "W743",
+      "W744"
+    ]
+  },
+  {
+    "description": "Classic jar symbol with two horizontal handles at the top of each arm pointed outward, three small vertical strokes in mouth",
+    "features": [
+      {
+        "description": "Are the left and right sides straight or bulging? 0 = bulging, 1 = straight, 2 = mixed or indeterminate",
+        "round_sides": "integer"
+      },
+      {
+        "description": "Width of the jar. 0 = narrow, 1 = medium, 2 = wide",
+        "width": "integer"
+      },
+      {
+        "angled_bottom": "integer",
+        "description": "What shape is the jar bottom? 0 = rounded, 1 = angled, 2 = mixed or indeterminate"
+      },
+      {
+        "description": "Are the lips of the jar straight or flared outward? 0 = flared, 1 = straight, 2 = mixed or indeterminate",
+        "lips": "integer"
+      },
+      {
+        "description": "Do the jar handles droop? 0 = no, 1 = yes, 2 = mixed or indeterminate",
+        "handles": "integer"
+      },
+      {
+        "description": "In what direction are the small strokes? 0 = vertical, 1 = tilted right, 2 = tilted left, 3 = mixed or indeterminate",
+        "small_strokes": "integer"
+      }
+    ],
+    "id": "P327",
+    "mahadevan_graphemes": [
+      "M345"
+    ],
+    "parpola_graphemes": [
+      "V208",
+      "V207",
+      "V414",
+      "V706"
+    ],
+    "source_path": "features/P327.json",
+    "wells_graphemes": [
+      "W745",
+      "W746",
+      "W747"
+    ]
+  },
+  {
+    "description": "Classic jar symbol with two horizontal handles at the top of each arm pointed outward, four small vertical strokes in mouth",
+    "features": [
+      {
+        "description": "Are the left and right sides straight or bulging? 0 = bulging, 1 = straight, 2 = mixed or indeterminate",
+        "round_sides": "integer"
+      },
+      {
+        "description": "Width of the jar. 0 = narrow, 1 = medium, 2 = wide",
+        "width": "integer"
+      },
+      {
+        "angled_bottom": "integer",
+        "description": "What shape is the jar bottom? 0 = rounded, 1 = angled, 2 = mixed or indeterminate"
+      },
+      {
+        "description": "Are the lips of the jar straight or flared outward? 0 = flared, 1 = straight, 2 = mixed or indeterminate",
+        "lips": "integer"
+      },
+      {
+        "description": "Do the jar handles droop? 0 = no, 1 = yes, 2 = mixed or indeterminate",
+        "handles": "integer"
+      },
+      {
+        "description": "In what direction are the small strokes? 0 = vertical, 1 = tilted right, 2 = tilted left, 3 = mixed or indeterminate",
+        "small_strokes": "integer"
+      }
+    ],
+    "id": "P328",
+    "mahadevan_graphemes": [],
+    "parpola_graphemes": [
+      "V749"
+    ],
+    "source_path": "features/P328.json",
+    "wells_graphemes": [
+      "W748"
+    ]
+  },
+  {
+    "description": "Classic jar symbol with two horizontal handles at the top of each arm pointed outward, three small vertical strokes in mouth. Three small strokes at bottom. Overlaid by a decorated caret",
+    "features": [
+      {
+        "description": "Are the left and right sides straight or bulging? 0 = bulging, 1 = straight, 2 = mixed or indeterminate",
+        "round_sides": "integer"
+      },
+      {
+        "description": "Width of the jar. 0 = narrow, 1 = medium, 2 = wide",
+        "width": "integer"
+      },
+      {
+        "angled_bottom": "integer",
+        "description": "What shape is the jar bottom? 0 = rounded, 1 = angled, 2 = mixed or indeterminate"
+      },
+      {
+        "description": "Are the lips of the jar straight or flared outward? 0 = flared, 1 = straight, 2 = mixed or indeterminate",
+        "lips": "integer"
+      },
+      {
+        "description": "Do the jar handles droop? 0 = no, 1 = yes, 2 = mixed or indeterminate",
+        "handles": "integer"
+      },
+      {
+        "description": "In what direction are the small strokes? 0 = vertical, 1 = tilted right, 2 = tilted left, 3 = mixed or indeterminate",
+        "small_strokes": "integer"
+      },
+      {
+        "caret_decoration": "integer",
+        "description": "How is the caret decorated? 0 = not, 1 = two small upward orthogonals off each end"
+      }
+    ],
+    "id": "P329",
+    "mahadevan_graphemes": [
+      "M346"
+    ],
+    "parpola_graphemes": [
+      "V494",
+      "V774"
+    ],
+    "source_path": "features/P329.json",
+    "wells_graphemes": [
+      "W749"
+    ]
+  },
+  {
+    "description": "Classic jar symbol with two horizontal handles at the top of each arm pointed outward. Inside has a wagon wheel at bottom, attached to a double headed pitchfork at top",
+    "features": [
+      {
+        "description": "Are the left and right sides straight or bulging? 0 = bulging, 1 = straight, 2 = mixed or indeterminate",
+        "round_sides": "integer"
+      },
+      {
+        "description": "Width of the jar. 0 = narrow, 1 = medium, 2 = wide",
+        "width": "integer"
+      },
+      {
+        "angled_bottom": "integer",
+        "description": "What shape is the jar bottom? 0 = rounded, 1 = angled, 2 = mixed or indeterminate"
+      },
+      {
+        "description": "Are the lips of the jar straight or flared outward? 0 = flared, 1 = straight, 2 = mixed or indeterminate",
+        "lips": "integer"
+      },
+      {
+        "description": "Do the jar handles droop? 0 = no, 1 = yes, 2 = mixed or indeterminate",
+        "handles": "integer"
+      },
+      {
+        "description": "In what direction are the small strokes? 0 = vertical, 1 = tilted right, 2 = tilted left, 3 = mixed or indeterminate",
+        "small_strokes": "integer"
+      }
+    ],
+    "id": "P330",
+    "mahadevan_graphemes": [],
+    "parpola_graphemes": [
+      "V367"
+    ],
+    "source_path": "features/P330.json",
+    "wells_graphemes": [
+      "W751"
+    ]
+  },
+  {
+    "description": "U with jar handles on left, trifurcated tree on right",
+    "features": [],
+    "id": "P331",
+    "mahadevan_graphemes": [
+      "M352"
+    ],
+    "parpola_graphemes": [
+      "V386"
+    ],
+    "source_path": "features/P331.json",
+    "wells_graphemes": [
+      "W750"
+    ]
+  },
+  {
+    "description": "U with decorated branching at top",
+    "features": [
+      {
+        "branches": "integer",
+        "description": "Number of branches on each lip"
+      },
+      {
+        "closed": "integer",
+        "description": "Are the branches closed with horizontal strokes on top? 0 = no, 1 = yes"
+      },
+      {
+        "description": "Do the branches only occur on left or right, inside or outside? 0 = balanced, 1 = left, 2 = right, 3 = inside, 4 = outside",
+        "sided": "integer"
+      },
+      {
+        "decoration": "integer",
+        "description": "Do the branches have horizontal lines decorating them? 0 = no, 1 = yes"
+      }
+    ],
+    "id": "P332",
+    "mahadevan_graphemes": [
+      "M347",
+      "M358"
+    ],
+    "parpola_graphemes": [
+      "V248",
+      "V210",
+      "V211",
+      "V276",
+      "V395",
+      "V428",
+      "V480"
+    ],
+    "source_path": "features/P332.json",
+    "wells_graphemes": [
+      "W752",
+      "W760"
+    ]
+  },
+  {
+    "description": "U with trifurcated trees for handles, very low X connecting the U legs near the bottom",
+    "features": [],
+    "id": "P333",
+    "mahadevan_graphemes": [
+      "M357"
+    ],
+    "parpola_graphemes": [
+      "V364"
+    ],
+    "source_path": "features/P333.json",
+    "wells_graphemes": [
+      "W761"
+    ]
+  },
+  {
+    "description": "U with trifurcated trees for handles, very low caret in outline with small diamond in the tip",
+    "features": [],
+    "id": "P334",
+    "mahadevan_graphemes": [
+      "M356"
+    ],
+    "parpola_graphemes": [
+      "V752"
+    ],
+    "source_path": "features/P334.json",
+    "wells_graphemes": []
+  },
+  {
+    "description": "U with trifurcations at the tips, with full height vertical stroke on left, connected together with horizontal stroke",
+    "features": [
+      {
+        "connector": "integer",
+        "description": "Is the connector fully horizontal? 0 = no, 1 = yes (diagonal)"
+      }
+    ],
+    "id": "P335",
+    "mahadevan_graphemes": [
+      "M349"
+    ],
+    "parpola_graphemes": [
+      "V448"
+    ],
+    "source_path": "features/P335.json",
+    "wells_graphemes": [
+      "W765"
+    ]
+  },
+  {
+    "description": "U with trifurcated trees for handles, small check-mark on right side",
+    "features": [],
+    "id": "P336",
+    "mahadevan_graphemes": [
+      "M350"
+    ],
+    "parpola_graphemes": [
+      "V361"
+    ],
+    "source_path": "features/P336.json",
+    "wells_graphemes": [
+      "W764"
+    ]
+  },
+  {
+    "description": "U with trifurcated trees for handles, wagon wheel circumscribed fully within",
+    "features": [
+      {
+        "description": "What shape are the handles? 0 = trifurcated, 1 = branching to one side only",
+        "handles": "integer"
+      }
+    ],
+    "id": "P337",
+    "mahadevan_graphemes": [
+      "M355"
+    ],
+    "parpola_graphemes": [
+      "V213",
+      "V281"
+    ],
+    "source_path": "features/P337.json",
+    "wells_graphemes": [
+      "W753"
+    ]
+  },
+  {
+    "description": "Upside down U, with five small vertical strokes within",
+    "features": [],
+    "id": "P338",
+    "mahadevan_graphemes": [
+      "M317"
+    ],
+    "parpola_graphemes": [
+      "V401"
+    ],
+    "source_path": "features/P338.json",
+    "wells_graphemes": [
+      "W931"
+    ]
+  },
+  {
+    "description": "Upside down U, with a wagon wheel above two small vertical strokes within",
+    "features": [
+      {
+        "crossbar": "integer",
+        "description": "Is there a crossbar above the vertical strokes? 0 = no, 1 = yes"
+      }
+    ],
+    "id": "P339",
+    "mahadevan_graphemes": [
+      "M393"
+    ],
+    "parpola_graphemes": [
+      "V121"
+    ],
+    "source_path": "features/P339.json",
+    "wells_graphemes": [
+      "W930"
+    ]
+  },
+  {
+    "description": "Upside down U, with a small 'H' within",
+    "features": [],
+    "id": "P340",
+    "mahadevan_graphemes": [
+      "M316"
+    ],
+    "parpola_graphemes": [
+      "V083"
+    ],
+    "source_path": "features/P340.json",
+    "wells_graphemes": []
+  },
+  {
+    "description": "Four rounded lines going upward, curving into each other at top, with a caret hat above all, and two diagonal strokes across the four lines",
+    "features": [
+      {
+        "description": "What direction are the diagonals? 0 = up&right, 1 = up&left",
+        "diagonals": "integer"
+      }
+    ],
+    "id": "P341",
+    "mahadevan_graphemes": [
+      "M318"
+    ],
+    "parpola_graphemes": [
+      "V089"
+    ],
+    "source_path": "features/P341.json",
+    "wells_graphemes": [
+      "W932"
+    ]
+  },
+  {
+    "description": "A left and right paren connected only at the top, with the left paren swooping upward into the center from the bottom",
+    "features": [],
+    "id": "P342",
+    "mahadevan_graphemes": [
+      "M319"
+    ],
+    "parpola_graphemes": [
+      "V165",
+      "V726"
+    ],
+    "source_path": "features/P342.json",
+    "wells_graphemes": [
+      "W165"
+    ]
+  },
+  {
+    "description": "A left and right paren connected only at the top, with the left paren swooping upward into the center from the bottom. Small diagonal coming off top-right",
+    "features": [],
+    "id": "P343",
+    "mahadevan_graphemes": [
+      "M320"
+    ],
+    "parpola_graphemes": [
+      "V471"
+    ],
+    "source_path": "features/P343.json",
+    "wells_graphemes": [
+      "W166"
+    ]
+  },
+  {
+    "description": "The 'headphones' motif. Upside down U with small cirles on each end",
+    "features": [
+      {
+        "angularity": "integer",
+        "description": "How angular is the 'U'? 0 = rounded, 1 = angled, 2 = mixed or indeterminate"
+      }
+    ],
+    "id": "P344",
+    "mahadevan_graphemes": [
+      "M321"
+    ],
+    "parpola_graphemes": [
+      "V239"
+    ],
+    "source_path": "features/P344.json",
+    "wells_graphemes": [
+      "W167"
+    ]
+  },
+  {
+    "description": "The 'headphones' motif. Upside down U with small cirles on each end. Tall 'Y' inscribed and attached inside",
+    "features": [
+      {
+        "angularity": "integer",
+        "description": "How angular is the 'U'? 0 = rounded, 1 = angled, 2 = mixed or indeterminate"
+      }
+    ],
+    "id": "P345",
+    "mahadevan_graphemes": [
+      "M322"
+    ],
+    "parpola_graphemes": [
+      "V286"
+    ],
+    "source_path": "features/P345.json",
+    "wells_graphemes": [
+      "W168"
+    ]
+  },
+  {
+    "description": "Capital 'T' with a small leaf oriented vertically attached to both sides of the top bar",
+    "features": [],
+    "id": "P346",
+    "mahadevan_graphemes": [
+      "M409"
+    ],
+    "parpola_graphemes": [
+      "V192",
+      "V785"
+    ],
+    "source_path": "features/P346.json",
+    "wells_graphemes": [
+      "W171"
+    ]
+  },
+  {
+    "description": "Two leaves horizontally adjacent, with a small horizontal line connecting them",
+    "features": [],
+    "id": "P347",
+    "mahadevan_graphemes": [
+      "M408"
+    ],
+    "parpola_graphemes": [
+      "V581"
+    ],
+    "source_path": "features/P347.json",
+    "wells_graphemes": [
+      "W169"
+    ]
+  },
+  {
+    "description": "Two leaves horizontally adjacent, with a small horizontal line connecting them. Caged by two inward sloping vertical lines",
+    "features": [],
+    "id": "P348",
+    "mahadevan_graphemes": [
+      "M409"
+    ],
+    "parpola_graphemes": [
+      "V737"
+    ],
+    "source_path": "features/P348.json",
+    "wells_graphemes": [
+      "W170"
+    ]
+  },
+  {
+    "description": "Two vertical leaves, slightly overlapping",
+    "features": [],
+    "id": "P349",
+    "mahadevan_graphemes": [
+      "M403"
+    ],
+    "parpola_graphemes": [
+      "V169",
+      "V533"
+    ],
+    "source_path": "features/P349.json",
+    "wells_graphemes": [
+      "W840"
+    ]
+  },
+  {
+    "description": "Two overlapping leaves, bracketed by two small stacked vertical lines on each side",
+    "features": [
+      {
+        "bracket_design": "integer",
+        "description": "Are the brackets line or dots? 1 = lines, 0 = dots"
+      }
+    ],
+    "id": "P350",
+    "mahadevan_graphemes": [
+      "M404"
+    ],
+    "parpola_graphemes": [
+      "V506"
+    ],
+    "source_path": "features/P350.json",
+    "wells_graphemes": []
+  },
+  {
+    "description": "Two vertical leaves, slightly overlapping. Small tree motif coming from right hand side",
+    "features": [
+      {
+        "branches": "integer",
+        "description": "Number of branches"
+      }
+    ],
+    "id": "P351",
+    "mahadevan_graphemes": [
+      "M405"
+    ],
+    "parpola_graphemes": [
+      "V496"
+    ],
+    "source_path": "features/P351.json",
+    "wells_graphemes": [
+      "W841"
+    ]
+  },
+  {
+    "description": "Two overlapping leaves with diagonal hatches across the three midsections, possibly with a cage of small vertical strokes",
+    "features": [
+      {
+        "description": "Are the hatches diagonal? 1 = yes, 0 = no",
+        "hatch_angle": "integer"
+      },
+      {
+        "cage": "integer",
+        "description": "Is there a cage of small vertical strokes? 1 = yes, 0 = no"
+      }
+    ],
+    "id": "P352",
+    "mahadevan_graphemes": [
+      "M407"
+    ],
+    "parpola_graphemes": [
+      "V170",
+      "V309"
+    ],
+    "source_path": "features/P352.json",
+    "wells_graphemes": [
+      "W845"
+    ]
+  },
+  {
+    "description": "Three stacked leaves, possibly with vertical stroke through the center",
+    "features": [
+      {
+        "description": "Is there a vertical stroke? 1 = yes, 0 = no",
+        "vertical_stroke": "integer"
+      }
+    ],
+    "id": "P353",
+    "mahadevan_graphemes": [
+      "M415",
+      "M417"
+    ],
+    "parpola_graphemes": [
+      "V196",
+      "V296",
+      "V694"
+    ],
+    "source_path": "features/P353.json",
+    "wells_graphemes": [
+      "W215",
+      "W216"
+    ]
+  },
+  {
+    "description": "Three stacked leaves. Caged by two tall vertical strokes",
+    "features": [],
+    "id": "P354",
+    "mahadevan_graphemes": [
+      "M416"
+    ],
+    "parpola_graphemes": [
+      "V709"
+    ],
+    "source_path": "features/P354.json",
+    "wells_graphemes": [
+      "W217"
+    ]
+  },
+  {
+    "description": "Simple leaf or diamond, possibly rotated 45 degrees",
+    "features": [
+      {
+        "description": "What size is the symbol? 0 = small, 1 = medium, 2 = large",
+        "size": "integer"
+      },
+      {
+        "description": "What is the rotation of the symbol? 0 = 0 degrees, 1 = 45 degrees",
+        "rotation": "integer"
+      }
+    ],
+    "id": "P355",
+    "mahadevan_graphemes": [
+      "M261",
+      "M373",
+      "M374"
+    ],
+    "parpola_graphemes": [
+      "V381",
+      "V098",
+      "V111",
+      "V157",
+      "V387",
+      "V415",
+      "V684"
+    ],
+    "source_path": "features/P355.json",
+    "wells_graphemes": [
+      "W790",
+      "W850"
+    ]
+  },
+  {
+    "description": "Simple leaf or diamond, possibly rotated 45 degrees. Small tree of right hand side",
+    "features": [
+      {
+        "branches": "integer",
+        "description": "Number of branches on the symbol"
+      }
+    ],
+    "id": "P356",
+    "mahadevan_graphemes": [
+      "M262"
+    ],
+    "parpola_graphemes": [
+      "V175"
+    ],
+    "source_path": "features/P356.json",
+    "wells_graphemes": [
+      "W860"
+    ]
+  },
+  {
+    "description": "Simple leaf, two small inverted carets off right, diagonal with orthogonal upware strokes on left",
+    "features": [],
+    "id": "P357",
+    "mahadevan_graphemes": [],
+    "parpola_graphemes": [
+      "V734"
+    ],
+    "source_path": "features/P357.json",
+    "wells_graphemes": []
+  },
+  {
+    "description": "Leaf with small strokes coming out diagonally on all four diagonals",
+    "features": [],
+    "id": "P358",
+    "mahadevan_graphemes": [],
+    "parpola_graphemes": [
+      "V176"
+    ],
+    "source_path": "features/P358.json",
+    "wells_graphemes": []
+  },
+  {
+    "description": "Diamond with two perpendiculars coming off each edge (see similarity with P260)",
+    "features": [],
+    "id": "P359",
+    "mahadevan_graphemes": [
+      "M264"
+    ],
+    "parpola_graphemes": [
+      "V115"
+    ],
+    "source_path": "features/P359.json",
+    "wells_graphemes": [
+      "W853"
+    ]
+  },
+  {
+    "description": "Leaf on vertical line, with sun rays coming out from the top",
+    "features": [
+      {
+        "description": "Number of rays",
+        "rays": "integer"
+      },
+      {
+        "description": "What shape is the leaf? 0 = leaf, 1 = diamond, 2 = indeterminate",
+        "shape": "integer"
+      }
+    ],
+    "id": "P360",
+    "mahadevan_graphemes": [
+      "M399"
+    ],
+    "parpola_graphemes": [
+      "V377"
+    ],
+    "source_path": "features/P360.json",
+    "wells_graphemes": [
+      "W373"
+    ]
+  },
+  {
+    "description": "Diamond with diagonal line crossing lower right edge",
+    "features": [],
+    "id": "P361",
+    "mahadevan_graphemes": [
+      "M263"
+    ],
+    "parpola_graphemes": [
+      "V118"
+    ],
+    "source_path": "features/P361.json",
+    "wells_graphemes": [
+      "W851"
+    ]
+  },
+  {
+    "description": "Diamond with small flag coming from bottom",
+    "features": [],
+    "id": "P362",
+    "mahadevan_graphemes": [],
+    "parpola_graphemes": [
+      "V525"
+    ],
+    "source_path": "features/P362.json",
+    "wells_graphemes": [
+      "W859"
+    ]
+  },
+  {
+    "description": "Diamond with two horizontally adjacent boxes on a short vertical stick inside near bottom",
+    "features": [],
+    "id": "P363",
+    "mahadevan_graphemes": [
+      "M266"
+    ],
+    "parpola_graphemes": [
+      "V112"
+    ],
+    "source_path": "features/P363.json",
+    "wells_graphemes": [
+      "W858"
+    ]
+  },
+  {
+    "description": "Leaf with tree at bottom",
+    "features": [
+      {
+        "branches": "integer",
+        "description": "The number of branches on the tree"
+      },
+      {
+        "description": "0 = no bifurcation, 1 = bifurcation",
+        "style": "integer"
+      }
+    ],
+    "id": "P364",
+    "mahadevan_graphemes": [
+      "M387"
+    ],
+    "parpola_graphemes": [
+      "V161",
+      "V537"
+    ],
+    "source_path": "features/P364.json",
+    "wells_graphemes": [
+      "W803",
+      "W805",
+      "W806"
+    ]
+  },
+  {
+    "description": "Leaf with tree at bottom, caged by four small vertical strokes",
+    "features": [
+      {
+        "branches": "integer",
+        "description": "The number of branches on the tree"
+      },
+      {
+        "description": "0 = no bifurcation, 1 = bifurcation",
+        "style": "integer"
+      }
+    ],
+    "id": "P365",
+    "mahadevan_graphemes": [
+      "M388",
+      "M390"
+    ],
+    "parpola_graphemes": [
+      "V540",
+      "V255"
+    ],
+    "source_path": "features/P365.json",
+    "wells_graphemes": [
+      "W804",
+      "W807"
+    ]
+  },
+  {
+    "description": "Leaf with small vertical stroke inside",
+    "features": [],
+    "id": "P366",
+    "mahadevan_graphemes": [
+      "M375"
+    ],
+    "parpola_graphemes": [
+      "V158",
+      "V431"
+    ],
+    "source_path": "features/P366.json",
+    "wells_graphemes": [
+      "W832"
+    ]
+  },
+  {
+    "description": "Leaf with small vertical stroke inside, small tooth coming off top right",
+    "features": [],
+    "id": "P367",
+    "mahadevan_graphemes": [
+      "M376"
+    ],
+    "parpola_graphemes": [
+      "V200",
+      "V727"
+    ],
+    "source_path": "features/P367.json",
+    "wells_graphemes": [
+      "W834"
+    ]
+  },
+  {
+    "description": "Leaf with small dot inside",
+    "features": [
+      {
+        "decoration": "integer",
+        "description": "What shape is the dot? 0 = circular, 1 = square, 2 = diamond"
+      }
+    ],
+    "id": "P368",
+    "mahadevan_graphemes": [],
+    "parpola_graphemes": [
+      "V159",
+      "V691"
+    ],
+    "source_path": "features/P368.json",
+    "wells_graphemes": [
+      "W808",
+      "W809",
+      "W810"
+    ]
+  },
+  {
+    "description": "Leaf with small square hatched decoration inside",
+    "features": [
+      {
+        "decoration": "integer",
+        "description": "0 = 2x1 angled grid, 1 = 2x3 grid, 2 = 2x1 angled grid with top cells making a single cell"
+      }
+    ],
+    "id": "P369",
+    "mahadevan_graphemes": [
+      "M381"
+    ],
+    "parpola_graphemes": [
+      "V160",
+      "V700"
+    ],
+    "source_path": "features/P369.json",
+    "wells_graphemes": [
+      "W812",
+      "W813",
+      "W814"
+    ]
+  },
+  {
+    "description": "Leaf with small square hatched decoration inside, small tooth off top right",
+    "features": [
+      {
+        "decoration": "integer",
+        "description": "0 = 2x1 angled grid, 1 = 2x3 grid, 2 = 2x1 angled grid with top cells making a single cell"
+      }
+    ],
+    "id": "P370",
+    "mahadevan_graphemes": [],
+    "parpola_graphemes": [
+      "V671"
+    ],
+    "source_path": "features/P370.json",
+    "wells_graphemes": []
+  },
+  {
+    "description": "Leaf with small square hatched decoration inside, pitchfork head inside",
+    "features": [
+      {
+        "decoration": "integer",
+        "description": "0 = 2x1 angled grid, 1 = 2x3 grid, 2 = 2x1 angled grid with top cells making a single cell"
+      },
+      {
+        "description": "Where is the pitchfork head? 0 = left, 1 = bottom-right",
+        "pitchfork": "integer"
+      },
+      {
+        "description": "Number of tines on the pitchfork head",
+        "tines": "integer"
+      }
+    ],
+    "id": "P371",
+    "mahadevan_graphemes": [
+      "M383"
+    ],
+    "parpola_graphemes": [
+      "V251"
+    ],
+    "source_path": "features/P371.json",
+    "wells_graphemes": [
+      "W815",
+      "W816"
+    ]
+  },
+  {
+    "description": "Leaf with diagonal-stroke central decoration",
+    "features": [
+      {
+        "description": "Number of strokes in center",
+        "strokes": "integer"
+      }
+    ],
+    "id": "P372",
+    "mahadevan_graphemes": [
+      "M379"
+    ],
+    "parpola_graphemes": [
+      "V116",
+      "V257"
+    ],
+    "source_path": "features/P372.json",
+    "wells_graphemes": [
+      "W831",
+      "W833"
+    ]
+  },
+  {
+    "description": "Leaf with tooth off top-right, and tooth off bottom-left",
+    "features": [],
+    "id": "P373",
+    "mahadevan_graphemes": [],
+    "parpola_graphemes": [
+      "V804"
+    ],
+    "source_path": "features/P373.json",
+    "wells_graphemes": []
+  },
+  {
+    "description": "Leaf with stretched diamond overlapping from top right to top bottom",
+    "features": [],
+    "id": "P374",
+    "mahadevan_graphemes": [],
+    "parpola_graphemes": [
+      "V805"
+    ],
+    "source_path": "features/P374.json",
+    "wells_graphemes": []
+  },
+  {
+    "description": "Leaf. Diamond in center with vertical strokes out each edge to edge of leaf. Vertical lines similarly from top and bottom vertices",
+    "features": [],
+    "id": "P375",
+    "mahadevan_graphemes": [
+      "M384"
+    ],
+    "parpola_graphemes": [
+      "V301"
+    ],
+    "source_path": "features/P375.json",
+    "wells_graphemes": [
+      "W823"
+    ]
+  },
+  {
+    "description": "Leaf with diagonal overlapping cross hatching throughout",
+    "features": [],
+    "id": "P376",
+    "mahadevan_graphemes": [
+      "M380"
+    ],
+    "parpola_graphemes": [
+      "V297"
+    ],
+    "source_path": "features/P376.json",
+    "wells_graphemes": [
+      "W825"
+    ]
+  },
+  {
+    "description": "Circle with plus sign fully inscribed",
+    "features": [],
+    "id": "P377",
+    "mahadevan_graphemes": [],
+    "parpola_graphemes": [
+      "V587"
+    ],
+    "source_path": "features/P377.json",
+    "wells_graphemes": [
+      "W818"
+    ]
+  },
+  {
+    "description": "Wheel with 6 spokes with even angles",
+    "features": [
+      {
+        "description": "Is the wheel rounded? 0 = round, 1 = angular, 2 = mixed or indeterminate",
+        "roundedness": "integer"
+      }
+    ],
+    "id": "P378",
+    "mahadevan_graphemes": [
+      "M391"
+    ],
+    "parpola_graphemes": [
+      "V163",
+      "V254"
+    ],
+    "source_path": "features/P378.json",
+    "wells_graphemes": [
+      "W820"
+    ]
+  },
+  {
+    "description": "Wheel with 6 spokes with even angles, two tall vertical strokes on left, all caged by four small vertical strokes",
+    "features": [],
+    "id": "P379",
+    "mahadevan_graphemes": [
+      "M392"
+    ],
+    "parpola_graphemes": [
+      "V569",
+      "V338"
+    ],
+    "source_path": "features/P379.json",
+    "wells_graphemes": []
+  },
+  {
+    "description": "2x2 grid, each cell has a small vertical stroke",
+    "features": [],
+    "id": "P380",
+    "mahadevan_graphemes": [
+      "M247"
+    ],
+    "parpola_graphemes": [
+      "V063",
+      "V284"
+    ],
+    "source_path": "features/P380.json",
+    "wells_graphemes": [
+      "W626"
+    ]
+  },
+  {
+    "description": "Diamond with gridding, each grid cell has a small stroke in it",
+    "features": [],
+    "id": "P381",
+    "mahadevan_graphemes": [],
+    "parpola_graphemes": [
+      "V113"
+    ],
+    "source_path": "features/P381.json",
+    "wells_graphemes": [
+      "W879"
+    ]
+  },
+  {
+    "description": "Diamond with four small diamonds at each vertex",
+    "features": [],
+    "id": "P382",
+    "mahadevan_graphemes": [
+      "M284"
+    ],
+    "parpola_graphemes": [
+      "V164",
+      "V556"
+    ],
+    "source_path": "features/P382.json",
+    "wells_graphemes": [
+      "W877"
+    ]
+  },
+  {
+    "description": "Diamond with four small diamonds at each vertex, caged by four small vertical strokes",
+    "features": [],
+    "id": "P383",
+    "mahadevan_graphemes": [
+      "M285"
+    ],
+    "parpola_graphemes": [
+      "V584",
+      "V788"
+    ],
+    "source_path": "features/P383.json",
+    "wells_graphemes": [
+      "W878"
+    ]
+  },
+  {
+    "description": "Diamond with four small diamonds at each vertex, and a wagon wheel in the center",
+    "features": [],
+    "id": "P384",
+    "mahadevan_graphemes": [
+      "M286"
+    ],
+    "parpola_graphemes": [
+      "V114",
+      "V797"
+    ],
+    "source_path": "features/P384.json",
+    "wells_graphemes": [
+      "W880"
+    ]
+  },
+  {
+    "description": "Diamond or leaf shape with a small diamond attached to the top",
+    "features": [
+      {
+        "description": "Are the left and right sides angular or rounded? 0 = round, 1 = angular, 2 = mixed or indeterminate",
+        "roundedness": "integer"
+      }
+    ],
+    "id": "P385",
+    "mahadevan_graphemes": [
+      "M267"
+    ],
+    "parpola_graphemes": [
+      "V162",
+      "V420",
+      "V421",
+      "V510"
+    ],
+    "source_path": "features/P385.json",
+    "wells_graphemes": [
+      "W817",
+      "W861"
+    ]
+  },
+  {
+    "description": "Diamond or leaf shape directly above another, with small diamonds inside each at the center",
+    "features": [
+      {
+        "description": "Are the left and right sides angular or rounded? 0 = round, 1 = angular, 2 = mixed or indeterminate",
+        "roundedness": "integer"
+      }
+    ],
+    "id": "P386",
+    "mahadevan_graphemes": [
+      "M268"
+    ],
+    "parpola_graphemes": [
+      "V352"
+    ],
+    "source_path": "features/P386.json",
+    "wells_graphemes": [
+      "W202"
+    ]
+  },
+  {
+    "description": "Diamond with a small diamond attached to the top, two orthogonal strokes going through bottom left edge",
+    "features": [],
+    "id": "P387",
+    "mahadevan_graphemes": [
+      "M276"
+    ],
+    "parpola_graphemes": [
+      "V433"
+    ],
+    "source_path": "features/P387.json",
+    "wells_graphemes": []
+  },
+  {
+    "description": "Diamond with a small diamond attached to the top, lower left edge has a doubling parallel line inside the diamond",
+    "features": [],
+    "id": "P388",
+    "mahadevan_graphemes": [
+      "M275"
+    ],
+    "parpola_graphemes": [
+      "V430",
+      "V802"
+    ],
+    "source_path": "features/P388.json",
+    "wells_graphemes": [
+      "W868"
+    ]
+  },
+  {
+    "description": "Diamond with several lines coming from top outward in a sunburst",
+    "features": [
+      {
+        "count": "integer",
+        "description": "How many lines are coming from the top of the diamond?"
+      }
+    ],
+    "id": "P389",
+    "mahadevan_graphemes": [
+      "M272"
+    ],
+    "parpola_graphemes": [
+      "V363",
+      "V227"
+    ],
+    "source_path": "features/P389.json",
+    "wells_graphemes": [
+      "W865"
+    ]
+  },
+  {
+    "description": "Diamond with small diamond at top (and maybe even smaller diamond on right), small diamond at top has decoration off the bottom",
+    "features": [
+      {
+        "decoration": "integer",
+        "description": "What is the decoration hanging on the small top diamond? 0 = bird foot, 1 = diag stroke, 2 = tree"
+      },
+      {
+        "description": "Is there a small diamond on the right? 0 = no, 1 = yes",
+        "right_diamond": "integer"
+      }
+    ],
+    "id": "P390",
+    "mahadevan_graphemes": [
+      "M277",
+      "M279",
+      "M280",
+      "M282",
+      "M283"
+    ],
+    "parpola_graphemes": [
+      "V418"
+    ],
+    "source_path": "features/P390.json",
+    "wells_graphemes": [
+      "W869",
+      "W871"
+    ]
+  },
+  {
+    "description": "Diamond with small diamond at top (and maybe even smaller diamond on right), small diamond at top has decoration off the bottom, all caged by four small vertical strokes",
+    "features": [
+      {
+        "decoration": "integer",
+        "description": "What is the decoration hanging on the small top diamond? 0 = bird foot, 1 = diag stroke"
+      },
+      {
+        "description": "Is there a small diamond on the right? 0 = no, 1 = yes",
+        "right_diamond": "integer"
+      }
+    ],
+    "id": "P391",
+    "mahadevan_graphemes": [
+      "M278"
+    ],
+    "parpola_graphemes": [
+      "V487"
+    ],
+    "source_path": "features/P391.json",
+    "wells_graphemes": [
+      "W870"
+    ]
+  },
+  {
+    "description": "Diamond with small diamond in top vertex, bird foot or tree coming off top left edge",
+    "features": [
+      {
+        "branches": "integer",
+        "description": "How many branches are in the bird foot?"
+      }
+    ],
+    "id": "P392",
+    "mahadevan_graphemes": [
+      "M270"
+    ],
+    "parpola_graphemes": [
+      "V677"
+    ],
+    "source_path": "features/P392.json",
+    "wells_graphemes": [
+      "W863"
+    ]
+  },
+  {
+    "description": "Diamond with small diamond in top vertex, multiple trees off top right edge",
+    "features": [
+      {
+        "description": "How many trees are present in the inscription?",
+        "trees": "integer"
+      }
+    ],
+    "id": "P393",
+    "mahadevan_graphemes": [
+      "M271"
+    ],
+    "parpola_graphemes": [
+      "V351"
+    ],
+    "source_path": "features/P393.json",
+    "wells_graphemes": [
+      "W864"
+    ]
+  },
+  {
+    "description": "Diamond with small diamond in top vertex, jar handles or trees coming from top vertex, one on each side",
+    "features": [
+      {
+        "description": "What style is the top? 0 = jar handles, 1 = trees",
+        "style": "integer"
+      }
+    ],
+    "id": "P394",
+    "mahadevan_graphemes": [
+      "M274"
+    ],
+    "parpola_graphemes": [
+      "V468",
+      "V409"
+    ],
+    "source_path": "features/P394.json",
+    "wells_graphemes": []
+  },
+  {
+    "description": "Diamond with small diamond in top vertex, rakes coming from top vertex, one on each side",
+    "features": [
+      {
+        "description": "How many teeth are there on the rake?",
+        "teeth": "integer"
+      }
+    ],
+    "id": "P395",
+    "mahadevan_graphemes": [
+      "M273"
+    ],
+    "parpola_graphemes": [
+      "V406"
+    ],
+    "source_path": "features/P395.json",
+    "wells_graphemes": []
+  },
+  {
+    "description": "Square with small square inside top left vertex, 9 slanted vertical strokes in a 3x3 pattern inside",
+    "features": [
+      {
+        "description": "Are the vertical strokes connected in waves? 0 = no, 1 = yes",
+        "style": "integer"
+      }
+    ],
+    "id": "P396",
+    "mahadevan_graphemes": [
+      "M236"
+    ],
+    "parpola_graphemes": [
+      "V753"
+    ],
+    "source_path": "features/P396.json",
+    "wells_graphemes": [
+      "W628"
+    ]
+  },
+  {
+    "description": "Default features for the grapheme dataset",
+    "features": [
+      {
+        "damage": "integer",
+        "description": "Lowest two digits: Rough estimate of how much of the grapheme is missing or damaged. Higher digits, between 1-9, signify which parts are damaged (1 is upper left, 2 is upper mid, ...)"
+      },
+      {
+        "description": "On what line of the artefact is this grapheme found?",
+        "line": "integer"
+      },
+      {
+        "description": "Very subjective estimate, in the range 0-100, of how uncertain the annotator was about the grapheme",
+        "uncertainty": "integer"
+      }
+    ],
+    "id": "default_features",
+    "mahadevan_graphemes": [],
+    "parpola_graphemes": [],
+    "source_path": "features/default_features.json",
+    "wells_graphemes": []
+  }
+]

@@ -1,0 +1,196 @@
+{
+  "equal_units_boundary": {
+    "horizontal_group_residual": "0",
+    "i": "1",
+    "normalized_total": "8",
+    "occurrence_level_equal_value_possible": true,
+    "oriented_total": "8",
+    "t": "1",
+    "total_only_equal_value_possible": true,
+    "v104_matching_total": "4",
+    "vertical_group_residual": "0"
+  },
+  "established_phonetic_values": 0,
+  "established_semantic_values": 0,
+  "fixed_component_example": {
+    "c": "12/7",
+    "same_predictions": true,
+    "t": "3/7",
+    "tally_contributions": [
+      "0",
+      "0",
+      "12/7",
+      "12/7",
+      "0",
+      "12/7",
+      "0",
+      "0",
+      "0"
+    ],
+    "whole_component_contributions": [
+      "0",
+      "0",
+      "12/7",
+      "12/7",
+      "0",
+      "12/7",
+      "0",
+      "0",
+      "0"
+    ]
+  },
+  "fixed_component_limits": "Conditional on later notation; DK7857 tilted-row notation is compatible with its drawing; its numerical meaning remains unverified. Two t-free objects also have questioned readings. No mass fitting or semantic evidence supplied by this reparameterization.",
+  "fixed_component_proof": "For every selected coefficient k in {0,4}, kt = 1[k>0]c under c=4t. This map is bijective on nonnegative real units. Other terms unchanged, all additive predictions agree.",
+  "input_sha256": {
+    "data/processed/metal_tool_weight_anchors.json": "47ff98eef6b64e9254a1fbf6fd7ab6b002933d7004164659dbf402f07815d3ed",
+    "data/processed/orientation_corpus_coverage_review.json": "04a1a839b50058af58a3a05b3ddc99aed462e78c721dce338ccd022f0e91038f",
+    "data/processed/pettersson_orientation_attribution_review.json": "02fba0f45f5741871dacf10487e56c1fad111ae8249e88ce4bc6a3898d3e6a7e",
+    "data/processed/stroke_orientation_protocol.json": "f16ea59fbf9bfc6ac558fedc14672a6729f5343723e8a23aa24c0d16b603bcb0",
+    "data/processed/stroke_orientation_tools_review.json": "211026386e2de4d816fc2db26212f85a0a4f0628b3fa8095fea8f5ff9b1e411d"
+  },
+  "local_proof": "v104=4i and v104=4t imply 4(i-t)=0, hence i=t. Conversely i=t permits v104=4i.",
+  "new_mass_observations": 0,
+  "new_recovered_lines": 0,
+  "objects": [
+    {
+      "direction_code": 4,
+      "direction_definition": "Top to bottom",
+      "drawn_mark_groups": [
+        {
+          "count": 4,
+          "orientation": "upright strokes in a tilted light rectangular patch; not a four-horizontal-stroke stack in this drawing",
+          "position": "above and slightly right of seven-mark group"
+        },
+        {
+          "count": 7,
+          "orientation": "upright strokes in near-horizontal light strip",
+          "position": "below four-mark group"
+        }
+      ],
+      "field_number": "DK7857",
+      "later_notation_status": "Pettersson defines4t as a tilted row, not necessarily four individually horizontal strokes. The tilted upper group is compatible with that notation; the earlier assertion of a source conflict on this basis is withdrawn. Numerical meaning and equality of this group with knife/tang groups remain unproved.",
+      "normalized_tokens": [
+        "M104",
+        "M110"
+      ],
+      "per_token_orientation_assignment": null,
+      "photo_reading": "Folded blade and perforations visible. Corrosion/contrast prevent an independent recount and orientation assignment to all eleven strokes.",
+      "primary_text_counts": "Two rows, one of four and other of seven; p460 does not specify vertical/horizontal contrast.",
+      "reference": "2926",
+      "scope": "Object-level source comparison; no universal reading or ancient token order inferred"
+    },
+    {
+      "direction_code": 5,
+      "direction_definition": "Symmetrical arrangement of signs",
+      "drawn_mark_groups": null,
+      "field_number": "DK7800",
+      "later_notation_status": "4i4t agrees with original prose, but repeated publications are not independent object observations.",
+      "normalized_tokens": [
+        "M104",
+        "M104"
+      ],
+      "per_token_orientation_assignment": null,
+      "photo_reading": "Photo shows corroded knife, tang/perforation and marks on upper blade; neither four-plus-four count nor each orientation is independently secure at retained resolution.",
+      "primary_text_counts": "p463 explicitly describes eight strokes in a close group: four vertical just above four horizontal.",
+      "reference": "2928",
+      "scope": "Object-level source comparison; no universal reading or ancient token order inferred"
+    }
+  ],
+  "protocol": {
+    "correction_review": "data/processed/pettersson_orientation_attribution_review.json",
+    "fixed_count_conclusion": "On this support, additive predictions cannot distinguish repeated unit t from an indivisible component c; varying coefficients or independent unit evidence would be needed",
+    "fixed_count_premises": [
+      "Use the later nine-object table literally as a selected hypothesis dataset",
+      "For expressions containing t, test whether every coefficient is four",
+      "Replace the whole proposed component 4t by c=4t, preserving all other terms and occurrence positions"
+    ],
+    "knife_local_conclusion": "Both local models can agree on each occurrence only if i=t; under strict t<i they cannot",
+    "knife_premises": [
+      "Accept original prose that DK7800 has four vertical and four horizontal strokes",
+      "Accept catalogue join DK7800=2928 and its two normalized M104 tokens",
+      "For the tested local model only, each four-stroke group contributes four times its orientation-specific unit",
+      "For the tested invariant model only, each occurrence of normalized M104 has the same additive scalar contribution"
+    ],
+    "objects": [
+      "2926",
+      "2928"
+    ],
+    "ordering_policy": "No ancient reading order or per-token orientation assignment for identical tokens on2928; direction5 means symmetrical arrangement",
+    "scope": "Exploratory, post-source-review model audit; not a preregistered prediction or decipherment",
+    "semantic_policy": "No established semantic or phonetic value; no new mass observation",
+    "source_disagreement": "CORRECTION: original drawing does not refute later7i4t merely because individual strokes are upright: Pettersson labels a tilted row. Numerical interpretation and cross-object equivalence remain unverified.",
+    "whole_object_control": "Matching totals alone gives v104=2(i+t), which does not require i=t"
+  },
+  "scope": "Exploratory, post-source-review model audit; not a preregistered prediction or decipherment",
+  "selected_later_expressions": [
+    {
+      "expression": "2x 3u (?)",
+      "object": "C-39",
+      "t_coefficient": 0
+    },
+    {
+      "expression": "3u 5(?) i",
+      "object": "C-40",
+      "t_coefficient": 0
+    },
+    {
+      "expression": "4i 4t",
+      "object": "DK-7800",
+      "t_coefficient": 4
+    },
+    {
+      "expression": "7i 4t",
+      "object": "DK-7857",
+      "t_coefficient": 4
+    },
+    {
+      "expression": "6i",
+      "object": "DK-7855",
+      "t_coefficient": 0
+    },
+    {
+      "expression": "1u 5i 4t",
+      "object": "DK-7856",
+      "t_coefficient": 4
+    },
+    {
+      "expression": "7u 6i",
+      "object": "DK-7835",
+      "t_coefficient": 0
+    },
+    {
+      "expression": "1u (or ???)",
+      "object": "K-121",
+      "t_coefficient": 0
+    },
+    {
+      "expression": "5i",
+      "object": "K-122",
+      "t_coefficient": 0
+    }
+  ],
+  "sensitivity_counterexample": {
+    "c": "12/7",
+    "same_predictions": false,
+    "t": "3/7",
+    "tally_contributions": [
+      "12/7",
+      "9/7"
+    ],
+    "whole_component_contributions": [
+      "12/7",
+      "12/7"
+    ]
+  },
+  "total_only_control": {
+    "horizontal_group_residual": "14",
+    "i": "8",
+    "normalized_total": "36",
+    "occurrence_level_equal_value_possible": false,
+    "oriented_total": "36",
+    "t": "1",
+    "total_only_equal_value_possible": true,
+    "v104_matching_total": "18",
+    "vertical_group_residual": "-14"
+  }
+}

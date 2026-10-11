@@ -1,0 +1,42 @@
+{
+  "all_checks_passed": true,
+  "summary": {
+    "W525": {
+      "rows": 10,
+      "strings": 6,
+      "categories": {
+        "final": 1,
+        "medial": 9
+      }
+    },
+    "W526": {
+      "rows": 9,
+      "strings": 7,
+      "categories": {
+        "final": 9
+      }
+    },
+    "W527": {
+      "rows": 45,
+      "strings": 43,
+      "categories": {
+        "final": 40,
+        "medial": 4,
+        "initial": 1
+      }
+    }
+  },
+  "exact_replacement_pairs": [],
+  "sole_final_W525_row": [
+    "313.1"
+  ],
+  "shared_strata": 1,
+  "method": "No audit imports; direct unequal-position scan over selected-vs-all row pairs; edge categories in original file coordinates; independent set-based strata and full member-list checks.",
+  "scope": "Computational agreement, not direction certification, artifact identity, allography or meaning.",
+  "input_sha256": {
+    "data/processed/lipi_strict.jsonl": "c7600dd5142d0132bcb89ca5490c26f748a0ab542c482583dd3baf8f08fdf250",
+    "results/comb_family_contexts.json": "7ceebada77e95ea9ebab7b8fe42f6f96e62ac97c73078d64fd23fdf3773355df"
+  },
+  "established_semantic_values": 0,
+  "established_phonetic_values": 0
+}

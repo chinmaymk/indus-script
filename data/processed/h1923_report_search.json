@@ -1,0 +1,141 @@
+{
+  "research_date": "2026-09-28",
+  "target": {
+    "cisi": "H-1923",
+    "field_as_secondary": "H94-2217",
+    "figure_as_secondary": "28.01"
+  },
+  "status": "unresolved_no_primary_image_identifier_join_recovered",
+  "query_limit": 4,
+  "queries_executed": 4,
+  "exact_queries": [
+    "\"Harappa\" \"H94-2217\"",
+    "\"Harappa\" \"28.01\" tablet",
+    "\"Harappa Excavations 1994\" \"figures\" Meadow Kenoyer Wright",
+    "\"Harappa\" \"2217\" tablet faience"
+  ],
+  "query_result_attribution": "combined web response; individual result-to-query assignment not supplied",
+  "opened_sources": [
+    {
+      "url": "https://www.scribd.com/doc/233661357/Posse-Hl-Library",
+      "kind": "public reproduction of historical library/dealer catalogue, not excavation report",
+      "printed_page_as_extracted": 94,
+      "entry": 1276,
+      "extracted_lines": "5061\u20135063",
+      "reported_title": "Harappa1994 &1995: Preprints of Reports of the Harappa Archaeological Research Project",
+      "authors": [
+        "Richard H. Meadow",
+        "Jonathan Mark Kenoyer",
+        "Rita P. Wright"
+      ],
+      "reported_extent_pages": 238,
+      "reported_year": 1995,
+      "target_identifier_observed": false,
+      "target_figure_observed": false,
+      "primary_image_recovered": false,
+      "report_contents_authenticated": false,
+      "finds": [
+        {
+          "pattern": "1276",
+          "result": "entry located"
+        },
+        {
+          "pattern": "2217",
+          "result": "no matching text"
+        },
+        {
+          "pattern": "28.01",
+          "result": "no matching text"
+        }
+      ],
+      "does_not_establish": [
+        "current physical custody",
+        "identity with30August1994 submitted report",
+        "presence of Figure28.01",
+        "target-object identity or graphics"
+      ]
+    }
+  ],
+  "rejected_result_classes": [
+    {
+      "class": "WIS-2217",
+      "reason": "radiocarbon laboratory identifier, not H94-2217",
+      "urls": [
+        "https://www.harappa.com/sites/default/files/pdf/Harappa1986-90_04_Kenoyer-UrbanProcess.pdf",
+        "https://www.harappa.com/sites/default/files/pdf/Harappa1986-90_04_Kenoyer-UrbanProcess_1.pdf"
+      ]
+    },
+    {
+      "class": "incidental numeric matches",
+      "reason": "fuel prices, visitor statistics, personnel/member lists and other unrelated numbers; not opened or used"
+    }
+  ],
+  "prior_routes_not_repeated": [
+    "Generic CISI3/1994-report searches documented forH1817",
+    "Known failed1997 PDF download",
+    "Known blockedHarvard faculty page"
+  ],
+  "primary_identity_authenticated": false,
+  "primary_graphics_authenticated": false,
+  "stroke_counts": null,
+  "marker_assignments": null,
+  "orientation": null,
+  "damage": null,
+  "equal_quantity_assumption_authenticated": false,
+  "semantic_values": null,
+  "numerical_values": null,
+  "original_report_or_image_downloads": 0,
+  "new_web_capture_files": 1,
+  "outreach": false,
+  "restricted_access_attempts": false,
+  "guessed_urls": false,
+  "stopping_reason": "four-query bound reached; only non-object bibliographic lead inspected",
+  "limitations": [
+    "Negative search is not evidence that the object or source does not exist.",
+    "Search response is not an exhaustive web inventory.",
+    "Search/open/find capture is not original report bytes.",
+    "No image inspected, so no primary counts or marker/damage/orientation judgments."
+  ],
+  "next_evidence": [
+    "CISI3.1 H1923 photo and basic-data entry",
+    "Harappa1994 Figure28.01 and caption",
+    "Public reproduction explicitly identified H94-2217"
+  ],
+  "evidence_files": [
+    {
+      "path": "data/raw/h1923-report-web-capture.json",
+      "bytes": 64160,
+      "sha256": "86f26278411ff1e81745975b52e3f3f797a3928428aec63653daa0c283dcc9d4"
+    },
+    {
+      "path": "data/processed/h1923_report_new_sources.json",
+      "bytes": 933,
+      "sha256": "f12f4756d98b20280b66f74505c025533f41f19a76483ad763b38c74514b5ea0"
+    },
+    {
+      "path": "docs/H1923_REPORT_SEARCH.md",
+      "bytes": 3248,
+      "sha256": "60172508e76f0ef480c4dea4fbe3cdee31aa9cfc8f7c47a715228b7541789642"
+    },
+    {
+      "path": "docs/H1923_PRIMARY_NUMERAL_REVIEW.md",
+      "bytes": 5787,
+      "sha256": "0e390d65f11d76e966d36a33a4f6d6480c90ea26fca03c98a10cc54823a56159"
+    },
+    {
+      "path": "data/processed/h1923_primary_numeral_review.json",
+      "bytes": 8619,
+      "sha256": "ec9e9e33863d217dd97e72bacc98f97ac2ee349c5382854d8697a569a5e9e46f"
+    },
+    {
+      "path": "docs/H1817_IDENTITY_FOLLOWUP.md",
+      "bytes": 3971,
+      "sha256": "ec91c5b9f6476560bfd2b3fe9d55d0696d4b506041b21cf2947f8003ed339bdf"
+    },
+    {
+      "path": "data/raw/comb_tablet_kenoyer2010_web_capture.json",
+      "bytes": 28127,
+      "sha256": "87caf456afbf7bacdf0f415dc305c02a676635d32f8bae5eedfe57ba6c4082d7"
+    }
+  ]
+}

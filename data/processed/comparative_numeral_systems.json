@@ -1,0 +1,261 @@
+{
+  "date_local": "2026-10-10",
+  "graphs": {
+    "PC_S": {
+      "values_relative_to_N1": {
+        "N1": "1",
+        "N14": "10",
+        "N34": "60",
+        "N48": "600",
+        "N45": "3600",
+        "N50": "36000"
+      },
+      "derived_ascending_edges": [
+        {
+          "low": "N1",
+          "high": "N14",
+          "ratio": "10"
+        },
+        {
+          "low": "N14",
+          "high": "N34",
+          "ratio": "6"
+        },
+        {
+          "low": "N34",
+          "high": "N48",
+          "ratio": "10"
+        },
+        {
+          "low": "N48",
+          "high": "N45",
+          "ratio": "6"
+        },
+        {
+          "low": "N45",
+          "high": "N50",
+          "ratio": "10"
+        }
+      ],
+      "ordered_pairs_examined": 30,
+      "two_thirds_pairs": []
+    },
+    "PC_B": {
+      "values_relative_to_N1": {
+        "N1": "1",
+        "N14": "10",
+        "N34": "60",
+        "N51": "120",
+        "N54": "1200",
+        "N56": "7200"
+      },
+      "derived_ascending_edges": [
+        {
+          "low": "N1",
+          "high": "N14",
+          "ratio": "10"
+        },
+        {
+          "low": "N14",
+          "high": "N34",
+          "ratio": "6"
+        },
+        {
+          "low": "N34",
+          "high": "N51",
+          "ratio": "2"
+        },
+        {
+          "low": "N51",
+          "high": "N54",
+          "ratio": "10"
+        },
+        {
+          "low": "N54",
+          "high": "N56",
+          "ratio": "6"
+        }
+      ],
+      "ordered_pairs_examined": 30,
+      "two_thirds_pairs": []
+    },
+    "PC_SE": {
+      "values_relative_to_N1": {
+        "N39": "1/5",
+        "N1": "1",
+        "N14": "6",
+        "N45": "60",
+        "N34": "180",
+        "N48": "1800",
+        "N24": "1/10",
+        "N26": "1/15",
+        "N28": "1/20",
+        "N29": "1/25",
+        "N30a": "1/30",
+        "N30c": "1/50"
+      },
+      "derived_ascending_edges": [
+        {
+          "low": "N30c",
+          "high": "N30a",
+          "ratio": "5/3"
+        },
+        {
+          "low": "N30a",
+          "high": "N29",
+          "ratio": "6/5"
+        },
+        {
+          "low": "N29",
+          "high": "N28",
+          "ratio": "5/4"
+        },
+        {
+          "low": "N28",
+          "high": "N26",
+          "ratio": "4/3"
+        },
+        {
+          "low": "N26",
+          "high": "N24",
+          "ratio": "3/2"
+        },
+        {
+          "low": "N24",
+          "high": "N39",
+          "ratio": "2"
+        },
+        {
+          "low": "N39",
+          "high": "N1",
+          "ratio": "5"
+        },
+        {
+          "low": "N1",
+          "high": "N14",
+          "ratio": "6"
+        },
+        {
+          "low": "N14",
+          "high": "N45",
+          "ratio": "10"
+        },
+        {
+          "low": "N45",
+          "high": "N34",
+          "ratio": "3"
+        },
+        {
+          "low": "N34",
+          "high": "N48",
+          "ratio": "10"
+        }
+      ],
+      "ordered_pairs_examined": 132,
+      "two_thirds_pairs": [
+        {
+          "numerator": "N26",
+          "denominator": "N24",
+          "ratio": "2/3"
+        },
+        {
+          "numerator": "N30a",
+          "denominator": "N28",
+          "ratio": "2/3"
+        }
+      ]
+    }
+  },
+  "figure_locators": {
+    "PC_S": "Englund2004a p32/PDF10 Fig4a",
+    "PC_B": "Englund2004a p32/PDF10 Fig4a",
+    "PC_SE": "Englund2004a p33/PDF11 Fig4b",
+    "PE": "Englund2004c p107/PDF8 Fig5.4"
+  },
+  "PE_relative_value_levels": {
+    "S": [
+      1,
+      10,
+      60,
+      600,
+      3600
+    ],
+    "B": [
+      1,
+      10,
+      60,
+      120,
+      1200
+    ],
+    "D": [
+      1,
+      10,
+      100,
+      1000,
+      10000
+    ]
+  },
+  "PE_source_reported_sum": {
+    "locator": "Englund2004c p113/PDF14, Scheil1935 no27",
+    "terms": [
+      520,
+      80,
+      720,
+      60
+    ],
+    "total": 1380,
+    "fresh_tablet_collation": false
+  },
+  "excluded_ambiguity": {
+    "PC_S_N8": [
+      "1/2",
+      "1/10"
+    ]
+  },
+  "Indus_comparison": {
+    "conditional_ratio": "2/3",
+    "mapping_to_foreign_signs": null,
+    "distinctive_cultural_fingerprint": false,
+    "heldout_equation": "2*stacked_count - 3*long_count = 0",
+    "eligibility": "Independent equal-quantity premise; fixed marker/context, class crosswalk and physical-artifact holdout; no fitted residual contributions",
+    "validation_executed": false,
+    "all417_readings_established": false
+  },
+  "evidence": [
+    {
+      "path": "data/raw/comparative-numerals-oct10-englund2004a.pdf",
+      "bytes": 732781,
+      "sha256": "502dc1173ecc7c9402b1bff7393068b7c33bcbd35e01753ff218fbbdd69d997f"
+    },
+    {
+      "path": "data/raw/comparative-numerals-oct10-englund2004c.pdf",
+      "bytes": 1680185,
+      "sha256": "e3192fd478aebef63a367674e67265db67d4baf821f2bf669d6aa001bb68f716"
+    },
+    {
+      "path": "results/comparative_numerals_pc-10.png",
+      "bytes": 239841,
+      "sha256": "062cf05e140908b550713f718b6a5579f3a5726ea956383b8fa76fec2c9e01e0"
+    },
+    {
+      "path": "results/comparative_numerals_pc-11.png",
+      "bytes": 263838,
+      "sha256": "1b95d9a1446a408974cf2bed3e98d202d60b9fe3c0b1599a0488273938c8721d"
+    },
+    {
+      "path": "results/comparative_numerals_pe-08.png",
+      "bytes": 352477,
+      "sha256": "e56fd512db8548855ad1e91b0a6b4d64d61e784eefe4ab3bf971a06c60833e6e"
+    },
+    {
+      "path": "docs/COMPARATIVE_NUMERAL_SYSTEMS.md",
+      "bytes": 5286,
+      "sha256": "da9b83181bb2a67dfd2dad8bfe517b1671547c05b894c98e7cb6ca8454cb35a0"
+    },
+    {
+      "path": "scripts/analyze_comparative_numeral_systems.py",
+      "bytes": 4479,
+      "sha256": "07dad1369a9241e7c25cafee00a70f9df1a935dd83f9cb528d729bb5d1cb1769"
+    }
+  ]
+}

@@ -1,0 +1,286 @@
+{
+  "scope": "Pinned record comparison, not a new reading of the tablet or seal",
+  "inputs_sha256": {
+    "data/raw/cdli_p453801_artifact.json": "cd14934d67d569fba31f5554dfde326bdb4c81c480d0137b3006934555b02df2",
+    "data/raw/cdli_p516366_artifact.json": "a157fd784ed280f2a6672cd50f6b9f063619eb1b867a5717a56e36de027e9596",
+    "data/raw/cdli_p453801_historical_2249158.atf": "a4479629a2278b530f260c5e92ac0fc79132fc3df423f07ded1c7dd950a7fea0",
+    "data/raw/cdli_p453801_current_2289564.atf": "f7543637cf65efe0c9227a9d16f4cfdd344c8930faab1efcecedae4a85a23001",
+    "data/raw/cdli_p516366_current_2335716.atf": "a2bc9d6a3a45e622f24f09657d8f7b96c3593ffc325b4a3f010a65dc581dc67c",
+    "data/raw/cdli_p453801_artifact.html": "1a74bb73818ef715cb457e653266fb2f02ee177e807da45d855ed50c6b18bc6d"
+  },
+  "records": {
+    "record453801": {
+      "id": 453801,
+      "designation": "Nisaba 15, 0371",
+      "museum_no": "Anonymous 453801",
+      "dates_referenced": "Šū-Suen.06.12.00",
+      "seals": [
+        {
+          "id": 533185,
+          "designation": "dummy composite seal for unidentified seals",
+          "seal_no": "S999999",
+          "explicit_placeholder": true
+        }
+      ]
+    },
+    "record516366": {
+      "id": 516366,
+      "designation": "CUSAS 40, 1582",
+      "museum_no": "IM —",
+      "dates_referenced": "Šū-Suen.06.12.00 ",
+      "seals": [
+        {
+          "id": 533185,
+          "designation": "dummy composite seal for unidentified seals",
+          "seal_no": "S999999",
+          "explicit_placeholder": true
+        }
+      ]
+    }
+  },
+  "parsed_texts": {
+    "old": {
+      "artifact": "P453801",
+      "top_level_language_code": "sux",
+      "lines": [
+        {
+          "section": "obverse",
+          "label": "1",
+          "text": "1(disz) sila3 i3-gesz"
+        },
+        {
+          "section": "obverse",
+          "label": "2",
+          "text": "na-na-za"
+        },
+        {
+          "section": "obverse",
+          "label": "3",
+          "text": "1(disz) sila3 sa6-ma-ar"
+        },
+        {
+          "section": "obverse",
+          "label": "4",
+          "text": "1/2(disz) sila3 a-li-a-hi dam-a-ni"
+        },
+        {
+          "section": "obverse",
+          "label": "5",
+          "text": "i3-ba lu2 me-luh-ha{ki}-me"
+        },
+        {
+          "section": "reverse",
+          "label": "1",
+          "text": "a-ru-a lugal"
+        },
+        {
+          "section": "reverse",
+          "label": "2",
+          "text": "sipa a-dara4-me"
+        },
+        {
+          "section": "reverse",
+          "label": "3",
+          "text": "zi-ga iti"
+        },
+        {
+          "section": "reverse",
+          "label": "4",
+          "text": "sze-sag11-ku5"
+        },
+        {
+          "section": "reverse",
+          "label": "5",
+          "text": "mu {d}szu-{d}suen lugal uri5{ki}-ma-ke4 na-ru2-a-mah {d}en-lil2 {d}nin-lil2-ra mu-ne-dim2"
+        }
+      ],
+      "annotations": [
+        {
+          "section": "seal 1",
+          "status": "illegible"
+        }
+      ]
+    },
+    "current": {
+      "artifact": "P453801",
+      "top_level_language_code": "sux",
+      "lines": [
+        {
+          "section": "obverse",
+          "label": "1",
+          "text": "1(disz) sila3 i3-gesz"
+        },
+        {
+          "section": "obverse",
+          "label": "2",
+          "text": "na-na-sa3"
+        },
+        {
+          "section": "obverse",
+          "label": "3",
+          "text": "1(disz) sila3 sa6-ma-ar"
+        },
+        {
+          "section": "obverse",
+          "label": "4",
+          "text": "1/2(disz) sila3 a-li-a-hi dam-a-ni"
+        },
+        {
+          "section": "obverse",
+          "label": "5",
+          "text": "i3-ba lu2 me-luh-ha{ki}-me"
+        },
+        {
+          "section": "reverse",
+          "label": "1",
+          "text": "a-ru-a lugal"
+        },
+        {
+          "section": "reverse",
+          "label": "2",
+          "text": "sipa a-dara4-me"
+        },
+        {
+          "section": "reverse",
+          "label": "3",
+          "text": "zi-ga"
+        },
+        {
+          "section": "reverse",
+          "label": "4",
+          "text": "iti sze-sag11-ku5"
+        },
+        {
+          "section": "reverse",
+          "label": "5",
+          "text": "mu {d}szu-{d}suen lugal uri5{ki}-ma-ke4 na-ru2-a-mah {d}en-lil2 {d}nin-lil2-ra mu-ne-dim2"
+        }
+      ],
+      "annotations": [
+        {
+          "section": "seal 1",
+          "status": "illegible"
+        }
+      ]
+    },
+    "comparison": {
+      "artifact": "P516366",
+      "top_level_language_code": "sux",
+      "lines": [
+        {
+          "section": "obverse",
+          "label": "1",
+          "text": "1(disz) sila3 i3-gesz"
+        },
+        {
+          "section": "obverse",
+          "label": "2",
+          "text": "na-na-sa3"
+        },
+        {
+          "section": "obverse",
+          "label": "3",
+          "text": "1(disz) sila3 sa6-ma-ar"
+        },
+        {
+          "section": "obverse",
+          "label": "4",
+          "text": "1/2(disz) sila3 a-li-a-hi dam-a-ni"
+        },
+        {
+          "section": "obverse",
+          "label": "5",
+          "text": "i3-ba lu2 me-luh-ha ki-me"
+        },
+        {
+          "section": "reverse",
+          "label": "1",
+          "text": "a-ru-a lugal"
+        },
+        {
+          "section": "reverse",
+          "label": "2",
+          "text": "sipa a-dara4-me"
+        },
+        {
+          "section": "reverse",
+          "label": "3",
+          "text": "zi-ga"
+        },
+        {
+          "section": "reverse",
+          "label": "4",
+          "text": "iti sze-sag11-ku5"
+        },
+        {
+          "section": "reverse",
+          "label": "5",
+          "text": "mu {d}szu-{d}suen lugal uri5{ki}-ma-ke4 [na-ru2-a-mah] {d}en#-lil2 {d}nin#-[lil2] mu-du3"
+        }
+      ],
+      "annotations": [
+        {
+          "section": "seal 1",
+          "status": "illegible"
+        }
+      ]
+    }
+  },
+  "historical_to_current_changes": [
+    {
+      "section": "obverse",
+      "label": "2",
+      "left": "na-na-za",
+      "right": "na-na-sa3"
+    },
+    {
+      "section": "reverse",
+      "label": "3",
+      "left": "zi-ga iti",
+      "right": "zi-ga"
+    },
+    {
+      "section": "reverse",
+      "label": "4",
+      "left": "sze-sag11-ku5",
+      "right": "iti sze-sag11-ku5"
+    }
+  ],
+  "current_to_comparison_changes": [
+    {
+      "section": "obverse",
+      "label": "5",
+      "left": "i3-ba lu2 me-luh-ha{ki}-me",
+      "right": "i3-ba lu2 me-luh-ha ki-me"
+    },
+    {
+      "section": "reverse",
+      "label": "5",
+      "left": "mu {d}szu-{d}suen lugal uri5{ki}-ma-ke4 na-ru2-a-mah {d}en-lil2 {d}nin-lil2-ra mu-ne-dim2",
+      "right": "mu {d}szu-{d}suen lugal uri5{ki}-ma-ke4 [na-ru2-a-mah] {d}en#-lil2 {d}nin#-[lil2] mu-du3"
+    }
+  ],
+  "nonplaceholder_shared_seal_ids": [],
+  "html_image_sources": [
+    "/images/cdlilogo.svg",
+    "/images/logo-no-text.svg",
+    "/images/no-image.jpg",
+    "/images/view.svg",
+    "/images/view.svg",
+    "/images/view.svg",
+    "/images/view.svg",
+    "/images/view.svg"
+  ],
+  "html_has_no_image_placeholder": true,
+  "indus_seal_transcription": null,
+  "established_indus_name_pair": false,
+  "limitations": [
+    "Shared generic seal IDs do not establish the same physical seal or its owner.",
+    "An illegible seal annotation is not a legible Indus sequence or a classification of its script.",
+    "Top-level Sumerian metadata is not assigned to the unread seal separately.",
+    "Spelling/version differences are preserved, not silently pooled as phonetic alternatives.",
+    "Different database IDs neither prove two physical objects nor prove independent attestations.",
+    "The catalogue HTML placeholder is not proof that no photograph exists elsewhere.",
+    "Independent primary handcopy and BDTNS date/duplication caveats are in separate manual reviews."
+  ]
+}

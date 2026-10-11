@@ -1,0 +1,25 @@
+{
+  "status": "Exploratory protocol written after an initial corpus scan; not preregistered or held out",
+  "source": "data/raw/lipi_inscriptions.csv",
+  "grouping": "Prefix of local id before period; require consistent nonempty CISI identifier within group",
+  "candidate_selection": "Every group containing literal three-digit tokens 700 and 840",
+  "marker_selection": "Exactly one occurrence of each marker, on different recorded faces",
+  "strict_quality": "Existing parse_lipi filters applied to both marker faces",
+  "sensitivity_quality": "Same filters, allowing L/R as well as R/L; additive flanking sums are direction invariant",
+  "numeric_runs": "Maximal contiguous runs immediately flanking each marker, in literal file order; no skipping intervening signs",
+  "recognized_long": "W031 through W039, counts 1 through 9",
+  "recognized_short": "W001 through W007, counts 1 through 7",
+  "recognized_stacked": "W012 through W019, counts 2 through 9",
+  "recognized_special": "W900, assigned candidate variable v",
+  "main_model": "Each long or stacked stroke contributes L; each short stroke contributes S; each W900 contributes v. Add both flanks and require equal sums across marker faces.",
+  "stacked_sensitivity": "Each stacked stroke contributes one instead of L; all other contributions unchanged",
+  "fixed_candidates": [{"L": 10, "S": 8, "v": 6}, {"L": 36, "S": 20, "v": 4}],
+  "source_relation": "A deliberately narrow extension of Figure 16's proposed equalities, not an implementation of all context-dependent rules in Fuls (2020)",
+  "limitations": [
+    "Neither numerical roles nor equality or commensurate units are established",
+    "Remaining signs are explicitly retained but not interpreted",
+    "Unrecognized neighboring signs stop extraction; this does not establish they are nonnumerical",
+    "Local face and sign identities have not been verified from artifact photographs",
+    "Repeated patterns and the source-construction example are not independent validation"
+  ]
+}

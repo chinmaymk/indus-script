@@ -1,0 +1,87 @@
+{
+  "review_date": "2026-09-23",
+  "source": {
+    "path": "data/raw/mahadevan_alternative_scan.pdf",
+    "bytes": 16445165,
+    "sha256": "ef68fe8dc25e94fe9cb75b418c5189a084383e72498560ef393372e90a27e110"
+  },
+  "source_url": "https://archive.org/download/masi77indusscripttextsconcordancestablesiravathammahadevan_410_D/MASI%2077%20Indus%20Script%20Texts%20Concordances%20%26%20Tables%20Iravatham%20Mahadevan.pdf",
+  "archive_metadata": {
+    "path": "data/raw/mahadevan_alternative_archive_metadata.json",
+    "bytes": 5357,
+    "sha256": "8ec23f756dad57c449a7ef9414bb99d89b1badc72097c582e94c201422cf702a"
+  },
+  "pdf_page_count": 843,
+  "sampled_text_layer": "Cover has text; inspected table pages have no extracted text. Numerical conclusions rely on rendered imagery.",
+  "page_checks": [
+    {
+      "pdf_page_1based": 768,
+      "printed_page": 756,
+      "visually_read_title": "Table IV continuation: distribution of signs by object types",
+      "extracted_text_length": 0,
+      "render": "results/m77-alternative-768.png",
+      "render_sha256": "620075fa056abb86044eb62dfff1a7c6516770e34d13259fe37f650b908a733c"
+    },
+    {
+      "pdf_page_1based": 769,
+      "printed_page": 757,
+      "visually_read_title": "Table IV: distribution of signs by object types",
+      "extracted_text_length": 0,
+      "render": "results/m77-alternative-769.png",
+      "render_sha256": "65ec2161b2e9fb4b65681a01081307075cf98ec0f77b00611dee831c7056ed47"
+    },
+    {
+      "pdf_page_1based": 770,
+      "printed_page": 760,
+      "visually_read_title": "Table V: distribution of signs by field symbols",
+      "extracted_text_length": 0,
+      "render": "results/m77-alternative-770.png",
+      "render_sha256": "8ae09e574938c0b5d3f319f656762fa5aa82bff9df09653aab96ac95f1ef8c75"
+    },
+    {
+      "pdf_page_1based": 771,
+      "printed_page": 761,
+      "visually_read_title": "Table V continuation: distribution of signs by field symbols",
+      "extracted_text_length": 0,
+      "render": "results/m77-alternative-771.png",
+      "render_sha256": "063b0f6a091293ebfb04c4fb018afa55c0c6d7dbb56716362249f659fc7c7dcb"
+    }
+  ],
+  "expected_gap": {
+    "last_table_IV_page": 757,
+    "next_page": 760,
+    "missing_at_expected_position": [
+      758,
+      759
+    ]
+  },
+  "requested_rows": {
+    "M328": {
+      "transcribed": false,
+      "reason": "Expected primary Table IV pages758–759 absent in inspected sequence; no replacement value inferred."
+    },
+    "M342": {
+      "transcribed": false,
+      "reason": "Expected primary Table IV pages758–759 absent in inspected sequence; no replacement value inferred."
+    },
+    "M343": {
+      "transcribed": false,
+      "reason": "Expected primary Table IV pages758–759 absent in inspected sequence; no replacement value inferred."
+    },
+    "M344": {
+      "transcribed": false,
+      "reason": "Expected primary Table IV pages758–759 absent in inspected sequence; no replacement value inferred."
+    },
+    "M345": {
+      "transcribed": false,
+      "reason": "Expected primary Table IV pages758–759 absent in inspected sequence; no replacement value inferred."
+    }
+  },
+  "totals_verified": false,
+  "conclusion": "This alternative scan does not recover the missing Table IV pages at their expected location. No requested object-type counts were obtained.",
+  "limits": [
+    "Bounded review of expected table-page neighborhood; not an exhaustive visual search for displaced pages elsewhere in843-page PDF.",
+    "No assertion that two archive items are independently scanned merely because their identifiers differ.",
+    "No numerical row values inferred from a secondary dataset."
+  ]
+}

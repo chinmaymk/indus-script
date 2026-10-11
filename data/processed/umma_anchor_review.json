@@ -1,0 +1,89 @@
+{
+  "review_date": "2026-09-24",
+  "scope": "Bounded Umma anchor search; exact modern object page unavailable",
+  "objects": [
+    {
+      "review_id": "umma_old",
+      "identifier": "Ashmolean1931.120 / M77 9811",
+      "identity_status": "published accession attribution; official museum record unrecovered",
+      "findspot": "dealer-attributed Umma, unconfirmed",
+      "contents": null,
+      "semantic_value": null,
+      "phonetic_value": null
+    },
+    {
+      "review_id": "umma_modern_lead",
+      "identifier": "TJ17-PRO-S56",
+      "identity_status": "provisional exact ID from discovery post; primary2017object page not inspected",
+      "findspot": "IAA independently reports Harappan survey finds collectively; link to exact ID unverified",
+      "primary_object_page_examined": false,
+      "orientation": null,
+      "sign_transcription": null,
+      "contents": null,
+      "semantic_value": null,
+      "phonetic_value": null
+    },
+    {
+      "review_id": "umma_cuneiform_contract",
+      "identifier": "TJ19-2A-K54-T1",
+      "identity_status": "inventory ID in project director account",
+      "findspot": "Trench2A",
+      "reported_text_type": "Sumerian field-sale contract",
+      "reported_date": "Early DynasticIIIb;2550/2540–2350BC",
+      "indus_signs_authenticated_on_object": false
+    }
+  ],
+  "candidate_joins": [
+    {
+      "left": "umma_old",
+      "right": "umma_cuneiform_contract",
+      "relationship": "shared_site_label_only",
+      "same_object_authenticated": false,
+      "parallel_wording_authenticated": false,
+      "reason": "No physical join, matching seal impression, owner link or parallel wording recovered"
+    },
+    {
+      "left": "umma_modern_lead",
+      "right": "umma_cuneiform_contract",
+      "relationship": "shared_site_label_only",
+      "same_object_authenticated": false,
+      "parallel_wording_authenticated": false,
+      "reason": "No physical join, matching seal impression, owner link or parallel wording recovered"
+    }
+  ],
+  "evidence_files": [
+    {
+      "path": "data/raw/jokha_iaa_project.html",
+      "bytes": 250510,
+      "sha256": "214a27564800ed959349654b59ddd4e8b8c9926dce7b0c673f867ab74932075b",
+      "url": "https://iaassyriology.com/in-the-field-the-project-sahi-tell-jokha/",
+      "kind": "download",
+      "retrieved_date": "2026-09-24"
+    },
+    {
+      "path": "data/raw/jokha_frenez_2023_web_capture.json",
+      "bytes": 1154,
+      "sha256": "306bc8a3e8a92cdfcbd6e588c488fc33b2565fededa5e149ea5a12229dbdd910",
+      "url": "https://www.academia.edu/108938835/Indus_Valley_Early_Commercial_Connections_with_Central_and_Western_Asia",
+      "kind": "web_extraction_capture",
+      "retrieved_date": "2026-09-24"
+    },
+    {
+      "path": "data/raw/jokha_2017_frontmatter_web_capture.json",
+      "bytes": 1011,
+      "sha256": "aed3787f3913722f8476c311e480331f9dce95a32e3537595842cee86bc9a3b4",
+      "url": "https://www.academia.edu/37093038/Preliminary_Report_Archaeological_project_SAHI_Tell_Jokha_2017_Season_2_",
+      "kind": "web_extraction_capture",
+      "retrieved_date": "2026-09-24"
+    },
+    {
+      "path": "data/raw/jokha_2017_discovery_lead_web_capture.json",
+      "bytes": 921,
+      "sha256": "0b5d941282807b2e3d83633e77ae6840cf6bbd08cd0372c61684bde003cf389d",
+      "url": "https://www.reddit.com/r/Dravidiology/comments/1u1cgao/dug_in_some_dig_reports/",
+      "kind": "web_extraction_capture",
+      "retrieved_date": "2026-09-24"
+    }
+  ],
+  "conclusion": "No authenticated bilingual, contents or quantity reading anchor recovered in these reviewed cases; not a proof of universal absence."
+}

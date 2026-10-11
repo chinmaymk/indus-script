@@ -1,0 +1,154 @@
+{
+  "review_date": "2026-09-24",
+  "scope": "Primary printed rows and labelled signlist, not original artifacts or names",
+  "rows": [
+    {
+      "reference": "1088",
+      "pdf_page": 52,
+      "printed_page": 41,
+      "tokens": [
+        "M391",
+        "M099",
+        "M387",
+        "M067",
+        "M059",
+        "M211"
+      ],
+      "metadata": "100101",
+      "full_row_viewed": true,
+      "doubt_loss_continuation": false,
+      "matches_export": true,
+      "page_image": "results/primary_pages/chain-recurrence-first-52.png"
+    },
+    {
+      "reference": "1126",
+      "pdf_page": 53,
+      "printed_page": 42,
+      "tokens": [
+        "M391",
+        "M099",
+        "M387",
+        "M087",
+        "M326",
+        "M342"
+      ],
+      "metadata": "100101",
+      "full_row_viewed": true,
+      "doubt_loss_continuation": false,
+      "matches_export": true,
+      "page_image": "results/primary_pages/chain-recurrence-53.png"
+    },
+    {
+      "reference": "2084",
+      "pdf_page": 71,
+      "printed_page": 60,
+      "tokens": [
+        "M102",
+        "M287",
+        "M329",
+        "M343",
+        "M387",
+        "M065",
+        "M224"
+      ],
+      "metadata": "100101",
+      "full_row_viewed": true,
+      "doubt_loss_continuation": false,
+      "matches_export": true,
+      "page_image": "results/primary_pages/chain-recurrence-71.png"
+    }
+  ],
+  "conclusions": [
+    "Two further complete printed rows authenticate recurrence of M391 M099 M387 outside the selected chain.",
+    "2084 authenticates the longer prefix M102 M287 M329 M343 shared with4084.",
+    "No printed word separators at analytical cuts, and no word or person identified."
+  ],
+  "crop_boxes": {
+    "chain-recurrence-first-52.png": [
+      285,
+      1950,
+      1810,
+      2045
+    ],
+    "chain-recurrence-53.png": [
+      470,
+      2700,
+      1990,
+      2780
+    ],
+    "chain-recurrence-71.png": [
+      480,
+      1880,
+      2000,
+      1975
+    ]
+  },
+  "crop_method": "PILcrop only, no rotation or glyph alteration",
+  "navigation_notes": [
+    "OCR located2084 onPDF71 but missed1088/1126.",
+    "TentativePDF53/54 renders found1126 on53 and no target on54; moved one page earlier to52 for1088.",
+    "Previously generated signlistPDF44 now visually checked for M211; no inference that it was inspected in the previous phase."
+  ],
+  "evidence_files": [
+    {
+      "path": "data/raw/mahadevan_1977_text.pdf",
+      "bytes": 119302608,
+      "sha256": "6dcdd074a0174e5fab149590fbbf82342711d345764e9763f8e5e92c81cf7f99"
+    },
+    {
+      "path": "data/processed/m77_candidate_records.jsonl",
+      "bytes": 4109921,
+      "sha256": "b29a176da86b125115256a8966c377c3fd9fe39ecaab17bf576b770b83b41bab"
+    },
+    {
+      "path": "results/primary_pages/chain-recurrence-first-52.png",
+      "bytes": 2133299,
+      "sha256": "8428b6220790dfdf091106659c8a3832d1787a753ca2873bed4948b565d85cff"
+    },
+    {
+      "path": "results/primary_pages/chain-recurrence-53.png",
+      "bytes": 1970146,
+      "sha256": "e6899e0597a82bfa27008a0a961bdde7438b18ce5127a3dc2ed86badb0bc2afb"
+    },
+    {
+      "path": "results/primary_pages/chain-recurrence-71.png",
+      "bytes": 2081809,
+      "sha256": "ec7481be73c5e61d7d1aac49d86ca9c6e7e26ef92f3ad7b81d671f59c8d9b1ef"
+    },
+    {
+      "path": "results/primary_pages/chain-recurrence-1088-detail.png",
+      "bytes": 68505,
+      "sha256": "b49dc9d19c1a9df712904bab8329c0c1bf1d45cca60e5d0d29f07a4d8ff72fb2"
+    },
+    {
+      "path": "results/primary_pages/chain-recurrence-53-detail.png",
+      "bytes": 57358,
+      "sha256": "56be57924d3a5a4d09f5805ff78ef3abe90be3c310e9fd7195bbce0e7df43bba"
+    },
+    {
+      "path": "results/primary_pages/chain-recurrence-71-detail.png",
+      "bytes": 64955,
+      "sha256": "40e1074569c1ec5e69129a83b79b40a0a3805ea6e410e4aa04af7b936106ebcf"
+    },
+    {
+      "path": "results/primary_pages/chain-signlist-44.png",
+      "bytes": 2622908,
+      "sha256": "20cace271efa652e7c70ba9796f1980a7edfc6852be6a28d3e57c3d0ba1b440d"
+    },
+    {
+      "path": "results/primary_pages/hybrid-pat-m77-43.png",
+      "bytes": 2350315,
+      "sha256": "c4fbb59388cdc982aea2f274dc2f88da0f6597635b8e469c608ec7de1f3e4e7c"
+    },
+    {
+      "path": "results/primary_pages/hybrid-pat-pair-45.png",
+      "bytes": 2931715,
+      "sha256": "5a3a3b4955c55fb6b7f8023d52a79191a4d499898ad563db3c7618a5fdc5b24c"
+    },
+    {
+      "path": "results/primary_pages/hybrid-pat-pair-46.png",
+      "bytes": 2656525,
+      "sha256": "b012c5f5674fd7f2c5faa3a5bd0fe887155d4e7623b7c2f42906954dd4fe5761"
+    }
+  ]
+}

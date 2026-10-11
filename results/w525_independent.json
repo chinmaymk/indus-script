@@ -1,0 +1,75 @@
+{
+  "all_checks_passed": true,
+  "diagnostic_locator_count": 6,
+  "diagnostic_locator_list": [
+    {
+      "M77_source_reference": "4672",
+      "W525_candidate": "M254",
+      "cisi_label": "H-1816",
+      "lipi_id": "512.2"
+    },
+    {
+      "M77_source_reference": "4672",
+      "W525_candidate": "M254",
+      "cisi_label": "H-1814",
+      "lipi_id": "635.1"
+    },
+    {
+      "M77_source_reference": "4672",
+      "W525_candidate": "M254",
+      "cisi_label": "H-1812",
+      "lipi_id": "867.1"
+    },
+    {
+      "M77_source_reference": "4672",
+      "W525_candidate": "M254",
+      "cisi_label": "H-1811",
+      "lipi_id": "916.1"
+    },
+    {
+      "M77_source_reference": "4672",
+      "W525_candidate": "M254",
+      "cisi_label": "H-774",
+      "lipi_id": "1666.1"
+    },
+    {
+      "M77_source_reference": "2868",
+      "W525_candidate": "M254",
+      "cisi_label": "M-1390",
+      "lipi_id": "3684.1"
+    }
+  ],
+  "eligible_multidocument_diagnostic_records": 526,
+  "established_phonetic_values": 0,
+  "established_semantic_values": 0,
+  "independence": "No imports from production helpers; expands reversed W sequences into constrained positions before examining candidate M sequences, separately enforcing one consistent M001\u2013M417 value across all masked occurrences.",
+  "input_sha256": {
+    "data/processed/catalogue_features.json": "00836515c6f3beec28b3b66e13d8a9c6e94571cfb2e9dbb4b148651b7ff0032d",
+    "data/processed/lipi_strict.jsonl": "c7600dd5142d0132bcb89ca5490c26f748a0ab542c482583dd3baf8f08fdf250",
+    "data/processed/m77_candidate_records.jsonl": "b29a176da86b125115256a8966c377c3fd9fe39ecaab17bf576b770b83b41bab",
+    "data/processed/m77_candidate_strict.jsonl": "fcdd8b3a7350ebfa851363328ec784b9c8a943525d8549b9df0194fbe1ee7f4a",
+    "data/processed/w525_protocol.json": "584c492106c7bcc10e8296394fbf7277a732bef068b4d9450608956eadc02ff8",
+    "results/pincer_context_screen.json": "9a680e61fb8633a47472212e63c02396b0934cc97039f55cb1762922dffa1bec",
+    "results/w525_screen.json": "b23381febc3b81ff8b8c01300d7026e22b0a65f209cafbd0b3cbd62655efd49e"
+  },
+  "promoted_artifact_identifications": 0,
+  "scope": "Computational verification only. The strict null is conditional on sparse corpora, existing feature memberships and declared tokenization; it does not refute a W525 mapping. Six post-null flat-array locators remain outside the strict result and supply no recovered face identity, independent sample, or established sign value.",
+  "strict_M77_rows_searched": 1293,
+  "summary": {
+    "candidate_code_pair_incidences": {},
+    "candidate_pairs": 0,
+    "matched_previous_pincer_rows": 0,
+    "matched_rows": 0,
+    "previous_pincer_rows": 9,
+    "rows_with_multiple_candidate_codes": 0,
+    "selected_rows": 10
+  },
+  "verified_fields": [
+    "full strict selected rows and metadata",
+    "strict candidate pairs",
+    "strict summary",
+    "full separate diagnostic records and ordered alignment segments",
+    "input hashes",
+    "zero promotions"
+  ]
+}

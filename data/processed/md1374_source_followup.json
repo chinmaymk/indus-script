@@ -1,0 +1,97 @@
+{
+  "status": "Original pages unavailable after bounded public-source search; no scaled profile or marks authenticated",
+  "accessed_date": "2026-09-23",
+  "target": {
+    "authors": [
+      "George F. Dales",
+      "Jonathan Mark Kenoyer"
+    ],
+    "year": 1986,
+    "title": "Excavations at Mohenjo Daro, Pakistan: The Pottery",
+    "series": "University Museum Monograph 53",
+    "isbn": "9780934718523",
+    "pages_requested": [
+      240,
+      241
+    ],
+    "object_label_in_following_source": "MD-1374"
+  },
+  "following_source": {
+    "author": "Andreas Fuls",
+    "year": 2012,
+    "title": "Volumenmaße von Tongefäßen der Induskultur",
+    "url": "https://www.academia.edu/8808307/VOLUMENMA%C3%9FE_VON_TONGEF%C3%84%C3%9FEN_DER_INDUSKULTUR",
+    "locator": "Manuscript section 3.3, p7 and Fig7",
+    "format_accessed": "Public extracted text; no visual validation",
+    "reported_height_cm": 73,
+    "reported_maximum_diameter_cm": 69,
+    "reported_marks": "Three vertical and three slanted marks",
+    "reported_capacity_to_rim_litres": 140.65,
+    "reported_capacity_below_rim_litres": 138.84,
+    "capacity_method": "Modeled from a published scaled profile; not directly measured liquid volume",
+    "original_page_verification": false
+  },
+  "attempts": [
+    {
+      "url": "https://www.penn.museum/research/publications/publication/852",
+      "source_role": "Publisher",
+      "outcome": "Bibliographic page identifies monograph; purchase link but no public full text"
+    },
+    {
+      "url": "https://archive.org/details/excavationsatmoh0000dale",
+      "source_role": "Library digitization",
+      "outcome": "Access-restricted-item true; inlibrary/printdisabled collection; no suitable public files displayed. Restricted file endpoints not requested"
+    },
+    {
+      "url": "https://openlibrary.org/books/OL2542970M/Excavations_at_Mohenjo_Daro_Pakistan",
+      "source_role": "Library catalogue",
+      "outcome": "Borrow/preview metadata links to same restricted Internet Archive item; no target-page content"
+    },
+    {
+      "url": "https://www.isdistribution.com/PDF/25233210-04c9-4d3e-8d42-b51a254d1a05.pdf",
+      "source_role": "Publisher distributor indexed sample",
+      "outcome": "Web open inaccessible; normal curl --fail returned HTTP403 and wrote no file; stopped without bypass",
+      "http_status": 403,
+      "downloaded_file": null
+    },
+    {
+      "url": "https://books.google.com/books/about/Excavations_at_Mohenjo_Daro_Pakistan.html?hl=en&id=4iew_THp8foC&output=html_text",
+      "source_role": "Book preview",
+      "outcome": "Indexed contents identify DRAWINGS beginning p237; web open unavailable; no target page inspected"
+    },
+    {
+      "url": "https://books.google.com/books?id=4iew_THp8foC&pg=PA240",
+      "source_role": "Book preview page request",
+      "outcome": "Web open inaccessible; normal CUA browser selection returned No browser is available; no page content obtained"
+    }
+  ],
+  "local_candidate": {
+    "source": "data/raw/lipi_inscriptions.csv",
+    "sha256": "b8dcb325a2e2cd3cde12ac12e7a418b0348e45713c9ee28aad81b645d2ac5ee4",
+    "row_id": "3672.1",
+    "cisi": "M-1374",
+    "excavation-idno": "UPM/MD-138",
+    "site": "Mohenjo-daro",
+    "area-section": "DK-",
+    "type": "POT:T:s",
+    "material": "Clay",
+    "condition": "Poor",
+    "complete": "N",
+    "preservation": "complete",
+    "direction": "R/L",
+    "text": "+000-700-033-000+",
+    "height_and_width_fields": "blank h/v; horizontal(mm) and vertical(mm) are zero placeholders",
+    "relationship_to_Fuls_MD1374": "Unverified. Matching integer and pottery type provide only a search lead; no namespace crosswalk asserted",
+    "marks_authentication": false
+  },
+  "downloads": [],
+  "files_requiring_source_registration": [],
+  "unresolved": [
+    "Original pp240–241 text and drawing",
+    "Independent scale and dimensions of original drawing",
+    "Object identifier bridge from Fuls MD-1374 to the excavation or CISI identifier",
+    "Physical marks and whether the three slanted marks belong to an inscription",
+    "Profile geometry and fill-level uncertainty"
+  ],
+  "conclusion": "Retain Fuls dimensions and capacities as attributed, unverified public-text reports. Do not promote them to an independently authenticated calibration row or infer the slanted-mark values from the capacity fit."
+}

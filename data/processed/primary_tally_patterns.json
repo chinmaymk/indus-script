@@ -1,0 +1,63 @@
+{
+  "source": "data/raw/mahadevan_1977_text.pdf",
+  "source_sha256": "6dcdd074a0174e5fab149590fbbf82342711d345764e9763f8e5e92c81cf7f99",
+  "status": "Purposive manual transcription of graphic classes from normalized printed drawings; parent visually reviewed each full page. Not a frequency sample or semantic reading.",
+  "display_order": "left_to_right; all three from the same right-to-left-normalized edition",
+  "patterns": [
+    {
+      "reference": "M77:2286",
+      "pdf_page": 77,
+      "printed_page": 66,
+      "classes": [
+        "long",
+        "short"
+      ],
+      "visible_stroke_counts": [
+        1,
+        2
+      ],
+      "render": "results/primary_pages/numeral-m160-m77-77.png",
+      "object_link": "CISI M-160 link explicitly printed in CISI data table; photo also inspected."
+    },
+    {
+      "reference": "M77:1066",
+      "pdf_page": 52,
+      "printed_page": 41,
+      "classes": [
+        "short",
+        "long"
+      ],
+      "visible_stroke_counts": [
+        2,
+        1
+      ],
+      "render": "results/primary_pages/numeral-followup-52.png",
+      "object_link": "Proposed CISI M-678; no independent excavation-ID bridge authenticated."
+    },
+    {
+      "reference": "M77:2427",
+      "pdf_page": 82,
+      "printed_page": 71,
+      "classes": [
+        "long",
+        "short",
+        "long"
+      ],
+      "visible_stroke_counts": [
+        1,
+        2,
+        1
+      ],
+      "render": "results/primary_pages/numeral-followup-82.png",
+      "object_link": "Proposed CISI M-1745; no independent excavation-ID bridge authenticated."
+    }
+  ],
+  "assumption_for_order_test": "Each selected adjacent subrun belongs to a single field requiring a monotone strict rank order of distinct long/short classes.",
+  "limits": [
+    "Stroke counts are graphic counts, not numerical values.",
+    "Publication drawings can contain editorial error; only M-160 has a separately checked artifact photograph.",
+    "The proposed CISI crosswalk is not needed to make claims directly about these M77 printed references.",
+    "No W/M sign-number correspondence is inferred.",
+    "These may overlap earlier source objects; never add them as independent corpus samples."
+  ]
+}

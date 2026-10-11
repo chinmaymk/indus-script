@@ -1,0 +1,76 @@
+{
+  "after_additional_bangle_interval": [
+    {
+      "L": 10,
+      "S": 8,
+      "v": 6
+    }
+  ],
+  "after_conditional_digit_bounds": [
+    {
+      "L": 10,
+      "S": 8,
+      "v": 6
+    },
+    {
+      "L": 36,
+      "S": 20,
+      "v": 4
+    }
+  ],
+  "claims_sha256": "f286e0aa6a4dcf69bf9d9fbe0dc93db0e4c783e931376194b28a234e390f3b80",
+  "complete_positive_integer_solutions": [
+    {
+      "L": 4,
+      "S": 20,
+      "v": 36
+    },
+    {
+      "L": 6,
+      "S": 8,
+      "v": 10
+    },
+    {
+      "L": 10,
+      "S": 8,
+      "v": 6
+    },
+    {
+      "L": 36,
+      "S": 20,
+      "v": 4
+    }
+  ],
+  "completeness_certificate": {
+    "divisor_constant": 65,
+    "identity": "4*(L*L+4) = (2*L-7)*(2*L+7)+65",
+    "positive_divisors": [
+      1,
+      5,
+      13,
+      65
+    ],
+    "reason_positive_divisor": "S>0 and L^2+4>0 force 2L-7>0"
+  },
+  "crosswalk_warnings": [
+    "The local 3786.1 record identifies M-1540, with one listed face; article ID alone cannot authenticate Figure 16.",
+    "Local M-331 uses W899 on two faces; source proposal uses sign 900. No equality is assumed.",
+    "M-331 face ordinals differ, but reviewed CISI images map local rows to A, B, F, D; article prose appears to use A, B, D, F. See docs/NUMERAL_IMAGES.md."
+  ],
+  "equation_one_parity_counterexample": {
+    "L": 10,
+    "S": 9,
+    "satisfies_both": false,
+    "satisfies_equation_one": true,
+    "v": 8
+  },
+  "literal_source_rows": 6,
+  "minimum_L_candidate": {
+    "L": 10,
+    "S": 8,
+    "v": 6
+  },
+  "minimum_L_is_selection_preference_not_identification": true,
+  "new_established_sign_values": 0,
+  "scope": "Exact conditional algebra, not a decipherment or independent artifact replication"
+}

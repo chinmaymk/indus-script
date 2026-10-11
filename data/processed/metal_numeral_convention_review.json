@@ -1,0 +1,101 @@
+{
+  "schema_version": 1,
+  "review_date": "2026-09-24",
+  "source_scope": "Pettersson1999 printed101–108, directly visually inspected. Nine analytical expressions are taken from prior checked ledger; actual sign values remain unknown.",
+  "claims": [
+    {
+      "pages": [
+        101,
+        102,
+        106
+      ],
+      "observation": "Within the selected nine proposed expressions, i and u counts do not exceed7; tilted t groups occur as4t in three cases.",
+      "inference_being_tested": "Shared octal magnitudes."
+    },
+    {
+      "pages": [
+        102,
+        106
+      ],
+      "observation": "Author motivates i/t=8 by interpreting4t as half an i.",
+      "missing_anchor": "No independent statement that4t equals half an i; regular four-stroke group could have another value or function."
+    },
+    {
+      "pages": [
+        101,
+        102,
+        106
+      ],
+      "observation": "Author explicitly considers4t a nonnumerical mark and i,t as different categories.",
+      "scope": "Countermodels test numerical hypotheses without excluding a nonnumerical category."
+    },
+    {
+      "pages": [
+        103,
+        106,
+        107
+      ],
+      "observation": "Paper distinguishes metal-tool subset from wider corpus and weighs arguments against weight notation.",
+      "scope": "A countermodel to uniqueness of a base is not a positive reading or whole-script theory."
+    }
+  ],
+  "hypotheses": {
+    "canonical_integer_carrying": "Ordered denominations t<i<u<x with integer ratios >=2; each lower count is less than its adjacent ratio. Highest x may repeat without an assumed higher unit. This is an added convention.",
+    "unrestricted_addition": "Arbitrary positive values allow any finite count expression; addition alone does not imply a base.",
+    "half_equation": "4t=i/2 fixes i/t=8 only if this equality is an externally justified premise.",
+    "uniform_ratio": "A common ratio across all adjacent denominations is another premise; mixed ratios remain possible."
+  },
+  "exclusions": [
+    "No gram values are assigned in abstract countermodels.",
+    "No ordering, phonetic or semantic reading is established.",
+    "No independent uniform sampling of quantities assumed; no p-value for missing8/9digits.",
+    "The tool expressions remain disputed. All nine source rows and two K121 alternatives are included, not claimed primary verified on nine artifacts."
+  ],
+  "evidence": [
+    {
+      "path": "data/raw/pettersson_1999_indus_numerals_metal_tools.pdf",
+      "bytes": 324816,
+      "sha256": "6668f9ff93612059eaa385f1356f8138ebe76ddeeeb8b51043830131d9265b8a"
+    },
+    {
+      "path": "results/primary_pages/pettersson-1999-13.png",
+      "bytes": 144756,
+      "sha256": "a847bd5cb6d8aa80ef81e5bfb19d7f6aa7db9bb54d441b1fef8b79ce51cf5ae9"
+    },
+    {
+      "path": "results/primary_pages/pettersson-1999-followup-14.png",
+      "bytes": 183806,
+      "sha256": "e9a706431a7152817868367f75f1bc1b4c407a9288d8edcfeb82bd472fab0e1d"
+    },
+    {
+      "path": "results/primary_pages/metal-base-15.png",
+      "bytes": 163348,
+      "sha256": "9a07c4ea5f4cdf6a51b4657de498bf88ce617f01c3b9914d9babadf1194dfd5e"
+    },
+    {
+      "path": "results/primary_pages/metal-base-16.png",
+      "bytes": 163754,
+      "sha256": "ddcf273e6a968517fbcdc7e06259cd45f2279eca05289744397f37556288610b"
+    },
+    {
+      "path": "results/primary_pages/metal-base-17.png",
+      "bytes": 162255,
+      "sha256": "efd83f74d7d561a4970593d501317e7659a41d54716870fdcb5cb83100f1c6ee"
+    },
+    {
+      "path": "results/primary_pages/metal-base-18.png",
+      "bytes": 162495,
+      "sha256": "3376d664daa9af6366bd091447c6138aa578df6cf5eb451671f4c7041b38070d"
+    },
+    {
+      "path": "results/primary_pages/metal-base-19.png",
+      "bytes": 130955,
+      "sha256": "7e3905e777007b847dfe0043026d17514dcf739a6a5db75d99abd06535bc1fc4"
+    },
+    {
+      "path": "results/primary_pages/metal-base-20.png",
+      "bytes": 75354,
+      "sha256": "2de7d54d51c02df2226a1e5594b7cde3d66451869de60c636ec517404194c639"
+    }
+  ]
+}

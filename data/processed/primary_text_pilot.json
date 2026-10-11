@@ -1,0 +1,74 @@
+{
+  "source_pdf": "data/raw/mahadevan_1977_text.pdf",
+  "source_pdf_sha256": "6dcdd074a0174e5fab149590fbbf82342711d345764e9763f8e5e92c81cf7f99",
+  "pdf_page": 50,
+  "printed_page": 39,
+  "source_page_render": "results/primary_pages/texts-050.png",
+  "ocr_coordinate_dimensions": [4905, 6311],
+  "transcriber": "Codex, visually compared with printed sign list pp. 32--35; single pass, not independently double-entered",
+  "review_date": "2026-09-22",
+  "selection": "Purposive pilot from first text page: one damaged/doubtful line, one internal jar, two clear final-jar lines. Not a representative or held-out sample.",
+  "printed_order": "left_to_right",
+  "reading_order": "right_to_left",
+  "orientation_basis": "Mahadevan 1977 introduction section 13.2(ii), printed p. 20: printed texts are uniformly oriented right to left regardless of original direction; graphic variants are normalized under 13.2(iii).",
+  "lines": [
+    {
+      "text_id": "1002",
+      "printed_metadata_code": "100101",
+      "line_index_on_page_for_text": 1,
+      "crop_box_ocr": [670, 765, 3850, 950],
+      "tokens_printed_left_to_right": [
+        {"kind": "damage", "minimum_lost_signs": 1, "maximum_lost_signs": null},
+        {"kind": "sign", "sign": "M244", "source_doubtful": false},
+        {"kind": "sign", "sign": "M373", "source_doubtful": true}
+      ],
+      "note": "Hatched damage stands for one or more lost signs. Asterisk at the right of the oval marks the editor's doubtful reading; it is not another script sign."
+    },
+    {
+      "text_id": "1004",
+      "printed_metadata_code": "100101",
+      "line_index_on_page_for_text": 1,
+      "crop_box_ocr": [670, 1120, 3850, 1310],
+      "tokens_printed_left_to_right": [
+        {"kind": "sign", "sign": "M245", "source_doubtful": false},
+        {"kind": "sign", "sign": "M245", "source_doubtful": false},
+        {"kind": "sign", "sign": "M075", "source_doubtful": false},
+        {"kind": "sign", "sign": "M342", "source_doubtful": false},
+        {"kind": "sign", "sign": "M245", "source_doubtful": false},
+        {"kind": "sign", "sign": "M127", "source_doubtful": false},
+        {"kind": "sign", "sign": "M059", "source_doubtful": false}
+      ],
+      "note": "The jar M342 is visibly internal, with three printed signs on either side. M075 includes the overhead caret and shaded body."
+    },
+    {
+      "text_id": "1014",
+      "printed_metadata_code": "100101",
+      "line_index_on_page_for_text": 1,
+      "crop_box_ocr": [670, 2810, 3850, 3000],
+      "tokens_printed_left_to_right": [
+        {"kind": "sign", "sign": "M342", "source_doubtful": false},
+        {"kind": "sign", "sign": "M194", "source_doubtful": false},
+        {"kind": "sign", "sign": "M067", "source_doubtful": false},
+        {"kind": "sign", "sign": "M059", "source_doubtful": false},
+        {"kind": "sign", "sign": "M087", "source_doubtful": false},
+        {"kind": "sign", "sign": "M099", "source_doubtful": false},
+        {"kind": "sign", "sign": "M267", "source_doubtful": false}
+      ],
+      "note": "The two tall strokes M087 and two top-aligned short strokes M099 are separate signs in the printed signary. Their vertical extent is retained."
+    },
+    {
+      "text_id": "1022",
+      "printed_metadata_code": "100101",
+      "line_index_on_page_for_text": 1,
+      "crop_box_ocr": [670, 4500, 3850, 4690],
+      "tokens_printed_left_to_right": [
+        {"kind": "sign", "sign": "M342", "source_doubtful": false},
+        {"kind": "sign", "sign": "M367", "source_doubtful": false},
+        {"kind": "sign", "sign": "M204", "source_doubtful": false},
+        {"kind": "sign", "sign": "M099", "source_doubtful": false},
+        {"kind": "sign", "sign": "M267", "source_doubtful": false}
+      ],
+      "note": "Shares its reading-order opening M267 M099 with 1014, but the middle differs. This does not assign semantic values."
+    }
+  ]
+}

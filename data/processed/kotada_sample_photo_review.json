@@ -1,0 +1,792 @@
+{
+  "schema_version": 1,
+  "scope": "Four targeted queries; public exposed 2020 article links; no further queries or blocked-source retry.",
+  "conclusion": "No authenticated inscription-content anchor recovered. Actual KB225 photo views inspected; no definite script identifiable at supplied resolution. This does not establish an uninscribed artifact.",
+  "2024_figure2_pixels_inspected": false,
+  "2020_publication_date": "2020-09-30",
+  "cohort_scope": "2024 explicitly cites 2019/2020 earlier lipid screening; 2020 describes 2011-12 and 2012-13 sample collection. Publication sample labels do not supply excavation-register identity or independence.",
+  "docx": {
+    "path": "data/raw/kotada-sample-photo-2020-si.docx",
+    "bytes": 65500,
+    "sha256": "5f224cb4d36e65408e46bad4aa39cd2c61d732f64927c0f480c6b6d032a1dae8"
+  },
+  "document_xml_sha256": "2acf665dee6beee647b36a4592c8dacdc9ba252494e43c841cff389d8727ffc2",
+  "extraction": "Original DOCX ZIP word/document.xml, direct w:tbl/w:tr/w:tc, concatenated text runs within paragraphs; one-based XML addresses; no rendered-page assumptions.",
+  "table_row_counts_including_headers": [
+    61,
+    23
+  ],
+  "embedded_media": [],
+  "samples": [
+    {
+      "id_2024": "KB48",
+      "matches_2020": [
+        {
+          "xml_table_1based": 1,
+          "xml_row_1based": 16,
+          "cells": [
+            "KB-48",
+            "Cooking vessel",
+            "Coarse red-ware",
+            "Untreated ",
+            "Body",
+            "Saturated fatty acids: C14:0, C15:0, C16:0, C17:0, C18:0, C20:0\nUnsaturated fatty acids: C16:1, C18:1\nBranched fatty acids: C15br, C17br\nOthers: Phthalic acid",
+            "One step acidified methanolic extraction",
+            "22μg/g",
+            "9",
+            "9",
+            "Animal fat",
+            "-29.7",
+            "-30.1",
+            "-0.4",
+            "Mixed non-ruminant and ruminant adipose"
+          ]
+        },
+        {
+          "xml_table_1based": 2,
+          "xml_row_1based": 20,
+          "cells": [
+            "KB-48",
+            "Coarse red-ware cooking vessels ",
+            "-29.7",
+            "-30.1",
+            "-0.4",
+            "Mixed non-ruminant and ruminant adipose"
+          ]
+        }
+      ],
+      "figure4_visual_type": "not_depicted",
+      "identity_status": "same_published_sample_label_in_explicitly_cited_predecessor_cohort",
+      "physical_field_register_crosswalk": null,
+      "authenticated_inscription_sequence": null
+    },
+    {
+      "id_2024": "KB61",
+      "matches_2020": [],
+      "figure4_visual_type": "not_depicted",
+      "identity_status": "no_exact_label_match_in_2020_S1_or_S2",
+      "physical_field_register_crosswalk": null,
+      "authenticated_inscription_sequence": null
+    },
+    {
+      "id_2024": "KB69",
+      "matches_2020": [
+        {
+          "xml_table_1based": 1,
+          "xml_row_1based": 23,
+          "cells": [
+            "KB-69",
+            "Bowl",
+            "Coarse red-ware",
+            "Red slip",
+            "Rim ",
+            "Saturated fatty acids: C12:0, C13:0, C14:0, C15:0, C16:0, C17:0, C18:0, C20:0\nUnsaturated fatty acids: C16:1, C18:1\nBranched fatty acids: C15br and C17br\nDicarboxylic acid: Nonanedioic acid\nOthers: Phthalic acid",
+            "One step acidified methanolic extraction",
+            "39μg/g",
+            "16",
+            "10",
+            "Animal fat",
+            "-21.4",
+            "-27.1",
+            "-5.7",
+            "Ruminant dairy "
+          ]
+        },
+        {
+          "xml_table_1based": 2,
+          "xml_row_1based": 4,
+          "cells": [
+            "KB-69",
+            "Red-sliped coarse red-ware bowl",
+            "-21.4",
+            "-27.1",
+            "-5.7",
+            "Ruminant dairy"
+          ]
+        }
+      ],
+      "figure4_visual_type": "reconstructed_profile",
+      "identity_status": "same_published_sample_label_in_explicitly_cited_predecessor_cohort",
+      "physical_field_register_crosswalk": null,
+      "authenticated_inscription_sequence": null
+    },
+    {
+      "id_2024": "KB106",
+      "matches_2020": [
+        {
+          "xml_table_1based": 1,
+          "xml_row_1based": 31,
+          "cells": [
+            "KB-106",
+            "Carinated bowl",
+            "Red-ware ",
+            "Untreated ",
+            "Rim ",
+            "Saturated fatty acids: C12:0, C13:0, C14:0, C15:0, C16:0, C17:0, C18:0, C19:0, C20:0, C21:0, C22:0, C24:0, C26:0\nUnsaturated fatty acids: C16:1, C18:1, C20:1, C22:1\nBranched fatty acids: C15br, C16br, and C17br\nDicarboxylic acid: Nonanedioic acid, Decanedioic acid, Undecanedioic acid\nOthers: Phthalic acid, 4,8,12 TMTD, Phytanic acid, APAAs (18,20,22)",
+            "Conventional solvent extraction, BSTFA derivatization,\nand \none step acidified methanolic extraction",
+            "91μg/g",
+            "34",
+            "21",
+            "Aquatic fat ",
+            "-",
+            "-",
+            "-",
+            "-"
+          ]
+        },
+        {
+          "xml_table_1based": 2,
+          "xml_row_1based": 3,
+          "cells": [
+            "KB-106",
+            "Plain red-ware carinated bowl",
+            "-19.1",
+            "-24.9",
+            "-5.8",
+            "Ruminant dairy"
+          ]
+        }
+      ],
+      "figure4_visual_type": "reconstructed_profile",
+      "identity_status": "same_published_sample_label_in_explicitly_cited_predecessor_cohort",
+      "physical_field_register_crosswalk": null,
+      "authenticated_inscription_sequence": null
+    },
+    {
+      "id_2024": "KB136",
+      "matches_2020": [
+        {
+          "xml_table_1based": 1,
+          "xml_row_1based": 40,
+          "cells": [
+            "KB-136",
+            "Pot/Jar",
+            "Coarse red-ware ",
+            "Untreated ",
+            "Body ",
+            "Saturated fatty acids: C14:0, C15:0, C16:0, C17:0, C18:0, C20:0\nUnsaturated fatty acids: C16:1, C18:1\nBranched fatty acids: C15br, C17br\nOthers: Phthalic acid",
+            "One step acidified methanolic extraction",
+            "18μg/g",
+            "9",
+            "2",
+            "Plant oil",
+            "-",
+            "-",
+            "",
+            "-"
+          ]
+        }
+      ],
+      "figure4_visual_type": "not_depicted",
+      "identity_status": "same_published_sample_label_in_explicitly_cited_predecessor_cohort",
+      "physical_field_register_crosswalk": null,
+      "authenticated_inscription_sequence": null
+    },
+    {
+      "id_2024": "KB154",
+      "matches_2020": [
+        {
+          "xml_table_1based": 1,
+          "xml_row_1based": 42,
+          "cells": [
+            "KB-154",
+            "Cooking vessel",
+            "Coarse red-ware",
+            "Untreated ",
+            "Body",
+            "Saturated fatty acids: C14:0, C15:0, C16:0, C17:0, C18:0, C20:0\nUnsaturated fatty acids: C16:1, C18:1\nBranched fatty acids: C15br\nOthers: Phthalic acid",
+            "One step acidified methanolic extraction",
+            "11μg/g",
+            "5",
+            "2",
+            "Plant oil",
+            "-",
+            "-",
+            "",
+            "-"
+          ]
+        }
+      ],
+      "figure4_visual_type": "not_depicted",
+      "identity_status": "same_published_sample_label_in_explicitly_cited_predecessor_cohort",
+      "physical_field_register_crosswalk": null,
+      "authenticated_inscription_sequence": null
+    },
+    {
+      "id_2024": "KB156",
+      "matches_2020": [
+        {
+          "xml_table_1based": 1,
+          "xml_row_1based": 43,
+          "cells": [
+            "KB-156",
+            "Bowl",
+            "Red-ware",
+            "Untreated ",
+            "Rim ",
+            "Saturated fatty acids: C12:0, C14:0, C15:0, C16:0, C17:0, C18:0, C20:0\nUnsaturated fatty acids: C16:1, C18:1\nBranched fatty acids: C15br, C16br, and C17br\nDicarboxylic acid: Nonanedioic acid\nOthers: Phytanic acid, and Phthalic acid",
+            "One step acidified methanolic extraction",
+            "21μg/g",
+            "12",
+            "4",
+            "Animal fat",
+            "-25.1",
+            "-25.6",
+            "-0.5",
+            "Mixed non-ruminant and ruminant adipose"
+          ]
+        },
+        {
+          "xml_table_1based": 2,
+          "xml_row_1based": 19,
+          "cells": [
+            "KB-156",
+            "Plain red-ware bowl",
+            "-25.1",
+            "-25.6",
+            "-0.5",
+            "Mixed non-ruminant and ruminant adipose"
+          ]
+        }
+      ],
+      "figure4_visual_type": "reconstructed_profile",
+      "identity_status": "same_published_sample_label_in_explicitly_cited_predecessor_cohort",
+      "physical_field_register_crosswalk": null,
+      "authenticated_inscription_sequence": null
+    },
+    {
+      "id_2024": "KB167",
+      "matches_2020": [
+        {
+          "xml_table_1based": 1,
+          "xml_row_1based": 46,
+          "cells": [
+            "KB-167",
+            "Large deep bowl/basin ",
+            "Red-ware",
+            "Untreated ",
+            "Rim ",
+            "Saturated fatty acids: C14:0, C15:0, C16:0, C17:0, C18:0, C20:0\nUnsaturated fatty acids: C16:1, C18:1\nBranched fatty acids: C17br\nDicarboxylic acid: Nonanedioic acid, Decanedioic acid, Undecanedioic acid\nOthers: Phytanic acid, and Phthalic acid",
+            "One step acidified methanolic extraction",
+            "45μg/g",
+            "24",
+            "14",
+            "Animal fat",
+            "-25.6",
+            "-20.7",
+            "4.9",
+            "Non-ruminant adipose"
+          ]
+        },
+        {
+          "xml_table_1based": 2,
+          "xml_row_1based": 23,
+          "cells": [
+            "KB167",
+            "Plain red-ware large deep bowl",
+            "-25.6",
+            "-20.7",
+            "4.9",
+            "Non-ruminant adipose"
+          ]
+        }
+      ],
+      "figure4_visual_type": "reconstructed_profile",
+      "identity_status": "same_published_sample_label_in_explicitly_cited_predecessor_cohort",
+      "physical_field_register_crosswalk": null,
+      "authenticated_inscription_sequence": null
+    },
+    {
+      "id_2024": "KB171",
+      "matches_2020": [
+        {
+          "xml_table_1based": 1,
+          "xml_row_1based": 48,
+          "cells": [
+            "KB-171",
+            "Bowl",
+            "Coarse red-ware",
+            "Red slip",
+            "body",
+            "Saturated fatty acids: C14:0, C15:0, C16:0, C17:0, C18:0, C19:0, C20:0\nUnsaturated fatty acids: C16:1, C18:1\nBranched fatty acids: C15br, C16br, and C17br\nDicarboxylic acid: Undecanedioic acid\nOthers: Phytanic acid, Phthalic acid",
+            "One step acidified methanolic extraction",
+            "105μg/g",
+            "38",
+            "43",
+            "Animal fat",
+            "-14.5",
+            "-16.3",
+            "-1.8",
+            "Ruminant adipose"
+          ]
+        },
+        {
+          "xml_table_1based": 2,
+          "xml_row_1based": 13,
+          "cells": [
+            "KB-171",
+            "Red-slipped coarse red-ware bowl",
+            "-14.5",
+            "-16.3",
+            "-1.8",
+            "Ruminant adipose"
+          ]
+        }
+      ],
+      "figure4_visual_type": "reconstructed_profile",
+      "identity_status": "same_published_sample_label_in_explicitly_cited_predecessor_cohort",
+      "physical_field_register_crosswalk": null,
+      "authenticated_inscription_sequence": null
+    },
+    {
+      "id_2024": "KB215",
+      "matches_2020": [
+        {
+          "xml_table_1based": 1,
+          "xml_row_1based": 59,
+          "cells": [
+            "KB-215",
+            "Bowl",
+            "Red-ware",
+            "Red slip",
+            "Rim ",
+            "Saturated fatty acids: C12:0, C14:0, C15:0, C16:0, C17:0, C18:0, C20:0\nUnsaturated fatty acids: C16:1, C18:1\nBranched fatty acids: C15br, C16br, and C17br\nDicarboxylic acid: Nonanedioic acid\nOthers: Phthalic acid",
+            "One step acidified methanolic extraction",
+            "17μg/g",
+            "9",
+            "4",
+            "Animal fat",
+            "-26.4",
+            "-27.9",
+            "-1.5",
+            "Mixed non-ruminant and ruminant adipose"
+          ]
+        },
+        {
+          "xml_table_1based": 2,
+          "xml_row_1based": 14,
+          "cells": [
+            "KB-215",
+            "Red-slipped red-ware bowl",
+            "-26.4",
+            "-27.9",
+            "-1.5",
+            "Mixed ruminant adipose"
+          ]
+        }
+      ],
+      "figure4_visual_type": "reconstructed_profile",
+      "identity_status": "same_published_sample_label_in_explicitly_cited_predecessor_cohort",
+      "physical_field_register_crosswalk": null,
+      "authenticated_inscription_sequence": null
+    },
+    {
+      "id_2024": "KB225",
+      "matches_2020": [
+        {
+          "xml_table_1based": 1,
+          "xml_row_1based": 60,
+          "cells": [
+            "KB-225",
+            "Channel-handled hemispherical bowl/ladle",
+            "Red-ware",
+            "Red slip",
+            "Body with part of handle",
+            "Saturated fatty acids: C12:0, C13:0, C14:0, C15:0, C16:0, C17:0, C18:0, C19:0, C20:0\nUnsaturated fatty acids: C16:1, C18:1\nBranched fatty acids: C15br, C17br\nOthers: Phthalic acid",
+            "One step acidified methanolic extraction",
+            "22μg/g",
+            "10",
+            "7",
+            "Animal fat",
+            "-22.1",
+            "-25.2",
+            "-3.1",
+            "Mixed ruminant adipose and dairy/deer"
+          ]
+        },
+        {
+          "xml_table_1based": 2,
+          "xml_row_1based": 10,
+          "cells": [
+            "KB-225",
+            "Channel-handled spherical bowl/ladle",
+            "-22.1",
+            "-25.2",
+            "-3.1",
+            "Mixed ruminant adipose and dairy/deer"
+          ]
+        }
+      ],
+      "figure4_visual_type": "photographic_views_plus_profile",
+      "identity_status": "same_published_sample_label_in_explicitly_cited_predecessor_cohort",
+      "physical_field_register_crosswalk": null,
+      "authenticated_inscription_sequence": null
+    }
+  ],
+  "control_rows_KB60": [
+    {
+      "xml_table_1based": 1,
+      "xml_row_1based": 19,
+      "cells": [
+        "KB-60",
+        "Cooking vessel",
+        "Coarse red-ware",
+        "Untreated ",
+        "Body",
+        "Saturated fatty acids: C12:0, C14:0, C15:0, C16:0, C17:0, C18:0, C19:0, C20:0, C21:0, C22:0, C23:0, C24:0\nUnsaturated fatty acids: C16:1, C18:1\nBranched fatty acids: C15br, C16br, C17br\nOthers: 4,8,12 TMTD, Phthalic acid",
+        "One step acidified methanolic extraction",
+        "38μg/g",
+        "17",
+        "10",
+        "Animal fat",
+        "-16.7",
+        "-23.3",
+        "-6.5",
+        "Ruminant dairy"
+      ]
+    },
+    {
+      "xml_table_1based": 2,
+      "xml_row_1based": 2,
+      "cells": [
+        "KB-60",
+        "Coarse red-ware cooking vessels ",
+        "-16.7",
+        "-23.3",
+        "-6.5",
+        "Ruminant dairy"
+      ]
+    }
+  ],
+  "conflicts": [
+    {
+      "id": "KB61_vs_KB60",
+      "finding": "2024 Table1 and Figure2 caption say KB61. No KB61 in 2020 S1/S2; KB60 exists. No correction or identity merge authorized."
+    },
+    {
+      "id": "KB106",
+      "finding": "S1: Aquatic fat; isotope cells all dashes. S2: -19.1,-24.9,-5.8; Ruminant dairy. Main article Figure3b calls KB106 possible aquatic fat, and discussion says the one aquatic sample was excluded from isotopic analysis. Preserve disagreement; no preferred values or inferred corrected label."
+    }
+  ],
+  "visual_observations": [
+    {
+      "source": "data/raw/kotada-sample-photo-2020-fig4.png",
+      "locator": "Figure4",
+      "dimensions": [
+        685,
+        410
+      ],
+      "finding": "Mostly reconstructed profile drawings keyed by ware legend, not surface photographs. Six 2024 target IDs have profiles; KB225 has two small photographic views and profile. KB173 photo views are outside the eleven target IDs. No definite script identifiable in KB225 or KB173 shown views; small scale, limited surfaces, and no epigraphic recording make this inconclusive."
+    },
+    {
+      "source": "data/raw/kotada-sample-photo-2020-fig3.png",
+      "locator": "Figure3",
+      "finding": "Two chromatograms only; no vessel surface photographs."
+    },
+    {
+      "source": "data/raw/kotada-sample-photo-2020-si2.jpg",
+      "locator": "Supplement2",
+      "finding": "Isotope scatterplot, not sample photographs; not an independent resolution of S1/S2 conflicts."
+    }
+  ],
+  "crops": [
+    {
+      "path": "results/primary_pages/kotada-sample-photo-kb225.png",
+      "bytes": 16965,
+      "sha256": "14d8539444afa3ad9cb2b886865196577eae62aa04dea6543401418ed72ab07f",
+      "source": "data/raw/kotada-sample-photo-2020-fig4.png",
+      "source_dimensions": [
+        685,
+        410
+      ],
+      "rectangle_xyxy": [
+        407,
+        309,
+        580,
+        410
+      ],
+      "operation": "native_pixel_crop_no_enlargement"
+    },
+    {
+      "path": "results/primary_pages/kotada-sample-photo-kb173.png",
+      "bytes": 13560,
+      "sha256": "1325c66a9095b9d5ab1e4431b141611b7c16863fa869ab6f418615ca30ef149b",
+      "source": "data/raw/kotada-sample-photo-2020-fig4.png",
+      "source_dimensions": [
+        685,
+        410
+      ],
+      "rectangle_xyxy": [
+        414,
+        244,
+        577,
+        311
+      ],
+      "operation": "native_pixel_crop_no_enlargement"
+    }
+  ],
+  "fetch_attempts": [
+    {
+      "metadata": {
+        "path": "data/processed/fetch_kotada-sample-photo-2020-fig3_png.json",
+        "bytes": 989,
+        "sha256": "5e7f4b63a7b7b76bab4db77f1ca5e6b633bd27ff35793a41bd9946addb759daf"
+      },
+      "record": {
+        "url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41598-020-72963-y/MediaObjects/41598_2020_72963_Fig3_HTML.png",
+        "retrieval_started_utc": "2026-09-28T17:01:01.644658+00:00",
+        "response_complete": true,
+        "http_status": 200,
+        "response_body_received": true,
+        "resolved_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41598-020-72963-y/MediaObjects/41598_2020_72963_Fig3_HTML.png",
+        "header_artifact": {
+          "path": "data/raw/kotada-sample-photo-2020-fig3.png.headers.json",
+          "bytes": 1285,
+          "sha256": "fc1313cb9edda5f75e3179040e2e1da15bd89c25e3b652f9467db70b0783d9c5",
+          "kind": "locally_serialized_HTTP_response_headers"
+        },
+        "kind": "complete_http_body_pending_content_review",
+        "path": "data/raw/kotada-sample-photo-2020-fig3.png",
+        "bytes": 84286,
+        "sha256": "401910b95d3e2c8863693fcde94b0eec942c4b70a60e5a817e7360331f616efc",
+        "retrieval_ended_utc": "2026-09-28T17:01:01.884212+00:00"
+      }
+    },
+    {
+      "metadata": {
+        "path": "data/processed/fetch_kotada-sample-photo-2020-fig4_png.json",
+        "bytes": 990,
+        "sha256": "f682acfe90776239af06199e0e226a2b62cdc33eca4dbb4ab2551663a995bc64"
+      },
+      "record": {
+        "url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41598-020-72963-y/MediaObjects/41598_2020_72963_Fig4_HTML.png",
+        "retrieval_started_utc": "2026-09-28T17:00:24.567618+00:00",
+        "response_complete": true,
+        "http_status": 200,
+        "response_body_received": true,
+        "resolved_url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41598-020-72963-y/MediaObjects/41598_2020_72963_Fig4_HTML.png",
+        "header_artifact": {
+          "path": "data/raw/kotada-sample-photo-2020-fig4.png.headers.json",
+          "bytes": 1286,
+          "sha256": "5154098be3af987eb847314082751e19f6e629430ab849d8d0397d13af438b72",
+          "kind": "locally_serialized_HTTP_response_headers"
+        },
+        "kind": "complete_http_body_pending_content_review",
+        "path": "data/raw/kotada-sample-photo-2020-fig4.png",
+        "bytes": 110025,
+        "sha256": "a4fa9b22ac6b841ed6d6058db7cbeda098bfd32f3004a2df901f260c899b28fc",
+        "retrieval_ended_utc": "2026-09-28T17:00:24.817094+00:00"
+      }
+    },
+    {
+      "metadata": {
+        "path": "data/processed/fetch_kotada-sample-photo-2020-network_html.json",
+        "bytes": 890,
+        "sha256": "2f83dcfc97853a9928613c7d4cfac838db805d41f71b3cbd102e2a2201bc9cd4"
+      },
+      "record": {
+        "url": "https://www.nature.com/articles/s41598-020-72963-y",
+        "retrieval_started_utc": "2026-09-28T16:59:45.198724+00:00",
+        "response_complete": true,
+        "http_status": 200,
+        "response_body_received": true,
+        "resolved_url": "https://www.nature.com/articles/s41598-020-72963-y?error=cookies_not_supported&code=7bdb8e12-9b87-4c25-845c-3e5208334e70",
+        "header_artifact": {
+          "path": "data/raw/kotada-sample-photo-2020-network.html.headers.json",
+          "bytes": 1145,
+          "sha256": "87f70a969bd6b9f621e64c6a531fe3d7d6ef5945c8502aefc0d6ccb2cc41f8cd",
+          "kind": "locally_serialized_HTTP_response_headers"
+        },
+        "kind": "complete_http_body_pending_content_review",
+        "path": "data/raw/kotada-sample-photo-2020-network.html",
+        "bytes": 513362,
+        "sha256": "b3f724f04c89032641da643ee69752fc45395f4d7b85264f79d0028b42ecb580",
+        "retrieval_ended_utc": "2026-09-28T16:59:47.324872+00:00"
+      }
+    },
+    {
+      "metadata": {
+        "path": "data/processed/fetch_kotada-sample-photo-2020-si2_jpg.json",
+        "bytes": 992,
+        "sha256": "e4fbe2b0cde3bcdd40cefbc5af5ed9e477fb06a2e0f46b302fd744c6939277b5"
+      },
+      "record": {
+        "url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41598-020-72963-y/MediaObjects/41598_2020_72963_MOESM2_ESM.jpg",
+        "retrieval_started_utc": "2026-09-28T17:00:27.488483+00:00",
+        "response_complete": true,
+        "http_status": 200,
+        "response_body_received": true,
+        "resolved_url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41598-020-72963-y/MediaObjects/41598_2020_72963_MOESM2_ESM.jpg",
+        "header_artifact": {
+          "path": "data/raw/kotada-sample-photo-2020-si2.jpg.headers.json",
+          "bytes": 1246,
+          "sha256": "f56e6afa101e104cb8c1767489ff5068d1c1c24cb263cf9f647de4b59be2b6c1",
+          "kind": "locally_serialized_HTTP_response_headers"
+        },
+        "kind": "complete_http_body_pending_content_review",
+        "path": "data/raw/kotada-sample-photo-2020-si2.jpg",
+        "bytes": 639590,
+        "sha256": "f97d40051ca41f37b2f4466e73196752ff38c2c3542794d49d8804e0e47c5081",
+        "retrieval_ended_utc": "2026-09-28T17:00:28.248435+00:00"
+      }
+    },
+    {
+      "metadata": {
+        "path": "data/processed/fetch_kotada-sample-photo-2020-si_docx.json",
+        "bytes": 993,
+        "sha256": "376a3b684e97fca5e62a7b545b81174eb1505ad87bdacc446b447b1a89667a38"
+      },
+      "record": {
+        "url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41598-020-72963-y/MediaObjects/41598_2020_72963_MOESM1_ESM.docx",
+        "retrieval_started_utc": "2026-09-28T16:59:57.298356+00:00",
+        "response_complete": true,
+        "http_status": 200,
+        "response_body_received": true,
+        "resolved_url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41598-020-72963-y/MediaObjects/41598_2020_72963_MOESM1_ESM.docx",
+        "header_artifact": {
+          "path": "data/raw/kotada-sample-photo-2020-si.docx.headers.json",
+          "bytes": 1260,
+          "sha256": "217d0ec53064af0f4a23ca544e5dc7e0d161d88614caa97d1e7d61a0e6e07c94",
+          "kind": "locally_serialized_HTTP_response_headers"
+        },
+        "kind": "complete_http_body_pending_content_review",
+        "path": "data/raw/kotada-sample-photo-2020-si.docx",
+        "bytes": 65500,
+        "sha256": "5f224cb4d36e65408e46bad4aa39cd2c61d732f64927c0f480c6b6d032a1dae8",
+        "retrieval_ended_utc": "2026-09-28T16:59:57.812339+00:00"
+      }
+    },
+    {
+      "metadata": {
+        "path": "data/processed/fetch_kotada-sample-photo-2020_html.json",
+        "bytes": 428,
+        "sha256": "8e03c9d557b2d7c863b6de6e6b8f18e37ac84097b57499710c0d47cdcca623e5"
+      },
+      "record": {
+        "url": "https://www.nature.com/articles/s41598-020-72963-y",
+        "retrieval_started_utc": "2026-09-28T16:59:25.520983+00:00",
+        "response_complete": false,
+        "http_status": null,
+        "response_body_received": false,
+        "error": "URLError: <urlopen error [Errno 8] nodename nor servname provided, or not known>",
+        "kind": "incomplete_response_or_connection_failure",
+        "retrieval_ended_utc": "2026-09-28T16:59:25.542041+00:00"
+      }
+    }
+  ],
+  "raw_sources": [
+    {
+      "path": "data/raw/kotada-sample-photo-2020-fig3.png",
+      "bytes": 84286,
+      "sha256": "401910b95d3e2c8863693fcde94b0eec942c4b70a60e5a817e7360331f616efc",
+      "kind": "original_publisher_HTTP_body",
+      "url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41598-020-72963-y/MediaObjects/41598_2020_72963_Fig3_HTML.png",
+      "http_status": 200
+    },
+    {
+      "path": "data/raw/kotada-sample-photo-2020-fig3.png.headers.json",
+      "bytes": 1285,
+      "sha256": "fc1313cb9edda5f75e3179040e2e1da15bd89c25e3b652f9467db70b0783d9c5",
+      "kind": "locally_serialized_HTTP_response_headers",
+      "url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41598-020-72963-y/MediaObjects/41598_2020_72963_Fig3_HTML.png"
+    },
+    {
+      "path": "data/raw/kotada-sample-photo-2020-fig4.png",
+      "bytes": 110025,
+      "sha256": "a4fa9b22ac6b841ed6d6058db7cbeda098bfd32f3004a2df901f260c899b28fc",
+      "kind": "original_publisher_HTTP_body",
+      "url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41598-020-72963-y/MediaObjects/41598_2020_72963_Fig4_HTML.png",
+      "http_status": 200
+    },
+    {
+      "path": "data/raw/kotada-sample-photo-2020-fig4.png.headers.json",
+      "bytes": 1286,
+      "sha256": "5154098be3af987eb847314082751e19f6e629430ab849d8d0397d13af438b72",
+      "kind": "locally_serialized_HTTP_response_headers",
+      "url": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41598-020-72963-y/MediaObjects/41598_2020_72963_Fig4_HTML.png"
+    },
+    {
+      "path": "data/raw/kotada-sample-photo-2020-network.html",
+      "bytes": 513362,
+      "sha256": "b3f724f04c89032641da643ee69752fc45395f4d7b85264f79d0028b42ecb580",
+      "kind": "original_publisher_HTTP_body",
+      "url": "https://www.nature.com/articles/s41598-020-72963-y",
+      "http_status": 200
+    },
+    {
+      "path": "data/raw/kotada-sample-photo-2020-network.html.headers.json",
+      "bytes": 1145,
+      "sha256": "87f70a969bd6b9f621e64c6a531fe3d7d6ef5945c8502aefc0d6ccb2cc41f8cd",
+      "kind": "locally_serialized_HTTP_response_headers",
+      "url": "https://www.nature.com/articles/s41598-020-72963-y"
+    },
+    {
+      "path": "data/raw/kotada-sample-photo-2020-si2.jpg",
+      "bytes": 639590,
+      "sha256": "f97d40051ca41f37b2f4466e73196752ff38c2c3542794d49d8804e0e47c5081",
+      "kind": "original_publisher_HTTP_body",
+      "url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41598-020-72963-y/MediaObjects/41598_2020_72963_MOESM2_ESM.jpg",
+      "http_status": 200
+    },
+    {
+      "path": "data/raw/kotada-sample-photo-2020-si2.jpg.headers.json",
+      "bytes": 1246,
+      "sha256": "f56e6afa101e104cb8c1767489ff5068d1c1c24cb263cf9f647de4b59be2b6c1",
+      "kind": "locally_serialized_HTTP_response_headers",
+      "url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41598-020-72963-y/MediaObjects/41598_2020_72963_MOESM2_ESM.jpg"
+    },
+    {
+      "path": "data/raw/kotada-sample-photo-2020-si.docx",
+      "bytes": 65500,
+      "sha256": "5f224cb4d36e65408e46bad4aa39cd2c61d732f64927c0f480c6b6d032a1dae8",
+      "kind": "original_publisher_HTTP_body",
+      "url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41598-020-72963-y/MediaObjects/41598_2020_72963_MOESM1_ESM.docx",
+      "http_status": 200
+    },
+    {
+      "path": "data/raw/kotada-sample-photo-2020-si.docx.headers.json",
+      "bytes": 1260,
+      "sha256": "217d0ec53064af0f4a23ca544e5dc7e0d161d88614caa97d1e7d61a0e6e07c94",
+      "kind": "locally_serialized_HTTP_response_headers",
+      "url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41598-020-72963-y/MediaObjects/41598_2020_72963_MOESM1_ESM.docx"
+    },
+    {
+      "path": "data/raw/kotada-sample-photo-search.json",
+      "bytes": 33355,
+      "sha256": "ef6800bccfc09997af4bce332cfec61f8252c4ecb519eb6f88562dc3b9100f3e",
+      "kind": "web_tool_result_serialization_not_HTTP_body",
+      "url": null
+    },
+    {
+      "path": "data/raw/kotada-sample-photo-primary-captures.json",
+      "bytes": 97061,
+      "sha256": "5bafe01e60afcc7921b525e6eff0e014ca14556a030de692810b5e77fa288ee8",
+      "kind": "web_tool_result_serialization_not_HTTP_body",
+      "url": null
+    }
+  ],
+  "prior_review_pins": [
+    {
+      "path": "docs/KOTADA_BHADLI_ANCHOR_FOLLOWUP.md",
+      "bytes": 3822,
+      "sha256": "05065477a9db3c3c19a33b7bb7a1c20aab1411c45c6419f844857d8dbe72b0c9"
+    },
+    {
+      "path": "data/processed/kotada_anchor_followup.json",
+      "bytes": 9733,
+      "sha256": "1944bd5fe97d1b1fcd82cce293757c62862b47a57320cb5df1456186a406eee1"
+    }
+  ],
+  "script_pin": {
+    "path": "scripts/build_kotada_sample_photo_review.py",
+    "bytes": 7722,
+    "sha256": "c651ba01846b88f98584e0af6fa941d972814ec1acea18d0155b6db6935c9675"
+  },
+  "limitations": [
+    "2024 Figure2 and its supplementary source remain unseen; earlier author/publisher blocks not retried.",
+    "No 2019 thesis file recovered from four searches.",
+    "No marks transcribed or values assigned.",
+    "Ten matching sample labels are not eleven confirmed physical-object joins.",
+    "Reconstructed drawings cannot certify absence of surface inscription."
+  ]
+}

@@ -1,0 +1,1232 @@
+{
+  "candidate_pairs": [],
+  "established_phonetic_values": 0,
+  "established_semantic_values": 0,
+  "input_sha256": {
+    "data/processed/catalogue_features.json": "00836515c6f3beec28b3b66e13d8a9c6e94571cfb2e9dbb4b148651b7ff0032d",
+    "data/processed/lipi_strict.jsonl": "c7600dd5142d0132bcb89ca5490c26f748a0ab542c482583dd3baf8f08fdf250",
+    "data/processed/m77_candidate_records.jsonl": "b29a176da86b125115256a8966c377c3fd9fe39ecaab17bf576b770b83b41bab",
+    "data/processed/m77_candidate_strict.jsonl": "fcdd8b3a7350ebfa851363328ec784b9c8a943525d8549b9df0194fbe1ee7f4a",
+    "data/processed/w525_protocol.json": "584c492106c7bcc10e8296394fbf7277a732bef068b4d9450608956eadc02ff8",
+    "results/pincer_context_screen.json": "9a680e61fb8633a47472212e63c02396b0934cc97039f55cb1762922dffa1bec"
+  },
+  "locator_scope": "Do not pool these with strict pairs. Source_doc_count exceeds1 and line/face recovery is not certified.",
+  "post_null_multidocument_locator_candidates": [
+    {
+      "W525_candidate": "M254",
+      "lipi_row": {
+        "artifact": "H-1816",
+        "cisi_original": "H-1816",
+        "condition": "Poor",
+        "id": "512.2",
+        "namespace": "Wells_ICIT_as_exported",
+        "order": "source_file_order",
+        "preservation": "complete",
+        "sequence": [
+          "W400",
+          "W525",
+          "W550",
+          "W033",
+          "W705",
+          "W240"
+        ],
+        "site": "Harappa",
+        "type": "TAB:B"
+      },
+      "segments": [
+        {
+          "M": [
+            "M067"
+          ],
+          "M_positions": [
+            0
+          ],
+          "W": "W240",
+          "basis": "catalogue_family_membership",
+          "reversed_W_position": 0
+        },
+        {
+          "M": [
+            "M336"
+          ],
+          "M_positions": [
+            1
+          ],
+          "W": "W705",
+          "basis": "catalogue_family_membership",
+          "reversed_W_position": 1
+        },
+        {
+          "M": [
+            "M089"
+          ],
+          "M_positions": [
+            2
+          ],
+          "W": "W033",
+          "basis": "catalogue_family_membership",
+          "reversed_W_position": 2
+        },
+        {
+          "M": [
+            "M216"
+          ],
+          "M_positions": [
+            3
+          ],
+          "W": "W550",
+          "basis": "source_exposed_pincer_candidates",
+          "reversed_W_position": 3
+        },
+        {
+          "M": [
+            "M254"
+          ],
+          "M_positions": [
+            4
+          ],
+          "W": "W525",
+          "basis": "masked_candidate_not_established_mapping",
+          "reversed_W_position": 4
+        },
+        {
+          "M": [
+            "M176"
+          ],
+          "M_positions": [
+            5
+          ],
+          "W": "W400",
+          "basis": "catalogue_family_membership",
+          "reversed_W_position": 5
+        }
+      ],
+      "source_locator_record": {
+        "authentication": "secondary transcription, two selected complete lines checked; no population error rate or complete physical-object crosswalk",
+        "diplomatic": "+067-336-089-216-254-176+",
+        "exclusion_reasons": [
+          "multiple_source_documents_line_recovery_unverified"
+        ],
+        "id": "GLI-IND-M77-04672",
+        "namespace": "Mahadevan1977",
+        "order": "preserved source array; agrees with reading printed normalized glyphs right to left in two checked examples",
+        "primary_direction_definition": "right to left",
+        "primary_object_definition": "sealing",
+        "site_label_unverified": null,
+        "source_citation": {
+          "derivation": "IM77 text 4672 from indusscript.in Firestore (RMRL, 2021). Original: Mahadevan (1977) The Indus Script: Texts, Concordance and Tables.",
+          "primary_sources": [
+            "I.6",
+            "A.1"
+          ]
+        },
+        "source_direction_code": "1",
+        "source_doc_count": 2,
+        "source_extra": {
+          "doc_count": 2,
+          "fs80": 0,
+          "level": "-4",
+          "textnum": 4672
+        },
+        "source_object_code": "2",
+        "source_reference": "4672",
+        "strict_candidate": false,
+        "tokens": [
+          {
+            "diplomatic": "067",
+            "doubtful": false,
+            "raw": "67",
+            "sign": "M067",
+            "unknown_span": false
+          },
+          {
+            "diplomatic": "336",
+            "doubtful": false,
+            "raw": "336",
+            "sign": "M336",
+            "unknown_span": false
+          },
+          {
+            "diplomatic": "089",
+            "doubtful": false,
+            "raw": "89",
+            "sign": "M089",
+            "unknown_span": false
+          },
+          {
+            "diplomatic": "216",
+            "doubtful": false,
+            "raw": "216",
+            "sign": "M216",
+            "unknown_span": false
+          },
+          {
+            "diplomatic": "254",
+            "doubtful": false,
+            "raw": "254",
+            "sign": "M254",
+            "unknown_span": false
+          },
+          {
+            "diplomatic": "176",
+            "doubtful": false,
+            "raw": "176",
+            "sign": "M176",
+            "unknown_span": false
+          }
+        ],
+        "upstream_artifact_type": "seal"
+      },
+      "status": "Unverified multi-document flat-array source locator only; not a recovered face-level text"
+    },
+    {
+      "W525_candidate": "M254",
+      "lipi_row": {
+        "artifact": "H-1814",
+        "cisi_original": "H-1814",
+        "condition": "Poor",
+        "id": "635.1",
+        "namespace": "Wells_ICIT_as_exported",
+        "order": "source_file_order",
+        "preservation": "complete",
+        "sequence": [
+          "W400",
+          "W525",
+          "W550",
+          "W033",
+          "W705",
+          "W240"
+        ],
+        "site": "Harappa",
+        "type": "TAB:B"
+      },
+      "segments": [
+        {
+          "M": [
+            "M067"
+          ],
+          "M_positions": [
+            0
+          ],
+          "W": "W240",
+          "basis": "catalogue_family_membership",
+          "reversed_W_position": 0
+        },
+        {
+          "M": [
+            "M336"
+          ],
+          "M_positions": [
+            1
+          ],
+          "W": "W705",
+          "basis": "catalogue_family_membership",
+          "reversed_W_position": 1
+        },
+        {
+          "M": [
+            "M089"
+          ],
+          "M_positions": [
+            2
+          ],
+          "W": "W033",
+          "basis": "catalogue_family_membership",
+          "reversed_W_position": 2
+        },
+        {
+          "M": [
+            "M216"
+          ],
+          "M_positions": [
+            3
+          ],
+          "W": "W550",
+          "basis": "source_exposed_pincer_candidates",
+          "reversed_W_position": 3
+        },
+        {
+          "M": [
+            "M254"
+          ],
+          "M_positions": [
+            4
+          ],
+          "W": "W525",
+          "basis": "masked_candidate_not_established_mapping",
+          "reversed_W_position": 4
+        },
+        {
+          "M": [
+            "M176"
+          ],
+          "M_positions": [
+            5
+          ],
+          "W": "W400",
+          "basis": "catalogue_family_membership",
+          "reversed_W_position": 5
+        }
+      ],
+      "source_locator_record": {
+        "authentication": "secondary transcription, two selected complete lines checked; no population error rate or complete physical-object crosswalk",
+        "diplomatic": "+067-336-089-216-254-176+",
+        "exclusion_reasons": [
+          "multiple_source_documents_line_recovery_unverified"
+        ],
+        "id": "GLI-IND-M77-04672",
+        "namespace": "Mahadevan1977",
+        "order": "preserved source array; agrees with reading printed normalized glyphs right to left in two checked examples",
+        "primary_direction_definition": "right to left",
+        "primary_object_definition": "sealing",
+        "site_label_unverified": null,
+        "source_citation": {
+          "derivation": "IM77 text 4672 from indusscript.in Firestore (RMRL, 2021). Original: Mahadevan (1977) The Indus Script: Texts, Concordance and Tables.",
+          "primary_sources": [
+            "I.6",
+            "A.1"
+          ]
+        },
+        "source_direction_code": "1",
+        "source_doc_count": 2,
+        "source_extra": {
+          "doc_count": 2,
+          "fs80": 0,
+          "level": "-4",
+          "textnum": 4672
+        },
+        "source_object_code": "2",
+        "source_reference": "4672",
+        "strict_candidate": false,
+        "tokens": [
+          {
+            "diplomatic": "067",
+            "doubtful": false,
+            "raw": "67",
+            "sign": "M067",
+            "unknown_span": false
+          },
+          {
+            "diplomatic": "336",
+            "doubtful": false,
+            "raw": "336",
+            "sign": "M336",
+            "unknown_span": false
+          },
+          {
+            "diplomatic": "089",
+            "doubtful": false,
+            "raw": "89",
+            "sign": "M089",
+            "unknown_span": false
+          },
+          {
+            "diplomatic": "216",
+            "doubtful": false,
+            "raw": "216",
+            "sign": "M216",
+            "unknown_span": false
+          },
+          {
+            "diplomatic": "254",
+            "doubtful": false,
+            "raw": "254",
+            "sign": "M254",
+            "unknown_span": false
+          },
+          {
+            "diplomatic": "176",
+            "doubtful": false,
+            "raw": "176",
+            "sign": "M176",
+            "unknown_span": false
+          }
+        ],
+        "upstream_artifact_type": "seal"
+      },
+      "status": "Unverified multi-document flat-array source locator only; not a recovered face-level text"
+    },
+    {
+      "W525_candidate": "M254",
+      "lipi_row": {
+        "artifact": "H-1812",
+        "cisi_original": "H-1812",
+        "condition": "Poor",
+        "id": "867.1",
+        "namespace": "Wells_ICIT_as_exported",
+        "order": "source_file_order",
+        "preservation": "chipped",
+        "sequence": [
+          "W400",
+          "W525",
+          "W550",
+          "W033",
+          "W705",
+          "W240"
+        ],
+        "site": "Harappa",
+        "type": "TAB:B"
+      },
+      "segments": [
+        {
+          "M": [
+            "M067"
+          ],
+          "M_positions": [
+            0
+          ],
+          "W": "W240",
+          "basis": "catalogue_family_membership",
+          "reversed_W_position": 0
+        },
+        {
+          "M": [
+            "M336"
+          ],
+          "M_positions": [
+            1
+          ],
+          "W": "W705",
+          "basis": "catalogue_family_membership",
+          "reversed_W_position": 1
+        },
+        {
+          "M": [
+            "M089"
+          ],
+          "M_positions": [
+            2
+          ],
+          "W": "W033",
+          "basis": "catalogue_family_membership",
+          "reversed_W_position": 2
+        },
+        {
+          "M": [
+            "M216"
+          ],
+          "M_positions": [
+            3
+          ],
+          "W": "W550",
+          "basis": "source_exposed_pincer_candidates",
+          "reversed_W_position": 3
+        },
+        {
+          "M": [
+            "M254"
+          ],
+          "M_positions": [
+            4
+          ],
+          "W": "W525",
+          "basis": "masked_candidate_not_established_mapping",
+          "reversed_W_position": 4
+        },
+        {
+          "M": [
+            "M176"
+          ],
+          "M_positions": [
+            5
+          ],
+          "W": "W400",
+          "basis": "catalogue_family_membership",
+          "reversed_W_position": 5
+        }
+      ],
+      "source_locator_record": {
+        "authentication": "secondary transcription, two selected complete lines checked; no population error rate or complete physical-object crosswalk",
+        "diplomatic": "+067-336-089-216-254-176+",
+        "exclusion_reasons": [
+          "multiple_source_documents_line_recovery_unverified"
+        ],
+        "id": "GLI-IND-M77-04672",
+        "namespace": "Mahadevan1977",
+        "order": "preserved source array; agrees with reading printed normalized glyphs right to left in two checked examples",
+        "primary_direction_definition": "right to left",
+        "primary_object_definition": "sealing",
+        "site_label_unverified": null,
+        "source_citation": {
+          "derivation": "IM77 text 4672 from indusscript.in Firestore (RMRL, 2021). Original: Mahadevan (1977) The Indus Script: Texts, Concordance and Tables.",
+          "primary_sources": [
+            "I.6",
+            "A.1"
+          ]
+        },
+        "source_direction_code": "1",
+        "source_doc_count": 2,
+        "source_extra": {
+          "doc_count": 2,
+          "fs80": 0,
+          "level": "-4",
+          "textnum": 4672
+        },
+        "source_object_code": "2",
+        "source_reference": "4672",
+        "strict_candidate": false,
+        "tokens": [
+          {
+            "diplomatic": "067",
+            "doubtful": false,
+            "raw": "67",
+            "sign": "M067",
+            "unknown_span": false
+          },
+          {
+            "diplomatic": "336",
+            "doubtful": false,
+            "raw": "336",
+            "sign": "M336",
+            "unknown_span": false
+          },
+          {
+            "diplomatic": "089",
+            "doubtful": false,
+            "raw": "89",
+            "sign": "M089",
+            "unknown_span": false
+          },
+          {
+            "diplomatic": "216",
+            "doubtful": false,
+            "raw": "216",
+            "sign": "M216",
+            "unknown_span": false
+          },
+          {
+            "diplomatic": "254",
+            "doubtful": false,
+            "raw": "254",
+            "sign": "M254",
+            "unknown_span": false
+          },
+          {
+            "diplomatic": "176",
+            "doubtful": false,
+            "raw": "176",
+            "sign": "M176",
+            "unknown_span": false
+          }
+        ],
+        "upstream_artifact_type": "seal"
+      },
+      "status": "Unverified multi-document flat-array source locator only; not a recovered face-level text"
+    },
+    {
+      "W525_candidate": "M254",
+      "lipi_row": {
+        "artifact": "H-1811",
+        "cisi_original": "H-1811",
+        "condition": "Fair",
+        "id": "916.1",
+        "namespace": "Wells_ICIT_as_exported",
+        "order": "source_file_order",
+        "preservation": "complete",
+        "sequence": [
+          "W400",
+          "W525",
+          "W550",
+          "W033",
+          "W705",
+          "W240"
+        ],
+        "site": "Harappa",
+        "type": "TAB:B"
+      },
+      "segments": [
+        {
+          "M": [
+            "M067"
+          ],
+          "M_positions": [
+            0
+          ],
+          "W": "W240",
+          "basis": "catalogue_family_membership",
+          "reversed_W_position": 0
+        },
+        {
+          "M": [
+            "M336"
+          ],
+          "M_positions": [
+            1
+          ],
+          "W": "W705",
+          "basis": "catalogue_family_membership",
+          "reversed_W_position": 1
+        },
+        {
+          "M": [
+            "M089"
+          ],
+          "M_positions": [
+            2
+          ],
+          "W": "W033",
+          "basis": "catalogue_family_membership",
+          "reversed_W_position": 2
+        },
+        {
+          "M": [
+            "M216"
+          ],
+          "M_positions": [
+            3
+          ],
+          "W": "W550",
+          "basis": "source_exposed_pincer_candidates",
+          "reversed_W_position": 3
+        },
+        {
+          "M": [
+            "M254"
+          ],
+          "M_positions": [
+            4
+          ],
+          "W": "W525",
+          "basis": "masked_candidate_not_established_mapping",
+          "reversed_W_position": 4
+        },
+        {
+          "M": [
+            "M176"
+          ],
+          "M_positions": [
+            5
+          ],
+          "W": "W400",
+          "basis": "catalogue_family_membership",
+          "reversed_W_position": 5
+        }
+      ],
+      "source_locator_record": {
+        "authentication": "secondary transcription, two selected complete lines checked; no population error rate or complete physical-object crosswalk",
+        "diplomatic": "+067-336-089-216-254-176+",
+        "exclusion_reasons": [
+          "multiple_source_documents_line_recovery_unverified"
+        ],
+        "id": "GLI-IND-M77-04672",
+        "namespace": "Mahadevan1977",
+        "order": "preserved source array; agrees with reading printed normalized glyphs right to left in two checked examples",
+        "primary_direction_definition": "right to left",
+        "primary_object_definition": "sealing",
+        "site_label_unverified": null,
+        "source_citation": {
+          "derivation": "IM77 text 4672 from indusscript.in Firestore (RMRL, 2021). Original: Mahadevan (1977) The Indus Script: Texts, Concordance and Tables.",
+          "primary_sources": [
+            "I.6",
+            "A.1"
+          ]
+        },
+        "source_direction_code": "1",
+        "source_doc_count": 2,
+        "source_extra": {
+          "doc_count": 2,
+          "fs80": 0,
+          "level": "-4",
+          "textnum": 4672
+        },
+        "source_object_code": "2",
+        "source_reference": "4672",
+        "strict_candidate": false,
+        "tokens": [
+          {
+            "diplomatic": "067",
+            "doubtful": false,
+            "raw": "67",
+            "sign": "M067",
+            "unknown_span": false
+          },
+          {
+            "diplomatic": "336",
+            "doubtful": false,
+            "raw": "336",
+            "sign": "M336",
+            "unknown_span": false
+          },
+          {
+            "diplomatic": "089",
+            "doubtful": false,
+            "raw": "89",
+            "sign": "M089",
+            "unknown_span": false
+          },
+          {
+            "diplomatic": "216",
+            "doubtful": false,
+            "raw": "216",
+            "sign": "M216",
+            "unknown_span": false
+          },
+          {
+            "diplomatic": "254",
+            "doubtful": false,
+            "raw": "254",
+            "sign": "M254",
+            "unknown_span": false
+          },
+          {
+            "diplomatic": "176",
+            "doubtful": false,
+            "raw": "176",
+            "sign": "M176",
+            "unknown_span": false
+          }
+        ],
+        "upstream_artifact_type": "seal"
+      },
+      "status": "Unverified multi-document flat-array source locator only; not a recovered face-level text"
+    },
+    {
+      "W525_candidate": "M254",
+      "lipi_row": {
+        "artifact": "H-774",
+        "cisi_original": "H-774",
+        "condition": "Good",
+        "id": "1666.1",
+        "namespace": "Wells_ICIT_as_exported",
+        "order": "source_file_order",
+        "preservation": "complete",
+        "sequence": [
+          "W400",
+          "W525",
+          "W550",
+          "W033",
+          "W705",
+          "W240"
+        ],
+        "site": "Harappa",
+        "type": "TAB:B"
+      },
+      "segments": [
+        {
+          "M": [
+            "M067"
+          ],
+          "M_positions": [
+            0
+          ],
+          "W": "W240",
+          "basis": "catalogue_family_membership",
+          "reversed_W_position": 0
+        },
+        {
+          "M": [
+            "M336"
+          ],
+          "M_positions": [
+            1
+          ],
+          "W": "W705",
+          "basis": "catalogue_family_membership",
+          "reversed_W_position": 1
+        },
+        {
+          "M": [
+            "M089"
+          ],
+          "M_positions": [
+            2
+          ],
+          "W": "W033",
+          "basis": "catalogue_family_membership",
+          "reversed_W_position": 2
+        },
+        {
+          "M": [
+            "M216"
+          ],
+          "M_positions": [
+            3
+          ],
+          "W": "W550",
+          "basis": "source_exposed_pincer_candidates",
+          "reversed_W_position": 3
+        },
+        {
+          "M": [
+            "M254"
+          ],
+          "M_positions": [
+            4
+          ],
+          "W": "W525",
+          "basis": "masked_candidate_not_established_mapping",
+          "reversed_W_position": 4
+        },
+        {
+          "M": [
+            "M176"
+          ],
+          "M_positions": [
+            5
+          ],
+          "W": "W400",
+          "basis": "catalogue_family_membership",
+          "reversed_W_position": 5
+        }
+      ],
+      "source_locator_record": {
+        "authentication": "secondary transcription, two selected complete lines checked; no population error rate or complete physical-object crosswalk",
+        "diplomatic": "+067-336-089-216-254-176+",
+        "exclusion_reasons": [
+          "multiple_source_documents_line_recovery_unverified"
+        ],
+        "id": "GLI-IND-M77-04672",
+        "namespace": "Mahadevan1977",
+        "order": "preserved source array; agrees with reading printed normalized glyphs right to left in two checked examples",
+        "primary_direction_definition": "right to left",
+        "primary_object_definition": "sealing",
+        "site_label_unverified": null,
+        "source_citation": {
+          "derivation": "IM77 text 4672 from indusscript.in Firestore (RMRL, 2021). Original: Mahadevan (1977) The Indus Script: Texts, Concordance and Tables.",
+          "primary_sources": [
+            "I.6",
+            "A.1"
+          ]
+        },
+        "source_direction_code": "1",
+        "source_doc_count": 2,
+        "source_extra": {
+          "doc_count": 2,
+          "fs80": 0,
+          "level": "-4",
+          "textnum": 4672
+        },
+        "source_object_code": "2",
+        "source_reference": "4672",
+        "strict_candidate": false,
+        "tokens": [
+          {
+            "diplomatic": "067",
+            "doubtful": false,
+            "raw": "67",
+            "sign": "M067",
+            "unknown_span": false
+          },
+          {
+            "diplomatic": "336",
+            "doubtful": false,
+            "raw": "336",
+            "sign": "M336",
+            "unknown_span": false
+          },
+          {
+            "diplomatic": "089",
+            "doubtful": false,
+            "raw": "89",
+            "sign": "M089",
+            "unknown_span": false
+          },
+          {
+            "diplomatic": "216",
+            "doubtful": false,
+            "raw": "216",
+            "sign": "M216",
+            "unknown_span": false
+          },
+          {
+            "diplomatic": "254",
+            "doubtful": false,
+            "raw": "254",
+            "sign": "M254",
+            "unknown_span": false
+          },
+          {
+            "diplomatic": "176",
+            "doubtful": false,
+            "raw": "176",
+            "sign": "M176",
+            "unknown_span": false
+          }
+        ],
+        "upstream_artifact_type": "seal"
+      },
+      "status": "Unverified multi-document flat-array source locator only; not a recovered face-level text"
+    },
+    {
+      "W525_candidate": "M254",
+      "lipi_row": {
+        "artifact": "M-1390",
+        "cisi_original": "M-1390",
+        "condition": "Fair",
+        "id": "3684.1",
+        "namespace": "Wells_ICIT_as_exported",
+        "order": "source_file_order",
+        "preservation": "complete",
+        "sequence": [
+          "W400",
+          "W525",
+          "W550"
+        ],
+        "site": "Mohenjo-daro",
+        "type": "TAB:B"
+      },
+      "segments": [
+        {
+          "M": [
+            "M216"
+          ],
+          "M_positions": [
+            0
+          ],
+          "W": "W550",
+          "basis": "source_exposed_pincer_candidates",
+          "reversed_W_position": 0
+        },
+        {
+          "M": [
+            "M254"
+          ],
+          "M_positions": [
+            1
+          ],
+          "W": "W525",
+          "basis": "masked_candidate_not_established_mapping",
+          "reversed_W_position": 1
+        },
+        {
+          "M": [
+            "M176"
+          ],
+          "M_positions": [
+            2
+          ],
+          "W": "W400",
+          "basis": "catalogue_family_membership",
+          "reversed_W_position": 2
+        }
+      ],
+      "source_locator_record": {
+        "authentication": "secondary transcription, two selected complete lines checked; no population error rate or complete physical-object crosswalk",
+        "diplomatic": "+216-254-176+",
+        "exclusion_reasons": [
+          "multiple_source_documents_line_recovery_unverified"
+        ],
+        "id": "GLI-IND-M77-02868",
+        "namespace": "Mahadevan1977",
+        "order": "preserved source array; agrees with reading printed normalized glyphs right to left in two checked examples",
+        "primary_direction_definition": "right to left",
+        "primary_object_definition": "sealing",
+        "site_label_unverified": "Mohenjo-daro",
+        "source_citation": {
+          "derivation": "IM77 text 2868 from indusscript.in Firestore (RMRL, 2021). Original: Mahadevan (1977) The Indus Script: Texts, Concordance and Tables.",
+          "primary_sources": [
+            "I.6",
+            "A.1"
+          ]
+        },
+        "source_direction_code": "1",
+        "source_doc_count": 2,
+        "source_extra": {
+          "doc_count": 2,
+          "fs80": 71,
+          "level": "-20",
+          "textnum": 2868
+        },
+        "source_object_code": "2",
+        "source_reference": "2868",
+        "strict_candidate": false,
+        "tokens": [
+          {
+            "diplomatic": "216",
+            "doubtful": false,
+            "raw": "216",
+            "sign": "M216",
+            "unknown_span": false
+          },
+          {
+            "diplomatic": "254",
+            "doubtful": false,
+            "raw": "254",
+            "sign": "M254",
+            "unknown_span": false
+          },
+          {
+            "diplomatic": "176",
+            "doubtful": false,
+            "raw": "176",
+            "sign": "M176",
+            "unknown_span": false
+          }
+        ],
+        "upstream_artifact_type": "seal"
+      },
+      "status": "Unverified multi-document flat-array source locator only; not a recovered face-level text"
+    }
+  ],
+  "promoted_artifact_identifications": 0,
+  "protocol": {
+    "background": "Prior family memberships and source-exposed W550/W555 candidate set M216/M222, with only the declared W617 to two M245 tokenization rule. Exact order and full sequence consumption. No other unknowns, deletions, rotations or semantic inference.",
+    "established_phonetic_values": 0,
+    "established_semantic_values": 0,
+    "limits": [
+      "A compatible complete context can be a repeated formula on a different object",
+      "A unique candidate code is conditional on incomplete background mappings and available texts",
+      "The masked search is discovery, not a blind prediction or decipherment",
+      "No candidate does not refute a sign value"
+    ],
+    "masked_code": "W525",
+    "masked_domain": "M001 through M417; exactly one M token per W525 occurrence. If W525 repeats in a row, require the same M value throughout that candidate pair.",
+    "post_null_diagnostic": "After the strict search returned zero and candidate record2868 was noticed outside strict, perform a separately labelled source-locator scan of multi-document records whose flat token array has no doubt or unknown and reported directionR/L. Do not add them to strict results or promote their collapsed arrays to recovered face-level texts.",
+    "primary_review": "Independently authenticate older H1123 and M1390 sources if possible; modern tablet rows may postdate M77 and cannot be assumed shared artifacts.",
+    "purpose": "Discover constrained W525 correspondences without guessing a shape or meaning from its code number",
+    "research_date": "2026-09-26",
+    "selection": "All strict Wells rows containing W525; flag membership in the preceding pincer selection. No chronological or physical-identity equivalence assumed.",
+    "status": "Source-exposed missing-code investigation; saved after seeing nine pincer-selected W525 rows, before masked M-code candidate counts"
+  },
+  "rows": [
+    {
+      "W525_candidates": [],
+      "candidate_pair_ids": [],
+      "in_previous_pincer_selection": true,
+      "lipi_row": {
+        "artifact": "H-1123",
+        "cisi_original": "H-1123",
+        "condition": "Good",
+        "id": "313.1",
+        "namespace": "Wells_ICIT_as_exported",
+        "order": "source_file_order",
+        "preservation": "complete",
+        "sequence": [
+          "W525",
+          "W550",
+          "W220"
+        ],
+        "site": "Harappa",
+        "type": "TAB:B"
+      },
+      "unmapped_non_target_codes": []
+    },
+    {
+      "W525_candidates": [],
+      "candidate_pair_ids": [],
+      "in_previous_pincer_selection": true,
+      "lipi_row": {
+        "artifact": "H-1816",
+        "cisi_original": "H-1816",
+        "condition": "Poor",
+        "id": "512.2",
+        "namespace": "Wells_ICIT_as_exported",
+        "order": "source_file_order",
+        "preservation": "complete",
+        "sequence": [
+          "W400",
+          "W525",
+          "W550",
+          "W033",
+          "W705",
+          "W240"
+        ],
+        "site": "Harappa",
+        "type": "TAB:B"
+      },
+      "unmapped_non_target_codes": []
+    },
+    {
+      "W525_candidates": [],
+      "candidate_pair_ids": [],
+      "in_previous_pincer_selection": true,
+      "lipi_row": {
+        "artifact": "H-2069",
+        "cisi_original": "H-2069",
+        "condition": "Good",
+        "id": "532.2",
+        "namespace": "Wells_ICIT_as_exported",
+        "order": "source_file_order",
+        "preservation": "complete",
+        "sequence": [
+          "W700",
+          "W034",
+          "W400",
+          "W525",
+          "W550"
+        ],
+        "site": "Harappa",
+        "type": "TAB:I"
+      },
+      "unmapped_non_target_codes": []
+    },
+    {
+      "W525_candidates": [],
+      "candidate_pair_ids": [],
+      "in_previous_pincer_selection": false,
+      "lipi_row": {
+        "artifact": "H-1817",
+        "cisi_original": "H-1817",
+        "condition": "Good",
+        "id": "624.2",
+        "namespace": "Wells_ICIT_as_exported",
+        "order": "source_file_order",
+        "preservation": "complete",
+        "sequence": [
+          "W400",
+          "W525",
+          "W554"
+        ],
+        "site": "Harappa",
+        "type": "TAB:B"
+      },
+      "unmapped_non_target_codes": []
+    },
+    {
+      "W525_candidates": [],
+      "candidate_pair_ids": [],
+      "in_previous_pincer_selection": true,
+      "lipi_row": {
+        "artifact": "H-1814",
+        "cisi_original": "H-1814",
+        "condition": "Poor",
+        "id": "635.1",
+        "namespace": "Wells_ICIT_as_exported",
+        "order": "source_file_order",
+        "preservation": "complete",
+        "sequence": [
+          "W400",
+          "W525",
+          "W550",
+          "W033",
+          "W705",
+          "W240"
+        ],
+        "site": "Harappa",
+        "type": "TAB:B"
+      },
+      "unmapped_non_target_codes": []
+    },
+    {
+      "W525_candidates": [],
+      "candidate_pair_ids": [],
+      "in_previous_pincer_selection": true,
+      "lipi_row": {
+        "artifact": "H-1813",
+        "cisi_original": "H-1813",
+        "condition": "Fair",
+        "id": "653.1",
+        "namespace": "Wells_ICIT_as_exported",
+        "order": "source_file_order",
+        "preservation": "complete",
+        "sequence": [
+          "W400",
+          "W525",
+          "W550",
+          "W033",
+          "W705",
+          "W220"
+        ],
+        "site": "Harappa",
+        "type": "TAB:B"
+      },
+      "unmapped_non_target_codes": []
+    },
+    {
+      "W525_candidates": [],
+      "candidate_pair_ids": [],
+      "in_previous_pincer_selection": true,
+      "lipi_row": {
+        "artifact": "H-1812",
+        "cisi_original": "H-1812",
+        "condition": "Poor",
+        "id": "867.1",
+        "namespace": "Wells_ICIT_as_exported",
+        "order": "source_file_order",
+        "preservation": "chipped",
+        "sequence": [
+          "W400",
+          "W525",
+          "W550",
+          "W033",
+          "W705",
+          "W240"
+        ],
+        "site": "Harappa",
+        "type": "TAB:B"
+      },
+      "unmapped_non_target_codes": []
+    },
+    {
+      "W525_candidates": [],
+      "candidate_pair_ids": [],
+      "in_previous_pincer_selection": true,
+      "lipi_row": {
+        "artifact": "H-1811",
+        "cisi_original": "H-1811",
+        "condition": "Fair",
+        "id": "916.1",
+        "namespace": "Wells_ICIT_as_exported",
+        "order": "source_file_order",
+        "preservation": "complete",
+        "sequence": [
+          "W400",
+          "W525",
+          "W550",
+          "W033",
+          "W705",
+          "W240"
+        ],
+        "site": "Harappa",
+        "type": "TAB:B"
+      },
+      "unmapped_non_target_codes": []
+    },
+    {
+      "W525_candidates": [],
+      "candidate_pair_ids": [],
+      "in_previous_pincer_selection": true,
+      "lipi_row": {
+        "artifact": "H-774",
+        "cisi_original": "H-774",
+        "condition": "Good",
+        "id": "1666.1",
+        "namespace": "Wells_ICIT_as_exported",
+        "order": "source_file_order",
+        "preservation": "complete",
+        "sequence": [
+          "W400",
+          "W525",
+          "W550",
+          "W033",
+          "W705",
+          "W240"
+        ],
+        "site": "Harappa",
+        "type": "TAB:B"
+      },
+      "unmapped_non_target_codes": []
+    },
+    {
+      "W525_candidates": [],
+      "candidate_pair_ids": [],
+      "in_previous_pincer_selection": true,
+      "lipi_row": {
+        "artifact": "M-1390",
+        "cisi_original": "M-1390",
+        "condition": "Fair",
+        "id": "3684.1",
+        "namespace": "Wells_ICIT_as_exported",
+        "order": "source_file_order",
+        "preservation": "complete",
+        "sequence": [
+          "W400",
+          "W525",
+          "W550"
+        ],
+        "site": "Mohenjo-daro",
+        "type": "TAB:B"
+      },
+      "unmapped_non_target_codes": []
+    }
+  ],
+  "summary": {
+    "candidate_code_pair_incidences": {},
+    "candidate_pairs": 0,
+    "matched_previous_pincer_rows": 0,
+    "matched_rows": 0,
+    "previous_pincer_rows": 9,
+    "rows_with_multiple_candidate_codes": 0,
+    "selected_rows": 10
+  }
+}

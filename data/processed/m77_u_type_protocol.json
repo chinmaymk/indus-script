@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "scope": "All310 references and313 distinct M328-bearing lines from the completed primary concordance recovery",
+  "timing": "Exploratory: candidate object-type cross-tabulation was inspected before this protocol; no confirmatory p-value or preregistration claim",
+  "question": "Does the position and short-field use of M328 vary by the primary catalogue's object classification?",
+  "required_primary_check": "Read object-type column5 in the Texts for each reference. Retain exact metadata text, page and image hash. Do not infer type from a reference range or assume the candidate export is correct.",
+  "comparison": "Report candidate and primary-reviewed classifications separately; preserve discrepancies and unverified records.",
+  "line_identity": "Retain reference/side/line and repeated-U token positions from the reviewed corpus. Object type is reference-level; actual direction is line-level and must not be propagated from first-line metadata.",
+  "analysis": "Descriptive occurrence and reference counts by type and U position, plus undoubted exact long-stroke-plus-U fields. Keep source doubt/loss and reviewer uncertainty; supply loss-free and fully identified sensitivities.",
+  "independence": "Catalogue references are not proven independent physical objects or molds. No significance test treats occurrences as independent trials.",
+  "inference_limit": "Object association can constrain inscription format, but neither a numerical value nor a phonetic/semantic reading follows from classification alone. The catalogue class sealings does not by itself establish a sealing was attached to traded goods.",
+  "downloads": "None planned; use existing primary PDF. Any future download must remain in data/raw with registry provenance."
+}

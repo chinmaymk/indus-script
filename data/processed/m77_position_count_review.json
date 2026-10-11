@@ -1,0 +1,413 @@
+{
+  "status": "Line-relative statistics and doubtful-sign inclusion verified; exact damage-edge allocation rule not established",
+  "sources": [
+    {
+      "path": "data/raw/mahadevan_1977_text.pdf",
+      "bytes": 119302608,
+      "sha256": "6dcdd074a0174e5fab149590fbbf82342711d345764e9763f8e5e92c81cf7f99"
+    },
+    {
+      "path": "data/raw/glossa_canonical_objects.jsonl",
+      "bytes": 22391887,
+      "sha256": "e24f42a95ee4cc1fdb16c789c3edfb937993ed7c82223d6daa96d66895174ae5"
+    }
+  ],
+  "reviewed_images": [
+    {
+      "path": "results/primary_pages/m77-position-21.png",
+      "sha256": "38e2e5a4a6a7e0437f36df29eb7b6c9b1d0647c8e63898655c14039549481282"
+    },
+    {
+      "path": "results/primary_pages/m77-position-32.png",
+      "sha256": "368ddadfa4072836eed7abc893d233b4029550662472c348bfa532292d7723b9"
+    },
+    {
+      "path": "results/primary_pages/m77-position-34.png",
+      "sha256": "b81912c379720bfd2aad929ab24af94ec719ebcae855483ca79517e62863ee71"
+    },
+    {
+      "path": "results/primary_pages/m77-position-626.png",
+      "sha256": "b4c6d6c542c11c795e22469e38419039e7b7406dbc4b618076897777f754867d"
+    },
+    {
+      "path": "results/primary_pages/m77-position-734.png",
+      "sha256": "b20498055cdedceebb39341d2bea60d6f4e31265761649ba74ff59da28ed3ac8"
+    },
+    {
+      "path": "results/primary_pages/m77-position-final-29.png",
+      "sha256": "01e17920869c708761c0374ed8d4343032eae168dd95dd267ff63b0d7da6a62d"
+    },
+    {
+      "path": "results/primary_pages/m77-position-final-575.png",
+      "sha256": "292316d0334ff3fbd2995b533bd78c8776f99262006a8b75095b860e8105b8bb"
+    },
+    {
+      "path": "results/primary_pages/m77-position-final-592.png",
+      "sha256": "7ca656dfc25231db3a5d47a236a596227afdeed89a9fc850f3adb04692a1219c"
+    },
+    {
+      "path": "results/primary_pages/m77-position-final-596.png",
+      "sha256": "dd619a619c6466ca9fa0d4fe356b433bf7ba0ec0260b79edb070d9247e303c71"
+    },
+    {
+      "path": "results/primary_pages/m77-codebook-30.png",
+      "sha256": "2b66004a5f14e0cdd762581ca907347d3a0b8cfbfa0629cf38b6fe86aa2c9cdf"
+    },
+    {
+      "path": "results/primary_pages/m77-codebook-42.png",
+      "sha256": "b4ec143903bd5059cdbf8c524c20e2b0e3b0d0d244065bf6765b9282379b37ce"
+    }
+  ],
+  "definitions": [
+    {
+      "locator": "Printed10/PDF21 §9.3",
+      "finding": "Distribution analysis uses a line because sequence continuity and order among lines of one object or side are not known in advance; numbering of sides/lines is provisional"
+    },
+    {
+      "locator": "Printed18/PDF29 §11.11",
+      "finding": "Positions are solus (one sign forming the whole line), initial, medial, final, all relative to a line",
+      "totals": {
+        "solus": 190,
+        "initial": 3010,
+        "medial": 7196,
+        "final": 2976,
+        "total": 13372
+      }
+    },
+    {
+      "locator": "Printed19/PDF30 §12.1",
+      "finding": "Asterisk marks doubtful sign reading; hatched loss passage may contain one or more signs, whose number cannot be counted"
+    },
+    {
+      "locator": "Printed21/PDF32 §14.3(ii)",
+      "finding": "Concordance includes each legible occurrence, explicitly including starred doubtful signs, once"
+    },
+    {
+      "locator": "Printed21/PDF32 §14.3(iv)",
+      "finding": "Concordance listing order uses whole-text positions; this differs from Table I line-level positions"
+    },
+    {
+      "locator": "Printed23/PDF34 §15.2",
+      "finding": "Table I uses a line as unit; whole-text statistics can instead be collected from Concordance"
+    },
+    {
+      "locator": "Printed723/PDF734 Table I notes",
+      "finding": "Notes define SOL/INI/MED/FIN/TOT and reiterate line as unit; no explicit algorithm for damaged-edge allocation is supplied"
+    }
+  ],
+  "doubtful_sign_tally_conclusion": {
+    "directly_verified": "Starred occurrences are included in the legible-sign concordance inventory",
+    "table_I_inference": "Table I total matches the stated legible-sign corpus total; do not remove doubtful signs when attempting exact reconstruction without an explicitly labelled subset. Separate starred and unstarred tallies remain useful."
+  },
+  "damage_position_limit": {
+    "explicit_rule_found": false,
+    "checked_locators": [
+      "§9.3",
+      "§11.11",
+      "§12.1",
+      "§14.3",
+      "§15.2",
+      "Table I final notes"
+    ],
+    "not_established": [
+      "Whether each known sign adjacent to an edge loss block is counted initial/final or medial",
+      "Whether a line containing one surviving sign plus damage may ever enter solus",
+      "Any fixed length for loss marker"
+    ],
+    "constraint": "Do not silently remove000 or collapse damaged edges before calculating positions and calling the result equivalent to Table I."
+  },
+  "m328_concordance_search": {
+    "verified_start": "Printed564/PDF575 lower half; M327 index gives way to plain-U M328",
+    "verified_inside": "Printed581/PDF592 entirely M328 reference occurrences",
+    "verified_later": "Printed585/PDF596 already indexes M331 and higher; M328 appears in surrounding lines only",
+    "exact_final_M328_page": "Not authenticated in this bounded review",
+    "additional_context_page": "Printed615/PDF626 indexes M342, with omitted M328-final side-lines retained as context",
+    "ocr_warning": "OCR flattened plainU and decoratedU similarly; glyph index must be checked visually"
+  },
+  "omission_witnesses": [
+    {
+      "text_number": "4373",
+      "primary_locator": "Printed615/PDF626",
+      "omitted_side": "2",
+      "omitted_line": "0",
+      "observation": "Separate line ends in plain U (M328) in normalized reading order; no loss block or asterisk visible on this omitted line",
+      "source_of_M328_identity": "Primary sign-list printed34/PDF45 previously visually checked",
+      "canonical_row": {
+        "glossa_id": "GLI-IND-M77-04373",
+        "source_system": "indusscript-m77",
+        "source_object_id": "4373",
+        "artifact_type": "seal",
+        "site_name": null,
+        "locus": "45",
+        "rights_status": "rmrl-research",
+        "text_code_diplomatic": "+067-072-342-388-176+",
+        "sign_id_scheme": "Mahadevan1977",
+        "canonical_grapheme_ids": [
+          "067",
+          "072",
+          "342",
+          "388",
+          "176"
+        ],
+        "sign_instance_count": 5,
+        "raw_signs": [
+          "67",
+          "72",
+          "342",
+          "388",
+          "176"
+        ],
+        "inscobj": "2",
+        "direction": "1",
+        "review_state": "unreviewed",
+        "pipeline_stage": "normalized",
+        "quarantine_reason": null,
+        "_source_extra": {
+          "textnum": 4373,
+          "doc_count": 2,
+          "fs80": 0,
+          "level": "0"
+        },
+        "_citation": {
+          "primary_sources": [
+            "I.6",
+            "A.1"
+          ],
+          "derivation": "IM77 text 4373 from indusscript.in Firestore (RMRL, 2021). Original: Mahadevan (1977) The Indus Script: Texts, Concordance and Tables."
+        },
+        "text_code_diplomatic_normalized": "+067-072-342-388-176+",
+        "crosswalk_coverage": 1.0
+      },
+      "canonical_contains_328": false,
+      "interpretation": "Canonical row omits an independently displayed U-final line; not a reconstructed continuation of its first-side sequence"
+    },
+    {
+      "text_number": "4702",
+      "primary_locator": "Printed615/PDF626",
+      "omitted_side": "2",
+      "omitted_line": "0",
+      "observation": "Separate line ends in plain U (M328) in normalized reading order; no loss block or asterisk visible on this omitted line",
+      "source_of_M328_identity": "Primary sign-list printed34/PDF45 previously visually checked",
+      "canonical_row": {
+        "glossa_id": "GLI-IND-M77-04702",
+        "source_system": "indusscript-m77",
+        "source_object_id": "4702",
+        "artifact_type": "seal",
+        "site_name": null,
+        "locus": "57",
+        "rights_status": "rmrl-research",
+        "text_code_diplomatic": "+067-072-342-388-176+",
+        "sign_id_scheme": "Mahadevan1977",
+        "canonical_grapheme_ids": [
+          "067",
+          "072",
+          "342",
+          "388",
+          "176"
+        ],
+        "sign_instance_count": 5,
+        "raw_signs": [
+          "67",
+          "72",
+          "342",
+          "388",
+          "176"
+        ],
+        "inscobj": "2",
+        "direction": "1",
+        "review_state": "unreviewed",
+        "pipeline_stage": "normalized",
+        "quarantine_reason": null,
+        "_source_extra": {
+          "textnum": 4702,
+          "doc_count": 2,
+          "fs80": 0,
+          "level": "-4"
+        },
+        "_citation": {
+          "primary_sources": [
+            "I.6",
+            "A.1"
+          ],
+          "derivation": "IM77 text 4702 from indusscript.in Firestore (RMRL, 2021). Original: Mahadevan (1977) The Indus Script: Texts, Concordance and Tables."
+        },
+        "text_code_diplomatic_normalized": "+067-072-342-388-176+",
+        "crosswalk_coverage": 1.0
+      },
+      "canonical_contains_328": false,
+      "interpretation": "Canonical row omits an independently displayed U-final line; not a reconstructed continuation of its first-side sequence"
+    },
+    {
+      "text_number": "8117",
+      "primary_locator": "Printed615/PDF626",
+      "omitted_side": "2",
+      "omitted_line": "0",
+      "observation": "Separate line ends in plain U (M328) in normalized reading order; no loss block or asterisk visible on this omitted line",
+      "source_of_M328_identity": "Primary sign-list printed34/PDF45 previously visually checked",
+      "canonical_row": {
+        "glossa_id": "GLI-IND-M77-08117",
+        "source_system": "indusscript-m77",
+        "source_object_id": "8117",
+        "artifact_type": "seal",
+        "site_name": null,
+        "locus": "89",
+        "rights_status": "rmrl-research",
+        "text_code_diplomatic": "+076-342-176+",
+        "sign_id_scheme": "Mahadevan1977",
+        "canonical_grapheme_ids": [
+          "076",
+          "342",
+          "176"
+        ],
+        "sign_instance_count": 3,
+        "raw_signs": [
+          "76",
+          "342",
+          "176"
+        ],
+        "inscobj": "2",
+        "direction": "1",
+        "review_state": "unreviewed",
+        "pipeline_stage": "normalized",
+        "quarantine_reason": null,
+        "_source_extra": {
+          "textnum": 8117,
+          "doc_count": 2,
+          "fs80": 0,
+          "level": "0"
+        },
+        "_citation": {
+          "primary_sources": [
+            "I.6",
+            "A.1"
+          ],
+          "derivation": "IM77 text 8117 from indusscript.in Firestore (RMRL, 2021). Original: Mahadevan (1977) The Indus Script: Texts, Concordance and Tables."
+        },
+        "text_code_diplomatic_normalized": "+076-342-176+",
+        "crosswalk_coverage": 1.0
+      },
+      "canonical_contains_328": false,
+      "interpretation": "Canonical row omits an independently displayed U-final line; not a reconstructed continuation of its first-side sequence"
+    },
+    {
+      "text_number": "4428",
+      "primary_locator": "Printed581/PDF592",
+      "omitted_side": "2",
+      "omitted_line": "0",
+      "observation": "Separate line ends in plain U (M328) in normalized reading order; no loss block or asterisk visible on this omitted line",
+      "source_of_M328_identity": "Primary sign-list printed34/PDF45 previously visually checked",
+      "canonical_row": {
+        "glossa_id": "GLI-IND-M77-04428",
+        "source_system": "indusscript-m77",
+        "source_object_id": "4428",
+        "artifact_type": "seal",
+        "site_name": null,
+        "locus": "41",
+        "rights_status": "rmrl-research",
+        "text_code_diplomatic": "+072-211+",
+        "sign_id_scheme": "Mahadevan1977",
+        "canonical_grapheme_ids": [
+          "072",
+          "211"
+        ],
+        "sign_instance_count": 2,
+        "raw_signs": [
+          "72",
+          "211"
+        ],
+        "inscobj": "3",
+        "direction": "1",
+        "review_state": "unreviewed",
+        "pipeline_stage": "normalized",
+        "quarantine_reason": null,
+        "_source_extra": {
+          "textnum": 4428,
+          "doc_count": 2,
+          "fs80": 371,
+          "level": "-10"
+        },
+        "_citation": {
+          "primary_sources": [
+            "I.6",
+            "A.1"
+          ],
+          "derivation": "IM77 text 4428 from indusscript.in Firestore (RMRL, 2021). Original: Mahadevan (1977) The Indus Script: Texts, Concordance and Tables."
+        },
+        "text_code_diplomatic_normalized": "+072-211+",
+        "crosswalk_coverage": 1.0
+      },
+      "canonical_contains_328": false,
+      "interpretation": "Canonical row omits an independently displayed U-final line; not a reconstructed continuation of its first-side sequence"
+    },
+    {
+      "text_number": "4576",
+      "primary_locator": "Printed581/PDF592",
+      "omitted_side": "3",
+      "omitted_line": "0",
+      "observation": "Separate line ends in plain U (M328) in normalized reading order; no loss block or asterisk visible on this omitted line",
+      "source_of_M328_identity": "Primary sign-list printed34/PDF45 previously visually checked",
+      "canonical_row": {
+        "glossa_id": "GLI-IND-M77-04576",
+        "source_system": "indusscript-m77",
+        "source_object_id": "4576",
+        "artifact_type": "seal",
+        "site_name": null,
+        "locus": "40",
+        "rights_status": "rmrl-research",
+        "text_code_diplomatic": "+067-244-149-342+",
+        "sign_id_scheme": "Mahadevan1977",
+        "canonical_grapheme_ids": [
+          "067",
+          "244",
+          "149",
+          "342"
+        ],
+        "sign_instance_count": 4,
+        "raw_signs": [
+          "67",
+          "244",
+          "149",
+          "342"
+        ],
+        "inscobj": "3",
+        "direction": "3",
+        "review_state": "unreviewed",
+        "pipeline_stage": "normalized",
+        "quarantine_reason": null,
+        "_source_extra": {
+          "textnum": 4576,
+          "doc_count": 3,
+          "fs80": 0,
+          "level": "-10"
+        },
+        "_citation": {
+          "primary_sources": [
+            "I.6",
+            "A.1"
+          ],
+          "derivation": "IM77 text 4576 from indusscript.in Firestore (RMRL, 2021). Original: Mahadevan (1977) The Indus Script: Texts, Concordance and Tables."
+        },
+        "text_code_diplomatic_normalized": "+067-244-149-342+",
+        "crosswalk_coverage": 1.0
+      },
+      "canonical_contains_328": false,
+      "interpretation": "Canonical row omits an independently displayed U-final line; not a reconstructed continuation of its first-side sequence"
+    }
+  ],
+  "damaged_witnesses_not_repaired": [
+    {
+      "text_number": "4639",
+      "locator": "Printed564/PDF575",
+      "side": "2",
+      "observation": "PlainU plus loss block; not called a complete solus line and not restored to a missing stroke pattern"
+    },
+    {
+      "text_number": "5456",
+      "locator": "Printed564/PDF575",
+      "side": "2",
+      "observation": "PlainU plus loss block; same boundary limitation"
+    }
+  ],
+  "subtraction_scope": "Primary marginals minus validated retained occurrences can describe a conditional residual only when sign identity, multiplicity, line unit and position policy align. Complete independently delimited lines avoid the unverified damaged-edge rule; arbitrary object-level concatenation does not. No corpus-wide residual counts calculated here.",
+  "downloads": []
+}

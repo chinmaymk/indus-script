@@ -1,0 +1,84 @@
+{
+  "schema_version": 1,
+  "status": "pending_parent_registration",
+  "records": [
+    {
+      "path": "data/raw/pottery-text-vats-leaf312.jpg",
+      "bytes": 2855382,
+      "sha256": "78803fd92fd0fc56ec9821a5de28fdc60248555304fe79f3e39b1dc581d7ba27",
+      "url": "https://archive.org/download/in.gov.ignca.18220/page/n312.jpg",
+      "resolved_url": "https://ia801804.us.archive.org/BookReader/BookReaderImages.php?id=in.gov.ignca.18220&itemPath=%2F28%2Fitems%2Fin.gov.ignca.18220&server=ia801804.us.archive.org&page=n312.jpg",
+      "kind": "downloaded_primary_page_image",
+      "http_status": 200,
+      "response_complete": true,
+      "pending_registration": true
+    },
+    {
+      "path": "data/raw/pottery-text-vats-leaf312.jpg.headers.json",
+      "bytes": 2236,
+      "sha256": "81cbfdf622e00107ff26484921e74e9cb4cdf56993cf9a404d495f94e8006577",
+      "kind": "locally_serialized_HTTP_response_headers",
+      "url": "https://archive.org/download/in.gov.ignca.18220/page/n312.jpg",
+      "pending_registration": true
+    },
+    {
+      "path": "data/raw/pottery-text-vats-leaf313.jpg",
+      "bytes": 2924833,
+      "sha256": "4e4f43d65d97fb6f13f6262dc3ecd4b8a05830078c14515f819e7d7bdd7f1b6b",
+      "url": "https://archive.org/download/in.gov.ignca.18220/page/n313.jpg",
+      "resolved_url": "https://ia601804.us.archive.org/BookReader/BookReaderImages.php?id=in.gov.ignca.18220&itemPath=%2F28%2Fitems%2Fin.gov.ignca.18220&server=ia601804.us.archive.org&page=n313.jpg",
+      "kind": "downloaded_primary_page_image",
+      "http_status": 200,
+      "response_complete": true,
+      "pending_registration": true
+    },
+    {
+      "path": "data/raw/pottery-text-vats-leaf313.jpg.headers.json",
+      "bytes": 2236,
+      "sha256": "5acc3a438574848755817a66a5943a17896b20022898ab4bacdf1a9f39a3db19",
+      "kind": "locally_serialized_HTTP_response_headers",
+      "url": "https://archive.org/download/in.gov.ignca.18220/page/n313.jpg",
+      "pending_registration": true
+    },
+    {
+      "path": "data/raw/pottery-text-vats-p286-discussion.png",
+      "bytes": 4582327,
+      "sha256": "b21df3ac50c388a1472ba0c9b6d6936f2e91b73e9c51c1683b707b868f67952e",
+      "url": null,
+      "kind": "local_unretouched_page_crop",
+      "parent": {
+        "path": "data/raw/pottery-text-vats-leaf312.jpg",
+        "bytes": 2855382,
+        "sha256": "78803fd92fd0fc56ec9821a5de28fdc60248555304fe79f3e39b1dc581d7ba27"
+      },
+      "printed_page": 286,
+      "crop_box_xyxy": [
+        856,
+        4587,
+        4849,
+        6652
+      ],
+      "pending_registration": true
+    },
+    {
+      "path": "data/raw/pottery-text-vats-p287-discussion.png",
+      "bytes": 6034199,
+      "sha256": "5df3b69ac807b617d87cf9f51f9226a3e3d7dda957600d8b43af7d5690ebf8ba",
+      "url": null,
+      "kind": "local_unretouched_page_crop",
+      "parent": {
+        "path": "data/raw/pottery-text-vats-leaf313.jpg",
+        "bytes": 2924833,
+        "sha256": "4e4f43d65d97fb6f13f6262dc3ecd4b8a05830078c14515f819e7d7bdd7f1b6b"
+      },
+      "printed_page": 287,
+      "crop_box_xyxy": [
+        859,
+        961,
+        4926,
+        3439
+      ],
+      "pending_registration": true
+    }
+  ]
+}

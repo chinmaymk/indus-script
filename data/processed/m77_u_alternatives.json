@@ -1,0 +1,328 @@
+{
+  "review_date": "2026-09-23",
+  "scope": "Bounded independent challenge to quantity interpretation of recovered M77 paired fields. No p-values from sorted pages; no semantic translations.",
+  "sources": [
+    {
+      "path": "data/raw/mahadevan_1977_text.pdf",
+      "bytes": 119302608,
+      "sha256": "6dcdd074a0174e5fab149590fbbf82342711d345764e9763f8e5e92c81cf7f99"
+    },
+    {
+      "path": "data/processed/m77_u_paired_context_review.json",
+      "bytes": 10156,
+      "sha256": "8ee66771e58c2ef8292c9f5a7446102ed82dc37138fc9becfa644e921e221068"
+    },
+    {
+      "path": "data/processed/m77_u_pilot_normalized.jsonl",
+      "bytes": 62969,
+      "sha256": "c8985530af4ac31b9d96c9d2b588a9af7fee26ff840d73af09a804fe57e4c128"
+    },
+    {
+      "path": "data/raw/harp_tablet_context_web_capture.json",
+      "bytes": 26681,
+      "sha256": "03fc95907e2a37fca3cb6a217d6fb751d15e96cfca4e300d931ed605bba980c8"
+    }
+  ],
+  "literature_capture_note": "Raw JSON is an archived web-tool text extraction, not original PDF bytes. Colleague download attempts returned403. No duplicate downloads here. Parent registers capture.",
+  "literature": [
+    {
+      "authors": "J.Mark Kenoyer and Richard H.Meadow",
+      "year": 2010,
+      "title": "Inscribed Objects from Harappa Excavations1986–2007",
+      "url": "https://www.harappa.com/sites/default/files/pdf/KenoyerMeadow%202010%20Inscribed%20Objects%20from%20Harappa.pdf",
+      "pdf_pages_1based": [
+        6,
+        7
+      ],
+      "web_text_lines": [
+        192,
+        230
+      ],
+      "relevant_observations": [
+        "Distinguishes incised copies from same-mold duplicates.",
+        "Same sequences can occur on different molds.",
+        "22incised copies and31molded duplicates; secondary deposition.",
+        "Purpose remains uncertain."
+      ],
+      "applies_to_exact_triad": false
+    },
+    {
+      "authors": "Richard H.Meadow and Jonathan Mark Kenoyer",
+      "year": 2000,
+      "title": "The Tiny Steatite Seals (Incised Steatite Tablets) of Harappa: Some Observations on Their Context and Dating",
+      "url": "https://www.harappa.com/sites/default/files/pdf/Kenoyer2000_The%20Tiny%20Steatite%20Seals%20of%20Harappa.pdf",
+      "pdf_pages_1based": [
+        14,
+        16,
+        17,
+        18
+      ],
+      "web_text_lines": [
+        385,
+        503
+      ],
+      "relevant_observations": [
+        "22tablets with same inscriptions; variable side arrangement/orientation.",
+        "Microscopic study recognizes at least3engravers.",
+        "Concurrent vs accumulated manufacture left open.",
+        "Expiry/currentness discussed as interpretation, not decoded calendar values."
+      ],
+      "applies_to_exact_triad": false
+    }
+  ],
+  "duplicate_sensitivity": {
+    "input_reference_count": 9,
+    "distinct_paired_patterns": 7,
+    "groups": [
+      {
+        "main": [
+          "M391",
+          "M099",
+          "M040"
+        ],
+        "distinct_auxiliary_states": 2,
+        "pairs": [
+          {
+            "auxiliary": [
+              "M087",
+              "M328"
+            ],
+            "references": [
+              "4665"
+            ]
+          },
+          {
+            "auxiliary": [
+              "M089",
+              "M328"
+            ],
+            "references": [
+              "4601"
+            ]
+          }
+        ]
+      },
+      {
+        "main": [
+          "M175",
+          "M176",
+          "M211",
+          "M176"
+        ],
+        "distinct_auxiliary_states": 2,
+        "pairs": [
+          {
+            "auxiliary": [
+              "M087",
+              "M328"
+            ],
+            "references": [
+              "5270"
+            ]
+          },
+          {
+            "auxiliary": [
+              "M089",
+              "M328"
+            ],
+            "references": [
+              "4684"
+            ]
+          }
+        ]
+      },
+      {
+        "main": [
+          "M048",
+          "M342",
+          "M176"
+        ],
+        "distinct_auxiliary_states": 3,
+        "pairs": [
+          {
+            "auxiliary": [
+              "M087",
+              "M328"
+            ],
+            "references": [
+              "4548",
+              "5464"
+            ]
+          },
+          {
+            "auxiliary": [
+              "M089",
+              "M328"
+            ],
+            "references": [
+              "4509",
+              "4387"
+            ]
+          },
+          {
+            "auxiliary": [
+              "M095",
+              "M328"
+            ],
+            "references": [
+              "4508"
+            ]
+          }
+        ]
+      }
+    ],
+    "unit": "Observed main+auxiliary pair, not verified manufacturing event, whole artifact or mold.",
+    "result": "Textual duplicate collapse reduces9selected reference records to7paired patterns but retains2,3,4states for the M048 M342 M176 main.",
+    "reproduction": "Build main[reference] from paired_context_review.contexts; auxiliary[reference] from normalized pilot plus supplemental_fields; group by tuple(main),tuple(auxiliary); keep reference lists. Assert9references and7distinct pairs."
+  },
+  "controlled_primary_triads": [
+    {
+      "reference": "4548",
+      "pdf_page": 130,
+      "main_code": "310001",
+      "auxiliary_code": "20001",
+      "object_type_code": "3",
+      "object_type": "miniature tablet",
+      "actual_direction_both_sides": "1 (right to left)",
+      "main": [
+        "M048",
+        "M342",
+        "M176"
+      ],
+      "field": [
+        "M087",
+        "M328"
+      ],
+      "status": "Primary original Texts codes and normalized glyphs visually checked by parent and independent reviewer"
+    },
+    {
+      "reference": "4509",
+      "pdf_page": 128,
+      "main_code": "310001",
+      "auxiliary_code": "20001",
+      "object_type_code": "3",
+      "object_type": "miniature tablet",
+      "actual_direction_both_sides": "1 (right to left)",
+      "main": [
+        "M048",
+        "M342",
+        "M176"
+      ],
+      "field": [
+        "M089",
+        "M328"
+      ],
+      "status": "Primary original Texts codes and normalized glyphs visually checked by parent and independent reviewer"
+    },
+    {
+      "reference": "4508",
+      "pdf_page": 128,
+      "main_code": "310001",
+      "auxiliary_code": "20001",
+      "object_type_code": "3",
+      "object_type": "miniature tablet",
+      "actual_direction_both_sides": "1 (right to left)",
+      "main": [
+        "M048",
+        "M342",
+        "M176"
+      ],
+      "field": [
+        "M095",
+        "M328"
+      ],
+      "status": "Primary original Texts codes and normalized glyphs visually checked by parent and independent reviewer"
+    }
+  ],
+  "conditional_exact_test": "If c=f(main,object_type_code,side_layout,actual_directions) is single-valued, the primary-reviewed triad is a contradiction: these inputs match while c differs2/3/4. The test does not condition on unknown material/tooling/date/mold.",
+  "hypotheses": [
+    {
+      "id": "H1_fixed_template",
+      "hypothesis": "All observed graphic variation is merely faithful copying of one unchanged complete mold/template.",
+      "prediction": "Full readable signs on the same template must have the same stroke group.",
+      "test": "Selected same-main triad contains primary-reviewed2,3,4 long-stroke groups; exact-pair dedup retains all three.",
+      "status": "Contradicted for one unchanged faithful complete template, conditional on correct source readings.",
+      "surviving_variants": [
+        "Different molds",
+        "Interchangeable side molds",
+        "Reworked molds",
+        "Hand copying",
+        "Damage or transcription errors requiring independent evidence"
+      ],
+      "limitation": "Exact mold identity of these objects is unknown; this does not reject manufacture as a source of statistical dependence."
+    },
+    {
+      "id": "H2_lot_category",
+      "hypothesis": "Stroke group is a non-amount production-lot label, constant within independently defined lot.",
+      "prediction": "Blinded composition/tooling/production-context lot membership predicts count category in withheld objects.",
+      "falsifier": "Different clear categories within one independently defined constant-label lot.",
+      "status": "Untested; exact lot metadata missing.",
+      "anti_circularity": "Do not define lot by count or assign each discrepant object a new lot after seeing results.",
+      "not_exclusive_of_quantity": "Quantity tokens may also be produced by denomination-specific lots."
+    },
+    {
+      "id": "H3_allography",
+      "hypothesis": "Two/three/four groups are stylistic variants conditioned on engraver, mold family or available space.",
+      "prediction": "Independent microscopic style or available-space measurements predict variants on withheld objects under a fixed mapping.",
+      "falsifier": "Failure of the locked predictor, including distinct forms within a group where model predicts one, rejects that restricted model.",
+      "status": "Not established; normalized drawings are inadequate for microstyle or width analysis.",
+      "comparative_evidence": "2000 paper reports same inscriptions copied by at least3engravers, so same inscription is not one engraver. This does not prove or refute the exact triad allographic hypothesis."
+    },
+    {
+      "id": "H4_nonamount_category",
+      "hypothesis": "Auxiliary state labels an independently defined class rather than a quantity.",
+      "prediction": "Predefined material/shape/context categories predict auxiliary state across new objects and main strings.",
+      "tested_restriction": "State determined by exact main, coarse objecttype3, side layout and original directions alone.",
+      "status": "Tested restriction contradicted by4548/4509/4508; finer classes remain untested.",
+      "falsifier": "Different states within an independently defined class if model promises one fixed state.",
+      "anti_circularity": "Arbitrary A/B/C renaming has no independent test and is not positive evidence."
+    },
+    {
+      "id": "H5_chronological_style",
+      "hypothesis": "Graphic form changes in specified production intervals.",
+      "prediction": "Predetermined independent chronological bins predict ordered replacement across multiple main strings.",
+      "falsifier": "All forms in a securely contemporary primary production assemblage contradict a strict single-form-per-interval rule.",
+      "status": "Untested; no narrow production dates for exact triad.",
+      "limitations": [
+        "Secondary dumps may mix manufacture dates",
+        "Production/use/deposition are different events",
+        "Coarse period dating does not establish annual code"
+      ]
+    },
+    {
+      "id": "H6_validity_category",
+      "hypothesis": "Auxiliary group is an issue/validity-period category rather than represented amount.",
+      "prediction": "Independently known issue episodes predict field categories under a frozen mapping.",
+      "status": "No decoded date or independent issue mapping; paper discussion of expiry is tentative motivation only.",
+      "falsifier": "Verified issue episodes conflicting with fixed proposed categories; model must specify handling of reuse before test."
+    },
+    {
+      "id": "H7_damage",
+      "hypothesis": "Count differences result solely from damage, incomplete impressions or copying error.",
+      "prediction": "Original photographs/microscopy reveal missing/added/recut strokes and support one underlying form.",
+      "status": "No loss/doubt marked in strongest triad drawings; original-object verification still needed.",
+      "falsifier": "Clearly complete undamaged differing groups undermine a damage-only account."
+    }
+  ],
+  "currently_missing_independent_metadata": [
+    "Exact primary photograph/CISI joins for4508/4509/4548 in this review",
+    "Material and production technique",
+    "Verified mold/tool-mark groups",
+    "Narrow production dates",
+    "Represented quantity/unit or independently known category"
+  ],
+  "recommended_discriminating_design": [
+    "Obtain exact object joins and original surface images.",
+    "Assign manufacture/material/context groups blinded to count.",
+    "Predefine conditional predictions and exceptions.",
+    "Deduplicate verified molds for inferential counts while retaining every object ledger.",
+    "Evaluate predictions on further objects not used to define grouping; separately test any numerical calibration."
+  ],
+  "conclusion": "Replication is a real dependence mechanism but does not alone remove the primary graphic variation. A separately varying non-amount category associated with production/use remains viable but unverified. No quantity, date, category or phonetic interpretation wins from this pilot alone.",
+  "limits": [
+    "Exploratory observations after source exposure, not preregistered outcomes.",
+    "No assumption that identical normalized text means same mold, same hand or independent transaction.",
+    "The published22/31tablet sets are contextual analogues, not identified members of the exact matched triad.",
+    "No execution of downloaded code; no new raw files written by this agent."
+  ]
+}

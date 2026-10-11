@@ -1,0 +1,62 @@
+{
+  "status": "Exploratory source-exposed audit; fixed after named rows and published claims, before corpus counts",
+  "source": "2025 IRC bulletin sections4.2 and7",
+  "claims": [
+    "Two Kalibangan pipes were repurposed to hold gemstone-bead strings",
+    "W215/W216-like forms occur on13 seals,9 inscriptions longer than2 signs,4 of those with fish or proposed gold-like signs"
+  ],
+  "chain_codes": [
+    "W215",
+    "W216"
+  ],
+  "fish_families": [
+    "P050",
+    "P051",
+    "P056",
+    "P057",
+    "P058",
+    "P059",
+    "P060",
+    "P061",
+    "P062",
+    "P063",
+    "P064"
+  ],
+  "gold_candidate_codes": [
+    "W705",
+    "W706"
+  ],
+  "gold_candidate_caveat": "Exact U-shaped candidates authenticated against bulletin section4.1 and positions in named Figure7 rows; semantic gold remains only the author's hypothesis. No automatic expansion to W704/W707.",
+  "counts": "List all exact certain W215/W216 occurrences across raw rows, preserving damage and row/object identity. Report seals, literal length>2 and combined fish/proposed-gold cases. Unknowns cannot be counted as absence.",
+  "matched_comparison": {
+    "universe": "Single-row objects in existing strict corpus, with raw complete=Y and preservation=complete, literal type starting SEAL and token length>2",
+    "primary_strata": [
+      "site",
+      "literal type",
+      "exact token length"
+    ],
+    "targets": [
+      "selected fish family",
+      "plain W220",
+      "W705/W706 attributed gold candidates",
+      "fish-or-W705/W706"
+    ],
+    "statistic": "Number of chain-bearing objects positive for target",
+    "null": "Fixed margins within strata; target labels exchangeable conditional on site/type/length; exact hypergeometric convolution",
+    "sensitivity": "Deduplicate by site, literal type and entire exact sequence; distinct objects are retained in primary, identical text types in sensitivity",
+    "interpretation": "Descriptive calibration of a selected published pattern, not confirmatory p-values, random archaeological sampling, causation, or a semantic test"
+  },
+  "physical_anchor_requirements": [
+    "Exact artifact identity",
+    "Independent contents or diagnostic residues",
+    "Closure/usewear or other storage evidence",
+    "Excavation join versus modern juxtaposition",
+    "Registration and incision timing separately sourced"
+  ],
+  "established_semantic_value": null,
+  "established_phonetic_value": null,
+  "post_count_corrections": [
+    "Initial common-glyph guess W480 was wrong about the published gold candidate. Archived initial protocol and rejected probe result; no conclusions from that probe. Independent figure review selected W705/W706 after initial counts, so this is explicitly retrospective correction.",
+    "Raw certain-token extraction now excludes slash-adjacent ambiguous codes and unknown000/999. Positive surviving signs remain usable, but missing targets in unreadable rows are unknown rather than negative. Strict matched sample unaffected."
+  ]
+}

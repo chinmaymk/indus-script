@@ -1,0 +1,168 @@
+{
+  "date": "2026-09-27",
+  "target": "H-1123",
+  "status": "outside_CISI2_coverage_identity_conflict_unresolved",
+  "semantic_values": null,
+  "phonetic_values": null,
+  "new_downloads": [],
+  "central_files_edited": false,
+  "primary_coverage": {
+    "contents_pdf_page": 6,
+    "contents_printed_page": "III",
+    "harappa_ids": [
+      "H266-H275",
+      "H356*",
+      "H383-H1019"
+    ],
+    "final_photo_printed_page": 351,
+    "final_photo_pdf_page": 386,
+    "final_basic_data_printed_page": 445,
+    "final_basic_data_pdf_page": 480,
+    "corrigenda_printed_page": 447,
+    "corrigenda_pdf_page": 482,
+    "target_not_in_stated_range": true,
+    "no_relevant_correction_in_inspected_corrigenda": true
+  },
+  "existing_conflict": {
+    "primary_Vats_field": "9015",
+    "primary_Vats_plate": "XCIV",
+    "primary_Vats_item": 356,
+    "primary_Vats_printed_page": 33,
+    "primary_Vats_locus": "J9/3",
+    "primary_Vats_depth_feet": 13,
+    "secondary_raw_field": "9015360",
+    "secondary_texts": [
+      "+525-550-220+",
+      "+700-032+"
+    ],
+    "secondary_rows": [
+      "313.1",
+      "313.2"
+    ],
+    "plate_items_356_360_distinct": true,
+    "field9015_to_item360_authenticated": false,
+    "H1123_alias_primary_authenticated": false,
+    "cause_of_conflict": null,
+    "correction_applied": false
+  },
+  "failed_locators_file": "data/processed/h1123_cisi2_locators.json",
+  "limits": [
+    "No claim that the physical object cannot occur under a different CISI2 alias",
+    "OCR absence alone is not evidence of absence",
+    "CISI H356* is not Vats XCIV356",
+    "Finnish numbers not equated with Mahadevan numbers",
+    "No sign or semantic mapping promoted"
+  ],
+  "evidence_files": [
+    {
+      "path": "docs/H1123_CISI2_REVIEW.md",
+      "bytes": 4411,
+      "sha256": "543c55e02f67f269664760e05d4f8d06d6ded71ccf3b67b736a0075cedba51af"
+    },
+    {
+      "path": "data/raw/h843_identity_CorpusVol2.pdf",
+      "bytes": 35870617,
+      "sha256": "727132579a485ee626e48a64c663148a85fbc0811fb523818fd615231f8a327d"
+    },
+    {
+      "path": "data/raw/h843_identity_CorpusVol2_djvu.txt",
+      "bytes": 218644,
+      "sha256": "ae797e9bc4bed1993e6997030a62bcbb5e0b2900ca8812e5ab3f392915c0abf9"
+    },
+    {
+      "path": "data/raw/w525_vats_leaf59.jpg",
+      "bytes": 2267752,
+      "sha256": "3dd13b2b206894fe81fad419df3f7ce1455e8c40f2693189bea01142ab075bb9"
+    },
+    {
+      "path": "docs/W525_PRIMARY_REVIEW.md",
+      "bytes": 8431,
+      "sha256": "183be1eb3e052fc1cdbd4ffd574a812306f7c5cb8b4c492ce457988613a97682"
+    },
+    {
+      "path": "data/processed/w525_primary_review.json",
+      "bytes": 12586,
+      "sha256": "973acc34cfe4703cf4a5074f32314749783ed98994246a6445e19ee975d6212e"
+    },
+    {
+      "path": "scripts/audit_h1123_cisi2.py",
+      "bytes": 1423,
+      "sha256": "c17b955ac23225a767627e12ac8f83deebcb4a93f13c17610078ea297eb269a2"
+    },
+    {
+      "path": "scripts/inspect_research_pdf.py",
+      "bytes": 2775,
+      "sha256": "15e90b9cd0e00cd67991eeb50cb83599e1ae75825c8a39fb9ec16cea1c22bc03"
+    },
+    {
+      "path": "scripts/render_w525_crops.py",
+      "bytes": 1614,
+      "sha256": "1ac13c2dbd53f44f4530deadd68d8dc64f1c5b3e3c4d54095d6857530f763881"
+    },
+    {
+      "path": "data/processed/h1123_cisi2_locators.json",
+      "bytes": 591,
+      "sha256": "7d111288aa6f418fb52b6738a0694a6df36347bac84ec80cb994c13c02d4492f"
+    },
+    {
+      "path": "results/h1123-cisi2_extraction.json",
+      "bytes": 401,
+      "sha256": "7d1eeed75ffcb27c5bcea601036908336bdfa171ae4cdd5b9a7cd16d98add332"
+    },
+    {
+      "path": "results/primary_pages/h1123-cisi2-6.png",
+      "bytes": 2930330,
+      "sha256": "ad44d4a98d793ac9bd3316050272ab05196b5f49d92a66c8e76f501ecb40003a"
+    },
+    {
+      "path": "results/primary_pages/h1123-cisi2-386.png",
+      "bytes": 1821656,
+      "sha256": "d88ee36a8292238f83b5fb55564091eafb9e3106af998fa3cfb56cbbf1a6fc29"
+    },
+    {
+      "path": "results/primary_pages/h1123-cisi2-480.png",
+      "bytes": 3113487,
+      "sha256": "894db0a2a0112c482908e590e7204a7a6b3db1996a2bff46e3342bfe9d1857f8"
+    },
+    {
+      "path": "results/primary_pages/h1123-cisi2-482.png",
+      "bytes": 2846533,
+      "sha256": "55f31637c8c79251d96b875ac2a7fc2d08354f5a394c8246a4b02455ab1345fd"
+    },
+    {
+      "path": "results/primary_pages/h1123-cisi2-coverage.png",
+      "bytes": 318503,
+      "sha256": "8577479b202688fb09ce32df8563dc940acea468e5c1b7afdcc147594202a0f3"
+    },
+    {
+      "path": "results/primary_pages/h1123-cisi2-end-data.png",
+      "bytes": 166765,
+      "sha256": "61cac4aa9dde9912471c8c53602049d71cc03a4b4c19acfa0ec8a899061eed43"
+    },
+    {
+      "path": "results/primary_pages/h1123-cisi2-corrigenda.png",
+      "bytes": 132450,
+      "sha256": "c67831ea02f99a8e395b4442c456efc33103487570940642261daa725d85084b"
+    },
+    {
+      "path": "results/primary_pages/w525-vats-9015-metadata.png",
+      "bytes": 730160,
+      "sha256": "43f36f4ab94cb4b0c5e713f56731c41db57f01253fcf41f2de41d74138a5546b"
+    },
+    {
+      "path": "results/primary_pages/w525-vats-356.png",
+      "bytes": 35479,
+      "sha256": "db8d29aacee01c2f653c07104c350ba81d5881462a96fe7fa8b98a8cd19e9ec2"
+    },
+    {
+      "path": "results/primary_pages/w525-vats-360.png",
+      "bytes": 58690,
+      "sha256": "637d234ce848ed68d86c3a0aa187bfd86151717af74aa061faaa2969c8d73be7"
+    },
+    {
+      "path": "results/primary_pages/w525-vats-xciv-196.png",
+      "bytes": 3185991,
+      "sha256": "44124d790bcf5db44ad571be46f1a4bebfaf93a14c6bbeb5210a1a44b0865428"
+    }
+  ]
+}

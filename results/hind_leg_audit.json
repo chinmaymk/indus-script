@@ -1,0 +1,163 @@
+{
+  "direct_catalogue_entries": {
+    "W220": [
+      {
+        "description": "Fish with no other decoration",
+        "features": [],
+        "id": "P050",
+        "mahadevan_graphemes": [
+          "M059"
+        ],
+        "parpola_graphemes": [
+          "V177",
+          "V517"
+        ],
+        "source_path": "features/P050.json",
+        "wells_graphemes": [
+          "W220"
+        ]
+      }
+    ],
+    "W278": [],
+    "W279": [],
+    "W280": [
+      {
+        "description": "Cow's leg with horizontal hatching",
+        "features": [
+          {
+            "description": "Number of horizontal hatches",
+            "hatch_count": "integer"
+          }
+        ],
+        "id": "P045",
+        "mahadevan_graphemes": [
+          "M084"
+        ],
+        "parpola_graphemes": [
+          "V328",
+          "V269"
+        ],
+        "source_path": "features/P045.json",
+        "wells_graphemes": [
+          "W280"
+        ]
+      }
+    ],
+    "W281": [
+      {
+        "description": "Cow's leg with horizontal hatching, bracketed by angled vertical lines",
+        "features": [
+          {
+            "description": "Number of horizontal hatches",
+            "hatch_count": "integer"
+          }
+        ],
+        "id": "P046",
+        "mahadevan_graphemes": [
+          "M085"
+        ],
+        "parpola_graphemes": [
+          "V408"
+        ],
+        "source_path": "features/P046.json",
+        "wells_graphemes": [
+          "W281"
+        ]
+      }
+    ],
+    "W345": [
+      {
+        "description": "Deer facing to the right (see also P303)",
+        "features": [
+          {
+            "description": "What shape is the head? 0 = realistic with round ears, 1 = realistic with line ears, 2 = inverted triangle, 3 = no head on neck, 4 = caret on neck, 5 = triangles on left side, 6 = triangles on both sides, 7 = plus sign",
+            "head_shape": "integer"
+          }
+        ],
+        "id": "P043",
+        "mahadevan_graphemes": [
+          "M050"
+        ],
+        "parpola_graphemes": [
+          "V288"
+        ],
+        "source_path": "features/P043.json",
+        "wells_graphemes": [
+          "W340",
+          "W341",
+          "W342",
+          "W343",
+          "W344",
+          "W345",
+          "W347",
+          "W348"
+        ]
+      }
+    ]
+  },
+  "interpretation": "Occurrence counts and source-aligned candidate codes, not semantic validation or a universal star-name rule.",
+  "not_named_in_argument_summary": {
+    "by_paper_exposure": {
+      "not_named_in_selected_argument": 5
+    },
+    "codes": {
+      "W278": 2,
+      "W279": 3
+    },
+    "known_RL_occurrences": 4,
+    "occurrences": 5,
+    "plain_fish_after_in_reported_RL": 0,
+    "rows": 5,
+    "strict_occurrences": 3
+  },
+  "outside_discovery_summary": {
+    "by_paper_exposure": {
+      "author_proposed_followup": 1,
+      "not_named_in_selected_argument": 5,
+      "shape_illustration": 1
+    },
+    "codes": {
+      "W278": 2,
+      "W279": 5
+    },
+    "known_RL_occurrences": 6,
+    "occurrences": 7,
+    "plain_fish_after_in_reported_RL": 0,
+    "rows": 7,
+    "strict_occurrences": 5
+  },
+  "paper_sha256": "0be7173796ebd9703773191f9bcd44a4db362be5d65c77cd71e0b26a2a447bd9",
+  "primary_candidate_summary": {
+    "by_paper_exposure": {
+      "author_proposed_followup": 1,
+      "discovery_context": 1,
+      "not_named_in_selected_argument": 5,
+      "shape_illustration": 1
+    },
+    "codes": {
+      "W278": 3,
+      "W279": 5
+    },
+    "known_RL_occurrences": 7,
+    "occurrences": 8,
+    "plain_fish_after_in_reported_RL": 1,
+    "rows": 8,
+    "strict_occurrences": 6
+  },
+  "raw_sha256": "b8dcb325a2e2cd3cde12ac12e7a418b0348e45713c9ee28aad81b645d2ac5ee4",
+  "related_codes_not_merged_summary": {
+    "by_paper_exposure": {
+      "not_named_in_selected_argument": 3
+    },
+    "codes": {
+      "W280": 1,
+      "W281": 2
+    },
+    "known_RL_occurrences": 2,
+    "occurrences": 3,
+    "plain_fish_after_in_reported_RL": 0,
+    "rows": 3,
+    "strict_occurrences": 2
+  },
+  "source_rows_scanned": 5680
+}

@@ -1,0 +1,39 @@
+{
+  "status": "Source-exposed sensitivity fixed after M897 fragment flag was observed and before new partition/model counts",
+  "purpose": "Assess whether the apparent exception to a local W550/M216 and W555/M222 split survives literal preservation filtering; test whole-pair compatibility rather than marginal token matches",
+  "input_screen": "results/pincer_context_screen.json",
+  "partitions": [
+    "all selected rows",
+    "raw preservation exactly complete",
+    "raw preservation exactly complete and at least two non-target token positions"
+  ],
+  "models": {
+    "local_split": {
+      "W550": "M216",
+      "W555": "M222"
+    },
+    "reversed_split": {
+      "W550": "M222",
+      "W555": "M216"
+    },
+    "both_M216": {
+      "W550": "M216",
+      "W555": "M216"
+    },
+    "both_M222": {
+      "W550": "M222",
+      "W555": "M222"
+    }
+  },
+  "compatibility_rule": "A row is model-compatible only if at least one complete candidate pair has every target occurrence consistent with that same model. Do not combine positions from different pairs. No candidate means uninformative for these models, not contradicted.",
+  "limits": [
+    "Preservation is a secondary label, not independently certified completeness",
+    "Models apply only to the two target mappings and are not translations",
+    "Matched contexts can belong to different objects",
+    "Fixed target alphabet and incomplete background crosswalk limit discovery",
+    "No p-values, global accuracy or independent replication claims"
+  ],
+  "established_semantic_values": 0,
+  "established_phonetic_values": 0,
+  "known_prior_primary_caveat": "The source-complete partition includes L9, whose previously reviewed photograph has a broken comb corner. Add prior review annotation without changing selection or calling this a physically authenticated complete sample."
+}

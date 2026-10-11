@@ -1,0 +1,163 @@
+
+
+
+<SCRIPT LANGUAGE="JavaScript">
+
+
+ function Recarga_bloque(incremento)
+ {  //alert(incremento)
+
+	if (incremento == 0)
+	{
+	    parent.frames['mainFrame'].location.href='columna1.php?bloque=0&ir_a=' + document.formulario_ir.ir_a.value;
+	}
+	else
+	{
+	    parent.frames['mainFrame'].location.href='columna1.php?bloque=' + incremento;
+	}
+ }
+ //recargo en el frame las estadisticas
+function Estadisticas(){
+ parent.frames['mainFrame'].location.href=	'estadisticas.php';
+}
+
+//recarga en el frame las estadisticas si se quieren incrustadas y no en una ventana aparte
+function Estadisticas_mapa(){
+ parent.frames['mainFrame'].location.href=	'estadisticas_mapa.php';
+}
+
+function submitenter(myfield,e)
+{
+
+	var keycode;
+
+	if (window.event)
+		 keycode = window.event.keyCode;
+	else
+		if (e)
+			keycode = e.which;
+		else
+			return true;
+
+	if (keycode == 13)
+	{
+		//alert(this.name);
+		//myfield.form.submit();
+
+		Recarga_bloque(0);
+
+		return false;
+	}
+	else
+		return true;
+
+}
+
+
+
+</SCRIPT>
+
+<html>
+<head>
+<title>BDTNS</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<style>
+		.pblanco {
+		color: #666666;
+		font-family:Arial,verdana,Geneva,Helvetica,sans-serif;
+		font-size:11px;
+		font-weight:bold;
+		text-align:center;
+		}
+
+</style>
+
+</head>
+
+<body bgcolor="#E1EBDE" leftmargin="0" topmargin="10" >
+<table width="150" border="0" height="180" cellpadding="5">
+  <tr valign="top" align="left">
+    <td height="54">
+<!--	<div align="center"><a href="http://bdtns.cesga.es/bdtns_nuevo2/" target="_blank"><img src="extras/img/logo_BDTNS_peq.gif"  border="0" align="top"></a></div> -->
+<div align="center"><a href="http://bdtns.cesga.es/" target="_target"><img src="extras/img/logo_BDTNS_peq.gif"  border="0" align="top"></a>
+</div>
+</td>
+   <!-- <td height="54"><div align="center"><a href="http://bdtns.cesga.es/bdtns_nuevo2/" onClick="history.back();window.close()"><img src="extras/img/logo_BDTNS_peq.gif"  border="0" align="top"></a></div></td> -->
+  </tr>
+  <tr valign="top" align="left">
+    <td height="30">&nbsp;</td>
+  </tr>
+  <tr>
+		<td height="28">
+			<div align="center"><a href="#"><img src="extras/img/previous_32x32.png" name="controles"  border="0" onClick="Recarga_bloque(-1);"></a></div>
+		</td>
+   </tr>
+   <tr>
+		<td height="28">
+		  <div align="center"><a href="#"><img src="extras/img/next_32x32.png" name="controles2"  border="0" onClick="Recarga_bloque(1);"></a>
+		  </div>
+		 </td>
+    </tr>
+	<tr>
+		<td height="28">
+		  <div align="center" class="pblanco">Go to rec.</a>
+		  </div>
+		</td>
+	</tr>
+
+  <tr valign="top" align="left">
+    <td height="34">
+      <form method="post" name = "formulario_ir">
+        <div align="center"><i>
+          <input type="text" name="ir_a" size="6" onKeyPress="return submitenter(this,event)">
+          </i> </div>
+      </form>
+      <p align="center"><i> </i></p>
+      <p align="center">&nbsp; </p>
+    </td>
+  </tr>
+  <tr valign="top" align="left">
+    <td height="34"><div align="center">
+
+	<!--<a href="javascript:void(0)" onClick="nuevaVentana=window.open('extras/php/export/bdtns_export_cat.php', '','toolbar=no,location=no,directories=no,status=no,menubar=no,scrollbars=yes,resizable=yes,width=380, height=470,top=100,left=200');"><img align="top" border="0" src="extras/img/download_manager_64x64.png"/></a>
+
+<br clear="all"><font class="pblanco">Export</font>-->
+
+
+	</div>
+
+		   <p align="center">&nbsp; </p>
+</td>
+  </tr>
+      <tr valign="top" align="left">
+	  <td height="34"><div align="center">
+		<a href="javascript:void(0)" onClick="Estadisticas();"><img align="top" border="0" width="64" height="64" src="extras/img/kchart_128x128.png"/></a>
+
+<br clear="all"><font class="pblanco">Statistics</font>
+		</div>
+	</td>
+    </tr>
+
+   <tr valign="top" align="left">
+    <td height="14">&nbsp;</td>
+   </tr>
+
+   </tr>
+   <tr valign="top" align="left">
+	  <td height="34"><div align="center">
+        <!-- Si queremos que salga incrustado descomentar esta l�nea -->
+		<!-- <a href="javascript:void(0)" onClick="Estadisticas_mapa();"><img align="top" border="0" width="64" height="64" src="extras/img/mapa_iraq.gif"/></a> -->
+		<!-- 20/10/2020 - CARLOS: comento las líneas del enlace a mapas porque ha cambiado el acceso al nuevo mapa -->
+        <!-- <a href="estadisticas_mapa.php" target="_blank"><img align="top" border="0" width="64" height="64" src="extras/img/mapa_iraq.gif"/></a>
+		<br clear="all"><font class="pblanco">Statistics map</font> -->
+		</div>
+	   </td>
+   </tr>
+
+    
+  <tr valign="top" align="left">
+    <td height="44">&nbsp;</td>
+  </tr>
+</table>
+</body>
+</html>

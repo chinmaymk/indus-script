@@ -1,0 +1,89 @@
+{
+  "status": "pending_parent_integration",
+  "sources": [
+    {
+      "path": "data/raw/chanhu-fieldcards-penn1064.html",
+      "bytes": 84495,
+      "sha256": "7a24d5e5a188c24eac9343df1c892dbd7612fea95d9a8823386cfb7f66961320",
+      "kind": "official_archival_finding_aid_HTML_not_fieldcard_images",
+      "url": "https://findingaids.library.upenn.edu/records/UPENN_MUSEUM_PU-MU.1064",
+      "resolved_url": "https://findingaids.library.upenn.edu/records/UPENN_MUSEUM_PU-MU.1064",
+      "http_status": 200,
+      "response_complete": true
+    },
+    {
+      "path": "data/raw/chanhu-fieldcards-penn1064.html.headers.json",
+      "bytes": 784,
+      "sha256": "21c7b9723341f8cd1fdd009f98224c90dc106a6a9c3320114a35e875dc48a84a",
+      "kind": "locally_serialized_HTTP_response_headers",
+      "url": "https://findingaids.library.upenn.edu/records/UPENN_MUSEUM_PU-MU.1064",
+      "resolved_url": "https://findingaids.library.upenn.edu/records/UPENN_MUSEUM_PU-MU.1064",
+      "http_status": 200,
+      "response_complete": true
+    },
+    {
+      "path": "data/raw/chanhu-fieldcards-brown-findingaid.html",
+      "bytes": 295070,
+      "sha256": "8c0eb4a04bfd823dda549fa17c9e555ba0b08fe5a37f563c0c6b50b8cc16e44c",
+      "kind": "official_related_archival_finding_aid_HTML_not_field_reports",
+      "url": "https://archives.upenn.edu/collections/finding-aid/upt50b879/",
+      "resolved_url": "https://archives.upenn.edu/collections/finding-aid/upt50b879/",
+      "http_status": 200,
+      "response_complete": true
+    },
+    {
+      "path": "data/raw/chanhu-fieldcards-brown-findingaid.html.headers.json",
+      "bytes": 836,
+      "sha256": "3403e74397bf0f79e96ac74b5645db9cba2abe8141b8fda5361f3a98bc22f5c7",
+      "kind": "locally_serialized_HTTP_response_headers",
+      "url": "https://archives.upenn.edu/collections/finding-aid/upt50b879/",
+      "resolved_url": "https://archives.upenn.edu/collections/finding-aid/upt50b879/",
+      "http_status": 200,
+      "response_complete": true
+    },
+    {
+      "path": "data/raw/chanhu-fieldcards-mfa-access.html",
+      "bytes": 76978,
+      "sha256": "e802574258dcd4bbc1a48ca4f60af54764c612e12e125b53d6336b1aaf911c77",
+      "kind": "official_current_archive_access_notice_HTML",
+      "url": "https://www.mfa.org/collections/libraries-and-archives",
+      "resolved_url": "https://www.mfa.org/collections/libraries-and-archives",
+      "http_status": 200,
+      "response_complete": true
+    },
+    {
+      "path": "data/raw/chanhu-fieldcards-mfa-access.html.headers.json",
+      "bytes": 895,
+      "sha256": "e5da6c09db70ce0472693893c5f784008b21562db8f2f6651cbd127c5c30fe53",
+      "kind": "locally_serialized_HTTP_response_headers",
+      "url": "https://www.mfa.org/collections/libraries-and-archives",
+      "resolved_url": "https://www.mfa.org/collections/libraries-and-archives",
+      "http_status": 200,
+      "response_complete": true
+    },
+    {
+      "path": "data/raw/chanhu-fieldcards-web-capture.json",
+      "bytes": 65556,
+      "sha256": "044fac2b217825d0e6a1e735401f3d3a074a119336d89eb339e8114752a10005",
+      "kind": "web_tool_search_open_error_capture_with_partial_initial_batch_log_not_original_field_records",
+      "refetchable": false
+    }
+  ],
+  "retrieval_ledgers": [
+    {
+      "path": "data/processed/fetch_chanhu-fieldcards-penn1064_html.json",
+      "bytes": 844,
+      "sha256": "dfe14220adad715db356ff48af2b4cba0fe21fd163f69ea5a897314e010a9231"
+    },
+    {
+      "path": "data/processed/fetch_chanhu-fieldcards-brown-findingaid_html.json",
+      "bytes": 845,
+      "sha256": "534f92880837fd0891954ed3db2531c4373148c75b0307bca825fb92ad20f69a"
+    },
+    {
+      "path": "data/processed/fetch_chanhu-fieldcards-mfa-access_html.json",
+      "bytes": 818,
+      "sha256": "2e79842f94657ad670f0207c0f3e669a7c6dd7706369792476c910f342f5ccd4"
+    }
+  ]
+}

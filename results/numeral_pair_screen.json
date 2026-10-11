@@ -1,0 +1,3824 @@
+{
+  "all_local_groups": 4695,
+  "all_source_rows": 5680,
+  "candidate_source_rows": 44,
+  "new_established_sign_values": 0,
+  "proposed_crosswalk": {
+    "article_id": "3786",
+    "cisi": "H-904",
+    "local_id": "1786",
+    "status": "Matching numerical pattern only; artifact image and article figure not authenticated"
+  },
+  "protocol_sha256": "0026a5ba3ca9ca8a61787665590ca04620c5b811aa917ff3a5d1144c0d01f938",
+  "screens": {
+    "allow_LR_sensitivity": {
+      "constant_long_stroke_unit_ratio": {
+        "a": "Constant positive value per long stroke in W700 context",
+        "b": "Constant positive value per long stroke in W840 context",
+        "constraints": [
+          {
+            "cisi": [
+              "H-1923"
+            ],
+            "group_id": "567",
+            "required_b_over_a": "1",
+            "stroke_counts": {
+              "W700": 2,
+              "W840": 2
+            }
+          },
+          {
+            "cisi": [
+              "H-306"
+            ],
+            "group_id": "1328",
+            "required_b_over_a": "3/2",
+            "stroke_counts": {
+              "W700": 3,
+              "W840": 2
+            }
+          }
+        ],
+        "distinct_required_b_over_a": [
+          "1",
+          "3/2"
+        ],
+        "incompatible_with_any_positive_constant_pair": true,
+        "scope": "Conditional on equal quantities across faces; source transcriptions retained"
+      },
+      "records": [
+        {
+          "cisi": [
+            "H-1354"
+          ],
+          "eligible": false,
+          "exclusion_reasons": [
+            "W840:no_recognized_adjacent_numeric_run"
+          ],
+          "faces": {
+            "W700": {
+              "coefficients": {
+                "L": 4,
+                "S": 0,
+                "constant": 0,
+                "v": 0
+              },
+              "left": [],
+              "residual_after": [],
+              "residual_before": [],
+              "right": [
+                "W034"
+              ],
+              "row_id": "222.3",
+              "stacked_unit_coefficients": {
+                "L": 4,
+                "S": 0,
+                "constant": 0,
+                "v": 0
+              }
+            },
+            "W840": {
+              "coefficients": {
+                "L": 0,
+                "S": 0,
+                "constant": 0,
+                "v": 0
+              },
+              "left": [],
+              "residual_after": [
+                "W799"
+              ],
+              "residual_before": [
+                "W740",
+                "W714"
+              ],
+              "right": [],
+              "row_id": "222.2",
+              "stacked_unit_coefficients": {
+                "L": 0,
+                "S": 0,
+                "constant": 0,
+                "v": 0
+              }
+            }
+          },
+          "group_id": "222",
+          "rows": [
+            {
+              "cisi": "H-1354",
+              "class": "SC",
+              "complete": "Y",
+              "dir.": "R/L",
+              "excavation-idno": "11349583",
+              "id": "222.1",
+              "signs": "4",
+              "text": "+824-032-578-415+",
+              "type": "TAB:I"
+            },
+            {
+              "cisi": "H-1354",
+              "class": "SC",
+              "complete": "Y",
+              "dir.": "R/L",
+              "excavation-idno": "11349583",
+              "id": "222.2",
+              "signs": "4",
+              "text": "+740-714-840-799+",
+              "type": "TAB:I"
+            },
+            {
+              "cisi": "H-1354",
+              "class": "VN",
+              "complete": "Y",
+              "dir.": "R/L",
+              "excavation-idno": "11349583",
+              "id": "222.3",
+              "signs": "2",
+              "text": "+700-034+",
+              "type": "TAB:I"
+            }
+          ]
+        },
+        {
+          "cisi": [
+            "H-1152"
+          ],
+          "eligible": false,
+          "exclusion_reasons": [
+            "W700:not_complete_simple_single_line",
+            "W700:not_marked_complete",
+            "W840:not_complete_simple_single_line",
+            "W840:not_marked_complete"
+          ],
+          "faces": {},
+          "group_id": "302",
+          "rows": [
+            {
+              "cisi": "H-1152",
+              "class": "UC",
+              "complete": "?",
+              "dir.": "R/L",
+              "excavation-idno": "647363",
+              "id": "302.1",
+              "signs": "2",
+              "text": "]740-840[",
+              "type": "TAB:B"
+            },
+            {
+              "cisi": "H-1152",
+              "class": "UC",
+              "complete": "?",
+              "dir.": "R/L",
+              "excavation-idno": "647363",
+              "id": "302.2",
+              "signs": "2",
+              "text": "]220-700[",
+              "type": "TAB:B"
+            }
+          ]
+        },
+        {
+          "cisi": [
+            "H-2213"
+          ],
+          "eligible": false,
+          "exclusion_reasons": [
+            "W840:no_recognized_adjacent_numeric_run"
+          ],
+          "faces": {
+            "W700": {
+              "coefficients": {
+                "L": 3,
+                "S": 0,
+                "constant": 0,
+                "v": 0
+              },
+              "left": [],
+              "residual_after": [],
+              "residual_before": [],
+              "right": [
+                "W033"
+              ],
+              "row_id": "407.1",
+              "stacked_unit_coefficients": {
+                "L": 3,
+                "S": 0,
+                "constant": 0,
+                "v": 0
+              }
+            },
+            "W840": {
+              "coefficients": {
+                "L": 0,
+                "S": 0,
+                "constant": 0,
+                "v": 0
+              },
+              "left": [],
+              "residual_after": [
+                "W799"
+              ],
+              "residual_before": [
+                "W740",
+                "W760"
+              ],
+              "right": [],
+              "row_id": "407.3",
+              "stacked_unit_coefficients": {
+                "L": 0,
+                "S": 0,
+                "constant": 0,
+                "v": 0
+              }
+            }
+          },
+          "group_id": "407",
+          "rows": [
+            {
+              "cisi": "H-2213",
+              "class": "VN",
+              "complete": "Y",
+              "dir.": "R/L",
+              "excavation-idno": "H2000-4459Figure 38.07",
+              "id": "407.1",
+              "signs": "2",
+              "text": "+700-033+",
+              "type": "TAB:I"
+            },
+            {
+              "cisi": "H-2213",
+              "class": "SC",
+              "complete": "Y",
+              "dir.": "R/L",
+              "excavation-idno": "H2000-4459Figure 38.07",
+              "id": "407.2",
+              "signs": "4",
+              "text": "+824-032-578-415+",
+              "type": "TAB:I"
+            },
+            {
+              "cisi": "H-2213",
+              "class": "SS",
+              "complete": "Y",
+              "dir.": "R/L",
+              "excavation-idno": "H2000-4459Figure 38.07",
+              "id": "407.3",
+              "signs": "4",
+              "text": "+740-760-840-799+",
+              "type": "TAB:I"
+            }
+          ]
+        },
+        {
+          "cisi": [
+            "H-2246"
+          ],
+          "eligible": false,
+          "exclusion_reasons": [
+            "W840:no_recognized_adjacent_numeric_run"
+          ],
+          "faces": {
+            "W700": {
+              "coefficients": {
+                "L": 4,
+                "S": 0,
+                "constant": 0,
+                "v": 0
+              },
+              "left": [],
+              "residual_after": [],
+              "residual_before": [],
+              "right": [
+                "W034"
+              ],
+              "row_id": "484.1",
+              "stacked_unit_coefficients": {
+                "L": 4,
+                "S": 0,
+                "constant": 0,
+                "v": 0
+              }
+            },
+            "W840": {
+              "coefficients": {
+                "L": 0,
+                "S": 0,
+                "constant": 0,
+                "v": 0
+              },
+              "left": [],
+              "residual_after": [
+                "W799"
+              ],
+              "residual_before": [
+                "W740",
+                "W760"
+              ],
+              "right": [],
+              "row_id": "484.3",
+              "stacked_unit_coefficients": {
+                "L": 0,
+                "S": 0,
+                "constant": 0,
+                "v": 0
+              }
+            }
+          },
+          "group_id": "484",
+          "rows": [
+            {
+              "cisi": "H-2246",
+              "class": "VN",
+              "complete": "Y",
+              "dir.": "R/L",
+              "excavation-idno": "H2001-5145Figure 47.05",
+              "id": "484.1",
+              "signs": "2",
+              "text": "+700-034+",
+              "type": "TAB:I"
+            },
+            {
+              "cisi": "H-2246",
+              "class": "SC",
+              "complete": "Y",
+              "dir.": "R/L",
+              "excavation-idno": "H2001-5145Figure 47.05",
+              "id": "484.2",
+              "signs": "4",
+              "text": "+824-032-578-415+",
+              "type": "TAB:I"
+            },
+            {
+              "cisi": "H-2246",
+              "class": "SS",
+              "complete": "Y",
+              "dir.": "R/L",
+              "excavation-idno": "H2001-5145Figure 47.05",
+              "id": "484.3",
+              "signs": "4",
+              "text": "+740-760-840-799+",
+              "type": "TAB:I"
+            }
+          ]
+        },
+        {
+          "cisi": [
+            "H-1923"
+          ],
+          "eligible": true,
+          "equation_difference": {
+            "L": 0,
+            "S": 0,
+            "constant": 0,
+            "v": 0
+          },
+          "evaluations": [
+            {
+              "balances": true,
+              "candidate": {
+                "L": 10,
+                "S": 8,
+                "v": 6
+              },
+              "model": "stacked_as_L",
+              "residual": 0,
+              "values": {
+                "W700": 20,
+                "W840": 20
+              }
+            },
+            {
+              "balances": true,
+              "candidate": {
+                "L": 10,
+                "S": 8,
+                "v": 6
+              },
+              "model": "stacked_as_one",
+              "residual": 0,
+              "values": {
+                "W700": 20,
+                "W840": 20
+              }
+            },
+            {
+              "balances": true,
+              "candidate": {
+                "L": 36,
+                "S": 20,
+                "v": 4
+              },
+              "model": "stacked_as_L",
+              "residual": 0,
+              "values": {
+                "W700": 72,
+                "W840": 72
+              }
+            },
+            {
+              "balances": true,
+              "candidate": {
+                "L": 36,
+                "S": 20,
+                "v": 4
+              },
+              "model": "stacked_as_one",
+              "residual": 0,
+              "values": {
+                "W700": 72,
+                "W840": 72
+              }
+            }
+          ],
+          "exclusion_reasons": [],
+          "faces": {
+            "W700": {
+              "coefficients": {
+                "L": 2,
+                "S": 0,
+                "constant": 0,
+                "v": 0
+              },
+              "left": [],
+              "residual_after": [],
+              "residual_before": [],
+              "right": [
+                "W032"
+              ],
+              "row_id": "567.1",
+              "stacked_unit_coefficients": {
+                "L": 2,
+                "S": 0,
+                "constant": 0,
+                "v": 0
+              }
+            },
+            "W840": {
+              "coefficients": {
+                "L": 2,
+                "S": 0,
+                "constant": 0,
+                "v": 0
+              },
+              "left": [
+                "W032"
+              ],
+              "residual_after": [],
+              "residual_before": [
+                "W400",
+                "W740"
+              ],
+              "right": [],
+              "row_id": "567.2",
+              "stacked_unit_coefficients": {
+                "L": 2,
+                "S": 0,
+                "constant": 0,
+                "v": 0
+              }
+            }
+          },
+          "group_id": "567",
+          "literal_pair_signature": [
+            "+700-032+",
+            "+400-740-032-840+"
+          ],
+          "numeric_pair_signature": [
+            [
+              [],
+              [
+                "W032"
+              ]
+            ],
+            [
+              [
+                "W032"
+              ],
+              []
+            ]
+          ],
+          "rows": [
+            {
+              "cisi": "H-1923",
+              "class": "VN",
+              "complete": "Y",
+              "dir.": "R/L",
+              "excavation-idno": "H94-2217Figure 28.01",
+              "id": "567.1",
+              "signs": "2",
+              "text": "+700-032+",
+              "type": "TAB:B"
+            },
+            {
+              "cisi": "H-1923",
+              "class": "SC",
+              "complete": "Y",
+              "dir.": "R/L",
+              "excavation-idno": "H94-2217Figure 28.01",
+              "id": "567.2",
+              "signs": "4",
+              "text": "+400-740-032-840+",
+              "type": "TAB:B"
+            }
+          ]
+        },
+        {
+          "cisi": [
+            "H-2214"
+          ],
+          "eligible": false,
+          "exclusion_reasons": [
+            "W840:no_recognized_adjacent_numeric_run"
+          ],
+          "faces": {
+            "W700": {
+              "coefficients": {
+                "L": 3,
+                "S": 0,
+                "constant": 0,
+                "v": 0
+              },
+              "left": [],
+              "residual_after": [],
+              "residual_before": [],
+              "right": [
+                "W033"
+              ],
+              "row_id": "672.1",
+              "stacked_unit_coefficients": {
+                "L": 3,
+                "S": 0,
+                "constant": 0,
+                "v": 0
+              }
+            },
+            "W840": {
+              "coefficients": {
+                "L": 0,
+                "S": 0,
+                "constant": 0,
+                "v": 0
+              },
+              "left": [],
+              "residual_after": [
+                "W799"
+              ],
+              "residual_before": [
+                "W740",
+                "W760"
+              ],
+              "right": [],
+              "row_id": "672.2",
+              "stacked_unit_coefficients": {
+                "L": 0,
+                "S": 0,
+                "constant": 0,
+                "v": 0
+              }
+            }
+          },
+          "group_id": "672",
+          "rows": [
+            {
+              "cisi": "H-2214",
+              "class": "VN",
+              "complete": "Y",
+              "dir.": "R/L",
+              "excavation-idno": "H95-2498Figure 27.03",
+              "id": "672.1",
+              "signs": "2",
+              "text": "+700-033+",
+              "type": "TAB:I"
+            },
+            {
+              "cisi": "H-2214",
+              "class": "SS",
+              "complete": "Y",
+              "dir.": "R/L",
+              "excavation-idno": "H95-2498Figure 27.03",
+              "id": "672.2",
+              "signs": "4",
+              "text": "+740-760-840-799+",
+              "type": "TAB:I"
+            },
+            {
+              "cisi": "H-2214",
+              "class": "SC",
+              "complete": "Y",
+              "dir.": "L/R",
+              "excavation-idno": "H95-2498Figure 27.03",
+              "id": "672.3",
+              "signs": "4",
+              "text": "+876-032-578-415+",
+              "type": "TAB:I"
+            }
+          ]
+        },
+        {
+          "cisi": [
+            "H-2211"
+          ],
+          "eligible": false,
+          "exclusion_reasons": [
+            "marker_occurrence_not_unique"
+          ],
+          "group_id": "829",
+          "rows": [
+            {
+              "cisi": "H-2211",
+              "class": "VN",
+              "complete": "Y",
+              "dir.": "R/L",
+              "excavation-idno": "H97-3285Figure 16.02",
+              "id": "829.1",
+              "signs": "2",
+              "text": "+700-032+",
+              "type": "TAB:I"
+            },
+            {
+              "cisi": "H-2211",
+              "class": "SC",
+              "complete": "Y",
+              "dir.": "R/L",
+              "excavation-idno": "H97-3285Figure 16.02",
+              "id": "829.2",
+              "signs": "4",
+              "text": "+700-840-032-741+",
+              "type": "TAB:I"
+            }
+          ]
+        },
+        {
+          "cisi": [
+            "H-1806"
+          ],
+          "eligible": false,
+          "exclusion_reasons": [
+            "W700:not_complete_simple_single_line",
+            "W700:not_marked_complete",
+            "W700:direction_not_R/L",
+            "W840:not_complete_simple_single_line",
+            "W840:not_marked_complete",
+            "W840:direction_not_R/L"
+          ],
+          "faces": {},
+          "group_id": "1006",
+          "rows": [
+            {
+              "cisi": "H-1806",
+              "class": "UC",
+              "complete": "?",
+              "dir.": "-",
+              "excavation-idno": "H99-3820Figure 33.06",
+              "id": "1006.1",
+              "signs": "1",
+              "text": "]700+",
+              "type": "TAB:B"
+            },
+            {
+              "cisi": "H-1806",
+              "class": "UC",
+              "complete": "?",
+              "dir.": "-",
+              "excavation-idno": "H99-3820Figure 33.06",
+              "id": "1006.2",
+              "signs": "1",
+              "text": "]840+",
+              "type": "TAB:B"
+            }
+          ]
+        },
+        {
+          "cisi": [
+            "H-250"
+          ],
+          "eligible": false,
+          "exclusion_reasons": [
+            "W700:not_complete_simple_single_line",
+            "W700:not_marked_complete",
+            "W840:not_complete_simple_single_line",
+            "W840:not_marked_complete"
+          ],
+          "faces": {},
+          "group_id": "1275",
+          "rows": [
+            {
+              "cisi": "H-250",
+              "class": "??",
+              "complete": "N",
+              "dir.": "R/L",
+              "excavation-idno": "2900",
+              "id": "1275.1",
+              "signs": "2",
+              "text": "+740-840-000[",
+              "type": "TAB:B"
+            },
+            {
+              "cisi": "H-250",
+              "class": "??",
+              "complete": "N",
+              "dir.": "R/L",
+              "excavation-idno": "2900",
+              "id": "1275.2",
+              "signs": "1",
+              "text": "]000-700+",
+              "type": "TAB:B"
+            }
+          ]
+        },
+        {
+          "cisi": [
+            "H-306"
+          ],
+          "eligible": true,
+          "equation_difference": {
+            "L": 1,
+            "S": 0,
+            "constant": 0,
+            "v": 0
+          },
+          "evaluations": [
+            {
+              "balances": false,
+              "candidate": {
+                "L": 10,
+                "S": 8,
+                "v": 6
+              },
+              "model": "stacked_as_L",
+              "residual": 10,
+              "values": {
+                "W700": 30,
+                "W840": 20
+              }
+            },
+            {
+              "balances": false,
+              "candidate": {
+                "L": 10,
+                "S": 8,
+                "v": 6
+              },
+              "model": "stacked_as_one",
+              "residual": 10,
+              "values": {
+                "W700": 30,
+                "W840": 20
+              }
+            },
+            {
+              "balances": false,
+              "candidate": {
+                "L": 36,
+                "S": 20,
+                "v": 4
+              },
+              "model": "stacked_as_L",
+              "residual": 36,
+              "values": {
+                "W700": 108,
+                "W840": 72
+              }
+            },
+            {
+              "balances": false,
+              "candidate": {
+                "L": 36,
+                "S": 20,
+                "v": 4
+              },
+              "model": "stacked_as_one",
+              "residual": 36,
+              "values": {
+                "W700": 108,
+                "W840": 72
+              }
+            }
+          ],
+          "exclusion_reasons": [],
+          "faces": {
+            "W700": {
+              "coefficients": {
+                "L": 3,
+                "S": 0,
+                "constant": 0,
+                "v": 0
+              },
+              "left": [],
+              "residual_after": [],
+              "residual_before": [],
+              "right": [
+                "W033"
+              ],
+              "row_id": "1328.2",
+              "stacked_unit_coefficients": {
+                "L": 3,
+                "S": 0,
+                "constant": 0,
+                "v": 0
+              }
+            },
+            "W840": {
+              "coefficients": {
+                "L": 2,
+                "S": 0,
+                "constant": 0,
+                "v": 0
+              },
+              "left": [
+                "W032"
+              ],
+              "residual_after": [],
+              "residual_before": [
+                "W740"
+              ],
+              "right": [],
+              "row_id": "1328.1",
+              "stacked_unit_coefficients": {
+                "L": 2,
+                "S": 0,
+                "constant": 0,
+                "v": 0
+              }
+            }
+          },
+          "group_id": "1328",
+          "literal_pair_signature": [
+            "+700-033+",
+            "+740-032-840+"
+          ],
+          "numeric_pair_signature": [
+            [
+              [],
+              [
+                "W033"
+              ]
+            ],
+            [
+              [
+                "W032"
+              ],
+              []
+            ]
+          ],
+          "rows": [
+            {
+              "cisi": "H-306",
+              "class": "SS",
+              "complete": "Y",
+              "dir.": "L/R",
+              "excavation-idno": "13270",
+              "id": "1328.1",
+              "signs": "3",
+              "text": "+740-032-840+",
+              "type": "TAB:I"
+            },
+            {
+              "cisi": "H-306",
+              "class": "VN",
+              "complete": "Y",
+              "dir.": "R/L",
+              "excavation-idno": "13270",
+              "id": "1328.2",
+              "signs": "2",
+              "text": "+700-033+",
+              "type": "TAB:I"
+            }
+          ]
+        },
+        {
+          "cisi": [
+            "H-326"
+          ],
+          "eligible": true,
+          "equation_difference": {
+            "L": 0,
+            "S": 0,
+            "constant": 0,
+            "v": 0
+          },
+          "evaluations": [
+            {
+              "balances": true,
+              "candidate": {
+                "L": 10,
+                "S": 8,
+                "v": 6
+              },
+              "model": "stacked_as_L",
+              "residual": 0,
+              "values": {
+                "W700": 30,
+                "W840": 30
+              }
+            },
+            {
+              "balances": false,
+              "candidate": {
+                "L": 10,
+                "S": 8,
+                "v": 6
+              },
+              "model": "stacked_as_one",
+              "residual": 27,
+              "values": {
+                "W700": 30,
+                "W840": 3
+              }
+            },
+            {
+              "balances": true,
+              "candidate": {
+                "L": 36,
+                "S": 20,
+                "v": 4
+              },
+              "model": "stacked_as_L",
+              "residual": 0,
+              "values": {
+                "W700": 108,
+                "W840": 108
+              }
+            },
+            {
+              "balances": false,
+              "candidate": {
+                "L": 36,
+                "S": 20,
+                "v": 4
+              },
+              "model": "stacked_as_one",
+              "residual": 105,
+              "values": {
+                "W700": 108,
+                "W840": 3
+              }
+            }
+          ],
+          "exclusion_reasons": [],
+          "faces": {
+            "W700": {
+              "coefficients": {
+                "L": 3,
+                "S": 0,
+                "constant": 0,
+                "v": 0
+              },
+              "left": [],
+              "residual_after": [],
+              "residual_before": [],
+              "right": [
+                "W033"
+              ],
+              "row_id": "1348.2",
+              "stacked_unit_coefficients": {
+                "L": 3,
+                "S": 0,
+                "constant": 0,
+                "v": 0
+              }
+            },
+            "W840": {
+              "coefficients": {
+                "L": 3,
+                "S": 0,
+                "constant": 0,
+                "v": 0
+              },
+              "left": [],
+              "residual_after": [],
+              "residual_before": [
+                "W740"
+              ],
+              "right": [
+                "W013"
+              ],
+              "row_id": "1348.1",
+              "stacked_unit_coefficients": {
+                "L": 0,
+                "S": 0,
+                "constant": 3,
+                "v": 0
+              }
+            }
+          },
+          "group_id": "1348",
+          "literal_pair_signature": [
+            "+700-033+",
+            "+740-840-013+"
+          ],
+          "numeric_pair_signature": [
+            [
+              [],
+              [
+                "W033"
+              ]
+            ],
+            [
+              [],
+              [
+                "W013"
+              ]
+            ]
+          ],
+          "rows": [
+            {
+              "cisi": "H-326",
+              "class": "SS",
+              "complete": "Y",
+              "dir.": "R/L",
+              "excavation-idno": "1171564",
+              "id": "1348.1",
+              "signs": "3",
+              "text": "+740-840-013+",
+              "type": "TAB:I"
+            },
+            {
+              "cisi": "H-326",
+              "class": "VN",
+              "complete": "Y",
+              "dir.": "R/L",
+              "excavation-idno": "1171564",
+              "id": "1348.2",
+              "signs": "2",
+              "text": "+700-033+",
+              "type": "TAB:I"
+            }
+          ]
+        },
+        {
+          "cisi": [
+            "H-340"
+          ],
+          "eligible": false,
+          "exclusion_reasons": [
+            "W840:not_complete_simple_single_line",
+            "W840:not_marked_complete"
+          ],
+          "faces": {
+            "W700": {
+              "coefficients": {
+                "L": 2,
+                "S": 0,
+                "constant": 0,
+                "v": 0
+              },
+              "left": [],
+              "residual_after": [],
+              "residual_before": [],
+              "right": [
+                "W032"
+              ],
+              "row_id": "1361.2",
+              "stacked_unit_coefficients": {
+                "L": 2,
+                "S": 0,
+                "constant": 0,
+                "v": 0
+              }
+            }
+          },
+          "group_id": "1361",
+          "rows": [
+            {
+              "cisi": "H-340",
+              "class": "??",
+              "complete": "N",
+              "dir.": "R/L",
+              "excavation-idno": "10999420",
+              "id": "1361.1",
+              "signs": "4",
+              "text": "+013-840-032-626-000[",
+              "type": "TAB:I"
+            },
+            {
+              "cisi": "H-340",
+              "class": "VN",
+              "complete": "Y",
+              "dir.": "R/L",
+              "excavation-idno": "10999420",
+              "id": "1361.2",
+              "signs": "2",
+              "text": "+700-032+",
+              "type": "TAB:I"
+            }
+          ]
+        },
+        {
+          "cisi": [
+            "H-770"
+          ],
+          "eligible": false,
+          "exclusion_reasons": [
+            "W840:no_recognized_adjacent_numeric_run"
+          ],
+          "faces": {
+            "W700": {
+              "coefficients": {
+                "L": 3,
+                "S": 0,
+                "constant": 0,
+                "v": 0
+              },
+              "left": [],
+              "residual_after": [],
+              "residual_before": [],
+              "right": [
+                "W033"
+              ],
+              "row_id": "1662.2",
+              "stacked_unit_coefficients": {
+                "L": 3,
+                "S": 0,
+                "constant": 0,
+                "v": 0
+              }
+            },
+            "W840": {
+              "coefficients": {
+                "L": 0,
+                "S": 0,
+                "constant": 0,
+                "v": 0
+              },
+              "left": [],
+              "residual_after": [
+                "W416"
+              ],
+              "residual_before": [
+                "W151"
+              ],
+              "right": [],
+              "row_id": "1662.1",
+              "stacked_unit_coefficients": {
+                "L": 0,
+                "S": 0,
+                "constant": 0,
+                "v": 0
+              }
+            }
+          },
+          "group_id": "1662",
+          "rows": [
+            {
+              "cisi": "H-770",
+              "class": "SS",
+              "complete": "Y",
+              "dir.": "R/L",
+              "excavation-idno": "2177353",
+              "id": "1662.1",
+              "signs": "3",
+              "text": "+151-840-416+",
+              "type": "TAB:B"
+            },
+            {
+              "cisi": "H-770",
+              "class": "VN",
+              "complete": "Y",
+              "dir.": "R/L",
+              "excavation-idno": "2177353",
+              "id": "1662.2",
+              "signs": "2",
+              "text": "+700-033+",
+              "type": "TAB:B"
+            }
+          ]
+        },
+        {
+          "cisi": [
+            "H-771"
+          ],
+          "eligible": false,
+          "exclusion_reasons": [
+            "W840:no_recognized_adjacent_numeric_run"
+          ],
+          "faces": {
+            "W700": {
+              "coefficients": {
+                "L": 4,
+                "S": 0,
+                "constant": 0,
+                "v": 0
+              },
+              "left": [],
+              "residual_after": [],
+              "residual_before": [],
+              "right": [
+                "W034"
+              ],
+              "row_id": "1663.2",
+              "stacked_unit_coefficients": {
+                "L": 4,
+                "S": 0,
+                "constant": 0,
+                "v": 0
+              }
+            },
+            "W840": {
+              "coefficients": {
+                "L": 0,
+                "S": 0,
+                "constant": 0,
+                "v": 0
+              },
+              "left": [],
+              "residual_after": [],
+              "residual_before": [
+                "W032",
+                "W257"
+              ],
+              "right": [],
+              "row_id": "1663.1",
+              "stacked_unit_coefficients": {
+                "L": 0,
+                "S": 0,
+                "constant": 0,
+                "v": 0
+              }
+            }
+          },
+          "group_id": "1663",
+          "rows": [
+            {
+              "cisi": "H-771",
+              "class": "SC",
+              "complete": "Y",
+              "dir.": "R/L",
+              "excavation-idno": "657678",
+              "id": "1663.1",
+              "signs": "3",
+              "text": "+032-257-840+",
+              "type": "TAB:B"
+            },
+            {
+              "cisi": "H-771",
+              "class": "VN",
+              "complete": "Y",
+              "dir.": "R/L",
+              "excavation-idno": "657678",
+              "id": "1663.2",
+              "signs": "2",
+              "text": "+700-034+",
+              "type": "TAB:B"
+            }
+          ]
+        },
+        {
+          "cisi": [
+            "H-904"
+          ],
+          "eligible": true,
+          "equation_difference": {
+            "L": 1,
+            "S": -2,
+            "constant": 0,
+            "v": 1
+          },
+          "evaluations": [
+            {
+              "balances": true,
+              "candidate": {
+                "L": 10,
+                "S": 8,
+                "v": 6
+              },
+              "model": "stacked_as_L",
+              "residual": 0,
+              "values": {
+                "W700": 36,
+                "W840": 36
+              }
+            },
+            {
+              "balances": true,
+              "candidate": {
+                "L": 10,
+                "S": 8,
+                "v": 6
+              },
+              "model": "stacked_as_one",
+              "residual": 0,
+              "values": {
+                "W700": 36,
+                "W840": 36
+              }
+            },
+            {
+              "balances": true,
+              "candidate": {
+                "L": 36,
+                "S": 20,
+                "v": 4
+              },
+              "model": "stacked_as_L",
+              "residual": 0,
+              "values": {
+                "W700": 112,
+                "W840": 112
+              }
+            },
+            {
+              "balances": true,
+              "candidate": {
+                "L": 36,
+                "S": 20,
+                "v": 4
+              },
+              "model": "stacked_as_one",
+              "residual": 0,
+              "values": {
+                "W700": 112,
+                "W840": 112
+              }
+            }
+          ],
+          "exclusion_reasons": [],
+          "faces": {
+            "W700": {
+              "coefficients": {
+                "L": 3,
+                "S": 0,
+                "constant": 0,
+                "v": 1
+              },
+              "left": [],
+              "residual_after": [
+                "W645",
+                "W368",
+                "W817"
+              ],
+              "residual_before": [],
+              "right": [
+                "W033",
+                "W900"
+              ],
+              "row_id": "1786.2",
+              "stacked_unit_coefficients": {
+                "L": 3,
+                "S": 0,
+                "constant": 0,
+                "v": 1
+              }
+            },
+            "W840": {
+              "coefficients": {
+                "L": 2,
+                "S": 2,
+                "constant": 0,
+                "v": 0
+              },
+              "left": [
+                "W032"
+              ],
+              "residual_after": [],
+              "residual_before": [
+                "W740"
+              ],
+              "right": [
+                "W002"
+              ],
+              "row_id": "1786.1",
+              "stacked_unit_coefficients": {
+                "L": 2,
+                "S": 2,
+                "constant": 0,
+                "v": 0
+              }
+            }
+          },
+          "group_id": "1786",
+          "literal_pair_signature": [
+            "+700-033-900-645-368-817+",
+            "+740-032-840-002+"
+          ],
+          "numeric_pair_signature": [
+            [
+              [],
+              [
+                "W033",
+                "W900"
+              ]
+            ],
+            [
+              [
+                "W032"
+              ],
+              [
+                "W002"
+              ]
+            ]
+          ],
+          "rows": [
+            {
+              "cisi": "H-904",
+              "class": "SS",
+              "complete": "Y",
+              "dir.": "R/L",
+              "excavation-idno": "J213 (D)477",
+              "id": "1786.1",
+              "signs": "4",
+              "text": "+740-032-840-002+",
+              "type": "TAB:I"
+            },
+            {
+              "cisi": "H-904",
+              "class": "VX",
+              "complete": "Y",
+              "dir.": "R/L",
+              "excavation-idno": "J213 (D)477",
+              "id": "1786.2",
+              "signs": "6",
+              "text": "+700-033-900-645-368-817+",
+              "type": "TAB:I"
+            }
+          ]
+        },
+        {
+          "cisi": [
+            "H-924"
+          ],
+          "eligible": true,
+          "equation_difference": {
+            "L": 0,
+            "S": 0,
+            "constant": 0,
+            "v": 0
+          },
+          "evaluations": [
+            {
+              "balances": true,
+              "candidate": {
+                "L": 10,
+                "S": 8,
+                "v": 6
+              },
+              "model": "stacked_as_L",
+              "residual": 0,
+              "values": {
+                "W700": 30,
+                "W840": 30
+              }
+            },
+            {
+              "balances": false,
+              "candidate": {
+                "L": 10,
+                "S": 8,
+                "v": 6
+              },
+              "model": "stacked_as_one",
+              "residual": 27,
+              "values": {
+                "W700": 30,
+                "W840": 3
+              }
+            },
+            {
+              "balances": true,
+              "candidate": {
+                "L": 36,
+                "S": 20,
+                "v": 4
+              },
+              "model": "stacked_as_L",
+              "residual": 0,
+              "values": {
+                "W700": 108,
+                "W840": 108
+              }
+            },
+            {
+              "balances": false,
+              "candidate": {
+                "L": 36,
+                "S": 20,
+                "v": 4
+              },
+              "model": "stacked_as_one",
+              "residual": 105,
+              "values": {
+                "W700": 108,
+                "W840": 3
+              }
+            }
+          ],
+          "exclusion_reasons": [],
+          "faces": {
+            "W700": {
+              "coefficients": {
+                "L": 3,
+                "S": 0,
+                "constant": 0,
+                "v": 0
+              },
+              "left": [],
+              "residual_after": [],
+              "residual_before": [],
+              "right": [
+                "W033"
+              ],
+              "row_id": "1804.2",
+              "stacked_unit_coefficients": {
+                "L": 3,
+                "S": 0,
+                "constant": 0,
+                "v": 0
+              }
+            },
+            "W840": {
+              "coefficients": {
+                "L": 3,
+                "S": 0,
+                "constant": 0,
+                "v": 0
+              },
+              "left": [],
+              "residual_after": [],
+              "residual_before": [
+                "W740"
+              ],
+              "right": [
+                "W013"
+              ],
+              "row_id": "1804.1",
+              "stacked_unit_coefficients": {
+                "L": 0,
+                "S": 0,
+                "constant": 3,
+                "v": 0
+              }
+            }
+          },
+          "group_id": "1804",
+          "literal_pair_signature": [
+            "+700-033+",
+            "+740-840-013+"
+          ],
+          "numeric_pair_signature": [
+            [
+              [],
+              [
+                "W033"
+              ]
+            ],
+            [
+              [],
+              [
+                "W013"
+              ]
+            ]
+          ],
+          "rows": [
+            {
+              "cisi": "H-924",
+              "class": "SS",
+              "complete": "Y",
+              "dir.": "R/L",
+              "excavation-idno": "3286",
+              "id": "1804.1",
+              "signs": "3",
+              "text": "+740-840-013+",
+              "type": "TAB:I"
+            },
+            {
+              "cisi": "H-924",
+              "class": "VN",
+              "complete": "Y",
+              "dir.": "R/L",
+              "excavation-idno": "3286",
+              "id": "1804.2",
+              "signs": "2",
+              "text": "+700-033+",
+              "type": "TAB:I"
+            }
+          ]
+        },
+        {
+          "cisi": [
+            "H-925"
+          ],
+          "eligible": true,
+          "equation_difference": {
+            "L": 0,
+            "S": 0,
+            "constant": 0,
+            "v": 0
+          },
+          "evaluations": [
+            {
+              "balances": true,
+              "candidate": {
+                "L": 10,
+                "S": 8,
+                "v": 6
+              },
+              "model": "stacked_as_L",
+              "residual": 0,
+              "values": {
+                "W700": 30,
+                "W840": 30
+              }
+            },
+            {
+              "balances": false,
+              "candidate": {
+                "L": 10,
+                "S": 8,
+                "v": 6
+              },
+              "model": "stacked_as_one",
+              "residual": 27,
+              "values": {
+                "W700": 30,
+                "W840": 3
+              }
+            },
+            {
+              "balances": true,
+              "candidate": {
+                "L": 36,
+                "S": 20,
+                "v": 4
+              },
+              "model": "stacked_as_L",
+              "residual": 0,
+              "values": {
+                "W700": 108,
+                "W840": 108
+              }
+            },
+            {
+              "balances": false,
+              "candidate": {
+                "L": 36,
+                "S": 20,
+                "v": 4
+              },
+              "model": "stacked_as_one",
+              "residual": 105,
+              "values": {
+                "W700": 108,
+                "W840": 3
+              }
+            }
+          ],
+          "exclusion_reasons": [],
+          "faces": {
+            "W700": {
+              "coefficients": {
+                "L": 3,
+                "S": 0,
+                "constant": 0,
+                "v": 0
+              },
+              "left": [],
+              "residual_after": [],
+              "residual_before": [],
+              "right": [
+                "W033"
+              ],
+              "row_id": "1805.2",
+              "stacked_unit_coefficients": {
+                "L": 3,
+                "S": 0,
+                "constant": 0,
+                "v": 0
+              }
+            },
+            "W840": {
+              "coefficients": {
+                "L": 3,
+                "S": 0,
+                "constant": 0,
+                "v": 0
+              },
+              "left": [],
+              "residual_after": [],
+              "residual_before": [
+                "W740"
+              ],
+              "right": [
+                "W013"
+              ],
+              "row_id": "1805.1",
+              "stacked_unit_coefficients": {
+                "L": 0,
+                "S": 0,
+                "constant": 3,
+                "v": 0
+              }
+            }
+          },
+          "group_id": "1805",
+          "literal_pair_signature": [
+            "+700-033+",
+            "+740-840-013+"
+          ],
+          "numeric_pair_signature": [
+            [
+              [],
+              [
+                "W033"
+              ]
+            ],
+            [
+              [],
+              [
+                "W013"
+              ]
+            ]
+          ],
+          "rows": [
+            {
+              "cisi": "H-925",
+              "class": "SS",
+              "complete": "Y",
+              "dir.": "R/L",
+              "excavation-idno": "3286512",
+              "id": "1805.1",
+              "signs": "3",
+              "text": "+740-840-013+",
+              "type": "TAB:I"
+            },
+            {
+              "cisi": "H-925",
+              "class": "VN",
+              "complete": "Y",
+              "dir.": "R/L",
+              "excavation-idno": "3286512",
+              "id": "1805.2",
+              "signs": "2",
+              "text": "+700-033+",
+              "type": "TAB:I"
+            }
+          ]
+        },
+        {
+          "cisi": [
+            "H-926"
+          ],
+          "eligible": false,
+          "exclusion_reasons": [
+            "W840:unknown_or_separator_token",
+            "W840:not_marked_complete",
+            "W840:sign_count_mismatch"
+          ],
+          "faces": {
+            "W700": {
+              "coefficients": {
+                "L": 2,
+                "S": 0,
+                "constant": 0,
+                "v": 0
+              },
+              "left": [],
+              "residual_after": [],
+              "residual_before": [],
+              "right": [
+                "W032"
+              ],
+              "row_id": "1806.2",
+              "stacked_unit_coefficients": {
+                "L": 2,
+                "S": 0,
+                "constant": 0,
+                "v": 0
+              }
+            }
+          },
+          "group_id": "1806",
+          "rows": [
+            {
+              "cisi": "H-926",
+              "class": "??",
+              "complete": "N",
+              "dir.": "R/L",
+              "excavation-idno": "12461519",
+              "id": "1806.1",
+              "signs": "4",
+              "text": "+400-740-840-000-220+",
+              "type": "TAB:I"
+            },
+            {
+              "cisi": "H-926",
+              "class": "VN",
+              "complete": "Y",
+              "dir.": "R/L",
+              "excavation-idno": "12461519",
+              "id": "1806.2",
+              "signs": "2",
+              "text": "+700-032+",
+              "type": "TAB:I"
+            }
+          ]
+        },
+        {
+          "cisi": [
+            "H-1261"
+          ],
+          "eligible": false,
+          "exclusion_reasons": [
+            "W700:not_complete_simple_single_line",
+            "W700:not_marked_complete",
+            "W840:not_complete_simple_single_line",
+            "W840:not_marked_complete"
+          ],
+          "faces": {},
+          "group_id": "4063",
+          "rows": [
+            {
+              "cisi": "H-1261",
+              "class": "??",
+              "complete": "N",
+              "dir.": "R/L",
+              "excavation-idno": "3399 (2)316",
+              "id": "4063.1",
+              "signs": "1",
+              "text": "]000-840-000+",
+              "type": "TAB:I"
+            },
+            {
+              "cisi": "H-1261",
+              "class": "??",
+              "complete": "N",
+              "dir.": "R/L",
+              "excavation-idno": "3399 (2)316",
+              "id": "4063.2",
+              "signs": "1",
+              "text": "+700-000[",
+              "type": "TAB:I"
+            }
+          ]
+        },
+        {
+          "cisi": [
+            "H-1313"
+          ],
+          "eligible": false,
+          "exclusion_reasons": [
+            "W840:unknown_or_separator_token",
+            "W840:not_marked_complete",
+            "W840:sign_count_mismatch"
+          ],
+          "faces": {
+            "W700": {
+              "coefficients": {
+                "L": 2,
+                "S": 0,
+                "constant": 0,
+                "v": 0
+              },
+              "left": [],
+              "residual_after": [],
+              "residual_before": [],
+              "right": [
+                "W032"
+              ],
+              "row_id": "4081.2",
+              "stacked_unit_coefficients": {
+                "L": 2,
+                "S": 0,
+                "constant": 0,
+                "v": 0
+              }
+            }
+          },
+          "group_id": "4081",
+          "rows": [
+            {
+              "cisi": "H-1313",
+              "class": "??",
+              "complete": "N",
+              "dir.": "R/L",
+              "excavation-idno": "12574891",
+              "id": "4081.1",
+              "signs": "2",
+              "text": "+740-840-000+",
+              "type": "TAB:I"
+            },
+            {
+              "cisi": "H-1313",
+              "class": "VN",
+              "complete": "Y",
+              "dir.": "R/L",
+              "excavation-idno": "12574891",
+              "id": "4081.2",
+              "signs": "2",
+              "text": "+700-032+",
+              "type": "TAB:I"
+            }
+          ]
+        }
+      ],
+      "summary": {
+        "candidate_groups": 20,
+        "distinct_literal_pairs": 4,
+        "distinct_numeric_pairs": 4,
+        "eligible_groups": 6,
+        "evaluations": [
+          {
+            "balanced": 5,
+            "candidate": {
+              "L": 10,
+              "S": 8,
+              "v": 6
+            },
+            "model": "stacked_as_L",
+            "total": 6
+          },
+          {
+            "balanced": 2,
+            "candidate": {
+              "L": 10,
+              "S": 8,
+              "v": 6
+            },
+            "model": "stacked_as_one",
+            "total": 6
+          },
+          {
+            "balanced": 5,
+            "candidate": {
+              "L": 36,
+              "S": 20,
+              "v": 4
+            },
+            "model": "stacked_as_L",
+            "total": 6
+          },
+          {
+            "balanced": 2,
+            "candidate": {
+              "L": 36,
+              "S": 20,
+              "v": 4
+            },
+            "model": "stacked_as_one",
+            "total": 6
+          }
+        ],
+        "excluded_groups": 14,
+        "exclusion_reasons_overlap": {
+          "W700:direction_not_R/L": 1,
+          "W700:not_complete_simple_single_line": 4,
+          "W700:not_marked_complete": 4,
+          "W840:direction_not_R/L": 1,
+          "W840:no_recognized_adjacent_numeric_run": 6,
+          "W840:not_complete_simple_single_line": 5,
+          "W840:not_marked_complete": 7,
+          "W840:sign_count_mismatch": 2,
+          "W840:unknown_or_separator_token": 2,
+          "marker_occurrence_not_unique": 1
+        }
+      }
+    },
+    "strict": {
+      "constant_long_stroke_unit_ratio": {
+        "a": "Constant positive value per long stroke in W700 context",
+        "b": "Constant positive value per long stroke in W840 context",
+        "constraints": [
+          {
+            "cisi": [
+              "H-1923"
+            ],
+            "group_id": "567",
+            "required_b_over_a": "1",
+            "stroke_counts": {
+              "W700": 2,
+              "W840": 2
+            }
+          }
+        ],
+        "distinct_required_b_over_a": [
+          "1"
+        ],
+        "incompatible_with_any_positive_constant_pair": false,
+        "scope": "Conditional on equal quantities across faces; source transcriptions retained"
+      },
+      "records": [
+        {
+          "cisi": [
+            "H-1354"
+          ],
+          "eligible": false,
+          "exclusion_reasons": [
+            "W840:no_recognized_adjacent_numeric_run"
+          ],
+          "faces": {
+            "W700": {
+              "coefficients": {
+                "L": 4,
+                "S": 0,
+                "constant": 0,
+                "v": 0
+              },
+              "left": [],
+              "residual_after": [],
+              "residual_before": [],
+              "right": [
+                "W034"
+              ],
+              "row_id": "222.3",
+              "stacked_unit_coefficients": {
+                "L": 4,
+                "S": 0,
+                "constant": 0,
+                "v": 0
+              }
+            },
+            "W840": {
+              "coefficients": {
+                "L": 0,
+                "S": 0,
+                "constant": 0,
+                "v": 0
+              },
+              "left": [],
+              "residual_after": [
+                "W799"
+              ],
+              "residual_before": [
+                "W740",
+                "W714"
+              ],
+              "right": [],
+              "row_id": "222.2",
+              "stacked_unit_coefficients": {
+                "L": 0,
+                "S": 0,
+                "constant": 0,
+                "v": 0
+              }
+            }
+          },
+          "group_id": "222",
+          "rows": [
+            {
+              "cisi": "H-1354",
+              "class": "SC",
+              "complete": "Y",
+              "dir.": "R/L",
+              "excavation-idno": "11349583",
+              "id": "222.1",
+              "signs": "4",
+              "text": "+824-032-578-415+",
+              "type": "TAB:I"
+            },
+            {
+              "cisi": "H-1354",
+              "class": "SC",
+              "complete": "Y",
+              "dir.": "R/L",
+              "excavation-idno": "11349583",
+              "id": "222.2",
+              "signs": "4",
+              "text": "+740-714-840-799+",
+              "type": "TAB:I"
+            },
+            {
+              "cisi": "H-1354",
+              "class": "VN",
+              "complete": "Y",
+              "dir.": "R/L",
+              "excavation-idno": "11349583",
+              "id": "222.3",
+              "signs": "2",
+              "text": "+700-034+",
+              "type": "TAB:I"
+            }
+          ]
+        },
+        {
+          "cisi": [
+            "H-1152"
+          ],
+          "eligible": false,
+          "exclusion_reasons": [
+            "W700:not_complete_simple_single_line",
+            "W700:not_marked_complete",
+            "W840:not_complete_simple_single_line",
+            "W840:not_marked_complete"
+          ],
+          "faces": {},
+          "group_id": "302",
+          "rows": [
+            {
+              "cisi": "H-1152",
+              "class": "UC",
+              "complete": "?",
+              "dir.": "R/L",
+              "excavation-idno": "647363",
+              "id": "302.1",
+              "signs": "2",
+              "text": "]740-840[",
+              "type": "TAB:B"
+            },
+            {
+              "cisi": "H-1152",
+              "class": "UC",
+              "complete": "?",
+              "dir.": "R/L",
+              "excavation-idno": "647363",
+              "id": "302.2",
+              "signs": "2",
+              "text": "]220-700[",
+              "type": "TAB:B"
+            }
+          ]
+        },
+        {
+          "cisi": [
+            "H-2213"
+          ],
+          "eligible": false,
+          "exclusion_reasons": [
+            "W840:no_recognized_adjacent_numeric_run"
+          ],
+          "faces": {
+            "W700": {
+              "coefficients": {
+                "L": 3,
+                "S": 0,
+                "constant": 0,
+                "v": 0
+              },
+              "left": [],
+              "residual_after": [],
+              "residual_before": [],
+              "right": [
+                "W033"
+              ],
+              "row_id": "407.1",
+              "stacked_unit_coefficients": {
+                "L": 3,
+                "S": 0,
+                "constant": 0,
+                "v": 0
+              }
+            },
+            "W840": {
+              "coefficients": {
+                "L": 0,
+                "S": 0,
+                "constant": 0,
+                "v": 0
+              },
+              "left": [],
+              "residual_after": [
+                "W799"
+              ],
+              "residual_before": [
+                "W740",
+                "W760"
+              ],
+              "right": [],
+              "row_id": "407.3",
+              "stacked_unit_coefficients": {
+                "L": 0,
+                "S": 0,
+                "constant": 0,
+                "v": 0
+              }
+            }
+          },
+          "group_id": "407",
+          "rows": [
+            {
+              "cisi": "H-2213",
+              "class": "VN",
+              "complete": "Y",
+              "dir.": "R/L",
+              "excavation-idno": "H2000-4459Figure 38.07",
+              "id": "407.1",
+              "signs": "2",
+              "text": "+700-033+",
+              "type": "TAB:I"
+            },
+            {
+              "cisi": "H-2213",
+              "class": "SC",
+              "complete": "Y",
+              "dir.": "R/L",
+              "excavation-idno": "H2000-4459Figure 38.07",
+              "id": "407.2",
+              "signs": "4",
+              "text": "+824-032-578-415+",
+              "type": "TAB:I"
+            },
+            {
+              "cisi": "H-2213",
+              "class": "SS",
+              "complete": "Y",
+              "dir.": "R/L",
+              "excavation-idno": "H2000-4459Figure 38.07",
+              "id": "407.3",
+              "signs": "4",
+              "text": "+740-760-840-799+",
+              "type": "TAB:I"
+            }
+          ]
+        },
+        {
+          "cisi": [
+            "H-2246"
+          ],
+          "eligible": false,
+          "exclusion_reasons": [
+            "W840:no_recognized_adjacent_numeric_run"
+          ],
+          "faces": {
+            "W700": {
+              "coefficients": {
+                "L": 4,
+                "S": 0,
+                "constant": 0,
+                "v": 0
+              },
+              "left": [],
+              "residual_after": [],
+              "residual_before": [],
+              "right": [
+                "W034"
+              ],
+              "row_id": "484.1",
+              "stacked_unit_coefficients": {
+                "L": 4,
+                "S": 0,
+                "constant": 0,
+                "v": 0
+              }
+            },
+            "W840": {
+              "coefficients": {
+                "L": 0,
+                "S": 0,
+                "constant": 0,
+                "v": 0
+              },
+              "left": [],
+              "residual_after": [
+                "W799"
+              ],
+              "residual_before": [
+                "W740",
+                "W760"
+              ],
+              "right": [],
+              "row_id": "484.3",
+              "stacked_unit_coefficients": {
+                "L": 0,
+                "S": 0,
+                "constant": 0,
+                "v": 0
+              }
+            }
+          },
+          "group_id": "484",
+          "rows": [
+            {
+              "cisi": "H-2246",
+              "class": "VN",
+              "complete": "Y",
+              "dir.": "R/L",
+              "excavation-idno": "H2001-5145Figure 47.05",
+              "id": "484.1",
+              "signs": "2",
+              "text": "+700-034+",
+              "type": "TAB:I"
+            },
+            {
+              "cisi": "H-2246",
+              "class": "SC",
+              "complete": "Y",
+              "dir.": "R/L",
+              "excavation-idno": "H2001-5145Figure 47.05",
+              "id": "484.2",
+              "signs": "4",
+              "text": "+824-032-578-415+",
+              "type": "TAB:I"
+            },
+            {
+              "cisi": "H-2246",
+              "class": "SS",
+              "complete": "Y",
+              "dir.": "R/L",
+              "excavation-idno": "H2001-5145Figure 47.05",
+              "id": "484.3",
+              "signs": "4",
+              "text": "+740-760-840-799+",
+              "type": "TAB:I"
+            }
+          ]
+        },
+        {
+          "cisi": [
+            "H-1923"
+          ],
+          "eligible": true,
+          "equation_difference": {
+            "L": 0,
+            "S": 0,
+            "constant": 0,
+            "v": 0
+          },
+          "evaluations": [
+            {
+              "balances": true,
+              "candidate": {
+                "L": 10,
+                "S": 8,
+                "v": 6
+              },
+              "model": "stacked_as_L",
+              "residual": 0,
+              "values": {
+                "W700": 20,
+                "W840": 20
+              }
+            },
+            {
+              "balances": true,
+              "candidate": {
+                "L": 10,
+                "S": 8,
+                "v": 6
+              },
+              "model": "stacked_as_one",
+              "residual": 0,
+              "values": {
+                "W700": 20,
+                "W840": 20
+              }
+            },
+            {
+              "balances": true,
+              "candidate": {
+                "L": 36,
+                "S": 20,
+                "v": 4
+              },
+              "model": "stacked_as_L",
+              "residual": 0,
+              "values": {
+                "W700": 72,
+                "W840": 72
+              }
+            },
+            {
+              "balances": true,
+              "candidate": {
+                "L": 36,
+                "S": 20,
+                "v": 4
+              },
+              "model": "stacked_as_one",
+              "residual": 0,
+              "values": {
+                "W700": 72,
+                "W840": 72
+              }
+            }
+          ],
+          "exclusion_reasons": [],
+          "faces": {
+            "W700": {
+              "coefficients": {
+                "L": 2,
+                "S": 0,
+                "constant": 0,
+                "v": 0
+              },
+              "left": [],
+              "residual_after": [],
+              "residual_before": [],
+              "right": [
+                "W032"
+              ],
+              "row_id": "567.1",
+              "stacked_unit_coefficients": {
+                "L": 2,
+                "S": 0,
+                "constant": 0,
+                "v": 0
+              }
+            },
+            "W840": {
+              "coefficients": {
+                "L": 2,
+                "S": 0,
+                "constant": 0,
+                "v": 0
+              },
+              "left": [
+                "W032"
+              ],
+              "residual_after": [],
+              "residual_before": [
+                "W400",
+                "W740"
+              ],
+              "right": [],
+              "row_id": "567.2",
+              "stacked_unit_coefficients": {
+                "L": 2,
+                "S": 0,
+                "constant": 0,
+                "v": 0
+              }
+            }
+          },
+          "group_id": "567",
+          "literal_pair_signature": [
+            "+700-032+",
+            "+400-740-032-840+"
+          ],
+          "numeric_pair_signature": [
+            [
+              [],
+              [
+                "W032"
+              ]
+            ],
+            [
+              [
+                "W032"
+              ],
+              []
+            ]
+          ],
+          "rows": [
+            {
+              "cisi": "H-1923",
+              "class": "VN",
+              "complete": "Y",
+              "dir.": "R/L",
+              "excavation-idno": "H94-2217Figure 28.01",
+              "id": "567.1",
+              "signs": "2",
+              "text": "+700-032+",
+              "type": "TAB:B"
+            },
+            {
+              "cisi": "H-1923",
+              "class": "SC",
+              "complete": "Y",
+              "dir.": "R/L",
+              "excavation-idno": "H94-2217Figure 28.01",
+              "id": "567.2",
+              "signs": "4",
+              "text": "+400-740-032-840+",
+              "type": "TAB:B"
+            }
+          ]
+        },
+        {
+          "cisi": [
+            "H-2214"
+          ],
+          "eligible": false,
+          "exclusion_reasons": [
+            "W840:no_recognized_adjacent_numeric_run"
+          ],
+          "faces": {
+            "W700": {
+              "coefficients": {
+                "L": 3,
+                "S": 0,
+                "constant": 0,
+                "v": 0
+              },
+              "left": [],
+              "residual_after": [],
+              "residual_before": [],
+              "right": [
+                "W033"
+              ],
+              "row_id": "672.1",
+              "stacked_unit_coefficients": {
+                "L": 3,
+                "S": 0,
+                "constant": 0,
+                "v": 0
+              }
+            },
+            "W840": {
+              "coefficients": {
+                "L": 0,
+                "S": 0,
+                "constant": 0,
+                "v": 0
+              },
+              "left": [],
+              "residual_after": [
+                "W799"
+              ],
+              "residual_before": [
+                "W740",
+                "W760"
+              ],
+              "right": [],
+              "row_id": "672.2",
+              "stacked_unit_coefficients": {
+                "L": 0,
+                "S": 0,
+                "constant": 0,
+                "v": 0
+              }
+            }
+          },
+          "group_id": "672",
+          "rows": [
+            {
+              "cisi": "H-2214",
+              "class": "VN",
+              "complete": "Y",
+              "dir.": "R/L",
+              "excavation-idno": "H95-2498Figure 27.03",
+              "id": "672.1",
+              "signs": "2",
+              "text": "+700-033+",
+              "type": "TAB:I"
+            },
+            {
+              "cisi": "H-2214",
+              "class": "SS",
+              "complete": "Y",
+              "dir.": "R/L",
+              "excavation-idno": "H95-2498Figure 27.03",
+              "id": "672.2",
+              "signs": "4",
+              "text": "+740-760-840-799+",
+              "type": "TAB:I"
+            },
+            {
+              "cisi": "H-2214",
+              "class": "SC",
+              "complete": "Y",
+              "dir.": "L/R",
+              "excavation-idno": "H95-2498Figure 27.03",
+              "id": "672.3",
+              "signs": "4",
+              "text": "+876-032-578-415+",
+              "type": "TAB:I"
+            }
+          ]
+        },
+        {
+          "cisi": [
+            "H-2211"
+          ],
+          "eligible": false,
+          "exclusion_reasons": [
+            "marker_occurrence_not_unique"
+          ],
+          "group_id": "829",
+          "rows": [
+            {
+              "cisi": "H-2211",
+              "class": "VN",
+              "complete": "Y",
+              "dir.": "R/L",
+              "excavation-idno": "H97-3285Figure 16.02",
+              "id": "829.1",
+              "signs": "2",
+              "text": "+700-032+",
+              "type": "TAB:I"
+            },
+            {
+              "cisi": "H-2211",
+              "class": "SC",
+              "complete": "Y",
+              "dir.": "R/L",
+              "excavation-idno": "H97-3285Figure 16.02",
+              "id": "829.2",
+              "signs": "4",
+              "text": "+700-840-032-741+",
+              "type": "TAB:I"
+            }
+          ]
+        },
+        {
+          "cisi": [
+            "H-1806"
+          ],
+          "eligible": false,
+          "exclusion_reasons": [
+            "W700:not_complete_simple_single_line",
+            "W700:not_marked_complete",
+            "W700:direction_not_R/L",
+            "W840:not_complete_simple_single_line",
+            "W840:not_marked_complete",
+            "W840:direction_not_R/L"
+          ],
+          "faces": {},
+          "group_id": "1006",
+          "rows": [
+            {
+              "cisi": "H-1806",
+              "class": "UC",
+              "complete": "?",
+              "dir.": "-",
+              "excavation-idno": "H99-3820Figure 33.06",
+              "id": "1006.1",
+              "signs": "1",
+              "text": "]700+",
+              "type": "TAB:B"
+            },
+            {
+              "cisi": "H-1806",
+              "class": "UC",
+              "complete": "?",
+              "dir.": "-",
+              "excavation-idno": "H99-3820Figure 33.06",
+              "id": "1006.2",
+              "signs": "1",
+              "text": "]840+",
+              "type": "TAB:B"
+            }
+          ]
+        },
+        {
+          "cisi": [
+            "H-250"
+          ],
+          "eligible": false,
+          "exclusion_reasons": [
+            "W700:not_complete_simple_single_line",
+            "W700:not_marked_complete",
+            "W840:not_complete_simple_single_line",
+            "W840:not_marked_complete"
+          ],
+          "faces": {},
+          "group_id": "1275",
+          "rows": [
+            {
+              "cisi": "H-250",
+              "class": "??",
+              "complete": "N",
+              "dir.": "R/L",
+              "excavation-idno": "2900",
+              "id": "1275.1",
+              "signs": "2",
+              "text": "+740-840-000[",
+              "type": "TAB:B"
+            },
+            {
+              "cisi": "H-250",
+              "class": "??",
+              "complete": "N",
+              "dir.": "R/L",
+              "excavation-idno": "2900",
+              "id": "1275.2",
+              "signs": "1",
+              "text": "]000-700+",
+              "type": "TAB:B"
+            }
+          ]
+        },
+        {
+          "cisi": [
+            "H-306"
+          ],
+          "eligible": false,
+          "exclusion_reasons": [
+            "W840:direction_not_R/L"
+          ],
+          "faces": {
+            "W700": {
+              "coefficients": {
+                "L": 3,
+                "S": 0,
+                "constant": 0,
+                "v": 0
+              },
+              "left": [],
+              "residual_after": [],
+              "residual_before": [],
+              "right": [
+                "W033"
+              ],
+              "row_id": "1328.2",
+              "stacked_unit_coefficients": {
+                "L": 3,
+                "S": 0,
+                "constant": 0,
+                "v": 0
+              }
+            }
+          },
+          "group_id": "1328",
+          "rows": [
+            {
+              "cisi": "H-306",
+              "class": "SS",
+              "complete": "Y",
+              "dir.": "L/R",
+              "excavation-idno": "13270",
+              "id": "1328.1",
+              "signs": "3",
+              "text": "+740-032-840+",
+              "type": "TAB:I"
+            },
+            {
+              "cisi": "H-306",
+              "class": "VN",
+              "complete": "Y",
+              "dir.": "R/L",
+              "excavation-idno": "13270",
+              "id": "1328.2",
+              "signs": "2",
+              "text": "+700-033+",
+              "type": "TAB:I"
+            }
+          ]
+        },
+        {
+          "cisi": [
+            "H-326"
+          ],
+          "eligible": true,
+          "equation_difference": {
+            "L": 0,
+            "S": 0,
+            "constant": 0,
+            "v": 0
+          },
+          "evaluations": [
+            {
+              "balances": true,
+              "candidate": {
+                "L": 10,
+                "S": 8,
+                "v": 6
+              },
+              "model": "stacked_as_L",
+              "residual": 0,
+              "values": {
+                "W700": 30,
+                "W840": 30
+              }
+            },
+            {
+              "balances": false,
+              "candidate": {
+                "L": 10,
+                "S": 8,
+                "v": 6
+              },
+              "model": "stacked_as_one",
+              "residual": 27,
+              "values": {
+                "W700": 30,
+                "W840": 3
+              }
+            },
+            {
+              "balances": true,
+              "candidate": {
+                "L": 36,
+                "S": 20,
+                "v": 4
+              },
+              "model": "stacked_as_L",
+              "residual": 0,
+              "values": {
+                "W700": 108,
+                "W840": 108
+              }
+            },
+            {
+              "balances": false,
+              "candidate": {
+                "L": 36,
+                "S": 20,
+                "v": 4
+              },
+              "model": "stacked_as_one",
+              "residual": 105,
+              "values": {
+                "W700": 108,
+                "W840": 3
+              }
+            }
+          ],
+          "exclusion_reasons": [],
+          "faces": {
+            "W700": {
+              "coefficients": {
+                "L": 3,
+                "S": 0,
+                "constant": 0,
+                "v": 0
+              },
+              "left": [],
+              "residual_after": [],
+              "residual_before": [],
+              "right": [
+                "W033"
+              ],
+              "row_id": "1348.2",
+              "stacked_unit_coefficients": {
+                "L": 3,
+                "S": 0,
+                "constant": 0,
+                "v": 0
+              }
+            },
+            "W840": {
+              "coefficients": {
+                "L": 3,
+                "S": 0,
+                "constant": 0,
+                "v": 0
+              },
+              "left": [],
+              "residual_after": [],
+              "residual_before": [
+                "W740"
+              ],
+              "right": [
+                "W013"
+              ],
+              "row_id": "1348.1",
+              "stacked_unit_coefficients": {
+                "L": 0,
+                "S": 0,
+                "constant": 3,
+                "v": 0
+              }
+            }
+          },
+          "group_id": "1348",
+          "literal_pair_signature": [
+            "+700-033+",
+            "+740-840-013+"
+          ],
+          "numeric_pair_signature": [
+            [
+              [],
+              [
+                "W033"
+              ]
+            ],
+            [
+              [],
+              [
+                "W013"
+              ]
+            ]
+          ],
+          "rows": [
+            {
+              "cisi": "H-326",
+              "class": "SS",
+              "complete": "Y",
+              "dir.": "R/L",
+              "excavation-idno": "1171564",
+              "id": "1348.1",
+              "signs": "3",
+              "text": "+740-840-013+",
+              "type": "TAB:I"
+            },
+            {
+              "cisi": "H-326",
+              "class": "VN",
+              "complete": "Y",
+              "dir.": "R/L",
+              "excavation-idno": "1171564",
+              "id": "1348.2",
+              "signs": "2",
+              "text": "+700-033+",
+              "type": "TAB:I"
+            }
+          ]
+        },
+        {
+          "cisi": [
+            "H-340"
+          ],
+          "eligible": false,
+          "exclusion_reasons": [
+            "W840:not_complete_simple_single_line",
+            "W840:not_marked_complete"
+          ],
+          "faces": {
+            "W700": {
+              "coefficients": {
+                "L": 2,
+                "S": 0,
+                "constant": 0,
+                "v": 0
+              },
+              "left": [],
+              "residual_after": [],
+              "residual_before": [],
+              "right": [
+                "W032"
+              ],
+              "row_id": "1361.2",
+              "stacked_unit_coefficients": {
+                "L": 2,
+                "S": 0,
+                "constant": 0,
+                "v": 0
+              }
+            }
+          },
+          "group_id": "1361",
+          "rows": [
+            {
+              "cisi": "H-340",
+              "class": "??",
+              "complete": "N",
+              "dir.": "R/L",
+              "excavation-idno": "10999420",
+              "id": "1361.1",
+              "signs": "4",
+              "text": "+013-840-032-626-000[",
+              "type": "TAB:I"
+            },
+            {
+              "cisi": "H-340",
+              "class": "VN",
+              "complete": "Y",
+              "dir.": "R/L",
+              "excavation-idno": "10999420",
+              "id": "1361.2",
+              "signs": "2",
+              "text": "+700-032+",
+              "type": "TAB:I"
+            }
+          ]
+        },
+        {
+          "cisi": [
+            "H-770"
+          ],
+          "eligible": false,
+          "exclusion_reasons": [
+            "W840:no_recognized_adjacent_numeric_run"
+          ],
+          "faces": {
+            "W700": {
+              "coefficients": {
+                "L": 3,
+                "S": 0,
+                "constant": 0,
+                "v": 0
+              },
+              "left": [],
+              "residual_after": [],
+              "residual_before": [],
+              "right": [
+                "W033"
+              ],
+              "row_id": "1662.2",
+              "stacked_unit_coefficients": {
+                "L": 3,
+                "S": 0,
+                "constant": 0,
+                "v": 0
+              }
+            },
+            "W840": {
+              "coefficients": {
+                "L": 0,
+                "S": 0,
+                "constant": 0,
+                "v": 0
+              },
+              "left": [],
+              "residual_after": [
+                "W416"
+              ],
+              "residual_before": [
+                "W151"
+              ],
+              "right": [],
+              "row_id": "1662.1",
+              "stacked_unit_coefficients": {
+                "L": 0,
+                "S": 0,
+                "constant": 0,
+                "v": 0
+              }
+            }
+          },
+          "group_id": "1662",
+          "rows": [
+            {
+              "cisi": "H-770",
+              "class": "SS",
+              "complete": "Y",
+              "dir.": "R/L",
+              "excavation-idno": "2177353",
+              "id": "1662.1",
+              "signs": "3",
+              "text": "+151-840-416+",
+              "type": "TAB:B"
+            },
+            {
+              "cisi": "H-770",
+              "class": "VN",
+              "complete": "Y",
+              "dir.": "R/L",
+              "excavation-idno": "2177353",
+              "id": "1662.2",
+              "signs": "2",
+              "text": "+700-033+",
+              "type": "TAB:B"
+            }
+          ]
+        },
+        {
+          "cisi": [
+            "H-771"
+          ],
+          "eligible": false,
+          "exclusion_reasons": [
+            "W840:no_recognized_adjacent_numeric_run"
+          ],
+          "faces": {
+            "W700": {
+              "coefficients": {
+                "L": 4,
+                "S": 0,
+                "constant": 0,
+                "v": 0
+              },
+              "left": [],
+              "residual_after": [],
+              "residual_before": [],
+              "right": [
+                "W034"
+              ],
+              "row_id": "1663.2",
+              "stacked_unit_coefficients": {
+                "L": 4,
+                "S": 0,
+                "constant": 0,
+                "v": 0
+              }
+            },
+            "W840": {
+              "coefficients": {
+                "L": 0,
+                "S": 0,
+                "constant": 0,
+                "v": 0
+              },
+              "left": [],
+              "residual_after": [],
+              "residual_before": [
+                "W032",
+                "W257"
+              ],
+              "right": [],
+              "row_id": "1663.1",
+              "stacked_unit_coefficients": {
+                "L": 0,
+                "S": 0,
+                "constant": 0,
+                "v": 0
+              }
+            }
+          },
+          "group_id": "1663",
+          "rows": [
+            {
+              "cisi": "H-771",
+              "class": "SC",
+              "complete": "Y",
+              "dir.": "R/L",
+              "excavation-idno": "657678",
+              "id": "1663.1",
+              "signs": "3",
+              "text": "+032-257-840+",
+              "type": "TAB:B"
+            },
+            {
+              "cisi": "H-771",
+              "class": "VN",
+              "complete": "Y",
+              "dir.": "R/L",
+              "excavation-idno": "657678",
+              "id": "1663.2",
+              "signs": "2",
+              "text": "+700-034+",
+              "type": "TAB:B"
+            }
+          ]
+        },
+        {
+          "cisi": [
+            "H-904"
+          ],
+          "eligible": true,
+          "equation_difference": {
+            "L": 1,
+            "S": -2,
+            "constant": 0,
+            "v": 1
+          },
+          "evaluations": [
+            {
+              "balances": true,
+              "candidate": {
+                "L": 10,
+                "S": 8,
+                "v": 6
+              },
+              "model": "stacked_as_L",
+              "residual": 0,
+              "values": {
+                "W700": 36,
+                "W840": 36
+              }
+            },
+            {
+              "balances": true,
+              "candidate": {
+                "L": 10,
+                "S": 8,
+                "v": 6
+              },
+              "model": "stacked_as_one",
+              "residual": 0,
+              "values": {
+                "W700": 36,
+                "W840": 36
+              }
+            },
+            {
+              "balances": true,
+              "candidate": {
+                "L": 36,
+                "S": 20,
+                "v": 4
+              },
+              "model": "stacked_as_L",
+              "residual": 0,
+              "values": {
+                "W700": 112,
+                "W840": 112
+              }
+            },
+            {
+              "balances": true,
+              "candidate": {
+                "L": 36,
+                "S": 20,
+                "v": 4
+              },
+              "model": "stacked_as_one",
+              "residual": 0,
+              "values": {
+                "W700": 112,
+                "W840": 112
+              }
+            }
+          ],
+          "exclusion_reasons": [],
+          "faces": {
+            "W700": {
+              "coefficients": {
+                "L": 3,
+                "S": 0,
+                "constant": 0,
+                "v": 1
+              },
+              "left": [],
+              "residual_after": [
+                "W645",
+                "W368",
+                "W817"
+              ],
+              "residual_before": [],
+              "right": [
+                "W033",
+                "W900"
+              ],
+              "row_id": "1786.2",
+              "stacked_unit_coefficients": {
+                "L": 3,
+                "S": 0,
+                "constant": 0,
+                "v": 1
+              }
+            },
+            "W840": {
+              "coefficients": {
+                "L": 2,
+                "S": 2,
+                "constant": 0,
+                "v": 0
+              },
+              "left": [
+                "W032"
+              ],
+              "residual_after": [],
+              "residual_before": [
+                "W740"
+              ],
+              "right": [
+                "W002"
+              ],
+              "row_id": "1786.1",
+              "stacked_unit_coefficients": {
+                "L": 2,
+                "S": 2,
+                "constant": 0,
+                "v": 0
+              }
+            }
+          },
+          "group_id": "1786",
+          "literal_pair_signature": [
+            "+700-033-900-645-368-817+",
+            "+740-032-840-002+"
+          ],
+          "numeric_pair_signature": [
+            [
+              [],
+              [
+                "W033",
+                "W900"
+              ]
+            ],
+            [
+              [
+                "W032"
+              ],
+              [
+                "W002"
+              ]
+            ]
+          ],
+          "rows": [
+            {
+              "cisi": "H-904",
+              "class": "SS",
+              "complete": "Y",
+              "dir.": "R/L",
+              "excavation-idno": "J213 (D)477",
+              "id": "1786.1",
+              "signs": "4",
+              "text": "+740-032-840-002+",
+              "type": "TAB:I"
+            },
+            {
+              "cisi": "H-904",
+              "class": "VX",
+              "complete": "Y",
+              "dir.": "R/L",
+              "excavation-idno": "J213 (D)477",
+              "id": "1786.2",
+              "signs": "6",
+              "text": "+700-033-900-645-368-817+",
+              "type": "TAB:I"
+            }
+          ]
+        },
+        {
+          "cisi": [
+            "H-924"
+          ],
+          "eligible": true,
+          "equation_difference": {
+            "L": 0,
+            "S": 0,
+            "constant": 0,
+            "v": 0
+          },
+          "evaluations": [
+            {
+              "balances": true,
+              "candidate": {
+                "L": 10,
+                "S": 8,
+                "v": 6
+              },
+              "model": "stacked_as_L",
+              "residual": 0,
+              "values": {
+                "W700": 30,
+                "W840": 30
+              }
+            },
+            {
+              "balances": false,
+              "candidate": {
+                "L": 10,
+                "S": 8,
+                "v": 6
+              },
+              "model": "stacked_as_one",
+              "residual": 27,
+              "values": {
+                "W700": 30,
+                "W840": 3
+              }
+            },
+            {
+              "balances": true,
+              "candidate": {
+                "L": 36,
+                "S": 20,
+                "v": 4
+              },
+              "model": "stacked_as_L",
+              "residual": 0,
+              "values": {
+                "W700": 108,
+                "W840": 108
+              }
+            },
+            {
+              "balances": false,
+              "candidate": {
+                "L": 36,
+                "S": 20,
+                "v": 4
+              },
+              "model": "stacked_as_one",
+              "residual": 105,
+              "values": {
+                "W700": 108,
+                "W840": 3
+              }
+            }
+          ],
+          "exclusion_reasons": [],
+          "faces": {
+            "W700": {
+              "coefficients": {
+                "L": 3,
+                "S": 0,
+                "constant": 0,
+                "v": 0
+              },
+              "left": [],
+              "residual_after": [],
+              "residual_before": [],
+              "right": [
+                "W033"
+              ],
+              "row_id": "1804.2",
+              "stacked_unit_coefficients": {
+                "L": 3,
+                "S": 0,
+                "constant": 0,
+                "v": 0
+              }
+            },
+            "W840": {
+              "coefficients": {
+                "L": 3,
+                "S": 0,
+                "constant": 0,
+                "v": 0
+              },
+              "left": [],
+              "residual_after": [],
+              "residual_before": [
+                "W740"
+              ],
+              "right": [
+                "W013"
+              ],
+              "row_id": "1804.1",
+              "stacked_unit_coefficients": {
+                "L": 0,
+                "S": 0,
+                "constant": 3,
+                "v": 0
+              }
+            }
+          },
+          "group_id": "1804",
+          "literal_pair_signature": [
+            "+700-033+",
+            "+740-840-013+"
+          ],
+          "numeric_pair_signature": [
+            [
+              [],
+              [
+                "W033"
+              ]
+            ],
+            [
+              [],
+              [
+                "W013"
+              ]
+            ]
+          ],
+          "rows": [
+            {
+              "cisi": "H-924",
+              "class": "SS",
+              "complete": "Y",
+              "dir.": "R/L",
+              "excavation-idno": "3286",
+              "id": "1804.1",
+              "signs": "3",
+              "text": "+740-840-013+",
+              "type": "TAB:I"
+            },
+            {
+              "cisi": "H-924",
+              "class": "VN",
+              "complete": "Y",
+              "dir.": "R/L",
+              "excavation-idno": "3286",
+              "id": "1804.2",
+              "signs": "2",
+              "text": "+700-033+",
+              "type": "TAB:I"
+            }
+          ]
+        },
+        {
+          "cisi": [
+            "H-925"
+          ],
+          "eligible": true,
+          "equation_difference": {
+            "L": 0,
+            "S": 0,
+            "constant": 0,
+            "v": 0
+          },
+          "evaluations": [
+            {
+              "balances": true,
+              "candidate": {
+                "L": 10,
+                "S": 8,
+                "v": 6
+              },
+              "model": "stacked_as_L",
+              "residual": 0,
+              "values": {
+                "W700": 30,
+                "W840": 30
+              }
+            },
+            {
+              "balances": false,
+              "candidate": {
+                "L": 10,
+                "S": 8,
+                "v": 6
+              },
+              "model": "stacked_as_one",
+              "residual": 27,
+              "values": {
+                "W700": 30,
+                "W840": 3
+              }
+            },
+            {
+              "balances": true,
+              "candidate": {
+                "L": 36,
+                "S": 20,
+                "v": 4
+              },
+              "model": "stacked_as_L",
+              "residual": 0,
+              "values": {
+                "W700": 108,
+                "W840": 108
+              }
+            },
+            {
+              "balances": false,
+              "candidate": {
+                "L": 36,
+                "S": 20,
+                "v": 4
+              },
+              "model": "stacked_as_one",
+              "residual": 105,
+              "values": {
+                "W700": 108,
+                "W840": 3
+              }
+            }
+          ],
+          "exclusion_reasons": [],
+          "faces": {
+            "W700": {
+              "coefficients": {
+                "L": 3,
+                "S": 0,
+                "constant": 0,
+                "v": 0
+              },
+              "left": [],
+              "residual_after": [],
+              "residual_before": [],
+              "right": [
+                "W033"
+              ],
+              "row_id": "1805.2",
+              "stacked_unit_coefficients": {
+                "L": 3,
+                "S": 0,
+                "constant": 0,
+                "v": 0
+              }
+            },
+            "W840": {
+              "coefficients": {
+                "L": 3,
+                "S": 0,
+                "constant": 0,
+                "v": 0
+              },
+              "left": [],
+              "residual_after": [],
+              "residual_before": [
+                "W740"
+              ],
+              "right": [
+                "W013"
+              ],
+              "row_id": "1805.1",
+              "stacked_unit_coefficients": {
+                "L": 0,
+                "S": 0,
+                "constant": 3,
+                "v": 0
+              }
+            }
+          },
+          "group_id": "1805",
+          "literal_pair_signature": [
+            "+700-033+",
+            "+740-840-013+"
+          ],
+          "numeric_pair_signature": [
+            [
+              [],
+              [
+                "W033"
+              ]
+            ],
+            [
+              [],
+              [
+                "W013"
+              ]
+            ]
+          ],
+          "rows": [
+            {
+              "cisi": "H-925",
+              "class": "SS",
+              "complete": "Y",
+              "dir.": "R/L",
+              "excavation-idno": "3286512",
+              "id": "1805.1",
+              "signs": "3",
+              "text": "+740-840-013+",
+              "type": "TAB:I"
+            },
+            {
+              "cisi": "H-925",
+              "class": "VN",
+              "complete": "Y",
+              "dir.": "R/L",
+              "excavation-idno": "3286512",
+              "id": "1805.2",
+              "signs": "2",
+              "text": "+700-033+",
+              "type": "TAB:I"
+            }
+          ]
+        },
+        {
+          "cisi": [
+            "H-926"
+          ],
+          "eligible": false,
+          "exclusion_reasons": [
+            "W840:unknown_or_separator_token",
+            "W840:not_marked_complete",
+            "W840:sign_count_mismatch"
+          ],
+          "faces": {
+            "W700": {
+              "coefficients": {
+                "L": 2,
+                "S": 0,
+                "constant": 0,
+                "v": 0
+              },
+              "left": [],
+              "residual_after": [],
+              "residual_before": [],
+              "right": [
+                "W032"
+              ],
+              "row_id": "1806.2",
+              "stacked_unit_coefficients": {
+                "L": 2,
+                "S": 0,
+                "constant": 0,
+                "v": 0
+              }
+            }
+          },
+          "group_id": "1806",
+          "rows": [
+            {
+              "cisi": "H-926",
+              "class": "??",
+              "complete": "N",
+              "dir.": "R/L",
+              "excavation-idno": "12461519",
+              "id": "1806.1",
+              "signs": "4",
+              "text": "+400-740-840-000-220+",
+              "type": "TAB:I"
+            },
+            {
+              "cisi": "H-926",
+              "class": "VN",
+              "complete": "Y",
+              "dir.": "R/L",
+              "excavation-idno": "12461519",
+              "id": "1806.2",
+              "signs": "2",
+              "text": "+700-032+",
+              "type": "TAB:I"
+            }
+          ]
+        },
+        {
+          "cisi": [
+            "H-1261"
+          ],
+          "eligible": false,
+          "exclusion_reasons": [
+            "W700:not_complete_simple_single_line",
+            "W700:not_marked_complete",
+            "W840:not_complete_simple_single_line",
+            "W840:not_marked_complete"
+          ],
+          "faces": {},
+          "group_id": "4063",
+          "rows": [
+            {
+              "cisi": "H-1261",
+              "class": "??",
+              "complete": "N",
+              "dir.": "R/L",
+              "excavation-idno": "3399 (2)316",
+              "id": "4063.1",
+              "signs": "1",
+              "text": "]000-840-000+",
+              "type": "TAB:I"
+            },
+            {
+              "cisi": "H-1261",
+              "class": "??",
+              "complete": "N",
+              "dir.": "R/L",
+              "excavation-idno": "3399 (2)316",
+              "id": "4063.2",
+              "signs": "1",
+              "text": "+700-000[",
+              "type": "TAB:I"
+            }
+          ]
+        },
+        {
+          "cisi": [
+            "H-1313"
+          ],
+          "eligible": false,
+          "exclusion_reasons": [
+            "W840:unknown_or_separator_token",
+            "W840:not_marked_complete",
+            "W840:sign_count_mismatch"
+          ],
+          "faces": {
+            "W700": {
+              "coefficients": {
+                "L": 2,
+                "S": 0,
+                "constant": 0,
+                "v": 0
+              },
+              "left": [],
+              "residual_after": [],
+              "residual_before": [],
+              "right": [
+                "W032"
+              ],
+              "row_id": "4081.2",
+              "stacked_unit_coefficients": {
+                "L": 2,
+                "S": 0,
+                "constant": 0,
+                "v": 0
+              }
+            }
+          },
+          "group_id": "4081",
+          "rows": [
+            {
+              "cisi": "H-1313",
+              "class": "??",
+              "complete": "N",
+              "dir.": "R/L",
+              "excavation-idno": "12574891",
+              "id": "4081.1",
+              "signs": "2",
+              "text": "+740-840-000+",
+              "type": "TAB:I"
+            },
+            {
+              "cisi": "H-1313",
+              "class": "VN",
+              "complete": "Y",
+              "dir.": "R/L",
+              "excavation-idno": "12574891",
+              "id": "4081.2",
+              "signs": "2",
+              "text": "+700-032+",
+              "type": "TAB:I"
+            }
+          ]
+        }
+      ],
+      "summary": {
+        "candidate_groups": 20,
+        "distinct_literal_pairs": 3,
+        "distinct_numeric_pairs": 3,
+        "eligible_groups": 5,
+        "evaluations": [
+          {
+            "balanced": 5,
+            "candidate": {
+              "L": 10,
+              "S": 8,
+              "v": 6
+            },
+            "model": "stacked_as_L",
+            "total": 5
+          },
+          {
+            "balanced": 2,
+            "candidate": {
+              "L": 10,
+              "S": 8,
+              "v": 6
+            },
+            "model": "stacked_as_one",
+            "total": 5
+          },
+          {
+            "balanced": 5,
+            "candidate": {
+              "L": 36,
+              "S": 20,
+              "v": 4
+            },
+            "model": "stacked_as_L",
+            "total": 5
+          },
+          {
+            "balanced": 2,
+            "candidate": {
+              "L": 36,
+              "S": 20,
+              "v": 4
+            },
+            "model": "stacked_as_one",
+            "total": 5
+          }
+        ],
+        "excluded_groups": 15,
+        "exclusion_reasons_overlap": {
+          "W700:direction_not_R/L": 1,
+          "W700:not_complete_simple_single_line": 4,
+          "W700:not_marked_complete": 4,
+          "W840:direction_not_R/L": 2,
+          "W840:no_recognized_adjacent_numeric_run": 6,
+          "W840:not_complete_simple_single_line": 5,
+          "W840:not_marked_complete": 7,
+          "W840:sign_count_mismatch": 2,
+          "W840:unknown_or_separator_token": 2,
+          "marker_occurrence_not_unique": 1
+        }
+      }
+    }
+  },
+  "source_sha256": "b8dcb325a2e2cd3cde12ac12e7a418b0348e45713c9ee28aad81b645d2ac5ee4",
+  "status": "Exploratory protocol written after an initial corpus scan; not preregistered or held out"
+}

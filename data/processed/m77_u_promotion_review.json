@@ -1,0 +1,158 @@
+{
+  "status": "Independent bounded audit; no existing source or processing script edited",
+  "inputs": [
+    {
+      "path": "data/processed/m77_u_pilot_normalized.jsonl",
+      "sha256": "c8985530af4ac31b9d96c9d2b588a9af7fee26ff840d73af09a804fe57e4c128"
+    },
+    {
+      "path": "data/processed/m77_u_pilot_numerals.json",
+      "sha256": "721d9036fb6d82dfdd14ca1f6671c43f9be165aa44111e3a67d9ee479ed5da02"
+    },
+    {
+      "path": "data/processed/m77_u_pilot_structure.json",
+      "sha256": "6c8f48d81971b3c3162b0275d3d9853743aa653b81fcf47f5489c50300acee76"
+    },
+    {
+      "path": "data/processed/m77_u_pilot_parent.json",
+      "sha256": "3399bc7ae3c8a5f811e21da4eab71ba44ee08fc7e0dc0f083d68e451c2c2bab4"
+    },
+    {
+      "path": "data/processed/m77_candidate_records.jsonl",
+      "sha256": "b29a176da86b125115256a8966c377c3fd9fe39ecaab17bf576b770b83b41bab"
+    },
+    {
+      "path": "scripts/analyze_m77_u_fields.py",
+      "sha256": "b0d4f36030a560af90282c930ca963c97d3d913308dfc7d5199162dcfcb2c936"
+    },
+    {
+      "path": "results/primary_pages/numeral-u-pilot-576.png",
+      "sha256": "a2d877bac15824997f6154fd36589985fe5bcaae663da30f089ae24a80748edc"
+    },
+    {
+      "path": "results/primary_pages/numeral-u-pilot-576-detail.png",
+      "sha256": "3603b9b11cd5d63d8aeed236282f2c0778efaa029e9ac5c2f40bedac671cf65d"
+    },
+    {
+      "path": "results/primary_pages/numeral-u-pilot-576-top.png",
+      "sha256": "2db424b71a85e94bc87c2621d638c695f2001856365085f2b7304195d6285890"
+    },
+    {
+      "path": "results/primary_pages/parent-u-pilot-582.png",
+      "sha256": "0973a990832c273bd02bfb2db02f302ca44fcbd53dba4cee2574df344d45ade4"
+    },
+    {
+      "path": "results/primary_pages/parent-u-pilot-583.png",
+      "sha256": "8d36ac7810a7ac25b8a480d7db248ab613c16ebce1cc73ea13d501b0753594df"
+    }
+  ],
+  "primary_source": {
+    "path": "data/raw/mahadevan_1977_text.pdf",
+    "sha256": "6dcdd074a0174e5fab149590fbbf82342711d345764e9763f8e5e92c81cf7f99"
+  },
+  "inventory": {
+    "indexed_rows": 141,
+    "indexed_unique_reference_side_line_keys": 141,
+    "U_instances_in_indexed_lines": 145,
+    "context_rows": 83,
+    "indexed_and_context_unique_keys": 224,
+    "U_instances_in_context_lines": 2,
+    "loss_rows": 5,
+    "doubt_rows": 12,
+    "reviewer_unknown_rows": 4,
+    "full_sequence_primary_checked_false": [
+      "4316"
+    ],
+    "clean_fully_checked_indexed_rows_by_current_flags": 119,
+    "explicit_checked_flag_absent_in_source_rows": 93
+  },
+  "primary_checks": [
+    {
+      "reference": "1623",
+      "pdf_page": 576,
+      "printed_page": 565,
+      "side": "1",
+      "line": "0",
+      "indexed_positions": [
+        5
+      ],
+      "all_U_positions": [
+        5,
+        6,
+        7
+      ],
+      "observations": "Primary labels 10,20,30 denote three sides, each only line 0. Side1 contains three adjacent U signs and a reviewer-unidentified carrying-human form; UNKNOWN is a visible glyph, not a lost span. Candidate sequence matches side3, not side1. 2847 printed immediately below repeats these displayed strings but remains a distinct catalogue reference.",
+      "correction": "None to indexed tokens or labels. Do not collapse identical strings across references or count three adjacent U as three lines."
+    },
+    {
+      "reference": "4487",
+      "pdf_page": 576,
+      "printed_page": 565,
+      "side": "2",
+      "line": "0",
+      "observations": "Visible human/bow composite before U remains UNKNOWN. No hatching and no primary doubt mark. The four-sign candidate matches side1. UNKNOWN prevents exact fully identified transcription but does not imply physical damage.",
+      "correction": "None. Preserve distinct identification and physical-completeness flags."
+    },
+    {
+      "reference": "4546",
+      "pdf_page": 576,
+      "printed_page": 565,
+      "side": "2",
+      "line": "0",
+      "observations": "Indexed line has primary hatched loss followed by U in reading order. Context side1 contains loss, a starred human-shaped glyph currently *UNKNOWN, and modified U M342. Candidate assigns *M008 to the human; this review does not promote the secondary assignment.",
+      "correction": "If context rows are promoted, recognize UNKNOWN after stripping the doubt prefix, while preserving doubt. Do not delete or replace it with canonical *M008."
+    },
+    {
+      "reference": "4660",
+      "pdf_page": 582,
+      "printed_page": 571,
+      "side": "2",
+      "line": "0",
+      "observations": "Primary side1 label10 is loss-only; side2 label20 has M089 M328, exactly the exported sequence. Export metadata direction9 cannot be assigned to every side; parent primary ledger correctly leaves this line's actual direction null.",
+      "correction": "No line correction. Do not count this indexed line as export-omitted merely because it is side2."
+    },
+    {
+      "reference": "1527",
+      "pdf_page": 583,
+      "printed_page": 572,
+      "side": "1",
+      "line": "2",
+      "observations": "Printed labels11 and12 denote two lines on side1. Second line contains three short strokes, starred single short stroke, open-ended X, three long strokes, U: M102 *M097 M149 M089 M328. Candidate matches this second line. 2604 next group displays the same line layout.",
+      "correction": "No line correction. Never parse12 as side2 or collapse this to line0."
+    }
+  ],
+  "normalizer_findings": [
+    {
+      "finding": "full_sequence_primary_checked defaults to True",
+      "scope": "47 numeral and 46 structure rows lack explicit per-row flag; their source protocols assert visual transcription",
+      "recommendation": "Record ledger-level review provenance explicitly; do not reuse unconditional True default for new ledgers. Distinguish visual coverage from all identities resolved."
+    },
+    {
+      "finding": "complete_line and per-row source notes are not copied to normalized output",
+      "scope": "Physical incompleteness is partly recoverable from LOSS but source semantics and candidate-only caveats require original ledger",
+      "recommendation": "Retain original completeness and notes; do not equate complete_line with identification certainty."
+    },
+    {
+      "finding": "has_reviewer_unknown tests only exact UNKNOWN",
+      "scope": "Currently no indexed *UNKNOWN is missed, but actual context4546 includes *UNKNOWN",
+      "recommendation": "Classify token base after stripping doubt marker; retain primary doubt separately."
+    },
+    {
+      "finding": "4316 full_sequence_primary_checked=False is retained correctly",
+      "scope": "Its M267 M099 M086 M336 M012 prefix is candidate-derived; only terminal M089 M328 checked in original source ledger",
+      "recommendation": "Exclude full line from fully authenticated tier unless prefix separately checked. Retain partial position evidence."
+    }
+  ],
+  "promotion_rules": [
+    "Key a line by namespace, catalogue reference, primary side code and primary line code; key an occurrence additionally by zero-based token position.",
+    "Collapse repeated concordance observations of the same line only when transcriptions agree; collect all source locators. Conflicts are review items, never overwrite choices.",
+    "Identical strings on different lines or references remain distinct records; catalogue references do not by themselves prove independent physical artifacts.",
+    "Maintain a reviewed diplomatic tier preserving LOSS, UNKNOWN and *doubt and a fully identified undoubted tier requiring validated IDs, no loss/unknown/doubt and documented whole-line review.",
+    "Do not infer side, line or ancient direction from digital sequence order, source_doc_count, candidate direction, or normalized RTL layout.",
+    "Compare exports by exact uncertainty-aware normalized tokens. Report equal string observed, definite mismatch, or uncertainty prevents exact comparison. String equality alone does not locate the export among multiple identical lines.",
+    "An unmatched line is missing as a complete exported string, not necessarily new sign occurrences: substring overlap or a different selected line must be reported separately.",
+    "Do not join across LOSS or UNKNOWN when computing adjacency. Local verified segments can support explicitly partial analyses; doubtful identities require exclusion or separate sensitivity analyses.",
+    "Keep the M328-selected sample separate from any representative corpus; repairing selected lines does not support unbiased sign frequencies or a whole-corpus missingness estimate."
+  ],
+  "downloads": []
+}

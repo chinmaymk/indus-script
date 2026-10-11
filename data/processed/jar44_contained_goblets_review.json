@@ -1,0 +1,171 @@
+{
+  "co_reference": {
+    "exact_contained_item_identified": false,
+    "explanation_selected": null,
+    "object_descriptions_differ": true,
+    "overlapping_grid": true,
+    "possible_explanations": [
+      "register covers an assemblage or is reused for an associated item",
+      "loose narrative reference",
+      "catalogue or printing error"
+    ],
+    "rule": "Do not collapse the containing jar, its contained sherds and the illustrated comparison into one artifact.",
+    "shared_literal_register": true
+  },
+  "crop_manifest": [
+    {
+      "box_xyxy": [
+        650,
+        3330,
+        5200,
+        3790
+      ],
+      "operation": "crop only",
+      "output": {
+        "bytes": 372542,
+        "path": "results/primary_pages/jar44-table-left.png",
+        "sha256": "4a3ee4959621197dd55ad6eb8a0bb033efde4fc50505e647aafd59ac64e97f39"
+      },
+      "source": {
+        "bytes": 1798321,
+        "path": "data/raw/jar54-vats-leaf284-retry.jpg",
+        "sha256": "357f30b7d5c29a168871ca11279ff7995faff806e353f129908fdec6009e6a8d"
+      }
+    },
+    {
+      "box_xyxy": [
+        650,
+        650,
+        4650,
+        2000
+      ],
+      "operation": "crop only",
+      "output": {
+        "bytes": 2663238,
+        "path": "results/primary_pages/jar44-narrative91.png",
+        "sha256": "e292438b775aadb15c5e7ac8a19812789b2fd35c0cd7c8dca3258b453e2a9744"
+      },
+      "source": {
+        "bytes": 2623937,
+        "path": "data/raw/capacity-context-vats-leaf117.jpg",
+        "sha256": "8ab56e2b2e416378105c89579e842a220a77199b6a43e6d85737f09913d7df08"
+      }
+    }
+  ],
+  "evidence_files": [
+    {
+      "bytes": 1798321,
+      "path": "data/raw/jar54-vats-leaf284-retry.jpg",
+      "sha256": "357f30b7d5c29a168871ca11279ff7995faff806e353f129908fdec6009e6a8d"
+    },
+    {
+      "bytes": 2623937,
+      "path": "data/raw/capacity-context-vats-leaf117.jpg",
+      "sha256": "8ab56e2b2e416378105c89579e842a220a77199b6a43e6d85737f09913d7df08"
+    },
+    {
+      "bytes": 2099661,
+      "path": "data/raw/inscribed-frame-vats-leaf285.jpg",
+      "sha256": "3029c3a94b0db8d2b086ceccc05c7aaf70c91c58ca066e4ea699b14a75d3e0d3"
+    },
+    {
+      "bytes": 1518598,
+      "path": "data/raw/vats_1940_text_18220_djvu.txt",
+      "sha256": "9426186946d5540e6ccff83fdfc8e5af4aaed99926e56fe14287f57f8ccb4d45"
+    },
+    {
+      "bytes": 1204921,
+      "path": "data/raw/lipi_inscriptions.csv",
+      "sha256": "b8dcb325a2e2cd3cde12ac12e7a418b0348e45713c9ee28aad81b645d2ac5ee4"
+    },
+    {
+      "bytes": 220071,
+      "path": "results/primary_pages/inscribed-frame-independent-p259-row44.png",
+      "sha256": "6e65346977caa1aa0039757db659e5d5846242f01587d3e8269766fcee05d11e"
+    },
+    {
+      "bytes": 2659,
+      "path": "docs/JAR44_CONTAINED_GOBLETS_REVIEW.md",
+      "sha256": "3beaaa0313b9b35c48ed99e11b50a26f101082d88b72068ddf8b7eda59607351"
+    },
+    {
+      "bytes": 3823,
+      "path": "scripts/persist_jar44_review.py",
+      "sha256": "f24ae0dd2ca53c45d00dbb847c8bd6c497a5b1f5c917aabdaa5f1769236b4841"
+    }
+  ],
+  "narrative": {
+    "comparison": "similar to No73 in PlateCIV",
+    "comparison_is_identity": false,
+    "described_object": "fragment of an inscribed goblet",
+    "locator": "Vats1940 I printed91",
+    "own_photograph_identified": false,
+    "register": "7856",
+    "square": "M12/7"
+  },
+  "phonetic_values_assigned": 0,
+  "reported_numerical_value": null,
+  "scope": "Exact primary records and typed candidate relations; no jar or goblet transcription established",
+  "secondary_candidate_search": {
+    "accepted_rows": [],
+    "exclusion": "DK7856 belongs to Mohenjo-daro implements, not Harappa jar/goblet7856.",
+    "field": "excavation-idno",
+    "limit": "No matched row in this secondary field search; not proof of absence from every catalogue.",
+    "literal_substring": "7856",
+    "rows": [
+      {
+        "cisi": "M-2118",
+        "excavation-idno": "DK7856CXXVI:2",
+        "id": "2370.1",
+        "site": "Mohenjo-daro",
+        "text": "+821-001-480-850-595-391+",
+        "type": "IMPL"
+      },
+      {
+        "cisi": "M-2118",
+        "excavation-idno": "DK7856CXXVI:2",
+        "id": "2370.2",
+        "site": "Mohenjo-daro",
+        "text": "+913-005-004-151-803+",
+        "type": "IMPL"
+      }
+    ]
+  },
+  "semantic_values_assigned": 0,
+  "source_text_search": {
+    "OCR_location": "printed91 located through goblet/stamped terms; original image clearly reads7856 despite damaged OCRnumerals",
+    "literal_7856_hit_in_retained_Vats_OCR": false,
+    "negative_OCR_is_not_absence": true
+  },
+  "table": {
+    "cereal_report": "Decayed cereal in lower portion; greenish porous earth",
+    "contained_marked_items": [
+      {
+        "item": "goblet sherd",
+        "mark": "incision",
+        "own_identifier": null
+      },
+      {
+        "item": "another goblet sherd",
+        "mark": "seal impression",
+        "own_identifier": null
+      }
+    ],
+    "container_inscription_established": false,
+    "depth": "6ft",
+    "description": "Large, round, cracked",
+    "goblet_count": null,
+    "locator": "Vats1940 I printed258–259",
+    "measurement": null,
+    "mound": "F",
+    "other_pottery": [
+      "one small tumbler",
+      "two miniature lids"
+    ],
+    "register": "7856",
+    "serial": 44,
+    "square": "M12/7 and8",
+    "stratum": "III",
+    "trench": "I"
+  }
+}

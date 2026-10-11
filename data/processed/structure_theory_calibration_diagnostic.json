@@ -1,0 +1,6 @@
+{
+  "status": "Added after initial source/control results were inspected; explicitly post-result, not preregistered.",
+  "reason": "A deeper smoothed count hierarchy can improve calibration by sharpening the parent prediction even if the new context does not identify a different empirical composition.",
+  "diagnostic": "For each extra layer, replace its child empirical target distribution with the empirical target distribution of the parent context while keeping the child support count, alpha, and smoothed parent prediction fixed. Compare actual child against this refinement control.",
+  "interpretation": "A positive difference exceeds this particular sharpening mechanism, but does not formally reject conditional independence or prove grammar/meaning. Child support still depends on the extra context. No significance threshold or success criterion was selected."
+}

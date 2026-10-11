@@ -1,0 +1,1480 @@
+{
+  "scope": "independent reconstruction after protocol saved; no production helpers imported",
+  "all_checks_passed": true,
+  "mismatches": [],
+  "full_code_rows_compared": 82,
+  "background_statuses_compared": 4920,
+  "local_statuses_compared": 410,
+  "control_set_summaries": {
+    "all_background_observed_controls": {
+      "control_codes": [
+        "W001",
+        "W002",
+        "W003",
+        "W013",
+        "W014",
+        "W015",
+        "W016",
+        "W031",
+        "W032",
+        "W033",
+        "W034",
+        "W055",
+        "W060",
+        "W067",
+        "W090",
+        "W100",
+        "W101",
+        "W128",
+        "W140",
+        "W151",
+        "W156",
+        "W161",
+        "W176",
+        "W230",
+        "W250",
+        "W287",
+        "W296",
+        "W298",
+        "W317",
+        "W365",
+        "W368",
+        "W375",
+        "W386",
+        "W388",
+        "W390",
+        "W400",
+        "W429",
+        "W456",
+        "W480",
+        "W482",
+        "W495",
+        "W500",
+        "W520",
+        "W521",
+        "W526",
+        "W530",
+        "W531",
+        "W579",
+        "W590",
+        "W592",
+        "W615",
+        "W632",
+        "W636",
+        "W647",
+        "W679",
+        "W690",
+        "W692",
+        "W700",
+        "W702",
+        "W705",
+        "W713",
+        "W717",
+        "W740",
+        "W741",
+        "W766",
+        "W767",
+        "W790",
+        "W791",
+        "W798",
+        "W803",
+        "W817",
+        "W820",
+        "W822",
+        "W838",
+        "W840",
+        "W842",
+        "W850",
+        "W861",
+        "W892",
+        "W906",
+        "W920"
+      ],
+      "n_codes": 81,
+      "distinct_local_profiles": 8,
+      "equal_target_status_profile": [],
+      "equal_target_interval": [
+        "W368",
+        "W790"
+      ],
+      "at_least_target_lower_bound": [
+        "W032",
+        "W060",
+        "W368",
+        "W390",
+        "W717",
+        "W790"
+      ],
+      "strictly_greater_lower_bound": [
+        "W032",
+        "W390"
+      ]
+    },
+    "same_observed_positive_count": {
+      "control_codes": [
+        "W001",
+        "W033",
+        "W161",
+        "W400",
+        "W530",
+        "W705",
+        "W840",
+        "W850",
+        "W892"
+      ],
+      "n_codes": 9,
+      "distinct_local_profiles": 1,
+      "equal_target_status_profile": [],
+      "equal_target_interval": [],
+      "at_least_target_lower_bound": [],
+      "strictly_greater_lower_bound": []
+    },
+    "same_positive_and_unknown_counts": {
+      "control_codes": [
+        "W033",
+        "W400",
+        "W530",
+        "W705",
+        "W840",
+        "W850"
+      ],
+      "n_codes": 6,
+      "distinct_local_profiles": 1,
+      "equal_target_status_profile": [],
+      "equal_target_interval": [],
+      "at_least_target_lower_bound": [],
+      "strictly_greater_lower_bound": []
+    },
+    "half_to_twice_observed_positive_count": {
+      "control_codes": [
+        "W001",
+        "W003",
+        "W013",
+        "W014",
+        "W015",
+        "W016",
+        "W033",
+        "W034",
+        "W055",
+        "W067",
+        "W090",
+        "W100",
+        "W101",
+        "W128",
+        "W140",
+        "W156",
+        "W161",
+        "W176",
+        "W230",
+        "W250",
+        "W287",
+        "W296",
+        "W298",
+        "W317",
+        "W365",
+        "W368",
+        "W375",
+        "W386",
+        "W388",
+        "W400",
+        "W429",
+        "W456",
+        "W480",
+        "W482",
+        "W495",
+        "W500",
+        "W520",
+        "W521",
+        "W526",
+        "W530",
+        "W531",
+        "W579",
+        "W590",
+        "W592",
+        "W615",
+        "W632",
+        "W636",
+        "W647",
+        "W679",
+        "W690",
+        "W692",
+        "W700",
+        "W702",
+        "W705",
+        "W713",
+        "W717",
+        "W766",
+        "W767",
+        "W790",
+        "W791",
+        "W798",
+        "W803",
+        "W820",
+        "W822",
+        "W838",
+        "W840",
+        "W842",
+        "W850",
+        "W861",
+        "W892",
+        "W906"
+      ],
+      "n_codes": 71,
+      "distinct_local_profiles": 5,
+      "equal_target_status_profile": [],
+      "equal_target_interval": [
+        "W368",
+        "W790"
+      ],
+      "at_least_target_lower_bound": [
+        "W368",
+        "W717",
+        "W790"
+      ],
+      "strictly_greater_lower_bound": []
+    }
+  },
+  "target_background": {
+    "positive": 2,
+    "negative": 34,
+    "unknown": 24
+  },
+  "target_local_vector": [
+    "unknown",
+    "positive",
+    "negative",
+    "negative",
+    "negative"
+  ],
+  "distinct_control_profile_count": 8,
+  "post_protocol_omission_diagnostics": [
+    {
+      "code": "W220",
+      "local_status_vector": [
+        "unknown",
+        "positive",
+        "negative",
+        "negative",
+        "negative"
+      ],
+      "background_counts": {
+        "positive": 2,
+        "negative": 34,
+        "unknown": 24
+      },
+      "difference_bounds": [
+        "1/3",
+        "2/3"
+      ],
+      "after_omitting2428_bounds": [
+        "0",
+        "1/2"
+      ],
+      "certain_positive_primary_rows": [
+        "LII.19"
+      ]
+    },
+    {
+      "code": "W032",
+      "local_status_vector": [
+        "positive",
+        "positive",
+        "negative",
+        "negative",
+        "negative"
+      ],
+      "background_counts": {
+        "positive": 12,
+        "negative": 27,
+        "unknown": 21
+      },
+      "difference_bounds": [
+        "2/3",
+        "2/3"
+      ],
+      "after_omitting2428_bounds": [
+        "1/2",
+        "1/2"
+      ],
+      "certain_positive_primary_rows": [
+        "LI.15",
+        "LII.19"
+      ]
+    },
+    {
+      "code": "W060",
+      "local_status_vector": [
+        "unknown",
+        "unknown",
+        "positive",
+        "negative",
+        "negative"
+      ],
+      "background_counts": {
+        "positive": 6,
+        "negative": 30,
+        "unknown": 24
+      },
+      "difference_bounds": [
+        "1/3",
+        "1"
+      ],
+      "after_omitting2428_bounds": [
+        "1/2",
+        "1"
+      ],
+      "certain_positive_primary_rows": [
+        "LII.23"
+      ]
+    },
+    {
+      "code": "W368",
+      "local_status_vector": [
+        "positive",
+        "unknown",
+        "negative",
+        "negative",
+        "negative"
+      ],
+      "background_counts": {
+        "positive": 1,
+        "negative": 34,
+        "unknown": 25
+      },
+      "difference_bounds": [
+        "1/3",
+        "2/3"
+      ],
+      "after_omitting2428_bounds": [
+        "1/2",
+        "1/2"
+      ],
+      "certain_positive_primary_rows": [
+        "LI.15"
+      ]
+    },
+    {
+      "code": "W390",
+      "local_status_vector": [
+        "positive",
+        "unknown",
+        "positive",
+        "negative",
+        "negative"
+      ],
+      "background_counts": {
+        "positive": 5,
+        "negative": 32,
+        "unknown": 23
+      },
+      "difference_bounds": [
+        "2/3",
+        "1"
+      ],
+      "after_omitting2428_bounds": [
+        "1",
+        "1"
+      ],
+      "certain_positive_primary_rows": [
+        "LI.15",
+        "LII.23"
+      ]
+    },
+    {
+      "code": "W717",
+      "local_status_vector": [
+        "unknown",
+        "unknown",
+        "positive",
+        "negative",
+        "negative"
+      ],
+      "background_counts": {
+        "positive": 1,
+        "negative": 34,
+        "unknown": 25
+      },
+      "difference_bounds": [
+        "1/3",
+        "1"
+      ],
+      "after_omitting2428_bounds": [
+        "1/2",
+        "1"
+      ],
+      "certain_positive_primary_rows": [
+        "LII.23"
+      ]
+    },
+    {
+      "code": "W790",
+      "local_status_vector": [
+        "positive",
+        "unknown",
+        "negative",
+        "negative",
+        "negative"
+      ],
+      "background_counts": {
+        "positive": 1,
+        "negative": 34,
+        "unknown": 25
+      },
+      "difference_bounds": [
+        "1/3",
+        "2/3"
+      ],
+      "after_omitting2428_bounds": [
+        "1/2",
+        "1/2"
+      ],
+      "certain_positive_primary_rows": [
+        "LI.15"
+      ]
+    }
+  ],
+  "design_protocol_difference": "Actual frozen protocol uses primary65 frame/background60 and certain-background code inventory excludingP050\u2013P065/W221; pre-count independent design advice discussed broader export/all-code inventory. Verification follows actual frozen protocol.",
+  "established_semantic_values": 0,
+  "established_phonetic_values": 0,
+  "evidence_files": [
+    {
+      "path": "results/chanhu_local_specificity.json",
+      "bytes": 196902,
+      "sha256": "8613aeef3ac44168aa2621646b3d7f259c7ec0f5b61aaeae90cf43234a486913"
+    },
+    {
+      "path": "results/chanhu_deposit_metadata_joins.json",
+      "bytes": 161319,
+      "sha256": "19b62a3e4d2fb44b8043341613b23d07392692a520a86ab309eca4715a6a7d2b"
+    },
+    {
+      "path": "results/chanhu_fish_audit.json",
+      "bytes": 209488,
+      "sha256": "9dd63e1dfc42dffc7b02175fbfafb45974d261615e9476c5463d7a622d8d2226"
+    },
+    {
+      "path": "results/chanhu_local_contrast.json",
+      "bytes": 52928,
+      "sha256": "a4acc8c4fa7097b00b902515e324c28427fcae1b89e3fc576e5bd7e0483ba5cc"
+    },
+    {
+      "path": "data/raw/lipi_inscriptions.csv",
+      "bytes": 1204921,
+      "sha256": "b8dcb325a2e2cd3cde12ac12e7a418b0348e45713c9ee28aad81b645d2ac5ee4"
+    },
+    {
+      "path": "data/processed/catalogue_features.json",
+      "bytes": 189902,
+      "sha256": "00836515c6f3beec28b3b66e13d8a9c6e94571cfb2e9dbb4b148651b7ff0032d"
+    },
+    {
+      "path": "docs/CHANHU_LOCAL_SPECIFICITY_PROTOCOL.md",
+      "bytes": 3325,
+      "sha256": "bf48179ab21e23becb95d0105871721b6689499687a31c477127d40773bb3b40"
+    },
+    {
+      "path": "scripts/analyze_chanhu_specificity.py",
+      "bytes": 5714,
+      "sha256": "abb1a9fdcb071b2b1d9e8b07d2dde4ed19f20f77a5501793610272974e21dbfd"
+    },
+    {
+      "path": "scripts/audit_chanhu_fish.py",
+      "bytes": 8824,
+      "sha256": "56ce5e087038e05c0c09b78df2924ad009ef5f0b200c6d7ecf168c642d61d567"
+    },
+    {
+      "path": "scripts/verify_chanhu_specificity.py",
+      "bytes": 9089,
+      "sha256": "0f62ca26a53493bf532b45aef99c1eac74f595dbfd784bd787200792f0731c8c"
+    },
+    {
+      "path": "docs/CHANHU_LOCAL_SPECIFICITY_INDEPENDENT.md",
+      "bytes": 4426,
+      "sha256": "e945abe94a7a2dbb1f40b9f34db656d89f4d5f899e4c0bb57021cb83d4900dfc"
+    }
+  ],
+  "posthoc_background_marginal_compatibility": {
+    "status": "posthoc requested after control outcomes; not a replacement matched set",
+    "target_marginal_interval": [
+      2,
+      26
+    ],
+    "controls_with_overlap": 81,
+    "controls_total": 81,
+    "interpretation": "Necessary compatibility from marginal intervals only; no probability or guaranteed common joint completion.",
+    "rows": [
+      {
+        "code": "W001",
+        "marginal_possible_count_interval": [
+          2,
+          27
+        ],
+        "intersection_with_target": [
+          2,
+          26
+        ],
+        "marginal_overlap": true
+      },
+      {
+        "code": "W002",
+        "marginal_possible_count_interval": [
+          17,
+          36
+        ],
+        "intersection_with_target": [
+          17,
+          26
+        ],
+        "marginal_overlap": true
+      },
+      {
+        "code": "W003",
+        "marginal_possible_count_interval": [
+          3,
+          27
+        ],
+        "intersection_with_target": [
+          3,
+          26
+        ],
+        "marginal_overlap": true
+      },
+      {
+        "code": "W013",
+        "marginal_possible_count_interval": [
+          1,
+          25
+        ],
+        "intersection_with_target": [
+          2,
+          25
+        ],
+        "marginal_overlap": true
+      },
+      {
+        "code": "W014",
+        "marginal_possible_count_interval": [
+          1,
+          25
+        ],
+        "intersection_with_target": [
+          2,
+          25
+        ],
+        "marginal_overlap": true
+      },
+      {
+        "code": "W015",
+        "marginal_possible_count_interval": [
+          1,
+          26
+        ],
+        "intersection_with_target": [
+          2,
+          26
+        ],
+        "marginal_overlap": true
+      },
+      {
+        "code": "W016",
+        "marginal_possible_count_interval": [
+          1,
+          26
+        ],
+        "intersection_with_target": [
+          2,
+          26
+        ],
+        "marginal_overlap": true
+      },
+      {
+        "code": "W031",
+        "marginal_possible_count_interval": [
+          13,
+          36
+        ],
+        "intersection_with_target": [
+          13,
+          26
+        ],
+        "marginal_overlap": true
+      },
+      {
+        "code": "W032",
+        "marginal_possible_count_interval": [
+          12,
+          33
+        ],
+        "intersection_with_target": [
+          12,
+          26
+        ],
+        "marginal_overlap": true
+      },
+      {
+        "code": "W033",
+        "marginal_possible_count_interval": [
+          2,
+          26
+        ],
+        "intersection_with_target": [
+          2,
+          26
+        ],
+        "marginal_overlap": true
+      },
+      {
+        "code": "W034",
+        "marginal_possible_count_interval": [
+          1,
+          26
+        ],
+        "intersection_with_target": [
+          2,
+          26
+        ],
+        "marginal_overlap": true
+      },
+      {
+        "code": "W055",
+        "marginal_possible_count_interval": [
+          1,
+          26
+        ],
+        "intersection_with_target": [
+          2,
+          26
+        ],
+        "marginal_overlap": true
+      },
+      {
+        "code": "W060",
+        "marginal_possible_count_interval": [
+          6,
+          30
+        ],
+        "intersection_with_target": [
+          6,
+          26
+        ],
+        "marginal_overlap": true
+      },
+      {
+        "code": "W067",
+        "marginal_possible_count_interval": [
+          1,
+          26
+        ],
+        "intersection_with_target": [
+          2,
+          26
+        ],
+        "marginal_overlap": true
+      },
+      {
+        "code": "W090",
+        "marginal_possible_count_interval": [
+          1,
+          26
+        ],
+        "intersection_with_target": [
+          2,
+          26
+        ],
+        "marginal_overlap": true
+      },
+      {
+        "code": "W100",
+        "marginal_possible_count_interval": [
+          1,
+          26
+        ],
+        "intersection_with_target": [
+          2,
+          26
+        ],
+        "marginal_overlap": true
+      },
+      {
+        "code": "W101",
+        "marginal_possible_count_interval": [
+          1,
+          26
+        ],
+        "intersection_with_target": [
+          2,
+          26
+        ],
+        "marginal_overlap": true
+      },
+      {
+        "code": "W128",
+        "marginal_possible_count_interval": [
+          1,
+          25
+        ],
+        "intersection_with_target": [
+          2,
+          25
+        ],
+        "marginal_overlap": true
+      },
+      {
+        "code": "W140",
+        "marginal_possible_count_interval": [
+          4,
+          29
+        ],
+        "intersection_with_target": [
+          4,
+          26
+        ],
+        "marginal_overlap": true
+      },
+      {
+        "code": "W151",
+        "marginal_possible_count_interval": [
+          5,
+          30
+        ],
+        "intersection_with_target": [
+          5,
+          26
+        ],
+        "marginal_overlap": true
+      },
+      {
+        "code": "W156",
+        "marginal_possible_count_interval": [
+          1,
+          26
+        ],
+        "intersection_with_target": [
+          2,
+          26
+        ],
+        "marginal_overlap": true
+      },
+      {
+        "code": "W161",
+        "marginal_possible_count_interval": [
+          2,
+          27
+        ],
+        "intersection_with_target": [
+          2,
+          26
+        ],
+        "marginal_overlap": true
+      },
+      {
+        "code": "W176",
+        "marginal_possible_count_interval": [
+          1,
+          26
+        ],
+        "intersection_with_target": [
+          2,
+          26
+        ],
+        "marginal_overlap": true
+      },
+      {
+        "code": "W230",
+        "marginal_possible_count_interval": [
+          1,
+          26
+        ],
+        "intersection_with_target": [
+          2,
+          26
+        ],
+        "marginal_overlap": true
+      },
+      {
+        "code": "W250",
+        "marginal_possible_count_interval": [
+          1,
+          26
+        ],
+        "intersection_with_target": [
+          2,
+          26
+        ],
+        "marginal_overlap": true
+      },
+      {
+        "code": "W287",
+        "marginal_possible_count_interval": [
+          1,
+          26
+        ],
+        "intersection_with_target": [
+          2,
+          26
+        ],
+        "marginal_overlap": true
+      },
+      {
+        "code": "W296",
+        "marginal_possible_count_interval": [
+          1,
+          25
+        ],
+        "intersection_with_target": [
+          2,
+          25
+        ],
+        "marginal_overlap": true
+      },
+      {
+        "code": "W298",
+        "marginal_possible_count_interval": [
+          1,
+          26
+        ],
+        "intersection_with_target": [
+          2,
+          26
+        ],
+        "marginal_overlap": true
+      },
+      {
+        "code": "W317",
+        "marginal_possible_count_interval": [
+          1,
+          26
+        ],
+        "intersection_with_target": [
+          2,
+          26
+        ],
+        "marginal_overlap": true
+      },
+      {
+        "code": "W365",
+        "marginal_possible_count_interval": [
+          1,
+          26
+        ],
+        "intersection_with_target": [
+          2,
+          26
+        ],
+        "marginal_overlap": true
+      },
+      {
+        "code": "W368",
+        "marginal_possible_count_interval": [
+          1,
+          26
+        ],
+        "intersection_with_target": [
+          2,
+          26
+        ],
+        "marginal_overlap": true
+      },
+      {
+        "code": "W375",
+        "marginal_possible_count_interval": [
+          1,
+          25
+        ],
+        "intersection_with_target": [
+          2,
+          25
+        ],
+        "marginal_overlap": true
+      },
+      {
+        "code": "W386",
+        "marginal_possible_count_interval": [
+          1,
+          26
+        ],
+        "intersection_with_target": [
+          2,
+          26
+        ],
+        "marginal_overlap": true
+      },
+      {
+        "code": "W388",
+        "marginal_possible_count_interval": [
+          1,
+          26
+        ],
+        "intersection_with_target": [
+          2,
+          26
+        ],
+        "marginal_overlap": true
+      },
+      {
+        "code": "W390",
+        "marginal_possible_count_interval": [
+          5,
+          28
+        ],
+        "intersection_with_target": [
+          5,
+          26
+        ],
+        "marginal_overlap": true
+      },
+      {
+        "code": "W400",
+        "marginal_possible_count_interval": [
+          2,
+          26
+        ],
+        "intersection_with_target": [
+          2,
+          26
+        ],
+        "marginal_overlap": true
+      },
+      {
+        "code": "W429",
+        "marginal_possible_count_interval": [
+          1,
+          26
+        ],
+        "intersection_with_target": [
+          2,
+          26
+        ],
+        "marginal_overlap": true
+      },
+      {
+        "code": "W456",
+        "marginal_possible_count_interval": [
+          1,
+          26
+        ],
+        "intersection_with_target": [
+          2,
+          26
+        ],
+        "marginal_overlap": true
+      },
+      {
+        "code": "W480",
+        "marginal_possible_count_interval": [
+          1,
+          25
+        ],
+        "intersection_with_target": [
+          2,
+          25
+        ],
+        "marginal_overlap": true
+      },
+      {
+        "code": "W482",
+        "marginal_possible_count_interval": [
+          1,
+          26
+        ],
+        "intersection_with_target": [
+          2,
+          26
+        ],
+        "marginal_overlap": true
+      },
+      {
+        "code": "W495",
+        "marginal_possible_count_interval": [
+          1,
+          26
+        ],
+        "intersection_with_target": [
+          2,
+          26
+        ],
+        "marginal_overlap": true
+      },
+      {
+        "code": "W500",
+        "marginal_possible_count_interval": [
+          1,
+          26
+        ],
+        "intersection_with_target": [
+          2,
+          26
+        ],
+        "marginal_overlap": true
+      },
+      {
+        "code": "W520",
+        "marginal_possible_count_interval": [
+          3,
+          27
+        ],
+        "intersection_with_target": [
+          3,
+          26
+        ],
+        "marginal_overlap": true
+      },
+      {
+        "code": "W521",
+        "marginal_possible_count_interval": [
+          1,
+          26
+        ],
+        "intersection_with_target": [
+          2,
+          26
+        ],
+        "marginal_overlap": true
+      },
+      {
+        "code": "W526",
+        "marginal_possible_count_interval": [
+          1,
+          26
+        ],
+        "intersection_with_target": [
+          2,
+          26
+        ],
+        "marginal_overlap": true
+      },
+      {
+        "code": "W530",
+        "marginal_possible_count_interval": [
+          2,
+          26
+        ],
+        "intersection_with_target": [
+          2,
+          26
+        ],
+        "marginal_overlap": true
+      },
+      {
+        "code": "W531",
+        "marginal_possible_count_interval": [
+          1,
+          26
+        ],
+        "intersection_with_target": [
+          2,
+          26
+        ],
+        "marginal_overlap": true
+      },
+      {
+        "code": "W579",
+        "marginal_possible_count_interval": [
+          1,
+          26
+        ],
+        "intersection_with_target": [
+          2,
+          26
+        ],
+        "marginal_overlap": true
+      },
+      {
+        "code": "W590",
+        "marginal_possible_count_interval": [
+          3,
+          28
+        ],
+        "intersection_with_target": [
+          3,
+          26
+        ],
+        "marginal_overlap": true
+      },
+      {
+        "code": "W592",
+        "marginal_possible_count_interval": [
+          1,
+          26
+        ],
+        "intersection_with_target": [
+          2,
+          26
+        ],
+        "marginal_overlap": true
+      },
+      {
+        "code": "W615",
+        "marginal_possible_count_interval": [
+          1,
+          26
+        ],
+        "intersection_with_target": [
+          2,
+          26
+        ],
+        "marginal_overlap": true
+      },
+      {
+        "code": "W632",
+        "marginal_possible_count_interval": [
+          1,
+          25
+        ],
+        "intersection_with_target": [
+          2,
+          25
+        ],
+        "marginal_overlap": true
+      },
+      {
+        "code": "W636",
+        "marginal_possible_count_interval": [
+          1,
+          26
+        ],
+        "intersection_with_target": [
+          2,
+          26
+        ],
+        "marginal_overlap": true
+      },
+      {
+        "code": "W647",
+        "marginal_possible_count_interval": [
+          1,
+          26
+        ],
+        "intersection_with_target": [
+          2,
+          26
+        ],
+        "marginal_overlap": true
+      },
+      {
+        "code": "W679",
+        "marginal_possible_count_interval": [
+          1,
+          25
+        ],
+        "intersection_with_target": [
+          2,
+          25
+        ],
+        "marginal_overlap": true
+      },
+      {
+        "code": "W690",
+        "marginal_possible_count_interval": [
+          1,
+          26
+        ],
+        "intersection_with_target": [
+          2,
+          26
+        ],
+        "marginal_overlap": true
+      },
+      {
+        "code": "W692",
+        "marginal_possible_count_interval": [
+          1,
+          26
+        ],
+        "intersection_with_target": [
+          2,
+          26
+        ],
+        "marginal_overlap": true
+      },
+      {
+        "code": "W700",
+        "marginal_possible_count_interval": [
+          1,
+          26
+        ],
+        "intersection_with_target": [
+          2,
+          26
+        ],
+        "marginal_overlap": true
+      },
+      {
+        "code": "W702",
+        "marginal_possible_count_interval": [
+          1,
+          25
+        ],
+        "intersection_with_target": [
+          2,
+          25
+        ],
+        "marginal_overlap": true
+      },
+      {
+        "code": "W705",
+        "marginal_possible_count_interval": [
+          2,
+          26
+        ],
+        "intersection_with_target": [
+          2,
+          26
+        ],
+        "marginal_overlap": true
+      },
+      {
+        "code": "W713",
+        "marginal_possible_count_interval": [
+          1,
+          26
+        ],
+        "intersection_with_target": [
+          2,
+          26
+        ],
+        "marginal_overlap": true
+      },
+      {
+        "code": "W717",
+        "marginal_possible_count_interval": [
+          1,
+          26
+        ],
+        "intersection_with_target": [
+          2,
+          26
+        ],
+        "marginal_overlap": true
+      },
+      {
+        "code": "W740",
+        "marginal_possible_count_interval": [
+          22,
+          45
+        ],
+        "intersection_with_target": [
+          22,
+          26
+        ],
+        "marginal_overlap": true
+      },
+      {
+        "code": "W741",
+        "marginal_possible_count_interval": [
+          5,
+          30
+        ],
+        "intersection_with_target": [
+          5,
+          26
+        ],
+        "marginal_overlap": true
+      },
+      {
+        "code": "W766",
+        "marginal_possible_count_interval": [
+          1,
+          25
+        ],
+        "intersection_with_target": [
+          2,
+          25
+        ],
+        "marginal_overlap": true
+      },
+      {
+        "code": "W767",
+        "marginal_possible_count_interval": [
+          1,
+          26
+        ],
+        "intersection_with_target": [
+          2,
+          26
+        ],
+        "marginal_overlap": true
+      },
+      {
+        "code": "W790",
+        "marginal_possible_count_interval": [
+          1,
+          26
+        ],
+        "intersection_with_target": [
+          2,
+          26
+        ],
+        "marginal_overlap": true
+      },
+      {
+        "code": "W791",
+        "marginal_possible_count_interval": [
+          1,
+          26
+        ],
+        "intersection_with_target": [
+          2,
+          26
+        ],
+        "marginal_overlap": true
+      },
+      {
+        "code": "W798",
+        "marginal_possible_count_interval": [
+          1,
+          25
+        ],
+        "intersection_with_target": [
+          2,
+          25
+        ],
+        "marginal_overlap": true
+      },
+      {
+        "code": "W803",
+        "marginal_possible_count_interval": [
+          4,
+          29
+        ],
+        "intersection_with_target": [
+          4,
+          26
+        ],
+        "marginal_overlap": true
+      },
+      {
+        "code": "W817",
+        "marginal_possible_count_interval": [
+          8,
+          31
+        ],
+        "intersection_with_target": [
+          8,
+          26
+        ],
+        "marginal_overlap": true
+      },
+      {
+        "code": "W820",
+        "marginal_possible_count_interval": [
+          1,
+          25
+        ],
+        "intersection_with_target": [
+          2,
+          25
+        ],
+        "marginal_overlap": true
+      },
+      {
+        "code": "W822",
+        "marginal_possible_count_interval": [
+          1,
+          26
+        ],
+        "intersection_with_target": [
+          2,
+          26
+        ],
+        "marginal_overlap": true
+      },
+      {
+        "code": "W838",
+        "marginal_possible_count_interval": [
+          1,
+          25
+        ],
+        "intersection_with_target": [
+          2,
+          25
+        ],
+        "marginal_overlap": true
+      },
+      {
+        "code": "W840",
+        "marginal_possible_count_interval": [
+          2,
+          26
+        ],
+        "intersection_with_target": [
+          2,
+          26
+        ],
+        "marginal_overlap": true
+      },
+      {
+        "code": "W842",
+        "marginal_possible_count_interval": [
+          1,
+          26
+        ],
+        "intersection_with_target": [
+          2,
+          26
+        ],
+        "marginal_overlap": true
+      },
+      {
+        "code": "W850",
+        "marginal_possible_count_interval": [
+          2,
+          26
+        ],
+        "intersection_with_target": [
+          2,
+          26
+        ],
+        "marginal_overlap": true
+      },
+      {
+        "code": "W861",
+        "marginal_possible_count_interval": [
+          4,
+          27
+        ],
+        "intersection_with_target": [
+          4,
+          26
+        ],
+        "marginal_overlap": true
+      },
+      {
+        "code": "W892",
+        "marginal_possible_count_interval": [
+          2,
+          27
+        ],
+        "intersection_with_target": [
+          2,
+          26
+        ],
+        "marginal_overlap": true
+      },
+      {
+        "code": "W906",
+        "marginal_possible_count_interval": [
+          1,
+          25
+        ],
+        "intersection_with_target": [
+          2,
+          25
+        ],
+        "marginal_overlap": true
+      },
+      {
+        "code": "W920",
+        "marginal_possible_count_interval": [
+          6,
+          31
+        ],
+        "intersection_with_target": [
+          6,
+          26
+        ],
+        "marginal_overlap": true
+      }
+    ]
+  }
+}

@@ -1,0 +1,330 @@
+{
+  "schema_version": 1,
+  "scope": "Source-exposed bounded two-object original photograph authentication; no semantic reading or frozen-profile edit",
+  "fixed_family": [
+    "P050",
+    "P051",
+    "P056",
+    "P057",
+    "P058",
+    "P059",
+    "P060",
+    "P061",
+    "P062",
+    "P063",
+    "P064"
+  ],
+  "objects": [
+    {
+      "excavation_number": "2428",
+      "primary_plate": "LII",
+      "primary_item": 19,
+      "secondary_alias": "C-65",
+      "secondary_row": "62.1",
+      "identity_status": "exact excavation number and original plate/item concordant with primary catalogue",
+      "morphology_status": "certain fish-like form visible",
+      "family_presence_assessment": "supported",
+      "likely_catalogue_shape": "compatible with plain P050/W220; exact code equivalence not independently established",
+      "text_completeness": "left portion unclear; no complete retranscription; source export000/completeN retained",
+      "missingness_cause": "not distinguishable between surface, manufacture, impression or reproduction from this image",
+      "semantic_value": null
+    },
+    {
+      "excavation_number": "2529, CC",
+      "primary_plate": "LII",
+      "primary_item": 23,
+      "secondary_alias": "C-69",
+      "secondary_row": "66.1",
+      "identity_status": "exact excavation number/suffix and original plate/item concordant with primary catalogue",
+      "morphology_status": "preserved band with enclosing/internal-angular and other non-fish-like forms; no clear declared-family member",
+      "family_presence_assessment": "absence compatible with visible band; moderate-confidence visual support, not exhaustive fine-variant authentication",
+      "text_completeness": "no obvious broken-out strip; complete five-code secondary reading not independently retranscribed",
+      "missingness_cause": null,
+      "semantic_value": null
+    }
+  ],
+  "secondary_rows_whitelisted": [
+    {
+      "id": "62.1",
+      "cisi": "C-65",
+      "site": "Chanhu-daro",
+      "excavation-idno": "CH 2428Pl. LII:19",
+      "room-grid": "loc. 286sq. 9/D",
+      "depth": "+9.7 ft",
+      "material": "Steatite",
+      "color": "Brown",
+      "preservation": "complete",
+      "condition": "Good",
+      "complete": "N",
+      "dir.": "R/L",
+      "text": "+000-100-240-220-032-002-861+"
+    },
+    {
+      "id": "66.1",
+      "cisi": "C-69",
+      "site": "Chanhu-daro",
+      "excavation-idno": "CH 2529 (CC)Pl. LII:23",
+      "room-grid": "loc. 297sq. 8/C",
+      "depth": "+10.4 ft",
+      "material": "Steatite",
+      "color": "White",
+      "preservation": "complete",
+      "condition": "Good",
+      "complete": "Y",
+      "dir.": "R/L",
+      "text": "+390-844-060-575-717+"
+    }
+  ],
+  "direction": {
+    "source": "Mackay1943 printed145",
+    "method": "LII19 and23 fall in author-stated plasticine-impression photography group; direct-photo exceptions are1\u20136,11",
+    "transformations": "none; crop only",
+    "reading_direction_claim": null
+  },
+  "code_equivalence_limit": "Family-level morphology is distinct from exact token equivalence; no universal M/W/P conversion authenticated here",
+  "crops": [
+    {
+      "source": {
+        "path": "data/raw/chanhu_context_leaf417.jpg",
+        "bytes": 2201995,
+        "sha256": "aeb7df1b1a9db942b810cbf44751c98eb5f0401ae9876388cb989921ce84823d"
+      },
+      "source_dimensions": [
+        5316,
+        7157
+      ],
+      "crop_box_xyxy": [
+        3000,
+        2120,
+        3650,
+        2920
+      ],
+      "output": {
+        "path": "results/primary_pages/chanhu-local-primary-LII19.png",
+        "bytes": 256839,
+        "sha256": "73ea5a5d8bac4ac90329ffec64dc63939e49362dcc5fbd3d1ebe770e80734f9b"
+      },
+      "operation": "native-resolution rectangular crop only; no reflection, rotation, enhancement or reconstructed detail"
+    },
+    {
+      "source": {
+        "path": "data/raw/chanhu_context_leaf417.jpg",
+        "bytes": 2201995,
+        "sha256": "aeb7df1b1a9db942b810cbf44751c98eb5f0401ae9876388cb989921ce84823d"
+      },
+      "source_dimensions": [
+        5316,
+        7157
+      ],
+      "crop_box_xyxy": [
+        980,
+        2870,
+        1520,
+        3490
+      ],
+      "output": {
+        "path": "results/primary_pages/chanhu-local-primary-LII23.png",
+        "bytes": 214046,
+        "sha256": "0e41231943a730e91963bdd04423fe12bb2882cd2ef94abffa623a7392aa93ad"
+      },
+      "operation": "native-resolution rectangular crop only; no reflection, rotation, enhancement or reconstructed detail"
+    },
+    {
+      "source": {
+        "path": "data/raw/chanhu_context_leaf417.jpg",
+        "bytes": 2201995,
+        "sha256": "aeb7df1b1a9db942b810cbf44751c98eb5f0401ae9876388cb989921ce84823d"
+      },
+      "source_dimensions": [
+        5316,
+        7157
+      ],
+      "crop_box_xyxy": [
+        3060,
+        2180,
+        3600,
+        2400
+      ],
+      "output": {
+        "path": "results/primary_pages/chanhu-local-primary-LII19-text.png",
+        "bytes": 83527,
+        "sha256": "57e9d082e1b8ebc84d2d24581f0bbca756026da3ed77e96c4572b508f821681a"
+      },
+      "operation": "native-resolution rectangular crop only; no reflection, rotation, enhancement or reconstructed detail"
+    },
+    {
+      "source": {
+        "path": "data/raw/chanhu_context_leaf417.jpg",
+        "bytes": 2201995,
+        "sha256": "aeb7df1b1a9db942b810cbf44751c98eb5f0401ae9876388cb989921ce84823d"
+      },
+      "source_dimensions": [
+        5316,
+        7157
+      ],
+      "crop_box_xyxy": [
+        1005,
+        2930,
+        1490,
+        3130
+      ],
+      "output": {
+        "path": "results/primary_pages/chanhu-local-primary-LII23-text.png",
+        "bytes": 83681,
+        "sha256": "4909898149435df282161ee28c021f9a406c8fb54c1b818e998d37b620ed5560"
+      },
+      "operation": "native-resolution rectangular crop only; no reflection, rotation, enhancement or reconstructed detail"
+    },
+    {
+      "source": {
+        "path": "data/raw/chanhu_context_leaf313.jpg",
+        "bytes": 2555029,
+        "sha256": "a9c8797f4f2f21c1f4081cb7df195e9babc8d8d3a30f7630ff123c736ec253ca"
+      },
+      "source_dimensions": [
+        5235,
+        7068
+      ],
+      "crop_box_xyxy": [
+        650,
+        2020,
+        4600,
+        2820
+      ],
+      "output": {
+        "path": "results/primary_pages/chanhu-local-primary-catalogue19-23.png",
+        "bytes": 2171888,
+        "sha256": "d13a24b02e7998aa36526eeef41d22d1fe9d6502e1e5a9930b70e38a90c73222"
+      },
+      "operation": "native-resolution rectangular crop only; no reflection, rotation, enhancement or reconstructed detail"
+    }
+  ],
+  "source_pins": [
+    {
+      "path": "data/raw/chanhu_context_leaf417.jpg",
+      "bytes": 2201995,
+      "sha256": "aeb7df1b1a9db942b810cbf44751c98eb5f0401ae9876388cb989921ce84823d"
+    },
+    {
+      "path": "data/raw/chanhu_context_leaf313.jpg",
+      "bytes": 2555029,
+      "sha256": "a9c8797f4f2f21c1f4081cb7df195e9babc8d8d3a30f7630ff123c736ec253ca"
+    },
+    {
+      "path": "data/raw/chanhu-register-primary-leaf165.jpg",
+      "bytes": 2690900,
+      "sha256": "f7a6060f5c3eea08f5a30f557a5d91cbb2fafa3c94f127838e61877b5f21c350"
+    },
+    {
+      "path": "data/raw/c40_mackay1943_page_numbers.json",
+      "bytes": 87543,
+      "sha256": "65e10c04215fcfa0a0d65e2ba51b0e17c4cf9fc4d8e636f53e152c11122e810a"
+    },
+    {
+      "path": "data/raw/lipi_inscriptions.csv",
+      "bytes": 1204921,
+      "sha256": "b8dcb325a2e2cd3cde12ac12e7a418b0348e45713c9ee28aad81b645d2ac5ee4"
+    },
+    {
+      "path": "data/processed/chanhu_fish_protocol.json",
+      "bytes": 2683,
+      "sha256": "84adcb5955de79636c7f80dc12bf6fee8b3bcb28c95b7bdb1a80756deca2e1c5"
+    },
+    {
+      "path": "data/processed/catalogue_features.json",
+      "bytes": 189902,
+      "sha256": "00836515c6f3beec28b3b66e13d8a9c6e94571cfb2e9dbb4b148651b7ff0032d"
+    },
+    {
+      "path": "data/processed/chanhu_deposit_seal_register.json",
+      "bytes": 55810,
+      "sha256": "8da9684265a7094abf5505134f1053814d3f6032ed8fa04f8e13d02c398ca081"
+    },
+    {
+      "path": "data/raw/cisi_76884.pdf",
+      "bytes": 31508998,
+      "sha256": "47a4da4227cfb7baa56d6a561e25797225499d0ec54f5a702a82c67ab4746d4d"
+    },
+    {
+      "path": "data/raw/h843_identity_CorpusVol2.pdf",
+      "bytes": 35870617,
+      "sha256": "727132579a485ee626e48a64c663148a85fbc0811fb523818fd615231f8a327d"
+    },
+    {
+      "path": "scripts/render_chanhu_local_primary_crops.py",
+      "bytes": 1298,
+      "sha256": "17ba414c29b2022f595467e901f3f8512e5ec67572fa29609d14e7af331cdb17"
+    },
+    {
+      "path": "data/processed/chanhu_local_primary_crop_manifest.json",
+      "bytes": 3249,
+      "sha256": "4df7471e7cea7c77565c23910d1b1d2e5923703f906507d4c54a56b4bc37f6bb"
+    },
+    {
+      "path": "docs/CHANHU_LOCAL_PRIMARY_POSITIVE_REVIEW.md",
+      "bytes": 7147,
+      "sha256": "4464d4be1ae3672cb206ea7de6ff523f5984944c2bda14e504b2f3c280eff433"
+    }
+  ],
+  "locator_renders": [
+    {
+      "path": "results/primary_pages/chanhu-local-primary-cisi412.png",
+      "bytes": 1748547,
+      "sha256": "c2ad458bd8525a45dcbcc67d8fdf6618c02cc14a03f5a80a4c8b24610f3b7694",
+      "volume": "CISI1",
+      "pdf_page": 412,
+      "pdftoppm_scale_to": 2400,
+      "status": "viewed: site map; failed catalogue locator"
+    },
+    {
+      "path": "results/primary_pages/chanhu-local-primary-cisi411.png",
+      "bytes": 4637989,
+      "sha256": "cbb668aa34824eb56657c189296ced7096ff47814f7b3ce23a31badb1e3b3986",
+      "volume": "CISI1",
+      "pdf_page": 411,
+      "pdftoppm_scale_to": 4200,
+      "status": "viewed: printed375; C19\u201350; no target alias bridge"
+    },
+    {
+      "path": "results/primary_pages/chanhu-local-primary-cisi2-480.png",
+      "bytes": 3787361,
+      "sha256": "b850487a20c93ed27101a301e6726e034ff923ae369fbc095171da99b82e71ff",
+      "volume": "CISI2",
+      "pdf_page": 480,
+      "pdftoppm_scale_to": 4200,
+      "status": "viewed: printed445; Harappa/Rangpur; no target bridge"
+    },
+    {
+      "path": "results/primary_pages/chanhu-local-primary-cisi2-481.png",
+      "bytes": 4259619,
+      "sha256": "a432c4d6dfaa9b56eaefd6bda01ac09058f8c912b43cfb0af0e1072fe0397bda",
+      "volume": "CISI2",
+      "pdf_page": 481,
+      "pdftoppm_scale_to": 4200,
+      "status": "viewed: printed446; other sites; no target bridge"
+    },
+    {
+      "path": "results/primary_pages/chanhu-local-primary-cisi2-482.png",
+      "bytes": 2460958,
+      "sha256": "6f83907e2537df27b61a715d38cf66ed9ca1759c468fe7ec60e63414355f83c5",
+      "volume": "CISI2",
+      "pdf_page": 482,
+      "pdftoppm_scale_to": 3200,
+      "status": "rendered locator; not used as visual evidence"
+    }
+  ],
+  "attempts": [
+    "Authenticated original catalogue293 entries2428/LII19 and2529CC/LII23 before crop assessment.",
+    "Inspected whole PlateLII and native crops with labels; inspected original catalogue crop and p145 photographic-method rule.",
+    "Compared morphology with fixed family; uncertainty in other parts of2428 does not erase visible positive.",
+    "Optional later-photo search hit CISI1 map/C19\u201350 and CISI2 non-target end tables; no unverified modern photo assigned.",
+    "No new downloads; no original counts/profiles changed."
+  ],
+  "limits": [
+    "Known positive/negative labels before review; not blinded or independent replication.",
+    "Original published reproduction only, not object autopsy.",
+    "Visible-band negative does not establish absence of every conceivable fish compound.",
+    "No exact sign count or complete token retranscription.",
+    "Archaeological association and semantic specificity remain outside this photo task."
+  ]
+}

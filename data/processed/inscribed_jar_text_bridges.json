@@ -1,0 +1,241 @@
+{
+  "schema_version": 1,
+  "created_utc": "2026-09-28T05:52:25.368556+00:00",
+  "status": "Own-jar sign texts unresolved; contained sealing EH671 to M774671 bridge authenticated.",
+  "objects": [
+    {
+      "object": "Harappa jar5919",
+      "table_serial": 35,
+      "primary_locators": [
+        "VatsI p165",
+        "VatsI p253",
+        "VatsI TableI pp256\u2013257 row35"
+      ],
+      "inscribed_status": "Explicit in narrative and table; no sign count or readable own-jar transcription recovered.",
+      "description": "Table:large inscribed napiform; narrative:crushed at10ft.",
+      "findspot": {
+        "site": "Harappa",
+        "mound": "AB",
+        "trench": "Extension of PitsI andII",
+        "table_square": "P23/10",
+        "narrative_square": "P23/5",
+        "depth_ft": 10,
+        "stratum": "IV",
+        "conflict": "Different grid subdivisions retained; not silently corrected."
+      },
+      "measurement_cells": "blank",
+      "contents": "Narrative:animal bone, charcoal and mixed pottery/toys, porous earth with decayed cereal and leaf impressions. Table similarly reports lower4/5height filled with porous greenish earth and cereal/leaf impressions. This is not a capacity measurement or commodity-name reading.",
+      "own_text_photo_join": null,
+      "own_M77_join": null,
+      "own_CISI_join": null
+    },
+    {
+      "object": "Harappa jar10252",
+      "table_serial": 116,
+      "primary_locators": [
+        "VatsI p253",
+        "VatsI TableI pp266\u2013267 row116"
+      ],
+      "inscribed_status": "Table explicitly reports2lines with7pictograms on the jar. Characters themselves not supplied in these passages.",
+      "findspot": {
+        "site": "Harappa",
+        "mound": "F",
+        "trench": "IV",
+        "square": "I12/4",
+        "depth_ft": 9,
+        "stratum": "IV"
+      },
+      "description": "Round,inpieces.",
+      "measurement_cells": "blank",
+      "contents": "Porous earth, decayed cereal,chaff,straw,melon seeds,leaf impressions, mixed objects and separate faience sealingPlC671.",
+      "own_text_photo_join": null,
+      "own_M77_join": null,
+      "own_CISI_join": null,
+      "contained_object": "EHPlateC671; distinct from own seven-pictogram jar text."
+    }
+  ],
+  "contained_sealing": {
+    "container": "jar10252",
+    "primary_containment_evidence": "VatsI p253 and TableI p267 row116 miscellaneous column explicitly list the sealing among contents. This is not a claim of a seal impression impressed on the jar.",
+    "source_description": "discoid faience sealing, lentoid in section",
+    "Vats_plate": "C",
+    "Vats_item": 671,
+    "photo_source": "data/raw/vats_1940_plates_9842.pdf",
+    "pdf_page_one_based": 208,
+    "photo_observation": "Two views under671. Lower view is compatible with a curvedU-like group and3uprightstrokes, but blurred; upperview is not reliably transcribed here.",
+    "M77_bridge": {
+      "reference": "4671",
+      "evidence": "AppendixV printed821/PDF830 explicitly mapsreferences4001\u20134713 toEHvolIIitems1\u2013713 respectively. ThusEH671 maps4671; this is an explicit source rule, not mere matching integers.",
+      "text_page_printed": 126,
+      "text_pdf_page": 137,
+      "fields": [
+        {
+          "metadata": "210009",
+          "content": "hatching/lost passage only"
+        },
+        {
+          "metadata": "20001",
+          "content": "U-like sign and3strokes in printed normalized graphic"
+        }
+      ],
+      "reading_value_assigned": false,
+      "native_export_candidate": "+089-328+",
+      "native_export_limit": "One flattened sequence does not retain the positive lost counterpart field."
+    },
+    "Lipi_candidate": {
+      "rows": [
+        "212.1",
+        "212.2"
+      ],
+      "excavation_idno": "10252d671",
+      "site": "Harappa",
+      "type": "TAB:B",
+      "material": "Faience",
+      "raw_texts": [
+        "+700-033+",
+        "+000-000-000-000+"
+      ],
+      "limit": "Strong source-locator candidate for the containedsealing, not jar10252. Suffixd is not authenticated from a primaryfieldnumber entry here. Rawcisi isdash. No globalW-Mequivalence or exactfieldlength from000spans inferred."
+    }
+  },
+  "attempts": [
+    {
+      "step": "Read original Vats p.253 image",
+      "result": "Both jars explicitly inscribed; contained sealing distinguished."
+    },
+    {
+      "step": "Search exact digits in Vats OCR, M77 OCR, CISI2 OCR and PDF extraction",
+      "result": "Vats OCR locates pp.165 and253. PDF search has no usable hits; image-based extraction failures cannot establish catalogue absence."
+    },
+    {
+      "step": "Search raw Lipi excavation-idno for5919/10252, excluding translation columns",
+      "result": "No5919 row; only two10252d671 faience rows. Whole-line grep also exposed unrelated2528 rows through other numeric columns; these were rejected. The persisted candidate finder uses the excavation field only."
+    },
+    {
+      "step": "Inspect M77 Appendix V PDF830,833,834",
+      "result": "Explicit EH item rule authenticates4671; inspected additional Harappa pottery-graffiti lists do not provide a5919/10252 bridge."
+    },
+    {
+      "step": "Inspect M77 Texts PDF137 and Vats Plate C/PDF208",
+      "result": "Contained sealing has a normalized U-like sign and three-stroke field, plus lost counterpart. This is not the jar text."
+    },
+    {
+      "step": "Retrieve Vats p.165/leaf191",
+      "result": "Confirms5919 crushed at10ft, P23/5 and narrative contents. Parallel duplicate retained; not independent evidence."
+    },
+    {
+      "step": "Inspect Table I pp.256\u2013257 and266\u2013267 supplied by other agents",
+      "result": "Rows35 and116 confirmed. Two lines/seven pictograms refer to jar10252. P23/5 versus P23/10 discrepancy recorded for5919."
+    },
+    {
+      "step": "Use Vats OCR pp.286\u2013287 to locate Plates CII\u2013CIV; inspect PDF212,214,216",
+      "result": "Actual inscribed-pottery photographs, but no explicit5919/10252 identifier verified. No identity assigned from generic appearance. Range render also produced unused interleaves213/215, retained."
+    }
+  ],
+  "limitations": [
+    "No exhaustive visual CISI1/CISI2 catalogue census was performed; unsuccessful exact searches are not omission proof.",
+    "No authenticated photo or drawing of either jar's own signs was recovered in this bounded attempt.",
+    "The two-line, seven-sign report is not a decipherment; no numerical or commodity value is assigned.",
+    "Contents are mixed archaeological deposits, not necessarily original-use contents; this review does not reinterpret the post-cremation label."
+  ],
+  "input_pins": [
+    {
+      "path": "data/raw/capacity-context-vats-leaf279.jpg",
+      "bytes": 2715199,
+      "sha256": "f354688604f54c79ae238c765f2488212ed8d6c1b645af55f1826b044ff873cc"
+    },
+    {
+      "path": "data/raw/inscribed-frame-vats-leaf293.jpg",
+      "bytes": 2168539,
+      "sha256": "26f8783b7dde7baa4c8489891dba45287cde23105cd2f5a171d78e0341558cac"
+    },
+    {
+      "path": "data/raw/inscribed-contents-vats-leaf282.jpg",
+      "bytes": 2050675,
+      "sha256": "ef2be404d6b8fda24e3d8a3546e7fc8e7ce02bec68d20a683c0519df1cb8cead"
+    },
+    {
+      "path": "data/raw/inscribed-contents-vats-leaf283.jpg",
+      "bytes": 2400204,
+      "sha256": "d6f3e6d3d4764972eb85f5a1c8c17a86eeadc4e0d3fd5730bb38d788e5aac215"
+    },
+    {
+      "path": "data/raw/inscribed-contents-vats-leaf292.jpg",
+      "bytes": 2014778,
+      "sha256": "e7a67ac77a798053be01e6cda139b4336c0165ba8687cfe2975068cc03b2e95f"
+    },
+    {
+      "path": "data/raw/vats_1940_text_18220_djvu.txt",
+      "bytes": 1518598,
+      "sha256": "9426186946d5540e6ccff83fdfc8e5af4aaed99926e56fe14287f57f8ccb4d45"
+    },
+    {
+      "path": "data/raw/vats_1940_plates_9842.pdf",
+      "bytes": 17325993,
+      "sha256": "ab14c5c3a25588d3178789f83ae724eecf7cd873fb28c0a2c639a4dee21b8b18"
+    },
+    {
+      "path": "data/raw/mahadevan_1977_text.pdf",
+      "bytes": 119302608,
+      "sha256": "6dcdd074a0174e5fab149590fbbf82342711d345764e9763f8e5e92c81cf7f99"
+    },
+    {
+      "path": "data/raw/mahadevan_1977_ocr.txt",
+      "bytes": 673943,
+      "sha256": "11441e38286784a1f4215f73d91cbba8acd153b7e5b30daed9252f9f7b77304a"
+    },
+    {
+      "path": "data/raw/cisi_76884.pdf",
+      "bytes": 31508998,
+      "sha256": "47a4da4227cfb7baa56d6a561e25797225499d0ec54f5a702a82c67ab4746d4d"
+    },
+    {
+      "path": "data/raw/h843_identity_CorpusVol2.pdf",
+      "bytes": 35870617,
+      "sha256": "727132579a485ee626e48a64c663148a85fbc0811fb523818fd615231f8a327d"
+    },
+    {
+      "path": "data/raw/h843_identity_CorpusVol2_djvu.txt",
+      "bytes": 218644,
+      "sha256": "ae797e9bc4bed1993e6997030a62bcbb5e0b2900ca8812e5ab3f392915c0abf9"
+    },
+    {
+      "path": "data/raw/lipi_inscriptions.csv",
+      "bytes": 1204921,
+      "sha256": "b8dcb325a2e2cd3cde12ac12e7a418b0348e45713c9ee28aad81b645d2ac5ee4"
+    },
+    {
+      "path": "data/processed/m77_candidate_records.jsonl",
+      "bytes": 4109921,
+      "sha256": "b29a176da86b125115256a8966c377c3fd9fe39ecaab17bf576b770b83b41bab"
+    },
+    {
+      "path": "results/primary_pages/m77-u-types-numerals-137.jpg",
+      "bytes": 159965,
+      "sha256": "08fd8fbf87bcde27ac12830151900e498f09d80eaf8092923cb406aa479c060f"
+    },
+    {
+      "path": "results/inscribed-bridge-exact-pdf-search.json",
+      "bytes": 233,
+      "sha256": "44f798c3adf973be531969d7c210ea24168d1cfe1dda5a116d60cbe62b17d0a7"
+    },
+    {
+      "path": "results/inscribed-bridge-lipi-candidates.json",
+      "bytes": 1855,
+      "sha256": "14049323a6ba6d3b8d5750ad6e3b8b3b9ac2ebb4e14aaab9e98cd60d78fb9123"
+    },
+    {
+      "path": "scripts/render_inscribed_jar_bridge_crops.py",
+      "bytes": 1819,
+      "sha256": "c6cb06ed8f83b9bb7e9a4ebb056b478dca00e4f6d4fd4e501deda86a74ad60e6"
+    },
+    {
+      "path": "data/processed/inscribed_jar_bridge_crop_manifest.json",
+      "bytes": 4119,
+      "sha256": "a947be685fdbb1972926d79a01694ccf8b477c30820f6e93abb423950fa5543c"
+    }
+  ],
+  "new_raw_artifacts_registry": "data/processed/inscribed_jar_bridge_downloads.json",
+  "new_raw_artifact_count": 17,
+  "new_semantic_values": 0
+}

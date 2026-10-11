@@ -1,0 +1,521 @@
+{
+  "date": "2026-09-28",
+  "scope": "Local primary photograph and identity review, with separate conditional algebra sanity check",
+  "identity": {
+    "cisi": "H-904",
+    "excavation_printed": "J 213 D",
+    "finnish_concordance": "3477",
+    "museum_field_printed": "HM 434, 32.3018",
+    "photograph_reference": "P 1213",
+    "metadata_locator": {
+      "volume": 2,
+      "printed": 444,
+      "pdf": 479
+    },
+    "photo_locator": {
+      "volume": 2,
+      "printed": 338,
+      "pdf": 373
+    },
+    "key_locator": {
+      "volume": 2,
+      "printed": 434,
+      "pdf": 469
+    },
+    "secondary_excavation_raw": "J213 (D)477",
+    "appended_477_origin_authenticated": false,
+    "figure16_id3786_identity_authenticated": false,
+    "M77_text_reference_assigned": null
+  },
+  "local_face_joins": [
+    {
+      "local_row": "1786.1",
+      "cisi_face": "H-904 A"
+    },
+    {
+      "local_row": "1786.2",
+      "cisi_face": "H-904 B"
+    },
+    {
+      "local_row": "2849.2",
+      "cisi_face": "M-331 B",
+      "prior_join_reinspected": true
+    }
+  ],
+  "literal_source_records": [
+    {
+      "source": "results/numeral_pair_source_rows.csv",
+      "row": {
+        "id": "1786.1",
+        "cisi": "H-904",
+        "excavation-idno": "J213 (D)477",
+        "type": "TAB:I",
+        "dir.": "R/L",
+        "complete": "Y",
+        "class": "SS",
+        "signs": "4",
+        "text": "+740-032-840-002+"
+      }
+    },
+    {
+      "source": "results/numeral_pair_source_rows.csv",
+      "row": {
+        "id": "1786.2",
+        "cisi": "H-904",
+        "excavation-idno": "J213 (D)477",
+        "type": "TAB:I",
+        "dir.": "R/L",
+        "complete": "Y",
+        "class": "VX",
+        "signs": "6",
+        "text": "+700-033-900-645-368-817+"
+      }
+    },
+    {
+      "source": "results/numeral_source_records.csv",
+      "row": {
+        "id": "2849.2",
+        "cisi": "M-331",
+        "excavation-idno": "HR 2240471/472/473",
+        "type": "SEAL:S",
+        "dir.": "-",
+        "complete": "Y",
+        "text": "+001-899+"
+      }
+    }
+  ],
+  "visual_observations": {
+    "H904_A": "Two tall uprights and two shorter right strokes with intervening compound; no numerical values assigned.",
+    "H904_B": "Three tall uprights followed in displayed order by single angular right-bulging/open-left curve before crossed form; further residual signs retained.",
+    "M331_B": "Single smoother right-bulging/open-left curve beside one shorter upright; lowercase b impression reverses order and curve.",
+    "comparison": "Broad local graphic compatibility positively supported; fine terminal topology unresolved.",
+    "capital_vs_lowercase_rule_verified": true,
+    "perfect_glyph_identity_established": false,
+    "essential_graphic_distinction_established": false,
+    "all_edges_and_faint_strokes_certified_complete": false
+  },
+  "catalogue_candidate_only": {
+    "description": "Right parenthesis (perhaps with a backward curve at the bottom)",
+    "features": [
+      {
+        "backward_curve": "integer",
+        "description": "Is there a backward curve at the bottom of the stroke? 0 = no, 1 = yes"
+      }
+    ],
+    "id": "P154",
+    "mahadevan_graphemes": [
+      "M287"
+    ],
+    "parpola_graphemes": [
+      "V153",
+      "V265",
+      "V289",
+      "V511"
+    ],
+    "source_path": "features/P154.json",
+    "wells_graphemes": [
+      "W900"
+    ]
+  },
+  "feature_W899_entry_present": false,
+  "global_W899_W900_alias_established": false,
+  "same_numeric_value_established": false,
+  "numerical_operations_established": false,
+  "algebra_sensitivity": {
+    "conditional_equations": [
+      "vA = 2*S-L",
+      "vB*L+1 = 7*S+5"
+    ],
+    "families": [
+      {
+        "t_min": 2,
+        "L": "7*t+1",
+        "S": "4*t",
+        "vA": "t-1",
+        "vB": "4"
+      },
+      {
+        "t_min": 1,
+        "L": "7*t+3",
+        "S": "6*t+2",
+        "vA": "5*t+1",
+        "vB": "6"
+      }
+    ],
+    "symbolic_checks": [
+      "2*(4t)-(7t+1)=t-1",
+      "4*(7t+1)+1=7*(4t)+5",
+      "2*(6t+2)-(7t+3)=5t+1",
+      "6*(7t+3)+1=7*(6t+2)+5"
+    ],
+    "proof_scope": "Removing shared numerical value permits infinite alternatives; not evidence actual signs or values differed."
+  },
+  "independent_split_value_validation": {
+    "producer_imported": false,
+    "family_checks": [
+      {
+        "t_min": 2,
+        "residuals_affine": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            0
+          ]
+        ],
+        "bound_coefficients": {
+          "L_minus_10": [
+            -9,
+            7
+          ],
+          "S_minus_8": [
+            -8,
+            4
+          ],
+          "vA_minus_1": [
+            -2,
+            1
+          ],
+          "vB_minus_1": [
+            3
+          ],
+          "L_minus_vA_minus_1": [
+            1,
+            6
+          ],
+          "S_minus_vA_minus_1": [
+            0,
+            3
+          ],
+          "L_minus_vB_minus_1": [
+            -4,
+            7
+          ],
+          "S_minus_vB_minus_1": [
+            -5,
+            4
+          ]
+        },
+        "bound_values_at_t_min": {
+          "L_minus_10": 5,
+          "S_minus_8": 0,
+          "vA_minus_1": 0,
+          "vB_minus_1": 3,
+          "L_minus_vA_minus_1": 13,
+          "S_minus_vA_minus_1": 6,
+          "L_minus_vB_minus_1": 10,
+          "S_minus_vB_minus_1": 3
+        },
+        "shared_value_t": 5,
+        "strictly_increasing_L_slope": 7
+      },
+      {
+        "t_min": 1,
+        "residuals_affine": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            0
+          ]
+        ],
+        "bound_coefficients": {
+          "L_minus_10": [
+            -7,
+            7
+          ],
+          "S_minus_8": [
+            -6,
+            6
+          ],
+          "vA_minus_1": [
+            0,
+            5
+          ],
+          "vB_minus_1": [
+            5
+          ],
+          "L_minus_vA_minus_1": [
+            1,
+            2
+          ],
+          "S_minus_vA_minus_1": [
+            0,
+            1
+          ],
+          "L_minus_vB_minus_1": [
+            -4,
+            7
+          ],
+          "S_minus_vB_minus_1": [
+            -5,
+            6
+          ]
+        },
+        "bound_values_at_t_min": {
+          "L_minus_10": 0,
+          "S_minus_8": 0,
+          "vA_minus_1": 5,
+          "vB_minus_1": 5,
+          "L_minus_vA_minus_1": 3,
+          "S_minus_vA_minus_1": 1,
+          "L_minus_vB_minus_1": 3,
+          "S_minus_vB_minus_1": 1
+        },
+        "shared_value_t": 1,
+        "strictly_increasing_L_slope": 7
+      }
+    ],
+    "intersections": [
+      {
+        "L": 36,
+        "S": 20,
+        "v": 4
+      },
+      {
+        "L": 10,
+        "S": 8,
+        "v": 6
+      }
+    ],
+    "input_hash_checks": {
+      "data/processed/m331_visual_evidence.json": true,
+      "data/processed/numeral_equation_claims.json": true,
+      "docs/NUMERAL_IMAGES.md": true,
+      "results/numeral_calibration_design.json": true,
+      "results/numeral_equation_audit.json": true
+    },
+    "mismatches": 0,
+    "exhaustive_parameterization_claimed": false
+  },
+  "source_code_discrepancy": {
+    "capture": "data/raw/fuls-numeral-figure-primary-captures.json",
+    "captured_prose_lines": [
+      677,
+      678
+    ],
+    "source_description": "Sign032, three long strokes",
+    "local_H904_B_three_strokes": "W033",
+    "local_H904_A_two_strokes": "W032",
+    "cause_resolved": false,
+    "source_sign900_equals_local_W900_by_number_alone": false,
+    "M331_source_sign14_referent_reconciled": false
+  },
+  "attempts": [
+    {
+      "method": "retained multilingual OCR exact H904/J213 search",
+      "outcome": "no target match"
+    },
+    {
+      "method": "adjacent known CISI2 H886\u2013898 page visual bracket",
+      "outcome": "next PDF373 found H904A/B"
+    },
+    {
+      "method": "CISI2 metadata PDF479 and column key",
+      "outcome": "exact H904/J213D row recovered"
+    },
+    {
+      "method": "direct object-view comparison with M331 B/b",
+      "outcome": "broad graphic compatibility; no global alias or value"
+    }
+  ],
+  "crop_records": [
+    {
+      "source": "results/primary_pages/h904-numeral-cisi2-373.png",
+      "output": "results/primary_pages/h904-numeral-h904-faces.png",
+      "source_pixels": [
+        3442,
+        4800
+      ],
+      "box": [
+        258,
+        2054,
+        1807,
+        2453
+      ],
+      "transforms": "native crop only; no flip, rotation, rescaling, contrast or restoration"
+    },
+    {
+      "source": "results/primary_pages/h904-numeral-cisi2-479.png",
+      "output": "results/primary_pages/h904-numeral-metadata.png",
+      "source_pixels": [
+        3420,
+        4800
+      ],
+      "box": [
+        239,
+        3576,
+        1676,
+        3806
+      ],
+      "transforms": "native crop only; no flip, rotation, rescaling, contrast or restoration"
+    },
+    {
+      "source": "results/primary_pages/h904-numeral-m331-120.png",
+      "output": "results/primary_pages/h904-numeral-m331-Bb.png",
+      "source_pixels": [
+        3385,
+        4800
+      ],
+      "box": [
+        186,
+        1392,
+        1659,
+        2150
+      ],
+      "transforms": "native crop only; no flip, rotation, rescaling, contrast or restoration"
+    }
+  ],
+  "render_scale_long_edge": 4800,
+  "downloads": 0,
+  "established_semantic_values": 0,
+  "established_phonetic_values": 0,
+  "semantic_values": null,
+  "phonetic_values": null,
+  "evidence_files": [
+    {
+      "path": "data/processed/catalogue_features.json",
+      "bytes": 189902,
+      "sha256": "00836515c6f3beec28b3b66e13d8a9c6e94571cfb2e9dbb4b148651b7ff0032d"
+    },
+    {
+      "path": "data/processed/m331_visual_evidence.json",
+      "bytes": 2085,
+      "sha256": "87764a7a7ef79f423c993a890083283a370be98302070488e91f3fac4c7ca8b2"
+    },
+    {
+      "path": "data/processed/numeral_equation_claims.json",
+      "bytes": 2047,
+      "sha256": "f286e0aa6a4dcf69bf9d9fbe0dc93db0e4c783e931376194b28a234e390f3b80"
+    },
+    {
+      "path": "data/raw/cisi_76884.pdf",
+      "bytes": 31508998,
+      "sha256": "47a4da4227cfb7baa56d6a561e25797225499d0ec54f5a702a82c67ab4746d4d"
+    },
+    {
+      "path": "data/raw/fuls-numeral-figure-primary-captures.json",
+      "bytes": 96784,
+      "sha256": "5f05f0791778f99f49b4409ed5d4a2ff3bfe27dba0dc5a161570138f50c0ba9b"
+    },
+    {
+      "path": "data/raw/h843_identity_CorpusVol2.pdf",
+      "bytes": 35870617,
+      "sha256": "727132579a485ee626e48a64c663148a85fbc0811fb523818fd615231f8a327d"
+    },
+    {
+      "path": "data/raw/h843_identity_CorpusVol2_djvu.txt",
+      "bytes": 218644,
+      "sha256": "ae797e9bc4bed1993e6997030a62bcbb5e0b2900ca8812e5ab3f392915c0abf9"
+    },
+    {
+      "path": "docs/H904_NUMERAL_GLYPH_REVIEW.md",
+      "bytes": 9360,
+      "sha256": "3cd98fd86663a8ef02e6e4a6667e2fd1285483157b17552cc91b3cf93e513eb8"
+    },
+    {
+      "path": "docs/NUMERAL_IMAGES.md",
+      "bytes": 5637,
+      "sha256": "30c8b4148f6a44c5906349fe77825ead76e360ebcf20a7ca954ef2180b37b02c"
+    },
+    {
+      "path": "docs/NUMERAL_SCREEN.md",
+      "bytes": 6054,
+      "sha256": "2d03eb8f99c2b54aaf790ee14c971dc10c261a272d554e373ab75791ab6e7973"
+    },
+    {
+      "path": "results/h904-numeral-cisi2_extraction.json",
+      "bytes": 385,
+      "sha256": "6621553c510e489bd7412f2ecfc3f0b11df1a00e2eda9989c196374a4f1957f9"
+    },
+    {
+      "path": "results/h904-numeral-m331_extraction.json",
+      "bytes": 362,
+      "sha256": "9025f30910458c0d3c97cff991245d77694499719931c41c7f2d86d914e521ee"
+    },
+    {
+      "path": "results/numeral_calibration_design.json",
+      "bytes": 3838,
+      "sha256": "22beb968b6929c825fe5224b895c3af04e5a6348c8bd34542704a261848a2ea1"
+    },
+    {
+      "path": "results/numeral_equation_audit.json",
+      "bytes": 1706,
+      "sha256": "ed2d921d7c0df0ae42bc6c989778134589bd532bc24c243478260700d27c21f4"
+    },
+    {
+      "path": "results/numeral_identity_sensitivity.json",
+      "bytes": 5170,
+      "sha256": "88c93069508a8873b7c8053d7e0ffd2eacdbb88e110a1317794eb13d7a15641d"
+    },
+    {
+      "path": "results/numeral_pair_source_rows.csv",
+      "bytes": 2587,
+      "sha256": "c39452eaed0ad1ddea00e7191771ee7edcc85222b13d9067ce508b56fd313a62"
+    },
+    {
+      "path": "results/numeral_source_records.csv",
+      "bytes": 415,
+      "sha256": "ba576be099bbd2f5aa07ff98e6f0c5f0492e8a999822452c9b2c56d3ecd9b560"
+    },
+    {
+      "path": "results/primary_pages/cisi1-28.png",
+      "bytes": 2623064,
+      "sha256": "f3fdd72e4aeadca22e3df6fa32c71796effb918d68e80b33704c3fd18ca70a17"
+    },
+    {
+      "path": "results/primary_pages/h843-cisi2-key-28.png",
+      "bytes": 3351844,
+      "sha256": "6918eb7c273ebf172688683e8e52cf547a276585a57051c0de5c2300d8d1f97a"
+    },
+    {
+      "path": "results/primary_pages/h843-cisi2-key-469.png",
+      "bytes": 2283222,
+      "sha256": "7e891986c8aa4f5299101b13f80ce0fe1cd27f45e05bcd120857a7730e98884e"
+    },
+    {
+      "path": "results/primary_pages/h904-numeral-cisi2-373.png",
+      "bytes": 1006600,
+      "sha256": "13f0d8c006805143ad1a93fe1a5474d3c66db252f819ec05addd5db51c7253a4"
+    },
+    {
+      "path": "results/primary_pages/h904-numeral-cisi2-479.png",
+      "bytes": 1210547,
+      "sha256": "e21c517a89479ba7e06a42296c99b4aa1288284bd35fbbfe40552f9eede9cc56"
+    },
+    {
+      "path": "results/primary_pages/h904-numeral-h904-faces.png",
+      "bytes": 57231,
+      "sha256": "84708cf0273996092aaa02af37d1b7ad415c0e8675689ecab3a6e5bb1632d8bd"
+    },
+    {
+      "path": "results/primary_pages/h904-numeral-m331-120.png",
+      "bytes": 779151,
+      "sha256": "d4718dea7d4a1cb9c0d7870cfbf825ff19b5075e13525f050a9d491fb2426d59"
+    },
+    {
+      "path": "results/primary_pages/h904-numeral-m331-Bb.png",
+      "bytes": 65398,
+      "sha256": "53f5b79cd8fbd0dabee6a02d6e1a9b00286aad99cbcc834b12ee69833e33785a"
+    },
+    {
+      "path": "results/primary_pages/h904-numeral-metadata.png",
+      "bytes": 26681,
+      "sha256": "b145c157938aefc1432202423662ea2f48fd34090bf5e6812d8151dcc23f9ead"
+    },
+    {
+      "path": "scripts/analyze_numeral_identity_sensitivity.py",
+      "bytes": 4649,
+      "sha256": "7477e2ae9b6449825d2d92de2965e71f8c6e8f635cdcba7756e4e97fca1ae7d6"
+    },
+    {
+      "path": "scripts/review_h904_numeral_glyph.py",
+      "bytes": 9882,
+      "sha256": "12ea01b8fb8d02a3c55a72455c6ad675c1e9387d2fbba24e086833184e89b515"
+    }
+  ]
+}

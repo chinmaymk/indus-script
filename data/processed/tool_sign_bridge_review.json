@@ -1,0 +1,211 @@
+{
+  "schema_version": 1,
+  "scope": "Object-specific correspondence between published tool graphics and normalized M77 codes; no semantic or phonetic assignments.",
+  "review_kind": "Independent bounded reinspection of retained visual evidence, after exposure to proposed mappings; not blinded and not artifact autopsy.",
+  "objects": [
+    {
+      "m77_reference": "2923",
+      "side": "2",
+      "line": "0",
+      "actual_direction_code": 4,
+      "normalized_tokens": [
+        "M387",
+        "M015",
+        "M104",
+        "M106",
+        "M312"
+      ],
+      "normalized_reading_order": "right_to_left",
+      "identity": "FEM CXXVI item 2, conventionally DK7856",
+      "identity_review": "data/processed/bronze2923_identity_review.json",
+      "reported_surviving_mass_grams": "165.343",
+      "new_independent_mass_anchor": false,
+      "mapping": [
+        {
+          "code": "M104",
+          "normalized_token_index": 2,
+          "graphic_count": 4,
+          "graphic_form": "Tilted transverse strokes in excavation drawing; upright in M77 normalization",
+          "local_expression": "4t",
+          "universal_local_unit_mapping": false
+        },
+        {
+          "code": "M106",
+          "normalized_token_index": 3,
+          "graphic_count": 5,
+          "graphic_form": "Upright strokes",
+          "local_expression": "5i",
+          "universal_local_unit_mapping": false
+        },
+        {
+          "code": "M312",
+          "normalized_token_index": 4,
+          "graphic_count": 1,
+          "graphic_form": "Arch",
+          "local_expression": "1u",
+          "universal_local_unit_mapping": false
+        }
+      ],
+      "residual_tokens": [
+        "M387",
+        "M015"
+      ],
+      "residual_scope": "Preserve complete primary sequence. Old drawing shows two complex signs; precise M387 normalized morphology is not independently authenticated from the low-resolution old drawing. No null contribution or semantic inertness assumed.",
+      "original_drawing_order_top_to_bottom": [
+        "complex sign",
+        "complex sign",
+        "four tilted transverse strokes",
+        "five upright strokes",
+        "one arch"
+      ],
+      "selected_expression_order": [
+        "1u",
+        "5i",
+        "4t"
+      ],
+      "orientation_warning": "Local expression order reverses normalized tail. M77 M104 normalization loses original stroke orientation; additive notation cannot establish ancient reading direction."
+    },
+    {
+      "m77_reference": "8301",
+      "side": "2",
+      "line": "0",
+      "actual_direction_code": 3,
+      "normalized_tokens": [
+        "M106"
+      ],
+      "normalized_reading_order": "right_to_left",
+      "identity": "KLB14983 = CISI K-122 = Finnish text 7081",
+      "identity_review": "data/processed/kalibangan_tool_record_review.json",
+      "reported_surviving_mass_grams": "476",
+      "mapping": [
+        {
+          "code": "M106",
+          "normalized_token_index": 0,
+          "graphic_count": 5,
+          "graphic_form": "Five approximately parallel strokes in CISI face B enlargement and excavation 2020 figure 12.1d",
+          "local_expression": "5i",
+          "universal_local_unit_mapping": false
+        }
+      ],
+      "residual_tokens": [],
+      "other_face_not_concatenated": true,
+      "loss_warning": "No loss printed for this M77 field does not prove no ancient marks were lost from the object.",
+      "museum_candidate_mass_grams": "476.70",
+      "museum_candidate_exact_join_authenticated": false
+    }
+  ],
+  "shared_code_conclusion": "M106 is assigned in M77 to the five-stroke group on both identified objects. This bridges records, not semantic or metrological values.",
+  "proof_limits": [
+    "Local u/i/t labels name graphical groups selected by a later interpretation. Do not expand M106 into five independently identified unit-code tokens.",
+    "M104 does not universally denote t: its upright normalization includes this original transverse group, and Pettersson explicitly entertains t=i.",
+    "M387 and M015 remain in the tang field; their semantic contribution is unknown.",
+    "Drawings and normalized catalogue text of the same object are not independent ancient attestations.",
+    "The photographs of K-122 support five visible strokes, not completeness of the ancient inscription or the whole-object mass reading.",
+    "Tang survival and chemical corrosion prevent substituting present mass for known ancient complete mass.",
+    "No code receives a numerical, semantic or phonetic value."
+  ],
+  "new_downloads": [],
+  "image_transformations": [],
+  "evidence_files": [
+    {
+      "path": "data/raw/mahadevan_1977_text.pdf",
+      "bytes": 119302608,
+      "sha256": "6dcdd074a0174e5fab149590fbbf82342711d345764e9763f8e5e92c81cf7f99"
+    },
+    {
+      "path": "data/raw/metal_plate_9954_leaf265.jpg",
+      "bytes": 1501585,
+      "sha256": "02d3fd1f4dd021a65eddf10b759fa42ab105a70b6320804f5b5471550f80827f"
+    },
+    {
+      "path": "data/raw/pettersson_1999_indus_numerals_metal_tools.pdf",
+      "bytes": 324816,
+      "sha256": "6668f9ff93612059eaa385f1356f8138ebe76ddeeeb8b51043830131d9265b8a"
+    },
+    {
+      "path": "data/raw/cisi_76884.pdf",
+      "bytes": 31508998,
+      "sha256": "47a4da4227cfb7baa56d6a561e25797225499d0ec54f5a702a82c67ab4746d4d"
+    },
+    {
+      "path": "data/raw/metal_kalibangan_excavation_2020_part2.pdf",
+      "bytes": 13694349,
+      "sha256": "47d861daedd595f4da4b75e1cd65594a34c2c46e4a0a3bc219c83fd3fbada56c"
+    },
+    {
+      "path": "data/processed/bronze2923_identity_review.json",
+      "bytes": 7045,
+      "sha256": "52986586a1d77a2a1d4b7e8d767e812a76ae5b781eec0fa44ae6aa60cf65f21e"
+    },
+    {
+      "path": "data/processed/kalibangan_tool_record_review.json",
+      "bytes": 7801,
+      "sha256": "9ae77513e88ffa4c3572c8d2df8df71052695adcb78f5d1ab569d8d3213a56cb"
+    },
+    {
+      "path": "data/processed/five_stroke_missing_lines.jsonl",
+      "bytes": 4944,
+      "sha256": "684954ffa8f2aa5b886dc8770c941827bca39231be8d6d892c172fa7d4a3608c"
+    },
+    {
+      "path": "results/primary_pages/metal-plate-tang.png",
+      "bytes": 271481,
+      "sha256": "44b01f5ebd8a42ca8484448a75e856fccc6376e2ff7728c8bae36a803f5a0a7d"
+    },
+    {
+      "path": "results/primary_pages/five-missing-2923-detail.png",
+      "bytes": 142101,
+      "sha256": "8361e517cec6e79c400ece64957a375c6bd3652617c0b4a930e7a934952ed954"
+    },
+    {
+      "path": "results/primary_pages/five-missing-8301-detail.png",
+      "bytes": 120475,
+      "sha256": "faa99490ea54308b5c8c3c00cd3c49287be63d64d7e3b2c2447699d97a0da5f9"
+    },
+    {
+      "path": "results/primary_pages/hybrid-pat-m77-43.png",
+      "bytes": 2350315,
+      "sha256": "c4fbb59388cdc982aea2f274dc2f88da0f6597635b8e469c608ec7de1f3e4e7c"
+    },
+    {
+      "path": "results/primary_pages/hybrid-pat-pair-45.png",
+      "bytes": 2931715,
+      "sha256": "5a3a3b4955c55fb6b7f8023d52a79191a4d499898ad563db3c7618a5fdc5b24c"
+    },
+    {
+      "path": "results/primary_pages/hybrid-pat-pair-46.png",
+      "bytes": 2656525,
+      "sha256": "b012c5f5674fd7f2c5faa3a5bd0fe887155d4e7623b7c2f42906954dd4fe5761"
+    },
+    {
+      "path": "results/primary_pages/pettersson-1999-10.png",
+      "bytes": 158016,
+      "sha256": "fcb38b2bdf985d70cbde329091d480e14e61fd41d45d0fd929038bdcffd813cc"
+    },
+    {
+      "path": "results/primary_pages/pettersson-1999-13.png",
+      "bytes": 144756,
+      "sha256": "a847bd5cb6d8aa80ef81e5bfb19d7f6aa7db9bb54d441b1fef8b79ce51cf5ae9"
+    },
+    {
+      "path": "results/primary_pages/metal-kalibangan-362.png",
+      "bytes": 2059087,
+      "sha256": "028267212e7db830877ea9d4b9639406928bc2025bced61ebe92874430d7b777"
+    },
+    {
+      "path": "results/primary_pages/metal-k-excavation-71.png",
+      "bytes": 3499709,
+      "sha256": "33b69d91ce8f241d92f3e9592b13053178bb5e45d3fe4c0b1faa63f747954d65"
+    },
+    {
+      "path": "results/primary_pages/bronze2923-appendix-detail.png",
+      "bytes": 66438,
+      "sha256": "3b8015a10ffc300b5494a2859132b0b370877b76dcfe566de4d66ba44e6899ec"
+    },
+    {
+      "path": "results/primary_pages/metal-kalibangan-data-410-detail.png",
+      "bytes": 104415,
+      "sha256": "4260baaf1498a3f55e2d7ccc63db1c36ca6144f4841767bf95a9de0ff397181a"
+    }
+  ]
+}

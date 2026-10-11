@@ -1,0 +1,374 @@
+{
+  "exactly_five_signs": 366,
+  "interpretation": "Variable field width/optional fields could still fit; this does not refute every administrative model.",
+  "not_exactly_five_signs": 1482,
+  "sensitivity": {
+    "Harappa": {
+      "permutation_tests": {
+        "iterations": 199,
+        "length_position": {
+          "mi": {
+            "null_95_interval": [
+              2.9135270808084854,
+              2.976542886944276
+            ],
+            "null_mean": 2.941542036152589,
+            "observed_minus_null_mean": 0.7854677858427794,
+            "p_upper": 0.005
+          }
+        },
+        "observed": {
+          "endpoint_js": 0.7309707715012905,
+          "mi": 3.7270098219953685
+        },
+        "seed": 20260922,
+        "within_text": {
+          "endpoint_js": {
+            "null_95_interval": [
+              0.17085358269141615,
+              0.2173800916157731
+            ],
+            "null_mean": 0.1932407888196819,
+            "observed_minus_null_mean": 0.5377299826816087,
+            "p_upper": 0.005
+          },
+          "mi": {
+            "null_95_interval": [
+              3.005742731569892,
+              3.10656581848947
+            ],
+            "null_mean": 3.0553777574525998,
+            "observed_minus_null_mean": 0.6716320645427687,
+            "p_upper": 0.005
+          }
+        }
+      },
+      "summary": {
+        "adjacent_mutual_information_bits": 3.7270098219953685,
+        "endpoint_js_bits": 0.7309707715012905,
+        "hapax_sign_types": 144,
+        "length_histogram": {
+          "2": 127,
+          "3": 155,
+          "4": 137,
+          "5": 96,
+          "6": 57,
+          "7": 29,
+          "8": 9,
+          "9": 10,
+          "10": 5,
+          "11": 1,
+          "12": 1,
+          "13": 1
+        },
+        "length_max": 13,
+        "length_mean": 4.044585987261146,
+        "sequences": 628,
+        "sign_types": 339,
+        "texts_with_repeated_sign_fraction": 0.027070063694267517,
+        "tokens": 2540,
+        "unigram_entropy_bits": 6.720629841151289
+      }
+    },
+    "Mohenjo-daro": {
+      "permutation_tests": {
+        "iterations": 199,
+        "length_position": {
+          "mi": {
+            "null_95_interval": [
+              2.396923894336027,
+              2.4539825663035426
+            ],
+            "null_mean": 2.4256465199368455,
+            "observed_minus_null_mean": 1.028830079597964,
+            "p_upper": 0.005
+          }
+        },
+        "observed": {
+          "endpoint_js": 0.7952161973041427,
+          "mi": 3.4544765995348095
+        },
+        "seed": 20260922,
+        "within_text": {
+          "endpoint_js": {
+            "null_95_interval": [
+              0.13289337546749014,
+              0.1650985495664239
+            ],
+            "null_mean": 0.14844900289289692,
+            "observed_minus_null_mean": 0.6467671944112459,
+            "p_upper": 0.005
+          },
+          "mi": {
+            "null_95_interval": [
+              2.5542133607219846,
+              2.6313363380298
+            ],
+            "null_mean": 2.5918160818252614,
+            "observed_minus_null_mean": 0.8626605177095481,
+            "p_upper": 0.005
+          }
+        }
+      },
+      "summary": {
+        "adjacent_mutual_information_bits": 3.4544765995348095,
+        "endpoint_js_bits": 0.7952161973041427,
+        "hapax_sign_types": 180,
+        "length_histogram": {
+          "2": 112,
+          "3": 161,
+          "4": 174,
+          "5": 215,
+          "6": 147,
+          "7": 99,
+          "8": 44,
+          "9": 23,
+          "10": 11,
+          "11": 6,
+          "12": 3,
+          "13": 2
+        },
+        "length_max": 13,
+        "length_mean": 4.864593781344032,
+        "sequences": 997,
+        "sign_types": 445,
+        "texts_with_repeated_sign_fraction": 0.03610832497492478,
+        "tokens": 4850,
+        "unigram_entropy_bits": 6.810524852686976
+      }
+    },
+    "complete_preservation_only": {
+      "permutation_tests": {
+        "iterations": 199,
+        "length_position": {
+          "mi": {
+            "null_95_interval": [
+              2.222793651241202,
+              2.2746609296406346
+            ],
+            "null_mean": 2.2447581545492983,
+            "observed_minus_null_mean": 1.0436290250064082,
+            "p_upper": 0.005
+          }
+        },
+        "observed": {
+          "endpoint_js": 0.7134833637544302,
+          "mi": 3.2883871795557065
+        },
+        "seed": 20260922,
+        "within_text": {
+          "endpoint_js": {
+            "null_95_interval": [
+              0.10693808107879743,
+              0.13077462678929663
+            ],
+            "null_mean": 0.11984090409293867,
+            "observed_minus_null_mean": 0.5936424596614915,
+            "p_upper": 0.005
+          },
+          "mi": {
+            "null_95_interval": [
+              2.3981695245799868,
+              2.465510756429204
+            ],
+            "null_mean": 2.4295865226980182,
+            "observed_minus_null_mean": 0.8588006568576882,
+            "p_upper": 0.005
+          }
+        }
+      },
+      "summary": {
+        "adjacent_mutual_information_bits": 3.2883871795557065,
+        "endpoint_js_bits": 0.7134833637544302,
+        "hapax_sign_types": 197,
+        "length_histogram": {
+          "2": 213,
+          "3": 307,
+          "4": 298,
+          "5": 289,
+          "6": 182,
+          "7": 129,
+          "8": 50,
+          "9": 32,
+          "10": 14,
+          "11": 5,
+          "12": 4,
+          "13": 3
+        },
+        "length_max": 13,
+        "length_mean": 4.553735255570118,
+        "sequences": 1526,
+        "sign_types": 527,
+        "texts_with_repeated_sign_fraction": 0.035386631716906945,
+        "tokens": 6949,
+        "unigram_entropy_bits": 6.899842799959721
+      }
+    },
+    "good_fine_only": {
+      "permutation_tests": {
+        "iterations": 199,
+        "length_position": {
+          "mi": {
+            "null_95_interval": [
+              2.7041074186735456,
+              2.7666739740960047
+            ],
+            "null_mean": 2.7342444802891697,
+            "observed_minus_null_mean": 0.9019346437841582,
+            "p_upper": 0.005
+          }
+        },
+        "observed": {
+          "endpoint_js": 0.7862017417736675,
+          "mi": 3.636179124073328
+        },
+        "seed": 20260922,
+        "within_text": {
+          "endpoint_js": {
+            "null_95_interval": [
+              0.157085717469311,
+              0.1977680778064812
+            ],
+            "null_mean": 0.1755342891427686,
+            "observed_minus_null_mean": 0.6106674526308989,
+            "p_upper": 0.005
+          },
+          "mi": {
+            "null_95_interval": [
+              2.855626942087948,
+              2.9403570570952913
+            ],
+            "null_mean": 2.897413278343702,
+            "observed_minus_null_mean": 0.7387658457296258,
+            "p_upper": 0.005
+          }
+        }
+      },
+      "summary": {
+        "adjacent_mutual_information_bits": 3.636179124073328,
+        "endpoint_js_bits": 0.7862017417736675,
+        "hapax_sign_types": 174,
+        "length_histogram": {
+          "2": 103,
+          "3": 153,
+          "4": 144,
+          "5": 162,
+          "6": 117,
+          "7": 77,
+          "8": 30,
+          "9": 18,
+          "10": 9,
+          "11": 2,
+          "12": 2,
+          "13": 3
+        },
+        "length_max": 13,
+        "length_mean": 4.71829268292683,
+        "sequences": 820,
+        "sign_types": 432,
+        "texts_with_repeated_sign_fraction": 0.03902439024390244,
+        "tokens": 3869,
+        "unigram_entropy_bits": 6.905349875638334
+      }
+    },
+    "without_tally_like_signs": {
+      "permutation_tests": {
+        "iterations": 199,
+        "length_position": {
+          "mi": {
+            "null_95_interval": [
+              2.826766769643028,
+              2.890483047606761
+            ],
+            "null_mean": 2.8591555573789162,
+            "observed_minus_null_mean": 0.7712972867586032,
+            "p_upper": 0.005
+          }
+        },
+        "observed": {
+          "endpoint_js": 0.7773626445138717,
+          "mi": 3.6304528441375195
+        },
+        "seed": 20260922,
+        "within_text": {
+          "endpoint_js": {
+            "null_95_interval": [
+              0.16615064258095558,
+              0.2053192175238392
+            ],
+            "null_mean": 0.1839816826649435,
+            "observed_minus_null_mean": 0.5933809618489282,
+            "p_upper": 0.005
+          },
+          "mi": {
+            "null_95_interval": [
+              2.984777679073676,
+              3.082178061201902
+            ],
+            "null_mean": 3.030638906012335,
+            "observed_minus_null_mean": 0.5998139381251844,
+            "p_upper": 0.005
+          }
+        }
+      },
+      "summary": {
+        "adjacent_mutual_information_bits": 3.6304528441375195,
+        "endpoint_js_bits": 0.7773626445138717,
+        "hapax_sign_types": 166,
+        "length_histogram": {
+          "2": 177,
+          "3": 233,
+          "4": 164,
+          "5": 132,
+          "6": 61,
+          "7": 26,
+          "8": 9,
+          "9": 7,
+          "10": 1,
+          "11": 2
+        },
+        "length_max": 11,
+        "length_mean": 3.7980295566502464,
+        "sequences": 812,
+        "sign_types": 396,
+        "texts_with_repeated_sign_fraction": 0.01847290640394089,
+        "tokens": 3084,
+        "unigram_entropy_bits": 6.773191891728301
+      }
+    }
+  },
+  "tally_families": {
+    "short": {
+      "sign_types_present": 13,
+      "source_asserted_stroke_counts": {
+        "W001": 1,
+        "W002": 2,
+        "W003": 3,
+        "W004": 4,
+        "W005": 5,
+        "W006": 6,
+        "W007": 7,
+        "W014": 4,
+        "W015": 5,
+        "W016": 6,
+        "W017": 7,
+        "W018": 8,
+        "W019": 9,
+        "W020": 10
+      },
+      "tokens_unique_texts": 868
+    },
+    "tall": {
+      "sign_types_present": 5,
+      "source_asserted_stroke_counts": {
+        "W031": 1,
+        "W032": 2,
+        "W033": 3,
+        "W034": 4,
+        "W035": 5
+      },
+      "tokens_unique_texts": 519
+    }
+  },
+  "tally_substitution_frames": 24
+}

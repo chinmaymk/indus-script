@@ -1,0 +1,221 @@
+{
+  "scope": "independent full metadata reconstruction plus targeted original-page review; no new sign outcome inspection",
+  "producer_helpers_imported": false,
+  "all_full_rows_equal": true,
+  "all_summary_fields_equal": true,
+  "summary": {
+    "primary_catalogue_rows": 65,
+    "secondary_site_objects": 72,
+    "secondary_site_rows": 74,
+    "join_status_counts": {
+      "no_metadata_candidate": 7,
+      "number_match_secondary_class_conflict": 1,
+      "unique_number_and_plate_metadata_match": 55,
+      "plate_match_number_conflict": 2
+    },
+    "matched_rows_with_provenance_disagreements": 5,
+    "provenance_field_disagreements": 7,
+    "secondary_phase_fields": {
+      "-": 74
+    },
+    "new_sign_outcomes_examined": 0,
+    "semantic_values_assigned": 0
+  },
+  "mismatches": [],
+  "visual_checks": [
+    {
+      "row": "LI.4",
+      "excavation_number": "518",
+      "elevation_ft": 0.8,
+      "class_heading": "Seal-amulets of the Harappa Period",
+      "secondary_conflict": "MISC; rejected, not silently coerced"
+    },
+    {
+      "row": "LI.12",
+      "excavation_number": "3493",
+      "elevation_ft": 7.0,
+      "secondary_conflict": "+7.2; retained disagreement"
+    },
+    {
+      "row": "LI.26",
+      "excavation_number": "3043",
+      "elevation_ft": 7.3,
+      "secondary_conflict": "3817; plate-only candidate rejected;3817 is printed atLI.25"
+    },
+    {
+      "row": "LI.31",
+      "excavation_number": "1293",
+      "elevation_ft": 14.9,
+      "secondary_conflict": "+14.1; retained disagreement"
+    },
+    {
+      "row": "LII.15",
+      "excavation_number": "2531",
+      "elevation_ft": 9.6,
+      "secondary_conflict": "2431; plate-only candidate rejected"
+    }
+  ],
+  "crop_manifest": [
+    {
+      "source": "data/raw/chanhu_context_leaf312.jpg",
+      "output": {
+        "path": "results/primary_pages/chanhu-join-independent-LI4.png",
+        "bytes": 398758,
+        "sha256": "57d4ad9d7e4815c35d5f34f9a437d5b250617022a2611d594348f8048ab1568d"
+      },
+      "box_xyxy": [
+        1130,
+        2250,
+        4550,
+        2400
+      ],
+      "operation": "native rectangular crop only"
+    },
+    {
+      "source": "data/raw/chanhu_context_leaf312.jpg",
+      "output": {
+        "path": "results/primary_pages/chanhu-join-independent-LI12.png",
+        "bytes": 347403,
+        "sha256": "20197285c55ae39dac9d7fe4a74d7265d768faf9858a12b6477144158b58ff66"
+      },
+      "box_xyxy": [
+        1110,
+        3050,
+        4550,
+        3190
+      ],
+      "operation": "native rectangular crop only"
+    },
+    {
+      "source": "data/raw/chanhu_context_leaf312.jpg",
+      "output": {
+        "path": "results/primary_pages/chanhu-join-independent-LI25and26.png",
+        "bytes": 644908,
+        "sha256": "bd1195f80906bfed0a5b8c46d81ff93a24de7185ef1da0123bf1f0dae3984585"
+      },
+      "box_xyxy": [
+        1110,
+        4240,
+        4650,
+        4500
+      ],
+      "operation": "native rectangular crop only"
+    },
+    {
+      "source": "data/raw/chanhu_context_leaf312.jpg",
+      "output": {
+        "path": "results/primary_pages/chanhu-join-independent-LI31.png",
+        "bytes": 378738,
+        "sha256": "20d3114330b89973844a4aa5898028b671d4a71e21730a467b8c860c4caa910c"
+      },
+      "box_xyxy": [
+        1110,
+        4800,
+        4550,
+        4960
+      ],
+      "operation": "native rectangular crop only"
+    },
+    {
+      "source": "data/raw/chanhu_context_leaf313.jpg",
+      "output": {
+        "path": "results/primary_pages/chanhu-join-independent-LII15.png",
+        "bytes": 440529,
+        "sha256": "e6d8f8a7a1ef390f4f5ef4206c0c8d2f1f07f00d0d5423c386bd7278dea5a575"
+      },
+      "box_xyxy": [
+        800,
+        1730,
+        4260,
+        1900
+      ],
+      "operation": "native rectangular crop only"
+    }
+  ],
+  "limitations": [
+    "65 is completeness of declared LI1\u201333/LII1\u201332 illustrated frame, not all excavated seals.",
+    "Metadata matches do not authenticate inscription transcriptions.",
+    "Only targeted row readings and section boundaries were independently visually checked.",
+    "Artifact-number/class conflicts remain unjoined; a source-only MISC label may be an editorial problem, not historical uncertainty about primary section heading.",
+    "Implementation compares known square/locus/elevation; missing values and trench/mound/cutting fields are not silently verified by empty disagreement list."
+  ],
+  "established_semantic_values": 0,
+  "established_phonetic_values": 0,
+  "evidence_files": [
+    {
+      "path": "data/processed/chanhu_deposit_seal_register.json",
+      "bytes": 55810,
+      "sha256": "8da9684265a7094abf5505134f1053814d3f6032ed8fa04f8e13d02c398ca081"
+    },
+    {
+      "path": "results/chanhu_deposit_metadata_joins.json",
+      "bytes": 161319,
+      "sha256": "19b62a3e4d2fb44b8043341613b23d07392692a520a86ab309eca4715a6a7d2b"
+    },
+    {
+      "path": "data/raw/lipi_inscriptions.csv",
+      "bytes": 1204921,
+      "sha256": "b8dcb325a2e2cd3cde12ac12e7a418b0348e45713c9ee28aad81b645d2ac5ee4"
+    },
+    {
+      "path": "scripts/build_chanhu_deposit_joins.py",
+      "bytes": 6103,
+      "sha256": "189c3d418e3ab80b4da054f832e2320aebcdeb682c2e397c7c09eb46eb16f3a5"
+    },
+    {
+      "path": "docs/CHANHU_DEPOSIT_PROTOCOL.md",
+      "bytes": 3979,
+      "sha256": "99b84ec62c519c2b1e212a99fa116a2f31f660e50dbef6e71e555a161c43330d"
+    },
+    {
+      "path": "data/raw/chanhu_context_leaf312.jpg",
+      "bytes": 2468783,
+      "sha256": "8c60faf3c99fd9a6b9670a4f25851cfadace630805fdd778bd55ab216c0595ff"
+    },
+    {
+      "path": "data/raw/chanhu_context_leaf313.jpg",
+      "bytes": 2555029,
+      "sha256": "a9c8797f4f2f21c1f4081cb7df195e9babc8d8d3a30f7630ff123c736ec253ca"
+    },
+    {
+      "path": "docs/CHANHU_DEPOSIT_JOIN_INDEPENDENT.md",
+      "bytes": 4472,
+      "sha256": "abbc9e451ba317bbfea09a0104507a695d329aba02b2f5bce20b53ef8482bf53"
+    },
+    {
+      "path": "data/processed/chanhu_deposit_join_verification_attempts.json",
+      "bytes": 635,
+      "sha256": "7c97cc00899b1fdf678af9239ff38ce896680fa4ef9836603b92595d817b8c51"
+    },
+    {
+      "path": "scripts/verify_chanhu_deposit_joins.py",
+      "bytes": 8069,
+      "sha256": "911a10c4fa060b73c361d8c88bd98efc8fa43c6ae73068c459dc97a6e0053390"
+    },
+    {
+      "path": "results/primary_pages/chanhu-join-independent-LI4.png",
+      "bytes": 398758,
+      "sha256": "57d4ad9d7e4815c35d5f34f9a437d5b250617022a2611d594348f8048ab1568d"
+    },
+    {
+      "path": "results/primary_pages/chanhu-join-independent-LI12.png",
+      "bytes": 347403,
+      "sha256": "20197285c55ae39dac9d7fe4a74d7265d768faf9858a12b6477144158b58ff66"
+    },
+    {
+      "path": "results/primary_pages/chanhu-join-independent-LI25and26.png",
+      "bytes": 644908,
+      "sha256": "bd1195f80906bfed0a5b8c46d81ff93a24de7185ef1da0123bf1f0dae3984585"
+    },
+    {
+      "path": "results/primary_pages/chanhu-join-independent-LI31.png",
+      "bytes": 378738,
+      "sha256": "20d3114330b89973844a4aa5898028b671d4a71e21730a467b8c860c4caa910c"
+    },
+    {
+      "path": "results/primary_pages/chanhu-join-independent-LII15.png",
+      "bytes": 440529,
+      "sha256": "e6d8f8a7a1ef390f4f5ef4206c0c8d2f1f07f00d0d5423c386bd7278dea5a575"
+    }
+  ]
+}

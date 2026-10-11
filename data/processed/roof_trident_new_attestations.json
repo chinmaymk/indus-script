@@ -1,0 +1,422 @@
+{
+  "scope": "bounded source-exposed primary photograph recovery, no corpus promotion",
+  "established_semantic_values": 0,
+  "established_phonetic_values": 0,
+  "secondary_candidate_rows": [
+    {
+      "id": "4196.1",
+      "cisi": "-",
+      "site": "Dholavira",
+      "excavation-idno": "DHR-24475",
+      "preservation": "complete",
+      "condition": "Poor",
+      "complete": "Y",
+      "type": "SEAL:S",
+      "text": "+391-002-365-550+"
+    },
+    {
+      "id": "5355.1",
+      "cisi": "Ns-53",
+      "site": "Nausharo",
+      "excavation-idno": "NS 91.02.17.01",
+      "preservation": "complete",
+      "condition": "Poor",
+      "complete": "Y",
+      "type": "SEAL:S",
+      "text": "+861-111-391-060-692+"
+    }
+  ],
+  "DHR24475": {
+    "exact_primary_accession": "24475",
+    "primary_reference": "Bisht2015p286entry119",
+    "image_type": "colour photograph of seal face, not drawing",
+    "primary_exact_identity_authenticated": true,
+    "roof_over_forked_stem_visible": true,
+    "location_in_displayed_photo": "rightmost upper inscription group",
+    "apparent_inscription_groups": 4,
+    "all_secondary_token_ids_authenticated": false,
+    "reading_direction_independently_established": false,
+    "whole_field_extent": "apparently retained between surviving margins; no obvious missing end segment",
+    "every_stroke_preserved": null,
+    "whole_field_completeness_certified": false,
+    "damage": "surface abrasion and cracks; some strokes approach upper edge; photograph insufficient for complete stroke inventory",
+    "stage_table": {
+      "reference": "Bisht2015p247row8",
+      "accession": "24475 NM",
+      "GSQ": "25x10x4",
+      "stratum": "6",
+      "depth_3DR": "A=470cm; D=980cm",
+      "motif": "Goat",
+      "inscription": null,
+      "area": null,
+      "stage": null
+    },
+    "museum_retained_record": {
+      "glossa_id": "GLI-IND-MOI-000548",
+      "source_system": "MuseumsOfIndia",
+      "source_object_id": "nat_del-DHR-24475-18639",
+      "artifact_type": "unknown",
+      "current_holding": "National Museum, New Delhi",
+      "site_name": null,
+      "rights_status": "india-museum-restricted",
+      "text_code_diplomatic": null,
+      "sign_id_scheme": null,
+      "image_master_uri": "http://museumsofindia.gov.in:81/cdn/portal_record/[nat_del]/nat_del-DHR-24475-18639/nat_del-DHR-24475-18639_01_l.jpg",
+      "review_state": "unreviewed",
+      "pipeline_stage": "normalized",
+      "quarantine_reason": null,
+      "_source_extra": {
+        "title": "Seal depicting unicorn",
+        "description": "Seal depicting unicorn. Cracks visible on both the surface.",
+        "search_terms": [
+          "harappan",
+          "steatite",
+          "unicorn"
+        ]
+      },
+      "_citation": {
+        "primary_sources": [
+          "I.7"
+        ],
+        "derivation": "Acquired programmatically from the Museums of India Repository search API (https://museumsofindia.gov.in/repository/search/basic/fetch) using 23 Indus Valley / Harappan keyword search terms. Records represent metadata only (title, description, museum name, object type, image URLs). Images are not downloaded (CDN inaccessible externally). Acquired 2026-05-14 via backend/scripts/acquire_museums_of_india.py.",
+        "authors_credited": [
+          "Ministry of Culture, Government of India — Museums of India Repository",
+          "C-DAC (Centre for Development of Advanced Computing) — portal operator"
+        ],
+        "year_data": "2026",
+        "license": "india-museum-restricted — see CITATIONS.md I.7",
+        "rights_gate": "NO ML training or redistribution without explicit per-record rights clearance. Use for discovery and metadata reconciliation only. Source URL: https://museumsofindia.gov.in/repository/",
+        "glossa_lab_version": "2026-05-14",
+        "see_also": "CITATIONS.md section I.7"
+      },
+      "text_code_diplomatic_normalized": null,
+      "canonical_grapheme_ids": [],
+      "sign_instance_count": 0,
+      "crosswalk_coverage": 0.0
+    },
+    "motif_metadata_conflict": "primary stage table Goat versus retained museum title unicorn; unresolved, not used for sign inference",
+    "M163_global_mapping_established": false,
+    "W391_local_graphic_comparison_only": true
+  },
+  "NausharoNs53": {
+    "photograph_recovered": false,
+    "primary_exact_identity_authenticated": null,
+    "roof_over_forked_stem_visible": null,
+    "whole_field_completeness": null,
+    "outcome": "unresolved after bounded primary-source routes",
+    "primary_article": "Jarrige1996CRAI140(3)821–878 doi10.3406/crai.1996.15636; directPDF403",
+    "related_catalogue": "CISI3.2(2019)includesNausharo; fullscan not recovered"
+  },
+  "source_attempts": [
+    {
+      "url": "https://asi.nic.in/pdf/dholavira_excavation_report.pdf",
+      "planned_path": "data/raw/roof_trident_new_dholavira_report_candidate.pdf",
+      "kind": "official_report_candidate",
+      "retrieved_utc": "2026-09-27T23:00:29.894363+00:00",
+      "error": "HTTP Error 404: ",
+      "response_body_retained": false,
+      "preservation_note": "Initial downloader recorded HTTP exception without reading response body."
+    },
+    {
+      "url": "https://www.persee.fr/docAsPDF/crai_0065-0536_1996_num_140_3_15636.pdf",
+      "planned_path": "data/raw/roof_trident_new_nausharo_jarrige1996.pdf",
+      "kind": "primary_excavator_article",
+      "retrieved_utc": "2026-09-27T23:00:31.390976+00:00",
+      "error": "HTTP Error 403: 403",
+      "response_body_retained": false,
+      "preservation_note": "Initial downloader recorded HTTP exception without reading response body."
+    },
+    {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28Dholavira%29&fl%5B%5D=identifier&fl%5B%5D=title&rows=50&output=json",
+      "planned_path": "data/raw/roof_trident_new_archive_dholavira.json",
+      "kind": "archive_search_metadata",
+      "retrieved_utc": "2026-09-27T23:00:32.436560+00:00",
+      "status": 200,
+      "resolved_url": "https://archive.org/advancedsearch.php?q=title%3A%28Dholavira%29&fl%5B%5D=identifier&fl%5B%5D=title&rows=50&output=json",
+      "content_type": "application/json",
+      "path": "data/raw/roof_trident_new_archive_dholavira.json",
+      "bytes": 2743,
+      "sha256": "d917888e0ac949646e97c5b60beae4354038737222258d27f6d2d9890e335062"
+    },
+    {
+      "url": "https://archive.org/metadata/dholavirareportpreliminaryjan2015_860_K",
+      "planned_path": "data/raw/roof_trident_new_dholavira_archive_metadata.json",
+      "kind": "archive_item_metadata",
+      "retrieved_utc": "2026-09-27T23:01:31.338380+00:00",
+      "status": 200,
+      "resolved_url": "https://archive.org/metadata/dholavirareportpreliminaryjan2015_860_K",
+      "content_type": "application/json",
+      "path": "data/raw/roof_trident_new_dholavira_archive_metadata.json",
+      "bytes": 7460,
+      "sha256": "813435b851ad758b841f403fb3de2a9f5720b6e5b0e629b78cfd46638492e0dd"
+    },
+    {
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28Corpus+Indus+Seals%29&fl%5B%5D=identifier&fl%5B%5D=title&rows=50&output=json",
+      "planned_path": "data/raw/roof_trident_new_archive_cisi32.json",
+      "kind": "archive_search_metadata",
+      "retrieved_utc": "2026-09-27T23:01:47.486725+00:00",
+      "status": 200,
+      "resolved_url": "https://archive.org/advancedsearch.php?q=title%3A%28Corpus+Indus+Seals%29&fl%5B%5D=identifier&fl%5B%5D=title&rows=50&output=json",
+      "content_type": "application/json",
+      "path": "data/raw/roof_trident_new_archive_cisi32.json",
+      "bytes": 598,
+      "sha256": "12c39f678a17866874e8eb2401f01685383fa950b87c8ecd225f9954dd652992"
+    },
+    {
+      "url": "https://archive.org/download/dholavirareportpreliminaryjan2015_860_K/Dholavira%20Report%20%28preliminary%2C%20Jan%202015%29.pdf",
+      "planned_path": "data/raw/roof_trident_new_dholavira_2015.pdf",
+      "kind": "third_party_archive_copy_of_primary_report_pending_visual_authentication",
+      "retrieved_utc": "2026-09-27T23:02:21.239741+00:00",
+      "error": "HTTP Error 500: Internal Server Error",
+      "response_body_retained": false,
+      "preservation_note": "Initial downloader recorded HTTP exception without reading response body."
+    },
+    {
+      "url": "https://ia801906.us.archive.org/19/items/dholavirareportpreliminaryjan2015_860_K/Dholavira%20Report%20%28preliminary%2C%20Jan%202015%29.pdf",
+      "kind": "interrupted_full_pdf_transfer",
+      "error": "KeyboardInterrupt during response.read(); command exited130",
+      "response_body_retained": false,
+      "preservation_note": "Initial downloader recorded HTTP exception without reading response body."
+    },
+    {
+      "url": "https://ia801906.us.archive.org/19/items/dholavirareportpreliminaryjan2015_860_K/Dholavira%20Report%20%28preliminary%2C%20Jan%202015%29_djvu.txt",
+      "kind": "archive_generated_ocr_text_navigation_only",
+      "path": "data/raw/roof_trident_new_dholavira_djvu.txt",
+      "headers": "data/raw/roof_trident_new_dholavira_text_headers.txt",
+      "status": 200,
+      "bytes": 1438361,
+      "sha256": "b3ed31a132898da03c3389f26cd555344cae5311b66f97486f2d1f67c801aa6c"
+    },
+    {
+      "url": "https://ia801906.us.archive.org/19/items/dholavirareportpreliminaryjan2015_860_K/Dholavira%20Report%20%28preliminary%2C%20Jan%202015%29_page_numbers.json",
+      "kind": "archive_generated_page_index",
+      "path": "data/raw/roof_trident_new_dholavira_page_numbers.json",
+      "headers": "data/raw/roof_trident_new_page_numbers_headers.txt",
+      "status": 200,
+      "bytes": 189352,
+      "sha256": "61a1a6f5a260a0ec0bfe493c9cd69ed3e03c4986bca93ac162230ac7a8b515da"
+    },
+    {
+      "url": "http://museumsofindia.gov.in:81/cdn/portal_record/%5Bnat_del%5D/nat_del-DHR-24475-18639/nat_del-DHR-24475-18639_01_l.jpg",
+      "kind": "official_museum_image_attempt",
+      "error": "curl28 connection timeout45002ms; zero response body",
+      "headers": "data/raw/roof_trident_new_museum_image_headers.txt",
+      "response_body_retained": false,
+      "preservation_note": "Initial downloader recorded HTTP exception without reading response body."
+    },
+    {
+      "url": "https://museumsofindia.gov.in/cdn/portal_record/%5Bnat_del%5D/nat_del-DHR-24475-18639/nat_del-DHR-24475-18639_01_l.jpg",
+      "kind": "http404_html_response_not_image",
+      "path": "data/raw/roof_trident_new_museum_https_response.bin",
+      "headers": "data/raw/roof_trident_new_museum_https_headers.txt",
+      "status": 404,
+      "bytes": 282,
+      "sha256": "653be2b6ffc3202f304e82f7749bb81838f8ee80fce33135322bbaba582126c6"
+    },
+    {
+      "url": "https://archive.org/download/dholavirareportpreliminaryjan2015_860_K/page/n302.jpg",
+      "kind": "archived_primary_report_page_image_with_original_artifact_photograph",
+      "path": "data/raw/roof_trident_new_report_leaf302_response.bin",
+      "headers": "data/raw/roof_trident_new_report_leaf302_headers.txt",
+      "status": 200,
+      "printed_page": 286,
+      "entry": 119,
+      "bytes": 1233418,
+      "sha256": "1dd282a518949cf97938756d219aec78f86bc975182680f0c3a9ee9c2e5755a6"
+    },
+    {
+      "url": "https://archive.org/download/dholavirareportpreliminaryjan2015_860_K/page/n263.jpg",
+      "kind": "archived_primary_report_table_page_image",
+      "path": "data/raw/roof_trident_new_report_leaf263_response.bin",
+      "headers": "data/raw/roof_trident_new_report_leaf263_headers.txt",
+      "status": 200,
+      "printed_page": 247,
+      "entry": 8,
+      "bytes": 1643683,
+      "sha256": "120211db75ae3a9178841ca667c216d0d953db5b65c34833b9cb32537706247f"
+    },
+    {
+      "url": "https://asi.nic.in/pdf/dholavira_excavation_report_cover.pdf",
+      "kind": "official_primary_report_cover_pdf_two_pages_not_full_report",
+      "path": "data/raw/roof_trident_new_cover_response.bin",
+      "headers": "data/raw/roof_trident_new_cover_headers.txt",
+      "status": 200,
+      "bytes": 207767,
+      "sha256": "42307d49d1775698203e902c89d188f5c6877681c655f92d4a9655e6a7d14c87"
+    }
+  ],
+  "limitations": [
+    "source-exposed local inspection, not held-out generalization",
+    "no meaning, phonetic value, chronology or productivity inferred",
+    "source complete labels not physical certification",
+    "museum metadata is retained API-derived record, not newly authenticated live museum photograph",
+    "initial error bodies and interrupted fullPDF partial buffer not retained"
+  ],
+  "pins": [
+    {
+      "path": "data/processed/roof_trident_new_crop_manifest.json",
+      "bytes": 1000,
+      "sha256": "fcfb8ef51ec479fb53ecedcdbf531573fae6b8ef4cfb18479241a992c5f4215e"
+    },
+    {
+      "path": "data/processed/roof_trident_new_download_attempts.json",
+      "bytes": 7033,
+      "sha256": "df927602d2f4ae0d637d1f0bde0bb0107f3e005887dd242f5e9abc4f29775640"
+    },
+    {
+      "path": "data/processed/roof_trident_new_new_sources.json",
+      "bytes": 9295,
+      "sha256": "4ab2701a4f1de8a6c70a9ac8b2f9c55404428b5d3f9ee6707b391431a6570602"
+    },
+    {
+      "path": "data/raw/glossa_canonical_objects.jsonl",
+      "bytes": 22391887,
+      "sha256": "e24f42a95ee4cc1fdb16c789c3edfb937993ed7c82223d6daa96d66895174ae5"
+    },
+    {
+      "path": "data/raw/lipi_inscriptions.csv",
+      "bytes": 1204921,
+      "sha256": "b8dcb325a2e2cd3cde12ac12e7a418b0348e45713c9ee28aad81b645d2ac5ee4"
+    },
+    {
+      "path": "data/raw/roof_trident_new_archive_cisi32.json",
+      "bytes": 598,
+      "sha256": "12c39f678a17866874e8eb2401f01685383fa950b87c8ecd225f9954dd652992"
+    },
+    {
+      "path": "data/raw/roof_trident_new_archive_dholavira.json",
+      "bytes": 2743,
+      "sha256": "d917888e0ac949646e97c5b60beae4354038737222258d27f6d2d9890e335062"
+    },
+    {
+      "path": "data/raw/roof_trident_new_cover_headers.txt",
+      "bytes": 1125,
+      "sha256": "d3b4a8afb95d9ffe3448301e8e65489ca3d8dcadbbdd6277759d159e07e2cd73"
+    },
+    {
+      "path": "data/raw/roof_trident_new_cover_response.bin",
+      "bytes": 207767,
+      "sha256": "42307d49d1775698203e902c89d188f5c6877681c655f92d4a9655e6a7d14c87"
+    },
+    {
+      "path": "data/raw/roof_trident_new_dholavira_archive_metadata.json",
+      "bytes": 7460,
+      "sha256": "813435b851ad758b841f403fb3de2a9f5720b6e5b0e629b78cfd46638492e0dd"
+    },
+    {
+      "path": "data/raw/roof_trident_new_dholavira_djvu.txt",
+      "bytes": 1438361,
+      "sha256": "b3ed31a132898da03c3389f26cd555344cae5311b66f97486f2d1f67c801aa6c"
+    },
+    {
+      "path": "data/raw/roof_trident_new_dholavira_page_numbers.json",
+      "bytes": 189352,
+      "sha256": "61a1a6f5a260a0ec0bfe493c9cd69ed3e03c4986bca93ac162230ac7a8b515da"
+    },
+    {
+      "path": "data/raw/roof_trident_new_dholavira_text_headers.txt",
+      "bytes": 2192,
+      "sha256": "f5ce56e3459ec6bfb54c27ec54cde9e05be4e4f0ffc3e0f4f48976410bf865c6"
+    },
+    {
+      "path": "data/raw/roof_trident_new_museum_https_headers.txt",
+      "bytes": 514,
+      "sha256": "b36b12e681f76f0cee17d7a0719178f2e8b8bdc3268bae4040924eb66abc50de"
+    },
+    {
+      "path": "data/raw/roof_trident_new_museum_https_response.bin",
+      "bytes": 282,
+      "sha256": "653be2b6ffc3202f304e82f7749bb81838f8ee80fce33135322bbaba582126c6"
+    },
+    {
+      "path": "data/raw/roof_trident_new_museum_image_headers.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "data/raw/roof_trident_new_page_numbers_headers.txt",
+      "bytes": 2181,
+      "sha256": "2c8dfe7f76988faf34d8f91f658798db9d9dc7c5e6e41a31f33a85f8374f93e3"
+    },
+    {
+      "path": "data/raw/roof_trident_new_report_leaf263_headers.txt",
+      "bytes": 4270,
+      "sha256": "e80022ca078a356121236b1250ac91c5bca5cd06c545068fb054a75ed27cfdaa"
+    },
+    {
+      "path": "data/raw/roof_trident_new_report_leaf263_response.bin",
+      "bytes": 1643683,
+      "sha256": "120211db75ae3a9178841ca667c216d0d953db5b65c34833b9cb32537706247f"
+    },
+    {
+      "path": "data/raw/roof_trident_new_report_leaf302_headers.txt",
+      "bytes": 4270,
+      "sha256": "bed3e1fafde3e623196edeb36c1c222891331fab8f0ce2e01dd3fc83a83bdc31"
+    },
+    {
+      "path": "data/raw/roof_trident_new_report_leaf302_response.bin",
+      "bytes": 1233418,
+      "sha256": "1dd282a518949cf97938756d219aec78f86bc975182680f0c3a9ee9c2e5755a6"
+    },
+    {
+      "path": "data/raw/roof_trident_new_web_captures.json",
+      "bytes": 155598,
+      "sha256": "25f94adf160180d46a189b759fd1daf2f83939b7ba29af81bf28e1a8a968f268"
+    },
+    {
+      "path": "data/raw/roof_trident_new_web_captures_final.json",
+      "bytes": 155869,
+      "sha256": "7206f7cbcee54dbfeac8054c84ae9fb6452e45200dc8387e438714bb5c46f72b"
+    },
+    {
+      "path": "docs/ROOF_TRIDENT_NEW_ATTESTATIONS.md",
+      "bytes": 6026,
+      "sha256": "0e873721ed8fdaa72fbb4df7f471ae09c3cef25f5c862d6272cd73f5687b74eb"
+    },
+    {
+      "path": "results/primary_pages/roof-trident-new-cover-1.png",
+      "bytes": 1322482,
+      "sha256": "441217892a871f39298ec09246967e4bdb0e2149d808af009260be508eb63e25"
+    },
+    {
+      "path": "results/primary_pages/roof-trident-new-cover-2.png",
+      "bytes": 35534,
+      "sha256": "7f91cd17a92787683a104042944ab1007dff02d2dd6ec680d1a2c308d6d6264f"
+    },
+    {
+      "path": "results/primary_pages/roof-trident-new-dhr24475-entry.png",
+      "bytes": 1314159,
+      "sha256": "c365518be3af13d9bff7ba590358b4f5300daf1735e92212ef9b5d13fecbe2d1"
+    },
+    {
+      "path": "results/primary_pages/roof-trident-new-dhr24475-field.png",
+      "bytes": 657905,
+      "sha256": "7882d83c0f9831a87662a2c56a857b2c8a556101f3fcaa800b99d5be0e63e77c"
+    },
+    {
+      "path": "results/primary_pages/roof-trident-new-dhr24475-photo.png",
+      "bytes": 1107954,
+      "sha256": "c5753b5ec2040a3a9e3515da6a6d3582ed9b7fc27b7dd1d636383590d601daf9"
+    },
+    {
+      "path": "results/roof-trident-new-cover_extraction.json",
+      "bytes": 386,
+      "sha256": "23451af0c74675854bf1a06ecf1386c470401cd26194c802a5e18a1fc5b8d9bf"
+    },
+    {
+      "path": "scripts/download_roof_trident_new_sources.py",
+      "bytes": 3217,
+      "sha256": "bd3eb846328bb764af36c686bcfaf1f8cc08225466b94a54d4e548e05b889977"
+    },
+    {
+      "path": "scripts/persist_roof_trident_new_review.py",
+      "bytes": 7460,
+      "sha256": "336ebe1434e1e8e681954fb1d3dcb1c9ca334eb258413d0e8969de94ea88e3af"
+    },
+    {
+      "path": "scripts/render_roof_trident_new_crops.py",
+      "bytes": 986,
+      "sha256": "2698d59a26351e8ebb99a1cd299951bd035d3ff636f00eda23e9b6e36baea0fd"
+    }
+  ]
+}

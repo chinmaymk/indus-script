@@ -1,0 +1,23 @@
+{
+  "source": "data/raw/h843_identity_CorpusVol2_djvu.txt",
+  "sha256": "ae797e9bc4bed1993e6997030a62bcbb5e0b2900ca8812e5ab3f392915c0abf9",
+  "queries": [
+    {
+      "query_name": "H1123",
+      "regex": "H[\\s\\-\u2010\u2013]*1123\\b",
+      "hits": []
+    },
+    {
+      "query_name": "field9015",
+      "regex": "\\b9[\\s,.]*015\\b",
+      "hits": []
+    },
+    {
+      "query_name": "raw9015360",
+      "regex": "\\b9015360\\b",
+      "hits": []
+    }
+  ],
+  "limitation": "OCR absence is not evidence of absence; printed coverage was separately inspected",
+  "semantic_values": null
+}

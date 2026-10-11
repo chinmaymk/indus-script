@@ -1,0 +1,1245 @@
+{
+  "chain_codes": [
+    "W215",
+    "W216"
+  ],
+  "established_phonetic_values": 0,
+  "established_semantic_values": 0,
+  "fish_codes": [
+    "W220",
+    "W226",
+    "W227",
+    "W228",
+    "W231",
+    "W232",
+    "W233",
+    "W234",
+    "W235",
+    "W236",
+    "W240",
+    "W241",
+    "W242"
+  ],
+  "input_sha256": {
+    "data/processed/catalogue_features.json": "00836515c6f3beec28b3b66e13d8a9c6e94571cfb2e9dbb4b148651b7ff0032d",
+    "data/processed/lipi_strict.jsonl": "c7600dd5142d0132bcb89ca5490c26f748a0ab542c482583dd3baf8f08fdf250",
+    "data/raw/lipi_inscriptions.csv": "b8dcb325a2e2cd3cde12ac12e7a418b0348e45713c9ee28aad81b645d2ac5ee4",
+    "data/processed/pipes_initial_W480_protocol.json": "54a9a2fb11460dc6e23c844563e300073beae6e9189459e18159f8eb9d16ad8d"
+  },
+  "matched_comparisons": {
+    "attributed_gold_candidate": {
+      "deduplicated_texts": {
+        "chain_rows": 6,
+        "conditional_expected": 1.064729867482161,
+        "exact_fraction": "1/1962",
+        "null_distribution": {
+          "1": 0.9357798165137615,
+          "2": 0.063710499490316,
+          "3": 0.0005096839959225281
+        },
+        "observed_both": 3,
+        "strata": [
+          {
+            "N": 8,
+            "both": 0,
+            "chain": 1,
+            "chain_ids": [
+              "H-155"
+            ],
+            "length": 6,
+            "site": "Harappa",
+            "target": 0,
+            "type": "SEAL:R"
+          },
+          {
+            "N": 21,
+            "both": 0,
+            "chain": 1,
+            "chain_ids": [
+              "H-446"
+            ],
+            "length": 6,
+            "site": "Harappa",
+            "target": 0,
+            "type": "SEAL:S"
+          },
+          {
+            "N": 1,
+            "both": 1,
+            "chain": 1,
+            "chain_ids": [
+              "Krs-1"
+            ],
+            "length": 10,
+            "site": "Khirsara",
+            "target": 1,
+            "type": "SEAL:R"
+          },
+          {
+            "N": 109,
+            "both": 1,
+            "chain": 1,
+            "chain_ids": [
+              "M-268"
+            ],
+            "length": 5,
+            "site": "Mohenjo-daro",
+            "target": 1,
+            "type": "SEAL:S"
+          },
+          {
+            "N": 25,
+            "both": 0,
+            "chain": 1,
+            "chain_ids": [
+              "M-46"
+            ],
+            "length": 8,
+            "site": "Mohenjo-daro",
+            "target": 0,
+            "type": "SEAL:S"
+          },
+          {
+            "N": 18,
+            "both": 1,
+            "chain": 1,
+            "chain_ids": [
+              "M-1765"
+            ],
+            "length": 9,
+            "site": "Mohenjo-daro",
+            "target": 1,
+            "type": "SEAL:S"
+          }
+        ],
+        "universe_rows": 918,
+        "upper_tail_descriptive_only": 0.0005096839959225281
+      },
+      "objects": {
+        "chain_rows": 6,
+        "conditional_expected": 1.0646464646464646,
+        "exact_fraction": "1/1980",
+        "null_distribution": {
+          "1": 0.9358585858585858,
+          "2": 0.06363636363636363,
+          "3": 0.000505050505050505
+        },
+        "observed_both": 3,
+        "strata": [
+          {
+            "N": 8,
+            "both": 0,
+            "chain": 1,
+            "chain_ids": [
+              "H-155"
+            ],
+            "length": 6,
+            "site": "Harappa",
+            "target": 0,
+            "type": "SEAL:R"
+          },
+          {
+            "N": 21,
+            "both": 0,
+            "chain": 1,
+            "chain_ids": [
+              "H-446"
+            ],
+            "length": 6,
+            "site": "Harappa",
+            "target": 0,
+            "type": "SEAL:S"
+          },
+          {
+            "N": 1,
+            "both": 1,
+            "chain": 1,
+            "chain_ids": [
+              "Krs-1"
+            ],
+            "length": 10,
+            "site": "Khirsara",
+            "target": 1,
+            "type": "SEAL:R"
+          },
+          {
+            "N": 110,
+            "both": 1,
+            "chain": 1,
+            "chain_ids": [
+              "M-268"
+            ],
+            "length": 5,
+            "site": "Mohenjo-daro",
+            "target": 1,
+            "type": "SEAL:S"
+          },
+          {
+            "N": 25,
+            "both": 0,
+            "chain": 1,
+            "chain_ids": [
+              "M-46"
+            ],
+            "length": 8,
+            "site": "Mohenjo-daro",
+            "target": 0,
+            "type": "SEAL:S"
+          },
+          {
+            "N": 18,
+            "both": 1,
+            "chain": 1,
+            "chain_ids": [
+              "M-1765"
+            ],
+            "length": 9,
+            "site": "Mohenjo-daro",
+            "target": 1,
+            "type": "SEAL:S"
+          }
+        ],
+        "universe_rows": 931,
+        "upper_tail_descriptive_only": 0.000505050505050505
+      }
+    },
+    "fish_family": {
+      "deduplicated_texts": {
+        "chain_rows": 6,
+        "conditional_expected": 2.751592398427261,
+        "exact_fraction": "755/763",
+        "null_distribution": {
+          "0": 0.010484927916120577,
+          "1": 0.09791757681665939,
+          "2": 0.2928709771370322,
+          "3": 0.36475717198194263,
+          "4": 0.19618537935051697,
+          "5": 0.03778396679772827
+        },
+        "observed_both": 1,
+        "strata": [
+          {
+            "N": 8,
+            "both": 0,
+            "chain": 1,
+            "chain_ids": [
+              "H-155"
+            ],
+            "length": 6,
+            "site": "Harappa",
+            "target": 3,
+            "type": "SEAL:R"
+          },
+          {
+            "N": 21,
+            "both": 0,
+            "chain": 1,
+            "chain_ids": [
+              "H-446"
+            ],
+            "length": 6,
+            "site": "Harappa",
+            "target": 11,
+            "type": "SEAL:S"
+          },
+          {
+            "N": 1,
+            "both": 0,
+            "chain": 1,
+            "chain_ids": [
+              "Krs-1"
+            ],
+            "length": 10,
+            "site": "Khirsara",
+            "target": 0,
+            "type": "SEAL:R"
+          },
+          {
+            "N": 109,
+            "both": 0,
+            "chain": 1,
+            "chain_ids": [
+              "M-268"
+            ],
+            "length": 5,
+            "site": "Mohenjo-daro",
+            "target": 37,
+            "type": "SEAL:S"
+          },
+          {
+            "N": 25,
+            "both": 1,
+            "chain": 1,
+            "chain_ids": [
+              "M-46"
+            ],
+            "length": 8,
+            "site": "Mohenjo-daro",
+            "target": 17,
+            "type": "SEAL:S"
+          },
+          {
+            "N": 18,
+            "both": 0,
+            "chain": 1,
+            "chain_ids": [
+              "M-1765"
+            ],
+            "length": 9,
+            "site": "Mohenjo-daro",
+            "target": 15,
+            "type": "SEAL:S"
+          }
+        ],
+        "universe_rows": 918,
+        "upper_tail_descriptive_only": 0.9895150720838795
+      },
+      "objects": {
+        "chain_rows": 6,
+        "conditional_expected": 2.7485064935064933,
+        "exact_fraction": "6857/6930",
+        "null_distribution": {
+          "0": 0.010533910533910534,
+          "1": 0.0983008658008658,
+          "2": 0.2935847763347763,
+          "3": 0.3647261904761905,
+          "4": 0.19541378066378065,
+          "5": 0.03744047619047619
+        },
+        "observed_both": 1,
+        "strata": [
+          {
+            "N": 8,
+            "both": 0,
+            "chain": 1,
+            "chain_ids": [
+              "H-155"
+            ],
+            "length": 6,
+            "site": "Harappa",
+            "target": 3,
+            "type": "SEAL:R"
+          },
+          {
+            "N": 21,
+            "both": 0,
+            "chain": 1,
+            "chain_ids": [
+              "H-446"
+            ],
+            "length": 6,
+            "site": "Harappa",
+            "target": 11,
+            "type": "SEAL:S"
+          },
+          {
+            "N": 1,
+            "both": 0,
+            "chain": 1,
+            "chain_ids": [
+              "Krs-1"
+            ],
+            "length": 10,
+            "site": "Khirsara",
+            "target": 0,
+            "type": "SEAL:R"
+          },
+          {
+            "N": 110,
+            "both": 0,
+            "chain": 1,
+            "chain_ids": [
+              "M-268"
+            ],
+            "length": 5,
+            "site": "Mohenjo-daro",
+            "target": 37,
+            "type": "SEAL:S"
+          },
+          {
+            "N": 25,
+            "both": 1,
+            "chain": 1,
+            "chain_ids": [
+              "M-46"
+            ],
+            "length": 8,
+            "site": "Mohenjo-daro",
+            "target": 17,
+            "type": "SEAL:S"
+          },
+          {
+            "N": 18,
+            "both": 0,
+            "chain": 1,
+            "chain_ids": [
+              "M-1765"
+            ],
+            "length": 9,
+            "site": "Mohenjo-daro",
+            "target": 15,
+            "type": "SEAL:S"
+          }
+        ],
+        "universe_rows": 931,
+        "upper_tail_descriptive_only": 0.9894660894660895
+      }
+    },
+    "fish_or_attributed_gold_candidate": {
+      "deduplicated_texts": {
+        "chain_rows": 6,
+        "conditional_expected": 3.816322265909422,
+        "exact_fraction": "2570651/4120200",
+        "null_distribution": {
+          "1": 0.006892869278190379,
+          "2": 0.08519732051842144,
+          "3": 0.2839956798213679,
+          "4": 0.3739151012086792,
+          "5": 0.20860686374447843,
+          "6": 0.041392165428862676
+        },
+        "observed_both": 4,
+        "strata": [
+          {
+            "N": 8,
+            "both": 0,
+            "chain": 1,
+            "chain_ids": [
+              "H-155"
+            ],
+            "length": 6,
+            "site": "Harappa",
+            "target": 3,
+            "type": "SEAL:R"
+          },
+          {
+            "N": 21,
+            "both": 0,
+            "chain": 1,
+            "chain_ids": [
+              "H-446"
+            ],
+            "length": 6,
+            "site": "Harappa",
+            "target": 11,
+            "type": "SEAL:S"
+          },
+          {
+            "N": 1,
+            "both": 1,
+            "chain": 1,
+            "chain_ids": [
+              "Krs-1"
+            ],
+            "length": 10,
+            "site": "Khirsara",
+            "target": 1,
+            "type": "SEAL:R"
+          },
+          {
+            "N": 109,
+            "both": 1,
+            "chain": 1,
+            "chain_ids": [
+              "M-268"
+            ],
+            "length": 5,
+            "site": "Mohenjo-daro",
+            "target": 38,
+            "type": "SEAL:S"
+          },
+          {
+            "N": 25,
+            "both": 1,
+            "chain": 1,
+            "chain_ids": [
+              "M-46"
+            ],
+            "length": 8,
+            "site": "Mohenjo-daro",
+            "target": 17,
+            "type": "SEAL:S"
+          },
+          {
+            "N": 18,
+            "both": 1,
+            "chain": 1,
+            "chain_ids": [
+              "M-1765"
+            ],
+            "length": 9,
+            "site": "Mohenjo-daro",
+            "target": 16,
+            "type": "SEAL:S"
+          }
+        ],
+        "universe_rows": 918,
+        "upper_tail_descriptive_only": 0.6239141303820203
+      },
+      "objects": {
+        "chain_rows": 6,
+        "conditional_expected": 3.813152958152958,
+        "exact_fraction": "71927/115500",
+        "null_distribution": {
+          "1": 0.006926406926406926,
+          "2": 0.08556036556036556,
+          "3": 0.2847686387686388,
+          "4": 0.37393891293891296,
+          "5": 0.2077898027898028,
+          "6": 0.04101587301587301
+        },
+        "observed_both": 4,
+        "strata": [
+          {
+            "N": 8,
+            "both": 0,
+            "chain": 1,
+            "chain_ids": [
+              "H-155"
+            ],
+            "length": 6,
+            "site": "Harappa",
+            "target": 3,
+            "type": "SEAL:R"
+          },
+          {
+            "N": 21,
+            "both": 0,
+            "chain": 1,
+            "chain_ids": [
+              "H-446"
+            ],
+            "length": 6,
+            "site": "Harappa",
+            "target": 11,
+            "type": "SEAL:S"
+          },
+          {
+            "N": 1,
+            "both": 1,
+            "chain": 1,
+            "chain_ids": [
+              "Krs-1"
+            ],
+            "length": 10,
+            "site": "Khirsara",
+            "target": 1,
+            "type": "SEAL:R"
+          },
+          {
+            "N": 110,
+            "both": 1,
+            "chain": 1,
+            "chain_ids": [
+              "M-268"
+            ],
+            "length": 5,
+            "site": "Mohenjo-daro",
+            "target": 38,
+            "type": "SEAL:S"
+          },
+          {
+            "N": 25,
+            "both": 1,
+            "chain": 1,
+            "chain_ids": [
+              "M-46"
+            ],
+            "length": 8,
+            "site": "Mohenjo-daro",
+            "target": 17,
+            "type": "SEAL:S"
+          },
+          {
+            "N": 18,
+            "both": 1,
+            "chain": 1,
+            "chain_ids": [
+              "M-1765"
+            ],
+            "length": 9,
+            "site": "Mohenjo-daro",
+            "target": 16,
+            "type": "SEAL:S"
+          }
+        ],
+        "universe_rows": 931,
+        "upper_tail_descriptive_only": 0.6227445887445887
+      }
+    },
+    "plain_fish": {
+      "deduplicated_texts": {
+        "chain_rows": 6,
+        "conditional_expected": 0.8372040192223679,
+        "exact_fraction": "106429/171675",
+        "null_distribution": {
+          "0": 0.3800553371195573,
+          "1": 0.42957332168341344,
+          "2": 0.16460171836318627,
+          "3": 0.024651230522790155,
+          "4": 0.0011183923110528616
+        },
+        "observed_both": 1,
+        "strata": [
+          {
+            "N": 8,
+            "both": 0,
+            "chain": 1,
+            "chain_ids": [
+              "H-155"
+            ],
+            "length": 6,
+            "site": "Harappa",
+            "target": 0,
+            "type": "SEAL:R"
+          },
+          {
+            "N": 21,
+            "both": 0,
+            "chain": 1,
+            "chain_ids": [
+              "H-446"
+            ],
+            "length": 6,
+            "site": "Harappa",
+            "target": 4,
+            "type": "SEAL:S"
+          },
+          {
+            "N": 1,
+            "both": 0,
+            "chain": 1,
+            "chain_ids": [
+              "Krs-1"
+            ],
+            "length": 10,
+            "site": "Khirsara",
+            "target": 0,
+            "type": "SEAL:R"
+          },
+          {
+            "N": 109,
+            "both": 0,
+            "chain": 1,
+            "chain_ids": [
+              "M-268"
+            ],
+            "length": 5,
+            "site": "Mohenjo-daro",
+            "target": 8,
+            "type": "SEAL:S"
+          },
+          {
+            "N": 25,
+            "both": 1,
+            "chain": 1,
+            "chain_ids": [
+              "M-46"
+            ],
+            "length": 8,
+            "site": "Mohenjo-daro",
+            "target": 6,
+            "type": "SEAL:S"
+          },
+          {
+            "N": 18,
+            "both": 0,
+            "chain": 1,
+            "chain_ids": [
+              "M-1765"
+            ],
+            "length": 9,
+            "site": "Mohenjo-daro",
+            "target": 6,
+            "type": "SEAL:S"
+          }
+        ],
+        "universe_rows": 918,
+        "upper_tail_descriptive_only": 0.6199446628804427
+      },
+      "objects": {
+        "chain_rows": 6,
+        "conditional_expected": 0.8365367965367966,
+        "exact_fraction": "17893/28875",
+        "null_distribution": {
+          "0": 0.38032900432900435,
+          "1": 0.4295873015873016,
+          "2": 0.16440981240981242,
+          "3": 0.024565656565656565,
+          "4": 0.0011082251082251081
+        },
+        "observed_both": 1,
+        "strata": [
+          {
+            "N": 8,
+            "both": 0,
+            "chain": 1,
+            "chain_ids": [
+              "H-155"
+            ],
+            "length": 6,
+            "site": "Harappa",
+            "target": 0,
+            "type": "SEAL:R"
+          },
+          {
+            "N": 21,
+            "both": 0,
+            "chain": 1,
+            "chain_ids": [
+              "H-446"
+            ],
+            "length": 6,
+            "site": "Harappa",
+            "target": 4,
+            "type": "SEAL:S"
+          },
+          {
+            "N": 1,
+            "both": 0,
+            "chain": 1,
+            "chain_ids": [
+              "Krs-1"
+            ],
+            "length": 10,
+            "site": "Khirsara",
+            "target": 0,
+            "type": "SEAL:R"
+          },
+          {
+            "N": 110,
+            "both": 0,
+            "chain": 1,
+            "chain_ids": [
+              "M-268"
+            ],
+            "length": 5,
+            "site": "Mohenjo-daro",
+            "target": 8,
+            "type": "SEAL:S"
+          },
+          {
+            "N": 25,
+            "both": 1,
+            "chain": 1,
+            "chain_ids": [
+              "M-46"
+            ],
+            "length": 8,
+            "site": "Mohenjo-daro",
+            "target": 6,
+            "type": "SEAL:S"
+          },
+          {
+            "N": 18,
+            "both": 0,
+            "chain": 1,
+            "chain_ids": [
+              "M-1765"
+            ],
+            "length": 9,
+            "site": "Mohenjo-daro",
+            "target": 6,
+            "type": "SEAL:S"
+          }
+        ],
+        "universe_rows": 931,
+        "upper_tail_descriptive_only": 0.6196709956709957
+      }
+    }
+  },
+  "protocol": {
+    "chain_codes": [
+      "W215",
+      "W216"
+    ],
+    "claims": [
+      "Two Kalibangan pipes were repurposed to hold gemstone-bead strings",
+      "W215/W216-like forms occur on13 seals,9 inscriptions longer than2 signs,4 of those with fish or proposed gold-like signs"
+    ],
+    "counts": "List all exact certain W215/W216 occurrences across raw rows, preserving damage and row/object identity. Report seals, literal length>2 and combined fish/proposed-gold cases. Unknowns cannot be counted as absence.",
+    "established_phonetic_value": null,
+    "established_semantic_value": null,
+    "fish_families": [
+      "P050",
+      "P051",
+      "P056",
+      "P057",
+      "P058",
+      "P059",
+      "P060",
+      "P061",
+      "P062",
+      "P063",
+      "P064"
+    ],
+    "gold_candidate_caveat": "Code inferred from common form in named M1765/Krs1 rows and subject to independent figure review; label attributes author's interpretation only",
+    "gold_candidate_codes": [
+      "W480"
+    ],
+    "matched_comparison": {
+      "interpretation": "Descriptive calibration of a selected published pattern, not confirmatory p-values, random archaeological sampling, causation, or a semantic test",
+      "null": "Fixed margins within strata; target labels exchangeable conditional on site/type/length; exact hypergeometric convolution",
+      "primary_strata": [
+        "site",
+        "literal type",
+        "exact token length"
+      ],
+      "sensitivity": "Deduplicate by site, literal type and entire exact sequence; distinct objects are retained in primary, identical text types in sensitivity",
+      "statistic": "Number of chain-bearing objects positive for target",
+      "targets": [
+        "selected fish family",
+        "plain W220",
+        "W480 attributed gold candidate",
+        "fish-or-W480"
+      ],
+      "universe": "Single-row objects in existing strict corpus, with raw complete=Y and preservation=complete, literal type starting SEAL and token length>2"
+    },
+    "physical_anchor_requirements": [
+      "Exact artifact identity",
+      "Independent contents or diagnostic residues",
+      "Closure/usewear or other storage evidence",
+      "Excavation join versus modern juxtaposition",
+      "Registration and incision timing separately sourced"
+    ],
+    "source": "2025 IRC bulletin sections4.2 and7",
+    "status": "Exploratory source-exposed audit; fixed after named rows and published claims, before corpus counts"
+  },
+  "raw_hits": [
+    {
+      "attributed_gold_candidate": false,
+      "certain_sequence": [
+        "W740",
+        "W176",
+        "W001",
+        "W367",
+        "W861",
+        "W216"
+      ],
+      "cisi": "H-155",
+      "complete": "Y",
+      "condition": "Good",
+      "depth": "-4.5 ft",
+      "dir.": "R/L",
+      "excavation-idno": "H605630",
+      "fish_family": false,
+      "fish_or_attributed_gold_candidate": false,
+      "id": "1196.1",
+      "plain_fish": false,
+      "preservation": "complete",
+      "room-grid": "-R32/18",
+      "row_fully_readable": true,
+      "site": "Harappa",
+      "strict": true,
+      "symbol": "None",
+      "text": "+740-176-001-367-861-216+",
+      "type": "SEAL:R"
+    },
+    {
+      "attributed_gold_candidate": false,
+      "certain_sequence": [
+        "W740",
+        "W585",
+        "W798",
+        "W002",
+        "W861",
+        "W216"
+      ],
+      "cisi": "H-446",
+      "complete": "Y",
+      "condition": "Fair",
+      "depth": "-10.75 ft",
+      "dir.": "R/L",
+      "excavation-idno": "4991034",
+      "fish_family": false,
+      "fish_or_attributed_gold_candidate": false,
+      "id": "1436.1",
+      "plain_fish": false,
+      "preservation": "complete",
+      "room-grid": "-Q25/21",
+      "row_fully_readable": true,
+      "site": "Harappa",
+      "strict": true,
+      "symbol": "Bull1:J",
+      "text": "+740-585-798-002-861-216+",
+      "type": "SEAL:S"
+    },
+    {
+      "attributed_gold_candidate": false,
+      "certain_sequence": [
+        "W740",
+        "W215"
+      ],
+      "cisi": "H-656",
+      "complete": "?",
+      "condition": "Poor",
+      "depth": "-5.33 ft",
+      "dir.": "R/L",
+      "excavation-idno": "4276286",
+      "fish_family": false,
+      "fish_or_attributed_gold_candidate": false,
+      "id": "1571.1",
+      "plain_fish": false,
+      "preservation": "fragment",
+      "room-grid": "-K8/2",
+      "row_fully_readable": false,
+      "site": "Harappa",
+      "strict": false,
+      "symbol": "None",
+      "text": "+740-215[",
+      "type": "SEAL:S"
+    },
+    {
+      "attributed_gold_candidate": false,
+      "certain_sequence": [
+        "W151",
+        "W216"
+      ],
+      "cisi": "K-20",
+      "complete": "Y",
+      "condition": "Poor",
+      "depth": "- -",
+      "dir.": "R/L",
+      "excavation-idno": "KLB1 18902",
+      "fish_family": false,
+      "fish_or_attributed_gold_candidate": false,
+      "id": "1895.1",
+      "plain_fish": false,
+      "preservation": "fragment",
+      "room-grid": "ZE10-",
+      "row_fully_readable": true,
+      "site": "Kalibangan",
+      "strict": true,
+      "symbol": "Bull1:J",
+      "text": "+151-216+",
+      "type": "SEAL:S"
+    },
+    {
+      "attributed_gold_candidate": true,
+      "certain_sequence": [
+        "W215",
+        "W001",
+        "W480",
+        "W306",
+        "W813",
+        "W033",
+        "W060",
+        "W413",
+        "W346",
+        "W706"
+      ],
+      "cisi": "Krs-1",
+      "complete": "Y",
+      "condition": "Good",
+      "depth": "- -",
+      "dir.": "R/L",
+      "excavation-idno": "-",
+      "fish_family": false,
+      "fish_or_attributed_gold_candidate": true,
+      "id": "1968.1",
+      "plain_fish": false,
+      "preservation": "complete",
+      "room-grid": "--",
+      "row_fully_readable": true,
+      "site": "Khirsara",
+      "strict": true,
+      "symbol": "None",
+      "text": "+215-001-480-306-813-033-060-413-346-706+",
+      "type": "SEAL:R"
+    },
+    {
+      "attributed_gold_candidate": true,
+      "certain_sequence": [
+        "W215",
+        "W031",
+        "W480",
+        "W140",
+        "W632",
+        "W705",
+        "W002",
+        "W093",
+        "W033"
+      ],
+      "cisi": "M-1765",
+      "complete": "Y",
+      "condition": "Good",
+      "depth": "-6.4 ft",
+      "dir.": "R/L",
+      "excavation-idno": "DK12963111",
+      "fish_family": false,
+      "fish_or_attributed_gold_candidate": true,
+      "id": "2255.1",
+      "plain_fish": false,
+      "preservation": "complete",
+      "room-grid": "1-",
+      "row_fully_readable": true,
+      "site": "Mohenjo-daro",
+      "strict": true,
+      "symbol": "Bull1:W",
+      "text": "+215-031-480-140-632-705-002-093-033+",
+      "type": "SEAL:S"
+    },
+    {
+      "attributed_gold_candidate": false,
+      "certain_sequence": [
+        "W520",
+        "W442",
+        "W425",
+        "W003",
+        "W002",
+        "W000",
+        "W215"
+      ],
+      "cisi": "M-1783",
+      "complete": "N",
+      "condition": "Fair",
+      "depth": "-18.0 ft",
+      "dir.": "R/L",
+      "excavation-idno": "DK5641601",
+      "fish_family": false,
+      "fish_or_attributed_gold_candidate": false,
+      "id": "2315.1",
+      "plain_fish": false,
+      "preservation": "complete",
+      "room-grid": "63-",
+      "row_fully_readable": false,
+      "site": "Mohenjo-daro",
+      "strict": false,
+      "symbol": "Bull1",
+      "text": "+520-442/425-003-002-000-215+",
+      "type": "SEAL:S"
+    },
+    {
+      "attributed_gold_candidate": false,
+      "certain_sequence": [
+        "W740",
+        "W798",
+        "W240",
+        "W235",
+        "W002",
+        "W220",
+        "W065",
+        "W215"
+      ],
+      "cisi": "M-46",
+      "complete": "Y",
+      "condition": "Good",
+      "depth": "- -",
+      "dir.": "R/L",
+      "excavation-idno": "DK12985",
+      "fish_family": true,
+      "fish_or_attributed_gold_candidate": true,
+      "id": "2574.1",
+      "plain_fish": true,
+      "preservation": "complete",
+      "room-grid": "--",
+      "row_fully_readable": true,
+      "site": "Mohenjo-daro",
+      "strict": true,
+      "symbol": "Bull1:W",
+      "text": "+740-798-240-235-002-220-065-215+",
+      "type": "SEAL:S"
+    },
+    {
+      "attributed_gold_candidate": false,
+      "certain_sequence": [
+        "W740",
+        "W215",
+        "W002",
+        "W368",
+        "W119"
+      ],
+      "cisi": "M-99",
+      "complete": "Y",
+      "condition": "Good",
+      "depth": "-14.0 ft",
+      "dir.": "R/L",
+      "excavation-idno": "DK6777475",
+      "fish_family": false,
+      "fish_or_attributed_gold_candidate": false,
+      "id": "2626.1",
+      "plain_fish": false,
+      "preservation": "slightly chipped",
+      "room-grid": "--",
+      "row_fully_readable": true,
+      "site": "Mohenjo-daro",
+      "strict": true,
+      "symbol": "Bull1:S",
+      "text": "+740-215-002-368-119+",
+      "type": "SEAL:S"
+    },
+    {
+      "attributed_gold_candidate": true,
+      "certain_sequence": [
+        "W215",
+        "W001",
+        "W480",
+        "W090",
+        "W820"
+      ],
+      "cisi": "M-268",
+      "complete": "Y",
+      "condition": "Good",
+      "depth": "-13.3 ft",
+      "dir.": "R/L",
+      "excavation-idno": "DK6390445",
+      "fish_family": false,
+      "fish_or_attributed_gold_candidate": true,
+      "id": "2791.1",
+      "plain_fish": false,
+      "preservation": "complete",
+      "room-grid": "19-",
+      "row_fully_readable": true,
+      "site": "Mohenjo-daro",
+      "strict": true,
+      "symbol": "Buff",
+      "text": "+215-001-480-090-820+",
+      "type": "SEAL:S"
+    },
+    {
+      "attributed_gold_candidate": false,
+      "certain_sequence": [
+        "W740",
+        "W215"
+      ],
+      "cisi": "M-324",
+      "complete": "Y",
+      "condition": "Fine",
+      "depth": "-3.0 ft",
+      "dir.": "R/L",
+      "excavation-idno": "HR 2596252/378",
+      "fish_family": false,
+      "fish_or_attributed_gold_candidate": false,
+      "id": "2842.1",
+      "plain_fish": false,
+      "preservation": "complete",
+      "room-grid": "136 X/11",
+      "row_fully_readable": true,
+      "site": "Mohenjo-daro",
+      "strict": true,
+      "symbol": "Mult",
+      "text": "+740-215+",
+      "type": "SEAL:S"
+    },
+    {
+      "attributed_gold_candidate": false,
+      "certain_sequence": [
+        "W740",
+        "W215"
+      ],
+      "cisi": "M-324",
+      "complete": "Y",
+      "condition": "Fine",
+      "depth": "-3.0 ft",
+      "dir.": "R/L",
+      "excavation-idno": "HR 2596252/378",
+      "fish_family": false,
+      "fish_or_attributed_gold_candidate": false,
+      "id": "2842.2",
+      "plain_fish": false,
+      "preservation": "complete",
+      "room-grid": "136 X/11",
+      "row_fully_readable": true,
+      "site": "Mohenjo-daro",
+      "strict": true,
+      "symbol": "Mult",
+      "text": "+740-215+",
+      "type": "SEAL:S"
+    },
+    {
+      "attributed_gold_candidate": false,
+      "certain_sequence": [
+        "W527",
+        "W555",
+        "W235",
+        "W220",
+        "W032",
+        "W002",
+        "W000",
+        "W216"
+      ],
+      "cisi": "M-636",
+      "complete": "N",
+      "condition": "Poor",
+      "depth": "-3.7 ft",
+      "dir.": "R/L",
+      "excavation-idno": "DK335619",
+      "fish_family": true,
+      "fish_or_attributed_gold_candidate": true,
+      "id": "3085.1",
+      "plain_fish": true,
+      "preservation": "partly damaged",
+      "room-grid": "53-",
+      "row_fully_readable": false,
+      "site": "Mohenjo-daro",
+      "strict": false,
+      "symbol": "Bull1:W",
+      "text": "+527-555-235-220-032-002-000-216+",
+      "type": "SEAL:S"
+    },
+    {
+      "attributed_gold_candidate": false,
+      "certain_sequence": [
+        "W215"
+      ],
+      "cisi": "K-446",
+      "complete": "Y",
+      "condition": "Fair",
+      "depth": "- -",
+      "dir.": "NR",
+      "excavation-idno": "-",
+      "fish_family": false,
+      "fish_or_attributed_gold_candidate": false,
+      "id": "5350.1",
+      "plain_fish": false,
+      "preservation": "complete",
+      "room-grid": "ZA8-",
+      "row_fully_readable": false,
+      "site": "Kalibangan",
+      "strict": false,
+      "symbol": "None",
+      "text": "+215+",
+      "type": "MISC"
+    },
+    {
+      "attributed_gold_candidate": true,
+      "certain_sequence": [
+        "W215",
+        "W175",
+        "W480"
+      ],
+      "cisi": "M-1599",
+      "complete": "Y",
+      "condition": "Poor",
+      "depth": "- -",
+      "dir.": "L/R",
+      "excavation-idno": "SD 2976",
+      "fish_family": false,
+      "fish_or_attributed_gold_candidate": true,
+      "id": "5523.1",
+      "plain_fish": false,
+      "preservation": "complete",
+      "room-grid": "--",
+      "row_fully_readable": false,
+      "site": "Mohenjo-daro",
+      "strict": false,
+      "symbol": "None",
+      "text": "+215-175-480+",
+      "type": "POT:T:g"
+    }
+  ],
+  "raw_summary": {
+    "long_seal_positive_by_target": {
+      "attributed_gold_candidate": 3,
+      "fish_family": 2,
+      "fish_or_attributed_gold_candidate": 5,
+      "plain_fish": 2
+    },
+    "objects": 14,
+    "rows": 15,
+    "seal_rows": 13,
+    "seal_rows_with_more_than2_certain_tokens": 9
+  },
+  "superseded_reason": "W480 common glyph in two named rows was an incorrect inference about the author's proposed gold sign. Independent figure review identifies U-shaped forms instead. These counts are retained as a rejected candidate probe, not evidence for gold semantics or the paper's combined count.",
+  "archive_note": "Protocol moved to immutable initial-protocol filename, preserving its exact original hash. Raw certain_sequence fields predate the slash/unknown-token correction; this result is archival and superseded, not an output of the current parser. Matched statistics were computed from unchanged strict sequences."
+}

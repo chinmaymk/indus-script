@@ -1,0 +1,208 @@
+{
+  "review_date": "2026-09-25",
+  "review_mode": "Source-exposed primary catalogue and image review; no physical autopsy",
+  "object": {
+    "cisi": "M-81",
+    "excavation": "C3133",
+    "museum": "ASI63.10.321",
+    "finnish": "1180",
+    "marshall_MIC": 180,
+    "mahadevan_text": 1180,
+    "secondary_W_row": "2608.1"
+  },
+  "primary_links": [
+    {
+      "link": "M81\u2192C3133",
+      "source": "CISI1",
+      "printed_page": 366,
+      "pdf_page": 402
+    },
+    {
+      "link": "MIC180\u2192C3133",
+      "source": "MarshallII",
+      "printed_page": 403,
+      "pdf_page": 54
+    },
+    {
+      "link": "MIC180\u2192M77text1180",
+      "source": "MahadevanAppendixV",
+      "printed_page": 818,
+      "pdf_page": 827,
+      "rule": "Refs1001\u20131560 correspond to MICitems1\u2013560 respectively"
+    }
+  ],
+  "number_equality_used_for_identity": false,
+  "primary_text_page": {
+    "printed_page": 44,
+    "pdf_page": 55,
+    "reference": 1180,
+    "two_separate_grid_glyphs_visible": true
+  },
+  "numbered_sign_list": {
+    "printed_page": 34,
+    "pdf_page": 45,
+    "grid_sign_code": "M245"
+  },
+  "W_sequence": [
+    "W527",
+    "W555",
+    "W240",
+    "W002",
+    "W617",
+    "W070"
+  ],
+  "M_sequence_reading_order": [
+    "M155",
+    "M245",
+    "M245",
+    "M099",
+    "M067",
+    "M222",
+    "M254"
+  ],
+  "span_alignment_scope": "This authenticated artifact only",
+  "span_alignment": {
+    "W": [
+      "W617"
+    ],
+    "M": [
+      "M245",
+      "M245"
+    ]
+  },
+  "W_token_count": 6,
+  "M_token_count": 7,
+  "global_W617_expansion_established": false,
+  "ancient_grapheme_segmentation_established": false,
+  "numerical_value": null,
+  "semantic_value": null,
+  "phonetic_value": null,
+  "new_downloads": 0,
+  "evidence_files": [
+    {
+      "path": "data/processed/double_grid_new_sources.json",
+      "bytes": 93,
+      "sha256": "64d10d24977d7bb16fe654ff0be42177567764d30c6a134b09724f84f894f6a3"
+    },
+    {
+      "path": "data/processed/m77_candidate_records.jsonl",
+      "bytes": 4109921,
+      "sha256": "b29a176da86b125115256a8966c377c3fd9fe39ecaab17bf576b770b83b41bab"
+    },
+    {
+      "path": "data/raw/cisi_76884.pdf",
+      "bytes": 31508998,
+      "sha256": "47a4da4227cfb7baa56d6a561e25797225499d0ec54f5a702a82c67ab4746d4d"
+    },
+    {
+      "path": "data/raw/lipi_inscriptions.csv",
+      "bytes": 1204921,
+      "sha256": "b8dcb325a2e2cd3cde12ac12e7a418b0348e45713c9ee28aad81b645d2ac5ee4"
+    },
+    {
+      "path": "data/raw/m934_marshall48270_leaf191.jpg",
+      "bytes": 615727,
+      "sha256": "afefcac21f2abacaebb06d700a001f38dd74b50e55d0cc903f3eb77787cb8c4e"
+    },
+    {
+      "path": "data/raw/mahadevan_1977_text.pdf",
+      "bytes": 119302608,
+      "sha256": "6dcdd074a0174e5fab149590fbbf82342711d345764e9763f8e5e92c81cf7f99"
+    },
+    {
+      "path": "data/raw/stone1471_marshall1931_volume2_text.pdf",
+      "bytes": 12167700,
+      "sha256": "e58c4d95c9d7dbac29a3cb04d633d20618de71ab7cb58e7dcf035fb88ceb2ef3"
+    },
+    {
+      "path": "docs/DOUBLE_GRID_PRIMARY_REVIEW.md",
+      "bytes": 5594,
+      "sha256": "c19407891aab2b2974f1e72b283790b40c691a2656b66ba779f336418b31d0db"
+    },
+    {
+      "path": "results/double-grid-m77_extraction.json",
+      "bytes": 370,
+      "sha256": "53b4dcb63a573b3908715935b3e9a11a7728d9f5c7809afdf8c8fe46a7e85850"
+    },
+    {
+      "path": "results/primary_pages/chain-artifact-m77-827.png",
+      "bytes": 1715296,
+      "sha256": "367e9c400b92bca24b6b75be9e9d205900c7380e645143fc352fecfdda21332c"
+    },
+    {
+      "path": "results/primary_pages/double-grid-m245-sign.png",
+      "bytes": 22802,
+      "sha256": "eb77ca849f45013780ab99829f3cc324fc5208247fe22ee30421b1f0a9c1554d"
+    },
+    {
+      "path": "results/primary_pages/double-grid-m77-1180.png",
+      "bytes": 96216,
+      "sha256": "b8b02f32d8fb31c45d5d19ce7c94a91315a8e43a5c7ec0cbdf55a59b76803f06"
+    },
+    {
+      "path": "results/primary_pages/double-grid-m77-55.png",
+      "bytes": 2568851,
+      "sha256": "ba5a083da562efbafbadf331613bdd8138ff45d46dc5ef9369fcb2f3ff47d789"
+    },
+    {
+      "path": "results/primary_pages/double-grid-m77-mic-rule.png",
+      "bytes": 126898,
+      "sha256": "577fb03604e7a3ccc11aa4e3cc4bb2cf004917240b18b8c080952d3837749267"
+    },
+    {
+      "path": "results/primary_pages/double-grid-mic180-table.png",
+      "bytes": 27764,
+      "sha256": "a1b8a15c95a953c1c902d0264d94e312e6c8c34ea18f0f9c3609771d0ca8ed0f"
+    },
+    {
+      "path": "results/primary_pages/double-grid-mic180.png",
+      "bytes": 99022,
+      "sha256": "80b3f748fd7d87d65c91b8b780513cc8669e9e00fcd30e01c36009237f17e930"
+    },
+    {
+      "path": "results/primary_pages/ending-india-m81-metadata.png",
+      "bytes": 59185,
+      "sha256": "6a268e7365dd5ac316aef5190ffe659153d5069bd0a6f22ac0c377723d38c2b4"
+    },
+    {
+      "path": "results/primary_pages/ending-india-m81-pair.png",
+      "bytes": 1110196,
+      "sha256": "f1d134db0532ea027a120cce91cd4f4842edaadee6787d7968778c4345b5a1ab"
+    },
+    {
+      "path": "results/primary_pages/ending-signlist-045.png",
+      "bytes": 2725499,
+      "sha256": "a091d2d01efc661a93f28e1a0141cd583f326ffeb813a38313f06c8d17ce5252"
+    },
+    {
+      "path": "results/primary_pages/m934-marshall-54.png",
+      "bytes": 2455743,
+      "sha256": "12334908ad2bc31a8c921715e5007294132d641206fa135750165c46d683dd9b"
+    },
+    {
+      "path": "results/primary_pages/sign_list-044.png",
+      "bytes": 2228064,
+      "sha256": "33eff554bfdea81af6d1a3510a5b2541d1b74b02ae1e63b253c725b44c7c0b64"
+    },
+    {
+      "path": "results/primary_pages/table_i_highres-731.png",
+      "bytes": 1539964,
+      "sha256": "ca23a2fe83ee9bb9c0b7f260e8966db770447a89a9d55aa88cc1a8cddfa4dbb8"
+    },
+    {
+      "path": "results/primary_pages/table_i_highres-732.png",
+      "bytes": 1543336,
+      "sha256": "80c9b7e99be8d946b1d300c635d942c5b7a6ccb1436802c015f7c0beae8506a6"
+    },
+    {
+      "path": "scripts/render_double_grid_crops.py",
+      "bytes": 840,
+      "sha256": "0f709535621ea0db7668c5a969f1f53e156304bbe09258e3b5b38c92b9a50de5"
+    },
+    {
+      "path": "results/primary_pages/sign_list_page_32.png",
+      "bytes": 982719,
+      "sha256": "1e3f91789c947add7ce796479168d84d69636ebdc378493743188ac11c53c90a"
+    }
+  ]
+}

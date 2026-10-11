@@ -1,0 +1,83 @@
+{
+  "schema_version": 1,
+  "scope": "Independent bounded primary image comparison of two proposed corrections; not a blind or artifact-photo review. Prior versus corrected IDs were supplied by parent. No candidate export consulted for these two decisions.",
+  "primary_source": {
+    "path": "data/raw/mahadevan_1977_text.pdf",
+    "sha256": "6dcdd074a0174e5fab149590fbbf82342711d345764e9763f8e5e92c81cf7f99"
+  },
+  "inventory_evidence": [
+    {
+      "path": "results/primary_pages/sign_list_page_32.png",
+      "sha256": "1e3f91789c947add7ce796479168d84d69636ebdc378493743188ac11c53c90a"
+    },
+    {
+      "path": "results/primary_pages/sign_list-044.png",
+      "sha256": "33eff554bfdea81af6d1a3510a5b2541d1b74b02ae1e63b253c725b44c7c0b64"
+    },
+    {
+      "path": "results/primary_pages/sign_list-046.png",
+      "sha256": "a191e9297a6ab8b7cad1028eaeac062b4b6fa3cd34aefbdd507f669d736d2e8e"
+    }
+  ],
+  "reviewed_ledger": {
+    "path": "data/processed/m77_u_counterparts_iconography.json",
+    "sha256": "d91bd10dbf243751483d845c88fb55d9ddbae31090025175722d83667fd9be70"
+  },
+  "records": [
+    {
+      "reference": "5323",
+      "side": "1",
+      "line": "0",
+      "pdf_page": 149,
+      "printed_page": 138,
+      "printed_metadata_code": "210001",
+      "tokens": [
+        "M065",
+        "M071",
+        "M176"
+      ],
+      "full_sequence_primary_checked": true,
+      "decision": "confirm proposed correction against primary image and numbered inventory",
+      "superseded_disputed_sign": "M060",
+      "reviewed_disputed_sign": "M071",
+      "reason": "The middle fish-shaped sign has four external corner strokes and a visible straight vertical internal stem. M060 has an empty interior; numbered M071 has this internal stem. The stem is not the diagonal used in M073. Source display reads comb, wrapped stemmed fish, roofed fish from left to right; normalized RTL is M065 M071 M176. No source asterisk or damage is printed on this line.",
+      "evidence_path": "results/primary_pages/u-types-iconography-149.png",
+      "evidence": {
+        "path": "results/primary_pages/u-types-iconography-149.png",
+        "sha256": "7621753c3334a296078192e23571f5d166a568ccff79f05516de5db583db1253"
+      },
+      "detail_evidence": {
+        "path": "results/primary_pages/structure-crosscheck-5323.png",
+        "sha256": "5dd906d05f8fc34067c3b3b7acb2cf45fc5e39082aa4cfa3846f21373acdb570"
+      },
+      "limits": "Catalogue normalized drawings, not independent photographs or autopsy; close primary image review corroborates the printed sign identity only."
+    },
+    {
+      "reference": "5410",
+      "side": "1",
+      "line": "0",
+      "pdf_page": 151,
+      "printed_page": 140,
+      "printed_metadata_code": "310001",
+      "tokens": [
+        "M287",
+        "M402"
+      ],
+      "full_sequence_primary_checked": true,
+      "decision": "confirm proposed correction against primary image and numbered inventory",
+      "superseded_disputed_sign": "M178",
+      "reviewed_disputed_sign": "M402",
+      "reason": "The left-displayed glyph has a long oblique stem rising past a compact right-side hatched/filled fan. It matches numbered M402. M178 instead has two A-like converging upper legs/crossbar with a small terminal attachment. Right-displayed glyph is a plain curved stroke M287. Normalized RTL is M287 M402. No source asterisk or damage is printed on this line.",
+      "evidence_path": "results/primary_pages/u-types-iconography-151.png",
+      "evidence": {
+        "path": "results/primary_pages/u-types-iconography-151.png",
+        "sha256": "9aeb76cd391f91a49041083817d12dbfabf961c536d3c16a42a62486d6db5016"
+      },
+      "detail_evidence": {
+        "path": "results/primary_pages/structure-crosscheck-5410.png",
+        "sha256": "75a54d0f0059c217f01510c8e657dd2b432e0ebc0e2a7ebddab2c0ff56f8108c"
+      },
+      "limits": "Catalogue normalized drawings, not independent photographs or autopsy; close primary image review corroborates the printed sign identity only."
+    }
+  ]
+}

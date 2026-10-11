@@ -1,0 +1,2736 @@
+{
+  "schema_version": 1,
+  "review_date": "2026-09-23",
+  "reviewer": "test_iconography",
+  "scope": "Exactly partitions.iconography in frozen counterpart protocol; every displayed other text line represented separately.",
+  "source": {
+    "path": "data/raw/mahadevan_1977_text.pdf",
+    "sha256": "6dcdd074a0174e5fab149590fbbf82342711d345764e9763f8e5e92c81cf7f99",
+    "bytes": 119302608
+  },
+  "selection_protocol": {
+    "path": "data/processed/m77_u_counterpart_protocol.json",
+    "sha256": "0cc13376618ea9b06ad9bd858dcaf8193e7bf0e6e8d6a193c5a66838b833ee45",
+    "bytes": 11631
+  },
+  "method": {
+    "primary": "Visual examination of complete Texts entries on PDF147\u2013156 and168 and numbered primary sign inventory; full-row images retain reference and metadata.",
+    "candidate_use": "Glossa export was consulted for proposed first-line sign IDs in a subset; accepted signs were visually checked against primary entry and numbered primary inventory. This was not a blinded transcription. No candidate-export fallback was admitted.",
+    "normalization": "Printed RTL-normalized sequence, separate side and line identifiers; actual object reading direction is not inferred from normalization.",
+    "LOSS": "Primary hatching records an unknown positive-length missing span; never expanded to one presumed sign.",
+    "UNKNOWN": "Reserved for visible but reviewer-unidentified glyph; none remain in this partition.",
+    "doubt": "A primary doubt dot is encoded as *Mddd, not silently removed.",
+    "symbol_only": "Metadata line9 entries have no printed script string and are preserved separately. Text-bearing rows that also carry symbol codes remain text rows.",
+    "exclusion": "Every selected exact stroke-plus-U field excluded, including both fields of5413; no other text concatenation."
+  },
+  "counts": {
+    "selected_references": 74,
+    "accounted_references": 74,
+    "counterpart_text_lines": 76,
+    "symbol_only_entries": 15,
+    "excluded_selected_fields": 75,
+    "lines_with_LOSS": 8,
+    "lines_with_UNKNOWN": 0,
+    "lines_with_primary_doubt": 6,
+    "primary_doubt_tokens": 8
+  },
+  "records": [
+    {
+      "reference": "5270",
+      "all_counterpart_lines_accounted_for": true,
+      "counterpart_lines": [
+        {
+          "side": "1",
+          "line": "0",
+          "tokens": [
+            "M175",
+            "M176",
+            "M211",
+            "M176"
+          ],
+          "full_sequence_primary_checked": true,
+          "pdf_page": 147,
+          "printed_page": 136,
+          "evidence_path": "results/primary_pages/u-types-iconography-147.png",
+          "evidence": {
+            "path": "results/primary_pages/u-types-iconography-147.png",
+            "sha256": "93c26ffe7755fd6b8438b72d80bd5d89aba8f2ecd1b6dd8a4a927f585cbfaee3",
+            "bytes": 1258412
+          },
+          "normalization": "Printed primary right-to-left sign order; not a new inference about physical reading direction.",
+          "notes": ""
+        }
+      ],
+      "symbol_only_entries": [],
+      "excluded_selected_field_line_ids": [
+        "M77:5270:side2:line0"
+      ],
+      "notes": ""
+    },
+    {
+      "reference": "5271",
+      "all_counterpart_lines_accounted_for": true,
+      "counterpart_lines": [
+        {
+          "side": "1",
+          "line": "0",
+          "tokens": [
+            "M040",
+            "M176"
+          ],
+          "full_sequence_primary_checked": true,
+          "pdf_page": 147,
+          "printed_page": 136,
+          "evidence_path": "results/primary_pages/u-types-iconography-147.png",
+          "evidence": {
+            "path": "results/primary_pages/u-types-iconography-147.png",
+            "sha256": "93c26ffe7755fd6b8438b72d80bd5d89aba8f2ecd1b6dd8a4a927f585cbfaee3",
+            "bytes": 1258412
+          },
+          "normalization": "Printed primary right-to-left sign order; not a new inference about physical reading direction.",
+          "notes": ""
+        }
+      ],
+      "symbol_only_entries": [],
+      "excluded_selected_field_line_ids": [
+        "M77:5271:side2:line0"
+      ],
+      "notes": ""
+    },
+    {
+      "reference": "5274",
+      "all_counterpart_lines_accounted_for": true,
+      "counterpart_lines": [
+        {
+          "side": "1",
+          "line": "0",
+          "tokens": [
+            "M245",
+            "M245",
+            "M307",
+            "M342",
+            "M176"
+          ],
+          "full_sequence_primary_checked": true,
+          "pdf_page": 147,
+          "printed_page": 136,
+          "evidence_path": "results/primary_pages/u-types-iconography-147.png",
+          "evidence": {
+            "path": "results/primary_pages/u-types-iconography-147.png",
+            "sha256": "93c26ffe7755fd6b8438b72d80bd5d89aba8f2ecd1b6dd8a4a927f585cbfaee3",
+            "bytes": 1258412
+          },
+          "normalization": "Printed primary right-to-left sign order; not a new inference about physical reading direction.",
+          "notes": ""
+        }
+      ],
+      "symbol_only_entries": [],
+      "excluded_selected_field_line_ids": [
+        "M77:5274:side2:line0"
+      ],
+      "notes": ""
+    },
+    {
+      "reference": "5276",
+      "all_counterpart_lines_accounted_for": true,
+      "counterpart_lines": [
+        {
+          "side": "1",
+          "line": "0",
+          "tokens": [
+            "M065",
+            "M249",
+            "M169",
+            "M342",
+            "M176"
+          ],
+          "full_sequence_primary_checked": true,
+          "pdf_page": 147,
+          "printed_page": 136,
+          "evidence_path": "results/primary_pages/u-types-iconography-147.png",
+          "evidence": {
+            "path": "results/primary_pages/u-types-iconography-147.png",
+            "sha256": "93c26ffe7755fd6b8438b72d80bd5d89aba8f2ecd1b6dd8a4a927f585cbfaee3",
+            "bytes": 1258412
+          },
+          "normalization": "Printed primary right-to-left sign order; not a new inference about physical reading direction.",
+          "notes": "Angled terminal branches identify M169; distinguished from rounded M162 in 5286."
+        }
+      ],
+      "symbol_only_entries": [],
+      "excluded_selected_field_line_ids": [
+        "M77:5276:side2:line0"
+      ],
+      "notes": "Angled terminal branches identify M169; distinguished from rounded M162 in 5286."
+    },
+    {
+      "reference": "5277",
+      "all_counterpart_lines_accounted_for": true,
+      "counterpart_lines": [
+        {
+          "side": "1",
+          "line": "0",
+          "tokens": [
+            "M070",
+            "M048",
+            "M342",
+            "M176"
+          ],
+          "full_sequence_primary_checked": true,
+          "pdf_page": 147,
+          "printed_page": 136,
+          "evidence_path": "results/primary_pages/u-types-iconography-147.png",
+          "evidence": {
+            "path": "results/primary_pages/u-types-iconography-147.png",
+            "sha256": "93c26ffe7755fd6b8438b72d80bd5d89aba8f2ecd1b6dd8a4a927f585cbfaee3",
+            "bytes": 1258412
+          },
+          "normalization": "Printed primary right-to-left sign order; not a new inference about physical reading direction.",
+          "notes": "The first fish has an internal short stem (M070), rather than the plain fish M059."
+        }
+      ],
+      "symbol_only_entries": [],
+      "excluded_selected_field_line_ids": [
+        "M77:5277:side2:line0"
+      ],
+      "notes": "The first fish has an internal short stem (M070), rather than the plain fish M059."
+    },
+    {
+      "reference": "5278",
+      "all_counterpart_lines_accounted_for": true,
+      "counterpart_lines": [
+        {
+          "side": "1",
+          "line": "0",
+          "tokens": [
+            "M150",
+            "M123",
+            "M067",
+            "LOSS"
+          ],
+          "full_sequence_primary_checked": true,
+          "pdf_page": 147,
+          "printed_page": 136,
+          "evidence_path": "results/primary_pages/u-types-iconography-147.png",
+          "evidence": {
+            "path": "results/primary_pages/u-types-iconography-147.png",
+            "sha256": "93c26ffe7755fd6b8438b72d80bd5d89aba8f2ecd1b6dd8a4a927f585cbfaee3",
+            "bytes": 1258412
+          },
+          "normalization": "Printed primary right-to-left sign order; not a new inference about physical reading direction.",
+          "notes": " Hatched primary loss is a positive unknown-length span, not a single sign."
+        }
+      ],
+      "symbol_only_entries": [],
+      "excluded_selected_field_line_ids": [
+        "M77:5278:side2:line0"
+      ],
+      "notes": ""
+    },
+    {
+      "reference": "5285",
+      "all_counterpart_lines_accounted_for": true,
+      "counterpart_lines": [
+        {
+          "side": "1",
+          "line": "0",
+          "tokens": [
+            "M379",
+            "M307",
+            "M176"
+          ],
+          "full_sequence_primary_checked": true,
+          "pdf_page": 147,
+          "printed_page": 136,
+          "evidence_path": "results/primary_pages/u-types-iconography-147.png",
+          "evidence": {
+            "path": "results/primary_pages/u-types-iconography-147.png",
+            "sha256": "93c26ffe7755fd6b8438b72d80bd5d89aba8f2ecd1b6dd8a4a927f585cbfaee3",
+            "bytes": 1258412
+          },
+          "normalization": "Printed primary right-to-left sign order; not a new inference about physical reading direction.",
+          "notes": ""
+        }
+      ],
+      "symbol_only_entries": [],
+      "excluded_selected_field_line_ids": [
+        "M77:5285:side2:line0"
+      ],
+      "notes": ""
+    },
+    {
+      "reference": "5286",
+      "all_counterpart_lines_accounted_for": true,
+      "counterpart_lines": [
+        {
+          "side": "1",
+          "line": "0",
+          "tokens": [
+            "M065",
+            "M249",
+            "M162",
+            "M342"
+          ],
+          "full_sequence_primary_checked": true,
+          "pdf_page": 147,
+          "printed_page": 136,
+          "evidence_path": "results/primary_pages/u-types-iconography-147.png",
+          "evidence": {
+            "path": "results/primary_pages/u-types-iconography-147.png",
+            "sha256": "93c26ffe7755fd6b8438b72d80bd5d89aba8f2ecd1b6dd8a4a927f585cbfaee3",
+            "bytes": 1258412
+          },
+          "normalization": "Printed primary right-to-left sign order; not a new inference about physical reading direction.",
+          "notes": ""
+        }
+      ],
+      "symbol_only_entries": [],
+      "excluded_selected_field_line_ids": [
+        "M77:5286:side2:line0"
+      ],
+      "notes": ""
+    },
+    {
+      "reference": "5292",
+      "all_counterpart_lines_accounted_for": true,
+      "counterpart_lines": [
+        {
+          "side": "1",
+          "line": "0",
+          "tokens": [
+            "M336",
+            "M051",
+            "M008",
+            "M342",
+            "M176"
+          ],
+          "full_sequence_primary_checked": true,
+          "pdf_page": 148,
+          "printed_page": 137,
+          "evidence_path": "results/primary_pages/u-types-iconography-148.png",
+          "evidence": {
+            "path": "results/primary_pages/u-types-iconography-148.png",
+            "sha256": "3889751ad1a65f7917e27d8d2de11aa5804c83df4142c44870dc8644d3d29b57",
+            "bytes": 1176669
+          },
+          "normalization": "Printed primary right-to-left sign order; not a new inference about physical reading direction.",
+          "notes": ""
+        }
+      ],
+      "symbol_only_entries": [],
+      "excluded_selected_field_line_ids": [
+        "M77:5292:side2:line0"
+      ],
+      "notes": ""
+    },
+    {
+      "reference": "5293",
+      "all_counterpart_lines_accounted_for": true,
+      "counterpart_lines": [
+        {
+          "side": "1",
+          "line": "0",
+          "tokens": [
+            "M048",
+            "M193",
+            "M342"
+          ],
+          "full_sequence_primary_checked": true,
+          "pdf_page": 148,
+          "printed_page": 137,
+          "evidence_path": "results/primary_pages/u-types-iconography-148.png",
+          "evidence": {
+            "path": "results/primary_pages/u-types-iconography-148.png",
+            "sha256": "3889751ad1a65f7917e27d8d2de11aa5804c83df4142c44870dc8644d3d29b57",
+            "bytes": 1176669
+          },
+          "normalization": "Printed primary right-to-left sign order; not a new inference about physical reading direction.",
+          "notes": ""
+        }
+      ],
+      "symbol_only_entries": [],
+      "excluded_selected_field_line_ids": [
+        "M77:5293:side2:line0"
+      ],
+      "notes": ""
+    },
+    {
+      "reference": "5302",
+      "all_counterpart_lines_accounted_for": true,
+      "counterpart_lines": [
+        {
+          "side": "1",
+          "line": "0",
+          "tokens": [
+            "M067",
+            "M211"
+          ],
+          "full_sequence_primary_checked": true,
+          "pdf_page": 148,
+          "printed_page": 137,
+          "evidence_path": "results/primary_pages/u-types-iconography-148.png",
+          "evidence": {
+            "path": "results/primary_pages/u-types-iconography-148.png",
+            "sha256": "3889751ad1a65f7917e27d8d2de11aa5804c83df4142c44870dc8644d3d29b57",
+            "bytes": 1176669
+          },
+          "normalization": "Printed primary right-to-left sign order; not a new inference about physical reading direction.",
+          "notes": ""
+        }
+      ],
+      "symbol_only_entries": [],
+      "excluded_selected_field_line_ids": [
+        "M77:5302:side2:line0"
+      ],
+      "notes": ""
+    },
+    {
+      "reference": "5310",
+      "all_counterpart_lines_accounted_for": true,
+      "counterpart_lines": [
+        {
+          "side": "1",
+          "line": "0",
+          "tokens": [
+            "M293",
+            "M123",
+            "M343",
+            "M102",
+            "M169"
+          ],
+          "full_sequence_primary_checked": true,
+          "pdf_page": 148,
+          "printed_page": 137,
+          "evidence_path": "results/primary_pages/u-types-iconography-148.png",
+          "evidence": {
+            "path": "results/primary_pages/u-types-iconography-148.png",
+            "sha256": "3889751ad1a65f7917e27d8d2de11aa5804c83df4142c44870dc8644d3d29b57",
+            "bytes": 1176669
+          },
+          "normalization": "Printed primary right-to-left sign order; not a new inference about physical reading direction.",
+          "notes": "Both adjacent curved signs M293 and M123 are visible; jar has one internal tick (M343); three short strokes form M102."
+        }
+      ],
+      "symbol_only_entries": [],
+      "excluded_selected_field_line_ids": [
+        "M77:5310:side2:line0"
+      ],
+      "notes": "Both adjacent curved signs M293 and M123 are visible; jar has one internal tick (M343); three short strokes form M102."
+    },
+    {
+      "reference": "5317",
+      "all_counterpart_lines_accounted_for": true,
+      "counterpart_lines": [
+        {
+          "side": "1",
+          "line": "0",
+          "tokens": [
+            "*M065",
+            "M072",
+            "M078",
+            "*M347",
+            "M342"
+          ],
+          "full_sequence_primary_checked": true,
+          "pdf_page": 149,
+          "printed_page": 138,
+          "evidence_path": "results/primary_pages/u-types-iconography-149.png",
+          "evidence": {
+            "path": "results/primary_pages/u-types-iconography-149.png",
+            "sha256": "7621753c3334a296078192e23571f5d166a568ccff79f05516de5db583db1253",
+            "bytes": 1189205
+          },
+          "normalization": "Printed primary right-to-left sign order; not a new inference about physical reading direction.",
+          "notes": "Primary doubt dots at M065 and M347 are retained. Modified fish M078 and internally marked M072 kept distinct."
+        }
+      ],
+      "symbol_only_entries": [],
+      "excluded_selected_field_line_ids": [
+        "M77:5317:side2:line0"
+      ],
+      "notes": "Primary doubt dots at M065 and M347 are retained. Modified fish M078 and internally marked M072 kept distinct."
+    },
+    {
+      "reference": "5318",
+      "all_counterpart_lines_accounted_for": true,
+      "counterpart_lines": [
+        {
+          "side": "1",
+          "line": "0",
+          "tokens": [
+            "*M065",
+            "M072",
+            "M078",
+            "M347",
+            "M342"
+          ],
+          "full_sequence_primary_checked": true,
+          "pdf_page": 149,
+          "printed_page": 138,
+          "evidence_path": "results/primary_pages/u-types-iconography-149.png",
+          "evidence": {
+            "path": "results/primary_pages/u-types-iconography-149.png",
+            "sha256": "7621753c3334a296078192e23571f5d166a568ccff79f05516de5db583db1253",
+            "bytes": 1189205
+          },
+          "normalization": "Printed primary right-to-left sign order; not a new inference about physical reading direction.",
+          "notes": "Primary doubt dot at M065 only; no doubt dot at M347."
+        }
+      ],
+      "symbol_only_entries": [],
+      "excluded_selected_field_line_ids": [
+        "M77:5318:side2:line0"
+      ],
+      "notes": "Primary doubt dot at M065 only; no doubt dot at M347."
+    },
+    {
+      "reference": "5319",
+      "all_counterpart_lines_accounted_for": true,
+      "counterpart_lines": [
+        {
+          "side": "1",
+          "line": "0",
+          "tokens": [
+            "M149",
+            "M059",
+            "LOSS"
+          ],
+          "full_sequence_primary_checked": true,
+          "pdf_page": 149,
+          "printed_page": 138,
+          "evidence_path": "results/primary_pages/u-types-iconography-149.png",
+          "evidence": {
+            "path": "results/primary_pages/u-types-iconography-149.png",
+            "sha256": "7621753c3334a296078192e23571f5d166a568ccff79f05516de5db583db1253",
+            "bytes": 1189205
+          },
+          "normalization": "Printed primary right-to-left sign order; not a new inference about physical reading direction.",
+          "notes": " Hatched primary loss is a positive unknown-length span, not a single sign."
+        }
+      ],
+      "symbol_only_entries": [],
+      "excluded_selected_field_line_ids": [
+        "M77:5319:side2:line0"
+      ],
+      "notes": ""
+    },
+    {
+      "reference": "5321",
+      "all_counterpart_lines_accounted_for": true,
+      "counterpart_lines": [
+        {
+          "side": "1",
+          "line": "0",
+          "tokens": [
+            "M059",
+            "M066",
+            "M176"
+          ],
+          "full_sequence_primary_checked": true,
+          "pdf_page": 149,
+          "printed_page": 138,
+          "evidence_path": "results/primary_pages/u-types-iconography-149.png",
+          "evidence": {
+            "path": "results/primary_pages/u-types-iconography-149.png",
+            "sha256": "7621753c3334a296078192e23571f5d166a568ccff79f05516de5db583db1253",
+            "bytes": 1189205
+          },
+          "normalization": "Printed primary right-to-left sign order; not a new inference about physical reading direction.",
+          "notes": ""
+        }
+      ],
+      "symbol_only_entries": [],
+      "excluded_selected_field_line_ids": [
+        "M77:5321:side2:line0"
+      ],
+      "notes": ""
+    },
+    {
+      "reference": "5322",
+      "all_counterpart_lines_accounted_for": true,
+      "counterpart_lines": [
+        {
+          "side": "1",
+          "line": "0",
+          "tokens": [
+            "*M391",
+            "M104",
+            "M162"
+          ],
+          "full_sequence_primary_checked": true,
+          "pdf_page": 149,
+          "printed_page": 138,
+          "evidence_path": "results/primary_pages/u-types-iconography-149.png",
+          "evidence": {
+            "path": "results/primary_pages/u-types-iconography-149.png",
+            "sha256": "7621753c3334a296078192e23571f5d166a568ccff79f05516de5db583db1253",
+            "bytes": 1189205
+          },
+          "normalization": "Printed primary right-to-left sign order; not a new inference about physical reading direction.",
+          "notes": ""
+        }
+      ],
+      "symbol_only_entries": [],
+      "excluded_selected_field_line_ids": [
+        "M77:5322:side2:line0"
+      ],
+      "notes": ""
+    },
+    {
+      "reference": "5323",
+      "all_counterpart_lines_accounted_for": true,
+      "counterpart_lines": [
+        {
+          "side": "1",
+          "line": "0",
+          "tokens": [
+            "M065",
+            "M071",
+            "M176"
+          ],
+          "full_sequence_primary_checked": true,
+          "pdf_page": 149,
+          "printed_page": 138,
+          "evidence_path": "results/primary_pages/u-types-iconography-149.png",
+          "evidence": {
+            "path": "results/primary_pages/u-types-iconography-149.png",
+            "sha256": "7621753c3334a296078192e23571f5d166a568ccff79f05516de5db583db1253",
+            "bytes": 1189205
+          },
+          "normalization": "Printed primary right-to-left sign order; not a new inference about physical reading direction.",
+          "notes": "Wrapped fish has inner straight stem, M071."
+        }
+      ],
+      "symbol_only_entries": [],
+      "excluded_selected_field_line_ids": [
+        "M77:5323:side2:line0"
+      ],
+      "notes": "Wrapped fish has inner straight stem, M071."
+    },
+    {
+      "reference": "5327",
+      "all_counterpart_lines_accounted_for": true,
+      "counterpart_lines": [
+        {
+          "side": "1",
+          "line": "0",
+          "tokens": [
+            "M397",
+            "M233"
+          ],
+          "full_sequence_primary_checked": true,
+          "pdf_page": 149,
+          "printed_page": 138,
+          "evidence_path": "results/primary_pages/u-types-iconography-149.png",
+          "evidence": {
+            "path": "results/primary_pages/u-types-iconography-149.png",
+            "sha256": "7621753c3334a296078192e23571f5d166a568ccff79f05516de5db583db1253",
+            "bytes": 1189205
+          },
+          "normalization": "Printed primary right-to-left sign order; not a new inference about physical reading direction.",
+          "notes": ""
+        }
+      ],
+      "symbol_only_entries": [],
+      "excluded_selected_field_line_ids": [
+        "M77:5327:side2:line0"
+      ],
+      "notes": ""
+    },
+    {
+      "reference": "5335",
+      "all_counterpart_lines_accounted_for": true,
+      "counterpart_lines": [
+        {
+          "side": "1",
+          "line": "0",
+          "tokens": [
+            "M136",
+            "M193",
+            "M342"
+          ],
+          "full_sequence_primary_checked": true,
+          "pdf_page": 150,
+          "printed_page": 139,
+          "evidence_path": "results/primary_pages/u-types-iconography-150.png",
+          "evidence": {
+            "path": "results/primary_pages/u-types-iconography-150.png",
+            "sha256": "c3dc54a45f61c52a3229fded95b1634b0dd14e54222c4b437c91430600c0579f",
+            "bytes": 1157419
+          },
+          "normalization": "Printed primary right-to-left sign order; not a new inference about physical reading direction.",
+          "notes": "Chevron has internal lattice, M136 rather than plain M135."
+        }
+      ],
+      "symbol_only_entries": [],
+      "excluded_selected_field_line_ids": [
+        "M77:5335:side2:line0"
+      ],
+      "notes": "Chevron has internal lattice, M136 rather than plain M135."
+    },
+    {
+      "reference": "5336",
+      "all_counterpart_lines_accounted_for": true,
+      "counterpart_lines": [
+        {
+          "side": "1",
+          "line": "0",
+          "tokens": [
+            "M136",
+            "M193",
+            "M342"
+          ],
+          "full_sequence_primary_checked": true,
+          "pdf_page": 150,
+          "printed_page": 139,
+          "evidence_path": "results/primary_pages/u-types-iconography-150.png",
+          "evidence": {
+            "path": "results/primary_pages/u-types-iconography-150.png",
+            "sha256": "c3dc54a45f61c52a3229fded95b1634b0dd14e54222c4b437c91430600c0579f",
+            "bytes": 1157419
+          },
+          "normalization": "Printed primary right-to-left sign order; not a new inference about physical reading direction.",
+          "notes": "Chevron has internal lattice, M136 rather than plain M135."
+        }
+      ],
+      "symbol_only_entries": [],
+      "excluded_selected_field_line_ids": [
+        "M77:5336:side2:line0"
+      ],
+      "notes": "Chevron has internal lattice, M136 rather than plain M135."
+    },
+    {
+      "reference": "5337",
+      "all_counterpart_lines_accounted_for": true,
+      "counterpart_lines": [
+        {
+          "side": "1",
+          "line": "0",
+          "tokens": [
+            "M150",
+            "M123",
+            "M067",
+            "M244",
+            "M342"
+          ],
+          "full_sequence_primary_checked": true,
+          "pdf_page": 150,
+          "printed_page": 139,
+          "evidence_path": "results/primary_pages/u-types-iconography-150.png",
+          "evidence": {
+            "path": "results/primary_pages/u-types-iconography-150.png",
+            "sha256": "c3dc54a45f61c52a3229fded95b1634b0dd14e54222c4b437c91430600c0579f",
+            "bytes": 1157419
+          },
+          "normalization": "Printed primary right-to-left sign order; not a new inference about physical reading direction.",
+          "notes": ""
+        }
+      ],
+      "symbol_only_entries": [],
+      "excluded_selected_field_line_ids": [
+        "M77:5337:side2:line0"
+      ],
+      "notes": ""
+    },
+    {
+      "reference": "5402",
+      "all_counterpart_lines_accounted_for": true,
+      "counterpart_lines": [
+        {
+          "side": "1",
+          "line": "0",
+          "tokens": [
+            "M067",
+            "M244",
+            "M149",
+            "M342"
+          ],
+          "full_sequence_primary_checked": true,
+          "pdf_page": 150,
+          "printed_page": 139,
+          "evidence_path": "results/primary_pages/u-types-iconography-150.png",
+          "evidence": {
+            "path": "results/primary_pages/u-types-iconography-150.png",
+            "sha256": "c3dc54a45f61c52a3229fded95b1634b0dd14e54222c4b437c91430600c0579f",
+            "bytes": 1157419
+          },
+          "normalization": "Printed primary right-to-left sign order; not a new inference about physical reading direction.",
+          "notes": ""
+        }
+      ],
+      "symbol_only_entries": [],
+      "excluded_selected_field_line_ids": [
+        "M77:5402:side2:line0"
+      ],
+      "notes": ""
+    },
+    {
+      "reference": "5405",
+      "all_counterpart_lines_accounted_for": true,
+      "counterpart_lines": [
+        {
+          "side": "1",
+          "line": "0",
+          "tokens": [
+            "M048",
+            "M342",
+            "M176"
+          ],
+          "full_sequence_primary_checked": true,
+          "pdf_page": 150,
+          "printed_page": 139,
+          "evidence_path": "results/primary_pages/u-types-iconography-150.png",
+          "evidence": {
+            "path": "results/primary_pages/u-types-iconography-150.png",
+            "sha256": "c3dc54a45f61c52a3229fded95b1634b0dd14e54222c4b437c91430600c0579f",
+            "bytes": 1157419
+          },
+          "normalization": "Printed primary right-to-left sign order; not a new inference about physical reading direction.",
+          "notes": ""
+        }
+      ],
+      "symbol_only_entries": [],
+      "excluded_selected_field_line_ids": [
+        "M77:5405:side2:line0"
+      ],
+      "notes": ""
+    },
+    {
+      "reference": "5406",
+      "all_counterpart_lines_accounted_for": true,
+      "counterpart_lines": [
+        {
+          "side": "1",
+          "line": "0",
+          "tokens": [
+            "M073",
+            "M176"
+          ],
+          "full_sequence_primary_checked": true,
+          "pdf_page": 150,
+          "printed_page": 139,
+          "evidence_path": "results/primary_pages/u-types-iconography-150.png",
+          "evidence": {
+            "path": "results/primary_pages/u-types-iconography-150.png",
+            "sha256": "c3dc54a45f61c52a3229fded95b1634b0dd14e54222c4b437c91430600c0579f",
+            "bytes": 1157419
+          },
+          "normalization": "Printed primary right-to-left sign order; not a new inference about physical reading direction.",
+          "notes": "Wrapped fish has inner diagonal, M073 rather than M071."
+        }
+      ],
+      "symbol_only_entries": [],
+      "excluded_selected_field_line_ids": [
+        "M77:5406:side2:line0"
+      ],
+      "notes": "Wrapped fish has inner diagonal, M073 rather than M071."
+    },
+    {
+      "reference": "5407",
+      "all_counterpart_lines_accounted_for": true,
+      "counterpart_lines": [
+        {
+          "side": "1",
+          "line": "0",
+          "tokens": [
+            "M048",
+            "M342",
+            "M176"
+          ],
+          "full_sequence_primary_checked": true,
+          "pdf_page": 150,
+          "printed_page": 139,
+          "evidence_path": "results/primary_pages/u-types-iconography-150.png",
+          "evidence": {
+            "path": "results/primary_pages/u-types-iconography-150.png",
+            "sha256": "c3dc54a45f61c52a3229fded95b1634b0dd14e54222c4b437c91430600c0579f",
+            "bytes": 1157419
+          },
+          "normalization": "Printed primary right-to-left sign order; not a new inference about physical reading direction.",
+          "notes": ""
+        }
+      ],
+      "symbol_only_entries": [
+        {
+          "side": "3",
+          "line": "9",
+          "printed_metadata_code": "38390",
+          "symbol_field_code": "83",
+          "pdf_page": 150,
+          "printed_page": 139,
+          "evidence_path": "results/primary_pages/u-types-iconography-150.png",
+          "evidence": {
+            "path": "results/primary_pages/u-types-iconography-150.png",
+            "sha256": "c3dc54a45f61c52a3229fded95b1634b0dd14e54222c4b437c91430600c0579f",
+            "bytes": 1157419
+          },
+          "notes": "Metadata-only symbol entry; no printed script glyph string. Not tokenized as an Indus sign."
+        }
+      ],
+      "excluded_selected_field_line_ids": [
+        "M77:5407:side2:line0"
+      ],
+      "notes": ""
+    },
+    {
+      "reference": "5408",
+      "all_counterpart_lines_accounted_for": true,
+      "counterpart_lines": [
+        {
+          "side": "1",
+          "line": "0",
+          "tokens": [
+            "M048",
+            "*M342",
+            "LOSS"
+          ],
+          "full_sequence_primary_checked": true,
+          "pdf_page": 151,
+          "printed_page": 140,
+          "evidence_path": "results/primary_pages/u-types-iconography-151.png",
+          "evidence": {
+            "path": "results/primary_pages/u-types-iconography-151.png",
+            "sha256": "9aeb76cd391f91a49041083817d12dbfabf961c536d3c16a42a62486d6db5016",
+            "bytes": 1055941
+          },
+          "normalization": "Printed primary right-to-left sign order; not a new inference about physical reading direction.",
+          "notes": " Hatched primary loss is a positive unknown-length span, not a single sign."
+        }
+      ],
+      "symbol_only_entries": [
+        {
+          "side": "3",
+          "line": "9",
+          "printed_metadata_code": "38390",
+          "symbol_field_code": "83",
+          "pdf_page": 151,
+          "printed_page": 140,
+          "evidence_path": "results/primary_pages/u-types-iconography-151.png",
+          "evidence": {
+            "path": "results/primary_pages/u-types-iconography-151.png",
+            "sha256": "9aeb76cd391f91a49041083817d12dbfabf961c536d3c16a42a62486d6db5016",
+            "bytes": 1055941
+          },
+          "notes": "Metadata-only symbol entry; no printed script glyph string. Not tokenized as an Indus sign."
+        }
+      ],
+      "excluded_selected_field_line_ids": [
+        "M77:5408:side2:line0"
+      ],
+      "notes": ""
+    },
+    {
+      "reference": "5409",
+      "all_counterpart_lines_accounted_for": true,
+      "counterpart_lines": [
+        {
+          "side": "1",
+          "line": "0",
+          "tokens": [
+            "M048",
+            "M342",
+            "M176"
+          ],
+          "full_sequence_primary_checked": true,
+          "pdf_page": 151,
+          "printed_page": 140,
+          "evidence_path": "results/primary_pages/u-types-iconography-151.png",
+          "evidence": {
+            "path": "results/primary_pages/u-types-iconography-151.png",
+            "sha256": "9aeb76cd391f91a49041083817d12dbfabf961c536d3c16a42a62486d6db5016",
+            "bytes": 1055941
+          },
+          "normalization": "Printed primary right-to-left sign order; not a new inference about physical reading direction.",
+          "notes": ""
+        }
+      ],
+      "symbol_only_entries": [
+        {
+          "side": "3",
+          "line": "9",
+          "printed_metadata_code": "38390",
+          "symbol_field_code": "83",
+          "pdf_page": 151,
+          "printed_page": 140,
+          "evidence_path": "results/primary_pages/u-types-iconography-151.png",
+          "evidence": {
+            "path": "results/primary_pages/u-types-iconography-151.png",
+            "sha256": "9aeb76cd391f91a49041083817d12dbfabf961c536d3c16a42a62486d6db5016",
+            "bytes": 1055941
+          },
+          "notes": "Metadata-only symbol entry; no printed script glyph string. Not tokenized as an Indus sign."
+        }
+      ],
+      "excluded_selected_field_line_ids": [
+        "M77:5409:side2:line0"
+      ],
+      "notes": ""
+    },
+    {
+      "reference": "5410",
+      "all_counterpart_lines_accounted_for": true,
+      "counterpart_lines": [
+        {
+          "side": "1",
+          "line": "0",
+          "tokens": [
+            "M287",
+            "M402"
+          ],
+          "full_sequence_primary_checked": true,
+          "pdf_page": 151,
+          "printed_page": 140,
+          "evidence_path": "results/primary_pages/u-types-iconography-151.png",
+          "evidence": {
+            "path": "results/primary_pages/u-types-iconography-151.png",
+            "sha256": "9aeb76cd391f91a49041083817d12dbfabf961c536d3c16a42a62486d6db5016",
+            "bytes": 1055941
+          },
+          "normalization": "Printed primary right-to-left sign order; not a new inference about physical reading direction.",
+          "notes": ""
+        }
+      ],
+      "symbol_only_entries": [],
+      "excluded_selected_field_line_ids": [
+        "M77:5410:side2:line0"
+      ],
+      "notes": ""
+    },
+    {
+      "reference": "5411",
+      "all_counterpart_lines_accounted_for": true,
+      "counterpart_lines": [
+        {
+          "side": "1",
+          "line": "0",
+          "tokens": [
+            "M048",
+            "M342",
+            "M176"
+          ],
+          "full_sequence_primary_checked": true,
+          "pdf_page": 151,
+          "printed_page": 140,
+          "evidence_path": "results/primary_pages/u-types-iconography-151.png",
+          "evidence": {
+            "path": "results/primary_pages/u-types-iconography-151.png",
+            "sha256": "9aeb76cd391f91a49041083817d12dbfabf961c536d3c16a42a62486d6db5016",
+            "bytes": 1055941
+          },
+          "normalization": "Printed primary right-to-left sign order; not a new inference about physical reading direction.",
+          "notes": ""
+        }
+      ],
+      "symbol_only_entries": [
+        {
+          "side": "3",
+          "line": "9",
+          "printed_metadata_code": "38390",
+          "symbol_field_code": "83",
+          "pdf_page": 151,
+          "printed_page": 140,
+          "evidence_path": "results/primary_pages/u-types-iconography-151.png",
+          "evidence": {
+            "path": "results/primary_pages/u-types-iconography-151.png",
+            "sha256": "9aeb76cd391f91a49041083817d12dbfabf961c536d3c16a42a62486d6db5016",
+            "bytes": 1055941
+          },
+          "notes": "Metadata-only symbol entry; no printed script glyph string. Not tokenized as an Indus sign."
+        }
+      ],
+      "excluded_selected_field_line_ids": [
+        "M77:5411:side2:line0"
+      ],
+      "notes": ""
+    },
+    {
+      "reference": "5412",
+      "all_counterpart_lines_accounted_for": true,
+      "counterpart_lines": [
+        {
+          "side": "1",
+          "line": "0",
+          "tokens": [
+            "M048",
+            "M342",
+            "M176"
+          ],
+          "full_sequence_primary_checked": true,
+          "pdf_page": 151,
+          "printed_page": 140,
+          "evidence_path": "results/primary_pages/u-types-iconography-151.png",
+          "evidence": {
+            "path": "results/primary_pages/u-types-iconography-151.png",
+            "sha256": "9aeb76cd391f91a49041083817d12dbfabf961c536d3c16a42a62486d6db5016",
+            "bytes": 1055941
+          },
+          "normalization": "Printed primary right-to-left sign order; not a new inference about physical reading direction.",
+          "notes": ""
+        }
+      ],
+      "symbol_only_entries": [
+        {
+          "side": "3",
+          "line": "9",
+          "printed_metadata_code": "38390",
+          "symbol_field_code": "83",
+          "pdf_page": 151,
+          "printed_page": 140,
+          "evidence_path": "results/primary_pages/u-types-iconography-151.png",
+          "evidence": {
+            "path": "results/primary_pages/u-types-iconography-151.png",
+            "sha256": "9aeb76cd391f91a49041083817d12dbfabf961c536d3c16a42a62486d6db5016",
+            "bytes": 1055941
+          },
+          "notes": "Metadata-only symbol entry; no printed script glyph string. Not tokenized as an Indus sign."
+        }
+      ],
+      "excluded_selected_field_line_ids": [
+        "M77:5412:side2:line0"
+      ],
+      "notes": ""
+    },
+    {
+      "reference": "5413",
+      "all_counterpart_lines_accounted_for": true,
+      "counterpart_lines": [
+        {
+          "side": "1",
+          "line": "0",
+          "tokens": [
+            "M048",
+            "M342",
+            "M176"
+          ],
+          "full_sequence_primary_checked": true,
+          "pdf_page": 151,
+          "printed_page": 140,
+          "evidence_path": "results/primary_pages/u-types-iconography-151.png",
+          "evidence": {
+            "path": "results/primary_pages/u-types-iconography-151.png",
+            "sha256": "9aeb76cd391f91a49041083817d12dbfabf961c536d3c16a42a62486d6db5016",
+            "bytes": 1055941
+          },
+          "normalization": "Printed primary right-to-left sign order; not a new inference about physical reading direction.",
+          "notes": "Both selected stroke-plus-U fields (side2 and side3, line0) are excluded; no other text-bearing side remains beyond side1."
+        }
+      ],
+      "symbol_only_entries": [],
+      "excluded_selected_field_line_ids": [
+        "M77:5413:side2:line0",
+        "M77:5413:side3:line0"
+      ],
+      "notes": "Both selected stroke-plus-U fields (side2 and side3, line0) are excluded; no other text-bearing side remains beyond side1."
+    },
+    {
+      "reference": "5415",
+      "all_counterpart_lines_accounted_for": true,
+      "counterpart_lines": [
+        {
+          "side": "1",
+          "line": "0",
+          "tokens": [
+            "M048",
+            "M342",
+            "LOSS"
+          ],
+          "full_sequence_primary_checked": true,
+          "pdf_page": 151,
+          "printed_page": 140,
+          "evidence_path": "results/primary_pages/u-types-iconography-151.png",
+          "evidence": {
+            "path": "results/primary_pages/u-types-iconography-151.png",
+            "sha256": "9aeb76cd391f91a49041083817d12dbfabf961c536d3c16a42a62486d6db5016",
+            "bytes": 1055941
+          },
+          "normalization": "Printed primary right-to-left sign order; not a new inference about physical reading direction.",
+          "notes": " Hatched primary loss is a positive unknown-length span, not a single sign."
+        }
+      ],
+      "symbol_only_entries": [
+        {
+          "side": "3",
+          "line": "9",
+          "printed_metadata_code": "38390",
+          "symbol_field_code": "83",
+          "pdf_page": 151,
+          "printed_page": 140,
+          "evidence_path": "results/primary_pages/u-types-iconography-151.png",
+          "evidence": {
+            "path": "results/primary_pages/u-types-iconography-151.png",
+            "sha256": "9aeb76cd391f91a49041083817d12dbfabf961c536d3c16a42a62486d6db5016",
+            "bytes": 1055941
+          },
+          "notes": "Metadata-only symbol entry; no printed script glyph string. Not tokenized as an Indus sign."
+        }
+      ],
+      "excluded_selected_field_line_ids": [
+        "M77:5415:side2:line0"
+      ],
+      "notes": ""
+    },
+    {
+      "reference": "5416",
+      "all_counterpart_lines_accounted_for": true,
+      "counterpart_lines": [
+        {
+          "side": "1",
+          "line": "0",
+          "tokens": [
+            "M048",
+            "M342",
+            "M176"
+          ],
+          "full_sequence_primary_checked": true,
+          "pdf_page": 151,
+          "printed_page": 140,
+          "evidence_path": "results/primary_pages/u-types-iconography-151.png",
+          "evidence": {
+            "path": "results/primary_pages/u-types-iconography-151.png",
+            "sha256": "9aeb76cd391f91a49041083817d12dbfabf961c536d3c16a42a62486d6db5016",
+            "bytes": 1055941
+          },
+          "normalization": "Printed primary right-to-left sign order; not a new inference about physical reading direction.",
+          "notes": ""
+        }
+      ],
+      "symbol_only_entries": [
+        {
+          "side": "3",
+          "line": "9",
+          "printed_metadata_code": "38390",
+          "symbol_field_code": "83",
+          "pdf_page": 151,
+          "printed_page": 140,
+          "evidence_path": "results/primary_pages/u-types-iconography-151.png",
+          "evidence": {
+            "path": "results/primary_pages/u-types-iconography-151.png",
+            "sha256": "9aeb76cd391f91a49041083817d12dbfabf961c536d3c16a42a62486d6db5016",
+            "bytes": 1055941
+          },
+          "notes": "Metadata-only symbol entry; no printed script glyph string. Not tokenized as an Indus sign."
+        }
+      ],
+      "excluded_selected_field_line_ids": [
+        "M77:5416:side2:line0"
+      ],
+      "notes": ""
+    },
+    {
+      "reference": "5418",
+      "all_counterpart_lines_accounted_for": true,
+      "counterpart_lines": [
+        {
+          "side": "1",
+          "line": "0",
+          "tokens": [
+            "M287",
+            "M402"
+          ],
+          "full_sequence_primary_checked": true,
+          "pdf_page": 151,
+          "printed_page": 140,
+          "evidence_path": "results/primary_pages/u-types-iconography-151.png",
+          "evidence": {
+            "path": "results/primary_pages/u-types-iconography-151.png",
+            "sha256": "9aeb76cd391f91a49041083817d12dbfabf961c536d3c16a42a62486d6db5016",
+            "bytes": 1055941
+          },
+          "normalization": "Printed primary right-to-left sign order; not a new inference about physical reading direction.",
+          "notes": ""
+        }
+      ],
+      "symbol_only_entries": [],
+      "excluded_selected_field_line_ids": [
+        "M77:5418:side2:line0"
+      ],
+      "notes": ""
+    },
+    {
+      "reference": "5419",
+      "all_counterpart_lines_accounted_for": true,
+      "counterpart_lines": [
+        {
+          "side": "1",
+          "line": "0",
+          "tokens": [
+            "M048",
+            "M342",
+            "M176"
+          ],
+          "full_sequence_primary_checked": true,
+          "pdf_page": 151,
+          "printed_page": 140,
+          "evidence_path": "results/primary_pages/u-types-iconography-151.png",
+          "evidence": {
+            "path": "results/primary_pages/u-types-iconography-151.png",
+            "sha256": "9aeb76cd391f91a49041083817d12dbfabf961c536d3c16a42a62486d6db5016",
+            "bytes": 1055941
+          },
+          "normalization": "Printed primary right-to-left sign order; not a new inference about physical reading direction.",
+          "notes": ""
+        }
+      ],
+      "symbol_only_entries": [],
+      "excluded_selected_field_line_ids": [
+        "M77:5419:side2:line0"
+      ],
+      "notes": ""
+    },
+    {
+      "reference": "5420",
+      "all_counterpart_lines_accounted_for": true,
+      "counterpart_lines": [
+        {
+          "side": "1",
+          "line": "0",
+          "tokens": [
+            "M048",
+            "M342",
+            "LOSS"
+          ],
+          "full_sequence_primary_checked": true,
+          "pdf_page": 152,
+          "printed_page": 141,
+          "evidence_path": "results/primary_pages/u-types-iconography-152.png",
+          "evidence": {
+            "path": "results/primary_pages/u-types-iconography-152.png",
+            "sha256": "5574e774f4922e09be48079e1f31a272b9af28844fb86092cf24f878a61537c5",
+            "bytes": 1075736
+          },
+          "normalization": "Printed primary right-to-left sign order; not a new inference about physical reading direction.",
+          "notes": " Hatched primary loss is a positive unknown-length span, not a single sign."
+        }
+      ],
+      "symbol_only_entries": [],
+      "excluded_selected_field_line_ids": [
+        "M77:5420:side2:line0"
+      ],
+      "notes": ""
+    },
+    {
+      "reference": "5421",
+      "all_counterpart_lines_accounted_for": true,
+      "counterpart_lines": [
+        {
+          "side": "1",
+          "line": "0",
+          "tokens": [
+            "M048",
+            "M342",
+            "M176"
+          ],
+          "full_sequence_primary_checked": true,
+          "pdf_page": 152,
+          "printed_page": 141,
+          "evidence_path": "results/primary_pages/u-types-iconography-152.png",
+          "evidence": {
+            "path": "results/primary_pages/u-types-iconography-152.png",
+            "sha256": "5574e774f4922e09be48079e1f31a272b9af28844fb86092cf24f878a61537c5",
+            "bytes": 1075736
+          },
+          "normalization": "Printed primary right-to-left sign order; not a new inference about physical reading direction.",
+          "notes": ""
+        }
+      ],
+      "symbol_only_entries": [],
+      "excluded_selected_field_line_ids": [
+        "M77:5421:side2:line0"
+      ],
+      "notes": ""
+    },
+    {
+      "reference": "5422",
+      "all_counterpart_lines_accounted_for": true,
+      "counterpart_lines": [
+        {
+          "side": "1",
+          "line": "0",
+          "tokens": [
+            "M048",
+            "M342",
+            "M176"
+          ],
+          "full_sequence_primary_checked": true,
+          "pdf_page": 152,
+          "printed_page": 141,
+          "evidence_path": "results/primary_pages/u-types-iconography-152.png",
+          "evidence": {
+            "path": "results/primary_pages/u-types-iconography-152.png",
+            "sha256": "5574e774f4922e09be48079e1f31a272b9af28844fb86092cf24f878a61537c5",
+            "bytes": 1075736
+          },
+          "normalization": "Printed primary right-to-left sign order; not a new inference about physical reading direction.",
+          "notes": ""
+        }
+      ],
+      "symbol_only_entries": [],
+      "excluded_selected_field_line_ids": [
+        "M77:5422:side2:line0"
+      ],
+      "notes": ""
+    },
+    {
+      "reference": "5423",
+      "all_counterpart_lines_accounted_for": true,
+      "counterpart_lines": [
+        {
+          "side": "1",
+          "line": "0",
+          "tokens": [
+            "M048",
+            "M342",
+            "M176"
+          ],
+          "full_sequence_primary_checked": true,
+          "pdf_page": 152,
+          "printed_page": 141,
+          "evidence_path": "results/primary_pages/u-types-iconography-152.png",
+          "evidence": {
+            "path": "results/primary_pages/u-types-iconography-152.png",
+            "sha256": "5574e774f4922e09be48079e1f31a272b9af28844fb86092cf24f878a61537c5",
+            "bytes": 1075736
+          },
+          "normalization": "Printed primary right-to-left sign order; not a new inference about physical reading direction.",
+          "notes": ""
+        }
+      ],
+      "symbol_only_entries": [],
+      "excluded_selected_field_line_ids": [
+        "M77:5423:side2:line0"
+      ],
+      "notes": ""
+    },
+    {
+      "reference": "5426",
+      "all_counterpart_lines_accounted_for": true,
+      "counterpart_lines": [
+        {
+          "side": "1",
+          "line": "0",
+          "tokens": [
+            "M048",
+            "M342",
+            "M176"
+          ],
+          "full_sequence_primary_checked": true,
+          "pdf_page": 152,
+          "printed_page": 141,
+          "evidence_path": "results/primary_pages/u-types-iconography-152.png",
+          "evidence": {
+            "path": "results/primary_pages/u-types-iconography-152.png",
+            "sha256": "5574e774f4922e09be48079e1f31a272b9af28844fb86092cf24f878a61537c5",
+            "bytes": 1075736
+          },
+          "normalization": "Printed primary right-to-left sign order; not a new inference about physical reading direction.",
+          "notes": ""
+        }
+      ],
+      "symbol_only_entries": [],
+      "excluded_selected_field_line_ids": [
+        "M77:5426:side2:line0"
+      ],
+      "notes": ""
+    },
+    {
+      "reference": "5427",
+      "all_counterpart_lines_accounted_for": true,
+      "counterpart_lines": [
+        {
+          "side": "1",
+          "line": "0",
+          "tokens": [
+            "M048",
+            "M342",
+            "M176"
+          ],
+          "full_sequence_primary_checked": true,
+          "pdf_page": 152,
+          "printed_page": 141,
+          "evidence_path": "results/primary_pages/u-types-iconography-152.png",
+          "evidence": {
+            "path": "results/primary_pages/u-types-iconography-152.png",
+            "sha256": "5574e774f4922e09be48079e1f31a272b9af28844fb86092cf24f878a61537c5",
+            "bytes": 1075736
+          },
+          "normalization": "Printed primary right-to-left sign order; not a new inference about physical reading direction.",
+          "notes": ""
+        }
+      ],
+      "symbol_only_entries": [],
+      "excluded_selected_field_line_ids": [
+        "M77:5427:side2:line0"
+      ],
+      "notes": ""
+    },
+    {
+      "reference": "5430",
+      "all_counterpart_lines_accounted_for": true,
+      "counterpart_lines": [
+        {
+          "side": "1",
+          "line": "0",
+          "tokens": [
+            "M048",
+            "M342",
+            "M176"
+          ],
+          "full_sequence_primary_checked": true,
+          "pdf_page": 152,
+          "printed_page": 141,
+          "evidence_path": "results/primary_pages/u-types-iconography-152.png",
+          "evidence": {
+            "path": "results/primary_pages/u-types-iconography-152.png",
+            "sha256": "5574e774f4922e09be48079e1f31a272b9af28844fb86092cf24f878a61537c5",
+            "bytes": 1075736
+          },
+          "normalization": "Printed primary right-to-left sign order; not a new inference about physical reading direction.",
+          "notes": ""
+        }
+      ],
+      "symbol_only_entries": [],
+      "excluded_selected_field_line_ids": [
+        "M77:5430:side2:line0"
+      ],
+      "notes": ""
+    },
+    {
+      "reference": "5432",
+      "all_counterpart_lines_accounted_for": true,
+      "counterpart_lines": [
+        {
+          "side": "1",
+          "line": "0",
+          "tokens": [
+            "M048",
+            "M342",
+            "M176"
+          ],
+          "full_sequence_primary_checked": true,
+          "pdf_page": 152,
+          "printed_page": 141,
+          "evidence_path": "results/primary_pages/u-types-iconography-152.png",
+          "evidence": {
+            "path": "results/primary_pages/u-types-iconography-152.png",
+            "sha256": "5574e774f4922e09be48079e1f31a272b9af28844fb86092cf24f878a61537c5",
+            "bytes": 1075736
+          },
+          "normalization": "Printed primary right-to-left sign order; not a new inference about physical reading direction.",
+          "notes": ""
+        }
+      ],
+      "symbol_only_entries": [],
+      "excluded_selected_field_line_ids": [
+        "M77:5432:side2:line0"
+      ],
+      "notes": ""
+    },
+    {
+      "reference": "5433",
+      "all_counterpart_lines_accounted_for": true,
+      "counterpart_lines": [
+        {
+          "side": "1",
+          "line": "0",
+          "tokens": [
+            "M048",
+            "M342",
+            "M176"
+          ],
+          "full_sequence_primary_checked": true,
+          "pdf_page": 152,
+          "printed_page": 141,
+          "evidence_path": "results/primary_pages/u-types-iconography-152.png",
+          "evidence": {
+            "path": "results/primary_pages/u-types-iconography-152.png",
+            "sha256": "5574e774f4922e09be48079e1f31a272b9af28844fb86092cf24f878a61537c5",
+            "bytes": 1075736
+          },
+          "normalization": "Printed primary right-to-left sign order; not a new inference about physical reading direction.",
+          "notes": ""
+        }
+      ],
+      "symbol_only_entries": [],
+      "excluded_selected_field_line_ids": [
+        "M77:5433:side2:line0"
+      ],
+      "notes": ""
+    },
+    {
+      "reference": "5434",
+      "all_counterpart_lines_accounted_for": true,
+      "counterpart_lines": [
+        {
+          "side": "1",
+          "line": "0",
+          "tokens": [
+            "M048",
+            "M342",
+            "M176"
+          ],
+          "full_sequence_primary_checked": true,
+          "pdf_page": 152,
+          "printed_page": 141,
+          "evidence_path": "results/primary_pages/u-types-iconography-152.png",
+          "evidence": {
+            "path": "results/primary_pages/u-types-iconography-152.png",
+            "sha256": "5574e774f4922e09be48079e1f31a272b9af28844fb86092cf24f878a61537c5",
+            "bytes": 1075736
+          },
+          "normalization": "Printed primary right-to-left sign order; not a new inference about physical reading direction.",
+          "notes": ""
+        }
+      ],
+      "symbol_only_entries": [
+        {
+          "side": "3",
+          "line": "9",
+          "printed_metadata_code": "38390",
+          "symbol_field_code": "83",
+          "pdf_page": 152,
+          "printed_page": 141,
+          "evidence_path": "results/primary_pages/u-types-iconography-152.png",
+          "evidence": {
+            "path": "results/primary_pages/u-types-iconography-152.png",
+            "sha256": "5574e774f4922e09be48079e1f31a272b9af28844fb86092cf24f878a61537c5",
+            "bytes": 1075736
+          },
+          "notes": "Metadata-only symbol entry; no printed script glyph string. Not tokenized as an Indus sign."
+        }
+      ],
+      "excluded_selected_field_line_ids": [
+        "M77:5434:side2:line0"
+      ],
+      "notes": ""
+    },
+    {
+      "reference": "5436",
+      "all_counterpart_lines_accounted_for": true,
+      "counterpart_lines": [
+        {
+          "side": "1",
+          "line": "0",
+          "tokens": [
+            "M287",
+            "M402"
+          ],
+          "full_sequence_primary_checked": true,
+          "pdf_page": 152,
+          "printed_page": 141,
+          "evidence_path": "results/primary_pages/u-types-iconography-152.png",
+          "evidence": {
+            "path": "results/primary_pages/u-types-iconography-152.png",
+            "sha256": "5574e774f4922e09be48079e1f31a272b9af28844fb86092cf24f878a61537c5",
+            "bytes": 1075736
+          },
+          "normalization": "Printed primary right-to-left sign order; not a new inference about physical reading direction.",
+          "notes": ""
+        }
+      ],
+      "symbol_only_entries": [],
+      "excluded_selected_field_line_ids": [
+        "M77:5436:side2:line0"
+      ],
+      "notes": ""
+    },
+    {
+      "reference": "5437",
+      "all_counterpart_lines_accounted_for": true,
+      "counterpart_lines": [
+        {
+          "side": "1",
+          "line": "0",
+          "tokens": [
+            "M048",
+            "M342",
+            "M176"
+          ],
+          "full_sequence_primary_checked": true,
+          "pdf_page": 153,
+          "printed_page": 142,
+          "evidence_path": "results/primary_pages/u-types-iconography-153.png",
+          "evidence": {
+            "path": "results/primary_pages/u-types-iconography-153.png",
+            "sha256": "420ee1d4af6c8159936de9f33f0323bbdeebd78b087b2bc70bf64cbf5b124fbe",
+            "bytes": 1133776
+          },
+          "normalization": "Printed primary right-to-left sign order; not a new inference about physical reading direction.",
+          "notes": ""
+        }
+      ],
+      "symbol_only_entries": [
+        {
+          "side": "3",
+          "line": "9",
+          "printed_metadata_code": "38390",
+          "symbol_field_code": "83",
+          "pdf_page": 153,
+          "printed_page": 142,
+          "evidence_path": "results/primary_pages/u-types-iconography-153.png",
+          "evidence": {
+            "path": "results/primary_pages/u-types-iconography-153.png",
+            "sha256": "420ee1d4af6c8159936de9f33f0323bbdeebd78b087b2bc70bf64cbf5b124fbe",
+            "bytes": 1133776
+          },
+          "notes": "Metadata-only symbol entry; no printed script glyph string. Not tokenized as an Indus sign."
+        }
+      ],
+      "excluded_selected_field_line_ids": [
+        "M77:5437:side2:line0"
+      ],
+      "notes": ""
+    },
+    {
+      "reference": "5440",
+      "all_counterpart_lines_accounted_for": true,
+      "counterpart_lines": [
+        {
+          "side": "1",
+          "line": "0",
+          "tokens": [
+            "M048",
+            "M342",
+            "M176"
+          ],
+          "full_sequence_primary_checked": true,
+          "pdf_page": 153,
+          "printed_page": 142,
+          "evidence_path": "results/primary_pages/u-types-iconography-153.png",
+          "evidence": {
+            "path": "results/primary_pages/u-types-iconography-153.png",
+            "sha256": "420ee1d4af6c8159936de9f33f0323bbdeebd78b087b2bc70bf64cbf5b124fbe",
+            "bytes": 1133776
+          },
+          "normalization": "Printed primary right-to-left sign order; not a new inference about physical reading direction.",
+          "notes": ""
+        }
+      ],
+      "symbol_only_entries": [],
+      "excluded_selected_field_line_ids": [
+        "M77:5440:side2:line0"
+      ],
+      "notes": ""
+    },
+    {
+      "reference": "5442",
+      "all_counterpart_lines_accounted_for": true,
+      "counterpart_lines": [
+        {
+          "side": "1",
+          "line": "0",
+          "tokens": [
+            "M048",
+            "M342",
+            "M176"
+          ],
+          "full_sequence_primary_checked": true,
+          "pdf_page": 153,
+          "printed_page": 142,
+          "evidence_path": "results/primary_pages/u-types-iconography-153.png",
+          "evidence": {
+            "path": "results/primary_pages/u-types-iconography-153.png",
+            "sha256": "420ee1d4af6c8159936de9f33f0323bbdeebd78b087b2bc70bf64cbf5b124fbe",
+            "bytes": 1133776
+          },
+          "normalization": "Printed primary right-to-left sign order; not a new inference about physical reading direction.",
+          "notes": ""
+        }
+      ],
+      "symbol_only_entries": [],
+      "excluded_selected_field_line_ids": [
+        "M77:5442:side2:line0"
+      ],
+      "notes": ""
+    },
+    {
+      "reference": "5443",
+      "all_counterpart_lines_accounted_for": true,
+      "counterpart_lines": [
+        {
+          "side": "1",
+          "line": "0",
+          "tokens": [
+            "M048",
+            "M342",
+            "LOSS"
+          ],
+          "full_sequence_primary_checked": true,
+          "pdf_page": 153,
+          "printed_page": 142,
+          "evidence_path": "results/primary_pages/u-types-iconography-153.png",
+          "evidence": {
+            "path": "results/primary_pages/u-types-iconography-153.png",
+            "sha256": "420ee1d4af6c8159936de9f33f0323bbdeebd78b087b2bc70bf64cbf5b124fbe",
+            "bytes": 1133776
+          },
+          "normalization": "Printed primary right-to-left sign order; not a new inference about physical reading direction.",
+          "notes": " Hatched primary loss is a positive unknown-length span, not a single sign."
+        }
+      ],
+      "symbol_only_entries": [],
+      "excluded_selected_field_line_ids": [
+        "M77:5443:side2:line0"
+      ],
+      "notes": ""
+    },
+    {
+      "reference": "5444",
+      "all_counterpart_lines_accounted_for": true,
+      "counterpart_lines": [
+        {
+          "side": "1",
+          "line": "0",
+          "tokens": [
+            "M138",
+            "M176"
+          ],
+          "full_sequence_primary_checked": true,
+          "pdf_page": 153,
+          "printed_page": 142,
+          "evidence_path": "results/primary_pages/u-types-iconography-153.png",
+          "evidence": {
+            "path": "results/primary_pages/u-types-iconography-153.png",
+            "sha256": "420ee1d4af6c8159936de9f33f0323bbdeebd78b087b2bc70bf64cbf5b124fbe",
+            "bytes": 1133776
+          },
+          "normalization": "Printed primary right-to-left sign order; not a new inference about physical reading direction.",
+          "notes": "X with open angled cap identifies M138."
+        }
+      ],
+      "symbol_only_entries": [],
+      "excluded_selected_field_line_ids": [
+        "M77:5444:side2:line0"
+      ],
+      "notes": "X with open angled cap identifies M138."
+    },
+    {
+      "reference": "5447",
+      "all_counterpart_lines_accounted_for": true,
+      "counterpart_lines": [
+        {
+          "side": "1",
+          "line": "0",
+          "tokens": [
+            "M048",
+            "M342",
+            "M176"
+          ],
+          "full_sequence_primary_checked": true,
+          "pdf_page": 153,
+          "printed_page": 142,
+          "evidence_path": "results/primary_pages/u-types-iconography-153.png",
+          "evidence": {
+            "path": "results/primary_pages/u-types-iconography-153.png",
+            "sha256": "420ee1d4af6c8159936de9f33f0323bbdeebd78b087b2bc70bf64cbf5b124fbe",
+            "bytes": 1133776
+          },
+          "normalization": "Printed primary right-to-left sign order; not a new inference about physical reading direction.",
+          "notes": ""
+        }
+      ],
+      "symbol_only_entries": [],
+      "excluded_selected_field_line_ids": [
+        "M77:5447:side2:line0"
+      ],
+      "notes": ""
+    },
+    {
+      "reference": "5450",
+      "all_counterpart_lines_accounted_for": true,
+      "counterpart_lines": [
+        {
+          "side": "1",
+          "line": "0",
+          "tokens": [
+            "M171",
+            "M059",
+            "M211"
+          ],
+          "full_sequence_primary_checked": true,
+          "pdf_page": 153,
+          "printed_page": 142,
+          "evidence_path": "results/primary_pages/u-types-iconography-153.png",
+          "evidence": {
+            "path": "results/primary_pages/u-types-iconography-153.png",
+            "sha256": "420ee1d4af6c8159936de9f33f0323bbdeebd78b087b2bc70bf64cbf5b124fbe",
+            "bytes": 1133776
+          },
+          "normalization": "Printed primary right-to-left sign order; not a new inference about physical reading direction.",
+          "notes": ""
+        }
+      ],
+      "symbol_only_entries": [],
+      "excluded_selected_field_line_ids": [
+        "M77:5450:side2:line0"
+      ],
+      "notes": ""
+    },
+    {
+      "reference": "5452",
+      "all_counterpart_lines_accounted_for": true,
+      "counterpart_lines": [
+        {
+          "side": "1",
+          "line": "0",
+          "tokens": [
+            "M103",
+            "M403",
+            "M342"
+          ],
+          "full_sequence_primary_checked": true,
+          "pdf_page": 153,
+          "printed_page": 142,
+          "evidence_path": "results/primary_pages/u-types-iconography-153.png",
+          "evidence": {
+            "path": "results/primary_pages/u-types-iconography-153.png",
+            "sha256": "420ee1d4af6c8159936de9f33f0323bbdeebd78b087b2bc70bf64cbf5b124fbe",
+            "bytes": 1133776
+          },
+          "normalization": "Printed primary right-to-left sign order; not a new inference about physical reading direction.",
+          "notes": ""
+        }
+      ],
+      "symbol_only_entries": [],
+      "excluded_selected_field_line_ids": [
+        "M77:5452:side2:line0"
+      ],
+      "notes": ""
+    },
+    {
+      "reference": "5454",
+      "all_counterpart_lines_accounted_for": true,
+      "counterpart_lines": [
+        {
+          "side": "1",
+          "line": "0",
+          "tokens": [
+            "*M103",
+            "M403",
+            "*M342"
+          ],
+          "full_sequence_primary_checked": true,
+          "pdf_page": 153,
+          "printed_page": 142,
+          "evidence_path": "results/primary_pages/u-types-iconography-153.png",
+          "evidence": {
+            "path": "results/primary_pages/u-types-iconography-153.png",
+            "sha256": "420ee1d4af6c8159936de9f33f0323bbdeebd78b087b2bc70bf64cbf5b124fbe",
+            "bytes": 1133776
+          },
+          "normalization": "Printed primary right-to-left sign order; not a new inference about physical reading direction.",
+          "notes": "Primary doubt dots at initial M103 and final M342 are retained."
+        }
+      ],
+      "symbol_only_entries": [],
+      "excluded_selected_field_line_ids": [
+        "M77:5454:side2:line0"
+      ],
+      "notes": "Primary doubt dots at initial M103 and final M342 are retained."
+    },
+    {
+      "reference": "5455",
+      "all_counterpart_lines_accounted_for": true,
+      "counterpart_lines": [
+        {
+          "side": "1",
+          "line": "0",
+          "tokens": [
+            "LOSS",
+            "M342"
+          ],
+          "full_sequence_primary_checked": true,
+          "pdf_page": 154,
+          "printed_page": 143,
+          "evidence_path": "results/primary_pages/u-types-iconography-154.png",
+          "evidence": {
+            "path": "results/primary_pages/u-types-iconography-154.png",
+            "sha256": "d7c000d9ce23cff3a59c0d5ec1ba9f59fd7f956425587b1723d53c88289cb0ed",
+            "bytes": 1224957
+          },
+          "normalization": "Printed primary right-to-left sign order; not a new inference about physical reading direction.",
+          "notes": " Hatched primary loss is a positive unknown-length span, not a single sign."
+        }
+      ],
+      "symbol_only_entries": [],
+      "excluded_selected_field_line_ids": [
+        "M77:5455:side2:line0"
+      ],
+      "notes": ""
+    },
+    {
+      "reference": "5457",
+      "all_counterpart_lines_accounted_for": true,
+      "counterpart_lines": [
+        {
+          "side": "1",
+          "line": "0",
+          "tokens": [
+            "M048",
+            "M342",
+            "M176"
+          ],
+          "full_sequence_primary_checked": true,
+          "pdf_page": 154,
+          "printed_page": 143,
+          "evidence_path": "results/primary_pages/u-types-iconography-154.png",
+          "evidence": {
+            "path": "results/primary_pages/u-types-iconography-154.png",
+            "sha256": "d7c000d9ce23cff3a59c0d5ec1ba9f59fd7f956425587b1723d53c88289cb0ed",
+            "bytes": 1224957
+          },
+          "normalization": "Printed primary right-to-left sign order; not a new inference about physical reading direction.",
+          "notes": ""
+        }
+      ],
+      "symbol_only_entries": [
+        {
+          "side": "3",
+          "line": "9",
+          "printed_metadata_code": "38390",
+          "symbol_field_code": "83",
+          "pdf_page": 154,
+          "printed_page": 143,
+          "evidence_path": "results/primary_pages/u-types-iconography-154.png",
+          "evidence": {
+            "path": "results/primary_pages/u-types-iconography-154.png",
+            "sha256": "d7c000d9ce23cff3a59c0d5ec1ba9f59fd7f956425587b1723d53c88289cb0ed",
+            "bytes": 1224957
+          },
+          "notes": "Metadata-only symbol entry; no printed script glyph string. Not tokenized as an Indus sign."
+        }
+      ],
+      "excluded_selected_field_line_ids": [
+        "M77:5457:side2:line0"
+      ],
+      "notes": ""
+    },
+    {
+      "reference": "5464",
+      "all_counterpart_lines_accounted_for": true,
+      "counterpart_lines": [
+        {
+          "side": "1",
+          "line": "0",
+          "tokens": [
+            "M048",
+            "M342",
+            "M176"
+          ],
+          "full_sequence_primary_checked": true,
+          "pdf_page": 154,
+          "printed_page": 143,
+          "evidence_path": "results/primary_pages/u-types-iconography-154.png",
+          "evidence": {
+            "path": "results/primary_pages/u-types-iconography-154.png",
+            "sha256": "d7c000d9ce23cff3a59c0d5ec1ba9f59fd7f956425587b1723d53c88289cb0ed",
+            "bytes": 1224957
+          },
+          "normalization": "Printed primary right-to-left sign order; not a new inference about physical reading direction.",
+          "notes": ""
+        }
+      ],
+      "symbol_only_entries": [],
+      "excluded_selected_field_line_ids": [
+        "M77:5464:side2:line0"
+      ],
+      "notes": ""
+    },
+    {
+      "reference": "5466",
+      "all_counterpart_lines_accounted_for": true,
+      "counterpart_lines": [
+        {
+          "side": "1",
+          "line": "0",
+          "tokens": [
+            "M053",
+            "M347",
+            "M342"
+          ],
+          "full_sequence_primary_checked": true,
+          "pdf_page": 154,
+          "printed_page": 143,
+          "evidence_path": "results/primary_pages/u-types-iconography-154.png",
+          "evidence": {
+            "path": "results/primary_pages/u-types-iconography-154.png",
+            "sha256": "d7c000d9ce23cff3a59c0d5ec1ba9f59fd7f956425587b1723d53c88289cb0ed",
+            "bytes": 1224957
+          },
+          "normalization": "Printed primary right-to-left sign order; not a new inference about physical reading direction.",
+          "notes": ""
+        }
+      ],
+      "symbol_only_entries": [
+        {
+          "side": "3",
+          "line": "9",
+          "printed_metadata_code": "38390",
+          "symbol_field_code": "83",
+          "pdf_page": 154,
+          "printed_page": 143,
+          "evidence_path": "results/primary_pages/u-types-iconography-154.png",
+          "evidence": {
+            "path": "results/primary_pages/u-types-iconography-154.png",
+            "sha256": "d7c000d9ce23cff3a59c0d5ec1ba9f59fd7f956425587b1723d53c88289cb0ed",
+            "bytes": 1224957
+          },
+          "notes": "Metadata-only symbol entry; no printed script glyph string. Not tokenized as an Indus sign."
+        }
+      ],
+      "excluded_selected_field_line_ids": [
+        "M77:5466:side2:line0"
+      ],
+      "notes": ""
+    },
+    {
+      "reference": "5471",
+      "all_counterpart_lines_accounted_for": true,
+      "counterpart_lines": [
+        {
+          "side": "1",
+          "line": "0",
+          "tokens": [
+            "M177",
+            "M307",
+            "M149"
+          ],
+          "full_sequence_primary_checked": true,
+          "pdf_page": 154,
+          "printed_page": 143,
+          "evidence_path": "results/primary_pages/u-types-iconography-154.png",
+          "evidence": {
+            "path": "results/primary_pages/u-types-iconography-154.png",
+            "sha256": "d7c000d9ce23cff3a59c0d5ec1ba9f59fd7f956425587b1723d53c88289cb0ed",
+            "bytes": 1224957
+          },
+          "normalization": "Printed primary right-to-left sign order; not a new inference about physical reading direction.",
+          "notes": "Four displayed sides: text sides1 and2; selected stroke-plus-U side3; symbol-only side4. Side3 metadata 38301 also carries a symbol field but contains the excluded text."
+        },
+        {
+          "side": "2",
+          "line": "0",
+          "tokens": [
+            "M076",
+            "M343",
+            "M224"
+          ],
+          "full_sequence_primary_checked": true,
+          "pdf_page": 154,
+          "printed_page": 143,
+          "evidence_path": "results/primary_pages/u-types-iconography-154.png",
+          "evidence": {
+            "path": "results/primary_pages/u-types-iconography-154.png",
+            "sha256": "d7c000d9ce23cff3a59c0d5ec1ba9f59fd7f956425587b1723d53c88289cb0ed",
+            "bytes": 1224957
+          },
+          "normalization": "Printed primary right-to-left sign order; not a new inference about physical reading direction.",
+          "notes": "Middle jar has one interior short tick (M343), visibly distinct from M342. Leftmost compound has three comb-ended branches (M224). Additional enlarged crop linked in evidence inventory."
+        }
+      ],
+      "symbol_only_entries": [
+        {
+          "side": "4",
+          "line": "9",
+          "printed_metadata_code": "45190",
+          "symbol_field_code": "51",
+          "pdf_page": 154,
+          "printed_page": 143,
+          "evidence_path": "results/primary_pages/u-types-iconography-154.png",
+          "evidence": {
+            "path": "results/primary_pages/u-types-iconography-154.png",
+            "sha256": "d7c000d9ce23cff3a59c0d5ec1ba9f59fd7f956425587b1723d53c88289cb0ed",
+            "bytes": 1224957
+          },
+          "notes": "Metadata-only symbol entry; no printed script glyph string. Not tokenized as an Indus sign."
+        }
+      ],
+      "excluded_selected_field_line_ids": [
+        "M77:5471:side3:line0"
+      ],
+      "notes": "Four displayed sides: text sides1 and2; selected stroke-plus-U side3; symbol-only side4. Side3 metadata 38301 also carries a symbol field but contains the excluded text."
+    },
+    {
+      "reference": "5472",
+      "all_counterpart_lines_accounted_for": true,
+      "counterpart_lines": [
+        {
+          "side": "1",
+          "line": "0",
+          "tokens": [
+            "M286",
+            "M087",
+            "M015"
+          ],
+          "full_sequence_primary_checked": true,
+          "pdf_page": 155,
+          "printed_page": 144,
+          "evidence_path": "results/primary_pages/u-types-iconography-155.png",
+          "evidence": {
+            "path": "results/primary_pages/u-types-iconography-155.png",
+            "sha256": "f820ff5225d9b955346e13264e5a98b5ece5f2ca57551fc5ac7f46bfd900bd85",
+            "bytes": 1147494
+          },
+          "normalization": "Printed primary right-to-left sign order; not a new inference about physical reading direction.",
+          "notes": "M286 diamond has central rosette; carrying figure has terminal jar-like bars, M015."
+        }
+      ],
+      "symbol_only_entries": [],
+      "excluded_selected_field_line_ids": [
+        "M77:5472:side2:line0"
+      ],
+      "notes": "M286 diamond has central rosette; carrying figure has terminal jar-like bars, M015."
+    },
+    {
+      "reference": "5474",
+      "all_counterpart_lines_accounted_for": true,
+      "counterpart_lines": [
+        {
+          "side": "1",
+          "line": "0",
+          "tokens": [
+            "M403",
+            "M087",
+            "M342"
+          ],
+          "full_sequence_primary_checked": true,
+          "pdf_page": 155,
+          "printed_page": 144,
+          "evidence_path": "results/primary_pages/u-types-iconography-155.png",
+          "evidence": {
+            "path": "results/primary_pages/u-types-iconography-155.png",
+            "sha256": "f820ff5225d9b955346e13264e5a98b5ece5f2ca57551fc5ac7f46bfd900bd85",
+            "bytes": 1147494
+          },
+          "normalization": "Printed primary right-to-left sign order; not a new inference about physical reading direction.",
+          "notes": ""
+        }
+      ],
+      "symbol_only_entries": [],
+      "excluded_selected_field_line_ids": [
+        "M77:5474:side2:line0"
+      ],
+      "notes": ""
+    },
+    {
+      "reference": "5476",
+      "all_counterpart_lines_accounted_for": true,
+      "counterpart_lines": [
+        {
+          "side": "1",
+          "line": "0",
+          "tokens": [
+            "M391",
+            "M123",
+            "M124",
+            "M342"
+          ],
+          "full_sequence_primary_checked": true,
+          "pdf_page": 155,
+          "printed_page": 144,
+          "evidence_path": "results/primary_pages/u-types-iconography-155.png",
+          "evidence": {
+            "path": "results/primary_pages/u-types-iconography-155.png",
+            "sha256": "f820ff5225d9b955346e13264e5a98b5ece5f2ca57551fc5ac7f46bfd900bd85",
+            "bytes": 1147494
+          },
+          "normalization": "Printed primary right-to-left sign order; not a new inference about physical reading direction.",
+          "notes": ""
+        }
+      ],
+      "symbol_only_entries": [
+        {
+          "side": "3",
+          "line": "9",
+          "printed_metadata_code": "38390",
+          "symbol_field_code": "83",
+          "pdf_page": 155,
+          "printed_page": 144,
+          "evidence_path": "results/primary_pages/u-types-iconography-155.png",
+          "evidence": {
+            "path": "results/primary_pages/u-types-iconography-155.png",
+            "sha256": "f820ff5225d9b955346e13264e5a98b5ece5f2ca57551fc5ac7f46bfd900bd85",
+            "bytes": 1147494
+          },
+          "notes": "Metadata-only symbol entry; no printed script glyph string. Not tokenized as an Indus sign."
+        }
+      ],
+      "excluded_selected_field_line_ids": [
+        "M77:5476:side2:line0"
+      ],
+      "notes": ""
+    },
+    {
+      "reference": "5478",
+      "all_counterpart_lines_accounted_for": true,
+      "counterpart_lines": [
+        {
+          "side": "1",
+          "line": "0",
+          "tokens": [
+            "M072",
+            "M216",
+            "M254"
+          ],
+          "full_sequence_primary_checked": true,
+          "pdf_page": 155,
+          "printed_page": 144,
+          "evidence_path": "results/primary_pages/u-types-iconography-155.png",
+          "evidence": {
+            "path": "results/primary_pages/u-types-iconography-155.png",
+            "sha256": "f820ff5225d9b955346e13264e5a98b5ece5f2ca57551fc5ac7f46bfd900bd85",
+            "bytes": 1147494
+          },
+          "normalization": "Printed primary right-to-left sign order; not a new inference about physical reading direction.",
+          "notes": ""
+        }
+      ],
+      "symbol_only_entries": [],
+      "excluded_selected_field_line_ids": [
+        "M77:5478:side2:line0"
+      ],
+      "notes": ""
+    },
+    {
+      "reference": "5479",
+      "all_counterpart_lines_accounted_for": true,
+      "counterpart_lines": [
+        {
+          "side": "1",
+          "line": "0",
+          "tokens": [
+            "M067",
+            "M244",
+            "M149",
+            "M342"
+          ],
+          "full_sequence_primary_checked": true,
+          "pdf_page": 155,
+          "printed_page": 144,
+          "evidence_path": "results/primary_pages/u-types-iconography-155.png",
+          "evidence": {
+            "path": "results/primary_pages/u-types-iconography-155.png",
+            "sha256": "f820ff5225d9b955346e13264e5a98b5ece5f2ca57551fc5ac7f46bfd900bd85",
+            "bytes": 1147494
+          },
+          "normalization": "Printed primary right-to-left sign order; not a new inference about physical reading direction.",
+          "notes": ""
+        }
+      ],
+      "symbol_only_entries": [],
+      "excluded_selected_field_line_ids": [
+        "M77:5479:side2:line0"
+      ],
+      "notes": ""
+    },
+    {
+      "reference": "5483",
+      "all_counterpart_lines_accounted_for": true,
+      "counterpart_lines": [
+        {
+          "side": "1",
+          "line": "0",
+          "tokens": [
+            "LOSS"
+          ],
+          "full_sequence_primary_checked": true,
+          "pdf_page": 155,
+          "printed_page": 144,
+          "evidence_path": "results/primary_pages/u-types-iconography-155.png",
+          "evidence": {
+            "path": "results/primary_pages/u-types-iconography-155.png",
+            "sha256": "f820ff5225d9b955346e13264e5a98b5ece5f2ca57551fc5ac7f46bfd900bd85",
+            "bytes": 1147494
+          },
+          "normalization": "Printed primary right-to-left sign order; not a new inference about physical reading direction.",
+          "notes": "Entire first text line is a hatched missing span. LOSS does not assert that exactly one sign is missing. Hatched primary loss is a positive unknown-length span, not a single sign."
+        }
+      ],
+      "symbol_only_entries": [],
+      "excluded_selected_field_line_ids": [
+        "M77:5483:side2:line0"
+      ],
+      "notes": "Entire first text line is a hatched missing span. LOSS does not assert that exactly one sign is missing."
+    },
+    {
+      "reference": "5490",
+      "all_counterpart_lines_accounted_for": true,
+      "counterpart_lines": [
+        {
+          "side": "1",
+          "line": "0",
+          "tokens": [
+            "M048",
+            "M047",
+            "M379",
+            "M245",
+            "M245"
+          ],
+          "full_sequence_primary_checked": true,
+          "pdf_page": 156,
+          "printed_page": 145,
+          "evidence_path": "results/primary_pages/u-types-iconography-156.png",
+          "evidence": {
+            "path": "results/primary_pages/u-types-iconography-156.png",
+            "sha256": "c599d65b7177d15f95845c8748b25ae527f983f00892d82411f40b1da52edc28",
+            "bytes": 1173292
+          },
+          "normalization": "Printed primary right-to-left sign order; not a new inference about physical reading direction.",
+          "notes": "Four displayed sides: text sides1 and2; selected stroke-plus-U side3; symbol-only side4."
+        },
+        {
+          "side": "2",
+          "line": "0",
+          "tokens": [
+            "M307",
+            "M267"
+          ],
+          "full_sequence_primary_checked": true,
+          "pdf_page": 156,
+          "printed_page": 145,
+          "evidence_path": "results/primary_pages/u-types-iconography-156.png",
+          "evidence": {
+            "path": "results/primary_pages/u-types-iconography-156.png",
+            "sha256": "c599d65b7177d15f95845c8748b25ae527f983f00892d82411f40b1da52edc28",
+            "bytes": 1173292
+          },
+          "normalization": "Printed primary right-to-left sign order; not a new inference about physical reading direction.",
+          "notes": "Complete second text-bearing side, separate from both side1 and selected side3."
+        }
+      ],
+      "symbol_only_entries": [
+        {
+          "side": "4",
+          "line": "9",
+          "printed_metadata_code": "48390",
+          "symbol_field_code": "83",
+          "pdf_page": 156,
+          "printed_page": 145,
+          "evidence_path": "results/primary_pages/u-types-iconography-156.png",
+          "evidence": {
+            "path": "results/primary_pages/u-types-iconography-156.png",
+            "sha256": "c599d65b7177d15f95845c8748b25ae527f983f00892d82411f40b1da52edc28",
+            "bytes": 1173292
+          },
+          "notes": "Metadata-only symbol entry; no printed script glyph string. Not tokenized as an Indus sign."
+        }
+      ],
+      "excluded_selected_field_line_ids": [
+        "M77:5490:side3:line0"
+      ],
+      "notes": "Four displayed sides: text sides1 and2; selected stroke-plus-U side3; symbol-only side4."
+    },
+    {
+      "reference": "5495",
+      "all_counterpart_lines_accounted_for": true,
+      "counterpart_lines": [
+        {
+          "side": "1",
+          "line": "0",
+          "tokens": [
+            "*M109",
+            "M245",
+            "M245"
+          ],
+          "full_sequence_primary_checked": true,
+          "pdf_page": 156,
+          "printed_page": 145,
+          "evidence_path": "results/primary_pages/u-types-iconography-156.png",
+          "evidence": {
+            "path": "results/primary_pages/u-types-iconography-156.png",
+            "sha256": "c599d65b7177d15f95845c8748b25ae527f983f00892d82411f40b1da52edc28",
+            "bytes": 1173292
+          },
+          "normalization": "Printed primary right-to-left sign order; not a new inference about physical reading direction.",
+          "notes": "Primary dot marks M109 (two rows of three short strokes) doubtful."
+        }
+      ],
+      "symbol_only_entries": [],
+      "excluded_selected_field_line_ids": [
+        "M77:5495:side2:line0"
+      ],
+      "notes": "Primary dot marks M109 (two rows of three short strokes) doubtful."
+    },
+    {
+      "reference": "5496",
+      "all_counterpart_lines_accounted_for": true,
+      "counterpart_lines": [
+        {
+          "side": "1",
+          "line": "0",
+          "tokens": [
+            "M072",
+            "M211"
+          ],
+          "full_sequence_primary_checked": true,
+          "pdf_page": 156,
+          "printed_page": 145,
+          "evidence_path": "results/primary_pages/u-types-iconography-156.png",
+          "evidence": {
+            "path": "results/primary_pages/u-types-iconography-156.png",
+            "sha256": "c599d65b7177d15f95845c8748b25ae527f983f00892d82411f40b1da52edc28",
+            "bytes": 1173292
+          },
+          "normalization": "Printed primary right-to-left sign order; not a new inference about physical reading direction.",
+          "notes": ""
+        }
+      ],
+      "symbol_only_entries": [],
+      "excluded_selected_field_line_ids": [
+        "M77:5496:side2:line0"
+      ],
+      "notes": ""
+    },
+    {
+      "reference": "5497",
+      "all_counterpart_lines_accounted_for": true,
+      "counterpart_lines": [
+        {
+          "side": "1",
+          "line": "0",
+          "tokens": [
+            "M336",
+            "M244",
+            "M193",
+            "M012",
+            "M176"
+          ],
+          "full_sequence_primary_checked": true,
+          "pdf_page": 156,
+          "printed_page": 145,
+          "evidence_path": "results/primary_pages/u-types-iconography-156.png",
+          "evidence": {
+            "path": "results/primary_pages/u-types-iconography-156.png",
+            "sha256": "c599d65b7177d15f95845c8748b25ae527f983f00892d82411f40b1da52edc28",
+            "bytes": 1173292
+          },
+          "normalization": "Printed primary right-to-left sign order; not a new inference about physical reading direction.",
+          "notes": ""
+        }
+      ],
+      "symbol_only_entries": [],
+      "excluded_selected_field_line_ids": [
+        "M77:5497:side2:line0"
+      ],
+      "notes": ""
+    },
+    {
+      "reference": "5498",
+      "all_counterpart_lines_accounted_for": true,
+      "counterpart_lines": [
+        {
+          "side": "1",
+          "line": "0",
+          "tokens": [
+            "M119",
+            "M087",
+            "M342",
+            "M176"
+          ],
+          "full_sequence_primary_checked": true,
+          "pdf_page": 156,
+          "printed_page": 145,
+          "evidence_path": "results/primary_pages/u-types-iconography-156.png",
+          "evidence": {
+            "path": "results/primary_pages/u-types-iconography-156.png",
+            "sha256": "c599d65b7177d15f95845c8748b25ae527f983f00892d82411f40b1da52edc28",
+            "bytes": 1173292
+          },
+          "normalization": "Printed primary right-to-left sign order; not a new inference about physical reading direction.",
+          "notes": "Initial oblique groups have 2/3/3 strokes, M119, not M120."
+        }
+      ],
+      "symbol_only_entries": [],
+      "excluded_selected_field_line_ids": [
+        "M77:5498:side2:line0"
+      ],
+      "notes": "Initial oblique groups have 2/3/3 strokes, M119, not M120."
+    },
+    {
+      "reference": "5499",
+      "all_counterpart_lines_accounted_for": true,
+      "counterpart_lines": [
+        {
+          "side": "1",
+          "line": "0",
+          "tokens": [
+            "M048",
+            "M342",
+            "M176"
+          ],
+          "full_sequence_primary_checked": true,
+          "pdf_page": 156,
+          "printed_page": 145,
+          "evidence_path": "results/primary_pages/u-types-iconography-156.png",
+          "evidence": {
+            "path": "results/primary_pages/u-types-iconography-156.png",
+            "sha256": "c599d65b7177d15f95845c8748b25ae527f983f00892d82411f40b1da52edc28",
+            "bytes": 1173292
+          },
+          "normalization": "Printed primary right-to-left sign order; not a new inference about physical reading direction.",
+          "notes": ""
+        }
+      ],
+      "symbol_only_entries": [
+        {
+          "side": "3",
+          "line": "9",
+          "printed_metadata_code": "38390",
+          "symbol_field_code": "83",
+          "pdf_page": 156,
+          "printed_page": 145,
+          "evidence_path": "results/primary_pages/u-types-iconography-156.png",
+          "evidence": {
+            "path": "results/primary_pages/u-types-iconography-156.png",
+            "sha256": "c599d65b7177d15f95845c8748b25ae527f983f00892d82411f40b1da52edc28",
+            "bytes": 1173292
+          },
+          "notes": "Metadata-only symbol entry; no printed script glyph string. Not tokenized as an Indus sign."
+        }
+      ],
+      "excluded_selected_field_line_ids": [
+        "M77:5499:side2:line0"
+      ],
+      "notes": ""
+    },
+    {
+      "reference": "8117",
+      "all_counterpart_lines_accounted_for": true,
+      "counterpart_lines": [
+        {
+          "side": "1",
+          "line": "0",
+          "tokens": [
+            "M076",
+            "M342",
+            "M176"
+          ],
+          "full_sequence_primary_checked": true,
+          "pdf_page": 168,
+          "printed_page": 157,
+          "evidence_path": "results/primary_pages/m77-u-types-parent-extra-168.png",
+          "evidence": {
+            "path": "results/primary_pages/m77-u-types-parent-extra-168.png",
+            "sha256": "d2020300794aa98d6aa6abeb3cb9bbe1dfb94a65f2027f9ef4ec2f48bdf7d81c",
+            "bytes": 1620325
+          },
+          "normalization": "Printed primary right-to-left sign order; not a new inference about physical reading direction.",
+          "notes": "Independent primary reading on PDF168 agrees with M076 M342 M176; no catalogue namespace crosswalk used."
+        }
+      ],
+      "symbol_only_entries": [],
+      "excluded_selected_field_line_ids": [
+        "M77:8117:side2:line0"
+      ],
+      "notes": "Independent primary reading on PDF168 agrees with M076 M342 M176; no catalogue namespace crosswalk used."
+    }
+  ],
+  "evidence": [
+    {
+      "path": "results/primary_pages/u-types-iconography-147.png",
+      "sha256": "93c26ffe7755fd6b8438b72d80bd5d89aba8f2ecd1b6dd8a4a927f585cbfaee3",
+      "bytes": 1258412
+    },
+    {
+      "path": "results/primary_pages/u-types-iconography-148.png",
+      "sha256": "3889751ad1a65f7917e27d8d2de11aa5804c83df4142c44870dc8644d3d29b57",
+      "bytes": 1176669
+    },
+    {
+      "path": "results/primary_pages/u-types-iconography-149.png",
+      "sha256": "7621753c3334a296078192e23571f5d166a568ccff79f05516de5db583db1253",
+      "bytes": 1189205
+    },
+    {
+      "path": "results/primary_pages/u-types-iconography-150.png",
+      "sha256": "c3dc54a45f61c52a3229fded95b1634b0dd14e54222c4b437c91430600c0579f",
+      "bytes": 1157419
+    },
+    {
+      "path": "results/primary_pages/u-types-iconography-151.png",
+      "sha256": "9aeb76cd391f91a49041083817d12dbfabf961c536d3c16a42a62486d6db5016",
+      "bytes": 1055941
+    },
+    {
+      "path": "results/primary_pages/u-types-iconography-152.png",
+      "sha256": "5574e774f4922e09be48079e1f31a272b9af28844fb86092cf24f878a61537c5",
+      "bytes": 1075736
+    },
+    {
+      "path": "results/primary_pages/u-types-iconography-153.png",
+      "sha256": "420ee1d4af6c8159936de9f33f0323bbdeebd78b087b2bc70bf64cbf5b124fbe",
+      "bytes": 1133776
+    },
+    {
+      "path": "results/primary_pages/u-types-iconography-154.png",
+      "sha256": "d7c000d9ce23cff3a59c0d5ec1ba9f59fd7f956425587b1723d53c88289cb0ed",
+      "bytes": 1224957
+    },
+    {
+      "path": "results/primary_pages/u-types-iconography-155.png",
+      "sha256": "f820ff5225d9b955346e13264e5a98b5ece5f2ca57551fc5ac7f46bfd900bd85",
+      "bytes": 1147494
+    },
+    {
+      "path": "results/primary_pages/u-types-iconography-156.png",
+      "sha256": "c599d65b7177d15f95845c8748b25ae527f983f00892d82411f40b1da52edc28",
+      "bytes": 1173292
+    },
+    {
+      "path": "results/primary_pages/m77-u-types-parent-extra-168.png",
+      "sha256": "d2020300794aa98d6aa6abeb3cb9bbe1dfb94a65f2027f9ef4ec2f48bdf7d81c",
+      "bytes": 1620325
+    },
+    {
+      "path": "results/primary_pages/sign_list_page_32.png",
+      "sha256": "1e3f91789c947add7ce796479168d84d69636ebdc378493743188ac11c53c90a",
+      "bytes": 982719
+    },
+    {
+      "path": "results/primary_pages/sign_list-044.png",
+      "sha256": "33eff554bfdea81af6d1a3510a5b2541d1b74b02ae1e63b253c725b44c7c0b64",
+      "bytes": 2228064
+    },
+    {
+      "path": "results/primary_pages/sign_list-045.png",
+      "sha256": "972002b288ea77921dcacfe67386dbf585b76be6bca5444b7ff9422e47e70b89",
+      "bytes": 2312636
+    },
+    {
+      "path": "results/primary_pages/sign_list-046.png",
+      "sha256": "a191e9297a6ab8b7cad1028eaeac062b4b6fa3cd34aefbdd507f669d736d2e8e",
+      "bytes": 2099531
+    },
+    {
+      "path": "results/primary_pages/u-counterpart-iconography-147-glyphs.png",
+      "sha256": "ed7f76114d9fb0030df37a3dfff59f69f56080d5f02142b5cd3662128bd0a749",
+      "bytes": 456477
+    },
+    {
+      "path": "results/primary_pages/u-counterpart-iconography-148-glyphs.png",
+      "sha256": "57ba5ddaeb7ad2bfafa1cd618fda36994fdb3947d6bbe8c8b7395d1a3df3cd28",
+      "bytes": 441270
+    },
+    {
+      "path": "results/primary_pages/u-counterpart-iconography-149-glyphs.png",
+      "sha256": "0940175ca965c7cb78a773d475190e798c61789def0be96beb37ef8ea68e0029",
+      "bytes": 416744
+    },
+    {
+      "path": "results/primary_pages/u-counterpart-iconography-150-glyphs.png",
+      "sha256": "5d8d9c192c7ac0c44f32284f5e6f2df17dee647453f515de9cb2ee194d1ad4ee",
+      "bytes": 436467
+    },
+    {
+      "path": "results/primary_pages/u-counterpart-iconography-5471.png",
+      "sha256": "18da17ce0ce8e40a65330ceefd5dd22a73d12c1150925f95e945f241662cca62",
+      "bytes": 171392
+    }
+  ],
+  "limitations": [
+    "These are primary editorial sign drawings, not independent artifact photographs.",
+    "All-accounted-for means every displayed other line is represented; it does not make a lost or doubtful line complete or eligible for strict grouping.",
+    "No semantics, phonetics, owner names, commodity identities, or amounts are assigned.",
+    "The inventory IDs are Mahadevan identifiers only.",
+    "Exact bundle comparison must preserve side/line layout and separately verified object type."
+  ]
+}

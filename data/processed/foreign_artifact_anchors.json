@@ -1,0 +1,234 @@
+{
+  "schema": "foreign-artifact-anchors-v1",
+  "scope": {
+    "selected_cases": 5,
+    "exact_m77_to_museum_joins": 2,
+    "m77_primary_report_join_without_accession": 1,
+    "gulf_comparison_cases": 2,
+    "independent_semantic_equivalents": 0,
+    "new_photo_glyph_verifications": 0,
+    "selection": "Bounded purposive audit, not exhaustive corpus"
+  },
+  "sources": [
+    {
+      "id": "m77",
+      "path": "data/raw/mahadevan_1977_text.pdf",
+      "sha256": "6dcdd074a0174e5fab149590fbbf82342711d345764e9763f8e5e92c81cf7f99",
+      "pdf_page": 838,
+      "printed_page": 829
+    },
+    {
+      "id": "louvre_sb2425",
+      "path": "data/raw/louvre_sb2425_record.json",
+      "url": "https://collections.louvre.fr/ark:/53355/cl010176471.json",
+      "sha256": "f2eea59e415a74e3792b09ca1f4294042a241a5c57a8957d08fc2a68a77dd3c0",
+      "bytes": 4408
+    },
+    {
+      "id": "bm123208",
+      "url": "https://www.britishmuseum.org/collection/object/W_1932-1008-178",
+      "access": "Official indexed catalogue text; direct open HTTP403"
+    },
+    {
+      "id": "langdon1931",
+      "url": "https://doi.org/10.1017/S0035869X00110615",
+      "access": "Primary publisher abstract/extract"
+    },
+    {
+      "id": "laursen2010",
+      "url": "https://www.harappa.com/sites/default/files/pdf/The_westward_transmission_of_Indus_Valle.pdf",
+      "doi": "10.1111/j.1600-0471.2010.00329.x",
+      "access": "Public web-tool text; direct download HTTP403; no original PDF stored"
+    },
+    {
+      "id": "web_capture",
+      "path": "data/raw/foreign_artifact_web_capture.json",
+      "type": "web_tool_text_capture_not_original_document",
+      "status": "saved",
+      "bytes": 65264,
+      "sha256": "9ef72713633ffb88fe21e0e906a5d902d670502d492a20d14b0da9498dc3e930"
+    }
+  ],
+  "records": [
+    {
+      "case": "m77-9801",
+      "m77_reference": "9801",
+      "join_status": "exact_publication_to_museum",
+      "identifiers": {
+        "louvre": "SB 2425",
+        "alternate": "AS 41",
+        "catalogue": "CCO S.299"
+      },
+      "join_chain": [
+        "M77 AppendixV: Susa, CCO I plXXV fig15",
+        "Louvre SB2425 bibliography: Delaporte1920 I p45 pl25 fig15 S299"
+      ],
+      "context": {
+        "site": "Susa",
+        "mission": "Jacques de Morgan",
+        "discovery": "1898\u20131906",
+        "stratigraphic_unit": null
+      },
+      "object": {
+        "type": "cylinder seal",
+        "material": "steatite",
+        "height_mm": 23,
+        "diameter_mm": 16,
+        "inscription_classification": "Indus per Louvre",
+        "motif": "two bovines; one at a manger, per museum"
+      },
+      "photo_urls": [
+        "https://collections.louvre.fr/media/cache/large/0000000021/0000176471/0000227527_OG.JPG",
+        "https://collections.louvre.fr/media/cache/large/0000000021/0000176471/0000227526_OG.JPG"
+      ],
+      "new_visual_inspection": false,
+      "semantic_anchor": null,
+      "limits": [
+        "Catalogue date2400\u20132100BCE and Indus-origin attribution are not recovered stratigraphic proof.",
+        "SB5614 is a different circular Susa seal."
+      ]
+    },
+    {
+      "case": "m77-9846",
+      "m77_reference": "9846",
+      "join_status": "exact_publication_to_museum",
+      "identifiers": {
+        "british_museum": "123208",
+        "registration": "1932,1008.178",
+        "gadd1932": "16",
+        "mitchell1986": "2"
+      },
+      "join_chain": [
+        "M77 AppendixV: Ur, PBA18(1932) p191 no16",
+        "British Museum123208 bibliography: Gadd1932 plIII no16"
+      ],
+      "context": {
+        "site": "Ur",
+        "excavator": "Leonard Woolley",
+        "season": "1931/32",
+        "unit": "PG1847 shaft fill",
+        "association": "Individual burial/owner uncertain"
+      },
+      "object": {
+        "type": "circular Gulf-type stamp seal",
+        "material": "steatite",
+        "diameter_mm": 22,
+        "technique": "engraved/pierced",
+        "condition": "one side badly chipped",
+        "motif": "humped bull",
+        "inscription_classification": "possibly pseudo-Indus per museum"
+      },
+      "photo_record_url": "https://www.britishmuseum.org/collection/object/W_1932-1008-178",
+      "new_visual_inspection": false,
+      "semantic_anchor": null,
+      "limits": [
+        "Gadd no16 is not Gadd no2; Mitchell no2 does not identify M77 9832.",
+        "Burial fill does not establish a funerary phrase or owner name.",
+        "M77 readable-line status does not override physical damage or writing-system uncertainty."
+      ]
+    },
+    {
+      "case": "m77-9822",
+      "m77_reference": "9822",
+      "join_status": "exact_primary_publication_reference_no_accession",
+      "identifiers": {
+        "publication": "Langdon1931 JRAS pp593\u2013596; M77 cites p595 figB",
+        "museum": null
+      },
+      "context": {
+        "site": "Kish",
+        "depth_m": 9,
+        "associated_object": "stone pommel with inscription not earlier than Sargon",
+        "disturbance": "Primary author states both objects might have fallen from above"
+      },
+      "photo_publication_reference": "Langdon1931 p595 figB",
+      "new_visual_inspection": false,
+      "semantic_anchor": null,
+      "limits": [
+        "Publisher extract rather than original plate inspected.",
+        "Associated cuneiform object is not a bilingual equivalent.",
+        "Secure pre-Sargonic date not established."
+      ]
+    },
+    {
+      "case": "bahrain-laursen-11",
+      "m77_reference": null,
+      "join_status": "primary_report_case",
+      "identifiers": {
+        "laursen2010": "11",
+        "figure": "1b",
+        "bahrain_burial_mound": "14569",
+        "museum_accession": null
+      },
+      "context": {
+        "site": "Karzakkan Cemetery, Bahrain",
+        "burial_type": "Late Type mound"
+      },
+      "object": {
+        "material": "steatite",
+        "inscription_classification": "pseudo-script per primary author",
+        "motif": "short-horned bull"
+      },
+      "photo_publication_reference": "Laursen2010 Fig1b, PDF3/printed98; Table1 PDF5/printed100",
+      "new_visual_inspection": false,
+      "semantic_anchor": null,
+      "limits": [
+        "BBM is mound identifier, not seal accession.",
+        "Do not force imitation marks into M77 signs.",
+        "Find context does not reveal words or names."
+      ]
+    },
+    {
+      "case": "failaka-kjaerum-279",
+      "m77_reference": null,
+      "join_status": "secondary_catalogue_join_in_research_study",
+      "identifiers": {
+        "kjaerum1983": "cat279",
+        "laursen2010": "13",
+        "museum_accession": null
+      },
+      "context": {
+        "site": "Failaka",
+        "excavation_unit": null
+      },
+      "object": {
+        "type": "Dilmun-style seal per Laursen",
+        "inscription_classification": "anomalous/pseudo-Indus, possible emulation per Laursen"
+      },
+      "photo_publication_reference": "Laursen2010 Fig9/13 and Kj\u00e6rum1983 cat279",
+      "new_visual_inspection": false,
+      "semantic_anchor": null,
+      "limits": [
+        "Original Kj\u00e6rum catalogue and excavation unit not inspected.",
+        "Not equal to Kj\u00e6rum cat319 (Laursen no12), nor uninscribed cats294\u2013295.",
+        "No new M77 identifier assigned."
+      ]
+    }
+  ],
+  "unresolved": [
+    {
+      "m77_reference": "9832",
+      "verified": "M77\u2192Gadd1932 no2, Ur",
+      "museum_accession": null,
+      "precise_context": null,
+      "prohibited_shortcut": "Do not assign BM123208 by Mitchell1986 no2."
+    }
+  ],
+  "excluded_controls": [
+    {
+      "object": "Louvre SB5614 / AS15374",
+      "reason": "Different circular Susa seal, not M77 9801.",
+      "url": "https://collections.louvre.fr/ark:/53355/cl010179441"
+    },
+    {
+      "object": "BM120573 / U7683 /1932,1009.56",
+      "reason": "Museum describes Sumerian inscription on Indus-style object, Diqdiqqah surface find; not an Indus bilingual.",
+      "url": "https://www.britishmuseum.org/collection/object/W_1928-1009-56"
+    },
+    {
+      "object": "Laursen2010 no10, Janabiyah",
+      "reason": "Separate worn inscription; no BBM number in Table1; not conflated with no11."
+    }
+  ],
+  "conclusion": "Independent artifact context constrains geography, chronology and function but supplies no aligned semantic equivalent in these five cases. Foreign-sequence differences cannot alone identify a different language or prove imitation."
+}

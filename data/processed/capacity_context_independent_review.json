@@ -1,0 +1,407 @@
+{
+  "scope": "independent manual review of retained primary images, not independent archaeological sample",
+  "established_semantic_values": 0,
+  "established_phonetic_values": 0,
+  "source_pages": {
+    "table_left": 254,
+    "table_right": 255,
+    "narrative": 91
+  },
+  "rows": [
+    {
+      "row": 2,
+      "register": "1033A",
+      "mound": "F",
+      "trench": "I",
+      "square": "M11/16",
+      "depth": "5ft6in",
+      "stratum": "III",
+      "height": "3ft",
+      "height_inches": 36,
+      "description": "Large, napiform",
+      "contents": {
+        "bones": "6[unresolved fraction]oz",
+        "bones_numeric_ounces": null,
+        "pointed_base_goblets": {
+          "raw": "Do.",
+          "antecedent_row": 1,
+          "resolved": "2 and 2 fragmentary"
+        },
+        "other_pottery": "2 medium cylindrical and2 small round vases and1 fragmentary long oval vase",
+        "toys": "Seated male",
+        "cakes": null,
+        "potsherds": "Several, miscellaneous",
+        "ornaments": "Round faience bead No.3531f",
+        "charcoal": "Some charcoal",
+        "shell_ivory_copper": null,
+        "miscellaneous": null
+      }
+    },
+    {
+      "row": 3,
+      "register": "1033B",
+      "mound": "F",
+      "trench": "I",
+      "square": "M11/16",
+      "depth": "5ft6in",
+      "stratum": "III",
+      "height": "2ft10in",
+      "height_inches": 34,
+      "description": {
+        "raw": "Do.",
+        "antecedent_row": 2,
+        "resolved": "Large, napiform"
+      },
+      "contents": {
+        "bones": "6[unresolved fraction]oz",
+        "bones_numeric_ounces": null,
+        "pointed_base_goblets": null,
+        "other_pottery": null,
+        "toys": null,
+        "cakes": "Fragments",
+        "potsherds": "Of goblets with pointed bases, vases, etc.",
+        "ornaments": "Fragments of bangles",
+        "charcoal": null,
+        "shell_ivory_copper": null,
+        "miscellaneous": "Charred wheat and slag"
+      }
+    },
+    {
+      "row": 18,
+      "register": "3822",
+      "mound": "F",
+      "trench": "I",
+      "square": "M12/6",
+      "depth": "15ft9in",
+      "stratum": "VI",
+      "height": "2ft3in",
+      "height_inches": 27,
+      "height_cm": 68.58,
+      "mouth_diameter": "11in",
+      "mouth_diameter_cm": 27.94,
+      "description": "Large, napiform, in sherds",
+      "potsherds": "2 small, one being of the neck of jar",
+      "remarks": {
+        "reported_pictograms": 3,
+        "location": "shoulder",
+        "nearby_objects": [
+          "jar stand3823A",
+          "jar stand3823B"
+        ],
+        "plate": "XXIII,c"
+      },
+      "plate_image_visually_inspected_this_review": false,
+      "simple_stroke_count_established": false
+    }
+  ],
+  "shared_rows2and3_remark": {
+    "explicitly_names_both_rows": true,
+    "condition": "fragmentary",
+    "setting": "against a small broken pavement",
+    "plate": "XXIII,a"
+  },
+  "narrative1033AB": {
+    "same_square": "M11/16",
+    "paint": "pairs of black bands on deep red ground",
+    "B_location": "south under drain",
+    "A_location": "west, half buried; upper part above pavement",
+    "plate": "XXIII,a",
+    "explicit_contents_footnote_pages": [
+      254,
+      255
+    ],
+    "nearby_shaft_dimensions_not_jar_dimensions": {
+      "internal_length": "3ft4in",
+      "internal_width": "2ft5in",
+      "standing_height": "5ft7in"
+    },
+    "granary_interpretation": "author proposed for nearby shaft, not a measured jar capacity"
+  },
+  "blank_and_ditto_rules": [
+    "Only explicit Do. is expanded within its column.",
+    "Dots retained as unreported cell/null, not quantitative zero or transfer from preceding row.",
+    "Row2 remark explicitly names Nos2and3, so applies to both.",
+    "Charred wheat and slag row3 not transferred to row2."
+  ],
+  "dimension_comparison_only": [
+    {
+      "register": "1033A",
+      "Vats_height_inches": 36,
+      "converted_cm_exact": "2286/25",
+      "converted_cm_decimal": 91.44,
+      "Fuls_external_height_cm": 91.4,
+      "Fuls_minus_Vats_cm_exact": "-1/25",
+      "rounds_to_Fuls_at_one_decimal_cm": true,
+      "CISI_alias_used": false
+    },
+    {
+      "register": "1033B",
+      "Vats_height_inches": 34,
+      "converted_cm_exact": "2159/25",
+      "converted_cm_decimal": 86.36,
+      "Fuls_external_height_cm": 86.4,
+      "Fuls_minus_Vats_cm_exact": "1/25",
+      "rounds_to_Fuls_at_one_decimal_cm": true,
+      "CISI_alias_used": false
+    }
+  ],
+  "not_verified": [
+    "CISI aliases",
+    "maximum external diameters",
+    "internal heights",
+    "opening diameters of1033A/B",
+    "capacities",
+    "stroke counts or ancient numeric values",
+    "independent origin of later height measurements"
+  ],
+  "crop_manifest": [
+    {
+      "source": {
+        "path": "data/raw/capacity-context-vats-leaf280.jpg",
+        "bytes": 1991666,
+        "sha256": "ec77d24d111ac18e2bf563c6ff7c6fb49d3d126971992e71844849705974e7fc"
+      },
+      "output": {
+        "path": "results/primary_pages/capacity-context-independent-table-left-rows1to4.png",
+        "bytes": 1887197,
+        "sha256": "73876b5fd9d412b0161339d13f125d95b962e43db74adb4a1de090c08c471fd6"
+      },
+      "box_xyxy": [
+        650,
+        1500,
+        5170,
+        2530
+      ],
+      "operation": "native rectangular crop only"
+    },
+    {
+      "source": {
+        "path": "data/raw/capacity-context-vats-leaf281.jpg",
+        "bytes": 1942134,
+        "sha256": "a49bf11a57842dd8d44abf2215b8ceb10e51924ee0b8236822e75d9442474513"
+      },
+      "output": {
+        "path": "results/primary_pages/capacity-context-independent-table-right-rows1to4.png",
+        "bytes": 1692677,
+        "sha256": "bbcd6e9c5ed160a96dc5c684990facea0bae2f0941a5937e69b57928bdbca9ea"
+      },
+      "box_xyxy": [
+        530,
+        1560,
+        5050,
+        2560
+      ],
+      "operation": "native rectangular crop only"
+    },
+    {
+      "source": {
+        "path": "data/raw/capacity-context-vats-leaf280.jpg",
+        "bytes": 1991666,
+        "sha256": "ec77d24d111ac18e2bf563c6ff7c6fb49d3d126971992e71844849705974e7fc"
+      },
+      "output": {
+        "path": "results/primary_pages/capacity-context-independent-table-left-row18.png",
+        "bytes": 819499,
+        "sha256": "90a251ec06143ac2536be9f5690ae7c7946f1f6767b5bc3e904911066dad669e"
+      },
+      "box_xyxy": [
+        650,
+        5100,
+        5150,
+        5710
+      ],
+      "operation": "native rectangular crop only"
+    },
+    {
+      "source": {
+        "path": "data/raw/capacity-context-vats-leaf281.jpg",
+        "bytes": 1942134,
+        "sha256": "a49bf11a57842dd8d44abf2215b8ceb10e51924ee0b8236822e75d9442474513"
+      },
+      "output": {
+        "path": "results/primary_pages/capacity-context-independent-table-right-row18.png",
+        "bytes": 610194,
+        "sha256": "f80118e7a927714c867b00bb0ecc2d85731526497cb5e3739d8affddd08dbae3"
+      },
+      "box_xyxy": [
+        530,
+        5430,
+        5050,
+        5900
+      ],
+      "operation": "native rectangular crop only"
+    },
+    {
+      "source": {
+        "path": "data/raw/capacity-context-vats-leaf280.jpg",
+        "bytes": 1991666,
+        "sha256": "ec77d24d111ac18e2bf563c6ff7c6fb49d3d126971992e71844849705974e7fc"
+      },
+      "output": {
+        "path": "results/primary_pages/capacity-context-independent-bones-rows2and3.png",
+        "bytes": 90648,
+        "sha256": "f0a4a2a014fc1f0c5bdbfa1651b6f96f0065665151e9ef449745fcafd71db284"
+      },
+      "box_xyxy": [
+        3550,
+        1960,
+        4100,
+        2500
+      ],
+      "operation": "native rectangular crop only"
+    },
+    {
+      "source": {
+        "path": "data/raw/capacity-context-vats-leaf281.jpg",
+        "bytes": 1942134,
+        "sha256": "a49bf11a57842dd8d44abf2215b8ceb10e51924ee0b8236822e75d9442474513"
+      },
+      "output": {
+        "path": "results/primary_pages/capacity-context-independent-row18-remarks.png",
+        "bytes": 207636,
+        "sha256": "1c623ac4d7166956143025b5f05650af1e95e4fe5dc3ba2420ee4fa04599d496"
+      },
+      "box_xyxy": [
+        4200,
+        5400,
+        5100,
+        5920
+      ],
+      "operation": "native rectangular crop only"
+    },
+    {
+      "source": {
+        "path": "data/raw/capacity-context-vats-leaf281.jpg",
+        "bytes": 1942134,
+        "sha256": "a49bf11a57842dd8d44abf2215b8ceb10e51924ee0b8236822e75d9442474513"
+      },
+      "output": {
+        "path": "results/primary_pages/capacity-context-independent-row2-bead.png",
+        "bytes": 70032,
+        "sha256": "67fd887350e3342c77e364740cdbe1f4c2a9e373db82a080bbc24286d9cb9026"
+      },
+      "box_xyxy": [
+        2100,
+        2100,
+        2700,
+        2320
+      ],
+      "operation": "native rectangular crop only"
+    },
+    {
+      "source": {
+        "path": "data/raw/capacity-context-vats-leaf117.jpg",
+        "bytes": 2623937,
+        "sha256": "8ab56e2b2e416378105c89579e842a220a77199b6a43e6d85737f09913d7df08"
+      },
+      "output": {
+        "path": "results/primary_pages/capacity-context-independent-context1033AB.png",
+        "bytes": 3252984,
+        "sha256": "0279ab66756fe4f5017656dc4808c12844c2a11f92bfb4f597afbf55e4d4f96c"
+      },
+      "box_xyxy": [
+        600,
+        2480,
+        4370,
+        3790
+      ],
+      "operation": "native rectangular crop only"
+    },
+    {
+      "source": {
+        "path": "data/raw/capacity-context-vats-leaf280.jpg",
+        "bytes": 1991666,
+        "sha256": "ec77d24d111ac18e2bf563c6ff7c6fb49d3d126971992e71844849705974e7fc"
+      },
+      "output": {
+        "path": "results/primary_pages/capacity-context-independent-fraction-comparator.png",
+        "bytes": 29419,
+        "sha256": "a80c8ecafbe058cb837c1629eb3669ff8c8be7232a4d9e8ba5f767b297046060"
+      },
+      "box_xyxy": [
+        3550,
+        3550,
+        4100,
+        3740
+      ],
+      "operation": "native rectangular crop only"
+    }
+  ],
+  "evidence_files": [
+    {
+      "path": "data/processed/capacity_table_followup.json",
+      "bytes": 7668,
+      "sha256": "15a8bc4e1dfaa3a98d80ffc49eef40f4e0aef312bd96631fa7a1dcfa8689b129"
+    },
+    {
+      "path": "data/raw/capacity-context-vats-leaf117.jpg",
+      "bytes": 2623937,
+      "sha256": "8ab56e2b2e416378105c89579e842a220a77199b6a43e6d85737f09913d7df08"
+    },
+    {
+      "path": "data/raw/capacity-context-vats-leaf280.jpg",
+      "bytes": 1991666,
+      "sha256": "ec77d24d111ac18e2bf563c6ff7c6fb49d3d126971992e71844849705974e7fc"
+    },
+    {
+      "path": "data/raw/capacity-context-vats-leaf281.jpg",
+      "bytes": 1942134,
+      "sha256": "a49bf11a57842dd8d44abf2215b8ceb10e51924ee0b8236822e75d9442474513"
+    },
+    {
+      "path": "docs/CAPACITY_CONTEXT_INDEPENDENT_REVIEW.md",
+      "bytes": 6095,
+      "sha256": "e790e7b2024297e3d6f1b2a041299160f9c77f4f52cda7ee1b66593ca6e1002c"
+    },
+    {
+      "path": "results/primary_pages/capacity-context-independent-bones-rows2and3.png",
+      "bytes": 90648,
+      "sha256": "f0a4a2a014fc1f0c5bdbfa1651b6f96f0065665151e9ef449745fcafd71db284"
+    },
+    {
+      "path": "results/primary_pages/capacity-context-independent-context1033AB.png",
+      "bytes": 3252984,
+      "sha256": "0279ab66756fe4f5017656dc4808c12844c2a11f92bfb4f597afbf55e4d4f96c"
+    },
+    {
+      "path": "results/primary_pages/capacity-context-independent-fraction-comparator.png",
+      "bytes": 29419,
+      "sha256": "a80c8ecafbe058cb837c1629eb3669ff8c8be7232a4d9e8ba5f767b297046060"
+    },
+    {
+      "path": "results/primary_pages/capacity-context-independent-row18-remarks.png",
+      "bytes": 207636,
+      "sha256": "1c623ac4d7166956143025b5f05650af1e95e4fe5dc3ba2420ee4fa04599d496"
+    },
+    {
+      "path": "results/primary_pages/capacity-context-independent-row2-bead.png",
+      "bytes": 70032,
+      "sha256": "67fd887350e3342c77e364740cdbe1f4c2a9e373db82a080bbc24286d9cb9026"
+    },
+    {
+      "path": "results/primary_pages/capacity-context-independent-table-left-row18.png",
+      "bytes": 819499,
+      "sha256": "90a251ec06143ac2536be9f5690ae7c7946f1f6767b5bc3e904911066dad669e"
+    },
+    {
+      "path": "results/primary_pages/capacity-context-independent-table-left-rows1to4.png",
+      "bytes": 1887197,
+      "sha256": "73876b5fd9d412b0161339d13f125d95b962e43db74adb4a1de090c08c471fd6"
+    },
+    {
+      "path": "results/primary_pages/capacity-context-independent-table-right-row18.png",
+      "bytes": 610194,
+      "sha256": "f80118e7a927714c867b00bb0ecc2d85731526497cb5e3739d8affddd08dbae3"
+    },
+    {
+      "path": "results/primary_pages/capacity-context-independent-table-right-rows1to4.png",
+      "bytes": 1692677,
+      "sha256": "bbcd6e9c5ed160a96dc5c684990facea0bae2f0941a5937e69b57928bdbca9ea"
+    },
+    {
+      "path": "scripts/persist_capacity_context_independent_review.py",
+      "bytes": 5650,
+      "sha256": "ad71adcdcb771794352ff917e591c6e05656a4f059e3d7a379016a6bd575a6d1"
+    }
+  ]
+}

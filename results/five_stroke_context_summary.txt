@@ -1,0 +1,213 @@
+{
+  "coverage": [
+    {
+      "sign": "M096",
+      "primary_table_i": {
+        "solus": 1,
+        "initial": 2,
+        "medial": 13,
+        "final": 6,
+        "total": 22
+      },
+      "export_occurrences_including_doubt_and_multiple_document_records": 20,
+      "primary_total_minus_export_tokens": 2,
+      "reconciled_position_counts": {
+        "solus": 1,
+        "initial": 2,
+        "medial": 13,
+        "final": 6
+      },
+      "reconciled_total": 22
+    },
+    {
+      "sign": "M106",
+      "primary_table_i": {
+        "solus": 1,
+        "initial": 18,
+        "medial": 18,
+        "final": 1,
+        "total": 38
+      },
+      "export_occurrences_including_doubt_and_multiple_document_records": 35,
+      "primary_total_minus_export_tokens": 3,
+      "reconciled_position_counts": {
+        "solus": 1,
+        "initial": 18,
+        "medial": 18,
+        "final": 1
+      },
+      "reconciled_total": 38
+    },
+    {
+      "sign": "M107",
+      "primary_table_i": {
+        "solus": 0,
+        "initial": 2,
+        "medial": 1,
+        "final": 3,
+        "total": 6
+      },
+      "export_occurrences_including_doubt_and_multiple_document_records": 5,
+      "primary_total_minus_export_tokens": 1,
+      "reconciled_position_counts": {
+        "solus": 0,
+        "initial": 2,
+        "medial": 1,
+        "final": 3
+      },
+      "reconciled_total": 6
+    }
+  ],
+  "scopes": {
+    "domestic_seals": {
+      "records": 1175,
+      "unique_strings": 1066,
+      "signs": [
+        {
+          "sign": "M096",
+          "unique_strings": 4,
+          "references": 4
+        },
+        {
+          "sign": "M106",
+          "unique_strings": 16,
+          "references": 24
+        },
+        {
+          "sign": "M107",
+          "unique_strings": 4,
+          "references": 4
+        }
+      ],
+      "pairs": [
+        {
+          "signs": [
+            "M096",
+            "M106"
+          ],
+          "shared_frames": 0,
+          "cooccurring_strings": 0,
+          "merge_reduction": 0
+        },
+        {
+          "signs": [
+            "M096",
+            "M107"
+          ],
+          "shared_frames": 0,
+          "cooccurring_strings": 0,
+          "merge_reduction": 0
+        },
+        {
+          "signs": [
+            "M106",
+            "M107"
+          ],
+          "shared_frames": 2,
+          "cooccurring_strings": 0,
+          "merge_reduction": 2
+        }
+      ]
+    },
+    "global_seals": {
+      "records": 1182,
+      "unique_strings": 1073,
+      "signs": [
+        {
+          "sign": "M096",
+          "unique_strings": 4,
+          "references": 4
+        },
+        {
+          "sign": "M106",
+          "unique_strings": 16,
+          "references": 24
+        },
+        {
+          "sign": "M107",
+          "unique_strings": 5,
+          "references": 5
+        }
+      ],
+      "pairs": [
+        {
+          "signs": [
+            "M096",
+            "M106"
+          ],
+          "shared_frames": 0,
+          "cooccurring_strings": 0,
+          "merge_reduction": 0
+        },
+        {
+          "signs": [
+            "M096",
+            "M107"
+          ],
+          "shared_frames": 0,
+          "cooccurring_strings": 0,
+          "merge_reduction": 0
+        },
+        {
+          "signs": [
+            "M106",
+            "M107"
+          ],
+          "shared_frames": 2,
+          "cooccurring_strings": 0,
+          "merge_reduction": 2
+        }
+      ]
+    },
+    "all_clear_single_document_objects_including_solus": {
+      "records": 1342,
+      "unique_strings": 1170,
+      "signs": [
+        {
+          "sign": "M096",
+          "unique_strings": 5,
+          "references": 5
+        },
+        {
+          "sign": "M106",
+          "unique_strings": 19,
+          "references": 27
+        },
+        {
+          "sign": "M107",
+          "unique_strings": 5,
+          "references": 5
+        }
+      ],
+      "pairs": [
+        {
+          "signs": [
+            "M096",
+            "M106"
+          ],
+          "shared_frames": 0,
+          "cooccurring_strings": 0,
+          "merge_reduction": 0
+        },
+        {
+          "signs": [
+            "M096",
+            "M107"
+          ],
+          "shared_frames": 0,
+          "cooccurring_strings": 0,
+          "merge_reduction": 0
+        },
+        {
+          "signs": [
+            "M106",
+            "M107"
+          ],
+          "shared_frames": 2,
+          "cooccurring_strings": 0,
+          "merge_reduction": 2
+        }
+      ]
+    }
+  }
+}

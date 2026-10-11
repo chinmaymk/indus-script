@@ -1,0 +1,2511 @@
+{
+  "conservative_preservation_summaries": {
+    "U": {
+      "negative": 8,
+      "objects": 14,
+      "observed_positive_fraction": 0.07142857142857142,
+      "positive": 1,
+      "possible_positive_fraction_bounds": [
+        0.07142857142857142,
+        0.42857142857142855
+      ],
+      "rows": 14,
+      "unknown": 5
+    },
+    "fish": {
+      "negative": 1,
+      "objects": 14,
+      "observed_positive_fraction": 0.7857142857142857,
+      "positive": 11,
+      "possible_positive_fraction_bounds": [
+        0.7857142857142857,
+        0.9285714285714286
+      ],
+      "rows": 14,
+      "unknown": 2
+    },
+    "fish_or_U": {
+      "negative": 1,
+      "objects": 14,
+      "observed_positive_fraction": 0.7857142857142857,
+      "positive": 11,
+      "possible_positive_fraction_bounds": [
+        0.7857142857142857,
+        0.9285714285714286
+      ],
+      "rows": 14,
+      "unknown": 2
+    },
+    "plain_fish": {
+      "negative": 9,
+      "objects": 14,
+      "observed_positive_fraction": 0.07142857142857142,
+      "positive": 1,
+      "possible_positive_fraction_bounds": [
+        0.07142857142857142,
+        0.35714285714285715
+      ],
+      "rows": 14,
+      "unknown": 4
+    }
+  },
+  "eligible_ending_rows": [
+    {
+      "cisi": "H-459",
+      "complete": "Y",
+      "condition": "Poor",
+      "depth": "-5.67 ft",
+      "dir.": "R/L",
+      "excavation-idno": "1199092",
+      "id": "1449.1",
+      "preservation": "complete",
+      "room-grid": "-M12/17",
+      "sequence": [
+        "W527",
+        "W555",
+        "W231",
+        "W002",
+        "W817"
+      ],
+      "site": "Harappa",
+      "symbol": "Bull1:T",
+      "text": "+527-555-231-002-817+",
+      "type": "SEAL:S"
+    },
+    {
+      "cisi": "L-51",
+      "complete": "Y",
+      "condition": "Good",
+      "depth": "-1.0 ft",
+      "dir.": "R/L",
+      "excavation-idno": "11358(S058) CLIX-C5",
+      "id": "2020.1",
+      "preservation": "complete",
+      "room-grid": "--",
+      "sequence": [
+        "W527",
+        "W555",
+        "W231",
+        "W235"
+      ],
+      "site": "Lothal",
+      "symbol": "Misc",
+      "text": "+527-555-231-235+",
+      "type": "SEAL:S"
+    },
+    {
+      "cisi": "L-89",
+      "complete": "Y",
+      "condition": "Good",
+      "depth": "- -",
+      "dir.": "R/L",
+      "excavation-idno": "15337(S067)",
+      "id": "2043.1",
+      "preservation": "complete",
+      "room-grid": "--",
+      "sequence": [
+        "W527",
+        "W555",
+        "W235",
+        "W002",
+        "W861"
+      ],
+      "site": "Lothal",
+      "symbol": "None",
+      "text": "+527-555-235-002-861+",
+      "type": "SEAL:R"
+    },
+    {
+      "cisi": "M-940",
+      "complete": "Y",
+      "condition": "Good",
+      "depth": "-4.7 ft",
+      "dir.": "R/L",
+      "excavation-idno": "DK1211060",
+      "id": "2243.1",
+      "preservation": "complete",
+      "room-grid": "9-",
+      "sequence": [
+        "W527",
+        "W555",
+        "W002",
+        "W817"
+      ],
+      "site": "Mohenjo-daro",
+      "symbol": "Bull1:J",
+      "text": "+527-555-002-817+",
+      "type": "SEAL:S"
+    },
+    {
+      "cisi": "M-1693",
+      "complete": "Y",
+      "condition": "Good",
+      "depth": "-17.4 ft",
+      "dir.": "R/L",
+      "excavation-idno": "DK7402583",
+      "id": "2359.1",
+      "preservation": "complete",
+      "room-grid": "36-",
+      "sequence": [
+        "W527",
+        "W555",
+        "W033",
+        "W706",
+        "W235",
+        "W002",
+        "W817"
+      ],
+      "site": "Mohenjo-daro",
+      "symbol": "Bull1",
+      "text": "+527-555-033-706-235-002-817+",
+      "type": "SEAL:S"
+    },
+    {
+      "cisi": "M-81",
+      "complete": "Y",
+      "condition": "Good",
+      "depth": "-6.0 ft",
+      "dir.": "R/L",
+      "excavation-idno": "DK-C 3133180",
+      "id": "2608.1",
+      "preservation": "complete",
+      "room-grid": "121530/0600",
+      "sequence": [
+        "W527",
+        "W555",
+        "W240",
+        "W002",
+        "W617",
+        "W070"
+      ],
+      "site": "Mohenjo-daro",
+      "symbol": "Bull1:S",
+      "text": "+527-555-240-002-617-070+",
+      "type": "SEAL:S"
+    },
+    {
+      "cisi": "M-1081",
+      "complete": "Y",
+      "condition": "Good",
+      "depth": "-6.8 ft",
+      "dir.": "R/L",
+      "excavation-idno": "DK11349129",
+      "id": "3455.1",
+      "preservation": "complete",
+      "room-grid": "15-",
+      "sequence": [
+        "W527",
+        "W555",
+        "W055",
+        "W233",
+        "W235",
+        "W741",
+        "W831",
+        "W518"
+      ],
+      "site": "Mohenjo-daro",
+      "symbol": "Gaur",
+      "text": "+527-555-055-233-235-741-831-518+",
+      "type": "SEAL:S"
+    },
+    {
+      "cisi": "M-1320",
+      "complete": "Y",
+      "condition": "Good",
+      "depth": "-6.33 ft",
+      "dir.": "R/L",
+      "excavation-idno": "VS 2289447",
+      "id": "3625.1",
+      "preservation": "complete",
+      "room-grid": "11332 Y/06",
+      "sequence": [
+        "W527",
+        "W555",
+        "W231",
+        "W240",
+        "W798"
+      ],
+      "site": "Mohenjo-daro",
+      "symbol": "None",
+      "text": "+527-555-231-240-798+",
+      "type": "SEAL:R"
+    },
+    {
+      "cisi": "M-1351",
+      "complete": "Y",
+      "condition": "Good",
+      "depth": "-7.1 ft",
+      "dir.": "R/L",
+      "excavation-idno": "DK11456142",
+      "id": "3652.1",
+      "preservation": "complete",
+      "room-grid": "--",
+      "sequence": [
+        "W527",
+        "W555",
+        "W235"
+      ],
+      "site": "Mohenjo-daro",
+      "symbol": "None",
+      "text": "+527-555-235+",
+      "type": "SEAL:R"
+    }
+  ],
+  "established_phonetic_values": 0,
+  "established_semantic_values": 0,
+  "fish_codes": [
+    "W220",
+    "W226",
+    "W227",
+    "W228",
+    "W231",
+    "W232",
+    "W233",
+    "W234",
+    "W235",
+    "W236",
+    "W240",
+    "W241",
+    "W242"
+  ],
+  "input_sha256": {
+    "data/processed/catalogue_features.json": "00836515c6f3beec28b3b66e13d8a9c6e94571cfb2e9dbb4b148651b7ff0032d",
+    "data/processed/l51_context_review.json": "eb37bf3cdecd6fd7a632e0d1b29b831519ce84ebefbc998cc11b75cfe7559151",
+    "data/processed/l51_protocol.json": "025fd2c091ea2776deb2ff7409d5bb97d1c93c4132fb2893893f38109cac786b",
+    "data/processed/l51_visual_review.json": "1bda9163a15b7b2b503d1d314b8967007e3cfe6d8d1f78be24514e7ba229b108",
+    "data/processed/lipi_strict.jsonl": "c7600dd5142d0132bcb89ca5490c26f748a0ab542c482583dd3baf8f08fdf250",
+    "data/raw/lipi_inscriptions.csv": "b8dcb325a2e2cd3cde12ac12e7a418b0348e45713c9ee28aad81b645d2ac5ee4"
+  },
+  "matched": {
+    "U": {
+      "objects": {
+        "conditional_expected": 0.9178200435091829,
+        "ending_rows": 9,
+        "exact_fraction": "5394095/8413856",
+        "observed_both": 1,
+        "strata": [
+          {
+            "N": 27,
+            "both": 0,
+            "ending": 1,
+            "ending_ids": [
+              "H-459"
+            ],
+            "length": 5,
+            "site": "Harappa",
+            "target": 0,
+            "type": "SEAL:S"
+          },
+          {
+            "N": 2,
+            "both": 0,
+            "ending": 1,
+            "ending_ids": [
+              "L-89"
+            ],
+            "length": 5,
+            "site": "Lothal",
+            "target": 0,
+            "type": "SEAL:R"
+          },
+          {
+            "N": 4,
+            "both": 0,
+            "ending": 1,
+            "ending_ids": [
+              "L-51"
+            ],
+            "length": 4,
+            "site": "Lothal",
+            "target": 0,
+            "type": "SEAL:S"
+          },
+          {
+            "N": 16,
+            "both": 0,
+            "ending": 1,
+            "ending_ids": [
+              "M-1351"
+            ],
+            "length": 3,
+            "site": "Mohenjo-daro",
+            "target": 1,
+            "type": "SEAL:R"
+          },
+          {
+            "N": 22,
+            "both": 0,
+            "ending": 1,
+            "ending_ids": [
+              "M-1320"
+            ],
+            "length": 5,
+            "site": "Mohenjo-daro",
+            "target": 4,
+            "type": "SEAL:R"
+          },
+          {
+            "N": 88,
+            "both": 0,
+            "ending": 1,
+            "ending_ids": [
+              "M-940"
+            ],
+            "length": 4,
+            "site": "Mohenjo-daro",
+            "target": 3,
+            "type": "SEAL:S"
+          },
+          {
+            "N": 82,
+            "both": 0,
+            "ending": 1,
+            "ending_ids": [
+              "M-81"
+            ],
+            "length": 6,
+            "site": "Mohenjo-daro",
+            "target": 14,
+            "type": "SEAL:S"
+          },
+          {
+            "N": 53,
+            "both": 1,
+            "ending": 1,
+            "ending_ids": [
+              "M-1693"
+            ],
+            "length": 7,
+            "site": "Mohenjo-daro",
+            "target": 10,
+            "type": "SEAL:S"
+          },
+          {
+            "N": 25,
+            "both": 0,
+            "ending": 1,
+            "ending_ids": [
+              "M-1081"
+            ],
+            "length": 8,
+            "site": "Mohenjo-daro",
+            "target": 7,
+            "type": "SEAL:S"
+          }
+        ],
+        "universe_rows": 1082,
+        "upper_tail_descriptive_only": 0.6410966624577363
+      },
+      "same_W527_terminal_objects": {
+        "conditional_expected": 1.0,
+        "ending_rows": 9,
+        "exact_fraction": "1",
+        "observed_both": 1,
+        "strata": [
+          {
+            "N": 1,
+            "both": 0,
+            "ending": 1,
+            "ending_ids": [
+              "H-459"
+            ],
+            "length": 5,
+            "site": "Harappa",
+            "target": 0,
+            "type": "SEAL:S"
+          },
+          {
+            "N": 1,
+            "both": 0,
+            "ending": 1,
+            "ending_ids": [
+              "L-89"
+            ],
+            "length": 5,
+            "site": "Lothal",
+            "target": 0,
+            "type": "SEAL:R"
+          },
+          {
+            "N": 1,
+            "both": 0,
+            "ending": 1,
+            "ending_ids": [
+              "L-51"
+            ],
+            "length": 4,
+            "site": "Lothal",
+            "target": 0,
+            "type": "SEAL:S"
+          },
+          {
+            "N": 1,
+            "both": 0,
+            "ending": 1,
+            "ending_ids": [
+              "M-1351"
+            ],
+            "length": 3,
+            "site": "Mohenjo-daro",
+            "target": 0,
+            "type": "SEAL:R"
+          },
+          {
+            "N": 1,
+            "both": 0,
+            "ending": 1,
+            "ending_ids": [
+              "M-1320"
+            ],
+            "length": 5,
+            "site": "Mohenjo-daro",
+            "target": 0,
+            "type": "SEAL:R"
+          },
+          {
+            "N": 1,
+            "both": 0,
+            "ending": 1,
+            "ending_ids": [
+              "M-940"
+            ],
+            "length": 4,
+            "site": "Mohenjo-daro",
+            "target": 0,
+            "type": "SEAL:S"
+          },
+          {
+            "N": 2,
+            "both": 0,
+            "ending": 1,
+            "ending_ids": [
+              "M-81"
+            ],
+            "length": 6,
+            "site": "Mohenjo-daro",
+            "target": 0,
+            "type": "SEAL:S"
+          },
+          {
+            "N": 1,
+            "both": 1,
+            "ending": 1,
+            "ending_ids": [
+              "M-1693"
+            ],
+            "length": 7,
+            "site": "Mohenjo-daro",
+            "target": 1,
+            "type": "SEAL:S"
+          },
+          {
+            "N": 2,
+            "both": 0,
+            "ending": 1,
+            "ending_ids": [
+              "M-1081"
+            ],
+            "length": 8,
+            "site": "Mohenjo-daro",
+            "target": 0,
+            "type": "SEAL:S"
+          }
+        ],
+        "universe_rows": 27,
+        "upper_tail_descriptive_only": 1.0
+      },
+      "text_types": {
+        "conditional_expected": 0.9231899187319993,
+        "ending_rows": 9,
+        "exact_fraction": "234343/364375",
+        "observed_both": 1,
+        "strata": [
+          {
+            "N": 27,
+            "both": 0,
+            "ending": 1,
+            "ending_ids": [
+              "H-459"
+            ],
+            "length": 5,
+            "site": "Harappa",
+            "target": 0,
+            "type": "SEAL:S"
+          },
+          {
+            "N": 2,
+            "both": 0,
+            "ending": 1,
+            "ending_ids": [
+              "L-89"
+            ],
+            "length": 5,
+            "site": "Lothal",
+            "target": 0,
+            "type": "SEAL:R"
+          },
+          {
+            "N": 4,
+            "both": 0,
+            "ending": 1,
+            "ending_ids": [
+              "L-51"
+            ],
+            "length": 4,
+            "site": "Lothal",
+            "target": 0,
+            "type": "SEAL:S"
+          },
+          {
+            "N": 15,
+            "both": 0,
+            "ending": 1,
+            "ending_ids": [
+              "M-1351"
+            ],
+            "length": 3,
+            "site": "Mohenjo-daro",
+            "target": 1,
+            "type": "SEAL:R"
+          },
+          {
+            "N": 22,
+            "both": 0,
+            "ending": 1,
+            "ending_ids": [
+              "M-1320"
+            ],
+            "length": 5,
+            "site": "Mohenjo-daro",
+            "target": 4,
+            "type": "SEAL:R"
+          },
+          {
+            "N": 85,
+            "both": 0,
+            "ending": 1,
+            "ending_ids": [
+              "M-940"
+            ],
+            "length": 4,
+            "site": "Mohenjo-daro",
+            "target": 3,
+            "type": "SEAL:S"
+          },
+          {
+            "N": 82,
+            "both": 0,
+            "ending": 1,
+            "ending_ids": [
+              "M-81"
+            ],
+            "length": 6,
+            "site": "Mohenjo-daro",
+            "target": 14,
+            "type": "SEAL:S"
+          },
+          {
+            "N": 53,
+            "both": 1,
+            "ending": 1,
+            "ending_ids": [
+              "M-1693"
+            ],
+            "length": 7,
+            "site": "Mohenjo-daro",
+            "target": 10,
+            "type": "SEAL:S"
+          },
+          {
+            "N": 25,
+            "both": 0,
+            "ending": 1,
+            "ending_ids": [
+              "M-1081"
+            ],
+            "length": 8,
+            "site": "Mohenjo-daro",
+            "target": 7,
+            "type": "SEAL:S"
+          }
+        ],
+        "universe_rows": 1049,
+        "upper_tail_descriptive_only": 0.6431368782161235
+      }
+    },
+    "fish": {
+      "objects": {
+        "conditional_expected": 4.162526697408198,
+        "ending_rows": 9,
+        "exact_fraction": "649523/82608768",
+        "observed_both": 8,
+        "strata": [
+          {
+            "N": 27,
+            "both": 1,
+            "ending": 1,
+            "ending_ids": [
+              "H-459"
+            ],
+            "length": 5,
+            "site": "Harappa",
+            "target": 14,
+            "type": "SEAL:S"
+          },
+          {
+            "N": 2,
+            "both": 1,
+            "ending": 1,
+            "ending_ids": [
+              "L-89"
+            ],
+            "length": 5,
+            "site": "Lothal",
+            "target": 1,
+            "type": "SEAL:R"
+          },
+          {
+            "N": 4,
+            "both": 1,
+            "ending": 1,
+            "ending_ids": [
+              "L-51"
+            ],
+            "length": 4,
+            "site": "Lothal",
+            "target": 1,
+            "type": "SEAL:S"
+          },
+          {
+            "N": 16,
+            "both": 1,
+            "ending": 1,
+            "ending_ids": [
+              "M-1351"
+            ],
+            "length": 3,
+            "site": "Mohenjo-daro",
+            "target": 5,
+            "type": "SEAL:R"
+          },
+          {
+            "N": 22,
+            "both": 1,
+            "ending": 1,
+            "ending_ids": [
+              "M-1320"
+            ],
+            "length": 5,
+            "site": "Mohenjo-daro",
+            "target": 10,
+            "type": "SEAL:R"
+          },
+          {
+            "N": 88,
+            "both": 0,
+            "ending": 1,
+            "ending_ids": [
+              "M-940"
+            ],
+            "length": 4,
+            "site": "Mohenjo-daro",
+            "target": 22,
+            "type": "SEAL:S"
+          },
+          {
+            "N": 82,
+            "both": 1,
+            "ending": 1,
+            "ending_ids": [
+              "M-81"
+            ],
+            "length": 6,
+            "site": "Mohenjo-daro",
+            "target": 44,
+            "type": "SEAL:S"
+          },
+          {
+            "N": 53,
+            "both": 1,
+            "ending": 1,
+            "ending_ids": [
+              "M-1693"
+            ],
+            "length": 7,
+            "site": "Mohenjo-daro",
+            "target": 35,
+            "type": "SEAL:S"
+          },
+          {
+            "N": 25,
+            "both": 1,
+            "ending": 1,
+            "ending_ids": [
+              "M-1081"
+            ],
+            "length": 8,
+            "site": "Mohenjo-daro",
+            "target": 17,
+            "type": "SEAL:S"
+          }
+        ],
+        "universe_rows": 1082,
+        "upper_tail_descriptive_only": 0.007862639956087955
+      },
+      "same_W527_terminal_objects": {
+        "conditional_expected": 8.0,
+        "ending_rows": 9,
+        "exact_fraction": "1",
+        "observed_both": 8,
+        "strata": [
+          {
+            "N": 1,
+            "both": 1,
+            "ending": 1,
+            "ending_ids": [
+              "H-459"
+            ],
+            "length": 5,
+            "site": "Harappa",
+            "target": 1,
+            "type": "SEAL:S"
+          },
+          {
+            "N": 1,
+            "both": 1,
+            "ending": 1,
+            "ending_ids": [
+              "L-89"
+            ],
+            "length": 5,
+            "site": "Lothal",
+            "target": 1,
+            "type": "SEAL:R"
+          },
+          {
+            "N": 1,
+            "both": 1,
+            "ending": 1,
+            "ending_ids": [
+              "L-51"
+            ],
+            "length": 4,
+            "site": "Lothal",
+            "target": 1,
+            "type": "SEAL:S"
+          },
+          {
+            "N": 1,
+            "both": 1,
+            "ending": 1,
+            "ending_ids": [
+              "M-1351"
+            ],
+            "length": 3,
+            "site": "Mohenjo-daro",
+            "target": 1,
+            "type": "SEAL:R"
+          },
+          {
+            "N": 1,
+            "both": 1,
+            "ending": 1,
+            "ending_ids": [
+              "M-1320"
+            ],
+            "length": 5,
+            "site": "Mohenjo-daro",
+            "target": 1,
+            "type": "SEAL:R"
+          },
+          {
+            "N": 1,
+            "both": 0,
+            "ending": 1,
+            "ending_ids": [
+              "M-940"
+            ],
+            "length": 4,
+            "site": "Mohenjo-daro",
+            "target": 0,
+            "type": "SEAL:S"
+          },
+          {
+            "N": 2,
+            "both": 1,
+            "ending": 1,
+            "ending_ids": [
+              "M-81"
+            ],
+            "length": 6,
+            "site": "Mohenjo-daro",
+            "target": 2,
+            "type": "SEAL:S"
+          },
+          {
+            "N": 1,
+            "both": 1,
+            "ending": 1,
+            "ending_ids": [
+              "M-1693"
+            ],
+            "length": 7,
+            "site": "Mohenjo-daro",
+            "target": 1,
+            "type": "SEAL:S"
+          },
+          {
+            "N": 2,
+            "both": 1,
+            "ending": 1,
+            "ending_ids": [
+              "M-1081"
+            ],
+            "length": 8,
+            "site": "Mohenjo-daro",
+            "target": 2,
+            "type": "SEAL:S"
+          }
+        ],
+        "universe_rows": 27,
+        "upper_tail_descriptive_only": 1.0
+      },
+      "text_types": {
+        "conditional_expected": 4.125516893486629,
+        "ending_rows": 9,
+        "exact_fraction": "534779/74805525",
+        "observed_both": 8,
+        "strata": [
+          {
+            "N": 27,
+            "both": 1,
+            "ending": 1,
+            "ending_ids": [
+              "H-459"
+            ],
+            "length": 5,
+            "site": "Harappa",
+            "target": 14,
+            "type": "SEAL:S"
+          },
+          {
+            "N": 2,
+            "both": 1,
+            "ending": 1,
+            "ending_ids": [
+              "L-89"
+            ],
+            "length": 5,
+            "site": "Lothal",
+            "target": 1,
+            "type": "SEAL:R"
+          },
+          {
+            "N": 4,
+            "both": 1,
+            "ending": 1,
+            "ending_ids": [
+              "L-51"
+            ],
+            "length": 4,
+            "site": "Lothal",
+            "target": 1,
+            "type": "SEAL:S"
+          },
+          {
+            "N": 15,
+            "both": 1,
+            "ending": 1,
+            "ending_ids": [
+              "M-1351"
+            ],
+            "length": 3,
+            "site": "Mohenjo-daro",
+            "target": 4,
+            "type": "SEAL:R"
+          },
+          {
+            "N": 22,
+            "both": 1,
+            "ending": 1,
+            "ending_ids": [
+              "M-1320"
+            ],
+            "length": 5,
+            "site": "Mohenjo-daro",
+            "target": 10,
+            "type": "SEAL:R"
+          },
+          {
+            "N": 85,
+            "both": 0,
+            "ending": 1,
+            "ending_ids": [
+              "M-940"
+            ],
+            "length": 4,
+            "site": "Mohenjo-daro",
+            "target": 22,
+            "type": "SEAL:S"
+          },
+          {
+            "N": 82,
+            "both": 1,
+            "ending": 1,
+            "ending_ids": [
+              "M-81"
+            ],
+            "length": 6,
+            "site": "Mohenjo-daro",
+            "target": 44,
+            "type": "SEAL:S"
+          },
+          {
+            "N": 53,
+            "both": 1,
+            "ending": 1,
+            "ending_ids": [
+              "M-1693"
+            ],
+            "length": 7,
+            "site": "Mohenjo-daro",
+            "target": 35,
+            "type": "SEAL:S"
+          },
+          {
+            "N": 25,
+            "both": 1,
+            "ending": 1,
+            "ending_ids": [
+              "M-1081"
+            ],
+            "length": 8,
+            "site": "Mohenjo-daro",
+            "target": 17,
+            "type": "SEAL:S"
+          }
+        ],
+        "universe_rows": 1049,
+        "upper_tail_descriptive_only": 0.007148923826147868
+      }
+    },
+    "fish_or_U": {
+      "objects": {
+        "conditional_expected": 4.492064098571231,
+        "ending_rows": 9,
+        "exact_fraction": "19278467/1376812800",
+        "observed_both": 8,
+        "strata": [
+          {
+            "N": 27,
+            "both": 1,
+            "ending": 1,
+            "ending_ids": [
+              "H-459"
+            ],
+            "length": 5,
+            "site": "Harappa",
+            "target": 14,
+            "type": "SEAL:S"
+          },
+          {
+            "N": 2,
+            "both": 1,
+            "ending": 1,
+            "ending_ids": [
+              "L-89"
+            ],
+            "length": 5,
+            "site": "Lothal",
+            "target": 1,
+            "type": "SEAL:R"
+          },
+          {
+            "N": 4,
+            "both": 1,
+            "ending": 1,
+            "ending_ids": [
+              "L-51"
+            ],
+            "length": 4,
+            "site": "Lothal",
+            "target": 1,
+            "type": "SEAL:S"
+          },
+          {
+            "N": 16,
+            "both": 1,
+            "ending": 1,
+            "ending_ids": [
+              "M-1351"
+            ],
+            "length": 3,
+            "site": "Mohenjo-daro",
+            "target": 6,
+            "type": "SEAL:R"
+          },
+          {
+            "N": 22,
+            "both": 1,
+            "ending": 1,
+            "ending_ids": [
+              "M-1320"
+            ],
+            "length": 5,
+            "site": "Mohenjo-daro",
+            "target": 11,
+            "type": "SEAL:R"
+          },
+          {
+            "N": 88,
+            "both": 0,
+            "ending": 1,
+            "ending_ids": [
+              "M-940"
+            ],
+            "length": 4,
+            "site": "Mohenjo-daro",
+            "target": 25,
+            "type": "SEAL:S"
+          },
+          {
+            "N": 82,
+            "both": 1,
+            "ending": 1,
+            "ending_ids": [
+              "M-81"
+            ],
+            "length": 6,
+            "site": "Mohenjo-daro",
+            "target": 53,
+            "type": "SEAL:S"
+          },
+          {
+            "N": 53,
+            "both": 1,
+            "ending": 1,
+            "ending_ids": [
+              "M-1693"
+            ],
+            "length": 7,
+            "site": "Mohenjo-daro",
+            "target": 37,
+            "type": "SEAL:S"
+          },
+          {
+            "N": 25,
+            "both": 1,
+            "ending": 1,
+            "ending_ids": [
+              "M-1081"
+            ],
+            "length": 8,
+            "site": "Mohenjo-daro",
+            "target": 18,
+            "type": "SEAL:S"
+          }
+        ],
+        "universe_rows": 1082,
+        "upper_tail_descriptive_only": 0.01400224271593059
+      },
+      "same_W527_terminal_objects": {
+        "conditional_expected": 8.0,
+        "ending_rows": 9,
+        "exact_fraction": "1",
+        "observed_both": 8,
+        "strata": [
+          {
+            "N": 1,
+            "both": 1,
+            "ending": 1,
+            "ending_ids": [
+              "H-459"
+            ],
+            "length": 5,
+            "site": "Harappa",
+            "target": 1,
+            "type": "SEAL:S"
+          },
+          {
+            "N": 1,
+            "both": 1,
+            "ending": 1,
+            "ending_ids": [
+              "L-89"
+            ],
+            "length": 5,
+            "site": "Lothal",
+            "target": 1,
+            "type": "SEAL:R"
+          },
+          {
+            "N": 1,
+            "both": 1,
+            "ending": 1,
+            "ending_ids": [
+              "L-51"
+            ],
+            "length": 4,
+            "site": "Lothal",
+            "target": 1,
+            "type": "SEAL:S"
+          },
+          {
+            "N": 1,
+            "both": 1,
+            "ending": 1,
+            "ending_ids": [
+              "M-1351"
+            ],
+            "length": 3,
+            "site": "Mohenjo-daro",
+            "target": 1,
+            "type": "SEAL:R"
+          },
+          {
+            "N": 1,
+            "both": 1,
+            "ending": 1,
+            "ending_ids": [
+              "M-1320"
+            ],
+            "length": 5,
+            "site": "Mohenjo-daro",
+            "target": 1,
+            "type": "SEAL:R"
+          },
+          {
+            "N": 1,
+            "both": 0,
+            "ending": 1,
+            "ending_ids": [
+              "M-940"
+            ],
+            "length": 4,
+            "site": "Mohenjo-daro",
+            "target": 0,
+            "type": "SEAL:S"
+          },
+          {
+            "N": 2,
+            "both": 1,
+            "ending": 1,
+            "ending_ids": [
+              "M-81"
+            ],
+            "length": 6,
+            "site": "Mohenjo-daro",
+            "target": 2,
+            "type": "SEAL:S"
+          },
+          {
+            "N": 1,
+            "both": 1,
+            "ending": 1,
+            "ending_ids": [
+              "M-1693"
+            ],
+            "length": 7,
+            "site": "Mohenjo-daro",
+            "target": 1,
+            "type": "SEAL:S"
+          },
+          {
+            "N": 2,
+            "both": 1,
+            "ending": 1,
+            "ending_ids": [
+              "M-1081"
+            ],
+            "length": 8,
+            "site": "Mohenjo-daro",
+            "target": 2,
+            "type": "SEAL:S"
+          }
+        ],
+        "universe_rows": 27,
+        "upper_tail_descriptive_only": 1.0
+      },
+      "text_types": {
+        "conditional_expected": 4.460424169872479,
+        "ending_rows": 9,
+        "exact_fraction": "3921583/299222100",
+        "observed_both": 8,
+        "strata": [
+          {
+            "N": 27,
+            "both": 1,
+            "ending": 1,
+            "ending_ids": [
+              "H-459"
+            ],
+            "length": 5,
+            "site": "Harappa",
+            "target": 14,
+            "type": "SEAL:S"
+          },
+          {
+            "N": 2,
+            "both": 1,
+            "ending": 1,
+            "ending_ids": [
+              "L-89"
+            ],
+            "length": 5,
+            "site": "Lothal",
+            "target": 1,
+            "type": "SEAL:R"
+          },
+          {
+            "N": 4,
+            "both": 1,
+            "ending": 1,
+            "ending_ids": [
+              "L-51"
+            ],
+            "length": 4,
+            "site": "Lothal",
+            "target": 1,
+            "type": "SEAL:S"
+          },
+          {
+            "N": 15,
+            "both": 1,
+            "ending": 1,
+            "ending_ids": [
+              "M-1351"
+            ],
+            "length": 3,
+            "site": "Mohenjo-daro",
+            "target": 5,
+            "type": "SEAL:R"
+          },
+          {
+            "N": 22,
+            "both": 1,
+            "ending": 1,
+            "ending_ids": [
+              "M-1320"
+            ],
+            "length": 5,
+            "site": "Mohenjo-daro",
+            "target": 11,
+            "type": "SEAL:R"
+          },
+          {
+            "N": 85,
+            "both": 0,
+            "ending": 1,
+            "ending_ids": [
+              "M-940"
+            ],
+            "length": 4,
+            "site": "Mohenjo-daro",
+            "target": 25,
+            "type": "SEAL:S"
+          },
+          {
+            "N": 82,
+            "both": 1,
+            "ending": 1,
+            "ending_ids": [
+              "M-81"
+            ],
+            "length": 6,
+            "site": "Mohenjo-daro",
+            "target": 53,
+            "type": "SEAL:S"
+          },
+          {
+            "N": 53,
+            "both": 1,
+            "ending": 1,
+            "ending_ids": [
+              "M-1693"
+            ],
+            "length": 7,
+            "site": "Mohenjo-daro",
+            "target": 37,
+            "type": "SEAL:S"
+          },
+          {
+            "N": 25,
+            "both": 1,
+            "ending": 1,
+            "ending_ids": [
+              "M-1081"
+            ],
+            "length": 8,
+            "site": "Mohenjo-daro",
+            "target": 18,
+            "type": "SEAL:S"
+          }
+        ],
+        "universe_rows": 1049,
+        "upper_tail_descriptive_only": 0.013105927002049648
+      }
+    },
+    "plain_fish": {
+      "objects": {
+        "conditional_expected": 1.2142957067220759,
+        "ending_rows": 9,
+        "exact_fraction": "1",
+        "observed_both": 0,
+        "strata": [
+          {
+            "N": 27,
+            "both": 0,
+            "ending": 1,
+            "ending_ids": [
+              "H-459"
+            ],
+            "length": 5,
+            "site": "Harappa",
+            "target": 6,
+            "type": "SEAL:S"
+          },
+          {
+            "N": 2,
+            "both": 0,
+            "ending": 1,
+            "ending_ids": [
+              "L-89"
+            ],
+            "length": 5,
+            "site": "Lothal",
+            "target": 0,
+            "type": "SEAL:R"
+          },
+          {
+            "N": 4,
+            "both": 0,
+            "ending": 1,
+            "ending_ids": [
+              "L-51"
+            ],
+            "length": 4,
+            "site": "Lothal",
+            "target": 0,
+            "type": "SEAL:S"
+          },
+          {
+            "N": 16,
+            "both": 0,
+            "ending": 1,
+            "ending_ids": [
+              "M-1351"
+            ],
+            "length": 3,
+            "site": "Mohenjo-daro",
+            "target": 3,
+            "type": "SEAL:R"
+          },
+          {
+            "N": 22,
+            "both": 0,
+            "ending": 1,
+            "ending_ids": [
+              "M-1320"
+            ],
+            "length": 5,
+            "site": "Mohenjo-daro",
+            "target": 1,
+            "type": "SEAL:R"
+          },
+          {
+            "N": 88,
+            "both": 0,
+            "ending": 1,
+            "ending_ids": [
+              "M-940"
+            ],
+            "length": 4,
+            "site": "Mohenjo-daro",
+            "target": 8,
+            "type": "SEAL:S"
+          },
+          {
+            "N": 82,
+            "both": 0,
+            "ending": 1,
+            "ending_ids": [
+              "M-81"
+            ],
+            "length": 6,
+            "site": "Mohenjo-daro",
+            "target": 15,
+            "type": "SEAL:S"
+          },
+          {
+            "N": 53,
+            "both": 0,
+            "ending": 1,
+            "ending_ids": [
+              "M-1693"
+            ],
+            "length": 7,
+            "site": "Mohenjo-daro",
+            "target": 13,
+            "type": "SEAL:S"
+          },
+          {
+            "N": 25,
+            "both": 0,
+            "ending": 1,
+            "ending_ids": [
+              "M-1081"
+            ],
+            "length": 8,
+            "site": "Mohenjo-daro",
+            "target": 6,
+            "type": "SEAL:S"
+          }
+        ],
+        "universe_rows": 1082,
+        "upper_tail_descriptive_only": 1.0
+      },
+      "same_W527_terminal_objects": {
+        "conditional_expected": 0.5,
+        "ending_rows": 9,
+        "exact_fraction": "1",
+        "observed_both": 0,
+        "strata": [
+          {
+            "N": 1,
+            "both": 0,
+            "ending": 1,
+            "ending_ids": [
+              "H-459"
+            ],
+            "length": 5,
+            "site": "Harappa",
+            "target": 0,
+            "type": "SEAL:S"
+          },
+          {
+            "N": 1,
+            "both": 0,
+            "ending": 1,
+            "ending_ids": [
+              "L-89"
+            ],
+            "length": 5,
+            "site": "Lothal",
+            "target": 0,
+            "type": "SEAL:R"
+          },
+          {
+            "N": 1,
+            "both": 0,
+            "ending": 1,
+            "ending_ids": [
+              "L-51"
+            ],
+            "length": 4,
+            "site": "Lothal",
+            "target": 0,
+            "type": "SEAL:S"
+          },
+          {
+            "N": 1,
+            "both": 0,
+            "ending": 1,
+            "ending_ids": [
+              "M-1351"
+            ],
+            "length": 3,
+            "site": "Mohenjo-daro",
+            "target": 0,
+            "type": "SEAL:R"
+          },
+          {
+            "N": 1,
+            "both": 0,
+            "ending": 1,
+            "ending_ids": [
+              "M-1320"
+            ],
+            "length": 5,
+            "site": "Mohenjo-daro",
+            "target": 0,
+            "type": "SEAL:R"
+          },
+          {
+            "N": 1,
+            "both": 0,
+            "ending": 1,
+            "ending_ids": [
+              "M-940"
+            ],
+            "length": 4,
+            "site": "Mohenjo-daro",
+            "target": 0,
+            "type": "SEAL:S"
+          },
+          {
+            "N": 2,
+            "both": 0,
+            "ending": 1,
+            "ending_ids": [
+              "M-81"
+            ],
+            "length": 6,
+            "site": "Mohenjo-daro",
+            "target": 0,
+            "type": "SEAL:S"
+          },
+          {
+            "N": 1,
+            "both": 0,
+            "ending": 1,
+            "ending_ids": [
+              "M-1693"
+            ],
+            "length": 7,
+            "site": "Mohenjo-daro",
+            "target": 0,
+            "type": "SEAL:S"
+          },
+          {
+            "N": 2,
+            "both": 0,
+            "ending": 1,
+            "ending_ids": [
+              "M-1081"
+            ],
+            "length": 8,
+            "site": "Mohenjo-daro",
+            "target": 1,
+            "type": "SEAL:S"
+          }
+        ],
+        "universe_rows": 27,
+        "upper_tail_descriptive_only": 1.0
+      },
+      "text_types": {
+        "conditional_expected": 1.1633375962051418,
+        "ending_rows": 9,
+        "exact_fraction": "1",
+        "observed_both": 0,
+        "strata": [
+          {
+            "N": 27,
+            "both": 0,
+            "ending": 1,
+            "ending_ids": [
+              "H-459"
+            ],
+            "length": 5,
+            "site": "Harappa",
+            "target": 6,
+            "type": "SEAL:S"
+          },
+          {
+            "N": 2,
+            "both": 0,
+            "ending": 1,
+            "ending_ids": [
+              "L-89"
+            ],
+            "length": 5,
+            "site": "Lothal",
+            "target": 0,
+            "type": "SEAL:R"
+          },
+          {
+            "N": 4,
+            "both": 0,
+            "ending": 1,
+            "ending_ids": [
+              "L-51"
+            ],
+            "length": 4,
+            "site": "Lothal",
+            "target": 0,
+            "type": "SEAL:S"
+          },
+          {
+            "N": 15,
+            "both": 0,
+            "ending": 1,
+            "ending_ids": [
+              "M-1351"
+            ],
+            "length": 3,
+            "site": "Mohenjo-daro",
+            "target": 2,
+            "type": "SEAL:R"
+          },
+          {
+            "N": 22,
+            "both": 0,
+            "ending": 1,
+            "ending_ids": [
+              "M-1320"
+            ],
+            "length": 5,
+            "site": "Mohenjo-daro",
+            "target": 1,
+            "type": "SEAL:R"
+          },
+          {
+            "N": 85,
+            "both": 0,
+            "ending": 1,
+            "ending_ids": [
+              "M-940"
+            ],
+            "length": 4,
+            "site": "Mohenjo-daro",
+            "target": 8,
+            "type": "SEAL:S"
+          },
+          {
+            "N": 82,
+            "both": 0,
+            "ending": 1,
+            "ending_ids": [
+              "M-81"
+            ],
+            "length": 6,
+            "site": "Mohenjo-daro",
+            "target": 15,
+            "type": "SEAL:S"
+          },
+          {
+            "N": 53,
+            "both": 0,
+            "ending": 1,
+            "ending_ids": [
+              "M-1693"
+            ],
+            "length": 7,
+            "site": "Mohenjo-daro",
+            "target": 13,
+            "type": "SEAL:S"
+          },
+          {
+            "N": 25,
+            "both": 0,
+            "ending": 1,
+            "ending_ids": [
+              "M-1081"
+            ],
+            "length": 8,
+            "site": "Mohenjo-daro",
+            "target": 6,
+            "type": "SEAL:S"
+          }
+        ],
+        "universe_rows": 1049,
+        "upper_tail_descriptive_only": 1.0
+      }
+    }
+  },
+  "pair_elsewhere": [
+    {
+      "U": false,
+      "cisi": "H-21",
+      "complete": "Y",
+      "condition": "Poor",
+      "depth": "-5.75 ft",
+      "dir.": "R/L",
+      "excavation-idno": "3725022",
+      "fish": true,
+      "fish_or_U": true,
+      "id": "1081.1",
+      "plain_fish": false,
+      "preservation": "complete",
+      "reading_ending_certified_by_direction": true,
+      "room-grid": "-Q24/10",
+      "site": "Harappa",
+      "symbol": "Bull1:W",
+      "text": "+405-061-527-555-233-235-806-002-817+",
+      "type": "SEAL:S"
+    },
+    {
+      "U": false,
+      "cisi": "M-1917",
+      "complete": "Y",
+      "condition": "Fair",
+      "depth": "-2.5 ft",
+      "dir.": "R/L",
+      "excavation-idno": "DK-C 426350",
+      "fish": true,
+      "fish_or_U": true,
+      "id": "2294.1",
+      "plain_fish": false,
+      "preservation": "chipped",
+      "reading_ending_certified_by_direction": true,
+      "room-grid": "61500/0580",
+      "site": "Mohenjo-daro",
+      "symbol": "Tigr",
+      "text": "+400-527-555-233-235+",
+      "type": "SEAL:S"
+    },
+    {
+      "U": null,
+      "cisi": "M-1053",
+      "complete": "N",
+      "condition": "Fair",
+      "depth": "-7.5 ft",
+      "dir.": "R/L",
+      "excavation-idno": "DK5656163",
+      "fish": null,
+      "fish_or_U": null,
+      "id": "3428.1",
+      "plain_fish": null,
+      "preservation": "fragment",
+      "reading_ending_certified_by_direction": true,
+      "room-grid": "64-",
+      "site": "Mohenjo-daro",
+      "symbol": "None",
+      "text": "+740-055-527-555-000[",
+      "type": "SEAL:R"
+    },
+    {
+      "U": null,
+      "cisi": "M-1293",
+      "complete": "N",
+      "condition": "Fair",
+      "depth": "-12.2 ft",
+      "dir.": "R/L",
+      "excavation-idno": "DK5639388",
+      "fish": null,
+      "fish_or_U": null,
+      "id": "3598.1",
+      "plain_fish": null,
+      "preservation": "fragment",
+      "reading_ending_certified_by_direction": true,
+      "room-grid": "62-",
+      "site": "Mohenjo-daro",
+      "symbol": "None",
+      "text": "+000-064-845-527-555-000[",
+      "type": "SEAL:R"
+    }
+  ],
+  "primary_reviews": {
+    "context": {
+      "evidence_files": [
+        {
+          "bytes": 44321,
+          "path": "data/raw/l51_archive_search.json",
+          "sha256": "cfeb6de19f4b04e455bbcb887042d681344b2f3fd1f0cadfd5de12ea9ea3d047"
+        },
+        {
+          "bytes": 7783,
+          "path": "data/raw/l51_rao1985_metadata.json",
+          "sha256": "eb18fb46f405b2109f72eb4c7a90c97d934fd19b32688b8f26320c8a576c9282"
+        },
+        {
+          "bytes": 28736942,
+          "path": "data/raw/l51_rao1985_volume2.pdf",
+          "sha256": "bc5f16e3d8836ac0f03b5b28e74fc9775ab042cf972fb64d59f082d7a8074865"
+        },
+        {
+          "bytes": 1736394,
+          "path": "data/raw/l51_rao1985_djvu.txt",
+          "sha256": "d353bdbf35a774f5ffca15294325a506be532ea5b65f5b34e0a2e3e7eb38ddb8"
+        },
+        {
+          "bytes": 122079,
+          "path": "data/raw/l51_rao1985_page_numbers.json",
+          "sha256": "1fe3a378779e2d1de6341b8e8876afde2aee0e94f08fc0e0732f2b35f37ed98a"
+        },
+        {
+          "bytes": 109134,
+          "path": "results/primary_pages/l51-nav-440.png",
+          "sha256": "2795040c20bbb7313ed4ed18d0059865a4e5a3887be94e16329c456c6c9459c1"
+        },
+        {
+          "bytes": 2033,
+          "path": "results/primary_pages/l51-nav-440.txt",
+          "sha256": "805563e31795a3cdf70232b77310c30ced9dd36f5618f8753b3d2425a4a7994b"
+        },
+        {
+          "bytes": 23270,
+          "path": "results/primary_pages/l51-nav-450.png",
+          "sha256": "1e350a08dd50842e99dadae97d81a2344db35438d34767a0d406900dc2be28cf"
+        },
+        {
+          "bytes": 333,
+          "path": "results/primary_pages/l51-nav-450.txt",
+          "sha256": "21832ed139bda82f88034cbd91b6319fb84dafa6265f441f367042c362e78585"
+        },
+        {
+          "bytes": 62342,
+          "path": "results/primary_pages/l51-nav-460.png",
+          "sha256": "9fff375419402f31658258568b710e304965c4fcd86c1310e2b837011664b5bd"
+        },
+        {
+          "bytes": 13,
+          "path": "results/primary_pages/l51-nav-460.txt",
+          "sha256": "b855e0a513a30de7161e0b1b6039b57f0c0694b90e23c34f170d6399f2d53b23"
+        },
+        {
+          "bytes": 79820,
+          "path": "results/primary_pages/l51-nav-470.png",
+          "sha256": "039928c14ec74064e231b22c0df2c679b5e62d7fe5c55335d4b197d8cfa304cb"
+        },
+        {
+          "bytes": 140,
+          "path": "results/primary_pages/l51-nav-470.txt",
+          "sha256": "d09fd4793ed1f7494e7d817299c8437d407235d7a055d63d3573da1251a88430"
+        },
+        {
+          "bytes": 131760,
+          "path": "results/primary_pages/l51-plate-488.png",
+          "sha256": "8e73c79af26f35e28330023437e42df5494540893c6f8f98e638f0acc7f7aab1"
+        },
+        {
+          "bytes": 400,
+          "path": "results/primary_pages/l51-plate-488.txt",
+          "sha256": "ed3bc81a3f7d946c7a5681c8fa4fd17b30f99a5286bb35f3e541cef85636d900"
+        },
+        {
+          "bytes": 186441,
+          "path": "results/primary_pages/l51-plate-489.png",
+          "sha256": "7b7bffe1cac0c8265f9bc5da97bd5500781bed5d4a9a7ba85d8d7f40e19f31d1"
+        },
+        {
+          "bytes": 475,
+          "path": "results/primary_pages/l51-plate-489.txt",
+          "sha256": "6d914b41b5e0c6f031b4ab7c6473b5c5ee78be66f24887c784f886fb29890cfe"
+        },
+        {
+          "bytes": 142677,
+          "path": "results/primary_pages/l51-plate-490.png",
+          "sha256": "68e4db1cbdc1cd547ea08d25c7a544fac4ebd64724126bcd71b6cd6e6d87f04b"
+        },
+        {
+          "bytes": 456,
+          "path": "results/primary_pages/l51-plate-490.txt",
+          "sha256": "dd00bab96ae7e677653d1cf685cc4386779de040d3f1c9b3f434af011c642052"
+        },
+        {
+          "bytes": 188425,
+          "path": "results/primary_pages/l51-plate-clix-upright.png",
+          "sha256": "513ec3d236ed45955c6ba36a29d94453ca411352fea35ae6e1a103e20a3bbe6f"
+        },
+        {
+          "bytes": 186908,
+          "path": "results/primary_pages/l51-rao-60.png",
+          "sha256": "0218b33e555e527b595a6ae9fc987a18745a1f7e3e29ce39bec4888ab40a0a1b"
+        },
+        {
+          "bytes": 2488,
+          "path": "results/primary_pages/l51-rao-60.txt",
+          "sha256": "21f1ecdc3fa94810a8ce123aad62c870b14bf511e64fc2c6c63c7a9411d6b79e"
+        },
+        {
+          "bytes": 209044,
+          "path": "results/primary_pages/l51-rao-61.png",
+          "sha256": "0120a7cf04e1557a5febec414fc62b277707d07c4aafae74e977059ef15d1fa6"
+        },
+        {
+          "bytes": 2723,
+          "path": "results/primary_pages/l51-rao-61.txt",
+          "sha256": "af2fa9e14d44ef61961bd53a5f2d16ec1e26eae12636a3b38413c1166808d32b"
+        },
+        {
+          "bytes": 177094,
+          "path": "results/primary_pages/l51-rao-67.png",
+          "sha256": "657376beb63e3860710b4064ed3ebdc0144066b5b20730ebceca9dc09dcc7296"
+        },
+        {
+          "bytes": 2724,
+          "path": "results/primary_pages/l51-rao-67.txt",
+          "sha256": "93ba1adcffa55ee360433af00af23079ceb9b876cc58a74944dac6f3b0073d10"
+        },
+        {
+          "bytes": 170135,
+          "path": "results/primary_pages/l51-rao-68.png",
+          "sha256": "cb11b3ccc8d10752962df3ea85c92a05695b5ff91afb770c07f9599a5c0f4600"
+        },
+        {
+          "bytes": 2587,
+          "path": "results/primary_pages/l51-rao-68.txt",
+          "sha256": "b60c0a39ae67573f4bb26ab0ea67544a7b7ee45462906bf03f4519a4cf543075"
+        }
+      ],
+      "interpretive_candidates": [
+        "seed drill resemblance (Rao1985)",
+        "necklace resemblance (Mukhopadhyay2025)"
+      ],
+      "limitations": [
+        "No relative likelihood assigned to competing visual analogies.",
+        "No absolute chronology derived from phaseIV.",
+        "Source exposed selection; not independent holdout.",
+        "FreshOCR manually checked; ArchiveOCR wrong-script unusable."
+      ],
+      "no_association_established_here": [
+        "necklace in same pit",
+        "gemstones in same pit",
+        "beadworking installation",
+        "specific guild"
+      ],
+      "original_identity": {
+        "area": "SRG 2",
+        "deposit": "pit sealed by layer 2",
+        "depth": "1 ft 0 in",
+        "excavation_number": "11358",
+        "material": "terracotta",
+        "phase": "IV",
+        "plate": "CLIX C5",
+        "reverse": "button broken",
+        "square": "C25"
+      },
+      "phonetic_value": null,
+      "review_date": "2026-09-25",
+      "reviewed_pins": [
+        {
+          "observation": "Narrative describes upper motif as resembling seed drill, lower inscription; exact11358 and CLIXC5.",
+          "pdf_page": 61,
+          "printed_page": 310,
+          "source": "data/raw/l51_rao1985_volume2.pdf"
+        },
+        {
+          "observation": "Exact11358 catalogue records phaseIV SRG2 C25 pit sealed bylayer2 depth1ft buttonbroken.",
+          "pdf_page": 68,
+          "printed_page": 317,
+          "source": "data/raw/l51_rao1985_volume2.pdf"
+        },
+        {
+          "observation": "C5 illustrated but severely thresholded/small; caption reiterates seed drill; no independently identified comparative tool on plate.",
+          "pdf_page": 489,
+          "printed_page": "plate CLIX",
+          "source": "data/raw/l51_rao1985_volume2.pdf"
+        }
+      ],
+      "semantic_value": null,
+      "status": "original_catalogue_verified_iconographic_identity_unresolved"
+    },
+    "visual": {
+      "evidence_files": [
+        {
+          "bytes": 31508998,
+          "path": "data/raw/cisi_76884.pdf",
+          "sha256": "47a4da4227cfb7baa56d6a561e25797225499d0ec54f5a702a82c67ab4746d4d"
+        },
+        {
+          "bytes": 10858996,
+          "path": "data/raw/irc_2025_fish_bulletin.pdf",
+          "sha256": "af5f67d803a4c8bdda75c27bf113fd67f32cf2a88a680fc5530e3aa334e86a87"
+        },
+        {
+          "bytes": 1204921,
+          "path": "data/raw/lipi_inscriptions.csv",
+          "sha256": "b8dcb325a2e2cd3cde12ac12e7a418b0348e45713c9ee28aad81b645d2ac5ee4"
+        },
+        {
+          "bytes": 2506710,
+          "path": "results/primary_pages/l51-cisi-285.png",
+          "sha256": "b3fe7583a9f0ca1792425b23d3a7ebb5d33c0f5aa71dce70dcbfd8e39e190ad8"
+        },
+        {
+          "bytes": 4093245,
+          "path": "results/primary_pages/l51-cisi-409.png",
+          "sha256": "0ebdcb95e4bd478ccdd652a7ad3d40f1ce1a5ee5950b05040d5600986dcc20df"
+        },
+        {
+          "bytes": 4436819,
+          "path": "results/primary_pages/l51-cisi-metadata-408.png",
+          "sha256": "5477b46586837878beffc0873aa14d6b84c41dea1605c9a084186fdd4fb48470"
+        },
+        {
+          "bytes": 1573805,
+          "path": "results/primary_pages/l51-bulletin-25.png",
+          "sha256": "b3a2a036f3ee106bdb80d6832dda643e24b4ad48201f7ea98afb892b327ebc57"
+        },
+        {
+          "bytes": 560903,
+          "path": "results/primary_pages/l51-bulletin-26.png",
+          "sha256": "387038470c8e40dc79009337862d2e2f6c1f6979ad33e829bcea79b3f919a42e"
+        },
+        {
+          "bytes": 373,
+          "path": "results/l51-cisi-metadata_extraction.json",
+          "sha256": "9e41921be4d85b259ff0881b84a117d975cfc34a3b1daa4b502f10610c619982"
+        },
+        {
+          "bytes": 904,
+          "path": "scripts/render_l51_review_crops.py",
+          "sha256": "fdcd0a1b0558d46b2cb74e058f77e00a1fbf48ef88c53c83032cacdac5a0d540"
+        },
+        {
+          "bytes": 255195,
+          "path": "results/primary_pages/l51-review-original.png",
+          "sha256": "e417c41cd16ddcff27db1883bafc037243f80eacda83292b581bc522099380dc"
+        },
+        {
+          "bytes": 226829,
+          "path": "results/primary_pages/l51-review-impression.png",
+          "sha256": "6df64131f668b9e7c1f19482565ad33145b11a126aa0d69636b81d87e44e5282"
+        },
+        {
+          "bytes": 57012,
+          "path": "results/primary_pages/l51-review-claim.png",
+          "sha256": "e73f4cdefa88f5cb884e0871df82088d46ec2cd4fddecfcf5190b7916f7d68d5"
+        },
+        {
+          "bytes": 487175,
+          "path": "results/primary_pages/l51-review-comparison.png",
+          "sha256": "049e90e035bf543dc6c808c74b2fbed1d5fea4a6d24b3bd908968e8ad5a4483a"
+        },
+        {
+          "bytes": 44641,
+          "path": "results/primary_pages/l51-review-metadata.png",
+          "sha256": "bf44a764641babd1a19db1c27313fb095e291fedd73f5b2fafc50b19fafd305b"
+        }
+      ],
+      "frequency_claim": {
+        "broader_w555_any_pf1_is_primary_claim": false,
+        "exact_denominator_supplied_in_paragraph": false,
+        "exact_segment_rule_supplied_in_paragraph": false,
+        "graphic_is_pair": true,
+        "inline_graphic_provisional_codes": [
+          "W527",
+          "W555"
+        ],
+        "operational_caution": "Displayed prefix is reading ending under reported R/L. Whole-text presence is a transparent proxy, not exact segment replication.",
+        "source_named_outcome": "proposed precious-metal sign or fish signs in author-defined core informational segment",
+        "source_pdf_pages": [
+          25,
+          26
+        ],
+        "source_printed_pages": [
+          19,
+          20
+        ],
+        "terminal_pair_repeated_in_m636_discussion": true,
+        "threshold": "more than80%"
+      },
+      "interpretation": {
+        "commodity": null,
+        "guild": null,
+        "named_object_in_text": null,
+        "necklace": "Plausible but not established solely by visual analogy",
+        "phonetic_values_assigned": false,
+        "semantic_values_assigned": false
+      },
+      "navigation_failures": [
+        {
+          "actual_printed_page": 373,
+          "actual_scope": "L99–266",
+          "pdf_page": 409,
+          "reason": "Does not contain L51 metadata; retained"
+        }
+      ],
+      "object": {
+        "cisi": "L-51",
+        "excavation_number": "11358",
+        "finnish_number": "6037",
+        "metadata_pdf_page": 408,
+        "metadata_printed_page": 372,
+        "museum_number": "LTH SRG1264",
+        "photo_pdf_page": 285,
+        "photo_printed_page": 249,
+        "photo_reference": "HU1019",
+        "secondary_row": "2020.1",
+        "secondary_text": "+527-555-231-235+",
+        "views": [
+          "A",
+          "a",
+          "B",
+          "C",
+          "D"
+        ]
+      },
+      "observations": [
+        "Original and impression are horizontally mirrored; motif is above separate four-sign text.",
+        "Bulletin Figure7C repeats the CISI impression at same vertical orientation, not independent evidence.",
+        "Repeated rounded elements in rows above elongated tapering projections are visible. Exact bead/pendant inventory is not certified.",
+        "Roughly complete rectangular face outline; surface detail is degraded in the reproduction.",
+        "Selected modern necklace resembles the multirow arrangement; reproduced Mohenjodaro necklace shares pointed pendants but not the same complete row layout."
+      ],
+      "review_date": "2026-09-25",
+      "review_mode": "Independent source-exposed visual review of local reproductions; no physical autopsy"
+    }
+  },
+  "protocol": {
+    "U_candidates": [
+      "W705",
+      "W706"
+    ],
+    "claim_scope": "Independent review of PDF25-26 confirms the two pictured signs, not W555 plus arbitrary phrase-final forms. File-prefix is reading-ending only for reported R/L.",
+    "claims": [
+      "L51 upper motif represents a multilayer bead necklace",
+      "More than80percent of seals with the pictured W527/W555 ending contain a fish or proposed precious-metal sign"
+    ],
+    "core_segment_proxy": "Counts target anywhere in the remaining text, since the author provides no executable core-segment boundaries. This is a transparent proxy, not an exact replication of unspecified segmentation.",
+    "established_values": null,
+    "file_order_ending": [
+      "W527",
+      "W555"
+    ],
+    "fish_family_ids": [
+      "P050",
+      "P051",
+      "P056",
+      "P057",
+      "P058",
+      "P059",
+      "P060",
+      "P061",
+      "P062",
+      "P063",
+      "P064"
+    ],
+    "motif_requirements": [
+      "Exact source identity",
+      "Visible structure separated from material/function inference",
+      "Ancient parallel independently identified as same object type",
+      "No guild or profession identity inferred solely from motif"
+    ],
+    "post_count_sensitivity": "Independent reviewer noted rawnegative M821 is fragment despite complete=Y. Preserve source-flag raw summary and separately turn absence on non-complete preservation into unknown. Matched samples already require complete preservation and are unchanged.",
+    "rules": [
+      "Enumerate all raw seal rows with literal file-prefix +527-555; preserve damaged/unknown texts and object groups",
+      "Count positive observed target signs even in damaged rows; absence in unreadable text is unknown",
+      "Count exact pair elsewhere separately; do not redefine an internal occurrence as a whole-text ending",
+      "Use same complete single-row strict seal universe as pipe-chain audit, with minimum length2 instead of3",
+      "Primary matched margins: site, literal seal type, exact length",
+      "Second comparison restricts entire universe to file-initial W527, so it asks what W555 adds beyond terminal W527",
+      "Deduplicate site/type/whole-sequence as an additional sensitivity",
+      "Do not assign fish=gemstone or U=gold; both are attributed hypotheses",
+      "Descriptive fixed-margin tails calibrate the source-selected pattern; they are not confirmatory semantic tests"
+    ],
+    "status": "Source-exposed exploratory audit; fixed after named L51/M636 rows and figure review, before new corpus counts"
+  },
+  "raw_ending_rows": [
+    {
+      "U": false,
+      "cisi": "H-386",
+      "complete": "Y",
+      "condition": "Fair",
+      "depth": "-5.0 ft",
+      "dir.": "R/L",
+      "excavation-idno": "PII-21025",
+      "fish": true,
+      "fish_or_U": true,
+      "id": "1400.1",
+      "plain_fish": false,
+      "preservation": "slightly chipped",
+      "reading_ending_certified_by_direction": true,
+      "room-grid": "--",
+      "site": "Harappa",
+      "symbol": "Bull1:W",
+      "text": "+527-555-740-055-240-415-798-060-201+",
+      "type": "SEAL:S"
+    },
+    {
+      "U": false,
+      "cisi": "H-459",
+      "complete": "Y",
+      "condition": "Poor",
+      "depth": "-5.67 ft",
+      "dir.": "R/L",
+      "excavation-idno": "1199092",
+      "fish": true,
+      "fish_or_U": true,
+      "id": "1449.1",
+      "plain_fish": false,
+      "preservation": "complete",
+      "reading_ending_certified_by_direction": true,
+      "room-grid": "-M12/17",
+      "site": "Harappa",
+      "symbol": "Bull1:T",
+      "text": "+527-555-231-002-817+",
+      "type": "SEAL:S"
+    },
+    {
+      "U": false,
+      "cisi": "L-51",
+      "complete": "Y",
+      "condition": "Good",
+      "depth": "-1.0 ft",
+      "dir.": "R/L",
+      "excavation-idno": "11358(S058) CLIX-C5",
+      "fish": true,
+      "fish_or_U": true,
+      "id": "2020.1",
+      "plain_fish": false,
+      "preservation": "complete",
+      "reading_ending_certified_by_direction": true,
+      "room-grid": "--",
+      "site": "Lothal",
+      "symbol": "Misc",
+      "text": "+527-555-231-235+",
+      "type": "SEAL:S"
+    },
+    {
+      "U": false,
+      "cisi": "L-89",
+      "complete": "Y",
+      "condition": "Good",
+      "depth": "- -",
+      "dir.": "R/L",
+      "excavation-idno": "15337(S067)",
+      "fish": true,
+      "fish_or_U": true,
+      "id": "2043.1",
+      "plain_fish": false,
+      "preservation": "complete",
+      "reading_ending_certified_by_direction": true,
+      "room-grid": "--",
+      "site": "Lothal",
+      "symbol": "None",
+      "text": "+527-555-235-002-861+",
+      "type": "SEAL:R"
+    },
+    {
+      "U": false,
+      "cisi": "M-940",
+      "complete": "Y",
+      "condition": "Good",
+      "depth": "-4.7 ft",
+      "dir.": "R/L",
+      "excavation-idno": "DK1211060",
+      "fish": false,
+      "fish_or_U": false,
+      "id": "2243.1",
+      "plain_fish": false,
+      "preservation": "complete",
+      "reading_ending_certified_by_direction": true,
+      "room-grid": "9-",
+      "site": "Mohenjo-daro",
+      "symbol": "Bull1:J",
+      "text": "+527-555-002-817+",
+      "type": "SEAL:S"
+    },
+    {
+      "U": true,
+      "cisi": "M-1693",
+      "complete": "Y",
+      "condition": "Good",
+      "depth": "-17.4 ft",
+      "dir.": "R/L",
+      "excavation-idno": "DK7402583",
+      "fish": true,
+      "fish_or_U": true,
+      "id": "2359.1",
+      "plain_fish": false,
+      "preservation": "complete",
+      "reading_ending_certified_by_direction": true,
+      "room-grid": "36-",
+      "site": "Mohenjo-daro",
+      "symbol": "Bull1",
+      "text": "+527-555-033-706-235-002-817+",
+      "type": "SEAL:S"
+    },
+    {
+      "U": false,
+      "cisi": "M-821",
+      "complete": "Y",
+      "condition": "Poor",
+      "depth": "-6.0 ft",
+      "dir.": "R/L",
+      "excavation-idno": "HR 1673238",
+      "fish": false,
+      "fish_or_U": false,
+      "id": "2437.1",
+      "plain_fish": false,
+      "preservation": "fragment",
+      "reading_ending_certified_by_direction": true,
+      "room-grid": "11836 X/01",
+      "site": "Mohenjo-daro",
+      "symbol": "Bull1:S",
+      "text": "+527-555+",
+      "type": "SEAL:S"
+    },
+    {
+      "U": false,
+      "cisi": "M-81",
+      "complete": "Y",
+      "condition": "Good",
+      "depth": "-6.0 ft",
+      "dir.": "R/L",
+      "excavation-idno": "DK-C 3133180",
+      "fish": true,
+      "fish_or_U": true,
+      "id": "2608.1",
+      "plain_fish": false,
+      "preservation": "complete",
+      "reading_ending_certified_by_direction": true,
+      "room-grid": "121530/0600",
+      "site": "Mohenjo-daro",
+      "symbol": "Bull1:S",
+      "text": "+527-555-240-002-617-070+",
+      "type": "SEAL:S"
+    },
+    {
+      "U": null,
+      "cisi": "M-368",
+      "complete": "N",
+      "condition": "Poor",
+      "depth": "-10.8 ft",
+      "dir.": "R/L",
+      "excavation-idno": "DK5471336",
+      "fish": null,
+      "fish_or_U": null,
+      "id": "2864.1",
+      "plain_fish": null,
+      "preservation": "fragment",
+      "reading_ending_certified_by_direction": true,
+      "room-grid": "63-",
+      "site": "Mohenjo-daro",
+      "symbol": "None",
+      "text": "+527-555-407-844-055-000+",
+      "type": "SEAL:R"
+    },
+    {
+      "U": null,
+      "cisi": "M-636",
+      "complete": "N",
+      "condition": "Poor",
+      "depth": "-3.7 ft",
+      "dir.": "R/L",
+      "excavation-idno": "DK335619",
+      "fish": true,
+      "fish_or_U": true,
+      "id": "3085.1",
+      "plain_fish": true,
+      "preservation": "partly damaged",
+      "reading_ending_certified_by_direction": true,
+      "room-grid": "53-",
+      "site": "Mohenjo-daro",
+      "symbol": "Bull1:W",
+      "text": "+527-555-235-220-032-002-000-216+",
+      "type": "SEAL:S"
+    },
+    {
+      "U": false,
+      "cisi": "M-1081",
+      "complete": "Y",
+      "condition": "Good",
+      "depth": "-6.8 ft",
+      "dir.": "R/L",
+      "excavation-idno": "DK11349129",
+      "fish": true,
+      "fish_or_U": true,
+      "id": "3455.1",
+      "plain_fish": false,
+      "preservation": "complete",
+      "reading_ending_certified_by_direction": true,
+      "room-grid": "15-",
+      "site": "Mohenjo-daro",
+      "symbol": "Gaur",
+      "text": "+527-555-055-233-235-741-831-518+",
+      "type": "SEAL:S"
+    },
+    {
+      "U": false,
+      "cisi": "M-1320",
+      "complete": "Y",
+      "condition": "Good",
+      "depth": "-6.33 ft",
+      "dir.": "R/L",
+      "excavation-idno": "VS 2289447",
+      "fish": true,
+      "fish_or_U": true,
+      "id": "3625.1",
+      "plain_fish": false,
+      "preservation": "complete",
+      "reading_ending_certified_by_direction": true,
+      "room-grid": "11332 Y/06",
+      "site": "Mohenjo-daro",
+      "symbol": "None",
+      "text": "+527-555-231-240-798+",
+      "type": "SEAL:R"
+    },
+    {
+      "U": false,
+      "cisi": "M-1351",
+      "complete": "Y",
+      "condition": "Good",
+      "depth": "-7.1 ft",
+      "dir.": "R/L",
+      "excavation-idno": "DK11456142",
+      "fish": true,
+      "fish_or_U": true,
+      "id": "3652.1",
+      "plain_fish": false,
+      "preservation": "complete",
+      "reading_ending_certified_by_direction": true,
+      "room-grid": "--",
+      "site": "Mohenjo-daro",
+      "symbol": "None",
+      "text": "+527-555-235+",
+      "type": "SEAL:R"
+    },
+    {
+      "U": null,
+      "cisi": "M-1966",
+      "complete": "?",
+      "condition": "Fair",
+      "depth": "- -",
+      "dir.": "R/L",
+      "excavation-idno": "-669",
+      "fish": true,
+      "fish_or_U": true,
+      "id": "4008.1",
+      "plain_fish": null,
+      "preservation": "fragment",
+      "reading_ending_certified_by_direction": true,
+      "room-grid": "--",
+      "site": "Mohenjo-daro",
+      "symbol": "-",
+      "text": "+527-555-233-235[",
+      "type": "SEAL:R"
+    }
+  ],
+  "raw_summaries": {
+    "U": {
+      "negative": 10,
+      "objects": 14,
+      "observed_positive_fraction": 0.07142857142857142,
+      "positive": 1,
+      "possible_positive_fraction_bounds": [
+        0.07142857142857142,
+        0.2857142857142857
+      ],
+      "rows": 14,
+      "unknown": 3
+    },
+    "fish": {
+      "negative": 2,
+      "objects": 14,
+      "observed_positive_fraction": 0.7857142857142857,
+      "positive": 11,
+      "possible_positive_fraction_bounds": [
+        0.7857142857142857,
+        0.8571428571428571
+      ],
+      "rows": 14,
+      "unknown": 1
+    },
+    "fish_or_U": {
+      "negative": 2,
+      "objects": 14,
+      "observed_positive_fraction": 0.7857142857142857,
+      "positive": 11,
+      "possible_positive_fraction_bounds": [
+        0.7857142857142857,
+        0.8571428571428571
+      ],
+      "rows": 14,
+      "unknown": 1
+    },
+    "plain_fish": {
+      "negative": 11,
+      "objects": 14,
+      "observed_positive_fraction": 0.07142857142857142,
+      "positive": 1,
+      "possible_positive_fraction_bounds": [
+        0.07142857142857142,
+        0.21428571428571427
+      ],
+      "rows": 14,
+      "unknown": 2
+    }
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "review_date": "2026-09-27",
+  "scope": "Methodological source review, not new count validation or authentication of any composite mapping",
+  "primary_printed_pages": [
+    15,
+    16,
+    17
+  ],
+  "primary_pdf_pages": [
+    26,
+    27,
+    28
+  ],
+  "sections": [
+    "11.3",
+    "11.4",
+    "11.5",
+    "11.6",
+    "11.7",
+    "11.8",
+    "11.9"
+  ],
+  "observations": [
+    "Variant classification uses graphic and positional/distributional evidence; doubtful variants remain distinct.",
+    "Labels for morphological groups are conventional, not determinations of referents.",
+    "Spacing criterion has exceptions for grouped strokes, bilateral brackets and mirror compounds.",
+    "Variable joined/separate occurrences are normalized as independent signs.",
+    "Text1218 segmentation is argued using pairwise frequencies; those source counts are not independently rechecked here.",
+    "Integral-sign boundaries explicitly remain provisional conventions."
+  ],
+  "conclusion": "Normalized-token context evidence is not automatically independent of the editorial segmentation/classification it may be invoked to validate. Original graphic joining must be checked separately.",
+  "particular_decomposition_certified": false,
+  "semantic_value": null,
+  "phonetic_value": null,
+  "evidence_files": [
+    {
+      "path": "data/raw/mahadevan_1977_text.pdf",
+      "bytes": 119302608,
+      "sha256": "6dcdd074a0174e5fab149590fbbf82342711d345764e9763f8e5e92c81cf7f99"
+    },
+    {
+      "path": "docs/COMPOSITION_METHOD_REVIEW.md",
+      "bytes": 7803,
+      "sha256": "3bc0956ff2d525783cc29664850e55764087faa7c8b8f60289ad9ee30fa86d86"
+    },
+    {
+      "path": "results/composition-method_extraction.json",
+      "bytes": 386,
+      "sha256": "4f74760c436b25dc46a2abfca13885d9cd45d2a7aefdefb7e0d40c69000abbb4"
+    },
+    {
+      "path": "results/primary_pages/composition-method-26.png",
+      "bytes": 5382231,
+      "sha256": "088bfe13fe2080cc83dd64f6bf3e562d680996728ecd5894e91f7f8a0222218d"
+    },
+    {
+      "path": "results/primary_pages/composition-method-27.png",
+      "bytes": 3227681,
+      "sha256": "d0ee26610857fd4bf0439008c922d8f7623a6b42f3c7b66dbf6d2803c482a8bf"
+    },
+    {
+      "path": "results/primary_pages/composition-method-28.png",
+      "bytes": 3474283,
+      "sha256": "e049197070350eeff0954b85df73802517980be7bf0ab7bb9f64e7a9a173f124"
+    }
+  ]
+}

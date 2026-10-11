@@ -1,0 +1,54 @@
+{
+  "source": "data/raw/cisi_76884.pdf",
+  "source_sha256": "47a4da4227cfb7baa56d6a561e25797225499d0ec54f5a702a82c67ab4746d4d",
+  "artifact": "M-160",
+  "local_export_id": "2686.1",
+  "source_export_text": "+151-243-031-002-820-741+",
+  "source_export_direction": "R/L",
+  "source_export_excavation": "DK12449286",
+  "catalogue_excavation": "DK 12449",
+  "catalogue_Mahadevan_reference": "2286",
+  "catalogue_museum": "ASI 63.10.88",
+  "review_date": "2026-09-22",
+  "observations": [
+    {
+      "pdf_page": 84,
+      "printed_page": 48,
+      "render": "results/primary_pages/numeral-m160-84.png",
+      "image_labels": [
+        "M-160 A",
+        "M-160 a"
+      ],
+      "observation": "The original seal and its impression each show an adjacent group of one long stroke and two short strokes. In the displayed impression (lowercase a), left-to-right order is long-one followed by short-two; in the original A, the mirror order is short-two followed by long-one. No intervening sign is visible between the stroke groups.",
+      "supports": "The geometric order contrast recorded by the export for this object, using impression display order.",
+      "does_not_establish": [
+        "Numerical values of either group",
+        "Whether the two groups make one field",
+        "Independent authentication of every W-code in the full line",
+        "A global reading direction from this object alone"
+      ]
+    },
+    {
+      "pdf_page": 403,
+      "printed_page": 367,
+      "render": "results/primary_pages/numeral-m160-403.png",
+      "observation": "Data row M-160 links reference 2286, excavation DK12449 and museum ASI63.10.88.",
+      "supports": "Object locator across catalogue and photograph",
+      "limit": "Export excavation string DK12449286 differs; raw value is retained and is not treated as an exact independent identifier match."
+    }
+  ],
+  "review_method": "Single parent-agent visual review of full rendered pages, not independent human epigraphic adjudication.",
+  "conclusion": "Photographic corroboration of one half of the opposite-order pair. No numeral value or field segmentation is established.",
+  "additional_primary_checks": [
+    {
+      "source": "data/raw/mahadevan_1977_text.pdf",
+      "source_sha256": "6dcdd074a0174e5fab149590fbbf82342711d345764e9763f8e5e92c81cf7f99",
+      "pdf_page": 77,
+      "printed_page": 66,
+      "render": "results/primary_pages/numeral-m160-m77-77.png",
+      "reference": "2286",
+      "observation": "The normalized drawing displays one long stroke immediately followed by two short strokes in left-to-right display order, matching the CISI impression.",
+      "orientation_scope": "Mahadevan normalizes texts to right-to-left reading; comparison concerns consistent printed display order, not an independently inferred direction."
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "sources": [],
+  "web_extraction_captures": [
+    {
+      "path": "data/raw/comb_tablet_kenoyer1997_web_capture.json",
+      "bytes": 22614,
+      "sha256": "fafa8cec9203e7d4f3c2fd52791531a6a73bc36fa64116bd461bfb774c11b82a",
+      "url": "https://www.harappa.com/sites/default/files/pdf/Kenoyer1997_Excavations%20at%20Harappa%201994-1995%20New%20Perspective.pdf",
+      "kind": "web_tool_extraction_capture_not_original_pdf",
+      "refetchable": false
+    },
+    {
+      "path": "data/raw/comb_tablet_kenoyer2010_web_capture.json",
+      "bytes": 28127,
+      "sha256": "87caf456afbf7bacdf0f415dc305c02a676635d32f8bae5eedfe57ba6c4082d7",
+      "url": "https://www.harappa.com/sites/default/files/pdf/Kenoyer-Meadow-2010-HARP.pdf",
+      "kind": "web_tool_extraction_capture_not_original_pdf",
+      "refetchable": false
+    }
+  ],
+  "failed_downloads": [
+    {
+      "url": "https://www.harappa.com/sites/default/files/pdf/Kenoyer1997_Excavations%20at%20Harappa%201994-1995%20New%20Perspective.pdf",
+      "clients": [
+        "Python urllib",
+        "curl with Mozilla User-Agent"
+      ],
+      "result": "HTTP403; no original PDF bytes retained"
+    }
+  ]
+}

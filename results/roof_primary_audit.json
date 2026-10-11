@@ -1,0 +1,531 @@
+{
+  "evidence_pin_checks": 35,
+  "fields_verified": 8,
+  "input_sha256": {
+    "data/processed/m77_candidate_records.jsonl": "b29a176da86b125115256a8966c377c3fd9fe39ecaab17bf576b770b83b41bab",
+    "data/processed/roof_m092_primary_review.json": "28434171bb84e9e19efdc520bd13ecf423ee28e357afc9ae005bd5dce8284860",
+    "data/processed/roof_m176_primary_review.json": "fe8e3fcadf9fcd6171479241dffeced03b0d490b6992773f5b124c371c924d05"
+  },
+  "limits": "Primary normalized fields, not original artifact readings or independent die counts. Additional sides remain separate. Corpus screen is unchanged.",
+  "m092_coverage": {
+    "concordance_field": "00",
+    "concordance_pdf_page": 332,
+    "concordance_printed_page": 321,
+    "concordance_target_group": "M099",
+    "date": "2026-09-27",
+    "evidence_files": [
+      {
+        "bytes": 2047,
+        "path": "docs/ROOF_M092_COVERAGE_REVIEW.md",
+        "sha256": "1e1af08e5554ab192581ac815e40845cf34dba2b06e333a04af3144eaca85107"
+      },
+      {
+        "bytes": 119302608,
+        "path": "data/raw/mahadevan_1977_text.pdf",
+        "sha256": "6dcdd074a0174e5fab149590fbbf82342711d345764e9763f8e5e92c81cf7f99"
+      },
+      {
+        "bytes": 1607558,
+        "path": "results/primary_pages/m77-u-types-parent-extra-166.png",
+        "sha256": "80d0512d66b47bcebfcf10a57dd1061446f61f11a5ccd352924954c83e2fdbc3"
+      },
+      {
+        "bytes": 2094053,
+        "path": "results/primary_pages/roof-m092-index-332.png",
+        "sha256": "aa798afb055635dc0227d27cb72745f59287d6ce545b1cdfebdb394f57838469"
+      },
+      {
+        "bytes": 371,
+        "path": "results/roof-m092-index_extraction.json",
+        "sha256": "adaaded202ab86f06a0e856dd2e95e66e35c74d1da0f46e1f45fe887561425c5"
+      },
+      {
+        "bytes": 1504752,
+        "path": "results/primary_pages/table_i_highres-729.png",
+        "sha256": "654f3ca23d59636def8b165ce5d12202c346ef6771f5fbfca154ae4e5e3b23c3"
+      },
+      {
+        "bytes": 2189,
+        "path": "data/processed/primary_table_visual_review.json",
+        "sha256": "99db0b439d52dceb81c44a0ade252641699eadb0698f280f1df5c87cf694fbb6"
+      },
+      {
+        "bytes": 25504,
+        "path": "results/primary_pages/roof-modifier-M092.png",
+        "sha256": "590efe55ffec3b424d5210eee00ae6b213af4831221f312efcd763b9ff009ea6"
+      },
+      {
+        "bytes": 4109921,
+        "path": "data/processed/m77_candidate_records.jsonl",
+        "sha256": "b29a176da86b125115256a8966c377c3fd9fe39ecaab17bf576b770b83b41bab"
+      }
+    ],
+    "metadata_literal": "109901",
+    "normalized_reading_order": [
+      "M092",
+      "M099",
+      "LOSS"
+    ],
+    "phonetic_values": null,
+    "physical_original_photo_inspected": false,
+    "primary_site_heading": "Kalibangan",
+    "primary_table_M092_initial": 1,
+    "primary_table_M092_total": 1,
+    "reference": "8018",
+    "semantic_values": null,
+    "table_pdf_page": 729,
+    "table_printed_page": 718,
+    "texts_pdf_page": 166,
+    "texts_printed_page": 155,
+    "two_depictions_are_one_inscription": true,
+    "whole_field_excluded_for_loss": true
+  },
+  "m176_fields": {
+    "central_or_previous_shape_files_edited": false,
+    "date": "2026-09-27",
+    "evidence_files": [
+      {
+        "bytes": 5949,
+        "path": "docs/ROOF_M176_PRIMARY_REVIEW.md",
+        "sha256": "6934697fdfe6866cf8312e2123195fe5294e186c03c8dd56c481f2a867b801a1"
+      },
+      {
+        "bytes": 119302608,
+        "path": "data/raw/mahadevan_1977_text.pdf",
+        "sha256": "6dcdd074a0174e5fab149590fbbf82342711d345764e9763f8e5e92c81cf7f99"
+      },
+      {
+        "bytes": 2775,
+        "path": "scripts/inspect_research_pdf.py",
+        "sha256": "15e90b9cd0e00cd67991eeb50cb83599e1ae75825c8a39fb9ec16cea1c22bc03"
+      },
+      {
+        "bytes": 958,
+        "path": "scripts/render_roof_m176_crops.py",
+        "sha256": "32d7d717b9fbadc85f3f72d2db97529dad4dea46aae759d1c5016676620b6f93"
+      },
+      {
+        "bytes": 1639,
+        "path": "data/processed/roof_m176_crop_manifest.json",
+        "sha256": "0f3fb87ca6457065061e9d7c71e7dce87ea21d2410c0c4ce9ece007b9ca7786b"
+      },
+      {
+        "bytes": 416,
+        "path": "results/roof-m176_extraction.json",
+        "sha256": "5a73b183bafbfeab07a1b70dbb8a95580dd9d5985445d9581ba49718b81db7a9"
+      },
+      {
+        "bytes": 1734822,
+        "path": "results/primary_pages/roof-m176-122.png",
+        "sha256": "eb09f2718e4b25fb7582fa5d799dee3aa6cb49b781099846878971c3f3121cb4"
+      },
+      {
+        "bytes": 1894898,
+        "path": "results/primary_pages/roof-m176-127.png",
+        "sha256": "65e014f2be3d12552c9524db8d772c12a50fbee346e91245aded9ccac10bd027"
+      },
+      {
+        "bytes": 1730123,
+        "path": "results/primary_pages/roof-m176-153.png",
+        "sha256": "91c6158bae2baf4077823788ac8afd010af1c7547e7d893b4f4d9ed32bc09036"
+      },
+      {
+        "bytes": 1752291,
+        "path": "results/primary_pages/roof-m176-155.png",
+        "sha256": "1b692121e42f7a25afd529c304de7d65969760fdd64e980987e61cc08f5893ed"
+      },
+      {
+        "bytes": 4286320,
+        "path": "results/primary_pages/roof-m176-830.png",
+        "sha256": "cf8c597e0736a04b6121634539e7e42766cfdaba1ca1803597f6a732961f12af"
+      },
+      {
+        "bytes": 4206206,
+        "path": "results/primary_pages/roof-m176-833.png",
+        "sha256": "d73934b351ab49079963a8913af2d1384cfcfab53ea56e840a5752d6b5841bd5"
+      },
+      {
+        "bytes": 93571,
+        "path": "results/primary_pages/roof-m176-4407-detail.png",
+        "sha256": "62152dc6a9d82e7b7bb5056b5d8e384b3b8a80d33cda582509a20b3aaf20f306"
+      },
+      {
+        "bytes": 96432,
+        "path": "results/primary_pages/roof-m176-4493-detail.png",
+        "sha256": "471235b23c9db6796e6902e69238648f702dc33d275462ad70ea9e02cbaecec1"
+      },
+      {
+        "bytes": 78989,
+        "path": "results/primary_pages/roof-m176-5444-detail.png",
+        "sha256": "a20487d1617df342550f15f6eea4aabe2be95f2a112f63e1aa53ff9a085df1ec"
+      },
+      {
+        "bytes": 78913,
+        "path": "results/primary_pages/roof-m176-5477-detail.png",
+        "sha256": "9c1ed135d4b61ae4b1b2ca33405dc8c4672c30a4f4a5d7a2241d9959d9707253"
+      },
+      {
+        "bytes": 182800,
+        "path": "results/primary_pages/roof-m176-eh-rule-detail.png",
+        "sha256": "682a5f88db97bbc0f1d0e89a587cab81090dac67f4aeb899fbf0b9166a01c8d4"
+      },
+      {
+        "bytes": 73083,
+        "path": "results/primary_pages/roof-m176-5444-source-detail.png",
+        "sha256": "9c216e9bd4699f494f62493334a18fb833c14fab1f760e841d45033d3c2e9887"
+      },
+      {
+        "bytes": 70368,
+        "path": "results/primary_pages/roof-m176-5477-source-detail.png",
+        "sha256": "7439a0ec568412535d63417084dba2021f1bd47903942d3d791a3680c6f9d533"
+      },
+      {
+        "bytes": 3448533,
+        "path": "results/primary_pages/m77-codebook-30.png",
+        "sha256": "2b66004a5f14e0cdd762581ca907347d3a0b8cfbfa0629cf38b6fe86aa2c9cdf"
+      },
+      {
+        "bytes": 2376085,
+        "path": "results/primary_pages/m77-codebook-31.png",
+        "sha256": "2d02126be99255e7ae57f04b4b26f7329959e2dfa170f851871060f6854aa0c9"
+      },
+      {
+        "bytes": 1838931,
+        "path": "results/primary_pages/m77-codebook-41.png",
+        "sha256": "80a70e5c3329804153835a35b8c2364e5788b339ca4eb824b6b357c73f5d0e25"
+      },
+      {
+        "bytes": 1997128,
+        "path": "results/primary_pages/m77-codebook-42.png",
+        "sha256": "b4ec143903bd5059cdbf8c524c20e2b0e3b0d0d244065bf6765b9282379b37ce"
+      },
+      {
+        "bytes": 3281280,
+        "path": "results/primary_pages/comb-tablet-m77-detail-43.png",
+        "sha256": "ebb35d20d3f7035a6d68aa0e967a8d18ccfe5b8f4330f62a3a264a5a9b463793"
+      },
+      {
+        "bytes": 2228064,
+        "path": "results/primary_pages/sign_list-044.png",
+        "sha256": "33eff554bfdea81af6d1a3510a5b2541d1b74b02ae1e63b253c725b44c7c0b64"
+      },
+      {
+        "bytes": 2312636,
+        "path": "results/primary_pages/sign_list-045.png",
+        "sha256": "972002b288ea77921dcacfe67386dbf585b76be6bca5444b7ff9422e47e70b89"
+      }
+    ],
+    "fields": [
+      {
+        "displayed_left_to_right_tokens": [
+          "M176",
+          "M138"
+        ],
+        "doubt_marker_present": false,
+        "expanded_metadata": "319101",
+        "field_id": "4407:1:0",
+        "field_kind": "script_line",
+        "field_symbol_code": "91",
+        "full_printed_field_verified": true,
+        "line": 0,
+        "literal_metadata": "319101",
+        "loss_marker_present": false,
+        "matches_initial_candidate": true,
+        "normalized_reading_order": "right_to_left",
+        "normalized_tokens": [
+          "M138",
+          "M176"
+        ],
+        "object_type_code": 3,
+        "original_direction_code": 1,
+        "pdf_page": 122,
+        "printed_page": 111,
+        "reference": "4407",
+        "side": 1
+      },
+      {
+        "displayed_left_to_right_tokens": [
+          "M328",
+          "M087"
+        ],
+        "doubt_marker_present": false,
+        "expanded_metadata": "329101",
+        "field_id": "4407:2:0",
+        "field_kind": "script_line",
+        "field_symbol_code": "91",
+        "full_printed_field_verified": true,
+        "line": 0,
+        "literal_metadata": "29101",
+        "loss_marker_present": false,
+        "matches_initial_candidate": null,
+        "normalized_reading_order": "right_to_left",
+        "normalized_tokens": [
+          "M087",
+          "M328"
+        ],
+        "object_type_code": 3,
+        "original_direction_code": 1,
+        "pdf_page": 122,
+        "printed_page": 111,
+        "reference": "4407",
+        "side": 2
+      },
+      {
+        "displayed_left_to_right_tokens": [
+          "M176",
+          "M066"
+        ],
+        "doubt_marker_present": false,
+        "expanded_metadata": "310001",
+        "field_id": "4493:1:0",
+        "field_kind": "script_line",
+        "field_symbol_code": "00",
+        "full_printed_field_verified": true,
+        "line": 0,
+        "literal_metadata": "310001",
+        "loss_marker_present": false,
+        "matches_initial_candidate": true,
+        "normalized_reading_order": "right_to_left",
+        "normalized_tokens": [
+          "M066",
+          "M176"
+        ],
+        "object_type_code": 3,
+        "original_direction_code": 1,
+        "pdf_page": 127,
+        "printed_page": 116,
+        "reference": "4493",
+        "side": 1
+      },
+      {
+        "displayed_left_to_right_tokens": [
+          "M328",
+          "M095"
+        ],
+        "doubt_marker_present": false,
+        "expanded_metadata": "320001",
+        "field_id": "4493:2:0",
+        "field_kind": "script_line",
+        "field_symbol_code": "00",
+        "full_printed_field_verified": true,
+        "line": 0,
+        "literal_metadata": "20001",
+        "loss_marker_present": false,
+        "matches_initial_candidate": null,
+        "normalized_reading_order": "right_to_left",
+        "normalized_tokens": [
+          "M095",
+          "M328"
+        ],
+        "object_type_code": 3,
+        "original_direction_code": 1,
+        "pdf_page": 127,
+        "printed_page": 116,
+        "reference": "4493",
+        "side": 2
+      },
+      {
+        "displayed_left_to_right_tokens": [
+          "M176",
+          "M138"
+        ],
+        "doubt_marker_present": false,
+        "expanded_metadata": "319101",
+        "field_id": "5444:1:0",
+        "field_kind": "script_line",
+        "field_symbol_code": "91",
+        "full_printed_field_verified": true,
+        "line": 0,
+        "literal_metadata": "319101",
+        "loss_marker_present": false,
+        "matches_initial_candidate": true,
+        "normalized_reading_order": "right_to_left",
+        "normalized_tokens": [
+          "M138",
+          "M176"
+        ],
+        "object_type_code": 3,
+        "original_direction_code": 1,
+        "pdf_page": 153,
+        "printed_page": 142,
+        "reference": "5444",
+        "side": 1
+      },
+      {
+        "displayed_left_to_right_tokens": [
+          "M328",
+          "M087"
+        ],
+        "doubt_marker_present": false,
+        "expanded_metadata": "329101",
+        "field_id": "5444:2:0",
+        "field_kind": "script_line",
+        "field_symbol_code": "91",
+        "full_printed_field_verified": true,
+        "line": 0,
+        "literal_metadata": "29101",
+        "loss_marker_present": false,
+        "matches_initial_candidate": null,
+        "normalized_reading_order": "right_to_left",
+        "normalized_tokens": [
+          "M087",
+          "M328"
+        ],
+        "object_type_code": 3,
+        "original_direction_code": 1,
+        "pdf_page": 153,
+        "printed_page": 142,
+        "reference": "5444",
+        "side": 2
+      },
+      {
+        "displayed_left_to_right_tokens": [
+          "M176",
+          "M060"
+        ],
+        "doubt_marker_present": false,
+        "expanded_metadata": "310002",
+        "field_id": "5477:1:0",
+        "field_kind": "script_line",
+        "field_symbol_code": "00",
+        "full_printed_field_verified": true,
+        "line": 0,
+        "literal_metadata": "310002",
+        "loss_marker_present": false,
+        "matches_initial_candidate": true,
+        "normalized_reading_order": "right_to_left",
+        "normalized_tokens": [
+          "M060",
+          "M176"
+        ],
+        "object_type_code": 3,
+        "original_direction_code": 2,
+        "pdf_page": 155,
+        "printed_page": 144,
+        "reference": "5477",
+        "side": 1
+      },
+      {
+        "displayed_left_to_right_tokens": [],
+        "doubt_marker_present": false,
+        "expanded_metadata": "328390",
+        "field_id": "5477:2:9",
+        "field_kind": "symbol_only",
+        "field_symbol_code": "83",
+        "full_printed_field_verified": true,
+        "line": 9,
+        "literal_metadata": "28390",
+        "loss_marker_present": false,
+        "matches_initial_candidate": null,
+        "normalized_reading_order": null,
+        "normalized_tokens": [],
+        "object_type_code": 3,
+        "original_direction_code": 0,
+        "pdf_page": 155,
+        "printed_page": 144,
+        "reference": "5477",
+        "side": 2
+      }
+    ],
+    "first_field_code_corrections": [],
+    "important_limits": [
+      "M5477 actual direction2 does not reverse its already normalized printed sequence",
+      "Symbol83 is metadata, not tokenM083",
+      "M087 long double strokes is not M099 short double strokes",
+      "M4407 and5444 share both text fields but physical independence or identity is unverified",
+      "No absent plain-X frame is invented",
+      "No roof-transfer or semantic inference is asserted"
+    ],
+    "joins_between_fields": [],
+    "new_downloads": [],
+    "phonetic_values": null,
+    "physical_artifact_deduplication_completed": false,
+    "references": [
+      {
+        "artifact_photograph_newly_inspected": false,
+        "distinct_physical_object_independence_established": false,
+        "fields": [
+          "4407:1:0",
+          "4407:2:0"
+        ],
+        "object_type_code": 3,
+        "reference": "4407",
+        "site": "Harappa",
+        "source_metadata": {
+          "EH_volume": "II",
+          "appendix_pdf_page": 830,
+          "appendix_printed_page": 821,
+          "excavation": null,
+          "item": 407,
+          "kind": "explicit_EH_item_range_rule"
+        }
+      },
+      {
+        "artifact_photograph_newly_inspected": false,
+        "distinct_physical_object_independence_established": false,
+        "fields": [
+          "4493:1:0",
+          "4493:2:0"
+        ],
+        "object_type_code": 3,
+        "reference": "4493",
+        "site": "Harappa",
+        "source_metadata": {
+          "EH_volume": "II",
+          "appendix_pdf_page": 830,
+          "appendix_printed_page": 821,
+          "excavation": null,
+          "item": 493,
+          "kind": "explicit_EH_item_range_rule"
+        }
+      },
+      {
+        "artifact_photograph_newly_inspected": false,
+        "distinct_physical_object_independence_established": false,
+        "fields": [
+          "5444:1:0",
+          "5444:2:0"
+        ],
+        "object_type_code": 3,
+        "reference": "5444",
+        "site": "Harappa",
+        "source_metadata": {
+          "appendix_pdf_page": 833,
+          "appendix_printed_page": 824,
+          "excavation": "3027(2)",
+          "kind": "explicit_appendix_row",
+          "photo_source": "Pu.35:3863"
+        }
+      },
+      {
+        "artifact_photograph_newly_inspected": false,
+        "distinct_physical_object_independence_established": false,
+        "fields": [
+          "5477:1:0",
+          "5477:2:9"
+        ],
+        "object_type_code": 3,
+        "reference": "5477",
+        "site": "Harappa",
+        "source_metadata": {
+          "appendix_pdf_page": 833,
+          "appendix_printed_page": 824,
+          "excavation": "13592",
+          "kind": "explicit_appendix_row",
+          "photo_source": "Pu.61:4076"
+        }
+      }
+    ],
+    "scope": "M77 normalized published fields, not original artifact transcription",
+    "script_line_count": 7,
+    "selected_reference_count": 4,
+    "semantic_values": null,
+    "status": "four_candidate_fields_confirmed_with_all_additional_printed_entries",
+    "symbol_only_entry_count": 1
+  },
+  "new_phonetic_values": 0,
+  "new_semantic_values": 0,
+  "script_lines": 7,
+  "source_direction_discrepancies": [],
+  "symbol_only_entries": 1
+}

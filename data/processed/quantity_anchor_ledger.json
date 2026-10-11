@@ -1,0 +1,46 @@
+{
+  "status": "Research claims and dependencies, not decoded ground truth",
+  "accessed_date": "2026-09-22",
+  "anchors": [
+    {
+      "id": "ration_tablets",
+      "source": "https://arxiv.org/abs/1812.00049",
+      "local_source": "data/raw/rao_2018_indus_economics.pdf",
+      "locator": "PDF pages 2 and 4, Figure 5",
+      "status": "Source pages visually reviewed; interpretation remains hypothetical",
+      "observation": "Sixteen tablets share three inscriptions, with handwriting variation.",
+      "hypothesis": "Ration allocation; about 160 litres for the four-stroke U expression.",
+      "dependencies": ["Wells capacity calibration", "Identification of depicted activities", "Contents not independently measured"],
+      "candidate_shape_mapping": {"plain_U": "M328", "verification": "Visual resemblance only; not authenticated artifact-level crosswalk"}
+    },
+    {
+      "id": "capacity_claim",
+      "source": "https://ru.scribd.com/document/1007007442/The-Archaeology-and-Epigraphy-of-Indus-Writing-Bryan-K-Wells-Andreas-Fuls-Archaeopress-Publishing-Ltd-Oxford-2015-Archaeopress-Publishing",
+      "locator": "Wells 2015, printed pages 60–63, Tables 4.1–4.2",
+      "status": "Public OCR inspected; table cells and source images not recovered",
+      "claim": "Three measured vessels support an approximately 40.4-litre stroke unit under an ellipsoid approximation.",
+      "measurements": null,
+      "dependencies": ["Interior geometry and fill assumptions", "Numerical scale convention"],
+      "independent_prediction_issue": "K-090 photographic scale is chosen using the expected capacity."
+    },
+    {
+      "id": "bangle_claim",
+      "source": "https://ru.scribd.com/document/1007007442/The-Archaeology-and-Epigraphy-of-Indus-Writing-Bryan-K-Wells-Andreas-Fuls-Archaeopress-Publishing-Ltd-Oxford-2015-Archaeopress-Publishing",
+      "locator": "Wells 2015, printed pages 94–95, Figures 6.15–6.16",
+      "status": "Published reconstruction claim, not independently verified contents or sign transcription",
+      "claimed_fragment_count": 82,
+      "claimed_reconstructed_count_interval": [15, 20],
+      "conditional_counts_long_short": [1, 7],
+      "proposed_weights_long_short": [10, 1],
+      "dependencies": ["Reconstruction of damaged seal", "Which fragments were contents versus assembly", "Additive numerical interpretation", "Excavation report verification"],
+      "primary_context_check": {
+        "source": "data/raw/mohenjo_daro_inscribed_objects_74331.pdf",
+        "visually_checked_pdf_pages": [78, 80, 81, 85, 121],
+        "fragment_group_jar": "G",
+        "readable_sealing_jar": "E",
+        "verified_same_object_anchor": false,
+        "status": "Separate jar contexts in this report; later linking documentation not verified"
+      }
+    }
+  ]
+}

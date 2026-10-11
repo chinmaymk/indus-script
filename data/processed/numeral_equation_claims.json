@@ -1,0 +1,28 @@
+{
+  "source": "Andreas Fuls (2020), Ancient Writing and Modern Technologies – Structural Analysis of Numerical Indus Inscriptions",
+  "urls": [
+    "https://www.researchgate.net/publication/361812318_Ancient_Writing_and_Modern_Technologies_-_Structural_Analysis_of_Numerical_Indus_Inscriptions",
+    "https://www.academia.edu/41952485/Ancient_Writing_and_Modern_Technologies_Structural_Analysis_of_Numerical_Indus_Inscriptions"
+  ],
+  "accessed_date": "2026-09-22",
+  "source_status": "Public text inspected in two renderings; original PDF figures not visually verified. Equations are proposed interpretations, not ground-truth equalities.",
+  "variables": {"L": "Proposed long-stroke base", "S": "Proposed short-stroke base", "v": "Proposed value of source sign 900"},
+  "equations": [
+    {"id": "two_faces", "locator": "Formula 2; Figure 16; source ID 3786", "equation": "3*L+v = 2*L+2*S", "reduced": "v = 2*S-L"},
+    {"id": "sum_faces", "locator": "Figure 18; CISI artifact M-331", "equation": "v*L+1 = 3*S+5+4*S", "reduced": "v*L+1 = 7*S+5"}
+  ],
+  "conditional_screens": {
+    "positive_integer_variables": true,
+    "digit_inventory_bounds": {"L_min": 10, "S_min": 8, "status": "Assumes stroke counts are normalized positional digits"},
+    "bangle_interval": {"L_min": 8, "L_max": 13, "status": "Conditional on disputed artifact pairing and fixed short-stroke value one; see quantity_anchor_ledger.json"}
+  },
+  "proposed_solution": {"L": 10, "S": 8, "v": 6},
+  "unverified_assumptions": [
+    "Correct sign identities, reconstructed text, grouping, and reading order",
+    "Two tablet faces encode equal quantities in commensurate units",
+    "One M-331 face totals quantities on selected other faces",
+    "The selected positional multipliers apply across these objects",
+    "Bare or separated strokes receive the assigned numerical roles"
+  ],
+  "namespace_policy": "Do not join article integer IDs to a different corpus release without an artifact crosswalk. Do not equate local W899 and source 900 without visual verification."
+}

@@ -1,0 +1,93 @@
+{
+  "schema": "p453801-image-search-v1",
+  "date": "2026-09-23",
+  "target": {
+    "cdli": "P453801",
+    "publication": "Owen2013 Nisaba15/2 no0371",
+    "bdtns": "192941",
+    "cdli_museum_label": "Anonymous 453801",
+    "seal_label": "seal1"
+  },
+  "result": {
+    "primary_handcopy_found": true,
+    "primary_photograph_found": false,
+    "tablet_faces_shown": 2,
+    "seal_drawing_found": false,
+    "seal_image_caption": "Seal illegible",
+    "image_dimensions_pixels": [
+      825,
+      1700
+    ],
+    "inspection": "Direct visual inspection of downloaded BDTNS image. It shows two cuneiform tablet-face drawings and the printed caption; no separately rendered seal impression, signs or motif.",
+    "script_of_body": "cuneiform, consistent with source Sumerian transcription",
+    "script_of_seal": null,
+    "identified_indus_sequence": null,
+    "independent_name_to_indus_sequence_pair": false
+  },
+  "join_chain": [
+    "Existing official CDLI P453801 HTML links BDTNS192941 and primary Nisaba15 no371.",
+    "BDTNS192941 catalogue links back to CDLI P453801 and lists Owen2013 Nisaba15/2 0371 as edition with handcopy and transliteration.",
+    "The same catalogue explicitly points to U192941_1.jpg and credits handcopy from Nisaba15/2 0371, drawing by Owen, D.I., copyright CDL Press.",
+    "Downloaded image visibly says Seal illegible."
+  ],
+  "sources": [
+    {
+      "path": "data/raw/bdtns_192941_catalogue.html",
+      "bytes": 25993,
+      "sha256": "ef3d80ed758cc46bd92510ce84fd17bcef83a596e9144fc956a8a420523b7836",
+      "url": "https://bdtns.cesga.es/192941"
+    },
+    {
+      "path": "data/raw/bdtns_192941_owen_handcopy.jpg",
+      "bytes": 174502,
+      "sha256": "1c5d35d04b325dee2fdd1e8fc76311f7198cddb1178636bbc994359cb455a323",
+      "url": "https://bdtns.cesga.es/UR3_imagenes/imagenes/imagenes_044/U192941_1.jpg"
+    },
+    {
+      "path": "data/raw/cdli_p453801_artifact.html",
+      "bytes": 65654,
+      "sha256": "1a74bb73818ef715cb457e653266fb2f02ee177e807da45d855ed50c6b18bc6d",
+      "url": "https://cdli.earth/artifacts/453801"
+    }
+  ],
+  "image_credit": "Hand copy from Nisaba 15/2 0371. \u00a9 CDL Press [publisher], drawing by Owen, D.I.",
+  "publication": {
+    "author": "David I. Owen",
+    "year": 2013,
+    "title": "Cuneiform Texts Primarily from Iri-Sa\u011drig / \u0100l-\u0160arr\u0101k\u012b and the History of the Ur III Period",
+    "volume": "II: Catalogue and Texts",
+    "series": "Nisaba15",
+    "publisher": "CDL Press",
+    "primary_catalogue_url": "https://cdli.earth/publications/110334",
+    "number": 371,
+    "printed_page": null,
+    "page_locator_lead": {
+      "page": 204,
+      "status": "secondary citation only, not independently verified against original page",
+      "source_url": "https://www.fmboschetto.it/didattica/indoeuropeo_preistorico.pdf"
+    }
+  },
+  "access_log": [
+    {
+      "route": "Existing local CDLI official HTML",
+      "result": "No image available placeholder in actual viewer; generic social-image URL alone not proof of available artifact photo."
+    },
+    {
+      "route": "Official publication / primary library catalogue search",
+      "result": "Bibliographic record found; no publicly readable original page scan located in bounded search."
+    },
+    {
+      "route": "BDTNS linked public catalogue",
+      "result": "HTML and exact linked handcopy retrieved successfully with curl; web-tool direct open intermittently failed. No authentication or access denial bypass used."
+    }
+  ],
+  "identity_limits": [
+    "seal1 is a local textual section label, not an independently identified physical seal.",
+    "P533185/S999999 is the generic dummy seal record per CDLI, not proof of shared seal ownership.",
+    "BDTNS remarks that CUSAS40/2 1582 and Nisaba15/2 0371 may be the same text but year-names differ; no physical identity adjudication from this handcopy.",
+    "Anonymous453801 is a catalogue label, not a verified museum accession or independently known owner.",
+    "Recipient names in the body do not establish the sealer or seal owner.",
+    "The statement Seal illegible is an editorial assessment; absent seal depiction is not proof that a future photograph cannot recover it."
+  ],
+  "next_evidence_needed": "A photograph or original seal-impression drawing explicitly tied to this tablet, followed by script and ownership verification. The present handcopy does not provide that bridge."
+}

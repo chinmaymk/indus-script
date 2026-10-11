@@ -1,0 +1,124 @@
+{
+  "review_date": "2026-09-25",
+  "review_status": "Source-exposed visual comparison of primary sign list, normalized text and artifact metadata; not a physical autopsy",
+  "primary_artifact_bridge": {
+    "cisi": "L-89",
+    "excavation": "15337",
+    "finnish_catalogue": "6132",
+    "M77_text": "7090",
+    "CISI_metadata_pdf_page": 408,
+    "M77_metadata_pdf_page": 835,
+    "M77_metadata_printed_page": 826,
+    "M77_text_pdf_page": 162,
+    "M77_text_printed_page": 151,
+    "M77_candidate_reading_order": [
+      "M267",
+      "M099",
+      "M065",
+      "M222",
+      "M254"
+    ],
+    "finding": "CISI L89 excavation15337 matches M77 appendix7090 excavation15337. Five-sign normalized primary line matches the photographed order; crossed sign corresponds to M222, comb to M254. No equality of Finnish6132 and M77 numbers is assumed."
+  },
+  "catalogue_conflict": {
+    "feature": "P230",
+    "source_W_members": [
+      "W550",
+      "W555"
+    ],
+    "source_M_members": [
+      "M216"
+    ],
+    "observed_ending_W": "W555",
+    "primary_comparison_M": "M222",
+    "finding": "M216 and M222 are separately numbered shapes in primary sign list p33/PDF44 and p34/PDF45. P230 cannot be an exact exhaustive W-to-M conversion for this ending. Preserve source mapping as a qualified family link; do not globally replace M216 or merge W550 and W555."
+  },
+  "other_primary_text_observations": [
+    {
+      "M77_text": "2060",
+      "pdf_page": 70,
+      "printed_page": 59,
+      "finding": "Four normalized units: spatial left comb, M222-like crossed sign, short strokes, marked diamond. No fish. Artifact identity separate from this transcription check."
+    },
+    {
+      "M77_text": "2129",
+      "pdf_page": 73,
+      "printed_page": 62,
+      "finding": "Eight normalized units with comb and M222-like crossed sign at spatial left; modified fish forms present. Artifact identity separate."
+    },
+    {
+      "M77_text": "2142",
+      "pdf_page": 73,
+      "printed_page": 62,
+      "finding": "Three normalized units comb, M222-like crossed sign, modified fish. Artifact identity separate."
+    }
+  ],
+  "navigation_failures": [
+    "Substring search for7090 selected PDF108 because an object code contained7090. Render retained; not L89 evidence. Exact WORD match located PDF162."
+  ],
+  "reproduction": "python scripts/render_primary_pages.py --pages 45 108 162 835 --prefix ending-review --scale 3000 --pdftoppm /path/to/pdftoppm (original signlist45 usedscale2800; images70/73 in ending-pakistan-m77_extraction.json)",
+  "established_semantic_values": 0,
+  "established_phonetic_values": 0,
+  "evidence_files": [
+    {
+      "path": "data/raw/mahadevan_1977_text.pdf",
+      "bytes": 119302608,
+      "sha256": "6dcdd074a0174e5fab149590fbbf82342711d345764e9763f8e5e92c81cf7f99"
+    },
+    {
+      "path": "data/raw/cisi_76884.pdf",
+      "bytes": 31508998,
+      "sha256": "47a4da4227cfb7baa56d6a561e25797225499d0ec54f5a702a82c67ab4746d4d"
+    },
+    {
+      "path": "data/processed/catalogue_features.json",
+      "bytes": 189902,
+      "sha256": "00836515c6f3beec28b3b66e13d8a9c6e94571cfb2e9dbb4b148651b7ff0032d"
+    },
+    {
+      "path": "results/primary_pages/chain-signlist-44.png",
+      "bytes": 2622908,
+      "sha256": "20cace271efa652e7c70ba9796f1980a7edfc6852be6a28d3e57c3d0ba1b440d"
+    },
+    {
+      "path": "results/primary_pages/ending-signlist-045.png",
+      "bytes": 2725499,
+      "sha256": "a091d2d01efc661a93f28e1a0141cd583f326ffeb813a38313f06c8d17ce5252"
+    },
+    {
+      "path": "results/primary_pages/ending-l89-identity-835.png",
+      "bytes": 3390224,
+      "sha256": "ad113466c5aa0fad2e8ca5adcdc8f5270cfe6e6ed0c1e6e7b6261752718c8411"
+    },
+    {
+      "path": "results/primary_pages/ending-l89-text-108.png",
+      "bytes": 1778355,
+      "sha256": "c17c00be87613985e916b313ff382287bb6fd1bc1765fbf4d599207947bccc74"
+    },
+    {
+      "path": "results/primary_pages/ending-l89-text-162.png",
+      "bytes": 1831522,
+      "sha256": "b228f9dfb8d17053959d37173e854fb975f204437775320690f5c9f0ff5af746"
+    },
+    {
+      "path": "results/primary_pages/ending-india-l89-metadata.png",
+      "bytes": 43908,
+      "sha256": "5fa5dec6ede782b9cf4ea894c1badda65f18e38b3cc135192a782efccd3cb55a"
+    },
+    {
+      "path": "results/primary_pages/ending-india-l89-pair.png",
+      "bytes": 158514,
+      "sha256": "c9489378e86948fcd8082ec6383093663a84169a4fe28c6d5e32c8e464bb5a3b"
+    },
+    {
+      "path": "results/primary_pages/ending-pakistan-m77-70.png",
+      "bytes": 2196704,
+      "sha256": "7d7e45b8cb89e7ec1e2154a0a303131e0b6e7bf2aab0ee15c47d96d85bd72140"
+    },
+    {
+      "path": "results/primary_pages/ending-pakistan-m77-73.png",
+      "bytes": 2177975,
+      "sha256": "11e2b4f5433c2fa797beca6d0719eb8e1d722050b79f01b45b4525fa557e1c86"
+    }
+  ]
+}

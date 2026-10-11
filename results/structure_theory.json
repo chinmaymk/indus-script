@@ -1,0 +1,1351 @@
+{
+  "headline_strength": 20,
+  "protocol_sha256": "4ead8967924363f63a2e8d9dd2c4c4cfc1e4e352cd71fa19d99129f192033e64",
+  "results": {
+    "indus": {
+      "5": {
+        "connected_groups": 1564,
+        "first_over_parent_refinement": {
+          "equal_group_gain": -0.002363030370802623,
+          "excluding_largest_group_gain": -0.00027297253022613905,
+          "fold_gains": {
+            "0": -0.0020904975429680973,
+            "1": -0.002218353355385588,
+            "2": 0.0006350628731730787,
+            "3": -0.0007398285348774734,
+            "4": 0.0021110874547897117
+          },
+          "gain_bits_per_token": -0.000410140508569153,
+          "group_bootstrap_95_interval": [
+            -0.0021873783763143692,
+            0.001396993600566918
+          ],
+          "groups": 1124,
+          "largest_group_tokens": 134
+        },
+        "first_over_two_common": {
+          "equal_group_gain": -0.044692907994205895,
+          "excluding_largest_group_gain": -0.029043411592143697,
+          "fold_gains": {
+            "0": -0.04440275561307184,
+            "1": -0.03804146735599973,
+            "2": -0.020059914122566067,
+            "3": -0.025464229727018818,
+            "4": -0.022539756639558414
+          },
+          "gain_bits_per_token": -0.029456203434655825,
+          "group_bootstrap_95_interval": [
+            -0.03489388039213594,
+            -0.024015598818410328
+          ],
+          "groups": 1124,
+          "largest_group_tokens": 134
+        },
+        "fold_text_counts": {
+          "0": 321,
+          "1": 338,
+          "2": 323,
+          "3": 538,
+          "4": 328
+        },
+        "loss_common_bits_per_token": {
+          "first_parent_refinement": 7.471448313123117,
+          "first_plus_previous_two": 7.471858453631688,
+          "previous_one": 7.425311182631541,
+          "previous_two": 7.442402250197031,
+          "slot": 7.644808047866704,
+          "two_parent_refinement": 7.446098859402888
+        },
+        "tokens_common_index_ge_3": 3206,
+        "tokens_two_context_index_ge_2": 4793,
+        "two_over_one_all_eligible": {
+          "equal_group_gain": -0.07657536768642886,
+          "excluding_largest_group_gain": -0.042338748643987706,
+          "fold_gains": {
+            "0": -0.05384442835383941,
+            "1": -0.05908690698617656,
+            "2": -0.025090331848167707,
+            "3": -0.06646831033267575,
+            "4": -0.04142984757107738
+          },
+          "gain_bits_per_token": -0.049989033702340764,
+          "group_bootstrap_95_interval": [
+            -0.0681197785461616,
+            -0.03360630082553005
+          ],
+          "groups": 1374,
+          "largest_group_tokens": 298
+        },
+        "two_over_one_common": {
+          "equal_group_gain": -0.03905109081229872,
+          "excluding_largest_group_gain": -0.01650631046585461,
+          "fold_gains": {
+            "0": -0.03210933952160393,
+            "1": -0.03551333590880711,
+            "2": 0.004516662393296741,
+            "3": -0.01638856581802787,
+            "4": -0.008924897454871902
+          },
+          "gain_bits_per_token": -0.017091067565490056,
+          "group_bootstrap_95_interval": [
+            -0.027956450362420563,
+            -0.006329512597966996
+          ],
+          "groups": 1124,
+          "largest_group_tokens": 134
+        },
+        "two_over_parent_refinement": {
+          "equal_group_gain": -0.006454531751678476,
+          "excluding_largest_group_gain": 0.0043808525579946975,
+          "fold_gains": {
+            "0": -0.005122034048660006,
+            "1": -0.0092378311296625,
+            "2": 0.019720514155735492,
+            "3": 0.003756740387965586,
+            "4": 0.007621504901993896
+          },
+          "gain_bits_per_token": 0.0036966092058564074,
+          "group_bootstrap_95_interval": [
+            -0.002889977629794885,
+            0.010645708567828921
+          ],
+          "groups": 1124,
+          "largest_group_tokens": 134
+        },
+        "unique_texts": 1848
+      },
+      "20": {
+        "connected_groups": 1564,
+        "first_over_parent_refinement": {
+          "equal_group_gain": -0.0004663487613492892,
+          "excluding_largest_group_gain": 0.00033290264676363824,
+          "fold_gains": {
+            "0": -0.0005072193702582909,
+            "1": -0.000801765867137376,
+            "2": 0.0008412907286383215,
+            "3": -4.133478631190027e-06,
+            "4": 0.0015546519602285108
+          },
+          "gain_bits_per_token": 0.00023696030850206667,
+          "group_bootstrap_95_interval": [
+            -0.0005700179290424367,
+            0.0010843236643460655
+          ],
+          "groups": 1124,
+          "largest_group_tokens": 134
+        },
+        "first_over_two_common": {
+          "equal_group_gain": -0.0034884225236642523,
+          "excluding_largest_group_gain": 0.0025958086145746826,
+          "fold_gains": {
+            "0": -0.004018598170051424,
+            "1": -0.002301228918387118,
+            "2": 0.007780573088595532,
+            "3": 0.0037423752581736552,
+            "4": 0.0043481662293910935
+          },
+          "gain_bits_per_token": 0.0021803978587209096,
+          "group_bootstrap_95_interval": [
+            -0.0009485934590173394,
+            0.005749934180758834
+          ],
+          "groups": 1124,
+          "largest_group_tokens": 134
+        },
+        "fold_text_counts": {
+          "0": 321,
+          "1": 338,
+          "2": 323,
+          "3": 538,
+          "4": 328
+        },
+        "loss_common_bits_per_token": {
+          "first_parent_refinement": 6.832858841115629,
+          "first_plus_previous_two": 6.832621880807126,
+          "previous_one": 6.857697596311286,
+          "previous_two": 6.834802278665847,
+          "slot": 7.140501522395448,
+          "two_parent_refinement": 6.842144530663443
+        },
+        "tokens_common_index_ge_3": 3206,
+        "tokens_two_context_index_ge_2": 4793,
+        "two_over_one_all_eligible": {
+          "equal_group_gain": 0.014356568347678355,
+          "excluding_largest_group_gain": 0.029797086450901886,
+          "fold_gains": {
+            "0": 0.028196562519563116,
+            "1": 0.02491400857457824,
+            "2": 0.03600812836910606,
+            "3": 0.020438664700292816,
+            "4": 0.02534819974288843
+          },
+          "gain_bits_per_token": 0.026600245043042703,
+          "group_bootstrap_95_interval": [
+            0.017526166754209285,
+            0.03569062300633277
+          ],
+          "groups": 1374,
+          "largest_group_tokens": 298
+        },
+        "two_over_one_common": {
+          "equal_group_gain": 0.012943635619467273,
+          "excluding_largest_group_gain": 0.023139163098643858,
+          "fold_gains": {
+            "0": 0.018168014462739322,
+            "1": 0.015903995456231605,
+            "2": 0.032183970706096195,
+            "3": 0.02339774929221534,
+            "4": 0.023803889342366272
+          },
+          "gain_bits_per_token": 0.022895317645438513,
+          "group_bootstrap_95_interval": [
+            0.015702745533495925,
+            0.03053540066738289
+          ],
+          "groups": 1124,
+          "largest_group_tokens": 134
+        },
+        "two_over_parent_refinement": {
+          "equal_group_gain": 0.0027334193808879375,
+          "excluding_largest_group_gain": 0.007595251905256464,
+          "fold_gains": {
+            "0": 0.004596206668117416,
+            "1": -2.9052918579392247e-05,
+            "2": 0.015389781558389872,
+            "3": 0.007517261534847874,
+            "4": 0.008568419034647818
+          },
+          "gain_bits_per_token": 0.007342251997595562,
+          "group_bootstrap_95_interval": [
+            0.0036191916169004187,
+            0.011207186913064725
+          ],
+          "groups": 1124,
+          "largest_group_tokens": 134
+        },
+        "unique_texts": 1848
+      },
+      "100": {
+        "connected_groups": 1564,
+        "first_over_parent_refinement": {
+          "equal_group_gain": -0.00011001035323959728,
+          "excluding_largest_group_gain": 0.00024274258059929832,
+          "fold_gains": {
+            "0": -0.0001563871445714321,
+            "1": -0.0004766241345549387,
+            "2": 0.0005617545451314152,
+            "3": 0.00014834156107026406,
+            "4": 0.0008421588252048471
+          },
+          "gain_bits_per_token": 0.00019684568533305673,
+          "group_bootstrap_95_interval": [
+            -0.0002171358392366833,
+            0.0006380922671038534
+          ],
+          "groups": 1124,
+          "largest_group_tokens": 134
+        },
+        "first_over_two_common": {
+          "equal_group_gain": 0.006129656766552414,
+          "excluding_largest_group_gain": 0.008671095970345615,
+          "fold_gains": {
+            "0": 0.005802180349533789,
+            "1": 0.005844925591908081,
+            "2": 0.011783811863284553,
+            "3": 0.009104957291727946,
+            "4": 0.008553003133771353
+          },
+          "gain_bits_per_token": 0.008336765926432111,
+          "group_bootstrap_95_interval": [
+            0.006092704971346544,
+            0.01107104506711311
+          ],
+          "groups": 1124,
+          "largest_group_tokens": 134
+        },
+        "fold_text_counts": {
+          "0": 321,
+          "1": 338,
+          "2": 323,
+          "3": 538,
+          "4": 328
+        },
+        "loss_common_bits_per_token": {
+          "first_parent_refinement": 6.5978068447868266,
+          "first_plus_previous_two": 6.597609999101494,
+          "previous_one": 6.630009625584505,
+          "previous_two": 6.605946765027926,
+          "slot": 6.827645604058415,
+          "two_parent_refinement": 6.611459134468173
+        },
+        "tokens_common_index_ge_3": 3206,
+        "tokens_two_context_index_ge_2": 4793,
+        "two_over_one_all_eligible": {
+          "equal_group_gain": 0.03203322721524865,
+          "excluding_largest_group_gain": 0.03855523876713914,
+          "fold_gains": {
+            "0": 0.03974984200704706,
+            "1": 0.038481894648098126,
+            "2": 0.0399441023810843,
+            "3": 0.03510570527063754,
+            "4": 0.03322425937537825
+          },
+          "gain_bits_per_token": 0.037117784981896995,
+          "group_bootstrap_95_interval": [
+            0.031655590242164064,
+            0.04263907280376274
+          ],
+          "groups": 1374,
+          "largest_group_tokens": 298
+        },
+        "two_over_one_common": {
+          "equal_group_gain": 0.019783829259136458,
+          "excluding_largest_group_gain": 0.02419372165729648,
+          "fold_gains": {
+            "0": 0.02360210670842499,
+            "1": 0.021237662853667277,
+            "2": 0.02768628607951596,
+            "3": 0.024350880765350087,
+            "4": 0.023232380231908132
+          },
+          "gain_bits_per_token": 0.024062860556579527,
+          "group_bootstrap_95_interval": [
+            0.01950038705738567,
+            0.029059698033514256
+          ],
+          "groups": 1124,
+          "largest_group_tokens": 134
+        },
+        "two_over_parent_refinement": {
+          "equal_group_gain": 0.0032848374605902405,
+          "excluding_largest_group_gain": 0.005600790133241394,
+          "fold_gains": {
+            "0": 0.0051845388758317255,
+            "1": 0.0017672655100420193,
+            "2": 0.008924163645036948,
+            "3": 0.005575335546176597,
+            "4": 0.005939297054023504
+          },
+          "gain_bits_per_token": 0.00551236944024688,
+          "group_bootstrap_95_interval": [
+            0.003420857953440042,
+            0.007745471115874546
+          ],
+          "groups": 1124,
+          "largest_group_tokens": 134
+        },
+        "unique_texts": 1848
+      }
+    },
+    "indus_metadata": {
+      "5": {
+        "connected_groups": 1564,
+        "first_over_parent_refinement": {
+          "equal_group_gain": -0.00011298062173218461,
+          "excluding_largest_group_gain": 0.00011254222293836484,
+          "fold_gains": {
+            "0": -0.0015458821953190714,
+            "1": 0.0007069455318377161,
+            "2": -3.551153233778694e-05,
+            "3": 0.000577979349656585,
+            "4": 0.0005189580627029366
+          },
+          "gain_bits_per_token": 0.00010783833713869518,
+          "group_bootstrap_95_interval": [
+            -0.000803033644028151,
+            0.0010921773005320313
+          ],
+          "groups": 1124,
+          "largest_group_tokens": 134
+        },
+        "first_over_two_common": {
+          "equal_group_gain": -0.010776137145213215,
+          "excluding_largest_group_gain": -0.007173115095318219,
+          "fold_gains": {
+            "0": -0.010323571401505957,
+            "1": -0.018068148271024462,
+            "2": -0.001659679053198038,
+            "3": -0.00523927282141554,
+            "4": -0.0034847217916155375
+          },
+          "gain_bits_per_token": -0.007529658396596357,
+          "group_bootstrap_95_interval": [
+            -0.0104113828667438,
+            -0.004678479553594664
+          ],
+          "groups": 1124,
+          "largest_group_tokens": 134
+        },
+        "fold_text_counts": {
+          "0": 321,
+          "1": 338,
+          "2": 323,
+          "3": 538,
+          "4": 328
+        },
+        "loss_common_bits_per_token": {
+          "first_parent_refinement": 7.322141382674465,
+          "first_plus_previous_two": 7.322033544337327,
+          "previous_one": 7.312634192156097,
+          "previous_two": 7.31450388594073,
+          "slot": 7.39499726483257,
+          "two_parent_refinement": 7.317202268818599
+        },
+        "tokens_common_index_ge_3": 3206,
+        "tokens_two_context_index_ge_2": 4793,
+        "two_over_one_all_eligible": {
+          "equal_group_gain": -0.023527707021337455,
+          "excluding_largest_group_gain": -0.014279317592499837,
+          "fold_gains": {
+            "0": -0.026073464690694482,
+            "1": -0.018281868245711323,
+            "2": -0.00851825776857373,
+            "3": -0.021093634528119843,
+            "4": -0.006371549348537951
+          },
+          "gain_bits_per_token": -0.016103609725338607,
+          "group_bootstrap_95_interval": [
+            -0.02318232826896382,
+            -0.008920813533748639
+          ],
+          "groups": 1374,
+          "largest_group_tokens": 298
+        },
+        "two_over_one_common": {
+          "equal_group_gain": -0.007571879491206833,
+          "excluding_largest_group_gain": -0.001180640827157058,
+          "fold_gains": {
+            "0": -0.003395530219638155,
+            "1": -0.01793662279288676,
+            "2": 0.009788618265840016,
+            "3": -0.005533513409363411,
+            "4": 0.007660493521852631
+          },
+          "gain_bits_per_token": -0.0018696937846321342,
+          "group_bootstrap_95_interval": [
+            -0.0085635509204114,
+            0.005208230534210342
+          ],
+          "groups": 1124,
+          "largest_group_tokens": 134
+        },
+        "two_over_parent_refinement": {
+          "equal_group_gain": -8.706304691137965e-05,
+          "excluding_largest_group_gain": 0.0028160857768390977,
+          "fold_gains": {
+            "0": 0.0012481992682829984,
+            "1": -0.00481050849870623,
+            "2": 0.007800952814532756,
+            "3": -0.0016159802197608225,
+            "4": 0.011175347123725515
+          },
+          "gain_bits_per_token": 0.0026983828778695284,
+          "group_bootstrap_95_interval": [
+            -0.0009955873771256068,
+            0.006754148398313728
+          ],
+          "groups": 1124,
+          "largest_group_tokens": 134
+        },
+        "unique_texts": 1848
+      },
+      "20": {
+        "connected_groups": 1564,
+        "first_over_parent_refinement": {
+          "equal_group_gain": 4.440390954085304e-05,
+          "excluding_largest_group_gain": 0.00012393139349728858,
+          "fold_gains": {
+            "0": -0.0005336340376932788,
+            "1": 0.0003821531814647543,
+            "2": -8.238941996509223e-05,
+            "3": 0.00031878813720966466,
+            "4": 0.0003823668252546485
+          },
+          "gain_bits_per_token": 0.00011875147873476934,
+          "group_bootstrap_95_interval": [
+            -0.000302270370730538,
+            0.000588881443561113
+          ],
+          "groups": 1124,
+          "largest_group_tokens": 134
+        },
+        "first_over_two_common": {
+          "equal_group_gain": 0.0017315756875448769,
+          "excluding_largest_group_gain": 0.0031743750156051926,
+          "fold_gains": {
+            "0": 0.001704447958351883,
+            "1": -0.0015966759441613243,
+            "2": 0.0036521693572539164,
+            "3": 0.004589118132555848,
+            "4": 0.0053796272182124434
+          },
+          "gain_bits_per_token": 0.0028660528461659286,
+          "group_bootstrap_95_interval": [
+            0.000981798432224397,
+            0.00506850161923331
+          ],
+          "groups": 1124,
+          "largest_group_tokens": 134
+        },
+        "fold_text_counts": {
+          "0": 321,
+          "1": 338,
+          "2": 323,
+          "3": 538,
+          "4": 328
+        },
+        "loss_common_bits_per_token": {
+          "first_parent_refinement": 6.8768319347617295,
+          "first_plus_previous_two": 6.8767131832829955,
+          "previous_one": 6.891356836745887,
+          "previous_two": 6.879579236129161,
+          "slot": 7.004498685070035,
+          "two_parent_refinement": 6.882286521720399
+        },
+        "tokens_common_index_ge_3": 3206,
+        "tokens_two_context_index_ge_2": 4793,
+        "two_over_one_all_eligible": {
+          "equal_group_gain": 0.008125849955937686,
+          "excluding_largest_group_gain": 0.013290377788224455,
+          "fold_gains": {
+            "0": 0.00954542177920876,
+            "1": 0.015561019526626137,
+            "2": 0.011240293907357406,
+            "3": 0.009796552016421002,
+            "4": 0.01521222532667184
+          },
+          "gain_bits_per_token": 0.01217826192795562,
+          "group_bootstrap_95_interval": [
+            0.007466328888895843,
+            0.017311798188088697
+          ],
+          "groups": 1374,
+          "largest_group_tokens": 298
+        },
+        "two_over_one_common": {
+          "equal_group_gain": 0.009264633829308954,
+          "excluding_largest_group_gain": 0.01249755583601822,
+          "fold_gains": {
+            "0": 0.013374115933894128,
+            "1": 0.006489144865795178,
+            "2": 0.01570417071648037,
+            "3": 0.008288734863105303,
+            "4": 0.015724366028529006
+          },
+          "gain_bits_per_token": 0.011777600616726572,
+          "group_bootstrap_95_interval": [
+            0.006997316787016714,
+            0.017475687750754264
+          ],
+          "groups": 1124,
+          "largest_group_tokens": 134
+        },
+        "two_over_parent_refinement": {
+          "equal_group_gain": 0.0017246531511688299,
+          "excluding_largest_group_gain": 0.0028253768247098678,
+          "fold_gains": {
+            "0": 0.002424270458326743,
+            "1": -0.0009603474159413525,
+            "2": 0.004818823846879073,
+            "3": 0.0005880600816596934,
+            "4": 0.00688270761478719
+          },
+          "gain_bits_per_token": 0.002707285591237902,
+          "group_bootstrap_95_interval": [
+            0.0007009213961819148,
+            0.004907975701038545
+          ],
+          "groups": 1124,
+          "largest_group_tokens": 134
+        },
+        "unique_texts": 1848
+      },
+      "100": {
+        "connected_groups": 1564,
+        "first_over_parent_refinement": {
+          "equal_group_gain": 2.548902037083561e-05,
+          "excluding_largest_group_gain": 5.5116922723705764e-05,
+          "fold_gains": {
+            "0": -0.00024157295200576544,
+            "1": 0.00018320115951833124,
+            "2": -5.77352028406931e-05,
+            "3": 0.0001461103735002012,
+            "4": 0.00017682238806828032
+          },
+          "gain_bits_per_token": 5.2813221025335035e-05,
+          "group_bootstrap_95_interval": [
+            -0.0001326932278746786,
+            0.000266758240508153
+          ],
+          "groups": 1124,
+          "largest_group_tokens": 134
+        },
+        "first_over_two_common": {
+          "equal_group_gain": 0.003953051710123097,
+          "excluding_largest_group_gain": 0.004649106766947062,
+          "fold_gains": {
+            "0": 0.004072291833423125,
+            "1": 0.0021116531372871714,
+            "2": 0.0043036845834336325,
+            "3": 0.005666626933564522,
+            "4": 0.005607439347466556
+          },
+          "gain_bits_per_token": 0.004418968697518657,
+          "group_bootstrap_95_interval": [
+            0.002841856829631713,
+            0.006315724580773054
+          ],
+          "groups": 1124,
+          "largest_group_tokens": 134
+        },
+        "fold_text_counts": {
+          "0": 321,
+          "1": 338,
+          "2": 323,
+          "3": 538,
+          "4": 328
+        },
+        "loss_common_bits_per_token": {
+          "first_parent_refinement": 6.82582042409795,
+          "first_plus_previous_two": 6.825767610876925,
+          "previous_one": 6.841747868056925,
+          "previous_two": 6.830186579574444,
+          "slot": 6.925848687907706,
+          "two_parent_refinement": 6.831924051796412
+        },
+        "tokens_common_index_ge_3": 3206,
+        "tokens_two_context_index_ge_2": 4793,
+        "two_over_one_all_eligible": {
+          "equal_group_gain": 0.012999682090882494,
+          "excluding_largest_group_gain": 0.016005820071320023,
+          "fold_gains": {
+            "0": 0.015605225747248196,
+            "1": 0.01954405148759183,
+            "2": 0.012725368681250111,
+            "3": 0.01361607807806161,
+            "4": 0.015488675229348879
+          },
+          "gain_bits_per_token": 0.015269005282356354,
+          "group_bootstrap_95_interval": [
+            0.011868214017115611,
+            0.01884089981185221
+          ],
+          "groups": 1374,
+          "largest_group_tokens": 298
+        },
+        "two_over_one_common": {
+          "equal_group_gain": 0.010223566701604023,
+          "excluding_largest_group_gain": 0.012107645999878833,
+          "fold_gains": {
+            "0": 0.013994461147109987,
+            "1": 0.009978909575771177,
+            "2": 0.013136248365819782,
+            "3": 0.008733230932166797,
+            "4": 0.012777155520843271
+          },
+          "gain_bits_per_token": 0.01156128848248102,
+          "group_bootstrap_95_interval": [
+            0.008036582257137749,
+            0.015683365381443302
+          ],
+          "groups": 1124,
+          "largest_group_tokens": 134
+        },
+        "two_over_parent_refinement": {
+          "equal_group_gain": 0.0012922575635428684,
+          "excluding_largest_group_gain": 0.0018132603983168898,
+          "fold_gains": {
+            "0": 0.0016721995619672914,
+            "1": -8.199263408426882e-06,
+            "2": 0.002693220925823589,
+            "3": 0.0006301922153966259,
+            "4": 0.003830996773812945
+          },
+          "gain_bits_per_token": 0.0017374722219680241,
+          "group_bootstrap_95_interval": [
+            0.0005662387509557351,
+            0.002929117554986531
+          ],
+          "groups": 1124,
+          "largest_group_tokens": 134
+        },
+        "unique_texts": 1848
+      }
+    },
+    "synthetic_order_one": {
+      "20": {
+        "connected_groups": 3370,
+        "first_over_parent_refinement": {
+          "equal_group_gain": -0.06521183442679022,
+          "excluding_largest_group_gain": -0.06525167440387519,
+          "fold_gains": {
+            "0": -0.058170476892907975,
+            "1": -0.06454659151943543,
+            "2": -0.06001134773201683,
+            "3": -0.06960273133382529,
+            "4": -0.07458139422723263
+          },
+          "gain_bits_per_token": -0.06521183442679024,
+          "group_bootstrap_95_interval": [
+            -0.07091903506818037,
+            -0.059909155210242905
+          ],
+          "groups": 3370,
+          "largest_group_tokens": 5
+        },
+        "first_over_two_common": {
+          "equal_group_gain": -0.06788508902364475,
+          "excluding_largest_group_gain": -0.06792548196331709,
+          "fold_gains": {
+            "0": -0.06049191864478956,
+            "1": -0.06813994383508985,
+            "2": -0.06248947009528448,
+            "3": -0.07212107207734851,
+            "4": -0.07702907383887977
+          },
+          "gain_bits_per_token": -0.06788508902364475,
+          "group_bootstrap_95_interval": [
+            -0.0734862177255219,
+            -0.06258487740766788
+          ],
+          "groups": 3370,
+          "largest_group_tokens": 5
+        },
+        "fold_text_counts": {
+          "0": 724,
+          "1": 685,
+          "2": 653,
+          "3": 664,
+          "4": 644
+        },
+        "loss_common_bits_per_token": {
+          "first_parent_refinement": 1.644447668635888,
+          "first_plus_previous_two": 1.7096595030626784,
+          "previous_one": 1.630827992965057,
+          "previous_two": 1.6417744140390336,
+          "slot": 3.0022765019196904,
+          "two_parent_refinement": 1.6337297256834482
+        },
+        "tokens_common_index_ge_3": 16850,
+        "tokens_two_context_index_ge_2": 20220,
+        "two_over_one_all_eligible": {
+          "equal_group_gain": -0.022555499688578458,
+          "excluding_largest_group_gain": -0.02255764112551923,
+          "fold_gains": {
+            "0": -0.026711676686720868,
+            "1": -0.02336148546807532,
+            "2": -0.014333914904233103,
+            "3": -0.02651500395143064,
+            "4": -0.0212797413470157
+          },
+          "gain_bits_per_token": -0.02255549968857846,
+          "group_bootstrap_95_interval": [
+            -0.025914027676954218,
+            -0.019016914181063545
+          ],
+          "groups": 3370,
+          "largest_group_tokens": 6
+        },
+        "two_over_one_common": {
+          "equal_group_gain": -0.010946421073976411,
+          "excluding_largest_group_gain": -0.010945914316793466,
+          "fold_gains": {
+            "0": -0.009321427155898523,
+            "1": -0.014434355212188133,
+            "2": -0.008297153068218934,
+            "3": -0.014451089139090871,
+            "4": -0.008136068782884694
+          },
+          "gain_bits_per_token": -0.010946421073976411,
+          "group_bootstrap_95_interval": [
+            -0.013782335127801826,
+            -0.008065961315837483
+          ],
+          "groups": 3370,
+          "largest_group_tokens": 5
+        },
+        "two_over_parent_refinement": {
+          "equal_group_gain": -0.00804468835558533,
+          "excluding_largest_group_gain": -0.008032713564218934,
+          "fold_gains": {
+            "0": -0.004551735930642995,
+            "1": -0.012555143624719049,
+            "2": -0.006261777962490493,
+            "3": -0.01103302713798001,
+            "4": -0.005900618839253744
+          },
+          "gain_bits_per_token": -0.00804468835558533,
+          "group_bootstrap_95_interval": [
+            -0.010730142699053095,
+            -0.005228153968861327
+          ],
+          "groups": 3370,
+          "largest_group_tokens": 5
+        },
+        "unique_texts": 3370
+      }
+    },
+    "synthetic_order_two": {
+      "20": {
+        "connected_groups": 3353,
+        "first_over_parent_refinement": {
+          "equal_group_gain": -0.02241312804263722,
+          "excluding_largest_group_gain": -0.02244219760421749,
+          "fold_gains": {
+            "0": -0.02416566743379567,
+            "1": -0.02062598216774202,
+            "2": -0.022582348591240788,
+            "3": -0.024843893107559398,
+            "4": -0.019822037448607374
+          },
+          "gain_bits_per_token": -0.02241312804263722,
+          "group_bootstrap_95_interval": [
+            -0.02531552867934891,
+            -0.019792938237350313
+          ],
+          "groups": 3353,
+          "largest_group_tokens": 5
+        },
+        "first_over_two_common": {
+          "equal_group_gain": -0.00568946622679231,
+          "excluding_largest_group_gain": -0.005740155161677826,
+          "fold_gains": {
+            "0": -0.0028430883200531703,
+            "1": -0.007277091250882256,
+            "2": -0.006096083966270223,
+            "3": -0.004774036764707185,
+            "4": -0.007386850833485926
+          },
+          "gain_bits_per_token": -0.005689466226792311,
+          "group_bootstrap_95_interval": [
+            -0.00927279664743108,
+            -0.002056242726293954
+          ],
+          "groups": 3353,
+          "largest_group_tokens": 5
+        },
+        "fold_text_counts": {
+          "0": 651,
+          "1": 706,
+          "2": 673,
+          "3": 684,
+          "4": 639
+        },
+        "loss_common_bits_per_token": {
+          "first_parent_refinement": 1.747184518711941,
+          "first_plus_previous_two": 1.7695976467545784,
+          "previous_one": 3.018175214912806,
+          "previous_two": 1.763908180527786,
+          "slot": 3.0025517160516633,
+          "two_parent_refinement": 3.0190934548711263
+        },
+        "tokens_common_index_ge_3": 16765,
+        "tokens_two_context_index_ge_2": 20118,
+        "two_over_one_all_eligible": {
+          "equal_group_gain": 1.2517531334802936,
+          "excluding_largest_group_gain": 1.2516353830641325,
+          "fold_gains": {
+            "0": 1.263865569507181,
+            "1": 1.2435594946898911,
+            "2": 1.2509526499708628,
+            "3": 1.2620701247303023,
+            "4": 1.238265522399479
+          },
+          "gain_bits_per_token": 1.2517531334802936,
+          "group_bootstrap_95_interval": [
+            1.2385057815439329,
+            1.2646086030192965
+          ],
+          "groups": 3353,
+          "largest_group_tokens": 6
+        },
+        "two_over_one_common": {
+          "equal_group_gain": 1.2542670343850202,
+          "excluding_largest_group_gain": 1.2539890333504817,
+          "fold_gains": {
+            "0": 1.2719515074501708,
+            "1": 1.240962221878297,
+            "2": 1.2542034644274394,
+            "3": 1.2739220286524275,
+            "4": 1.2299781019388216
+          },
+          "gain_bits_per_token": 1.2542670343850204,
+          "group_bootstrap_95_interval": [
+            1.2369032520619678,
+            1.2702006074252978
+          ],
+          "groups": 3353,
+          "largest_group_tokens": 5
+        },
+        "two_over_parent_refinement": {
+          "equal_group_gain": 1.2551852743433407,
+          "excluding_largest_group_gain": 1.254906209537481,
+          "fold_gains": {
+            "0": 1.2728467363048728,
+            "1": 1.2420353477768933,
+            "2": 1.2550985095006078,
+            "3": 1.2750338817737434,
+            "4": 1.230565840346021
+          },
+          "gain_bits_per_token": 1.2551852743433407,
+          "group_bootstrap_95_interval": [
+            1.2378477904129581,
+            1.2711112973749343
+          ],
+          "groups": 3353,
+          "largest_group_tokens": 5
+        },
+        "unique_texts": 3353
+      }
+    },
+    "synthetic_remote_memory": {
+      "20": {
+        "connected_groups": 3336,
+        "first_over_parent_refinement": {
+          "equal_group_gain": 0.5308612090352698,
+          "excluding_largest_group_gain": 0.5308286466077227,
+          "fold_gains": {
+            "0": 0.5305420902036606,
+            "1": 0.5397724797157937,
+            "2": 0.5262254043178918,
+            "3": 0.5309511714281053,
+            "4": 0.5269848272211543
+          },
+          "gain_bits_per_token": 0.5308612090352698,
+          "group_bootstrap_95_interval": [
+            0.5238132503574097,
+            0.5381929915693515
+          ],
+          "groups": 3336,
+          "largest_group_tokens": 5
+        },
+        "first_over_two_common": {
+          "equal_group_gain": 0.5214944625869381,
+          "excluding_largest_group_gain": 0.521464883773389,
+          "fold_gains": {
+            "0": 0.5220336343188992,
+            "1": 0.5319693743101551,
+            "2": 0.5150630223041751,
+            "3": 0.5240916786435738,
+            "4": 0.5145155703723224
+          },
+          "gain_bits_per_token": 0.521494462586938,
+          "group_bootstrap_95_interval": [
+            0.5142744874485694,
+            0.5289009839985853
+          ],
+          "groups": 3336,
+          "largest_group_tokens": 5
+        },
+        "fold_text_counts": {
+          "0": 648,
+          "1": 659,
+          "2": 671,
+          "3": 683,
+          "4": 675
+        },
+        "loss_common_bits_per_token": {
+          "first_parent_refinement": 2.96758719121771,
+          "first_plus_previous_two": 2.4367259821824407,
+          "previous_one": 2.893238658406304,
+          "previous_two": 2.9582204447693785,
+          "slot": 2.9716662165550143,
+          "two_parent_refinement": 2.8941641152312485
+        },
+        "tokens_common_index_ge_3": 16680,
+        "tokens_two_context_index_ge_2": 20016,
+        "two_over_one_all_eligible": {
+          "equal_group_gain": 0.15112045194241452,
+          "excluding_largest_group_gain": 0.15130292729770237,
+          "fold_gains": {
+            "0": 0.14537656849082087,
+            "1": 0.16510738499594796,
+            "2": 0.14599537788185532,
+            "3": 0.14168453735778022,
+            "4": 0.1576216400169256
+          },
+          "gain_bits_per_token": 0.15112045194241455,
+          "group_bootstrap_95_interval": [
+            0.14101440070152613,
+            0.16092399471024563
+          ],
+          "groups": 3336,
+          "largest_group_tokens": 6
+        },
+        "two_over_one_common": {
+          "equal_group_gain": -0.0649817863630748,
+          "excluding_largest_group_gain": -0.06489623725728785,
+          "fold_gains": {
+            "0": -0.06191781778462815,
+            "1": -0.05023772680124916,
+            "2": -0.0765396208856351,
+            "3": -0.07101311200114307,
+            "4": -0.0647256152736497
+          },
+          "gain_bits_per_token": -0.0649817863630748,
+          "group_bootstrap_95_interval": [
+            -0.0713546374034849,
+            -0.05869831309214258
+          ],
+          "groups": 3336,
+          "largest_group_tokens": 5
+        },
+        "two_over_parent_refinement": {
+          "equal_group_gain": -0.06405632953813023,
+          "excluding_largest_group_gain": -0.06397402419399163,
+          "fold_gains": {
+            "0": -0.061457186950908405,
+            "1": -0.04992936319188907,
+            "2": -0.07512633866532101,
+            "3": -0.07020327098431013,
+            "4": -0.06311940818495529
+          },
+          "gain_bits_per_token": -0.06405632953813023,
+          "group_bootstrap_95_interval": [
+            -0.07024627621399891,
+            -0.05772513712888146
+          ],
+          "groups": 3336,
+          "largest_group_tokens": 5
+        },
+        "unique_texts": 3336
+      }
+    },
+    "weather": {
+      "5": {
+        "connected_groups": 4018,
+        "first_over_parent_refinement": {
+          "equal_group_gain": -0.1932278065271938,
+          "excluding_largest_group_gain": -0.19331002409535095,
+          "fold_gains": {
+            "0": -0.18762751763083557,
+            "1": -0.1873684034139242,
+            "2": -0.20522637535115448,
+            "3": -0.17386892844371563,
+            "4": -0.21109745462431023
+          },
+          "gain_bits_per_token": -0.1932278065271938,
+          "group_bootstrap_95_interval": [
+            -0.20667621859185745,
+            -0.17964224175735777
+          ],
+          "groups": 4018,
+          "largest_group_tokens": 2
+        },
+        "first_over_two_common": {
+          "equal_group_gain": -0.22812125405521258,
+          "excluding_largest_group_gain": -0.2282155885215568,
+          "fold_gains": {
+            "0": -0.2260810111120176,
+            "1": -0.2244426751666708,
+            "2": -0.23968860240761716,
+            "3": -0.20721321220538505,
+            "4": -0.24235159145034538
+          },
+          "gain_bits_per_token": -0.22812125405521258,
+          "group_bootstrap_95_interval": [
+            -0.24213450353886304,
+            -0.21386748963522687
+          ],
+          "groups": 4018,
+          "largest_group_tokens": 2
+        },
+        "fold_text_counts": {
+          "0": 771,
+          "1": 832,
+          "2": 807,
+          "3": 785,
+          "4": 823
+        },
+        "loss_common_bits_per_token": {
+          "first_parent_refinement": 2.915993371178639,
+          "first_plus_previous_two": 3.1092211777058334,
+          "previous_one": 2.8620041224896298,
+          "previous_two": 2.8810999236506207,
+          "slot": 3.2324366716699906,
+          "two_parent_refinement": 2.8681668203999227
+        },
+        "tokens_common_index_ge_3": 8036,
+        "tokens_two_context_index_ge_2": 12054,
+        "two_over_one_all_eligible": {
+          "equal_group_gain": -0.042885231299281824,
+          "excluding_largest_group_gain": -0.042965342524290906,
+          "fold_gains": {
+            "0": -0.05468577986285065,
+            "1": -0.03081092452566419,
+            "2": -0.034284640686797666,
+            "3": -0.06652552038661191,
+            "4": -0.029921258011139377
+          },
+          "gain_bits_per_token": -0.042885231299281824,
+          "group_bootstrap_95_interval": [
+            -0.056647621220401914,
+            -0.027900089078175726
+          ],
+          "groups": 4018,
+          "largest_group_tokens": 3
+        },
+        "two_over_one_common": {
+          "equal_group_gain": -0.01909580116099116,
+          "excluding_largest_group_gain": -0.01923373454994276,
+          "fold_gains": {
+            "0": -0.0444278589806643,
+            "1": -0.0037632806142090707,
+            "2": -0.011207812781118943,
+            "3": -0.02193316226673532,
+            "4": -0.015892786179827645
+          },
+          "gain_bits_per_token": -0.01909580116099116,
+          "group_bootstrap_95_interval": [
+            -0.03697059730237187,
+            -0.0012132600650178228
+          ],
+          "groups": 4018,
+          "largest_group_tokens": 2
+        },
+        "two_over_parent_refinement": {
+          "equal_group_gain": -0.012933103250697834,
+          "excluding_largest_group_gain": -0.01306843167182619,
+          "fold_gains": {
+            "0": -0.03598672516888611,
+            "1": 0.006881150393609508,
+            "2": -0.008518239745424955,
+            "3": -0.016083420307571802,
+            "4": -0.01269119862402683
+          },
+          "gain_bits_per_token": -0.012933103250697834,
+          "group_bootstrap_95_interval": [
+            -0.030429532928145146,
+            0.003912403888025685
+          ],
+          "groups": 4018,
+          "largest_group_tokens": 2
+        },
+        "unique_texts": 4018
+      },
+      "20": {
+        "connected_groups": 4018,
+        "first_over_parent_refinement": {
+          "equal_group_gain": -0.05490589117781581,
+          "excluding_largest_group_gain": -0.05494017609836036,
+          "fold_gains": {
+            "0": -0.053647778619002925,
+            "1": -0.052820991261821264,
+            "2": -0.05894490470012959,
+            "3": -0.04689942559235722,
+            "4": -0.06186850732001496
+          },
+          "gain_bits_per_token": -0.05490589117781581,
+          "group_bootstrap_95_interval": [
+            -0.061283385249619564,
+            -0.04882213722288256
+          ],
+          "groups": 4018,
+          "largest_group_tokens": 2
+        },
+        "first_over_two_common": {
+          "equal_group_gain": -0.06334632877959533,
+          "excluding_largest_group_gain": -0.06338751300348498,
+          "fold_gains": {
+            "0": -0.06376493077057434,
+            "1": -0.061738850197354624,
+            "2": -0.06679418916669819,
+            "3": -0.05573440756744712,
+            "4": -0.06845886202932086
+          },
+          "gain_bits_per_token": -0.06334632877959533,
+          "group_bootstrap_95_interval": [
+            -0.06970012173705156,
+            -0.05705353181192611
+          ],
+          "groups": 4018,
+          "largest_group_tokens": 2
+        },
+        "fold_text_counts": {
+          "0": 771,
+          "1": 832,
+          "2": 807,
+          "3": 785,
+          "4": 823
+        },
+        "loss_common_bits_per_token": {
+          "first_parent_refinement": 2.8401873337241805,
+          "first_plus_previous_two": 2.8950932249019963,
+          "previous_one": 2.866096808838315,
+          "previous_two": 2.8317468961224015,
+          "slot": 3.2324184501326103,
+          "two_parent_refinement": 2.8631342736725034
+        },
+        "tokens_common_index_ge_3": 8036,
+        "tokens_two_context_index_ge_2": 12054,
+        "two_over_one_all_eligible": {
+          "equal_group_gain": 0.0201569660622567,
+          "excluding_largest_group_gain": 0.020096939329353844,
+          "fold_gains": {
+            "0": 0.012384505780490116,
+            "1": 0.027682749588353896,
+            "2": 0.026060156905973318,
+            "3": 0.0048650112070658755,
+            "4": 0.028627712762104386
+          },
+          "gain_bits_per_token": 0.0201569660622567,
+          "group_bootstrap_95_interval": [
+            0.011130724834583994,
+            0.02945541986742837
+          ],
+          "groups": 4018,
+          "largest_group_tokens": 3
+        },
+        "two_over_one_common": {
+          "equal_group_gain": 0.03434991271591401,
+          "excluding_largest_group_gain": 0.03424111166611226,
+          "fold_gains": {
+            "0": 0.016482239222273015,
+            "1": 0.044857592334410404,
+            "2": 0.040560339611061334,
+            "3": 0.032138626834166066,
+            "4": 0.03648555273267762
+          },
+          "gain_bits_per_token": 0.03434991271591401,
+          "group_bootstrap_95_interval": [
+            0.023093637603463568,
+            0.045511366025964645
+          ],
+          "groups": 4018,
+          "largest_group_tokens": 2
+        },
+        "two_over_parent_refinement": {
+          "equal_group_gain": 0.031387377550102256,
+          "excluding_largest_group_gain": 0.03128122756649443,
+          "fold_gains": {
+            "0": 0.01313239014384128,
+            "1": 0.04382702408297996,
+            "2": 0.0372356856966534,
+            "3": 0.029746418292684193,
+            "4": 0.031743851083126925
+          },
+          "gain_bits_per_token": 0.031387377550102256,
+          "group_bootstrap_95_interval": [
+            0.020721845893001113,
+            0.042546580007469983
+          ],
+          "groups": 4018,
+          "largest_group_tokens": 2
+        },
+        "unique_texts": 4018
+      },
+      "100": {
+        "connected_groups": 4018,
+        "first_over_parent_refinement": {
+          "equal_group_gain": -0.010480169485984906,
+          "excluding_largest_group_gain": -0.010490545243325879,
+          "fold_gains": {
+            "0": -0.01073494838212717,
+            "1": -0.009824656799582597,
+            "2": -0.011382305247449495,
+            "3": -0.008346311327440181,
+            "4": -0.012054904748581155
+          },
+          "gain_bits_per_token": -0.010480169485984906,
+          "group_bootstrap_95_interval": [
+            -0.01231828883707359,
+            -0.00870887135914325
+          ],
+          "groups": 4018,
+          "largest_group_tokens": 2
+        },
+        "first_over_two_common": {
+          "equal_group_gain": -0.006708135745128152,
+          "excluding_largest_group_gain": -0.0067216171211812135,
+          "fold_gains": {
+            "0": -0.007596733980786945,
+            "1": -0.005693950361726761,
+            "2": -0.007651609465395442,
+            "3": -0.005195716049460475,
+            "4": -0.007418414199733791
+          },
+          "gain_bits_per_token": -0.006708135745128152,
+          "group_bootstrap_95_interval": [
+            -0.008661351400005917,
+            -0.004780468426028017
+          ],
+          "groups": 4018,
+          "largest_group_tokens": 2
+        },
+        "fold_text_counts": {
+          "0": 771,
+          "1": 832,
+          "2": 807,
+          "3": 785,
+          "4": 823
+        },
+        "loss_common_bits_per_token": {
+          "first_parent_refinement": 2.8608779072952886,
+          "first_plus_previous_two": 2.871358076781273,
+          "previous_one": 2.9102862749530503,
+          "previous_two": 2.8646499410361455,
+          "slot": 3.232345544654112,
+          "two_parent_refinement": 2.8952470195831146
+        },
+        "tokens_common_index_ge_3": 8036,
+        "tokens_two_context_index_ge_2": 12054,
+        "two_over_one_all_eligible": {
+          "equal_group_gain": 0.03889764273450858,
+          "excluding_largest_group_gain": 0.038863177606732066,
+          "fold_gains": {
+            "0": 0.035712799891646545,
+            "1": 0.04205302113085689,
+            "2": 0.04051084556870339,
+            "3": 0.03331830916285665,
+            "4": 0.042431252907821196
+          },
+          "gain_bits_per_token": 0.03889764273450858,
+          "group_bootstrap_95_interval": [
+            0.03473768786569154,
+            0.04309622954625704
+          ],
+          "groups": 4018,
+          "largest_group_tokens": 3
+        },
+        "two_over_one_common": {
+          "equal_group_gain": 0.0456363339169052,
+          "excluding_largest_group_gain": 0.045573981257379825,
+          "fold_gains": {
+            "0": 0.03880253523207496,
+            "1": 0.050519094410718925,
+            "2": 0.04728332095784196,
+            "3": 0.044576524173622956,
+            "4": 0.04649810082041875
+          },
+          "gain_bits_per_token": 0.0456363339169052,
+          "group_bootstrap_95_interval": [
+            0.04047383147276239,
+            0.05083517322428764
+          ],
+          "groups": 4018,
+          "largest_group_tokens": 2
+        },
+        "two_over_parent_refinement": {
+          "equal_group_gain": 0.03059707854696944,
+          "excluding_largest_group_gain": 0.030538764709889022,
+          "fold_gains": {
+            "0": 0.020652688320065525,
+            "1": 0.03674826354899505,
+            "2": 0.03367891985306586,
+            "3": 0.029753568297546155,
+            "4": 0.03147733195527435
+          },
+          "gain_bits_per_token": 0.03059707854696944,
+          "group_bootstrap_95_interval": [
+            0.02576746471790386,
+            0.03564787669431024
+          ],
+          "groups": 4018,
+          "largest_group_tokens": 2
+        },
+        "unique_texts": 4018
+      }
+    }
+  },
+  "seed": 20260923
+}

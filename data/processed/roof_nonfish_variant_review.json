@@ -1,0 +1,300 @@
+{
+  "schema_version": 1,
+  "scope": "Bounded visual review of Appendix I variants M137,M162,M334 alongside previously selected representative roof pairs. No distribution counts or meaning assignments.",
+  "review_mode": "Shape hypotheses known beforehand; manual source-image inspection, not blind selection or object autopsy.",
+  "source": "Mahadevan1977 Appendix I List of Sign Variants",
+  "records": [
+    {
+      "code": "M137",
+      "comparison_pair": [
+        "M137",
+        "M138"
+      ],
+      "printed_page": 787,
+      "pdf_page": 796,
+      "appendix_drawings": 2,
+      "reference_labels": [
+        "1175",
+        "2847"
+      ],
+      "observations": [
+        {
+          "reference": "1175",
+          "shape": "Two plain oblique strokes crossing as X; no roof."
+        },
+        {
+          "reference": "2847",
+          "shape": "X-shaped crossing with numerous short transverse/tick-like marks along its arms; no roof."
+        }
+      ],
+      "roof_status": "Absent in both documented drawings.",
+      "base_status": "X crossing preserved at coarse shape level; plain versus ticked/serrated execution differs. Exact stroke identity is not invariant.",
+      "consequence": "The representative137/138 roof comparison survives as a coarse candidate, but a roofed serrated-X counterpart is not authenticated by these rows."
+    },
+    {
+      "code": "M162",
+      "comparison_pair": [
+        "M162",
+        "M163"
+      ],
+      "printed_page": 787,
+      "pdf_page": 796,
+      "appendix_drawings": 5,
+      "reference_labels": [
+        "8075",
+        "1361",
+        "2934",
+        "1539",
+        "2648"
+      ],
+      "observations": [
+        {
+          "reference": "8075",
+          "shape": "Rounded U-like side arms with central upright and downward stem."
+        },
+        {
+          "reference": "1361",
+          "shape": "Angular Y-like side branching with central upright and downward stem."
+        },
+        {
+          "reference": "2934",
+          "shape": "Long central vertical; widely spread oblique arms with short downward-turning ends."
+        },
+        {
+          "reference": "1539",
+          "shape": "Rounded upper branching with more upper prongs than the representative three-prong form."
+        },
+        {
+          "reference": "2648",
+          "shape": "Rounded upper branching with still more closely spaced upper prongs."
+        }
+      ],
+      "roof_status": "No separate apex-up roof over the whole figure in any of the five drawings. Local arm bends in2934 are not a detached roof.",
+      "base_status": "Central downward stem with upper branching is shared broadly. Rounded U top, arm spread and number of prongs are not invariant.",
+      "consequence": "A universal literal operation add roof to the same three-prong U base overstates the Appendix evidence. Representative162/163 remains a candidate comparison only; roofed matches to all five variants not established."
+    },
+    {
+      "code": "M334",
+      "comparison_pair": [
+        "M333",
+        "M334"
+      ],
+      "printed_page": 790,
+      "pdf_page": 799,
+      "appendix_drawings": 2,
+      "reference_labels": [
+        "2364",
+        "1403"
+      ],
+      "observations": [
+        {
+          "reference": "2364",
+          "shape": "Apex-up two-oblique roof over U-like body with short oblique basal projections and a longer nearly vertical lower stem."
+        },
+        {
+          "reference": "1403",
+          "shape": "Same broad roof/body arrangement; the longer lower stem is oblique rather than vertical."
+        }
+      ],
+      "roof_status": "Present in both documented drawings. Roof closely approaches or meets upper arm ends at this scan scale; a universal detached gap is not established.",
+      "base_status": "Broad U-like body and basal projections retained, with lower-stem orientation varying.",
+      "consequence": "Retains the selected broad roof feature. Deleting that roof yields an M333-like representative base only up to geometric variation; no one-to-one list of unroofed physical counterparts established."
+    }
+  ],
+  "page_offset_check": {
+    "representative_pages": "Printed33/35 correspond to PDF44/46 (+11).",
+    "appendix_pages": "Printed787/790 correspond to PDF796/799 (+9).",
+    "navigation_correction": "Parent-supplied PDF800 is printed791, beginning with336; M334 occurs on previous page799/790. PDF801/792 addendum has no additional137,162 or334 row."
+  },
+  "attempts": [
+    {
+      "step": "Read frozen representative shape review",
+      "result": "Retained its six-pair candidate scope; selected only three assigned variant codes."
+    },
+    {
+      "step": "Inspect existing parent renders794–796",
+      "result": "Located137 and162 on796/787; other pages were navigation only."
+    },
+    {
+      "step": "Inspect existing parent renders800–801",
+      "result": "800/791 starts336, so does not contain334. Addendum801/792 has no target row."
+    },
+    {
+      "step": "Render799 with distinct roof-variants-agent prefix",
+      "result": "Located334 at bottom-right of790. No overwrite of parent prefix."
+    },
+    {
+      "step": "Create and inspect three native-pixel row crops",
+      "result": "Code labels and all reference labels retained; no enhancement or interpolation."
+    },
+    {
+      "step": "Inspect six retained representative crops",
+      "result": "Compared broad roof/base geometry; no per-occurrence original photograph authentication."
+    }
+  ],
+  "crop_method": "Pillow crop using recorded pixel boxes, native resolution, no resize, contrast change, retouching or rotation.",
+  "crop_records": [
+    {
+      "sign": "M137",
+      "source": "results/primary_pages/roof-variants-locate-796.png",
+      "crop": "results/primary_pages/roof-nonfish-M137-variants.png",
+      "source_dimensions": [
+        2296,
+        3000
+      ],
+      "fractional_box": [
+        0.465,
+        0.165,
+        0.862,
+        0.232
+      ],
+      "box_xyxy": [
+        1068,
+        495,
+        1979,
+        696
+      ]
+    },
+    {
+      "sign": "M162",
+      "source": "results/primary_pages/roof-variants-locate-796.png",
+      "crop": "results/primary_pages/roof-nonfish-M162-variants.png",
+      "source_dimensions": [
+        2296,
+        3000
+      ],
+      "fractional_box": [
+        0.463,
+        0.77,
+        0.864,
+        0.846
+      ],
+      "box_xyxy": [
+        1063,
+        2310,
+        1984,
+        2538
+      ]
+    },
+    {
+      "sign": "M334",
+      "source": "results/primary_pages/roof-variants-agent-799.png",
+      "crop": "results/primary_pages/roof-nonfish-M334-variants.png",
+      "source_dimensions": [
+        2591,
+        3500
+      ],
+      "fractional_box": [
+        0.537,
+        0.823,
+        0.94,
+        0.899
+      ],
+      "box_xyxy": [
+        1391,
+        2880,
+        2436,
+        3146
+      ]
+    }
+  ],
+  "representative_crop_provenance": "Existing data/processed/roof_modifier_crop_manifest.json records source full pages and fractional crop coordinates; no representative crops edited.",
+  "limits": [
+    "These are Mahadevan editorial variant groupings, not independently established ancient semantic equivalences.",
+    "A variant list documents selected representative forms; it does not establish an exhaustive invariant for every ancient occurrence.",
+    "No two-sided original artifact images or complete per-code occurrence lists were inspected.",
+    "Roof presence/absence is coarser than identity of stroke sequence, exact position, physical separation or detachable component status.",
+    "No added roof identified as tokenM134, no sign splitting, and no global allograph or linguistic claim."
+  ],
+  "conclusion": "Documented rows retain unroofed137/162 and roofed334, but base geometry varies, especially162. The source supports qualified representative roof comparisons, not a universal exact add-roof transformation.",
+  "new_downloads": [],
+  "evidence_files": [
+    {
+      "path": "data/raw/mahadevan_1977_text.pdf",
+      "bytes": 119302608,
+      "sha256": "6dcdd074a0174e5fab149590fbbf82342711d345764e9763f8e5e92c81cf7f99"
+    },
+    {
+      "path": "results/primary_pages/roof-variants-locate-796.png",
+      "bytes": 2654422,
+      "sha256": "461c8ec9b8853e338a8f3ed2822097f229746ca2a98dda39ac8be2df4b936611"
+    },
+    {
+      "path": "results/primary_pages/roof-variants-agent-799.png",
+      "bytes": 3070917,
+      "sha256": "8680830631009b9dbec944ffe35b58b568a4f3589f51048e328de5265c508129"
+    },
+    {
+      "path": "results/primary_pages/roof-variants-locate-800.png",
+      "bytes": 2991989,
+      "sha256": "df56be72b00b0c060a8cd0c432e89046edfbde1dbf805734be196058e8c5e92c"
+    },
+    {
+      "path": "results/primary_pages/roof-variants-locate-801.png",
+      "bytes": 2340639,
+      "sha256": "e8aa5c7fc56f54174d1d337f94e4f74c08b5c6742df4d9b13dee0430bdef3473"
+    },
+    {
+      "path": "results/roof-variants-agent_extraction.json",
+      "bytes": 371,
+      "sha256": "d7e5215728fbe96c877b47894c9e1698fcb16d6643544e3e056162fe4b877479"
+    },
+    {
+      "path": "results/primary_pages/sign_list-044.png",
+      "bytes": 2228064,
+      "sha256": "33eff554bfdea81af6d1a3510a5b2541d1b74b02ae1e63b253c725b44c7c0b64"
+    },
+    {
+      "path": "results/primary_pages/sign_list-046.png",
+      "bytes": 2099531,
+      "sha256": "a191e9297a6ab8b7cad1028eaeac062b4b6fa3cd34aefbdd507f669d736d2e8e"
+    },
+    {
+      "path": "results/primary_pages/roof-nonfish-M137-variants.png",
+      "bytes": 97363,
+      "sha256": "6235eee42b747499b4c8ebc0ce5ac860a2e08a9d3b76364f2b32ac5d2ae05d7f"
+    },
+    {
+      "path": "results/primary_pages/roof-nonfish-M162-variants.png",
+      "bytes": 128435,
+      "sha256": "fe23237b1e17b5bf201598e9750a89022dd773579590109ee1ef4fe59a9108b5"
+    },
+    {
+      "path": "results/primary_pages/roof-nonfish-M334-variants.png",
+      "bytes": 132311,
+      "sha256": "b4b8cd5f2e62a3059e86d13b018fae9e84d558383d7ee7d6dff49a08172252e7"
+    },
+    {
+      "path": "results/primary_pages/roof-modifier-M137.png",
+      "bytes": 18347,
+      "sha256": "8503e240e04451477b25c5d53ebc0e828bedcd255bcb845ba939eb7baef1e935"
+    },
+    {
+      "path": "results/primary_pages/roof-modifier-M138.png",
+      "bytes": 19533,
+      "sha256": "749792576be9575fdb49879bb340d220c2c204d5891fc583ed323ddd55b80b20"
+    },
+    {
+      "path": "results/primary_pages/roof-modifier-M162.png",
+      "bytes": 15842,
+      "sha256": "17121c9e9e009c88b18b09f07fa097247a5a6f426600d1a627b3ac9bcfa9834b"
+    },
+    {
+      "path": "results/primary_pages/roof-modifier-M163.png",
+      "bytes": 16157,
+      "sha256": "3bb86ff9f346429e11f199c649a696df15a61571cdf4aeddf7a1ff4eda93de93"
+    },
+    {
+      "path": "results/primary_pages/roof-modifier-M333.png",
+      "bytes": 15681,
+      "sha256": "e660c75c899ee7f34b85ab40a37d5f2bdf5fcbeeccd6c16f52b247cc3471d7bc"
+    },
+    {
+      "path": "results/primary_pages/roof-modifier-M334.png",
+      "bytes": 18366,
+      "sha256": "01a8c151a024b6a500d45478fbb9225b241411bb0b2ab46dc0b39d0f32cbe4f0"
+    }
+  ],
+  "established_semantic_values": 0,
+  "established_phonetic_values": 0
+}

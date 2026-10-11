@@ -1,0 +1,946 @@
+{
+  "H843_identity_promoted": false,
+  "conclusion": "Local W195/M054 and W554/M226 correspondences are supported through MIC60/C3070/M77 1060 and EH261/8360/M77 4261. The requested H1817/H843 actual graphic comparison remains unresolved.",
+  "established_phonetic_values": 0,
+  "established_semantic_values": 0,
+  "evidence_pin_checks": 71,
+  "global_mapping_established": false,
+  "input_sha256": {
+    "data/processed/comb_tablet_primary_review.json": "0d9a5c5db1c946de22c7051daad8deca5fc5fa192dece802d13972f6f5966c5c",
+    "data/processed/h133_w554_primary_review.json": "dffd1cd845b4542b0cea17bf9a800eb5b01ae00e20626e2aa698598843419504",
+    "data/processed/m735_primary_review.json": "fa6f61706d07a04b55c86780b59923e5e3b5c882fb00a75c3eb4dc6ef1df7c4c",
+    "results/comb_tablet_independent.json": "0de0d2556806f52be69d65a98110706e6245600878b42c473123fe03af120b52",
+    "results/comb_tablet_screen.json": "55cc344c5f5e5af2e7e9b7f634b314e936b7c17bfde558cbc7fd14e713374775"
+  },
+  "local_H133_review": {
+    "H1817_authenticated_by_this_review": false,
+    "attempts_and_limits": [
+      "OCR readB360; primary page visually reads8360.",
+      "Source plateXCII261 and field8360 joined by explicit original metadata, not numeric tail guess.",
+      "Photo corroborates object/layout but does not resolve every fine target stroke.",
+      "FurnaceI13/21 and sealI13/7 are different squares; no workshop or deposit association promoted.",
+      "ModernCISIalias not independently checked.",
+      "Other six M77 numeric codes remain secondary candidate transcription; only targetM226 newly checked against numbered sign."
+    ],
+    "established_phonetic_values": 0,
+    "established_semantic_values": 0,
+    "evidence_files": [
+      {
+        "bytes": 2514955,
+        "path": "data/raw/h133_vats_leaf79.jpg",
+        "sha256": "55bd37c4ec9b8a6dbefe59f25c93ac85d3923c1c47c134b2109df4a477120461"
+      },
+      {
+        "bytes": 1518598,
+        "path": "data/raw/vats_1940_text_18220_djvu.txt",
+        "sha256": "9426186946d5540e6ccff83fdfc8e5af4aaed99926e56fe14287f57f8ccb4d45"
+      },
+      {
+        "bytes": 17325993,
+        "path": "data/raw/vats_1940_plates_9842.pdf",
+        "sha256": "ab14c5c3a25588d3178789f83ae724eecf7cd873fb28c0a2c639a4dee21b8b18"
+      },
+      {
+        "bytes": 119302608,
+        "path": "data/raw/mahadevan_1977_text.pdf",
+        "sha256": "6dcdd074a0174e5fab149590fbbf82342711d345764e9763f8e5e92c81cf7f99"
+      },
+      {
+        "bytes": 1204921,
+        "path": "data/raw/lipi_inscriptions.csv",
+        "sha256": "b8dcb325a2e2cd3cde12ac12e7a418b0348e45713c9ee28aad81b645d2ac5ee4"
+      },
+      {
+        "bytes": 346446,
+        "path": "data/processed/m77_candidate_strict.jsonl",
+        "sha256": "fcdd8b3a7350ebfa851363328ec784b9c8a943525d8549b9df0194fbe1ee7f4a"
+      },
+      {
+        "bytes": 475342,
+        "path": "results/comb_tablet_screen.json",
+        "sha256": "55cc344c5f5e5af2e7e9b7f634b314e936b7c17bfde558cbc7fd14e713374775"
+      },
+      {
+        "bytes": 388,
+        "path": "results/h133-m77_extraction.json",
+        "sha256": "759e53f702aba0aad35f30dda616d5a629b2a21e7c1ef9779889422f51e25b6d"
+      },
+      {
+        "bytes": 373,
+        "path": "results/h133-vats_extraction.json",
+        "sha256": "0719b7cca301049b6964704626a2999c2cd5005c4ac4036d61af61fd06a0dcdd"
+      },
+      {
+        "bytes": 921,
+        "path": "scripts/render_h133_w554_crops.py",
+        "sha256": "0455bc9c17eca52bba9f2127eb98b666b4dced14357b4027cb967e2e1479d8c4"
+      },
+      {
+        "bytes": 5305,
+        "path": "docs/H133_W554_PRIMARY_REVIEW.md",
+        "sha256": "c84ad161cdb953fe42555d13704300e96cf7430df082cac7f7f8de1e2988ef4f"
+      },
+      {
+        "bytes": 2960945,
+        "path": "results/primary_pages/h133-vats-192.png",
+        "sha256": "ab744522a0b144117a1ba90928995f33d33772f53aed473f70a5c23fe0baaa1d"
+      },
+      {
+        "bytes": 2661063,
+        "path": "results/primary_pages/h133-m77-115.png",
+        "sha256": "30fe9ffc1ea0e2715fe48066047bee2d8e216d721095ec36b0b3ef0dd5b30d1e"
+      },
+      {
+        "bytes": 3540840,
+        "path": "results/primary_pages/h133-m77-45.png",
+        "sha256": "2eae0d450fddd23c41960e471173ecd924a4f45a9cd47f63433079cf105fdd69"
+      },
+      {
+        "bytes": 4286320,
+        "path": "results/primary_pages/h133-m77-830.png",
+        "sha256": "cf8c597e0736a04b6121634539e7e42766cfdaba1ca1803597f6a732961f12af"
+      },
+      {
+        "bytes": 662162,
+        "path": "results/primary_pages/h133-vats-metadata-detail.png",
+        "sha256": "28af4d80f1e6a95c08e90b87c3066bcd1e3fa49a8111c1219eb578664e8dc023"
+      },
+      {
+        "bytes": 119972,
+        "path": "results/primary_pages/h133-vats-261-detail.png",
+        "sha256": "5360b38070e98a123e7a8a7ff49d1f72fdf021b79d53abcaac4c048888882f6d"
+      },
+      {
+        "bytes": 89525,
+        "path": "results/primary_pages/h133-m77-4261-detail.png",
+        "sha256": "34cc55c6356dcc05964c7051d9db83059e1fd4a443f61f729956f3ce14be37d5"
+      },
+      {
+        "bytes": 29486,
+        "path": "results/primary_pages/h133-m77-M226-detail.png",
+        "sha256": "1a470419304316a774bd094c1fd8da038ac2a1220629168b7c7f9a752374418e"
+      },
+      {
+        "bytes": 270529,
+        "path": "results/primary_pages/h133-m77-EH-rule-detail.png",
+        "sha256": "27e11292f4956d3d1b5eb1223f6869d286ddfd8eaa857acea465199726d8dd27"
+      }
+    ],
+    "full_numbered_transcription_independently_audited": false,
+    "global_mapping_promoted": false,
+    "m77_bridge": {
+      "appendix_pdf_page": 830,
+      "appendix_printed_page": 821,
+      "reference": 4261,
+      "rule": "EH volumeII items1–713 map respectively to4001–4713",
+      "text_pdf_page": 115,
+      "text_printed_page": 104
+    },
+    "modern_CISI_alias_independently_checked": false,
+    "phonetic_value": null,
+    "primary_identity": {
+      "area": "Mound F, Trench IV",
+      "depth_feet_below_surface": 2,
+      "description": "rectangular plano-convex seal with seven pictograms",
+      "field_number": "8360",
+      "furnace_association_established": false,
+      "material": "steatite",
+      "metadata_archive_leaf": 79,
+      "metadata_printed_page": 53,
+      "plate": "XCII",
+      "plate_item": 261,
+      "plate_pdf_page": 192,
+      "publication": "Vats, Excavations at Harappa",
+      "site": "Harappa",
+      "square": "I13/7",
+      "stratum": "I"
+    },
+    "review_date": "2026-09-27",
+    "review_mode": "Source-exposed visual inspection of original-page scans and normalized M77 transcription; not physical autopsy or held-out prediction",
+    "secondary_M77_candidate_sequence": [
+      "M150",
+      "M123",
+      "M053",
+      "M171",
+      "M059",
+      "M226",
+      "M342"
+    ],
+    "secondary_cisi_label": "H-133",
+    "secondary_excavation_field": "8360261",
+    "secondary_preservation": "slightly chipped",
+    "secondary_row": "1174.1",
+    "secondary_source_sequence": [
+      "W740",
+      "W554",
+      "W220",
+      "W415",
+      "W798",
+      "W060",
+      "W692"
+    ],
+    "semantic_value": null,
+    "status": "supported_artifact_local_catalogue_correspondence",
+    "target_correspondence": {
+      "M": "M226",
+      "W": "W554",
+      "basis": "Authenticated M77 reference4261 target glyph matches numbered226; original photo corroborates seven-sign object and broad placement",
+      "numbered_sign_list_pdf_page": 45,
+      "numbered_sign_list_printed_page": 34,
+      "photo_fine_stroke_limit": "Second sign terminal turn is weaker in photograph; exact numbered classification rests on normalized drawing",
+      "reversed_reading_position_zero_based": 5,
+      "shape": "Triangular left half at crossing, straight descending right arm, upper right arm with small angular terminal turn",
+      "source_file_position_zero_based": 1
+    }
+  },
+  "local_M735_review": {
+    "M77_appendix_pdf_page": 827,
+    "M77_reference": 1060,
+    "M77_signlist_pdf_page": 43,
+    "M77_text_pdf_page": 51,
+    "W_file_sequence": [
+      "W740",
+      "W760",
+      "W235",
+      "W002",
+      "W390",
+      "W125",
+      "W195"
+    ],
+    "correspondence_status": "Local correspondence through explicit old publication bridge and primary normalized glyph, contingent on secondary row identity; modernCISI2alias not independently checked",
+    "evidence_files": [
+      {
+        "bytes": 411,
+        "path": "data/processed/m735_new_sources.json",
+        "sha256": "5af10aa85ced79708f9687215c114ec539fb300e75b32b841469a6cf6505406f"
+      },
+      {
+        "bytes": 4174,
+        "path": "docs/M735_W195_PRIMARY_REVIEW.md",
+        "sha256": "a62e809a72dcf7d819f50a039a113d88cac47179b992c03559444c09f7e45b18"
+      },
+      {
+        "bytes": 576415,
+        "path": "data/raw/comb_tablet_marshall_leaf185.jpg",
+        "sha256": "2a8f8595eddb53abb1cbb447f191d372c1a7c1bb7497830ae5b86b7123f2fbc0"
+      },
+      {
+        "bytes": 12167700,
+        "path": "data/raw/stone1471_marshall1931_volume2_text.pdf",
+        "sha256": "e58c4d95c9d7dbac29a3cb04d633d20618de71ab7cb58e7dcf035fb88ceb2ef3"
+      },
+      {
+        "bytes": 119302608,
+        "path": "data/raw/mahadevan_1977_text.pdf",
+        "sha256": "6dcdd074a0174e5fab149590fbbf82342711d345764e9763f8e5e92c81cf7f99"
+      },
+      {
+        "bytes": 1204921,
+        "path": "data/raw/lipi_inscriptions.csv",
+        "sha256": "b8dcb325a2e2cd3cde12ac12e7a418b0348e45713c9ee28aad81b645d2ac5ee4"
+      },
+      {
+        "bytes": 2682507,
+        "path": "results/primary_pages/comb-tablet-mic-53.png",
+        "sha256": "adb739fdb744c7b5b7b84fe615136216a159c59696b97a1e568fab9ec6baf921"
+      },
+      {
+        "bytes": 2624345,
+        "path": "results/primary_pages/comb-tablet-m77-51.png",
+        "sha256": "0d17e5ebc8f1bf355748f40d595c51c6b3a4f7d21505a970a7fc8e8b1f28dca5"
+      },
+      {
+        "bytes": 3069233,
+        "path": "results/primary_pages/comb-tablet-m77-42.png",
+        "sha256": "2113af9405c05620c8ff4aac9415b26cd651129a028493a98a1bc2b44d72c047"
+      },
+      {
+        "bytes": 1715296,
+        "path": "results/primary_pages/chain-artifact-m77-827.png",
+        "sha256": "367e9c400b92bca24b6b75be9e9d205900c7380e645143fc352fecfdda21332c"
+      },
+      {
+        "bytes": 982719,
+        "path": "results/primary_pages/sign_list_page_32.png",
+        "sha256": "1e3f91789c947add7ce796479168d84d69636ebdc378493743188ac11c53c90a"
+      },
+      {
+        "bytes": 2725499,
+        "path": "results/primary_pages/ending-signlist-045.png",
+        "sha256": "a091d2d01efc661a93f28e1a0141cd583f326ffeb813a38313f06c8d17ce5252"
+      },
+      {
+        "bytes": 774,
+        "path": "scripts/render_m735_crops.py",
+        "sha256": "c60a98ec4a5f81ff976e2d824916858ade84873df69ccca12d5c54165bf15073"
+      },
+      {
+        "bytes": 386,
+        "path": "results/comb-tablet-mic_extraction.json",
+        "sha256": "babfc7292d7aaac78f935d868d2f6d9d151ac2b4bb1a96d12cda8b15277cc1f6"
+      },
+      {
+        "bytes": 796,
+        "path": "results/m735_m77_extraction.json",
+        "sha256": "dc99e777667ae6cde2f39e5d1d8c726aa0256f1e019de88bb217be25b5f72c90"
+      },
+      {
+        "bytes": 83986,
+        "path": "results/primary_pages/m735-mic60-table.png",
+        "sha256": "b12e2a8fe10f13cc1b2c87df0313cf9f5aeb56249f3f4814679561e7661793ec"
+      },
+      {
+        "bytes": 134550,
+        "path": "results/primary_pages/m735-mic60-photo.png",
+        "sha256": "86c4102ec9a068a1f7cb4678b0ecb9e84fbb6b7c2b03d2efdb6edc86c0478a3f"
+      },
+      {
+        "bytes": 8421,
+        "path": "results/primary_pages/m735-m054-sign.png",
+        "sha256": "eaf07c4bc478fd78f1351a3a370c49bd69410c7fd465d2584d82a45856afab7c"
+      },
+      {
+        "bytes": 124627,
+        "path": "results/primary_pages/m735-m77-1060.png",
+        "sha256": "8139b3daa6d03d77aef018cd93b9b15e42deffc9bea5f602de99ea38674b620b"
+      }
+    ],
+    "global_mapping_established": false,
+    "local_M": "M054",
+    "local_target": "W195",
+    "phonetic_value": null,
+    "photo_scope": "Numbered object and broad seven-sign arrangement; fine target strokes weak",
+    "primary_depth_feet": 3,
+    "primary_dimensions_inches": [
+      1.25,
+      1.3
+    ],
+    "primary_excavation": "C3070",
+    "primary_item": 60,
+    "primary_material": "white steatite",
+    "primary_metadata_pdf_page": 53,
+    "primary_metadata_printed_page": 402,
+    "primary_photo_archive_leaf": 185,
+    "primary_plate": "CV",
+    "primary_publication": "MIC",
+    "review_date": "2026-09-27",
+    "secondary_cisi": "M-735",
+    "secondary_raw_excavation": "DK-C 3070060",
+    "secondary_row_id": "3159.1",
+    "semantic_value": null
+  },
+  "matching_H133_candidate": {
+    "M_record": {
+      "id": "GLI-IND-M77-04261",
+      "sequence": [
+        "M150",
+        "M123",
+        "M053",
+        "M171",
+        "M059",
+        "M226",
+        "M342"
+      ],
+      "source_direction_code": "1",
+      "source_doc_count": 1,
+      "source_object_code": "1",
+      "source_reference": "4261",
+      "status": "conditional secondary corpus; not all lines visually authenticated"
+    },
+    "artifact_identity": null,
+    "lipi_row": {
+      "artifact": "H-133",
+      "cisi_original": "H-133",
+      "condition": "Fair",
+      "id": "1174.1",
+      "namespace": "Wells_ICIT_as_exported",
+      "order": "source_file_order",
+      "preservation": "slightly chipped",
+      "sequence": [
+        "W740",
+        "W554",
+        "W220",
+        "W415",
+        "W798",
+        "W060",
+        "W692"
+      ],
+      "site": "Harappa",
+      "type": "SEAL:R"
+    },
+    "masked_M_candidate": "M226",
+    "segments": [
+      {
+        "M": [
+          "M150"
+        ],
+        "M_positions": [
+          0
+        ],
+        "W": "W692",
+        "basis": "catalogue_membership",
+        "reversed_W_position": 0
+      },
+      {
+        "M": [
+          "M123"
+        ],
+        "M_positions": [
+          1
+        ],
+        "W": "W060",
+        "basis": "catalogue_membership",
+        "reversed_W_position": 1
+      },
+      {
+        "M": [
+          "M053"
+        ],
+        "M_positions": [
+          2
+        ],
+        "W": "W798",
+        "basis": "catalogue_membership",
+        "reversed_W_position": 2
+      },
+      {
+        "M": [
+          "M171"
+        ],
+        "M_positions": [
+          3
+        ],
+        "W": "W415",
+        "basis": "catalogue_membership",
+        "reversed_W_position": 3
+      },
+      {
+        "M": [
+          "M059"
+        ],
+        "M_positions": [
+          4
+        ],
+        "W": "W220",
+        "basis": "catalogue_membership",
+        "reversed_W_position": 4
+      },
+      {
+        "M": [
+          "M226"
+        ],
+        "M_positions": [
+          5
+        ],
+        "W": "W554",
+        "basis": "masked_target",
+        "reversed_W_position": 5
+      },
+      {
+        "M": [
+          "M342"
+        ],
+        "M_positions": [
+          6
+        ],
+        "W": "W740",
+        "basis": "catalogue_membership",
+        "reversed_W_position": 6
+      }
+    ]
+  },
+  "matching_M735_candidate": {
+    "M_record": {
+      "id": "GLI-IND-M77-01060",
+      "sequence": [
+        "M054",
+        "M028",
+        "M162",
+        "M100",
+        "M065",
+        "M347",
+        "M342"
+      ],
+      "source_direction_code": "1",
+      "source_doc_count": 1,
+      "source_object_code": "1",
+      "source_reference": "1060",
+      "status": "conditional secondary corpus; not all lines visually authenticated"
+    },
+    "artifact_identity": null,
+    "lipi_row": {
+      "artifact": "M-735",
+      "cisi_original": "M-735",
+      "condition": "Poor",
+      "id": "3159.1",
+      "namespace": "Wells_ICIT_as_exported",
+      "order": "source_file_order",
+      "preservation": "complete",
+      "sequence": [
+        "W740",
+        "W760",
+        "W235",
+        "W002",
+        "W390",
+        "W125",
+        "W195"
+      ],
+      "site": "Mohenjo-daro",
+      "type": "SEAL:S"
+    },
+    "masked_M_candidate": "M054",
+    "segments": [
+      {
+        "M": [
+          "M054"
+        ],
+        "M_positions": [
+          0
+        ],
+        "W": "W195",
+        "basis": "masked_target",
+        "reversed_W_position": 0
+      },
+      {
+        "M": [
+          "M028"
+        ],
+        "M_positions": [
+          1
+        ],
+        "W": "W125",
+        "basis": "catalogue_membership",
+        "reversed_W_position": 1
+      },
+      {
+        "M": [
+          "M162"
+        ],
+        "M_positions": [
+          2
+        ],
+        "W": "W390",
+        "basis": "catalogue_membership",
+        "reversed_W_position": 2
+      },
+      {
+        "M": [
+          "M100"
+        ],
+        "M_positions": [
+          3
+        ],
+        "W": "W002",
+        "basis": "catalogue_membership",
+        "reversed_W_position": 3
+      },
+      {
+        "M": [
+          "M065"
+        ],
+        "M_positions": [
+          4
+        ],
+        "W": "W235",
+        "basis": "catalogue_membership",
+        "reversed_W_position": 4
+      },
+      {
+        "M": [
+          "M347"
+        ],
+        "M_positions": [
+          5
+        ],
+        "W": "W760",
+        "basis": "catalogue_membership",
+        "reversed_W_position": 5
+      },
+      {
+        "M": [
+          "M342"
+        ],
+        "M_positions": [
+          6
+        ],
+        "W": "W740",
+        "basis": "catalogue_membership",
+        "reversed_W_position": 6
+      }
+    ]
+  },
+  "unjoined_5326_candidate": {
+    "M_record": {
+      "authentication": "secondary transcription, two selected complete lines checked; no population error rate or complete physical-object crosswalk",
+      "diplomatic": "+054-254-176+",
+      "exclusion_reasons": [
+        "multiple_source_documents_line_recovery_unverified"
+      ],
+      "id": "GLI-IND-M77-05326",
+      "namespace": "Mahadevan1977",
+      "order": "preserved source array; agrees with reading printed normalized glyphs right to left in two checked examples",
+      "primary_direction_definition": "right to left",
+      "primary_object_definition": "sealing",
+      "site_label_unverified": null,
+      "source_citation": {
+        "derivation": "IM77 text 5326 from indusscript.in Firestore (RMRL, 2021). Original: Mahadevan (1977) The Indus Script: Texts, Concordance and Tables.",
+        "primary_sources": [
+          "I.6",
+          "A.1"
+        ]
+      },
+      "source_direction_code": "1",
+      "source_doc_count": 2,
+      "source_extra": {
+        "doc_count": 2,
+        "fs80": 0,
+        "level": "0",
+        "textnum": 5326
+      },
+      "source_object_code": "2",
+      "source_reference": "5326",
+      "strict_candidate": false,
+      "tokens": [
+        {
+          "diplomatic": "054",
+          "doubtful": false,
+          "raw": "54",
+          "sign": "M054",
+          "unknown_span": false
+        },
+        {
+          "diplomatic": "254",
+          "doubtful": false,
+          "raw": "254",
+          "sign": "M254",
+          "unknown_span": false
+        },
+        {
+          "diplomatic": "176",
+          "doubtful": false,
+          "raw": "176",
+          "sign": "M176",
+          "unknown_span": false
+        }
+      ],
+      "upstream_artifact_type": "seal"
+    },
+    "artifact_identity": null,
+    "lipi_row": {
+      "artifact": "H-843",
+      "cisi_original": "H-843",
+      "condition": "Fair",
+      "id": "1729.1",
+      "namespace": "Wells_ICIT_as_exported",
+      "order": "source_file_order",
+      "preservation": "complete",
+      "sequence": [
+        "W400",
+        "W527",
+        "W195"
+      ],
+      "site": "Harappa",
+      "type": "TAB:B"
+    },
+    "masked_M_candidate": "M054",
+    "segments": [
+      {
+        "M": [
+          "M054"
+        ],
+        "M_positions": [
+          0
+        ],
+        "W": "W195",
+        "basis": "masked_target",
+        "reversed_W_position": 0
+      },
+      {
+        "M": [
+          "M254"
+        ],
+        "M_positions": [
+          1
+        ],
+        "W": "W527",
+        "basis": "catalogue_membership",
+        "reversed_W_position": 1
+      },
+      {
+        "M": [
+          "M176"
+        ],
+        "M_positions": [
+          2
+        ],
+        "W": "W400",
+        "basis": "catalogue_membership",
+        "reversed_W_position": 2
+      }
+    ]
+  },
+  "unresolved_tablet_review": {
+    "actual_pair_graphic_comparison_possible": false,
+    "authenticated_requested_artifacts": 0,
+    "candidate_5326": {
+      "appendix_pdf_page": 832,
+      "appendix_printed_page": 823,
+      "bridge_missing": [
+        "14307 to5326",
+        "H843 to5326"
+      ],
+      "displayed_left_to_right": [
+        "M176",
+        "M254",
+        "M054"
+      ],
+      "excavation_field": "blank",
+      "field_symbol_code": 97,
+      "field_symbol_figure": 139,
+      "field_symbol_key_pdf_page": 821,
+      "field_symbol_key_printed_page": 812,
+      "field_symbol_photo_pdf_page": 822,
+      "field_symbol_photo_printed_page": 813,
+      "final_glyph_numbered_sign_list": {
+        "code": "M054",
+        "description": "Looped multi-stroke form with rightward curving branches; differs from straight triangular-cross M216",
+        "pdf_page": 43,
+        "printed_page": 32
+      },
+      "inscription_face_photo_observed": false,
+      "normalized_right_to_left": [
+        "M054",
+        "M254",
+        "M176"
+      ],
+      "photo_observation": "Narrow face bearing crossing diagonal strokes forming crosshatched pattern",
+      "photo_source": "Pu.63:4395",
+      "same_source_reference_also_attached_to": [
+        5327,
+        5328,
+        5329
+      ],
+      "second_metadata_line": "29790",
+      "source_reference": "Pu.63:4394-95",
+      "status": "primary_catalogue_entry_and_reverse_image_verified_not_joined_to_H843",
+      "text_pdf_page": 149,
+      "text_printed_page": 138
+    },
+    "cases": [
+      {
+        "W554_graphic_description": null,
+        "comb_orientation": null,
+        "exclusion": "Do not infer shape from codes or identify a different figure by approximate text match",
+        "inscription_image_personally_inspected": false,
+        "metadata_authenticated": false,
+        "secondary_cisi": "H-1817",
+        "secondary_field": "H94-2326",
+        "secondary_figure": "26.06",
+        "secondary_rows": [
+          "624.1",
+          "624.2"
+        ],
+        "secondary_texts": [
+          "+700-034+",
+          "+400-525-554+"
+        ],
+        "status": "exact_primary_figure_not_obtained"
+      },
+      {
+        "W195_graphic_description": null,
+        "candidate_identity_established": false,
+        "candidate_reference": 5326,
+        "comb_orientation": null,
+        "exclusion": "No14307 orH843 alias attached to candidate5326 in inspected primary appendix",
+        "inscription_image_personally_inspected": false,
+        "metadata_authenticated": false,
+        "secondary_cisi": "H-843",
+        "secondary_field": "14307",
+        "secondary_field_symbol": "Xhch",
+        "secondary_rows": [
+          "1729.1"
+        ],
+        "secondary_texts": [
+          "+400-527-195+"
+        ],
+        "status": "promising_locator_without_identity_bridge"
+      }
+    ],
+    "evidence_files": [
+      {
+        "bytes": 1167,
+        "path": "data/processed/comb_tablet_new_sources.json",
+        "sha256": "7b1211ec7edbbc13421d299ca2dc7bb151eb60e1f2e1e4cfad3af108a09ea244"
+      },
+      {
+        "bytes": 2292,
+        "path": "data/processed/comb_tablet_source_audit.json",
+        "sha256": "6a21713cd671d0a8c0ec35198134965ef29393bdabb19663bb4bd0e4bcfc0706"
+      },
+      {
+        "bytes": 12586,
+        "path": "data/processed/w525_primary_review.json",
+        "sha256": "973acc34cfe4703cf4a5074f32314749783ed98994246a6445e19ee975d6212e"
+      },
+      {
+        "bytes": 22614,
+        "path": "data/raw/comb_tablet_kenoyer1997_web_capture.json",
+        "sha256": "fafa8cec9203e7d4f3c2fd52791531a6a73bc36fa64116bd461bfb774c11b82a"
+      },
+      {
+        "bytes": 28127,
+        "path": "data/raw/comb_tablet_kenoyer2010_web_capture.json",
+        "sha256": "87caf456afbf7bacdf0f415dc305c02a676635d32f8bae5eedfe57ba6c4082d7"
+      },
+      {
+        "bytes": 7726,
+        "path": "data/raw/ending_cisi2_metadata.json",
+        "sha256": "d16cf205fe8fad9d8953f773139d9648eaa483527f5904d57c48303b88549a49"
+      },
+      {
+        "bytes": 1204921,
+        "path": "data/raw/lipi_inscriptions.csv",
+        "sha256": "b8dcb325a2e2cd3cde12ac12e7a418b0348e45713c9ee28aad81b645d2ac5ee4"
+      },
+      {
+        "bytes": 673943,
+        "path": "data/raw/mahadevan_1977_ocr.txt",
+        "sha256": "11441e38286784a1f4215f73d91cbba8acd153b7e5b30daed9252f9f7b77304a"
+      },
+      {
+        "bytes": 119302608,
+        "path": "data/raw/mahadevan_1977_text.pdf",
+        "sha256": "6dcdd074a0174e5fab149590fbbf82342711d345764e9763f8e5e92c81cf7f99"
+      },
+      {
+        "bytes": 1518598,
+        "path": "data/raw/vats_1940_text_18220_djvu.txt",
+        "sha256": "9426186946d5540e6ccff83fdfc8e5af4aaed99926e56fe14287f57f8ccb4d45"
+      },
+      {
+        "bytes": 8152,
+        "path": "docs/COMB_TABLET_PRIMARY_REVIEW.md",
+        "sha256": "34da1a2ea562933adbc20cae3818ba20d380e60fd26f46dfc20b9c56de79e028"
+      },
+      {
+        "bytes": 379,
+        "path": "results/comb-tablet-m77-detail_extraction.json",
+        "sha256": "7dd8891a370aef2efbfbc15dccdb0cb7843a04fa5ea17d0fcb108960e8ec062f"
+      },
+      {
+        "bytes": 378,
+        "path": "results/comb-tablet-m77_extraction.json",
+        "sha256": "c2c5186c06b1f09c0c99a0ed5f73862aecaef2f66a647f109b052b8cd8bbcb80"
+      },
+      {
+        "bytes": 386,
+        "path": "results/comb-tablet-mic_extraction.json",
+        "sha256": "babfc7292d7aaac78f935d868d2f6d9d151ac2b4bb1a96d12cda8b15277cc1f6"
+      },
+      {
+        "bytes": 555813,
+        "path": "results/iconography-mahadevan_extracted.txt",
+        "sha256": "934df0be2beeea5df8d1db9c01570e125f3294cab2d9b64aed748054b63fb928"
+      },
+      {
+        "bytes": 2888406,
+        "path": "results/primary_pages/chain-artifact-m77-832.png",
+        "sha256": "fb9073109c4990270759bc448726861efa49441565c3e01d8926eeac2a6c4cbb"
+      },
+      {
+        "bytes": 26370,
+        "path": "results/primary_pages/comb-tablet-m054-sign.png",
+        "sha256": "17cd90973f9bc8a172dac81ba804f8d52f00d2cdc555bdad066eba55afd5479e"
+      },
+      {
+        "bytes": 1621081,
+        "path": "results/primary_pages/comb-tablet-m77-149.png",
+        "sha256": "95fc45bd0997d6a42d678d2ff09fb2441d55696bbc0d21d4fb4bef066c0cda8c"
+      },
+      {
+        "bytes": 3069233,
+        "path": "results/primary_pages/comb-tablet-m77-42.png",
+        "sha256": "2113af9405c05620c8ff4aac9415b26cd651129a028493a98a1bc2b44d72c047"
+      },
+      {
+        "bytes": 2624345,
+        "path": "results/primary_pages/comb-tablet-m77-51.png",
+        "sha256": "0d17e5ebc8f1bf355748f40d595c51c6b3a4f7d21505a970a7fc8e8b1f28dca5"
+      },
+      {
+        "bytes": 95103,
+        "path": "results/primary_pages/comb-tablet-m77-5326-metadata.png",
+        "sha256": "251aa079e91f0a0b2d2fa4bbed4f8a54bf8f0ef50b955f62623a11623d58b046"
+      },
+      {
+        "bytes": 69603,
+        "path": "results/primary_pages/comb-tablet-m77-5326-reverse.png",
+        "sha256": "896bcc56179fe256ad3d23abc235f11d911406dab4492173f7b3f606ac86fe96"
+      },
+      {
+        "bytes": 76295,
+        "path": "results/primary_pages/comb-tablet-m77-5326-text.png",
+        "sha256": "4654cb350f2631a0231e0a1da282ae90220ac7107f00e1b4342e8a037b112f6b"
+      },
+      {
+        "bytes": 3152275,
+        "path": "results/primary_pages/comb-tablet-m77-822.png",
+        "sha256": "04764b91009b31f9bcfc99d7b3290a96c5b73a7a641dad34a7319b5a10ae1ffe"
+      },
+      {
+        "bytes": 3281280,
+        "path": "results/primary_pages/comb-tablet-m77-detail-43.png",
+        "sha256": "ebb35d20d3f7035a6d68aa0e967a8d18ccfe5b8f4330f62a3a264a5a9b463793"
+      },
+      {
+        "bytes": 1644209,
+        "path": "results/primary_pages/comb-tablet-m77-detail-821.png",
+        "sha256": "069b99e0781969cb52a1bd62da5513db6eb73e0603884bf418a7ebcf5792d029"
+      },
+      {
+        "bytes": 2682507,
+        "path": "results/primary_pages/comb-tablet-mic-53.png",
+        "sha256": "adb739fdb744c7b5b7b84fe615136216a159c59696b97a1e568fab9ec6baf921"
+      },
+      {
+        "bytes": 2725499,
+        "path": "results/primary_pages/ending-signlist-045.png",
+        "sha256": "a091d2d01efc661a93f28e1a0141cd583f326ffeb813a38313f06c8d17ce5252"
+      },
+      {
+        "bytes": 2228064,
+        "path": "results/primary_pages/sign_list-044.png",
+        "sha256": "33eff554bfdea81af6d1a3510a5b2541d1b74b02ae1e63b253c725b44c7c0b64"
+      },
+      {
+        "bytes": 1268,
+        "path": "scripts/audit_comb_tablet_sources.py",
+        "sha256": "1fc1bd57a2f881e1c274af5b34702dd47577d2740ff6e27dfa2db085c8096f60"
+      },
+      {
+        "bytes": 802,
+        "path": "scripts/download_comb_tablet_sources.py",
+        "sha256": "fd367c0c57e4974da72e725041a99314e54d73f2db15f5d21a7067adcce43940"
+      },
+      {
+        "bytes": 784,
+        "path": "scripts/render_comb_tablet_crops.py",
+        "sha256": "5621cbcd42bad348b934dbf3e5e6642357352b0539484b127ef609e221242b93"
+      }
+    ],
+    "exclusions": [
+      "Modern H1817 object cannot be authenticated by a pre-1994 M77 catalogue entry",
+      "The strict secondary site/type/length pair is not independently proven identical physical form",
+      "W554/W195 equivalence or distinction untested on actual pair",
+      "M77 2868 belongs to already-authenticated DK8489, not a transferable H843 identity",
+      "No original report PDF download succeeded; web captures explicitly typed"
+    ],
+    "new_mapping_promoted": false,
+    "new_source_registry": "data/processed/comb_tablet_new_sources.json",
+    "overall_status": "unresolved_requested_artifact_pair",
+    "phonetic_value": null,
+    "review_date": "2026-09-27",
+    "review_mode": "Source-exposed bounded primary review; parent supplied5326 locator after masked computational discovery",
+    "semantic_value": null
+  }
+}

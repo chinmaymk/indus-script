@@ -1,0 +1,193 @@
+{
+  "downloads": [
+    {
+      "path": "data/raw/h843_identity_archive_search.json",
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28Corpus+Indus+Seals%29&output=json&rows=50",
+      "resolved_url": "https://archive.org/advancedsearch.php?q=title%3A%28Corpus+Indus+Seals%29&output=json&rows=50",
+      "bytes": 2792,
+      "sha256": "4770b3638e690ca81c4a9e433828322064ee0056fead97d42c82366fc1af87fd",
+      "kind": "original_download"
+    },
+    {
+      "path": "data/raw/h843_identity_cisi2_archive_metadata.json",
+      "url": "https://archive.org/metadata/corpus-vol-2_202409",
+      "resolved_url": "https://archive.org/metadata/corpus-vol-2_202409",
+      "bytes": 7632,
+      "sha256": "1eedc89c227a4d52e25ee81a42628d6dd3b889d72d537ddad87fc35e9bb174f3",
+      "kind": "original_download"
+    },
+    {
+      "path": "data/raw/h843_identity_CorpusVol2.pdf",
+      "url": "https://archive.org/download/corpus-vol-2_202409/CorpusVol2.pdf",
+      "resolved_url": "https://dn721808.ca.archive.org/0/items/corpus-vol-2_202409/CorpusVol2.pdf",
+      "bytes": 35870617,
+      "sha256": "727132579a485ee626e48a64c663148a85fbc0811fb523818fd615231f8a327d",
+      "kind": "original_download"
+    },
+    {
+      "path": "data/raw/h843_identity_CorpusVol2_djvu.txt",
+      "url": "https://archive.org/download/corpus-vol-2_202409/CorpusVol2_djvu.txt",
+      "resolved_url": "https://dn721808.ca.archive.org/0/items/corpus-vol-2_202409/CorpusVol2_djvu.txt",
+      "bytes": 218644,
+      "sha256": "ae797e9bc4bed1993e6997030a62bcbb5e0b2900ca8812e5ab3f392915c0abf9",
+      "kind": "original_download"
+    },
+    {
+      "path": "data/raw/h843_identity_CorpusVol2_page_numbers.json",
+      "url": "https://archive.org/download/corpus-vol-2_202409/CorpusVol2_page_numbers.json",
+      "resolved_url": "https://dn721808.ca.archive.org/0/items/corpus-vol-2_202409/CorpusVol2_page_numbers.json",
+      "bytes": 82243,
+      "sha256": "b9d830c105852e4ea817aa46c014e70008319bbc195b81c5b814dc5ada8c2030",
+      "kind": "original_download"
+    }
+  ],
+  "web_extraction_captures": [
+    {
+      "path": "data/raw/h843_identity_institution_search.json",
+      "bytes": 34688,
+      "sha256": "ca22b5177205dda62219d4edbe84ea5459387866d4f9ad9ced26f41342c29f8b",
+      "kind": "web_extraction_capture",
+      "refetchable": false,
+      "not_original_source_bytes": true,
+      "request": {
+        "search_query": [
+          {
+            "q": "\"Corpus of Indus Seals and Inscriptions\" site:helda.helsinki.fi"
+          },
+          {
+            "q": "\"Corpus of Indus Seals\" site:tuhat.helsinki.fi \"Pakistan\""
+          },
+          {
+            "q": "\"Corpus of Indus Seals\" site:ignca.gov.in"
+          },
+          {
+            "q": "Archaeological Survey India photographic albums Punjab digitized"
+          }
+        ],
+        "response_length": "long"
+      },
+      "source_urls": [
+        "http://lahore.city-history.com/earliest-photograph-of-the-sub-continent-taken-in-lahore.html",
+        "https://arxiv.org/abs/1212.4776",
+        "https://arxiv.org/abs/2210.00203",
+        "https://arxiv.org/abs/2303.13594",
+        "https://books.google.com/books/about/Archeological_Survey_of_India.html?id=Da5kwOx_VSMC",
+        "https://books.google.com/books/about/Report_of_a_Tour_in_the_Punjab_in_1878_7.html?id=cW8IAAAAQAAJ",
+        "https://books.google.com/books/about/Report_of_a_Tour_in_the_Punjab_in_1878_7.html?id=rc8OAAAAQAAJ",
+        "https://cir.nii.ac.jp/crid/1050587970429751168",
+        "https://discovery.nationalarchives.gov.uk/details/r/348f794c-6d37-4cc9-acbb-251a1990ab62",
+        "https://dunyanews.tv/en/Pakistan/760832-Ancient-scrolls-found-in-Lahore-Fort%E2%80%99s-Haveli-Kharak-Singh-",
+        "https://en.wikipedia.org/wiki/Dhanna_Singh_%28photographer%29",
+        "https://en.wikipedia.org/wiki/James_Waterhouse",
+        "https://en.wikipedia.org/wiki/Khalsa_Darbar_records",
+        "https://en.wikipedia.org/wiki/National_Digital_Repository_for_Museums_of_India",
+        "https://en.wikipedia.org/wiki/Panjab_Digital_Library",
+        "https://ignca.gov.in/Asi_data/74331.pdf",
+        "https://ignca.gov.in/Asi_data/76884.pdf",
+        "https://lahorefortarchives.com/catalogues/",
+        "https://resources.culturalheritage.org/pmgtopics/2005-volume-eleven/11_10_Maes.html",
+        "https://ru.wikipedia.org/wiki/%D0%A1%D0%BF%D0%B8%D1%81%D0%BE%D0%BA_%D0%BF%D0%B0%D0%BC%D1%8F%D1%82%D0%BD%D0%B8%D0%BA%D0%BE%D0%B2_%D0%BD%D0%B0%D1%86%D0%B8%D0%BE%D0%BD%D0%B0%D0%BB%D1%8C%D0%BD%D0%BE%D0%B3%D0%BE_%D0%B7%D0%BD%D0%B0%D1%87%D0%B5%D0%BD%D0%B8%D1%8F_%D0%B2_%D1%88%D1%82%D0%B0%D1%82%D0%B5_%D0%9F%D0%B5%D0%BD%D0%B4%D0%B6%D0%B0%D0%B1",
+        "https://searcharchives.bl.uk/?f%5Bcollection_area_ssi%5D%5B%5D=Visual+Arts&f%5Blanguage_ssim%5D%5B%5D=Not+applicable&f%5Blevel_ssi%5D%5B%5D=%5B40%5D+File&f%5Bmaterial_type_si%5D%5B%5D=Photographs&f%5Brelated_names_ssim%5D%5B%5D=Archaeological+Survey+of+India&f%5Brelated_subjects_ssim%5D%5B%5D=Archaeology&f%5Burl_non_blank_si%5D%5B%5D=No&per_page=50&search_field=all_fields&sort=title_for_sort_si+asc%2C+scope_and_content_for_sort_si+asc%2C+reference_for_sort_si+asc",
+        "https://searcharchives.bl.uk/catalog/040-003100896",
+        "https://searcharchives.bl.uk/catalog/040-003100960",
+        "https://searcharchives.bl.uk/catalog/040-003100969",
+        "https://www.harappa.com/content/introduction-discovery-harappa",
+        "https://www.indiatoday.in/magazine/supplement/story/20110606-digital-diaries-746200-2011-05-24",
+        "https://www.reddit.com/r/Ancient_Pak/comments/1h6cl6g",
+        "https://www.reddit.com/r/Ancient_Pak/comments/1inoxbt",
+        "https://www.reddit.com/r/Sikh/comments/107c0gm",
+        "https://www.reddit.com/r/Sikh/comments/13wr64f",
+        "https://www.reddit.com/r/Sikh/comments/1dzjje1",
+        "https://www.reddit.com/r/Sikh/comments/1le1sju",
+        "https://www.reddit.com/r/Sikh/comments/1mtvtuc",
+        "https://www.reddit.com/r/Sikh/comments/1tb2yvc/where_to_find_daftarifauj_records/",
+        "https://www.reddit.com/r/hinduism/comments/107mnh4",
+        "https://www.reddit.com/r/punjab/comments/1dzjpn3",
+        "https://www.reddit.com/r/punjab/comments/1io0ex1",
+        "https://www.reddit.com/r/u_MAPIndia/comments/11w9qnx"
+      ]
+    },
+    {
+      "path": "data/raw/h843_identity_catalogues_capture.json",
+      "bytes": 12051,
+      "sha256": "6388c40967be22539bdfc36c256c9581256b3fd52c08dea15fdf5f7354691000",
+      "kind": "web_extraction_capture",
+      "refetchable": false,
+      "not_original_source_bytes": true,
+      "request": {
+        "open": [
+          {
+            "ref_id": "https://www.harappa.com/content/introduction-discovery-harappa"
+          },
+          {
+            "ref_id": "https://lahorefortarchives.com/catalogues/"
+          },
+          {
+            "ref_id": "https://data.nationallibrary.fi/bib/me/W00003846100"
+          }
+        ],
+        "response_length": "long"
+      },
+      "source_urls": [
+        "https://data.nationallibrary.fi/bib/me/W00003846100",
+        "https://data.nationallibrary.fi/bib/me/W00003846100:",
+        "https://lahorefortarchives.com/catalogues/",
+        "https://lahorefortarchives.com/catalogues/:",
+        "https://www.harappa.com/content/introduction-discovery-harappa"
+      ]
+    },
+    {
+      "path": "data/raw/h843_identity_photo_catalogue_search.json",
+      "bytes": 30097,
+      "sha256": "ba6c73d862e6bb83a2225aa157330a389fc8cceaa733fa84be48f84155b85a2f",
+      "kind": "web_extraction_capture",
+      "refetchable": false,
+      "not_original_source_bytes": true,
+      "request": {
+        "click": [
+          {
+            "ref_id": "turn424view0",
+            "id": 9
+          }
+        ],
+        "search_query": [
+          {
+            "q": "site:harappa.com \"4395\""
+          },
+          {
+            "q": "site:harappa.com \"14307\""
+          },
+          {
+            "q": "site:searcharchives.bl.uk \"Harappa\" \"seals\""
+          },
+          {
+            "q": "site:tuhat.helsinki.fi/en/publications/ \"Collections in Pakistan\""
+          }
+        ],
+        "response_length": "long"
+      },
+      "source_urls": [
+        "http://hssa.sayahna.org/",
+        "https://searcharchives.bl.uk/?f%5Bcollection_area_ssi%5D%5B%5D=Visual+Arts&f%5Blanguage_ssim%5D%5B%5D=Not+applicable&f%5Blevel_ssi%5D%5B%5D=%5B40%5D+File&f%5Brelated_names_ssim%5D%5B%5D=Archaeological+Survey+of+India&page=4&per_page=100&sort=date",
+        "https://searcharchives.bl.uk/?f%5Blanguage_ssim%5D%5B%5D=Not+applicable&f%5Blevel_ssi%5D%5B%5D=%5B40%5D+File&f%5Bmaterial_type_si%5D%5B%5D=Photographs&f%5Brelated_names_ssim%5D%5B%5D=Archaeological+Survey+of+India&f%5Brelated_subjects_ssim%5D%5B%5D=Archaeological+Survey+Of+India%3A+Frontier+Circle&f%5Burl_non_blank_si%5D%5B%5D=No&per_page=20&sort=date",
+        "https://searcharchives.bl.uk/?f%5Blanguage_ssim%5D%5B%5D=Not+applicable&f%5Blevel_ssi%5D%5B%5D=%5B40%5D+File&f%5Bmaterial_type_si%5D%5B%5D=Photographs&f%5Brelated_places_ssim%5D%5B%5D=Harappa%2C+Punjab+%28+Pakistan+%29%2C+Pakistan%2C+Asia%2C+South+Asia&f%5Brelated_subjects_ssim%5D%5B%5D=Archaeological+Survey+Of+India+Collections&f%5Burl_non_blank_si%5D%5B%5D=No&per_page=50&sort=hierarchy",
+        "https://searcharchives.bl.uk/?f%5Brelated_names_ssim%5D%5B%5D=Archaeological+Survey+of+India&f%5Brelated_places_ssim%5D%5B%5D=Harappa%2C+Punjab+%28+Pakistan+%29%2C+Pakistan%2C+Asia%2C+South+Asia&f%5Burl_non_blank_si%5D%5B%5D=No&per_page=10",
+        "https://searcharchives.bl.uk/?f%5Brelated_names_ssim%5D%5B%5D=Archaeological+Survey+of+India&f%5Brelated_places_ssim%5D%5B%5D=Harappa%2C+Punjab+%28+Pakistan+%29%2C+Pakistan%2C+Asia%2C+South+Asia&f%5Burl_non_blank_si%5D%5B%5D=No&per_page=100",
+        "https://searcharchives.bl.uk/catalog/040-003100871",
+        "https://searcharchives.bl.uk/catalog/040-003100872",
+        "https://searcharchives.bl.uk/catalog/040-003100877",
+        "https://searcharchives.bl.uk/catalog/040-003100880",
+        "https://searcharchives.bl.uk/catalog/040-003100882",
+        "https://searcharchives.bl.uk/catalog/040-003100929",
+        "https://searcharchives.bl.uk/catalog/040-003100967",
+        "https://tuhat.helsinki.fi/ws/portalfiles/portal/127255979/Parpola_Asko_2018_Indus_Seals_and_Glyptic_Studies_An_Overview_final_proof_2016_.pdf",
+        "https://tuhat.helsinki.fi/ws/portalfiles/portal/127256248/Parpola_A_2011._Harappan_unicorn_in_Eurasian_South_Asian_perspectives.pdf",
+        "https://tuhat.helsinki.fi/ws/portalfiles/portal/127256488/Parpola_A_2009._Hind_leg_fish_in_the_Indus_script._Scripta1_37_76.pdf",
+        "https://tuhat.helsinki.fi/ws/portalfiles/portal/127257447/Parpola_A_2008._Copper_tablets_from_Mohenjo_daro._ECL_During_Caspers_Vol.pdf",
+        "https://tuhat.helsinki.fi/ws/portalfiles/portal/129602857/Parpola_A_2019_Inscriptions_incised_on_the_Harappan_bone_rods_Proceedings_of_EASAA_22.pdf",
+        "https://www.harappa.com/slideshows/first-excavations-harappa"
+      ]
+    }
+  ],
+  "date": "2026-09-27"
+}

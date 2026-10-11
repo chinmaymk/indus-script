@@ -1,0 +1,178 @@
+{
+  "research_date": "2026-09-27",
+  "task": "Bounded accessible-original-source recovery for H-1817 / H94-2326 / Figure26.06",
+  "status": "unresolved_no_accessible_original_target_recovered",
+  "exact_search_batches": [
+    {
+      "capture_key": "h1817_search1",
+      "queries": [
+        "\"Harappa\" \"1994\" \"26.06\"",
+        "\"Harappa\" \"H94-2326\"",
+        "\"H1817\" Indus corpus"
+      ]
+    },
+    {
+      "capture_key": "h1817_search2",
+      "queries": [
+        "Harappa archaeological research project 1994 preliminary report Meadow Kenoyer report pdf",
+        "\"Corpus of Indus Seals\" \"3\" \"1817\"",
+        "site:harappa.com \"1994\" \"report\"",
+        "site:anthropology.fas.harvard.edu Harappa 1994 report"
+      ]
+    },
+    {
+      "capture_key": "h1817_search3",
+      "queries": [
+        "site:harvard.edu \"Harappa\" \"1994\" \"report\"",
+        "site:wisc.edu \"Harappa Excavations 1994\"",
+        "\"Corpus of Indus Seals and Inscriptions\" \"Volume 3\" pdf",
+        "\"Harappa Excavations 1994\" \"26\""
+      ]
+    },
+    {
+      "capture_key": "h1817_search4",
+      "queries": [
+        "Harappa Archaeological Research Project Harvard reports Meadow",
+        "Harappa 1994 report site:archive.org",
+        "\"Corpus of Indus\" \"3\" site:archive.org",
+        "\"Corpus of Indus Seals\" site:asi.nic.in"
+      ]
+    },
+    {
+      "capture_key": "h1817_search5",
+      "queries": [
+        "\"Memoirs\" \"96\" \"Corpus\" \"Indus\" pdf",
+        "\"9789514110405\" pdf",
+        "\"Harappa\" \"1994\" \"report\" \"Meadow\" site:dash.harvard.edu",
+        "\"Harappa\" \"2326\" tablet"
+      ]
+    }
+  ],
+  "opened_sources": [
+    {
+      "url": "https://researchportal.helsinki.fi/en/publications/corpus-of-indus-seals-and-inscriptions-volume-3-new-material-untr/",
+      "outcome": "Institutional bibliographic record for 2010 CISI3.1, 504 pages, ISBN978-951-41-1040-5; no full original target pages in retrieved record."
+    },
+    {
+      "url": "https://www.harappa.com/content/harp",
+      "outcome": "Project background; no 1994 report attachment in the retrieved representation."
+    },
+    {
+      "url": "https://anthropology.fas.harvard.edu/people/richard-h-meadow",
+      "outcome": "Web-reader HTTP403; no bypass or alternative restricted route attempted."
+    },
+    {
+      "url": "https://sanskritdocuments.org/scannedbooks/asiallpdfs.html",
+      "find_patterns": [
+        "96",
+        "Corpus"
+      ],
+      "outcome": "Secondary scan index; no authenticated MASI96/CISI3.1 target link obtained."
+    }
+  ],
+  "archive_api_queries": [
+    {
+      "filename": "h1817_archive_report_search.json",
+      "query": "title:(Harappa) AND (1994 OR \"Archaeological Research Project\")",
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28Harappa%29+AND+%281994+OR+%22Archaeological+Research+Project%22%29&output=json&rows=100&fl%5B%5D=identifier%2Ctitle%2Cdate"
+    },
+    {
+      "filename": "h1817_archive_cisi_search.json",
+      "query": "title:(\"Corpus of Indus Seals\")",
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22Corpus+of+Indus+Seals%22%29&output=json&rows=100&fl%5B%5D=identifier%2Ctitle%2Cdate"
+    }
+  ],
+  "archive_api_results": {
+    "report_search": {
+      "numFound": 1,
+      "start": 0,
+      "docs": [
+        {
+          "identifier": "HarappaExcavationReports19861990AMultidisciplinaryApproachToThirdMilleniumUrbani",
+          "title": "Harappa Excavation Reports 1986 1990 A Multidisciplinary Approach To Third Millenium Urbanism Edited By Richard H Meadow"
+        }
+      ]
+    },
+    "cisi_search": {
+      "numFound": 2,
+      "start": 0,
+      "docs": [
+        {
+          "identifier": "corpus-vol-2",
+          "title": "Corpus of Indus seals and Inscriptions Vol 1"
+        },
+        {
+          "identifier": "corpus-vol-2_202409",
+          "title": "Corpus of Indus seals and Inscriptions Vol 2"
+        }
+      ]
+    }
+  },
+  "previous_attempts_not_repeated": [
+    "Direct Harappa 1997 PDF retrieval returned HTTP403.",
+    "2010 introductory extract is not the full catalogue.",
+    "Prior Figure11 is not Figure26.06."
+  ],
+  "downloaded_original_target_documents": 0,
+  "actual_downloads_this_followup": 2,
+  "web_capture_files": 1,
+  "H1817_identity_authenticated": false,
+  "H1817_graphics_authenticated": false,
+  "semantic_value": null,
+  "phonetic_value": null,
+  "established_semantic_values": 0,
+  "established_phonetic_values": 0,
+  "limitations": [
+    "A negative search is not proof of source absence.",
+    "Harvard HTTP403 does not establish the availability or content of the report.",
+    "Archive title queries can miss mislabeled records.",
+    "Bibliography and project pages are not object-level primary evidence.",
+    "No contact with people, purchases, access-restriction bypass or repeated retrieval of the known failed PDF route."
+  ],
+  "next_evidence_needed": [
+    "Accessible original HARP1994 report Figure26.06",
+    "Full CISI3.1 H-1817 photograph and basic-data entry"
+  ],
+  "evidence_files": [
+    {
+      "path": "data/raw/h1817_archive_report_search.json",
+      "bytes": 721,
+      "sha256": "38a8e07d73200fab9edbb80ad265208106d7ba9356f4d465b409f0bb6ecb7c82"
+    },
+    {
+      "path": "data/raw/h1817_archive_cisi_search.json",
+      "bytes": 443,
+      "sha256": "e9d9d938c566c5e4e28896cdd1c2f1c38224b0d6076cfc9581f9d51f96027ee6"
+    },
+    {
+      "path": "data/raw/h1817_identity_web_captures.json",
+      "bytes": 174417,
+      "sha256": "a1620a2c0997d2fc63f4e7a97d897f30d392ad5653808d9aa59937c91ca2fb97"
+    },
+    {
+      "path": "data/processed/h1817_identity_download_plan.json",
+      "bytes": 595,
+      "sha256": "5a128c791c4ed0f7445081bc24cc095af3e5b710ef5502ebf81900975ee5a66d"
+    },
+    {
+      "path": "scripts/download_h1817_identity_sources.py",
+      "bytes": 1001,
+      "sha256": "9f39bbfc4fc4f73723d31d98ea89a7a8142ccb79e32d2bc990633c0e1829c0f6"
+    },
+    {
+      "path": "docs/H1817_IDENTITY_FOLLOWUP.md",
+      "bytes": 3971,
+      "sha256": "ec91c5b9f6476560bfd2b3fe9d55d0696d4b506041b21cf2947f8003ed339bdf"
+    },
+    {
+      "path": "docs/COMB_TABLET_PRIMARY_REVIEW.md",
+      "bytes": 8152,
+      "sha256": "34da1a2ea562933adbc20cae3818ba20d380e60fd26f46dfc20b9c56de79e028"
+    },
+    {
+      "path": "data/processed/comb_tablet_source_audit.json",
+      "bytes": 2292,
+      "sha256": "6a21713cd671d0a8c0ec35198134965ef29393bdabb19663bb4bd0e4bcfc0706"
+    }
+  ]
+}

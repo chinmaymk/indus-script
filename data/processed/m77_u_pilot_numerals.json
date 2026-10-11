@@ -1,0 +1,2750 @@
+{
+  "status": "Manual bounded primary concordance pilot; no translation or numeric values assigned",
+  "source": {
+    "path": "data/raw/mahadevan_1977_text.pdf",
+    "sha256": "6dcdd074a0174e5fab149590fbbf82342711d345764e9763f8e5e92c81cf7f99"
+  },
+  "protocol": {
+    "selection": "Every R-column indexed M328 group on PDF576–578, not every contextual U occurrence; page groups enumerated top to bottom",
+    "order": "Primary normalized RTL reading order; no claims about raw object orientation",
+    "code_namespace": "Mahadevan1977 only",
+    "notation": {
+      "*Mddd": "Primary doubtful reading",
+      "UNKNOWN": "Reviewer cannot safely identify this visible glyph; not a primary damage marker",
+      "LOSS": "Primary hatched passage of unknown positive sign extent; not a fixed sign count"
+    },
+    "R_column": "Column aligns the indexed occurrence. All M328 in each indexed line are also inventoried, but are not extra independent indexed groups.",
+    "selection_bias": "Concordance ordering clusters similar contexts. Counts describe these selected pages, not corpus prevalence or independent artifacts.",
+    "other_sides": "Manual context transcription only. No assumption that canonical export preserves first side; no missing-line verdict or automatic join applied.",
+    "sign_authentication": {
+      "M086": "Printed32/PDF43: one long vertical stroke",
+      "M087": "Printed32/PDF43: two long vertical strokes",
+      "M089": "Printed32/PDF43: three long vertical strokes; not used for these two-stroke lines",
+      "M095": "Printed32/PDF43: four long vertical strokes",
+      "M104": "Printed32/PDF43: four short vertical strokes; corrected from erroneous five-long-stroke label after independent review; not used in pilot rows",
+      "M167": "Printed33/PDF44: branching vertical form",
+      "M328": "Printed34/PDF45: plain U"
+    }
+  },
+  "images": [
+    {
+      "path": "results/primary_pages/numeral-u-pilot-576.png",
+      "sha256": "a2d877bac15824997f6154fd36589985fe5bcaae663da30f089ae24a80748edc",
+      "visually_reviewed": true
+    },
+    {
+      "path": "results/primary_pages/numeral-u-pilot-577.png",
+      "sha256": "c85e1056628e9d6c5b822c6ee212b21cfe62a85d826093f31ad4372686153994",
+      "visually_reviewed": true
+    },
+    {
+      "path": "results/primary_pages/numeral-u-pilot-578.png",
+      "sha256": "0680ed4e5ba8f350372a9f660a0401cf02881f1baba6997430d9fd1741b236d3",
+      "visually_reviewed": true
+    },
+    {
+      "path": "results/primary_pages/sign_list_page_32.png",
+      "sha256": "1e3f91789c947add7ce796479168d84d69636ebdc378493743188ac11c53c90a",
+      "visually_reviewed": true
+    },
+    {
+      "path": "results/primary_pages/sign_list-044.png",
+      "sha256": "33eff554bfdea81af6d1a3510a5b2541d1b74b02ae1e63b253c725b44c7c0b64",
+      "visually_reviewed": true
+    },
+    {
+      "path": "results/primary_pages/sign_list-045.png",
+      "sha256": "972002b288ea77921dcacfe67386dbf585b76be6bca5444b7ff9422e47e70b89",
+      "visually_reviewed": true
+    },
+    {
+      "path": "results/primary_pages/sign_list-046.png",
+      "sha256": "a191e9297a6ab8b7cad1028eaeac062b4b6fa3cd34aefbdd507f669d736d2e8e",
+      "visually_reviewed": true
+    }
+  ],
+  "summary": {
+    "indexed_groups": 47,
+    "groups_by_pdf_page": {
+      "576": 15,
+      "577": 16,
+      "578": 16
+    },
+    "M328_occurrences_in_indexed_lines": 51,
+    "R_column_occurrences": 47,
+    "immediate_preceding_stroke_count_groups": {
+      "None": 9,
+      "1": 7,
+      "2": 31
+    },
+    "primary_doubt_groups": 8,
+    "loss_marked_indexed_lines": 4,
+    "indexed_lines_with_reviewer_unidentified_glyph": 4,
+    "paired_other_side_eligible_groups": 11
+  },
+  "rows": [
+    {
+      "pdf_page": 576,
+      "printed_page": 565,
+      "reference": "4494",
+      "side": "2",
+      "line": "0",
+      "page_group_ordinal": 1,
+      "row_locator": "PDF576, indexed group1, reference4494, side2, line0",
+      "tokens": [
+        "LOSS",
+        "M328"
+      ],
+      "order": "normalized reading RTL; sequence listed first-read to last-read",
+      "M328_instances": [
+        {
+          "token_index_zero_based": 1,
+          "is_R_column_reference_occurrence": true,
+          "immediately_preceding_token": "LOSS",
+          "immediate_preceding_stroke_count": null,
+          "preceding_stroke_primary_doubt": false,
+          "is_final_in_this_line": true
+        }
+      ],
+      "indexed_M328_token_index_zero_based": 1,
+      "immediate_preceding_stroke_count": null,
+      "preceding_stroke_form": null,
+      "observed_nonadjacent_stroke_group": null,
+      "complete_line": false,
+      "complete_line_definition": "No primary hatched loss passage on this displayed line; does not mean undoubted or fully decoded",
+      "primary_doubt": false,
+      "reviewer_unidentified_glyph": false,
+      "damage_marker": "hatched loss passage, one or more unknown signs",
+      "other_side_lines": [
+        {
+          "side": "1",
+          "line": "0",
+          "tokens": [
+            "UNKNOWN",
+            "UNKNOWN"
+          ],
+          "complete_line": true,
+          "primary_doubt": false,
+          "reviewer_unidentified_glyph": true,
+          "scope": "context only; not a new indexed occurrence"
+        }
+      ],
+      "paired_other_side_eligibility": false,
+      "paired_other_side_ineligibility_reasons": [
+        "indexed line includes loss",
+        "other-side line includes reviewer-unidentified glyph"
+      ],
+      "eligibility_definition": "Both displayed strings entirely identified, loss-free and free of primary doubt; artifact association itself comes from shared primary reference",
+      "notes": [
+        "Other-side shapes not assigned numerical IDs."
+      ]
+    },
+    {
+      "pdf_page": 576,
+      "printed_page": 565,
+      "reference": "5428",
+      "side": "2",
+      "line": "0",
+      "page_group_ordinal": 2,
+      "row_locator": "PDF576, indexed group2, reference5428, side2, line0",
+      "tokens": [
+        "LOSS",
+        "M328"
+      ],
+      "order": "normalized reading RTL; sequence listed first-read to last-read",
+      "M328_instances": [
+        {
+          "token_index_zero_based": 1,
+          "is_R_column_reference_occurrence": true,
+          "immediately_preceding_token": "LOSS",
+          "immediate_preceding_stroke_count": null,
+          "preceding_stroke_primary_doubt": false,
+          "is_final_in_this_line": true
+        }
+      ],
+      "indexed_M328_token_index_zero_based": 1,
+      "immediate_preceding_stroke_count": null,
+      "preceding_stroke_form": null,
+      "observed_nonadjacent_stroke_group": null,
+      "complete_line": false,
+      "complete_line_definition": "No primary hatched loss passage on this displayed line; does not mean undoubted or fully decoded",
+      "primary_doubt": false,
+      "reviewer_unidentified_glyph": false,
+      "damage_marker": "hatched loss passage, one or more unknown signs",
+      "other_side_lines": [
+        {
+          "side": "1",
+          "line": "0",
+          "tokens": [
+            "LOSS",
+            "M342"
+          ],
+          "complete_line": false,
+          "primary_doubt": false,
+          "reviewer_unidentified_glyph": false,
+          "scope": "context only; not a new indexed occurrence"
+        }
+      ],
+      "paired_other_side_eligibility": false,
+      "paired_other_side_ineligibility_reasons": [
+        "indexed line includes loss",
+        "other-side line includes loss"
+      ],
+      "eligibility_definition": "Both displayed strings entirely identified, loss-free and free of primary doubt; artifact association itself comes from shared primary reference",
+      "notes": []
+    },
+    {
+      "pdf_page": 576,
+      "printed_page": 565,
+      "reference": "4546",
+      "side": "2",
+      "line": "0",
+      "page_group_ordinal": 3,
+      "row_locator": "PDF576, indexed group3, reference4546, side2, line0",
+      "tokens": [
+        "LOSS",
+        "M328"
+      ],
+      "order": "normalized reading RTL; sequence listed first-read to last-read",
+      "M328_instances": [
+        {
+          "token_index_zero_based": 1,
+          "is_R_column_reference_occurrence": true,
+          "immediately_preceding_token": "LOSS",
+          "immediate_preceding_stroke_count": null,
+          "preceding_stroke_primary_doubt": false,
+          "is_final_in_this_line": true
+        }
+      ],
+      "indexed_M328_token_index_zero_based": 1,
+      "immediate_preceding_stroke_count": null,
+      "preceding_stroke_form": null,
+      "observed_nonadjacent_stroke_group": null,
+      "complete_line": false,
+      "complete_line_definition": "No primary hatched loss passage on this displayed line; does not mean undoubted or fully decoded",
+      "primary_doubt": false,
+      "reviewer_unidentified_glyph": false,
+      "damage_marker": "hatched loss passage, one or more unknown signs",
+      "other_side_lines": [
+        {
+          "side": "1",
+          "line": "0",
+          "tokens": [
+            "LOSS",
+            "*UNKNOWN",
+            "M342"
+          ],
+          "complete_line": false,
+          "primary_doubt": true,
+          "reviewer_unidentified_glyph": true,
+          "scope": "context only; not a new indexed occurrence"
+        }
+      ],
+      "paired_other_side_eligibility": false,
+      "paired_other_side_ineligibility_reasons": [
+        "indexed line includes loss",
+        "other-side line includes loss",
+        "other-side line includes reviewer-unidentified glyph",
+        "other-side line includes primary doubt"
+      ],
+      "eligibility_definition": "Both displayed strings entirely identified, loss-free and free of primary doubt; artifact association itself comes from shared primary reference",
+      "notes": [
+        "Human-shaped other-side sign has primary doubt; not confidently identified."
+      ]
+    },
+    {
+      "pdf_page": 576,
+      "printed_page": 565,
+      "reference": "5281",
+      "side": "2",
+      "line": "0",
+      "page_group_ordinal": 4,
+      "row_locator": "PDF576, indexed group4, reference5281, side2, line0",
+      "tokens": [
+        "LOSS",
+        "M328"
+      ],
+      "order": "normalized reading RTL; sequence listed first-read to last-read",
+      "M328_instances": [
+        {
+          "token_index_zero_based": 1,
+          "is_R_column_reference_occurrence": true,
+          "immediately_preceding_token": "LOSS",
+          "immediate_preceding_stroke_count": null,
+          "preceding_stroke_primary_doubt": false,
+          "is_final_in_this_line": true
+        }
+      ],
+      "indexed_M328_token_index_zero_based": 1,
+      "immediate_preceding_stroke_count": null,
+      "preceding_stroke_form": null,
+      "observed_nonadjacent_stroke_group": null,
+      "complete_line": false,
+      "complete_line_definition": "No primary hatched loss passage on this displayed line; does not mean undoubted or fully decoded",
+      "primary_doubt": false,
+      "reviewer_unidentified_glyph": false,
+      "damage_marker": "hatched loss passage, one or more unknown signs",
+      "other_side_lines": [
+        {
+          "side": "1",
+          "line": "0",
+          "tokens": [
+            "LOSS",
+            "M375"
+          ],
+          "complete_line": false,
+          "primary_doubt": false,
+          "reviewer_unidentified_glyph": false,
+          "scope": "context only; not a new indexed occurrence"
+        }
+      ],
+      "paired_other_side_eligibility": false,
+      "paired_other_side_ineligibility_reasons": [
+        "indexed line includes loss",
+        "other-side line includes loss"
+      ],
+      "eligibility_definition": "Both displayed strings entirely identified, loss-free and free of primary doubt; artifact association itself comes from shared primary reference",
+      "notes": []
+    },
+    {
+      "pdf_page": 576,
+      "printed_page": 565,
+      "reference": "1623",
+      "side": "1",
+      "line": "0",
+      "page_group_ordinal": 5,
+      "row_locator": "PDF576, indexed group5, reference1623, side1, line0",
+      "tokens": [
+        "M386",
+        "M053",
+        "M048",
+        "M342",
+        "UNKNOWN",
+        "M328",
+        "M328",
+        "M328",
+        "M162"
+      ],
+      "order": "normalized reading RTL; sequence listed first-read to last-read",
+      "M328_instances": [
+        {
+          "token_index_zero_based": 5,
+          "is_R_column_reference_occurrence": true,
+          "immediately_preceding_token": "UNKNOWN",
+          "immediate_preceding_stroke_count": null,
+          "preceding_stroke_primary_doubt": false,
+          "is_final_in_this_line": false
+        },
+        {
+          "token_index_zero_based": 6,
+          "is_R_column_reference_occurrence": false,
+          "immediately_preceding_token": "M328",
+          "immediate_preceding_stroke_count": null,
+          "preceding_stroke_primary_doubt": false,
+          "is_final_in_this_line": false
+        },
+        {
+          "token_index_zero_based": 7,
+          "is_R_column_reference_occurrence": false,
+          "immediately_preceding_token": "M328",
+          "immediate_preceding_stroke_count": null,
+          "preceding_stroke_primary_doubt": false,
+          "is_final_in_this_line": false
+        }
+      ],
+      "indexed_M328_token_index_zero_based": 5,
+      "immediate_preceding_stroke_count": null,
+      "preceding_stroke_form": null,
+      "observed_nonadjacent_stroke_group": null,
+      "complete_line": true,
+      "complete_line_definition": "No primary hatched loss passage on this displayed line; does not mean undoubted or fully decoded",
+      "primary_doubt": false,
+      "reviewer_unidentified_glyph": true,
+      "damage_marker": null,
+      "other_side_lines": [
+        {
+          "side": "2",
+          "line": "0",
+          "tokens": [
+            "M137",
+            "M155",
+            "M343",
+            "M010",
+            "UNKNOWN",
+            "M403",
+            "M087"
+          ],
+          "complete_line": true,
+          "primary_doubt": false,
+          "reviewer_unidentified_glyph": true,
+          "scope": "context only; not a new indexed occurrence"
+        },
+        {
+          "side": "3",
+          "line": "0",
+          "tokens": [
+            "M343",
+            "M294",
+            "M328",
+            "M391",
+            "M087",
+            "M112",
+            "M294",
+            "M171",
+            "M008",
+            "M342"
+          ],
+          "scope": "context only; not the R-column reference occurrence on this page"
+        }
+      ],
+      "paired_other_side_eligibility": false,
+      "paired_other_side_ineligibility_reasons": [
+        "indexed line includes reviewer-unidentified glyph",
+        "other-side line includes reviewer-unidentified glyph"
+      ],
+      "eligibility_definition": "Both displayed strings entirely identified, loss-free and free of primary doubt; artifact association itself comes from shared primary reference",
+      "notes": [
+        "R-column reference is first of three adjacent U signs in RTL order; other two occurrences recorded separately.",
+        "Human carrying loads and bracketed complex glyph left UNKNOWN rather than choosing similar catalogue forms.",
+        "Three displayed side-lines; other_side_lines are context, not separate pilot indexed rows."
+      ]
+    },
+    {
+      "pdf_page": 576,
+      "printed_page": 565,
+      "reference": "2847",
+      "side": "1",
+      "line": "0",
+      "page_group_ordinal": 6,
+      "row_locator": "PDF576, indexed group6, reference2847, side1, line0",
+      "tokens": [
+        "M386",
+        "M053",
+        "M048",
+        "M342",
+        "UNKNOWN",
+        "M328",
+        "M328",
+        "M328",
+        "M162"
+      ],
+      "order": "normalized reading RTL; sequence listed first-read to last-read",
+      "M328_instances": [
+        {
+          "token_index_zero_based": 5,
+          "is_R_column_reference_occurrence": true,
+          "immediately_preceding_token": "UNKNOWN",
+          "immediate_preceding_stroke_count": null,
+          "preceding_stroke_primary_doubt": false,
+          "is_final_in_this_line": false
+        },
+        {
+          "token_index_zero_based": 6,
+          "is_R_column_reference_occurrence": false,
+          "immediately_preceding_token": "M328",
+          "immediate_preceding_stroke_count": null,
+          "preceding_stroke_primary_doubt": false,
+          "is_final_in_this_line": false
+        },
+        {
+          "token_index_zero_based": 7,
+          "is_R_column_reference_occurrence": false,
+          "immediately_preceding_token": "M328",
+          "immediate_preceding_stroke_count": null,
+          "preceding_stroke_primary_doubt": false,
+          "is_final_in_this_line": false
+        }
+      ],
+      "indexed_M328_token_index_zero_based": 5,
+      "immediate_preceding_stroke_count": null,
+      "preceding_stroke_form": null,
+      "observed_nonadjacent_stroke_group": null,
+      "complete_line": true,
+      "complete_line_definition": "No primary hatched loss passage on this displayed line; does not mean undoubted or fully decoded",
+      "primary_doubt": false,
+      "reviewer_unidentified_glyph": true,
+      "damage_marker": null,
+      "other_side_lines": [
+        {
+          "side": "2",
+          "line": "0",
+          "tokens": [
+            "M137",
+            "M155",
+            "M343",
+            "M010",
+            "UNKNOWN",
+            "M403",
+            "M087"
+          ],
+          "complete_line": true,
+          "primary_doubt": false,
+          "reviewer_unidentified_glyph": true,
+          "scope": "context only; not a new indexed occurrence"
+        },
+        {
+          "side": "3",
+          "line": "0",
+          "tokens": [
+            "M343",
+            "M294",
+            "M328",
+            "M391",
+            "M087",
+            "M112",
+            "M294",
+            "M171",
+            "M008",
+            "M342"
+          ],
+          "scope": "context only; not the R-column reference occurrence on this page"
+        }
+      ],
+      "paired_other_side_eligibility": false,
+      "paired_other_side_ineligibility_reasons": [
+        "indexed line includes reviewer-unidentified glyph",
+        "other-side line includes reviewer-unidentified glyph"
+      ],
+      "eligibility_definition": "Both displayed strings entirely identified, loss-free and free of primary doubt; artifact association itself comes from shared primary reference",
+      "notes": [
+        "R-column reference is first of three adjacent U signs in RTL order; other two occurrences recorded separately.",
+        "Human carrying loads and bracketed complex glyph left UNKNOWN rather than choosing similar catalogue forms.",
+        "Three displayed side-lines; other_side_lines are context, not separate pilot indexed rows."
+      ]
+    },
+    {
+      "pdf_page": 576,
+      "printed_page": 565,
+      "reference": "4487",
+      "side": "2",
+      "line": "0",
+      "page_group_ordinal": 7,
+      "row_locator": "PDF576, indexed group7, reference4487, side2, line0",
+      "tokens": [
+        "UNKNOWN",
+        "M328"
+      ],
+      "order": "normalized reading RTL; sequence listed first-read to last-read",
+      "M328_instances": [
+        {
+          "token_index_zero_based": 1,
+          "is_R_column_reference_occurrence": true,
+          "immediately_preceding_token": "UNKNOWN",
+          "immediate_preceding_stroke_count": null,
+          "preceding_stroke_primary_doubt": false,
+          "is_final_in_this_line": true
+        }
+      ],
+      "indexed_M328_token_index_zero_based": 1,
+      "immediate_preceding_stroke_count": null,
+      "preceding_stroke_form": null,
+      "observed_nonadjacent_stroke_group": null,
+      "complete_line": true,
+      "complete_line_definition": "No primary hatched loss passage on this displayed line; does not mean undoubted or fully decoded",
+      "primary_doubt": false,
+      "reviewer_unidentified_glyph": true,
+      "damage_marker": null,
+      "other_side_lines": [
+        {
+          "side": "1",
+          "line": "0",
+          "tokens": [
+            "M067",
+            "M244",
+            "M342",
+            "M176"
+          ],
+          "complete_line": true,
+          "primary_doubt": false,
+          "reviewer_unidentified_glyph": false,
+          "scope": "context only; not a new indexed occurrence"
+        }
+      ],
+      "paired_other_side_eligibility": false,
+      "paired_other_side_ineligibility_reasons": [
+        "indexed line includes reviewer-unidentified glyph"
+      ],
+      "eligibility_definition": "Both displayed strings entirely identified, loss-free and free of primary doubt; artifact association itself comes from shared primary reference",
+      "notes": [
+        "Preceding glyph is a human/bow-like composite; unassigned exact M ID. No stroke group immediately precedes U."
+      ]
+    },
+    {
+      "pdf_page": 576,
+      "printed_page": 565,
+      "reference": "5481",
+      "side": "2",
+      "line": "0",
+      "page_group_ordinal": 8,
+      "row_locator": "PDF576, indexed group8, reference5481, side2, line0",
+      "tokens": [
+        "UNKNOWN",
+        "M328"
+      ],
+      "order": "normalized reading RTL; sequence listed first-read to last-read",
+      "M328_instances": [
+        {
+          "token_index_zero_based": 1,
+          "is_R_column_reference_occurrence": true,
+          "immediately_preceding_token": "UNKNOWN",
+          "immediate_preceding_stroke_count": null,
+          "preceding_stroke_primary_doubt": false,
+          "is_final_in_this_line": true
+        }
+      ],
+      "indexed_M328_token_index_zero_based": 1,
+      "immediate_preceding_stroke_count": null,
+      "preceding_stroke_form": null,
+      "observed_nonadjacent_stroke_group": null,
+      "complete_line": true,
+      "complete_line_definition": "No primary hatched loss passage on this displayed line; does not mean undoubted or fully decoded",
+      "primary_doubt": false,
+      "reviewer_unidentified_glyph": true,
+      "damage_marker": null,
+      "other_side_lines": [
+        {
+          "side": "1",
+          "line": "0",
+          "tokens": [
+            "M067",
+            "M244",
+            "M342",
+            "M176"
+          ],
+          "complete_line": true,
+          "primary_doubt": false,
+          "reviewer_unidentified_glyph": false,
+          "scope": "context only; not a new indexed occurrence"
+        }
+      ],
+      "paired_other_side_eligibility": false,
+      "paired_other_side_ineligibility_reasons": [
+        "indexed line includes reviewer-unidentified glyph"
+      ],
+      "eligibility_definition": "Both displayed strings entirely identified, loss-free and free of primary doubt; artifact association itself comes from shared primary reference",
+      "notes": [
+        "Preceding glyph is a human/bow-like composite; unassigned exact M ID. No stroke group immediately precedes U."
+      ]
+    },
+    {
+      "pdf_page": 576,
+      "printed_page": 565,
+      "reference": "4452",
+      "side": "2",
+      "line": "0",
+      "page_group_ordinal": 9,
+      "row_locator": "PDF576, indexed group9, reference4452, side2, line0",
+      "tokens": [
+        "M095",
+        "M059",
+        "M328"
+      ],
+      "order": "normalized reading RTL; sequence listed first-read to last-read",
+      "M328_instances": [
+        {
+          "token_index_zero_based": 2,
+          "is_R_column_reference_occurrence": true,
+          "immediately_preceding_token": "M059",
+          "immediate_preceding_stroke_count": null,
+          "preceding_stroke_primary_doubt": false,
+          "is_final_in_this_line": true
+        }
+      ],
+      "indexed_M328_token_index_zero_based": 2,
+      "immediate_preceding_stroke_count": null,
+      "preceding_stroke_form": null,
+      "observed_nonadjacent_stroke_group": {
+        "token_index_zero_based": 0,
+        "code": "M095",
+        "observed_strokes": 4,
+        "form": "four parallel long vertical strokes",
+        "separated_from_U_by": "M059"
+      },
+      "complete_line": true,
+      "complete_line_definition": "No primary hatched loss passage on this displayed line; does not mean undoubted or fully decoded",
+      "primary_doubt": false,
+      "reviewer_unidentified_glyph": false,
+      "damage_marker": null,
+      "other_side_lines": [
+        {
+          "side": "1",
+          "line": "0",
+          "tokens": [
+            "M172",
+            "M059",
+            "M347",
+            "M342",
+            "M176"
+          ],
+          "complete_line": true,
+          "primary_doubt": false,
+          "reviewer_unidentified_glyph": false,
+          "scope": "context only; not a new indexed occurrence"
+        }
+      ],
+      "paired_other_side_eligibility": true,
+      "paired_other_side_ineligibility_reasons": [],
+      "eligibility_definition": "Both displayed strings entirely identified, loss-free and free of primary doubt; artifact association itself comes from shared primary reference",
+      "notes": [
+        "Four strokes are authenticated as M095, not M104. Fish-shaped M059 intervenes before U."
+      ]
+    },
+    {
+      "pdf_page": 576,
+      "printed_page": 565,
+      "reference": "4552",
+      "side": "2",
+      "line": "0",
+      "page_group_ordinal": 10,
+      "row_locator": "PDF576, indexed group10, reference4552, side2, line0",
+      "tokens": [
+        "*M086",
+        "M328"
+      ],
+      "order": "normalized reading RTL; sequence listed first-read to last-read",
+      "M328_instances": [
+        {
+          "token_index_zero_based": 1,
+          "is_R_column_reference_occurrence": true,
+          "immediately_preceding_token": "*M086",
+          "immediate_preceding_stroke_count": 1,
+          "preceding_stroke_primary_doubt": true,
+          "is_final_in_this_line": true
+        }
+      ],
+      "indexed_M328_token_index_zero_based": 1,
+      "immediate_preceding_stroke_count": 1,
+      "preceding_stroke_form": "long vertical stroke group",
+      "observed_nonadjacent_stroke_group": null,
+      "complete_line": true,
+      "complete_line_definition": "No primary hatched loss passage on this displayed line; does not mean undoubted or fully decoded",
+      "primary_doubt": true,
+      "reviewer_unidentified_glyph": false,
+      "damage_marker": null,
+      "other_side_lines": [
+        {
+          "side": "1",
+          "line": "0",
+          "tokens": [
+            "M267",
+            "*M097",
+            "LOSS"
+          ],
+          "complete_line": false,
+          "primary_doubt": true,
+          "reviewer_unidentified_glyph": false,
+          "scope": "context only; not a new indexed occurrence"
+        }
+      ],
+      "paired_other_side_eligibility": false,
+      "paired_other_side_ineligibility_reasons": [
+        "indexed line includes primary doubt",
+        "other-side line includes loss",
+        "other-side line includes primary doubt"
+      ],
+      "eligibility_definition": "Both displayed strings entirely identified, loss-free and free of primary doubt; artifact association itself comes from shared primary reference",
+      "notes": []
+    },
+    {
+      "pdf_page": 576,
+      "printed_page": 565,
+      "reference": "4491",
+      "side": "2",
+      "line": "0",
+      "page_group_ordinal": 11,
+      "row_locator": "PDF576, indexed group11, reference4491, side2, line0",
+      "tokens": [
+        "M086",
+        "M328"
+      ],
+      "order": "normalized reading RTL; sequence listed first-read to last-read",
+      "M328_instances": [
+        {
+          "token_index_zero_based": 1,
+          "is_R_column_reference_occurrence": true,
+          "immediately_preceding_token": "M086",
+          "immediate_preceding_stroke_count": 1,
+          "preceding_stroke_primary_doubt": false,
+          "is_final_in_this_line": true
+        }
+      ],
+      "indexed_M328_token_index_zero_based": 1,
+      "immediate_preceding_stroke_count": 1,
+      "preceding_stroke_form": "long vertical stroke group",
+      "observed_nonadjacent_stroke_group": null,
+      "complete_line": true,
+      "complete_line_definition": "No primary hatched loss passage on this displayed line; does not mean undoubted or fully decoded",
+      "primary_doubt": false,
+      "reviewer_unidentified_glyph": false,
+      "damage_marker": null,
+      "other_side_lines": [
+        {
+          "side": "1",
+          "line": "0",
+          "tokens": [
+            "*M053",
+            "M114",
+            "LOSS"
+          ],
+          "complete_line": false,
+          "primary_doubt": true,
+          "reviewer_unidentified_glyph": false,
+          "scope": "context only; not a new indexed occurrence"
+        }
+      ],
+      "paired_other_side_eligibility": false,
+      "paired_other_side_ineligibility_reasons": [
+        "other-side line includes loss",
+        "other-side line includes primary doubt"
+      ],
+      "eligibility_definition": "Both displayed strings entirely identified, loss-free and free of primary doubt; artifact association itself comes from shared primary reference",
+      "notes": []
+    },
+    {
+      "pdf_page": 576,
+      "printed_page": 565,
+      "reference": "4354",
+      "side": "2",
+      "line": "0",
+      "page_group_ordinal": 12,
+      "row_locator": "PDF576, indexed group12, reference4354, side2, line0",
+      "tokens": [
+        "*M086",
+        "M328"
+      ],
+      "order": "normalized reading RTL; sequence listed first-read to last-read",
+      "M328_instances": [
+        {
+          "token_index_zero_based": 1,
+          "is_R_column_reference_occurrence": true,
+          "immediately_preceding_token": "*M086",
+          "immediate_preceding_stroke_count": 1,
+          "preceding_stroke_primary_doubt": true,
+          "is_final_in_this_line": true
+        }
+      ],
+      "indexed_M328_token_index_zero_based": 1,
+      "immediate_preceding_stroke_count": 1,
+      "preceding_stroke_form": "long vertical stroke group",
+      "observed_nonadjacent_stroke_group": null,
+      "complete_line": true,
+      "complete_line_definition": "No primary hatched loss passage on this displayed line; does not mean undoubted or fully decoded",
+      "primary_doubt": true,
+      "reviewer_unidentified_glyph": false,
+      "damage_marker": null,
+      "other_side_lines": [
+        {
+          "side": "1",
+          "line": "0",
+          "tokens": [
+            "M053",
+            "M067",
+            "M059",
+            "M182",
+            "LOSS"
+          ],
+          "complete_line": false,
+          "primary_doubt": false,
+          "reviewer_unidentified_glyph": false,
+          "scope": "context only; not a new indexed occurrence"
+        }
+      ],
+      "paired_other_side_eligibility": false,
+      "paired_other_side_ineligibility_reasons": [
+        "indexed line includes primary doubt",
+        "other-side line includes loss"
+      ],
+      "eligibility_definition": "Both displayed strings entirely identified, loss-free and free of primary doubt; artifact association itself comes from shared primary reference",
+      "notes": []
+    },
+    {
+      "pdf_page": 576,
+      "printed_page": 565,
+      "reference": "4667",
+      "side": "2",
+      "line": "0",
+      "page_group_ordinal": 13,
+      "row_locator": "PDF576, indexed group13, reference4667, side2, line0",
+      "tokens": [
+        "*M086",
+        "M328"
+      ],
+      "order": "normalized reading RTL; sequence listed first-read to last-read",
+      "M328_instances": [
+        {
+          "token_index_zero_based": 1,
+          "is_R_column_reference_occurrence": true,
+          "immediately_preceding_token": "*M086",
+          "immediate_preceding_stroke_count": 1,
+          "preceding_stroke_primary_doubt": true,
+          "is_final_in_this_line": true
+        }
+      ],
+      "indexed_M328_token_index_zero_based": 1,
+      "immediate_preceding_stroke_count": 1,
+      "preceding_stroke_form": "long vertical stroke group",
+      "observed_nonadjacent_stroke_group": null,
+      "complete_line": true,
+      "complete_line_definition": "No primary hatched loss passage on this displayed line; does not mean undoubted or fully decoded",
+      "primary_doubt": true,
+      "reviewer_unidentified_glyph": false,
+      "damage_marker": null,
+      "other_side_lines": [
+        {
+          "side": "1",
+          "line": "0",
+          "tokens": [
+            "M387",
+            "M065",
+            "M059",
+            "M336",
+            "LOSS"
+          ],
+          "complete_line": false,
+          "primary_doubt": false,
+          "reviewer_unidentified_glyph": false,
+          "scope": "context only; not a new indexed occurrence"
+        }
+      ],
+      "paired_other_side_eligibility": false,
+      "paired_other_side_ineligibility_reasons": [
+        "indexed line includes primary doubt",
+        "other-side line includes loss"
+      ],
+      "eligibility_definition": "Both displayed strings entirely identified, loss-free and free of primary doubt; artifact association itself comes from shared primary reference",
+      "notes": []
+    },
+    {
+      "pdf_page": 576,
+      "printed_page": 565,
+      "reference": "4566",
+      "side": "2",
+      "line": "0",
+      "page_group_ordinal": 14,
+      "row_locator": "PDF576, indexed group14, reference4566, side2, line0",
+      "tokens": [
+        "*M086",
+        "M328"
+      ],
+      "order": "normalized reading RTL; sequence listed first-read to last-read",
+      "M328_instances": [
+        {
+          "token_index_zero_based": 1,
+          "is_R_column_reference_occurrence": true,
+          "immediately_preceding_token": "*M086",
+          "immediate_preceding_stroke_count": 1,
+          "preceding_stroke_primary_doubt": true,
+          "is_final_in_this_line": true
+        }
+      ],
+      "indexed_M328_token_index_zero_based": 1,
+      "immediate_preceding_stroke_count": 1,
+      "preceding_stroke_form": "long vertical stroke group",
+      "observed_nonadjacent_stroke_group": null,
+      "complete_line": true,
+      "complete_line_definition": "No primary hatched loss passage on this displayed line; does not mean undoubted or fully decoded",
+      "primary_doubt": true,
+      "reviewer_unidentified_glyph": false,
+      "damage_marker": null,
+      "other_side_lines": [
+        {
+          "side": "1",
+          "line": "0",
+          "tokens": [
+            "LOSS",
+            "M342",
+            "M176"
+          ],
+          "complete_line": false,
+          "primary_doubt": false,
+          "reviewer_unidentified_glyph": false,
+          "scope": "context only; not a new indexed occurrence"
+        }
+      ],
+      "paired_other_side_eligibility": false,
+      "paired_other_side_ineligibility_reasons": [
+        "indexed line includes primary doubt",
+        "other-side line includes loss"
+      ],
+      "eligibility_definition": "Both displayed strings entirely identified, loss-free and free of primary doubt; artifact association itself comes from shared primary reference",
+      "notes": []
+    },
+    {
+      "pdf_page": 576,
+      "printed_page": 565,
+      "reference": "5414",
+      "side": "2",
+      "line": "0",
+      "page_group_ordinal": 15,
+      "row_locator": "PDF576, indexed group15, reference5414, side2, line0",
+      "tokens": [
+        "*M086",
+        "M328"
+      ],
+      "order": "normalized reading RTL; sequence listed first-read to last-read",
+      "M328_instances": [
+        {
+          "token_index_zero_based": 1,
+          "is_R_column_reference_occurrence": true,
+          "immediately_preceding_token": "*M086",
+          "immediate_preceding_stroke_count": 1,
+          "preceding_stroke_primary_doubt": true,
+          "is_final_in_this_line": true
+        }
+      ],
+      "indexed_M328_token_index_zero_based": 1,
+      "immediate_preceding_stroke_count": 1,
+      "preceding_stroke_form": "long vertical stroke group",
+      "observed_nonadjacent_stroke_group": null,
+      "complete_line": true,
+      "complete_line_definition": "No primary hatched loss passage on this displayed line; does not mean undoubted or fully decoded",
+      "primary_doubt": true,
+      "reviewer_unidentified_glyph": false,
+      "damage_marker": null,
+      "other_side_lines": [
+        {
+          "side": "1",
+          "line": "0",
+          "tokens": [
+            "LOSS",
+            "M342",
+            "M176"
+          ],
+          "complete_line": false,
+          "primary_doubt": false,
+          "reviewer_unidentified_glyph": false,
+          "scope": "context only; not a new indexed occurrence"
+        }
+      ],
+      "paired_other_side_eligibility": false,
+      "paired_other_side_ineligibility_reasons": [
+        "indexed line includes primary doubt",
+        "other-side line includes loss"
+      ],
+      "eligibility_definition": "Both displayed strings entirely identified, loss-free and free of primary doubt; artifact association itself comes from shared primary reference",
+      "notes": []
+    },
+    {
+      "pdf_page": 577,
+      "printed_page": 566,
+      "reference": "4661",
+      "side": "2",
+      "line": "0",
+      "page_group_ordinal": 1,
+      "row_locator": "PDF577, indexed group1, reference4661, side2, line0",
+      "tokens": [
+        "*M086",
+        "M328"
+      ],
+      "order": "normalized reading RTL; sequence listed first-read to last-read",
+      "M328_instances": [
+        {
+          "token_index_zero_based": 1,
+          "is_R_column_reference_occurrence": true,
+          "immediately_preceding_token": "*M086",
+          "immediate_preceding_stroke_count": 1,
+          "preceding_stroke_primary_doubt": true,
+          "is_final_in_this_line": true
+        }
+      ],
+      "indexed_M328_token_index_zero_based": 1,
+      "immediate_preceding_stroke_count": 1,
+      "preceding_stroke_form": "long vertical stroke group",
+      "observed_nonadjacent_stroke_group": null,
+      "complete_line": true,
+      "complete_line_definition": "No primary hatched loss passage on this displayed line; does not mean undoubted or fully decoded",
+      "primary_doubt": true,
+      "reviewer_unidentified_glyph": false,
+      "damage_marker": null,
+      "other_side_lines": [
+        {
+          "side": "1",
+          "line": "0",
+          "tokens": [
+            "M059",
+            "M182",
+            "M293",
+            "M342",
+            "M176"
+          ],
+          "complete_line": true,
+          "primary_doubt": false,
+          "reviewer_unidentified_glyph": false,
+          "scope": "context only; not a new indexed occurrence"
+        }
+      ],
+      "paired_other_side_eligibility": false,
+      "paired_other_side_ineligibility_reasons": [
+        "indexed line includes primary doubt"
+      ],
+      "eligibility_definition": "Both displayed strings entirely identified, loss-free and free of primary doubt; artifact association itself comes from shared primary reference",
+      "notes": []
+    },
+    {
+      "pdf_page": 577,
+      "printed_page": 566,
+      "reference": "4459",
+      "side": "2",
+      "line": "0",
+      "page_group_ordinal": 2,
+      "row_locator": "PDF577, indexed group2, reference4459, side2, line0",
+      "tokens": [
+        "M087",
+        "M328"
+      ],
+      "order": "normalized reading RTL; sequence listed first-read to last-read",
+      "M328_instances": [
+        {
+          "token_index_zero_based": 1,
+          "is_R_column_reference_occurrence": true,
+          "immediately_preceding_token": "M087",
+          "immediate_preceding_stroke_count": 2,
+          "preceding_stroke_primary_doubt": false,
+          "is_final_in_this_line": true
+        }
+      ],
+      "indexed_M328_token_index_zero_based": 1,
+      "immediate_preceding_stroke_count": 2,
+      "preceding_stroke_form": "long vertical stroke group",
+      "observed_nonadjacent_stroke_group": null,
+      "complete_line": true,
+      "complete_line_definition": "No primary hatched loss passage on this displayed line; does not mean undoubted or fully decoded",
+      "primary_doubt": false,
+      "reviewer_unidentified_glyph": false,
+      "damage_marker": null,
+      "other_side_lines": [
+        {
+          "side": "1",
+          "line": "0",
+          "tokens": [
+            "LOSS"
+          ],
+          "complete_line": false,
+          "primary_doubt": false,
+          "reviewer_unidentified_glyph": false,
+          "scope": "context only; not a new indexed occurrence"
+        }
+      ],
+      "paired_other_side_eligibility": false,
+      "paired_other_side_ineligibility_reasons": [
+        "other-side line includes loss"
+      ],
+      "eligibility_definition": "Both displayed strings entirely identified, loss-free and free of primary doubt; artifact association itself comes from shared primary reference",
+      "notes": []
+    },
+    {
+      "pdf_page": 577,
+      "printed_page": 566,
+      "reference": "4515",
+      "side": "2",
+      "line": "0",
+      "page_group_ordinal": 3,
+      "row_locator": "PDF577, indexed group3, reference4515, side2, line0",
+      "tokens": [
+        "M087",
+        "M328"
+      ],
+      "order": "normalized reading RTL; sequence listed first-read to last-read",
+      "M328_instances": [
+        {
+          "token_index_zero_based": 1,
+          "is_R_column_reference_occurrence": true,
+          "immediately_preceding_token": "M087",
+          "immediate_preceding_stroke_count": 2,
+          "preceding_stroke_primary_doubt": false,
+          "is_final_in_this_line": true
+        }
+      ],
+      "indexed_M328_token_index_zero_based": 1,
+      "immediate_preceding_stroke_count": 2,
+      "preceding_stroke_form": "long vertical stroke group",
+      "observed_nonadjacent_stroke_group": null,
+      "complete_line": true,
+      "complete_line_definition": "No primary hatched loss passage on this displayed line; does not mean undoubted or fully decoded",
+      "primary_doubt": false,
+      "reviewer_unidentified_glyph": false,
+      "damage_marker": null,
+      "other_side_lines": [
+        {
+          "side": "1",
+          "line": "0",
+          "tokens": [
+            "LOSS"
+          ],
+          "complete_line": false,
+          "primary_doubt": false,
+          "reviewer_unidentified_glyph": false,
+          "scope": "context only; not a new indexed occurrence"
+        }
+      ],
+      "paired_other_side_eligibility": false,
+      "paired_other_side_ineligibility_reasons": [
+        "other-side line includes loss"
+      ],
+      "eligibility_definition": "Both displayed strings entirely identified, loss-free and free of primary doubt; artifact association itself comes from shared primary reference",
+      "notes": []
+    },
+    {
+      "pdf_page": 577,
+      "printed_page": 566,
+      "reference": "5429",
+      "side": "2",
+      "line": "0",
+      "page_group_ordinal": 4,
+      "row_locator": "PDF577, indexed group4, reference5429, side2, line0",
+      "tokens": [
+        "*M087",
+        "M328"
+      ],
+      "order": "normalized reading RTL; sequence listed first-read to last-read",
+      "M328_instances": [
+        {
+          "token_index_zero_based": 1,
+          "is_R_column_reference_occurrence": true,
+          "immediately_preceding_token": "*M087",
+          "immediate_preceding_stroke_count": 2,
+          "preceding_stroke_primary_doubt": true,
+          "is_final_in_this_line": true
+        }
+      ],
+      "indexed_M328_token_index_zero_based": 1,
+      "immediate_preceding_stroke_count": 2,
+      "preceding_stroke_form": "long vertical stroke group",
+      "observed_nonadjacent_stroke_group": null,
+      "complete_line": true,
+      "complete_line_definition": "No primary hatched loss passage on this displayed line; does not mean undoubted or fully decoded",
+      "primary_doubt": true,
+      "reviewer_unidentified_glyph": false,
+      "damage_marker": null,
+      "other_side_lines": [
+        {
+          "side": "1",
+          "line": "0",
+          "tokens": [
+            "LOSS"
+          ],
+          "complete_line": false,
+          "primary_doubt": false,
+          "reviewer_unidentified_glyph": false,
+          "scope": "context only; not a new indexed occurrence"
+        }
+      ],
+      "paired_other_side_eligibility": false,
+      "paired_other_side_ineligibility_reasons": [
+        "indexed line includes primary doubt",
+        "other-side line includes loss"
+      ],
+      "eligibility_definition": "Both displayed strings entirely identified, loss-free and free of primary doubt; artifact association itself comes from shared primary reference",
+      "notes": []
+    },
+    {
+      "pdf_page": 577,
+      "printed_page": 566,
+      "reference": "5483",
+      "side": "2",
+      "line": "0",
+      "page_group_ordinal": 5,
+      "row_locator": "PDF577, indexed group5, reference5483, side2, line0",
+      "tokens": [
+        "M087",
+        "M328"
+      ],
+      "order": "normalized reading RTL; sequence listed first-read to last-read",
+      "M328_instances": [
+        {
+          "token_index_zero_based": 1,
+          "is_R_column_reference_occurrence": true,
+          "immediately_preceding_token": "M087",
+          "immediate_preceding_stroke_count": 2,
+          "preceding_stroke_primary_doubt": false,
+          "is_final_in_this_line": true
+        }
+      ],
+      "indexed_M328_token_index_zero_based": 1,
+      "immediate_preceding_stroke_count": 2,
+      "preceding_stroke_form": "long vertical stroke group",
+      "observed_nonadjacent_stroke_group": null,
+      "complete_line": true,
+      "complete_line_definition": "No primary hatched loss passage on this displayed line; does not mean undoubted or fully decoded",
+      "primary_doubt": false,
+      "reviewer_unidentified_glyph": false,
+      "damage_marker": null,
+      "other_side_lines": [
+        {
+          "side": "1",
+          "line": "0",
+          "tokens": [
+            "LOSS"
+          ],
+          "complete_line": false,
+          "primary_doubt": false,
+          "reviewer_unidentified_glyph": false,
+          "scope": "context only; not a new indexed occurrence"
+        }
+      ],
+      "paired_other_side_eligibility": false,
+      "paired_other_side_ineligibility_reasons": [
+        "other-side line includes loss"
+      ],
+      "eligibility_definition": "Both displayed strings entirely identified, loss-free and free of primary doubt; artifact association itself comes from shared primary reference",
+      "notes": []
+    },
+    {
+      "pdf_page": 577,
+      "printed_page": 566,
+      "reference": "4381",
+      "side": "2",
+      "line": "0",
+      "page_group_ordinal": 6,
+      "row_locator": "PDF577, indexed group6, reference4381, side2, line0",
+      "tokens": [
+        "M087",
+        "M328"
+      ],
+      "order": "normalized reading RTL; sequence listed first-read to last-read",
+      "M328_instances": [
+        {
+          "token_index_zero_based": 1,
+          "is_R_column_reference_occurrence": true,
+          "immediately_preceding_token": "M087",
+          "immediate_preceding_stroke_count": 2,
+          "preceding_stroke_primary_doubt": false,
+          "is_final_in_this_line": true
+        }
+      ],
+      "indexed_M328_token_index_zero_based": 1,
+      "immediate_preceding_stroke_count": 2,
+      "preceding_stroke_form": "long vertical stroke group",
+      "observed_nonadjacent_stroke_group": null,
+      "complete_line": true,
+      "complete_line_definition": "No primary hatched loss passage on this displayed line; does not mean undoubted or fully decoded",
+      "primary_doubt": false,
+      "reviewer_unidentified_glyph": false,
+      "damage_marker": null,
+      "other_side_lines": [
+        {
+          "side": "1",
+          "line": "0",
+          "tokens": [
+            "M048",
+            "*M047",
+            "LOSS"
+          ],
+          "complete_line": false,
+          "primary_doubt": true,
+          "reviewer_unidentified_glyph": false,
+          "scope": "context only; not a new indexed occurrence"
+        }
+      ],
+      "paired_other_side_eligibility": false,
+      "paired_other_side_ineligibility_reasons": [
+        "other-side line includes loss",
+        "other-side line includes primary doubt"
+      ],
+      "eligibility_definition": "Both displayed strings entirely identified, loss-free and free of primary doubt; artifact association itself comes from shared primary reference",
+      "notes": []
+    },
+    {
+      "pdf_page": 577,
+      "printed_page": 566,
+      "reference": "4700",
+      "side": "2",
+      "line": "0",
+      "page_group_ordinal": 7,
+      "row_locator": "PDF577, indexed group7, reference4700, side2, line0",
+      "tokens": [
+        "M087",
+        "M328"
+      ],
+      "order": "normalized reading RTL; sequence listed first-read to last-read",
+      "M328_instances": [
+        {
+          "token_index_zero_based": 1,
+          "is_R_column_reference_occurrence": true,
+          "immediately_preceding_token": "M087",
+          "immediate_preceding_stroke_count": 2,
+          "preceding_stroke_primary_doubt": false,
+          "is_final_in_this_line": true
+        }
+      ],
+      "indexed_M328_token_index_zero_based": 1,
+      "immediate_preceding_stroke_count": 2,
+      "preceding_stroke_form": "long vertical stroke group",
+      "observed_nonadjacent_stroke_group": null,
+      "complete_line": true,
+      "complete_line_definition": "No primary hatched loss passage on this displayed line; does not mean undoubted or fully decoded",
+      "primary_doubt": false,
+      "reviewer_unidentified_glyph": false,
+      "damage_marker": null,
+      "other_side_lines": [
+        {
+          "side": "1",
+          "line": "0",
+          "tokens": [
+            "M112",
+            "M197",
+            "LOSS"
+          ],
+          "complete_line": false,
+          "primary_doubt": false,
+          "reviewer_unidentified_glyph": false,
+          "scope": "context only; not a new indexed occurrence"
+        }
+      ],
+      "paired_other_side_eligibility": false,
+      "paired_other_side_ineligibility_reasons": [
+        "other-side line includes loss"
+      ],
+      "eligibility_definition": "Both displayed strings entirely identified, loss-free and free of primary doubt; artifact association itself comes from shared primary reference",
+      "notes": []
+    },
+    {
+      "pdf_page": 577,
+      "printed_page": 566,
+      "reference": "4420",
+      "side": "2",
+      "line": "0",
+      "page_group_ordinal": 8,
+      "row_locator": "PDF577, indexed group8, reference4420, side2, line0",
+      "tokens": [
+        "M087",
+        "M328"
+      ],
+      "order": "normalized reading RTL; sequence listed first-read to last-read",
+      "M328_instances": [
+        {
+          "token_index_zero_based": 1,
+          "is_R_column_reference_occurrence": true,
+          "immediately_preceding_token": "M087",
+          "immediate_preceding_stroke_count": 2,
+          "preceding_stroke_primary_doubt": false,
+          "is_final_in_this_line": true
+        }
+      ],
+      "indexed_M328_token_index_zero_based": 1,
+      "immediate_preceding_stroke_count": 2,
+      "preceding_stroke_form": "long vertical stroke group",
+      "observed_nonadjacent_stroke_group": null,
+      "complete_line": true,
+      "complete_line_definition": "No primary hatched loss passage on this displayed line; does not mean undoubted or fully decoded",
+      "primary_doubt": false,
+      "reviewer_unidentified_glyph": false,
+      "damage_marker": null,
+      "other_side_lines": [
+        {
+          "side": "1",
+          "line": "0",
+          "tokens": [
+            "M103",
+            "M403",
+            "M087",
+            "M244",
+            "LOSS"
+          ],
+          "complete_line": false,
+          "primary_doubt": false,
+          "reviewer_unidentified_glyph": false,
+          "scope": "context only; not a new indexed occurrence"
+        }
+      ],
+      "paired_other_side_eligibility": false,
+      "paired_other_side_ineligibility_reasons": [
+        "other-side line includes loss"
+      ],
+      "eligibility_definition": "Both displayed strings entirely identified, loss-free and free of primary doubt; artifact association itself comes from shared primary reference",
+      "notes": []
+    },
+    {
+      "pdf_page": 577,
+      "printed_page": 566,
+      "reference": "5415",
+      "side": "2",
+      "line": "0",
+      "page_group_ordinal": 9,
+      "row_locator": "PDF577, indexed group9, reference5415, side2, line0",
+      "tokens": [
+        "M087",
+        "M328"
+      ],
+      "order": "normalized reading RTL; sequence listed first-read to last-read",
+      "M328_instances": [
+        {
+          "token_index_zero_based": 1,
+          "is_R_column_reference_occurrence": true,
+          "immediately_preceding_token": "M087",
+          "immediate_preceding_stroke_count": 2,
+          "preceding_stroke_primary_doubt": false,
+          "is_final_in_this_line": true
+        }
+      ],
+      "indexed_M328_token_index_zero_based": 1,
+      "immediate_preceding_stroke_count": 2,
+      "preceding_stroke_form": "long vertical stroke group",
+      "observed_nonadjacent_stroke_group": null,
+      "complete_line": true,
+      "complete_line_definition": "No primary hatched loss passage on this displayed line; does not mean undoubted or fully decoded",
+      "primary_doubt": false,
+      "reviewer_unidentified_glyph": false,
+      "damage_marker": null,
+      "other_side_lines": [
+        {
+          "side": "1",
+          "line": "0",
+          "tokens": [
+            "M048",
+            "M342",
+            "LOSS"
+          ],
+          "complete_line": false,
+          "primary_doubt": false,
+          "reviewer_unidentified_glyph": false,
+          "scope": "context only; not a new indexed occurrence"
+        }
+      ],
+      "paired_other_side_eligibility": false,
+      "paired_other_side_ineligibility_reasons": [
+        "other-side line includes loss"
+      ],
+      "eligibility_definition": "Both displayed strings entirely identified, loss-free and free of primary doubt; artifact association itself comes from shared primary reference",
+      "notes": []
+    },
+    {
+      "pdf_page": 577,
+      "printed_page": 566,
+      "reference": "5420",
+      "side": "2",
+      "line": "0",
+      "page_group_ordinal": 10,
+      "row_locator": "PDF577, indexed group10, reference5420, side2, line0",
+      "tokens": [
+        "M087",
+        "M328"
+      ],
+      "order": "normalized reading RTL; sequence listed first-read to last-read",
+      "M328_instances": [
+        {
+          "token_index_zero_based": 1,
+          "is_R_column_reference_occurrence": true,
+          "immediately_preceding_token": "M087",
+          "immediate_preceding_stroke_count": 2,
+          "preceding_stroke_primary_doubt": false,
+          "is_final_in_this_line": true
+        }
+      ],
+      "indexed_M328_token_index_zero_based": 1,
+      "immediate_preceding_stroke_count": 2,
+      "preceding_stroke_form": "long vertical stroke group",
+      "observed_nonadjacent_stroke_group": null,
+      "complete_line": true,
+      "complete_line_definition": "No primary hatched loss passage on this displayed line; does not mean undoubted or fully decoded",
+      "primary_doubt": false,
+      "reviewer_unidentified_glyph": false,
+      "damage_marker": null,
+      "other_side_lines": [
+        {
+          "side": "1",
+          "line": "0",
+          "tokens": [
+            "M048",
+            "M342",
+            "LOSS"
+          ],
+          "complete_line": false,
+          "primary_doubt": false,
+          "reviewer_unidentified_glyph": false,
+          "scope": "context only; not a new indexed occurrence"
+        }
+      ],
+      "paired_other_side_eligibility": false,
+      "paired_other_side_ineligibility_reasons": [
+        "other-side line includes loss"
+      ],
+      "eligibility_definition": "Both displayed strings entirely identified, loss-free and free of primary doubt; artifact association itself comes from shared primary reference",
+      "notes": []
+    },
+    {
+      "pdf_page": 577,
+      "printed_page": 566,
+      "reference": "5443",
+      "side": "2",
+      "line": "0",
+      "page_group_ordinal": 11,
+      "row_locator": "PDF577, indexed group11, reference5443, side2, line0",
+      "tokens": [
+        "M087",
+        "M328"
+      ],
+      "order": "normalized reading RTL; sequence listed first-read to last-read",
+      "M328_instances": [
+        {
+          "token_index_zero_based": 1,
+          "is_R_column_reference_occurrence": true,
+          "immediately_preceding_token": "M087",
+          "immediate_preceding_stroke_count": 2,
+          "preceding_stroke_primary_doubt": false,
+          "is_final_in_this_line": true
+        }
+      ],
+      "indexed_M328_token_index_zero_based": 1,
+      "immediate_preceding_stroke_count": 2,
+      "preceding_stroke_form": "long vertical stroke group",
+      "observed_nonadjacent_stroke_group": null,
+      "complete_line": true,
+      "complete_line_definition": "No primary hatched loss passage on this displayed line; does not mean undoubted or fully decoded",
+      "primary_doubt": false,
+      "reviewer_unidentified_glyph": false,
+      "damage_marker": null,
+      "other_side_lines": [
+        {
+          "side": "1",
+          "line": "0",
+          "tokens": [
+            "M048",
+            "M342",
+            "LOSS"
+          ],
+          "complete_line": false,
+          "primary_doubt": false,
+          "reviewer_unidentified_glyph": false,
+          "scope": "context only; not a new indexed occurrence"
+        }
+      ],
+      "paired_other_side_eligibility": false,
+      "paired_other_side_ineligibility_reasons": [
+        "other-side line includes loss"
+      ],
+      "eligibility_definition": "Both displayed strings entirely identified, loss-free and free of primary doubt; artifact association itself comes from shared primary reference",
+      "notes": []
+    },
+    {
+      "pdf_page": 577,
+      "printed_page": 566,
+      "reference": "4364",
+      "side": "2",
+      "line": "0",
+      "page_group_ordinal": 12,
+      "row_locator": "PDF577, indexed group12, reference4364, side2, line0",
+      "tokens": [
+        "M087",
+        "M328"
+      ],
+      "order": "normalized reading RTL; sequence listed first-read to last-read",
+      "M328_instances": [
+        {
+          "token_index_zero_based": 1,
+          "is_R_column_reference_occurrence": true,
+          "immediately_preceding_token": "M087",
+          "immediate_preceding_stroke_count": 2,
+          "preceding_stroke_primary_doubt": false,
+          "is_final_in_this_line": true
+        }
+      ],
+      "indexed_M328_token_index_zero_based": 1,
+      "immediate_preceding_stroke_count": 2,
+      "preceding_stroke_form": "long vertical stroke group",
+      "observed_nonadjacent_stroke_group": null,
+      "complete_line": true,
+      "complete_line_definition": "No primary hatched loss passage on this displayed line; does not mean undoubted or fully decoded",
+      "primary_doubt": false,
+      "reviewer_unidentified_glyph": false,
+      "damage_marker": null,
+      "other_side_lines": [
+        {
+          "side": "1",
+          "line": "0",
+          "tokens": [
+            "UNKNOWN"
+          ],
+          "complete_line": true,
+          "primary_doubt": false,
+          "reviewer_unidentified_glyph": true,
+          "scope": "context only; not a new indexed occurrence"
+        }
+      ],
+      "paired_other_side_eligibility": false,
+      "paired_other_side_ineligibility_reasons": [
+        "other-side line includes reviewer-unidentified glyph"
+      ],
+      "eligibility_definition": "Both displayed strings entirely identified, loss-free and free of primary doubt; artifact association itself comes from shared primary reference",
+      "notes": [
+        "Other-side human-shaped sign not assigned exact ID."
+      ]
+    },
+    {
+      "pdf_page": 577,
+      "printed_page": 566,
+      "reference": "4479",
+      "side": "2",
+      "line": "0",
+      "page_group_ordinal": 13,
+      "row_locator": "PDF577, indexed group13, reference4479, side2, line0",
+      "tokens": [
+        "M087",
+        "M328"
+      ],
+      "order": "normalized reading RTL; sequence listed first-read to last-read",
+      "M328_instances": [
+        {
+          "token_index_zero_based": 1,
+          "is_R_column_reference_occurrence": true,
+          "immediately_preceding_token": "M087",
+          "immediate_preceding_stroke_count": 2,
+          "preceding_stroke_primary_doubt": false,
+          "is_final_in_this_line": true
+        }
+      ],
+      "indexed_M328_token_index_zero_based": 1,
+      "immediate_preceding_stroke_count": 2,
+      "preceding_stroke_form": "long vertical stroke group",
+      "observed_nonadjacent_stroke_group": null,
+      "complete_line": true,
+      "complete_line_definition": "No primary hatched loss passage on this displayed line; does not mean undoubted or fully decoded",
+      "primary_doubt": false,
+      "reviewer_unidentified_glyph": false,
+      "damage_marker": null,
+      "other_side_lines": [
+        {
+          "side": "1",
+          "line": "0",
+          "tokens": [
+            "M067",
+            "UNKNOWN"
+          ],
+          "complete_line": true,
+          "primary_doubt": false,
+          "reviewer_unidentified_glyph": true,
+          "scope": "context only; not a new indexed occurrence"
+        }
+      ],
+      "paired_other_side_eligibility": false,
+      "paired_other_side_ineligibility_reasons": [
+        "other-side line includes reviewer-unidentified glyph"
+      ],
+      "eligibility_definition": "Both displayed strings entirely identified, loss-free and free of primary doubt; artifact association itself comes from shared primary reference",
+      "notes": [
+        "Other-side load-bearing human sign unidentified."
+      ]
+    },
+    {
+      "pdf_page": 577,
+      "printed_page": 566,
+      "reference": "4404",
+      "side": "2",
+      "line": "0",
+      "page_group_ordinal": 14,
+      "row_locator": "PDF577, indexed group14, reference4404, side2, line0",
+      "tokens": [
+        "M087",
+        "M328"
+      ],
+      "order": "normalized reading RTL; sequence listed first-read to last-read",
+      "M328_instances": [
+        {
+          "token_index_zero_based": 1,
+          "is_R_column_reference_occurrence": true,
+          "immediately_preceding_token": "M087",
+          "immediate_preceding_stroke_count": 2,
+          "preceding_stroke_primary_doubt": false,
+          "is_final_in_this_line": true
+        }
+      ],
+      "indexed_M328_token_index_zero_based": 1,
+      "immediate_preceding_stroke_count": 2,
+      "preceding_stroke_form": "long vertical stroke group",
+      "observed_nonadjacent_stroke_group": null,
+      "complete_line": true,
+      "complete_line_definition": "No primary hatched loss passage on this displayed line; does not mean undoubted or fully decoded",
+      "primary_doubt": false,
+      "reviewer_unidentified_glyph": false,
+      "damage_marker": null,
+      "other_side_lines": [
+        {
+          "side": "1",
+          "line": "0",
+          "tokens": [
+            "M293",
+            "M123",
+            "M343",
+            "M048",
+            "UNKNOWN"
+          ],
+          "complete_line": true,
+          "primary_doubt": false,
+          "reviewer_unidentified_glyph": true,
+          "scope": "context only; not a new indexed occurrence"
+        }
+      ],
+      "paired_other_side_eligibility": false,
+      "paired_other_side_ineligibility_reasons": [
+        "other-side line includes reviewer-unidentified glyph"
+      ],
+      "eligibility_definition": "Both displayed strings entirely identified, loss-free and free of primary doubt; artifact association itself comes from shared primary reference",
+      "notes": [
+        "Other-side load-bearing human sign unidentified."
+      ]
+    },
+    {
+      "pdf_page": 577,
+      "printed_page": 566,
+      "reference": "5472",
+      "side": "2",
+      "line": "0",
+      "page_group_ordinal": 15,
+      "row_locator": "PDF577, indexed group15, reference5472, side2, line0",
+      "tokens": [
+        "M087",
+        "M328"
+      ],
+      "order": "normalized reading RTL; sequence listed first-read to last-read",
+      "M328_instances": [
+        {
+          "token_index_zero_based": 1,
+          "is_R_column_reference_occurrence": true,
+          "immediately_preceding_token": "M087",
+          "immediate_preceding_stroke_count": 2,
+          "preceding_stroke_primary_doubt": false,
+          "is_final_in_this_line": true
+        }
+      ],
+      "indexed_M328_token_index_zero_based": 1,
+      "immediate_preceding_stroke_count": 2,
+      "preceding_stroke_form": "long vertical stroke group",
+      "observed_nonadjacent_stroke_group": null,
+      "complete_line": true,
+      "complete_line_definition": "No primary hatched loss passage on this displayed line; does not mean undoubted or fully decoded",
+      "primary_doubt": false,
+      "reviewer_unidentified_glyph": false,
+      "damage_marker": null,
+      "other_side_lines": [
+        {
+          "side": "1",
+          "line": "0",
+          "tokens": [
+            "M286",
+            "M087",
+            "UNKNOWN"
+          ],
+          "complete_line": true,
+          "primary_doubt": false,
+          "reviewer_unidentified_glyph": true,
+          "scope": "context only; not a new indexed occurrence"
+        }
+      ],
+      "paired_other_side_eligibility": false,
+      "paired_other_side_ineligibility_reasons": [
+        "other-side line includes reviewer-unidentified glyph"
+      ],
+      "eligibility_definition": "Both displayed strings entirely identified, loss-free and free of primary doubt; artifact association itself comes from shared primary reference",
+      "notes": [
+        "Other-side load-bearing human sign unidentified."
+      ]
+    },
+    {
+      "pdf_page": 577,
+      "printed_page": 566,
+      "reference": "4649",
+      "side": "2",
+      "line": "0",
+      "page_group_ordinal": 16,
+      "row_locator": "PDF577, indexed group16, reference4649, side2, line0",
+      "tokens": [
+        "M087",
+        "M328"
+      ],
+      "order": "normalized reading RTL; sequence listed first-read to last-read",
+      "M328_instances": [
+        {
+          "token_index_zero_based": 1,
+          "is_R_column_reference_occurrence": true,
+          "immediately_preceding_token": "M087",
+          "immediate_preceding_stroke_count": 2,
+          "preceding_stroke_primary_doubt": false,
+          "is_final_in_this_line": true
+        }
+      ],
+      "indexed_M328_token_index_zero_based": 1,
+      "immediate_preceding_stroke_count": 2,
+      "preceding_stroke_form": "long vertical stroke group",
+      "observed_nonadjacent_stroke_group": null,
+      "complete_line": true,
+      "complete_line_definition": "No primary hatched loss passage on this displayed line; does not mean undoubted or fully decoded",
+      "primary_doubt": false,
+      "reviewer_unidentified_glyph": false,
+      "damage_marker": null,
+      "other_side_lines": [
+        {
+          "side": "1",
+          "line": "0",
+          "tokens": [
+            "M051",
+            "M130",
+            "UNKNOWN"
+          ],
+          "complete_line": true,
+          "primary_doubt": false,
+          "reviewer_unidentified_glyph": true,
+          "scope": "context only; not a new indexed occurrence"
+        }
+      ],
+      "paired_other_side_eligibility": false,
+      "paired_other_side_ineligibility_reasons": [
+        "other-side line includes reviewer-unidentified glyph"
+      ],
+      "eligibility_definition": "Both displayed strings entirely identified, loss-free and free of primary doubt; artifact association itself comes from shared primary reference",
+      "notes": [
+        "Other-side load-bearing human sign unidentified."
+      ]
+    },
+    {
+      "pdf_page": 578,
+      "printed_page": 567,
+      "reference": "4665",
+      "side": "2",
+      "line": "0",
+      "page_group_ordinal": 1,
+      "row_locator": "PDF578, indexed group1, reference4665, side2, line0",
+      "tokens": [
+        "M087",
+        "M328"
+      ],
+      "order": "normalized reading RTL; sequence listed first-read to last-read",
+      "M328_instances": [
+        {
+          "token_index_zero_based": 1,
+          "is_R_column_reference_occurrence": true,
+          "immediately_preceding_token": "M087",
+          "immediate_preceding_stroke_count": 2,
+          "preceding_stroke_primary_doubt": false,
+          "is_final_in_this_line": true
+        }
+      ],
+      "indexed_M328_token_index_zero_based": 1,
+      "immediate_preceding_stroke_count": 2,
+      "preceding_stroke_form": "long vertical stroke group",
+      "observed_nonadjacent_stroke_group": null,
+      "complete_line": true,
+      "complete_line_definition": "No primary hatched loss passage on this displayed line; does not mean undoubted or fully decoded",
+      "primary_doubt": false,
+      "reviewer_unidentified_glyph": false,
+      "damage_marker": null,
+      "other_side_lines": [
+        {
+          "side": "1",
+          "line": "0",
+          "tokens": [
+            "M391",
+            "M099",
+            "UNKNOWN"
+          ],
+          "complete_line": true,
+          "primary_doubt": false,
+          "reviewer_unidentified_glyph": true,
+          "scope": "context only; not a new indexed occurrence"
+        }
+      ],
+      "paired_other_side_eligibility": false,
+      "paired_other_side_ineligibility_reasons": [
+        "other-side line includes reviewer-unidentified glyph"
+      ],
+      "eligibility_definition": "Both displayed strings entirely identified, loss-free and free of primary doubt; artifact association itself comes from shared primary reference",
+      "notes": [
+        "Other-side human-shaped sign with lower appendage unidentified."
+      ]
+    },
+    {
+      "pdf_page": 578,
+      "printed_page": 567,
+      "reference": "5303",
+      "side": "2",
+      "line": "0",
+      "page_group_ordinal": 2,
+      "row_locator": "PDF578, indexed group2, reference5303, side2, line0",
+      "tokens": [
+        "M167",
+        "M087",
+        "M328"
+      ],
+      "order": "normalized reading RTL; sequence listed first-read to last-read",
+      "M328_instances": [
+        {
+          "token_index_zero_based": 2,
+          "is_R_column_reference_occurrence": true,
+          "immediately_preceding_token": "M087",
+          "immediate_preceding_stroke_count": 2,
+          "preceding_stroke_primary_doubt": false,
+          "is_final_in_this_line": true
+        }
+      ],
+      "indexed_M328_token_index_zero_based": 2,
+      "immediate_preceding_stroke_count": 2,
+      "preceding_stroke_form": "long vertical stroke group",
+      "observed_nonadjacent_stroke_group": null,
+      "complete_line": true,
+      "complete_line_definition": "No primary hatched loss passage on this displayed line; does not mean undoubted or fully decoded",
+      "primary_doubt": false,
+      "reviewer_unidentified_glyph": false,
+      "damage_marker": null,
+      "other_side_lines": [
+        {
+          "side": "1",
+          "line": "0",
+          "tokens": [
+            "M391",
+            "M099",
+            "UNKNOWN"
+          ],
+          "complete_line": true,
+          "primary_doubt": false,
+          "reviewer_unidentified_glyph": true,
+          "scope": "context only; not a new indexed occurrence"
+        }
+      ],
+      "paired_other_side_eligibility": false,
+      "paired_other_side_ineligibility_reasons": [
+        "other-side line includes reviewer-unidentified glyph"
+      ],
+      "eligibility_definition": "Both displayed strings entirely identified, loss-free and free of primary doubt; artifact association itself comes from shared primary reference",
+      "notes": [
+        "Indexed line includes extra branching M167 before the two long strokes; not reduced to stroke+U.",
+        "Other-side human-shaped sign with lower appendage unidentified."
+      ]
+    },
+    {
+      "pdf_page": 578,
+      "printed_page": 567,
+      "reference": "4378",
+      "side": "2",
+      "line": "0",
+      "page_group_ordinal": 3,
+      "row_locator": "PDF578, indexed group3, reference4378, side2, line0",
+      "tokens": [
+        "M087",
+        "M328"
+      ],
+      "order": "normalized reading RTL; sequence listed first-read to last-read",
+      "M328_instances": [
+        {
+          "token_index_zero_based": 1,
+          "is_R_column_reference_occurrence": true,
+          "immediately_preceding_token": "M087",
+          "immediate_preceding_stroke_count": 2,
+          "preceding_stroke_primary_doubt": false,
+          "is_final_in_this_line": true
+        }
+      ],
+      "indexed_M328_token_index_zero_based": 1,
+      "immediate_preceding_stroke_count": 2,
+      "preceding_stroke_form": "long vertical stroke group",
+      "observed_nonadjacent_stroke_group": null,
+      "complete_line": true,
+      "complete_line_definition": "No primary hatched loss passage on this displayed line; does not mean undoubted or fully decoded",
+      "primary_doubt": false,
+      "reviewer_unidentified_glyph": false,
+      "damage_marker": null,
+      "other_side_lines": [
+        {
+          "side": "1",
+          "line": "0",
+          "tokens": [
+            "UNKNOWN",
+            "M176"
+          ],
+          "complete_line": true,
+          "primary_doubt": false,
+          "reviewer_unidentified_glyph": true,
+          "scope": "context only; not a new indexed occurrence"
+        }
+      ],
+      "paired_other_side_eligibility": false,
+      "paired_other_side_ineligibility_reasons": [
+        "other-side line includes reviewer-unidentified glyph"
+      ],
+      "eligibility_definition": "Both displayed strings entirely identified, loss-free and free of primary doubt; artifact association itself comes from shared primary reference",
+      "notes": []
+    },
+    {
+      "pdf_page": 578,
+      "printed_page": 567,
+      "reference": "4357",
+      "side": "2",
+      "line": "0",
+      "page_group_ordinal": 4,
+      "row_locator": "PDF578, indexed group4, reference4357, side2, line0",
+      "tokens": [
+        "M087",
+        "M328"
+      ],
+      "order": "normalized reading RTL; sequence listed first-read to last-read",
+      "M328_instances": [
+        {
+          "token_index_zero_based": 1,
+          "is_R_column_reference_occurrence": true,
+          "immediately_preceding_token": "M087",
+          "immediate_preceding_stroke_count": 2,
+          "preceding_stroke_primary_doubt": false,
+          "is_final_in_this_line": true
+        }
+      ],
+      "indexed_M328_token_index_zero_based": 1,
+      "immediate_preceding_stroke_count": 2,
+      "preceding_stroke_form": "long vertical stroke group",
+      "observed_nonadjacent_stroke_group": null,
+      "complete_line": true,
+      "complete_line_definition": "No primary hatched loss passage on this displayed line; does not mean undoubted or fully decoded",
+      "primary_doubt": false,
+      "reviewer_unidentified_glyph": false,
+      "damage_marker": null,
+      "other_side_lines": [
+        {
+          "side": "1",
+          "line": "0",
+          "tokens": [
+            "M042",
+            "UNKNOWN",
+            "M176"
+          ],
+          "complete_line": true,
+          "primary_doubt": false,
+          "reviewer_unidentified_glyph": true,
+          "scope": "context only; not a new indexed occurrence"
+        }
+      ],
+      "paired_other_side_eligibility": false,
+      "paired_other_side_ineligibility_reasons": [
+        "other-side line includes reviewer-unidentified glyph"
+      ],
+      "eligibility_definition": "Both displayed strings entirely identified, loss-free and free of primary doubt; artifact association itself comes from shared primary reference",
+      "notes": []
+    },
+    {
+      "pdf_page": 578,
+      "printed_page": 567,
+      "reference": "4461",
+      "side": "2",
+      "line": "0",
+      "page_group_ordinal": 5,
+      "row_locator": "PDF578, indexed group5, reference4461, side2, line0",
+      "tokens": [
+        "M087",
+        "M328"
+      ],
+      "order": "normalized reading RTL; sequence listed first-read to last-read",
+      "M328_instances": [
+        {
+          "token_index_zero_based": 1,
+          "is_R_column_reference_occurrence": true,
+          "immediately_preceding_token": "M087",
+          "immediate_preceding_stroke_count": 2,
+          "preceding_stroke_primary_doubt": false,
+          "is_final_in_this_line": true
+        }
+      ],
+      "indexed_M328_token_index_zero_based": 1,
+      "immediate_preceding_stroke_count": 2,
+      "preceding_stroke_form": "long vertical stroke group",
+      "observed_nonadjacent_stroke_group": null,
+      "complete_line": true,
+      "complete_line_definition": "No primary hatched loss passage on this displayed line; does not mean undoubted or fully decoded",
+      "primary_doubt": false,
+      "reviewer_unidentified_glyph": false,
+      "damage_marker": null,
+      "other_side_lines": [
+        {
+          "side": "1",
+          "line": "0",
+          "tokens": [
+            "M250",
+            "UNKNOWN",
+            "M176"
+          ],
+          "complete_line": true,
+          "primary_doubt": false,
+          "reviewer_unidentified_glyph": true,
+          "scope": "context only; not a new indexed occurrence"
+        }
+      ],
+      "paired_other_side_eligibility": false,
+      "paired_other_side_ineligibility_reasons": [
+        "other-side line includes reviewer-unidentified glyph"
+      ],
+      "eligibility_definition": "Both displayed strings entirely identified, loss-free and free of primary doubt; artifact association itself comes from shared primary reference",
+      "notes": []
+    },
+    {
+      "pdf_page": 578,
+      "printed_page": 567,
+      "reference": "4475",
+      "side": "2",
+      "line": "0",
+      "page_group_ordinal": 6,
+      "row_locator": "PDF578, indexed group6, reference4475, side2, line0",
+      "tokens": [
+        "*M087",
+        "M328"
+      ],
+      "order": "normalized reading RTL; sequence listed first-read to last-read",
+      "M328_instances": [
+        {
+          "token_index_zero_based": 1,
+          "is_R_column_reference_occurrence": true,
+          "immediately_preceding_token": "*M087",
+          "immediate_preceding_stroke_count": 2,
+          "preceding_stroke_primary_doubt": true,
+          "is_final_in_this_line": true
+        }
+      ],
+      "indexed_M328_token_index_zero_based": 1,
+      "immediate_preceding_stroke_count": 2,
+      "preceding_stroke_form": "long vertical stroke group",
+      "observed_nonadjacent_stroke_group": null,
+      "complete_line": true,
+      "complete_line_definition": "No primary hatched loss passage on this displayed line; does not mean undoubted or fully decoded",
+      "primary_doubt": true,
+      "reviewer_unidentified_glyph": false,
+      "damage_marker": null,
+      "other_side_lines": [
+        {
+          "side": "1",
+          "line": "0",
+          "tokens": [
+            "M250",
+            "UNKNOWN",
+            "M176"
+          ],
+          "complete_line": true,
+          "primary_doubt": false,
+          "reviewer_unidentified_glyph": true,
+          "scope": "context only; not a new indexed occurrence"
+        }
+      ],
+      "paired_other_side_eligibility": false,
+      "paired_other_side_ineligibility_reasons": [
+        "indexed line includes primary doubt",
+        "other-side line includes reviewer-unidentified glyph"
+      ],
+      "eligibility_definition": "Both displayed strings entirely identified, loss-free and free of primary doubt; artifact association itself comes from shared primary reference",
+      "notes": []
+    },
+    {
+      "pdf_page": 578,
+      "printed_page": 567,
+      "reference": "4556",
+      "side": "2",
+      "line": "0",
+      "page_group_ordinal": 7,
+      "row_locator": "PDF578, indexed group7, reference4556, side2, line0",
+      "tokens": [
+        "M087",
+        "M328"
+      ],
+      "order": "normalized reading RTL; sequence listed first-read to last-read",
+      "M328_instances": [
+        {
+          "token_index_zero_based": 1,
+          "is_R_column_reference_occurrence": true,
+          "immediately_preceding_token": "M087",
+          "immediate_preceding_stroke_count": 2,
+          "preceding_stroke_primary_doubt": false,
+          "is_final_in_this_line": true
+        }
+      ],
+      "indexed_M328_token_index_zero_based": 1,
+      "immediate_preceding_stroke_count": 2,
+      "preceding_stroke_form": "long vertical stroke group",
+      "observed_nonadjacent_stroke_group": null,
+      "complete_line": true,
+      "complete_line_definition": "No primary hatched loss passage on this displayed line; does not mean undoubted or fully decoded",
+      "primary_doubt": false,
+      "reviewer_unidentified_glyph": false,
+      "damage_marker": null,
+      "other_side_lines": [
+        {
+          "side": "1",
+          "line": "0",
+          "tokens": [
+            "M087",
+            "M060",
+            "M176"
+          ],
+          "complete_line": true,
+          "primary_doubt": false,
+          "reviewer_unidentified_glyph": false,
+          "scope": "context only; not a new indexed occurrence"
+        }
+      ],
+      "paired_other_side_eligibility": true,
+      "paired_other_side_ineligibility_reasons": [],
+      "eligibility_definition": "Both displayed strings entirely identified, loss-free and free of primary doubt; artifact association itself comes from shared primary reference",
+      "notes": []
+    },
+    {
+      "pdf_page": 578,
+      "printed_page": 567,
+      "reference": "5323",
+      "side": "2",
+      "line": "0",
+      "page_group_ordinal": 8,
+      "row_locator": "PDF578, indexed group8, reference5323, side2, line0",
+      "tokens": [
+        "M087",
+        "M328"
+      ],
+      "order": "normalized reading RTL; sequence listed first-read to last-read",
+      "M328_instances": [
+        {
+          "token_index_zero_based": 1,
+          "is_R_column_reference_occurrence": true,
+          "immediately_preceding_token": "M087",
+          "immediate_preceding_stroke_count": 2,
+          "preceding_stroke_primary_doubt": false,
+          "is_final_in_this_line": true
+        }
+      ],
+      "indexed_M328_token_index_zero_based": 1,
+      "immediate_preceding_stroke_count": 2,
+      "preceding_stroke_form": "long vertical stroke group",
+      "observed_nonadjacent_stroke_group": null,
+      "complete_line": true,
+      "complete_line_definition": "No primary hatched loss passage on this displayed line; does not mean undoubted or fully decoded",
+      "primary_doubt": false,
+      "reviewer_unidentified_glyph": false,
+      "damage_marker": null,
+      "other_side_lines": [
+        {
+          "side": "1",
+          "line": "0",
+          "tokens": [
+            "M065",
+            "M060",
+            "M176"
+          ],
+          "complete_line": true,
+          "primary_doubt": false,
+          "reviewer_unidentified_glyph": false,
+          "scope": "context only; not a new indexed occurrence"
+        }
+      ],
+      "paired_other_side_eligibility": true,
+      "paired_other_side_ineligibility_reasons": [],
+      "eligibility_definition": "Both displayed strings entirely identified, loss-free and free of primary doubt; artifact association itself comes from shared primary reference",
+      "notes": []
+    },
+    {
+      "pdf_page": 578,
+      "printed_page": 567,
+      "reference": "4407",
+      "side": "2",
+      "line": "0",
+      "page_group_ordinal": 9,
+      "row_locator": "PDF578, indexed group9, reference4407, side2, line0",
+      "tokens": [
+        "M087",
+        "M328"
+      ],
+      "order": "normalized reading RTL; sequence listed first-read to last-read",
+      "M328_instances": [
+        {
+          "token_index_zero_based": 1,
+          "is_R_column_reference_occurrence": true,
+          "immediately_preceding_token": "M087",
+          "immediate_preceding_stroke_count": 2,
+          "preceding_stroke_primary_doubt": false,
+          "is_final_in_this_line": true
+        }
+      ],
+      "indexed_M328_token_index_zero_based": 1,
+      "immediate_preceding_stroke_count": 2,
+      "preceding_stroke_form": "long vertical stroke group",
+      "observed_nonadjacent_stroke_group": null,
+      "complete_line": true,
+      "complete_line_definition": "No primary hatched loss passage on this displayed line; does not mean undoubted or fully decoded",
+      "primary_doubt": false,
+      "reviewer_unidentified_glyph": false,
+      "damage_marker": null,
+      "other_side_lines": [
+        {
+          "side": "1",
+          "line": "0",
+          "tokens": [
+            "M138",
+            "M176"
+          ],
+          "complete_line": true,
+          "primary_doubt": false,
+          "reviewer_unidentified_glyph": false,
+          "scope": "context only; not a new indexed occurrence"
+        }
+      ],
+      "paired_other_side_eligibility": true,
+      "paired_other_side_ineligibility_reasons": [],
+      "eligibility_definition": "Both displayed strings entirely identified, loss-free and free of primary doubt; artifact association itself comes from shared primary reference",
+      "notes": []
+    },
+    {
+      "pdf_page": 578,
+      "printed_page": 567,
+      "reference": "5444",
+      "side": "2",
+      "line": "0",
+      "page_group_ordinal": 10,
+      "row_locator": "PDF578, indexed group10, reference5444, side2, line0",
+      "tokens": [
+        "M087",
+        "M328"
+      ],
+      "order": "normalized reading RTL; sequence listed first-read to last-read",
+      "M328_instances": [
+        {
+          "token_index_zero_based": 1,
+          "is_R_column_reference_occurrence": true,
+          "immediately_preceding_token": "M087",
+          "immediate_preceding_stroke_count": 2,
+          "preceding_stroke_primary_doubt": false,
+          "is_final_in_this_line": true
+        }
+      ],
+      "indexed_M328_token_index_zero_based": 1,
+      "immediate_preceding_stroke_count": 2,
+      "preceding_stroke_form": "long vertical stroke group",
+      "observed_nonadjacent_stroke_group": null,
+      "complete_line": true,
+      "complete_line_definition": "No primary hatched loss passage on this displayed line; does not mean undoubted or fully decoded",
+      "primary_doubt": false,
+      "reviewer_unidentified_glyph": false,
+      "damage_marker": null,
+      "other_side_lines": [
+        {
+          "side": "1",
+          "line": "0",
+          "tokens": [
+            "M138",
+            "M176"
+          ],
+          "complete_line": true,
+          "primary_doubt": false,
+          "reviewer_unidentified_glyph": false,
+          "scope": "context only; not a new indexed occurrence"
+        }
+      ],
+      "paired_other_side_eligibility": true,
+      "paired_other_side_ineligibility_reasons": [],
+      "eligibility_definition": "Both displayed strings entirely identified, loss-free and free of primary doubt; artifact association itself comes from shared primary reference",
+      "notes": []
+    },
+    {
+      "pdf_page": 578,
+      "printed_page": 567,
+      "reference": "5270",
+      "side": "2",
+      "line": "0",
+      "page_group_ordinal": 11,
+      "row_locator": "PDF578, indexed group11, reference5270, side2, line0",
+      "tokens": [
+        "M087",
+        "M328"
+      ],
+      "order": "normalized reading RTL; sequence listed first-read to last-read",
+      "M328_instances": [
+        {
+          "token_index_zero_based": 1,
+          "is_R_column_reference_occurrence": true,
+          "immediately_preceding_token": "M087",
+          "immediate_preceding_stroke_count": 2,
+          "preceding_stroke_primary_doubt": false,
+          "is_final_in_this_line": true
+        }
+      ],
+      "indexed_M328_token_index_zero_based": 1,
+      "immediate_preceding_stroke_count": 2,
+      "preceding_stroke_form": "long vertical stroke group",
+      "observed_nonadjacent_stroke_group": null,
+      "complete_line": true,
+      "complete_line_definition": "No primary hatched loss passage on this displayed line; does not mean undoubted or fully decoded",
+      "primary_doubt": false,
+      "reviewer_unidentified_glyph": false,
+      "damage_marker": null,
+      "other_side_lines": [
+        {
+          "side": "1",
+          "line": "0",
+          "tokens": [
+            "M175",
+            "M176",
+            "M211",
+            "M176"
+          ],
+          "complete_line": true,
+          "primary_doubt": false,
+          "reviewer_unidentified_glyph": false,
+          "scope": "context only; not a new indexed occurrence"
+        }
+      ],
+      "paired_other_side_eligibility": true,
+      "paired_other_side_ineligibility_reasons": [],
+      "eligibility_definition": "Both displayed strings entirely identified, loss-free and free of primary doubt; artifact association itself comes from shared primary reference",
+      "notes": []
+    },
+    {
+      "pdf_page": 578,
+      "printed_page": 567,
+      "reference": "4610",
+      "side": "2",
+      "line": "0",
+      "page_group_ordinal": 12,
+      "row_locator": "PDF578, indexed group12, reference4610, side2, line0",
+      "tokens": [
+        "M087",
+        "M328"
+      ],
+      "order": "normalized reading RTL; sequence listed first-read to last-read",
+      "M328_instances": [
+        {
+          "token_index_zero_based": 1,
+          "is_R_column_reference_occurrence": true,
+          "immediately_preceding_token": "M087",
+          "immediate_preceding_stroke_count": 2,
+          "preceding_stroke_primary_doubt": false,
+          "is_final_in_this_line": true
+        }
+      ],
+      "indexed_M328_token_index_zero_based": 1,
+      "immediate_preceding_stroke_count": 2,
+      "preceding_stroke_form": "long vertical stroke group",
+      "observed_nonadjacent_stroke_group": null,
+      "complete_line": true,
+      "complete_line_definition": "No primary hatched loss passage on this displayed line; does not mean undoubted or fully decoded",
+      "primary_doubt": false,
+      "reviewer_unidentified_glyph": false,
+      "damage_marker": null,
+      "other_side_lines": [
+        {
+          "side": "1",
+          "line": "0",
+          "tokens": [
+            "M379",
+            "M307",
+            "M176"
+          ],
+          "complete_line": true,
+          "primary_doubt": false,
+          "reviewer_unidentified_glyph": false,
+          "scope": "context only; not a new indexed occurrence"
+        }
+      ],
+      "paired_other_side_eligibility": true,
+      "paired_other_side_ineligibility_reasons": [],
+      "eligibility_definition": "Both displayed strings entirely identified, loss-free and free of primary doubt; artifact association itself comes from shared primary reference",
+      "notes": []
+    },
+    {
+      "pdf_page": 578,
+      "printed_page": 567,
+      "reference": "4682",
+      "side": "2",
+      "line": "0",
+      "page_group_ordinal": 13,
+      "row_locator": "PDF578, indexed group13, reference4682, side2, line0",
+      "tokens": [
+        "M087",
+        "M328"
+      ],
+      "order": "normalized reading RTL; sequence listed first-read to last-read",
+      "M328_instances": [
+        {
+          "token_index_zero_based": 1,
+          "is_R_column_reference_occurrence": true,
+          "immediately_preceding_token": "M087",
+          "immediate_preceding_stroke_count": 2,
+          "preceding_stroke_primary_doubt": false,
+          "is_final_in_this_line": true
+        }
+      ],
+      "indexed_M328_token_index_zero_based": 1,
+      "immediate_preceding_stroke_count": 2,
+      "preceding_stroke_form": "long vertical stroke group",
+      "observed_nonadjacent_stroke_group": null,
+      "complete_line": true,
+      "complete_line_definition": "No primary hatched loss passage on this displayed line; does not mean undoubted or fully decoded",
+      "primary_doubt": false,
+      "reviewer_unidentified_glyph": false,
+      "damage_marker": null,
+      "other_side_lines": [
+        {
+          "side": "1",
+          "line": "0",
+          "tokens": [
+            "M379",
+            "M307",
+            "M176"
+          ],
+          "complete_line": true,
+          "primary_doubt": false,
+          "reviewer_unidentified_glyph": false,
+          "scope": "context only; not a new indexed occurrence"
+        }
+      ],
+      "paired_other_side_eligibility": true,
+      "paired_other_side_ineligibility_reasons": [],
+      "eligibility_definition": "Both displayed strings entirely identified, loss-free and free of primary doubt; artifact association itself comes from shared primary reference",
+      "notes": []
+    },
+    {
+      "pdf_page": 578,
+      "printed_page": 567,
+      "reference": "5285",
+      "side": "2",
+      "line": "0",
+      "page_group_ordinal": 14,
+      "row_locator": "PDF578, indexed group14, reference5285, side2, line0",
+      "tokens": [
+        "M087",
+        "M328"
+      ],
+      "order": "normalized reading RTL; sequence listed first-read to last-read",
+      "M328_instances": [
+        {
+          "token_index_zero_based": 1,
+          "is_R_column_reference_occurrence": true,
+          "immediately_preceding_token": "M087",
+          "immediate_preceding_stroke_count": 2,
+          "preceding_stroke_primary_doubt": false,
+          "is_final_in_this_line": true
+        }
+      ],
+      "indexed_M328_token_index_zero_based": 1,
+      "immediate_preceding_stroke_count": 2,
+      "preceding_stroke_form": "long vertical stroke group",
+      "observed_nonadjacent_stroke_group": null,
+      "complete_line": true,
+      "complete_line_definition": "No primary hatched loss passage on this displayed line; does not mean undoubted or fully decoded",
+      "primary_doubt": false,
+      "reviewer_unidentified_glyph": false,
+      "damage_marker": null,
+      "other_side_lines": [
+        {
+          "side": "1",
+          "line": "0",
+          "tokens": [
+            "M379",
+            "M307",
+            "M176"
+          ],
+          "complete_line": true,
+          "primary_doubt": false,
+          "reviewer_unidentified_glyph": false,
+          "scope": "context only; not a new indexed occurrence"
+        }
+      ],
+      "paired_other_side_eligibility": true,
+      "paired_other_side_ineligibility_reasons": [],
+      "eligibility_definition": "Both displayed strings entirely identified, loss-free and free of primary doubt; artifact association itself comes from shared primary reference",
+      "notes": []
+    },
+    {
+      "pdf_page": 578,
+      "printed_page": 567,
+      "reference": "4342",
+      "side": "2",
+      "line": "0",
+      "page_group_ordinal": 15,
+      "row_locator": "PDF578, indexed group15, reference4342, side2, line0",
+      "tokens": [
+        "M087",
+        "M328"
+      ],
+      "order": "normalized reading RTL; sequence listed first-read to last-read",
+      "M328_instances": [
+        {
+          "token_index_zero_based": 1,
+          "is_R_column_reference_occurrence": true,
+          "immediately_preceding_token": "M087",
+          "immediate_preceding_stroke_count": 2,
+          "preceding_stroke_primary_doubt": false,
+          "is_final_in_this_line": true
+        }
+      ],
+      "indexed_M328_token_index_zero_based": 1,
+      "immediate_preceding_stroke_count": 2,
+      "preceding_stroke_form": "long vertical stroke group",
+      "observed_nonadjacent_stroke_group": null,
+      "complete_line": true,
+      "complete_line_definition": "No primary hatched loss passage on this displayed line; does not mean undoubted or fully decoded",
+      "primary_doubt": false,
+      "reviewer_unidentified_glyph": false,
+      "damage_marker": null,
+      "other_side_lines": [
+        {
+          "side": "1",
+          "line": "0",
+          "tokens": [
+            "M065",
+            "M008",
+            "M342",
+            "M176"
+          ],
+          "complete_line": true,
+          "primary_doubt": false,
+          "reviewer_unidentified_glyph": false,
+          "scope": "context only; not a new indexed occurrence"
+        }
+      ],
+      "paired_other_side_eligibility": true,
+      "paired_other_side_ineligibility_reasons": [],
+      "eligibility_definition": "Both displayed strings entirely identified, loss-free and free of primary doubt; artifact association itself comes from shared primary reference",
+      "notes": []
+    },
+    {
+      "pdf_page": 578,
+      "printed_page": 567,
+      "reference": "4548",
+      "side": "2",
+      "line": "0",
+      "page_group_ordinal": 16,
+      "row_locator": "PDF578, indexed group16, reference4548, side2, line0",
+      "tokens": [
+        "M087",
+        "M328"
+      ],
+      "order": "normalized reading RTL; sequence listed first-read to last-read",
+      "M328_instances": [
+        {
+          "token_index_zero_based": 1,
+          "is_R_column_reference_occurrence": true,
+          "immediately_preceding_token": "M087",
+          "immediate_preceding_stroke_count": 2,
+          "preceding_stroke_primary_doubt": false,
+          "is_final_in_this_line": true
+        }
+      ],
+      "indexed_M328_token_index_zero_based": 1,
+      "immediate_preceding_stroke_count": 2,
+      "preceding_stroke_form": "long vertical stroke group",
+      "observed_nonadjacent_stroke_group": null,
+      "complete_line": true,
+      "complete_line_definition": "No primary hatched loss passage on this displayed line; does not mean undoubted or fully decoded",
+      "primary_doubt": false,
+      "reviewer_unidentified_glyph": false,
+      "damage_marker": null,
+      "other_side_lines": [
+        {
+          "side": "1",
+          "line": "0",
+          "tokens": [
+            "M048",
+            "M342",
+            "M176"
+          ],
+          "complete_line": true,
+          "primary_doubt": false,
+          "reviewer_unidentified_glyph": false,
+          "scope": "context only; not a new indexed occurrence"
+        }
+      ],
+      "paired_other_side_eligibility": true,
+      "paired_other_side_ineligibility_reasons": [],
+      "eligibility_definition": "Both displayed strings entirely identified, loss-free and free of primary doubt; artifact association itself comes from shared primary reference",
+      "notes": []
+    }
+  ],
+  "downloads": []
+}

@@ -1,0 +1,115 @@
+{
+  "calibration_refit_performed": false,
+  "conclusion": "The old field-number heights agree after conversion. This does not settle contradictory aliases, sign segmentation or a capacity-per-stroke prediction.",
+  "established_phonetic_values": 0,
+  "established_semantic_values": 0,
+  "independent_test_candidate": {
+    "context": "F/I/M12/6, stratumVI, depth15ft9in",
+    "eligible_for_current_tally_capacity_test": false,
+    "identifier": "3822",
+    "mouth_diameter_cm": 27.94,
+    "mouth_diameter_inches": 11,
+    "primary_height_cm": 68.58,
+    "primary_height_feet": 2,
+    "primary_height_inches": 3,
+    "reasons": [
+      "Shoulder pictograms not authenticated as counted rim tallies",
+      "No internal profile or measured fill volume recovered",
+      "Not a prospectively selected independent sample"
+    ],
+    "reported_inscription": "3 pictograms at shoulder",
+    "table_serial": 18
+  },
+  "input_sha256": {
+    "data/processed/capacity_context_crop_manifest.json": "6772fbec19cbc4ba8d3db56221e0a836dd934eadcb44a4bef491ff0b25ace13d",
+    "data/processed/capacity_h370_identities.json": "63d59271057db319d0e4ddd5b3fe56708c038aab0021a56850eb4bd45e90f6bf",
+    "data/processed/capacity_md1374_cisi2_review.json": "3054c124de6d8147d277f67d1fb9e9f4ddcc06eab8c097ba89d82cf9f45427cb",
+    "data/processed/capacity_table_followup.json": "15a8bc4e1dfaa3a98d80ffc49eef40f4e0aef312bd96631fa7a1dcfa8689b129",
+    "data/processed/capacity_table_primary_review.json": "130dcc595291f4828fc5721a293ae6a6d5429ace4ba6e449840f6fdeddeaad74",
+    "data/raw/capacity-context-vats-leaf117.jpg": "8ab56e2b2e416378105c89579e842a220a77199b6a43e6d85737f09913d7df08",
+    "data/raw/capacity-context-vats-leaf277.jpg": "d437dd61470fe3e613688166446b2c608ab9dc615a1721e1a6d507db99200151",
+    "data/raw/capacity-context-vats-leaf278.jpg": "4343d3ec83a837fddc693d7e312eb5fa35d15dc495e04799839d195629235a7b",
+    "data/raw/capacity-context-vats-leaf279.jpg": "f354688604f54c79ae238c765f2488212ed8d6c1b645af55f1826b044ff873cc",
+    "data/raw/capacity-context-vats-leaf280.jpg": "ec77d24d111ac18e2bf563c6ff7c6fb49d3d126971992e71844849705974e7fc",
+    "data/raw/capacity-context-vats-leaf281.jpg": "a49bf11a57842dd8d44abf2215b8ceb10e51924ee0b8236822e75d9442474513",
+    "data/raw/vats_1940_plates_9842.pdf": "ab14c5c3a25588d3178789f83ae724eecf7cd873fb28c0a2c639a4dee21b8b18",
+    "scripts/analyze_capacity_context.py": "7b3ae97f1f493a957b7d604430729adf0d4a0d67d452755ac9f955eadcbf1785"
+  },
+  "new_complete_external_test_pairs": 0,
+  "new_direct_fill_measurements": 0,
+  "reported_contents": {
+    "1033A": {
+      "locator": "printed255,row2",
+      "observations": [
+        "seated male toy",
+        "miscellaneous potsherds",
+        "round faience bead",
+        "some charcoal"
+      ]
+    },
+    "1033B": {
+      "locator": "printed255,row3",
+      "observations": [
+        "cake fragments",
+        "goblet/vase potsherds",
+        "bangle fragments",
+        "charred wheat and slag"
+      ]
+    },
+    "limit": "Recorded deposition assemblages, not direct evidence for original use, fill volume or inscription referent."
+  },
+  "reviewed_rows": [
+    {
+      "absolute_difference_cm": 0.04,
+      "agrees_when_rounded_to_one_decimal": true,
+      "cisi_alias_accepted_here": true,
+      "cisi_label_claimed_in_fuls_text": "H-371",
+      "context": {
+        "depth_feet": 5,
+        "depth_inches": 6,
+        "mound": "F",
+        "primary_locator": "Vats1940 volumeI printed254–255, tableI rows2–3; printed91",
+        "square": "M11/16",
+        "stratum": "III",
+        "trench": "I"
+      },
+      "directly_measured_capacity_litres": null,
+      "excavation_identifier": "1033A",
+      "fuls_public_text_external_height_cm": 91.4,
+      "numeral_value": null,
+      "primary_description": "large, napiform",
+      "primary_dimension_type": "Ht.; external/internal not explicitly specified in Vats cell",
+      "primary_height_cm": 91.44,
+      "primary_height_feet": 3,
+      "primary_height_inches": 0,
+      "table_serial": 2
+    },
+    {
+      "absolute_difference_cm": 0.04,
+      "agrees_when_rounded_to_one_decimal": true,
+      "cisi_alias_accepted_here": false,
+      "cisi_label_claimed_in_fuls_text": "H-370",
+      "context": {
+        "depth_feet": 5,
+        "depth_inches": 6,
+        "mound": "F",
+        "primary_locator": "Vats1940 volumeI printed254–255, tableI rows2–3; printed91",
+        "square": "M11/16",
+        "stratum": "III",
+        "trench": "I"
+      },
+      "directly_measured_capacity_litres": null,
+      "excavation_identifier": "1033B",
+      "fuls_public_text_external_height_cm": 86.4,
+      "numeral_value": null,
+      "primary_description": "Do. referring to large, napiform",
+      "primary_dimension_type": "Ht.; external/internal not explicitly specified in Vats cell",
+      "primary_height_cm": 86.36,
+      "primary_height_feet": 2,
+      "primary_height_inches": 10,
+      "table_serial": 3
+    }
+  ],
+  "scope": "Primary measurement agreement by excavation number; no semantic assignment",
+  "shared_find_context_groups": 1
+}

@@ -1,0 +1,226 @@
+{
+  "W_only_group": {
+    "definition": "Published W only; excluding seal-recurrence inference W1 and general-area W2",
+    "multiple_impression_rows": 6,
+    "rows": 35,
+    "single_impression_rows": 29,
+    "sum_of_reported_impressions": 45,
+    "type_counts": {
+      "leather sacks": 1,
+      "lockers": 2,
+      "on woven straw": 1,
+      "parallel canes": 1,
+      "pegs-on-wall": 3,
+      "pottery": 6,
+      "structures": 4,
+      "undiagnostic": 3,
+      "wooden boxes": 14
+    }
+  },
+  "context_by_type": {
+    "?": {
+      "lockers": 3,
+      "on wicker": 1,
+      "other types": 1,
+      "parallel canes": 1,
+      "pegs-on-wall": 1,
+      "pottery": 4,
+      "undiagnostic": 7,
+      "wooden boxes": 1
+    },
+    "O": {
+      "leather sacks": 1,
+      "lockers": 2,
+      "on single rope": 1,
+      "parallel canes": 1,
+      "pottery": 1,
+      "structures": 2,
+      "undiagnostic": 2
+    },
+    "W": {
+      "leather sacks": 1,
+      "lockers": 2,
+      "on woven straw": 1,
+      "parallel canes": 1,
+      "pegs-on-wall": 3,
+      "pottery": 6,
+      "structures": 4,
+      "undiagnostic": 3,
+      "wooden boxes": 14
+    },
+    "W1": {
+      "parallel canes": 1,
+      "pegs-on-wall": 1,
+      "pottery": 7,
+      "structures": 4,
+      "undiagnostic": 5
+    },
+    "W2": {
+      "lockers": 2,
+      "parallel canes": 1,
+      "pegs-on-wall": 4,
+      "pottery": 3,
+      "undiagnostic": 1
+    }
+  },
+  "context_counts": {
+    "?": 19,
+    "O": 10,
+    "W": 35,
+    "W1": 18,
+    "W2": 11
+  },
+  "impression_count_distribution": {
+    "1": 62,
+    "2": 25,
+    "3": 4,
+    "4": 1,
+    "5": 1
+  },
+  "impression_prose_comparison": {
+    "prose": {
+      "impressions_on_multiple_impression_objects": 67,
+      "single_impression_objects": 63,
+      "total_impressions": 130
+    },
+    "prose_printed_page": 82,
+    "status": "Unresolved source inconsistency; no row repaired to match prose.",
+    "table": {
+      "impressions_on_multiple_impression_objects": 71,
+      "single_impression_objects": 62,
+      "total_impressions": 133
+    },
+    "table_minus_prose": {
+      "impressions_on_multiple_impression_objects": 4,
+      "single_impression_objects": -1,
+      "total_impressions": 3
+    }
+  },
+  "impressions_on_multiple_impression_objects": 71,
+  "individual_prose_comparisons": [
+    {
+      "cisi_id": "L-174",
+      "prose_impressions": 2,
+      "prose_printed_page": 80,
+      "status": "Explicit disagreement; table cell retained as 1. Two impressions from one seal are not two different matrices.",
+      "table_impressions": 1
+    },
+    {
+      "cisi_id": "L-209",
+      "prose_context": "not contextualized",
+      "prose_printed_page": 82,
+      "status": "Possible difference of spatial precision: W2 is a general SRG3-area assignment, not an exact findspot. No reconciliation established.",
+      "table_context": "W2"
+    }
+  ],
+  "input_sha256": "172b577d509a401f42bd0a38278cf4f63418625a3ce518cc2e77bac0f4da595c",
+  "limits": [
+    "Impression counts are per clay object, not counts of script signs or unique seal matrices.",
+    "W1 is assigned through recurring seal impressions, not independent excavated provenience.",
+    "Types and contexts are the authors' published classifications; this is not direct artifact examination.",
+    "Question marks describe indeterminate discovery context, not uncertain transcription of the cell.",
+    "No sign meanings, phonetic values, ancient owner identities or commodities are assigned."
+  ],
+  "multiple_impression_objects": [
+    "L-150",
+    "L-156",
+    "L-188",
+    "L-189",
+    "L-190",
+    "L-191",
+    "L-192",
+    "L-193",
+    "L-194",
+    "L-195",
+    "L-196",
+    "L-197",
+    "L-198",
+    "L-199",
+    "L-200",
+    "L-201",
+    "L-202",
+    "L-203",
+    "L-204",
+    "L-205",
+    "L-206",
+    "L-207",
+    "L-208",
+    "L-209",
+    "L-210",
+    "L-211",
+    "L-212",
+    "L-213",
+    "L-214",
+    "L-215",
+    "L-216"
+  ],
+  "prose_comparison": {
+    "prose_W2_basis": "64 minus 53 in printed p.72, not an explicit isolated W2 count",
+    "prose_categories_sum": 92,
+    "prose_context_counts": {
+      "?": 17,
+      "O": 11,
+      "W": 35,
+      "W1": 18,
+      "W2": 11
+    },
+    "table_minus_prose": {
+      "?": 2,
+      "O": -1,
+      "W": 0,
+      "W1": 0,
+      "W2": 0
+    }
+  },
+  "rows": 93,
+  "source": {
+    "authors": [
+      "Dennys Frenez",
+      "Maurizio Tosi"
+    ],
+    "caption_printed_page": 92,
+    "pdf_pages": [
+      31,
+      32
+    ],
+    "printed_pages": [
+      93,
+      94
+    ],
+    "table": "Table 1",
+    "year": 2005
+  },
+  "sum_of_reported_impressions": 133,
+  "type_counts": {
+    "leather sacks": 2,
+    "lockers": 9,
+    "on single rope": 1,
+    "on wicker": 1,
+    "on woven straw": 1,
+    "other types": 1,
+    "parallel canes": 5,
+    "pegs-on-wall": 9,
+    "pottery": 21,
+    "structures": 10,
+    "undiagnostic": 18,
+    "wooden boxes": 15
+  },
+  "warehouse_group": {
+    "definition": "Published W + W1 + W2; different evidence levels retained",
+    "multiple_impression_rows": 19,
+    "rows": 64,
+    "single_impression_rows": 45,
+    "sum_of_reported_impressions": 87,
+    "type_counts": {
+      "leather sacks": 1,
+      "lockers": 4,
+      "on woven straw": 1,
+      "parallel canes": 3,
+      "pegs-on-wall": 8,
+      "pottery": 16,
+      "structures": 8,
+      "undiagnostic": 9,
+      "wooden boxes": 14
+    }
+  }
+}

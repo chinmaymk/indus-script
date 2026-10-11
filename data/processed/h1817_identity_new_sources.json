@@ -1,0 +1,43 @@
+{
+  "sources": [
+    {
+      "path": "data/raw/h1817_archive_report_search.json",
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28Harappa%29+AND+%281994+OR+%22Archaeological+Research+Project%22%29&output=json&rows=100&fl%5B%5D=identifier%2Ctitle%2Cdate",
+      "kind": "public_archive_search_api_json_not_original_catalogue",
+      "query": "title:(Harappa) AND (1994 OR \"Archaeological Research Project\")",
+      "bytes": 721,
+      "sha256": "38a8e07d73200fab9edbb80ad265208106d7ba9356f4d465b409f0bb6ecb7c82"
+    },
+    {
+      "path": "data/raw/h1817_archive_cisi_search.json",
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22Corpus+of+Indus+Seals%22%29&output=json&rows=100&fl%5B%5D=identifier%2Ctitle%2Cdate",
+      "kind": "public_archive_search_api_json_not_original_catalogue",
+      "query": "title:(\"Corpus of Indus Seals\")",
+      "bytes": 443,
+      "sha256": "e9d9d938c566c5e4e28896cdd1c2f1c38224b0d6076cfc9581f9d51f96027ee6"
+    }
+  ],
+  "web_extraction_captures": [
+    {
+      "path": "data/raw/h1817_identity_web_captures.json",
+      "bytes": 174417,
+      "sha256": "a1620a2c0997d2fc63f4e7a97d897f30d392ad5653808d9aa59937c91ca2fb97",
+      "url": "https://researchportal.helsinki.fi/en/publications/corpus-of-indus-seals-and-inscriptions-volume-3-new-material-untr/",
+      "source_urls": [
+        "https://researchportal.helsinki.fi/en/publications/corpus-of-indus-seals-and-inscriptions-volume-3-new-material-untr/",
+        "https://www.harappa.com/content/harp",
+        "https://anthropology.fas.harvard.edu/people/richard-h-meadow",
+        "https://sanskritdocuments.org/scannedbooks/asiallpdfs.html"
+      ],
+      "kind": "web_tool_search_and_open_capture_not_original_documents",
+      "refetchable": false
+    }
+  ],
+  "failed_fetches": [
+    {
+      "url": "https://anthropology.fas.harvard.edu/people/richard-h-meadow",
+      "client": "web tool open",
+      "result": "HTTP403 reported by web reader; no original response body downloaded; failure text retained inside capture"
+    }
+  ]
+}

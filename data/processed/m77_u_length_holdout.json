@@ -1,0 +1,323 @@
+{
+  "status": "Frozen exact nominal length rule falsified; no represented quantity inferred",
+  "protocol": {
+    "path": "data/processed/m77_u_length_prediction_protocol.json",
+    "bytes": 2139,
+    "sha256": "f846496001b02dba2c750b07a1673e0e84ec66ed6b43dea4f3a02ef52de2d1fc"
+  },
+  "4476_preread": {
+    "observation_utc": "2026-09-23 18:13:27 UTC",
+    "dimension_lookup_started": false,
+    "protocol_sha256": "f846496001b02dba2c750b07a1673e0e84ec66ed6b43dea4f3a02ef52de2d1fc",
+    "reference": "4476",
+    "main_tokens": [
+      "M048",
+      "M342",
+      "M176"
+    ],
+    "auxiliary_tokens": [
+      "*M095",
+      "M328"
+    ],
+    "visually_observed_long_strokes": 4,
+    "primary_reading_doubt": true,
+    "predicted_length_if_four_stroke_reading": "7/16",
+    "pdf_page": 126,
+    "printed_page": 115,
+    "side1_metadata": "310001",
+    "side2_metadata": "20002",
+    "direction_main": "RTL",
+    "direction_auxiliary": "LTR",
+    "image": "results/primary_pages/m77-u-holdout-4476-detail.png",
+    "note": "Primary star on four-stroke group retained; not yet dimension-reviewed. M77 normalizes all displayed lines RTL."
+  },
+  "lookup_order": "4476 primary glyph observation and prediction saved before first Vats dimension search; other counts supplied in frozen protocol",
+  "join": "M77 AppendixV printed821/PDF830 explicitly maps4001\u20134713 to EHII items1\u2013713. Exact numbered plates and VatsI dimension-table rows visually inspected.",
+  "rows": [
+    {
+      "reference": "4403",
+      "eh_item": "403",
+      "count": 3,
+      "table_length": "0.55",
+      "table_width": "0.3",
+      "table_page": 347,
+      "leaf": 373,
+      "material": "white steatite",
+      "find_number": "8102",
+      "area": "F",
+      "depth": "5ft3in",
+      "type_code": "h",
+      "plate": "XCV",
+      "plate_pdf_page": 198,
+      "condition": "Narrative explicitly fragmentary; photographed fragment retained.",
+      "narrative_length": "11/20",
+      "narrative_width": null,
+      "narrative_page": 72,
+      "narrative_leaf": 98,
+      "narrative_join": "Explicit EH403 and excavation8102",
+      "eligibility": "damage-sensitive",
+      "prediction_inches": "3/8",
+      "table_residual_inches_exact": "7/40",
+      "table_exact_match": false,
+      "narrative_residual_inches_exact": "7/40",
+      "narrative_exact_match": false,
+      "table_image": "data/raw/vats_1940_holdout_leaf373.jpg"
+    },
+    {
+      "reference": "4405",
+      "eh_item": "405",
+      "count": 3,
+      "table_length": "0.6",
+      "table_width": "0.3",
+      "table_page": 347,
+      "leaf": 373,
+      "material": "white steatite",
+      "find_number": "2355",
+      "area": "F",
+      "depth": "15ft3in",
+      "type_code": "j",
+      "plate": "XCV",
+      "plate_pdf_page": 198,
+      "condition": "Both oval faces pictured; no fragmentary condition specified in joined narrative.",
+      "narrative_length": "5/8",
+      "narrative_width": "5/16",
+      "narrative_page": 109,
+      "narrative_leaf": 135,
+      "narrative_join": "Table EH405 identifies find2355; narrative item6 explicitly find2355, similar to item2. Not joined merely by similar-to description.",
+      "eligibility": "decisive",
+      "prediction_inches": "3/8",
+      "table_residual_inches_exact": "9/40",
+      "table_exact_match": false,
+      "narrative_residual_inches_exact": "1/4",
+      "narrative_exact_match": false,
+      "table_image": "data/raw/vats_1940_holdout_leaf373.jpg"
+    },
+    {
+      "reference": "4476",
+      "eh_item": "476",
+      "count": 4,
+      "table_length": "0.4",
+      "table_width": "0.3",
+      "table_page": 349,
+      "leaf": 377,
+      "material": "white steatite",
+      "find_number": null,
+      "area": null,
+      "depth": null,
+      "type_code": "h",
+      "plate": "XCVI",
+      "plate_pdf_page": 200,
+      "condition": "Primary *M095 doubtful; plate shows missing upper/left portions. Four-stroke interpretation conditional.",
+      "narrative_length": null,
+      "narrative_width": null,
+      "narrative_page": null,
+      "narrative_leaf": null,
+      "narrative_join": null,
+      "eligibility": "doubt-and-damage-sensitive",
+      "prediction_inches": "7/16",
+      "table_residual_inches_exact": "-3/80",
+      "table_exact_match": false,
+      "table_image": "data/raw/vats_1940_holdout_leaf377.jpg"
+    },
+    {
+      "reference": "4516",
+      "eh_item": "516",
+      "count": 4,
+      "table_length": "0.55",
+      "table_width": "0.3",
+      "table_page": 349,
+      "leaf": 377,
+      "material": "white steatite",
+      "find_number": "262",
+      "area": "G",
+      "depth": "10ft0in",
+      "type_code": "h",
+      "plate": "XCVII",
+      "plate_pdf_page": 202,
+      "condition": "Both rectangular faces pictured; no autopsy or completeness guarantee.",
+      "narrative_length": null,
+      "narrative_width": null,
+      "narrative_page": null,
+      "narrative_leaf": null,
+      "narrative_join": "OCR lead G262 and EH516 consistent with table; narrative not visually authenticated, not used for dimensions. OCR also misreads unrelated unfinished one-face item as516; excluded.",
+      "eligibility": "table-supported",
+      "prediction_inches": "7/16",
+      "table_residual_inches_exact": "9/80",
+      "table_exact_match": false,
+      "table_image": "data/raw/vats_1940_holdout_leaf377.jpg"
+    },
+    {
+      "reference": "4543",
+      "eh_item": "543",
+      "count": 3,
+      "table_length": "0.4",
+      "table_width": "0.3",
+      "table_page": 350,
+      "leaf": 378,
+      "material": "white steatite (table); burnt steatite (narrative)",
+      "find_number": "1261",
+      "area": "F",
+      "depth": "11ft4in",
+      "type_code": "i",
+      "plate": "XCVII",
+      "plate_pdf_page": 202,
+      "condition": "Both oval faces pictured; no fragmentary condition specified in joined narrative.",
+      "narrative_length": "7/16",
+      "narrative_width": "5/16",
+      "narrative_page": 93,
+      "narrative_leaf": 119,
+      "narrative_join": "Table EH543 identifies find1261; narrative StratumV item2 gives1261 but says similar to543. Identity rests on find number, and source wording discrepancy is retained.",
+      "eligibility": "table-supported-with-narrative-wording-caveat",
+      "prediction_inches": "3/8",
+      "table_residual_inches_exact": "1/40",
+      "table_exact_match": false,
+      "narrative_residual_inches_exact": "1/16",
+      "narrative_exact_match": false,
+      "table_image": "data/raw/vats_1940_holdout_leaf378.jpg"
+    }
+  ],
+  "summary": {
+    "fixed_candidates": 5,
+    "table_dimensions_recovered": 5,
+    "table_exact_matches": 0,
+    "decisive_counterexample": "4405/EH405: expected3/8; table0.6 and narrative5/8, linked by exact find2355. No damage exclusion or refit rescues the frozen exact rule."
+  },
+  "source_discrepancies": [
+    "Vats narrative fractional and tabular decimal dimensions are not interchangeable.",
+    "Training508 table0.45x0.28 vs narrative7/16x1/4;509 table0.4x0.25 vs narrative3/8x1/4;548 tableDiameter0.3 vs narrative5/16x1/4.",
+    "Archive page-number metadata is locally unreliable: leaf374 is printed346, leaf373 printed347, leaf376 printed348; verify printed pages visually.",
+    "Narrative similar-to543 find1261 is associated via exact table find number, not similarity alone."
+  ],
+  "limitations": [
+    "No posthoc tolerance or revised formula tested. A decimal table mismatch alone may reflect rounding; decisive405 differs substantially in both source representations.",
+    "4476 is doubtful and broken;403 is fragmentary. Neither is needed for the robust counterexample.",
+    "Photographs are low-resolution halftones, not fresh measurements or autopsies.",
+    "No inference about mass, vessel capacity, goods, arithmetic denominations or semantic numeric values follows.",
+    "Prospective relative to targeted lookup, not externally registered or blind; training was selected posthoc.",
+    "All five fixed candidates retained. Repeated inscriptions need not be independent production events."
+  ],
+  "downloads": [
+    {
+      "path": "data/raw/vats_1940_holdout_leaf119.jpg",
+      "url": "https://archive.org/download/in.gov.ignca.18220/page/n119.jpg",
+      "bytes": 2238249,
+      "sha256": "90f2da16ddccc8608d113e3b7ece33ccb247f85f234506ca8b8387eeaeb012ed"
+    },
+    {
+      "path": "data/raw/vats_1940_holdout_leaf135.jpg",
+      "url": "https://archive.org/download/in.gov.ignca.18220/page/n135.jpg",
+      "bytes": 2248383,
+      "sha256": "d8ca80ca9fdd0e5ea85e5c901fbe31177a463c3a4665d7e88cbdf821bb93ca7b"
+    },
+    {
+      "path": "data/raw/vats_1940_holdout_leaf373.jpg",
+      "url": "https://archive.org/download/in.gov.ignca.18220/page/n373.jpg",
+      "bytes": 2033261,
+      "sha256": "155832693ff2d52e27f050f4b974cf06cdd1f4039f1263cc9d187a908258dfde"
+    },
+    {
+      "path": "data/raw/vats_1940_holdout_leaf374.jpg",
+      "url": "https://archive.org/download/in.gov.ignca.18220/page/n374.jpg",
+      "bytes": 2071440,
+      "sha256": "d804fe31da076815a70c25dac41c17c7e920d35933abc68ff498cb041a79c06c"
+    },
+    {
+      "path": "data/raw/vats_1940_holdout_leaf376.jpg",
+      "url": "https://archive.org/download/in.gov.ignca.18220/page/n376.jpg",
+      "bytes": 1908197,
+      "sha256": "44c2d33f4b25b3a79b3e1a794ae17c0c9d6d0c2a38962189cb43064be5b21a23"
+    },
+    {
+      "path": "data/raw/vats_1940_holdout_leaf377.jpg",
+      "url": "https://archive.org/download/in.gov.ignca.18220/page/n377.jpg",
+      "bytes": 1872293,
+      "sha256": "84c001dac9868e418a1611a10348b6a1026b1502395bd418e3da1ca80f191eca"
+    },
+    {
+      "path": "data/raw/vats_1940_holdout_leaf378.jpg",
+      "url": "https://archive.org/download/in.gov.ignca.18220/page/n378.jpg",
+      "bytes": 2110523,
+      "sha256": "848b2d72d34d8d40760e528693044c4dc9731f5f89af119db0906a7d3c777753"
+    },
+    {
+      "path": "data/raw/vats_1940_holdout_leaf98.jpg",
+      "url": "https://archive.org/download/in.gov.ignca.18220/page/n98.jpg",
+      "bytes": 2695343,
+      "sha256": "92d8c7de9e19c1a4e6bdcdc8e4535f3f224d2ef697ee4ec70c4933f6dbdb07fb"
+    }
+  ],
+  "images": [
+    {
+      "path": "results/primary_pages/m77-u-holdout-126.png",
+      "bytes": 1430428,
+      "sha256": "f3f8935f4943901f44283b74e5bb3313184fb23fc2b9519e16cd476a01e1e66d"
+    },
+    {
+      "path": "results/primary_pages/m77-u-holdout-4476-detail.png",
+      "bytes": 121823,
+      "sha256": "fbe61b39fab5fcabb7b7012c3c71a07af9e5b37413bf70703eb9dc1997bdbdb1"
+    },
+    {
+      "path": "results/primary_pages/m77-u-holdout-narrative-2355.png",
+      "bytes": 582585,
+      "sha256": "31faf15723194d65c05422ebd7cffd1a23601494d02da2be1c2d5f06921ed774"
+    },
+    {
+      "path": "results/primary_pages/m77-u-holdout-plate95-198.png",
+      "bytes": 2062325,
+      "sha256": "c85161eb5ede1825d4343700e67f5f844800daf0c351f940d07045430f45977c"
+    },
+    {
+      "path": "results/primary_pages/m77-u-holdout-plates-200.png",
+      "bytes": 2096998,
+      "sha256": "49fd2ba7c0b3a22f7c90eed8c2e88f6582b0c2f09c4574e3165813d0a7034018"
+    },
+    {
+      "path": "results/primary_pages/m77-u-holdout-plates-201.png",
+      "bytes": 363341,
+      "sha256": "9349d2ace30001f493bc55024b0d847603e7c9584828341b92825544da84eaa5"
+    },
+    {
+      "path": "results/primary_pages/m77-u-holdout-plates-202.png",
+      "bytes": 2162603,
+      "sha256": "14692bd11effa7af3e656fde2833c5ed62a2a1ba308d48f74f6c88ecda0420a2"
+    },
+    {
+      "path": "results/primary_pages/m77-u-holdout-table-373-4660.png",
+      "bytes": 913336,
+      "sha256": "e48d3fe36862a646fea73171ba0a16294bbf19a85ce5e56fc6df25cd77d18c52"
+    },
+    {
+      "path": "results/primary_pages/m77-u-holdout-table-377-1870.png",
+      "bytes": 446144,
+      "sha256": "af377cb6a092142da0135ef15e339354869a997793452201ce8db9ddd619b701"
+    },
+    {
+      "path": "results/primary_pages/m77-u-holdout-table-377-6070.png",
+      "bytes": 569842,
+      "sha256": "6701d207400cb72bf6e0ab0502462c4fbb4ddb0fd2c0f128c198e21f8af640e6"
+    },
+    {
+      "path": "results/primary_pages/m77-u-holdout-table-378-3790.png",
+      "bytes": 529192,
+      "sha256": "1ae735d240be0116219d260ea3d3000dd6e9b33516efd929022d709b7964ab11"
+    }
+  ],
+  "prior_source_fingerprints": [
+    {
+      "path": "data/raw/mahadevan_1977_text.pdf",
+      "bytes": 119302608,
+      "sha256": "6dcdd074a0174e5fab149590fbbf82342711d345764e9763f8e5e92c81cf7f99"
+    },
+    {
+      "path": "data/raw/vats_1940_plates_9842.pdf",
+      "bytes": 17325993,
+      "sha256": "ab14c5c3a25588d3178789f83ae724eecf7cd873fb28c0a2c639a4dee21b8b18"
+    },
+    {
+      "path": "data/raw/vats_1940_text_18220_djvu.txt",
+      "bytes": 1518598,
+      "sha256": "9426186946d5540e6ccff83fdfc8e5af4aaed99926e56fe14287f57f8ccb4d45"
+    }
+  ]
+}

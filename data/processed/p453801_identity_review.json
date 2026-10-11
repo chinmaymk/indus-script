@@ -1,0 +1,139 @@
+{
+  "schema_version": 1,
+  "review_date": "2026-09-23",
+  "status": "bounded_identity_audit_complete",
+  "sources": [
+    {
+      "path": "data/raw/cdli_p516366_artifact.html",
+      "url": "https://cdli.earth/artifacts/516366",
+      "acquired_by": "this agent",
+      "bytes": 58774,
+      "sha256": "7236023b52c1c3588000291ba164658bf4f9ae91d42e30688981e62e7a7ed562"
+    },
+    {
+      "path": "data/raw/cdli_p516366_artifact.json",
+      "url": "https://cdli.earth/artifacts/516366/json",
+      "acquired_by": "this agent",
+      "bytes": 3682,
+      "sha256": "a157fd784ed280f2a6672cd50f6b9f063619eb1b867a5717a56e36de027e9596"
+    },
+    {
+      "path": "data/raw/cdli_p516366_current_2335716.atf",
+      "url": "https://cdli.earth/inscriptions/2335716/atf",
+      "acquired_by": "this agent",
+      "bytes": 394,
+      "sha256": "a2bc9d6a3a45e622f24f09657d8f7b96c3593ffc325b4a3f010a65dc581dc67c"
+    },
+    {
+      "path": "data/raw/p453801_identity_web_capture.json",
+      "url": null,
+      "acquired_by": "this agent; web response capture",
+      "bytes": 106895,
+      "sha256": "196c9c29a4e3593cb9cd2b078812a5b18d739cf41ad07e6930f49f696052989a"
+    },
+    {
+      "path": "data/raw/cdli_p453801_artifact.html",
+      "url": "https://cdli.earth/artifacts/453801",
+      "acquired_by": "parent",
+      "bytes": 65654,
+      "sha256": "1a74bb73818ef715cb457e653266fb2f02ee177e807da45d855ed50c6b18bc6d"
+    },
+    {
+      "path": "data/raw/cdli_p453801_artifact.json",
+      "url": "https://cdli.earth/artifacts/453801/json",
+      "acquired_by": "parent",
+      "bytes": 3825,
+      "sha256": "cd14934d67d569fba31f5554dfde326bdb4c81c480d0137b3006934555b02df2"
+    },
+    {
+      "path": "data/raw/cdli_p453801_current_2289564.atf",
+      "url": "https://cdli.earth/inscriptions/2289564/atf",
+      "acquired_by": "parent",
+      "bytes": 792,
+      "sha256": "f7543637cf65efe0c9227a9d16f4cfdd344c8930faab1efcecedae4a85a23001"
+    },
+    {
+      "path": "data/raw/cdli_p453801_historical_2249158.atf",
+      "url": "https://cdli.earth/inscriptions/2249158/atf",
+      "acquired_by": "parent",
+      "bytes": 827,
+      "sha256": "a4479629a2278b530f260c5e92ac0fc79132fc3df423f07ded1c7dd950a7fea0"
+    },
+    {
+      "path": "data/raw/bdtns_192941_catalogue.html",
+      "url": "https://bdtns.cesga.es/catalogo_directo_new.php?numBDTS=192941",
+      "acquired_by": "iconography agent",
+      "bytes": 25993,
+      "sha256": "ef3d80ed758cc46bd92510ce84fd17bcef83a596e9144fc956a8a420523b7836"
+    }
+  ],
+  "web_source_urls": [
+    "https://cdli.earth/inscriptions/2249158",
+    "https://cdli.earth/artifacts/453801",
+    "https://cdli.earth/artifacts/453801/history/atf",
+    "https://cdli.earth/artifacts/516366",
+    "https://cdli.earth/publications/110334",
+    "https://bdtns.cesga.es/catalogo_directo_new.php?numBDTS=192941"
+  ],
+  "catalogue_records": [
+    {
+      "id": "P453801",
+      "publication": "Owen2013,Nisaba15/2,text0371",
+      "bdtns": 192941,
+      "museum_label": "Anonymous453801",
+      "recoverable_named_museum_accession": null,
+      "original_page": null,
+      "original_plate": null,
+      "cdli_date": "Su-Suen06.12.00",
+      "bdtns_date": "SS08-12-00",
+      "cdli_name_obv2": "na-na-sa3",
+      "historical2249158_name_obv2": "na-na-za",
+      "name_revision_date": "2017-06-25",
+      "name_revision_credit": "Englund,RobertK.;Ozaki,Tohru",
+      "seal_text": "illegible",
+      "seal_placeholder": "P533185/S999999",
+      "cdli_year_phrase": "na-ru2-a-mah",
+      "bdtns_year_phrase": "ma2-gur8 mah",
+      "bdtns_collection": "Private collection:anonymous,Paris,France"
+    },
+    {
+      "id": "P516366",
+      "publication": "Sigrist/Ozaki2019,CUSAS40,text1582",
+      "museum_label": "IM—",
+      "recoverable_named_museum_accession": null,
+      "cdli_date": "Su-Suen06.12.00",
+      "name_obv2": "na-na-sa3",
+      "seal_text": "illegible",
+      "seal_placeholder": "P533185/S999999",
+      "year_phrase": "[na-ru2-a-mah]",
+      "reverse_final_verb": "mu-du3"
+    }
+  ],
+  "identity_assessment": {
+    "separate_catalogue_ids": true,
+    "independent_physical_artifacts_established": false,
+    "same_physical_artifact_established": false,
+    "probable_same_text_source": "BDTNS192941 remark by M.Molina,attributing opinion to Sigrist/Ozaki",
+    "retained_conflict": "Year-names seem different; BDTNSSS08 versus CDLI06.",
+    "deduplication_policy": "Retain both IDs in one unresolved possible-duplicate group; do not count as independent witnesses.",
+    "shared_placeholder_is_same_seal_evidence": false
+  },
+  "publication_metadata": {
+    "author": "DavidI.Owen",
+    "year": 2013,
+    "title": "Cuneiform Texts Primarily from Iri-Sagrig/Al-Sarraki and the History of the UrIII Period",
+    "series": "Nisaba15",
+    "publisher": "CDLPress,Bethesda",
+    "part1": "Commentary and Indexes",
+    "part2": "Catalogue and Texts",
+    "exact_reference": "text371;notpage371",
+    "primary_book_page_verified": false
+  },
+  "limits": [
+    "No seal-image interpretation in this subtask.",
+    "Parent/iconography agent handle linked handcopy and publication-image review.",
+    "Catalogue provenance does not establish excavation context.",
+    "Name transcription alternatives are editorial readings,not proven ancient allographs.",
+    "No Indus or bilingual identification demonstrated."
+  ]
+}

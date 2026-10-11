@@ -1,0 +1,326 @@
+{
+  "schema_version": 1,
+  "created_utc": "2026-09-28T05:33:30.214800+00:00",
+  "status": "bounded_negative_for_actual_Fuls_Table1_Table2_images; publisher_frontmatter_recovered",
+  "scope": "Primary author/publisher/public institutional leads only; no reinterpretation of earlier numerical claims.",
+  "findings": [
+    {
+      "claim": "Publisher contents confirms the Andreas Fuls article title and start page101.",
+      "source": "data/raw/capacity-table-primary-shaker-contents-document.pdf",
+      "pdf_page_one_based": 6,
+      "image": "data/raw/capacity-table-primary-contents-page6.png",
+      "verification": "visual plus extraction",
+      "limit": "Does not contain article pages, Tables1/2, manuscriptp7 or demonstrate final published endpage."
+    },
+    {
+      "claim": "Publisher free contents PDF has6pages; abstract PDF has3pages, with a proceedings-level abstract onPDF3. Neither supplies target tables.",
+      "sources": [
+        "data/raw/capacity-table-primary-shaker-contents-document.pdf",
+        "data/raw/capacity-table-primary-shaker-abstract-document.pdf"
+      ],
+      "verification": "all-page extraction and visual contentsPDF6/abstractPDF3"
+    },
+    {
+      "claim": "Publisher full-document element43766 is paid and redirects to Mode=Login; no credentials, purchase or workaround used.",
+      "source": "data/raw/capacity-table-primary-shaker-book.html",
+      "response": "data/raw/capacity-table-primary-shaker-43766.html"
+    },
+    {
+      "claim": "Academia public landing fetch returned403 and its error body is retained; the previously blocked attachments/35154550 endpoint was not retried.",
+      "source": "data/raw/capacity-table-primary-academia-public.html.partial"
+    },
+    {
+      "claim": "Author website bibliography repeats Shaker2012 pp101\u2013114 but offers no capacity-article PDF link on that page.",
+      "url": "https://www.epigraphica.de/indus/menueindus.htm",
+      "verification": "web text/link inspection; no local source body saved",
+      "limit": "Bibliography only, not table images."
+    }
+  ],
+  "target_table_images_recovered": false,
+  "table1_visual_authentication": false,
+  "table2_visual_authentication": false,
+  "identifier_conflict": {
+    "status": "unresolved; no new table-image evidence",
+    "inherited_from": "data/processed/capacity_table_followup.json",
+    "reported_previous_CISI": "H370=12908;H371=1033a;H372=unknown",
+    "reported_previous_Fuls_public_text": "H372=12908;H371=1033a;H370=1033b",
+    "fresh_CISI_reinspection": false,
+    "consequence": "Keep provisional text rows and conflicting assignments separate; no reassignment, missing-cell completion, or verified calibration upgrade."
+  },
+  "search_attempts": {
+    "queries": [
+      "\"Volumenma\u00dfe von Tongef\u00e4\u00dfen\" Fuls PDF",
+      "Andreas Fuls 2012 Induskultur Volumenma\u00dfe",
+      "\"Volumenma\u00dfe\" \"Fuls\" filetype:pdf",
+      "\"Entwicklerforum\" \"2011\" \"Shaker\" \"Kaden\" 2012",
+      "\"978-3-8440-0875-3\" site:shaker.de",
+      "\"Volumenma\u00dfe\" site:epigraphica.de",
+      "\"Fuls\" \"Tongef\u00e4\u00dfen\" -site:scribd.com -site:everand.com -site:academia.edu",
+      "\"978-3-8440-0875-3\" \"pdf\"",
+      "\"Volumenma\u00dfe von Tongef\u00e4\u00dfen\" site:tu-berlin.de OR site:depositonce.tu-berlin.de OR site:epigraphica.de OR site:researchgate.net",
+      "\"Andreas Fuls\" \"Volumenma\u00dfe\" download",
+      "\"978-3-8440-0875-3\" [domain shaker.de]",
+      "\"Fuls\" \"Volumenma\u00dfe\" [domains tu-berlin.de,depositonce.tu-berlin.de,epigraphica.de,researchgate.net]",
+      "\"Tongef\u00e4\u00dfen\" \"2011\" [domain shaker.de]",
+      "\"Volumenma\u00dfe\" Fuls [domains archaeoastronomie.de,harappa.com,tu-berlin.de,researchgate.net]"
+    ],
+    "result": "Relevant leads converge on author Academia page, author bibliography, institutional proceedings bibliography and publisher catalogue. No alternative legitimate public target-table PDF surfaced in this bounded search. Unrelated/nonprimary search results were not used."
+  },
+  "retrieval_attempts": [
+    {
+      "url": "https://www.academia.edu/8808307/VOLUMENMA%C3%9FE_VON_TONGEF%C3%84%C3%9FEN_DER_INDUSKULTUR",
+      "retrieval_started_utc": "2026-09-28T05:29:03.722219+00:00",
+      "response_complete": true,
+      "http_status": 403,
+      "response_body_received": true,
+      "resolved_url": "https://www.academia.edu/8808307/VOLUMENMA%C3%9FE_VON_TONGEF%C3%84%C3%9FEN_DER_INDUSKULTUR",
+      "header_artifact": {
+        "path": "data/raw/capacity-table-primary-academia-public.html.headers.json",
+        "bytes": 2341,
+        "sha256": "cfe433527ac7dba6b3c59a722770842e2f4cc231a8b8bd79075b2af5248e9178",
+        "kind": "locally_serialized_HTTP_response_headers"
+      },
+      "kind": "complete_error_response_body_not_requested_research_content",
+      "path": "data/raw/capacity-table-primary-academia-public.html.partial",
+      "bytes": 5709,
+      "sha256": "786a7a9c7fb58b6620811badb8874e7e2ba489320d0f7ab19af5b3fcf5d3dbe4",
+      "retrieval_ended_utc": "2026-09-28T05:29:03.836241+00:00",
+      "fetch_metadata": {
+        "path": "data/processed/fetch_capacity-table-primary-academia-public_html.json",
+        "bytes": 936,
+        "sha256": "902bc459235a55139b7836766b332d8529b239cd81c6fb6bdde77ae011bdd2cd"
+      }
+    },
+    {
+      "url": "https://www.academia.edu/8808307/VOLUMENMA%C3%9FE_VON_TONGEF%C3%84%C3%9FEN_DER_INDUSKULTUR",
+      "retrieval_started_utc": "2026-09-28T05:28:46.601069+00:00",
+      "response_complete": false,
+      "http_status": null,
+      "response_body_received": false,
+      "error": "URLError: <urlopen error [Errno 8] nodename nor servname provided, or not known>",
+      "kind": "incomplete_response_or_connection_failure",
+      "retrieval_ended_utc": "2026-09-28T05:28:46.627639+00:00",
+      "fetch_metadata": {
+        "path": "data/processed/fetch_capacity-table-primary-academia_html.json",
+        "bytes": 468,
+        "sha256": "78d8886db729e8aceb28b6264781bf1e5fc95ad50dbb3191dfacfe1bb22d9b03"
+      }
+    },
+    {
+      "url": "https://www.shaker.de/de/site/content/shop/Element.asp?ID=&Element_ID=43766&Mode=PageFrameDownload",
+      "retrieval_started_utc": "2026-09-28T05:30:12.792820+00:00",
+      "response_complete": true,
+      "http_status": 200,
+      "response_body_received": true,
+      "resolved_url": "https://www.shaker.de/de/site/content/shop/Element.asp?ID=&Element_ID=43766&Mode=Login",
+      "header_artifact": {
+        "path": "data/raw/capacity-table-primary-shaker-43766.html.headers.json",
+        "bytes": 416,
+        "sha256": "fe424bf8c9e2269f628409ac653ce34fd880039ff8ff63c9a99d72c0bc8b0db1",
+        "kind": "locally_serialized_HTTP_response_headers"
+      },
+      "kind": "complete_http_body_pending_content_review",
+      "path": "data/raw/capacity-table-primary-shaker-43766.html",
+      "bytes": 61567,
+      "sha256": "726cd959ef98b9d24d35f3d2aee0bdab0f593f24f487f770c7b9c45105526b71",
+      "retrieval_ended_utc": "2026-09-28T05:30:16.108022+00:00",
+      "fetch_metadata": {
+        "path": "data/processed/fetch_capacity-table-primary-shaker-43766_html.json",
+        "bytes": 908,
+        "sha256": "e7eb06cada0d25984a608193f2143de87b9afb29f42de4ed52e2d015eda49e29"
+      }
+    },
+    {
+      "url": "https://www.shaker.de/Online-Gesamtkatalog-Download/2026.09.28-07.30.54-73.93.127.216-DE-rad01DDF.tmp/978-3-8440-0875-3_ABS.PDF",
+      "retrieval_started_utc": "2026-09-28T05:31:45.760474+00:00",
+      "response_complete": true,
+      "http_status": 200,
+      "response_body_received": true,
+      "resolved_url": "https://www.shaker.de/Online-Gesamtkatalog-Download/2026.09.28-07.30.54-73.93.127.216-DE-rad01DDF.tmp/978-3-8440-0875-3_ABS.PDF",
+      "header_artifact": {
+        "path": "data/raw/capacity-table-primary-shaker-abstract-document.pdf.headers.json",
+        "bytes": 366,
+        "sha256": "6e8b9a442eb78f40cc3c659bab35585e5cce605a5c518f686db5353eb46800a8",
+        "kind": "locally_serialized_HTTP_response_headers"
+      },
+      "kind": "complete_http_body_pending_content_review",
+      "path": "data/raw/capacity-table-primary-shaker-abstract-document.pdf",
+      "bytes": 14960,
+      "sha256": "f261c18df02a248f8f5224cc565aa7b506b9a2d7c5ca1239ede705840440002e",
+      "retrieval_ended_utc": "2026-09-28T05:31:46.557863+00:00",
+      "fetch_metadata": {
+        "path": "data/processed/fetch_capacity-table-primary-shaker-abstract-document_pdf.json",
+        "bytes": 1000,
+        "sha256": "fce89252511651bbb1d118c750a3398d3620ccb02418e162ff4f118098dfde6c"
+      }
+    },
+    {
+      "url": "https://www.shaker.de/de/site/content/shop/Element.asp?ID=&Element_ID=43829&Mode=PageFrameDownload",
+      "retrieval_started_utc": "2026-09-28T05:30:52.245370+00:00",
+      "response_complete": true,
+      "http_status": 200,
+      "response_body_received": true,
+      "resolved_url": "https://www.shaker.de/de/site/content/shop/Element.asp?ID=&Element_ID=43829&Mode=Download",
+      "header_artifact": {
+        "path": "data/raw/capacity-table-primary-shaker-abstract.pdf.headers.json",
+        "bytes": 421,
+        "sha256": "0566acd6c5afab346d3cc3cc23c818fe7f6078c67b6822bd8d69cc9ef2abc1ca",
+        "kind": "locally_serialized_HTTP_response_headers"
+      },
+      "kind": "complete_http_body_pending_content_review",
+      "path": "data/raw/capacity-table-primary-shaker-abstract.pdf",
+      "bytes": 55815,
+      "sha256": "e95c83bd56b3b52f065c1910011f6fdd6a9f7ebb8c7f44186e15793a5fa589a4",
+      "retrieval_ended_utc": "2026-09-28T05:30:56.878904+00:00",
+      "fetch_metadata": {
+        "path": "data/processed/fetch_capacity-table-primary-shaker-abstract_pdf.json",
+        "bytes": 915,
+        "sha256": "79f946ab28c0a2cda3591ba3a65ebcc77a931df67a460867980110090275e590"
+      }
+    },
+    {
+      "url": "https://shaker.de/de/site/content/shop/index.asp?lang=de&ID=8&ISBN=978-3-8440-0875-3",
+      "retrieval_started_utc": "2026-09-28T05:29:45.121356+00:00",
+      "response_complete": true,
+      "http_status": 200,
+      "response_body_received": true,
+      "resolved_url": "https://shaker.de/de/site/content/shop/index.asp?lang=de&ID=8&ISBN=978-3-8440-0875-3",
+      "header_artifact": {
+        "path": "data/raw/capacity-table-primary-shaker-book.html.headers.json",
+        "bytes": 371,
+        "sha256": "12488ec59b98888849b346ef9aef09276b7000f678c6fe49740850228246b4e8",
+        "kind": "locally_serialized_HTTP_response_headers"
+      },
+      "kind": "complete_http_body_pending_content_review",
+      "path": "data/raw/capacity-table-primary-shaker-book.html",
+      "bytes": 125485,
+      "sha256": "120facc4164e35db80e9d2df54c26b42f7e740531f16e38f8a932b7a1bf296b0",
+      "retrieval_ended_utc": "2026-09-28T05:29:47.246657+00:00",
+      "fetch_metadata": {
+        "path": "data/processed/fetch_capacity-table-primary-shaker-book_html.json",
+        "bytes": 891,
+        "sha256": "941b6bc687f0fdd5b81346157c1b0333131b5c024881fcad80a7b4b5122c730c"
+      }
+    },
+    {
+      "url": "https://www.shaker.de/Online-Gesamtkatalog-Download/2026.09.28-07.30.39-73.93.127.216-DE-rad79388.tmp/978-3-8440-0875-3_INH.PDF",
+      "retrieval_started_utc": "2026-09-28T05:31:19.736252+00:00",
+      "response_complete": true,
+      "http_status": 200,
+      "response_body_received": true,
+      "resolved_url": "https://www.shaker.de/Online-Gesamtkatalog-Download/2026.09.28-07.30.39-73.93.127.216-DE-rad79388.tmp/978-3-8440-0875-3_INH.PDF",
+      "header_artifact": {
+        "path": "data/raw/capacity-table-primary-shaker-contents-document.pdf.headers.json",
+        "bytes": 367,
+        "sha256": "85ab6d7097dc1edaf0831ae2e37495b81691871bce4a17dc393ce9db20bf95cf",
+        "kind": "locally_serialized_HTTP_response_headers"
+      },
+      "kind": "complete_http_body_pending_content_review",
+      "path": "data/raw/capacity-table-primary-shaker-contents-document.pdf",
+      "bytes": 43686,
+      "sha256": "1da0cf5a71a2794789f0e187bb7e4a8918bfce8568f275167864dc837ed350e5",
+      "retrieval_ended_utc": "2026-09-28T05:31:20.631535+00:00",
+      "fetch_metadata": {
+        "path": "data/processed/fetch_capacity-table-primary-shaker-contents-document_pdf.json",
+        "bytes": 1000,
+        "sha256": "780aea6654a15295c6f2e498110f8c3cb0de84e53aa8bd5892ffdc3a5df8a639"
+      }
+    },
+    {
+      "url": "https://www.shaker.de/de/site/content/shop/Element.asp?ID=&Element_ID=43767&Mode=PageFrameDownload",
+      "retrieval_started_utc": "2026-09-28T05:30:37.759648+00:00",
+      "response_complete": true,
+      "http_status": 200,
+      "response_body_received": true,
+      "resolved_url": "https://www.shaker.de/de/site/content/shop/Element.asp?ID=&Element_ID=43767&Mode=Download",
+      "header_artifact": {
+        "path": "data/raw/capacity-table-primary-shaker-contents.pdf.headers.json",
+        "bytes": 421,
+        "sha256": "8330c232dcdd9828a989fc8238892a03e4a143a1a3f0c072c6344aea4bebc3e0",
+        "kind": "locally_serialized_HTTP_response_headers"
+      },
+      "kind": "complete_http_body_pending_content_review",
+      "path": "data/raw/capacity-table-primary-shaker-contents.pdf",
+      "bytes": 55815,
+      "sha256": "7b0e72e270c200e62e9b8f87ee5a28d534ce4c4ae38cc2b0f2cfc19e1440ad7f",
+      "retrieval_ended_utc": "2026-09-28T05:30:41.853413+00:00",
+      "fetch_metadata": {
+        "path": "data/processed/fetch_capacity-table-primary-shaker-contents_pdf.json",
+        "bytes": 915,
+        "sha256": "30d29d157bbe99cb26fcb9f59f4b357aa33c73f25281b5c28d771852b47ec3f1"
+      }
+    },
+    {
+      "url": "https://shaker.de/de/site/content/shop/index.asp?ID=6&category=177&lang=de",
+      "retrieval_started_utc": "2026-09-28T05:29:17.597897+00:00",
+      "response_complete": true,
+      "http_status": 200,
+      "response_body_received": true,
+      "resolved_url": "https://shaker.de/de/site/content/shop/index.asp?ID=6&category=177&lang=de",
+      "header_artifact": {
+        "path": "data/raw/capacity-table-primary-shaker-series.html.headers.json",
+        "bytes": 371,
+        "sha256": "87f2d12043728b76d8bcdf0500d6699b3674d834512d468fc23d744800b01a19",
+        "kind": "locally_serialized_HTTP_response_headers"
+      },
+      "kind": "complete_http_body_pending_content_review",
+      "path": "data/raw/capacity-table-primary-shaker-series.html",
+      "bytes": 150968,
+      "sha256": "2e43485709746aa57893608689ee88142ae522adb83a69e84a047279fa92a57b",
+      "retrieval_ended_utc": "2026-09-28T05:29:21.208519+00:00",
+      "fetch_metadata": {
+        "path": "data/processed/fetch_capacity-table-primary-shaker-series_html.json",
+        "bytes": 875,
+        "sha256": "c0a932af6956ef5afeb3a981f99b037572304c0db23421eed28572ffc22cdbd8"
+      }
+    }
+  ],
+  "implementation_attempts": [
+    {
+      "action": "Initial ordinary fetch of Academia landing",
+      "outcome": "Sandbox DNS error, no body; separate fetch metadata retained."
+    },
+    {
+      "action": "Normal network-enabled public landing fetch",
+      "outcome": "403 error body retained; stopped at access denial."
+    },
+    {
+      "action": "Publisher series\u2192linked book\u2192three linked document elements",
+      "outcome": "Full-document link redirected to login. Two explicitly free links returnedHTMLwrappers, whose generated public PDF URLs were followed without modification."
+    },
+    {
+      "action": "Local HTML parser for abstract PDF link",
+      "outcome": "Initial None-valued attribute error; corrected guard, extracted visiblehref; no extra request from this error."
+    },
+    {
+      "action": "PDF extraction",
+      "outcome": "Attempted pdftotext binary path unavailable; used bundledpypdf successfully for allpages."
+    },
+    {
+      "action": "Local Poppler rendering",
+      "outcome": "ContentsPDF6 andabstractPDF3 rendered and visually inspected. Abstract rendering emittedfontconfigcachewarnings butfinishedexit0; visibletextreadable."
+    }
+  ],
+  "artifact_type_note": "The retained files named shaker-contents.pdf and shaker-abstract.pdf are HTML download wrappers, not PDFs. Actual PDFs end -document.pdf; 403.partial is a complete error response, not a partial article.",
+  "pending_registry_path": "data/processed/capacity_table_primary_downloads.json",
+  "pending_raw_artifact_count": 18,
+  "input_pins": [
+    {
+      "path": "docs/CAPACITY_TABLE_FOLLOWUP.md",
+      "bytes": 3425,
+      "sha256": "1cae145cedcdfc65b1685edd609f94f42cd800459c32e6387c8d93e90fe1d2a0"
+    },
+    {
+      "path": "data/processed/capacity_table_followup.json",
+      "bytes": 7668,
+      "sha256": "15a8bc4e1dfaa3a98d80ffc49eef40f4e0aef312bd96631fa7a1dcfa8689b129"
+    },
+    {
+      "path": "scripts/fetch_preserved_source.py",
+      "bytes": 3293,
+      "sha256": "af495fc49932c0fe8fd34f21caab249d28493f26d46fb646b713cb90d75ba16a"
+    }
+  ],
+  "remaining_route": "Obtain an authorized author-supplied manuscript or licensed/library copy of the proceedings, then inspect manuscriptp7/published table pages. No message sent or purchase made.",
+  "new_semantic_values": 0
+}

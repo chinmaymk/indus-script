@@ -1,0 +1,841 @@
+{
+  "established_phonetic_values": 0,
+  "established_semantic_values": 0,
+  "evidence_files": [
+    {
+      "bytes": 4109921,
+      "path": "data/processed/m77_candidate_records.jsonl",
+      "sha256": "b29a176da86b125115256a8966c377c3fd9fe39ecaab17bf576b770b83b41bab"
+    },
+    {
+      "bytes": 4285,
+      "path": "data/processed/roof_modifier_protocol.json",
+      "sha256": "09fb3f35c1b52a71a5fd49cf388a4ba689d49360d0b156f04158dc8fc465fb4c"
+    },
+    {
+      "bytes": 10284,
+      "path": "data/processed/roof_modifier_shape_review.json",
+      "sha256": "4f99542b597c46516d587e16ba8e4bbcc60000f2d739eb1bbf0f2e290c3cf146"
+    },
+    {
+      "bytes": 6503,
+      "path": "docs/ROOF_MODIFIER_SHAPE_REVIEW.md",
+      "sha256": "2982fe4dcd5828b11fc4e47b1138674311b3a13ba4bc693b5cbe16b5f8ea52ea"
+    },
+    {
+      "bytes": 119302608,
+      "path": "data/raw/mahadevan_1977_text.pdf",
+      "sha256": "6dcdd074a0174e5fab149590fbbf82342711d345764e9763f8e5e92c81cf7f99"
+    },
+    {
+      "bytes": 1384,
+      "path": "scripts/render_roof_modifier_crops.py",
+      "sha256": "eaedf4f3ab51d9ab2491f2bbb03a0907257f82eee9209aba25137c8ad8eb9412"
+    },
+    {
+      "bytes": 6808,
+      "path": "data/processed/roof_modifier_crop_manifest.json",
+      "sha256": "0b577059251911181bb87bfb06a01dbbf690c767fb8f7973e6d73206977d3c67"
+    },
+    {
+      "bytes": 3281280,
+      "path": "results/primary_pages/comb-tablet-m77-detail-43.png",
+      "sha256": "ebb35d20d3f7035a6d68aa0e967a8d18ccfe5b8f4330f62a3a264a5a9b463793"
+    },
+    {
+      "bytes": 2228064,
+      "path": "results/primary_pages/sign_list-044.png",
+      "sha256": "33eff554bfdea81af6d1a3510a5b2541d1b74b02ae1e63b253c725b44c7c0b64"
+    },
+    {
+      "bytes": 2312636,
+      "path": "results/primary_pages/sign_list-045.png",
+      "sha256": "972002b288ea77921dcacfe67386dbf585b76be6bca5444b7ff9422e47e70b89"
+    },
+    {
+      "bytes": 2099531,
+      "path": "results/primary_pages/sign_list-046.png",
+      "sha256": "a191e9297a6ab8b7cad1028eaeac062b4b6fa3cd34aefbdd507f669d736d2e8e"
+    },
+    {
+      "bytes": 25055,
+      "path": "results/primary_pages/roof-modifier-M059.png",
+      "sha256": "933c1adeab8674387d5c37fb780c46459707c0f47ca8bb2494db25bc90f0c1ad"
+    },
+    {
+      "bytes": 31629,
+      "path": "results/primary_pages/roof-modifier-M060.png",
+      "sha256": "ec060b9faf2bda3371ef30fc82d581cecd7e865251dbace5c80d929cd638aa79"
+    },
+    {
+      "bytes": 25129,
+      "path": "results/primary_pages/roof-modifier-M065.png",
+      "sha256": "1de879dcf0a847e97d0aefe04b48f6f906e9407acac3a7ff092a6fa07cd143ad"
+    },
+    {
+      "bytes": 28502,
+      "path": "results/primary_pages/roof-modifier-M066.png",
+      "sha256": "e6d16a082274ea0997076a5a0fcb3f67fcf0196347a57912f70ec0916bea6fc7"
+    },
+    {
+      "bytes": 23672,
+      "path": "results/primary_pages/roof-modifier-M075.png",
+      "sha256": "4c2662a36531e74868ac59457efcf8f407ed6cfbc672693edc6cd0c4a42ca5dd"
+    },
+    {
+      "bytes": 24518,
+      "path": "results/primary_pages/roof-modifier-M089.png",
+      "sha256": "2ae40b96c40a2870dc5918768f10235c48e59e00a3aec4c965ee04c09670b04b"
+    },
+    {
+      "bytes": 25504,
+      "path": "results/primary_pages/roof-modifier-M092.png",
+      "sha256": "590efe55ffec3b424d5210eee00ae6b213af4831221f312efcd763b9ff009ea6"
+    },
+    {
+      "bytes": 17624,
+      "path": "results/primary_pages/roof-modifier-M134.png",
+      "sha256": "370513d4048a976dc90fc6f015d59c97bf1b735ed432b7c2fd3b00723e2238eb"
+    },
+    {
+      "bytes": 18347,
+      "path": "results/primary_pages/roof-modifier-M137.png",
+      "sha256": "8503e240e04451477b25c5d53ebc0e828bedcd255bcb845ba939eb7baef1e935"
+    },
+    {
+      "bytes": 19533,
+      "path": "results/primary_pages/roof-modifier-M138.png",
+      "sha256": "749792576be9575fdb49879bb340d220c2c204d5891fc583ed323ddd55b80b20"
+    },
+    {
+      "bytes": 19876,
+      "path": "results/primary_pages/roof-modifier-M141.png",
+      "sha256": "3bd3aec41b8e1db46b35ed8ee7938b5200917a3b783a940e0b3b0a84f5dce427"
+    },
+    {
+      "bytes": 16589,
+      "path": "results/primary_pages/roof-modifier-M158.png",
+      "sha256": "4823129405dd35b55b01df35551d9ccd5cca423e082143521fdb2ebb850d905e"
+    },
+    {
+      "bytes": 18070,
+      "path": "results/primary_pages/roof-modifier-M159.png",
+      "sha256": "2c5e79a98e1fee86515ebd54f81992154bb4a67dd182a315c3e0f7c3daeed938"
+    },
+    {
+      "bytes": 15842,
+      "path": "results/primary_pages/roof-modifier-M162.png",
+      "sha256": "17121c9e9e009c88b18b09f07fa097247a5a6f426600d1a627b3ac9bcfa9834b"
+    },
+    {
+      "bytes": 16157,
+      "path": "results/primary_pages/roof-modifier-M163.png",
+      "sha256": "3bb86ff9f346429e11f199c649a696df15a61571cdf4aeddf7a1ff4eda93de93"
+    },
+    {
+      "bytes": 16303,
+      "path": "results/primary_pages/roof-modifier-M195.png",
+      "sha256": "6877d56a8da13f5239c2b1c364f8e8929b79367ad4d150170450214451292210"
+    },
+    {
+      "bytes": 18029,
+      "path": "results/primary_pages/roof-modifier-M196.png",
+      "sha256": "694d9881c832ed48766745bbb04fa346d3b72085e999e29e5477b6c4a866ec5b"
+    },
+    {
+      "bytes": 17521,
+      "path": "results/primary_pages/roof-modifier-M202.png",
+      "sha256": "544e3d79c95fba8af368ce3f7b1d7acbec9c1de457646199a62bf58e7f25b48a"
+    },
+    {
+      "bytes": 17377,
+      "path": "results/primary_pages/roof-modifier-M203.png",
+      "sha256": "83ad1caacb220af733ea13d6493b8efd9fdc515cac9ed070b59a042de1f82adc"
+    },
+    {
+      "bytes": 15681,
+      "path": "results/primary_pages/roof-modifier-M333.png",
+      "sha256": "e660c75c899ee7f34b85ab40a37d5f2bdf5fcbeeccd6c16f52b247cc3471d7bc"
+    },
+    {
+      "bytes": 18366,
+      "path": "results/primary_pages/roof-modifier-M334.png",
+      "sha256": "01a8c151a024b6a500d45478fbb9225b241411bb0b2ab46dc0b39d0f32cbe4f0"
+    },
+    {
+      "bytes": 15973,
+      "path": "results/primary_pages/roof-modifier-M410.png",
+      "sha256": "0aa11ce398751b4dede75512fad6859564eafc6669cc582f39d216041d7fd712"
+    },
+    {
+      "bytes": 17400,
+      "path": "results/primary_pages/roof-modifier-M411.png",
+      "sha256": "a1f613f804eb9468286299d0c1c20a09e0fdfb4fb3e89923afac34abf4705770"
+    },
+    {
+      "bytes": 27067,
+      "path": "data/processed/mahadevan_1977_table_i.csv",
+      "sha256": "0c472d01a938fd61b9090db2afc29dbecc00f3751ea4f796f6034e2a8268891c"
+    },
+    {
+      "bytes": 22391887,
+      "path": "data/raw/glossa_canonical_objects.jsonl",
+      "sha256": "e24f42a95ee4cc1fdb16c789c3edfb937993ed7c82223d6daa96d66895174ae5"
+    },
+    {
+      "bytes": 919007,
+      "path": "data/raw/glossa_icit_export.json",
+      "sha256": "e4ddfd064e9f97871cd4c498f39f238c7cecb2f6a646733b0a65f22f81bd7e2d"
+    },
+    {
+      "bytes": 16448,
+      "path": "scripts/verify_roof_modifier.py",
+      "sha256": "de6c495392b67163d6ed182fb7c9df3837a3efe8204cbac673f5e15c4b57d50e"
+    },
+    {
+      "bytes": 9768,
+      "path": "scripts/audit_roof_modifier.py",
+      "sha256": "1a7319d7896bdd2d113e57087e1f226ca9e7ca812471df1a8f3dd3104637727a"
+    },
+    {
+      "bytes": 1256346,
+      "path": "results/roof_modifier_audit.json",
+      "sha256": "0828807a246236e1d2809bbb35f429a887f03674bdcf6644214faebe3a962c7c"
+    },
+    {
+      "bytes": 16896,
+      "path": "results/m77_candidate_audit.json",
+      "sha256": "4ef5cd3869bff5a8c58b46b24e5058b5cd9011a2fd1b2c882e829f919cd5cd39"
+    }
+  ],
+  "exact_null_self_checks": {
+    "checks": "Capacity coupling, mixed masks, repeated masks, unused slots and empty graph",
+    "tiny_exhaustive_permutation_oracle_cases": 4
+  },
+  "limits": "Exact null support belongs only to the specified conditional mask allocation scheme. Unknown-site matches are not verified shared sites. Distinct references are not independently authenticated objects/dies. Seeded random draws are checked for attainable support and reported arithmetic, not independently regenerated.",
+  "production_helpers_imported": false,
+  "results": {
+    "complete_stratified_sensitivity": {
+      "all_frames_masks_reference_sets_comparisons_and_summaries_match": true,
+      "exact_conditional_null": {
+        "active_strata": [
+          {
+            "feasible_projected_assignments": 1,
+            "frame_slots": 2,
+            "full_stratum_allocations": "1",
+            "mask_counts": {
+              "1": 2
+            },
+            "pair_index": 0,
+            "shared_edge_slots": 1,
+            "stratum": [
+              "<unknown>",
+              "1",
+              2,
+              1
+            ]
+          },
+          {
+            "feasible_projected_assignments": 1,
+            "frame_slots": 1,
+            "full_stratum_allocations": "1",
+            "mask_counts": {
+              "3": 1
+            },
+            "pair_index": 1,
+            "shared_edge_slots": 1,
+            "stratum": [
+              "<unknown>",
+              "3",
+              2,
+              0
+            ]
+          },
+          {
+            "feasible_projected_assignments": 1,
+            "frame_slots": 1,
+            "full_stratum_allocations": "1",
+            "mask_counts": {
+              "2": 1
+            },
+            "pair_index": 3,
+            "shared_edge_slots": 1,
+            "stratum": [
+              "<unknown>",
+              "3",
+              2,
+              0
+            ]
+          },
+          {
+            "feasible_projected_assignments": 1,
+            "frame_slots": 7,
+            "full_stratum_allocations": "1",
+            "mask_counts": {
+              "1": 7
+            },
+            "pair_index": 4,
+            "shared_edge_slots": 1,
+            "stratum": [
+              "<unknown>",
+              "1",
+              2,
+              1
+            ]
+          },
+          {
+            "feasible_projected_assignments": 1,
+            "frame_slots": 1,
+            "full_stratum_allocations": "1",
+            "mask_counts": {
+              "1": 1
+            },
+            "pair_index": 4,
+            "shared_edge_slots": 1,
+            "stratum": [
+              "Mohenjo-daro",
+              "1",
+              2,
+              0
+            ]
+          },
+          {
+            "feasible_projected_assignments": 1,
+            "frame_slots": 1,
+            "full_stratum_allocations": "1",
+            "mask_counts": {
+              "2": 1
+            },
+            "pair_index": 5,
+            "shared_edge_slots": 1,
+            "stratum": [
+              "Mohenjo-daro",
+              "1",
+              2,
+              0
+            ]
+          }
+        ],
+        "attainable_scores": [
+          0
+        ],
+        "distinct_global_allocations": "5055008534174031733944483840000000000",
+        "exact_score_allocation_counts": {
+          "0": "5055008534174031733944483840000000000"
+        },
+        "maximum_score": 0,
+        "method": "Exhaustive edge-slot assignments with capacity checks; unused slots marginalized by exact multinomial counts",
+        "minimum_score": 0,
+        "movable_frame_slots": 208,
+        "movable_shared_edge_slots": 0,
+        "projected_assignments_enumerated": 1,
+        "proved_score_invariant": true,
+        "shared_edge_nodes": 6
+      },
+      "shared_frame_witnesses": [
+        {
+          "candidate_rectangles": [],
+          "pair_indices": [
+            0,
+            4
+          ],
+          "shared_frames": [
+            {
+              "category": "plain_concordant",
+              "length": 2,
+              "object_code": "1",
+              "position": 1,
+              "prefix": [
+                "M109"
+              ],
+              "site_label_unverified": "<unknown>",
+              "states": [
+                1,
+                1
+              ],
+              "suffix": []
+            }
+          ],
+          "states": {
+            "plain_concordant": 1
+          }
+        },
+        {
+          "candidate_rectangles": [],
+          "pair_indices": [
+            1,
+            3
+          ],
+          "shared_frames": [
+            {
+              "category": "ambiguous",
+              "length": 2,
+              "object_code": "3",
+              "position": 0,
+              "prefix": [],
+              "site_label_unverified": "<unknown>",
+              "states": [
+                3,
+                2
+              ],
+              "suffix": [
+                "M176"
+              ]
+            }
+          ],
+          "states": {
+            "ambiguous": 1
+          }
+        },
+        {
+          "candidate_rectangles": [],
+          "pair_indices": [
+            4,
+            5
+          ],
+          "shared_frames": [
+            {
+              "category": "discordant",
+              "length": 2,
+              "object_code": "1",
+              "position": 0,
+              "prefix": [],
+              "site_label_unverified": "Mohenjo-daro",
+              "states": [
+                1,
+                2
+              ],
+              "suffix": [
+                "M342"
+              ]
+            }
+          ],
+          "states": {
+            "discordant": 1
+          }
+        }
+      ],
+      "summary": {
+        "candidate_rectangles": 0,
+        "cross_root_pair_comparisons": 14,
+        "pair_count": 6,
+        "rectangles_with_four_distinct_references": 0,
+        "shared_frame_incidences": 3,
+        "signed_score": 0,
+        "states": {
+          "ambiguous": 1,
+          "discordant": 1,
+          "plain_concordant": 1
+        }
+      }
+    },
+    "complete_unstratified_diagnostic": {
+      "all_frames_masks_reference_sets_comparisons_and_summaries_match": true,
+      "exact_conditional_null": {
+        "active_strata": [
+          {
+            "feasible_projected_assignments": 1,
+            "frame_slots": 3,
+            "full_stratum_allocations": "1",
+            "mask_counts": {
+              "1": 3
+            },
+            "pair_index": 0,
+            "shared_edge_slots": 1,
+            "stratum": [
+              "*",
+              "*",
+              2,
+              1
+            ]
+          },
+          {
+            "feasible_projected_assignments": 2,
+            "frame_slots": 2,
+            "full_stratum_allocations": "2",
+            "mask_counts": {
+              "1": 1,
+              "3": 1
+            },
+            "pair_index": 1,
+            "shared_edge_slots": 1,
+            "stratum": [
+              "*",
+              "*",
+              2,
+              0
+            ]
+          },
+          {
+            "feasible_projected_assignments": 1,
+            "frame_slots": 1,
+            "full_stratum_allocations": "1",
+            "mask_counts": {
+              "2": 1
+            },
+            "pair_index": 3,
+            "shared_edge_slots": 1,
+            "stratum": [
+              "*",
+              "*",
+              2,
+              0
+            ]
+          },
+          {
+            "feasible_projected_assignments": 1,
+            "frame_slots": 1,
+            "full_stratum_allocations": "1",
+            "mask_counts": {
+              "1": 1
+            },
+            "pair_index": 4,
+            "shared_edge_slots": 1,
+            "stratum": [
+              "*",
+              "*",
+              2,
+              0
+            ]
+          },
+          {
+            "feasible_projected_assignments": 1,
+            "frame_slots": 8,
+            "full_stratum_allocations": "1",
+            "mask_counts": {
+              "1": 8
+            },
+            "pair_index": 4,
+            "shared_edge_slots": 1,
+            "stratum": [
+              "*",
+              "*",
+              2,
+              1
+            ]
+          },
+          {
+            "feasible_projected_assignments": 1,
+            "frame_slots": 1,
+            "full_stratum_allocations": "1",
+            "mask_counts": {
+              "2": 1
+            },
+            "pair_index": 5,
+            "shared_edge_slots": 1,
+            "stratum": [
+              "*",
+              "*",
+              2,
+              0
+            ]
+          }
+        ],
+        "attainable_scores": [
+          -1,
+          0
+        ],
+        "distinct_global_allocations": "3908162524035204019171893433621395763981684467302400000000",
+        "exact_score_allocation_counts": {
+          "-1": "1954081262017602009585946716810697881990842233651200000000",
+          "0": "1954081262017602009585946716810697881990842233651200000000"
+        },
+        "maximum_score": 0,
+        "method": "Exhaustive edge-slot assignments with capacity checks; unused slots marginalized by exact multinomial counts",
+        "minimum_score": -1,
+        "movable_frame_slots": 300,
+        "movable_shared_edge_slots": 1,
+        "projected_assignments_enumerated": 2,
+        "proved_score_invariant": false,
+        "shared_edge_nodes": 6
+      },
+      "shared_frame_witnesses": [
+        {
+          "candidate_rectangles": [],
+          "pair_indices": [
+            0,
+            4
+          ],
+          "shared_frames": [
+            {
+              "category": "plain_concordant",
+              "length": 2,
+              "object_code": "*",
+              "position": 1,
+              "prefix": [
+                "M109"
+              ],
+              "site_label_unverified": "*",
+              "states": [
+                1,
+                1
+              ],
+              "suffix": []
+            }
+          ],
+          "states": {
+            "plain_concordant": 1
+          }
+        },
+        {
+          "candidate_rectangles": [],
+          "pair_indices": [
+            1,
+            3
+          ],
+          "shared_frames": [
+            {
+              "category": "ambiguous",
+              "length": 2,
+              "object_code": "*",
+              "position": 0,
+              "prefix": [],
+              "site_label_unverified": "*",
+              "states": [
+                3,
+                2
+              ],
+              "suffix": [
+                "M176"
+              ]
+            }
+          ],
+          "states": {
+            "ambiguous": 1
+          }
+        },
+        {
+          "candidate_rectangles": [],
+          "pair_indices": [
+            4,
+            5
+          ],
+          "shared_frames": [
+            {
+              "category": "discordant",
+              "length": 2,
+              "object_code": "*",
+              "position": 0,
+              "prefix": [],
+              "site_label_unverified": "*",
+              "states": [
+                1,
+                2
+              ],
+              "suffix": [
+                "M342"
+              ]
+            }
+          ],
+          "states": {
+            "discordant": 1
+          }
+        }
+      ],
+      "summary": {
+        "candidate_rectangles": 0,
+        "cross_root_pair_comparisons": 14,
+        "pair_count": 6,
+        "rectangles_with_four_distinct_references": 0,
+        "shared_frame_incidences": 3,
+        "signed_score": 0,
+        "states": {
+          "ambiguous": 1,
+          "discordant": 1,
+          "plain_concordant": 1
+        }
+      }
+    },
+    "strict_stratified_primary": {
+      "all_frames_masks_reference_sets_comparisons_and_summaries_match": true,
+      "exact_conditional_null": {
+        "active_strata": [
+          {
+            "feasible_projected_assignments": 1,
+            "frame_slots": 2,
+            "full_stratum_allocations": "1",
+            "mask_counts": {
+              "1": 2
+            },
+            "pair_index": 0,
+            "shared_edge_slots": 1,
+            "stratum": [
+              "<unknown>",
+              "1",
+              2,
+              1
+            ]
+          },
+          {
+            "feasible_projected_assignments": 1,
+            "frame_slots": 5,
+            "full_stratum_allocations": "1",
+            "mask_counts": {
+              "1": 5
+            },
+            "pair_index": 4,
+            "shared_edge_slots": 1,
+            "stratum": [
+              "<unknown>",
+              "1",
+              2,
+              1
+            ]
+          }
+        ],
+        "attainable_scores": [
+          1
+        ],
+        "distinct_global_allocations": "22971515366672560816128000000000",
+        "exact_score_allocation_counts": {
+          "1": "22971515366672560816128000000000"
+        },
+        "maximum_score": 1,
+        "method": "Exhaustive edge-slot assignments with capacity checks; unused slots marginalized by exact multinomial counts",
+        "minimum_score": 1,
+        "movable_frame_slots": 179,
+        "movable_shared_edge_slots": 0,
+        "projected_assignments_enumerated": 1,
+        "proved_score_invariant": true,
+        "shared_edge_nodes": 2
+      },
+      "shared_frame_witnesses": [
+        {
+          "candidate_rectangles": [],
+          "pair_indices": [
+            0,
+            4
+          ],
+          "shared_frames": [
+            {
+              "category": "plain_concordant",
+              "length": 2,
+              "object_code": "1",
+              "position": 1,
+              "prefix": [
+                "M109"
+              ],
+              "site_label_unverified": "<unknown>",
+              "states": [
+                1,
+                1
+              ],
+              "suffix": []
+            }
+          ],
+          "states": {
+            "plain_concordant": 1
+          }
+        }
+      ],
+      "summary": {
+        "candidate_rectangles": 0,
+        "cross_root_pair_comparisons": 14,
+        "pair_count": 6,
+        "rectangles_with_four_distinct_references": 0,
+        "shared_frame_incidences": 1,
+        "signed_score": 1,
+        "states": {
+          "plain_concordant": 1
+        }
+      }
+    },
+    "strict_unstratified_diagnostic": {
+      "all_frames_masks_reference_sets_comparisons_and_summaries_match": true,
+      "exact_conditional_null": {
+        "active_strata": [
+          {
+            "feasible_projected_assignments": 1,
+            "frame_slots": 2,
+            "full_stratum_allocations": "1",
+            "mask_counts": {
+              "1": 2
+            },
+            "pair_index": 0,
+            "shared_edge_slots": 1,
+            "stratum": [
+              "*",
+              "*",
+              2,
+              1
+            ]
+          },
+          {
+            "feasible_projected_assignments": 1,
+            "frame_slots": 6,
+            "full_stratum_allocations": "1",
+            "mask_counts": {
+              "1": 6
+            },
+            "pair_index": 4,
+            "shared_edge_slots": 1,
+            "stratum": [
+              "*",
+              "*",
+              2,
+              1
+            ]
+          }
+        ],
+        "attainable_scores": [
+          1
+        ],
+        "distinct_global_allocations": "78363480412720629358808463760721933500416000000",
+        "exact_score_allocation_counts": {
+          "1": "78363480412720629358808463760721933500416000000"
+        },
+        "maximum_score": 1,
+        "method": "Exhaustive edge-slot assignments with capacity checks; unused slots marginalized by exact multinomial counts",
+        "minimum_score": 1,
+        "movable_frame_slots": 254,
+        "movable_shared_edge_slots": 0,
+        "projected_assignments_enumerated": 1,
+        "proved_score_invariant": true,
+        "shared_edge_nodes": 2
+      },
+      "shared_frame_witnesses": [
+        {
+          "candidate_rectangles": [],
+          "pair_indices": [
+            0,
+            4
+          ],
+          "shared_frames": [
+            {
+              "category": "plain_concordant",
+              "length": 2,
+              "object_code": "*",
+              "position": 1,
+              "prefix": [
+                "M109"
+              ],
+              "site_label_unverified": "*",
+              "states": [
+                1,
+                1
+              ],
+              "suffix": []
+            }
+          ],
+          "states": {
+            "plain_concordant": 1
+          }
+        }
+      ],
+      "summary": {
+        "candidate_rectangles": 0,
+        "cross_root_pair_comparisons": 14,
+        "pair_count": 6,
+        "rectangles_with_four_distinct_references": 0,
+        "shared_frame_incidences": 1,
+        "signed_score": 1,
+        "states": {
+          "plain_concordant": 1
+        }
+      }
+    }
+  },
+  "scope": "Independent computational verification; no new primary authentication or archaeological independence claim",
+  "status": "all checks passed",
+  "verified_all_417_coverage_rows": true
+}

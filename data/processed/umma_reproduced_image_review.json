@@ -1,0 +1,111 @@
+{
+  "review_date": "2026-09-28",
+  "review_mode": "Independent visual inspection of supplied reproduced panel D; source-exposed, no web calls.",
+  "panel": "D",
+  "source_dimensions": [
+    1000,
+    924
+  ],
+  "native_crop_dimensions": [
+    162,
+    151
+  ],
+  "display_orientation": {
+    "animal_head": "left",
+    "script_direction": null,
+    "rotation_applied": 0,
+    "mirrored": false
+  },
+  "observations": [
+    "Grey roughly rectangular surface; comparatively straight top/right boundaries and irregular rough lower boundary.",
+    "Crack-like dark lines across upper-left surface; depth/cause/date unknown.",
+    "Vertical elongated closed oval with tapered ends enclosing small branched/vertical structure near uppermiddle.",
+    "Tall U-like form with short horizontal outward projections near its upperends to right of oval.",
+    "Other leftward traces unclear; no secure segmentation or complete count.",
+    "Animal-like figure below, headleft/bodyright asdisplayed; hornlike projections and slanting neck/shoulder strokes; lowerbody/legs incomplete or unclear."
+  ],
+  "preservation_limits": [
+    "Low native resolution",
+    "Only one displayed face/view",
+    "No full original outline restoration",
+    "Material not independently identified",
+    "Seal versus impression/cast not securely decided from this reproduction",
+    "No visible scale, fieldnumber, reverse or boss"
+  ],
+  "caption_bridge": {
+    "capture": "data/raw/umma-anchor-renewed-open1.json",
+    "caption_lines": [
+      26,
+      30,
+      34
+    ],
+    "D_cited_report_page": 59,
+    "D_cited_report_figure": "6.61",
+    "D_credit": "Slovak Archaeological and Historical Institute",
+    "E_credit": "Ashmolean Museum, Oxford",
+    "D_and_E_are_distinct_panels": true,
+    "primary_report_page_inspected": false
+  },
+  "provisional_field_id": {
+    "label": "TJ17-PRO-S56",
+    "authenticated": false,
+    "used_for_identity_join": false
+  },
+  "exact_sign_ids": null,
+  "transcription": null,
+  "semantic_values": null,
+  "bilingual_correspondence": null,
+  "new_downloads_this_subtask": [],
+  "supersedes_only": "Earlier no-image-recovered observation; frozen earlier audit unchanged.",
+  "research_log": [
+    {
+      "attempt": "Inspect whole retainedfigure and captioncapture",
+      "result": "PanelD located; captiondistinguishes SAHI D from Ashmolean E."
+    },
+    {
+      "attempt": "Native crop without transformations",
+      "result": "Two upper geometricforms clearer than left traces; originaloutline/lowersurface uncertain."
+    },
+    {
+      "attempt": "Assess identity/orientation limits",
+      "result": "No visible fieldnumber; no scriptdirection or seal/impression decision; no restoration."
+    }
+  ],
+  "evidence_files": [
+    {
+      "path": "docs/UMMA_REPRODUCED_IMAGE_REVIEW.md",
+      "bytes": 4333,
+      "sha256": "2067a6e6247dbcc9f1cc51e1c755ff93d884940a4d2091e80c6b97c8d660618d"
+    },
+    {
+      "path": "data/raw/umma-anchor-renewed-figure.webp",
+      "bytes": 144018,
+      "sha256": "5a44511b714c5c6d1c1301a3cd925749e5ae2aa5b4da08bcaad163a0e90918c0"
+    },
+    {
+      "path": "data/raw/umma-anchor-renewed-open1.json",
+      "bytes": 26775,
+      "sha256": "5da58cbb9152f93e67c8d98d32e698199faafda5fa9a8b0a07ca73b8d93670cc"
+    },
+    {
+      "path": "docs/UMMA_ANCHOR_AUDIT.md",
+      "bytes": 5930,
+      "sha256": "ff230d3d97b1934dd335479af963f8c49da9f5fa50762ad6af419d37779115de"
+    },
+    {
+      "path": "scripts/crop_umma_reproduced_panel.py",
+      "bytes": 800,
+      "sha256": "b956fad39afd6b90c0eab14f0cc3c35c415b7f44f7b990b011856f3b886cb6c9"
+    },
+    {
+      "path": "data/processed/umma_reproduced_crop_manifest.json",
+      "bytes": 492,
+      "sha256": "e02bdd5aa19f4aa63d25f3186018269cdb14e484213d251e6da592c8859e094b"
+    },
+    {
+      "path": "results/primary_pages/umma-reproduced-panel-D.png",
+      "bytes": 43625,
+      "sha256": "4925b2015decce8a4107858a63d13043f567ac06677d67b0528608a2e5215796"
+    }
+  ]
+}

@@ -1,0 +1,306 @@
+{
+  "schema": "m77-u-artifact-bridge-v1",
+  "scope": {
+    "selected_references": 3,
+    "photographed_artifacts": 3,
+    "photographed_faces": 6,
+    "catalogue_entries_visually_verified": 3,
+    "primary_cisi_joins_verified": 0,
+    "selection": "Previously selected same-main-text two/three/four-stroke trio, not a random or exhaustive sample."
+  },
+  "join_chain": {
+    "first": "M77 Appendix V printed821/PDF830 explicitly maps refs4001\u20134713 to EH II items1\u2013713 respectively, platesLXXXV\u2013CI.",
+    "second": "EH II PlateXCVII/PDF202 contains explicit labels508,509,548 and both faces.",
+    "third": "EH I textpp95,110,121 explicitly names each exact plate item and excavation number; similar-to records excluded."
+  },
+  "sources": {
+    "m77": {
+      "path": "data/raw/mahadevan_1977_text.pdf",
+      "sha256": "6dcdd074a0174e5fab149590fbbf82342711d345764e9763f8e5e92c81cf7f99",
+      "bytes": 119302608
+    },
+    "downloads": [
+      {
+        "path": "data/raw/vats_1940_9842_metadata.json",
+        "sha256": "95da706022d1459033f51d7bc374615ded70e253c71e63fc0532dbe868a2abeb",
+        "bytes": 7542,
+        "url": "https://archive.org/metadata/in.gov.ignca.9842"
+      },
+      {
+        "path": "data/raw/vats_1940_18220_metadata.json",
+        "sha256": "2f7cd68cd901399ad788fff46cdb257495220a389b3b87dea64d4c5bf247dc73",
+        "bytes": 5421,
+        "url": "https://archive.org/metadata/in.gov.ignca.18220"
+      },
+      {
+        "path": "data/raw/vats_1940_archive_search.json",
+        "sha256": "db65c7a59c26f6a2b3ce3305ca8a797fcea2760332ac6eb594ceb1db25446106",
+        "bytes": 31134,
+        "url": "https://archive.org/advancedsearch.php?q=title%3A%28Excavations%20at%20Harappa%29&output=json&rows=30"
+      },
+      {
+        "path": "data/raw/vats_1940_plates_9842.pdf",
+        "sha256": "ab14c5c3a25588d3178789f83ae724eecf7cd873fb28c0a2c639a4dee21b8b18",
+        "bytes": 17325993,
+        "url": "https://archive.org/download/in.gov.ignca.9842/9842.pdf"
+      },
+      {
+        "path": "data/raw/vats_1940_text_18220_djvu.txt",
+        "sha256": "9426186946d5540e6ccff83fdfc8e5af4aaed99926e56fe14287f57f8ccb4d45",
+        "bytes": 1518598,
+        "url": "https://archive.org/download/in.gov.ignca.18220/18220_djvu.txt"
+      },
+      {
+        "path": "data/raw/vats_1940_18220_page_numbers.json",
+        "sha256": "3395ba6126b68a053a6178ef2fca82d641ec1185dcca460304f8d47ba116a5f7",
+        "bytes": 100789,
+        "url": "https://archive.org/download/in.gov.ignca.18220/18220_page_numbers.json"
+      },
+      {
+        "path": "data/raw/vats_1940_text_leaf121.jpg",
+        "sha256": "237dab3fe631df8006087a49b6f4c94c0ab929369fad4dca0a6c1ccff0f80b46",
+        "bytes": 2278853,
+        "url": "https://archive.org/download/in.gov.ignca.18220/page/n121.jpg"
+      },
+      {
+        "path": "data/raw/vats_1940_text_leaf136.jpg",
+        "sha256": "276119c7bdaf3105c8178ff4f06172e13b2fb113051587496ad5b67cf2eb16ea",
+        "bytes": 2520641,
+        "url": "https://archive.org/download/in.gov.ignca.18220/page/n136.jpg"
+      },
+      {
+        "path": "data/raw/vats_1940_text_leaf147.jpg",
+        "sha256": "449496576cbd3e14c1e76432a6e65ed88b3d5f2486467670a27b13a97bb2889f",
+        "bytes": 2691087,
+        "url": "https://archive.org/download/in.gov.ignca.18220/page/n147.jpg"
+      }
+    ],
+    "secondary_lipi": {
+      "path": "data/raw/lipi_inscriptions.csv",
+      "sha256": "b8dcb325a2e2cd3cde12ac12e7a418b0348e45713c9ee28aad81b645d2ac5ee4",
+      "bytes": 1204921
+    }
+  },
+  "renders": [
+    {
+      "path": "results/primary_pages/m77-u-bridge-830.png",
+      "sha256": "0f0d2a066880a547a05fcaf6516f4bb9dce7a6a06a2132483b1e7927aab27075",
+      "bytes": 3504528
+    },
+    {
+      "path": "results/primary_pages/m77-u-bridge-832.png",
+      "sha256": "2e876a3eec23fa2a2baf43ff4e485377afa0fb3ba7bb939f52d4c8ae4d5d67fa",
+      "bytes": 3395983
+    },
+    {
+      "path": "results/primary_pages/m77-u-bridge-833.png",
+      "sha256": "67a62f9507daee9eb49e395eb8cdc60637a931aa7265f5c111a39eaae26e6929",
+      "bytes": 3441118
+    },
+    {
+      "path": "results/primary_pages/m77-u-bridge-EH508-detail.png",
+      "sha256": "7a996adf5570c7b312abeb1136e460324742125779ee1567e21314ee19bf5d89",
+      "bytes": 55314
+    },
+    {
+      "path": "results/primary_pages/m77-u-bridge-EH509-detail.png",
+      "sha256": "404dced8f82357c16d5ea0ccfadc9928f8cdf4595f9b857dd64daa9b60091764",
+      "bytes": 53567
+    },
+    {
+      "path": "results/primary_pages/m77-u-bridge-EH548-detail.png",
+      "sha256": "fb1b04879e61f4ec555ad581795a9867da8570336189a5e781a9acff493474e6",
+      "bytes": 48395
+    },
+    {
+      "path": "results/primary_pages/m77-u-bridge-vats-202-native.png",
+      "sha256": "e544558b6d62ae4025d6bef809fd664b74775f0bbd2af6b1fb8a397faf891c3d",
+      "bytes": 750044
+    },
+    {
+      "path": "results/primary_pages/m77-u-bridge-vats-202.png",
+      "sha256": "814e0ec91b76e57abc85d29bf76393c134d62f9785483aedff162555a8101696",
+      "bytes": 1967073
+    },
+    {
+      "path": "results/primary_pages/m77-u-bridge-vats-205.png",
+      "sha256": "79bee5846d80848d5db7828f74bb641be9c60ff2434c4dbeab3248df43468b77",
+      "bytes": 198286
+    },
+    {
+      "path": "results/primary_pages/m77-u-bridge-vats-206.png",
+      "sha256": "43757e677bd20978a901f428f2a18e012b60fed081c0b486ede744802c4a67d3",
+      "bytes": 902306
+    },
+    {
+      "path": "results/primary_pages/m77-u-bridge-vats-text-121.png",
+      "sha256": "414f3f6e2ced8c9d6443b0ec592d227793b2b5a806ed524f9eb0fc327846020f",
+      "bytes": 2090073
+    },
+    {
+      "path": "results/primary_pages/m77-u-bridge-vats-text-136.png",
+      "sha256": "9dc6eb1638e10814d477674ee30600745d0c21e6d5cb4bacbf4952e5135605dd",
+      "bytes": 2276625
+    },
+    {
+      "path": "results/primary_pages/m77-u-bridge-vats-text-147.png",
+      "sha256": "a73a0475ad98b83d8014aef1e5964544928e66c274508acdc34737d13561f741",
+      "bytes": 2464313
+    }
+  ],
+  "records": [
+    {
+      "m77_reference": "4508",
+      "m77_main_tokens": [
+        "048",
+        "342",
+        "176"
+      ],
+      "m77_other_side_tokens": [
+        "095",
+        "328"
+      ],
+      "stroke_count": 4,
+      "eh_volume": "II",
+      "eh_plate": "XCVII",
+      "eh_item": "508",
+      "excavation_number": "2568",
+      "site": "Harappa",
+      "area": "Mound F",
+      "shape": "rectangular",
+      "material": "steatite",
+      "original_catalogue_object_term": "tiny seal",
+      "dimensions_original_inches": "7/16 \u00d7 1/4",
+      "dimensions_mm_arithmetic_only": [
+        11.112499999999999,
+        6.35
+      ],
+      "dimension_warning": "Nominal historical dimensions; no precision beyond original fractions. Width shared; thickness and volume absent.",
+      "square": "N 9/10",
+      "depth": "19 ft 6 in below surface",
+      "stratum": "VII explicitly assigned in immediate primary paragraph",
+      "primary_text_citation": "Vats 1940 I p121 item 4",
+      "primary_text_image": "data/raw/vats_1940_text_leaf147.jpg",
+      "primary_plate_pdf_page_1based": 202,
+      "primary_plate_detail": "results/primary_pages/m77-u-bridge-EH508-detail.png",
+      "photo_assessment": "Both faces pictured under explicit item label. 4 strokes beside U consistent with M77 transcription; low-resolution halftone limits fine stroke/glyph and surface-technology analysis.",
+      "condition": "No damage explicitly specified in this exact catalogue entry; photographed outline broadly intact, surface details degraded in scan.",
+      "mold_link": null,
+      "manufacturing_method": null,
+      "museum_identifier": null,
+      "secondary_cisi_candidate": {
+        "identifier": "H-1273",
+        "source": "data/raw/lipi_inscriptions.csv",
+        "status": "unverified secondary lead; joined by concatenated excavation+EH item and matching context, not by equal catalogue number",
+        "primary_cisi_photo_verified": false
+      }
+    },
+    {
+      "m77_reference": "4509",
+      "m77_main_tokens": [
+        "048",
+        "342",
+        "176"
+      ],
+      "m77_other_side_tokens": [
+        "089",
+        "328"
+      ],
+      "stroke_count": 3,
+      "eh_volume": "II",
+      "eh_plate": "XCVII",
+      "eh_item": "509",
+      "excavation_number": "1280",
+      "site": "Harappa",
+      "area": "Mound F",
+      "shape": "rectangular",
+      "material": "steatite",
+      "original_catalogue_object_term": "tiny seal",
+      "dimensions_original_inches": "3/8 \u00d7 1/4",
+      "dimensions_mm_arithmetic_only": [
+        9.524999999999999,
+        6.35
+      ],
+      "dimension_warning": "Nominal historical dimensions; no precision beyond original fractions. Width shared; thickness and volume absent.",
+      "square": "M 11/18",
+      "depth": "13 ft below surface",
+      "stratum": null,
+      "primary_text_citation": "Vats 1940 I p95 item 29",
+      "primary_text_image": "data/raw/vats_1940_text_leaf121.jpg",
+      "primary_plate_pdf_page_1based": 202,
+      "primary_plate_detail": "results/primary_pages/m77-u-bridge-EH509-detail.png",
+      "photo_assessment": "Both faces pictured under explicit item label. 3 strokes beside U consistent with M77 transcription; low-resolution halftone limits fine stroke/glyph and surface-technology analysis.",
+      "condition": "No damage explicitly specified in this exact catalogue entry; photographed outline broadly intact, surface details degraded in scan.",
+      "mold_link": null,
+      "manufacturing_method": null,
+      "museum_identifier": null,
+      "secondary_cisi_candidate": {
+        "identifier": "H-935",
+        "source": "data/raw/lipi_inscriptions.csv",
+        "status": "unverified secondary lead; joined by concatenated excavation+EH item and matching context, not by equal catalogue number",
+        "primary_cisi_photo_verified": false
+      }
+    },
+    {
+      "m77_reference": "4548",
+      "m77_main_tokens": [
+        "048",
+        "342",
+        "176"
+      ],
+      "m77_other_side_tokens": [
+        "087",
+        "328"
+      ],
+      "stroke_count": 2,
+      "eh_volume": "II",
+      "eh_plate": "XCVII",
+      "eh_item": "548",
+      "excavation_number": "2642",
+      "site": "Harappa",
+      "area": "Mound F",
+      "shape": "oval",
+      "material": "steatite",
+      "original_catalogue_object_term": "tiny seal",
+      "dimensions_original_inches": "5/16 \u00d7 1/4",
+      "dimensions_mm_arithmetic_only": [
+        7.9375,
+        6.35
+      ],
+      "dimension_warning": "Nominal historical dimensions; no precision beyond original fractions. Width shared; thickness and volume absent.",
+      "square": "M 11/16",
+      "depth": "16 ft below surface",
+      "stratum": null,
+      "primary_text_citation": "Vats 1940 I p110 item 15",
+      "primary_text_image": "data/raw/vats_1940_text_leaf136.jpg",
+      "primary_plate_pdf_page_1based": 202,
+      "primary_plate_detail": "results/primary_pages/m77-u-bridge-EH548-detail.png",
+      "photo_assessment": "Both faces pictured under explicit item label. 2 strokes beside U consistent with M77 transcription; low-resolution halftone limits fine stroke/glyph and surface-technology analysis.",
+      "condition": "No damage explicitly specified in this exact catalogue entry; photographed outline broadly intact, surface details degraded in scan.",
+      "mold_link": null,
+      "manufacturing_method": null,
+      "museum_identifier": null,
+      "secondary_cisi_candidate": {
+        "identifier": "H-962",
+        "source": "data/raw/lipi_inscriptions.csv",
+        "status": "unverified secondary lead; joined by concatenated excavation+EH item and matching context, not by equal catalogue number",
+        "primary_cisi_photo_verified": false
+      }
+    }
+  ],
+  "conclusions": [
+    "All three primary catalogue entries explicitly identify steatite; code3 alone did not establish this.",
+    "The two-stroke object is oval; three/four-stroke objects rectangular. No common-mold assertion is supported.",
+    "Historical stated first dimensions are5/16,6/16,7/16 inch for2,3,4 strokes in this selected trio; this is a descriptive post-selection correspondence, not an estimated population correlation or proof of numeric/quantity semantics.",
+    "Find squares and depths differ. Depth alone cannot order object manufacture or date the inscriptions.",
+    "CISI1 available first431pages does not contain the secondary candidate identifiersH935,H962,H1273; no CISI photograph or museum accession joined here."
+  ],
+  "limitations": [
+    "Raw plate image is only957\u00d71256pixels; enlarged crops interpolate and do not recover detail.",
+    "Direction and exact M identifiers derive from earlier authenticated M77 ledger; plate photos show U-left/strokes-right as reproduced, not independently inferred historical reading direction.",
+    "Dimensions are tablet dimensions, not vessel capacity or sign values.",
+    "No thickness, mass, contents, workshop, mold, incised/molded authentication, or current museum identifier established.",
+    "Vats counts3 pictograms on one face and1 on the other; this historical grouping is not a modern atomic-sign segmentation.",
+    "Archive9842 metadata/Harappa portal call itVolumeI, but downloaded content is platevolume.18220 supplies genuineVolumeItext."
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "sources": [
+    {
+      "path": "data/raw/new-anchor-2026-asi-report60.pdf",
+      "bytes": 17063708,
+      "sha256": "b6defc2423ef2f2805f7e5a5a5f807af03aa6997990dac3c950cec48634dd3e6",
+      "kind": "original_publisher_PDF",
+      "url": "https://asi.nic.in/admin/publications/ePublicationReportsDetails/download/60",
+      "resolved_url": "https://asi.nic.in/admin/publications/ePublicationReportsDetails/download/60",
+      "status": "pending_parent_registration"
+    },
+    {
+      "path": "data/raw/new-anchor-2026-asi-report60.pdf.headers.json",
+      "bytes": 1157,
+      "sha256": "8a00d063eede2a3bd54919bbd9271f9bbf4262149b50f0d36bed4d67b68b11e8",
+      "kind": "locally_serialized_HTTP_response_headers",
+      "url": "https://asi.nic.in/admin/publications/ePublicationReportsDetails/download/60",
+      "resolved_url": "https://asi.nic.in/admin/publications/ePublicationReportsDetails/download/60",
+      "status": "pending_parent_registration"
+    },
+    {
+      "path": "data/raw/new-anchor-2026-bahaj.pdf",
+      "bytes": 2210116,
+      "sha256": "db6c36c06fadf39c3d86e7ff073580eba3bfeca782eba7138f2735ec3b8f8ed1",
+      "kind": "original_publisher_PDF",
+      "url": "https://bssspublications.com/PublishedPaper/Publish_751.pdf?v=639159167669753099",
+      "resolved_url": "https://bssspublications.com/PublishedPaper/Publish_751.pdf?v=639159167669753099",
+      "status": "pending_parent_registration"
+    },
+    {
+      "path": "data/raw/new-anchor-2026-bahaj.pdf.headers.json",
+      "bytes": 317,
+      "sha256": "342eccae7cc3d8d3197db464ba8ca1c473c4387281d8e2bcff7f8e9f0ddb370a",
+      "kind": "locally_serialized_HTTP_response_headers",
+      "url": "https://bssspublications.com/PublishedPaper/Publish_751.pdf?v=639159167669753099",
+      "resolved_url": "https://bssspublications.com/PublishedPaper/Publish_751.pdf?v=639159167669753099",
+      "status": "pending_parent_registration"
+    },
+    {
+      "path": "data/raw/new-anchor-2026-search-results.json",
+      "bytes": 68362,
+      "sha256": "8f490731264aeb66051d16a70bb4536f7fdfec375ad6fdaf580c77a28da54c74",
+      "kind": "web_tool_search_results_serialization_not_HTTP",
+      "url": null,
+      "origin": "exact tool requests and responses embedded in artifact",
+      "status": "pending_parent_registration"
+    },
+    {
+      "path": "data/raw/new-anchor-2026-primary-page-captures.json",
+      "bytes": 68414,
+      "sha256": "f065c0deac8a5d28dbc5ba27b0e6a08cd4bb1677784397781d94827ee2c449a3",
+      "kind": "web_tool_primary_page_extraction_and_errors_not_HTTP",
+      "url": null,
+      "origin": "exact tool requests and responses embedded in artifact",
+      "status": "pending_parent_registration"
+    }
+  ],
+  "duplicate_acquisition": {
+    "new_path": "data/raw/new-anchor-2026-asi-report60.pdf",
+    "existing_path": "data/raw/pipes_kalibangan_excavation_2015_part1.pdf",
+    "same_sha256": true,
+    "retention": "Both retained; recent search-result date prompted identity check, not new evidence."
+  }
+}

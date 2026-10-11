@@ -1,0 +1,253 @@
+{
+  "schema_version": 1,
+  "scope": "Bounded manual C39 graphic inspection and M77 Appendix V Chanhudaro source-join check; no semantic values or universal sign-system mapping.",
+  "review_mode": "Post-hypothesis visual review; Pettersson XXUUU proposal known in advance. Not blinded, no independent tracing or object autopsy.",
+  "object_identity": {
+    "cisi": "C39",
+    "finnish": "5083",
+    "excavation": "CH2529H",
+    "museum": "ASI74.1.48",
+    "metadata_printed_page": 375,
+    "metadata_pdf_page": 411,
+    "photograph_references": {
+      "A1": "Yale1982.10:31–32",
+      "A2": "Yale1981.13:10–12"
+    },
+    "original_publication_plate": "Mackay1943 CE LXXIV.2; original-publication join previously reviewed separately"
+  },
+  "graphic_source": {
+    "printed_page": 337,
+    "pdf_page": 373,
+    "labels": {
+      "A1": "C-39 A (1) (33%)",
+      "A2": "C-39 A (2) (100%)"
+    },
+    "orientation": "As printed; no rotation. Descriptive upper/lower labels are image coordinates, not reading direction."
+  },
+  "observations": [
+    {
+      "feature": "Longitudinal arrangement",
+      "finding": "Angular contours and several U-like curved incisions occupy an elongated central region of A2, with the angular cluster above the clearest U-like features.",
+      "confidence": "high for spatial arrangement; not a token count"
+    },
+    {
+      "feature": "Angular contours",
+      "finding": "Triangular and double-triangle-like contours are visible; a narrow waist and a horizontal triangular edge are conspicuous. Two angular complexes are a plausible segmentation, but boundaries and faint connecting strokes are insufficient for an independently secure count of two identical signs.",
+      "candidate_complex_count": 2,
+      "confirmed_token_count": null,
+      "confidence": "moderate for candidate segmentation"
+    },
+    {
+      "feature": "Curved contours",
+      "finding": "Below the angular region, multiple rounded U-like incisions have openings generally facing upward toward the angular region. Three is a plausible segmentation matching the published proposal, but the lower contour is weak and surface marks complicate a complete count.",
+      "candidate_curve_count": 3,
+      "confirmed_token_count": null,
+      "confidence": "moderate for relative orientation; lower for complete count"
+    },
+    {
+      "feature": "Marks outside candidate cluster",
+      "finding": "Faint diagonal/curving marks occur above the principal cluster and further shallow curved/horizontal marks occur below it. Their antiquity and character status cannot be distinguished from scratches, corrosion and other surface effects in this scan.",
+      "confirmed_additional_signs": null,
+      "confidence": "high that visible marks exist, unresolved classification"
+    },
+    {
+      "feature": "Thin horizontal line crossing entire A2 image",
+      "finding": "The line continues across the background as well as the object. A1 also shows a narrow light band around the object. It is excluded from inscription counting; material and purpose are not established.",
+      "confidence": "high for exclusion as a glyph"
+    },
+    {
+      "feature": "Whole-field count",
+      "finding": "No exact complete character count is independently established. XXUUU remains an attributed reading, compatible with major visible features but not verified stroke by stroke.",
+      "exact_graphic_token_count": null
+    }
+  ],
+  "pettersson_attribution": {
+    "printed_page": 91,
+    "pdf_page": 3,
+    "reported_notation": "XXUUU",
+    "X_description": "Author says X is actually a double triangle and cites Parpola sign234 (1994:75). This audit does not independently authenticate that numbered sign equivalence.",
+    "relative_orientation": "Author describes the U openings as facing the Xs.",
+    "semantic_status": "Numeral reading conditional; he excludes C39 from the calculations because its mass is unreported and the possible X numeral is not shared with the other specimens.",
+    "independent_sign_mapping": null
+  },
+  "m77_coverage_check": {
+    "source": "Mahadevan1977 Appendix V, printed825/PDF834",
+    "scope": "Complete printed Chanhudaro subsection on this page, including CE and other items",
+    "positive_control": "6306 -> CE LXXIV item1 is explicitly present",
+    "target_lookup": [
+      "CE LXXIV item2",
+      "CH2529H",
+      "ASI74.1.48"
+    ],
+    "result": "None of these target identifiers occurs in this subsection. No C39-to-M77 join established.",
+    "global_absence_proved": false,
+    "photo_date_used_as_absence_evidence": false,
+    "mapping_assigned": null,
+    "limits": "No exhaustive search of alternate attributions, unpublished references, or the complete M77 corpus; do not convert a missing source join into global omission."
+  },
+  "bounded_attempts": [
+    {
+      "attempt": "Inspect full CISI p337 and complete A2 crop",
+      "result": "Confirmed C39 labels, spatial extent and angular/curved cluster; full field retained."
+    },
+    {
+      "attempt": "Inspect upper, middle and lower native-pixel A2 crops",
+      "result": "Main cluster compatible with published arrangement; faint outside marks and uncertain segmentation prevent a complete independent transcription."
+    },
+    {
+      "attempt": "Review Pettersson p91 as an attributed interpretation",
+      "result": "Recorded XXUUU and conditional numerical argument without adopting numerical values or sign234 mapping."
+    },
+    {
+      "attempt": "Inspect exact CISI p375 identifier crop",
+      "result": "Verified Finnish5083, CH2529H, ASI74.1.48 and 1982/1981 photograph references."
+    },
+    {
+      "attempt": "Inspect complete M77 Appendix V Chanhudaro subsection on p825",
+      "result": "LXXIV1 positive control found; no explicit C39 source join. No inference from later photo dates."
+    }
+  ],
+  "crop_method": "Pillow native-pixel cropping only; no contrast change, rotation, interpolation or retouching. All listed crops visually reviewed.",
+  "crop_records": [
+    {
+      "source": "results/primary_pages/c40-cisi-front-373.png",
+      "output": "results/primary_pages/c39-photo-A2-detail.png",
+      "box_xyxy": [
+        1650,
+        240,
+        2630,
+        3740
+      ]
+    },
+    {
+      "source": "results/primary_pages/c39-photo-A2-detail.png",
+      "output": "results/primary_pages/c39-graphic-upper.png",
+      "box_xyxy": [
+        0,
+        0,
+        640,
+        1600
+      ]
+    },
+    {
+      "source": "results/primary_pages/c39-photo-A2-detail.png",
+      "output": "results/primary_pages/c39-graphic-middle.png",
+      "box_xyxy": [
+        0,
+        1500,
+        640,
+        2450
+      ]
+    },
+    {
+      "source": "results/primary_pages/c39-photo-A2-detail.png",
+      "output": "results/primary_pages/c39-graphic-lower.png",
+      "box_xyxy": [
+        0,
+        2400,
+        640,
+        3500
+      ]
+    }
+  ],
+  "new_downloads": [],
+  "evidence_files": [
+    {
+      "path": "data/raw/cisi_76884.pdf",
+      "bytes": 31508998,
+      "sha256": "47a4da4227cfb7baa56d6a561e25797225499d0ec54f5a702a82c67ab4746d4d"
+    },
+    {
+      "path": "data/raw/mahadevan_1977_text.pdf",
+      "bytes": 119302608,
+      "sha256": "6dcdd074a0174e5fab149590fbbf82342711d345764e9763f8e5e92c81cf7f99"
+    },
+    {
+      "path": "data/raw/pettersson_1999_indus_numerals_metal_tools.pdf",
+      "bytes": 324816,
+      "sha256": "6668f9ff93612059eaa385f1356f8138ebe76ddeeeb8b51043830131d9265b8a"
+    },
+    {
+      "path": "results/primary_pages/c40-cisi-front-373.png",
+      "bytes": 2817303,
+      "sha256": "f553f5ba8c77ffa5cfdc4cc694332cc751a12c683c7c01e4efb57bc284d6d89a",
+      "dimensions_px": [
+        2789,
+        4000
+      ]
+    },
+    {
+      "path": "results/primary_pages/c39-photo-A2-detail.png",
+      "bytes": 1614308,
+      "sha256": "2e5ab2de702f2b48ff4ccfafe25f53dbd99d9c72f93c08194c0132fcfe351336",
+      "dimensions_px": [
+        980,
+        3500
+      ]
+    },
+    {
+      "path": "results/primary_pages/c39-graphic-upper.png",
+      "bytes": 460358,
+      "sha256": "938bcc5ec0ff2d3f04812054d0d1d8774b714143493eaccd1748f57d08b1f7dc",
+      "dimensions_px": [
+        640,
+        1600
+      ]
+    },
+    {
+      "path": "results/primary_pages/c39-graphic-middle.png",
+      "bytes": 298457,
+      "sha256": "90b55f8bac26e6dd36345cf16b9a80fb2b08da97da00ae71c738aac9d50f54c8",
+      "dimensions_px": [
+        640,
+        950
+      ]
+    },
+    {
+      "path": "results/primary_pages/c39-graphic-lower.png",
+      "bytes": 300196,
+      "sha256": "51126d82ae64ede39e09346ecec77b1da58e18df66eb9c4795a58656999ee632",
+      "dimensions_px": [
+        640,
+        1100
+      ]
+    },
+    {
+      "path": "results/primary_pages/c40-cisi-411.png",
+      "bytes": 3254530,
+      "sha256": "84b40e2acb4390ffc951fe1a48bd0f52a659f8814deb4e4ad8384cc94953b234",
+      "dimensions_px": [
+        2311,
+        3200
+      ]
+    },
+    {
+      "path": "results/primary_pages/c40-cisi-identifiers.png",
+      "bytes": 91438,
+      "sha256": "43ab1818942bc2adfb77960eeb6c10436b6d35050936f0ab3528a732b6afeb6a",
+      "dimensions_px": [
+        955,
+        170
+      ]
+    },
+    {
+      "path": "results/primary_pages/c40-followup-834.png",
+      "bytes": 3022287,
+      "sha256": "dc76e29cca40cbd0b20732e26538b3271125dd796c3e9bcdb232a8bfcf7f4cee",
+      "dimensions_px": [
+        2319,
+        3000
+      ]
+    },
+    {
+      "path": "results/primary_pages/pettersson-1999-followup-3.png",
+      "bytes": 155253,
+      "sha256": "99f318564368fecec7a8cd066632f9f5de11f09a56e5c1b17e79250ea7939018",
+      "dimensions_px": [
+        1591,
+        2200
+      ]
+    }
+  ],
+  "conclusion": "C39 supplies a candidate spatial pattern, not a verified mass equation or exact token sequence. Additional faint surface marks must remain unclassified. The bounded M77 source-join check fails to establish a C39 mapping."
+}

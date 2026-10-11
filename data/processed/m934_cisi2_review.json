@@ -1,0 +1,194 @@
+{
+  "review_date": "2026-09-27",
+  "status": "CISI2_labelled_photographs_recovered_with_unresolved_excavation_number_conflict",
+  "review_mode": "Source-exposed visual review of scanned primary catalogues and photographs; no physical autopsy",
+  "cisi": "M-934",
+  "secondary_row": "3329.1",
+  "primary_CISI2_metadata": {
+    "printed_page": 436,
+    "pdf_page": 471,
+    "finnish_concordance": "1158",
+    "excavation_number": "DM56",
+    "museum_accession_entries": [
+      "MD50.419",
+      "MM464"
+    ],
+    "photograph_sources": {
+      "original": "JL192",
+      "impression_a": "P167"
+    },
+    "key_printed_page": 434,
+    "key_pdf_page": 469,
+    "finnish_number_not_automatically_M77": true
+  },
+  "original_MIC_metadata": {
+    "seal": 158,
+    "printed_page": 403,
+    "pdf_page": 54,
+    "excavation_number": "DM50",
+    "original_table_reading_reconfirmed": true
+  },
+  "conflict": {
+    "field": "excavation number",
+    "CISI2": "DM56",
+    "Marshall_MIC158": "DM50",
+    "resolved": false,
+    "preferred_corrected_value": null,
+    "possible_explanations_not_adjudicated": [
+      "typographical error",
+      "catalogue correction",
+      "excavation-label problem"
+    ],
+    "secondary_DM50158_is_not_independent_resolution": true
+  },
+  "photographs": {
+    "printed_page": 90,
+    "pdf_page": 125,
+    "labels": [
+      "M-934 A",
+      "M-934 a"
+    ],
+    "old_MIC158_visual_concordance": "strong, based on five groups plus animal/stand composition",
+    "directly_labelled_M934_graphic_comparison_supported": true,
+    "five_groups_in_impression_order": [
+      "staggered comb",
+      "crossed angular form",
+      "capped fish",
+      "two short strokes",
+      "internally marked diamond"
+    ],
+    "comb_stagger_opposite_L89_in_corresponding_impression_orientation": true,
+    "gross_missing_comb_corner_observed": false,
+    "fine_strokes_and_physical_completeness_certified": false
+  },
+  "identity_disposition": {
+    "M934_label_to_new_photographs": "direct primary labels inspected",
+    "M934_photograph_to_MIC158": "strong visual concordance; Finnish1158 also consistent with prior independent MIC158/M77 bridge",
+    "M934_to_DM50": "not unqualified; conflicts with printed CISI2 DM56",
+    "M934_to_DM56": "literal CISI2 field, not independently adjudicated as correct"
+  },
+  "prior_frozen_reviews_unchanged": true,
+  "navigation_and_execution_notes": [
+    "PDF124 showed M923\u2013929; target pair on PDF125.",
+    "System Python lacked Pillow; dependency runtime succeeded.",
+    "Attempt to view PDF125 render before completion failed; same render process completed and image then inspected."
+  ],
+  "downloads_this_review": 0,
+  "global_allography_established": false,
+  "semantic_value": null,
+  "phonetic_value": null,
+  "established_semantic_values": 0,
+  "established_phonetic_values": 0,
+  "evidence_files": [
+    {
+      "path": "data/raw/h843_identity_CorpusVol2.pdf",
+      "bytes": 35870617,
+      "sha256": "727132579a485ee626e48a64c663148a85fbc0811fb523818fd615231f8a327d"
+    },
+    {
+      "path": "data/raw/stone1471_marshall1931_volume2_text.pdf",
+      "bytes": 12167700,
+      "sha256": "e58c4d95c9d7dbac29a3cb04d633d20618de71ab7cb58e7dcf035fb88ceb2ef3"
+    },
+    {
+      "path": "data/raw/m934_marshall48270_leaf191.jpg",
+      "bytes": 615727,
+      "sha256": "afefcac21f2abacaebb06d700a001f38dd74b50e55d0cc903f3eb77787cb8c4e"
+    },
+    {
+      "path": "data/processed/m934_primary_review.json",
+      "bytes": 5859,
+      "sha256": "68d9a0cd8e78da62d57a76040ac7bf87bc7d39f5468702ea9bb494b5b5b66af1"
+    },
+    {
+      "path": "data/processed/comb_variation_review.json",
+      "bytes": 2047,
+      "sha256": "204b53e2cd01dfe84776465dee5f6a60e4d82d43658124730d781ccbf9d2dc43"
+    },
+    {
+      "path": "docs/M934_PRIMARY_REVIEW.md",
+      "bytes": 6116,
+      "sha256": "c42de2ecb0ffbedcb7dfc14d807533da5273e7993ab8a8cf25a9d11951f45100"
+    },
+    {
+      "path": "docs/COMB_VARIATION_REVIEW.md",
+      "bytes": 3065,
+      "sha256": "b1ba20eb8a8457fd35f80aeb5b585495f76b98031b4915774ae774c63781f31d"
+    },
+    {
+      "path": "docs/M934_CISI2_REVIEW.md",
+      "bytes": 5744,
+      "sha256": "ae6d1e95814c80affa5c68dcc6a8039ba57590581e27dbd83703c3ee82b8800e"
+    },
+    {
+      "path": "scripts/render_m934_cisi2_crops.py",
+      "bytes": 708,
+      "sha256": "64f4042ad5a1f95e3ada455e9a92c5e3f3a8770f4a83a898f6bf1881c05cbfb3"
+    },
+    {
+      "path": "results/m934-cisi2-meta_extraction.json",
+      "bytes": 376,
+      "sha256": "13baee80e6ba34ccb0b8bdc91eb7c956c40b51b890bedea91b3eba365ca43c2d"
+    },
+    {
+      "path": "results/m934-cisi2-photo_extraction.json",
+      "bytes": 385,
+      "sha256": "32da30c1824321446e4d6f36ec09df6e439343d69b4789682a439008fcfcdfb2"
+    },
+    {
+      "path": "results/primary_pages/m934-cisi2-meta-471.png",
+      "bytes": 1302210,
+      "sha256": "9338a847c2a91106ec2e39d6ea833dc9bc1df7abfdeb72bed844f0813899908b"
+    },
+    {
+      "path": "results/primary_pages/m934-cisi2-meta-detail.png",
+      "bytes": 20444,
+      "sha256": "9e8fe82dbc6e569bb16fedec54b4478506f7d17fb4b4c5169d551b6dc3f5e379"
+    },
+    {
+      "path": "results/primary_pages/m934-cisi2-photo-124.png",
+      "bytes": 4029129,
+      "sha256": "22f7fa690cfe5a6330fba723f304278bf536c12e068b82638676770422650c72"
+    },
+    {
+      "path": "results/primary_pages/m934-cisi2-photo-125.png",
+      "bytes": 4263882,
+      "sha256": "023757da15fee85c72f2fc19f2cbeadaebd25080972d4fee4b4bd2c9ef3632eb"
+    },
+    {
+      "path": "results/primary_pages/m934-cisi2-original.png",
+      "bytes": 227225,
+      "sha256": "fa98ef7ad28e9ee0cb7e8bb456ead9456723cb14e01cb96ada21918eeb808576"
+    },
+    {
+      "path": "results/primary_pages/m934-cisi2-impression.png",
+      "bytes": 308930,
+      "sha256": "1ec3fea240345b43d8c0c8931f1c9111f45ddbd850654d483c8c6253e491014e"
+    },
+    {
+      "path": "results/primary_pages/h843-cisi2-key-469.png",
+      "bytes": 2283222,
+      "sha256": "7e891986c8aa4f5299101b13f80ce0fe1cd27f45e05bcd120857a7730e98884e"
+    },
+    {
+      "path": "results/primary_pages/m934-mic158-table.png",
+      "bytes": 26159,
+      "sha256": "470c5695237ef6a0024a5e5a77e0d7dc9c1e9163125b9e7ecfbd53b16edc697d"
+    },
+    {
+      "path": "results/primary_pages/m934-marshall-54.png",
+      "bytes": 2455743,
+      "sha256": "12334908ad2bc31a8c921715e5007294132d641206fa135750165c46d683dd9b"
+    },
+    {
+      "path": "results/primary_pages/m934-mic158.png",
+      "bytes": 83992,
+      "sha256": "b2b2b9a504ed7b23da48c7f9342fa7a96ed2e5034739bf9f36d32c074839b124"
+    },
+    {
+      "path": "results/primary_pages/ending-india-l89-pair.png",
+      "bytes": 158514,
+      "sha256": "c9489378e86948fcd8082ec6383093663a84169a4fe28c6d5e32c8e464bb5a3b"
+    }
+  ]
+}

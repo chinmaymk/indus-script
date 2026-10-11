@@ -1,0 +1,52 @@
+{
+  "date": "2026-09-27",
+  "status": "Prospective specification for this new statistic after prior corpus exposure; not a blind archaeological test",
+  "question": "Do independently visually selected roof additions exhibit recurrent matching base-versus-roof states in the same full textual frames across different graphic roots?",
+  "pairs": [
+    {
+      "base": "M059",
+      "roof": "M065",
+      "root": "fish"
+    },
+    {
+      "base": "M060",
+      "roof": "M066",
+      "root": "fish"
+    },
+    {
+      "base": "M089",
+      "roof": "M092",
+      "root": "three_strokes"
+    },
+    {
+      "base": "M137",
+      "roof": "M138",
+      "root": "cross"
+    },
+    {
+      "base": "M162",
+      "roof": "M163",
+      "root": "trident"
+    },
+    {
+      "base": "M333",
+      "roof": "M334",
+      "root": "basal_U"
+    }
+  ],
+  "component_identity": "No equation between the added roof and standalone M134; only a candidate recurring graphic operation",
+  "primary_corpus": "strict_candidate true; exclude any token doubt/loss and empty strings; at least one other token in field",
+  "sensitivity_corpus": "all complete undoubted exported fields, separately labelled because multiple-document coverage and original direction may be uncertain",
+  "units": "Deduplicate each pair/frame/state/reference. Repeated references do not add state weight. Preserve complete prefix/suffix and token position; no cross-field joining. Different reference numbers do not certify independent artifacts or dies.",
+  "frames": "Entire exact prefix and suffix. Primary frame key additionally requires identical source site label, object type, length and position. Site labels are secondary/unverified. Unstratified full frames are diagnostic only.",
+  "states": "For each pair/frame, 1=only base observed,2=only roof observed,3=both. All states and missing frames retained. State3 contributes zero to exclusive-state agreement and is reported, not recoded.",
+  "cross_root_comparison": "Compare only pairs with different graphic-root labels. A shared frame is one observed for both pairs. Signed score is product of -1 for state1,+1 for state2,0 for state3. Report concordant plain, concordant roof, discordant and ambiguous counts, not just score.",
+  "narrow_rectangle_criterion": "Within a cross-root pair comparison require at least one shared frame exclusive plain/plain and a DIFFERENT shared frame exclusive roof/roof, with four distinct reference witnesses selectable. This is a corpus candidate requiring original-image/die checks; it is not semantic equivalence or a proved modifier. Counts of overlapping rectangles are not independent replications. The two frames must also share site/type/length/position within the stratified analyses; diagnostic frames still require identical length and position. This restriction was fixed before new counts.",
+  "null_scope": "If eligible support exists, shuffle per-pair state masks only among its observed frames within exact source site/type/length/position strata, fixing coverage and mask multiplicities. 499 seeded replicates (20260927). Report movable slots and score variance. A degenerate null is uninformative; no semantic inference from a non-rejection. Exchangeability is a specified conditional null, not historical fact. Only frame-mask counts are preserved, not token/reference counts or object/formula dependencies. Record exact product of stratum multinomial allocation counts. No inferential modifier claim follows even from a nondegenerate score shuffle.",
+  "coverage": "All417 rows state whether visually selected, complete-field coverage, and matching-frame coverage; absent evidence never becomes a meaning. No global decipherment or code merger.",
+  "semantic_values": null,
+  "phonetic_values": null,
+  "pre_count_correction": "Before inspecting new context counts, crop-level review excluded M158/M159 because an extra central stroke also differs; no sole-roof operation. Six core pairs remain.",
+  "primary_endpoint": "Number of rectangles with selectable four-distinct-reference witnesses. Signed agreement and its shuffle are secondary coverage diagnostics, not semantic tests.",
+  "missing_metadata": "Null or empty site/type stored as <unknown>; an unknown/unknown match is not a verified shared site or type."
+}

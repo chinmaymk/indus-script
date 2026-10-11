@@ -1,0 +1,182 @@
+{
+  "audit_date": "2026-09-24",
+  "status": "primary catalogue entry and reproduction reviewed; no sign interpretation established",
+  "object": {
+    "tablet": "YBC 5447",
+    "catalogue_entry": 1090,
+    "regnal_date": "Gungunum 10",
+    "absolute_date_as_published": {
+      "year_bce": 1923,
+      "chronology": "middle",
+      "independent_of_chronology": false
+    },
+    "indus_sequence_authenticated": false,
+    "sign_ids_assigned": [],
+    "owner_identified_by_this_catalogue": null,
+    "bilingual_correspondence": null
+  },
+  "page_observations": [
+    {
+      "pdf_page": 9,
+      "printed_page": "xi",
+      "observed": "Introduction explicitly dates1090 to Gungunum10,1923BCE in middlechronology."
+    },
+    {
+      "pdf_page": 400,
+      "printed_page": "382",
+      "observed": "Separate entries1088Newell23,1089NCBS876,1090YBC5447,1091NBC9256.1090 describes scene withoutIndusinscription."
+    },
+    {
+      "pdf_page": 401,
+      "printed_page": "facing382",
+      "observed": "Photos1090a/b anddrawing1090c;1090d is a distinctFailakacomparison. Partialphotos do not allow independentfineglyphcollation."
+    },
+    {
+      "pdf_page": 402,
+      "printed_page": "adjacent illustration page",
+      "observed": "1092\u20131094, separateElamobjects."
+    },
+    {
+      "pdf_page": 403,
+      "printed_page": "385",
+      "observed": "Elam catalogue1092\u20131094, confirms precedingpage boundary."
+    }
+  ],
+  "source_fingerprints": [
+    {
+      "path": "data/raw/yale_buchanan_1981.pdf",
+      "bytes": 25377330,
+      "sha256": "7df04dea6981405bbeaf8c91ea74601509813e4eb04bee2bbc8ad0c929ad27fb"
+    },
+    {
+      "path": "data/raw/gungunum_as16_1965.pdf",
+      "bytes": 45022472,
+      "sha256": "d98f1529b0f811028030fac99bf84659580f1aa393526a05be00821cdea7a66d"
+    }
+  ],
+  "review_image_fingerprints": [
+    {
+      "path": "results/primary_pages/yale-buchanan-9.png",
+      "bytes": 396946,
+      "sha256": "4280f54aca21df479877ddefae285af506b9976f17be47c600f724541978a53e"
+    },
+    {
+      "path": "results/primary_pages/yale-buchanan-400.png",
+      "bytes": 141828,
+      "sha256": "54b051fc116c335a7d5f5369d839b7b469328f51aaa8f9d13aeea29583882994"
+    },
+    {
+      "path": "results/primary_pages/yale-buchanan-401.png",
+      "bytes": 234145,
+      "sha256": "23b2b57ae675aa73e6346bc0acad6ffe9c460a13416764c0eea284f769df45f3"
+    },
+    {
+      "path": "results/primary_pages/yale-buchanan-402.png",
+      "bytes": 305225,
+      "sha256": "ecee9c4fe32203ce2d49faa14b017f29c995fe3823288bdf85dc0d8d9bee65e8"
+    },
+    {
+      "path": "results/primary_pages/yale-buchanan-403.png",
+      "bytes": 102818,
+      "sha256": "9757ba31cb8e9f3ae1aae2ef277e26997892cb9f18be417f70dde83da4a97ebf"
+    },
+    {
+      "path": "results/primary_pages/yale-buchanan-detail-401.png",
+      "bytes": 319298,
+      "sha256": "cd6d247bf814dc6527ae079218dfab90985a808ded8b51733d8694ddc928ae7d"
+    },
+    {
+      "path": "results/primary_pages/yale-as16-224.png",
+      "bytes": 279943,
+      "sha256": "a20abfb2aa5876de35046ca61485f32fa379169ba4f4a6216e66dc2c71ba3885"
+    },
+    {
+      "path": "results/primary_pages/yale-as16-225.png",
+      "bytes": 556480,
+      "sha256": "0b0c9e4d5cd929fce10732080d72b2917b3a3b832fef14f51f8e277c51f1fa4d"
+    },
+    {
+      "path": "results/primary_pages/yale-as16-228.png",
+      "bytes": 309356,
+      "sha256": "8eaf76e7601ba23f433a2763b31e9394f81b55d3869a7e0aed44f7cf700d9a44"
+    },
+    {
+      "path": "results/primary_pages/yale-as16-229.png",
+      "bytes": 310367,
+      "sha256": "2e15dda3a04eb7d92ece35323102075f3cc424a9109920147b465a7d3b9a1d3e"
+    }
+  ],
+  "generated_but_not_separately_viewed": [
+    "results/primary_pages/yale-buchanan-detail-400.png"
+  ],
+  "attempts": [
+    {
+      "action": "sandboxcurl",
+      "result": "DNSfailure,noarchive"
+    },
+    {
+      "action": "escalatedcurl",
+      "result": "successfuloriginalPDFdownload"
+    },
+    {
+      "action": "pypdf",
+      "result": "514pages;bodylargelyimageonly"
+    },
+    {
+      "action": "websearch",
+      "result": "indexedentry382;directwebopenfailedsizelimit"
+    },
+    {
+      "action": "visualreview",
+      "result": "entryandimagesverified;noIndussequenceauthenticated"
+    },
+    {
+      "action": "1967articlesearch",
+      "result": "bibliographyrecovered,nofulltextinthisaudit"
+    },
+    {
+      "action": "parentunmistakablecharactersnippet",
+      "result": "rejectedconflationwithGadd7IM8028;notYale5447evidence"
+    },
+    {
+      "action": "AS16 original follow-up",
+      "result": "Sibling agent downloaded once; six text pages extracted/read and four key image pages visually verified. Nonconformant codestream warning did not prevent reviewed renders."
+    }
+  ],
+  "limitations": [
+    "Noindependentcuneiformcollationinthisaudit.",
+    "NoIndusglyphIDsfromgeometricmotifs.",
+    "1090ddoesnotestablishsameFailaka/Yaledie.",
+    "Ownerandcommoditycorrespondenceunestablished."
+  ],
+  "as16_original_review": {
+    "text_read_printed_pages": [
+      204,
+      205,
+      206,
+      207,
+      208,
+      209
+    ],
+    "visually_reviewed_pdf_pages": [
+      224,
+      225,
+      228,
+      229
+    ],
+    "yale_design_is_composite_sketch": true,
+    "lowest_drawing_strokes_possible_seal_edge": true,
+    "crosshatched_squares_compared_to_marshall_signs": [
+      "ccxcvi",
+      "ccxcvii",
+      "ccxcviii",
+      "ccxcix",
+      "ccc"
+    ],
+    "comparison_is_authenticated_written_sequence": false,
+    "source_qualifier": "Buchanan thinks Indus signs, if present in Type III, generally no longer serve as writing; possible exception Gadd12.",
+    "local_reading": null,
+    "later_exact_die_match_claim_verified": false,
+    "extraction_path": "data/processed/yale_buchanan_as16_excerpt.txt"
+  }
+}

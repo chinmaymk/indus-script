@@ -1,0 +1,332 @@
+{
+  "scope": "primary CISI artifact authentication; explicit separation from unjoined capacity-vessel citation",
+  "established_semantic_values": 0,
+  "established_phonetic_values": 0,
+  "primary_metadata": {
+    "printed_page": 439,
+    "pdf_page": 474,
+    "CISI": "M-1374",
+    "Finnish_Concordance": "2893",
+    "excavation_identifier": "UPM/MD-138",
+    "holding_code": "EXB",
+    "registration": "1381",
+    "photograph_source": "JL346"
+  },
+  "primary_key": {
+    "printed_page": 434,
+    "pdf_page": 469,
+    "EXB": "Excavation Branch, Department of Archaeology and Museums, Government of Pakistan, Karachi",
+    "JL": "CISI project photograph",
+    "column2_is_Finnish_not_automatic_M77": true,
+    "UPM_expansion_verified_in_this_key": false
+  },
+  "primary_photographs": {
+    "printed_page": 180,
+    "pdf_page": 215,
+    "captions": [
+      "M-1374 A (1) (50 %)",
+      "M-1374 A (2)"
+    ],
+    "page_heading": "MOHENJO-DARO 1372–1376 SEAL IMPRESSIONS on pots",
+    "physical_form": "broken rim/neck sherd with stamped inscription",
+    "whole_vessel_view_for_M1374": false,
+    "neighbor_whole_vessels": [
+      "M-1372",
+      "M-1373"
+    ],
+    "internal_profile_present_for_M1374": false,
+    "graduated_metric_scale_present_for_M1374": false,
+    "complete_stroke_inventory_authenticated": false,
+    "counted_numeric_value": null
+  },
+  "secondary_candidate": {
+    "id": "3672.1",
+    "cisi": "M-1374",
+    "site": "Mohenjo-daro",
+    "area-section": "DK-",
+    "excavation-idno": "UPM/MD-138",
+    "type": "POT:T:s",
+    "material": "Clay",
+    "preservation": "complete",
+    "condition": "Poor",
+    "complete": "N",
+    "dir.": "R/L",
+    "text": "+000-700-033-000+"
+  },
+  "Fuls_comparison": {
+    "source_locator": "Section3.3,Figure7(a),citesDalesandKenoyer1986pp240–241",
+    "reported_label": "MD-1374",
+    "reported_form": "complete vessel",
+    "reported_height_cm": 73,
+    "reported_maximum_diameter_cm": 69,
+    "reported_marks": "three vertical plus three slanted marks",
+    "primary_profile_visually_verified": false,
+    "explicit_link_to_CISI_M1374_or_UPM_MD138_found": false,
+    "identity_established": false,
+    "conclusion": "Do not join from integer1374. Complete-versus-fragmentary mismatch retained, without proving no possible historical relationship or refuting the intended-object capacity calculation."
+  },
+  "new_capacity_computed": false,
+  "new_sign_mapping_established": false,
+  "attempts": [
+    {
+      "method": "local retained PDF",
+      "pages": [
+        474,
+        475,
+        476,
+        195,
+        215,
+        235,
+        462,
+        463,
+        469
+      ],
+      "outcome": "exact metadata/photo/key recovered; irrelevant navigation pages retained"
+    },
+    {
+      "method": "public web search",
+      "queries": [
+        "\"Fuls\" \"1374\" \"138\"",
+        "\"UPM\" \"MD-138\" pottery",
+        "\"Volumenmaße\" Fuls pdf",
+        "\"Dales\" \"Kenoyer\" \"1986\" \"240\" pottery",
+        "\"MD-1374\" pottery",
+        "site.harappa.com \"Excavations at Mohenjo Daro\" pottery"
+      ],
+      "outcome": "No new exact artifact bridge or original target page. Author-posted extracted text corroborates attributed complete-vessel description."
+    },
+    {
+      "method": "public author-posted manuscript web extraction",
+      "url": "https://www.academia.edu/8808307/VOLUMENMA%C3%9FE_VON_TONGEF%C3%84%C3%9FEN_DER_INDUSKULTUR",
+      "outcome": "Section3.3andFigure7(a)captiontextavailable;figure not visually recovered. Reading/commodity proposals not adopted."
+    }
+  ],
+  "restricted_source_retry_or_bypass": false,
+  "crop_manifest": [
+    {
+      "source": {
+        "path": "results/primary_pages/capacity-md1374-detail-474.png",
+        "bytes": 4772181,
+        "sha256": "7c89bc37590874a85f439ba08657075ce2aa359edb864f788e590a90e091fac5"
+      },
+      "output": {
+        "path": "results/primary_pages/capacity-md1374-metadata-crop.png",
+        "bytes": 88980,
+        "sha256": "46d1ee82b81c0b60d233a3d9adcd01028d0b20fb5c38aa37194913af8e6ed1ac"
+      },
+      "box_xyxy": [
+        1820,
+        1100,
+        2900,
+        1255
+      ],
+      "operation": "rectangular native-resolution crop only"
+    },
+    {
+      "source": {
+        "path": "results/primary_pages/capacity-md1374-detail-215.png",
+        "bytes": 3149853,
+        "sha256": "2e5b8942481607291805868301e8a1e1441839671e541462fe83d4f54e56f4a5"
+      },
+      "output": {
+        "path": "results/primary_pages/capacity-md1374-photos-crop.png",
+        "bytes": 330949,
+        "sha256": "3e7ab09c1cf282925486f2ea659611a47c8edc6f479fc500031036d4d9df4472"
+      },
+      "box_xyxy": [
+        170,
+        2320,
+        1390,
+        3000
+      ],
+      "operation": "rectangular native-resolution crop only"
+    }
+  ],
+  "evidence_files": [
+    {
+      "path": "data/processed/capacity_md1374_cisi2_new_sources.json",
+      "bytes": 529,
+      "sha256": "af4636846858c06639437a79da0abfab900907c2989f3139d0f0f92427b02994"
+    },
+    {
+      "path": "data/processed/capacity_table_followup.json",
+      "bytes": 7668,
+      "sha256": "15a8bc4e1dfaa3a98d80ffc49eef40f4e0aef312bd96631fa7a1dcfa8689b129"
+    },
+    {
+      "path": "data/processed/md1374_source_followup.json",
+      "bytes": 4359,
+      "sha256": "be6a8e0f9d78e6246fcb924f57ba0ec7705dd442872848bc31381b728a69a980"
+    },
+    {
+      "path": "data/raw/capacity_md1374_cisi2_web_capture.json",
+      "bytes": 59355,
+      "sha256": "7c72940ba5d125714038cbcf0ab35e20c5dcdcabcf8e4893e9c229525f8120ea"
+    },
+    {
+      "path": "data/raw/h843_identity_CorpusVol2.pdf",
+      "bytes": 35870617,
+      "sha256": "727132579a485ee626e48a64c663148a85fbc0811fb523818fd615231f8a327d"
+    },
+    {
+      "path": "data/raw/lipi_inscriptions.csv",
+      "bytes": 1204921,
+      "sha256": "b8dcb325a2e2cd3cde12ac12e7a418b0348e45713c9ee28aad81b645d2ac5ee4"
+    },
+    {
+      "path": "docs/CAPACITY_MD1374_CISI2_REVIEW.md",
+      "bytes": 6071,
+      "sha256": "53c28ca5be7a84be02a2f895bd9922cd7cf0c30bb0c194be697ea8cf75be52f2"
+    },
+    {
+      "path": "docs/MD1374_SOURCE_FOLLOWUP.md",
+      "bytes": 3036,
+      "sha256": "aac97449ac52186b6e3840a2c241d83735eed459c764129f9ba65507403029ab"
+    },
+    {
+      "path": "results/capacity-md1374-cisi2_extraction.json",
+      "bytes": 423,
+      "sha256": "ce25063be0fa8dcc9d054e4c1b3594749616ac39c98074d16b1deb5bb6c9be42"
+    },
+    {
+      "path": "results/capacity-md1374-detail_extraction.json",
+      "bytes": 441,
+      "sha256": "5b35e09186b611b84217dd77641bf1aefac49f1e1cd5cebafb96e178e0e8313e"
+    },
+    {
+      "path": "results/capacity-md1374-key_extraction.json",
+      "bytes": 387,
+      "sha256": "30b27ab02d23be1a837b3eac8c9dd6e737a1764fa5ed74c746b347a1b122d4ff"
+    },
+    {
+      "path": "results/capacity-md1374-locate_extraction.json",
+      "bytes": 423,
+      "sha256": "eaaed8c729671c574ae492b0f0f376ce1fbc6ccf11429d1d50c9fa234949cdda"
+    },
+    {
+      "path": "results/primary_pages/capacity-md1374-cisi2-474.png",
+      "bytes": 3086058,
+      "sha256": "04b97ba2b4290a163c2f90f74ce2429e526dbc6060020b2a0135f7a23b06eef6"
+    },
+    {
+      "path": "results/primary_pages/capacity-md1374-cisi2-474.txt",
+      "bytes": 6459,
+      "sha256": "68726d6e3b999f49f8db66400753f8bfcaaa3276c42b60a0174042c46652478f"
+    },
+    {
+      "path": "results/primary_pages/capacity-md1374-cisi2-475.png",
+      "bytes": 2912165,
+      "sha256": "5736c743ff9acaadeda101b77887e5a35c7917ff4ba88d2a32d1f8ab96471805"
+    },
+    {
+      "path": "results/primary_pages/capacity-md1374-cisi2-475.txt",
+      "bytes": 2952,
+      "sha256": "3e6aea4153c8bab353ce049068a9003569d06c6c691e763a9007d224d71d7456"
+    },
+    {
+      "path": "results/primary_pages/capacity-md1374-cisi2-476.png",
+      "bytes": 2905222,
+      "sha256": "08e891e25b8d77a0fa60ba550168f9d389f9467e0bb2f1e2ce88f91d25f693bf"
+    },
+    {
+      "path": "results/primary_pages/capacity-md1374-cisi2-476.txt",
+      "bytes": 4447,
+      "sha256": "553bf7465ab7cc4a4289c245159bf69a7fe9afc3656f9be878201d9cd156115d"
+    },
+    {
+      "path": "results/primary_pages/capacity-md1374-detail-215.png",
+      "bytes": 3149853,
+      "sha256": "2e5b8942481607291805868301e8a1e1441839671e541462fe83d4f54e56f4a5"
+    },
+    {
+      "path": "results/primary_pages/capacity-md1374-detail-215.txt",
+      "bytes": 205,
+      "sha256": "f30daebe07d0494789b3b228be8898e01124d3f73694c967c0664039b4d69d17"
+    },
+    {
+      "path": "results/primary_pages/capacity-md1374-detail-462.png",
+      "bytes": 5478886,
+      "sha256": "e7348618f59674d6d1af82d2d8a52346d2fa6d42ed9d60d51b20a73bf7753c7e"
+    },
+    {
+      "path": "results/primary_pages/capacity-md1374-detail-462.txt",
+      "bytes": 73,
+      "sha256": "d539baecf53e050dc0a57f28ed6d60bf140f7e7682f18bd70f2c00d89d9e5f6d"
+    },
+    {
+      "path": "results/primary_pages/capacity-md1374-detail-463.png",
+      "bytes": 6886049,
+      "sha256": "de9c4d772ecf44829ebdb2de05c679aa9f5032cb2cdfbf726c87e6492bd76d25"
+    },
+    {
+      "path": "results/primary_pages/capacity-md1374-detail-463.txt",
+      "bytes": 101,
+      "sha256": "21a41196ea20cc56a44f800361950acdb666de37c5ac2865d8d6e509a7f83615"
+    },
+    {
+      "path": "results/primary_pages/capacity-md1374-detail-474.png",
+      "bytes": 4772181,
+      "sha256": "7c89bc37590874a85f439ba08657075ce2aa359edb864f788e590a90e091fac5"
+    },
+    {
+      "path": "results/primary_pages/capacity-md1374-detail-474.txt",
+      "bytes": 6739,
+      "sha256": "2871860f574be0e26cca073e4d19dafdd81137c6e6ddfdc0e8152ced44986aad"
+    },
+    {
+      "path": "results/primary_pages/capacity-md1374-key-469.png",
+      "bytes": 3324381,
+      "sha256": "bab727f229e56cecab25ac128aaf68a895f273185337a4d8b5346feebdebee97"
+    },
+    {
+      "path": "results/primary_pages/capacity-md1374-key-469.txt",
+      "bytes": 7197,
+      "sha256": "6eccf2e2f96408aed30d1a2e6a6242d5a555c2da567a1a9a8ed07c141bf07c2f"
+    },
+    {
+      "path": "results/primary_pages/capacity-md1374-locate-195.png",
+      "bytes": 1335233,
+      "sha256": "16d08aaff955a797051426ae2f0d16909150c69563a2eaa866dee84ab548c71d"
+    },
+    {
+      "path": "results/primary_pages/capacity-md1374-locate-195.txt",
+      "bytes": 100,
+      "sha256": "c783e5a3c43815ff9a2bc31248af6206ee1b6cbeabb7553b6b6525d5f425797c"
+    },
+    {
+      "path": "results/primary_pages/capacity-md1374-locate-215.png",
+      "bytes": 989026,
+      "sha256": "5c51acc7f829a459aa8b8210bbf4e99cb283dd36865dee8be7da1cf75f6f9a78"
+    },
+    {
+      "path": "results/primary_pages/capacity-md1374-locate-215.txt",
+      "bytes": 214,
+      "sha256": "fce57f3770d40d3d96a9da1d343d9290a444e8bd3ef50c0e8c39e713d9067e81"
+    },
+    {
+      "path": "results/primary_pages/capacity-md1374-locate-235.png",
+      "bytes": 1431660,
+      "sha256": "0fa2ac8573f1895cab0ad03d3e12a6b6312826ae9d273a435c3427a21932c635"
+    },
+    {
+      "path": "results/primary_pages/capacity-md1374-locate-235.txt",
+      "bytes": 77,
+      "sha256": "2f7177aaddd1e26dbcc63f77946e2a9b31a0651058e84bff888fb864bb509f35"
+    },
+    {
+      "path": "results/primary_pages/capacity-md1374-metadata-crop.png",
+      "bytes": 88980,
+      "sha256": "46d1ee82b81c0b60d233a3d9adcd01028d0b20fb5c38aa37194913af8e6ed1ac"
+    },
+    {
+      "path": "results/primary_pages/capacity-md1374-photos-crop.png",
+      "bytes": 330949,
+      "sha256": "3e7ab09c1cf282925486f2ea659611a47c8edc6f479fc500031036d4d9df4472"
+    },
+    {
+      "path": "scripts/persist_capacity_md1374_cisi2_review.py",
+      "bytes": 5230,
+      "sha256": "52df95bf4e9eccf1853763578df8d8ff7aa97868adde948cce1942c45b79cbf9"
+    }
+  ]
+}

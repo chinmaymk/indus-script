@@ -1,0 +1,123 @@
+{
+  "status": "Two complete normalized catalogue drawings independently checked; abstract exact chain authenticated, no translation",
+  "source": "data/raw/mahadevan_1977_text.pdf",
+  "inspection_date": "2026-09-24",
+  "review_scope": "Printed Texts rows and labelled signlist; not original artifacts, photographs, genealogy, independent dating or name identity",
+  "reading_order": "Right to left in normalized printed drawing; both original direction metadata digits are1",
+  "rows": [
+    {
+      "reference": "1038",
+      "pdf_page": 51,
+      "printed_page": 40,
+      "printed_metadata": "100101",
+      "object_code": "1",
+      "side": "0",
+      "line": "0",
+      "direction_code": "1",
+      "tokens": [
+        "M244",
+        "M017",
+        "M336"
+      ],
+      "full_printed_row_reviewed": true,
+      "continuation_line_present": false,
+      "doubtful_sign_marker_present": false,
+      "unknown_span_present": false,
+      "export_match": true,
+      "glyph_observations": [
+        "M244: rectangle with short inward ticks at top and bottom; matches printed34/PDF45 labelled244",
+        "M017: crossed/looped upper human-like form with two lower diagonal legs; matches printed32/PDF43 labelled17",
+        "M336: U-shaped outer boundary and inner vertical drop-like stroke, distinct from unmarkedM328; matches printed35/PDF46 labelled336"
+      ]
+    },
+    {
+      "reference": "2105",
+      "pdf_page": 72,
+      "printed_page": 61,
+      "printed_metadata": "100101",
+      "object_code": "1",
+      "side": "0",
+      "line": "0",
+      "direction_code": "1",
+      "tokens": [
+        "M336",
+        "M017",
+        "M402"
+      ],
+      "full_printed_row_reviewed": true,
+      "continuation_line_present": false,
+      "doubtful_sign_marker_present": false,
+      "unknown_span_present": false,
+      "export_match": true,
+      "glyph_observations": [
+        "M336: U-shaped boundary with inner vertical drop-like stroke, matching1038 and printed35/PDF46 labelled336",
+        "M017: crossed/looped upper human-like form with lower legs, matching1038 and printed32/PDF43 labelled17",
+        "M402: slanted main stroke with hatched triangular appendage on right; matches printed35/PDF46 labelled402"
+      ]
+    }
+  ],
+  "abstract_pattern": {
+    "first_reference": "1038",
+    "second_reference": "2105",
+    "A": [
+      "M244"
+    ],
+    "D": [
+      "M017"
+    ],
+    "B": [
+      "M336"
+    ],
+    "C": [
+      "M402"
+    ],
+    "exact_complete_middle_bundle_match": true,
+    "semantic_value": null,
+    "phonetic_value": null,
+    "kinship_status": "Not established; at least one exact abstract pattern survives primary catalogue review"
+  },
+  "discrepancies": [],
+  "reproduction": {
+    "render_command": "FONTCONFIG_FILE=/opt/homebrew/etc/fonts/fonts.conf /Users/chinmaymk/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3 scripts/inspect_research_pdf.py mahadevan_1977_text.pdf --prefix hybrid-pat-pair --pages 45 46 51 72 --render-only --scale 3000 --pdftoppm /Users/chinmaymk/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/override/pdftoppm",
+    "crops": [
+      {
+        "input": "results/primary_pages/hybrid-pat-pair-51.png",
+        "output": "results/primary_pages/hybrid-pat-pair-1038-detail.png",
+        "Pillow_Image_crop_box": [
+          380,
+          740,
+          2010,
+          845
+        ]
+      },
+      {
+        "input": "results/primary_pages/hybrid-pat-pair-72.png",
+        "output": "results/primary_pages/hybrid-pat-pair-2105-detail.png",
+        "Pillow_Image_crop_box": [
+          270,
+          800,
+          1850,
+          920
+        ]
+      }
+    ],
+    "crop_method": "PIL.Image.open(input).crop(tuple(box)).save(output); no rotation, resampling or contrast alteration"
+  },
+  "research_log": [
+    "Located exact references using existing OCR extraction, then read full rendered pages rather than trust OCR glyphs.",
+    "Initial view of page46 PNG failed because renderer was still writing. Waited for confirmed process completion and successfully viewed final file.",
+    "Reviewed full pages45,46,51,72, previously inspected page43, and both exact-row crops.",
+    "No new downloads; no candidate corpus or analytical script changes."
+  ],
+  "input_sha256": {
+    "data/raw/mahadevan_1977_text.pdf": "6dcdd074a0174e5fab149590fbbf82342711d345764e9763f8e5e92c81cf7f99",
+    "data/processed/m77_candidate_records.jsonl": "b29a176da86b125115256a8966c377c3fd9fe39ecaab17bf576b770b83b41bab",
+    "results/primary_pages/hybrid-pat-m77-43.png": "c4fbb59388cdc982aea2f274dc2f88da0f6597635b8e469c608ec7de1f3e4e7c",
+    "results/primary_pages/hybrid-pat-pair-45.png": "5a3a3b4955c55fb6b7f8023d52a79191a4d499898ad563db3c7618a5fdc5b24c",
+    "results/primary_pages/hybrid-pat-pair-46.png": "b012c5f5674fd7f2c5faa3a5bd0fe887155d4e7623b7c2f42906954dd4fe5761",
+    "results/primary_pages/hybrid-pat-pair-51.png": "c27301964d389d8f9f28345d7b418ab567105132fa0cd5e3955abedb2bb3206e",
+    "results/primary_pages/hybrid-pat-pair-72.png": "6408cb6f0e6b48a8dfe050ac40c4b5491870e5576ad9dfbfb17685f642e2d8b9",
+    "results/primary_pages/hybrid-pat-pair-1038-detail.png": "0c08d3fd60a2eda278187a5796b83ecd731ee895200fd3931c4eed9a41acc3e0",
+    "results/primary_pages/hybrid-pat-pair-2105-detail.png": "8fe04e855f4bb30afaaa9822af1858bbf97ca3474dfe6bab4037263e5ae034d4"
+  }
+}

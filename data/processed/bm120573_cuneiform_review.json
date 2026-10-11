@@ -1,0 +1,206 @@
+{
+  "schema_version": 1,
+  "review_date": "2026-09-24",
+  "object_id": "BM120573",
+  "identifiers": {
+    "museum": "120573",
+    "registration": "1928,1009.56",
+    "excavation": "U.7683",
+    "gadd1932": "1"
+  },
+  "object_identity_status": "primaryGaddBMnumberpluspreviousarchivedmuseumaccession",
+  "object_type": "stamp_seal",
+  "material_reported": "grey_steatite",
+  "findspot_reported": "Diqdiqqah_Ur_surface",
+  "stratified_context": false,
+  "dating": {
+    "gadd": "pre-Sargonic epigraphy; before2500BC in1932 chronology",
+    "museum_archived": "circa2500BC",
+    "independent_stratigraphic_date": null
+  },
+  "gadd1932": {
+    "pdf_pages": [
+      12,
+      13,
+      14
+    ],
+    "printed_pages": [
+      "5",
+      "6",
+      "PlateI_no1"
+    ],
+    "candidate_signs": [
+      {
+        "position": 1,
+        "values": [
+          "SAG(K)",
+          "KA"
+        ],
+        "status": "doubtful"
+      },
+      {
+        "position": 2,
+        "values": [
+          "KU",
+          "LU"
+        ],
+        "status": "LU_possible"
+      },
+      {
+        "position": 3,
+        "values": [
+          "ŠI"
+        ],
+        "status": "almost_certain_in_source_only"
+      },
+      {
+        "position": 4,
+        "values": [],
+        "status": "uncertain_existence_and_identity"
+      }
+    ],
+    "provisional_reading": "sak-ku-ši--",
+    "reading_is_translation": false,
+    "recognized_name": null,
+    "meaning": null
+  },
+  "parpola1994": {
+    "pdf_page": 149,
+    "printed_page": 131,
+    "figure": "8.3",
+    "candidate_signs": [
+      {
+        "position": 1,
+        "values": [
+          "šak",
+          "ka"
+        ]
+      },
+      {
+        "position": 2,
+        "values": [
+          "ku",
+          "ma"
+        ]
+      },
+      {
+        "position": 3,
+        "values": [
+          "ši",
+          "ba"
+        ]
+      }
+    ],
+    "semantic_categories_offered": [
+      "foreign_personal_name",
+      "unusual_Sumerian_personal_name"
+    ],
+    "hypothetical_examples": [
+      "ka / inim-dab₅-ba",
+      "sag-ma-BA"
+    ],
+    "confirmed_owner": null,
+    "meaning": null,
+    "warning": "Do not attribute LU or a zi reading to this passage; commonly merged online alternatives differ from the original."
+  },
+  "primary_image_observations": {
+    "gadd_plate": "Rectangular pierced-ridge reverse with modernaccession; associated impression has animalbelowupperinscriptionfield.",
+    "exact_wedge_reading_independently_verified": false,
+    "fourth_sign_restored": false,
+    "parpola_caption_order_caution": "Modernnumberedreverse appearsleft; inscriptionimpressionright. Do not infer imageorder from caption(a)/(b).",
+    "new_museum_image_obtained": false
+  },
+  "semantic_anchor": {
+    "cuneiform_script_present": true,
+    "sumerian_language_determined": false,
+    "indus_text_present_as_parallel_translation": false,
+    "authenticated_bilingual": false,
+    "authenticated_semantic_category": null,
+    "authenticated_phonetic_value": null,
+    "indus_sign_mapping": [],
+    "supported_constraint": "Indus-related form/iconography can accompanycuneiform; style alone cannot establishtextlanguage or semanticcategory.",
+    "unsupported_inferences": [
+      "bull_as_translation",
+      "owner_identity",
+      "commodity_name",
+      "title",
+      "ethnicity",
+      "language_family",
+      "Indus_sign_value"
+    ]
+  },
+  "attempts": [
+    {
+      "action": "museumwebopen_twice",
+      "result": "403"
+    },
+    {
+      "action": "museumcurl",
+      "result": "403_no_file"
+    },
+    {
+      "action": "IGNCAwebopen",
+      "result": "timeout"
+    },
+    {
+      "action": "IGNCAcurl",
+      "result": "success44pagePDF"
+    },
+    {
+      "action": "pypdfextract",
+      "result": "no_useful_text_page_markers_only"
+    },
+    {
+      "action": "Poppler_Tesseract_navigation",
+      "result": "success_textplateidentified"
+    },
+    {
+      "action": "Parpolarender",
+      "result": "fontcachewarnings_exit0_readableimage"
+    }
+  ],
+  "source_fingerprints": [
+    {
+      "path": "data/raw/hybrid_bm_gadd_1932.pdf",
+      "bytes": 3152198,
+      "sha256": "c16c2c3900f7cecc35ca843637087b0bdaf3fbf42b5100bcce0bdaa77803d881"
+    },
+    {
+      "path": "data/raw/external_name_anchors_web_capture.json",
+      "bytes": 320428,
+      "sha256": "2405348180bb9fcf7286ab30eea51368abf11e8a5d5d2d3810aebd7433493a22"
+    },
+    {
+      "path": "data/raw/umma_old_parpola_1994.pdf",
+      "bytes": 18998517,
+      "sha256": "fd133822f9999c86178a32208465e847c5288b578ad14ca2cd643efe57f0e0b6"
+    }
+  ],
+  "review_image_fingerprints": [
+    {
+      "path": "results/primary_pages/hybrid-bm-gadd-12.png",
+      "bytes": 1145564,
+      "sha256": "f50f674b93980bcfea631c3d42a3a0cf984a4ca40c444364aebdea135129a244"
+    },
+    {
+      "path": "results/primary_pages/hybrid-bm-gadd-13.png",
+      "bytes": 1155880,
+      "sha256": "b5171897d4372a7a210a2a638e91d427225c2bfcc5133d2bcec8f1552b51c24c"
+    },
+    {
+      "path": "results/primary_pages/hybrid-bm-gadd-14.png",
+      "bytes": 537923,
+      "sha256": "fcdbb304586133af85ceb9fd08653d3e26b163cca9e40b90c692ceb1f29be84d"
+    },
+    {
+      "path": "results/primary_pages/hybrid-bm-gadd-detail-14.png",
+      "bytes": 1338763,
+      "sha256": "a325fe213a1f9db9d05dee053384b932e9eec9b53b4c31585e9c3685953d6167"
+    },
+    {
+      "path": "results/primary_pages/hybrid-bm-parpola-149.png",
+      "bytes": 256618,
+      "sha256": "1ff1673d7984fbc31477f973d19fa991a20a014871e3bb1fdc9aa83afdb8332f"
+    }
+  ]
+}

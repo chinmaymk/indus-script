@@ -1,0 +1,61 @@
+{
+  "review_date": "2026-09-25",
+  "primary_identity": {
+    "MIC_seal": "158",
+    "excavation": "DM50",
+    "M77_text": "1158",
+    "M77_catalogue_rule": "Appendix printed818/PDF827: MIC items1\u2013560 respectively refs1001\u20131560",
+    "M77_text_printed_page": 43,
+    "M77_text_pdf_page": 54,
+    "CISI_M934_label_primary_verified": false
+  },
+  "counterpart": {
+    "cisi": "L-89",
+    "excavation": "15337",
+    "M77_text": "7090",
+    "primary_bridge_review": "data/processed/ending_mapping_review.json"
+  },
+  "observed_normalized_reading_order": [
+    "M267",
+    "M099",
+    "M065",
+    "M222",
+    "M254"
+  ],
+  "interpretation": "Graphic orientation contrast supported in matching context; global allography and meaning unresolved",
+  "navigation_failure": "Exact WORD1158 search failed because OCR split1 158; neighboring-page navigation located54 and line visually checked",
+  "established_semantic_values": 0,
+  "established_phonetic_values": 0,
+  "evidence_files": [
+    {
+      "path": "data/raw/mahadevan_1977_text.pdf",
+      "bytes": 119302608,
+      "sha256": "6dcdd074a0174e5fab149590fbbf82342711d345764e9763f8e5e92c81cf7f99"
+    },
+    {
+      "path": "results/primary_pages/chain-artifact-m77-827.png",
+      "bytes": 1715296,
+      "sha256": "367e9c400b92bca24b6b75be9e9d205900c7380e645143fc352fecfdda21332c"
+    },
+    {
+      "path": "results/primary_pages/pincer-m934-m77-054.png",
+      "bytes": 2077850,
+      "sha256": "bab40f72bbbf7a1bd1e704f23a77d878b39adce806117c9fa38cd38b4853c3df"
+    },
+    {
+      "path": "data/processed/m934_primary_review.json",
+      "bytes": 5859,
+      "sha256": "68d9a0cd8e78da62d57a76040ac7bf87bc7d39f5468702ea9bb494b5b5b66af1"
+    },
+    {
+      "path": "data/processed/ending_mapping_review.json",
+      "bytes": 4805,
+      "sha256": "eb49aa0a68bea2de158eb9f21996024cd242c0f4f086fdee75cc3bb59abb3618"
+    },
+    {
+      "path": "docs/COMB_VARIATION_REVIEW.md",
+      "bytes": 3065,
+      "sha256": "b1ba20eb8a8457fd35f80aeb5b585495f76b98031b4915774ae774c63781f31d"
+    }
+  ]
+}

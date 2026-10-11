@@ -1,0 +1,342 @@
+{
+  "date": "2026-09-27",
+  "status": "shape_only_selection_fixed_before_context_testing",
+  "selection_used_sequence_or_context_counts": false,
+  "selection_used_corpus_frequency": false,
+  "supplied_417_PNGs_used": false,
+  "semantic_values": null,
+  "phonetic_values": null,
+  "core_pairs": [
+    {
+      "base": "M059",
+      "modified": "M065",
+      "printed_page": 32,
+      "pdf_page": 43,
+      "base_dagger": true,
+      "modified_dagger": false,
+      "shape_family": "fish",
+      "status": "representative_shape_only_candidate",
+      "meaning": null,
+      "component_identified_as_M134": false
+    },
+    {
+      "base": "M060",
+      "modified": "M066",
+      "printed_page": 32,
+      "pdf_page": 43,
+      "base_dagger": true,
+      "modified_dagger": false,
+      "shape_family": "flanked_fish",
+      "status": "representative_shape_only_candidate",
+      "meaning": null,
+      "component_identified_as_M134": false
+    },
+    {
+      "base": "M089",
+      "modified": "M092",
+      "printed_page": 32,
+      "pdf_page": 43,
+      "base_dagger": true,
+      "modified_dagger": false,
+      "shape_family": "three_tall_parallel_strokes",
+      "status": "representative_shape_only_candidate",
+      "meaning": null,
+      "component_identified_as_M134": false
+    },
+    {
+      "base": "M137",
+      "modified": "M138",
+      "printed_page": 33,
+      "pdf_page": 44,
+      "base_dagger": true,
+      "modified_dagger": false,
+      "shape_family": "X_crossing",
+      "status": "representative_shape_only_candidate",
+      "meaning": null,
+      "component_identified_as_M134": false
+    },
+    {
+      "base": "M162",
+      "modified": "M163",
+      "printed_page": 33,
+      "pdf_page": 44,
+      "base_dagger": true,
+      "modified_dagger": false,
+      "shape_family": "trident",
+      "status": "representative_shape_only_candidate",
+      "meaning": null,
+      "component_identified_as_M134": false
+    },
+    {
+      "base": "M333",
+      "modified": "M334",
+      "printed_page": 35,
+      "pdf_page": 46,
+      "base_dagger": false,
+      "modified_dagger": true,
+      "shape_family": "U_with_basal_projections",
+      "status": "representative_shape_only_candidate",
+      "meaning": null,
+      "component_identified_as_M134": false
+    }
+  ],
+  "core_pair_count": 6,
+  "independence_caveat": "M059\u2192M065 and M060\u2192M066 share the fish base; six pairs are not six independent graphic bases",
+  "standalone_M134": {
+    "visually_verified": true,
+    "printed_page": 33,
+    "pdf_page": 44,
+    "shape": "two-oblique-stroke apex-up caret",
+    "proportion_caveat": "standalone form taller/more acute than several shallow roof additions",
+    "component_identity_asserted": false,
+    "token_decomposition_allowed": false
+  },
+  "variant_scope": {
+    "dagger_note_printed_page": 35,
+    "variant_list_printed_pages": [
+      785,
+      792
+    ],
+    "variant_list_inspected": false,
+    "claim_applies_to": "representative sign-list drawings only"
+  },
+  "excluded_or_weak": [
+    {
+      "pair": [
+        "M158",
+        "M159"
+      ],
+      "reason": "M159 adds short upper central vertical as well as roof; corrected after crop inspection"
+    },
+    {
+      "pair": [
+        "M141",
+        "M159"
+      ],
+      "reason": "weaker alternative, changed lower stem/arm proportions; excluded from strict set"
+    },
+    {
+      "pair": [
+        "M195",
+        "M196"
+      ],
+      "reason": "flat-topped three-segment cap"
+    },
+    {
+      "pair": [
+        "M202",
+        "M203"
+      ],
+      "reason": "flat-topped three-segment cap"
+    },
+    {
+      "pair": [
+        "M410",
+        "M411"
+      ],
+      "reason": "flat-topped three-segment cap"
+    },
+    {
+      "pair": [
+        "M137",
+        "M139"
+      ],
+      "reason": "rectangular bracket cap"
+    },
+    {
+      "pair": [
+        "M141",
+        "M142"
+      ],
+      "reason": "rectangular bracket cap"
+    },
+    {
+      "pair": [
+        "M233",
+        "M234"
+      ],
+      "reason": "rectangular bracket cap"
+    },
+    {
+      "sign": "M075",
+      "reason": "roof present but no otherwise identical unroofed base securely selected"
+    },
+    {
+      "pair": [
+        "M316",
+        "M318"
+      ],
+      "reason": "curved overhead form and substantial interior differences"
+    }
+  ],
+  "hypothesized_shared_feature": "small apex-up two-oblique roof above similar base drawing",
+  "not_established": [
+    "meaning",
+    "sound",
+    "affix",
+    "productive modification rule",
+    "component identity with M134",
+    "historical derivation",
+    "all-variant equivalence",
+    "artifact-level stroke identity"
+  ],
+  "new_downloads": [],
+  "central_edits": false,
+  "evidence_files": [
+    {
+      "path": "docs/ROOF_MODIFIER_SHAPE_REVIEW.md",
+      "bytes": 6503,
+      "sha256": "2982fe4dcd5828b11fc4e47b1138674311b3a13ba4bc693b5cbe16b5f8ea52ea"
+    },
+    {
+      "path": "data/raw/mahadevan_1977_text.pdf",
+      "bytes": 119302608,
+      "sha256": "6dcdd074a0174e5fab149590fbbf82342711d345764e9763f8e5e92c81cf7f99"
+    },
+    {
+      "path": "scripts/render_roof_modifier_crops.py",
+      "bytes": 1384,
+      "sha256": "eaedf4f3ab51d9ab2491f2bbb03a0907257f82eee9209aba25137c8ad8eb9412"
+    },
+    {
+      "path": "data/processed/roof_modifier_crop_manifest.json",
+      "bytes": 6808,
+      "sha256": "0b577059251911181bb87bfb06a01dbbf690c767fb8f7973e6d73206977d3c67"
+    },
+    {
+      "path": "results/primary_pages/comb-tablet-m77-detail-43.png",
+      "bytes": 3281280,
+      "sha256": "ebb35d20d3f7035a6d68aa0e967a8d18ccfe5b8f4330f62a3a264a5a9b463793"
+    },
+    {
+      "path": "results/primary_pages/sign_list-044.png",
+      "bytes": 2228064,
+      "sha256": "33eff554bfdea81af6d1a3510a5b2541d1b74b02ae1e63b253c725b44c7c0b64"
+    },
+    {
+      "path": "results/primary_pages/sign_list-045.png",
+      "bytes": 2312636,
+      "sha256": "972002b288ea77921dcacfe67386dbf585b76be6bca5444b7ff9422e47e70b89"
+    },
+    {
+      "path": "results/primary_pages/sign_list-046.png",
+      "bytes": 2099531,
+      "sha256": "a191e9297a6ab8b7cad1028eaeac062b4b6fa3cd34aefbdd507f669d736d2e8e"
+    },
+    {
+      "path": "results/primary_pages/roof-modifier-M059.png",
+      "bytes": 25055,
+      "sha256": "933c1adeab8674387d5c37fb780c46459707c0f47ca8bb2494db25bc90f0c1ad"
+    },
+    {
+      "path": "results/primary_pages/roof-modifier-M060.png",
+      "bytes": 31629,
+      "sha256": "ec060b9faf2bda3371ef30fc82d581cecd7e865251dbace5c80d929cd638aa79"
+    },
+    {
+      "path": "results/primary_pages/roof-modifier-M065.png",
+      "bytes": 25129,
+      "sha256": "1de879dcf0a847e97d0aefe04b48f6f906e9407acac3a7ff092a6fa07cd143ad"
+    },
+    {
+      "path": "results/primary_pages/roof-modifier-M066.png",
+      "bytes": 28502,
+      "sha256": "e6d16a082274ea0997076a5a0fcb3f67fcf0196347a57912f70ec0916bea6fc7"
+    },
+    {
+      "path": "results/primary_pages/roof-modifier-M075.png",
+      "bytes": 23672,
+      "sha256": "4c2662a36531e74868ac59457efcf8f407ed6cfbc672693edc6cd0c4a42ca5dd"
+    },
+    {
+      "path": "results/primary_pages/roof-modifier-M089.png",
+      "bytes": 24518,
+      "sha256": "2ae40b96c40a2870dc5918768f10235c48e59e00a3aec4c965ee04c09670b04b"
+    },
+    {
+      "path": "results/primary_pages/roof-modifier-M092.png",
+      "bytes": 25504,
+      "sha256": "590efe55ffec3b424d5210eee00ae6b213af4831221f312efcd763b9ff009ea6"
+    },
+    {
+      "path": "results/primary_pages/roof-modifier-M134.png",
+      "bytes": 17624,
+      "sha256": "370513d4048a976dc90fc6f015d59c97bf1b735ed432b7c2fd3b00723e2238eb"
+    },
+    {
+      "path": "results/primary_pages/roof-modifier-M137.png",
+      "bytes": 18347,
+      "sha256": "8503e240e04451477b25c5d53ebc0e828bedcd255bcb845ba939eb7baef1e935"
+    },
+    {
+      "path": "results/primary_pages/roof-modifier-M138.png",
+      "bytes": 19533,
+      "sha256": "749792576be9575fdb49879bb340d220c2c204d5891fc583ed323ddd55b80b20"
+    },
+    {
+      "path": "results/primary_pages/roof-modifier-M141.png",
+      "bytes": 19876,
+      "sha256": "3bd3aec41b8e1db46b35ed8ee7938b5200917a3b783a940e0b3b0a84f5dce427"
+    },
+    {
+      "path": "results/primary_pages/roof-modifier-M158.png",
+      "bytes": 16589,
+      "sha256": "4823129405dd35b55b01df35551d9ccd5cca423e082143521fdb2ebb850d905e"
+    },
+    {
+      "path": "results/primary_pages/roof-modifier-M159.png",
+      "bytes": 18070,
+      "sha256": "2c5e79a98e1fee86515ebd54f81992154bb4a67dd182a315c3e0f7c3daeed938"
+    },
+    {
+      "path": "results/primary_pages/roof-modifier-M162.png",
+      "bytes": 15842,
+      "sha256": "17121c9e9e009c88b18b09f07fa097247a5a6f426600d1a627b3ac9bcfa9834b"
+    },
+    {
+      "path": "results/primary_pages/roof-modifier-M163.png",
+      "bytes": 16157,
+      "sha256": "3bb86ff9f346429e11f199c649a696df15a61571cdf4aeddf7a1ff4eda93de93"
+    },
+    {
+      "path": "results/primary_pages/roof-modifier-M195.png",
+      "bytes": 16303,
+      "sha256": "6877d56a8da13f5239c2b1c364f8e8929b79367ad4d150170450214451292210"
+    },
+    {
+      "path": "results/primary_pages/roof-modifier-M196.png",
+      "bytes": 18029,
+      "sha256": "694d9881c832ed48766745bbb04fa346d3b72085e999e29e5477b6c4a866ec5b"
+    },
+    {
+      "path": "results/primary_pages/roof-modifier-M202.png",
+      "bytes": 17521,
+      "sha256": "544e3d79c95fba8af368ce3f7b1d7acbec9c1de457646199a62bf58e7f25b48a"
+    },
+    {
+      "path": "results/primary_pages/roof-modifier-M203.png",
+      "bytes": 17377,
+      "sha256": "83ad1caacb220af733ea13d6493b8efd9fdc515cac9ed070b59a042de1f82adc"
+    },
+    {
+      "path": "results/primary_pages/roof-modifier-M333.png",
+      "bytes": 15681,
+      "sha256": "e660c75c899ee7f34b85ab40a37d5f2bdf5fcbeeccd6c16f52b247cc3471d7bc"
+    },
+    {
+      "path": "results/primary_pages/roof-modifier-M334.png",
+      "bytes": 18366,
+      "sha256": "01a8c151a024b6a500d45478fbb9225b241411bb0b2ab46dc0b39d0f32cbe4f0"
+    },
+    {
+      "path": "results/primary_pages/roof-modifier-M410.png",
+      "bytes": 15973,
+      "sha256": "0aa11ce398751b4dede75512fad6859564eafc6669cc582f39d216041d7fd712"
+    },
+    {
+      "path": "results/primary_pages/roof-modifier-M411.png",
+      "bytes": 17400,
+      "sha256": "a1f613f804eb9468286299d0c1c20a09e0fdfb4fb3e89923afac34abf4705770"
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "samples": {
+    "records": 1175,
+    "unique_strings": 1066,
+    "selected_complete_strings": 3,
+    "remaining_unique_strings": 1063
+  },
+  "patterns": {
+    "shared_three": {
+      "all": {
+        "unique_strings": 4,
+        "distinct_references": 4,
+        "initial_occurrences": 3,
+        "final_occurrences": 0
+      },
+      "excluding_selected_complete_strings": {
+        "unique_strings": 2,
+        "distinct_references": 2,
+        "initial_occurrences": 2,
+        "final_occurrences": 0
+      }
+    },
+    "shared_two": {
+      "all": {
+        "unique_strings": 9,
+        "distinct_references": 9,
+        "initial_occurrences": 2,
+        "final_occurrences": 0
+      },
+      "excluding_selected_complete_strings": {
+        "unique_strings": 7,
+        "distinct_references": 7,
+        "initial_occurrences": 1,
+        "final_occurrences": 0
+      }
+    },
+    "overlapping_left_pair": {
+      "all": {
+        "unique_strings": 49,
+        "distinct_references": 50,
+        "initial_occurrences": 44,
+        "final_occurrences": 0
+      },
+      "excluding_selected_complete_strings": {
+        "unique_strings": 47,
+        "distinct_references": 48,
+        "initial_occurrences": 43,
+        "final_occurrences": 0
+      }
+    },
+    "overlapping_right_pair": {
+      "all": {
+        "unique_strings": 19,
+        "distinct_references": 20,
+        "initial_occurrences": 0,
+        "final_occurrences": 0
+      },
+      "excluding_selected_complete_strings": {
+        "unique_strings": 17,
+        "distinct_references": 18,
+        "initial_occurrences": 0,
+        "final_occurrences": 0
+      }
+    },
+    "longer_four_sign_prefix": {
+      "all": {
+        "unique_strings": 2,
+        "distinct_references": 2,
+        "initial_occurrences": 2,
+        "final_occurrences": 0
+      },
+      "excluding_selected_complete_strings": {
+        "unique_strings": 1,
+        "distinct_references": 1,
+        "initial_occurrences": 1,
+        "final_occurrences": 0
+      }
+    },
+    "three_strokes_curve_terminal": {
+      "all": {
+        "unique_strings": 4,
+        "distinct_references": 4,
+        "initial_occurrences": 0,
+        "final_occurrences": 4
+      },
+      "excluding_selected_complete_strings": {
+        "unique_strings": 3,
+        "distinct_references": 3,
+        "initial_occurrences": 0,
+        "final_occurrences": 3
+      }
+    },
+    "five_strokes_curve_terminal": {
+      "all": {
+        "unique_strings": 5,
+        "distinct_references": 7,
+        "initial_occurrences": 2,
+        "final_occurrences": 4
+      },
+      "excluding_selected_complete_strings": {
+        "unique_strings": 5,
+        "distinct_references": 7,
+        "initial_occurrences": 2,
+        "final_occurrences": 4
+      }
+    }
+  }
+}

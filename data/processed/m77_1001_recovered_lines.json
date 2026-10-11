@@ -1,0 +1,283 @@
+{
+  "review_date": "2026-09-23",
+  "source": {
+    "path": "data/raw/mahadevan_1977_text.pdf",
+    "bytes": 119302608,
+    "sha256": "6dcdd074a0174e5fab149590fbbf82342711d345764e9763f8e5e92c81cf7f99"
+  },
+  "reference_number": 1001,
+  "namespace": "Mahadevan1977",
+  "recovery_scope": "All printed lines of reference1001 on printed39/PDF50; normalized scholarly transcription, not autopsy or restoration of original loss.",
+  "evidence": [
+    {
+      "path": "results/primary_pages/texts-050.png",
+      "bytes": 1644151,
+      "sha256": "a78ab810777334783148b605932fceac6cf0144fd6faab6f8581f9967409e781",
+      "pdf_page_1based": 50,
+      "printed_page": 39,
+      "scope": "full text page including reference1001 and next reference1002"
+    },
+    {
+      "path": "results/primary_pages/m77-1001-recovery-detail.png",
+      "bytes": 282467,
+      "sha256": "64ad26f37dec1321fac8660fe5d8f1c0d92aafc77eab4ad2bdb77056c570ae70",
+      "pdf_page_1based": 50,
+      "printed_page": 39,
+      "scope": "Blurrier detail showing1001 first line and continuation23; second glyph initially misidentified asM317, corrected toM393 using clearer alternative scan."
+    },
+    {
+      "path": "results/primary_pages/sign_list-045.png",
+      "bytes": 2312636,
+      "sha256": "972002b288ea77921dcacfe67386dbf585b76be6bca5444b7ff9422e47e70b89",
+      "pdf_page_1based": 45,
+      "printed_page": 34,
+      "scope": "primary sign list; M317 contrasted with M316/M318",
+      "status": "Superseded candidate comparison; retained to document mistaken M317 identification, not support for current identification."
+    },
+    {
+      "path": "results/primary_pages/m77-1001-sign317-detail.png",
+      "bytes": 39108,
+      "sha256": "a76f81121295d82b9e8dd573800dea0bed90ee69080b8ab754d78374a6d62f0a",
+      "pdf_page_1based": 45,
+      "printed_page": 34,
+      "scope": "new detail of labelled M317",
+      "status": "Superseded candidate comparison; retained to document mistaken M317 identification, not support for current identification."
+    },
+    {
+      "path": "results/primary_pages/m77-codebook-41.png",
+      "bytes": 1838931,
+      "sha256": "80a70e5c3329804153835a35b8c2364e5788b339ca4eb824b6b357c73f5d0e25",
+      "pdf_page_1based": 41,
+      "printed_page": 30,
+      "scope": "side0=only side, objecttype1=seal"
+    },
+    {
+      "path": "results/primary_pages/m77-codebook-42.png",
+      "bytes": 1997128,
+      "sha256": "b4ec143903bd5059cdbf8c524c20e2b0e3b0d0d244065bf6765b9282379b37ce",
+      "pdf_page_1based": 42,
+      "printed_page": 31,
+      "scope": "line1/2 and direction1/3 definitions; unknown-span convention"
+    },
+    {
+      "path": "results/primary_pages/m77-1001-alternative-check.png",
+      "bytes": 773460,
+      "sha256": "f903b80cdc2b7456dfa381d35570efc937f87a05697f5251ea1b1d3d21335e52",
+      "pdf_page_1based": 51,
+      "printed_page": 39,
+      "source": "data/raw/mahadevan_alternative_scan.pdf",
+      "scope": "Clearer full page confirms enclosed oval in1001 second glyph"
+    },
+    {
+      "path": "results/primary_pages/m77-1001-corrected-glyph-detail.png",
+      "bytes": 5026,
+      "sha256": "1613c6f31ddf63f1d173c0af1d0e65ba916e4ac13e139c52a7b6b4931cdd54c3",
+      "pdf_page_1based": 51,
+      "printed_page": 39,
+      "source": "data/raw/mahadevan_alternative_scan.pdf",
+      "scope": "Decisive corrected glyph detail; material below belongs to next object1002"
+    },
+    {
+      "path": "results/primary_pages/sign_list-046.png",
+      "bytes": 2099531,
+      "sha256": "a191e9297a6ab8b7cad1028eaeac062b4b6fa3cd34aefbdd507f669d736d2e8e",
+      "pdf_page_1based": 46,
+      "printed_page": 35,
+      "source": "data/raw/mahadevan_1977_text.pdf",
+      "scope": "Primary labelled M393 in sign list"
+    },
+    {
+      "path": "results/primary_pages/m77-1001-sign393-detail.png",
+      "bytes": 48018,
+      "sha256": "5c72d2e563fce240537e5a551915ece430362df569d67978e3b1334f989ff83b",
+      "pdf_page_1based": 46,
+      "printed_page": 35,
+      "source": "data/raw/mahadevan_1977_text.pdf",
+      "scope": "Primary M393 enlarged: arch, enclosed internally divided oval, two lower ticks"
+    }
+  ],
+  "render_commands": [
+    {
+      "pdf_page": 50,
+      "scale_to": 4800,
+      "crop_pixels": {
+        "x": 350,
+        "y": 200,
+        "width": 2600,
+        "height": 470
+      },
+      "output": "results/primary_pages/m77-1001-recovery-detail.png"
+    },
+    {
+      "pdf_page": 45,
+      "scale_to": 4800,
+      "crop_pixels": {
+        "x": 2420,
+        "y": 3970,
+        "width": 300,
+        "height": 340
+      },
+      "output": "results/primary_pages/m77-1001-sign317-detail.png"
+    },
+    {
+      "source": "data/raw/mahadevan_alternative_scan.pdf",
+      "pdf_page": 51,
+      "scale_to": 4800,
+      "output": "results/primary_pages/m77-1001-alternative-check.png"
+    },
+    {
+      "source": "data/raw/mahadevan_alternative_scan.pdf",
+      "pdf_page": 51,
+      "scale_to": 4800,
+      "crop_pixels": {
+        "x": 2470,
+        "y": 455,
+        "width": 180,
+        "height": 175
+      },
+      "output": "results/primary_pages/m77-1001-corrected-glyph-detail.png"
+    },
+    {
+      "source": "data/raw/mahadevan_1977_text.pdf",
+      "pdf_page": 46,
+      "scale_to": 4800,
+      "crop_pixels": {
+        "x": 1130,
+        "y": 2730,
+        "width": 350,
+        "height": 410
+      },
+      "output": "results/primary_pages/m77-1001-sign393-detail.png"
+    }
+  ],
+  "metadata": {
+    "object_type_code": "1",
+    "object_type": "seal",
+    "side_code": "0",
+    "side_definition": "Only side",
+    "field_symbol_code": "35",
+    "field_symbol_identification_not_reassessed": true
+  },
+  "lines": [
+    {
+      "printed_code": "103511",
+      "expanded_ten_digit_code": "1001103511",
+      "line_code": "1",
+      "line_definition": "First line",
+      "direction_code": "1",
+      "direction_definition": "Right to left",
+      "reading_order": "rightmost printed segment to leftmost",
+      "segments": [
+        {
+          "kind": "unknown_span",
+          "sign": null,
+          "export_marker": "000",
+          "minimum_signs": 1,
+          "maximum_signs": null
+        },
+        {
+          "kind": "identified_sign",
+          "sign": "M067",
+          "doubtful_in_printed_source": false
+        },
+        {
+          "kind": "identified_sign",
+          "sign": "M072",
+          "doubtful_in_printed_source": false
+        },
+        {
+          "kind": "identified_sign",
+          "sign": "M008",
+          "doubtful_in_printed_source": false
+        },
+        {
+          "kind": "identified_sign",
+          "sign": "M342",
+          "doubtful_in_printed_source": false
+        }
+      ],
+      "complete_identified_sequence": false,
+      "support": "Earlier first-line pilot plus fullpage/detail reinspection here."
+    },
+    {
+      "printed_code": "23",
+      "expanded_ten_digit_code": "1001103523",
+      "inherited_columns": "Text,type,side,field-symbol (columns1–8) from preceding line of same object/side",
+      "line_code": "2",
+      "line_definition": "Second line",
+      "direction_code": "3",
+      "direction_definition": "Single sign in the line of text",
+      "reading_order": "singleton; no directional order inference needed",
+      "segments": [
+        {
+          "kind": "identified_sign",
+          "sign": "M393",
+          "doubtful_in_printed_source": false
+        }
+      ],
+      "complete_identified_sequence": true,
+      "support": "Clearer alternative scan and directly labelled primary M393 comparison identify an internally divided closed oval beneath an arch, with two separate lower ticks; no doubtful mark attached to this glyph."
+    }
+  ],
+  "new_glyph_identification": {
+    "sign": "M393",
+    "primary_sign_list_pdf_page": 46,
+    "primary_sign_list_printed_page": 35,
+    "morphology": "Open-bottom arch enclosing an internally divided oval, with two short strokes below the oval.",
+    "contrast": "M317 has three disconnected upper strokes instead of a closed divided oval. M316 has H-shaped interior; M318 crossing bars. Clearer alternative scan shows the oval outline.",
+    "assessment": "Corrected confident identification of printed normalized M393; earlier M317 identification rejected. No sound or meaning inferred."
+  },
+  "counts": {
+    "printed_lines": 2,
+    "identified_sign_positions": 5,
+    "unknown_spans": 1,
+    "minimum_original_sign_count": 6,
+    "exact_original_sign_count": null
+  },
+  "export_comparison": {
+    "exported_first_line": "000 067 072 008 342",
+    "omitted_printed_second_line": "393",
+    "conclusion": "Canonical/exported single sequence omits a complete second printed line; recovered record remains an incomplete ancient text because first-line loss is unbounded."
+  },
+  "existing_data_modified": false,
+  "limits": [
+    "No CISI mapping or ancient semantic reading assigned.",
+    "Complete printed-line recovery does not mean every original sign survives.",
+    "Unknown marker is not an ordinary M000 or exactly one missing sign.",
+    "One recovered object does not establish completeness or order of unreviewed objects."
+  ],
+  "review_status": "Corrected after contradictory frequency check: M393 replaces erroneous M317.",
+  "additional_primary_source": {
+    "path": "data/raw/mahadevan_alternative_scan.pdf",
+    "bytes": 16445165,
+    "sha256": "ef68fe8dc25e94fe9cb75b418c5189a084383e72498560ef393372e90a27e110"
+  },
+  "correction_history": [
+    {
+      "earlier_candidate": "M317",
+      "earlier_claim": "Confident match to five separate interior strokes; incorrect.",
+      "trigger": "Parent noticed TableI transcription M317 total1 initial1, inconsistent with the proposed added final occurrence; requested independent glyph recheck.",
+      "resolution": "Alternative scan PDF51/printed39 distinctly preserves internally divided closed oval. Direct comparison with primary SignList M393 on PDF46/printed35 establishes M393. The error was visual conflation in the blurrier scan, not resolved by forcing glyph identity to counts.",
+      "superseded_files_retained": [
+        "results/primary_pages/m77-1001-sign317-detail.png"
+      ],
+      "frequency_diagnostic_only": {
+        "transcribed_M317": {
+          "solus": 0,
+          "initial": 1,
+          "medial": 0,
+          "final": 0,
+          "total": 1
+        },
+        "transcribed_M393": {
+          "solus": 5,
+          "initial": 0,
+          "medial": 0,
+          "final": 2,
+          "total": 7
+        },
+        "note": "Existing TableI CSV diagnostic; frequency image not re-audited here. Table I uses line-level solus; the complete singleton counts there. Whole-text concordance sorting is separate; see m77_position_count_review.json."
+      }
+    }
+  ]
+}

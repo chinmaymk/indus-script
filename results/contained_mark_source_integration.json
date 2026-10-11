@@ -1,0 +1,34 @@
+{
+  "no_body_failures": [
+    {
+      "content_review": "No response body; failed DNS lookup",
+      "error": "URLError: <urlopen error [Errno 8] nodename nor servname provided, or not known>",
+      "fetch_record": "data/processed/fetch_jar54-vats-leaf284_jpg.json",
+      "http_status": null,
+      "kind": "incomplete_response_or_connection_failure",
+      "response_body_received": false,
+      "response_complete": false,
+      "retrieval_ended_utc": "2026-09-28T06:04:09.450380+00:00",
+      "retrieval_started_utc": "2026-09-28T06:04:09.433060+00:00",
+      "url": "https://archive.org/download/in.gov.ignca.18220/page/n284.jpg"
+    }
+  ],
+  "registered_paths": [
+    "data/raw/jar156165-vats-leaf296.jpg",
+    "data/raw/jar156165-vats-leaf296.jpg.headers.json",
+    "data/raw/jar54-vats-leaf214.jpg",
+    "data/raw/jar54-vats-leaf214.jpg.headers.json",
+    "data/raw/jar54-vats-leaf215.jpg",
+    "data/raw/jar54-vats-leaf215.jpg.headers.json",
+    "data/raw/jar54-vats-leaf284-retry.jpg",
+    "data/raw/jar54-vats-leaf284-retry.jpg.headers.json",
+    "data/raw/pottery-text-vats-leaf312.jpg",
+    "data/raw/pottery-text-vats-leaf312.jpg.headers.json",
+    "data/raw/pottery-text-vats-leaf313.jpg",
+    "data/raw/pottery-text-vats-leaf313.jpg.headers.json",
+    "data/raw/pottery-text-vats-p286-discussion.png",
+    "data/raw/pottery-text-vats-p287-discussion.png"
+  ],
+  "retained_artifacts": 14,
+  "scope": "Network responses and local derivatives retain distinct kinds; no-body failures are attempts, not downloaded evidence."
+}

@@ -1,0 +1,3286 @@
+
+--- PDF PAGE 1 ---
+On the Non-Specificity of Statistical Measures Used in Script Decipherment
+Nikhil Raghavendra
+Independent Researcher
+me@nikhilr.io
+Abstract
+Statistical regularities are routinely offered as
+evidence that undeciphered sign systems en-
+code language; the Indus script debate is the
+canonical example. Any such inference rests
+on specificity: the reported outcome must
+be unusual among plausible structured non-
+languages. We test that premise constructively
+with SIGIL, a purpose-built generative emblem
+system whose 3,000-text core corpus carries
+explicit compositional meanings although no
+sign has a phonological value. A literature reg-
+istry compiled in advance of evaluation records
+54 methods and admits a method to exact scor-
+ing when both the published Indus outcome
+and a source-defined decision rule can be re-
+produced. SIGILreceives the same category as
+the Indus corpus on every criterion scored this
+way, across repetition, directional-asymmetry,
+and lexical-distribution tests. Declared recon-
+structions of entropy, frequency, positional, pre-
+dictive, classifier, and network measures re-
+produce the familiar Indus-like signatures as
+well. A sequential decipherment stress test then
+reaches high dictionary coverage for English,
+Sanskrit, and Tamil on the same corpus, while
+grouped held-out declines and unstable keys
+reveal how little that coverage identifies. The
+construction does not decide what the Indus
+signs encode: it shows that the evaluated mea-
+sures detect organization without being specific
+to language, and therefore cannot, on their own,
+establish encoded speech.
+1 Introduction
+When a script resists decipherment, statistics step
+into the space that bilingual texts would normally
+occupy. Conditional entropy has been used to ar-
+gue that the Indus signs behave like writing (Rao
+et al., 2009a), an entropy-based classifier to argue
+that Pictish symbols record a language (Lee et al.,
+2010a), and a recent cryptanalytic proposal reads
+the Indus corpus as Sanskrit on the strength of
+dictionary-supported pattern matching (Yajnade-
+vam, 2024). The stakes are real: the government
+of Tamil Nadu announced a one-million-dollar
+prize for a decisive decipherment in January 2025
+(Mukul, 2025), and claimed solutions attract wide
+attention (Gordon, 2026). This paper asks what
+such statistical evidence can and cannot establish.
+The Indus civilization left several thousand short
+inscriptions on seals, sealings, tablets, and small ob-
+jects. Mahadevan’s concordance catalogued 2,906
+inscribed artifacts (Mahadevan, 1977), later doc-
+umentation has continued to expand the corpus
+(Wells and Fuls, 2006), and a typical text carries
+fewer than five signs. No bilingual text is known,
+proposed readings disagree about language and
+sign function (Parpola, 1994), and a prominent line
+of scholarship disputes whether the corpus is writ-
+ing at all (Farmer et al., 2004), itself contested (Vi-
+dale, 2007). A substantial literature has therefore
+measured the corpus instead, reading conditional
+and block entropy, rank-frequency laws, positional
+restrictions, predictability, network structure, and
+classifier output as signs of language (Rao et al.,
+2009a; Rao, 2010; Yadav et al., 2010; Sinha et al.,
+2011). These are genuine properties of the data;
+the difficulty lies in the comparison class, because
+administrative and emblematic practices can also
+generate skewed frequencies, recurring slots, and
+local dependencies, and rigid or independently ran-
+dom controls do not represent that space (Sproat,
+2010a, 2014).
+We therefore ask a narrower question than deci-
+pherment: are the published statistical outcomes
+specific enough to diagnose language? Our answer
+is a constructive counterexample. SIGILis a deter-
+ministic generative system that produces seal-like
+inscriptions for a fictional administrative world. Ev-
+ery text has meaning, because every text records a
+dedication, an office, an entitlement, or an admin-
+istrative event whose semantic derivation is stored
+beside it; no text has linguistic encoding, because
+1
+arXiv:2608.02999v1  [cs.CL]  4 Aug 2026
+--- PDF PAGE 2 ---
+no sign carries a sound, word, or morpheme value
+and no inscription transcribes an utterance. The
+generator, its parameters, and the aligned seman-
+tics are public, so this negative fact is inspectable
+rather than asserted.
+Against a method-level registry closed before
+evaluation began, the canonical SIGILcorpus repro-
+duces every source-validated categorical outcome
+that the registry admits to exact scoring, and de-
+clared reconstructions place it in the familiar Indus-
+like regions of the standard entropy, frequency, po-
+sitional, predictive, classifier, and network analyses.
+A further experiment turns to decipherment itself:
+optimized sign-to-letter keys make most of the cor-
+pus segmentable into English, Sanskrit, or Tamil
+dictionary forms, three mutually incompatible read-
+ings of signs that encode nothing, while grouped
+held-out evaluation and key instability reveal how
+weakly each individual value is identified.
+The claim we defend is one of constructive ex-
+istence. A single explicit non-language that satis-
+fies the tested criteria refutes the proposition that
+those criteria logically require encoded language.
+It does not estimate a likelihood ratio, show that
+the measures carry no evidential value under ev-
+ery calibrated model, or determine what the Indus
+signs encode. What it does change is the burden
+of proof, for the Indus debate and for statistical
+decipherment arguments generally.
+2 Specificity as the Inferential Target
+Let Tm(x) denote the outcome of method m on
+corpus x. A categorical criterion could establish
+language over a stated comparison class C only if
+every x∈ C receiving the language-associated out-
+come were linguistic, so one explicit member of
+C known to be non-linguistic disproves that impli-
+cation for the chosen class, although it says noth-
+ing about prevalence. In probabilistic terms, the
+construction establishes P(T m |N)>0 for at
+least one fully specified non-language model N; it
+does not determine P(T m |L)/P(T m |N) over
+broader families, which is what a calibrated eviden-
+tial argument would need.
+The distinction matters because description and
+diagnosis are different tasks. Conditional en-
+tropy, Zipf-Mandelbrot fits (Zipf, 1949; Mandel-
+brot, 1953), and transition graphs each reveal that
+a corpus is organized without identifying the sub-
+stance being organized, and what counts as writing
+was never a purely statistical question to begin with
+(Gelb, 1952). The null hypothesis then fixes what
+a rejection means: shuffling signs within texts tests
+whether the observed order differs from that permu-
+tation, and it cannot establish that the order comes
+from syntax rather than ritual sequence, adminis-
+trative slots, or production habit.
+Earlier critiques pressed this point with i.i.d. pro-
+cesses and historical non-writing corpora (Liber-
+man, 2009; Sproat, 2010a, 2014). SIGILadds what
+those arguments lacked: a fully specified generative
+witness whose origin is known, whose meanings
+are aligned text by text, and whose parameters are
+public. The witness is intentionally favorable to the
+statistical criteria, which is what a counterexample
+to sufficiency should be, although it thereby rules
+out any claim of held-out prediction or population-
+level calibration on our part.
+3 How Statistical Evidence Entered the
+Debate
+The modern round of the debate opened with a de-
+nial. Farmer et al. (2004) argued that the Indus
+corpus, with its very short texts and its scarcity of
+long repeated sequences, records no language at
+all, and that a century of decipherment attempts
+had pursued a literate civilization that never ex-
+isted. The statistical case for language grew up
+largely in answer to that challenge, accumulating
+method by method through analyses of uncertainty,
+frequency, order, and graph structure whose results
+are now often cited together. Cited in bulk, a varied
+literature can look like one convergent experiment,
+even though the studies differ in corpus, orientation,
+filtering, control data, and inferential target.
+The most visible answer came five years later in
+a general-science venue. Rao et al. (2009a) esti-
+mated bigram conditional entropy while growing
+the retained vocabulary and found the Indus curve
+between selected natural-language references and
+the more rigid or less constrained controls, and
+follow-up work extended the argument to block en-
+tropy (Rao, 2010; Rao et al., 2010). A companion
+Markov analysis reported non-uniform initial signs,
+restricted successors, and far lower likelihoods for
+inscriptions found in West Asia than for held-out
+core-region material, which was read as a flexible
+sign system adapted abroad (Rao et al., 2009b).
+These studies establish that the corpus is neither
+a fixed template nor an independent equiprobable
+process.
+Objections arrived quickly. Liberman (2009) ar-
+2
+--- PDF PAGE 3 ---
+gued that the intermediate entropy band is easy for
+non-linguistic processes to enter, Sproat (2010a)
+showed that an independent Zipfian source occu-
+pies the same band and faulted the reviewing prac-
+tices that had admitted the claim, and replies and
+rejoinders followed on both sides (Rao et al., 2010;
+Lee et al., 2010b; Sproat, 2010b).
+The descriptive toolkit widened anyway. Yadav
+et al. (2010) reported a Zipf-Mandelbrot fit, a sharp
+asymmetry between the common initial and com-
+mon final signs, a large unigram-to-bigram perplex-
+ity drop, and successful restoration of deleted signs,
+while earlier segmentation work had decomposed
+longer inscriptions using repeated complete texts
+and frequent combinations (Yadav et al., 2008a).
+All of this is consistent with combinatorial sign
+use, yet none of it says whether the recurring units
+are words, titles, commodities, deities, or other
+emblem classes.
+Classification and network analyses then made
+the linguistic reading explicit. Lee et al. (2010a)
+embedded small symbol corpora in a decision plane
+built from unigram and bigram features and labeled
+its regions with terms such as “writing: syllables,”
+a classification that drew immediate criticism of its
+own (Liberman, 2010). Sinha et al. (2011) com-
+pared transition-graph connectance and reciprocity
+with within-text shuffles and interpreted the differ-
+ences as syntax-like. Directional asymmetry was
+later inferred from the concentration and entropy
+of terminal signs (Ashraf and Sinha, 2018), and
+LNRE models brought formal goodness-of-fit tests
+to the frequency spectrum (Oakes, 2019).
+The dissent returned with an instrument of its
+own. Sproat (2014) proposed an adjacent-to-
+total repetition ratio on which the Indus corpus
+falls among his non-linguistic systems, itself con-
+tested further (Rao et al., 2015; Sproat, 2015).
+Most recently, a self-published proposal combines
+dictionary-supported regular expressions with a
+borrowed unicity-distance argument to claim a San-
+skrit reading (Yajnadevam, 2024), raising a differ-
+ent question: whether a large lexical search space
+can make a short corpus readable regardless of
+what it records.
+Our registry preserves these distinctions instead
+of flattening them. A statistic can be computed cor-
+rectly while its interpretation remains disputed, and
+a source can define a categorical outcome that is
+explicitly non-linguistic. We therefore score repro-
+ducible outcomes exactly as their authors defined
+them and treat continuous resemblance as descrip-
+tion, which keeps the literature from becoming a
+vote whose members were never designed to be
+exchangeable.
+4 A Non-Linguistic System With Meaning
+Clay Sealing · RTL ←
+S E A L - E Y E   T A L L Y - 1   G R A I N   P O T T E R   T O R T O I S E - F L O O D
+“To Tortoise-Flood; potter; entitled to 1 measure of grain; sealed
+[eye]”
+Vessel Inscription · LTR →
+M A S O N   T I M B E R   T A L L Y - 3   R E G I O N - 2 - Y E A R _ C L O S E   S E A L - C U P
+“Mason; entitled to 3 measures of timber; region 2 year close issue;
+sealed [cup]”
+Figure 1: Two artifacts from the canonical SIGILcorpus,
+one for each reading direction: a clay sealing read right
+to left and a vessel inscription read left to right. Each
+row shows the physical surface, the reading direction,
+the sign glosses, and the generated compositional mean-
+ing. The italic readings are mechanical renderings of
+the stored semantics, not decipherments.
+The fictional practice.Figure 1 shows the sys-
+tem at work. A seal can name a patron deity, attach
+licensed epithets, identify a guild and a rank within
+it, list commodity entitlements with tally marks,
+and close with a validating emblem. Four core
+regions share a pantheon, each with a designated
+patron and its own slot conventions, and a trading
+outpost mixes the shared deities with two local cults
+under a looser ordering convention. Twenty short-
+lived administrative issue marks are stamped onto
+bounded sets of clay sealings and vessel inscrip-
+tions, so the corpus contains meaningful rare signs
+whose rarity is administrative rather than phonolog-
+ical.
+The design draws on the broad archaeological
+record of what seals and emblems have done in lit-
+erate and non-literate settings alike, marking own-
+ership, institutional authority, cultic affiliation, and
+administrative control from Mesopotamian seal-
+ing practice to Anatolian pot marks and the Gulf
+trade (Collon, 1987; Zettler, 1987; Englund, 2011;
+Glatz, 2012; Laursen, 2010; Ameri, 2013), and
+proposals that the Indus signs conveyed meaning
+through largely non-phonological conventions have
+been advanced in the recent literature (Mukhopad-
+hyay, 2019). SIGILremains fictional throughout:
+3
+--- PDF PAGE 4 ---
+Canonical SIGILquantity Value
+Core texts / outpost texts 3,000 / 350
+Core tokens / attested types 13,717 / 419
+Distinct core strings 2,753
+Registered signs / ligatures 450 / 17
+Mean / maximum core length 4.572 / 12
+Signs covering 80% of tokens 51
+Top-sign token share 6.99%
+Right-to-left / left-to-right 2,972 / 28
+Table 1: The released fixed-seed corpus. All counts
+come from the portable corpus artifact and the current
+result contract.
+its labels and glyphs claim no affinity with any at-
+tested language, polity, or signary, and no statistical
+method in this paper inspects glyph geometry.
+Composition.Each inscription is assembled
+from optional opener, dedication, office, ledger,
+and terminal blocks. Finite-pool Pitman-Yor urns
+govern the dynamic categories, with a concentrated
+head and a long tail of deities, epithets, guilds,
+and commodities (Pitman and Yor, 1997). Deities
+license weighted multisets of epithets, so particu-
+lar deity and epithet combinations recur far above
+chance; commodity entries may carry tally marks
+or an emphatic doubling; after the first 1,200 texts,
+seventeen frequent adjacent pairs become regis-
+tered ligatures that later texts may write as fused
+signs; and a small probability permits adjacent
+blocks to invert. These mechanisms create local
+constraint and controlled variation while leaving
+the semantic role of every sign explicit.
+Material support and orientation are drawn from
+independent random streams. Region-specific re-
+inforced urns assign 1,100 seal matrices, 1,475
+clay sealings, and 425 vessel inscriptions across
+the core corpus; matrices are cut in mirror order for
+a right-to-left impression, and vessels draw their
+direction from a reinforced urn favoring right-to-
+left by nine to one, so the canonical reading di-
+rections are 2,972 right-to-left and 28 left-to-right.
+Sequence analyses consume the semantic reading
+order, while the handedness procedure consumes a
+separately stored normalized spatial view, exactly
+as its source method requires.
+The released corpus.Table 1 summarizes the
+canonical realization. One pinned seed controls
+composition, and three further seeds independently
+control material support, vessel direction, and ad-
+ministrative issues. The generator runs once, its
+sign registry becomes immutable after generation,
+and every text carries aligned semantic, physical-
+surface, and normalized-spatial records. The 419
+attested core types are drawn from 450 registered
+identities, and fifteen further types occur only at
+the outpost.
+The corpus is purpose-built, and we present it as
+such: its size and inventory sit in the range used by
+the Indus studies, and its mechanisms were chosen
+with the published statistics in view, because the
+question under test is precisely whether a known
+non-language can satisfy their stated outcomes. To
+check that the headline behavior is not an acci-
+dent of one parameter point, we also evaluate a
+common-seed grid of 27 configurations varying
+urn concentration, optional-slot probability, and
+epithet-license length, a sensitivity display and not
+a variance estimate.
+5 The Evaluation Protocol
+5.1 A method-level registry
+The literature census closed before any scoring ran.
+Its 54 entries represent methods rather than papers
+or individual plotted values, so one publication may
+contribute several entries, and each entry records
+the source corpus, orientation, filtering, formula,
+control construction, randomization, tie handling,
+required inputs, and the status of our reproduction.
+The census contains 6 exact-scored methods, 18
+reconstructions, 14 descriptive entries, 10 blocked
+methods, and 6 exclusions.
+An entry reaches the exact denominator only
+when two conditions hold together: we must inde-
+pendently reproduce the reported Indus outcome
+from public source material, and the publication
+must state a categorical decision or null-test rule
+that can be applied without inventing a similarity
+tolerance. Continuous resemblance is never scored.
+A reconstruction records a declared implementa-
+tion of a method whose source leaves consequential
+details open, a blocked entry lacks a necessary re-
+source, rule, or defensible target, and an exclusion
+falls outside the registry’s scope. These statuses
+keep every unavailable method visible, so that miss-
+ing information can never quietly become a favor-
+able result.
+For an eligible method, a pass means only that
+Im =⊮[T m(SIGIL) =T m(Indus)], and the ag-
+gregate is the fraction of eligible methods with
+Im = 1. The aggregate is not a binomial test and
+we do not treat it as one: two entries come from
+a single handedness procedure, three are related
+4
+--- PDF PAGE 5 ---
+LNRE goodness-of-fit models, and one is a repeti-
+tion ratio, so their mutual dependence is substantive
+and acknowledged.
+5.2 Descriptive reconstructions
+The broader battery covers the measurements that
+recur throughout the debate. It includes modified
+Kneser-Ney conditional entropy (Kneser and Ney,
+1995; Chen and Goodman, 1998), NSB block en-
+tropy (Nemenman et al., 2002), Zipf-Mandelbrot
+fitting, positional concentration, Witten-Bell per-
+plexity, masked-sign restoration, n-gram counts,
+Dunning bigram collocations (Dunning, 1993),
+staged segmentation, the Lee decision rule, transi-
+tion networks, outpost likelihoods, terminal direc-
+tionality, and LNRE models. Appendix B states
+the operational choices and the departures from
+each source. All of these reconstructions are evi-
+dence about compatibility; none of them enlarges
+the exact score.
+The controls include a rigid repeated template,
+an equiprobable maximum-entropy process, an in-
+dependent Zipf-Mandelbrot process, within-text
+shuffles of SIGIL, and pinned Brown-corpus word
+and character sequences (Francis and Ku ˇcera,
+1979). V ocabulary filtering preserves the gaps it
+creates, and null figures plot the stored permutation
+draws rather than samples synthesized from their
+moments.
+5.3 Sequential lexical stress test
+The recent Sanskrit proposal treats repeated-sign
+regular expressions, intersections of candidate val-
+ues, and dictionary-supported segmentation as evi-
+dence for a reading (Yajnadevam, 2024). Its public
+implementation contains manually written expres-
+sions for 32 sign headings, but it specifies no com-
+plete signary algorithm, generic search schedule,
+beam policy, segmentation procedure, held-out de-
+sign, or tie rules. We therefore classify our version
+as a source-constrained reconstruction rather than
+a replication, and we apply it to SIGILas a stress
+test of what dictionary coverage alone can show.
+A single deterministic engine built from equal-
+ity patterns, candidate intersection, a small beam,
+and dynamic-programming segmentation is applied
+to English, Sanskrit, and Tamil. Each sign maps
+to one alphabet unit, homophony allows several
+signs to share a unit, repeated signs impose back-
+reference constraints, and whole-word constraints
+from short or repeated inscriptions restrict candi-
+date values, after which a declared lexicographic
+objective drives beam search and coordinate refine-
+ment. Dynamic programming then asks whether
+each rendered string can be segmented completely
+into pinned dictionary forms.
+The literal protocol changes nothing beyond
+homophony and complete segmentation, and it
+is the only protocol English and Tamil receive.
+Sanskrit additionally has a script protocol with
+declared sound-class folds, optional inherenta,
+consonant-only realizations, mechanical inflection
+and sandhi, and decomposition of the 17 genuine
+ligatures, together with an adaptive level that per-
+mits a bounded, logged overlay and downstream
+key revision. The levels are cumulative and always
+reported separately.
+Exact duplicate inscriptions stay inside a sin-
+gle deterministic 70/15/15 train, validation, or test
+group. The source-style result optimizes and scores
+the full corpus, while the grouped result trains a
+fresh key, and any adaptive additions, on training
+groups alone. Twenty random keys, fixed-key shuf-
+fled and independent controls, four deterministic
+starts, six bootstrap keys, complete key tables, and
+segmentation multiplicities are all stored in the re-
+leased contract, and SIGILmeanings never enter
+selection, key search, segmentation, or scoring.
+6 Results
+6.1 The exactly scored outcomes coincide
+Table 2 presents the exactly scored comparisons,
+and the parallels run closer than the category la-
+bels alone suggest. SIGIL’s adjacent-to-total repeti-
+tion ratio of 0.646 sits beside the reproduced Indus
+value of 0.575, both far above the 0.10 boundary
+the source associates with linguistic systems. The
+two directional criteria recover SIGIL’s physical
+right-to-left convention just as they recover the In-
+dus convention, with matching signs on both asym-
+metries and the same permutation significance of
+p= 0.001 , and the three LNRE models are rejected
+for both corpora, with the two GIGP rejections
+landing at the same order of magnitude.
+The reading of this agreement is nonetheless pre-
+cise and limited. The repetition criterion places
+both corpora in its non-linguistic category, the di-
+rectional criteria measure handedness without mea-
+suring language, and an LNRE rejection establishes
+poor fit to those lexical models, not membership
+in a linguistic class. Every source-validated cate-
+gorical outcome in the registry is compatible with
+an explicit non-language. Reading the rows as in-
+5
+--- PDF PAGE 6 ---
+Method Source-defined rule Reproduced Indus outcome SIGILoutcome
+Adjacent / total
+repetition
+r/R <0.10linguistic;
+>0.10non-linguistic
+23/40 = 0.575,
+non-linguistic
+283/438 = 0.646,
+non-linguistic
+Terminal Gini
+asymmetry
+positive estimate, BCa
+excludes zero, shuffle
+p <0.05
+∆G= 0.1788, RTL,
+p= 0.001
+∆G= 0.0920, RTL,
+p= 0.001
+Terminal entropy
+asymmetry
+negative estimate, BCa
+excludes zero, shuffle
+p <0.05
+∆S=−0.4144, RTL,
+p= 0.001
+∆S=−0.2920, RTL,
+p= 0.001
+GIGP LNRE fit chi-square goodness-of-fit
+p <0.05
+reject,p= 6.51×10 −4 reject,p= 5.73×10 −4
+Finite ZM LNRE fit chi-square goodness-of-fit
+p <0.05
+reject,p= 1.28×10 −9 reject,p= 1.40×10 −6
+ZM LNRE fit chi-square goodness-of-fit
+p <0.05
+reject,p= 1.23×10 −23 reject,p= 4.90×10 −7
+Table 2: The complete exact denominator. A match means the same categorical or null-test outcome under the
+source-defined rule. It does not mean numerical identity, independent evidence, or support for a linguistic reading.
+ZM abbreviates Zipf-Mandelbrot and RTL right-to-left.
+dependent language tests, or the agreement as a
+calibrated probability, would overstate what the
+registry supports.
+6.2 The descriptive signatures also recur
+100 101 102
+Sign rank r
+10−4
+10−3
+10−2
+10−1
+Relative frequency
+Slope −1
+Fits over the displayed ranks  log f = a − blog(r + c)
+SIGIL:  b = 2.57, c = 28.5   (R2 = 0.99)
+Indus (EBUDS, published):  b = 2.59, c = 44.5
+English top 400:  b = 1.07, c = 0.9
+SIGIL (non-linguistic)
+i.i.d. Zipf–Mandelbrot
+English words (retained top 400)
+Figure 2: Rank-frequency curves and fitted Zipf-
+Mandelbrot models. SIGILhas b= 2.574 , c= 28.46 ,
+and R2 = 0.986 over the displayed ranks; the published
+EBUDS parameters are b= 2.59 and c= 44.47 . The
+English fit uses the retained top-400 word corpus.
+Frequency concentration.Figure 2 gives the
+first descriptive comparison. The SIGILcurve
+pairs a concentrated head with a long tail of rare
+signs, and its fitted Zipf-Mandelbrot exponent of
+2.574 sits close to the published EBUDS value
+of 2.59, with R2 = 0.986 over the fitted ranks.
+The mid-rank log-log slope is −1.270, against
+about −1.03 for the displayed English-word ref-
+erence. Category-specific reinforced urns produce
+this shape as readily as word use does, so the fitted
+distance receives no categorical score.
+0 100 200 300 400
+Effective number of retained types
+0
+1
+2
+3
+4
+5
+6
+Conditional entropy  H(Xt + 1 | Xt)  (nats)
+Random (Max Ent)
+SIGIL, shuffled
+i.i.d. Zipf–MandelbrotEnglish words
+SIGIL (non-linguistic)
+English characters (raw Brown ASCII)
+Rigid (Min Ent)
+Figure 3: Smoothed bigram conditional entropy in nats
+as the retained vocabulary grows. SIGILlies between
+the Brown word and character references and below
+its own within-text shuffle. The i.i.d. Zipf-Mandelbrot
+control has no sequential dependence yet also occupies
+an intermediate region.
+Sequential uncertainty.Figure 3 shows the
+conditional-entropy sweep that anchors the en-
+tropic argument. At the ends of their sweeps, SIGIL
+reaches 3.609 nats, English characters 2.421, En-
+glish words 3.917, shuffled SIGIL4.185, and the
+equiprobable control 5.948. The constructed sys-
+tem occupies the intermediate band for a simple
+reason: its next sign is constrained by slots and
+licenses but never fixed. The independent Zipf-
+Mandelbrot control occupies a neighboring band
+6
+--- PDF PAGE 7 ---
+with no sequential structure at all, which is the
+objection earlier critics raised against the entropic
+argument, reproduced here inside one controlled
+pipeline.
+1 2 3 4 5 6
+Block size N
+1
+2
+3
+4
+5
+6
+Block entropy HN  (units of log L)
+HN
+=N (i.i.d. uniform)
+Random (Max Ent)
+i.i.d. Zipf–Mandelbrot
+English characters
+English words
+SIGIL (non-linguistic)
+Rigid (Min Ent)
+Figure 4: NSB block entropy in units of logL , with
+L the alphabet size. SIGILgrows sublinearly, staying
+far below the equiprobable control at every order. The
+late rise of the i.i.d. control occurs where almost every
+six-sign block in that corpus is unique.
+Longer blocks.Figure 4 extends the comparison
+to block entropies of orders one through six. The
+six SIGILvalues are 0.734, 1.239, 1.602, 1.881,
+2.181, and 2.554, while English words reach 2.488
+at order six and English characters 2.325. Because
+the corpus consists of short texts with repeated tem-
+plates, these estimates reflect text length and tem-
+plate reuse alongside any sequential dependence,
+so location within the linguistic reference region
+cannot function as a diagnostic.
+Prediction and restoration.Sequence predic-
+tion behaves the same way as the entropies. Five-
+fold Witten-Bell perplexity falls from 64.22 at or-
+der one to 25.80 at order two and then ranges be-
+tween 28.59 and 30.39 through order five, while
+the published Indus sequence runs 68.82, 26.69,
+26.09, 25.26, and 25.26. The mild rise beyond or-
+der two reflects the 4.572-sign mean text length,
+which leaves few long contexts for higher orders to
+exploit; the diagnostic drop from order one to order
+two appears in both corpora. Restoration behaves
+similarly: when one sign is deleted, the correct
+value lies inside the smallest candidate set hold-
+ing 90% of posterior mass in 84.88% of 275,300
+trials, against a published Indus figure of 74% for
+the same criterion, and top-one accuracy is 24.84%.
+Bigram constraint with little higher-order gain is
+what slot composition of short texts produces.
+SIGIL Indus
+(published)
+i.i.d. Zipf Random
+0
+50
+100
+150
+200
+250
+300
+Distinct signs covering 80%
+of initial / final tokens
+39
+82
+40
+294
+10
+23
+40
+294
+T ext-initial
+T ext-final
+Figure 5: Numbers of distinct signs needed to cover
+80% of text-initial and text-final tokens. Slot structure
+gives SIGILa marked asymmetry between beginners
+and enders, while the i.i.d. and equiprobable controls
+remain approximately symmetric.
+Position.Figure 5 compares positional concentra-
+tion. Thirty-nine SIGILsigns cover 80% of initial
+tokens while ten cover 80% of final tokens, a 39-
+to-10 contrast that parallels the published 82-to-23
+Indus asymmetry. Openers, dedication and office
+blocks, issue marks, and a five-sign terminal class
+generate this structure in SIGIL. The statistic de-
+tects a genuine slot system in both corpora; what it
+cannot say is what the slots hold.
+The graph and classifier summaries complete the
+profile. The transition graph has 419 vertices, 3,209
+directed edges, and 51 self-loops; its reciprocity of
+0.145 falls far below the within-text-shuffle mean
+of 0.467, just as the published Indus values of 0.148
+and 0.338 do, and its connectance of 0.0183 falls
+below the null value of 0.0264, with published
+Indus values of 0.0077 against 0.011. The Lee rule
+assigns SIGILto “writing: syllables” at (Cr, Ur) =
+(8.93,1.33) , and all 27 sensitivity configurations
+retain that label (Lee et al., 2010a).
+The outpost experiment parallels the West Asia
+design where the truth is known (Rao et al., 2009b):
+the outpost median likelihood under a core-trained
+model is exactly zero, driven by unseen regional
+events in 53.1% of outpost strings, while held-out
+core strings score 1.85×10 −8. Regional emblem
+practice alone generates the same form of separa-
+tion once read as dialectal adaptation of a language.
+Appendix B presents the full curves, stored null
+draws, and sensitivity cells behind these summaries,
+whose agreement is mechanical: the same urns,
+7
+--- PDF PAGE 8 ---
+slots, licenses, and conventions surface in each
+statistic from a different angle.
+6.3 Dictionary coverage does not identify a
+reading
+The multilingual stress test targets decipherment’s
+evidential move directly. Under the literal protocol,
+in-sample coverage reaches 83.0% of texts for En-
+glish, 88.13% for Sanskrit, and 67.73% for Tamil;
+grouped-test coverage falls to 74.23%, 61.01%, and
+44.05%, while the random-key means are 6.50%,
+5.77%, and 9.48%. The three languages are mutu-
+ally incompatible readings of one corpus, yet the
+same search finds substantial dictionary-supported
+coverage in each, on signs that encode nothing.
+The Sanskrit script and adaptive protocols push
+in-sample coverage to 97.10% and 97.33%, with
+grouped-test values of 93.17% and 93.39%. That
+persistence reflects the permissiveness of the de-
+clared script and morphological operations rather
+than a recovered language: random script keys al-
+ready average 27.87%, and the fixed-key ablation
+of Appendix E attributes most of the gain to op-
+tional inherentaand mechanical morphology.
+High coverage coexists with weak identification.
+Only seven English signs and one literal Sanskrit
+sign have singleton candidate intersections, and
+Tamil has none at all. Six bootstrap script keys
+agree on just 9.30% of sign values even though
+each parses more than 93.5% of the corpus, and
+for signs observed at most twice, agreement falls
+below the 1-in-49 chance rate.
+We report no semantic-recovery score: the dic-
+tionary definitions and SIGIL’s administrative roles
+share no predeclared ontology, so any post hoc
+mapping would manufacture its own target. Appen-
+dices C and E expose the denominators, controls,
+ambiguity, and stability results in full.
+7 Discussion
+What the construction establishes.The re-
+ported outcomes are not sufficient conditions for
+language: a system of emblems with compositional
+administrative meaning can occupy the same en-
+tropy regions, display the same frequency and po-
+sitional concentration, support comparable predic-
+tion and restoration, enter the writing region of a
+published classifier, and produce significant direc-
+tional and lexical-distribution results, all under one
+fixed seed. The registry makes the statement au-
+ditable: every eligible source outcome is matched,
+and every ineligible method remains visible with
+its status explained.
+What it leaves open.An existence witness can-
+not say how common such systems are, and a fea-
+ture may yet be informative if calibrated linguis-
+tic populations produce it far more often than a
+weighted family of non-languages; no study eval-
+uated here supplies that family, and neither do we.
+What survives is a compatibility claim, a weaker
+thing than a diagnosis.
+Construction and circularity.SIGILwas de-
+signed with the published criteria in view, and the
+canonical realization is not held out. In a predictive
+benchmark that would be a defect; for a construc-
+tive counterexample it is the entire point: were the
+statistics logically specific to language, no explicit
+non-language could be built to satisfy them. The
+27-cell sweep shows the headline behavior persist-
+ing across the declared parameter changes.
+Stronger evidence for decipherment.None of
+this makes decipherment hopeless; it clarifies what
+persuasive evidence looks like. A proposal gains
+force when it commits to sign values and seman-
+tic predictions before testing, succeeds on held-out
+inscriptions, prefers one language over matched
+alternatives, recovers stable values across resam-
+ples, and predicts external archaeological or tex-
+tual facts. Computational decipherment has met
+such standards on ciphers, Ugaritic, and Linear B
+(Knight and Yamada, 1999; Knight et al., 2006,
+2011; Snyder et al., 2010; Berg-Kirkpatrick and
+Klein, 2013; Luo et al., 2019). Dictionary coverage
+alone does not approach them.
+8 Conclusion
+A known non-language with explicit compositional
+meanings receives every exact source-validated out-
+come in the 54-method registry, reproduces a much
+wider descriptive profile, and can be made read-
+able in three unrelated languages. The measures
+detect organization, predictability, concentration,
+direction, and model misfit; they do not, on their
+own, establish encoded speech. Nothing here set-
+tles the status of the Indus script, but the burden of
+proof has moved: a claim that regularity establishes
+language now needs a discriminative comparison
+against structured non-linguistic alternatives, or
+predictions they cannot readily satisfy. Until then,
+the regularities remain compatible with language
+and with practices that never encoded it.
+8
+--- PDF PAGE 9 ---
+Limitations
+SIGILis a single synthetic system, deliberately
+constructed after the relevant literature was known,
+and its canonical realization is not a held-out sam-
+ple. The 27 sensitivity cells share a starting seed
+and diverge through parameter-dependent control
+flow, so they display robustness without estimating
+sampling variance. The work establishes compati-
+bility between the tested outcomes and one defined
+non-language; it does not estimate how frequently
+comparable emblem systems would produce the
+same outcomes, and it supplies no likelihood ratio
+between linguistic and non-linguistic hypotheses.
+The Indus corpora behind the source studies dif-
+fer in cleaning, orientation, and inventory, and our
+exact scoring is restricted to methods whose public
+source data and decision rule we could reproduce.
+The resulting denominator holds six dependent out-
+comes from three method families, and the other 48
+registry entries remain outside it for stated reasons.
+The absence of a method from the denominator
+must not be read as a failed Indus claim or as a
+successful SIGILmatch.
+Several analyses are reconstructions because the
+publications omit operational details, and although
+we declare our tie rules, filtering, randomization,
+and denominators, another reasonable reconstruc-
+tion could produce different continuous values. The
+sequential lexical experiment is especially underde-
+termined by its source: its beam policy, complete
+segmentation requirement, held-out split, and tie
+rules are our explicit choices, and its coverage fig-
+ures measure parse feasibility rather than transla-
+tion accuracy.
+The fictional archaeological setting is not a
+model of Harappan society. Its parallels show that
+non-phonological administrative mechanisms are
+coherent, not that such mechanisms generated the
+Indus corpus. Finally, the study neither compares
+fully specified population distributions for linguis-
+tic and non-linguistic hypotheses nor offers any
+decipherment of its own.
+References
+Marta Ameri. 2013. Regional diversity in the Harappan
+world: The evidence of the seals. In Shinu Anna
+Abraham, Praveena Gullapalli, Teresa P. Raczek, and
+Uzma Z. Rizvi, editors,Connections and Complexity:
+New Approaches to the Archaeology of South Asia,
+pages 355–374. Left Coast Press, Walnut Creek, CA.
+Md Izhar Ashraf and Sitabhra Sinha. 2012. Core-
+periphery organization of graphemes in written se-
+quences: decreasing positional rigidity with increas-
+ing core order. InComputational Linguistics and
+Intelligent Text Processing (CICLing 2012), LNCS
+7181, pages 142–153.
+Md. Izhar Ashraf and Sitabhra Sinha. 2018. The “hand-
+edness” of language: Directional symmetry breaking
+of sign usage in words.PLOS ONE, 13(1):e0190735.
+Taylor Berg-Kirkpatrick and Dan Klein. 2013. Deci-
+pherment with a million random restarts. InProceed-
+ings of the 2013 Conference on Empirical Methods in
+Natural Language Processing, pages 874–878, Seat-
+tle, Washington, USA.
+Stanley F. Chen and Joshua Goodman. 1998. An empir-
+ical study of smoothing techniques for language mod-
+eling. Technical Report TR-10-98, Harvard Com-
+puter Science Group.
+Dominique Collon. 1987.First Impressions: Cylinder
+Seals in the Ancient Near East. British Museum
+Publications, London.
+Ted Dunning. 1993. Accurate methods for the statistics
+of surprise and coincidence.Computational Linguis-
+tics, 19(1):61–74.
+Robert K. Englund. 2011. Accounting in proto-
+cuneiform. In Karen Radner and Eleanor Robson,
+editors,The Oxford Handbook of Cuneiform Culture,
+pages 32–50. Oxford University Press, Oxford.
+Steve Farmer, Richard Sproat, and Michael Witzel. 2004.
+The collapse of the Indus-script thesis: the myth of a
+literate Harappan civilization.Electronic Journal of
+V edic Studies, 11(2):19–57.
+W. Nelson Francis and Henry Kuˇcera. 1979.Brown Cor-
+pus Manual: Manual of Information to Accompany
+a Standard Corpus of Present-Day Edited American
+English, for Use with Digital Computers. Depart-
+ment of Linguistics, Brown University, Providence,
+RI.
+Andreas Fuls. 2015. Classifying undeciphered writing
+systems.Historische Sprachforschung, 128(1):42–
+58.
+Ignace J. Gelb. 1952.A Study of Writing: The F ounda-
+tions of Grammatology. University of Chicago Press,
+Chicago.
+Claudia Glatz. 2012. Bearing the marks of control?
+reassessing pot marks in late bronze age Anatolia.
+American Journal of Archaeology, 116(1):5–38.
+Michael Gordon. 2026. Cracking the Indus script.
+Popular Archaeology, Summer 2026 issue,
+https://popular-archaeology.com/article/
+cracking-the-indus-script-2/.
+Ruhan Khanna and Louie Merriam. 2025. A computa-
+tional analysis of the Indus script: Identifying sign
+functions in logo-syllabic writing systems.Interna-
+tional Journal of Computer Applications, 187(64):19–
+22.
+9
+--- PDF PAGE 10 ---
+Reinhard Kneser and Hermann Ney. 1995. Improved
+backing-off for m-gram language modeling. InPro-
+ceedings of the 1995 International Conference on
+Acoustics, Speech, and Signal Processing (ICASSP),
+volume 1, pages 181–184. IEEE.
+Kevin Knight, Beáta Megyesi, and Christiane Schaefer.
+2011. The Copiale cipher. InProceedings of the
+4th Workshop on Building and Using Comparable
+Corpora: Comparable Corpora and the Web, pages 2–
+9, Portland, Oregon. Association for Computational
+Linguistics.
+Kevin Knight, Anish Nair, Nishit Rathod, and Kenji Ya-
+mada. 2006. Unsupervised analysis for decipherment
+problems. InProceedings of the COLING/ACL 2006
+Main Conference Poster Sessions, pages 499–506,
+Sydney, Australia.
+Kevin Knight and Kenji Yamada. 1999. A computa-
+tional approach to deciphering unknown scripts. In
+Unsupervised Learning in Natural Language Pro-
+cessing.
+Kimmo Koskenniemi. 1981. Syntactic methods in the
+study of the Indus script. InProceedings of the
+Nordic South Asia Conference Held in Helsinki, 10–
+12 June 1980, volume 50 ofStudia Orientalia, pages
+125–136, Helsinki. Finnish Oriental Society.
+Steffen Terp Laursen. 2010. The westward transmis-
+sion of Indus Valley sealing technology: Origin and
+development of the ‘Gulf Type’ seal and other admin-
+istrative technologies in early Dilmun, c. 2100–2000
+BC.Arabian Archaeology and Epigraphy, 21(2):96–
+134.
+Rob Lee, Philip Jonathan, and Pauline Ziman. 2010a.
+Pictish symbols revealed as a written language
+through application of Shannon entropy.Proceed-
+ings of the Royal Society A: Mathematical, Physical
+and Engineering Sciences, 466(2121):2545–2560.
+Rob Lee, Philip Jonathan, and Pauline Ziman. 2010b.
+A response to Richard Sproat on random systems,
+writing, and entropy.Computational Linguistics,
+36(4):791–794.
+Mark Liberman. 2009. Conditional entropy and the In-
+dus script. Language Log, https://languagelog.
+ldc.upenn.edu/nll/?p=1374.
+Mark Liberman. 2010. Pictish writing? Lan-
+guage Log, https://languagelog.ldc.upenn.
+edu/nll/?p=2227.
+Jiaming Luo, Yuan Cao, and Regina Barzilay. 2019.
+Neural decipherment via minimum-cost flow: From
+Ugaritic to Linear B. InProceedings of the 57th
+Annual Meeting of the Association for Computational
+Linguistics, pages 3146–3155, Florence, Italy.
+Iravatham Mahadevan. 1977.The Indus Script: Texts,
+Concordance and Tables. Number 77 in Memoirs of
+the Archaeological Survey of India. Archaeological
+Survey of India, New Delhi.
+Benoît Mandelbrot. 1953. An informational theory of
+the statistical structure of language. In Willis Jack-
+son, editor,Communication Theory, pages 486–502.
+Butterworths Scientific Publications, London.
+Monier Monier-Williams. 1899.A Sanskrit–English
+Dictionary: Etymologically and Philologically
+Arranged with Special Reference to Cognate
+Indo-European Languages. Clarendon Press,
+Oxford. Cologne Digital Sanskrit Dictionar-
+ies digitization, https://www.sanskrit-lexicon.
+uni-koeln.de/.
+Bahata Ansumali Mukhopadhyay. 2019. Interrogating
+Indus inscriptions to unravel their mechanisms of
+meaning conveyance.Palgrave Communications,
+5(1):73.
+Sushim Mukul. 2025. Why Tamil Nadu CM Stalin
+pledged USD 1 million for decoding Indus script.
+India Today, 7 January 2025.
+Ashish Nair. 2026. How non-linguistic is the In-
+dus sign system? a synthetic-baseline score-
+card. arXiv preprint arXiv:2604.17828.Preprint,
+arXiv:2604.17828.
+Ilya Nemenman, Fariel Shafee, and William Bialek.
+2002. Entropy and inference, revisited. InAdvances
+in Neural Information Processing Systems 14, pages
+471–478. MIT Press.
+Michael P. Oakes. 2019. Statistical analysis of the ta-
+bles in Mahadevan’s concordance of the Indus Valley
+Script.Journal of Quantitative Linguistics, 26(1):22–
+47.
+Liam Paninski. 2003. Estimation of entropy and mutual
+information.Neural Computation, 15(6):1191–1253.
+Asko Parpola. 1994.Deciphering the Indus Script.
+Cambridge University Press, Cambridge.
+Jim Pitman and Marc Yor. 1997. The two-parameter
+Poisson–Dirichlet distribution derived from a stable
+subordinator.The Annals of Probability, 25(2):855–
+900.
+Vinodh Rajan. 2024. Aksharamukha: script converter.
+https://www.aksharamukha.com/. Version 2.3.
+R. Geetha Ramani and S. Kishor. 2024. Deciphering
+the Indus Valley script: Hierarchical clustering and
+dependency tree analysis.International Journal of
+Computer Applications, 186(31):5–16.
+Rajesh P. N. Rao. 2010. Probabilistic analysis of an
+ancient undeciphered script.Computer, 43(4):76–
+80.
+Rajesh P. N. Rao, Rob Lee, Nisha Yadav, Mayank N.
+Vahia, Philip Jonathan, and Pauline Ziman. 2015.
+On statistical measures and ancient writing systems.
+Language, 91(4):e198–e205.
+10
+--- PDF PAGE 11 ---
+Rajesh P. N. Rao, Nisha Yadav, Mayank N. Vahia,
+Hrishikesh Joglekar, Ronojoy Adhikari, and Ira-
+vatham Mahadevan. 2009a. Entropic evidence for
+linguistic structure in the Indus script.Science,
+324(5931):1165.
+Rajesh P. N. Rao, Nisha Yadav, Mayank N. Vahia,
+Hrishikesh Joglekar, Ronojoy Adhikari, and Ira-
+vatham Mahadevan. 2009b. A Markov model of the
+Indus script.Proceedings of the National Academy
+of Sciences, 106(33):13685–13690.
+Rajesh P. N. Rao, Nisha Yadav, Mayank N. Vahia,
+Hrishikesh Joglekar, Ronojoy Adhikari, and Ira-
+vatham Mahadevan. 2010. Entropy, the Indus script,
+and language: a reply to R. Sproat.Computational
+Linguistics, 36(4):795–805.
+Gabriel L. Recchia and Max M. Louwerse. 2016. Ar-
+chaeology through computational linguistics: Inscrip-
+tion statistics predict excavation sites of Indus Valley
+artifacts.Cognitive Science, 40(8):2065–2080.
+Claude E. Shannon. 1949. Communication theory of
+secrecy systems.Bell System Technical Journal,
+28(4):656–715.
+Claude E. Shannon. 1951. Prediction and entropy
+of printed English.Bell System Technical Journal,
+30(1):50–64.
+Sitabhra Sinha, Md Izhar Ashraf, Raj Kumar Pan, and
+Bryan K. Wells. 2011. Network analysis of a cor-
+pus of undeciphered Indus civilization inscriptions
+indicates syntactic organization.Computer Speech &
+Language, 25(3):639–654.
+Gift Siromoney and Abdul Huq. 1988. Segmentation
+of Indus texts: A dynamic programming approach.
+Computers and the Humanities, 22(1):11–21.
+Benjamin Snyder, Regina Barzilay, and Kevin Knight.
+2010. A statistical model for lost language decipher-
+ment. InProceedings of the 48th Annual Meeting of
+the Association for Computational Linguistics, pages
+1048–1057, Uppsala, Sweden.
+Robyn Speer. 2022. rspeer/wordfreq: v3.0. Zenodo.
+Richard Sproat. 2010a. Ancient symbols, computa-
+tional linguistics, and the reviewing practices of the
+general science journals.Computational Linguistics,
+36(3):585–594.
+Richard Sproat. 2010b. Reply to Rao et al. and Lee et
+al.Computational Linguistics, 36(4):807–816.
+Richard Sproat. 2014. A statistical comparison of writ-
+ten language and nonlinguistic symbol systems.Lan-
+guage, 90(2):457–481.
+Richard Sproat. 2015. On misunderstandings and mis-
+representations: a reply to Rao et al.Language,
+91(4):e206–e208.
+Tanishk Tiwari. 2026. Statistical structure in Indus sign
+sequences. InProceedings of the 6th International
+Conference on Natural Language Processing for the
+Digital Humanities, pages 314–319. Association for
+Computational Linguistics.
+Varun Venkatesh and Ali Farghaly. 2023a. Identifying
+anomalous Indus texts from West Asia using Markov
+chain language models. In2023 14th International
+Conference on Computing Communication and Net-
+working Technologies (ICCCNT), pages 1–7.
+Varun Venkatesh and Ali Farghaly. 2023b. Statistical
+models for identifying missing and unclear signs of
+the Indus script.Journal of Emerging Investigators,
+6.
+Massimo Vidale. 2007. The collapse melts down: a
+reply to Farmer, Sproat and Witzel.East and West,
+57(1–4):333–366.
+Bryan K. Wells and Andreas Fuls. 2006. The interactive
+corpus of Indus text (ICIT). Online corpus, https:
+//www.epigraphica.de/indus/menueindus.htm.
+Nisha Yadav, Hrishikesh Joglekar, Rajesh P. N. Rao,
+Mayank N. Vahia, Ronojoy Adhikari, and Iravatham
+Mahadevan. 2010. Statistical analysis of the Indus
+script usingn-grams.PLoS ONE, 5(3):e9506.
+Nisha Yadav, Ambuja Salgaonkar, and Mayank Vahia.
+2017. Clustering Indus texts using k-means.Interna-
+tional Journal of Computer Applications, 162(1):16–
+21.
+Nisha Yadav, Mayank N. Vahia, Iravatham Mahade-
+van, and Hrishikesh Joglekar. 2008a. Segmentation
+of Indus texts.International Journal of Dravidian
+Linguistics, 37(1):53–72.
+Nisha Yadav, Mayank N. Vahia, Iravatham Mahade-
+van, and Hrishikesh Joglekar. 2008b. A statistical
+approach for pattern search in Indus writing.Interna-
+tional Journal of Dravidian Linguistics, 37(1):39–52.
+Yajnadevam. 2024. A cryptanalytic decipher-
+ment of the Indus script. Self-published
+preprint, version compiled 13 November 2024;
+https://rarebooksocietyofindia.org/book_
+archive/A_cryptanalytic_decipherment_
+of_the_Indu.pdf. Released code: https:
+//github.com/yajnadevam/ScriptDerivation,
+revision 5835e8b.
+Richard L. Zettler. 1987. Sealings as artifacts of in-
+stitutional administration in ancient Mesopotamia.
+Journal of Cuneiform Studies, 39(2):197–240.
+George Kingsley Zipf. 1949.Human Behavior and the
+Principle of Least Effort: An Introduction to Human
+Ecology. Addison-Wesley Press, Cambridge, MA.
+11
+--- PDF PAGE 12 ---
+A Generator and Corpus Contract
+The public corpus artifact stores all 3,000 core
+and 350 outpost records. Every record carries
+five aligned fields: the semantic reading order, the
+physical surface order, a normalized right-to-left
+spatial order, artifact metadata, and the composi-
+tional semantics. The registry, ligature definitions,
+weighted epithet licenses, regional patron identities,
+issue quotas, urn histories, and generator settings
+are stored in the same deterministic compressed
+JSON artifact, so every analysis in this paper can
+be traced from its inputs. The local analysis cache
+is a separate file and never enters the public archive.
+The composition stream first creates 1,200 core
+texts. Every adjacent pair observed at least 25 times
+in that phase becomes eligible for a registered liga-
+ture, and later texts write an eligible pair as a fused
+sign with probability 0.25. This rule discovers ex-
+actly 17 ligatures. A ligature replaces two written
+emblems while preserving both underlying seman-
+tic roles, and deity doubling likewise remains an
+explicit emphasis operation in the semantic record
+even when one member of the doubled pair is writ-
+ten inside a ligature.
+For each dynamic category, a finite-pool Pitman-
+Yor urn introduces new types and reinforces old
+ones. When a category’s type shelf is exhausted,
+a proposed new-type event is redirected to the
+existing-type distribution; this finite-pool rule is
+part of the declared model rather than an imple-
+mentation fallback. Fixed weighted choices gov-
+ern openers, ranks, tallies, and terminals, and the
+four core regions carry weights of 0.38, 0.27, 0.20,
+and 0.15, realizing 1,122, 808, 606, and 464 texts.
+Weighted epithet licenses are drawn with replace-
+ment during license construction, so a license may
+contain repeated epithet identities. Of the 241 li-
+censes, 105 hold a single epithet, 65 hold two, 26
+three, 18 four, and 27 five, and 48 contain at least
+one repeated entry, which is why particular deity
+and epithet pairs recur so strongly.
+The outpost draws its 350 texts from the same
+generator under looser conventions. Its reinforced
+support urn realizes 143 seal matrices, 129 clay
+sealings, and 78 vessel inscriptions, its mean text
+length is 4.363 signs against the core’s 4.572, and
+its 335 distinct strings ground the regional likeli-
+hood experiment of Appendix B. No administrative
+issue mark is ever assigned there, since issue quotas
+bind core clay sealings and vessels alone.
+Administrative issue signs use their own seed.
+Each of five issue rounds in each of four core re-
+gions receives a quota of4+Binomial(8,0.5) uses,
+assigned without replacement among that region’s
+clay sealings and vessel inscriptions, for a realized
+total of 157 uses across the corpus. Each mark is
+placed immediately before the last primary sign
+of its text. The mechanism supplies a declared ad-
+ministrative reason for rare, positionally restricted
+types, which several Indus analyses would other-
+wise treat as evidence about phonology.
+Property SIGILEBUDS
+Texts 3,000 1,548
+Tokens 13,717 about 7,000
+Attested / nominal types 419 / 450 377 / 417
+Mean length 4.572 about 4.5
+Top-sign share 6.99% about 10%
+Signs covering 80% 51 69
+Initial signs covering 80% 39 82
+Final signs covering 80% 10 23
+Texts with a repeated sign 13.0% about 17%
+Table 3: Corpus-level descriptive quantities. The
+EBUDS values are the anchors reported in the cited sta-
+tistical literature (Rao et al., 2009b; Yadav et al., 2010).
+The comparison is descriptive, not an exact score.
+Table 3 places the two corpora side by side. The
+canonical corpus is larger than EBUDS but stays
+within the same regime of short texts and a few hun-
+dred sign types, which is the regime in which the
+published statistics operate. Inventory size and text
+length are design inputs; the rank-frequency shape,
+the positional concentration, and the remaining re-
+sults arise from the realized composition within
+that regime.
+Two small examples convey what the aligned
+records contain. Core text 1 consists of three signs
+read as an auspicious opener, the deity Hare-Dawn,
+and a validating seal knot, and its semantic record
+stores exactly that dedication. Another core text
+writes the deity Tortoise-Flood, the potter’s guild
+emblem, the grain commodity sign, a one-unit tally,
+and a terminal, and its record stores the correspond-
+ing entitlement of one measure of grain to a potter
+under that patron. The stored semantics are what
+the decoder of Appendix C never sees.
+B Statistical Methods and Extended
+Results
+Conditional entropy.For k= 20,40, . . . ,400 ,
+each corpus retains its k most frequent tokens and
+fits an interpolated modified Kneser-Ney bigram
+estimator. Filtering preserves gaps, so tokens sep-
+12
+--- PDF PAGE 13 ---
+arated by an excluded item do not become adja-
+cent, and the effective inventory after filtering is
+reported at every point, which is why the plotted
+curves end at different horizontal positions. Sparse
+count-of-count configurations fall back to a docu-
+mented discount. The sweep follows the tradition
+of vocabulary-growth entropy estimates that began
+with printed English (Shannon, 1951).
+Block entropy.Blocks of orders one through six
+are counted inside texts, never across text bound-
+aries. The NSB estimator integrates over its con-
+centration parameter with stable evidence evalua-
+tion and convergence checks, a choice motivated
+by the strong finite-sample bias of naive entropy
+estimates on short sequences (Nemenman et al.,
+2002; Paninski, 2003). Values are reported in units
+of logL , with L the alphabet size, following the
+reconstructed source comparison.
+Prediction and restoration.Witten-Bell n-gram
+models use a fixed vocabulary and recursive back-
+off on one seeded five-fold split of distinct strings.
+Restoration uses a separate seeded five-fold split
+in which one position is removed from each val-
+idation text 100 times, giving 275,300 evaluated
+trials with no out-of-vocabulary failures. We report
+top-one accuracy and membership in the smallest
+candidate set whose posterior mass reaches 90%.
+Frequency, position, and segmentation.The
+fitted curve is logf r =a−blog(r+c) . Posi-
+tional concentration counts the smallest sign set
+covering 80% of initial or final tokens. Staged seg-
+mentation uses distinct texts of length at least five
+together with the source cutoffs for complete texts
+and frequent combinations. The publication does
+not reproducibly specify its singleton-frequency
+cutoff, so we retain both the pre-singleton result
+and the full sensitivity range rather than choosing
+a favorable endpoint.
+Networks and regional likelihood.The transi-
+tion graph includes self-loops. Reciprocity and
+connectance use 100 stored within-text permuta-
+tions under a pinned seed. The outpost analogue
+trains a modified Kneser-Ney bigram model on
+2,653 of the 2,753 distinct core strings, then scores
+the 100 held-out core strings and all 335 distinct
+outpost strings, keeping overall medians, nonzero
+medians, and zero shares separately. The held-out
+core strings calibrate what a text earns for being
+unseen, so the outpost comparison isolates regional
+novelty rather than absence from training.
+100 101 102
+Sign rank
+0.2
+0.4
+0.6
+0.8
+1.0Cumulative token share
+SIGIL
+Indus (published)
+Figure 6: Cumulative token coverage by sign rank for
+SIGIL. The two black diamonds are published Indus an-
+chors: a top-sign share near 10% and 69 signs required
+for 80% coverage.
+Sign coverage (Figure 6).The most frequent
+SIGILsign contributes 6.99% of all tokens, and
+51 signs cover 80% of them. Shuffling leaves
+the curve untouched because the statistic is purely
+unigram-based. Frequency concentration is real
+corpus structure, and it exists independently of se-
+quence, syntax, or phonology.
+1 3 5 7 9 11
+Sign sj (rank)
+1
+3
+5
+7
+9
+11
+Sign si (rank)
+0.0
+0.1
+0.2
+0.3
+0.4
+P(si ∣ sj)
+Figure 7: Kneser-Ney transition probabilities among
+the twelve most frequent SIGILsigns. The largest
+cell, at 0.49, is the epithet Radiant after the deity Hare-
+Dawn; slots and licenses leave a few preferred succes-
+sors against a sparse background.
+Transitions (Figure 7).A handful of high-
+probability successors stands against a sparse back-
+ground, which is the visual form of the local
+regularity that Indus analyses have described as
+grammar-like (Rao et al., 2009b). The panel’s cast
+explains its texture: the twelve most frequent signs
+comprise one deity, four seal terminals, two tallies,
+two epithets, two commodities, and a guild, and the
+four terminal columns carry only the smoother’s
+13
+--- PDF PAGE 14 ---
+background, since a terminal never takes a suc-
+cessor. In SIGILevery such preference has a
+named constructional source, from epithet licens-
+ing to tally attachment, and none of them involves
+a phonological value.
+1 2 3 4 5
+n-gram order
+30
+40
+50
+60
+70Perplexity
+Indus (published)
+SIGIL
+Figure 8: Witten-Bell perplexity under five-fold distinct-
+text evaluation, with fold variability as error bars. The
+large unigram-to-bigram drop reported for the Indus
+corpus also occurs in SIGIL; unlike the published Indus
+values, the SIGILcurve rises again beyond order two.
+Perplexity (Figure 8).Mean values by order
+are 64.223, 25.797, 28.592, 30.177, and 30.387,
+with fold standard deviations between 0.86 and
+1.77. The bigram gain faithfully captures strong
+local constraint, while higher orders find too few
+reusable contexts in short texts to improve the held-
+out score, so the curve turns gently upward where
+the published Indus sequence declines further and
+then flattens.
+SIGIL
+90%-mass
+Indus
+Published
+SIGIL
+T op-1
+0.0
+0.2
+0.4
+0.6
+0.8
+1.0Restoration accuracy
+85%
+74%
+25%
+Figure 9: Masked-sign restoration over 275,300 tri-
+als. The 90%-mass candidate criterion reaches 84.88%,
+rank-one accuracy reaches 24.84%, and the published
+Indus result for the 90%-mass criterion is 74%.
+Restoration (Figure 9).The distance between
+candidate-set accuracy and rank-one accuracy is
+part of the finding rather than a nuisance. A broad
+candidate set frequently contains the deleted sign
+even when the model rarely ranks it first, so the two
+scores describe different amounts of predictability,
+and only the broader one approaches the published
+headline number.
+0.6 0.8 1.0 1.2 1.4 1.6
+Ur = F2/log2 (Nd/Nu)
+100
+101
+102
+Cr = Nd/Nu + 7 Sd/Td
+Lee et al. threshold Cr ≥ 4.89: “writing”
+Letters Syllables Words
+SIGIL
+SIGIL shuffled
+i.i.d. Zipf
+Random
+English words
+Pictish I (Lee)
+Pictish II (Lee)
+7d6 Dice rolls (Sproat)
+Kudurru deity symbols:
+Cr = 8.0 (Sproat)
+Rigid control: Cr = 1.0 → “non-writing” (Ur undefined)
+Figure 10: The Lee decision plane. SIGILenters “writ-
+ing: syllables”; shuffled SIGILis also labeled writing, in
+the word subclass; the rigid control alone is non-writing,
+with Cr = 1 and Ur undefined. Published Pictish out-
+comes and earlier counterexamples appear for context.
+Classifier output (Figure 10).The rule first re-
+quires Cr ≥4.89 and then reads the subclass from
+Ur. SIGILhas Cr = 8.926 and Ur = 1.328 ,
+which places it above Sproat’s kudurru symbols
+at Cr = 8.0 and inside the syllabic band. The pub-
+lished anchors calibrate that placement: the two
+Pictish samples behind the original claim sit lower,
+at Cr of 5.92 and 6.11, and Sproat’s dice-roll se-
+quences reach Cr = 12.64 in the same syllabic
+band, so SIGILlies deeper inside the writing region
+than the corpora the plane was drawn to classify.
+The shuffled corpus passes as well, because the fea-
+tures preserve substantial unigram and length infor-
+mation, and contemporary critiques of the Pictish
+application anticipated this behavior (Liberman,
+2010). When a classifier labels an explicit non-
+language as writing, it demonstrates non-specificity
+for this comparison class about as directly as any-
+thing could.
+What the network null preserves.The two
+graph contrasts that follow share one null opera-
+tion, and what that operation holds fixed determines
+what the contrasts can mean. An edge joins two
+signs adjacent in semantic reading order, weighted
+14
+--- PDF PAGE 15 ---
+by the number of such adjacencies, and the graph
+retains its 51 self-loops. Each null draw indepen-
+dently permutes the signs inside every text, which
+preserves text lengths, the full unigram inventory,
+within-text repetition, and co-occurrence at the text
+level while destroying adjacency and direction. A
+large departure therefore locates order inside al-
+ready fixed text-level content, and nothing more;
+the test never compares the observed graph with
+other ordered emblem practices, which is the com-
+parison a linguistic conclusion would require.
+Reciprocity and connectance are also two sum-
+maries of that single operation rather than inde-
+pendent probes. Slot restrictions suppress many
+possible pairs while favoring a limited set of di-
+rected transitions, and shuffling spreads the same
+tokens across more neighboring pairs while creat-
+ing reverse edges, so both null values rise together.
+Treating the two contrasts as separate confirmations
+would double-count the information in the graph.
+0.1 0.2 0.3 0.4 0.5
+Edge reciprocity of the sign digraph
+0
+10
+20
+30
+40
+50
+60
+70
+80Density
+SIGIL observed
+R = 0.145  (z = −52.6)
+Indus R = 0.148
+(null 0.338 ± 0.007)
+Sinha et al.
+SIGIL null 0.467 ± 0.006
+Figure 11: Observed transition-graph reciprocity against
+100 stored within-text shuffles. The SIGILand published
+Indus observations both fall far below their respective
+shuffle distributions.
+Reciprocity (Figure 11).SIGILreciprocity is
+0.1449 against a null mean of 0.4669 with stan-
+dard deviation 0.0061, a departure of z=−52.57 .
+Directional slots and licensed successors produce
+the contrast. The published Indus comparison has
+the same shape: 0.148 observed against a shuf-
+fle mean of 0.338 with standard deviation 0.007,
+roughly 27 null standard deviations below its own
+null, and the figure plots both observations beside
+their stored distributions. Deity signs precede their
+licensed epithets and commodities precede their tal-
+lies, so most ordered pairs have no returning edge.
+The test is strong evidence against this particular
+within-text permutation and weak evidence about
+what generated the order it detects.
+SIGIL Null Indus
+(published)
+Null
+0.000
+0.005
+0.010
+0.015
+0.020
+0.025Connectance
+0.0183
+0.0264
+0.0077
+0.0110
+SIGIL null: dots; mean ± SD
+Figure 12: Observed transition-graph connectance
+against the same stored null draws. Only a small mi-
+nority of the possible ordered sign pairs occurs in either
+SIGILor the published Indus graph.
+Connectance (Figure 12).The 3,209 observed
+edges occupy 1.83% of the 4192 possible ordered
+pairs, against a null mean of 2.64%, while the pub-
+lished Indus values are 0.77% and 1.1%. Inventory
+size, short texts, and constrained slots all suppress
+the fraction of possible transitions that can ever be
+observed, in either corpus.
+Collocation and segmentation.Dunning’s statis-
+tic exceeds the source threshold of G2 = 10.83 for
+381 of the 3,209 observed bigram types, a count
+we leave descriptive because the source specifies
+no multiple-testing correction. The strongest pairs
+have direct constructional explanations: the deity
+Hare-Dawn followed by its licensed epithet Radi-
+ant scores 2,253, an order of magnitude above the
+next pairs at 310.7, 249.5, and 224.1, all of them
+deity-epithet combinations, with an opener-deity
+pair close behind at 217.2. A trigram version of
+the same statistic marks 498 of 5,687 observed tri-
+gram types as significant without correction, led by
+opener, deity, and epithet sequences. High colloca-
+tion scores identify selective combination without
+identifying the linguistic status of the units.
+The staged segmentation reconstruction starts
+from 1,441 distinct strings of length at least five,
+and the complete-text and frequent-combination
+stages segment 79.81% of them using 229 com-
+plete texts of length two, 465 of length three, and
+572 of length four, together with 57 frequent edge
+and 56 frequent middle combinations. The source
+15
+--- PDF PAGE 16 ---
+does not give a reproducible singleton-frequency
+cutoff, and every tested cutoff from 1 to 20 even-
+tually renders all strings segmentable, with even
+the strictest cutoff of 20 needing only 27 begin,
+5 end, and 62 middle singleton units, so we re-
+port the interval from 79.81% to 100% rather than
+selecting an endpoint. Related reconstructions of
+recursive segmentation, which splits each of the
+2,753 distinct texts at its weakest adjacent edge,
+and of shell-position entropy over ten positional
+bins are stored in the same contract as declared
+implementations of their underspecified sources.
+Unicity arithmetic.The cited calculation substi-
+tutes an effective inventory of 439 and an assumed
+redundancy of ρ= 0.7 into a unicity-distance for-
+mula, d=N/ρ , adapted from Shannon (1949),
+giving d= 627.1 , and the corpus of 13,717 tokens
+exceeds that distance almost 22 times over. The for-
+mula presupposes a plaintext and a cipher model,
+neither of which exists for SIGIL, and it uses nei-
+ther the observed text length distribution nor any
+recovered key. A corpus can therefore exceed the
+resulting distance while remaining non-linguistic,
+so the inequality cannot validate a reading on its
+own.
+Repetition.Sproat’s rule counts 438 instances
+in which a sign repeats somewhere within its text,
+of which 283 are adjacent, for a ratio of 0.646,
+well above the 0.10 boundary of the source’s non-
+linguistic class. Only 13% of SIGILtexts contain
+any repeat at all. English words produce the oppo-
+site arrangement: repeats occur in 57.3% of sam-
+pled texts, yet only 376 of 111,424 repeated in-
+stances are adjacent. The ratio therefore describes
+how repetition is arranged rather than how often it
+occurs, and SIGILsupplies known non-linguistic
+reasons for adjacency in deity emphasis, double
+portions, repeated epithet licenses, and tallies. A
+length-controlled reconstruction of the same rule,
+applied to 500 texts truncated to at most six signs,
+still yields a ratio of 0.815 with repeats in 9.8%
+of texts, so text length alone does not explain the
+classification.
+Position-cell residuals.A separate descriptive
+analysis tests initial, medial, and final occurrence
+counts for 418 signs, excluding tokens that con-
+stitute a complete inscription by themselves. The
+global statistic is χ2 = 17,700.23 on 834 degrees
+of freedom, and 117 of 1,254 cells remain signifi-
+cant after Bonferroni correction at a per-cell level
+of 3.99×10 −5, corresponding to a two-sided z
+cutoff of 4.11. The largest positive residual be-
+longs to a final terminal, and the other large cells
+contain openers and common role signs. The test
+correctly rejects positional independence; its resid-
+uals then recover the generator’s slot inventory, not
+a grammatical category system.
+Classifier ingredients.The Lee coordinates com-
+bine unigram diversity, bigram diversity, single-
+ton counts, and token totals, so order enters only
+through the number of distinct bigrams while much
+of the input survives shuffling. That is why shuffled
+SIGILmoves from the syllable to the word subclass
+but remains writing, why the i.i.d. Zipf-Mandelbrot
+control is labeled “writing: words,” and why the
+equiprobable control is labeled “writing: letters.”
+Only the rigid corpus falls below the writing thresh-
+old. Actual English word sequences, evaluated over
+the retained top-400 corpus, land at Cr = 83.9 and
+Ur = 0.852 and are therefore classified as letter
+writing, so even a genuine language receives the
+wrong subclass. The rule separates one narrow
+form of rigidity from several more varied processes;
+it does not separate linguistic from non-linguistic
+generation for this comparison class.
+Feature panel and mean PMI.Sproat’s compar-
+ative panel is reconstructed as a twelve-feature vec-
+tor. For SIGILit records Cr = 8.926, Ur = 1.328,
+a repetition ratio of 0.646, a maximum conditional
+entropy of 3.614 nats, and a mean pointwise mutual
+information of −5.87 bits over the six sign types
+that carry the top quarter of unigram mass. The
+original classification experiment remains blocked,
+because its exact linguistic corpora, feature matrix,
+split draws, and pruning path are not recoverable,
+so the panel is reported as a described vector, not a
+classification.
+Mutual information and directional diagnostics.
+The adjacent-sign mutual information is 2.114
+bits from 10,717 unsmoothed bigram tokens with
+boundaries excluded. Reconstructions of the recent
+sequence diagnostics give a directional Kullback-
+Leibler divergence of 2.518 bits at order two and
+1.238 bits at order three, forward against reversed
+conditional entropies of 3.878 and 4.272 bits at
+order two, and positional rigidity that is lowest in
+the second and third slots and rises toward the ends
+of longer texts. The registry also records a source
+conflict for the rigidity measure, whose published
+values exceed the range of its stated formula.
+16
+--- PDF PAGE 17 ---
+Degree, strength, and significant edges.The
+degree and strength distributions show the same
+role structure from another side. The largest in-
+degree is 129 and the largest out-degree 84, while
+127 signs, some 30% of the inventory, never follow
+another sign and only 13 never precede one. Under
+10,000 within-text permutations, 502 edges exceed
+a z score of 3 and 52 exceed 8, against published
+Indus counts of 377 and 31, and the strongest edge,
+a deity-epithet pair, reaches z= 40.4 . Selective
+combination is abundant; nothing in it identifies
+the combining units as linguistic.
+Frequency classes and inventory estimates.
+Fuls’s frequency-class regression fits SIGILwith
+a log-log slope of −1.06 and R2 = 0.947 over
+84 frequency classes, and the source’s extrapola-
+tion rule would assign 71.3% of the inventory to
+its syllabic or single-consonant band; the registry
+keeps the result descriptive because the typological
+calibration has no decision threshold. The three
+LNRE population estimates likewise resist inter-
+pretation: the rejected finite Zipf-Mandelbrot fit
+implies a population of only 699 signs, the rejected
+GIGP fit implies more than four million, and the
+plain model supplies none, so no estimate comes
+from an accepted model.
+Fitted frequency parameters.Goodness of fit
+alone discriminates little in this family. The full
+English word distribution fits the Zipf-Mandelbrot
+curve with b= 1.552 , c= 440.9 , and R2 =
+0.982, the truncated top-400 English corpus with
+b= 1.070 , c= 0.919 , and R2 = 0.997 , the in-
+dependent control with b= 1.686 , c= 6.06 , and
+R2 = 0.982, and SIGILwith b= 2.574 , c= 28.46 ,
+and R2 = 0.986. All four are excellent fits with
+very different parameters, produced by word use,
+truncation, independent sampling, and reinforced
+urns respectively. The paper therefore treats fitted
+parameters as description, not evidence.
+Restoration benchmarks.A long-distance
+restoration benchmark reaches a top-one hit rate
+of 0.25, a top-five rate of 0.61, and a top-ten rate
+of 0.67 with a mean reciprocal rank of 0.389
+over 100 evaluations, and a five-model panel over
+orders two through seven peaks near a top-one
+rate of 0.27 for start-position filling. Both are
+performance benchmarks in the registry rather than
+tests, because neither source defines a linguisticity
+rule over its scores.
+Estimator protocols.Several comparisons de-
+pend on declared caps that are easy to over-
+look. The Brown character and word streams are
+capped at 300,000 tokens for the block-entropy es-
+timates, the Lee coordinates for English words are
+computed over 269,711 contiguous runs holding
+604,501 tokens of the retained top-400 vocabulary,
+and the rigid and equiprobable controls reduce to
+identical frequency spectra for the LNRE fits be-
+cause both realize 400 types over 200,000 tokens.
+Restoration fold means on the 90%-mass criterion
+range from 83.6% to 85.8%, so the pooled 84.88%
+is stable across folds. Each of these choices is
+recorded beside its result in the released contract.
+Handedness controls.The terminal-asymmetry
+procedure behaves as designed on the controls,
+which is what the comparison needs. Raw English
+characters receive a significant ∆G of −0.175,
+correctly read as left-to-right, while the shuffled,
+i.i.d., and equiprobable controls show no signifi-
+cant asymmetry. English words receive a small
+positive ∆G of 0.031 that the source rule would
+read as right-to-left, a reminder that the method
+measures terminal concentration, for which physi-
+cal direction is only one possible cause.
+Null-draw bookkeeping.Every null compari-
+son in this appendix runs on stored draws rather
+than summary moments. The reciprocity and con-
+nectance nulls keep all 100 within-text permuta-
+tions at a fixed seed, the edge-score analysis keeps
+10,000, the n-gram maxima keep the ten draws
+their source used, and the handedness tests keep
+1,000 bootstrap and 1,000 shuffle draws apiece. A
+rerun of the boundary-distribution protocol at an in-
+dependent seed reproduces the null means to three
+decimal places.
+Analyses absent from this appendix.Ten reg-
+istry entries could not be reconstructed, and their
+absence is recorded, not repaired. The blocked en-
+tries lack, variously, a recoverable source corpus,
+published thresholds and tie rules, released code
+and hyperparameters, an archived feature matrix,
+or a site-level protocol. Two entries set the pattern:
+the CART comparison lacks its exact corpora, split
+draws, feature matrix, and pruning path, and the re-
+cent BiLSTM perturbation study releases no code,
+splits, or hyperparameters. Naming the gap keeps
+the census auditable and reopens the entry when
+the artifact becomes available, without letting an
+unreproducible method count either way.
+17
+--- PDF PAGE 18 ---
+Distinct held-out core-region
+texts (n=100)
+Distinct outpost texts
+(n=335)
+−20.0
+−17.5
+−15.0
+−12.5
+−10.0
+−7.5
+−5.0
+−2.5
+0.0
+log10  likelihood under core Markov model
+5% zero-likelihood
+Overall median 1.8e-08
+53% zero-likelihood
+Overall median 0
+Nonzero median
+2.6e-08
+Nonzero median
+1.2e-07
+Overall median ratio undefined: outpost median is zero
+Figure 13: Core-trained text likelihoods under the West Asia design, plotting only texts with nonzero likelihood; the
+black bars are nonzero medians. Overall medians, which include the zeros, are 1.85×10 −8 for held-out core strings
+and exactly zero for the outpost, with zero shares of 5.0% and 53.1%. Published Indus medians are 1.12×10 −7
+and6.4×10 −13.
+Outpost likelihood (Figure 13).Among nonzero
+scores the held-out median is 2.57×10 −8 and the
+outpost median is 1.18×10 −7, so restricting atten-
+tion to positive values would reverse the impression
+left by the overall medians. The complete distri-
+bution shows that the separation is driven almost
+entirely by unseen outpost events, as the declared
+regional mechanism predicts, and a reader given
+only a median ratio would never see that structure.
+1
+2
+3
+4
+5Conditional entropy after top-200 filtering (nats)
+English words (200 effective types)
+English characters (raw Brown ASCII) (78 effective types)
+Random (Max Ent) (200 effective types)
+Rigid (Min Ent) (194 effective types)
+Figure 14: Conditional entropy after top-200 filtering
+for the common-seed 27-cell sensitivity grid, which
+varies urn concentration, optional-slot probability, and
+epithet-license length. Reference lines show the fixed
+linguistic, random, and rigid comparisons at their own
+effective inventories.
+Entropy sensitivity (Figure 14).Across the grid,
+conditional entropy at k= 200 ranges from 3.195
+to 3.741 nats, and the central cell reproduces the
+canonical corpus text for text. The cells share a
+starting seed while parameter-dependent control
+flow makes their random streams diverge. We there-
+fore present the grid as a sensitivity display, and
+paired uncertainty claims would be inappropriate.
+1.10 1.15 1.20 1.25 1.30 1.35
+Ur
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+Cr
+“writing” region (Lee et al.)
+Figure 15: All 27 sensitivity configurations exceed the
+Lee writing threshold and fall inside its syllabic sub-
+class.
+Classifier sensitivity (Figure 15).Every config-
+uration is labeled “writing: syllables,” with Cr be-
+tween 7.78 and 11.16 and Ur between 1.183 and
+1.345. This is robustness within one constructed
+architecture, and we present it as exactly that rather
+than as validation of the classifier on an indepen-
+dent sample of emblem systems.
+18
+--- PDF PAGE 19 ---
+C Sequential Reconstruction Results
+Engine and budgets.The shared engine is deter-
+ministic end to end, and every budget is declared in
+the released contract. Candidate propagation uses a
+beam of width four over ten steps with at most six
+candidate values per sign, equality-pattern evidence
+comes from up to 192 short or repeated inscriptions
+whose signs number at most ten, candidate sets are
+capped at 256 entries, and one refinement pass re-
+visits up to 72 signs. Up to five segmentations are
+stored per text, and segmentation counts are enu-
+merated exactly under a cap of 109 that no text
+ever reaches. Four canonical deterministic starts,
+twenty random keys, six bootstrap resamples, and
+the grouped split are all seeded, so every number
+in this appendix can be regenerated bit for bit.
+Lexicon builds.The English lexicon is the
+pinned NLTK word list, retaining 196,943 forms
+of at most twelve letters with one-letter entries
+restricted. The Sanskrit lexicon is a pinned digiti-
+zation of the Monier-Williams dictionary (Monier-
+Williams, 1899): 194,015 eligible headwords yield
+164,943 exact SLP1 forms at the literal level, and
+the script protocol expands them to 2,664,046 finite
+forms through thirteen mechanical a-stem rules and
+two final sandhi alternants, with ten further suffix
+rules available only to the adaptive overlay. The
+Tamil lexicon holds 51,009 forms from the word-
+freq frequency list (Speer, 2022), with Tamil-script
+entries transliterated and folded through Akshara-
+mukha (Rajan, 2024). Every input is verified by
+content digest before use, and none supplies glosses
+to the search.
+Protocol nesting and hygiene.The three San-
+skrit protocol levels are verified strict subsets: ev-
+ery literal reading remains available at the script
+level, and every script reading at the adaptive level.
+All languages share the same equality regexes, in-
+tersection, beam propagation, complete segmen-
+tation, split rules, and budgets, and the Sanskrit-
+specific writing freedoms are never transferred to
+English or Tamil. The adaptive level may add up
+to 64 dictionary entries but in fact adds none; its
+eleven logged interventions are all downstream key
+revisions, and the held-out adaptive runs record no
+training-only additions of any kind. Duplicate iso-
+lation across the grouped split is checked explicitly,
+and SIGILsemantics are supplied to no stage of the
+search.
+Source constraints.The classification of this ex-
+periment as a source-constrained reconstruction
+rests on five recorded limitations of its source. The
+released Perl code processes manually written reg-
+ular expressions rather than generating them, its
+test corpus covers 32 sign headings rather than a
+complete signary, its search order is underspecified
+beyond illustrative short inscriptions and frequency
+guidance, its beam width, dead-end revision, tie
+rules, segmentation enumeration, and held-out eval-
+uation are absent, and its dictionary download is un-
+pinned with manually added auxiliary forms. Our
+implementation answers each gap with a declared
+choice, uses a pinned dictionary, and separates ev-
+ery adaptive addition into its own logged level, so
+nothing that the source leaves open is silently re-
+solved in a favorable direction.
+Search-space bookkeeping.The whole-word
+constraint stage generates 12,623 candidate values
+for English, 24,710 for literal Sanskrit, 28,264 at
+the script and adaptive levels, and 22,541 for Tamil.
+Each complete key table has 450 rows, one per
+registered identity, and the 31 identities unattested
+in the core corpus carry an explicit unresolved sta-
+tus, so no key ever reports more values than the
+corpus can support. Every table, split, and control
+is identified by content digest in the contract, and
+the published seeds cover the four deterministic
+starts, the twenty random keys, the six bootstrap re-
+samples, the grouped split, and both perturbed-text
+controls.
+Determinism and outputs.Each protocol stores
+its complete key table, the first forty provisional
+assignments in search order, a logged derivation
+trace, per-text segmentation-ambiguity arrays, the
+identifiers of its readable texts, and a SHA-256
+digest of the key itself. The controls receive the
+same treatment, with the twenty random keys and
+six bootstrap keys stored beside their own tables,
+so a control run can be audited exactly like the
+canonical one. Eight further digests pin the inputs,
+covering the decoder source, the lexicon builder,
+the raw dictionary and word-list downloads, the
+derived Tamil ranks, the portable corpus, the up-
+stream provenance, and the corpora artifact, and
+the release refuses mismatched inputs rather than
+warning about them. The decipherment experiment
+therefore cannot silently drift away from the corpus
+it claims to read, and any independent rerun can
+confirm agreement down to the byte rather than to
+a rounded percentage.
+19
+--- PDF PAGE 20 ---
+English Sanskrit T amil
+0
+20
+40
+60
+80
+100T exts readable (%)
+Source-style in-sample Grouped test Random-key mean
+Figure 16: Literal-protocol parse coverage for English, Sanskrit, and Tamil under one shared sequential decoder.
+Source-style values are in-sample over all 3,000 texts; grouped-test values are computed on the 454-text held-out
+partition after duplicate isolation; hatched bars show means over 20 random keys.
+Multilingual coverage (Figure 16).The three
+languages matter jointly, because they succeed on
+the same input. One corpus without phonological
+values admits high optimized coverage under three
+unrelated lexicons, which is only possible if the
+coverage statistic measures search freedom and lex-
+icon geometry alongside anything about the corpus.
+Grouped evaluation lowers every language, most
+sharply Sanskrit and Tamil, but a lower feasibility
+number is still a feasibility number: nothing in the
+decline converts coverage into identification. The
+English list contains 196,943 retained forms, the
+Sanskrit literal lexicon 164,943, and the Tamil list
+51,009.
+Where the freedom enters.The literal keys map
+the 419 attested sign identities into alphabets of 26
+English letters, 49 Sanskrit units, or 19 transliter-
+ated Tamil letters, so homophony is unavoidable
+everywhere and extensive in English and Tamil.
+Up to 192 short or repeated inscriptions contribute
+equality-pattern constraints. A sign value counts
+as resolved only when every applicable candidate
+set leaves a single non-conflicting intersection, a
+standard met by seven English values, one literal
+Sanskrit value, and no Tamil value; every other en-
+try in the released key tables is a provisional search
+hypothesis and is labeled as one.
+The search objective prefers, in order, more com-
+pletely readable texts, more tokens inside those
+texts, more mechanically analyzed forms, more
+independently attested forms, fewer relaxations,
+fewer dictionary additions, and fewer unresolved
+signs, with a deterministic tie break at the end.
+These priorities make every tie reproducible, and
+they also make the nature of the score explicit:
+the target is dictionary segmentation, and no term
+anywhere in the objective rewards recovery of the
+known SIGILmeaning.
+What the controls say.The random-key means
+in Figure 16 isolate the contribution of search.
+Two further controls hold the optimized literal key
+fixed and replace the texts instead. Within-text
+shuffles remain readable at 72.30% in English,
+86.03% in Sanskrit, and 47.27% in Tamil, and
+length-preserving i.i.d. unigram samples reach
+67.90%, 86.03%, and 39.33%. Because the key
+is never refitted, these values show how much of
+the Boolean segmentation rate is already explained
+by short texts, unigram concentration, and the lexi-
+cons themselves. They are diagnostics of the score,
+not alternative decipherments.
+The grouped split contains 2,115 training texts,
+431 validation texts, and 454 test texts, holding
+9,692, 1,930, and 2,095 tokens respectively, and
+exact duplicate strings never cross those partitions.
+Shared signs and shorter motifs remain available
+across the split, as they would in any corpus, so the
+grouped test probes transfer to unseen complete in-
+scriptions without pretending that their components
+are independent.
+Selected readings and traces.The contract
+stores four reading panels per language: up to 400
+20
+--- PDF PAGE 21 ---
+deterministically chosen medium-length texts of
+2,060 eligible, the fifty longest texts, the fifty short-
+est, and up to one hundred of the 256 ligature-
+bearing texts. Each row records the rendered string,
+its dictionary segmentation, alternative readings,
+and the true SIGILsemantic record, which is at-
+tached only after every key and parse is fixed. Flu-
+ent translation is marked unavailable throughout,
+because the pinned dictionary entries do not license
+a compositional rendering. The stored English
+derivation trace shows how the search actually pro-
+ceeds: its twelfth step assigns one deity sign the
+valueiwith an information gain of 14.1 bits, af-
+ter which 1,131 texts are readable, and two later
+logged steps raise that count to 1,515.
+Perturbed-text denominators.One denomina-
+tor subtlety deserves a note. The fixed-key shuffled
+and i.i.d. controls for the Sanskrit script and adap-
+tive protocols decompose the seventeen genuine
+ligatures into their components, so their token de-
+nominator is 13,981 rather than 13,717, while all
+text-level shares remain out of 3,000. The stored
+contract keeps both denominators explicit so that
+no percentage silently mixes the two.
+English and Tamil diagnostics.The diagnos-
+tics that Appendix E plots for Sanskrit exist for
+the other languages as well, computed from the
+stored per-text arrays. English readable texts admit
+a median of two dictionary segmentations with a
+maximum of 89, and 39.0% have a unique parse;
+Tamil readable texts have a median of one, a max-
+imum of 20, and 68.1% unique parses. The six
+bootstrap keys span full-corpus coverage from
+64.7% to 78.8% in English and from 50.3% to
+60.9% in Tamil, and the four deterministic starts
+return readable-text counts from 2,435 to 2,490
+in English and from 1,858 to 2,032 in Tamil with
+mean pairwise key agreement of 13.4% and 11.5%.
+Frequency-stratified agreement repeats the Sanskrit
+pattern: signs observed at most twice agree at 2.8%
+in English and 5.3% in Tamil, while signs observed
+at least twenty times agree at 39.2% and 34.2%.
+A reading in miniature.The shortest texts ex-
+pose the mechanics plainly. One single-sign in-
+scription, whose emblem is the deity Ibex-Flood, is
+read in Sanskrit as the bare seventh vowel, whose
+Monier-Williams entry is simply the name of that
+vowel, and in English as the one-letter wordi; both
+count as fully readable texts under complete seg-
+mentation. The panels mark every such reading’s
+fluent translation as unavailable, because the dic-
+tionary entries license no compositional rendering,
+and they attach the true administrative meaning
+only after the key is fixed. A reader can browse
+four hundred of these rows per language and watch
+high coverage coexist with arbitrary values sign by
+sign.
+Attested-form accounting.The in-sample coun-
+ters make visible where each protocol’s coverage
+comes from. Readable English texts contain 8,205
+independently attested dictionary forms and use
+no phonological relaxations at all, as the literal
+rules require. Literal Sanskrit contains 10,794 at-
+tested forms, again with no relaxations, and read-
+able Tamil texts hold 4,260 attested forms among
+9,422 decoded units under the same literal disci-
+pline. The script level contains 11,368 attested
+forms alongside 1,781 mechanically generated mor-
+phological analyses and 3,662 applications of the
+declared phonological freedoms, and the adaptive
+level raises those to 2,210 analyses and 4,626 re-
+laxation uses, while dictionary additions remain at
+zero everywhere. Unit totals give the same picture
+from above: literal Sanskrit decodes its readable
+texts into 11,946 units while the script and adaptive
+levels reach 13,551 and 13,588, so the relaxed pro-
+tocols admit roughly 1,600 additional units’ worth
+of texts, and the growth is carried by mechanical
+analyses and phonological freedoms rather than
+by newly attested vocabulary. On grouped valida-
+tion partitions, literal, script, and adaptive coverage
+reach 58.2%, 94.7%, and 96.1%, tracking the corre-
+sponding test values closely. The accounting shows
+that the relaxed protocols add ways to succeed with-
+out adding evidence.
+Two consistency checks round out the account-
+ing. In-sample token-level readable shares track
+the text-level shares within about a point, while the
+held-out literal profiles open gaps of up to five and
+a half points, so the contract reports both denom-
+inators wherever they differ. And validation and
+test coverage sit within three percentage points of
+each other at every Sanskrit level, evidence that
+the grouped protocol is not being tuned against
+its own test partition, while the much larger gap
+to the in-sample values isolates what full-corpus
+optimization contributes. Both checks can be re-
+computed from the stored per-text arrays alone,
+without rerunning any search or refitting any key,
+and the arrays are indexed by text identifier, so any
+single row can be spot checked directly.
+21
+--- PDF PAGE 22 ---
+Literal Script Adaptive
+50
+60
+70
+80
+90
+100Sanskrit-compatible texts (%)
+Source-style in-sample Grouped validation Grouped test
+Figure 17: Sanskrit coverage at the literal, script, and adaptive protocol levels, evaluated source-style in-sample and
+with a training-only key on the grouped validation and test partitions. The vertical axis begins at 45%.
+Protocol latitude (Figure 17).Literal held-out
+performance falls far below its in-sample value,
+and the script level closes most of that gap. The
+reason is capacity, not correctness: the script lex-
+icon contains 2,664,046 mechanically generated
+forms, and its declared writing freedoms multiply
+the realizations of every key. The adaptive level
+then adds only a small increment, contributing 11
+logged downstream key revisions and no dictio-
+nary additions. Keeping the levels separate locates
+where the coverage comes from instead of merging
+every freedom into a single headline number.
+Profile Coverage: in / test
+/ random
+Evidence:
+singleton /
+agreement
+English literal 83.00 / 74.23 /
+6.50
+7 / 11.33
+Sanskrit literal 88.13 / 61.01 /
+5.77
+1 / n.a.
+Sanskrit script 97.10 / 93.17 /
+27.87
+0 / 9.30
+Sanskrit adaptive 97.33 / 93.39 /
+27.87
+0 / n.a.
+Tamil literal 67.73 / 44.05 /
+9.48
+0 / 12.09
+Table 4: Sequential reconstruction outcomes. Random-
+key values are means over 20 draws. Bootstrap agree-
+ment is mean pairwise exact key agreement over six
+training resamples, reported for each language’s pri-
+mary stability protocol. All coverage and agreement
+entries are percentages.
+Table 4 separates three questions that a single
+coverage percentage would conflate. In-sample fea-
+sibility asks what an optimized key can fit, grouped-
+test feasibility asks what transfers to unseen inscrip-
+tion types, and the evidence columns ask whether
+particular sign values are identified at all. The three
+questions receive progressively weaker answers,
+and the weakest of them is the one a decipherment
+claim actually needs. The random-key column cali-
+brates each profile’s floor, which ranges from 5.8%
+to 27.9% as the protocols relax, and the agreement
+column shows that even the best-covering protocol
+identifies almost nothing at the level of individual
+signs.
+D The Literature Registry
+The registry search was defined before any scoring
+ran. Four declared query families across Crossref,
+Google Scholar, the ACL Anthology, and publisher
+full-text search, seven backward-citation seeds, and
+a forward-citation screen running to the close of
+the census delimit its contents. Its scope is peer-
+reviewed, language-independent corpus and se-
+quence analyses applied to an Indus corpus, with
+declared exclusions for methods that depend on
+archaeological metadata, glyph shapes, or an as-
+sumed reading, for proposed decipherments, and
+for work not peer reviewed by the census close.
+The method is the unit of entry, so a paper report-
+ing several formulas or decision rules contributes
+several entries, and the registry stores one status per
+method with its reason, retaining source-validation
+failures instead of discarding them.
+22
+--- PDF PAGE 23 ---
+Status Count Basis
+Exact scored 6 Reproduced Indus outcome and
+source decision rule
+Reconstruction 18 Consequential source details
+declared here
+Descriptive 14 Implemented quantity without a
+categorical rule
+Blocked 10 Required data, mapping,
+threshold, or target absent
+Out of scope 6 Does not test statistical
+language specificity
+Table 5: The complete status partition of the 54-method
+registry at the census close. Only the first row con-
+tributes to the exact comparison. The machine-readable
+contract enumerates every method with its citation, pro-
+tocol, and status rationale, together with source hashes
+where a public resource exists.
+Table 5 guards against two opposite forms of
+selective reporting at once. Weakly documented
+methods cannot silently enlarge the denominator,
+and methods that could not be scored cannot dis-
+appear from view. The qualified claim licensed by
+the registry is therefore “all exact source-validated
+outcomes in the registry,” never “all published anal-
+yses.”
+The entries span the families a reader of the de-
+bate would expect. The entropy and Markov anal-
+yses of Rao and colleagues (Rao et al., 2009a,b)
+appear beside the n-gram, positional, clustering,
+and restoration methods of Yadav and colleagues
+(Yadav et al., 2010, 2008a,b, 2017), the network
+and core analyses of Sinha and colleagues (Sinha
+et al., 2011; Ashraf and Sinha, 2012), the hand-
+edness procedure (Ashraf and Sinha, 2018), and
+the LNRE and positional tests of Oakes (2019).
+Sproat’s comparative feature panel and repetition
+ratio (Sproat, 2014), Fuls’s classification measures
+(Fuls, 2015), segmentation methods reaching back
+to Siromoney and Huq (1988), early syntactic as-
+sociation analyses (Koskenniemi, 1981), geolo-
+cation prediction (Recchia and Louwerse, 2016),
+restoration and West Asia models (Venkatesh and
+Farghaly, 2023b,a), dependency clustering (Ra-
+mani and Kishor, 2024), sign-function analyses
+(Khanna and Merriam, 2025), recent sequence mod-
+els (Tiwari, 2026), a contemporaneous synthetic-
+baseline preprint (Nair, 2026), and Farmer, Sproat,
+and Witzel’s corpus-level observations (Farmer
+et al., 2004) complete the census. Blocked en-
+tries typically lack public data or a defensible com-
+mon target, and the out-of-scope entries include
+methods defined only on other symbol corpora and
+methods that presuppose a sign reading. The se-
+quential Sanskrit proposal is not a registry entry,
+because the declared exclusions remove proposed
+decipherments and work not peer reviewed by the
+census close; it is evaluated separately through the
+source-constrained reconstruction of Section 5.3
+and Appendix C.
+2 3 4 5 6
+n-gram order
+0
+100
+200
+300
+400Maximum count
+SIGIL observed
+Shuffle mean
+Figure 18: Maximum n-gram counts against ten stored
+length-preserving within-text shuffles per order. The
+method is a declared reconstruction and does not enter
+the exact score.
+n-gram maxima (Figure 18).The most frequent
+observed bigram occurs 457 times against a shuffle
+mean of 109.3, and the trigram maximum is 52
+against 13.3. A difference persists at order four,
+the order-five maximum is unexceptional, and the
+order-six maximum sits just above its null. The
+ten stored draws match the source count exactly,
+and ten draws are also too few for precise tail infer-
+ence, which is one more reason this entry remains
+a reconstruction.
+0.0 0.2 0.4 0.6 0.8 1.0
+Normalized core threshold
+0.0
+0.2
+0.4
+0.6
+0.8
+1.0Share of signs retained
+SIGIL edges
+z > 3: 502
+z > 8: 52
+k-core
+s-core
+Figure 19: Undirected k-core and weighted s-core re-
+tention as the normalized threshold rises, with source-
+threshold edge counts from the reconstructed network
+null in the annotation.
+Network cores (Figure 19).Recursive pruning
+yields nested core sets, and the deepest nonempty
+23
+--- PDF PAGE 24 ---
+undirected k-core has threshold 23 while retain-
+ing 56 signs. Directed in- and out-core variants
+differ from each other because block order is direc-
+tional. Structures of this kind are expected wher-
+ever frequent role signs link into specialized tails,
+and SIGILcontains exactly such role signs by con-
+struction.
+−0.4 −0.3 −0.2 −0.1 0.0 0.1 0.2
+Normalized asymmetry (sign differs by metric)
+ΔS
+ΔG
+SIGIL, 95% BCa
+Indus source replication
+Figure 20: Terminal handedness. Circles and whiskers
+are SIGILpoint estimates with 95% BCa intervals; dia-
+monds are the reproduced Indus estimates. Both metrics
+consume the normalized spatial order.
+Handedness (Figure 20).For SIGIL, ∆G=
+0.091995 and ∆S=−0.291969 , and each two-
+sided randomization test gives p= 1/1001 . The
+stored 95% BCa intervals for both asymmetries
+exclude zero, as the source’s rule requires. The
+source rule infers a right-to-left convention, which
+is correct for the normalized corpus, so the proce-
+dure succeeds at the task it was built for. What
+the outcome demonstrates is that handedness and
+linguistic status are separate targets, and that only
+the first is being measured.
+GIGP finite ZM ZM
+0
+5
+10
+15
+20
+Goodness-of-fit −log10 p
+SIGIL
+Indus
+Figure 21: LNRE goodness-of-fit tests for SIGILand
+the reproduced Indus data, shown as −log 10 p with the
+dotted line atp= 0.05; taller bars mean poorer fit.
+LNRE models (Figure 21).The SciPy port re-
+produces the source’s Indus goodness-of-fit re-
+jections from the published frequency spectrum
+(Oakes, 2019), and all three models are rejected on
+SIGILas well. Poor fit to a single global lexical
+frequency law is unsurprising for an emblem inven-
+tory whose categories draw from separate urns and
+whose issue marks are bounded by quota, which is
+precisely the structure SIGILdeclares.
+E Sequential Diagnostics
+Literal Script Adaptive
+0
+20
+40
+60
+80
+100Full-corpus texts readable (%)
+88.1%
+97.1% 97.3%
+Figure 22: Full-corpus Sanskrit feasibility at the three
+protocol levels, with crosses giving random-key means
+under the same dictionaries and writing rules.
+Full-corpus readability (Figure 22).Literal,
+script, and adaptive coverage reach 88.13%,
+97.10%, and 97.33%, while the corresponding
+random-key means are 5.77%, 27.87%, and
+27.87%. Optimization clearly raises coverage, but
+the script-level random baseline nearly quintuples
+the literal one, which shows how much feasibility
+flows from the expanded form set before any search
+begins.
+The gaps between the optimized and random val-
+ues tell the sharper story. At the literal level, search
+lifts coverage from 5.77% to 88.13%, a factor of
+about fifteen, while at the script and adaptive levels
+the lift runs from 27.87% to 97.10% and 97.33%, a
+factor of about three and a half. The freer the repre-
+sentation, the less work optimization has left to do,
+because the expanded form set already parses over
+a quarter of the corpus under arbitrary sign values.
+The adaptive freedoms add nothing under random
+keys, so the script and adaptive baselines coincide
+at 27.87%, and the two optimized values differ by
+less than a quarter of a point. The panel therefore
+splits the headline coverage into what the lexicon
+grants for free, what the declared freedoms grant,
+and the remainder that search must earn.
+24
+--- PDF PAGE 25 ---
+Literal Script Adaptive
+50
+60
+70
+80
+90
+100T exts readable (%)
+Source-style in-sample
+Grouped train
+Grouped test
+Figure 23: Sanskrit source-style, grouped-training, and
+grouped-test coverage at each protocol level. The held-
+out key and any adaptive overlay are learned from train-
+ing groups only, and the vertical axis begins at 45%.
+Held-out behavior (Figure 23).Literal cover-
+age reaches 66.00% on training groups and 61.01%
+on test groups, against 88.13% under full-corpus
+optimization, while script-level values are 95.13%
+and 93.17% and adaptive values are 95.89% and
+93.39%. Duplicate isolation prevents exact in-
+scriptions from leaking across the split, although
+repeated substructures and frequent signs remain
+shared, as they would in any real corpus.
+1-2 3-5 6-19 20+
+Sign frequency
+0
+5
+10
+15
+20
+25
+30
+35
+40Exact key agreement (%)
+Bootstrap-pair mean
+Chance (1/49)
+Figure 24: Exact pairwise agreement among six Sanskrit
+script keys learned from grouped bootstrap samples,
+stratified by sign frequency. Open points are the fifteen
+key pairs; the line gives bin means; the dotted line marks
+the 1-in-49 chance rate.
+Key stability (Figure 24).Overall agreement is
+9.30%. The 187 rarest signs, each observed once or
+twice, agree at 1.64%, below the nominal chance
+rate of one in 49, and the 93 signs observed at least
+20 times agree at 34.19%. All six keys nevertheless
+parse more than 93.5% of the full corpus. Coverage
+is stable while the purported readings underneath it
+are not. That pattern indicates a weakly identified
+value system, not a recovered one.
+0 1 2 3 4
+Segmentation ambiguity, log10  count
+0.0
+0.2
+0.4
+0.6
+0.8
+1.0Empirical cumulative share
+Literal
+Script
+Adaptive
+Figure 25: Empirical cumulative distributions of San-
+skrit segmentation counts over each protocol’s readable
+texts, with counts floored at one before the logarithm.
+Ambiguity (Figure 25).Readable strings often
+admit several dictionary segmentations at once.
+The literal protocol stays modest, with a median
+of one segmentation per readable text and a maxi-
+mum of six, while the script and adaptive protocols
+reach medians of 32 and 36 and maxima of 17,280
+and 21,600; the enumeration cap of 109 is never
+approached. Each protocol has a unique best run
+within the three-text tolerance, yet the four deter-
+ministic starts return four different keys, with mean
+pairwise agreement of 12.33% for literal, 12.23%
+for script, and 13.06% for adaptive. A determin-
+istic winner does not make the value system well
+identified.
+literal
+dental retro
+flex
+aspirationsibilants
+vowel length
+geminateinherent a
+morphology sandhi
+ligature decomposition
+85.0
+87.5
+90.0
+92.5
+95.0
+97.5
+100.0Fixed-key feasible texts (%)
+Figure 26: Cumulative fixed-key Sanskrit feasibility as
+script freedoms are added in the declared order, starting
+from the fixed-key literal baseline of 85.73%. The final
+stage admits optional decomposition of the 17 genuine
+SIGILligatures.
+Relaxation ablation (Figure 26).Dental-
+retroflex, aspiration, sibilant, vowel-length, and
+geminate handling together move fixed-key cov-
+erage from 85.73% to 87.97%. Optional inherent
+25
+--- PDF PAGE 26 ---
+acontributes the single largest step, reaching
+94.03%, mechanical morphology and sandhi reach
+96.87%, and optional ligature decomposition ends
+at 97.27%. Because the key never changes across
+the ladder, the ablation isolates representational
+latitude from search, and it attributes most of the
+script-level gain to the representation.
+One definitional detail belongs on the record.
+The ladder’s final stage counts a text as feasi-
+ble if either its written or its decomposed form
+parses, reaching 2,918 texts, while the script proto-
+col’s headline counts decomposed views alone and
+reaches 2,913; the contract stores both numbers un-
+der separate keys so the two definitions cannot be
+conflated. The same care applies to the fixed-key
+literal baseline of 85.73%, which sits below the
+searched literal result of 88.13% because no key
+optimization is permitted inside the ablation.
+Semantic recovery.The contract stores the
+semantic-recovery outcome as a blocked method,
+with no score and no synthetic permutation null.
+Monier-Williams definitions are heterogeneous
+prose, while SIGILmeanings are structured records
+of deities, offices, goods, tallies, and validation,
+and no predeclared ontology links the two domains.
+Deciding after the fact which dictionary senses cor-
+respond to which administrative roles would manu-
+facture the very target being tested, so the contract
+marks the method blocked and states the reason
+rather than reporting a favorable or unfavorable
+number.
+F The Complete Signary
+The signary is an invention; the functions it bun-
+dles are not. Each category does work that the
+archaeological record attests for Bronze Age seals
+and emblems, so a polity of that age could have
+operated a system of this shape without encoding a
+word of speech. The registry holds 450 immutable
+identities: 6 openers, 242 deities, 60 epithets, 48
+guilds, 4 ranks, 40 commodities, 8 tallies, 20 is-
+sue marks, 5 terminals, and 17 ligatures, the deity
+count including the two outpost cults.
+The devotional face follows Near Eastern seal
+practice, where a legend names a patron deity, may
+attach an epithet, and identifies the owner by ser-
+vice or office (Collon, 1987). The six openers name
+auspicious occasions in the manner of dedicatory
+formulae, deities pair an animal or natural em-
+blem with a celestial or elemental term, and the
+60 epithets are single honorifics whose weighted
+licenses attach to 241 of the 242 deities, so recur-
+ring deity and epithet pairs follow from the licenses.
+Readings of Indus inscriptions as formulaic, non-
+phonological conveyance of meaning describe a
+system of exactly this kind (Mukhopadhyay, 2019).
+The economic face is archaic bookkeeping.
+Proto-cuneiform accounts pair commodity signs
+with discrete numeral notations (Englund, 2011),
+and Mesopotamian sealing bound such transac-
+tions to officeholders inside institutional hierar-
+chies (Zettler, 1987). Here, 40 commodities take
+one of 8 tallies counting one through eight, and 48
+guilds take one of 4 ranks; a brickmaker of rank
+one entitled to one measure of a numbered good
+is a routine text, and the kind of record a sealing
+archive exists to keep.
+The control face has narrower analogues. Late
+Bronze Age Anatolian pot marks form small
+bounded repertoires tied to administrative control
+(Glatz, 2012), and the 20 issue marks work the
+same way, four regions crossed with five rounds
+under bounded service quotas. The five terminals
+condense the validating act of sealing itself (Zettler,
+1987). Harappan seals differ by region within one
+interacting world (Ameri, 2013), and the four core
+regions likewise carry their own patrons and slot
+conventions, while the outpost follows the Gulf
+pattern of transplanted sealing practice mixing in-
+herited and local elements (Laursen, 2010), shared
+deities beside two local cults.
+None of this grounding enters the statistics. Ev-
+ery identity carries an integer ID, a category, and
+a display gloss, sealed after generation, and the
+renderer derives each glyph from category and ID
+alone, so no gloss or cosmetic stroke can change
+any analysis. Of the registered signs, 419 occur in
+the core corpus and 166 at the outpost; 268 types
+are core-only and 15 outpost-only, twelve of them
+deities including the cults, and sixteen epithets are
+never realized at all, differences the regional like-
+lihood experiment measures rather than collapses.
+The plate that follows is read cell by cell, glyph
+above gloss under a category heading with its count,
+and 434 of the 450 identities are attested across the
+two corpora. Glyph construction follows a fixed
+grammar, one silhouette family per category with
+strokes varied by identity number, and two com-
+plete rebuilds of the pipeline produce byte-identical
+plates. The plate lists the categories in slot order,
+openers first and ligatures last, so its headings re-
+trace the template of a text.
+26
+--- PDF PAGE 27 ---
+OPEN  ·  Openers (6)
+AUSPICE
+SUNRISE
+AUSPICE
+FULL
+MOON
+AUSPICE
+HIGH
+WATER
+AUSPICE
+NEW- YEAR
+AUSPICE
+HARVEST
+AUSPICE
+KILN
+FIRE
+DEITY  ·  Deities (240)
+HARE
+DAWN
+TORTOISE
+FLOOD
+ELEPHANT
+STAR
+IBEX
+FLOOD
+OWL-SUN TIGER
+RIVER
+IBEX
+STAR
+SCORPION
+DAWN
+BULL
+MOUNTAIN
+PEACOCK
+HEARTH
+BOAR
+RAIN
+TIGER
+FLOOD
+ANTELOPE
+DAWN
+OWL
+RIVER
+BULL
+WIND
+CATFISH
+RIVER
+ZEBU
+DAWN
+CRANE
+GRANARY
+GHARIAL
+MOON
+SERPENT
+MOUNTAIN
+RAM
+FLOOD
+TORTOISE
+WIND
+FALCON
+GRANARY
+ANTELOPE
+STORM
+HERON
+MOON
+ELEPHANT
+HEARTH
+HERON
+SUN
+IBEX
+WIND
+ZEBU
+FLOOD
+BOAR-SUN OWL
+STORM
+PEACOCK
+WIND
+CATFISH
+WIND
+HARE
+HEARTH
+TIGER
+WIND
+TIGER
+SUN
+ANTELOPE
+STAR
+CATFISH
+RAIN
+TIGER
+HEARTH
+ELEPHANT
+RAIN
+ELEPHANT
+FLOOD
+CATFISH
+DAWN
+SCORPION
+RAIN
+FALCON
+MOON
+CATFISH
+HEARTH
+PEACOCK
+SUN
+TORTOISE
+HEARTH
+CATFISH
+MOON
+PEACOCK
+GRANARY
+CATFISH
+STORM
+HERON
+HEARTH
+SERPENT
+FLOOD
+TIGER
+MOUNTAIN
+BUFFALO
+RAIN
+OWL-RAIN HARE-SUN BOAR
+MOON
+PEACOCK
+FLOOD
+CRANE
+HEARTH
+SCORPION
+GRANARY
+OWL-MOON CRANE
+SUN
+ZEBU
+STORM
+TORTOISE
+GRANARY
+SCORPION
+RIVER
+ZEBU
+HEARTH
+BUFFALO
+WIND
+ZEBU
+MOUNTAIN
+HARE
+STORM
+OWL-WIND FALCON
+RIVER
+OWL
+FLOOD
+RAM-STAR GHARIAL
+MOUNTAIN
+BUFFALO
+MOON
+BUFFALO
+STORM
+TORTOISE
+SUN
+ANTELOPE
+MOON
+TORTOISE
+RAIN
+BUFFALO
+SUN
+BULL
+RIVER
+BULL
+GRANARY
+HARE
+RIVER
+SERPENT
+RIVER
+CRANE
+FLOOD
+TORTOISE
+STAR
+ZEBU
+MOON
+ELEPHANT
+RIVER
+FALCON
+FLOOD
+BULL
+FLOOD
+BOAR
+FLOOD
+BOAR
+STAR
+IBEX
+RIVER
+HERON
+MOUNTAIN
+ZEBU
+STAR
+PEACOCK
+DAWN
+HERON
+STAR
+CRANE
+MOON
+SCORPION
+WIND
+BOAR
+WIND
+SERPENT
+MOON
+IBEX
+RAIN
+ZEBU
+RAIN
+HARE
+MOON
+SCORPION
+HEARTH
+TIGER
+MOON
+ELEPHANT
+WIND
+ELEPHANT
+DAWN
+RAM
+RIVER
+TORTOISE
+MOON
+PEACOCK
+RIVER
+HARE
+FLOOD
+BUFFALO
+FLOOD
+FALCON
+SUN
+OWL
+GRANARY
+HARE
+STAR
+BULL
+DAWN
+ANTELOPE
+HEARTH
+GHARIAL
+RAIN
+SCORPION
+FLOOD
+BUFFALO
+RIVER
+PEACOCK
+STORM
+TIGER
+GRANARY
+SCORPION
+STAR
+OWL-DAWN ANTELOPE
+FLOOD
+ELEPHANT
+STORM
+GHARIAL
+HEARTH
+ELEPHANT
+MOUNTAIN
+PEACOCK
+STAR
+HERON
+DAWN
+SCORPION
+MOON
+HERON
+FLOOD
+BULL
+STAR
+GHARIAL
+WIND
+IBEX
+DAWN
+FALCON
+WIND
+ZEBU
+WIND
+BOAR
+MOUNTAIN
+ELEPHANT
+SUN
+ANTELOPE
+WIND
+CATFISH
+FLOOD
+ZEBU-SUN OWL
+HEARTH
+BOAR
+DAWN
+SERPENT
+DAWN
+ANTELOPE
+RAIN
+SERPENT
+SUN
+HERON
+GRANARY
+TORTOISE
+DAWN
+ANTELOPE
+GRANARY
+ZEBU
+RIVER
+CATFISH
+MOUNTAIN
+BULL
+MOON
+FALCON
+RAIN
+GHARIAL
+GRANARY
+HERON
+STORM
+IBEX
+MOUNTAIN
+BULL
+STORM
+PEACOCK
+MOUNTAIN
+ELEPHANT
+GRANARY
+SERPENT
+STORM
+TIGER
+RAIN
+IBEX
+MOON
+TORTOISE
+STORM
+BUFFALO
+GRANARY
+BOAR
+GRANARY
+HERON
+RIVER
+GHARIAL
+STAR
+RAM
+HEARTH
+SCORPION
+MOUNTAIN
+CATFISH
+SUN
+HARE
+GRANARY
+RAM-WIND GHARIAL
+FLOOD
+FALCON
+DAWN
+ANTELOPE
+SUN
+HERON
+WIND
+FALCON
+HEARTH
+HARE
+RAIN
+CRANE
+RIVER
+IBEX-SUN TIGER
+DAWN
+ANTELOPE
+MOUNTAIN
+CRANE
+STORM
+ANTELOPE
+RIVER
+TIGER
+STAR
+GHARIAL
+SUN
+TIGER
+STORM
+SCORPION
+STORM
+BULL-SUN GHARIAL
+DAWN
+CRANE
+MOUNTAIN
+BULL
+RAIN
+FALCON
+MOUNTAIN
+CRANE
+WIND
+CRANE
+STAR
+BOAR
+RIVER
+PEACOCK
+RAIN
+GHARIAL
+STORM
+HARE
+MOUNTAIN
+CRANE
+DAWN
+GHARIAL
+RIVER
+TORTOISE
+MOUNTAIN
+SERPENT
+STAR
+RAM
+STORM
+RAM
+GRANARY
+BUFFALO
+DAWN
+ELEPHANT
+MOON
+FALCON
+STORM
+RAM-RAIN CATFISH
+STAR
+BUFFALO
+HEARTH
+CATFISH
+GRANARY
+TORTOISE
+RIVER
+RAM-MOON
+SERPENT
+HEARTH
+RAM
+MOUNTAIN
+RAM-SUN BUFFALO
+MOUNTAIN
+IBEX
+HEARTH
+OWL-STAR SERPENT
+GRANARY
+IBEX
+STORM
+FALCON
+STAR
+HARE
+WIND
+OWL
+MOUNTAIN
+RAM-DAWN PEACOCK
+MOON
+BULL
+HEARTH
+SCORPION
+SUN
+IBEX
+GRANARY
+CRANE
+RAIN
+SERPENT
+WIND
+SERPENT
+RAIN
+BOAR
+STORM
+HERON
+RAIN
+BUFFALO
+STAR
+BOAR
+HEARTH
+ZEBU
+GRANARY
+DEITY  ·  Outpost cults (2)
+GULF
+STAR
+(outpost
+cult)
+TWIN
+PROWS
+(outpost
+cult)
+EPITHET  ·  Epithets (60)
+RADIANT RIVERBORN HORNED FIRSTBORN GREAT SILENT TWICE
+CROWNED
+OF-THE-FORD GOLDEN WAKEFUL VEILED OF-THE-KILN STEADFAST YOUNG ANCIENT OF-THE-GATE BRIGHT DARK OF-THE
+HARVEST
+MERCIFUL
+TERRIBLE OF-THE-DEEP CROWNED SWIFT STILL OF-THE-ROAD UNBOUND SEVENFOLD OF-THE-WALL LISTENING EPITHET-31 EPITHET-32 EPITHET-33 EPITHET-34 EPITHET-35 EPITHET-36 EPITHET-37 EPITHET-38 EPITHET-39 EPITHET-40
+EPITHET-41 EPITHET-42 EPITHET-43 EPITHET-44 EPITHET-45 EPITHET-46 EPITHET-47 EPITHET-48 EPITHET-49 EPITHET-50 EPITHET-51 EPITHET-52 EPITHET-53 EPITHET-54 EPITHET-55 EPITHET-56 EPITHET-57 EPITHET-58 EPITHET-59 EPITHET-60
+GUILD  ·  Guilds (48)
+POTTER WEAVER COPPERSMITH BEAD-MAKER BOATWRIGHT GRAIN-FACTOR SEAL-CUTTER MASON DYER FOWLER SAL T-TRADER SHELL-WORKER CARTER BRICKMAKER TANNER FISHER
+HERDSMAN IVORY -CARVER OIL-PRESSER ARCHIVIST WATER-WARDEN CARAVANEER SMEL TER GEM-CUTTER GUILD-25 GUILD-26 GUILD-27 GUILD-28 GUILD-29 GUILD-30 GUILD-31 GUILD-32
+GUILD-33 GUILD-34 GUILD-35 GUILD-36 GUILD-37 GUILD-38 GUILD-39 GUILD-40 GUILD-41 GUILD-42 GUILD-43 GUILD-44 GUILD-45 GUILD-46 GUILD-47 GUILD-48
+RANK  ·  Ranks (4)
+RANK -1 RANK -2 RANK -3 RANK -4
+COMM  ·  Commodities (40)
+GRAIN COPPER CATTLE CLOTH FISH OIL BEADS TIMBER SAL T BARLEY SHELL LAPIS WOOL DATES IVORY TIN CARNELIAN HONEY HIDES SESAME
+MILLET REEDS SIL VER SLAVES GOATS POTS BITUMEN INCENSE CHERT GOLD GOOD-31 GOOD-32 GOOD-33 GOOD-34 GOOD-35 GOOD-36 GOOD-37 GOOD-38 GOOD-39 GOOD-40
+TALLY  ·  Tallies (8)
+TALL Y -1 TALL Y -2 TALL Y -3 TALL Y -4 TALL Y -5 TALL Y -6 TALL Y -7 TALL Y -8
+ISSUE  ·  Administrative issue marks (20)
+REGION-1
+FLOOD_ASSESSMENT
+REGION-1
+SOWING_ALLOCATION
+REGION-1
+HARVEST_RECEIPT
+REGION-1
+DRY_SEASON_REDIST
+RIBUTION
+REGION-1
+YEAR_CLOSE
+REGION-2
+FLOOD_ASSESSMENT
+REGION-2
+SOWING_ALLOCATION
+REGION-2
+HARVEST_RECEIPT
+REGION-2
+DRY_SEASON_REDIST
+RIBUTION
+REGION-2
+YEAR_CLOSE
+REGION-3
+FLOOD_ASSESSMENT
+REGION-3
+SOWING_ALLOCATION
+REGION-3
+HARVEST_RECEIPT
+REGION-3
+DRY_SEASON_REDIST
+RIBUTION
+REGION-3
+YEAR_CLOSE
+REGION-4
+FLOOD_ASSESSMENT
+REGION-4
+SOWING_ALLOCATION
+REGION-4
+HARVEST_RECEIPT
+REGION-4
+DRY_SEASON_REDIST
+RIBUTION
+REGION-4
+YEAR_CLOSE
+TERM  ·  Seal terminals (5)
+SEAL-CUP SEAL
+KNOT
+SEAL
+LAMP
+SEAL
+LADDER
+SEAL-EYE
+LIG  ·  Ligatures (17)
+AUSPICE
+SUNRISE⁀HARE
+DAWN
+HARE
+DAWN⁀RADIANT
+GRAIN⁀TALL Y
+1
+TALL Y -1⁀SEAL
+EYE
+TALL Y -1⁀SEAL
+CUP
+CLOTH⁀TALL Y
+1
+SESAME⁀TALL Y
+1
+TALL Y -1⁀SEAL
+LADDER
+RADIANT
+MASON
+MASON⁀RANK -1 IVORY⁀TALL Y
+1
+TALL Y -1⁀SEAL
+LAMP
+IVORY⁀IVORY TALL Y -1⁀SEAL
+KNOT
+HONEY⁀TALL Y
+1
+IVORY⁀TALL Y
+2
+DATES⁀TALL Y
+1
+Figure 27: All 450 registered SIGILidentities. Category headings and glosses state the constructed function of every
+emblem.
+27
+--- PDF PAGE 28 ---
+Overview (Figure 27).The full chart doubles
+as an inventory check and as a picture of the un-
+equal category sizes. Deities dominate the type
+count while a small set of terminals and tallies
+contributes a large share of recurring tokens, and
+that type-token imbalance is a direct source of both
+the long frequency tail and the positional concen-
+tration measured earlier. The inventory also sits
+where an excavated one would: 419 attested types
+among 450 registered identities, beside the 377 at-
+tested among 417 catalogued for the Indus corpus
+the statistics reproduce (Mahadevan, 1977). No
+shape was modeled on an Indus sign, and no shape
+influenced any statistical result.
+The pantheon.Shared deity identities combine
+animal and celestial glosses. The regional patron
+assignments emerge from the same finite urn that
+generates the rest of the pantheon, with two distinct
+deities serving the four core regions, while the two
+outpost patrons are registered before corpus genera-
+tion. Weighted epithet licenses give licensed deities
+their own collocational neighborhoods, much as
+cylinder-seal legends give a deity its recurring ti-
+tles (Collon, 1987). The strongest collocation in
+the corpus, Hare-Dawn followed by its licensed ep-
+ithet Radiant, comes directly from this mechanism,
+with a Dunning score of 2,253 against 310.7 for the
+next pair.
+Administrative roles.The remaining categories
+complete the explicit compositional vocabulary.
+Guilds can take ranks, commodities can take tal-
+lies, issue marks have bounded service lives, ter-
+minals validate an artifact, and ligatures fuse pairs
+that were already meaningful, so every statistical
+regularity in the corpus can be traced to a rela-
+tion visible on the plate. The five terminals alone
+close 2,126 core texts, and the eight tallies attach
+to commodity entries throughout the ledgers. The
+pairings mirror their archaeological models: an ar-
+chaic ledger entry couples a commodity sign with a
+count (Englund, 2011), and a sealing ties an office-
+holder’s mark to the transaction it validates (Zettler,
+1987).
+The vocabulary behind those relations is con-
+crete. The six openers name auspicious occasions,
+glossed sunrise, full moon, harvest, high water, kiln
+fire, and new year, and the five terminals read as
+seal emblems, glossed eye, cup, knot, ladder, and
+lamp. Thirty of the forty commodities carry named
+glosses such as barley, ivory, lapis, and copper,
+while ten generic goods numbered 31 through 40
+fill out the ledger vocabulary.
+The seventeen ligatures are the only identities
+whose glyphs contain other glyphs, and composite
+signs of just this sort are a fixture of the Indus sign
+lists themselves (Mahadevan, 1977; Parpola, 1994).
+Seven fuse a commodity with its tally and five fuse
+a tally with a terminal, so most fusions live at the
+ledger end of a text. One joins two commodities,
+and the remaining four pair an opener with a deity,
+a deity with an epithet, an epithet with a guild, and
+a guild with a rank. Every fusion registers a pair
+that had already recurred as adjacent signs in the
+early corpus, and ligature tokens appear 264 times
+among the 13,717 core tokens, enough to matter for
+segmentation while leaving the component signs in
+ordinary use.
+The office vocabulary follows the same pattern
+of named and numbered identities. Half of the 48
+guilds carry trade glosses, among them potter, ma-
+son, weaver, smelter, archivist, and water warden,
+while the other 24 are numbered guilds, and the
+four ranks grade an office within whichever guild
+sign they follow. The twenty issue marks cross the
+four core regions with five administrative rounds,
+glossed sowing allocation, flood assessment, har-
+vest receipt, dry season redistribution, and year
+close, so each mark names a place and an occasion
+at once. Their bounded service quotas cap how
+often any mark can be stamped, 157 uses in all,
+which makes them the designed source of the cor-
+pus’s excess rare types rather than an accident of
+sampling.
+The two outpost cults, Gulf-Star and Twin-
+Prows, occupy their own block of the deity sec-
+tion. They appear only in outpost texts, where
+Gulf-Star contributes 77 tokens and Twin-Prows
+94, and one or both stand on 168 of the 350 out-
+post artifacts. These cults, together with the other
+outpost-only deities and epithets, are the unseen
+events behind the zero medians of the regional like-
+lihood experiment: a core-trained model has simply
+never observed the emblems that carry much of the
+outpost’s devotional traffic.
+The plate also gives the decipherment appen-
+dices their concrete referents. When the Sanskrit
+decoder reads a brickmaker’s tally seal as a run of
+Monier-Williams headwords, or the pinned Tamil
+word list segments a potter’s ledger, the emblems
+being read are the identities charted here, and a
+reader can set any proposed reading beside the cat-
+egory heading that states what the sign was built to
+do inside the invented polity.
+28

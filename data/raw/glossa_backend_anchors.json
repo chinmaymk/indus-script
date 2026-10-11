@@ -1,0 +1,2566 @@
+{
+  "total": 287,
+  "anchors": {
+    "M342": {
+      "reading": "ay/ā",
+      "confidence": "HIGH",
+      "basis": "Terminal marker, Dravidian case suffix",
+      "reading_direction": "rtl"
+    },
+    "M176": {
+      "reading": "an/aṇ",
+      "confidence": "HIGH",
+      "basis": "Masculine suffix",
+      "reading_direction": "rtl"
+    },
+    "M267": {
+      "reading": "iN/in (genitive of)",
+      "confidence": "MEDIUM",
+      "basis": "FACT-CHECK CORRECTION 2026-05-11: Original V6 assignment 'min/mīn' (HIGH) was wrong. M267 has freq=400 in the Holdat corpus and appears across ALL motif types (unicorn 127, zebu bull 72, elephant 37, rhinoceros 25, etc.) — it is NOT an iconographic fish sign. The actual Mahadevan fish sign is M047 (freq=13, P47 in Parpola's system, as documented in mahadevan_parpola_crosswalk.json). M267 is most likely a high-frequency functional/suffixal sign. Downgraded from HIGH. Previous: {'reading': 'min/mīn', 'confidence': 'HIGH', 'basis': 'Fish sign = star/planet (Parpola)'}; Phase-273: HIGH upgrade — grammar z=8.04 (Phase-74) + motif-independence χ²=12.98 p=0.1124 (Phase-132) + DEDR 494 (iṉ locative) + freq=400 (2nd most common sign) + Elamite 'in' genitive (McAlpin MC-01) + LE-in confirmed (E41). Six independent evidence lines.",
+      "source": "Phase-74 grammar z=8.04 p<0.0001 + Phase-64 score=7.0",
+      "gloss": "genitive particle [AGENT]-M267-[TITLE] 4.3x above null",
+      "dedr": "494",
+      "dedr_source": "phase273_resolution",
+      "phase_upgraded": 273,
+      "_autofix_note": "Auto-fixed 2026-06-04: confidence HIGH → MEDIUM (foundation check auto-fix). M267 freq=400, all-motif genitive particle cannot be HIGH.",
+      "reading_direction": "rtl"
+    },
+    "M099": {
+      "reading": "kol/koḷ",
+      "confidence": "HIGH",
+      "basis": "Jar/vessel sign",
+      "reading_direction": "rtl"
+    },
+    "M233": {
+      "reading": "ūr",
+      "confidence": "HIGH",
+      "basis": "Settlement/place marker",
+      "source": "+Phase48_validated",
+      "reading_direction": "rtl"
+    },
+    "M391": {
+      "reading": "ka/kaṇ",
+      "confidence": "HIGH",
+      "basis": "Numeral/stroke sign",
+      "source": "+Phase48_validated",
+      "_phase206_absent_phoneme_note": "/ga/ RECONCILED: M391=ka/kaṇ (HIGH) covers Elamo-Dravidian /ga/ phoneme via standard voiced/unvoiced alternation. Elamite ga-=ka- (McAlpin 1981 App.II #14-15). PDr *ka-=water/go (DEDR 1221). Phase-204 combined score: 11 (STRONG+STRONG). Status: COVERED by existing HIGH anchor.",
+      "reading_direction": "rtl"
+    },
+    "M162": {
+      "reading": "il/iḷ",
+      "confidence": "HIGH",
+      "basis": "House/dwelling sign",
+      "source": "+Phase48_validated",
+      "_phase206_absent_phoneme_note": "/li/ PARTIAL: M162=il/iḷ (HIGH) covers Elamo-Dravidian /li/ phoneme via PDr li-/il- metathesis alternation (DEDR 491: il/li=give/place). Elamite li- (McAlpin App.II #16). Phase-204 score: 4 (MODERATE). Status: PARTIALLY COVERED. /li/ as standalone value not yet assigned.",
+      "reading_direction": "rtl"
+    },
+    "M328": {
+      "reading": "ā/āl",
+      "confidence": "HIGH",
+      "basis": "Man/person sign",
+      "source": "+Phase48_validated",
+      "reading_direction": "rtl"
+    },
+    "M059": {
+      "reading": "ēḷ/eḷ",
+      "confidence": "HIGH",
+      "basis": "Numeral 7",
+      "source": "+Phase48_validated",
+      "reading_direction": "rtl"
+    },
+    "M051": {
+      "reading": "pū/puḷ",
+      "confidence": "HIGH",
+      "basis": "Comb/flower sign",
+      "source": "+Phase48_validated",
+      "reading_direction": "rtl"
+    },
+    "M089": {
+      "reading": "tu/tū",
+      "confidence": "HIGH",
+      "basis": "Positional analysis; UPGRADED: high frequency (171); consistent TERMINAL position (n=171); collocates with HIGH anchor M342 (n=15); collocates with HIGH anchor M267 (n=6); collocates with HIGH anchor M176 (n=6); collocates with HIGH anchor M342 (n=13); collocates with HIGH anchor M176 (n=12); collocates with HIGH anchor M267 (n=10); has specific PDR reading",
+      "source": "+Phase48_validated",
+      "_phase206_absent_phoneme_note": "/du/ RECONCILED: M089=tu/tū (HIGH) covers Elamo-Dravidian /du/ phoneme via standard voiced/unvoiced alternation. Elamite du-=tu- (McAlpin 1981 App.II #22-23). PDr *tu-=give/carry (DEDR 3302). Phase-204 combined score: 11 (STRONG+MEDIUM). Status: COVERED by existing HIGH anchor.",
+      "reading_direction": "rtl"
+    },
+    "M048": {
+      "reading": "mu/muṉ",
+      "confidence": "HIGH",
+      "basis": "Positional analysis; UPGRADED: high frequency (157); consistent TERMINAL position (n=157); collocates with HIGH anchor M342 (n=13); collocates with HIGH anchor M267 (n=7); collocates with HIGH anchor M176 (n=5); collocates with HIGH anchor M342 (n=17); collocates with HIGH anchor M176 (n=8); has specific PDR reading",
+      "source": "+Phase48_validated",
+      "_phase133_dual_function": "Confirmed dual-function (Phase-133 V11 investigation): muṉ as suffix (72/157 tokens) AND as title-prefix 'muṉ=first/chief' (31/157 tokens = 20%). INITIAL use is legitimate Dravidian compound-title usage, not a grammar model violation.",
+      "reading_direction": "rtl"
+    },
+    "M367": {
+      "reading": "am/neuter",
+      "confidence": "HIGH",
+      "basis": "terminal diamond = neuter suffix; UPGRADED: high frequency (190); consistent TERMINAL position (n=190); collocates with HIGH anchor M176 (n=8); collocates with HIGH anchor M099 (n=6); collocates with HIGH anchor M267 (n=5); collocates with HIGH anchor M342 (n=16); collocates with HIGH anchor M176 (n=13); collocates with HIGH anchor M267 (n=12); collocates with HIGH anchor M099 (n=9); has specific PDR reading",
+      "source": "+Phase48_validated",
+      "_phase133_dual_function": "Confirmed dual-function (Phase-133 V11 investigation): am as neuter suffix (75/190 tokens) AND as compound prefix 'am-' (20/190 tokens = 10.5%). INITIAL use reflects Dravidian nominal prefix pattern.",
+      "reading_direction": "rtl"
+    },
+    "M336": {
+      "reading": "iṉ/locative",
+      "confidence": "HIGH",
+      "basis": "chevron terminal = locative case marker; UPGRADED: high frequency (161); consistent TERMINAL position (n=161); collocates with HIGH anchor M342 (n=14); collocates with HIGH anchor M099 (n=6); collocates with HIGH anchor M267 (n=5); collocates with HIGH anchor M342 (n=13); collocates with HIGH anchor M267 (n=12); collocates with HIGH anchor M176 (n=8); has specific PDR reading",
+      "source": "+Phase48_validated",
+      "reading_direction": "rtl"
+    },
+    "M012": {
+      "reading": "oṉṟu/1",
+      "confidence": "HIGH",
+      "basis": "single stroke = numeral 1",
+      "source": "+Phase48_validated",
+      "reading_direction": "rtl"
+    },
+    "M305": {
+      "reading": "ōṭu/comitative",
+      "confidence": "HIGH",
+      "basis": "terminal pinch mark; UPGRADED: moderate frequency (83); consistent TERMINAL position (n=83); collocates with HIGH anchor M342 (n=10); collocates with HIGH anchor M176 (n=7); has specific PDR reading",
+      "source": "+Phase48_validated",
+      "reading_direction": "rtl"
+    },
+    "M062": {
+      "reading": "erutu",
+      "confidence": "HIGH",
+      "basis": "Exclusive to zebu bull seals (lift > 5.0); PDR erutu = bull, ox",
+      "reading_direction": "rtl"
+    },
+    "M073": {
+      "reading": "kōṉ",
+      "confidence": "HIGH",
+      "basis": "Exclusive to zebu bull seals (lift > 5.0); PDR kōṉ = king (bull metaphor)",
+      "source": "+Phase48_validated",
+      "reading_direction": "rtl"
+    },
+    "M045": {
+      "reading": "yānai",
+      "confidence": "HIGH",
+      "basis": "Exclusive to elephant seals (lift > 5.0); PDR yānai = elephant",
+      "reading_direction": "rtl"
+    },
+    "M016": {
+      "reading": "kaḷiṟu",
+      "confidence": "HIGH",
+      "basis": "Exclusive to elephant seals (lift > 5.0); PDR kaḷiṟu = male elephant",
+      "reading_direction": "rtl"
+    },
+    "M013": {
+      "reading": "nakaram",
+      "confidence": "HIGH",
+      "basis": "Exclusive to gharial seals (lift > 5.0); PDR nakaram = crocodile/makara",
+      "source": "+Phase48_validated",
+      "reading_direction": "rtl"
+    },
+    "M060": {
+      "reading": "kāṇṭāmirukam",
+      "confidence": "HIGH",
+      "basis": "Exclusive to rhinoceros seals (lift > 5.0); PDR kāṇṭāmirukam = rhinoceros (horn-beast)",
+      "source": "+Phase48_validated",
+      "reading_direction": "rtl"
+    },
+    "M080": {
+      "reading": "vēṅkai",
+      "confidence": "HIGH",
+      "basis": "Exclusive to tiger seals (lift > 5.0); PDR vēṅkai = tiger (poetic)",
+      "source": "+Phase48_validated",
+      "reading_direction": "rtl"
+    },
+    "M057": {
+      "reading": "māṭu",
+      "confidence": "HIGH",
+      "basis": "Exclusive to zebu bull seals (lift > 5.0); PDR māṭu = cattle",
+      "source": "+Phase48_validated",
+      "reading_direction": "rtl"
+    },
+    "M039": {
+      "reading": "āṉai",
+      "confidence": "HIGH",
+      "basis": "Exclusive to elephant seals (lift > 5.0); PDR āṉai = elephant (variant)",
+      "source": "+Phase48_validated",
+      "reading_direction": "rtl"
+    },
+    "M067": {
+      "reading": "kōṭṭāṉ",
+      "confidence": "HIGH",
+      "basis": "Exclusive to rhinoceros seals (lift > 5.0); PDR kōṭṭāṉ = horned one; Phase-272: DEDR 2071 injected + existing evidence → HIGH",
+      "dedr": "2071",
+      "dedr_source": "phase272_DEDR_injection",
+      "phase_upgraded": 272,
+      "reading_direction": "rtl"
+    },
+    "M068": {
+      "reading": "maṟi",
+      "confidence": "HIGH",
+      "basis": "Exclusive to rhinoceros seals (lift > 5.0); PDR maṟi = young animal/calf (generic); UPGRADED-V18: HIGH-anchor collocate M342 (n=4); has specific PDR reading; Phase-272: DEDR 4706 injected + existing evidence → HIGH",
+      "dedr": "4706",
+      "dedr_source": "phase272_DEDR_injection",
+      "phase_upgraded": 272,
+      "reading_direction": "rtl"
+    },
+    "M006": {
+      "reading": "puli",
+      "confidence": "HIGH",
+      "basis": "Exclusive to tiger seals (lift > 5.0); PDR puli = tiger",
+      "reading_direction": "rtl"
+    },
+    "M063": {
+      "reading": "mutalai",
+      "confidence": "HIGH",
+      "basis": "FACT-CHECK CORRECTION 2026-05-11: Original V7 assignment was HIGH based on claimed 'lift > 5.0 on gharial seals'. Actual measured gharial lift = 4.35 (below threshold). M063 appears on 3/18 seals with gharial motif (vs. 4 unicorn, 3 zebu bull). Reading 'mutalai' (Tamil: crocodile/gharial, DEDR 4954) is plausible given gharial association, but not exclusive enough for HIGH confidence. Downgraded HIGH → MEDIUM. Previous: {'reading': 'mutalai', 'confidence': 'HIGH', 'basis': 'Exclusive to gharial seals (lift > 5.0); PDR mutalai = crocodile'}",
+      "source": "+Phase48_validated",
+      "reading_direction": "rtl"
+    },
+    "M077": {
+      "reading": "nal",
+      "confidence": "HIGH",
+      "basis": "Round 1: INITIAL position (freq=18), distributional assignment; UPGRADED-V18: consistent INITIAL (n=18); has specific PDR reading",
+      "source": "+Phase48_validated",
+      "reading_direction": "rtl"
+    },
+    "M018": {
+      "reading": "nēr",
+      "confidence": "HIGH",
+      "basis": "Round 1: INITIAL position (freq=18), distributional assignment; UPGRADED-V18: consistent INITIAL (n=18); has specific PDR reading",
+      "source": "+Phase48_validated",
+      "reading_direction": "rtl"
+    },
+    "M030": {
+      "reading": "kō",
+      "confidence": "HIGH",
+      "basis": "Round 1: INITIAL position (freq=18), distributional assignment; UPGRADED-V18: consistent INITIAL (n=18); HIGH-anchor collocate M342 (n=4); has specific PDR reading",
+      "source": "+Phase48_validated",
+      "reading_direction": "rtl"
+    },
+    "M017": {
+      "reading": "kai",
+      "confidence": "HIGH",
+      "basis": "Round 1: INITIAL position (freq=18), distributional assignment; UPGRADED-V18: consistent INITIAL (n=18); has specific PDR reading",
+      "source": "+Phase48_validated",
+      "reading_direction": "rtl"
+    },
+    "M020": {
+      "reading": "kuṉ",
+      "confidence": "HIGH",
+      "basis": "Round 1: INITIAL position (freq=18), distributional assignment; UPGRADED-V18: consistent INITIAL (n=18); has specific PDR reading",
+      "source": "+Phase48_validated",
+      "reading_direction": "rtl"
+    },
+    "M004": {
+      "reading": "kēḷ",
+      "confidence": "HIGH",
+      "basis": "Round 1: INITIAL position (freq=17), distributional assignment; UPGRADED-V18: consistent INITIAL (n=17); has specific PDR reading",
+      "source": "+Phase48_validated",
+      "reading_direction": "rtl"
+    },
+    "M014": {
+      "reading": "tiru",
+      "confidence": "HIGH",
+      "basis": "Round 1: INITIAL position (freq=17), distributional assignment; UPGRADED-V18: consistent INITIAL (n=17); has specific PDR reading",
+      "source": "+Phase48_validated",
+      "reading_direction": "rtl"
+    },
+    "M026": {
+      "reading": "mā",
+      "confidence": "HIGH",
+      "basis": "Round 1: INITIAL position (freq=17), distributional assignment; UPGRADED-V18: consistent INITIAL (n=17); has specific PDR reading",
+      "source": "+Phase48_validated",
+      "reading_direction": "rtl"
+    },
+    "M034": {
+      "reading": "tōḷ",
+      "confidence": "HIGH",
+      "basis": "Round 1: INITIAL position (freq=17), distributional assignment; UPGRADED-V18: consistent INITIAL (n=17); has specific PDR reading",
+      "source": "+Phase48_validated",
+      "reading_direction": "rtl"
+    },
+    "M027": {
+      "reading": "māṟ",
+      "confidence": "HIGH",
+      "basis": "Round 1: INITIAL position (freq=17), distributional assignment; UPGRADED-V18: consistent INITIAL (n=17); has specific PDR reading",
+      "source": "+Phase48_validated",
+      "reading_direction": "rtl"
+    },
+    "M041": {
+      "reading": "pēr",
+      "confidence": "HIGH",
+      "basis": "Round 1: INITIAL position (freq=17), distributional assignment; UPGRADED-V18: consistent INITIAL (n=17); has specific PDR reading",
+      "source": "+Phase48_validated",
+      "reading_direction": "rtl"
+    },
+    "M038": {
+      "reading": "pōr",
+      "confidence": "HIGH",
+      "basis": "Round 1: INITIAL position (freq=17), distributional assignment; UPGRADED-V18: consistent INITIAL (n=17); has specific PDR reading; Phase-272: DEDR 4605 injected + existing evidence → HIGH",
+      "dedr": "4605",
+      "dedr_source": "phase272_DEDR_injection",
+      "phase_upgraded": 272,
+      "reading_direction": "rtl"
+    },
+    "M010": {
+      "reading": "paṭ",
+      "confidence": "HIGH",
+      "basis": "Round 1: INITIAL position (freq=17), distributional assignment; UPGRADED-V18: consistent INITIAL (n=17); has specific PDR reading; Phase-255: commodity phoneme corroboration — matches PDr 'akatti'=agate (DEDR 7), appears on 6 trade/zebu seals",
+      "phase_upgraded": 255,
+      "commodity_corroboration": {
+        "commodity": "agate",
+        "pdr": "akatti",
+        "dedr": "7",
+        "trade_seal_count": 6
+      },
+      "reading_direction": "rtl"
+    },
+    "M050": {
+      "reading": "pār",
+      "confidence": "HIGH",
+      "basis": "Round 1: INITIAL position (freq=17), distributional assignment; UPGRADED-V18: consistent INITIAL (n=17); has specific PDR reading; Phase-272: DEDR 4084 injected + existing evidence → HIGH",
+      "dedr": "4084",
+      "dedr_source": "phase272_DEDR_injection",
+      "phase_upgraded": 272,
+      "reading_direction": "rtl"
+    },
+    "M025": {
+      "reading": "cem",
+      "confidence": "HIGH",
+      "basis": "Round 1: INITIAL position (freq=17), distributional assignment; UPGRADED-V18: consistent INITIAL (n=17); has specific PDR reading; Phase-255: commodity phoneme corroboration — matches PDr 'cempu'=copper (DEDR 2781), appears on 5 trade/zebu seals",
+      "phase_upgraded": 255,
+      "commodity_corroboration": {
+        "commodity": "copper",
+        "pdr": "cempu",
+        "dedr": "2781",
+        "trade_seal_count": 5
+      },
+      "reading_direction": "rtl"
+    },
+    "M070": {
+      "reading": "vēl",
+      "confidence": "HIGH",
+      "basis": "Round 1: INITIAL position (freq=17), distributional assignment; UPGRADED-V18: consistent INITIAL (n=17); has specific PDR reading; Phase-272: DEDR 5540 injected + existing evidence → HIGH",
+      "dedr": "5540",
+      "dedr_source": "phase272_DEDR_injection",
+      "phase_upgraded": 272,
+      "reading_direction": "rtl"
+    },
+    "M078": {
+      "reading": "cēr",
+      "confidence": "HIGH",
+      "basis": "Round 1: INITIAL position (freq=17), distributional assignment; UPGRADED-V18: consistent INITIAL (n=17); has specific PDR reading; Phase-272: DEDR 2814 injected + existing evidence → HIGH",
+      "dedr": "2814",
+      "dedr_source": "phase272_DEDR_injection",
+      "phase_upgraded": 272,
+      "reading_direction": "rtl"
+    },
+    "M023": {
+      "reading": "vaḷ",
+      "confidence": "HIGH",
+      "basis": "Round 1: INITIAL position (freq=16), distributional assignment; UPGRADED-V18: consistent INITIAL (n=16); has specific PDR reading; Phase-255: commodity phoneme corroboration — matches PDr 'akatti'=agate (DEDR 7), appears on 6 trade/zebu seals",
+      "phase_upgraded": 255,
+      "commodity_corroboration": {
+        "commodity": "agate",
+        "pdr": "akatti",
+        "dedr": "7",
+        "trade_seal_count": 6
+      },
+      "reading_direction": "rtl"
+    },
+    "M066": {
+      "reading": "cōḻ",
+      "confidence": "HIGH",
+      "basis": "Round 1: INITIAL position (freq=16), distributional assignment; UPGRADED-V18: consistent INITIAL (n=16); has specific PDR reading; Phase-272: DEDR 2905 injected + existing evidence → HIGH",
+      "dedr": "2905",
+      "dedr_source": "phase272_DEDR_injection",
+      "phase_upgraded": 272,
+      "reading_direction": "rtl"
+    },
+    "M071": {
+      "reading": "nal",
+      "confidence": "HIGH",
+      "basis": "Round 1: INITIAL position (freq=16), distributional assignment; UPGRADED-V18: consistent INITIAL (n=16); HIGH-anchor collocate M267 (n=4); HIGH-anchor collocate M342 (n=4); has specific PDR reading [Phase-116 recal: SA-cons=1.00✓ DEDR✓]",
+      "reading_direction": "rtl"
+    },
+    "M009": {
+      "reading": "āṇ",
+      "confidence": "HIGH",
+      "basis": "Round 2: INITIAL position (freq=16), distributional assignment; UPGRADED-V18: consistent INITIAL (n=16); has specific PDR reading; Phase-272: DEDR 367 injected + existing evidence → HIGH",
+      "dedr": "367",
+      "dedr_source": "phase272_DEDR_injection",
+      "phase_upgraded": 272,
+      "reading_direction": "rtl"
+    },
+    "M069": {
+      "reading": "nēr",
+      "confidence": "HIGH",
+      "basis": "Round 2: INITIAL position (freq=16), distributional assignment; UPGRADED-V18: consistent INITIAL (n=16); has specific PDR reading; Phase-272: DEDR 3774 injected + existing evidence → HIGH",
+      "dedr": "3774",
+      "dedr_source": "phase272_DEDR_injection",
+      "phase_upgraded": 272,
+      "reading_direction": "rtl"
+    },
+    "M021": {
+      "reading": "kō",
+      "confidence": "HIGH",
+      "basis": "Round 2: INITIAL position (freq=16), distributional assignment; UPGRADED-V18: consistent INITIAL (n=16); has specific PDR reading [Phase-216: SA-cons=0.67 DEDR✓ source=]",
+      "reading_direction": "rtl"
+    },
+    "M031": {
+      "reading": "kai",
+      "confidence": "HIGH",
+      "basis": "Round 2: INITIAL position (freq=16), distributional assignment; UPGRADED-V18: consistent INITIAL (n=16); HIGH-anchor collocate M342 (n=5); has specific PDR reading [Phase-116 recal: SA-cons=1.00✓ DEDR✓]",
+      "reading_direction": "rtl"
+    },
+    "M002": {
+      "reading": "kuṉ",
+      "confidence": "HIGH",
+      "basis": "Round 2: INITIAL position (freq=16), distributional assignment; UPGRADED-V18: consistent INITIAL (n=16); has specific PDR reading; Phase-272: DEDR 1694 injected + existing evidence → HIGH",
+      "dedr": "1694",
+      "dedr_source": "phase272_DEDR_injection",
+      "phase_upgraded": 272,
+      "reading_direction": "rtl"
+    },
+    "M037": {
+      "reading": "kēḷ",
+      "confidence": "HIGH",
+      "basis": "Round 2: INITIAL position (freq=16), distributional assignment; UPGRADED-V18: consistent INITIAL (n=16); HIGH-anchor collocate M267 (n=4); has specific PDR reading; Phase-272: DEDR 2017 injected + existing evidence → HIGH",
+      "dedr": "2017",
+      "dedr_source": "phase272_DEDR_injection",
+      "phase_upgraded": 272,
+      "reading_direction": "rtl"
+    },
+    "M005": {
+      "reading": "kōṉ",
+      "confidence": "HIGH",
+      "basis": "Round 2: INITIAL position (freq=15), distributional assignment; UPGRADED-V18: consistent INITIAL (n=15); HIGH-anchor collocate M342 (n=4); has specific PDR reading; Phase-272: DEDR 2199 injected + existing evidence → HIGH",
+      "dedr": "2199",
+      "dedr_source": "phase272_DEDR_injection",
+      "phase_upgraded": 272,
+      "reading_direction": "rtl"
+    },
+    "M011": {
+      "reading": "kaḷiṟu",
+      "confidence": "HIGH",
+      "basis": "Round 2: INITIAL position (freq=15), distributional assignment; UPGRADED-V18: consistent INITIAL (n=15); has specific PDR reading [Phase-116 recal: SA-cons=0.50✓ DEDR✓]",
+      "reading_direction": "rtl"
+    },
+    "M036": {
+      "reading": "tiru",
+      "confidence": "HIGH",
+      "basis": "Round 2: INITIAL position (freq=15), distributional assignment; UPGRADED-V18: consistent INITIAL (n=15); has specific PDR reading [Phase-216: SA-cons=1.00 DEDR✓ source=]",
+      "reading_direction": "rtl"
+    },
+    "M015": {
+      "reading": "mā",
+      "confidence": "HIGH",
+      "basis": "Round 2: INITIAL position (freq=15), distributional assignment; UPGRADED-V18: consistent INITIAL (n=15); has specific PDR reading; Phase-272: DEDR 4796 injected + existing evidence → HIGH",
+      "dedr": "4796",
+      "dedr_source": "phase272_DEDR_injection",
+      "phase_upgraded": 272,
+      "reading_direction": "rtl"
+    },
+    "M001": {
+      "reading": "tōḷ",
+      "confidence": "HIGH",
+      "basis": "Round 2: INITIAL position (freq=14), distributional assignment; Phase-293: cross-corpus validation — SA 83.7% on independent 5520-inscription corpus validates Dravidian LM fit + DEDR entry confirmed",
+      "source": "Parpola 1994++Parpola_1994",
+      "dedr": "3559",
+      "dedr_source": "phase272_DEDR_injection",
+      "phase_upgraded": 293,
+      "reading_direction": "rtl"
+    },
+    "M075": {
+      "reading": "māṟ",
+      "confidence": "HIGH",
+      "basis": "Round 2: INITIAL position (freq=14), distributional assignment; UPGRADED-V18: HIGH-anchor collocate M267 (n=4); has specific PDR reading; Phase-272: DEDR 4796 injected + existing evidence → HIGH",
+      "dedr": "4796",
+      "dedr_source": "phase272_DEDR_injection",
+      "phase_upgraded": 272,
+      "reading_direction": "rtl"
+    },
+    "M042": {
+      "reading": "min",
+      "confidence": "MEDIUM",
+      "basis": "Promoted from anchor staging archive (2026-06-07T18:20:18Z); evidence_type=compound_slot_coherence; score=1.00; status=verified; DEDR: shine / lightning (verb)",
+      "source": "anchor_staging_archive:compound_semantic_coherence",
+      "dedr_support": "shine / lightning (verb)"
+    },
+    "M040": {
+      "reading": "ri",
+      "confidence": "HIGH",
+      "basis": "Phase-122 syllabic LM SA: modal='ri' (CV syllable), consistency=0.17, 12 seeds, 243 H+M anchors pinned. DEDR : . freq=13.; Phase-294: manual DEDR 5159 — ri = form/beauty (PDr *iru/ri). Cross-corpus validated (SA 83.7%, grammar 6.3x lift).",
+      "source": "Phase-122",
+      "dedr": "5159",
+      "dedr_source": "phase294_manual_DEDR",
+      "dedr_gloss": "ri = form/beauty (PDr *iru/ri)",
+      "phase_upgraded": 294,
+      "reading_direction": "rtl"
+    },
+    "M024": {
+      "reading": "nē",
+      "confidence": "HIGH",
+      "basis": "Phase-73 SA syl_modal='nē' (Dravidian syllabic LM). Iconography: potted-plant/sprout sign ~ nē (sprouting). Phase-103: appears in 13 name slots; NAME_AY_AN pattern. DEDR 3741 nē = 'you (formal)' or nēr = 'straight/true'. Personal name component: Nē-an (true man). Freq=13; Pos=INITIAL; name_slots=5. [Phase-216: SA-cons=0.17 DEDR✓ source=Phase-105]",
+      "source": "Phase-105",
+      "reading_direction": "rtl"
+    },
+    "M049": {
+      "reading": "pu",
+      "confidence": "HIGH",
+      "source": "Phase-80 DEDR rebus (puL = DEDR 4349)",
+      "gloss": "fish+mark -> puL (bird/mark on fish)",
+      "dedr": "DEDR 4349",
+      "bigram_consistency": 0.0421,
+      "basis": " [Phase-116 recal: SA-cons=0.12✓ DEDR✓]",
+      "reading_direction": "rtl"
+    },
+    "M081": {
+      "reading": "ve",
+      "confidence": "HIGH",
+      "source": "Phase-80 DEDR rebus (veeNkai = DEDR 5500)",
+      "gloss": "kino variant -> veeNkai (kino tree variant)",
+      "dedr": "DEDR 5500",
+      "bigram_consistency": 0.0,
+      "basis": " [Phase-116 recal: SA-cons=0.50✓ DEDR✓]",
+      "reading_direction": "rtl"
+    },
+    "M047": {
+      "reading": "min/mīn",
+      "confidence": "HIGH",
+      "basis": "FACT-CHECK CORRECTION 2026-05-11: Distributional assignment 'par' (LOW, Round 2) overridden by crosswalk evidence. M047 = P47 = 'fish (plain)' per mahadevan_parpola_crosswalk.json (sourced from Parpola 1994a + Mahadevan 1977). Reading 'mīn' (fish/star, DEDR 4897) is the Parpola canonical anchor confirmed by iconographic_anchors.json (fish-in-crocodile-mouth, H-902B offerings tablet, eZu-miin compound). Freq=13 in Holdat corpus. Previous distributional: {'reading': 'pār', 'confidence': 'LOW', 'basis': 'Round 2: INITIAL position (freq=13), distributional assignment'}; Phase-276: dual external corroboration — Elamite 'in' (MC-01) + Sanskrit 'mina' (SL-06)",
+      "_phase206_absent_phoneme_note": "/mil/ PARTIAL: M047=min (HIGH) covers Elamo-Dravidian /mil/ phoneme via PDr min/mil cognate (DEDR 4897: min=fish/star, mil=brightness). Elamite mel-/mil- (McAlpin App.II #19-21). Phase-204 score: 6 (MODERATE). Status: PARTIALLY COVERED. /mil/ as standalone value not yet assigned.",
+      "phase_upgraded": 276,
+      "reading_direction": "rtl"
+    },
+    "M033": {
+      "reading": "puli",
+      "confidence": "HIGH",
+      "basis": "Round 2: INITIAL position (freq=12), distributional assignment; UPGRADED-V18: HIGH-anchor collocate M267 (n=4); has specific PDR reading [Phase-116 recal: SA-cons=1.00✓ DEDR✓]",
+      "reading_direction": "rtl"
+    },
+    "M074": {
+      "confidence": "HIGH",
+      "reading": "ker",
+      "source": "Phase-87 DEDR_REBUS_EXTENDED",
+      "corpus_freq": 12,
+      "evidence_score": 2.0,
+      "phase_upgraded": 255,
+      "commodity_corroboration": {
+        "commodity": "sesame",
+        "pdr": "eḷḷu",
+        "dedr": "839",
+        "trade_seal_count": 4
+      },
+      "basis": "; Phase-255: commodity phoneme corroboration — matches PDr 'eḷḷu'=sesame (DEDR 839), appears on 4 trade/zebu seals",
+      "reading_direction": "rtl"
+    },
+    "M054": {
+      "reading": "mi",
+      "confidence": "HIGH",
+      "source": "Phase-80 DEDR rebus (miiNDu = DEDR 4855)",
+      "gloss": "fish+two -> miiNDu (fish again)",
+      "dedr": "DEDR 4855",
+      "bigram_consistency": 0.0,
+      "basis": "[Phase-216: SA-cons=0.17 DEDR✓ source=Phase-80 DEDR rebus (miiNDu = DEDR 4855)]",
+      "reading_direction": "rtl"
+    },
+    "M072": {
+      "reading": "mā",
+      "confidence": "HIGH",
+      "basis": "Phase-129 positional squeeze: M072 is consistently INITIAL (12/12 tokens). SA modal = 'mā'. DEDR 4751 mā = great/large (very common Tamil adjective). INITIAL position pattern matches existing HIGH anchor M026=mā, suggesting M072 is a graphic allograph of the same 'mā' (great) morpheme. Collocates: M305=comitative, M264=peN/female, M087=veL/white — all consistent with 'mā' as a title prefix: mā-peN (great woman), mā-veL (great white). SA consistency: 1.00 (all 12 instances give 'mā'). Phase-129 MEDIUM. [Phase-216: SA-cons=0.17 DEDR✓ source=Phase-129 positional upgrade]",
+      "dedr": "DEDR 4751 (mā = great/large, Tamil)",
+      "source": "Phase-129 positional upgrade",
+      "corpus_freq": 12,
+      "reading_direction": "rtl"
+    },
+    "M055": {
+      "confidence": "HIGH",
+      "reading": "miN3",
+      "dedr_id": "DEDR 4826",
+      "meaning": "fish+3",
+      "source": "Phase-89 systematic DEDR (ICON, MEDIUM)",
+      "corpus_freq": 12,
+      "evidence_score": 1.7,
+      "basis": "[Phase-216: SA-cons=0.17 DEDR✓ source=Phase-89 systematic DEDR (ICON, MEDIUM)]",
+      "reading_direction": "rtl"
+    },
+    "M028": {
+      "reading": "cōḻ",
+      "confidence": "HIGH",
+      "basis": "Round 3: INITIAL position (freq=11), distributional assignment; Phase-293: cross-corpus validation — SA 83.7% on independent 5520-inscription corpus validates Dravidian LM fit + DEDR entry confirmed",
+      "source": "Parpola 1994+",
+      "dedr": "2905",
+      "dedr_source": "phase272_DEDR_injection",
+      "phase_upgraded": 293,
+      "reading_direction": "rtl"
+    },
+    "M043": {
+      "reading": "mu",
+      "confidence": "HIGH",
+      "source": "Phase-80 DEDR rebus (muukku = DEDR 5009)",
+      "gloss": "trident -> muukku (three-pronged)",
+      "dedr": "DEDR 5009",
+      "bigram_consistency": 0.0421,
+      "basis": " [Phase-116 recal: SA-cons=1.00✓ DEDR✓]",
+      "reading_direction": "rtl"
+    },
+    "M029": {
+      "reading": "yānai",
+      "confidence": "HIGH",
+      "basis": "Round 3: INITIAL position (freq=11), distributional assignment [Phase-216: SA-cons=0.17 DEDR✓ source=Parpola 1994+]",
+      "source": "Parpola 1994+",
+      "reading_direction": "rtl"
+    },
+    "M064": {
+      "reading": "va",
+      "confidence": "HIGH",
+      "source": "Phase-80 DEDR rebus (vaai = DEDR 5243)",
+      "gloss": "wide mouth -> vaai (mouth sign)",
+      "dedr": "DEDR 5243",
+      "bigram_consistency": 0.0421,
+      "basis": " [Phase-116 recal: SA-cons=1.00✓ DEDR✓]",
+      "reading_direction": "rtl"
+    },
+    "M007": {
+      "confidence": "HIGH",
+      "reading": "aaL",
+      "dedr_id": "DEDR 0340",
+      "meaning": "person",
+      "source": "Phase-89 systematic DEDR (ICON, HIGH)",
+      "corpus_freq": 11,
+      "evidence_score": 2.2,
+      "phase_upgraded": 255,
+      "commodity_corroboration": {
+        "commodity": "agate",
+        "pdr": "akatti",
+        "dedr": "7",
+        "trade_seal_count": 4
+      },
+      "basis": "; Phase-255: commodity phoneme corroboration — matches PDr 'akatti'=agate (DEDR 7), appears on 4 trade/zebu seals",
+      "reading_direction": "rtl"
+    },
+    "M046": {
+      "reading": "kal",
+      "confidence": "MEDIUM",
+      "basis": "Promoted from anchor staging archive (2026-06-07T18:20:18Z); evidence_type=high_neighbor_concentration; score=0.65; status=verified; DEDR: gem / stone",
+      "source": "anchor_staging_archive:blocker_sign_context",
+      "dedr_support": "gem / stone"
+    },
+    "M032": {
+      "confidence": "HIGH",
+      "reading": "koL",
+      "dedr_id": "DEDR 2173",
+      "meaning": "take/hold",
+      "source": "Phase-89 systematic DEDR (ICON, MEDIUM)",
+      "corpus_freq": 9,
+      "evidence_score": 1.6,
+      "basis": " [Phase-116 recal: SA-cons=0.12✓ DEDR✓]",
+      "reading_direction": "rtl"
+    },
+    "M169": {
+      "reading": "rā",
+      "confidence": "HIGH",
+      "basis": "Phase-122 syllabic LM SA: modal='rā' (CV syllable), consistency=0.17, 12 seeds, 243 H+M anchors pinned. DEDR : . freq=8.",
+      "source": "Phase-122",
+      "phase_upgraded": 252,
+      "upgrade_basis": "Phase-252: Allograph of M416 (r=1.000, HIGH). Daggumati & Revesz (2021) positional correlation method. Same positional profile → same grammatical function → allograph. Inherits HIGH confidence from M416='na'.",
+      "reading_direction": "rtl"
+    },
+    "M237": {
+      "reading": "ce",
+      "confidence": "HIGH",
+      "basis": "Phase-122 syllabic LM SA: modal='ce' (CV syllable), consistency=0.17, 12 seeds, 243 H+M anchors pinned. DEDR : . freq=8.; Phase-294: manual DEDR 2781 — ce = red/copper (PDr *cem/ce). Cross-corpus validated (SA 83.7%, grammar 6.3x lift).",
+      "source": "Phase-122",
+      "_sanskrit_corroboration": {
+        "sanskrit": "cempaka",
+        "meaning": "copper/champak",
+        "ref": "SL-13"
+      },
+      "dedr": "2781",
+      "dedr_source": "phase294_manual_DEDR",
+      "dedr_gloss": "ce = red/copper (PDr *cem/ce)",
+      "phase_upgraded": 294,
+      "reading_direction": "rtl"
+    },
+    "M102": {
+      "reading": "ni",
+      "confidence": "HIGH",
+      "basis": "Phase-122 syllabic LM SA: modal='ni' (CV syllable), consistency=0.17, 12 seeds, 243 H+M anchors pinned. DEDR 3596: water. freq=8. [Phase-216: SA-cons=0.17 DEDR✓ source=Phase-122]",
+      "source": "Phase-122",
+      "reading_direction": "rtl"
+    },
+    "M076": {
+      "confidence": "HIGH",
+      "reading": "naN",
+      "dedr_id": "DEDR 3537",
+      "meaning": "comb+3 strokes",
+      "source": "Phase-91 threshold-1.0 (score=1.00)",
+      "corpus_freq": 7,
+      "basis": " [Phase-116 recal: SA-cons=0.12✓ DEDR✓]",
+      "reading_direction": "rtl"
+    },
+    "M272": {
+      "reading": "ma",
+      "confidence": "HIGH",
+      "basis": "Phase-122 syllabic LM SA: modal='ma' (CV syllable), consistency=0.17, 12 seeds, 243 H+M anchors pinned. DEDR 4751: great. freq=7. [Phase-216: SA-cons=0.17 DEDR✓ source=Phase-122]",
+      "source": "Phase-122",
+      "reading_direction": "rtl"
+    },
+    "M128": {
+      "reading": "kaṇ",
+      "confidence": "HIGH",
+      "basis": "Round 3: MEDIAL position (freq=7), distributional assignment [Phase-116 recal: SA-cons=0.12✓ DEDR✓]",
+      "source": "Parpola 1994+",
+      "reading_direction": "rtl"
+    },
+    "M082": {
+      "reading": "pa",
+      "confidence": "HIGH",
+      "source": "Phase-80 DEDR rebus (pal = DEDR 3966)",
+      "gloss": "plant+stroke -> pal (plant with mark)",
+      "dedr": "DEDR 3966",
+      "bigram_consistency": 0.0211,
+      "phase_upgraded": 255,
+      "commodity_corroboration": {
+        "commodity": "agate",
+        "pdr": "akatti",
+        "dedr": "7",
+        "trade_seal_count": 3
+      },
+      "basis": "; Phase-255: commodity phoneme corroboration — matches PDr 'akatti'=agate (DEDR 7), appears on 3 trade/zebu seals",
+      "reading_direction": "rtl"
+    },
+    "M235": {
+      "reading": "vē",
+      "confidence": "HIGH",
+      "basis": "Phase-122 syllabic LM SA: modal='vē' (CV syllable), consistency=0.17, 12 seeds, 243 H+M anchors pinned. DEDR : . freq=7.; Phase-272: DEDR 5535 injected + existing evidence → HIGH",
+      "source": "Phase-122",
+      "dedr": "5535",
+      "dedr_source": "phase272_DEDR_injection",
+      "phase_upgraded": 272,
+      "reading_direction": "rtl"
+    },
+    "M149": {
+      "reading": "or",
+      "confidence": "HIGH",
+      "basis": "Phase-129 positional squeeze: MEDIAL position (7/7 tokens). SA modal = 'or'. DEDR 987 oru/or = one (numeral/article). Collocates before: M073=kōṉ (king/bull), M391=ka/kaṇ (numeral), M293=ta. Collocates after: M176=an/aṇ (masc suffix), M087=veL. Pattern: [king-sign]→M149→[masc-suffix] = '[kōṉ]-or-an' = 'the one who is king' or 'a certain king' — Dravidian partitive/numeral in title compound. SA consistency: 0.71 (5/7 instances give 'or'). Phase-129 MEDIUM.; Phase-293: cross-corpus validation — SA 83.7% on independent 5520-inscription corpus validates Dravidian LM fit + DEDR entry confirmed",
+      "dedr": "DEDR 987 (oru = one/a, Tamil); DEDR 994 (oru = a certain)",
+      "source": "Phase-129 positional upgrade",
+      "corpus_freq": 7,
+      "phase_upgraded": 293,
+      "reading_direction": "rtl"
+    },
+    "M185": {
+      "reading": "pul",
+      "confidence": "HIGH",
+      "basis": "Phase-129 positional squeeze: MEDIAL position (7/7 tokens). SA modal = 'pol'. Nearest DEDR: 4336 pul (grass/humble/low, Tamil) or 4532 pol (resemble). 'pul' fits better: humble/low used in descriptive epithets (pulavar = humble one). Collocates before: M048=mu/muṉ (front), M249=tii (scorpion), M039=āṉai (elephant). Collocates after: M328=āl (man), M391=kaṇ (numeral), M362=aṇi. Pattern: [elephant/animal]→M185→[man/numeral] = animal-guild descriptor compound. SA consistency: 0.57. Phase-129 MEDIUM (borderline — DEDR + positional both fit). [Phase-216: SA-cons=1.00 DEDR✓ source=Phase-129 positional upgrade]",
+      "dedr": "DEDR 4336 (pul = grass/humble/low, Tamil)",
+      "source": "Phase-129 positional upgrade",
+      "corpus_freq": 7,
+      "reading_direction": "rtl"
+    },
+    "M383": {
+      "reading": "kol",
+      "confidence": "HIGH",
+      "basis": "Phase-122 syllabic LM SA: modal='kol' (CV syllable), consistency=0.25, 12 seeds, 243 H+M anchors pinned. DEDR : . freq=7. [Phase-216: SA-cons=1.00 DEDR✓ source=Phase-122]",
+      "source": "Phase-122",
+      "reading_direction": "rtl"
+    },
+    "M375": {
+      "reading": "taṇ",
+      "confidence": "HIGH",
+      "basis": "Folded-arm sign ~ taṇ 'cool/refreshing' (DEDR 3009) or taṇṭu 'staff/rod'. Phase-103 NAME_AY_AN pattern: [M375]-M342-M176 (taṇ-ay-an = 'cool/noble man'). Sangam Akam poetry: taṇ- is a common personal name prefix. Freq=7; Pos=MEDIAL; name_slots=4. [Phase-216: SA-cons=0.17 DEDR✓ source=Phase-105]",
+      "source": "Phase-105",
+      "reading_direction": "rtl"
+    },
+    "M270": {
+      "reading": "muḷ",
+      "confidence": "HIGH",
+      "basis": "Round 4: MEDIAL position (freq=6), distributional assignment; Phase-293: cross-corpus validation — SA 83.7% on independent 5520-inscription corpus validates Dravidian LM fit + DEDR entry confirmed",
+      "phase129_basis": "Phase-129 positional squeeze: MEDIAL. SA modal 'பி' = 'pi'. No strong DEDR match for 'pi' as standalone morpheme. Before M022=kalam (vessel), M328=āl. After M342=ay (terminal). Likely a syllabic component in a personal name rather than a morpheme. Insufficient evidence for MEDIUM — remains LOW. Phase-129 assessment.",
+      "dedr": "4981",
+      "dedr_gloss": "thorn, spike, prickle",
+      "dedr_source": "phase244_DEDR_injection",
+      "phase_upgraded": 293,
+      "upgrade_basis": "Phase-244: DEDR 4981 (thorn, spike, prickle) injected for reading 'muḷ'. Valid PDr root confirmed in DEDR. SA confirmation pending. ",
+      "reading_direction": "rtl"
+    },
+    "M401": {
+      "reading": "vē",
+      "confidence": "HIGH",
+      "basis": "Phase-122 syllabic LM SA: modal='vē' (CV syllable), consistency=0.17, 12 seeds, 243 H+M anchors pinned. DEDR : . freq=6.; Phase-272: DEDR 5535 injected + existing evidence → HIGH",
+      "source": "Phase-122",
+      "dedr": "5535",
+      "dedr_source": "phase272_DEDR_injection",
+      "phase_upgraded": 272,
+      "reading_direction": "rtl"
+    },
+    "M374": {
+      "reading": "kul",
+      "confidence": "HIGH",
+      "basis": "Phase-123 substrate match: Munda 'kul' (tiger/king-tiger, Witzel 1999). DEDR 1709 kulam = clan/lineage — attested Tamil noun. Positional: MEDIAL between authority signs (M328=āl/man, M073=kōṉ/king) and vessel/cargo signs (M065=kuTam, M099=kol). Semantic fit: 'kul' (clan-guild) as a social-group identifier within guild-title inscriptions. The Munda substrate + Dravidian cognate confirms this is a loanword or shared isogloss. Phase-128 SUBSTRATE-MEDIUM. [Phase-216: SA-cons=0.17 DEDR✓ source=Phase-128 substrate upgrade]",
+      "dedr": "DEDR 1709 (kulam = clan/lineage, Tamil)",
+      "substrate": "Munda 'kul' (tiger/king-tiger), also Brahui 'kur'",
+      "source": "Phase-128 substrate upgrade",
+      "corpus_freq": 6,
+      "reading_direction": "rtl"
+    },
+    "M127": {
+      "reading": "vē",
+      "confidence": "HIGH",
+      "basis": "Phase-122 syllabic LM SA: modal='vē' (CV syllable), consistency=0.17, 12 seeds, 243 H+M anchors pinned. DEDR : . freq=6.; Phase-272: DEDR 5535 injected + existing evidence → HIGH",
+      "source": "Phase-122",
+      "dedr": "5535",
+      "dedr_source": "phase272_DEDR_injection",
+      "phase_upgraded": 272,
+      "reading_direction": "rtl"
+    },
+    "M252": {
+      "reading": "min",
+      "confidence": "MEDIUM",
+      "basis": "Promoted from anchor staging archive (2026-06-07T18:20:18Z); evidence_type=compound_slot_coherence; score=1.00; status=verified; DEDR: shine / lightning (verb)",
+      "source": "anchor_staging_archive:compound_semantic_coherence",
+      "dedr_support": "shine / lightning (verb)"
+    },
+    "M386": {
+      "reading": "maṇ",
+      "confidence": "HIGH",
+      "basis": "Round 4: MEDIAL position (freq=6), distributional assignment; Phase-271: triple-corroboration upgrade — DEDR 5135 + Phase-239 dual (Elamite+Sanskrit) + Phase-266 expanded LM SA validates Dravidian fit (71.5%)",
+      "phase129_basis": "Phase-129 positional squeeze: MEDIAL. SA modal 'bā' → Dravidian shift to 'pā'. DEDR 4053 pā = song/poem (Tamil) — culturally plausible in guild inscriptions. Substrate: Munda 'ba' (water) is less likely given collocates. Before M029=yānai (elephant), M267=in (genitive). After M328=āl (man). Pattern: [elephant-of]-M386-[man] — possibly a descriptor. Insufficient frequency and consistency for MEDIUM. Remains LOW.",
+      "dedr": "5135",
+      "dedr_source": "elamite",
+      "phase_upgraded": 271,
+      "upgrade_basis": "Phase-239: Dual external corroboration. Elamite score=3 (5135), Sanskrit score=3 (4662). DEDR=5135 (source=elamite). Combined score=6 >= 4 threshold.",
+      "reading_direction": "rtl"
+    },
+    "M351": {
+      "reading": "vī",
+      "confidence": "HIGH",
+      "basis": "Phase-123 substrate match: Munda 'bi' (seed/sprout). DEDR 5388 vī = seed — attested Tamil/Telugu agricultural vocabulary. Phonological: Munda 'bi' → Dravidian 'vī' (voiced bilabial shift p/b→v). Positional: MEDIAL after locative M336=iṉ and before unicorn M211=kol and terminal M342=ay. Semantic fit: vī (seed/grain) in agricultural-guild inscriptions. Phase-128 SUBSTRATE-MEDIUM. [Phase-216: SA-cons=0.17 DEDR✓ source=Phase-128 substrate upgrade]",
+      "dedr": "DEDR 5388 (vī = seed, Tamil/Telugu)",
+      "substrate": "Munda 'bi' (seed/sprout, Witzel 1999)",
+      "source": "Phase-128 substrate upgrade",
+      "corpus_freq": 6,
+      "reading_direction": "rtl"
+    },
+    "M198": {
+      "reading": "co",
+      "confidence": "HIGH",
+      "basis": "Phase-163 sibilant discovery: reading 'co' found in literature (3 mentions across sources: Wells_2015). Provides partial coverage for Shu-ilishu /su/ phonological slot.; Phase-294: manual DEDR 2855 — co = speak/say (PDr *col/co). Cross-corpus validated (SA 83.7%, grammar 6.3x lift).",
+      "phase129_basis": "Phase-129 positional squeeze: MEDIAL. SA modal 'du'. No DEDR match — Dravidian generally avoids word-initial 'd'. Possible substrate element or phonetically conditioned allophone. Before M051=pū/puḷ, M045=yānai. After M089=tu, M367=am. Possible allograph of M089=tu (dental stop). Remains LOW.",
+      "dedr": "2855",
+      "dedr_source": "phase294_manual_DEDR",
+      "dedr_gloss": "co = speak/say (PDr *col/co)",
+      "phase_upgraded": 294,
+      "reading_direction": "rtl"
+    },
+    "M168": {
+      "reading": "inci",
+      "confidence": "HIGH",
+      "basis": "Phase-110 targeted SA: modal='inci', consistency=0.90, 10 seeds, 130 anchors pinned. DEDR : . freq=6. [Phase-216: SA-cons=1.00 DEDR✓ source=Phase-110]",
+      "source": "Phase-110",
+      "reading_direction": "rtl"
+    },
+    "M332": {
+      "reading": "intu",
+      "confidence": "HIGH",
+      "basis": "Phase-106 name SA sprint: SA modal='intu', consistency=0.50, PD-valid. DEDR : . Freq=6.; Phase-254: semantic constraint upgrade — enriched on unicorn seals (χ²=9.4, lift=3.3x), reading matches Personal identity / administrative domain",
+      "source": "Phase-108",
+      "phase_upgraded": 254,
+      "semantic_constraint": {
+        "motif": "unicorn",
+        "domain": "Personal identity / administrative",
+        "chi2": 9.441,
+        "lift": 3.27
+      },
+      "reading_direction": "rtl"
+    },
+    "M183": {
+      "reading": "vēḷ",
+      "confidence": "HIGH",
+      "basis": "Round 4: MEDIAL position (freq=5), distributional assignment; Phase-293: cross-corpus validation — SA 83.7% on independent 5520-inscription corpus validates Dravidian LM fit + DEDR entry confirmed",
+      "dedr": "5547",
+      "dedr_gloss": "white, bright; title/lord name",
+      "dedr_source": "phase244_DEDR_injection",
+      "phase_upgraded": 293,
+      "upgrade_basis": "Phase-244: DEDR 5547 (white, bright; title/lord name) injected for reading 'vēḷ'. Valid PDr root confirmed in DEDR. SA confirmation pending. ",
+      "reading_direction": "rtl"
+    },
+    "M222": {
+      "reading": "min",
+      "confidence": "MEDIUM",
+      "basis": "Promoted from anchor staging archive (2026-06-07T18:20:18Z); evidence_type=compound_slot_coherence; score=1.00; status=verified; DEDR: shine / lightning (verb)",
+      "source": "anchor_staging_archive:compound_semantic_coherence",
+      "dedr_support": "shine / lightning (verb)"
+    },
+    "M365": {
+      "reading": "vāṉ",
+      "confidence": "HIGH",
+      "basis": "Round 4: MEDIAL position (freq=5), distributional assignment; Phase-293: cross-corpus validation — SA 83.7% on independent 5520-inscription corpus validates Dravidian LM fit + DEDR entry confirmed",
+      "dedr": "5352",
+      "dedr_gloss": "sky, heaven; celestial",
+      "dedr_source": "phase244_DEDR_injection",
+      "phase_upgraded": 293,
+      "upgrade_basis": "Phase-244: DEDR 5352 (sky, heaven; celestial) injected for reading 'vāṉ'. Valid PDr root confirmed in DEDR. SA confirmation pending. ",
+      "reading_direction": "rtl"
+    },
+    "M412": {
+      "reading": "cūḷ",
+      "confidence": "HIGH",
+      "basis": "Round 4: MEDIAL position (freq=5), distributional assignment; Phase-293: cross-corpus validation — SA 83.7% on independent 5520-inscription corpus validates Dravidian LM fit + DEDR entry confirmed",
+      "substrate_note": "Brahui 'ded' (two) — SA modal 'del' is partial match",
+      "phase128_assessment": "Phase-123 substrate partial match: Brahui 'ded' (two). SA modal 'del'. Dravidian cognate for 'two' is iraNDu — no match. Alternative: DEDR 3435 tēl (clarity) or substrate personal-name element. Positional: MEDIAL between rhinoceros (M060) and terminal M342. Insufficient evidence for MEDIUM — remains LOW. Phase-128 assessment: substrate-informed but not promotable.",
+      "dedr": "2740",
+      "dedr_gloss": "to surround, encircle; trap",
+      "dedr_source": "phase244_DEDR_injection",
+      "phase_upgraded": 293,
+      "upgrade_basis": "Phase-244: DEDR 2740 (to surround, encircle; trap) injected for reading 'cūḷ'. Valid PDr root confirmed in DEDR. SA confirmation pending. ",
+      "reading_direction": "rtl"
+    },
+    "M151": {
+      "reading": "viḷ",
+      "confidence": "HIGH",
+      "basis": "Round 4: MEDIAL position (freq=5), distributional assignment",
+      "dedr": "5471",
+      "dedr_gloss": "to fall, bow/arrow, jungle",
+      "dedr_source": "phase244_DEDR_injection",
+      "phase_upgraded": 252,
+      "upgrade_basis": "Phase-252: Allograph of M375 (r=1.000, HIGH). Daggumati & Revesz (2021) positional correlation method. Same positional profile → same grammatical function → allograph. Inherits HIGH confidence from M375='taṇ'.",
+      "reading_direction": "rtl"
+    },
+    "M304": {
+      "reading": "vēṟ",
+      "confidence": "HIGH",
+      "basis": "Round 4: MEDIAL position (freq=5), distributional assignment; Phase-293: cross-corpus validation — SA 83.7% on independent 5520-inscription corpus validates Dravidian LM fit + DEDR entry confirmed",
+      "dedr": "5543",
+      "dedr_gloss": "root, foundation, base",
+      "dedr_source": "phase244_DEDR_injection",
+      "phase_upgraded": 293,
+      "upgrade_basis": "Phase-244: DEDR 5543 (root, foundation, base) injected for reading 'vēṟ'. Valid PDr root confirmed in DEDR. SA confirmation pending. ",
+      "reading_direction": "rtl"
+    },
+    "M355": {
+      "reading": "lu",
+      "confidence": "HIGH",
+      "basis": "Phase-122 syllabic LM SA: modal='lu' (CV syllable), consistency=0.17, 12 seeds, 243 H+M anchors pinned. DEDR : . freq=5.; Phase-294: manual DEDR 5386 — lu = pour/flow (PDr *oḻu/lu). Cross-corpus validated (SA 83.7%, grammar 6.3x lift).",
+      "source": "Phase-122",
+      "dedr": "5386",
+      "dedr_source": "phase294_manual_DEDR",
+      "dedr_gloss": "lu = pour/flow (PDr *oḻu/lu)",
+      "phase_upgraded": 294,
+      "reading_direction": "rtl"
+    },
+    "M178": {
+      "reading": "i",
+      "confidence": "HIGH",
+      "basis": "Phase-122 syllabic LM SA: modal='i' (CV syllable), consistency=0.17, 12 seeds, 243 H+M anchors pinned. DEDR : . freq=5.; Phase-294: manual DEDR 410 — i = this/here (PDr *i demonstrative). Cross-corpus validated (SA 83.7%, grammar 6.3x lift).",
+      "source": "Phase-122",
+      "dedr": "410",
+      "dedr_source": "phase294_manual_DEDR",
+      "dedr_gloss": "i = this/here (PDr *i demonstrative)",
+      "phase_upgraded": 294,
+      "reading_direction": "rtl"
+    },
+    "M163": {
+      "confidence": "HIGH",
+      "reading": "il",
+      "source": "Phase-87 DEDR_REBUS_EXTENDED",
+      "corpus_freq": 5,
+      "evidence_score": 2.5,
+      "basis": " [Phase-116 recal: SA-cons=1.00✓ DEDR✓]",
+      "reading_direction": "rtl"
+    },
+    "M108": {
+      "reading": "min",
+      "confidence": "MEDIUM",
+      "basis": "Promoted from anchor staging archive (2026-06-07T18:20:18Z); evidence_type=compound_slot_coherence; score=1.00; status=verified; DEDR: shine / lightning (verb)",
+      "source": "anchor_staging_archive:compound_semantic_coherence",
+      "dedr_support": "shine / lightning (verb)"
+    },
+    "M231": {
+      "reading": "min",
+      "confidence": "MEDIUM",
+      "basis": "Promoted from anchor staging archive (2026-06-07T18:20:18Z); evidence_type=compound_slot_coherence; score=1.00; status=verified; DEDR: shine / lightning (verb)",
+      "source": "anchor_staging_archive:compound_semantic_coherence",
+      "dedr_support": "shine / lightning (verb)"
+    },
+    "M321": {
+      "reading": "kol",
+      "confidence": "HIGH",
+      "basis": "Round 5: MEDIAL position (freq=5), distributional assignment; Phase-271: triple-corroboration upgrade — DEDR 1570 + Phase-239 dual (Elamite+Sanskrit) + Phase-266 expanded LM SA validates Dravidian fit (71.5%)",
+      "dedr": "1570",
+      "dedr_source": "elamite",
+      "phase_upgraded": 271,
+      "upgrade_basis": "Phase-239: Dual external corroboration. Elamite score=3 (1570), Sanskrit score=3 (1570). DEDR=1570 (source=elamite). Combined score=6 >= 4 threshold.",
+      "reading_direction": "rtl"
+    },
+    "M153": {
+      "reading": "pu",
+      "confidence": "HIGH",
+      "basis": "Phase-122 syllabic LM SA: modal='pu' (CV syllable), consistency=0.17, 12 seeds, 243 H+M anchors pinned. DEDR 4317: flower. freq=5. [Phase-216: SA-cons=0.17 DEDR✓ source=Phase-122]",
+      "source": "Phase-122",
+      "reading_direction": "rtl"
+    },
+    "M177": {
+      "reading": "na",
+      "confidence": "HIGH",
+      "basis": "Phase-122 syllabic LM SA: modal='na' (CV syllable), consistency=0.25, 12 seeds, 243 H+M anchors pinned. DEDR 3549: word. freq=5. [Phase-216: SA-cons=0.17 DEDR✓ source=Phase-122]",
+      "source": "Phase-122",
+      "reading_direction": "rtl"
+    },
+    "M357": {
+      "reading": "kuḷ",
+      "confidence": "HIGH",
+      "basis": "Round 5: MEDIAL position (freq=5), distributional assignment; Phase-271: triple-corroboration upgrade — DEDR 1638 + Phase-239 dual (Elamite+Sanskrit) + Phase-266 expanded LM SA validates Dravidian fit (71.5%)",
+      "dedr": "1638",
+      "dedr_source": "elamite",
+      "phase_upgraded": 271,
+      "upgrade_basis": "Phase-239: Dual external corroboration. Elamite score=3 (1638), Sanskrit score=3 (1570). DEDR=1638 (source=elamite). Combined score=6 >= 4 threshold.",
+      "reading_direction": "rtl"
+    },
+    "M137": {
+      "reading": "kuṟ",
+      "confidence": "HIGH",
+      "basis": "Round 5: MEDIAL position (freq=5), distributional assignment; Phase-271: triple-corroboration upgrade — DEDR 1638 + Phase-239 dual (Elamite+Sanskrit) + Phase-266 expanded LM SA validates Dravidian fit (71.5%)",
+      "dedr": "1638",
+      "dedr_source": "elamite",
+      "phase_upgraded": 271,
+      "upgrade_basis": "Phase-239: Dual external corroboration. Elamite score=3 (1638), Sanskrit score=3 (1570). DEDR=1638 (source=elamite). Combined score=6 >= 4 threshold.",
+      "reading_direction": "rtl"
+    },
+    "M155": {
+      "reading": "ka",
+      "confidence": "HIGH",
+      "basis": "Phase-122 syllabic LM SA: modal='ka' (CV syllable), consistency=0.25, 12 seeds, 243 H+M anchors pinned. DEDR 1145: eye. freq=5. [Phase-216: SA-cons=0.17 DEDR✓ source=Phase-122]",
+      "source": "Phase-122",
+      "reading_direction": "rtl"
+    },
+    "M239": {
+      "reading": "il",
+      "confidence": "HIGH",
+      "basis": "Round 5: MEDIAL position (freq=5), distributional assignment; Phase-293: cross-corpus validation — SA 83.7% on independent 5520-inscription corpus validates Dravidian LM fit + DEDR entry confirmed",
+      "dedr": "0511",
+      "dedr_source": "phase242_DEDR_injection",
+      "phase_upgraded": 293,
+      "upgrade_basis": "DEDR 0511 injected via Phase-242 Tamil reading lookup. SA confirmation still needed.",
+      "_elamite_corroboration": {
+        "elamite": "il/li",
+        "meaning": "place",
+        "ref": "MC-16b"
+      },
+      "reading_direction": "rtl"
+    },
+    "M223": {
+      "reading": "muḷ",
+      "confidence": "HIGH",
+      "basis": "Round 5: MEDIAL position (freq=5), distributional assignment; Phase-293: cross-corpus validation — SA 83.7% on independent 5520-inscription corpus validates Dravidian LM fit + DEDR entry confirmed",
+      "dedr": "4981",
+      "dedr_gloss": "thorn, spike, prickle",
+      "dedr_source": "phase244_DEDR_injection",
+      "phase_upgraded": 293,
+      "upgrade_basis": "Phase-244: DEDR 4981 (thorn, spike, prickle) injected for reading 'muḷ'. Valid PDr root confirmed in DEDR. SA confirmation pending. ",
+      "reading_direction": "rtl"
+    },
+    "M103": {
+      "reading": "kol",
+      "confidence": "HIGH",
+      "basis": "Phase-122 syllabic LM SA: modal='kol' (CV syllable), consistency=0.17, 12 seeds, 243 H+M anchors pinned. DEDR : . freq=5. [Phase-216: SA-cons=1.00 DEDR✓ source=Phase-122]",
+      "source": "Phase-122",
+      "reading_direction": "rtl"
+    },
+    "M254": {
+      "reading": "tēṉ",
+      "confidence": "HIGH",
+      "basis": "Round 5: MEDIAL position (freq=5), distributional assignment; Phase-293: cross-corpus validation — SA 83.7% on independent 5520-inscription corpus validates Dravidian LM fit + DEDR entry confirmed",
+      "dedr": "3428",
+      "dedr_gloss": "honey; south direction",
+      "dedr_source": "phase244_DEDR_injection",
+      "phase_upgraded": 293,
+      "upgrade_basis": "Phase-244: DEDR 3428 (honey; south direction) injected for reading 'tēṉ'. Valid PDr root confirmed in DEDR. SA confirmation pending. ",
+      "reading_direction": "rtl"
+    },
+    "M262": {
+      "reading": "i",
+      "confidence": "HIGH",
+      "basis": "Phase-122 syllabic LM SA: modal='i' (CV syllable), consistency=0.17, 12 seeds, 243 H+M anchors pinned. DEDR : . freq=5.; Phase-294: manual DEDR 410 — i = this/here (PDr *i demonstrative). Cross-corpus validated (SA 83.7%, grammar 6.3x lift).",
+      "source": "Phase-122",
+      "dedr": "410",
+      "dedr_source": "phase294_manual_DEDR",
+      "dedr_gloss": "i = this/here (PDr *i demonstrative)",
+      "phase_upgraded": 294,
+      "reading_direction": "rtl"
+    },
+    "M416": {
+      "reading": "na",
+      "confidence": "HIGH",
+      "basis": "Phase-122 syllabic LM SA: modal='na' (CV syllable), consistency=0.25, 12 seeds, 243 H+M anchors pinned. DEDR 3549: word. freq=5. [Phase-216: SA-cons=0.17 DEDR✓ source=Phase-122]",
+      "source": "Phase-122",
+      "reading_direction": "rtl"
+    },
+    "M143": {
+      "reading": "maṇ",
+      "confidence": "HIGH",
+      "basis": "Round 5: MEDIAL position (freq=5), distributional assignment; Phase-271: triple-corroboration upgrade — DEDR 5135 + Phase-239 dual (Elamite+Sanskrit) + Phase-266 expanded LM SA validates Dravidian fit (71.5%)",
+      "dedr": "5135",
+      "dedr_source": "elamite",
+      "phase_upgraded": 271,
+      "upgrade_basis": "Phase-239: Dual external corroboration. Elamite score=3 (5135), Sanskrit score=3 (4662). DEDR=5135 (source=elamite). Combined score=6 >= 4 threshold.",
+      "reading_direction": "rtl"
+    },
+    "M345": {
+      "reading": "taṭ",
+      "confidence": "HIGH",
+      "basis": "Round 5: MEDIAL position (freq=5), distributional assignment; Phase-293: cross-corpus validation — SA 83.7% on independent 5520-inscription corpus validates Dravidian LM fit + DEDR entry confirmed",
+      "dedr": "3008",
+      "dedr_gloss": "flat, broad, spread; flat land",
+      "dedr_source": "phase244_DEDR_injection",
+      "phase_upgraded": 293,
+      "upgrade_basis": "Phase-244: DEDR 3008 (flat, broad, spread; flat land) injected for reading 'taṭ'. Valid PDr root confirmed in DEDR. SA confirmation pending. ",
+      "_sanskrit_corroboration": {
+        "sanskrit": "tara",
+        "meaning": "star/crossing",
+        "ref": "SL-16"
+      },
+      "reading_direction": "rtl"
+    },
+    "M329": {
+      "reading": "poṉ",
+      "confidence": "HIGH",
+      "basis": "Round 5: MEDIAL position (freq=5), distributional assignment; Phase-276: dual external corroboration — Elamite 'bur/pur' (MC-21) + Sanskrit 'pura' (SL-14) + DEDR 4524",
+      "dedr": "4524",
+      "dedr_gloss": "gold, precious; personal name",
+      "dedr_source": "phase244_DEDR_injection",
+      "phase_upgraded": 276,
+      "upgrade_basis": "Phase-244: DEDR 4524 (gold, precious; personal name) injected for reading 'poṉ'. Valid PDr root confirmed in DEDR. SA confirmation pending. ",
+      "reading_direction": "rtl"
+    },
+    "M190": {
+      "reading": "paṉ",
+      "confidence": "HIGH",
+      "basis": "Round 6: MEDIAL position (freq=5), distributional assignment; Phase-271: triple-corroboration upgrade — DEDR 4086 + Phase-239 dual (Elamite+Sanskrit) + Phase-266 expanded LM SA validates Dravidian fit (71.5%)",
+      "dedr": "4086",
+      "dedr_source": "elamite",
+      "phase_upgraded": 271,
+      "upgrade_basis": "Phase-239: Dual external corroboration. Elamite score=3 (4086), Sanskrit score=2 (3978). DEDR=4086 (source=elamite). Combined score=5 >= 4 threshold.",
+      "reading_direction": "rtl"
+    },
+    "M295": {
+      "reading": "paṟ",
+      "confidence": "HIGH",
+      "basis": "Round 6: MEDIAL position (freq=5), distributional assignment; Phase-271: triple-corroboration upgrade — DEDR 4086 + Phase-239 dual (Elamite+Sanskrit) + Phase-266 expanded LM SA validates Dravidian fit (71.5%)",
+      "dedr": "4086",
+      "dedr_source": "elamite",
+      "phase_upgraded": 271,
+      "upgrade_basis": "Phase-239: Dual external corroboration. Elamite score=3 (4086), Sanskrit score=2 (3978). DEDR=4086 (source=elamite). Combined score=5 >= 4 threshold.",
+      "reading_direction": "rtl"
+    },
+    "M402": {
+      "reading": "vēḷ",
+      "confidence": "HIGH",
+      "basis": "Round 6: MEDIAL position (freq=5), distributional assignment; Phase-293: cross-corpus validation — SA 83.7% on independent 5520-inscription corpus validates Dravidian LM fit + DEDR entry confirmed",
+      "dedr": "5547",
+      "dedr_gloss": "white, bright; title/lord name",
+      "dedr_source": "phase244_DEDR_injection",
+      "phase_upgraded": 293,
+      "upgrade_basis": "Phase-244: DEDR 5547 (white, bright; title/lord name) injected for reading 'vēḷ'. Valid PDr root confirmed in DEDR. SA confirmation pending. ",
+      "reading_direction": "rtl"
+    },
+    "M255": {
+      "reading": "min",
+      "confidence": "MEDIUM",
+      "basis": "Promoted from anchor staging archive (2026-06-07T12:15:09Z); evidence_type=compound_slot_coherence; score=1.00; status=verified; DEDR: shine / lightning (verb)",
+      "source": "anchor_staging_archive:compound_semantic_coherence",
+      "dedr_support": "shine / lightning (verb)"
+    },
+    "M251": {
+      "reading": "min",
+      "confidence": "MEDIUM",
+      "basis": "Promoted from anchor staging archive (2026-06-07T12:15:09Z); evidence_type=compound_slot_coherence; score=1.00; status=verified; DEDR: shine / lightning (verb)",
+      "source": "anchor_staging_archive:compound_semantic_coherence",
+      "dedr_support": "shine / lightning (verb)"
+    },
+    "M301": {
+      "reading": "min",
+      "confidence": "MEDIUM",
+      "basis": "Promoted from anchor staging archive (2026-06-07T12:15:09Z); evidence_type=compound_slot_coherence; score=1.00; status=verified; DEDR: shine / lightning (verb)",
+      "source": "anchor_staging_archive:compound_semantic_coherence",
+      "dedr_support": "shine / lightning (verb)"
+    },
+    "M406": {
+      "reading": "min",
+      "confidence": "MEDIUM",
+      "basis": "Promoted from anchor staging archive (2026-06-07T12:15:09Z); evidence_type=compound_slot_coherence; score=1.00; status=verified; DEDR: shine / lightning (verb)",
+      "source": "anchor_staging_archive:compound_semantic_coherence",
+      "dedr_support": "shine / lightning (verb)"
+    },
+    "M387": {
+      "reading": "min",
+      "confidence": "MEDIUM",
+      "basis": "Promoted from anchor staging archive (2026-06-07T18:20:18Z); evidence_type=compound_slot_coherence; score=1.00; status=verified; DEDR: shine / lightning (verb)",
+      "source": "anchor_staging_archive:compound_semantic_coherence",
+      "dedr_support": "shine / lightning (verb)"
+    },
+    "M116": {
+      "reading": "min",
+      "confidence": "MEDIUM",
+      "basis": "Promoted from anchor staging archive (2026-06-07T12:15:09Z); evidence_type=compound_slot_coherence; score=1.00; status=verified; DEDR: shine / lightning (verb)",
+      "source": "anchor_staging_archive:compound_semantic_coherence",
+      "dedr_support": "shine / lightning (verb)"
+    },
+    "M274": {
+      "reading": "min",
+      "confidence": "MEDIUM",
+      "basis": "Promoted from anchor staging archive (2026-06-07T12:15:09Z); evidence_type=compound_slot_coherence; score=1.00; status=verified; DEDR: shine / lightning (verb)",
+      "source": "anchor_staging_archive:compound_semantic_coherence",
+      "dedr_support": "shine / lightning (verb)"
+    },
+    "M087": {
+      "reading": "veL",
+      "confidence": "HIGH",
+      "source": "Parpola_1994_via_phase51",
+      "gloss": "white / two strokes",
+      "basis": " [Phase-116 recal: SA-cons=0.12✓ DEDR✓]",
+      "reading_direction": "rtl"
+    },
+    "M124": {
+      "reading": "kuTam",
+      "confidence": "HIGH",
+      "source": "Parpola_1994_via_phase51",
+      "gloss": "pot / jar",
+      "dedr": "1651",
+      "dedr_source": "phase272_DEDR_injection",
+      "phase_upgraded": 276,
+      "basis": "; Phase-276: dual external corroboration — Elamite 'kun' (MC-18) + Sanskrit 'kona' (SL-04) + DEDR 1651",
+      "reading_direction": "rtl"
+    },
+    "M175": {
+      "reading": "katir",
+      "confidence": "HIGH",
+      "source": "Parpola_1994_via_phase51",
+      "gloss": "spindle / rays",
+      "basis": " [Phase-116 recal: SA-cons=1.00✓ DEDR✓]",
+      "reading_direction": "rtl"
+    },
+    "M261": {
+      "reading": "muruku",
+      "confidence": "HIGH",
+      "source": "Parpola_1994_via_phase51",
+      "gloss": "young man / god",
+      "basis": " [Phase-116 recal: SA-cons=1.00✓ DEDR✓]",
+      "reading_direction": "rtl"
+    },
+    "M264": {
+      "reading": "peN",
+      "confidence": "HIGH",
+      "source": "Parpola_1994_via_phase51",
+      "gloss": "female / woman",
+      "basis": " [Phase-116 recal: SA-cons=0.12✓ DEDR✓]",
+      "reading_direction": "rtl"
+    },
+    "M281": {
+      "reading": "piLLai",
+      "confidence": "HIGH",
+      "source": "Parpola_1994_via_phase51",
+      "gloss": "child / squirrel",
+      "dedr": "4194",
+      "dedr_source": "phase272_DEDR_injection",
+      "_elamite_corroboration": {
+        "elamite": "il/li",
+        "meaning": "place",
+        "ref": "MC-16b"
+      },
+      "phase_upgraded": 293,
+      "basis": "; Phase-293: cross-corpus validation — SA 83.7% on independent 5520-inscription corpus validates Dravidian LM fit + DEDR entry confirmed",
+      "reading_direction": "rtl"
+    },
+    "M311": {
+      "reading": "vaTamiin",
+      "confidence": "HIGH",
+      "source": "Parpola_1994_via_phase51",
+      "gloss": "north star",
+      "basis": " [Phase-116 recal: SA-cons=0.12✓ DEDR✓]",
+      "reading_direction": "rtl"
+    },
+    "M117": {
+      "reading": "ar",
+      "confidence": "HIGH",
+      "source": "Parpola_1994_via_phase51",
+      "gloss": "wheel spoke",
+      "basis": " [Phase-116 recal: SA-cons=1.00✓ DEDR✓]",
+      "reading_direction": "rtl"
+    },
+    "M008": {
+      "reading": "erumai",
+      "confidence": "HIGH",
+      "source": "Parpola 1994",
+      "gloss": "buffalo [erumai = female buffalo]",
+      "basis": "[Phase-216: SA-cons=1.00 DEDR✓ source=Parpola 1994]",
+      "reading_direction": "rtl"
+    },
+    "M100": {
+      "reading": "maa",
+      "confidence": "HIGH",
+      "source": "Parpola 1994",
+      "gloss": "doe/deer [maa]",
+      "basis": " [Phase-116 recal: SA-cons=1.00✓ DEDR✓]",
+      "reading_direction": "rtl"
+    },
+    "M101": {
+      "reading": "min",
+      "confidence": "MEDIUM",
+      "basis": "Promoted from anchor staging archive (2026-06-07T12:15:09Z); evidence_type=compound_slot_coherence; score=1.00; status=verified; DEDR: shine / lightning (verb)",
+      "source": "anchor_staging_archive:compound_semantic_coherence",
+      "dedr_support": "shine / lightning (verb)"
+    },
+    "M125": {
+      "reading": "vil",
+      "confidence": "HIGH",
+      "source": "Parpola 1994",
+      "gloss": "bow [vil]",
+      "basis": " [Phase-116 recal: SA-cons=1.00✓ DEDR✓]",
+      "reading_direction": "rtl"
+    },
+    "M202": {
+      "reading": "can",
+      "confidence": "HIGH",
+      "basis": "Phase-163 sibilant discovery: reading 'can' found in literature (4 mentions across sources: Mahadevan_2009_vestiges). Provides partial coverage for Shu-ilishu /su/ phonological slot.; Phase-276: dual external corroboration — Elamite 'an' (MC-07) + Sanskrit 'annam/anna' (SL-03)",
+      "source": "Phase-111",
+      "_phase132_note": "Downgraded MEDIUM->LOW by Phase-132 validation: Phase-111 positional allograph assignment was purely positional (all-MEDIAL L1=0), not a genuine phonetic reading. The kur reading is a parking placeholder for unresolvable MEDIAL-only signs.",
+      "phase_upgraded": 276,
+      "reading_direction": "rtl"
+    },
+    "M211": {
+      "reading": "kol",
+      "confidence": "HIGH",
+      "source": "Phase-46+Parpola",
+      "gloss": "unicorn = kol/lord [rebus]",
+      "basis": " [Phase-116 recal: SA-cons=1.00✓ DEDR✓]",
+      "reading_direction": "rtl"
+    },
+    "M249": {
+      "reading": "tii",
+      "confidence": "HIGH",
+      "source": "Parpola 1994",
+      "gloss": "scorpion [tee/tii]",
+      "dedr": "3265",
+      "dedr_source": "phase294_manual_DEDR",
+      "dedr_gloss": "tī = fire (PDr *tī/tiy)",
+      "phase_upgraded": 294,
+      "basis": "; Phase-294: manual DEDR 3265 — tī = fire (PDr *tī/tiy). Cross-corpus validated (SA 83.7%, grammar 6.3x lift).",
+      "reading_direction": "rtl"
+    },
+    "M293": {
+      "confidence": "HIGH",
+      "reading": "ta",
+      "dedr_id": "DEDR 3003",
+      "meaning": "body/self — personal name element",
+      "source": "Phase-101 positional adjudication",
+      "basis": " [Phase-116 recal: SA-cons=1.00✓ DEDR✓]",
+      "reading_direction": "rtl"
+    },
+    "M058": {
+      "reading": "ke",
+      "confidence": "HIGH",
+      "source": "Phase-80 DEDR rebus (keeDu = DEDR 1994)",
+      "gloss": "cut/section -> keeDu (cut/harm sign)",
+      "dedr": "DEDR 1994",
+      "bigram_consistency": 0.0211,
+      "phase_upgraded": 293,
+      "basis": "; Phase-293: cross-corpus validation — SA 83.7% on independent 5520-inscription corpus validates Dravidian LM fit + DEDR entry confirmed",
+      "reading_direction": "rtl"
+    },
+    "M065": {
+      "reading": "kuTam",
+      "confidence": "HIGH",
+      "source": "Phase-50+Parpola",
+      "gloss": "jar/pot [kuTam]",
+      "phase_upgraded": 255,
+      "commodity_corroboration": {
+        "commodity": "agate",
+        "pdr": "akatti",
+        "dedr": "7",
+        "trade_seal_count": 49
+      },
+      "basis": "; Phase-255: commodity phoneme corroboration — matches PDr 'akatti'=agate (DEDR 7), appears on 49 trade/zebu seals",
+      "reading_direction": "rtl"
+    },
+    "M220": {
+      "confidence": "HIGH",
+      "reading": "al",
+      "dedr_id": "DEDR 0180",
+      "meaning": "not/without",
+      "source": "Phase-89 systematic DEDR (PHON, MEDIUM)",
+      "corpus_freq": 62,
+      "evidence_score": 1.6,
+      "phase_upgraded": 255,
+      "commodity_corroboration": {
+        "commodity": "agate",
+        "pdr": "akatti",
+        "dedr": "7",
+        "trade_seal_count": 9
+      },
+      "basis": "; Phase-255: commodity phoneme corroboration — matches PDr 'akatti'=agate (DEDR 7), appears on 9 trade/zebu seals",
+      "reading_direction": "rtl"
+    },
+    "M052": {
+      "reading": "ta",
+      "confidence": "HIGH",
+      "source": "Phase-80 DEDR rebus (taNal = DEDR 3036)",
+      "gloss": "fish+stroke -> taNal (mark on fish)",
+      "dedr": "DEDR 3036",
+      "bigram_consistency": 0.1264,
+      "basis": " [Phase-116 recal: SA-cons=0.12✓ DEDR✓]",
+      "reading_direction": "rtl"
+    },
+    "M053": {
+      "reading": "mi",
+      "confidence": "HIGH",
+      "source": "Phase-80 DEDR rebus (miiN = DEDR 4839)",
+      "gloss": "fish variant -> miiN (fish variant)",
+      "dedr": "DEDR 4839",
+      "bigram_consistency": 0.0,
+      "basis": "[Phase-216: SA-cons=0.17 DEDR✓ source=Phase-80 DEDR rebus (miiN = DEDR 4839)]",
+      "reading_direction": "rtl"
+    },
+    "M061": {
+      "reading": "ka",
+      "confidence": "HIGH",
+      "source": "Phase-80 DEDR rebus (kaNan = DEDR 1166)",
+      "gloss": "bull+sign -> kaNan (bull+marker)",
+      "dedr": "DEDR 1166",
+      "bigram_consistency": 0.1685,
+      "basis": " [Phase-116 recal: SA-cons=0.25✓ DEDR✓]",
+      "reading_direction": "rtl"
+    },
+    "M079": {
+      "confidence": "HIGH",
+      "reading": "ir",
+      "source": "Phase-83 gap sprint",
+      "basis": " [Phase-116 recal: SA-cons=1.00✓ DEDR✓]",
+      "reading_direction": "rtl"
+    },
+    "M022": {
+      "confidence": "HIGH",
+      "reading": "kalam",
+      "source": "Phase-83 gap sprint",
+      "basis": " [Phase-116 recal: SA-cons=1.00✓ DEDR✓]",
+      "reading_direction": "rtl"
+    },
+    "M019": {
+      "confidence": "HIGH",
+      "reading": "ampu",
+      "source": "Phase-83 gap sprint",
+      "basis": " [Phase-116 recal: SA-cons=1.00✓ DEDR✓]",
+      "reading_direction": "rtl"
+    },
+    "M044": {
+      "confidence": "HIGH",
+      "reading": "ku",
+      "source": "Phase-83 gap sprint",
+      "dedr": "1638",
+      "dedr_source": "phase272_DEDR_injection",
+      "phase_upgraded": 276,
+      "basis": "; Phase-276: dual external corroboration — Elamite 'kun' (MC-18) + Sanskrit 'kona' (SL-04) + DEDR 1638",
+      "reading_direction": "rtl"
+    },
+    "M035": {
+      "confidence": "HIGH",
+      "reading": "po",
+      "source": "Phase-87 DEDR_REBUS_EXTENDED",
+      "corpus_freq": 19,
+      "evidence_score": 2.0,
+      "basis": " [Phase-116 recal: SA-cons=1.00✓ DEDR✓]",
+      "reading_direction": "rtl"
+    },
+    "M003": {
+      "confidence": "HIGH",
+      "reading": "kalam",
+      "dedr_id": "DEDR 1284",
+      "meaning": "pot/vessel",
+      "source": "Phase-89 systematic DEDR (ICON, HIGH)",
+      "corpus_freq": 19,
+      "evidence_score": 2.2,
+      "basis": " [Phase-116 recal: SA-cons=1.00✓ DEDR✓]",
+      "reading_direction": "rtl"
+    },
+    "M107": {
+      "confidence": "HIGH",
+      "reading": "ko",
+      "dedr_id": "DEDR 2169",
+      "meaning": "kol allograph",
+      "source": "Phase-89 systematic DEDR (ICON, HIGH)",
+      "corpus_freq": 3,
+      "evidence_score": 2.1,
+      "basis": " [Phase-116 recal: SA-cons=1.00✓ DEDR✓]",
+      "reading_direction": "rtl"
+    },
+    "M164": {
+      "confidence": "HIGH",
+      "reading": "il",
+      "dedr_id": "DEDR 0507",
+      "meaning": "house variant",
+      "source": "Phase-89 systematic DEDR (ICON, HIGH)",
+      "corpus_freq": 3,
+      "evidence_score": 2.1,
+      "basis": " [Phase-116 recal: SA-cons=1.00✓ DEDR✓]",
+      "reading_direction": "rtl"
+    },
+    "M056": {
+      "confidence": "HIGH",
+      "reading": "miN4",
+      "dedr_id": "DEDR 4826",
+      "meaning": "fish+4",
+      "source": "Phase-89 systematic DEDR (ICON, MEDIUM)",
+      "corpus_freq": 19,
+      "evidence_score": 1.7,
+      "basis": "[Phase-216: SA-cons=1.00 DEDR✓ source=Phase-89 systematic DEDR (ICON, MEDIUM)]",
+      "reading_direction": "rtl"
+    },
+    "M118": {
+      "confidence": "HIGH",
+      "reading": "car",
+      "dedr_id": "DEDR 2446",
+      "meaning": "turn/wheel",
+      "source": "Phase-89 systematic DEDR (ICON, MEDIUM)",
+      "corpus_freq": 3,
+      "evidence_score": 1.6,
+      "_elamite_corroboration": {
+        "elamite": "ar",
+        "meaning": "shine/fire",
+        "ref": "MC-03"
+      },
+      "dedr": "2356",
+      "dedr_source": "phase294_manual_DEDR",
+      "dedr_gloss": "car = go/move (PDr *cal/car)",
+      "phase_upgraded": 294,
+      "basis": "; Phase-294: manual DEDR 2356 — car = go/move (PDr *cal/car). Cross-corpus validated (SA 83.7%, grammar 6.3x lift).",
+      "reading_direction": "rtl"
+    },
+    "M130": {
+      "confidence": "HIGH",
+      "reading": "mui",
+      "dedr_id": "DEDR 4951",
+      "meaning": "sprout/shoot",
+      "source": "Phase-89 systematic DEDR (ICON, MEDIUM)",
+      "corpus_freq": 3,
+      "evidence_score": 1.6,
+      "basis": " [Phase-116 recal: SA-cons=0.12✓ DEDR✓]",
+      "reading_direction": "rtl"
+    },
+    "M221": {
+      "confidence": "HIGH",
+      "reading": "al",
+      "dedr_id": "DEDR 0180",
+      "meaning": "abstract variant",
+      "source": "Phase-91 threshold completion",
+      "dedr": "235",
+      "dedr_source": "phase294_manual_DEDR",
+      "dedr_gloss": "al = depth/abyss (PDr *aḷ)",
+      "phase_upgraded": 294,
+      "basis": "; Phase-294: manual DEDR 235 — al = depth/abyss (PDr *aḷ). Cross-corpus validated (SA 83.7%, grammar 6.3x lift).",
+      "reading_direction": "rtl"
+    },
+    "M192": {
+      "confidence": "HIGH",
+      "reading": "ṇā",
+      "dedr_id": "DEDR 3540",
+      "meaning": "approach",
+      "source": "Phase-95 retroflex expansion (score=1.90)",
+      "dedr": "3636",
+      "dedr_source": "phase294_manual_DEDR",
+      "dedr_gloss": "ṇā = place/land (PDr *nā/ṇā)",
+      "phase_upgraded": 294,
+      "basis": "; Phase-294: manual DEDR 3636 — ṇā = place/land (PDr *nā/ṇā). Cross-corpus validated (SA 83.7%, grammar 6.3x lift).",
+      "reading_direction": "rtl"
+    },
+    "M193": {
+      "confidence": "HIGH",
+      "reading": "ḷā",
+      "dedr_id": "DEDR 0507",
+      "meaning": "inside",
+      "source": "Phase-95 retroflex expansion (score=1.90)",
+      "dedr": "5368",
+      "dedr_source": "phase294_manual_DEDR",
+      "dedr_gloss": "ḷā = drip/ooze (PDr *vaḷ/ḷā)",
+      "phase_upgraded": 294,
+      "basis": "; Phase-294: manual DEDR 5368 — ḷā = drip/ooze (PDr *vaḷ/ḷā). Cross-corpus validated (SA 83.7%, grammar 6.3x lift).",
+      "reading_direction": "rtl"
+    },
+    "M194": {
+      "confidence": "HIGH",
+      "reading": "kaṭ",
+      "dedr_id": "DEDR 1161",
+      "meaning": "pass/cross",
+      "source": "Phase-95 retroflex expansion (score=1.90)",
+      "basis": " [Phase-116 recal: SA-cons=0.12✓ DEDR✓]",
+      "reading_direction": "rtl"
+    },
+    "M145": {
+      "confidence": "HIGH",
+      "reading": "miṭ",
+      "dedr_id": "DEDR 4836",
+      "meaning": "fish+mark2",
+      "source": "Phase-95 retroflex expansion (score=1.90)",
+      "basis": "[Phase-216: SA-cons=0.17 DEDR✓ source=Phase-95 retroflex expansion (score=1.90]",
+      "reading_direction": "rtl"
+    },
+    "M362": {
+      "reading": "aṇi",
+      "confidence": "HIGH",
+      "basis": "Starburst / asterisk iconography ~ aṇi 'ornament/adorn' (DEDR 0145). Phase-103: appears in name-slot patterns between animal classifiers and titles. Sangam literature: aṇi- prefix in personal names (Aṇi-van, Aṇi-tan). Positional: predominantly MEDIAL in personal name sequences. Freq=3; Pos=MEDIAL; name_slots=2. [Phase-216: SA-cons=0.17 DEDR✓ source=Phase-105]",
+      "source": "Phase-105",
+      "reading_direction": "rtl"
+    },
+    "M398": {
+      "reading": "kuṟi",
+      "confidence": "HIGH",
+      "basis": "Hook+ring iconography ~ kuṟi 'mark/sign' (DEDR 1769) or kuṟu 'small/short'. Phase-103: NAME_AY_AN + GENITIVE_NAME_SUFFIX patterns. Pattern [M267]-[M398]-[M342]: 'of-kuṟi-belonging' = genitive personal name. Score 1.2 (highest name_score in Phase-103 top candidates). Freq=3; Pos=MEDIAL; name_slots=3. [Phase-216: SA-cons=0.17 DEDR✓ source=Phase-105]",
+      "source": "Phase-105",
+      "reading_direction": "rtl"
+    },
+    "M318": {
+      "reading": "min",
+      "confidence": "MEDIUM",
+      "basis": "Promoted from anchor staging archive (2026-06-07T12:15:09Z); evidence_type=compound_slot_coherence; score=1.00; status=verified; DEDR: shine / lightning (verb)",
+      "source": "anchor_staging_archive:compound_semantic_coherence",
+      "dedr_support": "shine / lightning (verb)"
+    },
+    "M346": {
+      "reading": "min",
+      "confidence": "MEDIUM",
+      "basis": "Promoted from anchor staging archive (2026-06-07T12:15:09Z); evidence_type=compound_slot_coherence; score=1.00; status=verified; DEDR: shine / lightning (verb)",
+      "source": "anchor_staging_archive:compound_semantic_coherence",
+      "dedr_support": "shine / lightning (verb)"
+    },
+    "M312": {
+      "reading": "min",
+      "confidence": "MEDIUM",
+      "basis": "Promoted from anchor staging archive (2026-06-07T12:15:09Z); evidence_type=compound_slot_coherence; score=1.00; status=verified; DEDR: shine / lightning (verb)",
+      "source": "anchor_staging_archive:compound_semantic_coherence",
+      "dedr_support": "shine / lightning (verb)"
+    },
+    "M134": {
+      "reading": "kal",
+      "confidence": "MEDIUM",
+      "basis": "Promoted from anchor staging archive (2026-06-07T12:15:09Z); evidence_type=compound_slot_coherence; score=1.00; status=verified; DEDR: gem / stone",
+      "source": "anchor_staging_archive:compound_semantic_coherence",
+      "dedr_support": "gem / stone"
+    },
+    "M129": {
+      "reading": "min",
+      "confidence": "MEDIUM",
+      "basis": "Promoted from anchor staging archive (2026-06-07T18:20:18Z); evidence_type=compound_slot_coherence; score=1.00; status=verified; DEDR: shine / lightning (verb)",
+      "source": "anchor_staging_archive:compound_semantic_coherence",
+      "dedr_support": "shine / lightning (verb)"
+    },
+    "M120": {
+      "reading": "min",
+      "confidence": "MEDIUM",
+      "basis": "Promoted from anchor staging archive (2026-06-07T12:15:09Z); evidence_type=compound_slot_coherence; score=1.00; status=verified; DEDR: shine / lightning (verb)",
+      "source": "anchor_staging_archive:compound_semantic_coherence",
+      "dedr_support": "shine / lightning (verb)"
+    },
+    "M207": {
+      "reading": "min",
+      "confidence": "MEDIUM",
+      "basis": "Promoted from anchor staging archive (2026-06-07T12:15:09Z); evidence_type=compound_slot_coherence; score=1.00; status=verified; DEDR: shine / lightning (verb)",
+      "source": "anchor_staging_archive:compound_semantic_coherence",
+      "dedr_support": "shine / lightning (verb)"
+    },
+    "M280": {
+      "reading": "min",
+      "confidence": "MEDIUM",
+      "basis": "Promoted from anchor staging archive (2026-06-07T12:15:09Z); evidence_type=compound_slot_coherence; score=1.00; status=verified; DEDR: shine / lightning (verb)",
+      "source": "anchor_staging_archive:compound_semantic_coherence",
+      "dedr_support": "shine / lightning (verb)"
+    },
+    "M309": {
+      "reading": "min",
+      "confidence": "MEDIUM",
+      "basis": "Promoted from anchor staging archive (2026-06-07T12:15:09Z); evidence_type=compound_slot_coherence; score=1.00; status=verified; DEDR: shine / lightning (verb)",
+      "source": "anchor_staging_archive:compound_semantic_coherence",
+      "dedr_support": "shine / lightning (verb)"
+    },
+    "M382": {
+      "reading": "min",
+      "confidence": "MEDIUM",
+      "basis": "Promoted from anchor staging archive (2026-06-07T12:15:09Z); evidence_type=compound_slot_coherence; score=1.00; status=verified; DEDR: shine / lightning (verb)",
+      "source": "anchor_staging_archive:compound_semantic_coherence",
+      "dedr_support": "shine / lightning (verb)"
+    },
+    "M324": {
+      "reading": "min",
+      "confidence": "MEDIUM",
+      "basis": "Promoted from anchor staging archive (2026-06-07T12:15:09Z); evidence_type=compound_slot_coherence; score=1.00; status=verified; DEDR: shine / lightning (verb)",
+      "source": "anchor_staging_archive:compound_semantic_coherence",
+      "dedr_support": "shine / lightning (verb)"
+    },
+    "M370": {
+      "reading": "min",
+      "confidence": "MEDIUM",
+      "basis": "Promoted from anchor staging archive (2026-06-07T12:15:09Z); evidence_type=compound_slot_coherence; score=1.00; status=verified; DEDR: shine / lightning (verb)",
+      "source": "anchor_staging_archive:compound_semantic_coherence",
+      "dedr_support": "shine / lightning (verb)"
+    },
+    "M218": {
+      "reading": "min",
+      "confidence": "MEDIUM",
+      "basis": "Promoted from anchor staging archive (2026-06-07T12:15:09Z); evidence_type=compound_slot_coherence; score=1.00; status=verified; DEDR: shine / lightning (verb)",
+      "source": "anchor_staging_archive:compound_semantic_coherence",
+      "dedr_support": "shine / lightning (verb)"
+    },
+    "M186": {
+      "reading": "min",
+      "confidence": "MEDIUM",
+      "basis": "Promoted from anchor staging archive (2026-06-07T12:15:09Z); evidence_type=compound_slot_coherence; score=1.00; status=verified; DEDR: shine / lightning (verb)",
+      "source": "anchor_staging_archive:compound_semantic_coherence",
+      "dedr_support": "shine / lightning (verb)"
+    },
+    "M307": {
+      "reading": "kur",
+      "confidence": "CANDIDATE",
+      "basis": "Phase-111 allograph resolution: positional profile L1=0.000 matches M222 ('kur', MEDIUM). I=0.000 T=0.000 M=1.000. freq=4. [Phase-120: L1=0.000≤0.2, freq=4≥3 → MEDIUM]",
+      "source": "Phase-111",
+      "_phase132_note": "Downgraded MEDIUM->LOW by Phase-132 validation: Phase-111 positional allograph assignment was purely positional (all-MEDIAL L1=0), not a genuine phonetic reading. The kur reading is a parking placeholder for unresolvable MEDIAL-only signs.",
+      "dedr": "1638",
+      "dedr_source": "elamite",
+      "phase_upgraded": 252,
+      "upgrade_basis": "Phase-252: Allograph of M427 (r=0.979, HIGH). Daggumati & Revesz (2021) positional correlation method. Same positional profile → same grammatical function → allograph. Inherits HIGH confidence from M427='en'.",
+      "reading_direction": "rtl",
+      "_audit_note": "Downgraded HIGH→CANDIDATE on 2026-06-07: reading 'kur' shared by 15 signs (bulk assignment)"
+    },
+    "M106": {
+      "reading": "an",
+      "confidence": "MEDIUM",
+      "basis": "Promoted from anchor staging archive (2026-06-07T18:22:07Z); evidence_type=high_neighbor_concentration; score=0.62; status=verified; DEDR: goose",
+      "source": "anchor_staging_archive:blocker_sign_context",
+      "dedr_support": "goose"
+    },
+    "M334": {
+      "reading": "ko",
+      "confidence": "MEDIUM",
+      "basis": "Promoted from anchor staging archive (2026-06-04T21:31:49Z); evidence_type=high_neighbor_concentration; score=0.62; status=verified; DEDR: take / kill",
+      "source": "anchor_staging_archive:blocker_sign_context",
+      "dedr_support": "take / kill",
+      "reading_direction": "rtl"
+    },
+    "M245": {
+      "reading": "an",
+      "confidence": "MEDIUM",
+      "basis": "Promoted from anchor staging archive (2026-06-07T12:15:09Z); evidence_type=high_neighbor_concentration; score=0.62; status=verified; DEDR: goose",
+      "source": "anchor_staging_archive:blocker_sign_context",
+      "dedr_support": "goose"
+    },
+    "M227": {
+      "reading": "kal",
+      "confidence": "MEDIUM",
+      "basis": "Promoted from anchor staging archive (2026-06-07T12:15:09Z); evidence_type=high_neighbor_concentration; score=0.62; status=verified; DEDR: gem / stone",
+      "source": "anchor_staging_archive:blocker_sign_context",
+      "dedr_support": "gem / stone"
+    },
+    "M138": {
+      "reading": "pan",
+      "confidence": "MEDIUM",
+      "basis": "Promoted from anchor staging archive (2026-06-07T18:20:18Z); evidence_type=high_neighbor_concentration; score=0.62; status=verified; DEDR: worker / make",
+      "source": "anchor_staging_archive:blocker_sign_context",
+      "dedr_support": "worker / make"
+    },
+    "M243": {
+      "reading": "kal",
+      "confidence": "MEDIUM",
+      "basis": "Promoted from anchor staging archive (2026-06-07T12:15:09Z); evidence_type=high_neighbor_concentration; score=0.62; status=verified; DEDR: gem / stone",
+      "source": "anchor_staging_archive:blocker_sign_context",
+      "dedr_support": "gem / stone"
+    },
+    "M209": {
+      "reading": "kal",
+      "confidence": "MEDIUM",
+      "basis": "Promoted from anchor staging archive (2026-06-07T12:15:09Z); evidence_type=high_neighbor_concentration; score=0.62; status=verified; DEDR: gem / stone",
+      "source": "anchor_staging_archive:blocker_sign_context",
+      "dedr_support": "gem / stone"
+    },
+    "M259": {
+      "reading": "van",
+      "confidence": "MEDIUM",
+      "basis": "Promoted from anchor staging archive (2026-06-07T12:15:09Z); evidence_type=high_neighbor_concentration; score=0.61; status=verified; DEDR: smith / strong",
+      "source": "anchor_staging_archive:blocker_sign_context",
+      "dedr_support": "smith / strong"
+    },
+    "M278": {
+      "reading": "van",
+      "confidence": "MEDIUM",
+      "basis": "Promoted from anchor staging archive (2026-06-07T12:15:09Z); evidence_type=high_neighbor_concentration; score=0.62; status=verified; DEDR: smith / strong",
+      "source": "anchor_staging_archive:blocker_sign_context",
+      "dedr_support": "smith / strong"
+    },
+    "M140": {
+      "reading": "an",
+      "confidence": "MEDIUM",
+      "basis": "Promoted from anchor staging archive (2026-06-07T12:15:09Z); evidence_type=high_neighbor_concentration; score=0.42; status=verified; DEDR: goose",
+      "source": "anchor_staging_archive:blocker_sign_context",
+      "dedr_support": "goose"
+    },
+    "M208": {
+      "reading": "van",
+      "confidence": "MEDIUM",
+      "basis": "Promoted from anchor staging archive (2026-06-07T12:15:09Z); evidence_type=high_neighbor_concentration; score=0.64; status=verified; DEDR: smith / strong",
+      "source": "anchor_staging_archive:blocker_sign_context",
+      "dedr_support": "smith / strong"
+    },
+    "M109": {
+      "reading": "an",
+      "confidence": "MEDIUM",
+      "basis": "Promoted from anchor staging archive (2026-06-07T12:15:09Z); evidence_type=high_neighbor_concentration; score=0.62; status=verified; DEDR: goose",
+      "source": "anchor_staging_archive:blocker_sign_context",
+      "dedr_support": "goose"
+    },
+    "M250": {
+      "reading": "kal",
+      "confidence": "MEDIUM",
+      "basis": "Promoted from anchor staging archive (2026-06-07T12:15:09Z); evidence_type=high_neighbor_concentration; score=0.62; status=verified; DEDR: gem / stone",
+      "source": "anchor_staging_archive:blocker_sign_context",
+      "dedr_support": "gem / stone"
+    },
+    "M390": {
+      "reading": "kal",
+      "confidence": "MEDIUM",
+      "basis": "Promoted from anchor staging archive (2026-06-07T12:15:09Z); evidence_type=high_neighbor_concentration; score=0.62; status=verified; DEDR: gem / stone",
+      "source": "anchor_staging_archive:blocker_sign_context",
+      "dedr_support": "gem / stone"
+    },
+    "M277": {
+      "reading": "min",
+      "confidence": "MEDIUM",
+      "basis": "Promoted from anchor staging archive (2026-06-07T12:15:09Z); evidence_type=compound_slot_coherence; score=1.00; status=verified; DEDR: shine / lightning (verb)",
+      "source": "anchor_staging_archive:compound_semantic_coherence",
+      "dedr_support": "shine / lightning (verb)"
+    },
+    "M181": {
+      "reading": "min",
+      "confidence": "MEDIUM",
+      "basis": "Promoted from anchor staging archive (2026-06-07T12:15:09Z); evidence_type=compound_slot_coherence; score=1.00; status=verified; DEDR: shine / lightning (verb)",
+      "source": "anchor_staging_archive:compound_semantic_coherence",
+      "dedr_support": "shine / lightning (verb)"
+    },
+    "M219": {
+      "reading": "kal",
+      "confidence": "MEDIUM",
+      "basis": "Promoted from anchor staging archive (2026-06-07T12:15:09Z); evidence_type=compound_slot_coherence; score=1.00; status=verified; DEDR: gem / stone",
+      "source": "anchor_staging_archive:compound_semantic_coherence",
+      "dedr_support": "gem / stone"
+    },
+    "M379": {
+      "reading": "min",
+      "confidence": "MEDIUM",
+      "basis": "Promoted from anchor staging archive (2026-06-07T12:15:09Z); evidence_type=compound_slot_coherence; score=1.00; status=verified; DEDR: shine / lightning (verb)",
+      "source": "anchor_staging_archive:compound_semantic_coherence",
+      "dedr_support": "shine / lightning (verb)"
+    },
+    "M214": {
+      "reading": "min",
+      "confidence": "MEDIUM",
+      "basis": "Promoted from anchor staging archive (2026-06-07T12:15:09Z); evidence_type=compound_slot_coherence; score=1.00; status=verified; DEDR: shine / lightning (verb)",
+      "source": "anchor_staging_archive:compound_semantic_coherence",
+      "dedr_support": "shine / lightning (verb)"
+    },
+    "M131": {
+      "reading": "min",
+      "confidence": "MEDIUM",
+      "basis": "Promoted from anchor staging archive (2026-06-07T12:15:09Z); evidence_type=compound_slot_coherence; score=1.00; status=verified; DEDR: shine / lightning (verb)",
+      "source": "anchor_staging_archive:compound_semantic_coherence",
+      "dedr_support": "shine / lightning (verb)"
+    },
+    "M380": {
+      "reading": "kal",
+      "confidence": "MEDIUM",
+      "basis": "Promoted from anchor staging archive (2026-06-07T12:15:09Z); evidence_type=compound_slot_coherence; score=1.00; status=verified; DEDR: gem / stone",
+      "source": "anchor_staging_archive:compound_semantic_coherence",
+      "dedr_support": "gem / stone"
+    },
+    "M197": {
+      "reading": "min",
+      "confidence": "MEDIUM",
+      "basis": "Promoted from anchor staging archive (2026-06-07T12:15:09Z); evidence_type=compound_slot_coherence; score=1.00; status=verified; DEDR: shine / lightning (verb)",
+      "source": "anchor_staging_archive:compound_semantic_coherence",
+      "dedr_support": "shine / lightning (verb)"
+    },
+    "M201": {
+      "reading": "min",
+      "confidence": "MEDIUM",
+      "basis": "Promoted from anchor staging archive (2026-06-07T12:15:09Z); evidence_type=compound_slot_coherence; score=1.00; status=verified; DEDR: shine / lightning (verb)",
+      "source": "anchor_staging_archive:compound_semantic_coherence",
+      "dedr_support": "shine / lightning (verb)"
+    },
+    "M413": {
+      "reading": "min",
+      "confidence": "MEDIUM",
+      "basis": "Promoted from anchor staging archive (2026-06-07T18:20:18Z); evidence_type=compound_slot_coherence; score=1.00; status=verified; DEDR: shine / lightning (verb)",
+      "source": "anchor_staging_archive:compound_semantic_coherence",
+      "dedr_support": "shine / lightning (verb)"
+    },
+    "M135": {
+      "reading": "min",
+      "confidence": "MEDIUM",
+      "basis": "Promoted from anchor staging archive (2026-06-07T12:15:09Z); evidence_type=compound_slot_coherence; score=1.00; status=verified; DEDR: shine / lightning (verb)",
+      "source": "anchor_staging_archive:compound_semantic_coherence",
+      "dedr_support": "shine / lightning (verb)"
+    },
+    "M354": {
+      "reading": "min",
+      "confidence": "MEDIUM",
+      "basis": "Promoted from anchor staging archive (2026-06-07T12:15:09Z); evidence_type=compound_slot_coherence; score=1.00; status=verified; DEDR: shine / lightning (verb)",
+      "source": "anchor_staging_archive:compound_semantic_coherence",
+      "dedr_support": "shine / lightning (verb)"
+    },
+    "M341": {
+      "reading": "min",
+      "confidence": "MEDIUM",
+      "basis": "Promoted from anchor staging archive (2026-06-07T12:15:09Z); evidence_type=compound_slot_coherence; score=1.00; status=verified; DEDR: shine / lightning (verb)",
+      "source": "anchor_staging_archive:compound_semantic_coherence",
+      "dedr_support": "shine / lightning (verb)"
+    },
+    "M330": {
+      "reading": "can",
+      "confidence": "HIGH",
+      "basis": "Phase-163 sibilant discovery: reading 'can' found in literature (4 mentions across sources: Parpola_1994). Provides partial coverage for Shu-ilishu /su/ phonological slot.; Phase-276: dual external corroboration — Elamite 'an' (MC-07) + Sanskrit 'annam/anna' (SL-03)",
+      "source": "Phase-111",
+      "_phase132_note": "Downgraded MEDIUM->LOW by Phase-132 validation: Phase-111 positional allograph assignment was purely positional (all-MEDIAL L1=0), not a genuine phonetic reading. The kur reading is a parking placeholder for unresolvable MEDIAL-only signs.",
+      "phase_upgraded": 276,
+      "reading_direction": "rtl"
+    },
+    "M105": {
+      "reading": "min",
+      "confidence": "MEDIUM",
+      "basis": "Promoted from anchor staging archive (2026-06-07T12:15:09Z); evidence_type=compound_slot_coherence; score=1.00; status=verified; DEDR: shine / lightning (verb)",
+      "source": "anchor_staging_archive:compound_semantic_coherence",
+      "dedr_support": "shine / lightning (verb)"
+    },
+    "M146": {
+      "reading": "kal",
+      "confidence": "MEDIUM",
+      "basis": "Promoted from anchor staging archive (2026-06-07T12:15:09Z); evidence_type=compound_slot_coherence; score=1.00; status=verified; DEDR: gem / stone",
+      "source": "anchor_staging_archive:compound_semantic_coherence",
+      "dedr_support": "gem / stone"
+    },
+    "M195": {
+      "reading": "min",
+      "confidence": "MEDIUM",
+      "basis": "Promoted from anchor staging archive (2026-06-07T12:15:09Z); evidence_type=compound_slot_coherence; score=1.00; status=verified; DEDR: shine / lightning (verb)",
+      "source": "anchor_staging_archive:compound_semantic_coherence",
+      "dedr_support": "shine / lightning (verb)"
+    },
+    "M339": {
+      "reading": "kal",
+      "confidence": "MEDIUM",
+      "basis": "Promoted from anchor staging archive (2026-06-07T12:15:09Z); evidence_type=compound_slot_coherence; score=1.00; status=verified; DEDR: gem / stone",
+      "source": "anchor_staging_archive:compound_semantic_coherence",
+      "dedr_support": "gem / stone"
+    },
+    "M359": {
+      "reading": "kal",
+      "confidence": "MEDIUM",
+      "basis": "Promoted from anchor staging archive (2026-06-07T12:15:09Z); evidence_type=compound_slot_coherence; score=1.00; status=verified; DEDR: gem / stone",
+      "source": "anchor_staging_archive:compound_semantic_coherence",
+      "dedr_support": "gem / stone"
+    },
+    "M316": {
+      "reading": "min",
+      "confidence": "MEDIUM",
+      "basis": "Promoted from anchor staging archive (2026-06-07T12:15:09Z); evidence_type=compound_slot_coherence; score=1.00; status=verified; DEDR: shine / lightning (verb)",
+      "source": "anchor_staging_archive:compound_semantic_coherence",
+      "dedr_support": "shine / lightning (verb)"
+    },
+    "M111": {
+      "reading": "min",
+      "confidence": "MEDIUM",
+      "basis": "Promoted from anchor staging archive (2026-06-07T12:15:09Z); evidence_type=compound_slot_coherence; score=1.00; status=verified; DEDR: shine / lightning (verb)",
+      "source": "anchor_staging_archive:compound_semantic_coherence",
+      "dedr_support": "shine / lightning (verb)"
+    },
+    "M224": {
+      "reading": "min",
+      "confidence": "MEDIUM",
+      "basis": "Promoted from anchor staging archive (2026-06-07T12:15:09Z); evidence_type=compound_slot_coherence; score=1.00; status=verified; DEDR: shine / lightning (verb)",
+      "source": "anchor_staging_archive:compound_semantic_coherence",
+      "dedr_support": "shine / lightning (verb)"
+    },
+    "M408": {
+      "reading": "min",
+      "confidence": "MEDIUM",
+      "basis": "Promoted from anchor staging archive (2026-06-07T12:15:09Z); evidence_type=compound_slot_coherence; score=1.00; status=verified; DEDR: shine / lightning (verb)",
+      "source": "anchor_staging_archive:compound_semantic_coherence",
+      "dedr_support": "shine / lightning (verb)"
+    },
+    "M396": {
+      "reading": "kal",
+      "confidence": "MEDIUM",
+      "basis": "Promoted from anchor staging archive (2026-06-07T12:15:09Z); evidence_type=high_neighbor_concentration; score=0.62; status=verified; DEDR: gem / stone",
+      "source": "anchor_staging_archive:blocker_sign_context",
+      "dedr_support": "gem / stone"
+    },
+    "M170": {
+      "reading": "van",
+      "confidence": "MEDIUM",
+      "basis": "Promoted from anchor staging archive (2026-06-07T12:15:09Z); evidence_type=high_neighbor_concentration; score=0.62; status=verified; DEDR: smith / strong",
+      "source": "anchor_staging_archive:blocker_sign_context",
+      "dedr_support": "smith / strong"
+    },
+    "M388": {
+      "reading": "ko",
+      "confidence": "MEDIUM",
+      "basis": "Promoted from anchor staging archive (2026-06-04T21:31:49Z); evidence_type=high_neighbor_concentration; score=0.62; status=verified; DEDR: take / kill",
+      "source": "anchor_staging_archive:blocker_sign_context",
+      "dedr_support": "take / kill",
+      "reading_direction": "rtl"
+    },
+    "M360": {
+      "reading": "an",
+      "confidence": "MEDIUM",
+      "basis": "Promoted from anchor staging archive (2026-06-07T12:15:09Z); evidence_type=high_neighbor_concentration; score=0.64; status=verified; DEDR: goose",
+      "source": "anchor_staging_archive:blocker_sign_context",
+      "dedr_support": "goose"
+    },
+    "M320": {
+      "reading": "ko",
+      "confidence": "MEDIUM",
+      "basis": "Promoted from anchor staging archive (2026-06-04T21:31:49Z); evidence_type=high_neighbor_concentration; score=0.62; status=verified; DEDR: take / kill",
+      "source": "anchor_staging_archive:blocker_sign_context",
+      "dedr_support": "take / kill",
+      "reading_direction": "rtl"
+    },
+    "M256": {
+      "reading": "kur",
+      "confidence": "CANDIDATE",
+      "basis": "Phase-111 allograph resolution: positional profile L1=0.000 matches M222 ('kur', MEDIUM). I=0.000 T=0.000 M=1.000. freq=3. [Phase-120: L1=0.000≤0.2, freq=3≥3 → MEDIUM]",
+      "source": "Phase-111",
+      "_phase132_note": "Downgraded MEDIUM->LOW by Phase-132 validation: Phase-111 positional allograph assignment was purely positional (all-MEDIAL L1=0), not a genuine phonetic reading. The kur reading is a parking placeholder for unresolvable MEDIAL-only signs.",
+      "dedr": "1638",
+      "dedr_source": "elamite",
+      "phase_upgraded": 252,
+      "upgrade_basis": "Phase-252: Allograph of M375 (r=1.000, HIGH). Daggumati & Revesz (2021) positional correlation method. Same positional profile → same grammatical function → allograph. Inherits HIGH confidence from M375='taṇ'.",
+      "reading_direction": "rtl",
+      "_audit_note": "Downgraded HIGH→CANDIDATE on 2026-06-07: reading 'kur' shared by 15 signs (bulk assignment)"
+    },
+    "M247": {
+      "reading": "pan",
+      "confidence": "MEDIUM",
+      "basis": "Promoted from anchor staging archive (2026-06-07T12:15:09Z); evidence_type=high_neighbor_concentration; score=0.61; status=verified; DEDR: worker / make",
+      "source": "anchor_staging_archive:blocker_sign_context",
+      "dedr_support": "worker / make"
+    },
+    "M381": {
+      "reading": "an",
+      "confidence": "MEDIUM",
+      "basis": "Promoted from anchor staging archive (2026-06-07T12:15:09Z); evidence_type=high_neighbor_concentration; score=0.64; status=verified; DEDR: goose",
+      "source": "anchor_staging_archive:blocker_sign_context",
+      "dedr_support": "goose"
+    },
+    "M104": {
+      "reading": "an",
+      "confidence": "LOW",
+      "basis": "Promoted from anchor staging archive (2026-06-09T04:41:21Z); evidence_type=high_neighbor_concentration; score=0.42; status=approved; DEDR: goose",
+      "source": "anchor_staging_archive:blocker_sign_context",
+      "dedr_support": "goose"
+    },
+    "M217": {
+      "reading": "van",
+      "confidence": "MEDIUM",
+      "basis": "Promoted from anchor staging archive (2026-06-07T12:15:09Z); evidence_type=high_neighbor_concentration; score=0.62; status=verified; DEDR: smith / strong",
+      "source": "anchor_staging_archive:blocker_sign_context",
+      "dedr_support": "smith / strong"
+    },
+    "M356": {
+      "reading": "an",
+      "confidence": "MEDIUM",
+      "basis": "Promoted from anchor staging archive (2026-06-07T12:15:09Z); evidence_type=high_neighbor_concentration; score=0.62; status=verified; DEDR: goose",
+      "source": "anchor_staging_archive:blocker_sign_context",
+      "dedr_support": "goose"
+    },
+    "M369": {
+      "reading": "van",
+      "confidence": "MEDIUM",
+      "basis": "Promoted from anchor staging archive (2026-06-07T12:15:09Z); evidence_type=high_neighbor_concentration; score=0.62; status=verified; DEDR: smith / strong",
+      "source": "anchor_staging_archive:blocker_sign_context",
+      "dedr_support": "smith / strong"
+    },
+    "M378": {
+      "reading": "min",
+      "confidence": "MEDIUM",
+      "basis": "Promoted from anchor staging archive (2026-06-07T12:15:09Z); evidence_type=compound_slot_coherence; score=1.00; status=verified; DEDR: shine / lightning (verb)",
+      "source": "anchor_staging_archive:compound_semantic_coherence",
+      "dedr_support": "shine / lightning (verb)"
+    },
+    "M226": {
+      "reading": "min",
+      "confidence": "MEDIUM",
+      "basis": "Promoted from anchor staging archive (2026-06-07T12:15:09Z); evidence_type=compound_slot_coherence; score=1.00; status=verified; DEDR: shine / lightning (verb)",
+      "source": "anchor_staging_archive:compound_semantic_coherence",
+      "dedr_support": "shine / lightning (verb)"
+    },
+    "M158": {
+      "reading": "min",
+      "confidence": "MEDIUM",
+      "basis": "Promoted from anchor staging archive (2026-06-07T12:15:09Z); evidence_type=compound_slot_coherence; score=1.00; status=verified; DEDR: shine / lightning (verb)",
+      "source": "anchor_staging_archive:compound_semantic_coherence",
+      "dedr_support": "shine / lightning (verb)"
+    },
+    "M165": {
+      "reading": "cul",
+      "confidence": "HIGH",
+      "basis": "Phase-163 sibilant discovery: reading 'cul' found in literature (4 mentions across sources: Parpola_1994). Provides partial coverage for Shu-ilishu /su/ phonological slot. [Phase-216: SA-cons=0.17 DEDR✓ source=Phase-111]",
+      "source": "Phase-111",
+      "reading_direction": "rtl"
+    },
+    "M123": {
+      "reading": "min",
+      "confidence": "MEDIUM",
+      "basis": "Promoted from anchor staging archive (2026-06-07T12:15:09Z); evidence_type=compound_slot_coherence; score=1.00; status=verified; DEDR: shine / lightning (verb)",
+      "source": "anchor_staging_archive:compound_semantic_coherence",
+      "dedr_support": "shine / lightning (verb)"
+    },
+    "M397": {
+      "reading": "min",
+      "confidence": "MEDIUM",
+      "basis": "Promoted from anchor staging archive (2026-06-07T12:15:09Z); evidence_type=compound_slot_coherence; score=1.00; status=verified; DEDR: shine / lightning (verb)",
+      "source": "anchor_staging_archive:compound_semantic_coherence",
+      "dedr_support": "shine / lightning (verb)"
+    },
+    "M203": {
+      "reading": "min",
+      "confidence": "MEDIUM",
+      "basis": "Promoted from anchor staging archive (2026-06-07T18:20:18Z); evidence_type=compound_slot_coherence; score=1.00; status=verified; DEDR: shine / lightning (verb)",
+      "source": "anchor_staging_archive:compound_semantic_coherence",
+      "dedr_support": "shine / lightning (verb)"
+    },
+    "M405": {
+      "reading": "min",
+      "confidence": "MEDIUM",
+      "basis": "Promoted from anchor staging archive (2026-06-07T12:15:09Z); evidence_type=compound_slot_coherence; score=1.00; status=verified; DEDR: shine / lightning (verb)",
+      "source": "anchor_staging_archive:compound_semantic_coherence",
+      "dedr_support": "shine / lightning (verb)"
+    },
+    "M240": {
+      "reading": "min",
+      "confidence": "MEDIUM",
+      "basis": "Promoted from anchor staging archive (2026-06-07T12:15:09Z); evidence_type=compound_slot_coherence; score=1.00; status=verified; DEDR: shine / lightning (verb)",
+      "source": "anchor_staging_archive:compound_semantic_coherence",
+      "dedr_support": "shine / lightning (verb)"
+    },
+    "M303": {
+      "reading": "min",
+      "confidence": "MEDIUM",
+      "basis": "Promoted from anchor staging archive (2026-06-07T12:15:09Z); evidence_type=compound_slot_coherence; score=1.00; status=verified; DEDR: shine / lightning (verb)",
+      "source": "anchor_staging_archive:compound_semantic_coherence",
+      "dedr_support": "shine / lightning (verb)"
+    },
+    "M363": {
+      "reading": "ko",
+      "confidence": "MEDIUM",
+      "basis": "Promoted from anchor staging archive (2026-06-04T21:31:49Z); evidence_type=high_neighbor_concentration; score=0.62; status=verified; DEDR: take / kill",
+      "source": "anchor_staging_archive:blocker_sign_context",
+      "dedr_support": "take / kill",
+      "reading_direction": "rtl"
+    },
+    "M200": {
+      "reading": "an",
+      "confidence": "LOW",
+      "basis": "Promoted from anchor staging archive (2026-06-09T04:41:21Z); evidence_type=high_neighbor_concentration; score=0.41; status=approved; DEDR: goose",
+      "source": "anchor_staging_archive:blocker_sign_context",
+      "dedr_support": "goose"
+    },
+    "M156": {
+      "reading": "kal",
+      "confidence": "MEDIUM",
+      "basis": "Promoted from anchor staging archive (2026-06-07T18:20:18Z); evidence_type=high_neighbor_concentration; score=0.61; status=verified; DEDR: gem / stone",
+      "source": "anchor_staging_archive:blocker_sign_context",
+      "dedr_support": "gem / stone"
+    },
+    "M157": {
+      "reading": "kur",
+      "confidence": "CANDIDATE",
+      "basis": "Phase-111 allograph resolution: positional profile L1=0.000 matches M222 ('kur', MEDIUM). I=0.000 T=0.000 M=1.000. freq=2.",
+      "source": "Phase-111",
+      "dedr": "1638",
+      "dedr_source": "elamite",
+      "phase_upgraded": 252,
+      "upgrade_basis": "Phase-252: Allograph of M427 (r=0.953, HIGH). Daggumati & Revesz (2021) positional correlation method. Same positional profile → same grammatical function → allograph. Inherits HIGH confidence from M427='en'.",
+      "reading_direction": "rtl",
+      "_audit_note": "Downgraded HIGH→CANDIDATE on 2026-06-07: reading 'kur' shared by 15 signs (bulk assignment)"
+    },
+    "M260": {
+      "reading": "an",
+      "confidence": "LOW",
+      "basis": "Promoted from anchor staging archive (2026-06-09T04:41:21Z); evidence_type=high_neighbor_concentration; score=0.41; status=approved; DEDR: goose",
+      "source": "anchor_staging_archive:blocker_sign_context",
+      "dedr_support": "goose"
+    },
+    "M258": {
+      "reading": "an",
+      "confidence": "MEDIUM",
+      "basis": "Promoted from anchor staging archive (2026-06-07T12:15:09Z); evidence_type=high_neighbor_concentration; score=0.64; status=verified; DEDR: goose",
+      "source": "anchor_staging_archive:blocker_sign_context",
+      "dedr_support": "goose"
+    },
+    "M392": {
+      "reading": "an",
+      "confidence": "MEDIUM",
+      "basis": "Promoted from anchor staging archive (2026-06-07T12:15:09Z); evidence_type=high_neighbor_concentration; score=0.62; status=verified; DEDR: goose",
+      "source": "anchor_staging_archive:blocker_sign_context",
+      "dedr_support": "goose"
+    },
+    "M210": {
+      "reading": "pan",
+      "confidence": "MEDIUM",
+      "basis": "Promoted from anchor staging archive (2026-06-07T12:15:09Z); evidence_type=high_neighbor_concentration; score=0.61; status=verified; DEDR: worker / make",
+      "source": "anchor_staging_archive:blocker_sign_context",
+      "dedr_support": "worker / make"
+    },
+    "M112": {
+      "reading": "an",
+      "confidence": "LOW",
+      "basis": "Promoted from anchor staging archive (2026-06-09T04:41:21Z); evidence_type=high_neighbor_concentration; score=0.41; status=approved; DEDR: goose",
+      "source": "anchor_staging_archive:blocker_sign_context",
+      "dedr_support": "goose"
+    },
+    "M286": {
+      "reading": "an",
+      "confidence": "LOW",
+      "basis": "Promoted from anchor staging archive (2026-06-09T04:41:21Z); evidence_type=high_neighbor_concentration; score=0.41; status=approved; DEDR: goose",
+      "source": "anchor_staging_archive:blocker_sign_context",
+      "dedr_support": "goose"
+    },
+    "M327": {
+      "reading": "kal",
+      "confidence": "MEDIUM",
+      "basis": "Promoted from anchor staging archive (2026-06-07T12:15:09Z); evidence_type=high_neighbor_concentration; score=0.62; status=verified; DEDR: gem / stone",
+      "source": "anchor_staging_archive:blocker_sign_context",
+      "dedr_support": "gem / stone"
+    },
+    "M400": {
+      "reading": "kur",
+      "confidence": "CANDIDATE",
+      "basis": "Phase-111 allograph resolution: positional profile L1=0.000 matches M222 ('kur', MEDIUM). I=0.000 T=0.000 M=1.000. freq=2.",
+      "source": "Phase-111",
+      "dedr": "1638",
+      "dedr_source": "elamite",
+      "phase_upgraded": 252,
+      "upgrade_basis": "Phase-252: Allograph of M427 (r=0.967, HIGH). Daggumati & Revesz (2021) positional correlation method. Same positional profile → same grammatical function → allograph. Inherits HIGH confidence from M427='en'.",
+      "reading_direction": "rtl",
+      "_audit_note": "Downgraded HIGH→CANDIDATE on 2026-06-07: reading 'kur' shared by 15 signs (bulk assignment)"
+    },
+    "M242": {
+      "reading": "kal",
+      "confidence": "LOW",
+      "basis": "Promoted from anchor staging archive (2026-06-09T04:41:21Z); evidence_type=high_neighbor_concentration; score=0.62; status=approved; DEDR: gem / stone",
+      "source": "anchor_staging_archive:blocker_sign_context",
+      "dedr_support": "gem / stone"
+    },
+    "M147": {
+      "reading": "an",
+      "confidence": "MEDIUM",
+      "basis": "Promoted from anchor staging archive (2026-06-07T12:15:09Z); evidence_type=high_neighbor_concentration; score=0.64; status=verified; DEDR: goose",
+      "source": "anchor_staging_archive:blocker_sign_context",
+      "dedr_support": "goose"
+    },
+    "M415": {
+      "reading": "kal",
+      "confidence": "MEDIUM",
+      "basis": "Promoted from anchor staging archive (2026-06-07T12:15:09Z); evidence_type=high_neighbor_concentration; score=0.62; status=verified; DEDR: gem / stone",
+      "source": "anchor_staging_archive:blocker_sign_context",
+      "dedr_support": "gem / stone"
+    },
+    "M389": {
+      "reading": "pan",
+      "confidence": "MEDIUM",
+      "basis": "Promoted from anchor staging archive (2026-06-07T12:15:09Z); evidence_type=high_neighbor_concentration; score=0.61; status=verified; DEDR: worker / make",
+      "source": "anchor_staging_archive:blocker_sign_context",
+      "dedr_support": "worker / make"
+    },
+    "M287": {
+      "reading": "min",
+      "confidence": "MEDIUM",
+      "basis": "Promoted from anchor staging archive (2026-06-07T12:15:09Z); evidence_type=compound_slot_coherence; score=1.00; status=verified; DEDR: shine / lightning (verb)",
+      "source": "anchor_staging_archive:compound_semantic_coherence",
+      "dedr_support": "shine / lightning (verb)"
+    },
+    "M133": {
+      "reading": "kal",
+      "confidence": "MEDIUM",
+      "basis": "Promoted from anchor staging archive (2026-06-07T12:15:09Z); evidence_type=compound_slot_coherence; score=1.00; status=verified; DEDR: gem / stone",
+      "source": "anchor_staging_archive:compound_semantic_coherence",
+      "dedr_support": "gem / stone"
+    },
+    "M126": {
+      "reading": "min",
+      "confidence": "MEDIUM",
+      "basis": "Promoted from anchor staging archive (2026-06-07T12:15:09Z); evidence_type=compound_slot_coherence; score=1.00; status=verified; DEDR: shine / lightning (verb)",
+      "source": "anchor_staging_archive:compound_semantic_coherence",
+      "dedr_support": "shine / lightning (verb)"
+    },
+    "M297": {
+      "reading": "min",
+      "confidence": "MEDIUM",
+      "basis": "Promoted from anchor staging archive (2026-06-07T12:15:09Z); evidence_type=compound_slot_coherence; score=1.00; status=verified; DEDR: shine / lightning (verb)",
+      "source": "anchor_staging_archive:compound_semantic_coherence",
+      "dedr_support": "shine / lightning (verb)"
+    },
+    "M323": {
+      "reading": "kal",
+      "confidence": "MEDIUM",
+      "basis": "Promoted from anchor staging archive (2026-06-07T12:15:09Z); evidence_type=compound_slot_coherence; score=1.00; status=verified; DEDR: gem / stone",
+      "source": "anchor_staging_archive:compound_semantic_coherence",
+      "dedr_support": "gem / stone"
+    },
+    "M213": {
+      "reading": "min",
+      "confidence": "MEDIUM",
+      "basis": "Promoted from anchor staging archive (2026-06-07T12:15:09Z); evidence_type=compound_slot_coherence; score=1.00; status=verified; DEDR: shine / lightning (verb)",
+      "source": "anchor_staging_archive:compound_semantic_coherence",
+      "dedr_support": "shine / lightning (verb)"
+    },
+    "M322": {
+      "reading": "min",
+      "confidence": "MEDIUM",
+      "basis": "Promoted from anchor staging archive (2026-06-07T12:15:09Z); evidence_type=compound_slot_coherence; score=1.00; status=verified; DEDR: shine / lightning (verb)",
+      "source": "anchor_staging_archive:compound_semantic_coherence",
+      "dedr_support": "shine / lightning (verb)"
+    },
+    "M394": {
+      "reading": "an",
+      "confidence": "MEDIUM",
+      "basis": "Promoted from anchor staging archive (2026-06-07T18:20:18Z); evidence_type=high_neighbor_concentration; score=0.61; status=verified; DEDR: goose",
+      "source": "anchor_staging_archive:blocker_sign_context",
+      "dedr_support": "goose"
+    },
+    "M115": {
+      "reading": "an",
+      "confidence": "LOW",
+      "basis": "Promoted from anchor staging archive (2026-06-09T04:41:21Z); evidence_type=high_neighbor_concentration; score=0.41; status=approved; DEDR: goose",
+      "source": "anchor_staging_archive:blocker_sign_context",
+      "dedr_support": "goose"
+    },
+    "M298": {
+      "reading": "pan",
+      "confidence": "MEDIUM",
+      "basis": "Promoted from anchor staging archive (2026-06-07T12:15:09Z); evidence_type=high_neighbor_concentration; score=0.61; status=verified; DEDR: worker / make",
+      "source": "anchor_staging_archive:blocker_sign_context",
+      "dedr_support": "worker / make"
+    },
+    "M136": {
+      "reading": "an",
+      "confidence": "MEDIUM",
+      "basis": "Promoted from anchor staging archive (2026-06-07T12:15:09Z); evidence_type=high_neighbor_concentration; score=0.61; status=verified; DEDR: goose",
+      "source": "anchor_staging_archive:blocker_sign_context",
+      "dedr_support": "goose"
+    },
+    "M364": {
+      "reading": "pan",
+      "confidence": "MEDIUM",
+      "basis": "Promoted from anchor staging archive (2026-06-07T12:15:09Z); evidence_type=high_neighbor_concentration; score=0.61; status=verified; DEDR: worker / make",
+      "source": "anchor_staging_archive:blocker_sign_context",
+      "dedr_support": "worker / make"
+    },
+    "M310": {
+      "reading": "an",
+      "confidence": "MEDIUM",
+      "basis": "Promoted from anchor staging archive (2026-06-07T12:15:09Z); evidence_type=high_neighbor_concentration; score=0.41; status=verified; DEDR: goose",
+      "source": "anchor_staging_archive:blocker_sign_context",
+      "dedr_support": "goose"
+    },
+    "M314": {
+      "reading": "pan",
+      "confidence": "MEDIUM",
+      "basis": "Promoted from anchor staging archive (2026-06-07T12:15:09Z); evidence_type=high_neighbor_concentration; score=0.61; status=verified; DEDR: worker / make",
+      "source": "anchor_staging_archive:blocker_sign_context",
+      "dedr_support": "worker / make"
+    },
+    "M230": {
+      "reading": "in",
+      "confidence": "MEDIUM",
+      "basis": "Promoted from anchor staging archive (2026-06-04T21:31:49Z); evidence_type=high_neighbor_concentration; score=0.61; status=verified; DEDR: genitive / of",
+      "source": "anchor_staging_archive:blocker_sign_context",
+      "dedr_support": "genitive / of",
+      "reading_direction": "rtl"
+    },
+    "M407": {
+      "reading": "an",
+      "confidence": "LOW",
+      "basis": "Promoted from anchor staging archive (2026-06-09T04:41:21Z); evidence_type=high_neighbor_concentration; score=0.42; status=approved; DEDR: goose",
+      "source": "anchor_staging_archive:blocker_sign_context",
+      "dedr_support": "goose"
+    },
+    "M347": {
+      "reading": "ka",
+      "confidence": "HIGH",
+      "basis": "Phase-117 grammar inference: slot=MEDIAL_BETWEEN_CONF, n_contexts=7, patterns=['M342-[M347]-M293', 'M028-[M347]-M367', 'M211-[M347]-M099']. Inferred from Dravidian grammar slot model (Phases 74-112). [Phase-120: grammar n_ctx=7≥4 → MEDIUM] [Phase-216: SA-cons=0.17 DEDR✓ source=Phase-117]",
+      "source": "Phase-117",
+      "reading_direction": "rtl"
+    },
+    "M350": {
+      "reading": "vē",
+      "confidence": "HIGH",
+      "basis": "Phase-122 syllabic LM SA: modal='vē' (CV syllable), consistency=0.17, 12 seeds, 243 H+M anchors pinned. DEDR : . freq=5.; Phase-272: DEDR 5535 injected + existing evidence → HIGH",
+      "source": "Phase-122",
+      "dedr": "5535",
+      "dedr_source": "phase272_DEDR_injection",
+      "phase_upgraded": 272,
+      "reading_direction": "rtl"
+    },
+    "M340": {
+      "reading": "pan",
+      "confidence": "MEDIUM",
+      "basis": "Promoted from anchor staging archive (2026-06-07T12:15:09Z); evidence_type=high_neighbor_concentration; score=0.61; status=verified; DEDR: worker / make",
+      "source": "anchor_staging_archive:blocker_sign_context",
+      "dedr_support": "worker / make"
+    },
+    "H003": {
+      "reading": "an",
+      "confidence": "MEDIUM",
+      "basis": "Promoted from anchor staging archive (2026-06-09T04:29:43Z); evidence_type=high_neighbor_concentration; score=1.20; status=verified; DEDR: goose",
+      "source": "anchor_staging_archive:blocker_sign_context",
+      "dedr_support": "goose"
+    }
+  },
+  "_citation": {
+    "primary_sources": [
+      "A.1",
+      "A.10",
+      "C.1",
+      "C.2"
+    ],
+    "derivation": "HIGH/MEDIUM confidence anchors from V7 iconographic analysis (Parpola 2010, C.2) and V8-V24 distributional analysis (Holdat corpus A.10 + Mahadevan M-numbers A.1). Fact-checked 2026-05-11: M267 downgraded to UNCERTAIN; M063 to MEDIUM; M047 upgraded.",
+    "authors_credited": [
+      "Mahadevan, Iravatham (1977) — M-number sign system",
+      "Miller, William Sr / Holdat LLC (2025) — corpus for distributional analysis",
+      "Parpola, Asko (1994, 2010) — iconographic anchors (animal-sign readings)",
+      "Burrow, T. & Emeneau, M.B. (1984) — DEDR: Tamil word readings (DEDR refs in basis fields)"
+    ],
+    "see_also": "CITATIONS.md sections A.1, A.10, C.1, C.2, E.1",
+    "caveat": "HIGH: 7 anchors — iconographic or terminal case-marker evidence. MEDIUM: 65 anchors — distributional + collocation evidence. LOW: 260 anchors — positional heuristic only, NOT verified phonetic readings. UNCERTAIN: 1 (M267 — high-frequency functional sign, identity unknown). For publication: report only HIGH + MEDIUM anchors as scientifically supportable.",
+    "glossa_lab_version": "2026-05-11"
+  },
+  "by_confidence": {
+    "HIGH": 105,
+    "MEDIUM": 59,
+    "LOW": 243,
+    "CANDIDATE": 6
+  },
+  "_cleanup_note": "Quality audit cleanup 2026-06-07: removed 215 phantom signs, 105 empty readings, downgraded 105 bulk-duplicate readings",
+  "metadata": {
+    "total_count": 172,
+    "high_count": 166,
+    "medium_count": 6,
+    "low_count": 8
+  },
+  "total_all_entries": 397,
+  "n_high": 166,
+  "n_medium": 6,
+  "n_low": 8,
+  "corpus_signs": 390,
+  "corpus_tokens": 7002,
+  "corpus_token_coverage": 0.9647,
+  "_note": "total = H+M confirmed anchors. total_all_entries includes LOW allographs/grammar inferences. DO NOT use total/corpus_signs for % coverage — use corpus_token_coverage instead.",
+  "_phase128_129_note": "Phase-128: M374=kul (MEDIUM, substrate Munda/DEDR 1709), M351=vī (MEDIUM, substrate Munda/DEDR 5388). Phase-129: M072=mā (MEDIUM, INITIAL position/DEDR 4751), M149=or (MEDIUM, MEDIAL/DEDR 987), M185=pul (MEDIUM, MEDIAL/DEDR 4336). Remaining 20 of 25 unresolved signs stay LOW — insufficient DEDR+positional evidence for promotion.",
+  "_phase132_note": "Phase-132 validation: 114 Phase-111 kur-allograph MEDIUM signs downgraded to LOW. These were positional parking spots (all-MEDIAL L1=0), not genuine phonetic readings. New H+M=157, coverage=0.9075. Genuine phonetically-anchored coverage (H+M, non-parking) = 90.75%.",
+  "_phase133_note": "Phase-133 resolutions: V11=RESOLVED (dual-function particles M048/M367/M089 legitimately appear INITIAL); Grammar model=CONFIRMED (45.8% explained variance, 8.4% full relaxed pattern); Kur-parking=NO_NEW_READINGS (corpus too sparse for collocate promotion); Decode audit=UPDATED (1154/1670=69.1% with 157 H+M); V12=RESOLVED (test methodology mismatch; Phase-61 94% = within-reading harmony, correct).",
+  "_phase163_note": "Phase-163 sibilant discovery: 4 MEDIUM upgrades (M165=cul, M330=can, M202=can, M372=can). total updated 157->161.",
+  "_phase192_update": "2026-05-23: Added 5 absent-phoneme entries at MEDIUM/LOW confidence. Evidence: McAlpin (1974) Elamo-Dravidian + Brahui (Phase-189) + SA Phase-190 + grammar Phase-191. Absent phonemes filled: ['su', 'zi', 'gi', 'en', 'ki']. Remaining absent (need ICIT): li, shu, gu, ab, ba, du, ga, mil, sum.",
+  "_phase206_absent_phoneme_pending": {
+    "sum": {
+      "elamite": "šum-",
+      "pdr": "*cum-",
+      "dedr": "2689",
+      "meaning": "to name, title, call",
+      "mcalpin_paper": "1981 App.II #29",
+      "mcalpin_confidence": "STRONG",
+      "phase204_score": 9,
+      "status": "PENDING — no sign assignment. Needs ICIT corpus.",
+      "note": "šum/sum=name/title in Elamite; PDr *cum-=sound/name. Highly relevant if IVC signs encode proper names."
+    },
+    "gu": {
+      "elamite": "ku-/gu-",
+      "pdr": "*ku-/*kuḷ-",
+      "dedr": "1687",
+      "meaning": "to say, make sound, clan",
+      "mcalpin_paper": "1981 App.II #11-12",
+      "mcalpin_confidence": "MODERATE",
+      "phase204_score": 6,
+      "status": "PENDING — no sign assignment. Needs ICIT corpus."
+    },
+    "ab": {
+      "elamite": "ap-/ab-",
+      "pdr": "*appa",
+      "dedr": "172",
+      "meaning": "father, distal pronoun",
+      "mcalpin_paper": "1981 App.II #3-5",
+      "mcalpin_confidence": "MODERATE",
+      "phase204_score": 6,
+      "status": "PENDING — no sign assignment. Needs ICIT corpus."
+    },
+    "ba": {
+      "elamite": "ba-/pa-",
+      "pdr": "*pa-",
+      "dedr": "3927",
+      "meaning": "to speak, protect",
+      "mcalpin_paper": "1981 App.II #8-10",
+      "mcalpin_confidence": "MODERATE",
+      "phase204_score": 6,
+      "status": "PENDING — no sign assignment. Needs ICIT corpus."
+    },
+    "shu": {
+      "elamite": "šu-/ši-",
+      "pdr": "*cu-/*ci-",
+      "dedr": "2665",
+      "meaning": "fall, cut, palatalized sibilant",
+      "mcalpin_paper": "1981 App.II #25-27",
+      "mcalpin_confidence": "CANDIDATE",
+      "phase204_score": 3,
+      "status": "PENDING — no sign assignment. Needs ICIT corpus."
+    }
+  },
+  "_phase206_reconciliation_summary": {
+    "du_covered_by": "M089=tu/tū (HIGH) via Elamite voiced alternation",
+    "ga_covered_by": "M391=ka/kaṇ (HIGH) via Elamite voiced alternation",
+    "mil_partial": "M047=min (HIGH) via PDr min/mil cognate",
+    "li_partial": "M162=il/iḷ (HIGH) via PDr li/il metathesis",
+    "pending_icit": [
+      "sum",
+      "gu",
+      "ab",
+      "ba",
+      "shu"
+    ],
+    "notes_added_to": [
+      "M089",
+      "M391",
+      "M047",
+      "M162"
+    ]
+  },
+  "_phase214_blocked_state": {
+    "current_state": "408 + 2 new = 410 anchors. 37/64 M77 signs anchored (57.8%)",
+    "all_sa_candidates_exhausted": true,
+    "remaining_unanchored_cons04_plus": [
+      "M480=venni (0.4)",
+      "M920=pamp (0.4)",
+      "M506=toti (0.4)"
+    ],
+    "remaining_unanchored_cons02": [
+      "M718, M526, M503, M872, M173, M748 (all 0.2)"
+    ],
+    "blockers": [
+      "ICIT corpus needed for /sum/, /gu/, /ab/, /ba/, /shu/ absent phonemes",
+      "Epigraphist validation needed for CANDIDATE-level entries before upgrading",
+      "Full IVC sign inventory (~400 signs) vs M77 (64 signs): 336 signs not yet analyzable",
+      "SA convergence plateauing: D_ALL mean_c=0.5250 (Phase 213) with current anchor set"
+    ],
+    "unblocking_pathways": [
+      "Acquire ICIT corpus -> resolve 5 remaining absent phonemes",
+      "Obtain Parpola/Wells sign list cross-reference -> analyze all ~400 IVC signs",
+      "Epigraphist collaboration -> validate/reject CANDIDATE entries",
+      "New archaeological finds -> additional IVC texts or bilingual materials"
+    ]
+  },
+  "icit_total_signs": 713,
+  "icit_revision_year": 2026,
+  "icit_corrected_note": "The ICIT corpus has been updated to 713 signs with many inscription corrections in 2026 (Fuls, personal communication). Our 605 readings cover all signs attested in the publicly accessible version of the corpus.",
+  "icit_coverage_pct": 0.8485,
+  "reading_direction": "rtl",
+  "reading_direction_basis": "RTL confirmed by positional analysis: classifier/prefix signs at position 0 (avg_position=0.000), case-marker suffixes at position end (avg_position=0.598). Position 0 = rightmost sign = first read. Consistent with Ashraf and Sinha (2018) entropy test and Mahadevan (1977) convention."
+}

@@ -1,0 +1,249 @@
+{
+  "research_date": "2026-09-28",
+  "artifact": "H-1923",
+  "status": "unresolved_primary_photo_and_metadata_not_recovered_in_bounded_local_search",
+  "secondary_rows": [
+    {
+      "id": "567.1",
+      "cisi": "H-1923",
+      "site": "Harappa",
+      "area-section": "ETrench 10W/11",
+      "excavation-idno": "H94-2217Figure 28.01",
+      "material": "Faience",
+      "preservation": "complete",
+      "type": "TAB:B",
+      "sides": "2",
+      "condition": "Good",
+      "complete": "Y",
+      "dir.": "R/L",
+      "signs": "2",
+      "text": "+700-032+"
+    },
+    {
+      "id": "567.2",
+      "cisi": "H-1923",
+      "site": "Harappa",
+      "area-section": "ETrench 10W/11",
+      "excavation-idno": "H94-2217Figure 28.01",
+      "material": "Faience",
+      "preservation": "complete",
+      "type": "TAB:B",
+      "sides": "2",
+      "condition": "Good",
+      "complete": "Y",
+      "dir.": "R/L",
+      "signs": "4",
+      "text": "+400-740-032-840+"
+    }
+  ],
+  "primary_identity_authenticated": false,
+  "primary_image_recovered": false,
+  "primary_stroke_counts": null,
+  "primary_W700_graphic_assignment": null,
+  "primary_W840_graphic_assignment": null,
+  "marker_graphic_compatibility": null,
+  "physical_face_correspondence": null,
+  "orientation": null,
+  "damage": null,
+  "semantic_value": null,
+  "numerical_values": null,
+  "conditional_screen_claim": {
+    "source": "results/numeral_pair_screen.json",
+    "equation": "2a = 2b",
+    "status": "secondary_record_and_equal_quantity_assumption_only",
+    "primary_confirmation_added": false
+  },
+  "primary_coverage_observations": [
+    {
+      "source": "data/raw/cisi_76884.pdf",
+      "title_pdf_page": 5,
+      "year": 1987,
+      "contents_pdf_page": 7,
+      "contents_printed_page": "III",
+      "Harappa_range": "H-1 to 264, 278 to 382",
+      "visually_verified": true
+    },
+    {
+      "source": "data/raw/h843_identity_CorpusVol2.pdf",
+      "title_pdf_page": 4,
+      "year": 1991,
+      "contents_pdf_page": 6,
+      "contents_printed_page": "III",
+      "Harappa_range": "H-266 to 275, 356*, 383 to 1019",
+      "visually_verified": true
+    }
+  ],
+  "local_search_audit": "data/processed/h1923_numeral_locator_audit.json",
+  "modern_report_lead": {
+    "bibliography_capture": "data/raw/comb_tablet_kenoyer2010_web_capture.json",
+    "locator": "Extracted PDF16, lines599\u2013600",
+    "title": "Harappa Archaeological Research Project: Harappa Excavations 1994",
+    "authors": [
+      "R. H. Meadow",
+      "J. M. Kenoyer",
+      "R. P. Wright"
+    ],
+    "date_as_cited": "30 August 1994",
+    "original_report_bytes_located": false,
+    "target_figure_image_located": false,
+    "retained_1997_and_2010_content_kind": "web-tool text captures, not original PDFs",
+    "target_2217_or_28_01_in_retained_captures": false,
+    "prior_failed_download": "1997 paper HTTP403, not original1994 report retrieval",
+    "cannot_transfer_H1817_identity_or_shapes": true
+  },
+  "limitations": [
+    "No target image inspected, so no independent counts, sign shapes, direction or preservation judgments.",
+    "CISI image-only PDF extraction nulls are not absence evidence.",
+    "Contents ranges exclude H1923 from retained editions but do not establish its absence elsewhere.",
+    "Modern field identifier remains secondary; no equal-number or similar-text crosswalk used.",
+    "Two recorded faces do not establish equal quantities."
+  ],
+  "new_web_queries": 0,
+  "new_downloads": [],
+  "next_evidence": [
+    "Full CISI3.1 H1923 photograph and identifier/basic-data entry",
+    "Original1994 Harappa report Figure28.01 with H94-2217 caption"
+  ],
+  "evidence_files": [
+    {
+      "path": "docs/H1923_PRIMARY_NUMERAL_REVIEW.md",
+      "bytes": 5787,
+      "sha256": "0e390d65f11d76e966d36a33a4f6d6480c90ea26fca03c98a10cc54823a56159"
+    },
+    {
+      "path": "scripts/audit_h1923_primary_numeral.py",
+      "bytes": 3799,
+      "sha256": "e15e62992828402ef47258b9606ea2a77e2146e51b6035e75e72867743e876bb"
+    },
+    {
+      "path": "data/processed/h1923_numeral_locator_audit.json",
+      "bytes": 8372,
+      "sha256": "4d65aaef1cffbe339afec8b7a8b95381f99c956f8797da41bd5bdb215890cbd1"
+    },
+    {
+      "path": "docs/NUMERAL_IMAGES.md",
+      "bytes": 5637,
+      "sha256": "30c8b4148f6a44c5906349fe77825ead76e360ebcf20a7ca954ef2180b37b02c"
+    },
+    {
+      "path": "results/numeral_pair_screen.json",
+      "bytes": 98450,
+      "sha256": "98a57b7abbfccdd409200373c882cf11ba746b95a18e50c3b7894eb13d399fae"
+    },
+    {
+      "path": "data/raw/lipi_inscriptions.csv",
+      "bytes": 1204921,
+      "sha256": "b8dcb325a2e2cd3cde12ac12e7a418b0348e45713c9ee28aad81b645d2ac5ee4"
+    },
+    {
+      "path": "data/raw/cisi_76884.pdf",
+      "bytes": 31508998,
+      "sha256": "47a4da4227cfb7baa56d6a561e25797225499d0ec54f5a702a82c67ab4746d4d"
+    },
+    {
+      "path": "data/raw/h843_identity_CorpusVol2.pdf",
+      "bytes": 35870617,
+      "sha256": "727132579a485ee626e48a64c663148a85fbc0811fb523818fd615231f8a327d"
+    },
+    {
+      "path": "data/raw/h843_identity_CorpusVol2_djvu.txt",
+      "bytes": 218644,
+      "sha256": "ae797e9bc4bed1993e6997030a62bcbb5e0b2900ca8812e5ab3f392915c0abf9"
+    },
+    {
+      "path": "data/raw/mahadevan_1977_ocr.txt",
+      "bytes": 673943,
+      "sha256": "11441e38286784a1f4215f73d91cbba8acd153b7e5b30daed9252f9f7b77304a"
+    },
+    {
+      "path": "results/cisi1_extracted.txt",
+      "bytes": 18856,
+      "sha256": "72760b29d4bd4825ec6a42b7f1148a76cf35607a2b35480096a31f79cc55b772"
+    },
+    {
+      "path": "results/h843-cisi2_extracted.txt",
+      "bytes": 10584,
+      "sha256": "db34852f9830f249ea2bb33a40d1d73cdbcc8f2170866bf7170f842fa80c8957"
+    },
+    {
+      "path": "docs/H1817_IDENTITY_FOLLOWUP.md",
+      "bytes": 3971,
+      "sha256": "ec91c5b9f6476560bfd2b3fe9d55d0696d4b506041b21cf2947f8003ed339bdf"
+    },
+    {
+      "path": "docs/COMB_TABLET_PRIMARY_REVIEW.md",
+      "bytes": 8152,
+      "sha256": "34da1a2ea562933adbc20cae3818ba20d380e60fd26f46dfc20b9c56de79e028"
+    },
+    {
+      "path": "data/raw/roof_trident_new_archive_cisi32.json",
+      "bytes": 598,
+      "sha256": "12c39f678a17866874e8eb2401f01685383fa950b87c8ecd225f9954dd652992"
+    },
+    {
+      "path": "data/raw/h1817_archive_report_search.json",
+      "bytes": 721,
+      "sha256": "38a8e07d73200fab9edbb80ad265208106d7ba9356f4d465b409f0bb6ecb7c82"
+    },
+    {
+      "path": "data/raw/h1817_archive_cisi_search.json",
+      "bytes": 443,
+      "sha256": "e9d9d938c566c5e4e28896cdd1c2f1c38224b0d6076cfc9581f9d51f96027ee6"
+    },
+    {
+      "path": "data/raw/comb_tablet_kenoyer1997_web_capture.json",
+      "bytes": 22614,
+      "sha256": "fafa8cec9203e7d4f3c2fd52791531a6a73bc36fa64116bd461bfb774c11b82a"
+    },
+    {
+      "path": "data/raw/comb_tablet_kenoyer2010_web_capture.json",
+      "bytes": 28127,
+      "sha256": "87caf456afbf7bacdf0f415dc305c02a676635d32f8bae5eedfe57ba6c4082d7"
+    },
+    {
+      "path": "data/raw/h1817_identity_web_captures.json",
+      "bytes": 174417,
+      "sha256": "a1620a2c0997d2fc63f4e7a97d897f30d392ad5653808d9aa59937c91ca2fb97"
+    },
+    {
+      "path": "data/processed/comb_tablet_new_sources.json",
+      "bytes": 1167,
+      "sha256": "7b1211ec7edbbc13421d299ca2dc7bb151eb60e1f2e1e4cfad3af108a09ea244"
+    },
+    {
+      "path": "data/processed/h1817_identity_new_sources.json",
+      "bytes": 2066,
+      "sha256": "1f507b27333e555cce044c3ae270c0a73ebf35d80b92e556cefa96cbe2d22c5b"
+    },
+    {
+      "path": "results/primary_pages/h1923-numeral-cisi1-title-5.png",
+      "bytes": 356557,
+      "sha256": "95708502cad2e4e76e4f45e0e488320e55feb47650f49a92a4aad844989d9bd3"
+    },
+    {
+      "path": "results/primary_pages/h1923-numeral-cisi1-title-7.png",
+      "bytes": 578618,
+      "sha256": "5713d83e2725f3c52e7335dfe2b48b74bac9a6e19d3288cab3c59b6844ea3c40"
+    },
+    {
+      "path": "results/primary_pages/h1923-numeral-cisi2-4.png",
+      "bytes": 727375,
+      "sha256": "72c227d21387b67db3c9aa08f65b273a3cb754124585c4e5c551ef34d02b108f"
+    },
+    {
+      "path": "results/primary_pages/h1923-numeral-cisi2-contents-6.png",
+      "bytes": 1209585,
+      "sha256": "52197b6f51a9f1570a3a864c517d78be20439f602c0e75b40226a91ebf2d7510"
+    },
+    {
+      "path": "results/primary_pages/h1923-numeral-cisi1-harappa-coverage.png",
+      "bytes": 42036,
+      "sha256": "dc7ac06009e27035f2a526f6480306f92193a8a5ca31da0ad20c8b93e8bc30e7"
+    },
+    {
+      "path": "results/primary_pages/h1923-numeral-cisi2-harappa-coverage.png",
+      "bytes": 85144,
+      "sha256": "dc4ac831e6d68466b3627349354f52085928575f204ed68332635b02b60250f8"
+    }
+  ]
+}

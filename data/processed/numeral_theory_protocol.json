@@ -1,0 +1,24 @@
+{
+  "status": "Exploratory protocol frozen after an initial run-pattern listing; not preregistered or held-out",
+  "hypothesis": "Every maximal contiguous run of the specified tally candidates is a single numerical field, and its graphic classes follow one fixed global monotone order in source file order. Repeated members of the same class are allowed.",
+  "scope": "Tests this universal grammar extension, not every additive or positional numeral theory; adjacency is an explicit field-boundary assumption.",
+  "classes": {
+    "long": ["W031", "W032", "W033", "W034", "W035", "W036", "W037", "W038", "W039"],
+    "short": ["W001", "W002", "W003", "W004", "W005", "W006", "W007"],
+    "stacked": ["W012", "W013", "W014", "W015", "W016", "W017", "W018", "W019"]
+  },
+  "membership_provenance": "Same candidate families as screen_numeral_pairs.py. This is an inherited operational classification, not a new visual authentication. W900 is excluded because it is not one of these stroke classes. W020 and W025-W029, modifier signs and all other signs remain unassigned.",
+  "conservative_classes": {
+    "long": ["W031", "W032", "W033", "W034", "W035"],
+    "short": ["W001", "W002", "W003", "W004", "W005", "W006", "W007"],
+    "stacked": ["W012", "W013"]
+  },
+  "conservative_provenance": "Restricts long to catalogue features P144/P145/P147/P150/P151 and stacked to explicit stacked descriptions P139/P140; short P121-P127. These secondary descriptions are not independent photographs.",
+  "models": ["three distinct classes: every permutation", "stacked shares long rank: both orders", "stacked shares short rank: both orders"],
+  "selection": "Existing parse_lipi strict complete single-line R/L selection. Separate L/R sensitivity removes only the direction failure. Retain all other failures. Do not reverse or repair text.",
+  "condition_sensitivity": ["all eligible", "Good/Fine/Fair", "Good/Fine"],
+  "denominators": ["source-row runs", "unique artifact/text/run-position", "unique full-text/run-position", "unique run patterns"],
+  "segmentation_alternative": "For a selected order, every class-rank descent requires a boundary if each resulting field must be monotone. This is a mathematical minimum under that order, not evidence that any boundary existed.",
+  "exclusions": "Preserve every source row with a literal candidate code and its parse failures. Unknown signs break runs and are never skipped.",
+  "identification": "No numeric value, base, unit, sound, language or word is identified by passing or failing this grammar test. Order-free addition permits all permutations and is a surviving structural countermodel."
+}

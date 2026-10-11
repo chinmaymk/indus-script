@@ -1,0 +1,641 @@
+{
+  "schema_version": "pettersson_1999_metal_tool_weight_anchor_audit_v1",
+  "scope": "Primary-paper audit of physical-mass evidence and conditional equations. No Indus sign-value reading is promoted.",
+  "bibliography": {
+    "author": "J. S. Pettersson",
+    "year": 1999,
+    "title": "Indus Numerals on Metal Tools",
+    "journal": "Indian Journal of History of Science",
+    "volume": 34,
+    "issue": 2,
+    "pages": "89\u2013108",
+    "publisher_record_url": "https://insa.ndl.gov.in/items/049524a4-8d7a-478e-928d-c44bf4e90523/full",
+    "pdf_url": "https://insa.nic.in/writereaddata/UpLoadedFiles/IJHS/Vol34_2_1_JSPettersson.pdf"
+  },
+  "namespace_policy": "The expressions u,i,t,x and Finnish-corpus text numbers are Pettersson's local notation and references. No unverified equation to Mahadevan numeric IDs, including M328, is made.",
+  "nine_object_table": {
+    "pdf_page": 13,
+    "printed_page": 101,
+    "heading": "Object / Expression / Text no / Comment",
+    "text_number_namespace": "Finnish Corpus, as identified at end of printed100 (PDF12)",
+    "rows": [
+      {
+        "object": "C-39",
+        "expression_literal": "2x 3u (?)",
+        "finnish_text_no": "5083",
+        "object_kind": "ingot",
+        "reported_surviving_mass_g": null,
+        "mass_status": "No weight given by Mackay according to p91; not available in the table.",
+        "qualifications": [
+          "x identification as numeral is uncertain.",
+          "Included as a structural example, excluded from the author's weight calculations."
+        ]
+      },
+      {
+        "object": "C-40",
+        "expression_literal": "3u 5(?) i",
+        "finnish_text_no": "5075",
+        "object_kind": "broken axe",
+        "reported_surviving_mass_g": null,
+        "mass_status": "No weight given by Mackay according to p91; not available in the table.",
+        "qualifications": [
+          "Possible five-stroke count.",
+          "Expression crosses another inscription; p91 warns it may not be equivalent to the free-standing tool inscriptions."
+        ]
+      },
+      {
+        "object": "DK-7800",
+        "expression_literal": "4i 4t",
+        "finnish_text_no": null,
+        "object_kind": "knife",
+        "reported_surviving_mass_g": null,
+        "mass_status": "Not supplied in the nine-object table.",
+        "qualifications": [
+          "Very poor condition; object shape uncertain."
+        ]
+      },
+      {
+        "object": "DK-7857",
+        "expression_literal": "7i 4t",
+        "finnish_text_no": null,
+        "object_kind": "spearhead (?)",
+        "reported_surviving_mass_g": null,
+        "mass_status": "Not supplied in the nine-object table.",
+        "qualifications": [
+          "Object-kind identification uncertain.",
+          "Poor condition and very thin."
+        ]
+      },
+      {
+        "object": "DK-7855",
+        "expression_literal": "6i",
+        "finnish_text_no": null,
+        "object_kind": "axe",
+        "reported_surviving_mass_g": "262",
+        "mass_status": "Reported physical weight in table; not an independently reweighed object in this audit.",
+        "qualifications": [
+          "Other signs occur on the same side.",
+          "Leftmost of six strokes sits slightly lower; separation from adjacent terminal sign is questionable (p101).",
+          "Do not treat 6i=262g as an authenticated label for the whole object's mass."
+        ]
+      },
+      {
+        "object": "DK-7856",
+        "expression_literal": "1u 5i 4t",
+        "finnish_text_no": "2796",
+        "object_kind": "surviving tang of broken chisel",
+        "reported_surviving_mass_g": "165",
+        "reported_surviving_mass_precise_g": "165.343",
+        "precise_mass_locator": {
+          "pdf_page": 10,
+          "printed_page": 98
+        },
+        "mass_status": "Table rounds surviving tang to165g; p98 reports165.343g. Full chisel mass <430g is reconstructed, not weighed.",
+        "reconstructed_full_chisel_mass_g": {
+          "table_upper_bound_exclusive": "430",
+          "equation_upper_bound_exclusive": "429",
+          "equation_basis": "2.6 * 165",
+          "status": "Author's comparative-shape reconstruction of missing chisel, with rounded tang weight."
+        },
+        "qualifications": [
+          "u5i4t reading is used; t is tilted-row stroke rather than automatically identical to i.",
+          "Table's <430g is rounded relative to equation's strict <429g.",
+          "Source objects underwent corrosion/chemical cleaning; no original mass error bar is established."
+        ]
+      },
+      {
+        "object": "DK-7835",
+        "expression_literal": "7u 6i",
+        "finnish_text_no": "2798",
+        "object_kind": "axe",
+        "reported_surviving_mass_g": "1910",
+        "reported_surviving_mass_precise_g": "1910.030",
+        "precise_mass_locator": {
+          "pdf_page": 10,
+          "printed_page": 98
+        },
+        "mass_status": "Reported surviving physical weight; author rounds to1910g in equations.",
+        "qualifications": [
+          "Mackay's chemical separation of corroded tools reduced weight; pre-bath aggregate was apparently not recorded (p97)."
+        ]
+      },
+      {
+        "object": "K-121",
+        "expression_literal": "1u (or ???)",
+        "finnish_text_no": "7080",
+        "object_kind": "chisel",
+        "reported_surviving_mass_g": "210",
+        "mass_status": "Weight supplied by B.M.Pande through Asko Parpola, acknowledged p92; not a model-derived mass.",
+        "qualifications": [
+          "Verso is also considered as2u or1u plus another sign on p92; 1u2i alternative onp93.",
+          "Additional recto expressions and cross-side continuity are speculative alternatives onpp94\u201395."
+        ]
+      },
+      {
+        "object": "K-122",
+        "expression_literal": "5i",
+        "finnish_text_no": "7081",
+        "object_kind": "axe",
+        "reported_surviving_mass_g": "476",
+        "mass_status": "Weight supplied by B.M.Pande through Asko Parpola, acknowledged p92; not a model-derived mass.",
+        "qualifications": [
+          "Five visible strokes onB; corrosion may have removed other signs, not established.",
+          "Original500g,525g,685g and other targets are hypotheses, not measured masses.",
+          "Section4 adds possible lost numerals to improve fit, with explicit cautions by author."
+        ]
+      }
+    ]
+  },
+  "measurement_provenance": [
+    {
+      "objects": [
+        "K-121",
+        "K-122"
+      ],
+      "pdf_page": 4,
+      "printed_page": 92,
+      "source_chain": "B.M.Pande, New Delhi -> Asko Parpola, Helsinki -> Pettersson1999",
+      "what_is_independent": "Reported surviving object mass,210g and476g",
+      "what_is_not_independent": "Assignment of local signs to weight units, lost signs, original mass."
+    },
+    {
+      "objects": [
+        "DK-7856",
+        "DK-7835"
+      ],
+      "pdf_pages": [
+        9,
+        10
+      ],
+      "printed_pages": [
+        97,
+        98
+      ],
+      "source_chain": "Pettersson's discussion of Mackay1938 tool reports; precise weights printedp98. No new balance log or reweighing is provided.",
+      "reported_precision_warning": "Decimal strings are preserved verbatim, without treating three decimal places as a validated measurement uncertainty.",
+      "preservation": "Corroded objects separated chemically; p97 reports considerable weight reduction and an apparently unrecorded pre-cleaning aggregate."
+    }
+  ],
+  "kalibangan_equation_families": [
+    {
+      "id": "K_Bside_2u",
+      "primary_locator": {
+        "pdf_pages": [
+          4,
+          5
+        ],
+        "printed_pages": [
+          92,
+          93
+        ]
+      },
+      "variables": [
+        "u",
+        "i"
+      ],
+      "equations": [
+        {
+          "coefficients": {
+            "u": "2",
+            "i": "0"
+          },
+          "relation": "=",
+          "rhs_g": "210"
+        },
+        {
+          "coefficients": {
+            "u": "0",
+            "i": "5"
+          },
+          "relation": "=",
+          "rhs_g": "476"
+        }
+      ],
+      "solutions_g": {
+        "u": "105",
+        "i": "95.2"
+      },
+      "source_printed_error": "p93 first line prints125g, corrected to105 by official indexed errata and by210/2.",
+      "independence": "Two equations in two unknowns; solution is calibration, not external prediction."
+    },
+    {
+      "id": "K_Bside_1u",
+      "primary_locator": {
+        "pdf_pages": [
+          4,
+          5
+        ],
+        "printed_pages": [
+          92,
+          93
+        ]
+      },
+      "variables": [
+        "u",
+        "i"
+      ],
+      "equations": [
+        {
+          "coefficients": {
+            "u": "1",
+            "i": "0"
+          },
+          "relation": "=",
+          "rhs_g": "210"
+        },
+        {
+          "coefficients": {
+            "u": "0",
+            "i": "5"
+          },
+          "relation": "=",
+          "rhs_g": "476"
+        }
+      ],
+      "solutions_g": {
+        "u": "210",
+        "i": "95.2"
+      },
+      "assumption": "Other sign onK121B excluded from numerical expression."
+    },
+    {
+      "id": "K_Bside_1u2i",
+      "primary_locator": {
+        "pdf_page": 5,
+        "printed_page": 93
+      },
+      "variables": [
+        "u",
+        "i"
+      ],
+      "equations": [
+        {
+          "coefficients": {
+            "u": "1",
+            "i": "2"
+          },
+          "relation": "=",
+          "rhs_g": "210"
+        },
+        {
+          "coefficients": {
+            "u": "0",
+            "i": "5"
+          },
+          "relation": "=",
+          "rhs_g": "476"
+        }
+      ],
+      "solutions_g": {
+        "u": "19.6",
+        "i": "95.2"
+      },
+      "assumption": "Ambiguous shape onK121B reinterpreted as2i.",
+      "variant": {
+        "original_K122_mass_g_assumed": "500",
+        "solutions_g": {
+          "u": "10",
+          "i": "100"
+        },
+        "status": "Reconstructed original mass yields attractive10:1 relation; not a measured held-out match."
+      }
+    }
+  ],
+  "kalibangan_missing_sign_models": {
+    "pdf_pages": [
+      8,
+      9
+    ],
+    "printed_pages": [
+      96,
+      97
+    ],
+    "observed_mass_g": "476",
+    "observed_minimum_stroke_count": "5",
+    "models": [
+      {
+        "assumed_i_g": "137",
+        "assumed_original_expression": "5i",
+        "implied_original_mass_g": "685",
+        "implied_mass_loss_g": "209"
+      },
+      {
+        "assumed_u_g": "137",
+        "assumed_i_g": "13.7",
+        "assumed_original_expression": "3u5i",
+        "implied_original_mass_g": "479.5",
+        "added_unobserved_signs": "3u"
+      },
+      {
+        "assumed_u_g": "274",
+        "assumed_i_g": "27.4",
+        "assumed_original_expression": "1u8i",
+        "implied_original_mass_g": "493.2",
+        "added_unobserved_signs": "1u and3i"
+      }
+    ],
+    "audit": "Values and absent signs are selected while matching the same object's approximate original mass; these are conditional constructions, not independent external numeral anchors.",
+    "additional_printed_arithmetic_note": "p97 prints8*27.4=219.2, which is correct; its suggested expression includes8i despite only5 visible strokes."
+  },
+  "mohenjo_pair": {
+    "primary_locators": {
+      "surviving_pair": {
+        "pdf_page": 10,
+        "printed_page": 98
+      },
+      "reconstruction": {
+        "pdf_page": 11,
+        "printed_page": 99
+      },
+      "continued_bounds": {
+        "pdf_page": 12,
+        "printed_page": 100
+      }
+    },
+    "variables": [
+      "u",
+      "i",
+      "t"
+    ],
+    "reported_surviving_masses_g": {
+      "DK-7856": "165.343",
+      "DK-7835": "1910.030"
+    },
+    "author_rounded_surviving_equations": [
+      {
+        "object": "DK-7856",
+        "coefficients": {
+          "u": "1",
+          "i": "5",
+          "t": "4"
+        },
+        "relation": "=",
+        "rhs_g": "165"
+      },
+      {
+        "object": "DK-7835",
+        "coefficients": {
+          "u": "7",
+          "i": "6",
+          "t": "0"
+        },
+        "relation": "=",
+        "rhs_g": "1910"
+      }
+    ],
+    "precise_surviving_equations_for_optional_check": [
+      {
+        "object": "DK-7856",
+        "coefficients": {
+          "u": "1",
+          "i": "5",
+          "t": "4"
+        },
+        "relation": "=",
+        "rhs_g": "165.343"
+      },
+      {
+        "object": "DK-7835",
+        "coefficients": {
+          "u": "7",
+          "i": "6",
+          "t": "0"
+        },
+        "relation": "=",
+        "rhs_g": "1910.030"
+      }
+    ],
+    "reconstructed_chisel_equations_as_printed": [
+      {
+        "object": "DK-7856 original chisel",
+        "coefficients": {
+          "u": "1",
+          "i": "5",
+          "t": "4"
+        },
+        "relation": "<",
+        "rhs_expression": "p * 165",
+        "p": "2.6",
+        "rhs_g": "429"
+      },
+      {
+        "object": "DK-7835",
+        "coefficients": {
+          "u": "7",
+          "i": "6",
+          "t": "0"
+        },
+        "relation": "=",
+        "rhs_g": "1910"
+      }
+    ],
+    "reconstruction_basis": {
+      "p": "2.6",
+      "status": "Comparative chisel-form/length proportion, not a measured original mass.",
+      "author_reasoning": "Author classifies tang as short-bridged type(b), compares published specimens and assumes thickness roughly uniform, with flattened broad tang. p99 infers original weight probably below2.6 times surviving weight and possibly belowtwice.",
+      "alternatives": "Mackay's length estimate would yield2.87; another shorter tang yields2.83; author also shows p=2.8 sensitivity onp100.",
+      "independent_component": "Comparative geometric hypothesis comes from other tools, but uncertainty is unquantified and material loss/chemical treatment remains."
+    },
+    "printed_elimination": {
+      "pdf_page": 11,
+      "printed_page": 99,
+      "relation": "37.69 > i + (4/29)t",
+      "i_bound_if_t_nonnegative": "i<38g",
+      "u_bound_as_printed": "u>240g (provided that i is non-negative)"
+    },
+    "independent_exact_elimination": {
+      "operation": "7 * chisel inequality minus axe equality",
+      "relation": "29i+28t<1093",
+      "normalized_relation": "i+(28/29)t<1093/29",
+      "rhs_exact": "1093/29",
+      "rhs_decimal": 37.689655172413794,
+      "discrepancy": "The paper prints coefficient4/29, but exact elimination gives28/29. It has failed to carry the multiplier7 on the4t term.",
+      "not_in_indexed_official_errata": true
+    },
+    "t_equals_i_bound": {
+      "printed_p100": {
+        "i_upper_g": "33.13",
+        "u_lower_g": "244.46"
+      },
+      "independent_corrected": {
+        "i_upper_exclusive_exact_g": "1093/57",
+        "i_upper_exclusive_decimal_g": 19.17543859649123,
+        "u_lower_exclusive_exact_g": "4872/19",
+        "u_lower_exclusive_decimal_g": 256.42105263157896
+      },
+      "assumptions": "Strict reconstructed chisel<429g and axe=1910g; t=i; neither weight is adjusted beyond the author's specified reconstruction."
+    },
+    "nonnegative_surviving_mass_contradiction": {
+      "rounded": "7*165-1910=-755; elimination requires29i+28t=-755.",
+      "precise": "7*165.343-1910.030=-752.629; elimination requires29i+28t=-752.629.",
+      "scope": "No simultaneous nonnegative additive i,t can match these surviving masses with the stated inscriptions. This rejects that restricted current-mass encoding model; it does not establish what the original labels meant."
+    }
+  },
+  "errata": {
+    "source_url": "https://kau.diva-portal.org/smash/get/diva2%3A593951/ERRATA01.pdf",
+    "status": "Direct PDF download timed out twice; official search-index text captured, not PDF bytes or a visual check.",
+    "relevant_corrections": [
+      {
+        "printed_page": 93,
+        "location": "firstline",
+        "from": "125",
+        "to": "105"
+      },
+      {
+        "printed_page": 98,
+        "location": "line-8",
+        "from": "165b",
+        "to": "165g"
+      },
+      {
+        "printed_page": 103,
+        "location": "line-3frombottom",
+        "from": "8 27.4g",
+        "to": "8 x 27.4g"
+      },
+      {
+        "printed_page": 106,
+        "location": "line23",
+        "from": "t # i",
+        "to": "t \u2260 i"
+      }
+    ],
+    "algebra_error_on_p99_listed": false,
+    "capture": {
+      "path": "data/raw/pettersson_1999_errata_web_capture.json",
+      "sha256": "00f5b42ba4da7ab806ebe14065837d1441f4b8b768076f25ee6cddc6b0d651ab",
+      "bytes": 1357
+    }
+  },
+  "conclusions": [
+    "Physical surviving masses provide an external observable, but do not alone identify what the marks denote.",
+    "Two-variable two-object calibration is not confirmation; Pettersson explicitly says this onp95.",
+    "Recovering missing numerals and original mass to fit a known weight series is model-dependent; no new sign value can be promoted from these fits.",
+    "The reported surviving Mohenjo masses contradict positive additive encoding of those masses under the author's two visible expressions.",
+    "The full-chisel alternative uses a comparative reconstruction; its t-dependent bounds contain a reproducible algebra error.",
+    "Octal i/t=8 onp102 is an internal-structure proposal; the paper explicitly says uncertainty in weights prevents testing the smallt fraction by these equations."
+  ],
+  "limitations": [
+    "Original tools have not been inspected or reweighed here.",
+    "CISI photographs and Mackay excavation tables referenced by Pettersson were not independently reread in this bounded task.",
+    "Nine-object table includes only five reported surviving masses; the otherfour must remain unavailable, not zero.",
+    "No assumption equates Pettersson's local u/i/t to all occurrences of any M77 sign.",
+    "Errata PDF is unavailable locally; indexed official text is weaker than visual primary PDF verification."
+  ],
+  "downloads_manifest": "data/processed/pettersson_1999_downloads.json",
+  "primary_pdf": {
+    "path": "data/raw/pettersson_1999_indus_numerals_metal_tools.pdf",
+    "sha256": "6668f9ff93612059eaa385f1356f8138ebe76ddeeeb8b51043830131d9265b8a",
+    "bytes": 324816
+  },
+  "visually_checked_primary_pages": [
+    {
+      "pdf_page": 3,
+      "printed_page": 91,
+      "evidence": {
+        "path": "results/primary_pages/pettersson-1999-followup-3.png",
+        "sha256": "99f318564368fecec7a8cd066632f9f5de11f09a56e5c1b17e79250ea7939018",
+        "bytes": 155253
+      }
+    },
+    {
+      "pdf_page": 4,
+      "printed_page": 92,
+      "evidence": {
+        "path": "results/primary_pages/pettersson-1999-4.png",
+        "sha256": "a8f67bdcbce30c6c5a65b567a90d856e24b33f91f9566bd8910a3dbd7cd2c043",
+        "bytes": 157612
+      }
+    },
+    {
+      "pdf_page": 5,
+      "printed_page": 93,
+      "evidence": {
+        "path": "results/primary_pages/pettersson-1999-5.png",
+        "sha256": "facf7d4f4773296e4670897e79c5d8f76a57e7b55630b9933525af73d464ba3b",
+        "bytes": 157633
+      }
+    },
+    {
+      "pdf_page": 6,
+      "printed_page": 94,
+      "evidence": {
+        "path": "results/primary_pages/pettersson-1999-followup-6.png",
+        "sha256": "655351a6b885ba1843544ae0db95f607b9312b03eb1b7101bb3664d228272cd3",
+        "bytes": 158392
+      }
+    },
+    {
+      "pdf_page": 7,
+      "printed_page": 95,
+      "evidence": {
+        "path": "results/primary_pages/pettersson-1999-followup-7.png",
+        "sha256": "dbcb893cb20f2bc7eb9deba92149335a445830dc9b2d0e977b811a41201b77d3",
+        "bytes": 178267
+      }
+    },
+    {
+      "pdf_page": 8,
+      "printed_page": 96,
+      "evidence": {
+        "path": "results/primary_pages/pettersson-1999-8.png",
+        "sha256": "def3884ea71bb5b467c32bdd29ae92a10160afa61aa72bdf3dffadc35e0a7bf9",
+        "bytes": 168485
+      }
+    },
+    {
+      "pdf_page": 9,
+      "printed_page": 97,
+      "evidence": {
+        "path": "results/primary_pages/pettersson-1999-9.png",
+        "sha256": "84a66a2bb93638dfda785718dfa3bf7f04256123e2ed8870ebdd6f98fe119ecb",
+        "bytes": 169391
+      }
+    },
+    {
+      "pdf_page": 10,
+      "printed_page": 98,
+      "evidence": {
+        "path": "results/primary_pages/pettersson-1999-10.png",
+        "sha256": "fcb38b2bdf985d70cbde329091d480e14e61fd41d45d0fd929038bdcffd813cc",
+        "bytes": 158016
+      }
+    },
+    {
+      "pdf_page": 11,
+      "printed_page": 99,
+      "evidence": {
+        "path": "results/primary_pages/pettersson-1999-11.png",
+        "sha256": "7e7d93a682d44325229e9a5b2ba72a9d543faded3d09d88fd021c6893393a573",
+        "bytes": 158526
+      }
+    },
+    {
+      "pdf_page": 12,
+      "printed_page": 100,
+      "evidence": {
+        "path": "results/primary_pages/pettersson-1999-followup-12.png",
+        "sha256": "4475c7df33d14de641f34de5542f21fd92437e71c11f6b9bcddfc3498c3d6eae",
+        "bytes": 157610
+      }
+    },
+    {
+      "pdf_page": 13,
+      "printed_page": 101,
+      "evidence": {
+        "path": "results/primary_pages/pettersson-1999-13.png",
+        "sha256": "a847bd5cb6d8aa80ef81e5bfb19d7f6aa7db9bb54d441b1fef8b79ce51cf5ae9",
+        "bytes": 144756
+      }
+    },
+    {
+      "pdf_page": 14,
+      "printed_page": 102,
+      "evidence": {
+        "path": "results/primary_pages/pettersson-1999-followup-14.png",
+        "sha256": "e9a706431a7152817868367f75f1bc1b4c407a9288d8edcfeb82bd472fab0e1d",
+        "bytes": 183806
+      }
+    }
+  ]
+}

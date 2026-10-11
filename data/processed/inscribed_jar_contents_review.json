@@ -1,0 +1,523 @@
+{
+  "scope": "selected primary-source contents/inscription co-report review, not exhaustive or statistical inventory",
+  "established_semantic_values": 0,
+  "established_phonetic_values": 0,
+  "all_417_values_remain_null": true,
+  "rows": [
+    {
+      "row": 35,
+      "register": "5919",
+      "table_pages": [
+        256,
+        257
+      ],
+      "mound": "AB",
+      "trench_raw": "Ex. P. I & II",
+      "square_table": "P23/10",
+      "depth": "10 ft",
+      "stratum": "IV",
+      "measurements": null,
+      "measurements_raw": "dotted blank",
+      "description": "Large, inscribed napiform",
+      "inscribed_reported": true,
+      "inscription_lines": null,
+      "inscription_pictograms": null,
+      "contents": {
+        "bones": "Several, including a few charred pieces of large bones",
+        "pointed_base_goblets": null,
+        "other_pottery": null,
+        "toys": "1 bull's head and fragment of a wheel",
+        "cakes": "Fragments of 7 or 8",
+        "potsherds": "Of an offerings’ dish, perforated vase, cylindrical, round and oval vases",
+        "ornaments": "Fragments of bangles",
+        "charcoal": "Tiny pieces of charcoal",
+        "shell": "1 river shell was found inside a fragmentary oval vase",
+        "miscellaneous": "One chert scraper and some slag"
+      },
+      "remarks": "The lower 4/5th of this jar contained porous, greenish earth mixed with some decayed cereal and bore leafy impressions.",
+      "narrative_page165": {
+        "condition": "crushed",
+        "depth": "10 ft",
+        "square": "P23/5",
+        "earth_extent": "up to four-fifths of its height",
+        "earth_contents": "porous earth mixed with some decayed cereal on which were impressions of leaves"
+      },
+      "square_conflict_unresolved": true
+    },
+    {
+      "row": 116,
+      "register": "10252",
+      "table_pages": [
+        266,
+        267
+      ],
+      "mound": "F",
+      "trench_raw": "IV",
+      "square_table": "I12/4",
+      "depth": "9 ft",
+      "stratum": "IV",
+      "measurements": null,
+      "measurements_raw": "dotted blank",
+      "description": "Round, in pieces",
+      "inscribed_reported": true,
+      "inscription_lines": 2,
+      "inscription_pictograms": 7,
+      "contents": {
+        "bones": "Several",
+        "pointed_base_goblets": null,
+        "other_pottery": "1 oval vase with long neck and 1 small squat vase",
+        "toys": "1 wheel",
+        "cakes": "Several fragments",
+        "potsherds": "Of a basin, of goblets with pointed bases, tumblers, perforated vases, jars, dishes, etc.",
+        "ornaments": "2 pieces of bangles",
+        "charcoal": "Bits of charcoal",
+        "shell": "2 small pieces of river shell",
+        "miscellaneous": "Traces of decayed cereal and some slag. A discoid faience sealing lentoid in section (Pl. C, 671)."
+      },
+      "remarks": "The earth in the jar was porous and contained traces of decayed cereal. Chaff, straw, melon seeds and leaf impressions. The jar is inscribed in 2 lines with 7 pictograms.",
+      "contained_sealing": {
+        "plate": "C",
+        "figure": 671,
+        "distinct_from_jar_inscription": true,
+        "temporal_link_to_inscription_established": false
+      },
+      "jar_inscription_illustration_reference_in_row": null
+    }
+  ],
+  "rules": [
+    "Dotted blank is null, not zero or ditto.",
+    "No neighboring dimensions or contents are transferred.",
+    "The separately contained sealing is not the jar inscription.",
+    "No temporal link between inscription and deposition is established.",
+    "No capacity or original commodity is inferred."
+  ],
+  "new_correction_layer": {
+    "prior_review": "data/processed/capacity_context_independent_review.json",
+    "prior_files_unchanged": true,
+    "row": 18,
+    "register": "3822",
+    "field": "remarks.plate",
+    "prior": "XXIII,c",
+    "corrected": "XXIII,e",
+    "basis": "Small printed letter reinspected; panel e caption is inscribed jar and stands, Stratum VI, M12/6; panel c is hearths/mangers M12/19.",
+    "glyph_transcription_established": false
+  },
+  "crop_manifest": [
+    {
+      "source": "data/raw/inscribed-contents-vats-leaf282.jpg",
+      "box_xyxy": [
+        620,
+        5120,
+        5200,
+        5500
+      ],
+      "operation": "native rectangular crop only",
+      "output": {
+        "path": "results/primary_pages/inscribed-contents-row35-left.png",
+        "bytes": 505473,
+        "sha256": "dbf149ce407ba089f709d2b84a6790662cc63ec3e41b92e56dd096187c816823"
+      }
+    },
+    {
+      "source": "data/raw/inscribed-contents-vats-leaf283.jpg",
+      "box_xyxy": [
+        530,
+        5080,
+        5070,
+        5500
+      ],
+      "operation": "native rectangular crop only",
+      "output": {
+        "path": "results/primary_pages/inscribed-contents-row35-right.png",
+        "bytes": 832949,
+        "sha256": "205669c8c39f0a58d7a99b9a94233e69aeb400435f2845b6bb8de3851bb2f688"
+      }
+    },
+    {
+      "source": "data/raw/inscribed-contents-vats-leaf292.jpg",
+      "box_xyxy": [
+        670,
+        1190,
+        5220,
+        1980
+      ],
+      "operation": "native rectangular crop only",
+      "output": {
+        "path": "results/primary_pages/inscribed-contents-row116-left.png",
+        "bytes": 1410338,
+        "sha256": "6f51ed90f35f1ddb883855f68d584e63e1c78820676dfb38dc6a090339af9a93"
+      }
+    },
+    {
+      "source": "data/raw/inscribed-contents-vats-leaf293.jpg",
+      "box_xyxy": [
+        500,
+        1160,
+        5100,
+        2010
+      ],
+      "operation": "native rectangular crop only",
+      "output": {
+        "path": "results/primary_pages/inscribed-contents-row116-right.png",
+        "bytes": 1682503,
+        "sha256": "7529c8478ef5f65ee4e51b7955a96cc9437f1f022fdedc7aecb45deb54698d03"
+      }
+    },
+    {
+      "source": "data/raw/inscribed-contents-vats-leaf293.jpg",
+      "box_xyxy": [
+        4180,
+        1590,
+        4890,
+        2010
+      ],
+      "operation": "native rectangular crop only",
+      "output": {
+        "path": "results/primary_pages/inscribed-contents-row116-remarks.png",
+        "bytes": 231020,
+        "sha256": "4576727f84b0e55af44523397c0c3f9e83c8fd128301ed03a68a0ffce2552135"
+      }
+    },
+    {
+      "source": "data/raw/inscribed-contents-vats-leaf191.jpg",
+      "box_xyxy": [
+        820,
+        2410,
+        4540,
+        3800
+      ],
+      "operation": "native rectangular crop only",
+      "output": {
+        "path": "results/primary_pages/inscribed-contents-narrative5919.png",
+        "bytes": 3670716,
+        "sha256": "e15150107d5a9013969f46872b932457036bc3896d275ead9a1ceca70f3a9597"
+      }
+    },
+    {
+      "source": "data/raw/capacity-context-vats-leaf279.jpg",
+      "box_xyxy": [
+        760,
+        1850,
+        4510,
+        2790
+      ],
+      "operation": "native rectangular crop only",
+      "output": {
+        "path": "results/primary_pages/inscribed-contents-narrative-inscribed.png",
+        "bytes": 2597403,
+        "sha256": "2355d361c095d185df8ca87909df70f288779be080e4501c93f855ce98ffaf9d"
+      }
+    },
+    {
+      "source": "data/raw/capacity-context-vats-leaf281.jpg",
+      "box_xyxy": [
+        4200,
+        5400,
+        5100,
+        5920
+      ],
+      "operation": "native rectangular crop only",
+      "output": {
+        "path": "results/primary_pages/inscribed-contents-row18-correction.png",
+        "bytes": 207636,
+        "sha256": "1c623ac4d7166956143025b5f05650af1e95e4fe5dc3ba2420ee4fa04599d496"
+      }
+    },
+    {
+      "source": "results/primary_pages/capacity-context-vats-plate-correct-58.png",
+      "box_xyxy": [
+        80,
+        3020,
+        1570,
+        4170
+      ],
+      "operation": "native rectangular crop only",
+      "output": {
+        "path": "results/primary_pages/inscribed-contents-plateXXIIIe-correction.png",
+        "bytes": 755695,
+        "sha256": "29a8890864d41c4ad77b138fc7a254902858f7f72830bd8c3caf70cd35ac6d7d"
+      }
+    },
+    {
+      "source": "results/primary_pages/capacity-context-vats-plate-correct-58.png",
+      "box_xyxy": [
+        210,
+        2720,
+        1300,
+        3040
+      ],
+      "operation": "native rectangular crop only",
+      "output": {
+        "path": "results/primary_pages/inscribed-contents-plateXXIIIc-comparator.png",
+        "bytes": 150287,
+        "sha256": "9b8c2d9849909f3b226b5e6b21e4ebcc8a0d81ef8c63f6b290b6ec4a69909b9d"
+      }
+    }
+  ],
+  "retrieval_attempts": [
+    {
+      "ledger": {
+        "path": "data/processed/fetch_inscribed-contents-vats-leaf191_jpg.json",
+        "bytes": 952,
+        "sha256": "6ad73fe27c51c594449453a29cf4c6a406b82538cb952413a914e4ccdae5487b"
+      },
+      "url": "https://archive.org/download/in.gov.ignca.18220/page/n191.jpg",
+      "response_complete": true,
+      "http_status": 200,
+      "purpose": "primary narrative/table inspection",
+      "duplicate_parallel_capture": true
+    },
+    {
+      "ledger": {
+        "path": "data/processed/fetch_inscribed-contents-vats-leaf282_jpg.json",
+        "bytes": 952,
+        "sha256": "6a6d690f16bced515106abb4d8b86a95ff2e379ca11bb0219b0368dc86ad7ddb"
+      },
+      "url": "https://archive.org/download/in.gov.ignca.18220/page/n282.jpg",
+      "response_complete": true,
+      "http_status": 200,
+      "purpose": "primary narrative/table inspection",
+      "duplicate_parallel_capture": false
+    },
+    {
+      "ledger": {
+        "path": "data/processed/fetch_inscribed-contents-vats-leaf283_jpg.json",
+        "bytes": 952,
+        "sha256": "ace40ddb7da3b6ac95a7129240673d8c92afe700b80419a29ddedcffba8c4506"
+      },
+      "url": "https://archive.org/download/in.gov.ignca.18220/page/n283.jpg",
+      "response_complete": true,
+      "http_status": 200,
+      "purpose": "primary narrative/table inspection",
+      "duplicate_parallel_capture": false
+    },
+    {
+      "ledger": {
+        "path": "data/processed/fetch_inscribed-contents-vats-leaf290_jpg.json",
+        "bytes": 952,
+        "sha256": "cd98e374e696ff247d138e4e946b968a444f56a6151f99dff751945ee83bef22"
+      },
+      "url": "https://archive.org/download/in.gov.ignca.18220/page/n290.jpg",
+      "response_complete": true,
+      "http_status": 200,
+      "purpose": "navigation only",
+      "duplicate_parallel_capture": false
+    },
+    {
+      "ledger": {
+        "path": "data/processed/fetch_inscribed-contents-vats-leaf292_jpg.json",
+        "bytes": 952,
+        "sha256": "b0bef85de32d1ffcda52c8e698b0ad8ee0df834b8877206136a0e01168540d93"
+      },
+      "url": "https://archive.org/download/in.gov.ignca.18220/page/n292.jpg",
+      "response_complete": true,
+      "http_status": 200,
+      "purpose": "primary narrative/table inspection",
+      "duplicate_parallel_capture": false
+    },
+    {
+      "ledger": {
+        "path": "data/processed/fetch_inscribed-contents-vats-leaf293_jpg.json",
+        "bytes": 952,
+        "sha256": "bdd3a9d22780393ab79bbab928db07775a1f9d12feeb9f844e277af62f991121"
+      },
+      "url": "https://archive.org/download/in.gov.ignca.18220/page/n293.jpg",
+      "response_complete": true,
+      "http_status": 200,
+      "purpose": "primary narrative/table inspection",
+      "duplicate_parallel_capture": true
+    }
+  ],
+  "evidence_files": [
+    {
+      "path": "data/processed/capacity_context_independent_review.json",
+      "bytes": 12864,
+      "sha256": "c2c0726058fd12c97d4df00d9fdc0211403568c81385f791e92b0fc59faedfcd"
+    },
+    {
+      "path": "data/processed/fetch_inscribed-contents-vats-leaf191_jpg.json",
+      "bytes": 952,
+      "sha256": "6ad73fe27c51c594449453a29cf4c6a406b82538cb952413a914e4ccdae5487b"
+    },
+    {
+      "path": "data/processed/fetch_inscribed-contents-vats-leaf282_jpg.json",
+      "bytes": 952,
+      "sha256": "6a6d690f16bced515106abb4d8b86a95ff2e379ca11bb0219b0368dc86ad7ddb"
+    },
+    {
+      "path": "data/processed/fetch_inscribed-contents-vats-leaf283_jpg.json",
+      "bytes": 952,
+      "sha256": "ace40ddb7da3b6ac95a7129240673d8c92afe700b80419a29ddedcffba8c4506"
+    },
+    {
+      "path": "data/processed/fetch_inscribed-contents-vats-leaf290_jpg.json",
+      "bytes": 952,
+      "sha256": "cd98e374e696ff247d138e4e946b968a444f56a6151f99dff751945ee83bef22"
+    },
+    {
+      "path": "data/processed/fetch_inscribed-contents-vats-leaf292_jpg.json",
+      "bytes": 952,
+      "sha256": "b0bef85de32d1ffcda52c8e698b0ad8ee0df834b8877206136a0e01168540d93"
+    },
+    {
+      "path": "data/processed/fetch_inscribed-contents-vats-leaf293_jpg.json",
+      "bytes": 952,
+      "sha256": "bdd3a9d22780393ab79bbab928db07775a1f9d12feeb9f844e277af62f991121"
+    },
+    {
+      "path": "data/processed/inscribed_jar_contents_new_sources.json",
+      "bytes": 10535,
+      "sha256": "8bc9259397400c232cd5a9f7ae77e7d3b746baaa5c1a21d0cb9bc5611a51112a"
+    },
+    {
+      "path": "data/raw/capacity-context-vats-leaf279.jpg",
+      "bytes": 2715199,
+      "sha256": "f354688604f54c79ae238c765f2488212ed8d6c1b645af55f1826b044ff873cc"
+    },
+    {
+      "path": "data/raw/capacity-context-vats-leaf281.jpg",
+      "bytes": 1942134,
+      "sha256": "a49bf11a57842dd8d44abf2215b8ceb10e51924ee0b8236822e75d9442474513"
+    },
+    {
+      "path": "data/raw/inscribed-contents-vats-leaf191.jpg",
+      "bytes": 2720992,
+      "sha256": "e3f19fbb43f0fd0770aab6133929a16bdcfa139cf1cc5b386430ace0a00f3374"
+    },
+    {
+      "path": "data/raw/inscribed-contents-vats-leaf191.jpg.headers.json",
+      "bytes": 2236,
+      "sha256": "9101cfac3eb4a51eacd0c784598080c460033dc56013584b3efa6028abf0ba96"
+    },
+    {
+      "path": "data/raw/inscribed-contents-vats-leaf282.jpg",
+      "bytes": 2050675,
+      "sha256": "ef2be404d6b8fda24e3d8a3546e7fc8e7ce02bec68d20a683c0519df1cb8cead"
+    },
+    {
+      "path": "data/raw/inscribed-contents-vats-leaf282.jpg.headers.json",
+      "bytes": 2236,
+      "sha256": "f50572c474c9c4c195bf3b651a5f1ede30f0af872482b45c4574950e660a16d8"
+    },
+    {
+      "path": "data/raw/inscribed-contents-vats-leaf283.jpg",
+      "bytes": 2400204,
+      "sha256": "d6f3e6d3d4764972eb85f5a1c8c17a86eeadc4e0d3fd5730bb38d788e5aac215"
+    },
+    {
+      "path": "data/raw/inscribed-contents-vats-leaf283.jpg.headers.json",
+      "bytes": 2236,
+      "sha256": "e6ebab5698d92c5b3ccba0d7c436de19e6e3a58dd7f24c79c64c1f71452d683f"
+    },
+    {
+      "path": "data/raw/inscribed-contents-vats-leaf290.jpg",
+      "bytes": 1788114,
+      "sha256": "f8a48260779bc2e0785abd70f3cb1202b346252fa736ddff3691b54bc51a8141"
+    },
+    {
+      "path": "data/raw/inscribed-contents-vats-leaf290.jpg.headers.json",
+      "bytes": 2236,
+      "sha256": "b6c85f1e16a1132f5a302450a5c99d14f0916f53b7415df2cf69bfb58c5c08f5"
+    },
+    {
+      "path": "data/raw/inscribed-contents-vats-leaf292.jpg",
+      "bytes": 2014778,
+      "sha256": "e7a67ac77a798053be01e6cda139b4336c0165ba8687cfe2975068cc03b2e95f"
+    },
+    {
+      "path": "data/raw/inscribed-contents-vats-leaf292.jpg.headers.json",
+      "bytes": 2236,
+      "sha256": "d43c519092bc22751a687ae77a93735ef4a894f09a2145c6be04b038e06c6d05"
+    },
+    {
+      "path": "data/raw/inscribed-contents-vats-leaf293.jpg",
+      "bytes": 2168539,
+      "sha256": "26f8783b7dde7baa4c8489891dba45287cde23105cd2f5a171d78e0341558cac"
+    },
+    {
+      "path": "data/raw/inscribed-contents-vats-leaf293.jpg.headers.json",
+      "bytes": 2236,
+      "sha256": "a8ffc90b831383410f0be03c65dc5491b6b9c368451a472631200f95273ebff1"
+    },
+    {
+      "path": "data/raw/vats_1940_plates_9842.pdf",
+      "bytes": 17325993,
+      "sha256": "ab14c5c3a25588d3178789f83ae724eecf7cd873fb28c0a2c639a4dee21b8b18"
+    },
+    {
+      "path": "data/raw/vats_1940_text_18220_djvu.txt",
+      "bytes": 1518598,
+      "sha256": "9426186946d5540e6ccff83fdfc8e5af4aaed99926e56fe14287f57f8ccb4d45"
+    },
+    {
+      "path": "docs/CAPACITY_CONTEXT_INDEPENDENT_REVIEW.md",
+      "bytes": 6095,
+      "sha256": "e790e7b2024297e3d6f1b2a041299160f9c77f4f52cda7ee1b66593ca6e1002c"
+    },
+    {
+      "path": "docs/INSCRIBED_JAR_CONTENTS_REVIEW.md",
+      "bytes": 5598,
+      "sha256": "119645c468578bf3d075f4465258877f34aa51db5f021442b8b6d254a23dda9c"
+    },
+    {
+      "path": "results/primary_pages/capacity-context-vats-plate-correct-58.png",
+      "bytes": 4559078,
+      "sha256": "b467716077552221494f971b974516af809e3dcd4336828eca2a4e0ad8826d3e"
+    },
+    {
+      "path": "results/primary_pages/inscribed-contents-narrative-inscribed.png",
+      "bytes": 2597403,
+      "sha256": "2355d361c095d185df8ca87909df70f288779be080e4501c93f855ce98ffaf9d"
+    },
+    {
+      "path": "results/primary_pages/inscribed-contents-narrative5919.png",
+      "bytes": 3670716,
+      "sha256": "e15150107d5a9013969f46872b932457036bc3896d275ead9a1ceca70f3a9597"
+    },
+    {
+      "path": "results/primary_pages/inscribed-contents-plateXXIIIc-comparator.png",
+      "bytes": 150287,
+      "sha256": "9b8c2d9849909f3b226b5e6b21e4ebcc8a0d81ef8c63f6b290b6ec4a69909b9d"
+    },
+    {
+      "path": "results/primary_pages/inscribed-contents-plateXXIIIe-correction.png",
+      "bytes": 755695,
+      "sha256": "29a8890864d41c4ad77b138fc7a254902858f7f72830bd8c3caf70cd35ac6d7d"
+    },
+    {
+      "path": "results/primary_pages/inscribed-contents-row116-left.png",
+      "bytes": 1410338,
+      "sha256": "6f51ed90f35f1ddb883855f68d584e63e1c78820676dfb38dc6a090339af9a93"
+    },
+    {
+      "path": "results/primary_pages/inscribed-contents-row116-remarks.png",
+      "bytes": 231020,
+      "sha256": "4576727f84b0e55af44523397c0c3f9e83c8fd128301ed03a68a0ffce2552135"
+    },
+    {
+      "path": "results/primary_pages/inscribed-contents-row116-right.png",
+      "bytes": 1682503,
+      "sha256": "7529c8478ef5f65ee4e51b7955a96cc9437f1f022fdedc7aecb45deb54698d03"
+    },
+    {
+      "path": "results/primary_pages/inscribed-contents-row18-correction.png",
+      "bytes": 207636,
+      "sha256": "1c623ac4d7166956143025b5f05650af1e95e4fe5dc3ba2420ee4fa04599d496"
+    },
+    {
+      "path": "results/primary_pages/inscribed-contents-row35-left.png",
+      "bytes": 505473,
+      "sha256": "dbf149ce407ba089f709d2b84a6790662cc63ec3e41b92e56dd096187c816823"
+    },
+    {
+      "path": "results/primary_pages/inscribed-contents-row35-right.png",
+      "bytes": 832949,
+      "sha256": "205669c8c39f0a58d7a99b9a94233e69aeb400435f2845b6bb8de3851bb2f688"
+    },
+    {
+      "path": "scripts/persist_inscribed_jar_contents_review.py",
+      "bytes": 7017,
+      "sha256": "50d5ce29665da8eef665f0948037d76031867f05fb81ce9c9c85bff5c5edd9c6"
+    }
+  ]
+}

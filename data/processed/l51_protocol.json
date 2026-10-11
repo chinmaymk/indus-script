@@ -1,0 +1,49 @@
+{
+  "status": "Source-exposed exploratory audit; fixed after named L51/M636 rows and figure review, before new corpus counts",
+  "claims": [
+    "L51 upper motif represents a multilayer bead necklace",
+    "More than80percent of seals with the pictured W527/W555 ending contain a fish or proposed precious-metal sign"
+  ],
+  "file_order_ending": [
+    "W527",
+    "W555"
+  ],
+  "claim_scope": "Independent review of PDF25-26 confirms the two pictured signs, not W555 plus arbitrary phrase-final forms. File-prefix is reading-ending only for reported R/L.",
+  "fish_family_ids": [
+    "P050",
+    "P051",
+    "P056",
+    "P057",
+    "P058",
+    "P059",
+    "P060",
+    "P061",
+    "P062",
+    "P063",
+    "P064"
+  ],
+  "U_candidates": [
+    "W705",
+    "W706"
+  ],
+  "rules": [
+    "Enumerate all raw seal rows with literal file-prefix +527-555; preserve damaged/unknown texts and object groups",
+    "Count positive observed target signs even in damaged rows; absence in unreadable text is unknown",
+    "Count exact pair elsewhere separately; do not redefine an internal occurrence as a whole-text ending",
+    "Use same complete single-row strict seal universe as pipe-chain audit, with minimum length2 instead of3",
+    "Primary matched margins: site, literal seal type, exact length",
+    "Second comparison restricts entire universe to file-initial W527, so it asks what W555 adds beyond terminal W527",
+    "Deduplicate site/type/whole-sequence as an additional sensitivity",
+    "Do not assign fish=gemstone or U=gold; both are attributed hypotheses",
+    "Descriptive fixed-margin tails calibrate the source-selected pattern; they are not confirmatory semantic tests"
+  ],
+  "motif_requirements": [
+    "Exact source identity",
+    "Visible structure separated from material/function inference",
+    "Ancient parallel independently identified as same object type",
+    "No guild or profession identity inferred solely from motif"
+  ],
+  "established_values": null,
+  "core_segment_proxy": "Counts target anywhere in the remaining text, since the author provides no executable core-segment boundaries. This is a transparent proxy, not an exact replication of unspecified segmentation.",
+  "post_count_sensitivity": "Independent reviewer noted rawnegative M821 is fragment despite complete=Y. Preserve source-flag raw summary and separately turn absence on non-complete preservation into unknown. Matched samples already require complete preservation and are unchanged."
+}

@@ -1,0 +1,927 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+	<title>BDTNS</title>
+	<meta name="author" content="Jonatan Ortiz Salas">
+	<link rel="shortcut icon" type="image/x-icon" href="extras/img/favicon.ico" />
+	<meta name="description" content="BDTNS: Database of Neo-Sumerian Texts">
+	<meta name="KeyWords" content="sumerio,neosumerio,neo-sumerio,uriii,ur3,bdts,bdtns,Sumer,CSIC,Manuel Molina,tablillas">
+
+	<!-- ---------------------------------  LIBRERIAS Y SCRIPTS  -------------------------------------------------- --->
+	<!-- Libreria Mootools. Como utilizo Jquery y Mootools. Para evitar problemas pongo la de Mootools primero y luego cuando desarrollo funcion en Jquery pongo: 	jQuery.noConflict(); y en lugar de $ pongo Jquery-->
+    <script type="text/javascript" src="extras/js/mootools-yui-compressed.js"></script>
+
+
+	<script language="JavaScript" type="text/javascript" src="extras/js/funciones_generales.js"></script>
+
+	 <!-- Libreria jQuery -->
+	<script type="text/javascript" src="extras/js/jquery-1.4.2.js"></script>
+	 <!-- Libreria de Jquery que la utilizo para desarrollar menu de pantalla inicial -->
+	<script language="JavaScript" type="text/javascript" src="extras/js/jquery_menu.js"></script>
+
+
+	<!-- ---------------------------------  CSS   -------------------------------------------------- --->
+
+	<!-- Css estilo pagina -->
+	<link rel="stylesheet" href="extras/css/estilo_jonatan.css" type="text/css">
+	<!-- Css menu pantalla inicio -->
+	 <link rel="stylesheet" type="text/css" href="extras/css/menu.css" rel="StyleSheet">
+
+</head>
+<body>
+	<div id="contenedor">
+
+		<div id="cabecera">
+			<div id="top_a">
+				<div id="top_a_left"></div>
+				 <!--Comento estas lineas porque se ha decidido que la web solo se muestre en Ingl�s
+				<div id="top_a_right">
+				<!--Seleccion del idioma: Le pasamos al index tanto el parametro len que es el idioma como la pagina que se encuentra en el div en ese momento, de esa forma traduce la pagina que contiene el div -->
+			<!--	<a href="index.php?p=&len=cast"><img src="extras/img/Flag-of-Spain.png" alt="elegir idioma espa&ntilde;ol" width="28" height="28" border="0" title="Versi�n en espa�ol"></a>
+				<a href="index.php?p=&len=ingles"><img src="extras/img/Flag-of-United-Kingdom.png" alt="elegir idioma ingl&eacute;s" width="28" height="28" border="0" title="English Version"></a>
+				</div>
+				-->
+			</div>
+
+			<div id="top_logos">
+				<div id="top_a_left">
+						<a href="http://www.csic.es" target="_blank"><img src="extras/img/logo_csic.png" width="145px" height="46px" alt="p&aacute;gina CSIC" border="0"></a><br>
+						<a href="https://www.cesga.es/" target="_blank"><img src="extras/img/Logo_CESGA.png" width="145px" height="46px" alt="p&aacute;gina CSIC" border="0"></a>
+						<!--<a href="http://www.ciencia.gob.es/" target="_blank"><img src="extras/img/EscudoMEC.png" width="145px" height="46px" alt="p&aacute;gina CSIC" border="0"></a>-->
+						<!--<img src="imagenes/logo_cchs.gif" width="80" height="80">--><
+				</div>
+				<div id="top_a_central">
+						 Database of Neo-Sumerian Texts (BDTNS)
+				</div>
+				<div id="top_a_right">
+
+					<a href="http://bdtns.cesga.es/" target="_self"><img src="extras/img/logo_BDTNS.gif" width="80" height="80"></a>
+
+				</div>
+			</div>
+
+
+			<!--Menu despegable-->
+			<ul class="topnav">
+				<li id="inicio"><a id="enlace1" href="index.php?p=home">Home</a></li>
+				<li id="catalogo">
+					<a href="#">Catalogue & Transliterations</a>
+					<ul class="subnav">
+						<li><a id="enlace21" href="index.php?p=formulario_urIII">Search</a></li>
+						<li><a id="enlace22" href="./principal.php?numMuseo=&numBDTS=&numCDLI=&procedencia=TODOS&sello=TODOS&fechaPub=&datacion=&abreviatura=&autor=&propietario=&tipoobjeto=TODOS&tipotexto=TODOS&lexema_sello=&tipoperiodo=TODOS&tipolenguaje=TODOS&orden=">Browse the corpus</a></li>
+					</ul>
+				</li>
+				<li id="colecciones"><a id="enlace2" href="index.php?p=principal_colecciones">Collections</a></li>
+				<li id="sellos"><a id="enlace3" href="index.php?p=principal_sellos">Seals</a></li>
+				<li id="bibliografia"><a id="enlace4" href="index.php?p=principal_bibliografia">Bibliography & Abbreviations</a></li>
+				<li id="bibliografia"><a id="enlace44" href="./mapa.php?modo=yacis" target="_blank"  style="color:white;">Maps</a></li>
+				<li><a id="enlace4" href="index.php?p=about">About BDTNS</a>
+					<ul class="subnav">
+						<li><a  id="enlace41" href="index.php?p=about&anc=project">The BDTNS Project</a></li>
+						<li><a  id="enlace42" href="index.php?p=about&anc=figures">BDTNS in Figures</a></li>
+						<li><a  id="enlace43" href="index.php?p=about&anc=staff">Staff</a></li>
+					</ul>
+				</li>
+			    <li id="enlaces"><a id="enlace5" href="index.php?p=enlaces">Other Links</a></li>
+                <li id="projects">
+					<a href="#">Other Projects</a>
+					<ul class="subnav">
+						<li><a  id="enlace63" href="index.php?p=AM/project_am">Abbey of Montserrat</a></li>
+						<li><a  id="enlace61" href="index.php?p=BM/project_bm">British Museum</a></li>
+						<li><a  id="enlace62" href="index.php?p=RAH/project_ah">Real Academia de la Historia</a></li>
+					</ul>
+				</li>
+			    <li id="internal"><a id="enlace7" href="index.php?p=login" style="color:#CCC">Internal</a></li>
+
+			</ul>
+			<!--Fin menu-->
+
+		</div>
+		<!-- Fin cabecera -->
+
+
+	<!--En esta capa el contenido va a cambiar segun pesta�a seleccionada -->
+	<div id="pagina" style="z-index: -1;">
+
+			﻿<script type="text/javascript">var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));</script><script type="text/javascript">var pageTracker = _gat._getTracker("UA-180455-1");pageTracker._initData();pageTracker._trackPageview();</script>
+<html>
+<head>
+
+	<!-- SEXYFORMS Libreria Mootools             -->
+
+	<script type="text/javascript" src="extras/sexyforms/sexyforms.v1.3.mootools.min.js"></script>
+	<link   type="text/css"        rel="stylesheet" href="extras/sexyforms/green/sexyforms-green.css" media="all" id="theme" />
+	
+	<!-- SEXY-TOOLTIPS Libreria Mootools: Para crear popup de ayudas          -->
+	<script type="text/javascript" src="extras/sexy-tooltips/sexy-tooltips.v1.1.mootools.js"></script>
+	<link rel="stylesheet" href="extras/sexy-tooltips/coda.css" type="text/css" media="all"/>
+
+
+	<!-- AUTOCOMPLETAR Libreria Jquery                 -->
+
+	<script type="text/javascript" src="extras/jquery_ajax/autocompleter/jquery/lib/jquery.bgiframe.min.js"></script>
+	<script type="text/javascript" src="extras/jquery_ajax/autocompleter/jquery/lib/jquery.ajaxQueue.js"></script>
+	<script type="text/javascript" src="extras/jquery_ajax/autocompleter/jquery/jquery.autocomplete.js"></script>
+
+	<link rel="stylesheet" type="text/css" href="extras/jquery_ajax/autocompleter/jquery/jquery.autocomplete.css" />
+
+
+	<script type="text/javascript">
+
+			//Formulario bonito Mootools
+			window.addEvent('domready', function() {
+
+		
+			  
+			  //Definiendo sexys tooptips con ayuda de la libreria de Mootools. sexy-tooltips
+			   //Ayuda emergente utilizada en bÃºsqueda de sellos
+			 $('a2').tooltip ('<h1>	Help</h1><p>- Write in inverted commas the sequence you wish to search, even if it is inscribed in different lines of the seal legend: <strong> &quot;Lugal-e2-mah-e dub-sar dumu Lugal-ku3-ga-ni&quot; </strong>.</p><p>- Do not write inverted commas if you wish to search graphemes at any position of the seal legend: <strong>lugal mah dub-sar ku3-ga </strong>.</p><p>- Determinatives should be separated with hyphens or spaces (<strong>d-Nanna</strong>). The use of spaces or hyphens is not relevant. Shin=c; tet=ty: tsade=sy.</p> <div class="thumbinner" ><img width="75" height="75"alt="" src="extras/img/logo_BDTNS_peq.gif" width="300" height="300" class="thumbimage" /><div class="thumbcaption">BDTNS</div></div>', { width: 240, click: true, style: 'wiki', sticky: 1 });
+
+			
+			  //Ayuda emergente utilizada en bÃºsqueda de palabras
+			  
+			 $('a1').tooltip ('<h1>	Help</h1><p>- Write in inverted commas the sequence you wish to search: <strong>&quot;e2-gal&quot;.</strong></p><p>- Write as many sequences as you like: <strong>&quot;e2-gal&quot; &quot;zi-ga&quot;</strong>&hellip;</p><p>- If you wish to find the sequences in the same line, or in different lines but within the same text, select the corresponding option</p><p>- Do not write inverted commas if you wish to search any of the graphemes through the whole database: writing <strong>e2 gal</strong> will give you as result lines containing <strong>gal</strong>, and lines containing <strong>e2</strong>.<p>- If you wish to find those graphemes in the same line regardless of their order, or in different lines but within the same text, do not write them in inverted commas, and select the corresponding option.</p><p>- Determinatives should be separated with hyphens or spaces (<strong>d-Nanna</strong>). The use of spaces or hyphens is not relevant. Shin=c; tet=ty: tsade=sy.</p> <div class="thumbinner" ><img width="75" height="75"alt="" src="extras/img/logo_BDTNS_peq.gif" width="300" height="300" class="thumbimage" /><div class="thumbcaption">BDTNS</div></div>', { width: 240, click: true, style: 'wiki', sticky: 1 });
+			});
+
+			//____________________________________________________________________
+
+			//Jquerty autocompletar input busqueda lexema o imput busqueda sellos
+			 jQuery.noConflict();
+
+			jQuery(document).ready(function() {
+
+				function log(event, data, formatted) {
+					jQuery("<li>").html( !data ? "No match!" : "Selected: " + formatted).appendTo("#result");
+				}
+				
+				function formatItem(row) {
+					return row[0] + " (<strong>id: " + row[1] + "</strong>)";
+				}
+				function formatResult(row) {
+					return row[0].replace(/(<.+?>)/gi, '');
+				}
+				
+				jQuery("#suggest1").autocomplete("extras/jquery_ajax/autocompleter/consulSumerio.php", {
+					width: 320,
+					max: 20,
+					highlight: false,
+					scroll: true,
+					scrollHeight: 100,
+					selectFirst: false
+					
+
+				});
+
+				jQuery("#suggest2").focus().autocomplete("extras/jquery_ajax/autocompleter/conSeal.php", {
+					width: 320,
+					max: 20,
+					highlight: false,
+					scroll: true,
+					scrollHeight: 100,
+					selectFirst: false
+
+				});
+				
+				jQuery("#propietario").focus().autocomplete("extras/jquery_ajax/autocompleter/conPropietario.php", {
+					width: 300,
+					max: 20,
+					highlight: false,
+					scroll: true,
+					scrollHeight: 100,
+					selectFirst: false
+
+				});
+				
+				jQuery("#autor").focus().autocomplete("extras/jquery_ajax/autocompleter/conAutor.php", {
+					width: 300,
+					max: 20,
+					highlight: false,
+					scroll: true,
+					scrollHeight: 100,
+					selectFirst: false
+
+				});
+				
+
+			});
+
+			<!-- FIN AUTOCOMPLETAR                 -->
+
+	</script>
+
+
+	<style type="text/css">		
+		
+		 td{text-align:left; }
+		 #dt {float:left; text-align:right; width:90px; line-height:25px; margin:0 10px 10px 0;}
+		  
+		 #container_form {width:700px; margin:0 auto; padding-top:20px}
+		 label {font-size:11px; font-weight:bold; color:#666;}
+		 fieldset {background:#E1EBDE; padding:10px; border:1px solid #fff; border-color:#fff #666661 #666661 #fff; margin-bottom:36px; width:680px;}
+		 legend {background:#A2C0AC; color:#fff; font:17px/21px Arial, Helvetica, sans-serif; padding:0 10px; margin:-26px 0 0 -11px; font-weight:bold; border:1px solid #fff; border-color:#e5e5c3 #505014 #505014 #e5e5c3;}
+		 fieldset.action {background:#9da2a6; border-color:#e5e5e5 #797c80 #797c80 #e5e5e5; margin-top:-20px;}
+		 
+		 
+		.wiki h1
+		{
+		  background:#A2C0AC;
+		  padding:5px 0px 5px 80px;
+		  border:1px solid #C4D5E3;
+		  font-weight:bold;
+		  clear: both; 
+		  font-size: 12px;
+		  color: #000;
+		  margin: 0 0 8px 0;
+		}
+
+		.wiki p {
+		  font-family: Arial,Helvetica,sans-serif;
+		  font-size:0.8em;
+		  font-weight:normal;
+		  color:#000;
+		  margin:0;
+		  padding:0 0 8px 0;
+		  line-height:1.5em;
+		}
+
+		.wiki .thumbcaption{
+		  font-size:10px;
+		}
+		.wiki .thumbinner{
+		  background:#E1EBDE;
+		  margin:4px auto;
+		  text-align:center;
+		  padding:5px;
+		  border:dashed #CCCCCC 1px;
+		 }
+						  
+		a:link { color:#E1EBDE; text-decoration:none}
+		a:visited { color:#E1EBDE; text-decoration:none}
+		a:hover { color:#E1EBDE; text-decoration:none; cursor:hand}
+		a:active { color:#E1EBDE; text-decoration:none}
+
+	</style>
+
+
+
+	<script LANGUAGE="javascript">
+		<!--
+		// y si no rellena el lexema hago una consulta sobre la catalogacion.
+		function selecciona()
+		{
+			// Si el resultado de lo consultado en el formulario son lineas o si son catalogos
+			   if ((document.formulario.lexema.value != "") && (document.formulario.lexema_sello.value ==""))
+			   {
+					URL = "principal_lexema.php";
+					
+			   }
+			   else
+			   {
+					URL = "principal.php";
+			   }
+
+
+				URL = URL + "?numMuseo=";
+				URL = URL + document.formulario.numMuseo.value;
+				URL = URL + "&numBDTS=";
+				URL = URL + document.formulario.numBDTS.value;
+				URL = URL + "&numCDLI=";
+				URL = URL + document.formulario.numCDLI.value;
+				URL = URL + "&procedencia=";
+				URL = URL + document.formulario.procedencia.options[document.formulario.procedencia.selectedIndex].value;
+				URL = URL + "&sello=";
+				URL = URL + document.formulario.sello.options[document.formulario.sello.selectedIndex].value;
+				URL = URL + "&fechaPub=";
+				URL = URL + document.formulario.fechaPub.value;
+				URL = URL + "&datacion=";
+				URL = URL + document.formulario.datacion.value;
+				URL = URL + "&abreviatura=";
+				URL = URL + document.formulario.abreviatura.value;
+				URL = URL + "&autor=";
+				// URL = URL + escape(document.formulario.autor.value);
+				URL = URL + document.formulario.autor.value;
+				URL = URL + "&propietario=";
+				// URL = URL + escape(document.formulario.propietario.value);
+				URL = URL + document.formulario.propietario.value;
+				URL = URL + "&tipoobjeto=";
+				URL = URL + document.formulario.tipoobjeto.options[document.formulario.tipoobjeto.selectedIndex].value;
+
+				URL = URL + "&tipotexto=";
+				URL = URL + document.formulario.tipotexto.options[document.formulario.tipotexto.selectedIndex].value;		
+
+				URL = URL + "&lexema_sello=";
+				URL = URL + document.formulario.lexema_sello.value;
+				//2015  //confusion observaciones y lenguaje  mediciones
+				URL = URL + "&tipoperiodo=";
+				URL = URL + document.formulario.tipoperiodo.value;
+				URL = URL + "&tipolenguaje=";
+				URL = URL + document.formulario.tipolenguaje.value;				
+
+
+				//si rellena sello no puede rellenar lexema
+		// 	   if ((document.formulario.lexema.value != "") and (document.formulario.lexema_sello.value == ""))
+			   if (document.formulario.lexema.value != "") 
+			   {
+
+					URL = URL + "&lexema=";
+					URL = URL + document.formulario.lexema.value;
+					URL = URL + "&condicion=";
+					if(document.formulario.exacto[0].checked) 
+					{
+						URL = URL + document.formulario.exacto[0].value;
+					}
+					else
+					{
+						URL = URL + document.formulario.exacto[1].value;			
+					}
+				
+					URL = URL + "&enlinea=";
+
+					if(document.formulario.enlinea[0].checked) 
+					{
+						URL = URL + document.formulario.enlinea[0].value;
+					}
+					else
+					{
+						URL = URL + document.formulario.enlinea[1].value;			
+					}		
+
+					//2015 ahora sin order O SÍ?
+					URL = URL + "&orden=";
+					URL = URL + document.formulario.orden.options[document.formulario.orden.selectedIndex].value;		   
+					
+
+
+			
+
+			   }
+			   else
+			   {
+					//2015 ahora sin order O SÍ?
+					URL = URL + "&orden=";
+					URL = URL + document.formulario.orden.options[document.formulario.orden.selectedIndex].value;	   
+			   }
+
+			   //document.location.href = URL;
+				newwindow=window.open(this.URL, "Resultado"); //Le he dado el nombre Resultado, para que los resultados se carguen siempre en misma ventana
+				if(window.newwindow){
+				newwindow.focus();}
+				//Me guardo nombre de la ventana padre, para luego desde la otra ventana podernos referir a ella
+				newwindow.opener = window
+				
+				
+
+		}
+
+
+		function clearForm() {
+			
+		document.formulario.reset();
+		document.formulario.lexema.disabled = false;
+		document.formulario.lexema_sello.disabled = false;
+
+
+		}
+
+
+
+
+
+		function validar_opcion_linea()
+		{ 
+
+			if(document.formulario.enlinea[0].checked) 
+			{
+				document.formulario.exacto[0].checked = true;
+			}
+
+		}
+
+
+		function validar_opcion_texto()
+		{
+
+			if(document.formulario.exacto[1].checked) 
+			{
+				document.formulario.enlinea[1].checked = true;
+			}
+
+		}
+
+
+		//Funciones para que si escribo en busqueda por palabras no pueda escribir en sellos y a la inversa
+		function activar_desactivar_lexema()
+		{
+
+			if(document.formulario.lexema_sello.value !="")
+			{
+				document.formulario.lexema.disabled = true;
+				document.formulario.lexema.value = "";
+			}
+			else
+			{
+				document.formulario.lexema.disabled = false;
+			}
+
+
+		}
+
+
+
+		function activar_desactivar_lexema2(cual)
+		{
+				//si salgo de lexema
+			if (cual == "lexema")
+			{
+				if(document.formulario.lexema.value !="")
+				{
+					document.formulario.lexema_sello.disabled = true;
+					document.formulario.lexema_sello.value = "(Disabled)";
+				}
+				else
+				{
+					document.formulario.lexema_sello.disabled = false;
+				}
+			}
+
+
+			//si salgo de sello
+			if (cual == "sello")
+			{
+				if(document.formulario.lexema_sello.value !="")
+				{
+					document.formulario.lexema.disabled = true;
+					document.formulario.lexema.value = "(Disabled)";
+				}
+				else
+				{
+					document.formulario.lexema.disabled = false;
+				}
+			}
+			
+
+
+		}
+
+		//----------------------------------------------------------------------------------------------------------------
+
+
+		//Funcion para que un formulario haga submit son tan solo darte a tecla enter del teclado
+
+			function submitenter(myfield,e)
+			{
+				
+				var keycode;
+				
+				if (window.event)
+					 keycode = window.event.keyCode;
+				else 
+					if (e) 
+						keycode = e.which;
+					else 
+						return true;
+
+				if (keycode == 13)
+				{
+					//alert(this.name);
+					//myfield.form.submit();
+					
+					selecciona();
+					
+					return false;
+				}
+				else 
+					return true;
+					
+		}
+		//----------------------------------------------------------------------------------------------------------------
+
+		//-->
+	</script>
+
+
+<title>BDTNS</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+</head>
+<body onLoad="document.formulario.lexema.focus();"   topmargin="5" >
+			
+	<div id="container_form">
+
+		<form name="formulario" id="formulario" action="principal.php" method="post" autocomplete="off"  class="sexyform">
+		
+	<!-- Botones-->
+				<fieldset class="action">
+					<input type="button" class="boton" value="Search"  id="buscar" onClick="selecciona();"  />
+					<script type="text/javascript">
+					$('buscar').DoSexy({noconflict:true});
+					</script>
+					<input type="button" class="boton" value="Clear" id="limpiar" onClick="clearForm();" >
+					<script type="text/javascript">
+						$('limpiar').DoSexy({noconflict:true});
+					</script>
+				</fieldset>
+				<!-- Busqueda por palabras -->
+				 <fieldset>
+				<legend align="left">Search in Transliterations</legend>
+				<table style="margin-bottom:4%">
+				
+				<tr>
+					<td><label for="lexema_sello">Word and Grapheme Strings</label></td>
+					<td><input  id="suggest1" name="lexema" type="text" title="Write as many sequences as you like" onKeyUp="lexema_sello.disabled=this.value!=''" onKeyPress="return submitenter(this,event)"   size="50" maxlength="250" >
+						<script type="text/javascript">
+							$('suggest1').DoSexy({noconflict:true});
+						</script>
+					</td>
+					<td><p><a href="#" id="a1"><img alt="" src="extras/img/help_popup.png" width="35" height="35"alt=""></a> </p></td>
+						
+						
+				</tr>
+				<tr>
+					<td colspan="2"><p>To search exact sequences or strings write them in inverted commas. ( E.g.: "e2 gal" )</p><p>Write as many sequences as you like. (  E.g.: "e2-gal" "zi-ga" )</p></td>	
+				</tr>
+				<tr><!--En la misma linea  SI/NO-->
+					<td><label for="color">      In the same line</label></td>
+							   
+								  <td>
+							<table>
+							<tr>
+				 <td><input name="enlinea" type="radio" value="SI" checked onClick="validar_opcion_linea()" onKeyPress="return submitenter(this,event)"></td> <td> <label for="enlineaSI" class="opt"> Yes</label></td>
+				  <td> <input name="enlinea" type="radio" value="NO"  onKeyPress="return submitenter(this,event)"></td> <td> <label for="enlineaNO" class="opt"> No</label>	</td>					
+									</tr>
+							</table>	
+								</td>	             
+
+				</tr><!--En el mismo texto SI/NO-->
+		<tr>
+					<td><label for="color">      In the same text</label></td>
+							<td>
+							<table>
+							<tr>
+				 <td><input type="radio" name="exacto" value="AND" checked onKeyPress="return submitenter(this,event)"></td> <td> <label for="enlineaSI" class="opt"> Yes</label></td>
+				  <td><input name="exacto" type="radio" value="OR"  onClick="validar_opcion_texto()" onKeyPress="return submitenter(this,event)">  </td> <td>    <label for="enlineaNO" class="opt"> No</label>		</td>			
+							</tr>
+							</table>					
+							</td>	
+			</tr>	
+			</table>
+		 <!--</fieldset>-->
+
+			
+			<!-- Campos de busqueda-->
+			<!--<fieldset>-->
+			<legend align="left"  style="margin: 5% 0">Search in Catalogue</legend>
+					  <table style="float:right">
+						<tr>
+							<!-- numBDTS-->
+							  <td class="dt">
+								<label for="numBDTS">BDTNS No.</label>
+							  </td>
+							  <td>
+								<!--<input type="text" name="numBDTS" id="numBDTS"  onKeyPress="return submitenter(this,event)" size="32" maxlength="128"  size="35" icon="extras/img/logo_BDTNS.ico"/>-->
+								<input type="text" name="numBDTS" id="numBDTS"  onKeyPress="return submitenter(this,event)" size="32" maxlength="128"  size="35"/>
+								<script type="text/javascript">
+								$('numBDTS').DoSexy({noconflict:true});
+								</script>
+							  </td>
+							 <!-- numCDLI-->
+							  <td style="padding-left:70px;padding-right:10px;">
+								<label for="numCDLI">CDLI No.</label>
+							  </td>
+							  <td style="padding-right:20px;">
+							  <input type="text" name="numCDLI" id="numCDLI" onKeyPress="return submitenter(this,event)" size="32" maxlength="128" />
+							  	<script type="text/javascript">
+								$('numCDLI').DoSexy({noconflict:true});
+								</script>
+							  </td>
+						</tr>
+						
+						<tr>
+						<!-- num Museo-->
+						  <td>
+								<label for="numMuseo">Museum No.</label>
+						  </td>
+						  <td>
+								<input type="text" name="numMuseo" id="numMuseo" onKeyPress="return submitenter(this,event)"  size="32" maxlength="128" />
+								<script type="text/javascript">
+								$('numMuseo').DoSexy({noconflict:true});
+								</script>
+						  </td>
+						<!-- Autor-->
+						<td style="padding-left:70px;padding-right:10px;">
+							<label for="autor">Author</label>
+						</td>
+						<td style="padding-right:20px;">
+						
+<!--							<input  id="autor" name="aut" type="text"  onKeyPress="return submitenter(this,event)"  size="32" maxlength="250" >
+-->
+							<input  id="autor" name="aut" type="text"  onKeyPress="return submitenter('molina',event)"  size="32" maxlength="250" >
+
+							<script type="text/javascript">
+							$('autor').DoSexy({noconflict:true});
+							</script>
+						</td>
+						</tr>
+						
+						 <tr>
+						  <!-- Propietario-->
+						  <td>
+							<p><label for="propietario"> Collection</label></p>
+						  </td>
+						  <td>
+						  <input  id="propietario" name="prop" type="text"  onKeyPress="return submitenter(this,event)"   size="32" maxlength="250" >
+						  <script type="text/javascript">
+							$('propietario').DoSexy({noconflict:true});
+							</script>
+						  </td>
+						   <!-- Abreviatura-->
+						  <td style="padding-left:70px;padding-right:10px;">
+								<label for="abreviatura">Abbreviation </label>
+						  </td>
+						  <td style="padding-right:20px;">
+								<input type="text" name="abreviatura" id="abreviatura" size="32" maxlength="128"  onKeyPress="return submitenter(this,event)" />
+								 <script type="text/javascript">
+								$('abreviatura').DoSexy({noconflict:true});
+								</script>
+						  </td>
+						</tr>
+						
+						
+						<tr>
+						  <!-- datacion-->
+						  <td>
+								<label for="datacion">Date of the Text</label>
+							</td>
+							<td>
+								<input type="text" name="datacion" id="datacion" size="32" maxlength="128" onKeyPress="return submitenter(this,event)"/>
+								<script type="text/javascript">
+								$('datacion').DoSexy({noconflict:true});
+								</script>
+						 </td>
+						 <!-- fecha Publicacion-->
+						  <td style="padding-left:70px;padding-right:10px;">
+							<label for="fechaPub">Date of Publication</label>
+						  </td>
+						  <td>
+							<input type="text" name="fechaPub" id="fechaPub" size="32" maxlength="128" onKeyPress="return submitenter(this,event)" />
+							 <script type="text/javascript">
+								$('fechaPub').DoSexy({noconflict:true});
+							</script>
+						  </td>
+						</tr>
+					
+						 <tr>
+						 <!-- procedencia-->
+						  <td>
+							<p><label for="procedencia"> Provenience</label></p>
+						  </td>
+						  <td style="padding-right:20px;">
+							 <select size="1" name="procedencia" id="procedencia" onKeyPress="return submitenter(this,event)" style="width:200px">
+						<option value="TODOS" selected="selected"></option>
+									<option value="Adab">Adab</option>
+									<option value="Adab Region">Adab Region</option>
+									<option value="Anšan">An&#353an</option>
+                                                                                                                   <option value="Aradmu Arch.">Aradmu Arch.</option>
+                                                                                                                   <option value="Awal (Tell al-Sulaimaḫ)">Awal (Tell al-Sulaima&#7723;)</option>
+                                                                                                                   <option value="Dugirdkhan">Dugirdkhan</option>
+                                                                                                                   <option value="Eṣidum Arch.">E&#7779;idum Arch.</option>
+                                                                                                                   <option value="Ešnunna">E&#353;nunna</option>
+									<option value="GARšana">GAR&#353;ana</option>
+                                                                                                                 	<option value="Ĝirsu">&#284;irsu</option>
+                                                                                                                   <option value="Irisaĝrig">Irisa&#285;rig</option>
+                                                                                                                   <option value="Išān Mizyad">I&#353;&#257;n Mizyad</option>
+                                                                                                                   <option value="Isin">Isin</option>
+									<option value="Kian (Shmet)">Kian (Shmet)</option>
+									<option value="Kiš (Tell Inġarra)">Ki&#353; (Tell In&#289;arra)</option>
+									<option value="Kiš (Tell Uḥaimir)">Ki&#353; (Tell U&#7717;aimir)</option>
+									<option value="Kisurra">Kisurra</option>
+									<option value="Lagaš (Tell al-Ḥiba)">Laga&#353; (Tell al-&#7716;iba)</option>
+									<option value="Mari">Mari</option>
+									<option value="Nagar">Nagar</option>
+									<option value="Nippur">Nippur</option>
+									<option value="Nippur Region">Nippur Region</option>
+									<option value="Puzriš-Dagān">Puzri&#353;-Dag&#257;n</option>
+									<option value="Šāt-Eštar Arch.">&#352;&#257;t-E&#353;tar Arch.</option>
+									<option value="SI.A-a Arch.">SI.A-a Arch.</option>
+									<option value="Sippar-Amnānum (Tell ed-Dēr)">Sippar-Amn&#257;num (Tell ed-D&#275;r)</option>
+									<option value="Sippar (Tell Abū Ḥabba)">Sippar (Tell Ab&#363; &#7716;abba)</option>
+									
+                                                                                                                   <option value="Šuruppag">&#352;uruppag</option>
+									<option value="Susa">Susa</option>
+                                                                                                                                                       <option value="Tell al-Wilayaḫ">Tell al-Wilaya&#7723;</option>
+									<option value="Tūram-ilī Arch.">T&#363;ram-il&#299; Arch.</option>
+									<option value="Umma">Umma</option>
+									<option value="Umma Region">Umma Region</option>
+									<option value="Unkn. Prov.">Unkn. Prov.</option>
+									<option value="Ur">Ur</option>
+									<option value="Uruk">Uruk</option>
+					  </select>
+							<script type="text/javascript">
+								$('procedencia').DoSexy({noconflict:true});
+							</script>
+						  </td>
+							
+							
+							<!-- sello-->
+							<td style="padding-left:70px;padding-right:10px;">
+								<p><label for="sello">Seal</label></p>
+							</td>
+							<td style="padding-right:20px;">
+								<select size="1" name="sello" id="sello" onKeyPress="return submitenter(this,event)" style="width:60px">
+								  <option value="TODOS" selected="selected"></option>
+										<option value=""></option><option value="N">N</option><option value="S">S</option><option value="S (2)">S (2)</option><option value="S (2?)">S (2?)</option><option value="S (3)">S (3)</option><option value="S (4)">S (4)</option><option value="S (5)">S (5)</option><option value="S (?)">S (?)</option>									  </select>
+							<script type="text/javascript">
+								$('sello').DoSexy({noconflict:true});
+							</script>
+						  </td>
+						</tr>
+					
+				
+					
+					 <tr>
+						<!-- tipo objeto-->
+						  <td>
+							<p><label for="tipoobjeto"> Object</label></p>
+						</td>
+						<td>
+				 <select size="1" name="tipoobjeto" id="tipoobjeto" onKeyPress="return submitenter(this,event)" style="width:150px">
+				  <option value="TODOS" selected="selected"></option>
+						<!-- A MANO, NO SE EXTRAE DE LA BD -->
+						<option value="Tablet">Tablet</option>
+						<option value="Tablet and Envelope">Tablet and Envelope</option>
+						<option value="Envelope - Closed">Envelope - Closed</option>
+						<option value="Envelope - Fragment">Envelope - Fragment</option>
+						<option value="Label">Label</option>
+						<option value="Bulla">Bulla</option>
+						<option value="Round tablet">Round tablet</option>
+                        <option value="Cylindrical tablet">Cylindrical tablet</option>
+						<option value="Cylinder Seal">Cylinder Seal</option>
+						<option value="Clay sealing">Clay sealing</option>
+						<option value="Door sealing">Door sealing</option>
+						<option value="Jar sealing">Jar sealing</option>
+						<option value="Reproduction or cast">Reproduction or cast</option>
+						<option value="Fake">Fake</option>
+						<option value="Uncertain">Uncertain</option>
+						<option value="Other">Other</option>									
+
+
+				
+											
+					  </select>
+                                                <script type="text/javascript">
+								$('tipoobjeto').DoSexy({noconflict:true});
+						</script>
+						  </td>
+							<!-- tipo texto-->
+							  <td style="padding-left:70px;padding-right:10px;">
+								<label for="tipotexto">Genre</label>
+							  </td>
+							  <td style="padding-right:20px;">
+								   <select size="1" name="tipotexto" id="tipotexto" onKeyPress="return submitenter(this,event)" style="width:170px">
+								 <option value="TODOS" selected="selected"></option>
+											                                                            <option value="Legal Text: court record">Legal Text: court record</option>
+                                                            <option value="Legal Text: other">Legal Text: other</option>
+                                                            <option value="Letter-order">Letter-order</option>
+                                                            <option value="Loan Document">Loan Document</option>
+                                                            <option value="Messenger Text">Messenger Text</option>
+                                                            <option value="pisan dub-ba">pisan dub-ba</option>
+                                                            <option value="Sale Document">Sale Document</option>
+                                                            <option value="School Text">School Text</option>
+														
+																						  </select>
+								<script type="text/javascript">
+								$('tipotexto').DoSexy({noconflict:true});
+								</script>
+						  </td>
+						</tr>
+						
+						<tr>
+						<!-- tipo periodo-->
+						  <td>
+							<p><label for="tipoperiodo"> Period</label></p>
+						</td>
+						<td>
+						<!--<input type="text" name="tipoperiodo" id="tipoperiodo" size="32" maxlength="250" onKeyPress="return submitenter(this,event)"  />-->
+				 <select size="1" name="tipoperiodo" id="tipoperiodo" onKeyPress="return submitenter(this,event)" style="width:120%">	
+						<option value="TODOS" selected="selected"></option>				 
+												<option value="Ur III">Ur III</option>
+                        <option value="Lagash II">Lagash II</option>
+					  </select>
+                                                <script type="text/javascript">
+								$('tipoperiodo').DoSexy({noconflict:true});
+						</script>
+						  </td>
+							<!-- tipo lenguaje-->
+							  <td style="padding-left:70px;padding-right:10px;">
+								<label for="tipolenguaje">Language</label>
+							  </td>
+							  <td style="padding-right:20px;">
+								   <select size="1" name="tipolenguaje" id="tipolenguaje" onKeyPress="return submitenter(this,event)" style="width:100px">
+											<option value="TODOS" selected="selected"></option>
+											<option value="Sumerian">Sumerian</option>
+											<option value="Akkadian">Akkadian</option>
+										  </select>
+								<script type="text/javascript">
+								$('tipolenguaje').DoSexy({noconflict:true});
+								</script>
+						  </td>
+						</tr>
+						
+						<!-- Criterio de orden -->
+						<tr>	
+							<td>&nbsp;</td>
+							 <td style="text-align: right;"><p><label for="orden">Sorted according to</label></p>
+							
+							 <td>
+								<select size="1" name="orden" id="orden" onKeyPress="return submitenter(this,event)" style="width:130px">
+								<!-- por defecto lo ordena por abreviatura -->
+									<option value="bdts_uriii_ediciones.abreviatura" selected="selected"> </option>
+								<!--	<option value="bdts_uriii_ediciones.abreviatura"> Abbreviation</option> -->
+
+								<!--	<option value="bdts_uriii_ediciones.tipo_edicion_ordenacion , bdts_uriii_ediciones.abreviatura">
+										 Abbreviation</option>  -->
+
+
+								<!--	<option value="bdts_uriii_ediciones.autor"> Author</option> -->
+								<!--	<option value="bdts_uriii_ediciones.fecha_publicacion"> Date of Publication</option> -->
+									<option value="bdts_uriii_dataciones.ano"> Date of the Text</option>
+									<option value="bdts_uriii_propietario.id_propietario"> Museum No.</option>
+									<option value="bdts_uriii_catalogo.procedencia"> Provenience</option>
+								 </select>
+								 	<script type="text/javascript">
+								     $('orden').DoSexy({noconflict:true});
+							       </script>
+							</td>
+								<td>&nbsp;</td>
+						</tr>
+						
+			</table>		
+			</fieldset>	
+			
+			
+
+			
+				<!-- Busqueda por sello-->
+			
+				<fieldset align="left">
+				 
+					<legend>Search in Seal Legends</legend>
+						<table>	
+							<tr>
+								<td><label for="lexema_sello">Seal legend</label></td>
+								<td><input type="text" name="lexema_sello" id="suggest2" size="50" maxlength="250" title="Write as many sequences as you like"  onkeyup="lexema.disabled=this.value!=''" onKeyPress="return submitenter(this,event)"  />
+										<script type="text/javascript">
+								        $('suggest2').DoSexy({noconflict:true});
+							            </script>
+								</td>
+								<td><p><a href="#" id="a2"><img alt="" src="extras/img/help_popup.png" width="35" height="35"alt=""></a> </p>	</td>
+				
+							</tr>
+						</table>
+				
+				</fieldset>
+				<!-- Botones-->
+				<fieldset class="action">
+					<input type="button" class="boton" value="Search"  id="buscar2" onClick="selecciona();"  />
+					<script type="text/javascript">
+					$('buscar2').DoSexy({noconflict:true});
+					</script>
+					<input type="button" class="boton" value="Clear" id="limpiar2" onClick="clearForm();" >
+					<script type="text/javascript">
+						$('limpiar2').DoSexy({noconflict:true});
+					</script>
+				</fieldset>
+
+		</form>
+         <br clear="all" />
+
+     </div><!-- Fin capa container_form -->
+<script src="//static.getclicky.com/js" type="text/javascript"></script>
+<script type="text/javascript">try{ clicky.init(66543984); }catch(e){}</script>
+<noscript><p><img alt="Clicky" width="1" height="1" src="//in.getclicky.com/66543984ns.gif" /></p></noscript> 
+</body>
+</html>
+
+	</div><!-- Fin div pagina-->
+
+
+
+	<div id="pie">
+		<div style="width:80%;float:left;padding-left:10%">
+		<p align="center">	&copy; 2002 Manuel Molina.	<a target='_blank' href='extras/doc/2011_12_20_Copyright_BDTNS.pdf'>Copyright and credits.	</a>
+		</p>
+		<p align="center"> Funded by Ministerio de Ciencia, Innovaci&oacute;n y Universidades<br>					</p>
+		<p align="center">Centro de Ciencias Humanas y Sociales - Consejo Superior de Investigaciones Cient&iacute;ficas</p>
+		<p align="center">C/Albasanz, 26-28. Madrid 28037 (ESPA&Ntilde;A)</p>
+		</div>
+		<div style="padding-top:20px"><a href="#" class="enlace_2015" onclick="javascript:window.open('incidencia.php','Incidencia','width=520,height=500,scrollbars=yes,resizable=no,top=200,left=300');">
+		<!--<a href="mailto:bdtns@cchs.csic.es" class="enlace_2015">-->
+		Contact BDTNS<br/>
+		<img align="absmiddle" src="extras/img/Send_Suggestion.png" width="20px" height="20px" /> </a></div>
+
+	</div><!-- Fin div pie-->
+
+</div>
+	<!-- Fin contenedor -->
+</body>
+</html>

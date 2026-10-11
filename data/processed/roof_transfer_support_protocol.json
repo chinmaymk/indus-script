@@ -1,0 +1,63 @@
+{
+  "date": "2026-09-27",
+  "status": "Support specification before new grouped-support counts, after known roof-frame coverage; not blind",
+  "pairs": [
+    {
+      "base": "M059",
+      "roof": "M065",
+      "root": "fish"
+    },
+    {
+      "base": "M060",
+      "roof": "M066",
+      "root": "fish"
+    },
+    {
+      "base": "M089",
+      "roof": "M092",
+      "root": "three_strokes"
+    },
+    {
+      "base": "M137",
+      "roof": "M138",
+      "root": "cross"
+    },
+    {
+      "base": "M162",
+      "roof": "M163",
+      "root": "trident"
+    },
+    {
+      "base": "M333",
+      "roof": "M334",
+      "root": "basal_U"
+    }
+  ],
+  "corpus_branches": [
+    "strict_candidate",
+    "complete_undoubted_export"
+  ],
+  "metadata_branches": [
+    "known_secondary_labels",
+    "allow_unknown_labels_sensitivity"
+  ],
+  "eligibility": "No token doubt/loss; length>=2. Strict additionally requires existing strict_candidate flag. All eligible records form grouping before metadata exclusions.",
+  "grouping": "Connect eligible records transitively by equal source_reference OR equal complete sequence with all 12 selected endpoints replaced by one TARGET. Preserve all occurrence positions and pair/root/state labels. This is formula/reference grouping, not authenticated object/die grouping.",
+  "matching_stratum": [
+    "pair_index",
+    "site_label_unverified",
+    "source_object_code",
+    "field_length",
+    "target_position"
+  ],
+  "known_labels": "Strip surrounding whitespace; null, empty and case-insensitive <unknown>, unknown, null, none, ? become <unknown>. Exclude occurrence from primary scored support if site or object is <unknown>. Remaining labels are secondary, not archaeological authentication.",
+  "opposite_state_edges": "An edge connects two different components if base occurrence in one and roof occurrence in other share exact matching stratum. Mixed components may occupy either side but cannot pair with themselves or be used twice. Retain deterministic occurrence witnesses.",
+  "held_out_root": "All components containing any occurrence of held-out root are removed from training, including occurrences excluded by missing-metadata branch. No training/test formula or reference-component overlap.",
+  "support_gate": "At least two vertex-disjoint opposite-state edges for held-out root AND for at least two different training roots after purge. Thus at least three distinct roots with two matched component pairs each; two fish pairs count as one root and cannot be matched across pair_index.",
+  "matching_algorithm": "Enumerate sorted unordered edges and pairs; return first pair with four distinct component endpoints, else prove finite threshold gate fails. No claim to maximum matching.",
+  "archaeological_gate": "Independent artifact/die links and source-authenticated occurrence-level roof states required for confirmatory interpretation; unavailable for whole selected corpus. Report proxy support separately.",
+  "model_action": "No classifier fitting or p-values in this support audit. Freeze classifier/features separately only if an interpretable design is supported.",
+  "semantic_value": null,
+  "phonetic_value": null,
+  "pre_count_clarification": "Independent design review requested explicit whitespace/sentinel normalization, applied before new support counts."
+}

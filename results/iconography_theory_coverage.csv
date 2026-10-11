@@ -1,0 +1,17 @@
+mode,candidate,discovery_labels,strict_occurrence_artifacts,outside_copper_occurrence_artifacts,outside_copper_labelled_artifacts,outside_labels,new_label_artifacts,quality_filter
+singleton_presence,W341,Rhin,2,0,0,,0,all_conditions
+singleton_presence,W749,Othr,5,0,0,,0,all_conditions
+singleton_presence,W753,Hare,2,0,0,,0,all_conditions
+singleton_presence,W777,Anth;Buff;Goat:8;Othr,7,1,1,Bull1:W,1,all_conditions
+singleton_presence,W780,Anth,1,0,0,,0,all_conditions
+singleton_presence,W781,Anth,2,0,0,,0,all_conditions
+singleton_presence,W782,Anth,3,0,0,,0,all_conditions
+whole_text_equality,W407 W032 W520 W095 W585 W017 W231,Buff;Goat:8;Othr,8,0,0,,0,all_conditions
+whole_text_equality,W407 W321 W407 W845 W033 W705 W235,Hare,14,0,0,,0,all_conditions
+whole_text_equality,W740 W384 W233 W806,Othr,3,0,0,,0,all_conditions
+whole_text_equality,W740 W615 W503,Rhin,4,1,1,Bull1:I,1,all_conditions
+whole_text_equality,W740 W900 W850 W407 W061 W845 W806,Anth,14,0,0,,0,all_conditions
+singleton_presence,W777,Anth,2,1,1,Bull1:W,1,good_fair_only
+singleton_presence,W780,Anth,1,0,0,,0,good_fair_only
+singleton_presence,W782,Anth,2,0,0,,0,good_fair_only
+whole_text_equality,W740 W900 W850 W407 W061 W845 W806,Anth,9,0,0,,0,good_fair_only

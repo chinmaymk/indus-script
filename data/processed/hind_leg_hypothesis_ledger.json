@@ -1,0 +1,73 @@
+{
+  "status": "Exploratory source-grounded hypothesis audit; no new accepted decipherment or alias.",
+  "source_hashes": {
+    "data/raw/parpola_2009_hind_leg_fish.pdf": "0be7173796ebd9703773191f9bcd44a4db362be5d65c77cd71e0b26a2a447bd9",
+    "data/raw/cisi_76884.pdf": "47a4da4227cfb7baa56d6a561e25797225499d0ec54f5a702a82c67ab4746d4d",
+    "data/raw/lipi_inscriptions.csv": "b8dcb325a2e2cd3cde12ac12e7a418b0348e45713c9ee28aad81b645d2ac5ee4",
+    "data/processed/catalogue_features.json": "00836515c6f3beec28b3b66e13d8a9c6e94571cfb2e9dbb4b148651b7ff0032d",
+    "IM_417_150_PNG/84.png": "1f3d7efff1afe32869d5a638966b09a11dcb8e83c41c68ecd6ddaf03b713a965"
+  },
+  "claim": {
+    "paper_printed_pages": [
+      62,
+      63,
+      64
+    ],
+    "paper_pdf_pages": [
+      26,
+      27,
+      28
+    ],
+    "proposed_value": "taaL",
+    "compound": "taaL + miin",
+    "discovery_object": "M-1690",
+    "shape_object": "M-71",
+    "proposed_additional_context": "M-290",
+    "does_not_assert": "Every occurrence of the hind-leg sign must precede fish or name a star."
+  },
+  "code_alignment": [
+    {
+      "object": "M-1690",
+      "row": "2403.1",
+      "code": "W278",
+      "basis": "Rightmost candidate in literal sequence; immediately file-left W220; paper Fig15a identifies this reading-start combination. Figure is an old photograph excerpt, not a complete independently recoded inscription."
+    },
+    {
+      "object": "M-71",
+      "row": "2599.1",
+      "code": "W279",
+      "basis": "Second token from left in literal export agrees in position with recognizable hatched limb in CISI1 printed31 impression M-71a; Fig15b reproduces that form."
+    },
+    {
+      "object": "M-290",
+      "row": "2810.1",
+      "code": "W279",
+      "basis": "Literal rightmost code aligns with paper proposed leg before animal in R-to-L reading. CISI1 printed70 photograph shows a three-position inscription; small reproduction does not settle species or fine sign form."
+    }
+  ],
+  "mapping_limits": {
+    "W278_direct_P_M_mapping": [],
+    "W279_direct_P_M_mapping": [],
+    "visual_candidate": "M084 supplied silhouette resembles M-71 leg form; P045 source description matches limb family, but its listed code is W280 only. This is not an accepted W278/W279 alias.",
+    "fish_mapping": "Source asserts W220/P050/M059.",
+    "animal_mapping": "Source groups W345 among P043/M050 deer variants; paper calls M-290 animal dog or more likely wild ass. Species interpretation remains disputed."
+  },
+  "reviewed_images": [
+    {
+      "path": "results/primary_pages/hind-leg-parpola-26.png",
+      "finding": "Fig15 inspected; fish is left of leg in display order, consistent with the paper reading leg then fish right-to-left."
+    },
+    {
+      "path": "results/primary_pages/hind-leg-cisi-67.png",
+      "finding": "M-71 original and impression inspected; distinctive hatched bulbous upper portion, narrow lower limb and hoof-like end visible; positional correspondence with W279 supports candidate alignment."
+    },
+    {
+      "path": "results/primary_pages/hind-leg-m290-106.png",
+      "finding": "M-290 original and impressions inspected at bottom of printed70. Animal is between side signs; low resolution does not establish zoological species."
+    },
+    {
+      "path": "IM_417_150_PNG/84.png",
+      "finding": "Visually similar limb silhouette; no namespace equality inferred."
+    }
+  ]
+}

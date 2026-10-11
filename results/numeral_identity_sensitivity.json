@@ -1,0 +1,239 @@
+{
+  "bounds": [
+    "integer L>=10",
+    "integer S>=8",
+    "0<vA<min(L,S)",
+    "0<vB<min(L,S)"
+  ],
+  "coefficient_order": "constant term first",
+  "exhaustive_parameterization_claimed": false,
+  "families": [
+    {
+      "bound_polynomials_nonnegative_on_domain": {
+        "L_minus_10": [
+          -9,
+          7
+        ],
+        "L_minus_vA_minus_1": [
+          1,
+          6
+        ],
+        "L_minus_vB_minus_1": [
+          -4,
+          7
+        ],
+        "S_minus_8": [
+          -8,
+          4
+        ],
+        "S_minus_vA_minus_1": [
+          0,
+          3
+        ],
+        "S_minus_vB_minus_1": [
+          -5,
+          4
+        ],
+        "vA_minus_1": [
+          -2,
+          1
+        ],
+        "vB_minus_1": [
+          3
+        ]
+      },
+      "equation_residual_polynomials": [
+        [
+          0
+        ],
+        [
+          0
+        ]
+      ],
+      "examples": [
+        {
+          "L": 15,
+          "S": 8,
+          "shared_value": false,
+          "t": 2,
+          "vA": 1,
+          "vB": 4
+        },
+        {
+          "L": 22,
+          "S": 12,
+          "shared_value": false,
+          "t": 3,
+          "vA": 2,
+          "vB": 4
+        },
+        {
+          "L": 36,
+          "S": 20,
+          "shared_value": true,
+          "t": 5,
+          "vA": 4,
+          "vB": 4
+        },
+        {
+          "L": 7000001,
+          "S": 4000000,
+          "shared_value": false,
+          "t": 1000000,
+          "vA": 999999,
+          "vB": 4
+        }
+      ],
+      "parameterization": {
+        "L": [
+          1,
+          7
+        ],
+        "S": [
+          0,
+          4
+        ],
+        "name": "vB_four",
+        "shared_value_t": 5,
+        "t_min": 2,
+        "vA": [
+          -1,
+          1
+        ],
+        "vB": [
+          4
+        ]
+      },
+      "vA_minus_vB_polynomial": [
+        -5,
+        1
+      ]
+    },
+    {
+      "bound_polynomials_nonnegative_on_domain": {
+        "L_minus_10": [
+          -7,
+          7
+        ],
+        "L_minus_vA_minus_1": [
+          1,
+          2
+        ],
+        "L_minus_vB_minus_1": [
+          -4,
+          7
+        ],
+        "S_minus_8": [
+          -6,
+          6
+        ],
+        "S_minus_vA_minus_1": [
+          0,
+          1
+        ],
+        "S_minus_vB_minus_1": [
+          -5,
+          6
+        ],
+        "vA_minus_1": [
+          0,
+          5
+        ],
+        "vB_minus_1": [
+          5
+        ]
+      },
+      "equation_residual_polynomials": [
+        [
+          0
+        ],
+        [
+          0
+        ]
+      ],
+      "examples": [
+        {
+          "L": 10,
+          "S": 8,
+          "shared_value": true,
+          "t": 1,
+          "vA": 6,
+          "vB": 6
+        },
+        {
+          "L": 17,
+          "S": 14,
+          "shared_value": false,
+          "t": 2,
+          "vA": 11,
+          "vB": 6
+        },
+        {
+          "L": 7000003,
+          "S": 6000002,
+          "shared_value": false,
+          "t": 1000000,
+          "vA": 5000001,
+          "vB": 6
+        }
+      ],
+      "parameterization": {
+        "L": [
+          3,
+          7
+        ],
+        "S": [
+          2,
+          6
+        ],
+        "name": "vB_six",
+        "shared_value_t": 1,
+        "t_min": 1,
+        "vA": [
+          1,
+          5
+        ],
+        "vB": [
+          6
+        ]
+      },
+      "vA_minus_vB_polynomial": [
+        -5,
+        5
+      ]
+    }
+  ],
+  "infinite_solution_certificate": "In each family t ranges over infinitely many integers; affine bounds are nonnegative at t_min and nondecreasing; both residual polynomials vanish identically; L strictly increases.",
+  "input_sha256": {
+    "data/processed/m331_visual_evidence.json": "87764a7a7ef79f423c993a890083283a370be98302070488e91f3fac4c7ca8b2",
+    "data/processed/numeral_equation_claims.json": "f286e0aa6a4dcf69bf9d9fbe0dc93db0e4c783e931376194b28a234e390f3b80",
+    "docs/NUMERAL_IMAGES.md": "30c8b4148f6a44c5906349fe77825ead76e360ebcf20a7ca954ef2180b37b02c",
+    "results/numeral_calibration_design.json": "22beb968b6929c825fe5224b895c3af04e5a6348c8bd34542704a261848a2ea1",
+    "results/numeral_equation_audit.json": "ed2d921d7c0df0ae42bc6c989778134589bd532bc24c243478260700d27c21f4"
+  },
+  "limitations": [
+    "Different modern catalogue codes do not prove different ancient signs or numerical values.",
+    "Matching ancient shapes would not by itself prove context-independent numerical value.",
+    "The published proposal may intentionally use one value; this calculation does not misstate its algebra.",
+    "The prior two-candidate calibration result remains valid within its explicit shared-value model.",
+    "The two exhibited families demonstrate infinitude; they do not enumerate every split-value solution."
+  ],
+  "new_ancient_values_established": 0,
+  "scope": "Sensitivity to relaxing one shared-value assumption; not a proposed reading or proof the signs differ.",
+  "shared_value_intersections": [
+    {
+      "L": 36,
+      "S": 20,
+      "v": 4
+    },
+    {
+      "L": 10,
+      "S": 8,
+      "v": 6
+    }
+  ],
+  "split_equations": [
+    "3L+vA=2L+2S",
+    "vB*L+1=7S+5"
+  ]
+}

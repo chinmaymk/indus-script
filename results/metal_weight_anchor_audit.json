@@ -1,0 +1,366 @@
+{
+  "assumed_original_500g_variant": {
+    "i_g": 100,
+    "measured_K122_mass_g": 476,
+    "status": "Changes the mass assumption; not held-out confirmation",
+    "u_g": 10,
+    "unmeasured_added_mass_g": 24
+  },
+  "fixed_ratio_sensitivity": [
+    {
+      "compatible_with_strict_p_2_6": false,
+      "required_p": {
+        "decimal": 3.1739980449657867,
+        "exact": "3247/1023"
+      },
+      "t_equals_i": true,
+      "u_over_i": 8
+    },
+    {
+      "compatible_with_strict_p_2_6": false,
+      "required_p": {
+        "decimal": 2.893939393939394,
+        "exact": "191/66"
+      },
+      "t_equals_i": true,
+      "u_over_i": 10
+    },
+    {
+      "compatible_with_strict_p_2_6": true,
+      "required_p": {
+        "decimal": 2.452491011813046,
+        "exact": "4775/1947"
+      },
+      "t_equals_i": true,
+      "u_over_i": 16
+    }
+  ],
+  "input_ledger_sha256": "47ff98eef6b64e9254a1fbf6fd7ab6b002933d7004164659dbf402f07815d3ed",
+  "kalibangan_calibrations": [
+    {
+      "i_g": {
+        "decimal": 95.2,
+        "exact": "476/5"
+      },
+      "independent_validation_objects": 0,
+      "model": "K_Bside_2u",
+      "u_g": {
+        "decimal": 105.0,
+        "exact": "105"
+      },
+      "u_over_i": {
+        "decimal": 1.1029411764705883,
+        "exact": "75/68"
+      }
+    },
+    {
+      "i_g": {
+        "decimal": 95.2,
+        "exact": "476/5"
+      },
+      "independent_validation_objects": 0,
+      "model": "K_Bside_1u",
+      "u_g": {
+        "decimal": 210.0,
+        "exact": "210"
+      },
+      "u_over_i": {
+        "decimal": 2.2058823529411766,
+        "exact": "75/34"
+      }
+    },
+    {
+      "i_g": {
+        "decimal": 95.2,
+        "exact": "476/5"
+      },
+      "independent_validation_objects": 0,
+      "model": "K_Bside_1u2i",
+      "u_g": {
+        "decimal": 19.6,
+        "exact": "98/5"
+      },
+      "u_over_i": {
+        "decimal": 0.20588235294117646,
+        "exact": "7/34"
+      }
+    }
+  ],
+  "new_established_sign_values": 0,
+  "objects_with_reported_mass": 5,
+  "reconstruction_elimination": {
+    "coefficients": {
+      "i": "29",
+      "t": "28",
+      "u": "0"
+    },
+    "normalized_t_coefficient": {
+      "decimal": 0.9655172413793104,
+      "exact": "28/29"
+    },
+    "printed_coefficient_correct": false,
+    "printed_t_coefficient": "4/29",
+    "rhs_exclusive_g": {
+      "decimal": 1093.0,
+      "exact": "1093"
+    }
+  },
+  "scope": "Conditional algebra of disputed readings and mass reconstructions; not a decipherment.",
+  "signed_small_axe_free_residual_counterexample": {
+    "chosen_i_g": {
+      "decimal": -30.0,
+      "exact": "-30"
+    },
+    "fitted_small_axe_other_signs_g": {
+      "decimal": 442.233,
+      "exact": "442233/1000"
+    },
+    "free_parameters_after_three_equations": 1,
+    "residuals_g": [
+      {
+        "decimal": 0.0,
+        "exact": "0"
+      },
+      {
+        "decimal": 0.0,
+        "exact": "0"
+      },
+      {
+        "decimal": 0.0,
+        "exact": "0"
+      }
+    ],
+    "scope": "Counterexample with an invented aggregate residual for other signs; not observed mass or deciphered meaning",
+    "t_g": {
+      "decimal": 4.191821428571428,
+      "exact": "117371/28000"
+    },
+    "u_g": {
+      "decimal": 298.5757142857143,
+      "exact": "209003/700"
+    }
+  },
+  "signed_three_object_original_metric": {
+    "all_nonnegative": false,
+    "equations": 3,
+    "i_g": {
+      "decimal": 43.7055,
+      "exact": "87411/2000"
+    },
+    "independent_validation_equations": 0,
+    "negative_i_possible_under_small_axe_equation": false,
+    "parameters": 3,
+    "residuals_g": [
+      {
+        "decimal": 0.0,
+        "exact": "0"
+      },
+      {
+        "decimal": 0.0,
+        "exact": "0"
+      },
+      {
+        "decimal": 0.0,
+        "exact": "0"
+      }
+    ],
+    "scope": "Algebraic signed fit to assumed complete current-mass expressions; negative t is a fitted subtraction, not evidence of ancient arithmetic",
+    "t_equals_i_compatible": false,
+    "t_g": {
+      "decimal": -72.14601785714285,
+      "exact": "-4040177/56000"
+    },
+    "u_g": {
+      "decimal": 235.39957142857142,
+      "exact": "1647797/7000"
+    }
+  },
+  "surviving_mass_certificates": {
+    "reported_precision": {
+      "coefficients": {
+        "i": "29",
+        "t": "28",
+        "u": "0"
+      },
+      "nonnegative_solution_impossible": true,
+      "rhs_g": {
+        "decimal": -752.629,
+        "exact": "-752629/1000"
+      },
+      "scale": {
+        "decimal": 7.0,
+        "exact": "7"
+      }
+    },
+    "rounded": {
+      "coefficients": {
+        "i": "29",
+        "t": "28",
+        "u": "0"
+      },
+      "nonnegative_solution_impossible": true,
+      "rhs_g": {
+        "decimal": -755.0,
+        "exact": "-755"
+      },
+      "scale": {
+        "decimal": 7.0,
+        "exact": "7"
+      }
+    }
+  },
+  "t_equals_i_sensitivity": [
+    {
+      "eliminated_rhs_g": {
+        "decimal": 1093.0,
+        "exact": "1093"
+      },
+      "i_upper_exclusive_g": {
+        "decimal": 19.17543859649123,
+        "exact": "1093/57"
+      },
+      "mass_input": "rounded",
+      "p": "2.6",
+      "positive_solution_possible": true,
+      "u_lower_exclusive_g": {
+        "decimal": 256.42105263157896,
+        "exact": "4872/19"
+      },
+      "u_over_i_lower_exclusive": {
+        "decimal": 13.372369624885636,
+        "exact": "14616/1093"
+      }
+    },
+    {
+      "eliminated_rhs_g": {
+        "decimal": 1324.0,
+        "exact": "1324"
+      },
+      "i_upper_exclusive_g": {
+        "decimal": 23.228070175438596,
+        "exact": "1324/57"
+      },
+      "mass_input": "rounded",
+      "p": "2.8",
+      "positive_solution_possible": true,
+      "u_lower_exclusive_g": {
+        "decimal": 252.94736842105263,
+        "exact": "4806/19"
+      },
+      "u_over_i_lower_exclusive": {
+        "decimal": 10.889728096676738,
+        "exact": "7209/662"
+      }
+    },
+    {
+      "eliminated_rhs_g": {
+        "decimal": 1099.2126,
+        "exact": "5496063/5000"
+      },
+      "i_upper_exclusive_g": {
+        "decimal": 19.28443157894737,
+        "exact": "1832021/95000"
+      },
+      "mass_input": "reported_precision",
+      "p": "2.6",
+      "positive_solution_possible": true,
+      "u_lower_exclusive_g": {
+        "decimal": 256.33191578947367,
+        "exact": "6087883/23750"
+      },
+      "u_over_i_lower_exclusive": {
+        "decimal": 13.292168594137294,
+        "exact": "24351532/1832021"
+      }
+    },
+    {
+      "eliminated_rhs_g": {
+        "decimal": 1330.6928,
+        "exact": "831683/625"
+      },
+      "i_upper_exclusive_g": {
+        "decimal": 23.345487719298244,
+        "exact": "831683/35625"
+      },
+      "mass_input": "reported_precision",
+      "p": "2.8",
+      "positive_solution_possible": true,
+      "u_lower_exclusive_g": {
+        "decimal": 252.85101052631578,
+        "exact": "12010423/47500"
+      },
+      "u_over_i_lower_exclusive": {
+        "decimal": 10.830830075882277,
+        "exact": "36031269/3326732"
+      }
+    }
+  ],
+  "table_objects": 9,
+  "three_object_extension": {
+    "assumption": "DK-7855 six strokes alone encode whole surviving axe; adjacent signs ignored. Each branch states its mass precision.",
+    "original_metric": {
+      "chisel_mass_lower_inclusive_g": {
+        "decimal": 453.9270714285714,
+        "exact": "6354979/14000"
+      },
+      "compatible_with_strict_p_2_6": false,
+      "i_g": {
+        "decimal": 43.7055,
+        "exact": "87411/2000"
+      },
+      "p_lower_inclusive": {
+        "decimal": 2.7453661263468754,
+        "exact": "6354979/2314802"
+      },
+      "u_g": {
+        "decimal": 235.39957142857142,
+        "exact": "1647797/7000"
+      }
+    },
+    "original_metric_inputs_g": {
+      "large_axe": "1910.030",
+      "small_axe": "262.233",
+      "tang": "165.343"
+    },
+    "original_metric_source_sha256": "df2004bef9285e72688715006bb00d63984a446c488d80f394f464ff77ca5659",
+    "precision_note": "Historical reported_precision used rounded262g for small axe; original_metric uses262.233g. Decimal strings do not establish balance accuracy.",
+    "reported_precision": {
+      "chisel_mass_lower_inclusive_g": {
+        "decimal": 453.7661904761905,
+        "exact": "952909/2100"
+      },
+      "compatible_with_strict_p_2_6": false,
+      "i_g": {
+        "decimal": 43.666666666666664,
+        "exact": "131/3"
+      },
+      "p_lower_inclusive": {
+        "decimal": 2.744393112960273,
+        "exact": "9529090/3472203"
+      },
+      "u_g": {
+        "decimal": 235.43285714285713,
+        "exact": "164803/700"
+      }
+    },
+    "rounded": {
+      "chisel_mass_lower_inclusive_g": {
+        "decimal": 453.76190476190476,
+        "exact": "9529/21"
+      },
+      "compatible_with_strict_p_2_6": false,
+      "i_g": {
+        "decimal": 43.666666666666664,
+        "exact": "131/3"
+      },
+      "p_lower_inclusive": {
+        "decimal": 2.75007215007215,
+        "exact": "9529/3465"
+      },
+      "u_g": {
+        "decimal": 235.42857142857142,
+        "exact": "1648/7"
+      }
+    }
+  }
+}

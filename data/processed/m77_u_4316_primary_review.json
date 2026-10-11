@@ -1,0 +1,240 @@
+{
+  "schema_version": 1,
+  "review_date": "2026-09-23",
+  "source": {
+    "path": "data/raw/mahadevan_1977_text.pdf",
+    "bytes": 119302608,
+    "sha256": "6dcdd074a0174e5fab149590fbbf82342711d345764e9763f8e5e92c81cf7f99"
+  },
+  "purpose": "Explicit new primary review for4316/10; old ledger not overwritten",
+  "replaces_candidate_inherited_review": {
+    "path": "data/processed/m77_u_pilot_parent.json",
+    "reference": "4316",
+    "side": "1",
+    "line": "0"
+  },
+  "rows": [
+    {
+      "reference": "4316",
+      "side": "1",
+      "line": "0",
+      "printed_side_line_code": "10",
+      "pdf_page": 582,
+      "printed_page": 571,
+      "row_locator": "Printed reference4316 10, below4550 side20 and above4353 side10; indexed U at far left under R",
+      "tokens": [
+        "M267",
+        "M099",
+        "M086",
+        "M336",
+        "UNKNOWN",
+        "M089",
+        "M328"
+      ],
+      "indexed_M328_token_index_zero_based": 6,
+      "full_sequence_primary_checked": true,
+      "full_sequence_primary_checked_semantics": "Every token in the complete printed line was visually inspected and compared with primary numbered sign list; true does not mean every identity resolved. UNKNOWN remains explicit.",
+      "all_token_identities_resolved": false,
+      "primary_doubt_token_indices_zero_based": [],
+      "loss_spans": [],
+      "reviewer_unknown_indices_zero_based": [
+        4
+      ],
+      "normalization": "RTL order of normalized printed concordance, not independently determined original artifact direction",
+      "actual_direction_code": null,
+      "notes": [
+        "Fresh primary review replaces inherited candidate token4 M012 with UNKNOWN; no primary star or damage is asserted.",
+        "The unresolved sign is visibly a carrying-person form with horizontal yoke and two pendant loops; tiny head/internal-leg distinctions needed to distinguish M012/M013/M014 are not confidently resolved.",
+        "Prior corpus work supplied broad context, so this is an independent primary check, not a blind transcription experiment. Candidate prefix was inspected only after initial visual token assessment."
+      ],
+      "token_authentication": [
+        {
+          "index_zero_based": 0,
+          "sign": "M267",
+          "evidence": "Diamond with small upper internal cell; primary numbered267, PDF45/printed34."
+        },
+        {
+          "index_zero_based": 1,
+          "sign": "M099",
+          "evidence": "Two short upper vertical strokes, distinct from long M087; primary numbered99, PDF43/printed32."
+        },
+        {
+          "index_zero_based": 2,
+          "sign": "M086",
+          "evidence": "Long single vertical stroke; primary numbered86, PDF43/printed32."
+        },
+        {
+          "index_zero_based": 3,
+          "sign": "M336",
+          "evidence": "U-shaped enclosure with long interior stem ending in small loop/dot, without external feet; primary numbered336 contrasted with335, PDF46/printed35."
+        },
+        {
+          "index_zero_based": 4,
+          "sign": "UNKNOWN",
+          "candidate_set_not_reading": [
+            "M012",
+            "M013",
+            "M014"
+          ],
+          "evidence": "Primary12–14 crop exposes discriminating head/leg features; source glyph too coarse to authenticate one confidently."
+        },
+        {
+          "index_zero_based": 5,
+          "sign": "M089",
+          "evidence": "Three long parallel strokes, PDF43/printed32 label89."
+        },
+        {
+          "index_zero_based": 6,
+          "sign": "M328",
+          "evidence": "Plain U, PDF45/printed34 label328."
+        }
+      ]
+    }
+  ],
+  "supplemental_glyph_checks": [
+    {
+      "reference": "1623",
+      "side": "1",
+      "line": "0",
+      "pdf_page": 576,
+      "printed_page": 565,
+      "token_index_zero_based": 4,
+      "reviewed_token": "UNKNOWN",
+      "broad_shape": "carrying person with horizontal yoke and two pendant loops",
+      "candidate_set_not_reading": [
+        "M012",
+        "M013",
+        "M014"
+      ],
+      "decision": "Retain existing UNKNOWN; no LOSS or source doubt mark is visible on this glyph. No promotion of exact identity.",
+      "scope": "Load-bearing carrying glyph only; not a replacement/full-line recollation."
+    },
+    {
+      "reference": "2847",
+      "side": "1",
+      "line": "0",
+      "pdf_page": 576,
+      "printed_page": 565,
+      "token_index_zero_based": 4,
+      "reviewed_token": "UNKNOWN",
+      "broad_shape": "carrying person with horizontal yoke and two pendant loops",
+      "candidate_set_not_reading": [
+        "M012",
+        "M013",
+        "M014"
+      ],
+      "decision": "Retain existing UNKNOWN; no LOSS or source doubt mark is visible on this glyph. No promotion of exact identity.",
+      "scope": "Load-bearing carrying glyph only; not a replacement/full-line recollation."
+    }
+  ],
+  "evidence": [
+    {
+      "path": "results/primary_pages/parent-u-pilot-582.png",
+      "bytes": 1291499,
+      "sha256": "0973a990832c273bd02bfb2db02f302ca44fcbd53dba4cee2574df344d45ade4",
+      "pdf_page": 582,
+      "printed_page": 571,
+      "visually_inspected": true
+    },
+    {
+      "path": "results/primary_pages/structure-u-4316-detail.png",
+      "bytes": 58599,
+      "sha256": "419119c847f2330a0ec4cebf1035a2d415a8a4c614623beb40dcc3615996c416",
+      "pdf_page": 582,
+      "printed_page": 571,
+      "dpi": 400,
+      "crop_xywh": [
+        1750,
+        3240,
+        750,
+        190
+      ],
+      "visually_inspected": true
+    },
+    {
+      "path": "results/primary_pages/structure-u-4316-sign12-15.png",
+      "bytes": 125092,
+      "sha256": "c292634e6f77a68555e1d7b9d559557ad0657de102f1ac69b575ff1a0e676506",
+      "pdf_page": 43,
+      "printed_page": 32,
+      "dpi": 400,
+      "crop_xywh": [
+        560,
+        500,
+        660,
+        430
+      ],
+      "note": "Initial cropped comparison; replaced for labels by full12–14 crop",
+      "visually_inspected": true
+    },
+    {
+      "path": "results/primary_pages/structure-u-4316-sign12-14-full.png",
+      "bytes": 120603,
+      "sha256": "053811b85f254f765a95bf844908e9948d5424e6aa240475e06facc132e55f35",
+      "pdf_page": 43,
+      "printed_page": 32,
+      "dpi": 400,
+      "crop_xywh": [
+        450,
+        670,
+        850,
+        330
+      ],
+      "visually_inspected": true
+    },
+    {
+      "path": "results/primary_pages/structure-u-4316-sign335-337.png",
+      "bytes": 62724,
+      "sha256": "b6358a4eec16bf1996fc9ff2801a895956e156b3bb5b3af149e3381cf702b27d",
+      "pdf_page": 46,
+      "printed_page": 35,
+      "dpi": 400,
+      "crop_xywh": [
+        1540,
+        350,
+        600,
+        400
+      ],
+      "visually_inspected": true
+    },
+    {
+      "path": "results/primary_pages/sign_list_page_32.png",
+      "bytes": 982719,
+      "sha256": "1e3f91789c947add7ce796479168d84d69636ebdc378493743188ac11c53c90a",
+      "pdf_page": 43,
+      "printed_page": 32,
+      "visually_inspected": true
+    },
+    {
+      "path": "results/primary_pages/sign_list-045.png",
+      "bytes": 2312636,
+      "sha256": "972002b288ea77921dcacfe67386dbf585b76be6bca5444b7ff9422e47e70b89",
+      "pdf_page": 45,
+      "printed_page": 34,
+      "visually_inspected": true
+    },
+    {
+      "path": "results/primary_pages/sign_list-046.png",
+      "bytes": 2099531,
+      "sha256": "a191e9297a6ab8b7cad1028eaeac062b4b6fa3cd34aefbdd507f669d736d2e8e",
+      "pdf_page": 46,
+      "printed_page": 35,
+      "visually_inspected": true
+    },
+    {
+      "path": "results/primary_pages/numeral-u-pilot-576-top.png",
+      "bytes": 356380,
+      "sha256": "2db424b71a85e94bc87c2621d638c695f2001856365085f2b7304195d6285890",
+      "pdf_page": 576,
+      "printed_page": 565,
+      "visually_inspected": true,
+      "scope": "Supplemental carrying-person review only"
+    }
+  ],
+  "limits": [
+    "No artifact photograph collation",
+    "Unresolved sign identity must not be silently changed to M012 by canonical joining",
+    "M336 identification is graphic only; no meaning assigned",
+    "Supplemental entries are partial checks and must not be treated as newly authenticated full lines"
+  ]
+}

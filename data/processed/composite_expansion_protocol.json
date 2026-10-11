@@ -1,0 +1,38 @@
+{
+  "status": "Exploratory protocol fixed before this screen's counts; follows prior arch and substitution research",
+  "question": "Do whole strings provide a one-sign versus two-sign substitution compatible with a graphical composite hypothesis?",
+  "corpora": [
+    "Complete undoubted M77 secondary export, all metadata categories",
+    "Strict-candidate sensitivity subset"
+  ],
+  "rules": [
+    "Enumerate every one-token versus adjacent two-token replacement with exactly identical entire prefix and suffix",
+    "Retain normalized catalogue order; test both proposed component orders separately",
+    "Require different source references across a witness; retain reference metadata for follow-up",
+    "Deduplicate string/context/replacement instances rather than weight repeated artifacts",
+    "Nonempty remaining context is required; report at least two remaining tokens as a stronger descriptive threshold",
+    "Exclude any doubtful token or loss anywhere in either complete string; never fill damaged M317 context",
+    "Enumerate all 417 possible target codes and every observed replacement bigram as controls; no p-values or semantic equality claims",
+    "Primary-reviewed selected composite fields can be queried separately without replacing the incomplete export"
+  ],
+  "graphic_candidates_known_before_screen": [
+    {
+      "composite": "M317",
+      "components": [
+        "M312",
+        "M107"
+      ],
+      "status": "provisional shape hypothesis: arch enclosing 3+2 strokes; independent primary shape review pending"
+    },
+    {
+      "composite": "M317",
+      "components": [
+        "M312",
+        "M106"
+      ],
+      "status": "sensitivity only: five parallel strokes differ from 3+2 arrangement"
+    }
+  ],
+  "other_candidates": "Primary representative signlist pp32\u201335 inspected before counts. No exact standalone H interior identified for M316; no M316 component code assigned. M318 not decomposed. P293 descriptive H maps to M199 in secondary features but primary M199 representative is a crowned gate; this is not a usable exact-H bridge.",
+  "interpretation": "A witness establishes compatible replacement in a frame, not equal meaning, reading, or syllables. Absence in the incomplete export is not disproof. Primary images must authenticate any promoted witness."
+}

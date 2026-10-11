@@ -1,0 +1,33 @@
+{
+  "date": "2026-09-22",
+  "target": "Mahadevan 1977 printed pages 758 and 759",
+  "recovered": false,
+  "attempts": [
+    {
+      "source": "alternate Internet Archive item",
+      "evidence": "data/raw/mahadevan_alternate_metadata.json",
+      "outcome": "is_dark=true; no alternate server/file access attempted"
+    },
+    {
+      "source": "HPDL public download page",
+      "url": "https://hpdl.in/download/35c7ab7c5311c57544a22b13078e9a10",
+      "outcome": "Web tool unavailable; curl DNS resolution failed; no data file produced"
+    },
+    {
+      "source": "RMRL public flipbook",
+      "url": "https://s3.us-east-1.amazonaws.com/rmrldl.in/RP/IM/The%20Indus%20script%20-text%20%2C%20concordance%20and%20table_1977/index.html",
+      "evidence": [
+        "data/raw/rmrl_mahadevan_book.html",
+        "data/raw/rmrl_mahadevan_flipbook.html",
+        "data/raw/rmrl_mahadevan_config.js"
+      ],
+      "observation": "Browser AX field shows 1/48. Navigating to page 48 shows only the Tables divider. The missing Table IV data are not supplied by this excerpt."
+    },
+    {
+      "source": "public 48-page excerpt PDF",
+      "url": "https://kashmirasitis.com/wp-content/uploads/2020/10/Indus-scriptdarend.pdf",
+      "outcome": "Web tool reports 48 pages; not downloaded as a duplicate excerpt route."
+    }
+  ],
+  "next": "Use another lawful full scan or checked inscription-level transcription; do not infer missing cells."
+}

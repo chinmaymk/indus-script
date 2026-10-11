@@ -1,0 +1,35 @@
+{
+  "status": "Source-exposed audit; fixed after reading named rows and photographs, before new corpus counts",
+  "question": "Does the original room association or the short-text parallel independently establish M-294 completeness or fish meaning?",
+  "named_rows": {
+    "M-294": "2814.1",
+    "M-1912": "2441.1"
+  },
+  "literal_file_order_targets": [
+    [
+      "W740",
+      "W220",
+      "W003"
+    ],
+    [
+      "W520",
+      "W220",
+      "W003"
+    ]
+  ],
+  "corpus_rules": [
+    "Use existing strict secondary rows only; no semantic or proposed-language columns",
+    "Keep W740 and W520 distinct, although the paper treats them under one ending category",
+    "Count exact rows and longer strings containing each exact sequence; preserve object, source direction, damage and condition",
+    "Reading prefix extension means extra file-right tokens only for reported R/L",
+    "Report absence as a corpus result, never proof that no sign was lost",
+    "Do not treat M-294 complete=Y as independent physical evidence; preservation=fragment and condition=Poor remain explicit",
+    "Named parallels are source-exposed, not held-out predictions"
+  ],
+  "inference_limits": [
+    "A short complete parallel can make a restoration plausible without proving the clipped original had no extra signs",
+    "Goldsmith ownership and active workshop floor deposition are distinct archaeological claims",
+    "An occupational association does not select commodity, owner, institution, tax category, or sound value without further independent anchors"
+  ],
+  "post_count_image_correction": "Independent enlarged-photo review corrected parent edge orientation: clipping is ending-side (original-right/impression-left). Both extension directions were computed initially; focus now on file-left/read-suffix extensions. Count rules and targets unchanged; this correction is retrospective, not preregistered."
+}

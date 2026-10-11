@@ -1,0 +1,58 @@
+{
+  "research_date": "2026-10-10",
+  "status": "stopped_at_user_direction_after_completed_visual_inspection",
+  "evidence_pins": [
+    {
+      "path": "data/raw/oct10-route-chanhu-2019-2022-poster.pdf",
+      "bytes": 16646272,
+      "sha256": "4a9e01d1b38d4c4c5131d9bd3fbf4b59f0fac6e05780c72f32e3b3b0e496d928"
+    },
+    {
+      "path": "results/oct10_route_poster11_seals.jpg",
+      "bytes": 80433,
+      "sha256": "0d8612c1d13899382153af5ba7ec68da7e50c1b96eb233cb63c02d7e870955f9"
+    },
+    {
+      "path": "results/primary_pages/oct10-didier-review-poster11-seals-3x.png",
+      "bytes": 327172,
+      "sha256": "f58bdb320d3899345fb71af64a9830c4b4cd056e8ef7c6b42af5706bc6f41b52"
+    },
+    {
+      "path": "data/processed/oct10_didier_seal_review.json",
+      "bytes": 9793,
+      "sha256": "5d0b7d9539614d6b5ddcdba561e16508ab155619a44807fcd9322fcf70add1fc"
+    },
+    {
+      "path": "results/primary_pages/sign_list-046.png",
+      "bytes": 2099531,
+      "sha256": "a191e9297a6ab8b7cad1028eaeac062b4b6fa3cd34aefbdd507f669d736d2e8e"
+    },
+    {
+      "path": "results/primary_pages/sign_list_page_32.png",
+      "bytes": 982719,
+      "sha256": "1e3f91789c947add7ce796479168d84d69636ebdc378493743188ac11c53c90a"
+    }
+  ],
+  "poster_native_image": {
+    "pdf_page": 2,
+    "image_index_zero_based": 14,
+    "name": "I22.jpg",
+    "pixels": [
+      537,
+      311
+    ],
+    "native_extraction_sha_matches": true
+  },
+  "earlier_review_unchanged": true,
+  "observations": [
+    "Two pictured seal views strongly match article Fig10b right fragment and middle square face by layouts and fracture outlines; no excavation-number authentication.",
+    "The square seal has two tall pointed-bottom forms appearing open at their tops with terminal projections; these are compatible with U-form signs, not securely diagnostic closed fish bodies.",
+    "Primary M347/M342-type diagrams supply a non-fish alternative; exact code assignments withheld.",
+    "No new secure fixed-family positive is established; strict fixed-family status remains U for both views and complete original texts.",
+    "Poster nominal2019\u20132022 title is not proof these previously illustrated objects were newly excavated in those years."
+  ],
+  "candidate_positive_rejected": "Tall oval appearance alone is insufficient for fish-family P.",
+  "new_eligible_fish_observations": 0,
+  "transforms": "RGB conversion and separate3x nearest-neighbor display; no restoration or mirroring",
+  "attempt_note": "Enumerating embedded images emitted Pillow large-image warning for unrelated image; only537x311 target was inspected."
+}

@@ -1,0 +1,283 @@
+{
+  "review_date": "2026-09-23",
+  "status": "Bounded primary-source review; calculations not independently reproduced",
+  "paper": {
+    "title": "On the Non-Specificity of Statistical Measures Used in Script Decipherment",
+    "author": "Nikhil Raghavendra",
+    "arxiv": "2608.02999v1",
+    "submission_date": "2026-08-04",
+    "pages": 28,
+    "abstract_url": "https://arxiv.org/abs/2608.02999v1",
+    "html_url": "https://arxiv.org/html/2608.02999v1",
+    "local_pdf": "data/raw/nonspecificity_2026_2608.02999v1.pdf"
+  },
+  "source_reported_claims": {
+    "construction": {
+      "name": "SIGIL",
+      "core_texts": 3000,
+      "outpost_texts": 350,
+      "attested_core_sign_types": 419,
+      "ground_truth": "Author-defined compositional semantics without assigned phonology; synthetic, not archaeological labels."
+    },
+    "registry": {
+      "entries": 54,
+      "exact_scored": 6,
+      "reconstructions": 18,
+      "descriptive": 14,
+      "blocked": 10,
+      "excluded": 6,
+      "exact_families": {
+        "repetition": 1,
+        "handedness": 2,
+        "LNRE": 3
+      },
+      "claimed_exact_matches": 6,
+      "locator": "Section5.1/Table2; limitationsPDFp9"
+    },
+    "lexical_test": {
+      "languages": [
+        "English",
+        "Sanskrit",
+        "Tamil"
+      ],
+      "target": "Dictionary segmentation feasibility on syntheticSIGIL, not Indus translation accuracy.",
+      "grouping_claim": "Exact duplicates grouped before train/validation/test splitting.",
+      "semantic_recovery_score": null,
+      "locator": "Sections5.3,6.3;AppendicesC,E"
+    },
+    "scope": "Existence counterexample to statistical sufficiency, not an estimate that Indus is nonlinguistic."
+  },
+  "anchor_audit": {
+    "new_indus_phonetic_values": false,
+    "new_independently_labelled_indus_semantics": false,
+    "held_out_correct_indus_readings": false,
+    "synthetic_held_out_parseability_claims": true,
+    "synthetic_meanings_are_external_indus_evidence": false
+  },
+  "availability_audit": {
+    "paper_advertises_public_generator_and_corpus": true,
+    "identified_SIGIL_repository_url": null,
+    "identified_SIGIL_data_url": null,
+    "pdf_and_source_findings": "No SIGIL release URL located in manuscript text, PDF hyperlink inventory or manuscript source. The cited ScriptDerivation GitHub URL belongs to a criticized external proposal, not SIGIL.",
+    "source_archive_members": [
+      {
+        "name": "00README.json",
+        "bytes": 298,
+        "is_file": true
+      },
+      {
+        "name": "acl_natbib.bst",
+        "bytes": 45442,
+        "is_file": true
+      },
+      {
+        "name": "acl.sty",
+        "bytes": 11615,
+        "is_file": true
+      },
+      {
+        "name": "figures",
+        "bytes": 0,
+        "is_file": false
+      },
+      {
+        "name": "figures/fig25_yd_ambiguity.pdf",
+        "bytes": 14793,
+        "is_file": true
+      },
+      {
+        "name": "figures/fig2_zipf.pdf",
+        "bytes": 87211,
+        "is_file": true
+      },
+      {
+        "name": "figures/fig26_yd_relaxations.pdf",
+        "bytes": 63245,
+        "is_file": true
+      },
+      {
+        "name": "figures/fig9_restoration.pdf",
+        "bytes": 12109,
+        "is_file": true
+      },
+      {
+        "name": "figures/fig22_yd_readability.pdf",
+        "bytes": 32684,
+        "is_file": true
+      },
+      {
+        "name": "figures/fig24_yd_stability.pdf",
+        "bytes": 37808,
+        "is_file": true
+      },
+      {
+        "name": "figures/fig4_block_entropy.pdf",
+        "bytes": 60532,
+        "is_file": true
+      },
+      {
+        "name": "figures/fig19_network_cores.pdf",
+        "bytes": 39129,
+        "is_file": true
+      },
+      {
+        "name": "figures/fig6_sign_coverage.pdf",
+        "bytes": 28124,
+        "is_file": true
+      },
+      {
+        "name": "figures/fig13_west_asia.pdf",
+        "bytes": 61139,
+        "is_file": true
+      },
+      {
+        "name": "figures/fig27_signary.pdf",
+        "bytes": 163862,
+        "is_file": true
+      },
+      {
+        "name": "figures/fig18_ngram_nulls.pdf",
+        "bytes": 40877,
+        "is_file": true
+      },
+      {
+        "name": "figures/fig20_handedness.pdf",
+        "bytes": 59873,
+        "is_file": true
+      },
+      {
+        "name": "figures/fig1_seals.pdf",
+        "bytes": 71340,
+        "is_file": true
+      },
+      {
+        "name": "figures/fig16_multilingual_decipherment.pdf",
+        "bytes": 29014,
+        "is_file": true
+      },
+      {
+        "name": "figures/fig14_sensitivity_ce.pdf",
+        "bytes": 64599,
+        "is_file": true
+      },
+      {
+        "name": "figures/fig17_sanskrit_protocols.pdf",
+        "bytes": 28481,
+        "is_file": true
+      },
+      {
+        "name": "figures/fig10_lee.pdf",
+        "bytes": 80694,
+        "is_file": true
+      },
+      {
+        "name": "figures/fig15_sensitivity_lee.pdf",
+        "bytes": 47878,
+        "is_file": true
+      },
+      {
+        "name": "figures/fig5_positional_asymmetry.pdf",
+        "bytes": 63455,
+        "is_file": true
+      },
+      {
+        "name": "figures/fig3_conditional_entropy.pdf",
+        "bytes": 80104,
+        "is_file": true
+      },
+      {
+        "name": "figures/fig12_connectance.pdf",
+        "bytes": 29683,
+        "is_file": true
+      },
+      {
+        "name": "figures/fig7_transition_matrix.pdf",
+        "bytes": 52801,
+        "is_file": true
+      },
+      {
+        "name": "figures/fig11_reciprocity.pdf",
+        "bytes": 58301,
+        "is_file": true
+      },
+      {
+        "name": "figures/fig21_lnre_position.pdf",
+        "bytes": 63284,
+        "is_file": true
+      },
+      {
+        "name": "figures/fig8_perplexity.pdf",
+        "bytes": 32483,
+        "is_file": true
+      },
+      {
+        "name": "figures/fig23_yd_heldout.pdf",
+        "bytes": 29420,
+        "is_file": true
+      },
+      {
+        "name": "main.bbl",
+        "bytes": 20648,
+        "is_file": true
+      },
+      {
+        "name": "main.tex",
+        "bytes": 105602,
+        "is_file": true
+      }
+    ],
+    "archive_content_result": "Manuscript, bibliography/typesetting files and27PDFfigures; no runnable generator, rawSIGIL corpus, decoder or method-registry artifact identified.",
+    "candidate_author_account": "https://github.com/starhopp3r",
+    "account_link_basis": "Public gist profile names Nikhil Raghavendra and links nikhilr.io, matching paper email domain; treated as a bounded discovery lead.",
+    "public_repository_count_returned": 36,
+    "repository_name_description_search": "No identifiable SIGIL or non-specificity release in returned36repository names/descriptions; repository contents were not exhaustively searched.",
+    "absence_scope": "Not located in inspected sources as of review; not proof that no release exists elsewhere.",
+    "search_queries": [
+      "\"Nikhil Raghavendra\" SIGIL github",
+      "\"2608.02999\" code",
+      "\"On the Non-Specificity\" SIGIL corpus repository"
+    ],
+    "code_executed": false
+  },
+  "independent_review": {
+    "useful_inference": "A counterexample can defeat a universal diagnostic implication without determining which mechanism generated the ancient corpus.",
+    "claims_not_licensed": [
+      "54 independent language tests passed",
+      "6 exact outcomes are all affirmative linguistic classifications",
+      "Statistics have no evidential value under any calibrated alternative",
+      "High held-out dictionary coverage proves semantic recovery",
+      "Synthetic semantic annotations identify meanings for Indus signs"
+    ],
+    "reproduction_needed": [
+      "Locate a versioned generator/corpus/registry release and verify provenance.",
+      "Recompute six category outcomes with the precise source-defined rules.",
+      "Check train/test grouping and fit steps directly in code.",
+      "Distinguish parse feasibility, recovered sounds and semantic accuracy in every reported result."
+    ],
+    "effect_on_current_project": "Supports keeping present structural findings as constraints and retaining nonlinguistic controls; supplies no new phonetic or semantic anchor and changes no sign dossier."
+  },
+  "downloads_requiring_parent_registration": [
+    {
+      "file": "nonspecificity_2026_2608.02999v1.pdf",
+      "url": "https://arxiv.org/pdf/2608.02999v1",
+      "bytes": 1723052,
+      "sha256": "3334b2fc8998d1a37b922a77e3438a989ce7346d756d52d30957a276ace95c9a",
+      "description": "Paper PDF"
+    },
+    {
+      "file": "nonspecificity_2026_2608.02999v1_source.tar",
+      "url": "https://arxiv.org/src/2608.02999v1",
+      "bytes": 1232091,
+      "sha256": "c35c5d5c027cc07a18edd710f46dc3c0cde5c8d32d2427021c530ca2ad51801e",
+      "description": "Public manuscript source archive, not runnable analysis release"
+    },
+    {
+      "file": "nonspecificity_2026_author_repositories.json",
+      "url": "https://api.github.com/users/starhopp3r/repos?per_page=100&type=owner&sort=updated",
+      "bytes": 220931,
+      "sha256": "5e821dfbade89d8c0781c9de342464533b8a051c7f875da907da08e161dc0aab",
+      "description": "Public repository metadata for author-linked candidate account"
+    }
+  ],
+  "derived_text": "results/nonspecificity2026_extracted.txt"
+}

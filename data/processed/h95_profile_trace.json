@@ -1,0 +1,304 @@
+{
+  "status": "Manual digitization of a published cross-section; not a physical capacity measurement",
+  "source_pdf": "data/raw/kenoyer_sindhila_inscribed_pottery.pdf",
+  "source_pdf_sha256": "094f3b1b451cef378490ac3c95ba6ab73a62ae718ade0a433262c8fe3825efcc",
+  "pdf_page": 21,
+  "printed_page": 156,
+  "figure": "7.2",
+  "image": "results/primary_pages/h95-embedded-0.jpg",
+  "image_sha256": "c4ea076a1de887e3ff20e0dd736115f23454fdd6b72c9a7403dceafe2f9db51c",
+  "image_size_px": [
+    696,
+    803
+  ],
+  "axis_endpoints_px": [
+    [
+      235,
+      239
+    ],
+    [
+      230,
+      745
+    ]
+  ],
+  "scale_endpoints_px": [
+    [
+      68,
+      422
+    ],
+    [
+      218,
+      422
+    ]
+  ],
+  "scale_cm": 20,
+  "inner_left_profile_xy_px": [
+    [
+      167,
+      239
+    ],
+    [
+      165.5,
+      249
+    ],
+    [
+      156.5,
+      261
+    ],
+    [
+      136,
+      268
+    ],
+    [
+      110,
+      273
+    ],
+    [
+      95,
+      283
+    ],
+    [
+      80,
+      297
+    ],
+    [
+      67,
+      312
+    ],
+    [
+      57,
+      329
+    ],
+    [
+      47.5,
+      348
+    ],
+    [
+      40,
+      368
+    ],
+    [
+      33,
+      389
+    ],
+    [
+      29.5,
+      410
+    ],
+    [
+      27.5,
+      431
+    ],
+    [
+      29,
+      451
+    ],
+    [
+      33,
+      471
+    ],
+    [
+      40.5,
+      491
+    ],
+    [
+      50,
+      511
+    ],
+    [
+      62,
+      531
+    ],
+    [
+      73.5,
+      551
+    ],
+    [
+      86.5,
+      571
+    ],
+    [
+      100.5,
+      591
+    ],
+    [
+      117,
+      611
+    ],
+    [
+      133.5,
+      631
+    ],
+    [
+      150.5,
+      651
+    ],
+    [
+      170,
+      672
+    ],
+    [
+      185.5,
+      693
+    ],
+    [
+      194.5,
+      715
+    ],
+    [
+      204,
+      738
+    ],
+    [
+      210,
+      745
+    ]
+  ],
+  "digitization_protocol": "Manually follow inner-left boundary of complete vessel2; use slanted drawn central axis. Record coordinates before volume integration. Revolve the piecewise-linear radius profile around vertical height coordinate; approximate axis tilt by varying x-axis with y (slope <0.01). Flat internal bottom terminates integral, no fictitious continuation to pointed exterior base.",
+  "sensitivity_assumptions": {
+    "radial_error_px": 3,
+    "scale_length_error_px": 2,
+    "height_scale_relative_error": 0.02,
+    "note": "Analyst-selected perturbations, NOT measured errors, confidence bounds or vessel non-axisymmetry bounds."
+  },
+  "caveats": [
+    "Published drawing and restored outline, not a3D scan.",
+    "Uniform image scaling assumed; alternate2% vertical perturbation examined.",
+    "Rotation symmetry assumed; actual out-of-plane dimensions unmeasured here.",
+    "No fill line authenticated; rim-filled and lower-fill scenarios are distinct.",
+    "Drawing label H95-2661 differs from caption H95-2662, both6640-501.",
+    "Fuls numerical target known before digitization, so not blind validation."
+  ],
+  "initial_rough_trace_xy_px": [
+    [
+      167,
+      239
+    ],
+    [
+      163,
+      249
+    ],
+    [
+      153,
+      261
+    ],
+    [
+      134,
+      268
+    ],
+    [
+      112,
+      273
+    ],
+    [
+      93,
+      283
+    ],
+    [
+      79,
+      297
+    ],
+    [
+      66,
+      312
+    ],
+    [
+      55,
+      329
+    ],
+    [
+      45,
+      348
+    ],
+    [
+      37,
+      368
+    ],
+    [
+      31,
+      389
+    ],
+    [
+      28,
+      410
+    ],
+    [
+      28,
+      431
+    ],
+    [
+      31,
+      451
+    ],
+    [
+      38,
+      471
+    ],
+    [
+      48,
+      491
+    ],
+    [
+      60,
+      511
+    ],
+    [
+      73,
+      531
+    ],
+    [
+      87,
+      551
+    ],
+    [
+      102,
+      571
+    ],
+    [
+      118,
+      591
+    ],
+    [
+      134,
+      611
+    ],
+    [
+      151,
+      631
+    ],
+    [
+      168,
+      651
+    ],
+    [
+      183,
+      672
+    ],
+    [
+      191,
+      693
+    ],
+    [
+      198,
+      715
+    ],
+    [
+      207,
+      738
+    ],
+    [
+      210,
+      745
+    ]
+  ],
+  "revision_note": "Initial coarse trace visibly diverged from inner wall on lower-left body. Corrected after overlay review using dark-pixel runs at each recorded y (threshold110/255), selecting inner of the two wall contours; no capacity target used to place corrected pixels. Initial computed volume81.22L is superseded, not a separate observation.",
+  "source_url": "https://mohenjodarorj.sindhila.org/index.php/journal/article/download/105/81",
+  "source_landing_page": "https://mohenjodarorj.sindhila.org/index.php/journal/article/view/105",
+  "original_1997_followup": {
+    "url": "https://www.harappa.com/sites/default/files/pdf/Kenoyer1997_Excavations%20at%20Harappa%201994-1995%20New%20Perspective.pdf",
+    "public_text_locator": "PDF23 printed161 Figure12.02",
+    "identifier_text": "H95-2661 /6640-501",
+    "download_status": "HTTP403; no file saved",
+    "visual_review": false
+  }
+}

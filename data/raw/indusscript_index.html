@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+  <meta name="description" content="by Iravatham Mahadevan">
+
+  <!-- iOS meta tags & icons -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="theindusscript">
+  <link rel="apple-touch-icon" href="icons/Icon-192.png">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="favicon.png"/>
+
+  <title>The Indus Script(IM77)</title>
+  <link rel="manifest" href="manifest.json">
+
+  <meta name="google-signin-client_id" content="974824278595-akg3no2m6cfdq2ram0susvcmoqqfrt20.apps.googleusercontent.com">
+  <style>
+    .loading {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 0;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+    }
+    
+    .loader {
+      border: 16px solid #f3f3f3;
+      border-radius: 50%;
+      border-top: 16px solid #7A6B56;
+      border-right: 16px solid #D4B661;
+      border-bottom: 16px solid #C86B56;
+      border-left: 16px solid #E5E1DC;
+      width: 120px;
+      height: 120px;
+      -webkit-animation: spin 2s linear infinite;
+      animation: spin 2s linear infinite;
+    }
+    
+    @-webkit-keyframes spin {
+      0% {
+        -webkit-transform: rotate(0deg);
+      }
+      100% {
+        -webkit-transform: rotate(360deg);
+      }
+    }
+    
+    @keyframes spin {
+      0% {
+        transform: rotate(0deg);
+      }
+      100% {
+        transform: rotate(360deg);
+      }
+    }
+
+  </style>
+</head>
+<body>
+  <div class="loading">
+    <div class="loader"></div>
+  </div>
+
+  <base href="/">
+  
+  
+  
+   
+
+ 
+<script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-app.js"></script>
+     <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-auth.js"></script>
+
+     <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-firestore.js"></script>
+     <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-analytics.js"></script>
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/pdf.js/2.4.456/pdf.min.js"></script>
+<script type="text/javascript">
+  pdfjsLib.GlobalWorkerOptions.workerSrc = "//cdnjs.cloudflare.com/ajax/libs/pdf.js/2.4.456/pdf.worker.min.js";
+</script>
+<script>
+
+
+  var firebaseConfig = {
+    apiKey: "AIzaSyDcdVosJjI2xFkLGrw5-TYhZLvCRquh8nM",
+    authDomain: "https://indusscript.in",
+    // authDomain: "theindusscript.firebaseapp.com",
+    databaseURL: "https://theindusscript.firebaseio.com",
+    projectId: "theindusscript",
+    storageBucket: "theindusscript.appspot.com",
+    messagingSenderId: "974824278595",
+    appId: "1:974824278595:web:990d87cd41185c74e422f6",
+    measurementId: "G-LHJ6EKJP1J"
+
+  };
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+
+</script>
+<script src="https://apis.google.com/js/platform.js" async defer></script>
+
+
+       <script>
+        if ('serviceWorker' in navigator) {
+          window.addEventListener('flutter-first-frame', function () {
+            navigator.serviceWorker.register('flutter_service_worker.js?v=2504643256');
+          });
+        }
+      </script>
+<script src="main.dart.js" type="application/javascript"></script>
+
+
+</body>
+</html>

@@ -1,0 +1,276 @@
+{
+  "date": "2026-09-27",
+  "status": "graphic_candidates_only_no_secure_four_code_transcription",
+  "scope": "Retained DHR24475 photo; requested feature hypotheses; M77 primary representatives. No identity reauthentication or semantic reading.",
+  "context_match_outcomes_inspected": false,
+  "translation_fields_inspected": false,
+  "semantic_values": null,
+  "phonetic_values": null,
+  "reading_direction_assigned": null,
+  "image_reflection_convention_verified": false,
+  "ordered_M_transcription": null,
+  "secure_exact_M_assignments": [],
+  "token_boundaries_certified": false,
+  "four_regions_are_exact_tokens": false,
+  "feature_entries": [
+    {
+      "description": "Three pronged tree with caret hat",
+      "features": [],
+      "id": "P089",
+      "mahadevan_graphemes": [
+        "M163"
+      ],
+      "parpola_graphemes": [
+        "V084",
+        "V801"
+      ],
+      "source_path": "features/P089.json",
+      "wells_graphemes": [
+        "W391"
+      ]
+    },
+    {
+      "description": "Two adjacent half-height simple vertical strokes",
+      "features": [
+        {
+          "description": "Where do the strokes appear? 0 = top, 1 = mid, 2 = bottom",
+          "vertical_position": "integer"
+        }
+      ],
+      "id": "P122",
+      "mahadevan_graphemes": [
+        "M099",
+        "M100"
+      ],
+      "parpola_graphemes": [
+        "V002",
+        "V231",
+        "V765",
+        "V769"
+      ],
+      "source_path": "features/P122.json",
+      "wells_graphemes": [
+        "W002"
+      ]
+    },
+    {
+      "description": "Vertical stroke with a triangular wing attached near the middle",
+      "features": [
+        {
+          "angle": "integer",
+          "description": "How vertical is the stroke? 0 = straight, 1 = slightly angled"
+        },
+        {
+          "description": "How many vertical hatches are in the wing?",
+          "hatches": "integer"
+        }
+      ],
+      "id": "P202",
+      "mahadevan_graphemes": [
+        "M402"
+      ],
+      "parpola_graphemes": [
+        "V053",
+        "V582"
+      ],
+      "source_path": "features/P202.json",
+      "wells_graphemes": [
+        "W365",
+        "W367",
+        "W368"
+      ]
+    },
+    {
+      "description": "The 'pincer' motif. Right-pointing isocoles triangle on left, left-pointing isosceles triangle on right, with small part of right line removed in middle",
+      "features": [
+        {
+          "description": "0 = rounded, 1 = angular",
+          "rounded-lhs": "integer"
+        },
+        {
+          "description": "Is there a lower right tangent? 0 = no, 1 = yes",
+          "lower-right-tangent": "integer"
+        },
+        {
+          "decoration": "integer",
+          "description": "What is the decoration inside the parts? 0 = none, 1 = vertical lines"
+        },
+        {
+          "description": "Angle of the pincer. 0 = vertical, 1 = outward, 2 = mixed or indeterminate",
+          "pincer_angle": "integer"
+        }
+      ],
+      "id": "P230",
+      "mahadevan_graphemes": [
+        "M216"
+      ],
+      "parpola_graphemes": [
+        "V241",
+        "V033",
+        "V412",
+        "V593"
+      ],
+      "source_path": "features/P230.json",
+      "wells_graphemes": [
+        "W550",
+        "W555"
+      ]
+    }
+  ],
+  "groups": [
+    {
+      "label": "right roof/stem region",
+      "requested_W": "W391",
+      "candidate_M": [
+        "M163"
+      ],
+      "strength": "strong graphic candidate",
+      "secure_exact_assignment": false,
+      "secure_observation": "apex-up roof and long lower stem with upper branching/curvature",
+      "missing_or_unclear": "exact prong junctions and full upper structure"
+    },
+    {
+      "label": "upper-central short-mark region",
+      "requested_W": "W002",
+      "candidate_M": [
+        "M099",
+        "M100"
+      ],
+      "strength": "conditional;M099 favored only if upper two marks are one group",
+      "secure_exact_assignment": false,
+      "secure_observation": "short near-vertical traces in upper central field",
+      "missing_or_unclear": "token boundary, two-stroke isolation, endpoints and baseline"
+    },
+    {
+      "label": "central shaft/wing region",
+      "requested_W": "W365",
+      "candidate_M": [
+        "M402"
+      ],
+      "strength": "compatible shape candidate",
+      "secure_exact_assignment": false,
+      "secure_observation": "long shaft with adjoining oblique/wing-like traces",
+      "missing_or_unclear": "wing closure, internal hatching and separation from other marks"
+    },
+    {
+      "label": "left crossed region",
+      "requested_W": "W550",
+      "candidate_M": [
+        "M216",
+        "M222"
+      ],
+      "candidate_list_exhaustive": false,
+      "strength": "crossed-family candidates; no unique selection",
+      "secure_exact_assignment": false,
+      "secure_observation": "crossing oblique strokes and side outline",
+      "missing_or_unclear": "terminal bends/extensions and exact side closure",
+      "M222_is_new_crosswalk_claim": false
+    }
+  ],
+  "processing": "unretouched native-pixel crops only",
+  "crop_manifest": "data/processed/dhr24475_graphic_crop_manifest.json",
+  "downloads": [],
+  "central_or_frozen_files_edited": false,
+  "evidence_files": [
+    {
+      "path": "data/processed/catalogue_features.json",
+      "bytes": 189902,
+      "sha256": "00836515c6f3beec28b3b66e13d8a9c6e94571cfb2e9dbb4b148651b7ff0032d"
+    },
+    {
+      "path": "data/processed/dhr24475_graphic_crop_manifest.json",
+      "bytes": 1359,
+      "sha256": "c805b0b066ff6bb09f9a15d58669b1c3e3bcad082cab19a8f7a38d942932f785"
+    },
+    {
+      "path": "data/processed/roof_trident_new_crop_manifest.json",
+      "bytes": 1000,
+      "sha256": "fcfb8ef51ec479fb53ecedcdbf531573fae6b8ef4cfb18479241a992c5f4215e"
+    },
+    {
+      "path": "data/raw/mahadevan_1977_text.pdf",
+      "bytes": 119302608,
+      "sha256": "6dcdd074a0174e5fab149590fbbf82342711d345764e9763f8e5e92c81cf7f99"
+    },
+    {
+      "path": "data/raw/roof_trident_new_report_leaf302_response.bin",
+      "bytes": 1233418,
+      "sha256": "1dd282a518949cf97938756d219aec78f86bc975182680f0c3a9ee9c2e5755a6"
+    },
+    {
+      "path": "docs/DHR24475_GRAPHIC_REVIEW.md",
+      "bytes": 6509,
+      "sha256": "9b0f691aa9683987a449dbd3db5494710b7c45e14020dcbfab7b10f1dd54639e"
+    },
+    {
+      "path": "results/primary_pages/comb-tablet-m77-detail-43.png",
+      "bytes": 3281280,
+      "sha256": "ebb35d20d3f7035a6d68aa0e967a8d18ccfe5b8f4330f62a3a264a5a9b463793"
+    },
+    {
+      "path": "results/primary_pages/dhr24475-graphic-A-left-crossed.png",
+      "bytes": 198970,
+      "sha256": "3d8e60a014c2ad95b524fcc7a42168633853c8638333371b0d331015eafd8a9b"
+    },
+    {
+      "path": "results/primary_pages/dhr24475-graphic-B-upper-strokes.png",
+      "bytes": 96646,
+      "sha256": "f55f1ee30923c90e080d151e8ddb0608b08e56ed554058fa4cc661140812e719"
+    },
+    {
+      "path": "results/primary_pages/dhr24475-graphic-C-shaft-wing.png",
+      "bytes": 122241,
+      "sha256": "9abeeb8913de180e6dae6c164c66dbe6948085cd6781865c3fb1be751d930ae9"
+    },
+    {
+      "path": "results/primary_pages/dhr24475-graphic-D-roof-stem.png",
+      "bytes": 203451,
+      "sha256": "30078b010cb3058a6f277d58c5cfa1ded1619c6d291afa44ab16136fdaa17099"
+    },
+    {
+      "path": "results/primary_pages/roof-modifier-M162.png",
+      "bytes": 15842,
+      "sha256": "17121c9e9e009c88b18b09f07fa097247a5a6f426600d1a627b3ac9bcfa9834b"
+    },
+    {
+      "path": "results/primary_pages/roof-modifier-M163.png",
+      "bytes": 16157,
+      "sha256": "3bb86ff9f346429e11f199c649a696df15a61571cdf4aeddf7a1ff4eda93de93"
+    },
+    {
+      "path": "results/primary_pages/roof-trident-new-dhr24475-field.png",
+      "bytes": 657905,
+      "sha256": "7882d83c0f9831a87662a2c56a857b2c8a556101f3fcaa800b99d5be0e63e77c"
+    },
+    {
+      "path": "results/primary_pages/roof-trident-new-dhr24475-photo.png",
+      "bytes": 1107954,
+      "sha256": "c5753b5ec2040a3a9e3515da6a6d3582ed9b7fc27b7dd1d636383590d601daf9"
+    },
+    {
+      "path": "results/primary_pages/sign_list-044.png",
+      "bytes": 2228064,
+      "sha256": "33eff554bfdea81af6d1a3510a5b2541d1b74b02ae1e63b253c725b44c7c0b64"
+    },
+    {
+      "path": "results/primary_pages/sign_list-045.png",
+      "bytes": 2312636,
+      "sha256": "972002b288ea77921dcacfe67386dbf585b76be6bca5444b7ff9422e47e70b89"
+    },
+    {
+      "path": "results/primary_pages/sign_list-046.png",
+      "bytes": 2099531,
+      "sha256": "a191e9297a6ab8b7cad1028eaeac062b4b6fa3cd34aefbdd507f669d736d2e8e"
+    },
+    {
+      "path": "scripts/render_dhr24475_graphic_crops.py",
+      "bytes": 792,
+      "sha256": "6d2c506124ab5040c3a8b966abb82f8c2713c9ba3a1c18390616d7da8bc36e2c"
+    },
+    {
+      "path": "scripts/render_roof_trident_new_crops.py",
+      "bytes": 986,
+      "sha256": "2698d59a26351e8ebb99a1cd299951bd035d3ff636f00eda23e9b6e36baea0fd"
+    }
+  ]
+}

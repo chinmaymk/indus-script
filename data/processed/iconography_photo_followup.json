@@ -1,0 +1,144 @@
+{
+  "status": "bounded photograph check completed for H-598; M-1803 unverified",
+  "sources_to_register": [
+    {
+      "path": "data/raw/parpola_2009_hind_leg_fish.pdf",
+      "url": "https://tuhat.helsinki.fi/ws/portalfiles/portal/127256488/Parpola_A_2009._Hind_leg_fish_in_the_Indus_script._Scripta1_37_76.pdf",
+      "bytes": 3445601,
+      "sha256": "0be7173796ebd9703773191f9bcd44a4db362be5d65c77cd71e0b26a2a447bd9"
+    },
+    {
+      "path": "data/raw/daggumati_revesz_2021_allographs.pdf",
+      "url": "https://www.nature.com/articles/s41599-021-00713-0.pdf",
+      "bytes": 1616753,
+      "sha256": "1061899319d35477b8e4cf395993d837540f575222084b99587904a262752e0c"
+    },
+    {
+      "path": "data/raw/revesz_publications.html",
+      "url": "https://cse.unl.edu/~revesz/publications.htm",
+      "bytes": 74401,
+      "sha256": "50af0ddbc5ea5a05ed41f9bcf47c3df0d3d4db87b36dbbdd2f6b5e2fe3108a11"
+    }
+  ],
+  "primary_photo": {
+    "artifact": "H-598",
+    "citation": "Parpola 2009, Scripta 1:37\u201376, figure 5a, printed49/PDF13; reproduced after Parpola1994:232 fig13.12",
+    "source": "data/raw/parpola_2009_hind_leg_fish.pdf",
+    "render": "results/primary_pages/iconography-photo-parpola-13.png",
+    "source_identifies_as": "Modern impression of seal H-598 from Harappa",
+    "visually_verified": [
+      "The caption explicitly identifies H-598.",
+      "A seven-group inscription and a four-legged, long single-horn animal above/behind a stand are on the same impression face.",
+      "The rightmost compound glyph has two U-shaped stems with leaf-like tips and an interior claw/pincer-like form.",
+      "The glyph shape is consistent with the previously located Mahadevan5073 drawing."
+    ],
+    "not_verified": [
+      "An exact Wells777-versus778-versus782 allocation: the local P118 feature row groups all three codes.",
+      "An ancient semantic or phonetic value for the compound.",
+      "The code Bull1:W as a zoological determination or the meaning of suffix W.",
+      "W777 identity on the copper donor photograph M604."
+    ],
+    "inference": "The photograph supports the transfer-target object/text/motif pairing and removes the earlier same-face uncertainty for H598 alone. It does not fully authenticate the copper-to-seal W777 equivalence."
+  },
+  "published_correction": {
+    "citation": "Daggumati and Revesz2021, DOI10.1057/s41599-021-00713-0, p5 right column",
+    "source": "data/raw/daggumati_revesz_2021_allographs.pdf",
+    "render": "results/primary_pages/iconography-photo-allographs-5.png",
+    "visually_verified": "The H598/H1924 ICIT correction occurs in the subsection illustrated by a bent/Z-like sign with two opposed end strokes, not the U-shaped compound at right of H598.",
+    "local_namespace_inference": "The corresponding local family is P188, with W435/W436. Both H598 and H1924 use W435 in this pinned export; other cited mirrored-context records include W436. This is a shape/context inference, not a numeric W label printed in the paper.",
+    "implication": "The warning does not allege an error in W777. The pinned export may already reflect the orientation correction; do not rewrite either435 or777 based only on this paper.",
+    "context_rows": [
+      {
+        "id": "373.1",
+        "cisi": "H-1924",
+        "text": "+033-700+",
+        "condition": "Fair",
+        "symbol": "None",
+        "excavation-idno": "H2000-4377Figure 36.04"
+      },
+      {
+        "id": "373.2",
+        "cisi": "H-1924",
+        "text": "+550-003-435+",
+        "condition": "Fair",
+        "symbol": "None",
+        "excavation-idno": "H2000-4377Figure 36.04"
+      },
+      {
+        "id": "597.1",
+        "cisi": "H-2039",
+        "text": "+740-690-436-255+",
+        "condition": "Fair",
+        "symbol": "Fish",
+        "excavation-idno": "H95-2496Figure 21.06"
+      },
+      {
+        "id": "792.1",
+        "cisi": "H-1835",
+        "text": "]436-032-923[",
+        "condition": "Poor",
+        "symbol": "None",
+        "excavation-idno": "H96-3123Figure 21.13"
+      },
+      {
+        "id": "792.2",
+        "cisi": "H-1835",
+        "text": "]033[",
+        "condition": "Poor",
+        "symbol": "None",
+        "excavation-idno": "H96-3123Figure 21.13"
+      },
+      {
+        "id": "1050.1",
+        "cisi": "H-1154",
+        "text": "]740-436-255[",
+        "condition": "Poor",
+        "symbol": "Bult",
+        "excavation-idno": "J219649"
+      },
+      {
+        "id": "1050.2",
+        "cisi": "H-1154",
+        "text": "]000-033[",
+        "condition": "Poor",
+        "symbol": "Bult",
+        "excavation-idno": "J219649"
+      },
+      {
+        "id": "1300.1",
+        "cisi": "H-278",
+        "text": "+740-407-590-690-436-255-920-318-220-415-803+",
+        "condition": "Fair",
+        "symbol": "Gavi",
+        "excavation-idno": "Af29"
+      },
+      {
+        "id": "1541.1",
+        "cisi": "H-598",
+        "text": "+822+",
+        "condition": "Good",
+        "symbol": "Bull1:W",
+        "excavation-idno": "13751"
+      },
+      {
+        "id": "1541.2",
+        "cisi": "H-598",
+        "text": "+740-639-240-002-435-255-777+",
+        "condition": "Good",
+        "symbol": "Bull1:W",
+        "excavation-idno": "13751"
+      }
+    ]
+  },
+  "access_log": [
+    {
+      "url": "https://www.harappa.com/sites/default/files/pdf/script-indus-parpola.pdf",
+      "outcome": "Web PDF available; direct curl download403, not retried. Public Helsinki author copy used."
+    },
+    {
+      "url": "https://digitalcommons.unl.edu/cgi/viewcontent.cgi?article=1550&context=mechengfacpub",
+      "outcome": "Web download403, not bypassed. Authors public publication list linked publisherPDF, which downloaded successfully."
+    }
+  ],
+  "reproducibility": "Existing scripts/inspect_research_pdf.py rendered the two source PDFs with unique iconography-photo prefixes. No new inference script necessary for a manual visual check."
+}

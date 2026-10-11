@@ -1,0 +1,55 @@
+{
+  "candidate_mappings": {
+    "M059": [
+      "W220"
+    ],
+    "M065": [
+      "W235"
+    ],
+    "M087": [
+      "W032"
+    ],
+    "M099": [
+      "W002"
+    ],
+    "M342": [
+      "W740"
+    ],
+    "M343": [
+      "W741"
+    ],
+    "M344": [
+      "W742",
+      "W743",
+      "W744"
+    ],
+    "M345": [
+      "W745",
+      "W746",
+      "W747"
+    ]
+  },
+  "input_rows": 2914,
+  "inverse_mapping_conflicts": {
+    "W002": [
+      "M099",
+      "M100"
+    ]
+  },
+  "limitations": [
+    "M labels are candidate groups in a secondary W corpus; mapping is not independently verified.",
+    "Site/type strings are retained verbatim. Codes are not silently merged or assigned primary-book meanings.",
+    "No primary-book rows are pooled into these counts.",
+    "Matching changes the target population to observed shared contexts; unmatched tokens are reported.",
+    "Deduplication changes weights but does not guarantee independent artifacts or eliminate shared templates.",
+    "No p-values, confidence intervals, causal claims or semantic identifications are made."
+  ],
+  "order": "File-left edge treated as reading-final only for the prefiltered R/L, single-line corpus. Singles remain separate.",
+  "retained_record_counts": {
+    "all_rows": 2896,
+    "artifact_sequence_context": 2880,
+    "sequence_context": 1983
+  },
+  "selection": "Five contrasts selected before this joint-context replication, but exploratory overall.",
+  "weight": "2*n_first*n_second/(n_first+n_second), normalized over shared strata meeting the stated minimum"
+}

@@ -1,0 +1,284 @@
+{
+  "schema_version": 1,
+  "review_date": "2026-09-23",
+  "reviewer": "test_iconography",
+  "scope": "Exactly three candidate weight artifacts; two requested primary scholarly publications.",
+  "anchor_criterion": "The same identified physical object must link demonstrable Indus signs with an independently established value or unit. Mass agreement or a separate cuneiform text is insufficient.",
+  "sources": [
+    {
+      "path": "data/raw/dilmun_weight_ur_hafford_einwag_otto_2023.pdf",
+      "bytes": 2900365,
+      "sha256": "5c78d203aa4281684e4e973ac397bab39f63ef1fff52093863a82f240280ad9e",
+      "url": "https://www.vorderas-archaeologie.uni-muenchen.de/personen/professoren/otto/publikationen/hafford-einwag-otto_ur_weights.pdf",
+      "accessed_date": "2026-09-23",
+      "status": "downloaded public source",
+      "media_type": "application/pdf"
+    },
+    {
+      "path": "data/raw/dilmun_weight_bibby_1970_landing.html",
+      "bytes": 60861,
+      "sha256": "714dce429d1ad86f36bafaf7cced61bf6c99489c258c942f5dad69c0641195d3",
+      "url": "https://tidsskrift.dk/kuml/article/view/105436",
+      "accessed_date": "2026-09-23",
+      "status": "downloaded public source",
+      "media_type": "text/html"
+    },
+    {
+      "path": "data/raw/dilmun_weight_bibby_1970.pdf",
+      "bytes": 7925442,
+      "sha256": "58129a29be5972e7c3fd1cf316ab1ab99ccb2f3bf20c61daae9af8e4c1554a16",
+      "url": "https://tidsskrift.dk/kuml/article/download/105436/154240",
+      "accessed_date": "2026-09-23",
+      "status": "downloaded public source",
+      "media_type": "application/pdf"
+    }
+  ],
+  "records": [
+    {
+      "case_id": "ur_2111",
+      "artifact_id": "2111",
+      "id_namespace": "Excavation lot number in Hafford/Einwag/Otto table1; not a Mahadevan text reference",
+      "site": "Ur, Area3",
+      "mass_g": 27.4,
+      "material": "chert",
+      "form": "cube",
+      "length_mm": 25,
+      "condition": "complete",
+      "publication_period": "Old Babylonian",
+      "physical_context": "Above tomb near disturbed former domestic-chapel floor, house of Abisum; use by household cannot be confirmed.",
+      "inscription": {
+        "reported_reading": null,
+        "script": null,
+        "indus_signs_verified": false,
+        "note": "No inscription reported; Fig9 shown face has no readable signs. Other faces were not independently inspected."
+      },
+      "nominal_value": {
+        "multiple": 2,
+        "unit_g": 13.7,
+        "status": "authors inferred assignment from mass/material/form, not an inscription"
+      },
+      "same_object_anchor": false,
+      "failure_reason": "Measured foreign-style weight, but no Indus inscription to connect to the measurement.",
+      "source": {
+        "path": "data/raw/dilmun_weight_ur_hafford_einwag_otto_2023.pdf",
+        "bytes": 2900365,
+        "sha256": "5c78d203aa4281684e4e973ac397bab39f63ef1fff52093863a82f240280ad9e",
+        "url": "https://www.vorderas-archaeologie.uni-muenchen.de/personen/professoren/otto/publikationen/hafford-einwag-otto_ur_weights.pdf",
+        "accessed_date": "2026-09-23",
+        "status": "downloaded public source",
+        "media_type": "application/pdf"
+      },
+      "locators": [
+        {
+          "pdf_page": 16,
+          "printed_page": 180,
+          "figure": 9
+        },
+        {
+          "pdf_page": 28,
+          "printed_page": 192
+        },
+        {
+          "pdf_page": 34,
+          "printed_page": 198,
+          "table": 1
+        }
+      ],
+      "evidence": [
+        {
+          "path": "results/primary_pages/dilmun-weight-ur-016.png",
+          "bytes": 1030787,
+          "sha256": "f620d6ca24dba986b7dae2cc82ef4b1333bf29473d87e8d9270d338f8584b1cf"
+        },
+        {
+          "path": "results/primary_pages/dilmun-weight-ur-034.png",
+          "bytes": 426778,
+          "sha256": "3b57ba565b3d42b6e3b44219a60bade27dbf236d65a4b3c20945dafc559ad024"
+        }
+      ]
+    },
+    {
+      "case_id": "ur_u18699e",
+      "artifact_id": "U.18699E",
+      "id_namespace": "Woolley excavation number, as cited by Hafford/Einwag/Otto",
+      "site": "Ur",
+      "mass_g": 13.51,
+      "mass_reporting": [
+        {
+          "value_g": 13.51,
+          "locator": "PDF29/printed193 footnote29, continued PDF31/printed195"
+        },
+        {
+          "value_g": 13.5,
+          "locator": "PDF32/printed196 conclusion",
+          "note": "Rounded report, not a demonstrated disagreement."
+        }
+      ],
+      "form": "duck weight",
+      "material": null,
+      "condition": null,
+      "physical_context": "Not independently recovered from original excavation catalogue during this bounded audit.",
+      "inscription": {
+        "reported_reading": "1\u00bd units",
+        "script": "Mesopotamian marking as described by authors; exact drawn signs/transliteration not supplied in inspected passage",
+        "indus_signs_verified": false,
+        "note": "Reported mark, not independently read from an artifact photo or handcopy. No Indus sign identity is assigned."
+      },
+      "nominal_value": {
+        "marked_number": 1.5,
+        "unit_name_verified": false,
+        "crossover_status": "Authors propose rough relation to an Indus-standard mass, explicitly tentative."
+      },
+      "same_object_anchor": false,
+      "failure_reason": "Same object has reported mass and a Mesopotamian numerical marking, but no demonstrated Indus inscription.",
+      "source": {
+        "path": "data/raw/dilmun_weight_ur_hafford_einwag_otto_2023.pdf",
+        "bytes": 2900365,
+        "sha256": "5c78d203aa4281684e4e973ac397bab39f63ef1fff52093863a82f240280ad9e",
+        "url": "https://www.vorderas-archaeologie.uni-muenchen.de/personen/professoren/otto/publikationen/hafford-einwag-otto_ur_weights.pdf",
+        "accessed_date": "2026-09-23",
+        "status": "downloaded public source",
+        "media_type": "application/pdf"
+      },
+      "locators": [
+        {
+          "pdf_page": 29,
+          "printed_page": 193,
+          "footnote": 29
+        },
+        {
+          "pdf_page": 31,
+          "printed_page": 195,
+          "footnote_continuation": 29
+        },
+        {
+          "pdf_page": 32,
+          "printed_page": 196
+        }
+      ],
+      "evidence": [
+        {
+          "path": "results/primary_pages/dilmun-weight-ur-032.png",
+          "bytes": 688767,
+          "sha256": "b0622f031071a08ed32a2a14a9ea8ac8d1c3805ec7781e57cffddcb1bea2fd92"
+        }
+      ],
+      "original_study": "Hafford2012, Akkadica133,21\u201365,especially43; direct DOI access failed, not treated as independently inspected."
+    },
+    {
+      "case_id": "bahrain_520_th",
+      "artifact_id": "520.TH",
+      "id_namespace": "Bibby1970 excavation object III (3)",
+      "site": "Qala'at al-Bahrain",
+      "mass_g": 27,
+      "material": "polished chert",
+      "form": "cube",
+      "physical_context": "Found about20m away from the six weights in buildings immediately inside the north gate; do not assign it to a particular building.",
+      "inscription": {
+        "reported_reading": null,
+        "script": null,
+        "indus_signs_verified": false,
+        "note": "No inscription reported. Fig1 third object from right has no readable signs in the published small group photograph; unseen faces remain unexamined."
+      },
+      "nominal_value": {
+        "author_series_multiple": 16,
+        "author_base_g": 1.7,
+        "status": "metrological assignment, not a label read on this object"
+      },
+      "same_object_anchor": false,
+      "failure_reason": "Measured shape/mass resemblance to Harappan weights; conversion text belongs to a different physical tablet.",
+      "source": {
+        "path": "data/raw/dilmun_weight_bibby_1970.pdf",
+        "bytes": 7925442,
+        "sha256": "58129a29be5972e7c3fd1cf316ab1ab99ccb2f3bf20c61daae9af8e4c1554a16",
+        "url": "https://tidsskrift.dk/kuml/article/download/105436/154240",
+        "accessed_date": "2026-09-23",
+        "status": "downloaded public source",
+        "media_type": "application/pdf"
+      },
+      "locators": [
+        {
+          "pdf_page": 6,
+          "printed_page": 345,
+          "figure": 1
+        },
+        {
+          "pdf_page": 7,
+          "printed_page": 346
+        },
+        {
+          "pdf_page": 8,
+          "printed_page": 347
+        }
+      ],
+      "evidence": [
+        {
+          "path": "results/primary_pages/dilmun-weight-bibby-006.png",
+          "bytes": 1269978,
+          "sha256": "a8ba9f101bf69cd7543854cfa2011b88598f485a4b07f7a6200e8c1f9caf24d0"
+        },
+        {
+          "path": "results/primary_pages/dilmun-weight-bibby-007.png",
+          "bytes": 1193400,
+          "sha256": "245e23a480e4d4bf446e6eebb9416bfffdee9b2f63e107f306bcdd73fa176d75"
+        },
+        {
+          "path": "results/primary_pages/dilmun-weight-bibby-008.png",
+          "bytes": 754646,
+          "sha256": "ee65cd9b8d1f0189608069949baf8bd1bab740df66c7255afdcafc15ece8066d"
+        }
+      ]
+    }
+  ],
+  "separate_text_guard": {
+    "text_id": "UET V796",
+    "source": {
+      "path": "data/raw/dilmun_weight_bibby_1970.pdf",
+      "bytes": 7925442,
+      "sha256": "58129a29be5972e7c3fd1cf316ab1ab99ccb2f3bf20c61daae9af8e4c1554a16",
+      "url": "https://tidsskrift.dk/kuml/article/download/105436/154240",
+      "accessed_date": "2026-09-23",
+      "status": "downloaded public source",
+      "media_type": "application/pdf"
+    },
+    "locator": "PDF8/printed347 and English journal summary",
+    "status": "Cuneiform cargo-account conversion between Ur and Dilmun standards; separate object from520.TH and the other Bahrain weights.",
+    "not_a_bilingual": true,
+    "indus_tokens_verified": [],
+    "inference_limit": "A reading of a Dilmun standard in this external text does not identify the Indus U sign, a commodity, or any Indus unit sign."
+  },
+  "conclusion": {
+    "same_physical_object_indus_sign_value_anchors": 0,
+    "scope_limit": "No successful anchor among these three reviewed cases, not proof that none exists elsewhere.",
+    "useful_positive_evidence": "Published measured masses, documented contexts and proposed cross-system correspondences are useful metrological comparisons; they do not supply a sign-value join."
+  },
+  "access_events": [
+    {
+      "url": "https://www.vorderas-archaeologie.uni-muenchen.de/personen/professoren/otto/publikationen/hafford-einwag-otto_ur_weights.pdf",
+      "event": "Initial sandbox curl DNS failure; authorized public download then succeeded."
+    },
+    {
+      "url": "https://doi.org/10.21825/akkadica.99619",
+      "event": "web open inaccessible; no2012fulltext downloaded or independently verified."
+    },
+    {
+      "url": "https://tidsskrift.dk/kuml/article/view/105436",
+      "event": "Web PDF click failed internally; official HTML provided exact public download URL154240, downloaded successfully."
+    },
+    {
+      "url": "https://www.vorderas-archaeologie.uni-muenchen.de/personen/professoren/otto/publikationen/hafford-einwag-otto_ur_weights.pdf",
+      "event": "web screenshot cache miss; locally rendered downloaded source used instead."
+    }
+  ],
+  "downloads_ledger": {
+    "path": "data/processed/dilmun_weight_downloads.json",
+    "bytes": 1264,
+    "sha256": "380bba730d383a3767b57802f25e58799c38b6a31d81ebc8b2319a80b47f421e"
+  },
+  "limitations": [
+    "No hidden-face completeness claim from a single photograph.",
+    "No equation of Dilmun metrology with any M/W/P glyph namespace.",
+    "Duck marking is author-reported; original photograph and full inscription remain unchecked.",
+    "Individual nominal values inferred from mass should not be treated as independent labels."
+  ]
+}

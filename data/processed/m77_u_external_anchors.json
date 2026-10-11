@@ -1,0 +1,181 @@
+{
+  "status": "Bounded search completed; no external quantity anchor authenticated for the exact matched main-text family in examined sources",
+  "date": "2026-09-23",
+  "target": {
+    "namespace": "Mahadevan1977",
+    "main": [
+      "M048",
+      "M342",
+      "M176"
+    ],
+    "variants": [
+      {
+        "references": [
+          "4548",
+          "5464"
+        ],
+        "auxiliary": [
+          "M087",
+          "M328"
+        ],
+        "observed_long_strokes": 2
+      },
+      {
+        "references": [
+          "4509",
+          "4387"
+        ],
+        "auxiliary": [
+          "M089",
+          "M328"
+        ],
+        "observed_long_strokes": 3
+      },
+      {
+        "references": [
+          "4508"
+        ],
+        "auxiliary": [
+          "M095",
+          "M328"
+        ],
+        "observed_long_strokes": 4
+      }
+    ],
+    "baseline": "docs/M77_U_FIELDS.md; target pattern taken from prior authenticated review, not independently retranscribed here"
+  },
+  "evidence_classes": {
+    "external_quantity_anchor": "Independently counted, weighed or measured associated material linked to exact inscriptions; no such case authenticated here",
+    "arithmetic_anchor": "An independently warranted equivalence/addition relation rather than visible2,3,4 succession; no such relation authenticated here",
+    "denomination": "Proposed standardized value, requiring external scale or exchange relation; no amount inferred from tablet dimensions",
+    "context": "Manufacture, disposal, dating or nearby objects; does not on its own discriminate quantity from category"
+  },
+  "primary_identifiers": [
+    {
+      "reference": "4387",
+      "pdf_page": 821,
+      "printed_page": 812,
+      "table": "Key to PlateVII",
+      "figure": "131",
+      "field_symbol_code": "93",
+      "source_of_illustration": "EH, Pl.XCV,387",
+      "review": "visually verified",
+      "limits": "FS means field symbol/iconography, not excavation field. No quantity/findspot is listed."
+    },
+    {
+      "reference": "5464",
+      "pdf_page": 833,
+      "printed_page": 824,
+      "table": "Other items from HP (c) Miniature tablets",
+      "excavation_number": "10185-C",
+      "publication_photo_or_museum_number": "ASI63.11.80",
+      "review": "visually verified",
+      "limits": "No associated contents, amount, stratigraphy or monetary value is listed."
+    }
+  ],
+  "comparanda": [
+    {
+      "id": "HARP1997cluster",
+      "source": "Meadow and Kenoyer2000",
+      "locator": "PDF14/printed13 lines385\u2013400; PDF16/printed15 lines432\u2013447; PDF17/printed16 lines471\u2013503",
+      "evidence": "22 incised three-sided copies, including16 in a clump, from dumped debris outside walls250/296 in Period3B. Each side has a complex sign and3or4strokes. Tool-mark review identifies at least3carvers; side orientation varies. Nearby seal H96-2796/6876-01 shares its final2signs with one tablet face, with comparable ceramic assemblages.",
+      "interpretation_status": "Production/disposal context is reported observation. Connection of discard with expiry or death/status of seal owner is author interpretation.",
+      "exact_family_link": "Unverified; no equating HARP1990s objects to the pre1977 target references",
+      "quantity_anchor": false,
+      "reason": "22 and16 count recovered copies, not sign values or associated goods; nearby seal provides contextual text relationship, not independent amount"
+    },
+    {
+      "id": "HARP2010review",
+      "source": "Kenoyer and Meadow2010",
+      "locator": "PDF6\u20137/printed6\u20137 lines192\u2013230",
+      "evidence": "Re-cut stratigraphy corrects earliest-level dating: incised tablets emerge midPeriod3B and continue3C. Copies and molded duplicates occur; some numerical-sign series use different molds. Reviewed finds occur in secondary trash/fill/street deposits.",
+      "quantity_anchor": false,
+      "exact_family_link": "Unverified",
+      "reason": "Chronology and manufacture do not identify2,3,4 amounts or a U unit. Author report leaves original tablet use unresolved."
+    }
+  ],
+  "prior_capacity_work": {
+    "references": [
+      "docs/QUANTITY_ANCHORS.md",
+      "docs/CAPACITY_TABLE_FOLLOWUP.md",
+      "data/processed/capacity_table_followup.json"
+    ],
+    "status": "Existing vessel-capacity proposals are a separate evidence chain; no physical association to target tablets authenticated",
+    "limits": [
+      "Fitted unit sizes cannot be treated as independently measured amounts",
+      "No new capacity fit performed",
+      "Do not infer amounts from tablet size"
+    ]
+  },
+  "examined_scope": {
+    "local": [
+      "docs/M77_U_FIELDS.md",
+      "docs/QUANTITY_ANCHORS.md",
+      "docs/CAPACITY_TABLE_FOLLOWUP.md",
+      "results/iconography-mahadevan_extracted.txt",
+      "M77PDF821and833 primary page images"
+    ],
+    "online": [
+      "Meadow/Kenoyer2000 relevant passages via web extracted text",
+      "Kenoyer/Meadow2010 relevant passages via web extracted text"
+    ],
+    "not_examined": [
+      "Original Vats item descriptions for EH508,509,548 and387",
+      "Excavation field register for10185-C",
+      "Physical objects or unpublished museum records",
+      "All literature or every excavation volume"
+    ]
+  },
+  "retrieval_attempts": [
+    {
+      "url": "https://www.harappa.com/sites/default/files/pdf/Kenoyer2000_The%20Tiny%20Steatite%20Seals%20of%20Harappa.pdf",
+      "method": "curl--fail public URL",
+      "outcome": "HTTP403; no PDF bytes saved; no bypass attempted"
+    },
+    {
+      "url": "https://www.harappa.com/sites/default/files/pdf/KenoyerMeadow%202010%20Inscribed%20Objects%20from%20Harappa.pdf",
+      "method": "curl--fail public URL",
+      "outcome": "HTTP403; no PDF bytes saved; no bypass attempted"
+    },
+    {
+      "url": "https://ignca.gov.in/Asi_data/21780.pdf",
+      "method": "web open",
+      "outcome": "Fetch refused by tool: content length22559415 exceeds limit; original Vats descriptions not read from this source"
+    },
+    {
+      "method": "web search",
+      "queries": [
+        "Harappa508509548tabletsVats",
+        "Harappa10185tablet",
+        "Harappa387tabletVats",
+        "site:harappa.com tablets ration",
+        "site:harappa.com tablets denominations"
+      ],
+      "outcome": "No authenticated exact-family goods/weight/capacity association recovered; speculative rationing and secondary discussions not used as external anchors"
+    }
+  ],
+  "artifacts": [
+    {
+      "path": "data/raw/harp_tablet_context_web_capture.json",
+      "bytes": 26681,
+      "sha256": "03fc95907e2a37fca3cb6a217d6fb751d15e96cfca4e300d931ed605bba980c8"
+    },
+    {
+      "path": "data/raw/mahadevan_1977_text.pdf",
+      "bytes": 119302608,
+      "sha256": "6dcdd074a0174e5fab149590fbbf82342711d345764e9763f8e5e92c81cf7f99"
+    },
+    {
+      "path": "results/primary_pages/m77-u-external-821.png",
+      "bytes": 1125733,
+      "sha256": "6c168b06cedd8b0576b2544cd34578c0d828427fbd91e6ea9571d9b2c054fab5"
+    },
+    {
+      "path": "results/primary_pages/m77-u-external-833.png",
+      "bytes": 2664670,
+      "sha256": "b5ddae7e3d4bb283687c38faa694ff0556ec0ad9928a9ee15d91f15469d3c8ab"
+    }
+  ],
+  "capture_caveat": "Raw capture is a web tool response containing extracted passages, not original PDF bytes; paper pages not visually inspected from these online PDFs. Parent owns sources.json registration.",
+  "conclusion": "Quantity-like and category interpretations remain observationally unresolved for this exact family. Reviewed contexts sharpen preservation and manufacturing limitations; they neither disprove counting nor establish denominations. Failure of this bounded retrieval is not evidence that no external anchor exists anywhere."
+}

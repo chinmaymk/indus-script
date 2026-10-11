@@ -1,0 +1,187 @@
+{
+  "schema_version": 1,
+  "scope": "Primary artifact identity and visible grouping review; no phonetic or semantic values established.",
+  "objects": [
+    {
+      "cisi_id": "K-121",
+      "finnish_text": "7080",
+      "mahadevan_reference": "8302",
+      "excavation_id": "KLB2 16948",
+      "kind": "copper bar chisel",
+      "catalogue_join": "CISI1 printed374/PDF410 and M77 printed828/PDF837 independently print excavation16948.",
+      "excavation_2020": {
+        "pdf_pages": [
+          72,
+          73
+        ],
+        "printed_pages": [
+          770,
+          771
+        ],
+        "figure": "12.2",
+        "reported_dimensions_cm": "23 x 1",
+        "reported_context": "late level of Period II, KLB-2",
+        "reported_mass_g": null
+      },
+      "photo_review": {
+        "cisi_pdf_page": 361,
+        "cisi_printed_page": 325,
+        "faces": [
+          "A",
+          "B"
+        ],
+        "A": "A sequence of outlined/highlighted marks including a pair of parallel strokes, fish-like sign and forked shapes. The top bent mark is not resolved into an M sign here.",
+        "B": "Two unlike visible shapes: an irregular upper bent form and a lower arch; not a clean repetition of identical U shapes. Damage and highlighting prevent rejecting every proposed allographic interpretation.",
+        "interpretation_limit": "Do not promote 2u,1u or u+2i from the photograph. M77's two stacked arcs differ from the later depicted B shapes; retain discrepancy."
+      },
+      "nmma_candidate": {
+        "reference": "GM-KAM-RJ-1391408",
+        "url": "https://nmma.nic.in/nmma/antiqDetail.do?object=39&refId=1391408",
+        "reported_mass_g": "210.59",
+        "dimensions_cm": {
+          "length": "23.6",
+          "width": "1.3",
+          "thickness": "1.0"
+        },
+        "condition": "chemically treated",
+        "reported_marks": "six symbols on one side and two on the other",
+        "join_status": "probable descriptive match, not authenticated exact accession join",
+        "missing": "Retrieved indexed record does not supply KLB16948, CISI K-121, measurement date or inspectable photograph."
+      }
+    },
+    {
+      "cisi_id": "K-122",
+      "finnish_text": "7081",
+      "mahadevan_reference": "8301",
+      "excavation_id": "KLB 14983",
+      "kind": "copper blade axe",
+      "catalogue_join": "CISI1 printed374/PDF410 and M77 printed828/PDF837 independently print excavation14983.",
+      "excavation_2020": {
+        "pdf_pages": [
+          70,
+          71,
+          72
+        ],
+        "printed_pages": [
+          768,
+          769,
+          770
+        ],
+        "figure": "12.1",
+        "reported_dimensions_cm": "length14; width5-6 cm (retain source's awkward additional5cm wording)",
+        "reported_context": "late level of Period II, KLB-1",
+        "reported_mass_g": null
+      },
+      "photo_review": {
+        "cisi_pdf_page": 362,
+        "cisi_printed_page": 326,
+        "faces": [
+          "A",
+          "B"
+        ],
+        "A": "Three principal signs, including an outlined central square with internal marks. No proposed semantic reading adopted.",
+        "B": "Five visible roughly parallel strokes in both CISI enlargement and2020figure12.1d.",
+        "interpretation_limit": "Five visible strokes do not prove missing marks were absent, nor that the strokes denote whole-object mass."
+      },
+      "nmma_candidate": {
+        "reference": "GM-KAM-RJ-1391390",
+        "url": "https://nmma.nic.in/nmma/antiqDetail.do?object=39&refId=1391390",
+        "reported_mass_g": "476.70",
+        "dimensions_cm": {
+          "length": "14.0",
+          "width": "6.5",
+          "thickness": "0.8"
+        },
+        "condition": "working edge partly broken and chemically treated",
+        "reported_marks": "three signs on one side and five small vertical lines on the other",
+        "join_status": "probable descriptive match, not authenticated exact accession join",
+        "missing": "Retrieved indexed record does not supply KLB14983, CISI K-122, measurement date or inspectable photograph."
+      }
+    }
+  ],
+  "museum_measurement_independence": "Separate publication source; independent reweighing not demonstrated. No date, balance protocol or error interval retrieved. Do not treat extra decimal places as measurement uncertainty.",
+  "photo_independence": "CISI1987 and2020figures depict the same two objects, with matching highlighted signs. Publication date does not establish independent photographic exposure or a second ancient sample.",
+  "retrieval_failures": [
+    "NMMA directcurl failedDNS in sandbox; public network retry timedout45seconds with no HTML bytes. Webopen also returnedinternalerrors; indexed text was accessible.",
+    "ASIreport webreader declined13,694,349byte PDF as too large; publiccurl successfully downloaded it.",
+    "ExploratoryCISI PDF412/413 are maps, not catalogue data; correcttable isPDF410.",
+    "Poppler reported nonwritablefontcache but exitedsuccessfully and produced inspectablepages."
+  ],
+  "evidence": [
+    {
+      "path": "data/raw/cisi_76884.pdf",
+      "bytes": 31508998,
+      "sha256": "47a4da4227cfb7baa56d6a561e25797225499d0ec54f5a702a82c67ab4746d4d"
+    },
+    {
+      "path": "data/raw/mahadevan_1977_text.pdf",
+      "bytes": 119302608,
+      "sha256": "6dcdd074a0174e5fab149590fbbf82342711d345764e9763f8e5e92c81cf7f99"
+    },
+    {
+      "path": "data/raw/metal_kalibangan_excavation_2020_part2.pdf",
+      "bytes": 13694349,
+      "sha256": "47d861daedd595f4da4b75e1cd65594a34c2c46e4a0a3bc219c83fd3fbada56c"
+    },
+    {
+      "path": "data/raw/metal_kalibangan_nmma_web_capture.json",
+      "bytes": 35638,
+      "sha256": "b518079d86248f5aa1c788e96cab5b2cf908069143aa7af45500dff4424feee6"
+    },
+    {
+      "path": "data/raw/metal_kalibangan_nmma_identity_web_capture.json",
+      "bytes": 24362,
+      "sha256": "1dee9efb73dbef3d827cac296b1a7e10ea0ce7a18716226f5589cd6150cd4acf"
+    },
+    {
+      "path": "results/primary_pages/metal-kalibangan-361.png",
+      "bytes": 655758,
+      "sha256": "233360b5033415195f36c6b6534eefeedccea31cced4a29408c589a01c6c3173"
+    },
+    {
+      "path": "results/primary_pages/metal-kalibangan-362.png",
+      "bytes": 2059087,
+      "sha256": "028267212e7db830877ea9d4b9639406928bc2025bced61ebe92874430d7b777"
+    },
+    {
+      "path": "results/primary_pages/metal-kalibangan-data-410.png",
+      "bytes": 4295867,
+      "sha256": "3c12cfe48545e52f176cae4a55a0699ce0a382e05ca6e020e5f51b76181cc399"
+    },
+    {
+      "path": "results/primary_pages/metal-kalibangan-data-410-detail.png",
+      "bytes": 104415,
+      "sha256": "4260baaf1498a3f55e2d7ccc63db1c36ca6144f4841767bf95a9de0ff397181a"
+    },
+    {
+      "path": "results/primary_pages/metal-k-excavation-71.png",
+      "bytes": 3499709,
+      "sha256": "33b69d91ce8f241d92f3e9592b13053178bb5e45d3fe4c0b1faa63f747954d65"
+    },
+    {
+      "path": "results/primary_pages/metal-k-excavation-72.png",
+      "bytes": 113187,
+      "sha256": "145bd568d19dd6eaa702cc905407e9a8c2eed21c3cba173ca57213f91343d6a9"
+    },
+    {
+      "path": "results/primary_pages/metal-k-excavation-73.png",
+      "bytes": 347456,
+      "sha256": "ccfd51b80ffd92bbb7f5123b24ed3422a360c5dbc91254b4eea068661a18bfd0"
+    },
+    {
+      "path": "results/primary_pages/metal-k-m77-169.png",
+      "bytes": 1739392,
+      "sha256": "e9ed713e81df8a96db20e599a780f7331187d92113cbe72be0e78eba441f1952"
+    },
+    {
+      "path": "results/primary_pages/metal-k-m77-170.png",
+      "bytes": 1729811,
+      "sha256": "715b761c62cf42ad615c2987798334a5ed909824fde5cab6c409f690308e40bd"
+    },
+    {
+      "path": "results/primary_pages/metal-k-m77-837.png",
+      "bytes": 3208677,
+      "sha256": "b26f14a914c88046ea2f6c7c84c3ea24bac441962047a0ec2f08150c92957f20"
+    }
+  ]
+}

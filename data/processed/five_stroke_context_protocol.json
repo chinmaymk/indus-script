@@ -1,0 +1,30 @@
+{
+  "date": "2026-09-24",
+  "status": "Exploratory, after earlier M102/M106 results and inspecting five M107 export records; not preregistered",
+  "target_signs": [
+    "M096",
+    "M106",
+    "M107"
+  ],
+  "reason": "All show five strokes in labelled primary signlist; M096 long row, M106 short row, M107 short3+2. No assumed numerical equality.",
+  "scopes": [
+    "unchanged domestic seal sample",
+    "same seal quality filter at every site",
+    "all object types, one source document, no loss/doubt, original direction1/2, nonempty including solus"
+  ],
+  "computations": [
+    "exact one-position frame overlap for all three pairs",
+    "all417 occupants in every target-bearing frame",
+    "cooccurrence and repetition without semantic inference",
+    "counterfactual merge collisions preserving original sequences",
+    "primary marginals vs export token counts and separate recovered primary lines"
+  ],
+  "coverage_warning": "Table I counts22/38/6 vs export20/35/5. Do not treat raw export as the complete primary corpus or add missing counts without exact line recovery.",
+  "limits": [
+    "No chronology or site is inferred from bare unidentified references",
+    "Lack of shared contexts in a sparse sample cannot disprove allography",
+    "Common contexts do not establish equal meaning or sound",
+    "Normalization is a counterfactual bookkeeping exercise only",
+    "No global corpus or sign-value alteration"
+  ]
+}

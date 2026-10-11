@@ -1,0 +1,86 @@
+{
+  "assumptions": {
+    "comparison": [
+      "Current tang165.343g against q",
+      "Optional strict p2.6 reconstructed mass cap",
+      "Minimum original/tang factor if original mass>=q"
+    ],
+    "date": "2026-09-24",
+    "excluded_inferences": [
+      "Not a refutation of numerical value5 or context-dependent units",
+      "No negative/operator reading ruledout",
+      "No hidden-sign reconstruction accepted",
+      "Not an identification of universal M104/t or M312/u",
+      "No first-face translation;M387/M015 residuals remain"
+    ],
+    "hypothesis": [
+      "One invariant nonnegative mass contribution q is attached to M106 across these two objects",
+      "Visible sole M106 is the complete mass expression on K122, equated to the reported surviving476g",
+      "The tang expression contains M106 and no terms/operators reducing its mass contribution",
+      "Optional original/tang reconstruction multiplierp<2.6 is an added hypothesis, not a measured bound"
+    ],
+    "object_identity": "2923 = previously measured FEM CXXVI2 tang;8301=K122axe. New crosswalk, no new physical measurement.",
+    "status": "Exploratory identity-led model test; not preregistered"
+  },
+  "certificate": {
+    "assumed_M106_mass_component_g": {
+      "decimal": 476.0,
+      "fraction": "476"
+    },
+    "current_mass_shortfall_g": {
+      "decimal": 310.657,
+      "fraction": "310657/1000"
+    },
+    "exact_surviving_mass_model_inconsistent": true,
+    "hypothetical_reconstruction_factor": {
+      "decimal": 2.6,
+      "fraction": "13/5"
+    },
+    "minimum_missing_fraction_of_original_if_model_holds": {
+      "decimal": 0.652640756302521,
+      "fraction": "310657/476000"
+    },
+    "minimum_original_over_surviving_factor": {
+      "decimal": 2.8788639373907574,
+      "fraction": "476000/165343"
+    },
+    "minimum_tang_expression_mass_g": {
+      "decimal": 476.0,
+      "fraction": "476"
+    },
+    "proof": "M_K122=q; M_tang=q+r with r>=0. Hence M_tang>=q. Exact observed mass below q, or an assumed strict upper cap <=q, contradicts this model.",
+    "strict_cap_model_inconsistent": true,
+    "strict_cap_shortfall_g": {
+      "decimal": 46.1082,
+      "fraction": "230541/5000"
+    },
+    "strict_reconstruction_cap_g": {
+      "decimal": 429.8918,
+      "fraction": "2149459/5000"
+    },
+    "tang_surviving_mass_g": {
+      "decimal": 165.343,
+      "fraction": "165343/1000"
+    }
+  },
+  "established_phonetic_values": 0,
+  "established_semantic_values": 0,
+  "graphical_bridge_review": "data/processed/tool_sign_bridge_review.json",
+  "identity_review": "data/processed/bronze2923_identity_review.json",
+  "input_sha256": {
+    "data/processed/bronze2923_identity_review.json": "52986586a1d77a2a1d4b7e8d767e812a76ae5b781eec0fa44ae6aa60cf65f21e",
+    "data/processed/metal_original_records.json": "df2004bef9285e72688715006bb00d63984a446c488d80f394f464ff77ca5659",
+    "data/processed/metal_tool_weight_anchors.json": "47ff98eef6b64e9254a1fbf6fd7ab6b002933d7004164659dbf402f07815d3ed",
+    "data/processed/tool_sign_bridge_review.json": "6de8ba1fb8fc385728f06dbfae93b8901fa8a6c50432da760fcc77c2084a7215",
+    "data/processed/tool_sign_mass_protocol.json": "97e77631c3864149604446b7259a91c555fce9e7dae94ccc40bdd9f39abf8edd"
+  },
+  "limits": [
+    "An invariant numeral value can coexist with different units; this test concerns invariant mass contribution",
+    "Complete ancient tang mass is unmeasured; its surviving mass is not an original-mass observation",
+    "The factor2.6 is a disputed reconstruction hypothesis, not authenticated conservation evidence",
+    "Other signs or operations may change the interpretation; no global arithmetic grammar is established",
+    "Original plate orientations are not preserved by treating normalized M104 as a universal t symbol"
+  ],
+  "new_independent_mass_observations": 0,
+  "scope": "Conditional invariant whole-sign mass hypothesis, not a sign reading or a new mass observation"
+}

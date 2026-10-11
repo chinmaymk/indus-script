@@ -1,0 +1,41 @@
+{
+  "extractor": "pypdf",
+  "sources": [
+    {
+      "path": "data/raw/pipes_kalibangan_excavation_2015_part1.pdf",
+      "bytes": 17063708,
+      "sha256": "b6defc2423ef2f2805f7e5a5a5f807af03aa6997990dac3c950cec48634dd3e6",
+      "pdf_pages_one_based": [
+        96,
+        98,
+        99
+      ],
+      "page_count": 330
+    },
+    {
+      "path": "data/raw/pipes_asi_download61.pdf",
+      "bytes": 15550482,
+      "sha256": "77eb134c276d36cecbb162151eb40eb34ea2d29e0257d71abbf94970834476ba",
+      "pdf_pages_one_based": [
+        247,
+        248,
+        249,
+        250
+      ],
+      "page_count": 415
+    },
+    {
+      "path": "data/raw/metal_kalibangan_excavation_2020_part2.pdf",
+      "bytes": 13694349,
+      "sha256": "47d861daedd595f4da4b75e1cd65594a34c2c46e4a0a3bc219c83fd3fbada56c",
+      "pdf_pages_one_based": [
+        362,
+        363,
+        364,
+        365
+      ],
+      "page_count": 876
+    }
+  ],
+  "warning": "Extraction is not a substitute for visual verification; images and human evidence pins are separate."
+}

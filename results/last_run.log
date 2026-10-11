@@ -1,0 +1,324 @@
+RUN scripts/fetch_data.py --verify-only
+verified archived response data/raw/indusscript_access_denied.json
+verified data/raw/lipi_inscriptions.csv
+verified data/raw/mayig_corpus.tar.gz
+verified data/raw/sproat_corpora.zip
+verified data/raw/lipi_tree.json
+verified data/raw/mayig_tree.json
+verified data/raw/lipi_xlits_unused.csv
+verified data/raw/indusscript_index.html
+verified data/raw/indusscript_main.dart.js
+verified data/raw/indusscript_flutter_service_worker.js
+verified data/raw/mahadevan_1977.pdf
+verified data/raw/mahadevan_1977_text.pdf
+verified data/raw/mahadevan_1977_ocr.txt
+verified data/raw/mahadevan_1977_ocr.xml
+verified data/raw/mahadevan_archive_metadata.json
+verified data/raw/mahadevan_alternate_metadata.json
+verified data/raw/rmrl_mahadevan_book.html
+verified data/raw/rmrl_mahadevan_flipbook.html
+verified data/raw/rmrl_mahadevan_config.js
+verified data/raw/rao_2018_indus_economics.pdf
+verified data/raw/mohenjo_daro_inscribed_objects_74331.pdf
+verified data/raw/farmer_2004_harvard.pdf
+verified data/raw/cisi_76884.pdf
+RUN -m unittest discover -s tests -v
+test_intersection_bounds_are_attainable (test_context_bounds.ContextBoundsTests.test_intersection_bounds_are_attainable) ... ok
+test_jar_mohenjodaro_bound_from_source_marginals (test_context_bounds.ContextBoundsTests.test_jar_mohenjodaro_bound_from_source_marginals) ... ok
+test_joint_confounding_not_excluded_by_separate_marginals (test_context_bounds.ContextBoundsTests.test_joint_confounding_not_excluded_by_separate_marginals) ... ok
+test_selected_source_rows_agree_with_position_totals (test_context_bounds.ContextBoundsTests.test_selected_source_rows_agree_with_position_totals) ... ok
+test_total_variation_is_maximum_binary_mixture_gap (test_context_bounds.ContextBoundsTests.test_total_variation_is_maximum_binary_mixture_gap) ... ok
+test_deduplication_preserves_context_and_artifacts_as_specified (test_joint_context.JointContextTests.test_deduplication_preserves_context_and_artifacts_as_specified) ... ok
+test_singles_do_not_become_final_tokens (test_joint_context.JointContextTests.test_singles_do_not_become_final_tokens) ... ok
+test_sparse_support_is_absent_not_zero_effect (test_joint_context.JointContextTests.test_sparse_support_is_absent_not_zero_effect) ... ok
+test_unmatched_contexts_do_not_affect_matched_rates (test_joint_context.JointContextTests.test_unmatched_contexts_do_not_affect_matched_rates) ... ok
+test_complete_solution_set (test_numeral_equations.NumeralEquationTests.test_complete_solution_set) ... ok
+test_counterexample_to_uniqueness_without_anchor (test_numeral_equations.NumeralEquationTests.test_counterexample_to_uniqueness_without_anchor) ... ok
+test_divisor_identity_and_enumeration (test_numeral_equations.NumeralEquationTests.test_divisor_identity_and_enumeration) ... ok
+test_independent_bounded_enumeration (test_numeral_equations.NumeralEquationTests.test_independent_bounded_enumeration) ... ok
+test_integer_quotient_does_not_force_even_base (test_numeral_equations.NumeralEquationTests.test_integer_quotient_does_not_force_even_base) ... ok
+test_constant_unit_conversion_cannot_rescue_conflicting_ratios (test_numeral_screen.NumeralScreenTests.test_constant_unit_conversion_cannot_rescue_conflicting_ratios) ... ok
+test_direction_sensitivity_retains_positive_base_contradiction (test_numeral_screen.NumeralScreenTests.test_direction_sensitivity_retains_positive_base_contradiction) ... ok
+test_matched_pattern_does_not_identify_unique_values (test_numeral_screen.NumeralScreenTests.test_matched_pattern_does_not_identify_unique_values) ... ok
+test_no_skipping_or_partial_number_matching (test_numeral_screen.NumeralScreenTests.test_no_skipping_or_partial_number_matching) ... ok
+test_sensitivity_never_accepts_damage_or_ambiguous_markers (test_numeral_screen.NumeralScreenTests.test_sensitivity_never_accepts_damage_or_ambiguous_markers) ... ok
+test_missing_duplicate_or_edited_rows_rejected (test_primary_table.PrimaryTableTests.test_missing_duplicate_or_edited_rows_rejected) ... ok
+test_ocr_uncertainty_is_explicit (test_primary_table.PrimaryTableTests.test_ocr_uncertainty_is_explicit) ... ok
+test_pilot_does_not_splice_across_damage_or_doubt (test_primary_table.PrimaryTableTests.test_pilot_does_not_splice_across_damage_or_doubt) ... ok
+test_pilot_printed_order_is_reversed_once (test_primary_table.PrimaryTableTests.test_pilot_printed_order_is_reversed_once) ... ok
+test_primary_anchor_readings (test_primary_table.PrimaryTableTests.test_primary_anchor_readings) ... ok
+test_printed_constraints (test_primary_table.PrimaryTableTests.test_printed_constraints) ... ok
+test_exact_count_can_identify_under_explicit_restriction (test_quantity_anchors.QuantityAnchorTests.test_exact_count_can_identify_under_explicit_restriction) ... ok
+test_interval_does_not_uniquely_fix_decimal (test_quantity_anchors.QuantityAnchorTests.test_interval_does_not_uniquely_fix_decimal) ... ok
+test_invalid_inputs (test_quantity_anchors.QuantityAnchorTests.test_invalid_inputs) ... ok
+test_scale_symmetry_preserves_fit_even_with_noise (test_quantity_anchors.QuantityAnchorTests.test_scale_symmetry_preserves_fit_even_with_noise) ... ok
+test_unknown_image_scale_absorbs_units (test_quantity_anchors.QuantityAnchorTests.test_unknown_image_scale_absorbs_units) ... ok
+test_connected_groups_and_deduplication (test_research.ResearchTests.test_connected_groups_and_deduplication) ... ok
+test_damage_not_silently_removed (test_research.ResearchTests.test_damage_not_silently_removed) ... ok
+test_entropy_known_values (test_research.ResearchTests.test_entropy_known_values) ... ok
+test_literal_signs_and_order (test_research.ResearchTests.test_literal_signs_and_order) ... ok
+test_metadata_constraints (test_research.ResearchTests.test_metadata_constraints) ... ok
+test_position_null_preserves_length_and_slot_counts (test_research.ResearchTests.test_position_null_preserves_length_and_slot_counts) ... ok
+test_probability_normalization_unseen_contexts (test_research.ResearchTests.test_probability_normalization_unseen_contexts) ... ok
+test_relabeling_invariance (test_research.ResearchTests.test_relabeling_invariance) ... ok
+test_renamed_models_have_same_likelihood (test_research.ResearchTests.test_renamed_models_have_same_likelihood) ... ok
+test_reversal_invariance (test_research.ResearchTests.test_reversal_invariance) ... ok
+test_within_null_preserves_each_bag (test_research.ResearchTests.test_within_null_preserves_each_bag) ... ok
+test_ambiguous_catalogue_family_fails_closed (test_sign_families.SignFamilyTests.test_ambiguous_catalogue_family_fails_closed) ... ok
+test_collapsed_text_and_artifact_links_are_transitive (test_sign_families.SignFamilyTests.test_collapsed_text_and_artifact_links_are_transitive) ... ok
+test_dedup_retains_ids_and_target_is_not_a_feature (test_sign_families.SignFamilyTests.test_dedup_retains_ids_and_target_is_not_a_feature) ... ok
+test_duplicate_inscriptions_do_not_multiply_exact_frames (test_sign_families.SignFamilyTests.test_duplicate_inscriptions_do_not_multiply_exact_frames) ... ok
+test_probability_normalization_with_unseen_classes_and_contexts (test_sign_families.SignFamilyTests.test_probability_normalization_with_unseen_classes_and_contexts) ... ok
+
+----------------------------------------------------------------------
+Ran 46 tests in 0.141s
+
+OK
+RUN scripts/verify_primary_source.py
+Four primary downloads match archive sizes and MD5 checksums.
+RUN scripts/prepare_corpora.py
+RUN scripts/extract_primary_table.py
+{
+  "rows": 417,
+  "unresolved_or_sum_disagreement_signs": [],
+  "cell_status_counts": {
+    "literal_numeric_OCR": 1857,
+    "normalized_OCR_page_reviewed": 116,
+    "visually_checked_correction": 112
+  },
+  "column_sums": {
+    "solus": 190,
+    "initial": 3010,
+    "medial": 7196,
+    "final": 2976,
+    "total": 13372
+  },
+  "printed_column_sums": {
+    "solus": 190,
+    "initial": 3010,
+    "medial": 7196,
+    "final": 2976,
+    "total": 13372
+  },
+  "column_sums_match": true,
+  "hapax_signs": 112,
+  "printed_hapax_signs": 112,
+  "frequency_band_checks": [
+    {
+      "minimum": 1000,
+      "maximum": 100000,
+      "signs": 1,
+      "occurrences": 1395,
+      "printed_signs": 1,
+      "printed_occurrences": 1395,
+      "matches": true
+    },
+    {
+      "minimum": 500,
+      "maximum": 999,
+      "signs": 1,
+      "occurrences": 649,
+      "printed_signs": 1,
+      "printed_occurrences": 649,
+      "matches": true
+    },
+    {
+      "minimum": 100,
+      "maximum": 499,
+      "signs": 31,
+      "occurrences": 6344,
+      "printed_signs": 31,
+      "printed_occurrences": 6344,
+      "matches": true
+    },
+    {
+      "minimum": 50,
+      "maximum": 99,
+      "signs": 34,
+      "occurrences": 2381,
+      "printed_signs": 34,
+      "printed_occurrences": 2381,
+      "matches": true
+    },
+    {
+      "minimum": 10,
+      "maximum": 49,
+      "signs": 86,
+      "occurrences": 1833,
+      "printed_signs": 86,
+      "printed_occurrences": 1833,
+      "matches": true
+    },
+    {
+      "minimum": 2,
+      "maximum": 9,
+      "signs": 152,
+      "occurrences": 658,
+      "printed_signs": 152,
+      "printed_occurrences": 658,
+      "matches": true
+    },
+    {
+      "minimum": 1,
+      "maximum": 1,
+      "signs": 112,
+      "occurrences": 112,
+      "printed_signs": 112,
+      "printed_occurrences": 112,
+      "matches": true
+    }
+  ],
+  "all_bands_match": true,
+  "visually_reviewed_pdf_pages": [
+    728,
+    729,
+    730,
+    731,
+    732,
+    733,
+    734
+  ],
+  "warning": "Exact aggregate agreement is necessary but not sufficient to establish every cell. Consult cell provenance and visual review notes."
+}
+RUN scripts/analyze_primary_inventory.py
+{
+  "signs": 417,
+  "tokens": 13372,
+  "hapax_signs": 112,
+  "signs_with_fewer_than_10_occurrences": 264,
+  "position_type_counts": {
+    "solus": 88,
+    "initial": 290,
+    "medial": 286,
+    "final": 173
+  },
+  "printed_position_type_counts": {
+    "solus": 88,
+    "initial": 290,
+    "medial": 286,
+    "final": 173
+  },
+  "description_counts": {
+    "final-heavy (descriptive threshold)": 15,
+    "mixed positions": 87,
+    "rare; no stable positional role assigned": 264,
+    "medial-heavy (descriptive threshold)": 31,
+    "initial-heavy (descriptive threshold)": 19,
+    "solus-heavy (descriptive threshold)": 1
+  },
+  "tokens_top_67": 10769,
+  "jar_primary_counts": {
+    "solus": 3,
+    "initial": 1,
+    "medial": 420,
+    "final": 971,
+    "total": 1395
+  },
+  "jar_line_end_only_counteroccurrences": 421,
+  "notes": [
+    "Solus is a separate category; a standalone sign can be both first and last, so it is not counted as a line-end counterexample.",
+    "No historical-semantic or phonetic values follow from these counts.",
+    "No crosswalk is required for the M-number positional profiles."
+  ]
+}
+RUN scripts/audit_primary_pilot.py
+Primary pilot: 4 lines; 1 internal-jar witness.
+RUN scripts/analyze_context_bounds.py
+site M342/M343: event gap 0.6678, mixture bound 0.1216
+site M342/M344: event gap 0.6389, mixture bound 0.1908
+site M342/M345: event gap 0.6568, mixture bound 0.1140
+site M087/M099: event gap 0.3997, mixture bound 0.2399
+site M059/M065: event gap 0.2620, mixture bound 0.1017
+object_type M087/M099: event gap 0.3997, mixture bound 0.2819
+object_type M059/M065: event gap 0.2620, mixture bound 0.0896
+RUN scripts/analyze_sequences.py --permutations 499
+{
+  "summary": {
+    "sequences": 1848,
+    "tokens": 8489,
+    "sign_types": 575,
+    "length_mean": 4.5936147186147185,
+    "length_max": 13,
+    "length_histogram": {
+      "2": 261,
+      "3": 347,
+      "4": 351,
+      "5": 366,
+      "6": 237,
+      "7": 151,
+      "8": 61,
+      "9": 40,
+      "10": 19,
+      "11": 8,
+      "12": 4,
+      "13": 3
+    },
+    "hapax_sign_types": 214,
+    "unigram_entropy_bits": 6.916054735198686,
+    "adjacent_mutual_information_bits": 3.195673600346248,
+    "endpoint_js_bits": 0.7032075814958043,
+    "texts_with_repeated_sign_fraction": 0.03571428571428571
+  },
+  "prediction": {
+    "unique_sequences": 1848,
+    "connected_groups": 1564,
+    "tokens": 8489,
+    "bits_per_sign": {
+      "unigram": 7.084812572559777,
+      "position": 6.791957775043207,
+      "bigram": 5.933997015986417,
+      "bigram_position": 6.17832828868355
+    },
+    "perplexity": {
+      "unigram": 135.750393764001,
+      "position": 110.81103710945857,
+      "bigram": 61.13798147295307,
+      "bigram_position": 72.42060322760065
+    },
+    "group_bootstrap_95_percentile_intervals": {
+      "combined_improvement_over_unigram": [
+        0.8283762558377553,
+        0.9941376675988145
+      ],
+      "combined_improvement_over_position": [
+        0.5768693973248348,
+        0.6548334463231628
+      ],
+      "bigram_improvement_over_unigram": [
+        1.0822144399012044,
+        1.225286960132556
+      ],
+      "bigram_improvement_over_position": [
+        0.8097540223431866,
+        0.9034356880656097
+      ]
+    },
+    "fold_sequence_counts": {
+      "3": 538,
+      "2": 323,
+      "4": 328,
+      "1": 338,
+      "0": 321
+    }
+  }
+}
+RUN scripts/hypothesis_checks.py
+RUN scripts/check_transcriptions.py
+RUN scripts/audit_images.py
+RUN scripts/analyze_joint_context.py
+M342 M343 6 295 76 0.7755366154240322
+M342 M344 1 51 5 0.7450980392156863
+M342 M345 0 0 0 None
+M087 M099 10 88 269 0.16820580158619444
+M059 M065 6 80 55 -0.21136768977415388
+RUN scripts/audit_quantity_anchors.py
+Conditional bangle model: 12 compatible positive integer weight pairs; no unique decimal value.
+RUN scripts/audit_numeral_equations.py
+4 positive integer solutions; 2 after digit bounds; 1 after disputed bangle interval.
+RUN scripts/screen_numeral_pairs.py
+strict {"candidate_groups": 20, "distinct_literal_pairs": 3, "distinct_numeric_pairs": 3, "eligible_groups": 5, "evaluations": [{"balanced": 5, "candidate": {"L": 10, "S": 8, "v": 6}, "model": "stacked_as_L", "total": 5}, {"balanced": 2, "candidate": {"L": 10, "S": 8, "v": 6}, "model": "stacked_as_one", "total": 5}, {"balanced": 5, "candidate": {"L": 36, "S": 20, "v": 4}, "model": "stacked_as_L", "total": 5}, {"balanced": 2, "candidate": {"L": 36, "S": 20, "v": 4}, "model": "stacked_as_one", "total": 5}], "excluded_groups": 15, "exclusion_reasons_overlap": {"W700:direction_not_R/L": 1, "W700:not_complete_simple_single_line": 4, "W700:not_marked_complete": 4, "W840:direction_not_R/L": 2, "W840:no_recognized_adjacent_numeric_run": 6, "W840:not_complete_simple_single_line": 5, "W840:not_marked_complete": 7, "W840:sign_count_mismatch": 2, "W840:unknown_or_separator_token": 2, "marker_occurrence_not_unique": 1}}
+allow_LR_sensitivity {"candidate_groups": 20, "distinct_literal_pairs": 4, "distinct_numeric_pairs": 4, "eligible_groups": 6, "evaluations": [{"balanced": 5, "candidate": {"L": 10, "S": 8, "v": 6}, "model": "stacked_as_L", "total": 6}, {"balanced": 2, "candidate": {"L": 10, "S": 8, "v": 6}, "model": "stacked_as_one", "total": 6}, {"balanced": 5, "candidate": {"L": 36, "S": 20, "v": 4}, "model": "stacked_as_L", "total": 6}, {"balanced": 2, "candidate": {"L": 36, "S": 20, "v": 4}, "model": "stacked_as_one", "total": 6}], "excluded_groups": 14, "exclusion_reasons_overlap": {"W700:direction_not_R/L": 1, "W700:not_complete_simple_single_line": 4, "W700:not_marked_complete": 4, "W840:direction_not_R/L": 1, "W840:no_recognized_adjacent_numeric_run": 6, "W840:not_complete_simple_single_line": 5, "W840:not_marked_complete": 7, "W840:sign_count_mismatch": 2, "W840:unknown_or_separator_token": 2, "marker_occurrence_not_unique": 1}}
+RUN scripts/analyze_sign_families.py
+76 candidate families; 20 meet support gate; 417 M-index rows
+{"100": {"bootstrap_scope": "Fixed out-of-fold predictions and fixed supported families; not selection-adjusted or causal", "component_bootstrap_95_percentile_interval": [0.0032281750673584736, 0.01646205633804696], "connected_groups": 925, "frequency_bits_per_token": 1.2932570608401142, "group_size_sensitivity": {"equal_component_weight_improvement_bits": 0.005960960583308971, "excluding_largest_component_improvement_bits": 0.007948146504875292, "largest_selected_group": "13abe89c94cc45a225e34a7b81880205f7f623f7f9d149589c3164dc4f80c8ca", "largest_selected_group_tokens": 275, "status": "Added after inspecting group sizes; fixed predictions, no refitting"}, "metadata_bits_per_token": 1.2732316764444647, "neighbor_bits_per_token": 1.262715732456745, "neighbor_improvement_over_metadata_bits": 0.010515943987719422, "tokens": 2283}, "20": {"bootstrap_scope": "Fixed out-of-fold predictions and fixed supported families; not selection-adjusted or causal", "component_bootstrap_95_percentile_interval": [0.00021472109547858106, 0.04205281514299881], "connected_groups": 925, "frequency_bits_per_token": 1.2932570608401142, "group_size_sensitivity": {"equal_component_weight_improvement_bits": 0.006207558778547968, "excluding_largest_component_improvement_bits": 0.01101643563375377, "largest_selected_group": "13abe89c94cc45a225e34a7b81880205f7f623f7f9d149589c3164dc4f80c8ca", "largest_selected_group_tokens": 275, "status": "Added after inspecting group sizes; fixed predictions, no refitting"}, "metadata_bits_per_token": 1.2374242667110904, "neighbor_bits_per_token": 1.2156841283261308, "neighbor_improvement_over_metadata_bits": 0.021740138384959667, "tokens": 2283}, "5": {"bootstrap_scope": "Fixed out-of-fold predictions and fixed supported families; not selection-adjusted or causal", "component_bootstrap_95_percentile_interval": [-0.028721220939882455, 0.06216481599457309], "connected_groups": 925, "frequency_bits_per_token": 1.2932570608401142, "group_size_sensitivity": {"equal_component_weight_improvement_bits": -0.013956294251119111, "excluding_largest_component_improvement_bits": -0.010684849636326411, "largest_selected_group": "13abe89c94cc45a225e34a7b81880205f7f623f7f9d149589c3164dc4f80c8ca", "largest_selected_group_tokens": 275, "status": "Added after inspecting group sizes; fixed predictions, no refitting"}, "metadata_bits_per_token": 1.2106603191809677, "neighbor_bits_per_token": 1.1961743507143716, "neighbor_improvement_over_metadata_bits": 0.014485968466595858, "tokens": 2283}}
+RUN scripts/write_manifest.py

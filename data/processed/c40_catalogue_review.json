@@ -1,0 +1,734 @@
+{
+  "schema_version": 1,
+  "scope": "Catalogue-only primary authentication of both M77 6306 fields plus bounded full M312\u2013M314 concordance inventory; no semantic or phonetic values.",
+  "review_mode": "Manual visual comparison after candidate transcription and hypothesis were known; not blinded.",
+  "lines": [
+    {
+      "m77_reference": "6306",
+      "side": 1,
+      "line": 0,
+      "line_id": "6306.1.0",
+      "printed_metadata": "610001",
+      "expanded_metadata": "610001",
+      "object_type_code": 6,
+      "field_symbol_code": "00",
+      "actual_direction_code": 1,
+      "normalized_order": "right_to_left",
+      "tokens": [
+        "M109",
+        "M059",
+        "M367",
+        "M380",
+        "M314",
+        "M106",
+        "M018",
+        "M162"
+      ],
+      "has_loss": false,
+      "texts_printed_page": 148,
+      "texts_pdf_page": 159,
+      "secondary_candidate_export_contains_this_field": true,
+      "recovered_from_primary_this_review": false,
+      "reference": "6306",
+      "metadata": "610001",
+      "direction_code": 1,
+      "token_details": [
+        {
+          "code": "M109",
+          "doubtful": false,
+          "unknown_span": false
+        },
+        {
+          "code": "M059",
+          "doubtful": false,
+          "unknown_span": false
+        },
+        {
+          "code": "M367",
+          "doubtful": false,
+          "unknown_span": false
+        },
+        {
+          "code": "M380",
+          "doubtful": false,
+          "unknown_span": false
+        },
+        {
+          "code": "M314",
+          "doubtful": false,
+          "unknown_span": false
+        },
+        {
+          "code": "M106",
+          "doubtful": false,
+          "unknown_span": false
+        },
+        {
+          "code": "M018",
+          "doubtful": false,
+          "unknown_span": false
+        },
+        {
+          "code": "M162",
+          "doubtful": false,
+          "unknown_span": false
+        }
+      ],
+      "doubtful_token_indices": []
+    },
+    {
+      "m77_reference": "6306",
+      "side": 2,
+      "line": 0,
+      "line_id": "6306.2.0",
+      "printed_metadata": "20001",
+      "expanded_metadata": "620001",
+      "object_type_code": 6,
+      "field_symbol_code": "00",
+      "actual_direction_code": 1,
+      "normalized_order": "right_to_left",
+      "tokens": [
+        "M129",
+        "M287",
+        "M086",
+        "M065",
+        "M067",
+        "M403",
+        "M087",
+        "M342"
+      ],
+      "has_loss": false,
+      "texts_printed_page": 148,
+      "texts_pdf_page": 159,
+      "secondary_candidate_export_contains_this_field": false,
+      "recovered_from_primary_this_review": true,
+      "reference": "6306",
+      "metadata": "20001",
+      "direction_code": 1,
+      "token_details": [
+        {
+          "code": "M129",
+          "doubtful": true,
+          "unknown_span": false
+        },
+        {
+          "code": "M287",
+          "doubtful": false,
+          "unknown_span": false
+        },
+        {
+          "code": "M086",
+          "doubtful": false,
+          "unknown_span": false
+        },
+        {
+          "code": "M065",
+          "doubtful": false,
+          "unknown_span": false
+        },
+        {
+          "code": "M067",
+          "doubtful": false,
+          "unknown_span": false
+        },
+        {
+          "code": "M403",
+          "doubtful": false,
+          "unknown_span": false
+        },
+        {
+          "code": "M087",
+          "doubtful": false,
+          "unknown_span": false
+        },
+        {
+          "code": "M342",
+          "doubtful": false,
+          "unknown_span": false
+        }
+      ],
+      "doubtful_token_indices": [
+        0
+      ]
+    }
+  ],
+  "catalogue_source_join": {
+    "m77_reference": "6306",
+    "publication_abbreviation": "CE",
+    "plate": "LXXIV",
+    "item": 1,
+    "appendix_printed_page": 825,
+    "appendix_pdf_page": 834
+  },
+  "arch_grouping": {
+    "M312": {
+      "graphic_arches": 1,
+      "catalogue_tokens": 1
+    },
+    "M313": {
+      "graphic_arches": 2,
+      "catalogue_tokens": 1
+    },
+    "M314": {
+      "graphic_arches": 3,
+      "catalogue_tokens": 1
+    },
+    "semantic_composition_established": false,
+    "signlist_printed_page": 34,
+    "signlist_pdf_page": 45
+  },
+  "table_i_verified": {
+    "pdf_page": 732,
+    "printed_page": 721,
+    "M312": {
+      "total": 2,
+      "solus": 0,
+      "initial": 1,
+      "medial": 0,
+      "final": 1
+    },
+    "M313": {
+      "total": 2,
+      "solus": 1,
+      "initial": 1,
+      "medial": 0,
+      "final": 0
+    },
+    "M314": {
+      "total": 1,
+      "solus": 0,
+      "initial": 0,
+      "medial": 1,
+      "final": 0
+    }
+  },
+  "uncertainties_and_limits": [
+    "Primary doubt on side2 initialM129 is preserved.",
+    "The single-arch context counterpart4802 has doubtfulM312 and cannot be treated as a clear minimal pair.",
+    "Catalogue graph grouping does not establish arithmetic multiplication or a3u5i reading.",
+    "Primary first-sideM106 is not marked doubtful; later author uncertainty is a separate assessment.",
+    "This review authenticates catalogue layout, not physical incision direction or crossing.",
+    "Repeated concordance versions of the same inscription are not independent ancient attestations."
+  ],
+  "navigation_and_corrections": [
+    {
+      "attempt": "Identify counterpart hourglass-like glyph directly",
+      "result": "Resolved asM067 with numbered signlist and concordancePDF257; no tentative alternative promoted."
+    },
+    {
+      "attempt": "PDF550 for archfamily",
+      "result": "M287 index navigation, notarchfamily; primary family foundPDF567\u2013568."
+    },
+    {
+      "attempt": "Initial65\u201367crop",
+      "result": "Numbers were clipped; finalcrop enlarged and viewed before hashing."
+    }
+  ],
+  "crop_records": [
+    {
+      "source": "results/primary_pages/c40-catalogue-159.png",
+      "output": "results/primary_pages/c40-catalogue-6306-detail.png",
+      "box_xyxy": [
+        540,
+        2610,
+        2350,
+        2840
+      ],
+      "resize_factor": 1,
+      "method": "Pillow crop; factor2images resized with default BICUBIC; no retouching; allfinalcrops viewed."
+    },
+    {
+      "source": "results/primary_pages/hybrid-pat-m77-43.png",
+      "output": "results/primary_pages/c40-signs-002-008.png",
+      "box_xyxy": [
+        180,
+        180,
+        1510,
+        395
+      ],
+      "resize_factor": 2,
+      "method": "Pillow crop; factor2images resized with default BICUBIC; no retouching; allfinalcrops viewed."
+    },
+    {
+      "source": "results/primary_pages/c40-catalogue-159.png",
+      "output": "results/primary_pages/c40-counterpart-glyphs.png",
+      "box_xyxy": [
+        1730,
+        2730,
+        2290,
+        2830
+      ],
+      "resize_factor": 2,
+      "method": "Pillow crop; factor2images resized with default BICUBIC; no retouching; allfinalcrops viewed."
+    },
+    {
+      "source": "results/primary_pages/hybrid-pat-m77-43.png",
+      "output": "results/primary_pages/c40-signs-065-067.png",
+      "box_xyxy": [
+        740,
+        1415,
+        1260,
+        1620
+      ],
+      "resize_factor": 1,
+      "method": "Pillow crop; factor2images resized with default BICUBIC; no retouching; allfinalcrops viewed."
+    },
+    {
+      "source": "results/primary_pages/hybrid-pat-pair-45.png",
+      "output": "results/primary_pages/c40-signs-312-314.png",
+      "box_xyxy": [
+        530,
+        2480,
+        1090,
+        2670
+      ],
+      "resize_factor": 1,
+      "method": "Pillow crop; factor2images resized with default BICUBIC; no retouching; allfinalcrops viewed."
+    },
+    {
+      "source": "results/primary_pages/c40-followup-834.png",
+      "output": "results/primary_pages/c40-appendix-detail.png",
+      "box_xyxy": [
+        1050,
+        880,
+        1810,
+        1280
+      ],
+      "resize_factor": 1,
+      "method": "Pillow crop; factor2images resized with default BICUBIC; no retouching; allfinalcrops viewed."
+    },
+    {
+      "source": "results/primary_pages/c40-arch-family-567.png",
+      "output": "results/primary_pages/c40-family-312-detail.png",
+      "box_xyxy": [
+        330,
+        2950,
+        2540,
+        3280
+      ],
+      "resize_factor": 1,
+      "method": "Pillow crop; factor2images resized with default BICUBIC; no retouching; allfinalcrops viewed."
+    },
+    {
+      "source": "results/primary_pages/c40-followup-568.png",
+      "output": "results/primary_pages/c40-family-313-314-detail.png",
+      "box_xyxy": [
+        40,
+        205,
+        2110,
+        680
+      ],
+      "resize_factor": 1,
+      "method": "Pillow crop; factor2images resized with default BICUBIC; no retouching; allfinalcrops viewed."
+    }
+  ],
+  "render_invocations": [
+    {
+      "prefix": "c40-catalogue",
+      "pages": [
+        159
+      ],
+      "scale": 3500
+    },
+    {
+      "prefix": "c40-followup",
+      "pages": [
+        568,
+        834
+      ],
+      "scale": 3000
+    },
+    {
+      "prefix": "c40-arches",
+      "pages": [
+        550
+      ],
+      "scale": 3500
+    },
+    {
+      "prefix": "c40-index",
+      "pages": [
+        235,
+        247,
+        257
+      ],
+      "scale": 2600
+    },
+    {
+      "prefix": "c40-arch-family",
+      "pages": [
+        567
+      ],
+      "scale": 3500
+    }
+  ],
+  "render_script": "scripts/inspect_research_pdf.py mahadevan_1977_text.pdf --prefix PREFIX --pages PAGES --render-only --scale SCALE --pdftoppm <Poppler executable>",
+  "new_downloads": [],
+  "evidence_files": [
+    {
+      "path": "data/raw/mahadevan_1977_text.pdf",
+      "bytes": 119302608,
+      "sha256": "6dcdd074a0174e5fab149590fbbf82342711d345764e9763f8e5e92c81cf7f99"
+    },
+    {
+      "path": "data/processed/m77_candidate_records.jsonl",
+      "bytes": 4109921,
+      "sha256": "b29a176da86b125115256a8966c377c3fd9fe39ecaab17bf576b770b83b41bab"
+    },
+    {
+      "path": "data/processed/mahadevan_1977_table_i.csv",
+      "bytes": 27067,
+      "sha256": "0c472d01a938fd61b9090db2afc29dbecc00f3751ea4f796f6034e2a8268891c"
+    },
+    {
+      "path": "results/primary_pages/c40-catalogue-159.png",
+      "bytes": 1955634,
+      "sha256": "0f82dfc3007f33492316158531197374a672508c4446b51ce86632d41c2bf26f"
+    },
+    {
+      "path": "results/primary_pages/c40-catalogue-6306-detail.png",
+      "bytes": 152816,
+      "sha256": "a6a3df51f69e50fed7b5cca2e71d62f071bbcb235f94d4250c367dd9c6868f63"
+    },
+    {
+      "path": "results/primary_pages/c40-followup-568.png",
+      "bytes": 1485075,
+      "sha256": "11b93e265a2d33f1134f57d485bb6e2e2f3245dcbcc3fc311331a71bc376f648"
+    },
+    {
+      "path": "results/primary_pages/c40-followup-834.png",
+      "bytes": 3022287,
+      "sha256": "dc76e29cca40cbd0b20732e26538b3271125dd796c3e9bcdb232a8bfcf7f4cee"
+    },
+    {
+      "path": "results/primary_pages/c40-arches-550.png",
+      "bytes": 2017706,
+      "sha256": "bd42b45f66992f5ed3938cfc87a9ced6d8089dda8ed6b1b1705387f1a030f3f1"
+    },
+    {
+      "path": "results/primary_pages/c40-arch-family-567.png",
+      "bytes": 1811846,
+      "sha256": "241373edccb357770b9168c68bf0acee89ebeffff13d223f3f11ae5fe853ee6f"
+    },
+    {
+      "path": "results/primary_pages/c40-index-235.png",
+      "bytes": 1553527,
+      "sha256": "52a6b919bccc3eab2cf059f76af7dc5d47c40c5c40945f01c0bb7910edf1abfd"
+    },
+    {
+      "path": "results/primary_pages/c40-index-247.png",
+      "bytes": 1646900,
+      "sha256": "fa22c7ffbc5c7f733b93fccfedae4ac72dd48fdb1a2645c2d719dc2e483d929c"
+    },
+    {
+      "path": "results/primary_pages/c40-index-257.png",
+      "bytes": 1552195,
+      "sha256": "aff59adf97fe3484521addfb7d891c68ac14d87a885832f7c32abc84dcea4c46"
+    },
+    {
+      "path": "results/primary_pages/c40-signs-065-067.png",
+      "bytes": 61018,
+      "sha256": "006fedd9dfac83a6c4fc1941f52dbb2fa8e1c89fcc3f3f5f09aec67b11ce59dc"
+    },
+    {
+      "path": "results/primary_pages/c40-signs-312-314.png",
+      "bytes": 64185,
+      "sha256": "25e64662b4efb9ee526e0613e4438c99a91bfcd8706a5cb1fc3377da9c701a2c"
+    },
+    {
+      "path": "results/primary_pages/c40-signs-002-008.png",
+      "bytes": 271621,
+      "sha256": "1ca093389fe2b538d3170a23036890e12595a319345b907cd2d7b9f4e3a01b25"
+    },
+    {
+      "path": "results/primary_pages/c40-counterpart-glyphs.png",
+      "bytes": 100485,
+      "sha256": "e7d697058b31e1707775e49b7b62dad423036f345c7f9b291b22d8d697293a45"
+    },
+    {
+      "path": "results/primary_pages/c40-appendix-detail.png",
+      "bytes": 143254,
+      "sha256": "b49a39be03f1fae4f7d293948bad56156623aa86bf24440b1d16f726c89c72d5"
+    },
+    {
+      "path": "results/primary_pages/c40-family-312-detail.png",
+      "bytes": 185572,
+      "sha256": "fe655c0a372f7aa97253a3288865d9439a79aa30d114ea9410c161aa7ab22c1d"
+    },
+    {
+      "path": "results/primary_pages/c40-family-313-314-detail.png",
+      "bytes": 265938,
+      "sha256": "923cf06a6b85e729da4f29745abccfddc21171bf558572e161d4640e8fef4849"
+    },
+    {
+      "path": "results/primary_pages/hybrid-pat-m77-43.png",
+      "bytes": 2350315,
+      "sha256": "c4fbb59388cdc982aea2f274dc2f88da0f6597635b8e469c608ec7de1f3e4e7c"
+    },
+    {
+      "path": "results/primary_pages/chain-signlist-44.png",
+      "bytes": 2622908,
+      "sha256": "20cace271efa652e7c70ba9796f1980a7edfc6852be6a28d3e57c3d0ba1b440d"
+    },
+    {
+      "path": "results/primary_pages/hybrid-pat-pair-45.png",
+      "bytes": 2931715,
+      "sha256": "5a3a3b4955c55fb6b7f8023d52a79191a4d499898ad563db3c7618a5fdc5b24c"
+    },
+    {
+      "path": "results/primary_pages/hybrid-pat-pair-46.png",
+      "bytes": 2656525,
+      "sha256": "b012c5f5674fd7f2c5faa3a5bd0fe887155d4e7623b7c2f42906954dd4fe5761"
+    },
+    {
+      "path": "results/primary_pages/m77-codebook-41.png",
+      "bytes": 1838931,
+      "sha256": "80a70e5c3329804153835a35b8c2364e5788b339ca4eb824b6b357c73f5d0e25"
+    },
+    {
+      "path": "results/primary_pages/m77-codebook-42.png",
+      "bytes": 1997128,
+      "sha256": "b4ec143903bd5059cdbf8c524c20e2b0e3b0d0d244065bf6765b9282379b37ce"
+    },
+    {
+      "path": "results/primary_pages/table_i_highres-732.png",
+      "bytes": 1543336,
+      "sha256": "80c9b7e99be8d946b1d300c635d942c5b7a6ccb1436802c015f7c0beae8506a6"
+    },
+    {
+      "path": "results/c40-catalogue_extraction.json",
+      "bytes": 371,
+      "sha256": "31d269f2ec5ad2451ec4ce51bb10c4bb842ac11d40244a744d69eb59a1327ddd"
+    },
+    {
+      "path": "results/c40-followup_extraction.json",
+      "bytes": 380,
+      "sha256": "7f3200ba7278a1a7eb78099c85b0e6efbe4826250cda1e7f09c507f255842ed4"
+    },
+    {
+      "path": "results/c40-arches_extraction.json",
+      "bytes": 371,
+      "sha256": "a23ca3d8b075dfe0d736b949cfca35ad73db8f77816dc9d3dc854f204bc3dc6b"
+    },
+    {
+      "path": "results/c40-arch-family_extraction.json",
+      "bytes": 371,
+      "sha256": "b06f447043d4c9ad208e17c5ac55e072532973a0400da3396e775bbdfc9f681e"
+    },
+    {
+      "path": "results/c40-index_extraction.json",
+      "bytes": 389,
+      "sha256": "f72e6ba4a8e0c256426c3ac8f5c6ac0d11a6fcfeba4cf139999d2a2d9d8f41af"
+    }
+  ],
+  "selected_arch_occurrences": [
+    {
+      "indexed_code": "M312",
+      "m77_reference": "4802",
+      "side": 0,
+      "line": 0,
+      "tokens": [
+        "M312",
+        "M102"
+      ],
+      "indexed_position": "initial",
+      "concordance_pdf_page": 567,
+      "concordance_printed_page": 556,
+      "has_loss": false,
+      "reference": "4802",
+      "sign": "M312",
+      "position_class": "initial",
+      "token_details": [
+        {
+          "code": "M312",
+          "doubtful": true
+        },
+        {
+          "code": "M102",
+          "doubtful": false
+        }
+      ],
+      "token_index": 0,
+      "doubtful_token_indices": [
+        0
+      ],
+      "full_field_context_viewed_in_concordance_this_review": true,
+      "separate_texts_page_rechecked_this_review": false,
+      "newly_recovered_global_field_claim": false
+    },
+    {
+      "indexed_code": "M312",
+      "m77_reference": "2923",
+      "side": 2,
+      "line": 0,
+      "tokens": [
+        "M387",
+        "M015",
+        "M104",
+        "M106",
+        "M312"
+      ],
+      "indexed_position": "final",
+      "concordance_pdf_page": 567,
+      "concordance_printed_page": 556,
+      "has_loss": false,
+      "reference": "2923",
+      "sign": "M312",
+      "position_class": "final",
+      "token_details": [
+        {
+          "code": "M387",
+          "doubtful": false
+        },
+        {
+          "code": "M015",
+          "doubtful": false
+        },
+        {
+          "code": "M104",
+          "doubtful": false
+        },
+        {
+          "code": "M106",
+          "doubtful": false
+        },
+        {
+          "code": "M312",
+          "doubtful": false
+        }
+      ],
+      "token_index": 4,
+      "doubtful_token_indices": [],
+      "full_field_context_viewed_in_concordance_this_review": true,
+      "separate_texts_page_rechecked_this_review": false,
+      "newly_recovered_global_field_claim": false
+    },
+    {
+      "indexed_code": "M313",
+      "m77_reference": "4804",
+      "side": 0,
+      "line": 0,
+      "tokens": [
+        "M313",
+        "M102"
+      ],
+      "indexed_position": "initial",
+      "concordance_pdf_page": 568,
+      "concordance_printed_page": 557,
+      "has_loss": false,
+      "reference": "4804",
+      "sign": "M313",
+      "position_class": "initial",
+      "token_details": [
+        {
+          "code": "M313",
+          "doubtful": false
+        },
+        {
+          "code": "M102",
+          "doubtful": false
+        }
+      ],
+      "token_index": 0,
+      "doubtful_token_indices": [],
+      "full_field_context_viewed_in_concordance_this_review": true,
+      "separate_texts_page_rechecked_this_review": false,
+      "newly_recovered_global_field_claim": false
+    },
+    {
+      "indexed_code": "M313",
+      "m77_reference": "8302",
+      "side": 2,
+      "line": 0,
+      "tokens": [
+        "M313"
+      ],
+      "indexed_position": "solus",
+      "concordance_pdf_page": 568,
+      "concordance_printed_page": 557,
+      "has_loss": false,
+      "reference": "8302",
+      "sign": "M313",
+      "position_class": "solus",
+      "token_details": [
+        {
+          "code": "M313",
+          "doubtful": false
+        }
+      ],
+      "token_index": 0,
+      "doubtful_token_indices": [],
+      "full_field_context_viewed_in_concordance_this_review": true,
+      "separate_texts_page_rechecked_this_review": false,
+      "newly_recovered_global_field_claim": false
+    },
+    {
+      "indexed_code": "M314",
+      "m77_reference": "6306",
+      "side": 1,
+      "line": 0,
+      "tokens": [
+        "M109",
+        "M059",
+        "M367",
+        "M380",
+        "M314",
+        "M106",
+        "M018",
+        "M162"
+      ],
+      "indexed_position": "medial",
+      "concordance_pdf_page": 568,
+      "concordance_printed_page": 557,
+      "has_loss": false,
+      "reference": "6306",
+      "sign": "M314",
+      "position_class": "medial",
+      "token_details": [
+        {
+          "code": "M109",
+          "doubtful": false
+        },
+        {
+          "code": "M059",
+          "doubtful": false
+        },
+        {
+          "code": "M367",
+          "doubtful": false
+        },
+        {
+          "code": "M380",
+          "doubtful": false
+        },
+        {
+          "code": "M314",
+          "doubtful": false
+        },
+        {
+          "code": "M106",
+          "doubtful": false
+        },
+        {
+          "code": "M018",
+          "doubtful": false
+        },
+        {
+          "code": "M162",
+          "doubtful": false
+        }
+      ],
+      "token_index": 4,
+      "doubtful_token_indices": [],
+      "full_field_context_viewed_in_concordance_this_review": true,
+      "separate_texts_page_rechecked_this_review": true,
+      "newly_recovered_global_field_claim": false
+    }
+  ],
+  "selected_arch_codes_scope": [
+    "M312",
+    "M313",
+    "M314"
+  ],
+  "other_arch_codes_included": false
+}

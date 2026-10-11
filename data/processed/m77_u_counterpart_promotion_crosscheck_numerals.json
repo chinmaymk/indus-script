@@ -1,0 +1,181 @@
+{
+  "schema_version": "m77_primary_promotion_crosscheck_v1",
+  "scope": "Independent visual check of four carrying-person glyph promotions, not a fresh full-code authentication of every other sign in the proposed counterpart lines.",
+  "rows": [
+    {
+      "reference": "4357",
+      "pdf_page": 120,
+      "printed_page": 109,
+      "side": "1",
+      "line": "0",
+      "proposed_tokens": [
+        "M042",
+        "M015",
+        "M176"
+      ],
+      "token_index_zero_based": 1,
+      "proposed_token": "M015",
+      "decision": "accept",
+      "reviewed_token": "M015",
+      "reason": "The carrying-person glyph has two opposed comb-like head extensions, each with paired horizontal bars. The plain upright head of M012/M013 and pointed/arched head of M014 are absent. These distinctive head bars match M015.",
+      "evidence_path": "results/primary_pages/structure-counterpart-120.jpg",
+      "crop": {
+        "scale_to": 5500,
+        "x": 2700,
+        "y": 1400,
+        "W": 700,
+        "H": 420
+      },
+      "evidence": {
+        "path": "results/primary_pages/structure-counterpart-120.jpg",
+        "sha256": "5b0e26ad06306a0f2ebde107555fcd3d9f1c4ada7a3f1a8db5417d20629b6f77",
+        "bytes": 114615
+      },
+      "previous_unknown_preserved_in_older_ledger": true,
+      "promotion_crosscheck_primary_checked": true,
+      "reproduction_command": "pdftoppm -f 120 -l 120 -singlefile -scale-to 5500 -jpeg -x 2700 -y 1400 -W 700 -H 420 data/raw/mahadevan_1977_text.pdf"
+    },
+    {
+      "reference": "4404",
+      "pdf_page": 122,
+      "printed_page": 111,
+      "side": "1",
+      "line": "0",
+      "proposed_tokens": [
+        "M293",
+        "M123",
+        "M343",
+        "M048",
+        "M015"
+      ],
+      "token_index_zero_based": 4,
+      "proposed_token": "M015",
+      "decision": "accept",
+      "reviewed_token": "M015",
+      "reason": "Leftmost displayed glyph has opposed paired head bars over a carrying-person body. This matches M015 and rules out the plain heads of M012/M013 and the peaked M014 head.",
+      "evidence_path": "results/primary_pages/m77-u-types-numerals-122.jpg",
+      "crop": {
+        "scale_to": 5500,
+        "x": 2750,
+        "y": 1000,
+        "W": 750,
+        "H": 350
+      },
+      "evidence": {
+        "path": "results/primary_pages/m77-u-types-numerals-122.jpg",
+        "sha256": "34e7c1f8566cc8e32cc91449faddb2e001800cb042a91749d5c090341245415c",
+        "bytes": 142615
+      },
+      "previous_unknown_preserved_in_older_ledger": true,
+      "promotion_crosscheck_primary_checked": true,
+      "reproduction_command": "pdftoppm -f 122 -l 122 -singlefile -scale-to 5500 -jpeg -x 2750 -y 1000 -W 750 -H 350 data/raw/mahadevan_1977_text.pdf"
+    },
+    {
+      "reference": "4461",
+      "pdf_page": 125,
+      "printed_page": 114,
+      "side": "1",
+      "line": "0",
+      "proposed_tokens": [
+        "M250",
+        "M015",
+        "M176"
+      ],
+      "token_index_zero_based": 1,
+      "proposed_token": "M015",
+      "decision": "accept",
+      "reviewed_token": "M015",
+      "reason": "Middle glyph shows opposed comb-like head bars over the yoke. The bars are visibly separate from the shoulder/yoke line and match M015, not M012/M013/M014.",
+      "evidence_path": "results/primary_pages/m77-u-types-numerals-125.jpg",
+      "crop": {
+        "scale_to": 5500,
+        "x": 3200,
+        "y": 3250,
+        "W": 600,
+        "H": 300
+      },
+      "evidence": {
+        "path": "results/primary_pages/m77-u-types-numerals-125.jpg",
+        "sha256": "0d6d8d79110dd17d82b2e9e0cd02a79c9b93f5b42f2f3ef2152e70de8643588f",
+        "bytes": 161336
+      },
+      "previous_unknown_preserved_in_older_ledger": true,
+      "promotion_crosscheck_primary_checked": true,
+      "reproduction_command": "pdftoppm -f 125 -l 125 -singlefile -scale-to 5500 -jpeg -x 3200 -y 3250 -W 600 -H 300 data/raw/mahadevan_1977_text.pdf"
+    },
+    {
+      "reference": "4479",
+      "pdf_page": 126,
+      "printed_page": 115,
+      "side": "1",
+      "line": "0",
+      "proposed_tokens": [
+        "M067",
+        "M012"
+      ],
+      "token_index_zero_based": 1,
+      "proposed_token": "M012",
+      "decision": "accept_with_rationale_correction",
+      "reviewed_token": "M012",
+      "reason": "Leftmost displayed glyph has a plain short upright head above the yoke, two legs, and no detached short vertical stroke between the legs. M012 is the matching inventory form; M013 has the additional detached inter-leg stroke, M014 a pointed/arched head, and M015 paired head bars.",
+      "rationale_correction": "The structure ledger's claim 'with inner-leg stroke matches012' is reversed relative to the primary inventory. The accepted ID remains M012, because the separate inter-leg stroke is absent in this drawing.",
+      "evidence_path": "results/primary_pages/m77-u-types-numerals-126.jpg",
+      "crop": {
+        "scale_to": 5500,
+        "x": 3020,
+        "y": 3550,
+        "W": 620,
+        "H": 350
+      },
+      "evidence": {
+        "path": "results/primary_pages/m77-u-types-numerals-126.jpg",
+        "sha256": "f2d035165cce41df3868e6038f2d59fde8a01e1ebcae0fdcf9050e4c17f7dfbd",
+        "bytes": 149554
+      },
+      "previous_unknown_preserved_in_older_ledger": true,
+      "promotion_crosscheck_primary_checked": true,
+      "reproduction_command": "pdftoppm -f 126 -l 126 -singlefile -scale-to 5500 -jpeg -x 3020 -y 3550 -W 620 -H 350 data/raw/mahadevan_1977_text.pdf"
+    }
+  ],
+  "primary_source": {
+    "path": "data/raw/mahadevan_1977_text.pdf",
+    "sha256": "6dcdd074a0174e5fab149590fbbf82342711d345764e9763f8e5e92c81cf7f99",
+    "bytes": 119302608
+  },
+  "sign_inventory": {
+    "pdf_page": 43,
+    "printed_page": 32,
+    "evidence": {
+      "path": "results/primary_pages/sign_list_page_32.png",
+      "sha256": "1e3f91789c947add7ce796479168d84d69636ebdc378493743188ac11c53c90a",
+      "bytes": 982719
+    },
+    "enlarged_view_crop": {
+      "scale_to": 5500,
+      "x": 580,
+      "y": 850,
+      "W": 1300,
+      "H": 450
+    },
+    "distinctions": {
+      "M012": "Plain upright head; no detached inter-leg stroke.",
+      "M013": "Plain upright head plus a detached short vertical inter-leg stroke.",
+      "M014": "Pointed/arched head.",
+      "M015": "Opposed paired horizontal head bars."
+    }
+  },
+  "method": "Located each reference in the complete retained Texts image, then independently viewed a larger crop rendered directly from the primary PDF using pdftoppm -singlefile -scale-to 5500 -jpeg and the recorded x/y/W/H coordinates. Compared discriminating head/leg details with an enlarged primary sign-list crop. These crops were viewed in memory; retained full-page images and the PDF are fingerprinted for reproduction.",
+  "summary": {
+    "cases": 4,
+    "accepted_IDs": 4,
+    "unresolved": 0,
+    "rejected_IDs": 0,
+    "rationale_corrections": 1
+  },
+  "limitations": [
+    "This checks printed catalogue drawings, not original objects.",
+    "The proposed full sequences are included for locating the focal glyph; this bounded second-reader audit authenticates only the carrying-person token specified by token_index_zero_based.",
+    "No older ledger or structure ledger is modified here."
+  ],
+  "downloads": []
+}

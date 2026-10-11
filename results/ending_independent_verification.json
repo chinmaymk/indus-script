@@ -1,0 +1,59 @@
+{
+  "universe_rows": 1082,
+  "counterparts": {
+    "1449.1": [],
+    "2020.1": [],
+    "2043.1": [],
+    "2243.1": [],
+    "2359.1": [],
+    "2608.1": [],
+    "3455.1": [],
+    "3625.1": [],
+    "3652.1": []
+  },
+  "alternate_pairs": {
+    "1988.1": [
+      "3652.1"
+    ],
+    "3329.1": [
+      "2043.1"
+    ]
+  },
+  "leave_named_out_exact_checks": {
+    "fish": {
+      "observed": 7,
+      "expectation": "1010028157/258152400",
+      "tail": "256039/10326096",
+      "patterns": 256,
+      "active_strata": 8
+    },
+    "plain_fish": {
+      "observed": 0,
+      "expectation": "104491117/86050800",
+      "tail": "1",
+      "patterns": 256,
+      "active_strata": 8
+    },
+    "U": {
+      "observed": 1,
+      "expectation": "8775461/9561200",
+      "tail": "5394095/8413856",
+      "patterns": 256,
+      "active_strata": 8
+    },
+    "fish_or_U": {
+      "observed": 7,
+      "expectation": "273774757/64538100",
+      "tail": "29291209/688406400",
+      "patterns": 256,
+      "active_strata": 8
+    }
+  },
+  "all_comparisons_agree": true,
+  "input_sha256": {
+    "data/raw/lipi_inscriptions.csv": "b8dcb325a2e2cd3cde12ac12e7a418b0348e45713c9ee28aad81b645d2ac5ee4",
+    "data/processed/catalogue_features.json": "00836515c6f3beec28b3b66e13d8a9c6e94571cfb2e9dbb4b148651b7ff0032d",
+    "data/processed/ending_validation_protocol.json": "e10229e55ec8dc79d8b9f265a829bc781f9a89215aa4d311a87ad28bc8a45e8e",
+    "results/ending_validation_audit.json": "c575f73c14f9392e50595b561f887672b6f0696c3475b1d6c71cffe18f5ad22d"
+  }
+}

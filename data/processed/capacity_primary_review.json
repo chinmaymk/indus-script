@@ -1,0 +1,55 @@
+{
+  "source": "data/raw/cisi_76884.pdf",
+  "source_sha256": "47a4da4227cfb7baa56d6a561e25797225499d0ec54f5a702a82c67ab4746d4d",
+  "review_date": "2026-09-22",
+  "review_method": "Human-readable page images visually inspected by assistant; one review, not independent double transcription",
+  "vessels": [
+    {
+      "cisi": "H-370",
+      "pdf_page": 269,
+      "printed_page": 233,
+      "observed_strokes": 7,
+      "u_shape_present": false,
+      "mahadevan_ref": "4607",
+      "excavation_number": "12908"
+    },
+    {
+      "cisi": "H-371",
+      "pdf_page": 270,
+      "printed_page": 234,
+      "observed_strokes": 6,
+      "u_shape_present": true,
+      "mahadevan_ref": "4608",
+      "excavation_number": "1033a"
+    },
+    {
+      "cisi": "H-372",
+      "pdf_page": 270,
+      "printed_page": 234,
+      "observed_strokes": 3,
+      "u_shape_present": true,
+      "mahadevan_ref": "4609",
+      "excavation_number": null
+    }
+  ],
+  "catalogue_identifiers_pdf_page": 408,
+  "catalogue_identifiers_printed_page": 372,
+  "dimensions": "Catalogue page supplies identifiers, not measurement table. Export zero dimensions treated as missing.",
+  "conflict": "Fuls public Table1 gives H372 excavation12908 and H3701033b; neither source is silently corrected or remapped.",
+  "k90": {
+    "pdf_page": 355,
+    "printed_page": 319,
+    "observed_rim_strokes": 2,
+    "body_text_present": true,
+    "scale_bar_visible": true,
+    "scale_bar_has_legible_numeric_label_on_page": false,
+    "claimed_30cm_length_authenticated": false,
+    "note": "Alternating black/white bar under whole-vessel photo; two strokes in close-up. Page alone does not identify bar length."
+  },
+  "rendered_files": [
+    "results/primary_pages/capacity-cisi-269.png",
+    "results/primary_pages/capacity-cisi-270.png",
+    "results/primary_pages/capacity-cisi-408.png",
+    "results/primary_pages/capacity-k90-355.png"
+  ]
+}

@@ -1,0 +1,230 @@
+{
+  "schema_version": 1,
+  "task": "Bounded original plate audit for three inscribed metal tools",
+  "publication": {
+    "author": "E.J.H. Mackay",
+    "title": "Further Excavations at Mohenjo-daro, volume II: Plates",
+    "archive_item": "in.gov.ignca.9954",
+    "date_note": "Archive metadata dates volume II1937; paired volume I text is1938. Title-page date not newly visually checked."
+  },
+  "protocol": {
+    "prior_exposure": "Counts and later candidate readings known before this review; no blinded or held-out reading test.",
+    "primary_authentication": "Visual count of drawn marks on original plate CXXVI. Contents pageviii independently identifies CXXVI as drawings and CXXXI as photographs.",
+    "orientation": "Directions refer to displayed plate; no reading-direction claim.",
+    "notation": "u,i,t are local graphic labels only; not universal sign identities or semantic units.",
+    "image_processing": "Lossless crops of downloaded page JPGs, no tracing/AI redrawing/sharpening used."
+  },
+  "records": [
+    {
+      "plate": "CXXVI",
+      "item": "2",
+      "conventional_identifier": "DK7856",
+      "identity_status": "Plate/item join to original p454 mass and p489 catalogue; field-number blur documented in original-record audit.",
+      "representation": "drawing",
+      "faces_depicted": 2,
+      "target_group": {
+        "face": "left depicted face, lower end",
+        "upright_strokes": 5,
+        "transverse_strokes": 4,
+        "arches": 1,
+        "local_notation": "u+5i+4t",
+        "arrangement": "Four transverse strokes in slanted strip above five upright strokes in a horizontal strip; one arch below. Other complex signs appear farther up the same face.",
+        "confidence": "Counts visually supported in published drawing; physical incisions not independently recounted from photograph."
+      },
+      "other_face": "Five separated complex/simple glyph locations on right depiction; not assigned M/W/P IDs in this audit.",
+      "crop": {
+        "path": "results/primary_pages/metal-plate-tang.png",
+        "bytes": 271481,
+        "sha256": "44b01f5ebd8a42ca8484448a75e856fccc6376e2ff7728c8bae36a803f5a0a7d"
+      },
+      "source": {
+        "path": "data/raw/metal_plate_9954_leaf265.jpg",
+        "bytes": 1501585,
+        "sha256": "02d3fd1f4dd021a65eddf10b759fa42ab105a70b6320804f5b5471550f80827f",
+        "plate": "CXXVI",
+        "leaf_zero_based": 265,
+        "representation": "drawing"
+      }
+    },
+    {
+      "plate": "CXXVI",
+      "item": "3",
+      "conventional_identifier": "DK7855",
+      "identity_status": "Primary plate/item and field-number join in original-record audit.",
+      "representation": "drawing",
+      "faces_depicted": 1,
+      "target_group": {
+        "upright_strokes": 6,
+        "transverse_strokes": 0,
+        "arches": 0,
+        "local_notation": "6i only under an explicit extraction convention",
+        "arrangement": "Five strokes roughly in one row, plus a lower offset stroke at left. A complex angular sign immediately follows within the same light strip. A staff-like sign and an oval sign are elsewhere on the depicted face.",
+        "confidence": "Six drawn strokes supported; separation into a standalone numerical expression not established."
+      },
+      "crop": {
+        "path": "results/primary_pages/metal-plate-smallaxe.png",
+        "bytes": 95459,
+        "sha256": "d304a71dc75fc364d9c5b9d1c92b90602b2f3ae3e9c9ba5711903f159af3771c"
+      },
+      "source": {
+        "path": "data/raw/metal_plate_9954_leaf265.jpg",
+        "bytes": 1501585,
+        "sha256": "02d3fd1f4dd021a65eddf10b759fa42ab105a70b6320804f5b5471550f80827f",
+        "plate": "CXXVI",
+        "leaf_zero_based": 265,
+        "representation": "drawing"
+      }
+    },
+    {
+      "plate": "CXXVI",
+      "item": "5",
+      "conventional_identifier": "DK7835 in Pettersson; primary catalogue DK7535",
+      "identity_status": "Primary printed7535 versus later7835 discrepancy unresolved; joined through plate/item, not normalized number.",
+      "representation": "drawing",
+      "faces_depicted": 2,
+      "target_group": {
+        "face": "right depicted face",
+        "upright_strokes": 6,
+        "transverse_strokes": 0,
+        "arches": 7,
+        "local_notation": "7u+6i",
+        "arrangement": "Six upright strokes in a short horizontal strip above a vertical column of seven arches. Other face has a separate group of complex signs.",
+        "confidence": "Counts visually supported in published drawing; arithmetic value and purpose unknown."
+      },
+      "crop": {
+        "path": "results/primary_pages/metal-plate-largeaxe.png",
+        "bytes": 365784,
+        "sha256": "8f5aeca245d7a45e737edbc16883ea0b059db9a9d96be0e14b9ccf71d0b1b514"
+      },
+      "source": {
+        "path": "data/raw/metal_plate_9954_leaf265.jpg",
+        "bytes": 1501585,
+        "sha256": "02d3fd1f4dd021a65eddf10b759fa42ab105a70b6320804f5b5471550f80827f",
+        "plate": "CXXVI",
+        "leaf_zero_based": 265,
+        "representation": "drawing"
+      }
+    }
+  ],
+  "photo_review": {
+    "source": {
+      "path": "data/raw/metal_plate_9954_leaf275.jpg",
+      "bytes": 1502280,
+      "sha256": "217f3c7f6113aef38dcdabd8d3bbbf84f36f743b27194dee8a050d25e71829dc",
+      "plate": "CXXXI",
+      "leaf_zero_based": 275,
+      "representation": "photograph"
+    },
+    "source_type_verified_by": {
+      "path": "data/raw/metal_plate_9954_leaf12.jpg",
+      "bytes": 1879516,
+      "sha256": "b0dd4982a01886201ffc0adfe9edcccb922d6cda4f60151395853118f67497c6",
+      "printed_page": "viii",
+      "leaf_zero_based": 12
+    },
+    "items_reviewed": [
+      "31",
+      "35",
+      "36",
+      "37",
+      "38",
+      "39"
+    ],
+    "observations": "Photographed surfaces are corroded and uneven; reproduction does not allow an independent reliable stroke-by-stroke recount of all three target groups. Item36 visibly bears a column of curved marks, but exact count is not promoted to a new photographic verification.",
+    "tentative_correspondences": [
+      {
+        "drawing": "CXXVI2",
+        "photo": "CXXXI31",
+        "status": "Visual comparison only; no explicit one-to-one printed cross-reference authenticated here."
+      },
+      {
+        "drawing": "CXXVI5 faces",
+        "photo": "CXXXI35/36",
+        "status": "Visual comparison only; no explicit one-to-one printed cross-reference authenticated here."
+      },
+      {
+        "drawing": "CXXVI3",
+        "photo": "CXXXI37",
+        "status": "Visual comparison only; no explicit one-to-one printed cross-reference authenticated here."
+      }
+    ],
+    "crop": {
+      "path": "results/primary_pages/metal-plate-photographs.png",
+      "bytes": 2727716,
+      "sha256": "d467305553417159e37cb9dcdc21a99d301a1f3ef740e3fac741162a80841296"
+    },
+    "not_established": "Photographs and drawings are not independent objects or independent semantic anchors."
+  },
+  "source_type_evidence": {
+    "path": "data/raw/metal_plate_9954_leaf12.jpg",
+    "bytes": 1879516,
+    "sha256": "b0dd4982a01886201ffc0adfe9edcccb922d6cda4f60151395853118f67497c6",
+    "printed_page": "viii",
+    "leaf_zero_based": 12
+  },
+  "conclusions": [
+    "Published primary drawings support the graphic count patterns used in later metal-tool equations.",
+    "Smallaxe stroke extraction is conditional because another sign adjoins the group and one stroke is offset.",
+    "The distinction between transverse and upright tang strokes is visible but their equal or unequal numerical value is unknown.",
+    "No phonetic reading, decimal value, mass unit, whole-tool-mass interpretation, or universal code equivalence follows.",
+    "The7535/7835 identity conflict remains unresolved."
+  ],
+  "raw_sources": [
+    {
+      "path": "data/raw/metal_plate_search.json",
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22Further+excavations%22%29&fl%5B%5D=identifier&fl%5B%5D=title&rows=50&output=json",
+      "bytes": 3826,
+      "sha256": "584651e714c3406253d9efda6386b8739eef48892176ba04234f70c50477eeab",
+      "retrieved_utc_date": "2026-09-24"
+    },
+    {
+      "path": "data/raw/metal_plate_9954_metadata.json",
+      "url": "https://archive.org/metadata/in.gov.ignca.9954",
+      "bytes": 7945,
+      "sha256": "c35b48fd69de8bc3499f331ba7c8b849bdea47b2928efbe29d0163753410e730",
+      "retrieved_utc_date": "2026-09-24"
+    },
+    {
+      "path": "data/raw/metal_plate_9954_djvu.txt",
+      "url": "https://archive.org/download/in.gov.ignca.9954/9954_djvu.txt",
+      "bytes": 56707,
+      "sha256": "c85879d4d5da85ba75a09a40b6956dacd8353f890a339d36cbadc36ae4a47506",
+      "retrieved_utc_date": "2026-09-24"
+    },
+    {
+      "path": "data/raw/metal_plate_9954_page_numbers.json",
+      "url": "https://archive.org/download/in.gov.ignca.9954/9954_page_numbers.json",
+      "bytes": 52404,
+      "sha256": "c5e357fa64e793dcb0cd4317123b07e4145866ee8d6861aa701e0c8fdca0eab2",
+      "retrieved_utc_date": "2026-09-24"
+    },
+    {
+      "path": "data/raw/metal_plate_9954_djvu.xml",
+      "url": "https://archive.org/download/in.gov.ignca.9954/9954_djvu.xml",
+      "bytes": 1078801,
+      "sha256": "ef19fbb8b11bb342851f719162ffc6865e18a96f2051eca9f28c1c145d10889a",
+      "retrieved_utc_date": "2026-09-24"
+    },
+    {
+      "path": "data/raw/metal_plate_9954_leaf265.jpg",
+      "url": "https://archive.org/download/in.gov.ignca.9954/page/n265.jpg",
+      "bytes": 1501585,
+      "sha256": "02d3fd1f4dd021a65eddf10b759fa42ab105a70b6320804f5b5471550f80827f",
+      "retrieved_utc_date": "2026-09-24"
+    },
+    {
+      "path": "data/raw/metal_plate_9954_leaf275.jpg",
+      "url": "https://archive.org/download/in.gov.ignca.9954/page/n275.jpg",
+      "bytes": 1502280,
+      "sha256": "217f3c7f6113aef38dcdabd8d3bbbf84f36f743b27194dee8a050d25e71829dc",
+      "retrieved_utc_date": "2026-09-24"
+    },
+    {
+      "path": "data/raw/metal_plate_9954_leaf12.jpg",
+      "url": "https://archive.org/download/in.gov.ignca.9954/page/n12.jpg",
+      "bytes": 1879516,
+      "sha256": "b0dd4982a01886201ffc0adfe9edcccb922d6cda4f60151395853118f67497c6",
+      "retrieved_utc_date": "2026-09-24"
+    }
+  ]
+}

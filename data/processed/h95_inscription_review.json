@@ -1,0 +1,58 @@
+{
+  "status": "single independent visual assessment of published line drawing; no artifact autopsy or photo",
+  "source": "data/raw/kenoyer_sindhila_inscribed_pottery.pdf",
+  "source_sha256": "094f3b1b451cef378490ac3c95ba6ab73a62ae718ade0a433262c8fe3825efcc",
+  "source_bytes": 1973375,
+  "citation": "J. M. Kenoyer, The Origin, Context and Function of the Indus Script: Recent Insights from Harappa, printed156/PDF21, Figure7 item2",
+  "render_reviewed": "results/primary_pages/h95-profile-21.png",
+  "embedded_image": {
+    "name": "Image101.jpg",
+    "width": 696,
+    "height": 803,
+    "bytes_sha256": "c4ea076a1de887e3ff20e0dd736115f23454fdd6b72c9a7403dceafe2f9db51c"
+  },
+  "identifier_conflict": {
+    "drawing": "H95-2661/6640-501",
+    "caption": "H95-2662 / 6640-501",
+    "shared_identifier": "6640-501",
+    "resolution": "Unresolved. Cite Figure7 item2 and both variants; do not silently correct either or count as two vessels."
+  },
+  "rim_review": {
+    "location": "Curved rim inset immediately above vessel2 neck, marked Post Firing Graffiti / Incised Rim",
+    "native_image_crop_xyxy": [
+      200,
+      165,
+      370,
+      225
+    ],
+    "enlargement": "6x nearest-neighbor enlargement inspected; does not add detail",
+    "observation": "Four apparent elongated oblique dark traces; the first two are closely adjacent and the final trace is partly interrupted in this reproduction.",
+    "confidence": "Provisional visual count, not secure epigraphic determination. The marked region is approximately30x20 native pixels.",
+    "alternative": "The close pair could represent edges of one wider incision rather than two intentional tally strokes; original photograph or higher-resolution original drawing needed to resolve.",
+    "caption_numeric_count": null,
+    "numeric_value_assigned": null,
+    "recommendation": "Treat a four-mark count as an explicit scenario; include three-mark sensitivity if computing capacity per mark. Do not identify four units or a fixed unit from the drawing."
+  },
+  "body_review": {
+    "post_firing_visible_groups": [
+      "A separate simple oblique line on left of displayed body inscription.",
+      "A central group with intersecting/branching oblique lines.",
+      "A right group with an angular/branching form close to curved shoulder."
+    ],
+    "limits": "Spatially separated groups do not establish sign segmentation, reading order, or a Wells/Mahadevan identity. Non-simple forms are visible; body inscription should not be reduced to a tally.",
+    "pre_firing_marks": "A small separate mark near the upper body is arrow-labelled Potter\u2019s Mark. Lower arrows and base inset are labelled Potter\u2019s Marks. Their exact glyphs or count cannot be authenticated from this small reproduction."
+  },
+  "firing_stage": {
+    "rim_graffiti": "post-firing, explicitly stated by drawing and caption",
+    "body_graffiti": "post-firing, explicitly stated by drawing and caption",
+    "body_and_base_potters_marks": "pre-firing, explicitly stated by caption",
+    "epistemic_status": "Source attribution, not an independent material examination. Placement and timing do not establish use as capacity, contents, maker, owner or account marks."
+  },
+  "interpretive_limits": [
+    "No phonetic or semantic reading assigned.",
+    "Rim and body graffiti share an object, not necessarily a single engraving episode or one numerical expression.",
+    "No primary code crosswalk created.",
+    "This figure alone cannot calibrate an ancient capacity unit.",
+    "Source is a published drawing; enlarged pixels do not resolve original incision topology."
+  ]
+}

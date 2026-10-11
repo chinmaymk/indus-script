@@ -1,0 +1,15 @@
+{
+  "local_proof": "v104=4i and v104=4t imply 4(i-t)=0, hence i=t. Conversely i=t permits v104=4i.",
+  "total_only_control": {
+    "i": "8",
+    "t": "1",
+    "v104_matching_total": "18",
+    "oriented_total": "36",
+    "normalized_total": "36",
+    "occurrence_level_equal_value_possible": false,
+    "total_only_equal_value_possible": true,
+    "vertical_group_residual": "-14",
+    "horizontal_group_residual": "14"
+  },
+  "fixed_component_proof": "For every selected coefficient k in {0,4}, kt = 1[k>0]c under c=4t. This map is bijective on nonnegative real units. Other terms unchanged, all additive predictions agree."
+}

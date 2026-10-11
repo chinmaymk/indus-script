@@ -1,0 +1,15 @@
+{
+  "status": "exploratory; fixed after finding candidate witnesses, not preregistered",
+  "hypothesis": "If a bridge singleton (within any text), or its exact complete bridge text, is a context-independent label for the object motif, every motif-labelled non-copper occurrence must have a source label present in the copper discovery set.",
+  "exclusions": "Reject incomplete, non-simple, unknown-token and non-R/L texts using parse_lipi; permit NR only for a literal singleton. No variant merges, no text reversal.",
+  "domain": "All sites and types in the same pinned export; targets exclude TAB:C and every discovery artifact. Secondary source reuse is not independent archaeological replication.",
+  "deduplication": "One occurrence per artifact, exact ordered sequence, literal motif label, object type. Keep alternative labels visible rather than collapse them.",
+  "quality_sensitivity": "Rebuild discovery bridges and repeat transfer with Good/Fair rows only on every contributing object.",
+  "interpretive_limits": [
+    "Tests source-label transfer, not animal-word semantics.",
+    "Literal label differences may reflect annotation differences or object-level/face-level assignment.",
+    "No missing target label counts as a success or failure.",
+    "Absence of outside-domain occurrences leaves a candidate untested.",
+    "No formal p-value; very small target sample and protocol selected after inspection."
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "research_date": "2026-09-27",
+  "status": "Source-exposed protocol persisted before computing this follow-up outcomes",
+  "question": "Do exact contexts support local interchangeability of W525 with W526 or W527, and where do the candidate comb forms occur?",
+  "input": "data/processed/lipi_strict.jsonl",
+  "target_codes": [
+    "W525",
+    "W526",
+    "W527"
+  ],
+  "scope": "Existing strict Lipi rows only; preserve source labels, sequence, site, type and preservation. No new physical-completeness certification.",
+  "order": "Reverse stored source_file_order for right-to-left-oriented position reporting. This follows the corpus comparison convention; it does not independently establish direction on every object.",
+  "distributions": "For each code report row count, occurrence count, unique whole-string count, site, literal object type, source preservation, reading-index-zero-based, offset-from-reading-end, normalized reading position (index/(length-1), singleton separately), and initial/medial/final/singleton categories. Report both all-row and one-per-distinct-whole-string views; the deduplicated view preserves all observed metadata labels as sets instead of choosing an arbitrary label.",
+  "counterparts": "Compare all strict rows. An exact counterpart has identical token length and identical tokens except exactly one position, where W525 is replaced by W526 or W527 (or equivalently reversed direction). Report every distinct sequence pair once and retain both sides complete row lists. Do not accept multiple replacements, expansions, suffix-only matches or broad feature families.",
+  "cooccurrence": "Report every row with at least two distinct target codes, separately from repeated occurrences of one target code; group identical strings separately.",
+  "limitations": [
+    "Source exposed, motivated by two local W525/M254 anchors and earlier W526/W527/M254 examples; not held-out confirmation.",
+    "Exact context compatibility does not establish allography, semantic equivalence, pronunciation or shared artifact identity.",
+    "Repeated strings and repeated descriptions cannot count as independent evidence. Site/type/preservation differences are descriptive; no causal or inferential statistical test is planned.",
+    "No-match can reflect small sample size, missing records, transcription boundaries, damage or genuine distinction.",
+    "All established semantic and phonetic values remain unset."
+  ],
+  "post_initial_count_extension": {
+    "status": "Retrospective descriptive extension added after initial marginal distributions and zero exact-counterpart result were observed, before computing shared-stratum counts",
+    "strata": [
+      "literal source site",
+      "literal source object type",
+      "strict token-string length"
+    ],
+    "groups": "W525 rows versus pooled W526/W527 rows; preserve individual form labels and raw preservation labels",
+    "reports": "All observed strata with row counts and distinct-string counts on each side, exact member rows and position categories; identify shared strata and total coverage. Repeat with only H-1123 excluded as an explicitly retrospective identity-conflict sensitivity.",
+    "caution": "No p-value or functional inference; positional graphic variation remains possible. Original all-row analysis is preserved.",
+    "additional_retrospective_check": "Report W525 position and metadata distributions with H-1123 omitted, after observing it is the sole source-final W525 occurrence. Preserve main analysis; this cannot distinguish positional allography from semantic difference."
+  }
+}

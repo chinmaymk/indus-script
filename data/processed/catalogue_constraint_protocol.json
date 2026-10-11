@@ -1,0 +1,15 @@
+{
+  "research_date": "2026-09-27",
+  "status": "Source-exposed model audit; anchors and their outcomes already known; not a blind test",
+  "scope": "Ten explicit target correspondences selected from recent primary reviews, plus one separately uncertain M897 sensitivity. Do not promote full candidate sequences into primary-certified alignments.",
+  "models": [
+    "bijective one-W/one-M code substitution",
+    "deterministic one-W/one-M conversion allowing many W codes per M",
+    "deterministic one-W/one-or-two-M ordered span conversion allowing many W codes per span",
+    "relation allowing multiple one-or-two-M spans per W"
+  ],
+  "witnesses": "Return every singleton cardinality violation and every pair of incompatible mapping constraints. Group identical W/M assertions separately so repeated objects do not imply independent validation. No count-based repair or majority vote.",
+  "uncertainty": "M897 rawW550 versus normalizedM222 is separate sensitivity because fine photographicW550/W555identity is unresolved. It does not refute ancient uniformity.",
+  "interpretation": "This tests modern catalogue conversion, not language, cipher decipherment, syllabary, semantic distinctions or allography. A consistent table over selected anchors is not a global validated map.",
+  "coverage": "Report constrained W identifiers and M inventory members; maintain an explicit status for all417 M signs. No sound/meaning assigned."
+}

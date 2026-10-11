@@ -1,0 +1,42 @@
+{
+  "analyst_perturbation_envelope_litres": [
+    78.01916915007787,
+    94.65880626889192
+  ],
+  "caveats": [
+    "Published drawing and restored outline, not a3D scan.",
+    "Uniform image scaling assumed; alternate2% vertical perturbation examined.",
+    "Rotation symmetry assumed; actual out-of-plane dimensions unmeasured here.",
+    "No fill line authenticated; rim-filled and lower-fill scenarios are distinct.",
+    "Drawing label H95-2661 differs from caption H95-2662, both6640-501.",
+    "Fuls numerical target known before digitization, so not blind validation."
+  ],
+  "cm_per_pixel": 0.13333333333333333,
+  "conditional_four_stroke_40_353_prediction_litres": 161.4127659574468,
+  "fill_level_sensitivity": [
+    {
+      "cm_below_traced_rim": 0,
+      "litres": 85.95529611144946
+    },
+    {
+      "cm_below_traced_rim": 2,
+      "litres": 85.4147453926513
+    },
+    {
+      "cm_below_traced_rim": 5,
+      "litres": 83.81711218843624
+    },
+    {
+      "cm_below_traced_rim": 10,
+      "litres": 77.37228243246558
+    }
+  ],
+  "four_rim_strokes_provisional_litres_per_stroke": 21.488824027862364,
+  "litres_to_traced_rim": 85.95529611144946,
+  "maximum_internal_diameter_cm": 54.82740447957839,
+  "perturbation_envelope_is_not_a_confidence_interval": true,
+  "source_trace_sha256": "0880d4f71c2f448e8843aa8a3db43e8d787e0c2c5f44ab34e2f54a2cc116307e",
+  "status": "Manual digitization of a published cross-section; not a physical capacity measurement",
+  "three_rim_strokes_alternative_litres_per_stroke": 28.65176537048315,
+  "traced_internal_height_cm": 67.46666666666667
+}

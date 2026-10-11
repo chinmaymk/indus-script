@@ -1,0 +1,823 @@
+{
+  "hypothetical_sensitivity_not_empirical_p_values": [
+    {
+      "P_X_ge_4_of_6": 0.016960000000000006,
+      "assumed_independent_type_probability": 0.2
+    },
+    {
+      "P_X_ge_4_of_6": 0.07046999999999999,
+      "assumed_independent_type_probability": 0.3
+    },
+    {
+      "P_X_ge_4_of_6": 0.17920000000000003,
+      "assumed_independent_type_probability": 0.4
+    },
+    {
+      "P_X_ge_4_of_6": 0.34375,
+      "assumed_independent_type_probability": 0.5
+    }
+  ],
+  "input_sha256": {
+    "data/processed/gemstone_context_protocol.json": "0fb73b18bbd1de89f3d580ee2bd43ed94720007a7a99f929c2e3a415dc21efd7",
+    "data/processed/gemstone_primary_review.json": "4874453673212b1e1b82003a5d9c9c70f00512c7495d9dd8e6bb68cdc55296ff",
+    "data/raw/lipi_inscriptions.csv": "b8dcb325a2e2cd3cde12ac12e7a418b0348e45713c9ee28aad81b645d2ac5ee4"
+  },
+  "limits": [
+    "Exact secondary raw strings are not authenticated fine sign transcriptions.",
+    "Seven numbered illustrations are not a corrected whole-assemblage type total.",
+    "The original count of nine b objects does not imply nine independent trials.",
+    "Association alone does not choose commodity, institution, owner or phonetics."
+  ],
+  "primary_review": {
+    "b_group_exact_catalogue_rows": [
+      {
+        "eh_item": 433,
+        "find_number": "8650b",
+        "fish_presence_independently_verified": null,
+        "material_column": "white steatite",
+        "mound": "F",
+        "plate": "XCVI",
+        "plate_crop": "results/primary_pages/gemstone-EH433.png",
+        "plate_pdf_page_1based": 200,
+        "reported_depth": "4 to7ft below surface",
+        "table_image": "data/raw/vats_1940_text_p348_leaf376.jpg",
+        "vats_table_leaf": 376,
+        "vats_table_printed_page": 348
+      },
+      {
+        "eh_item": 439,
+        "find_number": "8650b",
+        "fish_presence_independently_verified": null,
+        "material_column": "white steatite",
+        "mound": "F",
+        "plate": "XCVI",
+        "plate_crop": "results/primary_pages/gemstone-EH439.png",
+        "plate_pdf_page_1based": 200,
+        "reported_depth": "4 to7ft below surface",
+        "table_image": "data/raw/vats_1940_text_p348_leaf376.jpg",
+        "vats_table_leaf": 376,
+        "vats_table_printed_page": 348
+      },
+      {
+        "eh_item": 458,
+        "find_number": "8650b",
+        "fish_presence_independently_verified": null,
+        "material_column": "white steatite",
+        "mound": "F",
+        "plate": "XCVI",
+        "plate_crop": "results/primary_pages/gemstone-EH458.png",
+        "plate_pdf_page_1based": 200,
+        "reported_depth": "4 to7ft below surface",
+        "table_image": "data/raw/vats_1940_text_p348_leaf376.jpg",
+        "vats_table_leaf": 376,
+        "vats_table_printed_page": 348
+      },
+      {
+        "eh_item": 486,
+        "find_number": "8650b",
+        "fish_presence_independently_verified": null,
+        "material_column": "white steatite",
+        "mound": "F",
+        "plate": "XCVI",
+        "plate_crop": "results/primary_pages/gemstone-EH486.png",
+        "plate_pdf_page_1based": 200,
+        "reported_depth": "4 to7ft below surface",
+        "table_image": "data/raw/vats_1940_holdout_leaf377.jpg",
+        "vats_table_leaf": 377,
+        "vats_table_printed_page": 349
+      },
+      {
+        "eh_item": 488,
+        "find_number": "8650b",
+        "fish_presence_independently_verified": null,
+        "material_column": "white steatite",
+        "mound": "F",
+        "plate": "XCVI",
+        "plate_crop": "results/primary_pages/gemstone-EH488.png",
+        "plate_pdf_page_1based": 200,
+        "reported_depth": "4 to7ft below surface",
+        "table_image": "data/raw/vats_1940_holdout_leaf377.jpg",
+        "vats_table_leaf": 377,
+        "vats_table_printed_page": 349
+      },
+      {
+        "eh_item": 489,
+        "find_number": "8650b",
+        "fish_presence_independently_verified": null,
+        "material_column": "white steatite",
+        "mound": "F",
+        "plate": "XCVI",
+        "plate_crop": "results/primary_pages/gemstone-EH489.png",
+        "plate_pdf_page_1based": 200,
+        "reported_depth": "4 to7ft below surface",
+        "table_image": "data/raw/vats_1940_holdout_leaf377.jpg",
+        "vats_table_leaf": 377,
+        "vats_table_printed_page": 349
+      },
+      {
+        "eh_item": 493,
+        "find_number": "8650b",
+        "fish_presence_independently_verified": null,
+        "material_column": "white steatite",
+        "mound": "F",
+        "plate": "XCVI",
+        "plate_crop": "results/primary_pages/gemstone-EH493.png",
+        "plate_pdf_page_1based": 200,
+        "reported_depth": "4 to7ft below surface",
+        "table_image": "data/raw/vats_1940_holdout_leaf377.jpg",
+        "vats_table_leaf": 377,
+        "vats_table_printed_page": 349
+      }
+    ],
+    "b_group_visual_contradiction": {
+      "decisive_examples": [
+        433,
+        458,
+        489,
+        493
+      ],
+      "exact_number_of_distinct_complete_text_types": null,
+      "observation": "433 includes lower animal depiction;458 lower face contains stroke group and U-form;489 has a different upper stroke arrangement and lower angular/crossing sequence;493 upper geometric cluster differs and lower face is stroke group. Gross differences reject all-identical collapse without assigning fine sign codes.",
+      "same_complete_inscription_supported": false
+    },
+    "context": {
+      "bead8650q_catalogue_p435_stratum": "III",
+      "bead_association_supported": true,
+      "closed_deposit_established": false,
+      "core_depth_ft": [
+        4,
+        7
+      ],
+      "core_squares": [
+        "H12/21",
+        "I12/1"
+      ],
+      "discrepancy_resolved": false,
+      "lapidary_production_function_independently_established_here": false,
+      "narrative_stratum": "IV",
+      "well_and_fourteen_quarters_relation": "Narrative describes stratum broadly; precise spatial/functional relation not authenticated in this phase."
+    },
+    "core_narrative_groups": [
+      {
+        "figure4_cisi_label_attributed": "H-76",
+        "figure4_fish_status_attributed": true,
+        "find_group": "8650a",
+        "narrative_object_count": 1,
+        "note": "Bossed bison/trough seal; exactp58 link.",
+        "vats_exact_plate_item": 241
+      },
+      {
+        "figure4_cisi_label_attributed": "H-880",
+        "figure4_fish_status_attributed": false,
+        "find_group": "8650b",
+        "narrative_object_count": 9,
+        "note": "2025 shows one representative; original catalogue links at leastseven numbered illustrations to this group. Fish label belongs to displayed representative only.",
+        "vats_exact_plate_item": 433
+      },
+      {
+        "figure4_cisi_label_attributed": "H-912",
+        "figure4_fish_status_attributed": true,
+        "find_group": "8650c",
+        "narrative_object_count": 4,
+        "note": "Original two illustrated entries, not independently established one exact whole-text type.",
+        "vats_exact_plate_item": [
+          448,
+          452
+        ]
+      },
+      {
+        "figure4_cisi_label_attributed": "H-243",
+        "figure4_fish_status_attributed": true,
+        "find_group": "8650d",
+        "narrative_object_count": 1,
+        "note": "Faience discoid, seven pipal-leaf rosette; fish designation attributed to2025.",
+        "vats_exact_plate_item": 664
+      },
+      {
+        "figure4_cisi_label_attributed": "H-366",
+        "figure4_fish_status_attributed": true,
+        "find_group": "8650e",
+        "narrative_object_count": 1,
+        "note": "Original explicitly mentions fish on separate side; secondary export keeps Fish in symbol field, not in two-token text. Segmentation matters.",
+        "vats_exact_plate_item": 590
+      },
+      {
+        "figure4_cisi_label_attributed": null,
+        "figure4_fish_status_attributed": false,
+        "find_group": "8650f",
+        "narrative_object_count": 1,
+        "note": "Original similar to414, not exact414; no identity substitution.2025 drawing unnumbered.",
+        "vats_exact_plate_item": null
+      },
+      {
+        "figure4_cisi_label_attributed": null,
+        "figure4_fish_status_attributed": null,
+        "find_group": "8650g",
+        "narrative_object_count": 1,
+        "note": "Broken pictorial sealing; surviving inscription unknown, not a negative text.",
+        "vats_exact_plate_item": 308
+      }
+    ],
+    "corrections": [
+      "Archive page map labelsleaf374 as348; it is visibly346. Actual348leaf376.",
+      "OCRnearby squareI11/13 corrected visually toI11/15.",
+      "8650h is bead/boss in originalp59; do not join unrelated modern8650h text lead without provenance.",
+      "First EH493 crop clipped left edge; crop box corrected and rechecked. First433crop clipped label; corrected.",
+      "Seven-to-seventeen is conditional arithmetic under a disproven simplification, not corrected population rate."
+    ],
+    "evidence_files": [
+      {
+        "bytes": 10858996,
+        "path": "data/raw/irc_2025_fish_bulletin.pdf",
+        "sha256": "af5f67d803a4c8bdda75c27bf113fd67f32cf2a88a680fc5530e3aa334e86a87"
+      },
+      {
+        "bytes": 1872293,
+        "path": "data/raw/vats_1940_holdout_leaf377.jpg",
+        "sha256": "84c001dac9868e418a1611a10348b6a1026b1502395bd418e3da1ca80f191eca"
+      },
+      {
+        "bytes": 17325993,
+        "path": "data/raw/vats_1940_plates_9842.pdf",
+        "sha256": "ab14c5c3a25588d3178789f83ae724eecf7cd873fb28c0a2c639a4dee21b8b18"
+      },
+      {
+        "bytes": 2071440,
+        "path": "data/raw/vats_1940_text_p346_leaf374.jpg",
+        "sha256": "d804fe31da076815a70c25dac41c17c7e920d35933abc68ff498cb041a79c06c"
+      },
+      {
+        "bytes": 1908197,
+        "path": "data/raw/vats_1940_text_p348_leaf376.jpg",
+        "sha256": "44c2d33f4b25b3a79b3e1a794ae17c0c9d6d0c2a38962189cb43064be5b21a23"
+      },
+      {
+        "bytes": 2558564,
+        "path": "data/raw/vats_1940_text_p435_leaf463.jpg",
+        "sha256": "c6f5896b0b50c74452da21bf49d2b96db728f0e66aa47f32df1d079d126917ca"
+      },
+      {
+        "bytes": 2692912,
+        "path": "data/raw/vats_1940_text_p58_leaf84.jpg",
+        "sha256": "8cd5de0d8a00415b7d0f4e1f302fc3747399414456a21e7c73727a8d81d25e41"
+      },
+      {
+        "bytes": 2443058,
+        "path": "data/raw/vats_1940_text_p59_leaf85.jpg",
+        "sha256": "ae3fcb4ac076c2d3c7866849d930f697be759bd344341067d79f395a9fc6add3"
+      },
+      {
+        "bytes": 2711566,
+        "path": "data/raw/vats_1940_text_p60_leaf86.jpg",
+        "sha256": "4870b9a1e43655f1ff1f71cc3edfe9e59c6756d1b38971d2e6f6fbc25b4ada0e"
+      },
+      {
+        "bytes": 83198,
+        "path": "results/primary_pages/gemstone-EH433.png",
+        "sha256": "0ca39713c53aeeeb9fa2715536b8ab8f6e4a3edda40ea18fcacf5648ef0afeec"
+      },
+      {
+        "bytes": 73942,
+        "path": "results/primary_pages/gemstone-EH439.png",
+        "sha256": "0fea8df24a1f9c32bc933ea7f2d11cd2b7bc405f5f4d920253f4f1403e7e6db9"
+      },
+      {
+        "bytes": 78401,
+        "path": "results/primary_pages/gemstone-EH458.png",
+        "sha256": "cad4f2b972cba7e0de264b5cef282e61ea8cf2b4a594f3f8de8390b747bf0fbb"
+      },
+      {
+        "bytes": 68413,
+        "path": "results/primary_pages/gemstone-EH486.png",
+        "sha256": "266ce06e3c32c9897f7e3a78cbd0668ef791099d7a9ae598be04b08bbd7f4349"
+      },
+      {
+        "bytes": 74041,
+        "path": "results/primary_pages/gemstone-EH488.png",
+        "sha256": "c0428fe41763c695c9bd71c7cbb69076c93b87a14053b8f7246357cc6df661b7"
+      },
+      {
+        "bytes": 89729,
+        "path": "results/primary_pages/gemstone-EH489.png",
+        "sha256": "df5c130c350d355b1831d3e645a262ca2088b44cc32ac7bbc9a54a9bea597b72"
+      },
+      {
+        "bytes": 56719,
+        "path": "results/primary_pages/gemstone-EH493.png",
+        "sha256": "cb577bab351dacd8d57eb6386e721626d6bef7ee78922f6465f6c3c613360460"
+      },
+      {
+        "bytes": 1138612,
+        "path": "results/primary_pages/gemstone-bulletin-p11.png",
+        "sha256": "d683a57e563959ca8fcb40bd8786d5b7a59595f95b14bfe1563ced4ed4ac1c14"
+      },
+      {
+        "bytes": 275456,
+        "path": "results/primary_pages/gemstone-plate-bottom-navigation.png",
+        "sha256": "a974e875f77ff730fd85bcf0081ced2b909e63af04ad28678300b3aa71e30ad4"
+      },
+      {
+        "bytes": 2743070,
+        "path": "results/primary_pages/gemstone-vats-leaf374.png",
+        "sha256": "d37905abc34b616d318b3aa13a122d7d8c57f596ed206149b1762edef05647d3"
+      },
+      {
+        "bytes": 2677359,
+        "path": "results/primary_pages/gemstone-vats-p435.png",
+        "sha256": "d6113a680e95bf5e4296eb60187aff6016d7819012b5134ba293bbce9c79c36d"
+      },
+      {
+        "bytes": 2769066,
+        "path": "results/primary_pages/gemstone-vats-p58.png",
+        "sha256": "57015fa87886193f8744773f61b1b3ac84af48c59aa9481e7399550f4ecd20f7"
+      },
+      {
+        "bytes": 2456314,
+        "path": "results/primary_pages/gemstone-vats-p59.png",
+        "sha256": "7f43e05773b474d975ac8f8ce1c7fb8dba2584ee4efd678502f5a8c572d7d53f"
+      },
+      {
+        "bytes": 2614783,
+        "path": "results/primary_pages/gemstone-vats-p60.png",
+        "sha256": "bd656453c1094bbf53e37df951e69f85473c29875e3aeef4cf30b200edc5de20"
+      },
+      {
+        "bytes": 1237579,
+        "path": "results/primary_pages/gemstone-vats-plate-190.png",
+        "sha256": "f1a0a06f2381971f97e6b98334c86ab6361b2a357068483951d0b304e81620a2"
+      },
+      {
+        "bytes": 1166954,
+        "path": "results/primary_pages/gemstone-vats-plate-194.png",
+        "sha256": "13392bd5b546040e97ce9e10b4a2101d7cf74ef8da267b464bce0f9f79620a2f"
+      },
+      {
+        "bytes": 1343786,
+        "path": "results/primary_pages/gemstone-vats-plate-198.png",
+        "sha256": "cfed479b001cb1d5ebb1198acfbe3d3858c9de10b0aacdcd741aacfe3e4fd27e"
+      },
+      {
+        "bytes": 1365594,
+        "path": "results/primary_pages/gemstone-vats-plate-200.png",
+        "sha256": "690a6a5beff4e911e2917b53fc785a28ce26db93c8ae013b917636ab2517188c"
+      },
+      {
+        "bytes": 1406863,
+        "path": "results/primary_pages/gemstone-vats-plate-202.png",
+        "sha256": "66677d4fe4835fd3c5ffaf6490ce6b4387b3fcf5e3c9826fac396a8df361a199"
+      },
+      {
+        "bytes": 1103877,
+        "path": "results/primary_pages/gemstone-vats-plate-204.png",
+        "sha256": "722fe7e95ba1cc28001bca7cd5a5008325038b057985d3c4ddafd90a52ea1ed6"
+      },
+      {
+        "bytes": 934333,
+        "path": "results/primary_pages/gemstone-vats-plate-208.png",
+        "sha256": "9fa2d9db0594fea19d97fe986e8144123103f923033bdd172c0e7c64a1104a5a"
+      },
+      {
+        "bytes": 773152,
+        "path": "results/primary_pages/gemstone-vats-plate-210.png",
+        "sha256": "991fd45a4ea47e53a581d3995b35712663f948d1e444c55fa7e00f8d2c933e80"
+      },
+      {
+        "bytes": 2863554,
+        "path": "results/primary_pages/gemstone-vats-table-373.png",
+        "sha256": "e6df62c83e4689c4ff38a89e16e2fe6c8d31948c803a1647e60d0ebf2fc6f8e7"
+      },
+      {
+        "bytes": 2595055,
+        "path": "results/primary_pages/gemstone-vats-table-376.png",
+        "sha256": "28110b2d88eef156ce9ff377b1489e67ae72870f5768b56d54eaa9c7cd4f764e"
+      },
+      {
+        "bytes": 2524525,
+        "path": "results/primary_pages/gemstone-vats-table-377.png",
+        "sha256": "7ca4e91433e4b30184f35b2a0624f38fe3e20eddef5abf1af6c807ffc9f2f924"
+      },
+      {
+        "bytes": 3871271,
+        "path": "results/primary_pages/gemstone-vats-table-433-458.png",
+        "sha256": "006070a9c2f20f805bbafb41748e6684fbed576758e336c8090e08bb1a5fda4e"
+      },
+      {
+        "bytes": 1751696,
+        "path": "results/primary_pages/gemstone-vats-table-486-493.png",
+        "sha256": "1bb7b8765e3343fea63409640bce00501163b6705004e370c213e8394506c152"
+      }
+    ],
+    "independent_review": "docs/GEMSTONE_METHOD_REVIEW.md",
+    "nearby_inventory": {
+      "later_same_area_eight_objects": [
+        {
+          "depth": "6ft",
+          "eh_item": 94,
+          "figure4_fish_status_attributed": false,
+          "find_number": "10061",
+          "included_in_figure4": true,
+          "preservation_note": "Not independently certified complete",
+          "primary_fish_status_independently_verified": null,
+          "square": "I12/1"
+        },
+        {
+          "depth": "6ft",
+          "eh_item": 504,
+          "figure4_fish_status_attributed": false,
+          "find_number": "10059",
+          "included_in_figure4": true,
+          "preservation_note": "Not independently certified complete",
+          "primary_fish_status_independently_verified": null,
+          "square": "I12/1"
+        },
+        {
+          "depth": "6ft",
+          "eh_item": 544,
+          "figure4_fish_status_attributed": true,
+          "find_number": "10060",
+          "included_in_figure4": true,
+          "preservation_note": "Not independently certified complete",
+          "primary_fish_status_independently_verified": null,
+          "square": "I12/1"
+        },
+        {
+          "depth": "6ft",
+          "eh_item": null,
+          "figure4_fish_status_attributed": true,
+          "find_number": "10086",
+          "included_in_figure4": true,
+          "preservation_note": "Not independently certified complete",
+          "primary_fish_status_independently_verified": true,
+          "square": "I12/1"
+        },
+        {
+          "depth": "7ft",
+          "eh_item": 538,
+          "figure4_fish_status_attributed": null,
+          "find_number": "8154",
+          "included_in_figure4": false,
+          "preservation_note": "Explicitly fragmentary in Vats",
+          "primary_fish_status_independently_verified": null,
+          "square": "I12/1"
+        },
+        {
+          "depth": "7ft2in",
+          "eh_item": 505,
+          "figure4_fish_status_attributed": false,
+          "find_number": "10226",
+          "included_in_figure4": true,
+          "preservation_note": "Explicitly fragmentary in Vats",
+          "primary_fish_status_independently_verified": null,
+          "square": "I12/1"
+        },
+        {
+          "depth": "6ft5in",
+          "eh_item": 701,
+          "figure4_fish_status_attributed": false,
+          "find_number": "8150",
+          "included_in_figure4": true,
+          "preservation_note": "Not independently certified complete",
+          "primary_fish_status_independently_verified": null,
+          "square": "I12/1"
+        },
+        {
+          "depth": "6ft",
+          "eh_item": 352,
+          "figure4_fish_status_attributed": true,
+          "find_number": "10058",
+          "included_in_figure4": true,
+          "preservation_note": "Not independently certified complete",
+          "primary_fish_status_independently_verified": null,
+          "square": "I12/1"
+        }
+      ],
+      "separate_nearby_pair": {
+        "count": 2,
+        "depth": "5ft7in",
+        "eh_items": [
+          442,
+          523
+        ],
+        "figure4_label_attributed": "H-1177",
+        "figure4_panels": 1,
+        "find_number": "10928a",
+        "one_badly_broken": true,
+        "square": "I11/15"
+      }
+    },
+    "paper": {
+      "author": "Bahata Ansumali Mukhopadhyay",
+      "claimed_distinct_inscriptions": 6,
+      "claimed_fish_inscriptions": 4,
+      "claimed_nearby_fish_tablets": 3,
+      "figure": 4,
+      "selected_printed_pages": [
+        10,
+        11
+      ],
+      "version": "Bulletin of IRC6 June2025;50PDFpages"
+    },
+    "quantity_anchor": {
+      "inscription_on_these_weight_objects_established": false,
+      "mass_g": [
+        26.3,
+        4.3
+      ],
+      "mass_link_to_an_individual_text": null,
+      "weight_find_number": "8650i"
+    },
+    "review_mode": "Manual source-exposed comparison of original excavation text and plate images; two independent agents inspected key b-group joins. Not artifact autopsy or full glyph-code verification."
+  },
+  "protocol": {
+    "established_phonetic_values": 0,
+    "established_semantic_values": 0,
+    "post_result_correction": "Initial conditional7/17 arithmetic assumes nine identical b objects and is withdrawn as an observed rate after primary tables/plates contradict that premise.",
+    "questions": [
+      "Does find group8650b support treating all nine objects as one identical complete inscription?",
+      "Are nearby objects and core group distinguished?",
+      "Is there an independently measured fish/commodity or inscription/mass anchor?"
+    ],
+    "research_date": "2026-09-25",
+    "rules": [
+      "Use exact Vats plate-item-to-find-number table joins and both illustrated faces.",
+      "Keep the 2025 six-type claim attributed; do not silently promote grouping labels to types.",
+      "Secondary export is a discovery/crosscheck source; proposed readings and translations excluded.",
+      "Do not replace unknown fish status with absence. No empirical enrichment test without matched baseline.",
+      "Hypothetical binomial sensitivities assume independent types and known p; neither premise is established for these data.",
+      "Preserve original source disagreements and page-map errors."
+    ],
+    "scope": "Harappa group8650 as presented in June2025 Bulletin IRC6 printedpp10–11 Figure4; source-exposed retrospective audit, not preregistered discovery"
+  },
+  "secondary_exact_join": [
+    {
+      "all_faces_independently_verified": false,
+      "eh_item": 433,
+      "find_number": "8650b",
+      "fish_presence_independently_verified": null,
+      "full_raw_text_signature": [
+        "+400-740-760-605+"
+      ],
+      "lines": [
+        {
+          "cisi": "H-880",
+          "condition": "Fair",
+          "depth": "-7.0 ft",
+          "dir.": "L/R",
+          "excavation-idno": "8650b433",
+          "id": "1763.1",
+          "material": "Steatite",
+          "phase": "Stratum IV",
+          "preservation": "complete",
+          "sides": "1",
+          "site": "Harappa",
+          "text": "+400-740-760-605+"
+        }
+      ],
+      "secondary_object_id": "1763"
+    },
+    {
+      "all_faces_independently_verified": false,
+      "eh_item": 488,
+      "find_number": "8650b",
+      "fish_presence_independently_verified": null,
+      "full_raw_text_signature": [
+        "+824-852+",
+        "+892-831+"
+      ],
+      "lines": [
+        {
+          "cisi": "H-908",
+          "condition": "Fair",
+          "depth": "-7.0 ft",
+          "dir.": "-",
+          "excavation-idno": "8650b488",
+          "id": "1790.1",
+          "material": "Steatite",
+          "phase": "Stratum IV",
+          "preservation": "complete",
+          "sides": "2",
+          "site": "Harappa",
+          "text": "+824-852+"
+        },
+        {
+          "cisi": "H-908",
+          "condition": "Fair",
+          "depth": "-7.0 ft",
+          "dir.": "-",
+          "excavation-idno": "8650b488",
+          "id": "1790.2",
+          "material": "Steatite",
+          "phase": "Stratum IV",
+          "preservation": "complete",
+          "sides": "2",
+          "site": "Harappa",
+          "text": "+892-831+"
+        }
+      ],
+      "secondary_object_id": "1790"
+    },
+    {
+      "all_faces_independently_verified": false,
+      "eh_item": 458,
+      "find_number": "8650b",
+      "fish_presence_independently_verified": null,
+      "full_raw_text_signature": [
+        "+034-700+",
+        "+520-220-415+"
+      ],
+      "lines": [
+        {
+          "cisi": "H-938",
+          "condition": "Good",
+          "depth": "-7.0 ft",
+          "dir.": "L/R",
+          "excavation-idno": "8650b458",
+          "id": "1818.1",
+          "material": "Steatite",
+          "phase": "Stratum IV",
+          "preservation": "complete",
+          "sides": "2",
+          "site": "Harappa",
+          "text": "+520-220-415+"
+        },
+        {
+          "cisi": "H-938",
+          "condition": "Good",
+          "depth": "-7.0 ft",
+          "dir.": "R/L",
+          "excavation-idno": "8650b458",
+          "id": "1818.2",
+          "material": "Steatite",
+          "phase": "Stratum IV",
+          "preservation": "complete",
+          "sides": "2",
+          "site": "Harappa",
+          "text": "+034-700+"
+        }
+      ],
+      "secondary_object_id": "1818"
+    },
+    {
+      "all_faces_independently_verified": false,
+      "eh_item": 493,
+      "find_number": "8650b",
+      "fish_presence_independently_verified": null,
+      "full_raw_text_signature": [
+        "+400-236+",
+        "+700-034+"
+      ],
+      "lines": [
+        {
+          "cisi": "H-947",
+          "condition": "Poor",
+          "depth": "-7 ft",
+          "dir.": "R/L",
+          "excavation-idno": "8650b493",
+          "id": "1827.1",
+          "material": "Steatite",
+          "phase": "-",
+          "preservation": "complete",
+          "sides": "2",
+          "site": "Harappa",
+          "text": "+400-236+"
+        },
+        {
+          "cisi": "H-947",
+          "condition": "Poor",
+          "depth": "-7 ft",
+          "dir.": "R/L",
+          "excavation-idno": "8650b493",
+          "id": "1827.2",
+          "material": "Steatite",
+          "phase": "-",
+          "preservation": "complete",
+          "sides": "2",
+          "site": "Harappa",
+          "text": "+700-034+"
+        }
+      ],
+      "secondary_object_id": "1827"
+    },
+    {
+      "all_faces_independently_verified": false,
+      "eh_item": 489,
+      "find_number": "8650b",
+      "fish_presence_independently_verified": null,
+      "full_raw_text_signature": [
+        "+400-151-229+",
+        "+700-033+"
+      ],
+      "lines": [
+        {
+          "cisi": "H-948",
+          "condition": "Good",
+          "depth": "-7.0 ft",
+          "dir.": "R/L",
+          "excavation-idno": "8650b489",
+          "id": "1828.1",
+          "material": "Steatite",
+          "phase": "Stratum VI",
+          "preservation": "complete",
+          "sides": "2",
+          "site": "Harappa",
+          "text": "+400-151-229+"
+        },
+        {
+          "cisi": "H-948",
+          "condition": "Good",
+          "depth": "-7.0 ft",
+          "dir.": "R/L",
+          "excavation-idno": "8650b489",
+          "id": "1828.2",
+          "material": "Steatite",
+          "phase": "Stratum VI",
+          "preservation": "complete",
+          "sides": "2",
+          "site": "Harappa",
+          "text": "+700-033+"
+        }
+      ],
+      "secondary_object_id": "1828"
+    },
+    {
+      "all_faces_independently_verified": false,
+      "eh_item": 439,
+      "find_number": "8650b",
+      "fish_presence_independently_verified": null,
+      "full_raw_text_signature": [
+        "+740-785-004+"
+      ],
+      "lines": [
+        {
+          "cisi": "-",
+          "condition": "Fair",
+          "depth": "-7.0 ft",
+          "dir.": "L/R",
+          "excavation-idno": "8650b439",
+          "id": "309.1",
+          "material": "Steatite",
+          "phase": "Stratum IV",
+          "preservation": "complete",
+          "sides": "1",
+          "site": "Harappa",
+          "text": "+740-785-004+"
+        }
+      ],
+      "secondary_object_id": "309"
+    },
+    {
+      "all_faces_independently_verified": false,
+      "eh_item": 486,
+      "find_number": "8650b",
+      "fish_presence_independently_verified": null,
+      "full_raw_text_signature": [
+        "+033-255+",
+        "+416-590-033+"
+      ],
+      "lines": [
+        {
+          "cisi": "H-911",
+          "condition": "Poor",
+          "depth": "-7.0 ft",
+          "dir.": "R/L",
+          "excavation-idno": "8650b486",
+          "id": "310.1",
+          "material": "Steatite",
+          "phase": "Stratum IV",
+          "preservation": "complete",
+          "sides": "2",
+          "site": "Harappa",
+          "text": "+416-590-033+"
+        },
+        {
+          "cisi": "H-911",
+          "condition": "Poor",
+          "depth": "-7.0 ft",
+          "dir.": "R/L",
+          "excavation-idno": "8650b486",
+          "id": "310.2",
+          "material": "Steatite",
+          "phase": "Stratum IV",
+          "preservation": "complete",
+          "sides": "2",
+          "site": "Harappa",
+          "text": "+033-255+"
+        }
+      ],
+      "secondary_object_id": "310"
+    }
+  ],
+  "summary": {
+    "corrected_complete_assemblage_fish_numerator": null,
+    "corrected_complete_assemblage_type_denominator": null,
+    "empirical_enrichment_test": null,
+    "established_phonetic_values": 0,
+    "established_semantic_values": 0,
+    "matched_control_probability": null,
+    "primary_b_group_numbered_plate_entries": 7,
+    "same_b_group_is_one_identical_inscription_supported": false,
+    "secondary_distinct_raw_multiline_signatures": 7,
+    "secondary_matched_object_groups": 7,
+    "secondary_matched_rows": 12
+  }
+}

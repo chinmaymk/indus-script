@@ -1,0 +1,1082 @@
+{
+  "counts": {
+    "exclusion_reason_counts_overlapping": {
+      "direction_not_right_to_left": 393,
+      "doubtful_reading_present": 389,
+      "fewer_than_two_token_slots": 84,
+      "multiple_source_documents_line_recovery_unverified": 880,
+      "unknown_span_present": 617
+    },
+    "primary_inventory_size": 417,
+    "source_doc_count_histogram": {
+      "1": 2026,
+      "2": 774,
+      "3": 91,
+      "4": 10,
+      "5": 2,
+      "6": 2,
+      "7": 1
+    },
+    "source_records": 2906,
+    "strict_candidate_rows": 1293,
+    "strict_duplicate_excess": 152,
+    "strict_object_code_counts": {
+      "1": 1155,
+      "2": 65,
+      "3": 14,
+      "4": 30,
+      "5": 6,
+      "6": 1,
+      "7": 16,
+      "9": 6
+    },
+    "strict_sign_types": 332,
+    "strict_tokens": 6132,
+    "strict_unique_text_tokens": 5625,
+    "strict_unique_texts": 1141
+  },
+  "duplicate_text_groups": [
+    {
+      "sequence": [
+        "M001",
+        "M001",
+        "M121",
+        "M121",
+        "M099",
+        "M172",
+        "M304",
+        "M307"
+      ],
+      "source_references": [
+        "8108",
+        "8109",
+        "8110",
+        "8111",
+        "8112",
+        "8113",
+        "8115"
+      ]
+    },
+    {
+      "sequence": [
+        "M002",
+        "M012"
+      ],
+      "source_references": [
+        "2076",
+        "2389",
+        "2602"
+      ]
+    },
+    {
+      "sequence": [
+        "M007",
+        "M176"
+      ],
+      "source_references": [
+        "4414",
+        "4547"
+      ]
+    },
+    {
+      "sequence": [
+        "M025",
+        "M015"
+      ],
+      "source_references": [
+        "2108",
+        "2342"
+      ]
+    },
+    {
+      "sequence": [
+        "M025",
+        "M245",
+        "M245"
+      ],
+      "source_references": [
+        "1437",
+        "2073",
+        "4120"
+      ]
+    },
+    {
+      "sequence": [
+        "M047",
+        "M211"
+      ],
+      "source_references": [
+        "2379",
+        "4129"
+      ]
+    },
+    {
+      "sequence": [
+        "M048",
+        "M342"
+      ],
+      "source_references": [
+        "1279",
+        "1487",
+        "2181",
+        "2258",
+        "6301",
+        "8218"
+      ]
+    },
+    {
+      "sequence": [
+        "M051",
+        "M130",
+        "M149",
+        "M342"
+      ],
+      "source_references": [
+        "1013",
+        "2091"
+      ]
+    },
+    {
+      "sequence": [
+        "M053",
+        "M171",
+        "M059",
+        "M342",
+        "M176"
+      ],
+      "source_references": [
+        "4654",
+        "5226",
+        "5236"
+      ]
+    },
+    {
+      "sequence": [
+        "M065",
+        "M053",
+        "M342"
+      ],
+      "source_references": [
+        "1044",
+        "1199"
+      ]
+    },
+    {
+      "sequence": [
+        "M065",
+        "M135",
+        "M342"
+      ],
+      "source_references": [
+        "1283",
+        "6226",
+        "7043"
+      ]
+    },
+    {
+      "sequence": [
+        "M067",
+        "M103",
+        "M403",
+        "M342",
+        "M176"
+      ],
+      "source_references": [
+        "1529",
+        "1530"
+      ]
+    },
+    {
+      "sequence": [
+        "M067",
+        "M211"
+      ],
+      "source_references": [
+        "2026",
+        "2047",
+        "2161"
+      ]
+    },
+    {
+      "sequence": [
+        "M067",
+        "M386",
+        "M194",
+        "M342",
+        "M176"
+      ],
+      "source_references": [
+        "2946",
+        "2947"
+      ]
+    },
+    {
+      "sequence": [
+        "M070",
+        "M012"
+      ],
+      "source_references": [
+        "2637",
+        "4617"
+      ]
+    },
+    {
+      "sequence": [
+        "M072",
+        "M048",
+        "M342"
+      ],
+      "source_references": [
+        "7101",
+        "7106"
+      ]
+    },
+    {
+      "sequence": [
+        "M072",
+        "M211"
+      ],
+      "source_references": [
+        "1254",
+        "1261"
+      ]
+    },
+    {
+      "sequence": [
+        "M086",
+        "M015"
+      ],
+      "source_references": [
+        "1171",
+        "1287",
+        "2639",
+        "3075",
+        "4166"
+      ]
+    },
+    {
+      "sequence": [
+        "M086",
+        "M250"
+      ],
+      "source_references": [
+        "2310",
+        "4115"
+      ]
+    },
+    {
+      "sequence": [
+        "M086",
+        "M336",
+        "M089",
+        "M211"
+      ],
+      "source_references": [
+        "1168",
+        "4211"
+      ]
+    },
+    {
+      "sequence": [
+        "M087",
+        "M284",
+        "M342",
+        "M098",
+        "M178",
+        "M389",
+        "M015"
+      ],
+      "source_references": [
+        "4017",
+        "5101"
+      ]
+    },
+    {
+      "sequence": [
+        "M102",
+        "M015"
+      ],
+      "source_references": [
+        "2368",
+        "2514",
+        "2856",
+        "2862",
+        "5063",
+        "5093"
+      ]
+    },
+    {
+      "sequence": [
+        "M102",
+        "M017",
+        "M008",
+        "M342"
+      ],
+      "source_references": [
+        "1339",
+        "4033",
+        "4128"
+      ]
+    },
+    {
+      "sequence": [
+        "M102",
+        "M025"
+      ],
+      "source_references": [
+        "2249",
+        "5201"
+      ]
+    },
+    {
+      "sequence": [
+        "M102",
+        "M162"
+      ],
+      "source_references": [
+        "1220",
+        "1270"
+      ]
+    },
+    {
+      "sequence": [
+        "M102",
+        "M169"
+      ],
+      "source_references": [
+        "1411",
+        "8024",
+        "8213"
+      ]
+    },
+    {
+      "sequence": [
+        "M102",
+        "M216",
+        "M245",
+        "M245"
+      ],
+      "source_references": [
+        "1542",
+        "2346",
+        "4133"
+      ]
+    },
+    {
+      "sequence": [
+        "M103",
+        "M403",
+        "M342"
+      ],
+      "source_references": [
+        "1257",
+        "1366",
+        "4629",
+        "5470",
+        "7035"
+      ]
+    },
+    {
+      "sequence": [
+        "M104",
+        "M015"
+      ],
+      "source_references": [
+        "2698",
+        "7002"
+      ]
+    },
+    {
+      "sequence": [
+        "M104",
+        "M162"
+      ],
+      "source_references": [
+        "2858",
+        "4424",
+        "4425"
+      ]
+    },
+    {
+      "sequence": [
+        "M104",
+        "M169"
+      ],
+      "source_references": [
+        "2945",
+        "4160"
+      ]
+    },
+    {
+      "sequence": [
+        "M106",
+        "M015"
+      ],
+      "source_references": [
+        "2113",
+        "2382",
+        "7040"
+      ]
+    },
+    {
+      "sequence": [
+        "M106",
+        "M169"
+      ],
+      "source_references": [
+        "1422",
+        "1441",
+        "2215",
+        "8058"
+      ]
+    },
+    {
+      "sequence": [
+        "M106",
+        "M287",
+        "M342"
+      ],
+      "source_references": [
+        "1460",
+        "2381",
+        "4618"
+      ]
+    },
+    {
+      "sequence": [
+        "M109",
+        "M162"
+      ],
+      "source_references": [
+        "1243",
+        "1249",
+        "2705",
+        "5054"
+      ]
+    },
+    {
+      "sequence": [
+        "M111",
+        "M342"
+      ],
+      "source_references": [
+        "1231",
+        "5051"
+      ]
+    },
+    {
+      "sequence": [
+        "M124",
+        "M012"
+      ],
+      "source_references": [
+        "2293",
+        "2678",
+        "8061"
+      ]
+    },
+    {
+      "sequence": [
+        "M124",
+        "M025",
+        "M176",
+        "M342"
+      ],
+      "source_references": [
+        "2121",
+        "4137"
+      ]
+    },
+    {
+      "sequence": [
+        "M124",
+        "M342"
+      ],
+      "source_references": [
+        "3064",
+        "4146",
+        "4155"
+      ]
+    },
+    {
+      "sequence": [
+        "M150",
+        "M123",
+        "M104",
+        "M169"
+      ],
+      "source_references": [
+        "4843",
+        "5100"
+      ]
+    },
+    {
+      "sequence": [
+        "M153",
+        "M153",
+        "M342"
+      ],
+      "source_references": [
+        "2200",
+        "2607"
+      ]
+    },
+    {
+      "sequence": [
+        "M173",
+        "M012"
+      ],
+      "source_references": [
+        "1268",
+        "2421"
+      ]
+    },
+    {
+      "sequence": [
+        "M173",
+        "M342"
+      ],
+      "source_references": [
+        "2154",
+        "2158",
+        "4093"
+      ]
+    },
+    {
+      "sequence": [
+        "M178",
+        "M389",
+        "M015"
+      ],
+      "source_references": [
+        "2039",
+        "3019",
+        "5016",
+        "5105"
+      ]
+    },
+    {
+      "sequence": [
+        "M182",
+        "M293",
+        "M342"
+      ],
+      "source_references": [
+        "2144",
+        "2308",
+        "3252"
+      ]
+    },
+    {
+      "sequence": [
+        "M197",
+        "M249",
+        "M343",
+        "M067",
+        "M211"
+      ],
+      "source_references": [
+        "1388",
+        "2280"
+      ]
+    },
+    {
+      "sequence": [
+        "M204",
+        "M230",
+        "M342"
+      ],
+      "source_references": [
+        "1561",
+        "2499"
+      ]
+    },
+    {
+      "sequence": [
+        "M204",
+        "M245",
+        "M342"
+      ],
+      "source_references": [
+        "2294",
+        "2663"
+      ]
+    },
+    {
+      "sequence": [
+        "M216",
+        "M254"
+      ],
+      "source_references": [
+        "2244",
+        "2652",
+        "7011"
+      ]
+    },
+    {
+      "sequence": [
+        "M228",
+        "M342"
+      ],
+      "source_references": [
+        "4031",
+        "8027"
+      ]
+    },
+    {
+      "sequence": [
+        "M245",
+        "M245",
+        "M099",
+        "M067",
+        "M072",
+        "M059",
+        "M211"
+      ],
+      "source_references": [
+        "7220",
+        "7252"
+      ]
+    },
+    {
+      "sequence": [
+        "M249",
+        "M169",
+        "M342"
+      ],
+      "source_references": [
+        "2600",
+        "5404",
+        "6128"
+      ]
+    },
+    {
+      "sequence": [
+        "M267",
+        "M099"
+      ],
+      "source_references": [
+        "8022",
+        "9202",
+        "9203"
+      ]
+    },
+    {
+      "sequence": [
+        "M267",
+        "M099",
+        "M048",
+        "M342"
+      ],
+      "source_references": [
+        "1232",
+        "2580"
+      ]
+    },
+    {
+      "sequence": [
+        "M267",
+        "M099",
+        "M065",
+        "M222",
+        "M254"
+      ],
+      "source_references": [
+        "1158",
+        "2545",
+        "7090"
+      ]
+    },
+    {
+      "sequence": [
+        "M267",
+        "M099",
+        "M066"
+      ],
+      "source_references": [
+        "7255",
+        "7269"
+      ]
+    },
+    {
+      "sequence": [
+        "M267",
+        "M099",
+        "M067",
+        "M171",
+        "M008",
+        "M342",
+        "M001"
+      ],
+      "source_references": [
+        "2338",
+        "2647"
+      ]
+    },
+    {
+      "sequence": [
+        "M267",
+        "M099",
+        "M067",
+        "M244",
+        "M342"
+      ],
+      "source_references": [
+        "2618",
+        "4090"
+      ]
+    },
+    {
+      "sequence": [
+        "M267",
+        "M099",
+        "M102",
+        "M162"
+      ],
+      "source_references": [
+        "1091",
+        "2080",
+        "2180",
+        "2354",
+        "4126",
+        "6214",
+        "8122"
+      ]
+    },
+    {
+      "sequence": [
+        "M267",
+        "M099",
+        "M104",
+        "M162"
+      ],
+      "source_references": [
+        "1143",
+        "1229"
+      ]
+    },
+    {
+      "sequence": [
+        "M267",
+        "M099",
+        "M104",
+        "M169"
+      ],
+      "source_references": [
+        "1246",
+        "2357"
+      ]
+    },
+    {
+      "sequence": [
+        "M267",
+        "M099",
+        "M113",
+        "M342"
+      ],
+      "source_references": [
+        "2262",
+        "7203",
+        "7205",
+        "7206",
+        "7228",
+        "7230",
+        "7231",
+        "7232",
+        "7233",
+        "7234"
+      ]
+    },
+    {
+      "sequence": [
+        "M267",
+        "M099",
+        "M124",
+        "M025",
+        "M342"
+      ],
+      "source_references": [
+        "1078",
+        "2403"
+      ]
+    },
+    {
+      "sequence": [
+        "M267",
+        "M099",
+        "M124",
+        "M342"
+      ],
+      "source_references": [
+        "1086",
+        "2623"
+      ]
+    },
+    {
+      "sequence": [
+        "M267",
+        "M099",
+        "M171",
+        "M008",
+        "M342"
+      ],
+      "source_references": [
+        "2476",
+        "2533"
+      ]
+    },
+    {
+      "sequence": [
+        "M267",
+        "M099",
+        "M348",
+        "M342"
+      ],
+      "source_references": [
+        "2102",
+        "2591"
+      ]
+    },
+    {
+      "sequence": [
+        "M267",
+        "M099",
+        "M387",
+        "M072",
+        "M211"
+      ],
+      "source_references": [
+        "4112",
+        "6217"
+      ]
+    },
+    {
+      "sequence": [
+        "M284",
+        "M014",
+        "M176"
+      ],
+      "source_references": [
+        "2289",
+        "3092"
+      ]
+    },
+    {
+      "sequence": [
+        "M284",
+        "M124",
+        "M342"
+      ],
+      "source_references": [
+        "1285",
+        "1538"
+      ]
+    },
+    {
+      "sequence": [
+        "M284",
+        "M277"
+      ],
+      "source_references": [
+        "4871",
+        "5519"
+      ]
+    },
+    {
+      "sequence": [
+        "M292",
+        "M342"
+      ],
+      "source_references": [
+        "2358",
+        "3023",
+        "5060",
+        "5120"
+      ]
+    },
+    {
+      "sequence": [
+        "M293",
+        "M123",
+        "M343",
+        "M250"
+      ],
+      "source_references": [
+        "2501",
+        "2613"
+      ]
+    },
+    {
+      "sequence": [
+        "M296",
+        "M342"
+      ],
+      "source_references": [
+        "1005",
+        "4018"
+      ]
+    },
+    {
+      "sequence": [
+        "M301",
+        "M155",
+        "M211"
+      ],
+      "source_references": [
+        "1225",
+        "2622"
+      ]
+    },
+    {
+      "sequence": [
+        "M327",
+        "M254"
+      ],
+      "source_references": [
+        "1244",
+        "6232"
+      ]
+    },
+    {
+      "sequence": [
+        "M328",
+        "M307"
+      ],
+      "source_references": [
+        "4231",
+        "6109"
+      ]
+    },
+    {
+      "sequence": [
+        "M336",
+        "M089",
+        "M087",
+        "M373"
+      ],
+      "source_references": [
+        "1560",
+        "1902"
+      ]
+    },
+    {
+      "sequence": [
+        "M336",
+        "M089",
+        "M211"
+      ],
+      "source_references": [
+        "2015",
+        "2575",
+        "5089",
+        "7279"
+      ]
+    },
+    {
+      "sequence": [
+        "M373",
+        "M342",
+        "M176"
+      ],
+      "source_references": [
+        "4379",
+        "5306"
+      ]
+    },
+    {
+      "sequence": [
+        "M375",
+        "M375",
+        "M342"
+      ],
+      "source_references": [
+        "2582",
+        "2937",
+        "3244",
+        "5341"
+      ]
+    },
+    {
+      "sequence": [
+        "M379",
+        "M307",
+        "M176"
+      ],
+      "source_references": [
+        "4421",
+        "4422",
+        "4423"
+      ]
+    },
+    {
+      "sequence": [
+        "M389",
+        "M065",
+        "M249",
+        "M169",
+        "M342",
+        "M176"
+      ],
+      "source_references": [
+        "1615",
+        "5211",
+        "5231",
+        "5232",
+        "5275"
+      ]
+    },
+    {
+      "sequence": [
+        "M389",
+        "M407",
+        "M124",
+        "M169",
+        "M373",
+        "M287",
+        "M342"
+      ],
+      "source_references": [
+        "3365",
+        "3376"
+      ]
+    },
+    {
+      "sequence": [
+        "M391",
+        "M099",
+        "M102",
+        "M162"
+      ],
+      "source_references": [
+        "2572",
+        "3099"
+      ]
+    },
+    {
+      "sequence": [
+        "M391",
+        "M391",
+        "M342"
+      ],
+      "source_references": [
+        "1490",
+        "2692"
+      ]
+    }
+  ],
+  "exact_export_canonical_join": true,
+  "rules": [
+    "Entire doubtful/unknown-span records excluded; no gap bridging.",
+    "doc_count!=1 excluded because multiline recovery is unverified; source2405 demonstrably collapses seven printed lines to one sequence.",
+    "Actual source direction1 selected; no array reversal based on direction metadata.",
+    "Primary object-code meaning kept apart from upstream blanket seal label.",
+    "No semantic values imported; no M/P/W identity inferred from equal numbers.",
+    "Different transcripts can share physical objects; this is not an independent sample from the W corpus."
+  ],
+  "scope": "Conditional corpus preparation. Two targeted line checks do not authenticate every record. No transcription is silently repaired; excluded data remain in the record ledger.",
+  "source_sha256": {
+    "data/processed/mahadevan_1977_table_i.csv": "0c472d01a938fd61b9090db2afc29dbecc00f3751ea4f796f6034e2a8268891c",
+    "data/raw/glossa_canonical_objects.jsonl": "e24f42a95ee4cc1fdb16c789c3edfb937993ed7c82223d6daa96d66895174ae5",
+    "data/raw/glossa_icit_export.json": "e4ddfd064e9f97871cd4c498f39f238c7cecb2f6a646733b0a65f22f81bd7e2d"
+  }
+}

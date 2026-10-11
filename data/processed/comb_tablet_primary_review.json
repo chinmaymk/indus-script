@@ -1,0 +1,264 @@
+{
+  "review_date": "2026-09-27",
+  "review_mode": "Source-exposed bounded primary review; parent supplied5326 locator after masked computational discovery",
+  "overall_status": "unresolved_requested_artifact_pair",
+  "authenticated_requested_artifacts": 0,
+  "actual_pair_graphic_comparison_possible": false,
+  "new_mapping_promoted": false,
+  "semantic_value": null,
+  "phonetic_value": null,
+  "cases": [
+    {
+      "secondary_cisi": "H-1817",
+      "secondary_rows": [
+        "624.1",
+        "624.2"
+      ],
+      "secondary_field": "H94-2326",
+      "secondary_figure": "26.06",
+      "secondary_texts": [
+        "+700-034+",
+        "+400-525-554+"
+      ],
+      "status": "exact_primary_figure_not_obtained",
+      "metadata_authenticated": false,
+      "inscription_image_personally_inspected": false,
+      "comb_orientation": null,
+      "W554_graphic_description": null,
+      "exclusion": "Do not infer shape from codes or identify a different figure by approximate text match"
+    },
+    {
+      "secondary_cisi": "H-843",
+      "secondary_rows": [
+        "1729.1"
+      ],
+      "secondary_field": "14307",
+      "secondary_texts": [
+        "+400-527-195+"
+      ],
+      "secondary_field_symbol": "Xhch",
+      "status": "promising_locator_without_identity_bridge",
+      "metadata_authenticated": false,
+      "inscription_image_personally_inspected": false,
+      "comb_orientation": null,
+      "W195_graphic_description": null,
+      "candidate_reference": 5326,
+      "candidate_identity_established": false,
+      "exclusion": "No14307 orH843 alias attached to candidate5326 in inspected primary appendix"
+    }
+  ],
+  "candidate_5326": {
+    "status": "primary_catalogue_entry_and_reverse_image_verified_not_joined_to_H843",
+    "displayed_left_to_right": [
+      "M176",
+      "M254",
+      "M054"
+    ],
+    "normalized_right_to_left": [
+      "M054",
+      "M254",
+      "M176"
+    ],
+    "text_pdf_page": 149,
+    "text_printed_page": 138,
+    "appendix_pdf_page": 832,
+    "appendix_printed_page": 823,
+    "excavation_field": "blank",
+    "source_reference": "Pu.63:4394-95",
+    "same_source_reference_also_attached_to": [
+      5327,
+      5328,
+      5329
+    ],
+    "second_metadata_line": "29790",
+    "field_symbol_code": 97,
+    "field_symbol_figure": 139,
+    "field_symbol_key_pdf_page": 821,
+    "field_symbol_key_printed_page": 812,
+    "field_symbol_photo_pdf_page": 822,
+    "field_symbol_photo_printed_page": 813,
+    "photo_source": "Pu.63:4395",
+    "photo_observation": "Narrow face bearing crossing diagonal strokes forming crosshatched pattern",
+    "inscription_face_photo_observed": false,
+    "final_glyph_numbered_sign_list": {
+      "code": "M054",
+      "pdf_page": 43,
+      "printed_page": 32,
+      "description": "Looped multi-stroke form with rightward curving branches; differs from straight triangular-cross M216"
+    },
+    "bridge_missing": [
+      "14307 to5326",
+      "H843 to5326"
+    ]
+  },
+  "exclusions": [
+    "Modern H1817 object cannot be authenticated by a pre-1994 M77 catalogue entry",
+    "The strict secondary site/type/length pair is not independently proven identical physical form",
+    "W554/W195 equivalence or distinction untested on actual pair",
+    "M77 2868 belongs to already-authenticated DK8489, not a transferable H843 identity",
+    "No original report PDF download succeeded; web captures explicitly typed"
+  ],
+  "new_source_registry": "data/processed/comb_tablet_new_sources.json",
+  "evidence_files": [
+    {
+      "path": "data/processed/comb_tablet_new_sources.json",
+      "bytes": 1167,
+      "sha256": "7b1211ec7edbbc13421d299ca2dc7bb151eb60e1f2e1e4cfad3af108a09ea244"
+    },
+    {
+      "path": "data/processed/comb_tablet_source_audit.json",
+      "bytes": 2292,
+      "sha256": "6a21713cd671d0a8c0ec35198134965ef29393bdabb19663bb4bd0e4bcfc0706"
+    },
+    {
+      "path": "data/processed/w525_primary_review.json",
+      "bytes": 12586,
+      "sha256": "973acc34cfe4703cf4a5074f32314749783ed98994246a6445e19ee975d6212e"
+    },
+    {
+      "path": "data/raw/comb_tablet_kenoyer1997_web_capture.json",
+      "bytes": 22614,
+      "sha256": "fafa8cec9203e7d4f3c2fd52791531a6a73bc36fa64116bd461bfb774c11b82a"
+    },
+    {
+      "path": "data/raw/comb_tablet_kenoyer2010_web_capture.json",
+      "bytes": 28127,
+      "sha256": "87caf456afbf7bacdf0f415dc305c02a676635d32f8bae5eedfe57ba6c4082d7"
+    },
+    {
+      "path": "data/raw/ending_cisi2_metadata.json",
+      "bytes": 7726,
+      "sha256": "d16cf205fe8fad9d8953f773139d9648eaa483527f5904d57c48303b88549a49"
+    },
+    {
+      "path": "data/raw/lipi_inscriptions.csv",
+      "bytes": 1204921,
+      "sha256": "b8dcb325a2e2cd3cde12ac12e7a418b0348e45713c9ee28aad81b645d2ac5ee4"
+    },
+    {
+      "path": "data/raw/mahadevan_1977_ocr.txt",
+      "bytes": 673943,
+      "sha256": "11441e38286784a1f4215f73d91cbba8acd153b7e5b30daed9252f9f7b77304a"
+    },
+    {
+      "path": "data/raw/mahadevan_1977_text.pdf",
+      "bytes": 119302608,
+      "sha256": "6dcdd074a0174e5fab149590fbbf82342711d345764e9763f8e5e92c81cf7f99"
+    },
+    {
+      "path": "data/raw/vats_1940_text_18220_djvu.txt",
+      "bytes": 1518598,
+      "sha256": "9426186946d5540e6ccff83fdfc8e5af4aaed99926e56fe14287f57f8ccb4d45"
+    },
+    {
+      "path": "docs/COMB_TABLET_PRIMARY_REVIEW.md",
+      "bytes": 8152,
+      "sha256": "34da1a2ea562933adbc20cae3818ba20d380e60fd26f46dfc20b9c56de79e028"
+    },
+    {
+      "path": "results/comb-tablet-m77-detail_extraction.json",
+      "bytes": 379,
+      "sha256": "7dd8891a370aef2efbfbc15dccdb0cb7843a04fa5ea17d0fcb108960e8ec062f"
+    },
+    {
+      "path": "results/comb-tablet-m77_extraction.json",
+      "bytes": 378,
+      "sha256": "c2c5186c06b1f09c0c99a0ed5f73862aecaef2f66a647f109b052b8cd8bbcb80"
+    },
+    {
+      "path": "results/comb-tablet-mic_extraction.json",
+      "bytes": 386,
+      "sha256": "babfc7292d7aaac78f935d868d2f6d9d151ac2b4bb1a96d12cda8b15277cc1f6"
+    },
+    {
+      "path": "results/iconography-mahadevan_extracted.txt",
+      "bytes": 555813,
+      "sha256": "934df0be2beeea5df8d1db9c01570e125f3294cab2d9b64aed748054b63fb928"
+    },
+    {
+      "path": "results/primary_pages/chain-artifact-m77-832.png",
+      "bytes": 2888406,
+      "sha256": "fb9073109c4990270759bc448726861efa49441565c3e01d8926eeac2a6c4cbb"
+    },
+    {
+      "path": "results/primary_pages/comb-tablet-m054-sign.png",
+      "bytes": 26370,
+      "sha256": "17cd90973f9bc8a172dac81ba804f8d52f00d2cdc555bdad066eba55afd5479e"
+    },
+    {
+      "path": "results/primary_pages/comb-tablet-m77-149.png",
+      "bytes": 1621081,
+      "sha256": "95fc45bd0997d6a42d678d2ff09fb2441d55696bbc0d21d4fb4bef066c0cda8c"
+    },
+    {
+      "path": "results/primary_pages/comb-tablet-m77-42.png",
+      "bytes": 3069233,
+      "sha256": "2113af9405c05620c8ff4aac9415b26cd651129a028493a98a1bc2b44d72c047"
+    },
+    {
+      "path": "results/primary_pages/comb-tablet-m77-51.png",
+      "bytes": 2624345,
+      "sha256": "0d17e5ebc8f1bf355748f40d595c51c6b3a4f7d21505a970a7fc8e8b1f28dca5"
+    },
+    {
+      "path": "results/primary_pages/comb-tablet-m77-5326-metadata.png",
+      "bytes": 95103,
+      "sha256": "251aa079e91f0a0b2d2fa4bbed4f8a54bf8f0ef50b955f62623a11623d58b046"
+    },
+    {
+      "path": "results/primary_pages/comb-tablet-m77-5326-reverse.png",
+      "bytes": 69603,
+      "sha256": "896bcc56179fe256ad3d23abc235f11d911406dab4492173f7b3f606ac86fe96"
+    },
+    {
+      "path": "results/primary_pages/comb-tablet-m77-5326-text.png",
+      "bytes": 76295,
+      "sha256": "4654cb350f2631a0231e0a1da282ae90220ac7107f00e1b4342e8a037b112f6b"
+    },
+    {
+      "path": "results/primary_pages/comb-tablet-m77-822.png",
+      "bytes": 3152275,
+      "sha256": "04764b91009b31f9bcfc99d7b3290a96c5b73a7a641dad34a7319b5a10ae1ffe"
+    },
+    {
+      "path": "results/primary_pages/comb-tablet-m77-detail-43.png",
+      "bytes": 3281280,
+      "sha256": "ebb35d20d3f7035a6d68aa0e967a8d18ccfe5b8f4330f62a3a264a5a9b463793"
+    },
+    {
+      "path": "results/primary_pages/comb-tablet-m77-detail-821.png",
+      "bytes": 1644209,
+      "sha256": "069b99e0781969cb52a1bd62da5513db6eb73e0603884bf418a7ebcf5792d029"
+    },
+    {
+      "path": "results/primary_pages/comb-tablet-mic-53.png",
+      "bytes": 2682507,
+      "sha256": "adb739fdb744c7b5b7b84fe615136216a159c59696b97a1e568fab9ec6baf921"
+    },
+    {
+      "path": "results/primary_pages/ending-signlist-045.png",
+      "bytes": 2725499,
+      "sha256": "a091d2d01efc661a93f28e1a0141cd583f326ffeb813a38313f06c8d17ce5252"
+    },
+    {
+      "path": "results/primary_pages/sign_list-044.png",
+      "bytes": 2228064,
+      "sha256": "33eff554bfdea81af6d1a3510a5b2541d1b74b02ae1e63b253c725b44c7c0b64"
+    },
+    {
+      "path": "scripts/audit_comb_tablet_sources.py",
+      "bytes": 1268,
+      "sha256": "1fc1bd57a2f881e1c274af5b34702dd47577d2740ff6e27dfa2db085c8096f60"
+    },
+    {
+      "path": "scripts/download_comb_tablet_sources.py",
+      "bytes": 802,
+      "sha256": "fd367c0c57e4974da72e725041a99314e54d73f2db15f5d21a7067adcce43940"
+    },
+    {
+      "path": "scripts/render_comb_tablet_crops.py",
+      "bytes": 784,
+      "sha256": "5621cbcd42bad348b934dbf3e5e6642357352b0539484b127ef609e221242b93"
+    }
+  ]
+}

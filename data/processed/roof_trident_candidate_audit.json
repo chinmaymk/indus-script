@@ -1,0 +1,734 @@
+{
+  "schema_version": 1,
+  "scope": "Complete local rawW391 row enumeration and bounded identity/source-selection audit; no conversion or semantic assignment.",
+  "feature_candidate": {
+    "description": "Three pronged tree with caret hat",
+    "features": [],
+    "id": "P089",
+    "mahadevan_graphemes": [
+      "M163"
+    ],
+    "parpola_graphemes": [
+      "V084",
+      "V801"
+    ],
+    "source_path": "features/P089.json",
+    "wells_graphemes": [
+      "W391"
+    ]
+  },
+  "feature_scope": "P089 listsW391 andM163 as candidate cross-catalogue members; not a universal identity rule. W391 andM391 belong to different schemes.",
+  "raw_target_row_count": 10,
+  "native_M163_reference_set": [
+    "1051",
+    "1397",
+    "2119",
+    "2925",
+    "8054"
+  ],
+  "candidate_ledger": [
+    {
+      "raw": {
+        "id": "1911.1",
+        "cisi": "K-45",
+        "excavation-idno": "KLB1 19360",
+        "site": "Kalibangan",
+        "type": "SEAL:S",
+        "preservation": "fragment",
+        "complete": "Y",
+        "condition": "Poor",
+        "text": "+391-741-442-279+",
+        "dir.": "-"
+      },
+      "candidate_target": "W391",
+      "native_reference": "8054",
+      "status": "old_native_target_documentary_join",
+      "identity_basis": "K-45 = KLB1 19360 = ASI68.1.51. CISI printed374/PDF410 and M77 Appendix printed827/PDF836 give the same field and registration. Finnish7120 is a separate catalogue number.",
+      "limits": "Raw preservation fragment coexists with complete=Y; do not decide inscription completeness from either field alone. Native target field has no exported doubt/loss, but no new physical roof reading here.",
+      "is_extra_raw_candidate_beyond_five_native_target_references": false,
+      "new_native_M163_attestation_authenticated": false,
+      "new_physical_artifact_authenticated_by_this_audit": false,
+      "modern_alias_separately_authenticated": true,
+      "native_export": {
+        "id": "GLI-IND-M77-08054",
+        "source_reference": "8054",
+        "source_doc_count": 1,
+        "source_direction_code": "1",
+        "strict_candidate": true,
+        "tokens": [
+          {
+            "raw": "84",
+            "sign": "M084",
+            "doubtful": false,
+            "unknown_span": false,
+            "diplomatic": "084"
+          },
+          {
+            "raw": "127",
+            "sign": "M127",
+            "doubtful": false,
+            "unknown_span": false,
+            "diplomatic": "127"
+          },
+          {
+            "raw": "343",
+            "sign": "M343",
+            "doubtful": false,
+            "unknown_span": false,
+            "diplomatic": "343"
+          },
+          {
+            "raw": "163",
+            "sign": "M163",
+            "doubtful": false,
+            "unknown_span": false,
+            "diplomatic": "163"
+          }
+        ]
+      },
+      "native_object_presence": "present via documented locator"
+    },
+    {
+      "raw": {
+        "id": "2221.1",
+        "cisi": "M-1892",
+        "excavation-idno": "DK10551119",
+        "site": "Mohenjo-daro",
+        "type": "SEAL:S",
+        "preservation": "fragment",
+        "complete": "Y",
+        "condition": "Poor",
+        "text": "+368-501-706/821-001-480-850-595-391+",
+        "dir.": "R/L"
+      },
+      "candidate_target": "W391",
+      "native_reference": "2119",
+      "status": "old_native_target_candidate_join",
+      "identity_basis": "Secondary DK10551119 plausibly combines DK10551 and FEM119. M77 Appendix printed818/PDF827 explicitly maps FEM119 to2119. The original field10551-to-item119 row was not authenticated here; modern M1892 alias remains qualified.",
+      "limits": "Raw preservation fragment and complete=Y conflict at object-label level; alternative token706/821 retained. Native2119 has source_doc_count2 and strict=false; identical tail to other tools cannot authenticate identity.",
+      "is_extra_raw_candidate_beyond_five_native_target_references": false,
+      "new_native_M163_attestation_authenticated": false,
+      "new_physical_artifact_authenticated_by_this_audit": false,
+      "modern_alias_separately_authenticated": false,
+      "native_export": {
+        "id": "GLI-IND-M77-02119",
+        "source_reference": "2119",
+        "source_doc_count": 2,
+        "source_direction_code": "1",
+        "strict_candidate": false,
+        "tokens": [
+          {
+            "raw": "163",
+            "sign": "M163",
+            "doubtful": false,
+            "unknown_span": false,
+            "diplomatic": "163"
+          },
+          {
+            "raw": "252",
+            "sign": "M252",
+            "doubtful": false,
+            "unknown_span": false,
+            "diplomatic": "252"
+          },
+          {
+            "raw": "261",
+            "sign": "M261",
+            "doubtful": false,
+            "unknown_span": false,
+            "diplomatic": "261"
+          },
+          {
+            "raw": "134",
+            "sign": "M134",
+            "doubtful": false,
+            "unknown_span": false,
+            "diplomatic": "134"
+          },
+          {
+            "raw": "98",
+            "sign": "M098",
+            "doubtful": false,
+            "unknown_span": false,
+            "diplomatic": "098"
+          },
+          {
+            "raw": "391",
+            "sign": "M391",
+            "doubtful": false,
+            "unknown_span": false,
+            "diplomatic": "391"
+          },
+          {
+            "raw": "391",
+            "sign": "M391",
+            "doubtful": false,
+            "unknown_span": false,
+            "diplomatic": "391"
+          }
+        ]
+      },
+      "native_object_presence": "present; candidate identity qualification applies"
+    },
+    {
+      "raw": {
+        "id": "2362.1",
+        "cisi": "M-2121",
+        "excavation-idno": "DK7535CXXVI:5",
+        "site": "Mohenjo-daro",
+        "type": "IMPL",
+        "preservation": "complete",
+        "complete": "Y",
+        "condition": "Fair",
+        "text": "+821-001-480-850-595-391+",
+        "dir.": "R/L"
+      },
+      "candidate_target": "W391",
+      "native_reference": "2925",
+      "status": "old_native_target_documentary_join",
+      "identity_basis": "Raw CXXVI:5 joins existing M77 Appendix2925=CXXVI5 and original Mackay table printed489, field7535. Later Pettersson7835 remains unresolved; no silent repair.",
+      "limits": "Native first field contains doubtfulM098. W string is six tokens versus seven normalized M77 codes; no global one-token equivalence or complete-field agreement is claimed.",
+      "is_extra_raw_candidate_beyond_five_native_target_references": false,
+      "new_native_M163_attestation_authenticated": false,
+      "new_physical_artifact_authenticated_by_this_audit": false,
+      "modern_alias_separately_authenticated": false,
+      "native_export": {
+        "id": "GLI-IND-M77-02925",
+        "source_reference": "2925",
+        "source_doc_count": 2,
+        "source_direction_code": "1",
+        "strict_candidate": false,
+        "tokens": [
+          {
+            "raw": "163",
+            "sign": "M163",
+            "doubtful": false,
+            "unknown_span": false,
+            "diplomatic": "163"
+          },
+          {
+            "raw": "252",
+            "sign": "M252",
+            "doubtful": false,
+            "unknown_span": false,
+            "diplomatic": "252"
+          },
+          {
+            "raw": "261",
+            "sign": "M261",
+            "doubtful": false,
+            "unknown_span": false,
+            "diplomatic": "261"
+          },
+          {
+            "raw": "134",
+            "sign": "M134",
+            "doubtful": false,
+            "unknown_span": false,
+            "diplomatic": "134"
+          },
+          {
+            "raw": "*098",
+            "sign": "M098",
+            "doubtful": true,
+            "unknown_span": false,
+            "diplomatic": "*098"
+          },
+          {
+            "raw": "391",
+            "sign": "M391",
+            "doubtful": false,
+            "unknown_span": false,
+            "diplomatic": "391"
+          },
+          {
+            "raw": "391",
+            "sign": "M391",
+            "doubtful": false,
+            "unknown_span": false,
+            "diplomatic": "391"
+          }
+        ]
+      },
+      "native_object_presence": "present via documented locator"
+    },
+    {
+      "raw": {
+        "id": "2368.1",
+        "cisi": "-",
+        "excavation-idno": "DK7854CXXXI:37",
+        "site": "Mohenjo-daro",
+        "type": "IMPL",
+        "preservation": "complete",
+        "complete": "Y",
+        "condition": "Fair",
+        "text": "+821-001-480-850-595-391+",
+        "dir.": "R/L"
+      },
+      "candidate_target": "W391",
+      "native_reference": null,
+      "status": "unjoined_historical_tool_candidate",
+      "identity_basis": "Raw DK7854/CXXXI37 retained literally. Prior plate audit only tentatively compared photograph37 with the small axe; no authenticated individual photo-to-field bridge. Do not assign2924,2925 or2923 from similar text.",
+      "limits": "Raw complete=Y does not authenticate original field completeness or W391 roof. Existing M77 Appendix selected tool list has no explicit CXXXI37 row; bounded missing join is not proof of corpus omission.",
+      "is_extra_raw_candidate_beyond_five_native_target_references": true,
+      "new_native_M163_attestation_authenticated": false,
+      "new_physical_artifact_authenticated_by_this_audit": false,
+      "modern_alias_separately_authenticated": false,
+      "native_object_presence": "unresolved; no global absence claim"
+    },
+    {
+      "raw": {
+        "id": "2370.1",
+        "cisi": "M-2118",
+        "excavation-idno": "DK7856CXXVI:2",
+        "site": "Mohenjo-daro",
+        "type": "IMPL",
+        "preservation": "complete",
+        "complete": "Y",
+        "condition": "Fair",
+        "text": "+821-001-480-850-595-391+",
+        "dir.": "T/B"
+      },
+      "candidate_target": "W391",
+      "native_reference": "2923",
+      "status": "old_native_object_target_not_recoverable_in_M77",
+      "identity_basis": "CXXVI2 is explicitly M77:2923, conventionally DK7856, with original table digit blur retained. This is the already studied broken tang, not another object.",
+      "limits": "W export suppliesW391 where native first field begins LOSS, followed byM252 M261 M134 doubtfulM098 M391 doubtfulM391. Primary printed85/PDF96 shows the initial hatched span. Cannot insertM163 from the similar2925 inscription. Raw preservation complete/complete=Y differs from original fragmentary tool condition.",
+      "is_extra_raw_candidate_beyond_five_native_target_references": true,
+      "new_native_M163_attestation_authenticated": false,
+      "new_physical_artifact_authenticated_by_this_audit": false,
+      "modern_alias_separately_authenticated": false,
+      "native_export": {
+        "id": "GLI-IND-M77-02923",
+        "source_reference": "2923",
+        "source_doc_count": 2,
+        "source_direction_code": "4",
+        "strict_candidate": false,
+        "tokens": [
+          {
+            "raw": "0",
+            "sign": null,
+            "doubtful": false,
+            "unknown_span": true,
+            "diplomatic": "000"
+          },
+          {
+            "raw": "252",
+            "sign": "M252",
+            "doubtful": false,
+            "unknown_span": false,
+            "diplomatic": "252"
+          },
+          {
+            "raw": "261",
+            "sign": "M261",
+            "doubtful": false,
+            "unknown_span": false,
+            "diplomatic": "261"
+          },
+          {
+            "raw": "134",
+            "sign": "M134",
+            "doubtful": false,
+            "unknown_span": false,
+            "diplomatic": "134"
+          },
+          {
+            "raw": "*098",
+            "sign": "M098",
+            "doubtful": true,
+            "unknown_span": false,
+            "diplomatic": "*098"
+          },
+          {
+            "raw": "391",
+            "sign": "M391",
+            "doubtful": false,
+            "unknown_span": false,
+            "diplomatic": "391"
+          },
+          {
+            "raw": "*391",
+            "sign": "M391",
+            "doubtful": true,
+            "unknown_span": false,
+            "diplomatic": "*391"
+          }
+        ]
+      },
+      "native_object_presence": "present via documented locator"
+    },
+    {
+      "raw": {
+        "id": "2568.1",
+        "cisi": "M-40",
+        "excavation-idno": "HR 4945051",
+        "site": "Mohenjo-daro",
+        "type": "SEAL:S",
+        "preservation": "complete",
+        "complete": "Y",
+        "condition": "Fair",
+        "text": "+391-002-527-475-005+",
+        "dir.": "R/L"
+      },
+      "candidate_target": "W391",
+      "native_reference": "1051",
+      "status": "old_native_target_documentary_join",
+      "identity_basis": "Marshall volumeII printed402/PDF53 row51 is HR4945. M77 Appendix printed818/PDF827 maps MIC51 to1051. Modern M40 alias was not separately checked in CISI metadata.",
+      "limits": "Native field is strict and undoubted. This is additional cross-catalogue documentation for a known native target, not an additional target artifact.",
+      "is_extra_raw_candidate_beyond_five_native_target_references": false,
+      "new_native_M163_attestation_authenticated": false,
+      "new_physical_artifact_authenticated_by_this_audit": false,
+      "modern_alias_separately_authenticated": false,
+      "native_export": {
+        "id": "GLI-IND-M77-01051",
+        "source_reference": "1051",
+        "source_doc_count": 1,
+        "source_direction_code": "1",
+        "strict_candidate": true,
+        "tokens": [
+          {
+            "raw": "106",
+            "sign": "M106",
+            "doubtful": false,
+            "unknown_span": false,
+            "diplomatic": "106"
+          },
+          {
+            "raw": "178",
+            "sign": "M178",
+            "doubtful": false,
+            "unknown_span": false,
+            "diplomatic": "178"
+          },
+          {
+            "raw": "254",
+            "sign": "M254",
+            "doubtful": false,
+            "unknown_span": false,
+            "diplomatic": "254"
+          },
+          {
+            "raw": "99",
+            "sign": "M099",
+            "doubtful": false,
+            "unknown_span": false,
+            "diplomatic": "099"
+          },
+          {
+            "raw": "163",
+            "sign": "M163",
+            "doubtful": false,
+            "unknown_span": false,
+            "diplomatic": "163"
+          }
+        ]
+      },
+      "native_object_presence": "present via documented locator"
+    },
+    {
+      "raw": {
+        "id": "3399.1",
+        "cisi": "M-1014",
+        "excavation-idno": "VS 3227397",
+        "site": "Mohenjo-daro",
+        "type": "SEAL:S",
+        "preservation": "fragment",
+        "complete": "?",
+        "condition": "Poor",
+        "text": "+842-391-297-705-717[",
+        "dir.": "R/L"
+      },
+      "candidate_target": "W391",
+      "native_reference": "1397",
+      "status": "old_native_target_documentary_join",
+      "identity_basis": "Marshall volumeII printed404/PDF55 row397 is VS3227. M77 Appendix printed818/PDF827 maps MIC397 to1397. Modern M1014 alias remains secondary.",
+      "limits": "Raw fragment, complete=?, and open text boundary agree with a need for caution; native field has LOSS and doubtfulM341. Cannot enter a complete-undoubted test.",
+      "is_extra_raw_candidate_beyond_five_native_target_references": false,
+      "new_native_M163_attestation_authenticated": false,
+      "new_physical_artifact_authenticated_by_this_audit": false,
+      "modern_alias_separately_authenticated": false,
+      "native_export": {
+        "id": "GLI-IND-M77-01397",
+        "source_reference": "1397",
+        "source_doc_count": 1,
+        "source_direction_code": "1",
+        "strict_candidate": false,
+        "tokens": [
+          {
+            "raw": "0",
+            "sign": null,
+            "doubtful": false,
+            "unknown_span": true,
+            "diplomatic": "000"
+          },
+          {
+            "raw": "*341",
+            "sign": "M341",
+            "doubtful": true,
+            "unknown_span": false,
+            "diplomatic": "*341"
+          },
+          {
+            "raw": "336",
+            "sign": "M336",
+            "doubtful": false,
+            "unknown_span": false,
+            "diplomatic": "336"
+          },
+          {
+            "raw": "180",
+            "sign": "M180",
+            "doubtful": false,
+            "unknown_span": false,
+            "diplomatic": "180"
+          },
+          {
+            "raw": "163",
+            "sign": "M163",
+            "doubtful": false,
+            "unknown_span": false,
+            "diplomatic": "163"
+          },
+          {
+            "raw": "404",
+            "sign": "M404",
+            "doubtful": false,
+            "unknown_span": false,
+            "diplomatic": "404"
+          }
+        ]
+      },
+      "native_object_presence": "present via documented locator"
+    },
+    {
+      "raw": {
+        "id": "3680.1",
+        "cisi": "M-1384",
+        "excavation-idno": "-",
+        "site": "Mohenjo-daro",
+        "type": "TAG:L",
+        "preservation": "complete",
+        "complete": "Y",
+        "condition": "Poor",
+        "text": "+904-004-821-001-480-850-595-391+",
+        "dir.": "R/L"
+      },
+      "candidate_target": "W391",
+      "native_reference": null,
+      "status": "unjoined_tag_candidate",
+      "identity_basis": "M1384 has no excavation identifier in raw row. Its shared tail does not join it to FEM119,2925,2923 or another tool. Preserve distinct source row without declaring distinct ancient artifact.",
+      "limits": "Raw typeTAG:L, complete=Y and poor condition are source labels; no primary object or original roof state authenticated.",
+      "is_extra_raw_candidate_beyond_five_native_target_references": true,
+      "new_native_M163_attestation_authenticated": false,
+      "new_physical_artifact_authenticated_by_this_audit": false,
+      "modern_alias_separately_authenticated": false,
+      "native_object_presence": "unresolved; no global absence claim"
+    },
+    {
+      "raw": {
+        "id": "4196.1",
+        "cisi": "-",
+        "excavation-idno": "DHR-24475",
+        "site": "Dholavira",
+        "type": "SEAL:S",
+        "preservation": "complete",
+        "complete": "Y",
+        "condition": "Poor",
+        "text": "+391-002-365-550+",
+        "dir.": "R/L"
+      },
+      "candidate_target": "W391",
+      "native_reference": null,
+      "status": "external_source_candidate_pending_other_review",
+      "identity_basis": "Raw DHR-24475 from Dholavira is an additional W-coded candidate outside the five identified nativeM163 target references. No native-M77 identity bridge or photograph assignment made here.",
+      "limits": "Primary image and object identity delegated to separate source review. A new candidate to this native-target selection is not an authenticated newM163 token or independently new physical object.",
+      "is_extra_raw_candidate_beyond_five_native_target_references": true,
+      "new_native_M163_attestation_authenticated": false,
+      "new_physical_artifact_authenticated_by_this_audit": false,
+      "modern_alias_separately_authenticated": false,
+      "native_object_presence": "unresolved; no global absence claim"
+    },
+    {
+      "raw": {
+        "id": "5355.1",
+        "cisi": "Ns-53",
+        "excavation-idno": "NS 91.02.17.01",
+        "site": "Nausharo",
+        "type": "SEAL:S",
+        "preservation": "complete",
+        "complete": "Y",
+        "condition": "Poor",
+        "text": "+861-111-391-060-692+",
+        "dir.": "R/L"
+      },
+      "candidate_target": "W391",
+      "native_reference": null,
+      "status": "external_source_candidate_pending_other_review",
+      "identity_basis": "Raw Ns-53 / NS91.02.17.01 from Nausharo is an additional W-coded candidate outside the five identified nativeM163 target references. No native-M77 identity bridge or photograph assignment made here.",
+      "limits": "Primary image and object identity delegated to separate source review. Do not infer discovery date, semantic novelty or physical independence merely from the identifier or site.",
+      "is_extra_raw_candidate_beyond_five_native_target_references": true,
+      "new_native_M163_attestation_authenticated": false,
+      "new_physical_artifact_authenticated_by_this_audit": false,
+      "modern_alias_separately_authenticated": false,
+      "native_object_presence": "unresolved; no global absence claim"
+    }
+  ],
+  "summary": {
+    "documented_old_native_target_joins": 4,
+    "candidate_old_native_target_join": 1,
+    "known_native_object_with_unrecoverable_target": 1,
+    "unjoined_historical_candidates": 2,
+    "additional_external_source_candidates_pending_primary_review": 2,
+    "new_native_M163_attestations_authenticated": 0,
+    "new_physical_artifacts_authenticated_by_this_audit": 0
+  },
+  "newness_definitions": {
+    "raw_source_row": "Ten existing raw W391 rows are enumerated; no new download or new raw record is created.",
+    "native_target_export": "Five selected target references already containM163. Four documentary joins and one qualified candidate account for their apparent W391 counterparts.",
+    "additional_candidate": "Five other W rows are extra candidates relative to that target set; one already maps to native2923 with LOSS, two historical joins remain unresolved, two external-source rows await separate review.",
+    "new_physical_artifact": "Not established for any candidate merely from source-row counts, shared/different text, or lack of native target mapping."
+  },
+  "attempts": [
+    {
+      "attempt": "Delimiter-aware CSV scan for391",
+      "result": "Ten rows; exact token scan independently returned same ten. Translation columns excluded from saved fields."
+    },
+    {
+      "attempt": "Scan native candidate records forM163 and inspect selected2923",
+      "result": "Exactly1051,1397,2119,2925,8054. Separate2923 starts unknown span with two doubtful positions."
+    },
+    {
+      "attempt": "Review existing original metal/arch ledgers and primary Texts85/PDF96",
+      "result": "2925target retained with other-sign doubt;2923initial target not recoverable. Primary field7535/later7835 disagreement preserved."
+    },
+    {
+      "attempt": "Inspect M77 Appendix818/PDF827 and827/PDF836, CISI374/PDF410, Marshall402/PDF53",
+      "result": "Verified old publication mapping rules, K45/19360/8054 and HR4945/MIC51/1051 documentary chains."
+    },
+    {
+      "attempt": "Render retained Marshall volumeII PDF55 with roof-trident-marshall prefix",
+      "result": "Printed404 row397 visibly VS3227, giving qualified M1014/MIC397/1397 chain."
+    },
+    {
+      "attempt": "Search retained Mackay OCR for7854 and10551",
+      "result": "No reliable exact hit or new individual bridge. OCR weakness is not absence evidence; no download or speculative repair."
+    }
+  ],
+  "new_downloads": [],
+  "corpus_edits": [],
+  "established_semantic_values": 0,
+  "established_phonetic_values": 0,
+  "evidence_files": [
+    {
+      "path": "data/raw/lipi_inscriptions.csv",
+      "bytes": 1204921,
+      "sha256": "b8dcb325a2e2cd3cde12ac12e7a418b0348e45713c9ee28aad81b645d2ac5ee4"
+    },
+    {
+      "path": "data/processed/m77_candidate_records.jsonl",
+      "bytes": 4109921,
+      "sha256": "b29a176da86b125115256a8966c377c3fd9fe39ecaab17bf576b770b83b41bab"
+    },
+    {
+      "path": "data/processed/catalogue_features.json",
+      "bytes": 189902,
+      "sha256": "00836515c6f3beec28b3b66e13d8a9c6e94571cfb2e9dbb4b148651b7ff0032d"
+    },
+    {
+      "path": "data/processed/arch_extension_catalogue_review.json",
+      "bytes": 17250,
+      "sha256": "1481dba2392ffb74fd841be5ccd44153c3837a5a7ce0bc10ebe8ea55628b4bae"
+    },
+    {
+      "path": "data/processed/bronze2923_identity_review.json",
+      "bytes": 7045,
+      "sha256": "52986586a1d77a2a1d4b7e8d767e812a76ae5b781eec0fa44ae6aa60cf65f21e"
+    },
+    {
+      "path": "data/processed/metal_original_records.json",
+      "bytes": 14811,
+      "sha256": "df2004bef9285e72688715006bb00d63984a446c488d80f394f464ff77ca5659"
+    },
+    {
+      "path": "data/processed/metal_plate_audit.json",
+      "bytes": 10162,
+      "sha256": "7c167f18878a3afd4aca22b4387b4790172fb5322db160a05b8256b8e3870b66"
+    },
+    {
+      "path": "data/raw/mahadevan_1977_text.pdf",
+      "bytes": 119302608,
+      "sha256": "6dcdd074a0174e5fab149590fbbf82342711d345764e9763f8e5e92c81cf7f99"
+    },
+    {
+      "path": "data/raw/cisi_76884.pdf",
+      "bytes": 31508998,
+      "sha256": "47a4da4227cfb7baa56d6a561e25797225499d0ec54f5a702a82c67ab4746d4d"
+    },
+    {
+      "path": "data/raw/stone1471_marshall1931_volume2_text.pdf",
+      "bytes": 12167700,
+      "sha256": "e58c4d95c9d7dbac29a3cb04d633d20618de71ab7cb58e7dcf035fb88ceb2ef3"
+    },
+    {
+      "path": "data/raw/metal_original_mackay18225_djvu.txt",
+      "bytes": 2331705,
+      "sha256": "511ee6deb3921bb33708a4a56166db5264687f5c16db0e16d8c55273a2a564c0"
+    },
+    {
+      "path": "data/raw/metal_original_mackay_leaf511.jpg",
+      "bytes": 1854822,
+      "sha256": "6c03c76f2a5bbf01fb655c385a2bd3409e1304a5d078b202f5236980bbaba7a3"
+    },
+    {
+      "path": "results/primary_pages/chain-artifact-m77-827.png",
+      "bytes": 1715296,
+      "sha256": "367e9c400b92bca24b6b75be9e9d205900c7380e645143fc352fecfdda21332c"
+    },
+    {
+      "path": "results/primary_pages/roof-m092-artifact-m77-836.png",
+      "bytes": 4604299,
+      "sha256": "8719cc879281dec52394c1f160d76ad90e05087b1a2d28e56f89fadf06e741d7"
+    },
+    {
+      "path": "results/primary_pages/metal-kalibangan-data-410.png",
+      "bytes": 4295867,
+      "sha256": "3c12cfe48545e52f176cae4a55a0699ce0a382e05ca6e020e5f51b76181cc399"
+    },
+    {
+      "path": "results/primary_pages/comb-tablet-mic-53.png",
+      "bytes": 2682507,
+      "sha256": "adb739fdb744c7b5b7b84fe615136216a159c59696b97a1e568fab9ec6baf921"
+    },
+    {
+      "path": "results/primary_pages/roof-trident-marshall-55.png",
+      "bytes": 2093847,
+      "sha256": "14fcb794176f7dee3352785a520f98fc06ec7ec4eaa7e8a6baf45eb31632f330"
+    },
+    {
+      "path": "results/primary_pages/orientation-text-96.png",
+      "bytes": 1874862,
+      "sha256": "e3e61f99dffde325843a4b9f0a736c6fa4be276a9a92d36af141a05e50856ced"
+    },
+    {
+      "path": "results/primary_pages/arch-extension-2925-detail.png",
+      "bytes": 120688,
+      "sha256": "7fe3b1ecef3d5565fe46d349601dc5ac87a51bee17b36fed4f7b728149a4f5c8"
+    },
+    {
+      "path": "results/primary_pages/metal-original-table-rows.png",
+      "bytes": 518587,
+      "sha256": "b304b6220fe2b62f68934752d245eda385c20397cfc06f7a9fe71435f0e42794"
+    },
+    {
+      "path": "results/roof-trident-marshall_extraction.json",
+      "bytes": 386,
+      "sha256": "44ec9a31c35b2c0913df674149f388a130b5ba533df9dc7db59d10053cdb455b"
+    },
+    {
+      "path": "scripts/audit_roof_trident_candidates.py",
+      "bytes": 11293,
+      "sha256": "1ed8ff68a72101e001e8cac38c1a8ef25a69f8af983d1c8acd7d6c60524ecb4e"
+    }
+  ]
+}

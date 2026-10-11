@@ -1,0 +1,68 @@
+{
+  "cross_site_fixed_strength_20": {
+    "Harappa": {
+      "bits_per_sign": {
+        "bigram_position": 6.625297442322358,
+        "position": 7.1757639236687965,
+        "unigram": 7.188513779626468
+      },
+      "test_unique": 628,
+      "train_unique": 1220
+    },
+    "Mohenjo-daro": {
+      "bits_per_sign": {
+        "bigram_position": 6.453889324826217,
+        "position": 6.989738263916814,
+        "unigram": 7.1540252141900496
+      },
+      "test_unique": 997,
+      "train_unique": 851
+    }
+  },
+  "lipi": {
+    "bits_per_sign": {
+      "bigram": 5.933997015986417,
+      "bigram_position": 6.17832828868355,
+      "position": 6.791957775043207,
+      "unigram": 7.084812572559777
+    },
+    "connected_groups": 1564,
+    "fold_sequence_counts": {
+      "0": 321,
+      "1": 338,
+      "2": 323,
+      "3": 538,
+      "4": 328
+    },
+    "group_bootstrap_95_percentile_intervals": {
+      "bigram_improvement_over_position": [
+        0.8097540223431866,
+        0.9034356880656097
+      ],
+      "bigram_improvement_over_unigram": [
+        1.0822144399012044,
+        1.225286960132556
+      ],
+      "combined_improvement_over_position": [
+        0.5768693973248348,
+        0.6548334463231628
+      ],
+      "combined_improvement_over_unigram": [
+        0.8283762558377553,
+        0.9941376675988145
+      ]
+    },
+    "perplexity": {
+      "bigram": 61.13798147295307,
+      "bigram_position": 72.42060322760065,
+      "position": 110.81103710945857,
+      "unigram": 135.750393764001
+    },
+    "tokens": 8489,
+    "unique_sequences": 1848
+  },
+  "reversal_invariance": {
+    "js_abs_difference": 0.0,
+    "mi_abs_difference": 0.0
+  }
+}

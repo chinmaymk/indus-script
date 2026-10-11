@@ -1,0 +1,48 @@
+{
+  "status": "Exploratory specification made after inspecting catalogue groupings and support counts, before computing this predictive comparison; not preregistered",
+  "candidate_families": "Every feature record in catalogue_features.json with at least two distinct Wells identifiers; these are source groupings, not established allographs",
+  "namespace_policy": "Do not replace inscription signs. Use temporary family labels only for grouping and context features. Retain all original W identifiers and all M mapping uncertainty.",
+  "input": "Existing strict R/L single-line transcription subset",
+  "observation_unit": "Unique artifact, literal sequence, site and object type; source row identifiers retained",
+  "leakage_control": "Connected components linking the same artifact OR the same complete sequence after all candidate-family substitutions; each component belongs to one of five deterministic folds",
+  "target": "Exact W variant, conditional on knowing the source family; not the family itself, language, meaning, or sound",
+  "support_gate": {
+    "minimum_tokens": 20,
+    "minimum_variants_with_five_tokens": 2
+  },
+  "models": [
+    "family frequency with Jeffreys half-count prior",
+    "metadata context (site, object type, exact length, file-order slot) smoothed toward family frequency",
+    "immediate flanking family-normalized signs smoothed toward the metadata prediction"
+  ],
+  "smoothing_strengths": [
+    5,
+    20,
+    100
+  ],
+  "headline_strength": 20,
+  "model_selection": "No choice of best strength per family; all three reported",
+  "bootstrap": "1000 resamples of held-out connected components, fixed predictions and fixed support-selected families; aggregate uncertainty only, not per-family significance",
+  "descriptive_checks": "Exact one-position substitution frames and co-occurrence of distinct family members in a text",
+  "limits": [
+    "No gain is not proof of equivalence, especially with sparse contexts",
+    "Context predictability is compatible with contextual allography, scribal conventions, time or site effects, as well as distinct signs",
+    "Metadata smoothing is a predictive baseline, not complete control of confounding",
+    "Five-fold evaluation reuses this previously examined corpus; it is not an untouched decipherment test",
+    "Every M sign receives an evidence-index row, including explicit absence of a testable mapped family"
+  ],
+  "background_source": {
+    "url": "https://digitalcommons.unl.edu/mechengfacpub/563/",
+    "authors": "Shruti Daggumati and Peter Revesz",
+    "year": 2021,
+    "access": "Public repository abstract read; full paper not downloaded or method replicated"
+  },
+  "post_result_group_size_sensitivity": {
+    "timing": "Added after inspecting initial results and the large connected component",
+    "checks": [
+      "Equal component weights",
+      "Exclude largest component by supported-token count"
+    ],
+    "scope": "Evaluation weighting only; fixed predictions and no refitting; no choice substituted for specified headline result"
+  }
+}

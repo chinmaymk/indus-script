@@ -1,0 +1,65 @@
+{
+  "attempts": [
+    {
+      "label": "paper",
+      "url": "https://insa.nic.in/writereaddata/UpLoadedFiles/IJHS/Vol34_2_1_JSPettersson.pdf",
+      "status": "failed",
+      "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+    },
+    {
+      "label": "errata",
+      "url": "https://kau.diva-portal.org/smash/get/diva2%3A593951/ERRATA01.pdf",
+      "status": "failed",
+      "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>"
+    },
+    {
+      "label": "paper",
+      "url": "https://insa.nic.in/writereaddata/UpLoadedFiles/IJHS/Vol34_2_1_JSPettersson.pdf",
+      "resolved_url": "https://insa.nic.in/writereaddata/UpLoadedFiles/IJHS/Vol34_2_1_JSPettersson.pdf",
+      "path": "data/raw/pettersson_1999_indus_numerals_metal_tools.pdf",
+      "bytes": 324816,
+      "sha256": "6668f9ff93612059eaa385f1356f8138ebe76ddeeeb8b51043830131d9265b8a",
+      "content_type": "application/pdf",
+      "status": "downloaded"
+    },
+    {
+      "label": "errata",
+      "url": "https://kau.diva-portal.org/smash/get/diva2%3A593951/ERRATA01.pdf",
+      "status": "failed",
+      "error": "<urlopen error timed out>"
+    },
+    {
+      "label": "errata bounded retry",
+      "url": "https://kau.diva-portal.org/smash/get/diva2%3A593951/ERRATA01.pdf",
+      "status": "failed",
+      "error": "<urlopen error timed out>"
+    },
+    {
+      "label": "official record via web.open",
+      "url": "https://insa.ndl.gov.in/items/049524a4-8d7a-478e-928d-c44bf4e90523/full",
+      "status": "web_open_timeout_then_search_index_available"
+    },
+    {
+      "label": "DiVA public record via web.open",
+      "url": "https://www.diva-portal.org/smash/record.jsf?pid=diva2%3A593951",
+      "status": "anti_bot_challenge",
+      "action": "Stopped; no attempt to bypass."
+    }
+  ],
+  "artifacts": [
+    {
+      "path": "data/raw/pettersson_1999_indus_numerals_metal_tools.pdf",
+      "sha256": "6668f9ff93612059eaa385f1356f8138ebe76ddeeeb8b51043830131d9265b8a",
+      "bytes": 324816,
+      "url": "https://insa.nic.in/writereaddata/UpLoadedFiles/IJHS/Vol34_2_1_JSPettersson.pdf",
+      "kind": "original_publisher_pdf"
+    },
+    {
+      "path": "data/raw/pettersson_1999_errata_web_capture.json",
+      "sha256": "00f5b42ba4da7ab806ebe14065837d1441f4b8b768076f25ee6cddc6b0d651ab",
+      "bytes": 1357,
+      "url": "https://kau.diva-portal.org/smash/get/diva2%3A593951/ERRATA01.pdf",
+      "kind": "web_tool_indexed_text_response_capture_NOT_original_PDF"
+    }
+  ]
+}

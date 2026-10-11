@@ -1,0 +1,3034 @@
+{
+  "all_checks_passed": true,
+  "established_phonetic_values": 0,
+  "established_semantic_values": 0,
+  "independence": "No imports from audit_pincer_preservation or screen_pincer_contexts. Whole-pair compatibility reconstructed from reversed W sequence and candidate M sequence, independent of target_assignments summaries; candidate-set discovery itself is not revalidated.",
+  "input_sha256": {
+    "data/processed/pincer_preservation_protocol.json": "886bbec272fb939358f5f7bd6513341f63d7f82b29a63f3a98969967e58937e7",
+    "data/raw/lipi_inscriptions.csv": "b8dcb325a2e2cd3cde12ac12e7a418b0348e45713c9ee28aad81b645d2ac5ee4",
+    "results/pincer_context_screen.json": "9a680e61fb8633a47472212e63c02396b0934cc97039f55cb1762922dffa1bec",
+    "results/pincer_preservation_audit.json": "7a5bb86206c8e2c08ed68362a1def8a150ab1484fb8277ee3a30a2327e750bf0"
+  },
+  "model_partition_combinations_checked": 12,
+  "partitions": {
+    "all": {
+      "models": {
+        "both_M216": {
+          "compatible": [
+            "H-2084",
+            "H-1294",
+            "H-421",
+            "H-611",
+            "L-1",
+            "L-9",
+            "L-58",
+            "L-122",
+            "M-1847",
+            "M-1764",
+            "M-1800",
+            "M-821",
+            "M-42",
+            "M-56",
+            "M-82",
+            "M-149",
+            "M-158",
+            "M-307",
+            "M-365",
+            "M-873",
+            "M-939",
+            "M-964",
+            "M-1299",
+            "M-1351",
+            "M-1371",
+            "M-1381"
+          ],
+          "incompatible_given_candidate_set": [
+            "H-459",
+            "L-89",
+            "M-940",
+            "M-1917",
+            "M-1693",
+            "M-63",
+            "M-897",
+            "M-934",
+            "M-1081",
+            "M-1320"
+          ],
+          "no_candidate_uninformative": [
+            "B-1",
+            "-",
+            "H-1123",
+            "H-1924",
+            "H-1893",
+            "H-1776",
+            "H-1816",
+            "H-2069",
+            "H-1767",
+            "H-1814",
+            "H-1813",
+            "H-1951",
+            "H-2040",
+            "H-1840",
+            "H-1812",
+            "H-1811",
+            "H-20",
+            "H-21",
+            "H-49",
+            "H-386",
+            "H-483",
+            "H-645",
+            "H-715",
+            "H-774",
+            "H-791",
+            "L-51",
+            "L-145",
+            "M-2041",
+            "M-2040",
+            "M-2014",
+            "M-49",
+            "M-81",
+            "M-108",
+            "M-133",
+            "M-253",
+            "M-304",
+            "M-396",
+            "M-401",
+            "M-501",
+            "M-739",
+            "M-777",
+            "M-833",
+            "M-849",
+            "M-921",
+            "M-955",
+            "M-980",
+            "M-1080",
+            "M-1113",
+            "M-1390",
+            "M-1444",
+            "M-1445",
+            "-",
+            "?-5",
+            "M-1973",
+            "-",
+            "-",
+            "-"
+          ]
+        },
+        "both_M222": {
+          "compatible": [
+            "H-2084",
+            "H-459",
+            "L-9",
+            "L-89",
+            "M-1847",
+            "M-940",
+            "M-1800",
+            "M-1917",
+            "M-1693",
+            "M-821",
+            "M-897",
+            "M-934",
+            "M-939",
+            "M-1081",
+            "M-1320",
+            "M-1351"
+          ],
+          "incompatible_given_candidate_set": [
+            "H-1294",
+            "H-421",
+            "H-611",
+            "L-1",
+            "L-58",
+            "L-122",
+            "M-1764",
+            "M-42",
+            "M-56",
+            "M-63",
+            "M-82",
+            "M-149",
+            "M-158",
+            "M-307",
+            "M-365",
+            "M-873",
+            "M-964",
+            "M-1299",
+            "M-1371",
+            "M-1381"
+          ],
+          "no_candidate_uninformative": [
+            "B-1",
+            "-",
+            "H-1123",
+            "H-1924",
+            "H-1893",
+            "H-1776",
+            "H-1816",
+            "H-2069",
+            "H-1767",
+            "H-1814",
+            "H-1813",
+            "H-1951",
+            "H-2040",
+            "H-1840",
+            "H-1812",
+            "H-1811",
+            "H-20",
+            "H-21",
+            "H-49",
+            "H-386",
+            "H-483",
+            "H-645",
+            "H-715",
+            "H-774",
+            "H-791",
+            "L-51",
+            "L-145",
+            "M-2041",
+            "M-2040",
+            "M-2014",
+            "M-49",
+            "M-81",
+            "M-108",
+            "M-133",
+            "M-253",
+            "M-304",
+            "M-396",
+            "M-401",
+            "M-501",
+            "M-739",
+            "M-777",
+            "M-833",
+            "M-849",
+            "M-921",
+            "M-955",
+            "M-980",
+            "M-1080",
+            "M-1113",
+            "M-1390",
+            "M-1444",
+            "M-1445",
+            "-",
+            "?-5",
+            "M-1973",
+            "-",
+            "-",
+            "-"
+          ]
+        },
+        "local_split": {
+          "compatible": [
+            "H-2084",
+            "H-1294",
+            "H-421",
+            "H-459",
+            "H-611",
+            "L-1",
+            "L-9",
+            "L-58",
+            "L-89",
+            "L-122",
+            "M-1847",
+            "M-1764",
+            "M-940",
+            "M-1800",
+            "M-1917",
+            "M-1693",
+            "M-821",
+            "M-42",
+            "M-56",
+            "M-63",
+            "M-82",
+            "M-149",
+            "M-158",
+            "M-307",
+            "M-365",
+            "M-873",
+            "M-934",
+            "M-939",
+            "M-964",
+            "M-1081",
+            "M-1299",
+            "M-1320",
+            "M-1351",
+            "M-1371",
+            "M-1381"
+          ],
+          "incompatible_given_candidate_set": [
+            "M-897"
+          ],
+          "no_candidate_uninformative": [
+            "B-1",
+            "-",
+            "H-1123",
+            "H-1924",
+            "H-1893",
+            "H-1776",
+            "H-1816",
+            "H-2069",
+            "H-1767",
+            "H-1814",
+            "H-1813",
+            "H-1951",
+            "H-2040",
+            "H-1840",
+            "H-1812",
+            "H-1811",
+            "H-20",
+            "H-21",
+            "H-49",
+            "H-386",
+            "H-483",
+            "H-645",
+            "H-715",
+            "H-774",
+            "H-791",
+            "L-51",
+            "L-145",
+            "M-2041",
+            "M-2040",
+            "M-2014",
+            "M-49",
+            "M-81",
+            "M-108",
+            "M-133",
+            "M-253",
+            "M-304",
+            "M-396",
+            "M-401",
+            "M-501",
+            "M-739",
+            "M-777",
+            "M-833",
+            "M-849",
+            "M-921",
+            "M-955",
+            "M-980",
+            "M-1080",
+            "M-1113",
+            "M-1390",
+            "M-1444",
+            "M-1445",
+            "-",
+            "?-5",
+            "M-1973",
+            "-",
+            "-",
+            "-"
+          ]
+        },
+        "reversed_split": {
+          "compatible": [
+            "H-2084",
+            "L-9",
+            "M-1847",
+            "M-1800",
+            "M-821",
+            "M-897",
+            "M-939",
+            "M-1351"
+          ],
+          "incompatible_given_candidate_set": [
+            "H-1294",
+            "H-421",
+            "H-459",
+            "H-611",
+            "L-1",
+            "L-58",
+            "L-89",
+            "L-122",
+            "M-1764",
+            "M-940",
+            "M-1917",
+            "M-1693",
+            "M-42",
+            "M-56",
+            "M-63",
+            "M-82",
+            "M-149",
+            "M-158",
+            "M-307",
+            "M-365",
+            "M-873",
+            "M-934",
+            "M-964",
+            "M-1081",
+            "M-1299",
+            "M-1320",
+            "M-1371",
+            "M-1381"
+          ],
+          "no_candidate_uninformative": [
+            "B-1",
+            "-",
+            "H-1123",
+            "H-1924",
+            "H-1893",
+            "H-1776",
+            "H-1816",
+            "H-2069",
+            "H-1767",
+            "H-1814",
+            "H-1813",
+            "H-1951",
+            "H-2040",
+            "H-1840",
+            "H-1812",
+            "H-1811",
+            "H-20",
+            "H-21",
+            "H-49",
+            "H-386",
+            "H-483",
+            "H-645",
+            "H-715",
+            "H-774",
+            "H-791",
+            "L-51",
+            "L-145",
+            "M-2041",
+            "M-2040",
+            "M-2014",
+            "M-49",
+            "M-81",
+            "M-108",
+            "M-133",
+            "M-253",
+            "M-304",
+            "M-396",
+            "M-401",
+            "M-501",
+            "M-739",
+            "M-777",
+            "M-833",
+            "M-849",
+            "M-921",
+            "M-955",
+            "M-980",
+            "M-1080",
+            "M-1113",
+            "M-1390",
+            "M-1444",
+            "M-1445",
+            "-",
+            "?-5",
+            "M-1973",
+            "-",
+            "-",
+            "-"
+          ]
+        }
+      },
+      "preservation_counts": {
+        "chipped": 4,
+        "complete": 72,
+        "fragment": 7,
+        "partly damaged": 3,
+        "slightly chipped": 7
+      },
+      "selected_rows": 93,
+      "with_candidates": 36
+    },
+    "source_complete": {
+      "models": {
+        "both_M216": {
+          "compatible": [
+            "H-2084",
+            "H-1294",
+            "L-1",
+            "L-9",
+            "L-58",
+            "L-122",
+            "M-1847",
+            "M-1764",
+            "M-1800",
+            "M-42",
+            "M-56",
+            "M-82",
+            "M-158",
+            "M-365",
+            "M-939",
+            "M-964",
+            "M-1299",
+            "M-1351",
+            "M-1371",
+            "M-1381"
+          ],
+          "incompatible_given_candidate_set": [
+            "H-459",
+            "L-89",
+            "M-940",
+            "M-1693",
+            "M-934",
+            "M-1081",
+            "M-1320"
+          ],
+          "no_candidate_uninformative": [
+            "B-1",
+            "-",
+            "H-1123",
+            "H-1924",
+            "H-1893",
+            "H-1776",
+            "H-1816",
+            "H-2069",
+            "H-1814",
+            "H-1813",
+            "H-1951",
+            "H-2040",
+            "H-1840",
+            "H-1811",
+            "H-20",
+            "H-21",
+            "H-49",
+            "H-645",
+            "H-774",
+            "H-791",
+            "L-51",
+            "M-2041",
+            "M-2040",
+            "M-2014",
+            "M-81",
+            "M-108",
+            "M-133",
+            "M-396",
+            "M-401",
+            "M-501",
+            "M-739",
+            "M-777",
+            "M-833",
+            "M-849",
+            "M-921",
+            "M-1080",
+            "M-1113",
+            "M-1390",
+            "M-1444",
+            "M-1445",
+            "-",
+            "?-5",
+            "M-1973",
+            "-",
+            "-"
+          ]
+        },
+        "both_M222": {
+          "compatible": [
+            "H-2084",
+            "H-459",
+            "L-9",
+            "L-89",
+            "M-1847",
+            "M-940",
+            "M-1800",
+            "M-1693",
+            "M-934",
+            "M-939",
+            "M-1081",
+            "M-1320",
+            "M-1351"
+          ],
+          "incompatible_given_candidate_set": [
+            "H-1294",
+            "L-1",
+            "L-58",
+            "L-122",
+            "M-1764",
+            "M-42",
+            "M-56",
+            "M-82",
+            "M-158",
+            "M-365",
+            "M-964",
+            "M-1299",
+            "M-1371",
+            "M-1381"
+          ],
+          "no_candidate_uninformative": [
+            "B-1",
+            "-",
+            "H-1123",
+            "H-1924",
+            "H-1893",
+            "H-1776",
+            "H-1816",
+            "H-2069",
+            "H-1814",
+            "H-1813",
+            "H-1951",
+            "H-2040",
+            "H-1840",
+            "H-1811",
+            "H-20",
+            "H-21",
+            "H-49",
+            "H-645",
+            "H-774",
+            "H-791",
+            "L-51",
+            "M-2041",
+            "M-2040",
+            "M-2014",
+            "M-81",
+            "M-108",
+            "M-133",
+            "M-396",
+            "M-401",
+            "M-501",
+            "M-739",
+            "M-777",
+            "M-833",
+            "M-849",
+            "M-921",
+            "M-1080",
+            "M-1113",
+            "M-1390",
+            "M-1444",
+            "M-1445",
+            "-",
+            "?-5",
+            "M-1973",
+            "-",
+            "-"
+          ]
+        },
+        "local_split": {
+          "compatible": [
+            "H-2084",
+            "H-1294",
+            "H-459",
+            "L-1",
+            "L-9",
+            "L-58",
+            "L-89",
+            "L-122",
+            "M-1847",
+            "M-1764",
+            "M-940",
+            "M-1800",
+            "M-1693",
+            "M-42",
+            "M-56",
+            "M-82",
+            "M-158",
+            "M-365",
+            "M-934",
+            "M-939",
+            "M-964",
+            "M-1081",
+            "M-1299",
+            "M-1320",
+            "M-1351",
+            "M-1371",
+            "M-1381"
+          ],
+          "incompatible_given_candidate_set": [],
+          "no_candidate_uninformative": [
+            "B-1",
+            "-",
+            "H-1123",
+            "H-1924",
+            "H-1893",
+            "H-1776",
+            "H-1816",
+            "H-2069",
+            "H-1814",
+            "H-1813",
+            "H-1951",
+            "H-2040",
+            "H-1840",
+            "H-1811",
+            "H-20",
+            "H-21",
+            "H-49",
+            "H-645",
+            "H-774",
+            "H-791",
+            "L-51",
+            "M-2041",
+            "M-2040",
+            "M-2014",
+            "M-81",
+            "M-108",
+            "M-133",
+            "M-396",
+            "M-401",
+            "M-501",
+            "M-739",
+            "M-777",
+            "M-833",
+            "M-849",
+            "M-921",
+            "M-1080",
+            "M-1113",
+            "M-1390",
+            "M-1444",
+            "M-1445",
+            "-",
+            "?-5",
+            "M-1973",
+            "-",
+            "-"
+          ]
+        },
+        "reversed_split": {
+          "compatible": [
+            "H-2084",
+            "L-9",
+            "M-1847",
+            "M-1800",
+            "M-939",
+            "M-1351"
+          ],
+          "incompatible_given_candidate_set": [
+            "H-1294",
+            "H-459",
+            "L-1",
+            "L-58",
+            "L-89",
+            "L-122",
+            "M-1764",
+            "M-940",
+            "M-1693",
+            "M-42",
+            "M-56",
+            "M-82",
+            "M-158",
+            "M-365",
+            "M-934",
+            "M-964",
+            "M-1081",
+            "M-1299",
+            "M-1320",
+            "M-1371",
+            "M-1381"
+          ],
+          "no_candidate_uninformative": [
+            "B-1",
+            "-",
+            "H-1123",
+            "H-1924",
+            "H-1893",
+            "H-1776",
+            "H-1816",
+            "H-2069",
+            "H-1814",
+            "H-1813",
+            "H-1951",
+            "H-2040",
+            "H-1840",
+            "H-1811",
+            "H-20",
+            "H-21",
+            "H-49",
+            "H-645",
+            "H-774",
+            "H-791",
+            "L-51",
+            "M-2041",
+            "M-2040",
+            "M-2014",
+            "M-81",
+            "M-108",
+            "M-133",
+            "M-396",
+            "M-401",
+            "M-501",
+            "M-739",
+            "M-777",
+            "M-833",
+            "M-849",
+            "M-921",
+            "M-1080",
+            "M-1113",
+            "M-1390",
+            "M-1444",
+            "M-1445",
+            "-",
+            "?-5",
+            "M-1973",
+            "-",
+            "-"
+          ]
+        }
+      },
+      "preservation_counts": {
+        "complete": 72
+      },
+      "selected_rows": 72,
+      "with_candidates": 27
+    },
+    "source_complete_two_context_positions": {
+      "models": {
+        "both_M216": {
+          "compatible": [
+            "H-2084",
+            "H-1294",
+            "L-1",
+            "L-9",
+            "L-122",
+            "M-1847",
+            "M-1764",
+            "M-42",
+            "M-56",
+            "M-82",
+            "M-158",
+            "M-365",
+            "M-964",
+            "M-1299",
+            "M-1351",
+            "M-1371",
+            "M-1381"
+          ],
+          "incompatible_given_candidate_set": [
+            "H-459",
+            "L-89",
+            "M-940",
+            "M-1693",
+            "M-934",
+            "M-1081",
+            "M-1320"
+          ],
+          "no_candidate_uninformative": [
+            "B-1",
+            "H-1123",
+            "H-1924",
+            "H-1893",
+            "H-1776",
+            "H-1816",
+            "H-2069",
+            "H-1814",
+            "H-1813",
+            "H-1951",
+            "H-2040",
+            "H-1840",
+            "H-1811",
+            "H-20",
+            "H-21",
+            "H-49",
+            "H-645",
+            "H-774",
+            "L-51",
+            "M-2041",
+            "M-2040",
+            "M-2014",
+            "M-81",
+            "M-108",
+            "M-133",
+            "M-396",
+            "M-401",
+            "M-501",
+            "M-739",
+            "M-777",
+            "M-833",
+            "M-849",
+            "M-921",
+            "M-1080",
+            "M-1113",
+            "M-1390",
+            "M-1444",
+            "M-1445",
+            "-",
+            "?-5",
+            "M-1973",
+            "-",
+            "-"
+          ]
+        },
+        "both_M222": {
+          "compatible": [
+            "H-2084",
+            "H-459",
+            "L-9",
+            "L-89",
+            "M-1847",
+            "M-940",
+            "M-1693",
+            "M-934",
+            "M-1081",
+            "M-1320",
+            "M-1351"
+          ],
+          "incompatible_given_candidate_set": [
+            "H-1294",
+            "L-1",
+            "L-122",
+            "M-1764",
+            "M-42",
+            "M-56",
+            "M-82",
+            "M-158",
+            "M-365",
+            "M-964",
+            "M-1299",
+            "M-1371",
+            "M-1381"
+          ],
+          "no_candidate_uninformative": [
+            "B-1",
+            "H-1123",
+            "H-1924",
+            "H-1893",
+            "H-1776",
+            "H-1816",
+            "H-2069",
+            "H-1814",
+            "H-1813",
+            "H-1951",
+            "H-2040",
+            "H-1840",
+            "H-1811",
+            "H-20",
+            "H-21",
+            "H-49",
+            "H-645",
+            "H-774",
+            "L-51",
+            "M-2041",
+            "M-2040",
+            "M-2014",
+            "M-81",
+            "M-108",
+            "M-133",
+            "M-396",
+            "M-401",
+            "M-501",
+            "M-739",
+            "M-777",
+            "M-833",
+            "M-849",
+            "M-921",
+            "M-1080",
+            "M-1113",
+            "M-1390",
+            "M-1444",
+            "M-1445",
+            "-",
+            "?-5",
+            "M-1973",
+            "-",
+            "-"
+          ]
+        },
+        "local_split": {
+          "compatible": [
+            "H-2084",
+            "H-1294",
+            "H-459",
+            "L-1",
+            "L-9",
+            "L-89",
+            "L-122",
+            "M-1847",
+            "M-1764",
+            "M-940",
+            "M-1693",
+            "M-42",
+            "M-56",
+            "M-82",
+            "M-158",
+            "M-365",
+            "M-934",
+            "M-964",
+            "M-1081",
+            "M-1299",
+            "M-1320",
+            "M-1351",
+            "M-1371",
+            "M-1381"
+          ],
+          "incompatible_given_candidate_set": [],
+          "no_candidate_uninformative": [
+            "B-1",
+            "H-1123",
+            "H-1924",
+            "H-1893",
+            "H-1776",
+            "H-1816",
+            "H-2069",
+            "H-1814",
+            "H-1813",
+            "H-1951",
+            "H-2040",
+            "H-1840",
+            "H-1811",
+            "H-20",
+            "H-21",
+            "H-49",
+            "H-645",
+            "H-774",
+            "L-51",
+            "M-2041",
+            "M-2040",
+            "M-2014",
+            "M-81",
+            "M-108",
+            "M-133",
+            "M-396",
+            "M-401",
+            "M-501",
+            "M-739",
+            "M-777",
+            "M-833",
+            "M-849",
+            "M-921",
+            "M-1080",
+            "M-1113",
+            "M-1390",
+            "M-1444",
+            "M-1445",
+            "-",
+            "?-5",
+            "M-1973",
+            "-",
+            "-"
+          ]
+        },
+        "reversed_split": {
+          "compatible": [
+            "H-2084",
+            "L-9",
+            "M-1847",
+            "M-1351"
+          ],
+          "incompatible_given_candidate_set": [
+            "H-1294",
+            "H-459",
+            "L-1",
+            "L-89",
+            "L-122",
+            "M-1764",
+            "M-940",
+            "M-1693",
+            "M-42",
+            "M-56",
+            "M-82",
+            "M-158",
+            "M-365",
+            "M-934",
+            "M-964",
+            "M-1081",
+            "M-1299",
+            "M-1320",
+            "M-1371",
+            "M-1381"
+          ],
+          "no_candidate_uninformative": [
+            "B-1",
+            "H-1123",
+            "H-1924",
+            "H-1893",
+            "H-1776",
+            "H-1816",
+            "H-2069",
+            "H-1814",
+            "H-1813",
+            "H-1951",
+            "H-2040",
+            "H-1840",
+            "H-1811",
+            "H-20",
+            "H-21",
+            "H-49",
+            "H-645",
+            "H-774",
+            "L-51",
+            "M-2041",
+            "M-2040",
+            "M-2014",
+            "M-81",
+            "M-108",
+            "M-133",
+            "M-396",
+            "M-401",
+            "M-501",
+            "M-739",
+            "M-777",
+            "M-833",
+            "M-849",
+            "M-921",
+            "M-1080",
+            "M-1113",
+            "M-1390",
+            "M-1444",
+            "M-1445",
+            "-",
+            "?-5",
+            "M-1973",
+            "-",
+            "-"
+          ]
+        }
+      },
+      "preservation_counts": {
+        "complete": 67
+      },
+      "selected_rows": 67,
+      "with_candidates": 24
+    }
+  },
+  "rows": [
+    {
+      "cisi": "B-1",
+      "compatible_whole_pair_witnesses": {
+        "both_M216": [],
+        "both_M222": [],
+        "local_split": [],
+        "reversed_split": []
+      },
+      "has_candidate": false,
+      "model_compatible": {
+        "both_M216": null,
+        "both_M222": null,
+        "local_split": null,
+        "reversed_split": null
+      },
+      "non_target_positions": 6,
+      "preservation": "complete",
+      "row_id": "27.1"
+    },
+    {
+      "cisi": "-",
+      "compatible_whole_pair_witnesses": {
+        "both_M216": [],
+        "both_M222": [],
+        "local_split": [],
+        "reversed_split": []
+      },
+      "has_candidate": false,
+      "model_compatible": {
+        "both_M216": null,
+        "both_M222": null,
+        "local_split": null,
+        "reversed_split": null
+      },
+      "non_target_positions": 1,
+      "preservation": "complete",
+      "row_id": "236.1"
+    },
+    {
+      "cisi": "H-1123",
+      "compatible_whole_pair_witnesses": {
+        "both_M216": [],
+        "both_M222": [],
+        "local_split": [],
+        "reversed_split": []
+      },
+      "has_candidate": false,
+      "model_compatible": {
+        "both_M216": null,
+        "both_M222": null,
+        "local_split": null,
+        "reversed_split": null
+      },
+      "non_target_positions": 2,
+      "preservation": "complete",
+      "row_id": "313.1"
+    },
+    {
+      "cisi": "H-1924",
+      "compatible_whole_pair_witnesses": {
+        "both_M216": [],
+        "both_M222": [],
+        "local_split": [],
+        "reversed_split": []
+      },
+      "has_candidate": false,
+      "model_compatible": {
+        "both_M216": null,
+        "both_M222": null,
+        "local_split": null,
+        "reversed_split": null
+      },
+      "non_target_positions": 2,
+      "preservation": "complete",
+      "row_id": "373.2"
+    },
+    {
+      "cisi": "H-1893",
+      "compatible_whole_pair_witnesses": {
+        "both_M216": [],
+        "both_M222": [],
+        "local_split": [],
+        "reversed_split": []
+      },
+      "has_candidate": false,
+      "model_compatible": {
+        "both_M216": null,
+        "both_M222": null,
+        "local_split": null,
+        "reversed_split": null
+      },
+      "non_target_positions": 3,
+      "preservation": "complete",
+      "row_id": "374.2"
+    },
+    {
+      "cisi": "H-1776",
+      "compatible_whole_pair_witnesses": {
+        "both_M216": [],
+        "both_M222": [],
+        "local_split": [],
+        "reversed_split": []
+      },
+      "has_candidate": false,
+      "model_compatible": {
+        "both_M216": null,
+        "both_M222": null,
+        "local_split": null,
+        "reversed_split": null
+      },
+      "non_target_positions": 4,
+      "preservation": "complete",
+      "row_id": "378.1"
+    },
+    {
+      "cisi": "H-2084",
+      "compatible_whole_pair_witnesses": {
+        "both_M216": [
+          "472.1__GLI-IND-M77-01269"
+        ],
+        "both_M222": [
+          "472.1__GLI-IND-M77-02142"
+        ],
+        "local_split": [
+          "472.1__GLI-IND-M77-02142"
+        ],
+        "reversed_split": [
+          "472.1__GLI-IND-M77-01269"
+        ]
+      },
+      "has_candidate": true,
+      "model_compatible": {
+        "both_M216": true,
+        "both_M222": true,
+        "local_split": true,
+        "reversed_split": true
+      },
+      "non_target_positions": 2,
+      "preservation": "complete",
+      "row_id": "472.1"
+    },
+    {
+      "cisi": "H-1816",
+      "compatible_whole_pair_witnesses": {
+        "both_M216": [],
+        "both_M222": [],
+        "local_split": [],
+        "reversed_split": []
+      },
+      "has_candidate": false,
+      "model_compatible": {
+        "both_M216": null,
+        "both_M222": null,
+        "local_split": null,
+        "reversed_split": null
+      },
+      "non_target_positions": 5,
+      "preservation": "complete",
+      "row_id": "512.2"
+    },
+    {
+      "cisi": "H-2069",
+      "compatible_whole_pair_witnesses": {
+        "both_M216": [],
+        "both_M222": [],
+        "local_split": [],
+        "reversed_split": []
+      },
+      "has_candidate": false,
+      "model_compatible": {
+        "both_M216": null,
+        "both_M222": null,
+        "local_split": null,
+        "reversed_split": null
+      },
+      "non_target_positions": 4,
+      "preservation": "complete",
+      "row_id": "532.2"
+    },
+    {
+      "cisi": "H-1767",
+      "compatible_whole_pair_witnesses": {
+        "both_M216": [],
+        "both_M222": [],
+        "local_split": [],
+        "reversed_split": []
+      },
+      "has_candidate": false,
+      "model_compatible": {
+        "both_M216": null,
+        "both_M222": null,
+        "local_split": null,
+        "reversed_split": null
+      },
+      "non_target_positions": 2,
+      "preservation": "slightly chipped",
+      "row_id": "552.1"
+    },
+    {
+      "cisi": "H-1814",
+      "compatible_whole_pair_witnesses": {
+        "both_M216": [],
+        "both_M222": [],
+        "local_split": [],
+        "reversed_split": []
+      },
+      "has_candidate": false,
+      "model_compatible": {
+        "both_M216": null,
+        "both_M222": null,
+        "local_split": null,
+        "reversed_split": null
+      },
+      "non_target_positions": 5,
+      "preservation": "complete",
+      "row_id": "635.1"
+    },
+    {
+      "cisi": "H-1813",
+      "compatible_whole_pair_witnesses": {
+        "both_M216": [],
+        "both_M222": [],
+        "local_split": [],
+        "reversed_split": []
+      },
+      "has_candidate": false,
+      "model_compatible": {
+        "both_M216": null,
+        "both_M222": null,
+        "local_split": null,
+        "reversed_split": null
+      },
+      "non_target_positions": 5,
+      "preservation": "complete",
+      "row_id": "653.1"
+    },
+    {
+      "cisi": "H-1951",
+      "compatible_whole_pair_witnesses": {
+        "both_M216": [],
+        "both_M222": [],
+        "local_split": [],
+        "reversed_split": []
+      },
+      "has_candidate": false,
+      "model_compatible": {
+        "both_M216": null,
+        "both_M222": null,
+        "local_split": null,
+        "reversed_split": null
+      },
+      "non_target_positions": 3,
+      "preservation": "complete",
+      "row_id": "662.1"
+    },
+    {
+      "cisi": "H-2040",
+      "compatible_whole_pair_witnesses": {
+        "both_M216": [],
+        "both_M222": [],
+        "local_split": [],
+        "reversed_split": []
+      },
+      "has_candidate": false,
+      "model_compatible": {
+        "both_M216": null,
+        "both_M222": null,
+        "local_split": null,
+        "reversed_split": null
+      },
+      "non_target_positions": 3,
+      "preservation": "complete",
+      "row_id": "760.1"
+    },
+    {
+      "cisi": "H-1840",
+      "compatible_whole_pair_witnesses": {
+        "both_M216": [],
+        "both_M222": [],
+        "local_split": [],
+        "reversed_split": []
+      },
+      "has_candidate": false,
+      "model_compatible": {
+        "both_M216": null,
+        "both_M222": null,
+        "local_split": null,
+        "reversed_split": null
+      },
+      "non_target_positions": 5,
+      "preservation": "complete",
+      "row_id": "788.1"
+    },
+    {
+      "cisi": "H-1812",
+      "compatible_whole_pair_witnesses": {
+        "both_M216": [],
+        "both_M222": [],
+        "local_split": [],
+        "reversed_split": []
+      },
+      "has_candidate": false,
+      "model_compatible": {
+        "both_M216": null,
+        "both_M222": null,
+        "local_split": null,
+        "reversed_split": null
+      },
+      "non_target_positions": 5,
+      "preservation": "chipped",
+      "row_id": "867.1"
+    },
+    {
+      "cisi": "H-1811",
+      "compatible_whole_pair_witnesses": {
+        "both_M216": [],
+        "both_M222": [],
+        "local_split": [],
+        "reversed_split": []
+      },
+      "has_candidate": false,
+      "model_compatible": {
+        "both_M216": null,
+        "both_M222": null,
+        "local_split": null,
+        "reversed_split": null
+      },
+      "non_target_positions": 5,
+      "preservation": "complete",
+      "row_id": "916.1"
+    },
+    {
+      "cisi": "H-1294",
+      "compatible_whole_pair_witnesses": {
+        "both_M216": [
+          "1061.1__GLI-IND-M77-05469"
+        ],
+        "both_M222": [],
+        "local_split": [
+          "1061.1__GLI-IND-M77-05469"
+        ],
+        "reversed_split": []
+      },
+      "has_candidate": true,
+      "model_compatible": {
+        "both_M216": true,
+        "both_M222": false,
+        "local_split": true,
+        "reversed_split": false
+      },
+      "non_target_positions": 2,
+      "preservation": "complete",
+      "row_id": "1061.1"
+    },
+    {
+      "cisi": "H-20",
+      "compatible_whole_pair_witnesses": {
+        "both_M216": [],
+        "both_M222": [],
+        "local_split": [],
+        "reversed_split": []
+      },
+      "has_candidate": false,
+      "model_compatible": {
+        "both_M216": null,
+        "both_M222": null,
+        "local_split": null,
+        "reversed_split": null
+      },
+      "non_target_positions": 9,
+      "preservation": "complete",
+      "row_id": "1080.1"
+    },
+    {
+      "cisi": "H-21",
+      "compatible_whole_pair_witnesses": {
+        "both_M216": [],
+        "both_M222": [],
+        "local_split": [],
+        "reversed_split": []
+      },
+      "has_candidate": false,
+      "model_compatible": {
+        "both_M216": null,
+        "both_M222": null,
+        "local_split": null,
+        "reversed_split": null
+      },
+      "non_target_positions": 8,
+      "preservation": "complete",
+      "row_id": "1081.1"
+    },
+    {
+      "cisi": "H-49",
+      "compatible_whole_pair_witnesses": {
+        "both_M216": [],
+        "both_M222": [],
+        "local_split": [],
+        "reversed_split": []
+      },
+      "has_candidate": false,
+      "model_compatible": {
+        "both_M216": null,
+        "both_M222": null,
+        "local_split": null,
+        "reversed_split": null
+      },
+      "non_target_positions": 2,
+      "preservation": "complete",
+      "row_id": "1108.1"
+    },
+    {
+      "cisi": "H-386",
+      "compatible_whole_pair_witnesses": {
+        "both_M216": [],
+        "both_M222": [],
+        "local_split": [],
+        "reversed_split": []
+      },
+      "has_candidate": false,
+      "model_compatible": {
+        "both_M216": null,
+        "both_M222": null,
+        "local_split": null,
+        "reversed_split": null
+      },
+      "non_target_positions": 8,
+      "preservation": "slightly chipped",
+      "row_id": "1400.1"
+    },
+    {
+      "cisi": "H-421",
+      "compatible_whole_pair_witnesses": {
+        "both_M216": [
+          "1423.1__GLI-IND-M77-04026"
+        ],
+        "both_M222": [],
+        "local_split": [
+          "1423.1__GLI-IND-M77-04026"
+        ],
+        "reversed_split": []
+      },
+      "has_candidate": true,
+      "model_compatible": {
+        "both_M216": true,
+        "both_M222": false,
+        "local_split": true,
+        "reversed_split": false
+      },
+      "non_target_positions": 4,
+      "preservation": "partly damaged",
+      "row_id": "1423.1"
+    },
+    {
+      "cisi": "H-459",
+      "compatible_whole_pair_witnesses": {
+        "both_M216": [],
+        "both_M222": [
+          "1449.1__GLI-IND-M77-04092"
+        ],
+        "local_split": [
+          "1449.1__GLI-IND-M77-04092"
+        ],
+        "reversed_split": []
+      },
+      "has_candidate": true,
+      "model_compatible": {
+        "both_M216": false,
+        "both_M222": true,
+        "local_split": true,
+        "reversed_split": false
+      },
+      "non_target_positions": 4,
+      "preservation": "complete",
+      "row_id": "1449.1"
+    },
+    {
+      "cisi": "H-483",
+      "compatible_whole_pair_witnesses": {
+        "both_M216": [],
+        "both_M222": [],
+        "local_split": [],
+        "reversed_split": []
+      },
+      "has_candidate": false,
+      "model_compatible": {
+        "both_M216": null,
+        "both_M222": null,
+        "local_split": null,
+        "reversed_split": null
+      },
+      "non_target_positions": 5,
+      "preservation": "fragment",
+      "row_id": "1471.1"
+    },
+    {
+      "cisi": "H-611",
+      "compatible_whole_pair_witnesses": {
+        "both_M216": [
+          "1551.1__GLI-IND-M77-04260"
+        ],
+        "both_M222": [],
+        "local_split": [
+          "1551.1__GLI-IND-M77-04260"
+        ],
+        "reversed_split": []
+      },
+      "has_candidate": true,
+      "model_compatible": {
+        "both_M216": true,
+        "both_M222": false,
+        "local_split": true,
+        "reversed_split": false
+      },
+      "non_target_positions": 4,
+      "preservation": "fragment",
+      "row_id": "1551.1"
+    },
+    {
+      "cisi": "H-645",
+      "compatible_whole_pair_witnesses": {
+        "both_M216": [],
+        "both_M222": [],
+        "local_split": [],
+        "reversed_split": []
+      },
+      "has_candidate": false,
+      "model_compatible": {
+        "both_M216": null,
+        "both_M222": null,
+        "local_split": null,
+        "reversed_split": null
+      },
+      "non_target_positions": 3,
+      "preservation": "complete",
+      "row_id": "1560.1"
+    },
+    {
+      "cisi": "H-715",
+      "compatible_whole_pair_witnesses": {
+        "both_M216": [],
+        "both_M222": [],
+        "local_split": [],
+        "reversed_split": []
+      },
+      "has_candidate": false,
+      "model_compatible": {
+        "both_M216": null,
+        "both_M222": null,
+        "local_split": null,
+        "reversed_split": null
+      },
+      "non_target_positions": 3,
+      "preservation": "chipped",
+      "row_id": "1619.1"
+    },
+    {
+      "cisi": "H-774",
+      "compatible_whole_pair_witnesses": {
+        "both_M216": [],
+        "both_M222": [],
+        "local_split": [],
+        "reversed_split": []
+      },
+      "has_candidate": false,
+      "model_compatible": {
+        "both_M216": null,
+        "both_M222": null,
+        "local_split": null,
+        "reversed_split": null
+      },
+      "non_target_positions": 5,
+      "preservation": "complete",
+      "row_id": "1666.1"
+    },
+    {
+      "cisi": "H-791",
+      "compatible_whole_pair_witnesses": {
+        "both_M216": [],
+        "both_M222": [],
+        "local_split": [],
+        "reversed_split": []
+      },
+      "has_candidate": false,
+      "model_compatible": {
+        "both_M216": null,
+        "both_M222": null,
+        "local_split": null,
+        "reversed_split": null
+      },
+      "non_target_positions": 1,
+      "preservation": "complete",
+      "row_id": "1682.2"
+    },
+    {
+      "cisi": "L-1",
+      "compatible_whole_pair_witnesses": {
+        "both_M216": [
+          "1984.1__GLI-IND-M77-07015"
+        ],
+        "both_M222": [],
+        "local_split": [
+          "1984.1__GLI-IND-M77-07015"
+        ],
+        "reversed_split": []
+      },
+      "has_candidate": true,
+      "model_compatible": {
+        "both_M216": true,
+        "both_M222": false,
+        "local_split": true,
+        "reversed_split": false
+      },
+      "non_target_positions": 5,
+      "preservation": "complete",
+      "row_id": "1984.1"
+    },
+    {
+      "cisi": "L-9",
+      "compatible_whole_pair_witnesses": {
+        "both_M216": [
+          "1988.1__GLI-IND-M77-01269"
+        ],
+        "both_M222": [
+          "1988.1__GLI-IND-M77-02142"
+        ],
+        "local_split": [
+          "1988.1__GLI-IND-M77-02142"
+        ],
+        "reversed_split": [
+          "1988.1__GLI-IND-M77-01269"
+        ]
+      },
+      "has_candidate": true,
+      "model_compatible": {
+        "both_M216": true,
+        "both_M222": true,
+        "local_split": true,
+        "reversed_split": true
+      },
+      "non_target_positions": 2,
+      "preservation": "complete",
+      "row_id": "1988.1"
+    },
+    {
+      "cisi": "L-51",
+      "compatible_whole_pair_witnesses": {
+        "both_M216": [],
+        "both_M222": [],
+        "local_split": [],
+        "reversed_split": []
+      },
+      "has_candidate": false,
+      "model_compatible": {
+        "both_M216": null,
+        "both_M222": null,
+        "local_split": null,
+        "reversed_split": null
+      },
+      "non_target_positions": 3,
+      "preservation": "complete",
+      "row_id": "2020.1"
+    },
+    {
+      "cisi": "L-58",
+      "compatible_whole_pair_witnesses": {
+        "both_M216": [
+          "2025.1__GLI-IND-M77-07029"
+        ],
+        "both_M222": [],
+        "local_split": [
+          "2025.1__GLI-IND-M77-07029"
+        ],
+        "reversed_split": []
+      },
+      "has_candidate": true,
+      "model_compatible": {
+        "both_M216": true,
+        "both_M222": false,
+        "local_split": true,
+        "reversed_split": false
+      },
+      "non_target_positions": 1,
+      "preservation": "complete",
+      "row_id": "2025.1"
+    },
+    {
+      "cisi": "L-89",
+      "compatible_whole_pair_witnesses": {
+        "both_M216": [],
+        "both_M222": [
+          "2043.1__GLI-IND-M77-01158",
+          "2043.1__GLI-IND-M77-02545",
+          "2043.1__GLI-IND-M77-07090"
+        ],
+        "local_split": [
+          "2043.1__GLI-IND-M77-01158",
+          "2043.1__GLI-IND-M77-02545",
+          "2043.1__GLI-IND-M77-07090"
+        ],
+        "reversed_split": []
+      },
+      "has_candidate": true,
+      "model_compatible": {
+        "both_M216": false,
+        "both_M222": true,
+        "local_split": true,
+        "reversed_split": false
+      },
+      "non_target_positions": 4,
+      "preservation": "complete",
+      "row_id": "2043.1"
+    },
+    {
+      "cisi": "L-122",
+      "compatible_whole_pair_witnesses": {
+        "both_M216": [
+          "2067.1__GLI-IND-M77-07069"
+        ],
+        "both_M222": [],
+        "local_split": [
+          "2067.1__GLI-IND-M77-07069"
+        ],
+        "reversed_split": []
+      },
+      "has_candidate": true,
+      "model_compatible": {
+        "both_M216": true,
+        "both_M222": false,
+        "local_split": true,
+        "reversed_split": false
+      },
+      "non_target_positions": 5,
+      "preservation": "complete",
+      "row_id": "2067.1"
+    },
+    {
+      "cisi": "L-145",
+      "compatible_whole_pair_witnesses": {
+        "both_M216": [],
+        "both_M222": [],
+        "local_split": [],
+        "reversed_split": []
+      },
+      "has_candidate": false,
+      "model_compatible": {
+        "both_M216": null,
+        "both_M222": null,
+        "local_split": null,
+        "reversed_split": null
+      },
+      "non_target_positions": 3,
+      "preservation": "fragment",
+      "row_id": "2087.1"
+    },
+    {
+      "cisi": "M-1847",
+      "compatible_whole_pair_witnesses": {
+        "both_M216": [
+          "2181.1__GLI-IND-M77-01269"
+        ],
+        "both_M222": [
+          "2181.1__GLI-IND-M77-02142"
+        ],
+        "local_split": [
+          "2181.1__GLI-IND-M77-01269"
+        ],
+        "reversed_split": [
+          "2181.1__GLI-IND-M77-02142"
+        ]
+      },
+      "has_candidate": true,
+      "model_compatible": {
+        "both_M216": true,
+        "both_M222": true,
+        "local_split": true,
+        "reversed_split": true
+      },
+      "non_target_positions": 2,
+      "preservation": "complete",
+      "row_id": "2181.1"
+    },
+    {
+      "cisi": "M-1764",
+      "compatible_whole_pair_witnesses": {
+        "both_M216": [
+          "2196.1__GLI-IND-M77-01136"
+        ],
+        "both_M222": [],
+        "local_split": [
+          "2196.1__GLI-IND-M77-01136"
+        ],
+        "reversed_split": []
+      },
+      "has_candidate": true,
+      "model_compatible": {
+        "both_M216": true,
+        "both_M222": false,
+        "local_split": true,
+        "reversed_split": false
+      },
+      "non_target_positions": 2,
+      "preservation": "complete",
+      "row_id": "2196.1"
+    },
+    {
+      "cisi": "M-940",
+      "compatible_whole_pair_witnesses": {
+        "both_M216": [],
+        "both_M222": [
+          "2243.1__GLI-IND-M77-02060"
+        ],
+        "local_split": [
+          "2243.1__GLI-IND-M77-02060"
+        ],
+        "reversed_split": []
+      },
+      "has_candidate": true,
+      "model_compatible": {
+        "both_M216": false,
+        "both_M222": true,
+        "local_split": true,
+        "reversed_split": false
+      },
+      "non_target_positions": 3,
+      "preservation": "complete",
+      "row_id": "2243.1"
+    },
+    {
+      "cisi": "M-1800",
+      "compatible_whole_pair_witnesses": {
+        "both_M216": [
+          "2253.1__GLI-IND-M77-02244",
+          "2253.1__GLI-IND-M77-02652",
+          "2253.1__GLI-IND-M77-07011"
+        ],
+        "both_M222": [
+          "2253.1__GLI-IND-M77-01238"
+        ],
+        "local_split": [
+          "2253.1__GLI-IND-M77-02244",
+          "2253.1__GLI-IND-M77-02652",
+          "2253.1__GLI-IND-M77-07011"
+        ],
+        "reversed_split": [
+          "2253.1__GLI-IND-M77-01238"
+        ]
+      },
+      "has_candidate": true,
+      "model_compatible": {
+        "both_M216": true,
+        "both_M222": true,
+        "local_split": true,
+        "reversed_split": true
+      },
+      "non_target_positions": 1,
+      "preservation": "complete",
+      "row_id": "2253.1"
+    },
+    {
+      "cisi": "M-1917",
+      "compatible_whole_pair_witnesses": {
+        "both_M216": [],
+        "both_M222": [
+          "2294.1__GLI-IND-M77-01350"
+        ],
+        "local_split": [
+          "2294.1__GLI-IND-M77-01350"
+        ],
+        "reversed_split": []
+      },
+      "has_candidate": true,
+      "model_compatible": {
+        "both_M216": false,
+        "both_M222": true,
+        "local_split": true,
+        "reversed_split": false
+      },
+      "non_target_positions": 4,
+      "preservation": "chipped",
+      "row_id": "2294.1"
+    },
+    {
+      "cisi": "M-2041",
+      "compatible_whole_pair_witnesses": {
+        "both_M216": [],
+        "both_M222": [],
+        "local_split": [],
+        "reversed_split": []
+      },
+      "has_candidate": false,
+      "model_compatible": {
+        "both_M216": null,
+        "both_M222": null,
+        "local_split": null,
+        "reversed_split": null
+      },
+      "non_target_positions": 3,
+      "preservation": "complete",
+      "row_id": "2322.2"
+    },
+    {
+      "cisi": "M-1693",
+      "compatible_whole_pair_witnesses": {
+        "both_M216": [],
+        "both_M222": [
+          "2359.1__GLI-IND-M77-02583"
+        ],
+        "local_split": [
+          "2359.1__GLI-IND-M77-02583"
+        ],
+        "reversed_split": []
+      },
+      "has_candidate": true,
+      "model_compatible": {
+        "both_M216": false,
+        "both_M222": true,
+        "local_split": true,
+        "reversed_split": false
+      },
+      "non_target_positions": 6,
+      "preservation": "complete",
+      "row_id": "2359.1"
+    },
+    {
+      "cisi": "M-2040",
+      "compatible_whole_pair_witnesses": {
+        "both_M216": [],
+        "both_M222": [],
+        "local_split": [],
+        "reversed_split": []
+      },
+      "has_candidate": false,
+      "model_compatible": {
+        "both_M216": null,
+        "both_M222": null,
+        "local_split": null,
+        "reversed_split": null
+      },
+      "non_target_positions": 3,
+      "preservation": "complete",
+      "row_id": "2382.2"
+    },
+    {
+      "cisi": "M-2014",
+      "compatible_whole_pair_witnesses": {
+        "both_M216": [],
+        "both_M222": [],
+        "local_split": [],
+        "reversed_split": []
+      },
+      "has_candidate": false,
+      "model_compatible": {
+        "both_M216": null,
+        "both_M222": null,
+        "local_split": null,
+        "reversed_split": null
+      },
+      "non_target_positions": 3,
+      "preservation": "complete",
+      "row_id": "2432.2"
+    },
+    {
+      "cisi": "M-821",
+      "compatible_whole_pair_witnesses": {
+        "both_M216": [
+          "2437.1__GLI-IND-M77-02244",
+          "2437.1__GLI-IND-M77-02652",
+          "2437.1__GLI-IND-M77-07011"
+        ],
+        "both_M222": [
+          "2437.1__GLI-IND-M77-01238"
+        ],
+        "local_split": [
+          "2437.1__GLI-IND-M77-01238"
+        ],
+        "reversed_split": [
+          "2437.1__GLI-IND-M77-02244",
+          "2437.1__GLI-IND-M77-02652",
+          "2437.1__GLI-IND-M77-07011"
+        ]
+      },
+      "has_candidate": true,
+      "model_compatible": {
+        "both_M216": true,
+        "both_M222": true,
+        "local_split": true,
+        "reversed_split": true
+      },
+      "non_target_positions": 1,
+      "preservation": "fragment",
+      "row_id": "2437.1"
+    },
+    {
+      "cisi": "M-42",
+      "compatible_whole_pair_witnesses": {
+        "both_M216": [
+          "2570.1__GLI-IND-M77-01096"
+        ],
+        "both_M222": [],
+        "local_split": [
+          "2570.1__GLI-IND-M77-01096"
+        ],
+        "reversed_split": []
+      },
+      "has_candidate": true,
+      "model_compatible": {
+        "both_M216": true,
+        "both_M222": false,
+        "local_split": true,
+        "reversed_split": false
+      },
+      "non_target_positions": 4,
+      "preservation": "complete",
+      "row_id": "2570.1"
+    },
+    {
+      "cisi": "M-49",
+      "compatible_whole_pair_witnesses": {
+        "both_M216": [],
+        "both_M222": [],
+        "local_split": [],
+        "reversed_split": []
+      },
+      "has_candidate": false,
+      "model_compatible": {
+        "both_M216": null,
+        "both_M222": null,
+        "local_split": null,
+        "reversed_split": null
+      },
+      "non_target_positions": 9,
+      "preservation": "slightly chipped",
+      "row_id": "2577.1"
+    },
+    {
+      "cisi": "M-56",
+      "compatible_whole_pair_witnesses": {
+        "both_M216": [
+          "2584.1__GLI-IND-M77-02406"
+        ],
+        "both_M222": [],
+        "local_split": [
+          "2584.1__GLI-IND-M77-02406"
+        ],
+        "reversed_split": []
+      },
+      "has_candidate": true,
+      "model_compatible": {
+        "both_M216": true,
+        "both_M222": false,
+        "local_split": true,
+        "reversed_split": false
+      },
+      "non_target_positions": 7,
+      "preservation": "complete",
+      "row_id": "2584.1"
+    },
+    {
+      "cisi": "M-63",
+      "compatible_whole_pair_witnesses": {
+        "both_M216": [],
+        "both_M222": [],
+        "local_split": [
+          "2591.1__GLI-IND-M77-03068"
+        ],
+        "reversed_split": []
+      },
+      "has_candidate": true,
+      "model_compatible": {
+        "both_M216": false,
+        "both_M222": false,
+        "local_split": true,
+        "reversed_split": false
+      },
+      "non_target_positions": 2,
+      "preservation": "slightly chipped",
+      "row_id": "2591.1"
+    },
+    {
+      "cisi": "M-81",
+      "compatible_whole_pair_witnesses": {
+        "both_M216": [],
+        "both_M222": [],
+        "local_split": [],
+        "reversed_split": []
+      },
+      "has_candidate": false,
+      "model_compatible": {
+        "both_M216": null,
+        "both_M222": null,
+        "local_split": null,
+        "reversed_split": null
+      },
+      "non_target_positions": 5,
+      "preservation": "complete",
+      "row_id": "2608.1"
+    },
+    {
+      "cisi": "M-82",
+      "compatible_whole_pair_witnesses": {
+        "both_M216": [
+          "2609.1__GLI-IND-M77-02451"
+        ],
+        "both_M222": [],
+        "local_split": [
+          "2609.1__GLI-IND-M77-02451"
+        ],
+        "reversed_split": []
+      },
+      "has_candidate": true,
+      "model_compatible": {
+        "both_M216": true,
+        "both_M222": false,
+        "local_split": true,
+        "reversed_split": false
+      },
+      "non_target_positions": 5,
+      "preservation": "complete",
+      "row_id": "2609.1"
+    },
+    {
+      "cisi": "M-108",
+      "compatible_whole_pair_witnesses": {
+        "both_M216": [],
+        "both_M222": [],
+        "local_split": [],
+        "reversed_split": []
+      },
+      "has_candidate": false,
+      "model_compatible": {
+        "both_M216": null,
+        "both_M222": null,
+        "local_split": null,
+        "reversed_split": null
+      },
+      "non_target_positions": 6,
+      "preservation": "complete",
+      "row_id": "2635.1"
+    },
+    {
+      "cisi": "M-133",
+      "compatible_whole_pair_witnesses": {
+        "both_M216": [],
+        "both_M222": [],
+        "local_split": [],
+        "reversed_split": []
+      },
+      "has_candidate": false,
+      "model_compatible": {
+        "both_M216": null,
+        "both_M222": null,
+        "local_split": null,
+        "reversed_split": null
+      },
+      "non_target_positions": 7,
+      "preservation": "complete",
+      "row_id": "2660.1"
+    },
+    {
+      "cisi": "M-149",
+      "compatible_whole_pair_witnesses": {
+        "both_M216": [
+          "2676.1__GLI-IND-M77-01233"
+        ],
+        "both_M222": [],
+        "local_split": [
+          "2676.1__GLI-IND-M77-01233"
+        ],
+        "reversed_split": []
+      },
+      "has_candidate": true,
+      "model_compatible": {
+        "both_M216": true,
+        "both_M222": false,
+        "local_split": true,
+        "reversed_split": false
+      },
+      "non_target_positions": 4,
+      "preservation": "slightly chipped",
+      "row_id": "2676.1"
+    },
+    {
+      "cisi": "M-158",
+      "compatible_whole_pair_witnesses": {
+        "both_M216": [
+          "2684.1__GLI-IND-M77-02198"
+        ],
+        "both_M222": [],
+        "local_split": [
+          "2684.1__GLI-IND-M77-02198"
+        ],
+        "reversed_split": []
+      },
+      "has_candidate": true,
+      "model_compatible": {
+        "both_M216": true,
+        "both_M222": false,
+        "local_split": true,
+        "reversed_split": false
+      },
+      "non_target_positions": 3,
+      "preservation": "complete",
+      "row_id": "2684.1"
+    },
+    {
+      "cisi": "M-253",
+      "compatible_whole_pair_witnesses": {
+        "both_M216": [],
+        "both_M222": [],
+        "local_split": [],
+        "reversed_split": []
+      },
+      "has_candidate": false,
+      "model_compatible": {
+        "both_M216": null,
+        "both_M222": null,
+        "local_split": null,
+        "reversed_split": null
+      },
+      "non_target_positions": 5,
+      "preservation": "slightly chipped",
+      "row_id": "2776.1"
+    },
+    {
+      "cisi": "M-304",
+      "compatible_whole_pair_witnesses": {
+        "both_M216": [],
+        "both_M222": [],
+        "local_split": [],
+        "reversed_split": []
+      },
+      "has_candidate": false,
+      "model_compatible": {
+        "both_M216": null,
+        "both_M222": null,
+        "local_split": null,
+        "reversed_split": null
+      },
+      "non_target_positions": 6,
+      "preservation": "partly damaged",
+      "row_id": "2823.1"
+    },
+    {
+      "cisi": "M-307",
+      "compatible_whole_pair_witnesses": {
+        "both_M216": [
+          "2826.1__GLI-IND-M77-02122"
+        ],
+        "both_M222": [],
+        "local_split": [
+          "2826.1__GLI-IND-M77-02122"
+        ],
+        "reversed_split": []
+      },
+      "has_candidate": true,
+      "model_compatible": {
+        "both_M216": true,
+        "both_M222": false,
+        "local_split": true,
+        "reversed_split": false
+      },
+      "non_target_positions": 4,
+      "preservation": "partly damaged",
+      "row_id": "2826.1"
+    },
+    {
+      "cisi": "M-365",
+      "compatible_whole_pair_witnesses": {
+        "both_M216": [
+          "2861.1__GLI-IND-M77-02273"
+        ],
+        "both_M222": [],
+        "local_split": [
+          "2861.1__GLI-IND-M77-02273"
+        ],
+        "reversed_split": []
+      },
+      "has_candidate": true,
+      "model_compatible": {
+        "both_M216": true,
+        "both_M222": false,
+        "local_split": true,
+        "reversed_split": false
+      },
+      "non_target_positions": 6,
+      "preservation": "complete",
+      "row_id": "2861.1"
+    },
+    {
+      "cisi": "M-396",
+      "compatible_whole_pair_witnesses": {
+        "both_M216": [],
+        "both_M222": [],
+        "local_split": [],
+        "reversed_split": []
+      },
+      "has_candidate": false,
+      "model_compatible": {
+        "both_M216": null,
+        "both_M222": null,
+        "local_split": null,
+        "reversed_split": null
+      },
+      "non_target_positions": 9,
+      "preservation": "complete",
+      "row_id": "2892.1"
+    },
+    {
+      "cisi": "M-401",
+      "compatible_whole_pair_witnesses": {
+        "both_M216": [],
+        "both_M222": [],
+        "local_split": [],
+        "reversed_split": []
+      },
+      "has_candidate": false,
+      "model_compatible": {
+        "both_M216": null,
+        "both_M222": null,
+        "local_split": null,
+        "reversed_split": null
+      },
+      "non_target_positions": 2,
+      "preservation": "complete",
+      "row_id": "2897.1"
+    },
+    {
+      "cisi": "M-501",
+      "compatible_whole_pair_witnesses": {
+        "both_M216": [],
+        "both_M222": [],
+        "local_split": [],
+        "reversed_split": []
+      },
+      "has_candidate": false,
+      "model_compatible": {
+        "both_M216": null,
+        "both_M222": null,
+        "local_split": null,
+        "reversed_split": null
+      },
+      "non_target_positions": 3,
+      "preservation": "complete",
+      "row_id": "2978.2"
+    },
+    {
+      "cisi": "M-739",
+      "compatible_whole_pair_witnesses": {
+        "both_M216": [],
+        "both_M222": [],
+        "local_split": [],
+        "reversed_split": []
+      },
+      "has_candidate": false,
+      "model_compatible": {
+        "both_M216": null,
+        "both_M222": null,
+        "local_split": null,
+        "reversed_split": null
+      },
+      "non_target_positions": 8,
+      "preservation": "complete",
+      "row_id": "3163.1"
+    },
+    {
+      "cisi": "M-777",
+      "compatible_whole_pair_witnesses": {
+        "both_M216": [],
+        "both_M222": [],
+        "local_split": [],
+        "reversed_split": []
+      },
+      "has_candidate": false,
+      "model_compatible": {
+        "both_M216": null,
+        "both_M222": null,
+        "local_split": null,
+        "reversed_split": null
+      },
+      "non_target_positions": 4,
+      "preservation": "complete",
+      "row_id": "3191.1"
+    },
+    {
+      "cisi": "M-833",
+      "compatible_whole_pair_witnesses": {
+        "both_M216": [],
+        "both_M222": [],
+        "local_split": [],
+        "reversed_split": []
+      },
+      "has_candidate": false,
+      "model_compatible": {
+        "both_M216": null,
+        "both_M222": null,
+        "local_split": null,
+        "reversed_split": null
+      },
+      "non_target_positions": 5,
+      "preservation": "complete",
+      "row_id": "3245.1"
+    },
+    {
+      "cisi": "M-849",
+      "compatible_whole_pair_witnesses": {
+        "both_M216": [],
+        "both_M222": [],
+        "local_split": [],
+        "reversed_split": []
+      },
+      "has_candidate": false,
+      "model_compatible": {
+        "both_M216": null,
+        "both_M222": null,
+        "local_split": null,
+        "reversed_split": null
+      },
+      "non_target_positions": 4,
+      "preservation": "complete",
+      "row_id": "3261.1"
+    },
+    {
+      "cisi": "M-873",
+      "compatible_whole_pair_witnesses": {
+        "both_M216": [
+          "3282.1__GLI-IND-M77-01170"
+        ],
+        "both_M222": [],
+        "local_split": [
+          "3282.1__GLI-IND-M77-01170"
+        ],
+        "reversed_split": []
+      },
+      "has_candidate": true,
+      "model_compatible": {
+        "both_M216": true,
+        "both_M222": false,
+        "local_split": true,
+        "reversed_split": false
+      },
+      "non_target_positions": 5,
+      "preservation": "chipped",
+      "row_id": "3282.1"
+    },
+    {
+      "cisi": "M-897",
+      "compatible_whole_pair_witnesses": {
+        "both_M216": [],
+        "both_M222": [
+          "3302.1__GLI-IND-M77-01158",
+          "3302.1__GLI-IND-M77-02545",
+          "3302.1__GLI-IND-M77-07090"
+        ],
+        "local_split": [],
+        "reversed_split": [
+          "3302.1__GLI-IND-M77-01158",
+          "3302.1__GLI-IND-M77-02545",
+          "3302.1__GLI-IND-M77-07090"
+        ]
+      },
+      "has_candidate": true,
+      "model_compatible": {
+        "both_M216": false,
+        "both_M222": true,
+        "local_split": false,
+        "reversed_split": true
+      },
+      "non_target_positions": 4,
+      "preservation": "fragment",
+      "row_id": "3302.1"
+    },
+    {
+      "cisi": "M-921",
+      "compatible_whole_pair_witnesses": {
+        "both_M216": [],
+        "both_M222": [],
+        "local_split": [],
+        "reversed_split": []
+      },
+      "has_candidate": false,
+      "model_compatible": {
+        "both_M216": null,
+        "both_M222": null,
+        "local_split": null,
+        "reversed_split": null
+      },
+      "non_target_positions": 5,
+      "preservation": "complete",
+      "row_id": "3318.1"
+    },
+    {
+      "cisi": "M-934",
+      "compatible_whole_pair_witnesses": {
+        "both_M216": [],
+        "both_M222": [
+          "3329.1__GLI-IND-M77-01158",
+          "3329.1__GLI-IND-M77-02545",
+          "3329.1__GLI-IND-M77-07090"
+        ],
+        "local_split": [
+          "3329.1__GLI-IND-M77-01158",
+          "3329.1__GLI-IND-M77-02545",
+          "3329.1__GLI-IND-M77-07090"
+        ],
+        "reversed_split": []
+      },
+      "has_candidate": true,
+      "model_compatible": {
+        "both_M216": false,
+        "both_M222": true,
+        "local_split": true,
+        "reversed_split": false
+      },
+      "non_target_positions": 4,
+      "preservation": "complete",
+      "row_id": "3329.1"
+    },
+    {
+      "cisi": "M-939",
+      "compatible_whole_pair_witnesses": {
+        "both_M216": [
+          "3334.1__GLI-IND-M77-02244",
+          "3334.1__GLI-IND-M77-02652",
+          "3334.1__GLI-IND-M77-07011"
+        ],
+        "both_M222": [
+          "3334.1__GLI-IND-M77-01238"
+        ],
+        "local_split": [
+          "3334.1__GLI-IND-M77-02244",
+          "3334.1__GLI-IND-M77-02652",
+          "3334.1__GLI-IND-M77-07011"
+        ],
+        "reversed_split": [
+          "3334.1__GLI-IND-M77-01238"
+        ]
+      },
+      "has_candidate": true,
+      "model_compatible": {
+        "both_M216": true,
+        "both_M222": true,
+        "local_split": true,
+        "reversed_split": true
+      },
+      "non_target_positions": 1,
+      "preservation": "complete",
+      "row_id": "3334.1"
+    },
+    {
+      "cisi": "M-955",
+      "compatible_whole_pair_witnesses": {
+        "both_M216": [],
+        "both_M222": [],
+        "local_split": [],
+        "reversed_split": []
+      },
+      "has_candidate": false,
+      "model_compatible": {
+        "both_M216": null,
+        "both_M222": null,
+        "local_split": null,
+        "reversed_split": null
+      },
+      "non_target_positions": 3,
+      "preservation": "slightly chipped",
+      "row_id": "3350.1"
+    },
+    {
+      "cisi": "M-964",
+      "compatible_whole_pair_witnesses": {
+        "both_M216": [
+          "3358.1__GLI-IND-M77-02010"
+        ],
+        "both_M222": [],
+        "local_split": [
+          "3358.1__GLI-IND-M77-02010"
+        ],
+        "reversed_split": []
+      },
+      "has_candidate": true,
+      "model_compatible": {
+        "both_M216": true,
+        "both_M222": false,
+        "local_split": true,
+        "reversed_split": false
+      },
+      "non_target_positions": 4,
+      "preservation": "complete",
+      "row_id": "3358.1"
+    },
+    {
+      "cisi": "M-980",
+      "compatible_whole_pair_witnesses": {
+        "both_M216": [],
+        "both_M222": [],
+        "local_split": [],
+        "reversed_split": []
+      },
+      "has_candidate": false,
+      "model_compatible": {
+        "both_M216": null,
+        "both_M222": null,
+        "local_split": null,
+        "reversed_split": null
+      },
+      "non_target_positions": 8,
+      "preservation": "fragment",
+      "row_id": "3373.1"
+    },
+    {
+      "cisi": "M-1080",
+      "compatible_whole_pair_witnesses": {
+        "both_M216": [],
+        "both_M222": [],
+        "local_split": [],
+        "reversed_split": []
+      },
+      "has_candidate": false,
+      "model_compatible": {
+        "both_M216": null,
+        "both_M222": null,
+        "local_split": null,
+        "reversed_split": null
+      },
+      "non_target_positions": 2,
+      "preservation": "complete",
+      "row_id": "3454.1"
+    },
+    {
+      "cisi": "M-1081",
+      "compatible_whole_pair_witnesses": {
+        "both_M216": [],
+        "both_M222": [
+          "3455.1__GLI-IND-M77-02129"
+        ],
+        "local_split": [
+          "3455.1__GLI-IND-M77-02129"
+        ],
+        "reversed_split": []
+      },
+      "has_candidate": true,
+      "model_compatible": {
+        "both_M216": false,
+        "both_M222": true,
+        "local_split": true,
+        "reversed_split": false
+      },
+      "non_target_positions": 7,
+      "preservation": "complete",
+      "row_id": "3455.1"
+    },
+    {
+      "cisi": "M-1113",
+      "compatible_whole_pair_witnesses": {
+        "both_M216": [],
+        "both_M222": [],
+        "local_split": [],
+        "reversed_split": []
+      },
+      "has_candidate": false,
+      "model_compatible": {
+        "both_M216": null,
+        "both_M222": null,
+        "local_split": null,
+        "reversed_split": null
+      },
+      "non_target_positions": 2,
+      "preservation": "complete",
+      "row_id": "3484.1"
+    },
+    {
+      "cisi": "M-1299",
+      "compatible_whole_pair_witnesses": {
+        "both_M216": [
+          "3604.1__GLI-IND-M77-01456"
+        ],
+        "both_M222": [],
+        "local_split": [
+          "3604.1__GLI-IND-M77-01456"
+        ],
+        "reversed_split": []
+      },
+      "has_candidate": true,
+      "model_compatible": {
+        "both_M216": true,
+        "both_M222": false,
+        "local_split": true,
+        "reversed_split": false
+      },
+      "non_target_positions": 6,
+      "preservation": "complete",
+      "row_id": "3604.1"
+    },
+    {
+      "cisi": "M-1320",
+      "compatible_whole_pair_witnesses": {
+        "both_M216": [],
+        "both_M222": [
+          "3625.1__GLI-IND-M77-01447"
+        ],
+        "local_split": [
+          "3625.1__GLI-IND-M77-01447"
+        ],
+        "reversed_split": []
+      },
+      "has_candidate": true,
+      "model_compatible": {
+        "both_M216": false,
+        "both_M222": true,
+        "local_split": true,
+        "reversed_split": false
+      },
+      "non_target_positions": 4,
+      "preservation": "complete",
+      "row_id": "3625.1"
+    },
+    {
+      "cisi": "M-1351",
+      "compatible_whole_pair_witnesses": {
+        "both_M216": [
+          "3652.1__GLI-IND-M77-01269"
+        ],
+        "both_M222": [
+          "3652.1__GLI-IND-M77-02142"
+        ],
+        "local_split": [
+          "3652.1__GLI-IND-M77-02142"
+        ],
+        "reversed_split": [
+          "3652.1__GLI-IND-M77-01269"
+        ]
+      },
+      "has_candidate": true,
+      "model_compatible": {
+        "both_M216": true,
+        "both_M222": true,
+        "local_split": true,
+        "reversed_split": true
+      },
+      "non_target_positions": 2,
+      "preservation": "complete",
+      "row_id": "3652.1"
+    },
+    {
+      "cisi": "M-1371",
+      "compatible_whole_pair_witnesses": {
+        "both_M216": [
+          "3670.1__GLI-IND-M77-01559"
+        ],
+        "both_M222": [],
+        "local_split": [
+          "3670.1__GLI-IND-M77-01559"
+        ],
+        "reversed_split": []
+      },
+      "has_candidate": true,
+      "model_compatible": {
+        "both_M216": true,
+        "both_M222": false,
+        "local_split": true,
+        "reversed_split": false
+      },
+      "non_target_positions": 3,
+      "preservation": "complete",
+      "row_id": "3670.1"
+    },
+    {
+      "cisi": "M-1381",
+      "compatible_whole_pair_witnesses": {
+        "both_M216": [
+          "3677.1__GLI-IND-M77-01559"
+        ],
+        "both_M222": [],
+        "local_split": [
+          "3677.1__GLI-IND-M77-01559"
+        ],
+        "reversed_split": []
+      },
+      "has_candidate": true,
+      "model_compatible": {
+        "both_M216": true,
+        "both_M222": false,
+        "local_split": true,
+        "reversed_split": false
+      },
+      "non_target_positions": 3,
+      "preservation": "complete",
+      "row_id": "3677.1"
+    },
+    {
+      "cisi": "M-1390",
+      "compatible_whole_pair_witnesses": {
+        "both_M216": [],
+        "both_M222": [],
+        "local_split": [],
+        "reversed_split": []
+      },
+      "has_candidate": false,
+      "model_compatible": {
+        "both_M216": null,
+        "both_M222": null,
+        "local_split": null,
+        "reversed_split": null
+      },
+      "non_target_positions": 2,
+      "preservation": "complete",
+      "row_id": "3684.1"
+    },
+    {
+      "cisi": "M-1444",
+      "compatible_whole_pair_witnesses": {
+        "both_M216": [],
+        "both_M222": [],
+        "local_split": [],
+        "reversed_split": []
+      },
+      "has_candidate": false,
+      "model_compatible": {
+        "both_M216": null,
+        "both_M222": null,
+        "local_split": null,
+        "reversed_split": null
+      },
+      "non_target_positions": 3,
+      "preservation": "complete",
+      "row_id": "3725.2"
+    },
+    {
+      "cisi": "M-1445",
+      "compatible_whole_pair_witnesses": {
+        "both_M216": [],
+        "both_M222": [],
+        "local_split": [],
+        "reversed_split": []
+      },
+      "has_candidate": false,
+      "model_compatible": {
+        "both_M216": null,
+        "both_M222": null,
+        "local_split": null,
+        "reversed_split": null
+      },
+      "non_target_positions": 3,
+      "preservation": "complete",
+      "row_id": "3726.2"
+    },
+    {
+      "cisi": "-",
+      "compatible_whole_pair_witnesses": {
+        "both_M216": [],
+        "both_M222": [],
+        "local_split": [],
+        "reversed_split": []
+      },
+      "has_candidate": false,
+      "model_compatible": {
+        "both_M216": null,
+        "both_M222": null,
+        "local_split": null,
+        "reversed_split": null
+      },
+      "non_target_positions": 4,
+      "preservation": "complete",
+      "row_id": "3889.1"
+    },
+    {
+      "cisi": "?-5",
+      "compatible_whole_pair_witnesses": {
+        "both_M216": [],
+        "both_M222": [],
+        "local_split": [],
+        "reversed_split": []
+      },
+      "has_candidate": false,
+      "model_compatible": {
+        "both_M216": null,
+        "both_M222": null,
+        "local_split": null,
+        "reversed_split": null
+      },
+      "non_target_positions": 3,
+      "preservation": "complete",
+      "row_id": "3894.1"
+    },
+    {
+      "cisi": "M-1973",
+      "compatible_whole_pair_witnesses": {
+        "both_M216": [],
+        "both_M222": [],
+        "local_split": [],
+        "reversed_split": []
+      },
+      "has_candidate": false,
+      "model_compatible": {
+        "both_M216": null,
+        "both_M222": null,
+        "local_split": null,
+        "reversed_split": null
+      },
+      "non_target_positions": 6,
+      "preservation": "complete",
+      "row_id": "4010.1"
+    },
+    {
+      "cisi": "-",
+      "compatible_whole_pair_witnesses": {
+        "both_M216": [],
+        "both_M222": [],
+        "local_split": [],
+        "reversed_split": []
+      },
+      "has_candidate": false,
+      "model_compatible": {
+        "both_M216": null,
+        "both_M222": null,
+        "local_split": null,
+        "reversed_split": null
+      },
+      "non_target_positions": 3,
+      "preservation": "complete",
+      "row_id": "4196.1"
+    },
+    {
+      "cisi": "-",
+      "compatible_whole_pair_witnesses": {
+        "both_M216": [],
+        "both_M222": [],
+        "local_split": [],
+        "reversed_split": []
+      },
+      "has_candidate": false,
+      "model_compatible": {
+        "both_M216": null,
+        "both_M222": null,
+        "local_split": null,
+        "reversed_split": null
+      },
+      "non_target_positions": 4,
+      "preservation": "complete",
+      "row_id": "4198.1"
+    },
+    {
+      "cisi": "-",
+      "compatible_whole_pair_witnesses": {
+        "both_M216": [],
+        "both_M222": [],
+        "local_split": [],
+        "reversed_split": []
+      },
+      "has_candidate": false,
+      "model_compatible": {
+        "both_M216": null,
+        "both_M222": null,
+        "local_split": null,
+        "reversed_split": null
+      },
+      "non_target_positions": 5,
+      "preservation": "fragment",
+      "row_id": "4287.1"
+    }
+  ],
+  "rows_checked": 93,
+  "scope": "Computational verification only, conditional on the context screen candidate pairs and raw source preservation labels; not primary authentication, physical-completeness certification, a held-out prediction, or decipherment.",
+  "source_complete_caveat": "Source preservation=complete is not physical certification. Known L9 corner damage remains in this source-labelled sensitivity branch."
+}

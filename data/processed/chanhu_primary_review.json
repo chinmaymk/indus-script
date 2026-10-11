@@ -1,0 +1,282 @@
+{
+  "review_date": "2026-09-25",
+  "review_mode": "Source-exposed manualreview; archaeologicalagent independentlychecked narrative/cataloguepages; figureagent separatelyinventoried diagrams. Noautopsy, no new signphonetics.",
+  "selected_catalogue_location_overlays": [
+    {
+      "cisi": "C-6",
+      "excavation_number": "4852",
+      "plate": "LII",
+      "item": 5,
+      "catalogue_square": "9/F",
+      "catalogue_locus": 469,
+      "catalogue_elevation_ft": -2.8,
+      "catalogue_printed_page": 293,
+      "original_image": "data/raw/chanhu_context_leaf313.jpg",
+      "note": "Cutting; p15 confirms samefind/locus/elevation. Secondary9/D unsupported by this exactoriginalentry.",
+      "CISI_alias_status": "secondaryidentifier joined by exactexcavation+plateitem; originalCISIphoto notindependentlycheckedthisphase"
+    },
+    {
+      "cisi": "C-74",
+      "excavation_number": "3215",
+      "plate": "LI",
+      "item": 14,
+      "catalogue_square": "9/B",
+      "catalogue_locus": 283,
+      "catalogue_elevation_ft": 6.9,
+      "catalogue_printed_page": 292,
+      "original_image": "data/raw/chanhu_context_leaf312.jpg",
+      "note": "Catalogue9/B and2025figureagree, but p57 anotherobject(cone3461) at283 says9/D. Catalogue overlay only; notfinal planresolvedlocation.",
+      "CISI_alias_status": "secondaryidentifier joined by exactexcavation+plateitem; originalCISIphoto notindependentlycheckedthisphase"
+    },
+    {
+      "cisi": "C-57",
+      "excavation_number": "3811",
+      "plate": "LII",
+      "item": 29,
+      "catalogue_square": "9/F",
+      "catalogue_locus": 468,
+      "catalogue_elevation_ft": 3.8,
+      "catalogue_printed_page": 293,
+      "original_image": "data/raw/chanhu_context_leaf313.jpg",
+      "note": "Secondary8/C locus289+8.6matchesdifferentprimaryobject3492/LII32. Do notinfercause orsilentlychangeoriginalexport.",
+      "CISI_alias_status": "secondaryidentifier joined by exactexcavation+plateitem; originalCISIphoto notindependentlycheckedthisphase"
+    }
+  ],
+  "primary_core_examples": [
+    {
+      "excavation_number": "2285",
+      "plate": "LI",
+      "item": 15,
+      "catalogue_square": "9/D",
+      "catalogue_locus": 215,
+      "catalogue_elevation_ft": 10.4,
+      "note": "Core room215 narrative+catalogue agree; C22 secondarytext incompleteflag."
+    },
+    {
+      "excavation_number": "2428",
+      "plate": "LII",
+      "item": 19,
+      "catalogue_square": "9/D",
+      "catalogue_locus": 286,
+      "catalogue_elevation_ft": 9.7,
+      "note": "Passageflooradjacent to215; do notequate with10.4ft."
+    },
+    {
+      "excavation_number": "2529CC",
+      "plate": "LII",
+      "item": 23,
+      "catalogue_square": "8/C",
+      "catalogue_locus": 297,
+      "catalogue_elevation_ft": 10.4,
+      "note": "Associatedcourtyardoutside9/D; metalworkandshellwork too."
+    },
+    {
+      "excavation_number": "2297",
+      "plate": "LI",
+      "item": 29,
+      "catalogue_square": "9/D",
+      "catalogue_locus": 174,
+      "catalogue_elevation_ft": 10.0,
+      "note": "Narrativep46 seal justbelowunfinishedbeads at6.8ft vs catalogue10.0; unresolved."
+    },
+    {
+      "excavation_number": "2558",
+      "plate": "LII",
+      "item": 12,
+      "catalogue_square": "9/D",
+      "catalogue_locus": 106,
+      "catalogue_elevation_ft": 8.8,
+      "note": "Loweranimal-legfragment onoriginalplate; no survivingtext established. Notinrawexport, notaddedassyntheticnegative."
+    }
+  ],
+  "craft_controls": {
+    "beadworking_in_multiple_squares": true,
+    "primary_overview_page": 52,
+    "explicit_beadworking_squares": [
+      "8/C",
+      "9/C",
+      "9/D",
+      "9/F"
+    ],
+    "other_squares_are_verified_non_beadworking": false,
+    "workshop_location_equals_whole_9D": false,
+    "same_locus_equals_same_elevation": false
+  },
+  "figure_scope": "Figure5 illustrative47IDs46panels17orange;9/D8IDsincludingnon-orange tagC87, with5orange. Prose6of9unreconciled. Annotationcolorsareattributed,notindependentglyphmembership.",
+  "provenance_conflicts": [
+    "C74/locus283: exactsealcatalogue9/B versus differentobject same-locuscone9/D.",
+    "CH2297 narrativep46 justbelow6.8ftbeads versuscataloguep292+10.0ft.",
+    "SecondaryC6andC57locations conflictwith exactoriginalcatalogue.",
+    "C38Figure5sharedU-panel versussecondaryfishtext andmissinggrid; unresolvedalias/contentmismatch, notmergedwithC88."
+  ],
+  "navigation": [
+    "Guessedtwo-pageplateincrements producedpotteryplatesat393/395. Correctsingle-pageplate sequencegaveLI416andLII417; allretained.",
+    "Initialbroadsite-labelprobe includedothernamescontaininghan; allanalysis usesexactChanhu-daro."
+  ],
+  "independent_reviews": [
+    "docs/CHANHU_WORKSHOP_CONTEXT_REVIEW.md",
+    "docs/CHANHU_FIGURE5_REVIEW.md"
+  ],
+  "evidence_files": [
+    {
+      "path": "data/raw/c40_mackay1943_leaf207.jpg",
+      "bytes": 2586393,
+      "sha256": "62a21f8427d16296ed0f1702bc8a586859e1b6e7d2ab0899804084c4b132d5d1"
+    },
+    {
+      "path": "data/raw/c40_mackay1943_leaf208.jpg",
+      "bytes": 2469844,
+      "sha256": "26036959842c48194796fbe3f9e1c0b8a9157cb01bd941d1de3636a712a9278d"
+    },
+    {
+      "path": "data/raw/c40_mackay1943_leaf63.jpg",
+      "bytes": 2877069,
+      "sha256": "d06d0892f3b1d02ce98087e50a378ecf8a394d6861d85a344de3e902bb8c77f8"
+    },
+    {
+      "path": "data/raw/chanhu_context_leaf263.jpg",
+      "bytes": 2987033,
+      "sha256": "72d9c44bc449724fbc50b21c850da9243d17bef98efd50459cf04f487edae076"
+    },
+    {
+      "path": "data/raw/chanhu_context_leaf312.jpg",
+      "bytes": 2468783,
+      "sha256": "8c60faf3c99fd9a6b9670a4f25851cfadace630805fdd778bd55ab216c0595ff"
+    },
+    {
+      "path": "data/raw/chanhu_context_leaf313.jpg",
+      "bytes": 2555029,
+      "sha256": "a9c8797f4f2f21c1f4081cb7df195e9babc8d8d3a30f7630ff123c736ec253ca"
+    },
+    {
+      "path": "data/raw/chanhu_context_leaf35.jpg",
+      "bytes": 2810291,
+      "sha256": "5978b2882dbbff9f7135b45bfa1607f80597e4097bd53c2b034ce3d128571511"
+    },
+    {
+      "path": "data/raw/chanhu_context_leaf393.jpg",
+      "bytes": 2139207,
+      "sha256": "92037804aee1d8ab3116c1623f1e7266987d589133993d85ceb41116ca36c5dd"
+    },
+    {
+      "path": "data/raw/chanhu_context_leaf395.jpg",
+      "bytes": 2236812,
+      "sha256": "1193331f8a8f663a346f3997071244adbd2487657bcb58f7073dc1a133f37c9e"
+    },
+    {
+      "path": "data/raw/chanhu_context_leaf416.jpg",
+      "bytes": 2185869,
+      "sha256": "87299acfe422f7b67a29d61c720983a5d16240e5ea5e44471bc92cefe8aec17e"
+    },
+    {
+      "path": "data/raw/chanhu_context_leaf417.jpg",
+      "bytes": 2201995,
+      "sha256": "aeb7df1b1a9db942b810cbf44751c98eb5f0401ae9876388cb989921ce84823d"
+    },
+    {
+      "path": "data/raw/chanhu_context_leaf61.jpg",
+      "bytes": 2685153,
+      "sha256": "6bc32fa1b5653b6ca833587182ffa1e48e0bf48743de5c2ba9b56f242ce1d3e8"
+    },
+    {
+      "path": "data/raw/chanhu_context_leaf62.jpg",
+      "bytes": 2748185,
+      "sha256": "57dbd9e10f4b3d0204b65901a8583d94322e21d82003a7b8a9b9818925d3543d"
+    },
+    {
+      "path": "data/raw/chanhu_context_leaf64.jpg",
+      "bytes": 2718996,
+      "sha256": "5bc51c64559c7a06d182daee717e72b3ff0ac09f7be55c473e8514becbfe88d8"
+    },
+    {
+      "path": "data/raw/chanhu_context_leaf66.jpg",
+      "bytes": 2779597,
+      "sha256": "0fe0cd69a6d3db2bb9a726d269dc6ee4416ae62165b07a3bc537d557f3d2f60e"
+    },
+    {
+      "path": "data/raw/chanhu_context_leaf72.jpg",
+      "bytes": 2769294,
+      "sha256": "013306f59feb1f2fdf6e64e4326c8f7f74873b1a1e401880a8bfef49b4772a27"
+    },
+    {
+      "path": "data/raw/chanhu_context_leaf77.jpg",
+      "bytes": 2357964,
+      "sha256": "c20683470f99defdf4f17ebf17bba243d123cfd7f6d4cde930c2d8b2fbb173ce"
+    },
+    {
+      "path": "data/raw/irc_2025_fish_bulletin.pdf",
+      "bytes": 10858996,
+      "sha256": "af5f67d803a4c8bdda75c27bf113fd67f32cf2a88a680fc5530e3aa334e86a87"
+    },
+    {
+      "path": "results/primary_pages/chanhu-bulletin-18.png",
+      "bytes": 645067,
+      "sha256": "633aff58caeb092d7ce76f6f3e9beab184d5ada683414ce7944af474eec18144"
+    },
+    {
+      "path": "results/primary_pages/chanhu-bulletin-19.png",
+      "bytes": 1571350,
+      "sha256": "0d6c26a238c20d21a8bd9accc4215e1f73a3f6570cada666c0e6390b31f34d49"
+    },
+    {
+      "path": "results/primary_pages/chanhu-figure5-19-large.png",
+      "bytes": 5403079,
+      "sha256": "bbfe7879cf59f1b1dcbc7ffdb156a4002ce53885a41a0347b8e9cda7da13b9e7"
+    },
+    {
+      "path": "results/primary_pages/chanhu-figure5-bottom.png",
+      "bytes": 436158,
+      "sha256": "394d599ef99fb94c0b6901187f152004e8b4bb960e47b01e7d4c8354b917f26b"
+    },
+    {
+      "path": "results/primary_pages/chanhu-figure5-legend.png",
+      "bytes": 742905,
+      "sha256": "3436a2c7dd2c578c922dbdd2ec79a368d3df71b218dcacc1c87b542f5bd3457f"
+    },
+    {
+      "path": "results/primary_pages/chanhu-figure5-map.png",
+      "bytes": 2818137,
+      "sha256": "c68cf5b3ced9cab69f51e8864497ec0c6d760b0331e98dfd798ce12dd9a006ba"
+    },
+    {
+      "path": "results/primary_pages/chanhu-figure5-panels.png",
+      "bytes": 1838595,
+      "sha256": "d6b2411cd39668371fa00ae65e0ab52703fe81624d24c54532a2ad2db7b8572f"
+    },
+    {
+      "path": "results/primary_pages/chanhu-source-leaf312.png",
+      "bytes": 3021432,
+      "sha256": "3bbcc1e5d0d4c8d320683cbc9dfbbbf8a9a8b234a2d214233c63c76bf35772c0"
+    },
+    {
+      "path": "results/primary_pages/chanhu-source-leaf313.png",
+      "bytes": 3100172,
+      "sha256": "961507184577a2f6dc269df0cf22d260fb638e0e57ebbdd2e73bf038627dedd4"
+    },
+    {
+      "path": "results/primary_pages/chanhu-source-leaf35.png",
+      "bytes": 3208247,
+      "sha256": "b95c9de09d38f905fbd306b2075ed9ed589ff02718ebfd00a8698b37e1d54a43"
+    },
+    {
+      "path": "results/primary_pages/chanhu-source-leaf393.png",
+      "bytes": 2949422,
+      "sha256": "1047d9510a2ecfa971be7dbee10bef139c08a48884d7f149f1d5fab9af8835da"
+    },
+    {
+      "path": "results/primary_pages/chanhu-source-leaf395.png",
+      "bytes": 3056423,
+      "sha256": "78e2475e56b51aa4691674e6d0dd7fd499d6c4328a99b014dd25088204519ecf"
+    },
+    {
+      "path": "results/primary_pages/chanhu-source-leaf416.png",
+      "bytes": 3474348,
+      "sha256": "d1292bd2137b52aa1a1cfa8f981a6ec49ee239a9b89d37b288eec60355a984c6"
+    },
+    {
+      "path": "results/primary_pages/chanhu-source-leaf417.png",
+      "bytes": 3452588,
+      "sha256": "7c1ecd8a0d0e16502fe75c83533ed9b0f5566c07d75858a77f3199025403c92a"
+    }
+  ]
+}

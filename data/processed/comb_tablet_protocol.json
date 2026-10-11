@@ -1,0 +1,20 @@
+{
+  "research_date": "2026-09-27",
+  "status": "Source-exposed protocol saved after seeing H1817/H843 strings but before counting W195 or W554 occurrences and cross-catalogue candidates",
+  "purpose": "Test the second differing sign without silently equating W195/W554; quantify adjoining W400/comb contexts separately",
+  "targets": [
+    "W195",
+    "W554"
+  ],
+  "selection": "All strict Wells rows containing either target; preserve all source rows and one-per-literal-string grouping",
+  "masked_discovery": "For each target separately mask only that code to one M001\u2013M417 per occurrence with consistent value within each candidate pair. Other target code is not wildcard. Use existing family memberships; prior W550/W555 M216/M222 candidate set and W617 two-M245 span; W525/M254 is an explicitly experimental extension from two local primary examples, not a globally certified rule. Report results with and without that extension. W554 existing P229/M226 is hidden when it is target; separately score compatibility with it.",
+  "M_corpora": "Strict M77 separately from direction1,known-undoubted multi-document flat arrays used only as source locators, never merge counts or establish same-object identity.",
+  "context_check": "For all strict rows report direct adjacency W400 before each W525/W526/W527 in file order, exact W400 deletion/addition counterparts at that adjacency, grouped by literal string. No p-value; source-exposed description.",
+  "limitations": [
+    "No unique candidate is a semantic value or authenticated artifact",
+    "Same primary normalized category can encompass different graphic forms",
+    "Sparse mappings and missing face recovery limit null results",
+    "Proposed Sanskrit readings accidentally displayed when printing raw metadata for H1817/H843 are excluded; those fields are not inputs or evidence",
+    "No global allography or ancient word boundaries will be promoted"
+  ]
+}

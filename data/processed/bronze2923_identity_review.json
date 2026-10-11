@@ -1,0 +1,187 @@
+{
+  "schema_version": 1,
+  "scope": "Exact M77 reference2923 identity and physical constraint audit; no new sign values.",
+  "identity": {
+    "m77_reference": "2923",
+    "appendix_printed_page": 818,
+    "appendix_pdf_page": 827,
+    "primary_publication": "Further Excavations at Mohenjo-daro, volume II",
+    "plate": "CXXVI",
+    "item": "2",
+    "conventional_excavation_number": "DK7856",
+    "excavation_number_caveat": "Original p489 field number is blurred and third digit can resemble6; primary plate/item identity is firmer than digit reading.",
+    "artifact_type": "Broken chisel, principally surviving tang",
+    "material_table": "Bronze",
+    "m77_type": 6,
+    "site": "Mohenjo-daro",
+    "area": "DK",
+    "section": "G",
+    "locus": {
+      "block": "12A",
+      "house": "I",
+      "room": "15",
+      "level_feet": "-24.4"
+    },
+    "dimensions_inches": {
+      "surviving_length": "5.22",
+      "width": "0.91",
+      "tang_thickness": "0.30"
+    },
+    "reported_surviving_mass_grams": "165.343",
+    "whole_original_mass_grams": null,
+    "same_object_as_existing_audit": true,
+    "new_independent_mass_anchor": false,
+    "cisi_identifier_authenticated": null,
+    "current_museum_accession_authenticated": null
+  },
+  "other_object_mappings": [
+    {
+      "m77_reference": "2924",
+      "plate": "CXXVI",
+      "item": "3",
+      "field_number": "7855",
+      "mass_grams": "262.233"
+    },
+    {
+      "m77_reference": "2925",
+      "plate": "CXXVI",
+      "item": "5",
+      "primary_field_number": "7535",
+      "later_field_number": "7835",
+      "mass_grams": "1910.030",
+      "number_conflict_resolved": false
+    }
+  ],
+  "side2": {
+    "tokens": [
+      "M387",
+      "M015",
+      "M104",
+      "M106",
+      "M312"
+    ],
+    "source": "data/processed/five_stroke_missing_lines.jsonl",
+    "direction_code": 4,
+    "normalization": "M77 right-to-left transcription of vertical inscription; code4 retained",
+    "published_plate_observation": "Left depiction of CXXVI2 carries two complex signs, four transverse strokes, five upright strokes, and one arch. Both faces depicted.",
+    "independent_physical_incisions_recount": false
+  },
+  "photo_status": {
+    "candidate_photo": "CXXXI31",
+    "candidate_basis": "Prior visual resemblance; p473 includes CXXXI31 in type(b) chisel group but does not explicitly pair it one-to-one with CXXVI2.",
+    "join_status": "Tentative",
+    "independent_complete_glyph_verification": false
+  },
+  "constraints": [
+    "p454 states implements were corroded together and chemically separated, reducing their weights considerably.",
+    "p454 identifies no2 as broken chisel tang and attributes inscription to before breakage; original intact mass is not reported.",
+    "p473 suggests original length over15in; this is reconstruction, not measurement and not a mass factor.",
+    "M104 and M106 are graphic stroke groups on same artifact; this does not establish equal value per stroke or arithmetic additivity.",
+    "Known object mass does not establish that inscription encodes mass; no independent unit or complete ancient mass supplied.",
+    "Primary field-number conflict7535/7835 belongs to CXXVI5=M772925, not2923."
+  ],
+  "failed_or_limited_searches": [
+    {
+      "attempt": "Local retained CISI1 OCR pages searched for7856,7855,7535,2923",
+      "result": "No match; OCR is incomplete and not a comprehensive absence claim. CISI1 PDF406 visually inspected; no target identity authenticated."
+    },
+    {
+      "attempt": "Web queries: \"7856\" \"chisel\" Mohenjo; \"DK7856\" corpus seals; \"2923\" \"CXXVI\" Indus",
+      "result": "Returned later numeral paper mirrors, speculative decipherment websites and irrelevant number collisions; no new primary museum record or mass. Search snippets not used as evidence."
+    }
+  ],
+  "new_downloads": [],
+  "crop": {
+    "source": "results/primary_pages/chain-artifact-m77-827.png",
+    "output": "results/primary_pages/bronze2923-appendix-detail.png",
+    "box": [
+      1020,
+      2040,
+      1770,
+      2240
+    ],
+    "method": "PIL.Image.crop; no resampling or enhancement"
+  },
+  "evidence_files": [
+    {
+      "path": "data/raw/mahadevan_1977_text.pdf",
+      "bytes": 119302608,
+      "sha256": "6dcdd074a0174e5fab149590fbbf82342711d345764e9763f8e5e92c81cf7f99"
+    },
+    {
+      "path": "results/primary_pages/chain-artifact-m77-827.png",
+      "bytes": 1715296,
+      "sha256": "367e9c400b92bca24b6b75be9e9d205900c7380e645143fc352fecfdda21332c"
+    },
+    {
+      "path": "results/primary_pages/bronze2923-appendix-detail.png",
+      "bytes": 66438,
+      "sha256": "3b8015a10ffc300b5494a2859132b0b370877b76dcfe566de4d66ba44e6899ec"
+    },
+    {
+      "path": "results/primary_pages/five-missing-2923-detail.png",
+      "bytes": 142101,
+      "sha256": "8361e517cec6e79c400ece64957a375c6bd3652617c0b4a930e7a934952ed954"
+    },
+    {
+      "path": "data/processed/five_stroke_missing_lines.jsonl",
+      "bytes": 4944,
+      "sha256": "684954ffa8f2aa5b886dc8770c941827bca39231be8d6d892c172fa7d4a3608c"
+    },
+    {
+      "path": "data/raw/metal_original_mackay_leaf476.jpg",
+      "bytes": 2834926,
+      "sha256": "77ece53617c103b7100627f3a16d5a6869f719fa35b24be4f2d923f43739b3c5"
+    },
+    {
+      "path": "data/raw/metal_original_mackay_leaf495.jpg",
+      "bytes": 2762031,
+      "sha256": "368111b34e494fd2c81d8db513f7535e46f544a303a20a2117dcbe3ef2ed208a"
+    },
+    {
+      "path": "data/raw/metal_original_mackay_leaf511.jpg",
+      "bytes": 1854822,
+      "sha256": "6c03c76f2a5bbf01fb655c385a2bd3409e1304a5d078b202f5236980bbaba7a3"
+    },
+    {
+      "path": "data/raw/metal_plate_9954_leaf265.jpg",
+      "bytes": 1501585,
+      "sha256": "02d3fd1f4dd021a65eddf10b759fa42ab105a70b6320804f5b5471550f80827f"
+    },
+    {
+      "path": "data/raw/metal_plate_9954_leaf275.jpg",
+      "bytes": 1502280,
+      "sha256": "217f3c7f6113aef38dcdabd8d3bbbf84f36f743b27194dee8a050d25e71829dc"
+    },
+    {
+      "path": "results/primary_pages/metal-plate-tang.png",
+      "bytes": 271481,
+      "sha256": "44b01f5ebd8a42ca8484448a75e856fccc6376e2ff7728c8bae36a803f5a0a7d"
+    },
+    {
+      "path": "results/primary_pages/metal-plate-photographs.png",
+      "bytes": 2727716,
+      "sha256": "d467305553417159e37cb9dcdc21a99d301a1f3ef740e3fac741162a80841296"
+    },
+    {
+      "path": "results/primary_pages/metal-original-table-rows.png",
+      "bytes": 518587,
+      "sha256": "b304b6220fe2b62f68934752d245eda385c20397cfc06f7a9fe71435f0e42794"
+    },
+    {
+      "path": "results/primary_pages/metal-original-masses.png",
+      "bytes": 1352529,
+      "sha256": "c57e5110c489b478f48bf371e6d2724b2f38b9ba56a060d17cdfc974f6cfa1ff"
+    },
+    {
+      "path": "data/processed/metal_original_records.json",
+      "bytes": 14811,
+      "sha256": "df2004bef9285e72688715006bb00d63984a446c488d80f394f464ff77ca5659"
+    },
+    {
+      "path": "data/processed/metal_plate_audit.json",
+      "bytes": 10162,
+      "sha256": "7c167f18878a3afd4aca22b4387b4790172fb5322db160a05b8256b8e3870b66"
+    }
+  ]
+}

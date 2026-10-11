@@ -1,0 +1,43 @@
+{
+  "source_pdf": "data/raw/mahadevan_1977_text.pdf",
+  "source_pdf_sha256": "6dcdd074a0174e5fab149590fbbf82342711d345764e9763f8e5e92c81cf7f99",
+  "review_date": "2026-09-22",
+  "reviewer": "Codex; manual numerical transcription after full-page visual inspection; one pass, not independent double entry",
+  "selection": "Eight signs in the five already recorded shape contrasts. Site counts for all eight; object counts for four whose rows are present in this scan.",
+  "unit": "Sign occurrences, including repeated texts; these are not unique objects or deduplicated texts",
+  "dimensions": {
+    "site": {
+      "table": "III",
+      "code_source_pdf_page": 42,
+      "codes": ["MD", "HP", "CD", "LL", "KB", "OS", "WA"],
+      "labels": ["Mohenjodaro", "Harappa", "Chanhudaro", "Lothal", "Kalibangan", "Other sites", "West Asian finds"]
+    },
+    "object_type": {
+      "table": "IV",
+      "code_source_pdf_page": 41,
+      "codes": ["1", "2", "3", "4", "5", "6", "7", "9"],
+      "labels": ["Seals", "Sealings", "Miniature tablets", "Pottery graffiti", "Copper tablets", "Bronze implements", "Ivory or bone rods", "Miscellaneous inscribed objects"]
+    }
+  },
+  "rows": [
+    {"dimension": "site", "sign": "M059", "pdf_page": 757, "printed_page": 746, "half": 2, "row_in_half": 27, "counts": [205, 122, 9, 25, 12, 3, 5], "printed_total": 381},
+    {"dimension": "site", "sign": "M065", "pdf_page": 758, "printed_page": 747, "half": 1, "row_in_half": 1, "counts": [135, 57, 7, 12, 1, 3, 1], "printed_total": 216},
+    {"dimension": "site", "sign": "M087", "pdf_page": 758, "printed_page": 747, "half": 1, "row_in_half": 23, "counts": [165, 162, 15, 13, 7, 3, 0], "printed_total": 365},
+    {"dimension": "site", "sign": "M099", "pdf_page": 758, "printed_page": 747, "half": 2, "row_in_half": 3, "counts": [374, 137, 22, 73, 33, 9, 1], "printed_total": 649},
+    {"dimension": "site", "sign": "M342", "pdf_page": 762, "printed_page": 751, "half": 1, "row_in_half": 22, "counts": [766, 472, 28, 71, 44, 9, 5], "printed_total": 1395},
+    {"dimension": "site", "sign": "M343", "pdf_page": 762, "printed_page": 751, "half": 1, "row_in_half": 23, "counts": [101, 39, 6, 20, 7, 4, 0], "printed_total": 177},
+    {"dimension": "site", "sign": "M344", "pdf_page": 762, "printed_page": 751, "half": 1, "row_in_half": 24, "counts": [24, 7, 0, 1, 3, 0, 0], "printed_total": 35},
+    {"dimension": "site", "sign": "M345", "pdf_page": 762, "printed_page": 751, "half": 1, "row_in_half": 25, "counts": [33, 16, 1, 0, 0, 0, 1], "printed_total": 51},
+    {"dimension": "object_type", "sign": "M059", "pdf_page": 764, "printed_page": 753, "half": 2, "row_in_half": 27, "counts": [244, 72, 34, 14, 14, 1, 2, 0], "printed_total": 381},
+    {"dimension": "object_type", "sign": "M065", "pdf_page": 765, "printed_page": 754, "half": 1, "row_in_half": 1, "counts": [148, 42, 4, 4, 16, 1, 1, 0], "printed_total": 216},
+    {"dimension": "object_type", "sign": "M087", "pdf_page": 765, "printed_page": 754, "half": 1, "row_in_half": 23, "counts": [188, 76, 68, 9, 21, 1, 1, 1], "printed_total": 365},
+    {"dimension": "object_type", "sign": "M099", "pdf_page": 765, "printed_page": 754, "half": 2, "row_in_half": 3, "counts": [515, 115, 5, 6, 2, 1, 4, 1], "printed_total": 649}
+  ],
+  "missing_source_data": {
+    "dimension": "object_type",
+    "signs": ["M342", "M343", "M344", "M345"],
+    "reason": "The inspected text PDF goes from printed p. 757 at PDF p. 768 to printed p. 760 at PDF p. 769. Printed pp. 758--759 containing the remaining Table IV rows are absent at this location. No values are imputed.",
+    "evidence_renders": ["results/primary_pages/context-768.png", "results/primary_pages/context-769.png"],
+    "limitation": "This identifies a specific scan gap; it is not an audit certifying completeness of all other pages."
+  }
+}

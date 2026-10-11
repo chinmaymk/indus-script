@@ -1,0 +1,81 @@
+{
+  "status": "Manual visual observations; published reproductions, not examination of original artifact",
+  "artifact": "H-306",
+  "local_rows": [
+    "1328.1",
+    "1328.2"
+  ],
+  "identifier_chain": [
+    {
+      "source": "local transcription",
+      "identifier": "13270"
+    },
+    {
+      "source": "Mahadevan 1977, printed p.824, PDF p.833",
+      "reference": "5474",
+      "excavation_number": "13270",
+      "museum_reference": "ASI 63.11.183"
+    },
+    {
+      "source": "Joshi and Parpola 1987, printed p.371, PDF p.407",
+      "cisi": "H-306",
+      "excavation_number": "13270",
+      "museum_reference": "ASI 63.11.183",
+      "photograph_reference": "HU 667"
+    }
+  ],
+  "visual_reviews": [
+    {
+      "source": "data/raw/farmer_2004_harvard.pdf",
+      "pdf_page": 30,
+      "printed_page": 30,
+      "reviewed": true,
+      "observation": "Photographic panels labelled H-306 A and B. A shows two long strokes between overlapping leaf-like and handled-jar-like signs; B shows three strokes beside a plain U-like sign.",
+      "limitations": "Presentation reproduction may reuse catalogue photograph; not an independent artifact sample. The presentation interpretations are not adopted.",
+      "source_sha256": "4de859f7fa4d635fa61b4280a5bfa11501b8efafbf0c4bffacda03ec26a0093a"
+    },
+    {
+      "source": "data/raw/mahadevan_1977_text.pdf",
+      "pdf_page": 155,
+      "printed_page": 144,
+      "reviewed": true,
+      "observation": "Reference 5474 has two displayed lines. First: handled jar, two long strokes, overlapping lobes. Second: plain U, three long strokes.",
+      "limitations": "Normalized catalogue drawing, not a photograph. Position/order normalization differs from photographic panel; counts compared without requiring common orientation.",
+      "source_sha256": "6dcdd074a0174e5fab149590fbbf82342711d345764e9763f8e5e92c81cf7f99"
+    },
+    {
+      "source": "data/raw/mahadevan_1977_text.pdf",
+      "pdf_page": 833,
+      "printed_page": 824,
+      "reviewed": true,
+      "observation": "Reference 5474 matches excavation number 13270 and museum reference ASI 63.11.183.",
+      "limitations": "The accession bridge is also confirmed by the subsequently checked CISI data row.",
+      "source_sha256": "6dcdd074a0174e5fab149590fbbf82342711d345764e9763f8e5e92c81cf7f99"
+    },
+    {
+      "source": "data/raw/cisi_76884.pdf",
+      "source_sha256": "47a4da4227cfb7baa56d6a561e25797225499d0ec54f5a702a82c67ab4746d4d",
+      "pdf_page": 261,
+      "printed_page": 225,
+      "reviewed": true,
+      "observation": "Panels H-306 A and H-306 B show two long strokes between overlapping lobes and handled jar on A, and three long strokes beside plain U on B.",
+      "limitations": "Published photograph; same underlying object and apparently same image reproduced in Farmer presentation. Do not count as independent samples."
+    },
+    {
+      "source": "data/raw/cisi_76884.pdf",
+      "source_sha256": "47a4da4227cfb7baa56d6a561e25797225499d0ec54f5a702a82c67ab4746d4d",
+      "pdf_page": 407,
+      "printed_page": 371,
+      "reviewed": true,
+      "observation": "H-306 data row gives excavation 13270, museum ASI 63.11.183, and photography reference HU 667.",
+      "limitations": "The adjacent catalogue column number 4126 is a different reference system; not equated with Mahadevan reference 5474."
+    }
+  ],
+  "conditional_equation": {
+    "coefficient_W700": 3,
+    "coefficient_W840": 2,
+    "residual": "L",
+    "contradiction_if": "Both faces encode equal quantities, stroke value is the same positive L, and residual signs do not alter the quantity"
+  },
+  "established_semantics": []
+}

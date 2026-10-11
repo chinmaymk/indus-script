@@ -1,0 +1,13 @@
+{
+  "research_date": "2026-09-24",
+  "status": "Protocol saved before computing this extension; previous pairwise results already known",
+  "input": "results/relation_template_audit.json",
+  "scope": "All417 markers and all3 existing templates, with their unchanged eligible domestic candidate seal strings",
+  "naive_path": "Ordered A,B,C of three distinct complete strings, each adjacent pair having some existing witness",
+  "compatible_path": "At least one choice of one parse per string satisfying A.right=B.left and B.right=C.left, using the same parse of B in both comparisons",
+  "primary_counts": ["unique ordered triples before enforcing middle-parse identity", "unique ordered triples with at least one compatible realization", "triples with no compatible realization"],
+  "secondary_counts": ["pair-witness combinations", "compatible parse realizations"],
+  "planned_controls": ["all417 single markers", "all3 marker placements", "reverse-string/template symmetry", "direct exhaustive three-parse assignment oracle on small synthetic strings", "explicit incompatible-middle counterexample"],
+  "excluded_claims": ["archaeological independence of the strings", "global consistency across all paths simultaneously", "statistical significance", "names", "kinship", "reading direction", "new phonetic or semantic values"],
+  "new_downloads": 0
+}

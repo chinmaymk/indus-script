@@ -1,0 +1,78 @@
+{
+  "sources": [
+    {
+      "path": "data/raw/umma_old_archive_search.json",
+      "bytes": 243,
+      "sha256": "57f9f922a71722694aefcdb459cfa5e752738d0b3b0c566d4743dce97f46bcac",
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28Revue+assyriologie%29+AND+year%3A1925&output=json",
+      "kind": "download",
+      "retrieved_date": "2026-09-24"
+    },
+    {
+      "path": "data/raw/umma_old_archive_search_broad.json",
+      "bytes": 1200,
+      "sha256": "eb31d59cc2542b64c6011d9849f41e3cfa88b2ac59e6caf1c5aed766ea6ae5cc",
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22Revue+d%27assyriologie%22%29&fl%5B%5D=identifier&fl%5B%5D=title&rows=100&output=json",
+      "kind": "download",
+      "retrieved_date": "2026-09-24"
+    },
+    {
+      "path": "data/raw/umma_old_archive_collection_search.json",
+      "bytes": 328,
+      "sha256": "8485f7deac74b7e632df8f21115e52c54cab47a0fc7b41a4b13ea7d821cd1cd2",
+      "url": "https://archive.org/advancedsearch.php?q=collection%3Apub_revue-dassyriologie-et-darcheologie-orientale+AND+year%3A1925&fl%5B%5D=identifier&fl%5B%5D=title&rows=50&output=json",
+      "kind": "download",
+      "retrieved_date": "2026-09-24"
+    },
+    {
+      "path": "data/raw/umma_old_archive_wildcard_search.json",
+      "bytes": 24046,
+      "sha256": "74d4c4db3dfead13a03e73f5b04a2eb0da02f1aff28e25da40220acb09c05937",
+      "url": "https://archive.org/advancedsearch.php?q=identifier%3A%2Arevue%2A+AND+year%3A1925&fl%5B%5D=identifier&fl%5B%5D=title&rows=250&output=json",
+      "kind": "download",
+      "retrieved_date": "2026-09-24"
+    },
+    {
+      "path": "data/raw/umma_old_parpola_1994.pdf",
+      "bytes": 18998517,
+      "sha256": "fd133822f9999c86178a32208465e847c5288b578ad14ca2cd643efe57f0e0b6",
+      "url": "https://www.sindhilanguagelibrary.com/assets/documents/pdf/647f088f1fff3.pdf",
+      "kind": "download",
+      "retrieved_date": "2026-09-24"
+    },
+    {
+      "path": "data/raw/umma_old_scheil_jstor_response.bin",
+      "bytes": 3038,
+      "sha256": "32ed63159c77e21ee19ca1b9aa3213ccf0218eb59539560b132a8e68ef0e18ea",
+      "url": "https://www.jstor.org/stable/pdf/23290782.pdf",
+      "kind": "archived_http_response",
+      "retrieved_date": "2026-09-24",
+      "status": "Challenge/error HTML; requested research content not retrieved; HTTP status not captured."
+    },
+    {
+      "path": "data/raw/umma_old_tosi_harappa.html",
+      "bytes": 5809,
+      "sha256": "f50a57dbf7be50adb16471dd686f2565a882ed460e77d61d1898fd84b7144836",
+      "url": "https://www.harappa.com/blog/indus-seal-impression-umma-mesopotamia",
+      "kind": "archived_http_response",
+      "retrieved_date": "2026-09-24",
+      "status": "Challenge/error HTML; requested research content not retrieved; HTTP status not captured."
+    },
+    {
+      "path": "data/raw/umma_old_tosi_web_capture.json",
+      "bytes": 4710,
+      "sha256": "f0cc85db56ee3f8cd905957ba57592565f3a5e76767b8f6c530dee2167cad4ea",
+      "url": "https://www.harappa.com/blog/indus-seal-impression-umma-mesopotamia",
+      "kind": "web_extraction_capture",
+      "retrieved_date": "2026-09-24"
+    },
+    {
+      "path": "data/raw/umma_old_scheil_bibliography_web_capture.json",
+      "bytes": 3603,
+      "sha256": "90cd4eb293034f1c34bd37f509ea07fdd4a3915de32192df9631afdd7751e4a2",
+      "url": "https://www.jstor.org/stable/i23283221",
+      "kind": "web_extraction_capture",
+      "retrieved_date": "2026-09-24"
+    }
+  ]
+}

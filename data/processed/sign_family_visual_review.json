@@ -1,0 +1,55 @@
+{
+  "source": "data/raw/cisi_76884.pdf",
+  "source_sha256": "47a4da4227cfb7baa56d6a561e25797225499d0ec54f5a702a82c67ab4746d4d",
+  "selection": "Exploratory P364 exact-substitution pair selected after predictive results, because both objects occur in available CISI volume 1",
+  "local_records": [
+    {
+      "id": "1923.1",
+      "cisi": "K-62",
+      "text": "+740-176-233-803+",
+      "complete": "Y",
+      "condition": "Good",
+      "preservation": "complete",
+      "excavation-idno": "KLB2 9734(1)"
+    },
+    {
+      "id": "2980.1",
+      "cisi": "M-503",
+      "text": "+740-176-233-806+",
+      "complete": "Y",
+      "condition": "Poor",
+      "preservation": "complete",
+      "excavation-idno": "DK10695"
+    }
+  ],
+  "visual_reviews": [
+    {
+      "artifact": "K-62",
+      "pdf_page": 346,
+      "printed_page": 310,
+      "labels_reviewed": [
+        "K-62 A",
+        "K-62 a"
+      ],
+      "reviewed": true,
+      "observation": "Original and impression show a clear four-sign inscription, including a handled jar and a filled leaf-like outline.",
+      "scope": "Caption and broad forms checked; no independent authentication of the complete Wells sign-ID assignment."
+    },
+    {
+      "artifact": "M-503",
+      "pdf_page": 162,
+      "printed_page": 126,
+      "labels_reviewed": [
+        "M-503 A",
+        "M-503 B"
+      ],
+      "reviewed": true,
+      "observation": "Published copper-tablet photograph is strongly degraded. Traces of the inscription remain, but the fine internal details needed to confirm the proposed W803/W806 contrast cannot be read confidently here.",
+      "scope": "The exact variant contrast is not visually authenticated. Local source also labels the object condition Poor despite complete preservation."
+    }
+  ],
+  "outcome": "Insufficient visual evidence from these reproductions to independently verify the exact substitution pair",
+  "source_codes_changed": false,
+  "statistical_use": "Raw-code analysis remains conditional on the secondary transcription; this case does not validate a semantic distinction or an allograph merger",
+  "next_discriminating_evidence": "A clearer independently identified photograph or autopsy drawing that resolves the internal details, or another adequately preserved substitution pair"
+}

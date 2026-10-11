@@ -1,0 +1,42 @@
+# M77 ingestion and provenance review
+
+The reviewed files do **not** establish a reproducible raw-OCR-to-numeric-export chain. They expose separate data routes that must not be conflated: whole-book OCR, a prebuilt flat export attributed to OCR plus frequency-rank mapping, and canonical object records attributed to an indusscript.in Firestore transcription. Parent's separate parser/frequency audit evaluates the actual exports; this review evaluates their declared provenance and source conventions.
+
+All inputs are pinned to Glossa commit `40812fc54470d5508b47af5fabcea7ccf044036c`. [The JSON ledger](../data/processed/m77_ingestion_review.json) records exact repository paths, SHA-256, Git blob hashes, byte counts and line locators. No imported code was executed or additional data downloaded.
+
+## Actual raw format and original conventions
+
+`glossa_mahadevan_m77_raw.txt` is 673,944 bytes and 170,279 lines of whole-book OCR, including introduction, text tables, concordance, statistics and back matter. It is not a file of numerical sign sequences. For example, lines 6500–6630 mix object/metadata number strings with OCR approximations to printed glyphs and page headings. The downloaded bytes match repository **`data/import/mahadevan_m77_raw.txt`**, not the separate similarly named blobs under `data/` and `data/raw/`.
+
+The work identifies itself as Mahadevan's *The Indus Script: Texts, Concordance and Tables*, ASI Memoir 77 (1977). Its introduction supplies these conventions, subject to OCR transcription errors:
+
+- **Object identity and line structure:** four-digit text numbers identify objects (lines 818–823). The Texts use ten-digit strings encoding object, type, side, field symbol, line and direction; the Concordance uses six-digit object/side/line references. Repeated leading codes may be suppressed for subsequent sides or lines (2043–2110). Whitespace lines and bare numbers are not automatically new inscriptions.
+- **Scope:** 2,906 texts, 3,573 lines and 13,372 legible sign occurrences are declared (2115–2122), not the flat loader's 1,669 inscriptions and 5,361 tokens. These may be a subset, but its selection rule is missing from the reviewed loader.
+- **Order:** seals are shown as impressions; all printed text lines are normalized to read right-to-left, while original direction is coded separately (2131–2155). Concordance text is read top-to-bottom and each line right-to-left (2410–2416). Recovering reading order requires layout-aware interpretation; a blanket reversal based on the original-direction code could reverse an already normalized transcription.
+- **Uncertainty:** a prefixed star marks a doubtfully read sign, not a separate sign (2047–2049; 3269–3275). The OCR renders the missing/illegible-passage symbol as `H`; it may stand for **one or more** signs. Its printed shape should be checked against the original before assigning a machine token. Missing spans must not be silently converted to one ordinary sign or removed to join neighbors.
+- **Repetition:** the Concordance reproduces the entire text for each sign occurrence (2381–2383, 2405–2416). These are index repetitions, not independent objects. Conversely, identical texts on different objects are genuine separate records. Object/side/line identity is needed to distinguish these cases.
+- **Variants:** printed signs are normalized and variants are not distinguished in the Texts and Concordance; a separate variant list supplies examples (2150–2157). This source cannot support occurrence-level allograph claims without that additional record.
+
+## What the supplied code does
+
+`glossa_build_corpus_pipeline.py` does not parse M77 OCR or generate `mahadevan_corpus_flat.txt`. Its `main()` loads CISI and Yajnadevam records, concatenates them, and builds a CISI sign registry (583–603). The ingestion log hardcodes M77 as “title page only” (525–528), which is inconsistent with the whole-book OCR now pinned. This is stale logging, not proof that M77 was successfully ingested. The CISI loader assigns an RTL label without reversing its input array (153–161); this does not establish M77 order.
+
+`glossa_indus_m77.py` declares the flat file was produced by “OCR + sign-rank-correlation glyph mapping” (3–8). Neither the actual mapping nor its construction/validation is supplied by these two scripts. Frequency rank alone cannot verify sign identity, especially under differing corpus selection, normalization and uncertain readings.
+
+The flat loader searches three paths in precedence order (36–41), reads the first existing file with UTF-8 errors ignored (46–49), and retains only whitespace tokens satisfying `isdigit()` (67–70). It preserves their order and preserves repeated lines, but does not verify width, sign range, namespace, or an object ID. Despite its comment, it does not explicitly skip comment headers: a line such as `# 1977` would become a one-token inscription. A token `*373` would disappear rather than retain sign 373 with a doubt flag; numeric missing markers would survive as ordinary tokens. These are consequences of the code, not assertions that every such case occurs in its flat input.
+
+`get_corpus_symbols()` explicitly concatenates all inscriptions without separators (83–85). Consequently the previously reviewed release validation's M77 bigram loop crosses inscription boundaries whenever boundary tokens are assigned. The helper now resolves that earlier uncertainty. Object linkage, duplicates and missing spans cannot be reconstructed from this API alone.
+
+## Separate canonical object route
+
+`glossa_canonical_objects.jsonl` contains 2,906 `indusscript-m77` records. Its first such record is JSONL line 12603, object `1001`, and its citation says it comes from **indusscript.in Firestore (RMRL, 2021)**, based on Mahadevan 1977. This is a declared upstream source, not an independently verified download history or evidence that it was derived from the supplied OCR.
+
+Object 1001 preserves `raw_signs=[0,67,72,8,342]` as strings, direction `1`, and `doc_count=2`; the normalized list contains `000` yet reports four sign instances. Object 1002 (line 12604) retains `*373`, `244`, `0`, whereas the flat numeric loader would discard the starred token. Object 1018 (line 12619) records direction `3`. These examples demonstrate materially different schemas. The meanings of `0`, document aggregation and sign-array order require the canonical builder and upstream schema; neither their source provenance nor correct handling follows from the object count alone.
+
+The canonical IDs and retained uncertainty offer a better audit trail than anonymous flat lines, but the records remain marked `unreviewed`. Trust requires a documented link from each object/side/line to its primary transcription, explicit handling of stars and unknown spans, independently checked sign identities, and order validation against examples. The reviewed files do not yet supply that complete chain.
+
+## Related Firestore reconstruction helper
+
+The subsequently supplied `glossa_indus_corpus_firestore.py` explicitly labels itself supplementary and cites a May 14, 2026 Firestore acquisition (lines 3–30). This is a related reconstruction route; this review does **not** establish that it built the canonical object file. Its claim that `*NNN` represents RMRL additions (23–24, 65) conflicts with Mahadevan's documented star-as-doubtful convention. Parent's primary-page inspection independently confirms that convention. A distinct RMRL use would require explicit upstream documentation; the helper supplies none here.
+
+The helper removes all starred entries and zero/empty entries (57–70), potentially joining neighbors across removed positions. It groups by `(dockey,sideline)`, retains the longest cleaned sequence per pair, and keeps the first if tied (99–124). It neither reconciles conflicting equal-length readings nor preserves rejected alternatives. It uses `texts` order unchanged; when fewer than two valid tokens remain, it falls back to S1–S14 and admits only sequences of length at least two (109–124), even if a caller requests `min_length=1`. This is selection after filtering, not complete one-sign coverage. It drops sideline labels from returned lists and uses encounter order rather than explicit side/line sorting (127–130). Invalid JSON records are silently ignored (77–84). These are substantive, inspectable transformations; none establishes that the canonical export underwent them.

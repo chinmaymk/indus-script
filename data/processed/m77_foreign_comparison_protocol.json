@@ -1,0 +1,12 @@
+{
+  "written_date": "2026-09-23",
+  "status": "Exploratory protocol frozen before parent inspection of foreign candidate sequences and score calculation; not externally registered or blind",
+  "question": "Do source-selected West Asian seals contain combinations absent or rare in source-selected South Asian seals, relative to held-out domestic strings?",
+  "identity_gate": "Use primary-reviewed findspot ranges from the separate selection ledger. Foreign findspot is not foreign manufacture or a known foreign language. Keep probable provenance separate.",
+  "target_policy": "Inventory all primary-listed secure foreign references including missing export rows. Quantitative comparison: object code1, doc_count1, original direction1 or2, at least2 tokens, no doubtful token or unknown span. Preserve normalized exported order without reversal.",
+  "training_policy": "Same filters, restricted to primary-reviewed South Asian reference ranges. Deduplicate exact strings. Remove every exact foreign target string from training globally before scoring. No translations or crosswalks.",
+  "scores": ["Exact full-string matches before exclusion with all references", "Unseen internal adjacent-pair fraction", "Negative mean log2 internal transition probability with add-one smoothing over fixed417-sign inventory"],
+  "reference_comparison": "Score each unique domestic string with its complete string excluded from domestic training. Compare targets only with domestic controls of the same length: count, median, range, and lower/equal/higher counts. No population significance claim. No controls means not comparable.",
+  "sensitivity": "Reversed target scores are diagnostics only; never select a direction by best fit or rewrite authenticated direction.",
+  "limits": ["Unusual strings may reflect content, names, genre, imitation, orientation or transcription error and do not identify language", "Small selected samples and unequal discovery prevent population inference", "The incomplete export is not wholly authenticated", "Deduplication does not remove all mold or archaeological dependence", "Scores assign no sound or meaning and do not distinguish linguistic from nonlinguistic encoding"]
+}

@@ -1,0 +1,15 @@
+{
+  "scope": "Four personal-name citations from Surdi and De Graef 2025 note22, with three CDLI exports and a separately reviewed BDTNS-only record",
+  "citations": ["Nisaba15/2,371", "CUSAS40/2,1582", "CUSAS40/2,1354", "UCTIS099"],
+  "records": [
+    {"citation": "Nisaba15/2,371", "cdli_id": 453801, "path": "data/raw/cdli_p453801_artifact.json"},
+    {"citation": "CUSAS40/2,1582", "cdli_id": 516366, "path": "data/raw/cdli_p516366_artifact.json"},
+    {"citation": "CUSAS40/2,1354", "cdli_id": 516138, "path": "data/raw/cdli_p516138_artifact.json"}
+  ],
+  "records_without_cdli_export": [
+    {"citation": "UCTIS099", "bdtns_id": 205179, "museum_no": "IM 226931", "review": "docs/UCTIS99_ANCHOR_REVIEW.md", "reason": "No CDLI identifier exposed in the inspected BDTNS catalogue; do not invent an identifier or treat manual transcription as a CDLI export"}
+  ],
+  "possible_duplicate_groups": [
+    {"records": ["P453801", "P516366"], "status": "probable same text according to BDTNS, with unresolved year-name conflict; not counted as independent witnesses", "source": "data/raw/bdtns_192941_catalogue.html"}
+  ]
+}

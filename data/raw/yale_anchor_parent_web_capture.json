@@ -1,0 +1,50 @@
+{
+  "capture_type": "Bounded researcher paraphrase of web search results and access attempts; not original HTML or PDF bytes",
+  "retrieved_date": "2026-09-24",
+  "purpose": "Locate a dated seal-and-readable-document association and check whether it constrains an Indus reading",
+  "queries": [
+    "Indus seal cuneiform tablet impression bilingual inscription seal Shu ilishu original",
+    "Indus script seal impressed cuneiform tablet Ur Mesopotamia patronymic",
+    "\"Indus\" \"cuneiform tablet\" \"seal impression\"",
+    "\"Indus\" \"Qala\" \"tablet\" seal names",
+    "\"Indus\" \"bilingual\" \"Tepe Yahya\"",
+    "\"YBC 5447\" Indus sign",
+    "\"dated seal impression\" \"Buchanan\" 1967 pdf",
+    "\"Hatin\" \"Apkalum\" seal",
+    "\"Qala\" \"tablet\" \"Indus seal\" Amorite",
+    "\"Seals and Seal Impressions\" \"Hallo\" 2001 pdf",
+    "\"YBC 5447\" \"Indus\" \"three\"",
+    "\"Ricetti\" \"Interactions and New Directions\" seals",
+    "\"Buchanan\" \"unmistakable character\" Indus",
+    "\"Yale tablet\" \"Indus script\" sign",
+    "\"YBC 5447\" \"sign\" bucranium"
+  ],
+  "retained_leads": [
+    {
+      "url": "https://babylonian-collection.yale.edu/sites/default/files/files/Buchanan1981.pdf",
+      "summary": "Yale catalogue introduction names a seal impressed on a Gungunum-year-10 tablet. Entry1090 identifies YBC5447, describes seated drinking figures and intervening motifs, and distinguishes a separate Failaka drawing1090d. The entry refers to Hallo and Buchanan in AS16 and Buchanan1967 Archaeology20 pages104-107.",
+      "status": "Primary PDF assigned to parallel catalogue audit, not replaced by search excerpt"
+    },
+    {
+      "url": "https://www.openstarts.units.it/handle/10077/30236",
+      "summary": "Publisher record identifies Melissa Ricetti2020, Matching Near Eastern seals and sealings: current issues and new perspectives, pages221-240, EUT Edizioni Universita di Trieste, in Interactions and New Directions in Near Eastern Archaeology Volume3. Lists file13_W&E_4_BH5_III_online.pdf, approximately2.25MB, CC BY-NC-ND4.0.",
+      "status": "Indexed record retrieved; direct web open timed out"
+    },
+    {
+      "url": "https://www.openstarts.units.it/server/api/core/bitstreams/68c6e757-85e6-4c56-8ba2-a9fb2b81847f/content",
+      "summary": "Ricetti Table1 distinguishes a disputed Failaka/YBC5447 same-seal match from a doubtful Mohenjo-daro seal661/impression20 match. Original PDF downloaded and relevant pages visually reviewed separately.",
+      "status": "web open timeout; initial sandbox curl DNS failure; authorized network curl succeeded"
+    },
+    {
+      "url": "https://www.cambridge.org/core/books/abs/seals-and-sealing-in-the-ancient-world/references/31E52C4745FD7F810FD30258CD64BA73",
+      "summary": "Bibliography identifies Hallo2001 Seals and Seal Impressions pages239-254 and Buchanan1965 pages204-209. It is a locating reference, not the full Hallo chapter.",
+      "status": "No original Hallo2001 chapter recovered in parent bounded search"
+    },
+    {
+      "url": "https://www.scribd.com/document/797183046/Ancient-Cities-of-the-Indus-Gregory-Possehl-241118-145836",
+      "summary": "A search snippet combined fragments mentioning an unmistakable Indus character and the Yale tablet. It did not establish that both belonged to the same article or object. Follow-up search located the character phrase as a quotation attributed to Gadd no7, IM8028, a different object. The apparent Yale-script statement was not accepted.",
+      "status": "Discovery-only mixed-snippet lead rejected; no original source downloaded from this host"
+    }
+  ],
+  "scope": "Search results locate evidence; original Parpola and Ricetti pages were separately checked. No search snippet is treated as a deciphered Indus inscription. Other unrelated and speculative rebus hits were not used as semantic evidence."
+}

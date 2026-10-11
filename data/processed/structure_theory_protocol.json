@@ -1,0 +1,15 @@
+{
+  "status": "Exploratory; recorded before outcome of this new test, after exposure to existing structural results.",
+  "hypotheses": ["Two preceding signs carry predictive information beyond one preceding sign and exact length/position.", "The first sign carries additional predictive information beyond the preceding two signs and exact length/position."],
+  "models": ["Unigram half-count", "Exact length/position smoothed toward unigram", "Previous sign + exact length/position smoothed toward slot", "Previous two signs + exact length/position smoothed toward previous-one model", "First sign + previous two signs + exact length/position smoothed toward previous-two model"],
+  "headline_strength": 20,
+  "sensitivity_strengths": [5, 100],
+  "primary_common_eligible_positions": "zero-based index >= 3; first sign is distinct from both immediate predecessors and target",
+  "secondary_two_context_positions": "zero-based index >= 2",
+  "corpus": "lipi_strict; exact-text deduplication and transitive artifact/exact-text grouping as in analyze_sequences.grouped_records",
+  "folds": "Five pre-existing deterministic grouped folds; four train, one test; no hyperparameter selection",
+  "metadata_sensitivity": "Repeat after partitioning each contextual key by the set of source sites and object types for the unique text. This is sparse conditioning, not causal adjustment.",
+  "controls": ["WeatherIcons nonlinguistic source", "Seeded synthetic first-order generator", "Seeded synthetic second-order generator", "Seeded synthetic first-sign memory generator"],
+  "bootstrap": "1000 connected-component resamples of fixed held-out losses; no model retraining",
+  "claims_excluded": ["Language classification", "Semantic identity", "Accepted sign mergers", "Proof of finite Markov order", "Primary photograph authentication"]
+}

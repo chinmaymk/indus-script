@@ -1,0 +1,127 @@
+{
+  "review_mode": "Source-exposed manual image review, not blinded autopsy or complete W variant authentication",
+  "paper_claim": {
+    "source": "Parpola2009",
+    "printed_page": 50,
+    "pdf_page": 14,
+    "claim": "Three crab+fish occurrences; matching subsequent part on M387 and M57 proposed as evidence of synonymy of crab and crab+fish",
+    "phonetic_proposal_attributed_only": [
+      "kooL",
+      "kooL-miin"
+    ],
+    "established_reading": false
+  },
+  "objects": [
+    {
+      "cisi": "M-57",
+      "photo_printed_page": 26,
+      "photo_pdf_page": 62,
+      "inspected_views": [
+        "A",
+        "a"
+      ],
+      "finnish_number": "2340",
+      "excavation_number": "DK5742",
+      "museum_number": "ASI63.10.89",
+      "photo_reference": "HU175",
+      "metadata_pdf_page": 402,
+      "metadata_printed_page": 366,
+      "observation": "Impression shows a pincer/leaf-like form followed in proposed right-to-left reading by fish with internal stroke, then two long strokes and caged fish. Local neighborhood is compatible with file-order W226 W032 W231 W798. Earlier signs differ from M387. Fine W variant equivalence not independently established."
+    },
+    {
+      "cisi": "M-387",
+      "photo_printed_page": 95,
+      "photo_pdf_page": 131,
+      "inspected_views": [
+        "A",
+        "a"
+      ],
+      "finnish_number": "2041",
+      "excavation_number": "DK10231",
+      "museum_number": "ASI63.10.209",
+      "photo_reference": "HU202",
+      "metadata_pdf_page": 404,
+      "metadata_printed_page": 368,
+      "observation": "Impression shows a pincer/leaf-like form next to two long strokes and caged fish, compatible with file-order W226 W032 W798. No fish intervenes at the compared boundary. Photo is small; complete fine W variant transcription not claimed. Other preceding glyphs and rectangular object form differ from M57."
+    }
+  ],
+  "limits": [
+    "Finnish2340/2041 are not silently equated with M77 text identifiers.",
+    "The export condition Poor for M387 is retained, despite the impression showing the compared neighborhood.",
+    "Neither picture identifies crab or fish meaning, pronunciation, planet reference or semantic equivalence.",
+    "M57 and M387 have the same ending but distinct earlier text; not a one-position full-context minimal pair."
+  ],
+  "navigation_attempts": [
+    "Initial PDF63 showed M58\u201360; corrected M57 toPDF62.",
+    "Initial PDF130 showed M376\u2013381; PDF132 showed391\u2013396; corrected M387 toPDF131.",
+    "PDF393 is photographic Khirsara/Lohumjo-daro, not metadata; PDF400addenda and405other Mobjects not target joins.",
+    "Final exact metadata rows onPDF402 and404 visually checked and cropped."
+  ],
+  "evidence_files": [
+    {
+      "path": "data/raw/parpola_2009_hind_leg_fish.pdf",
+      "bytes": 3445601,
+      "sha256": "0be7173796ebd9703773191f9bcd44a4db362be5d65c77cd71e0b26a2a447bd9"
+    },
+    {
+      "path": "data/raw/cisi_76884.pdf",
+      "bytes": 31508998,
+      "sha256": "47a4da4227cfb7baa56d6a561e25797225499d0ec54f5a702a82c67ab4746d4d"
+    },
+    {
+      "path": "data/processed/catalogue_features.json",
+      "bytes": 189902,
+      "sha256": "00836515c6f3beec28b3b66e13d8a9c6e94571cfb2e9dbb4b148651b7ff0032d"
+    },
+    {
+      "path": "data/processed/crab_crop_boxes.json",
+      "bytes": 1082,
+      "sha256": "902fa8a747086e40ca1c399b056492a9961e6fc9497a3bf197791cf9a31837da"
+    },
+    {
+      "path": "results/primary_pages/crab-parpola-14.png",
+      "bytes": 483424,
+      "sha256": "8e42d4df9a70d7ebca26e3566b40be253613629b2570a75483a8185a4215d6e5"
+    },
+    {
+      "path": "results/primary_pages/crab-cisi-target-62.png",
+      "bytes": 2459705,
+      "sha256": "3c6c29ef84a384e90d6f8551a0d2553cae7ea10c51f72f4a989bbbeafcd298bc"
+    },
+    {
+      "path": "results/primary_pages/crab-cisi-final-131.png",
+      "bytes": 2272530,
+      "sha256": "a25a8bc654791d5d8306e33c24167b10dc7a3b265cefab6227f1f5d63b72dd12"
+    },
+    {
+      "path": "results/primary_pages/crab-cisi-final-402.png",
+      "bytes": 3750585,
+      "sha256": "28ee8df067af4a26f61018c1f39ba0080b32aa81b8bf824eb158b1be4e94744c"
+    },
+    {
+      "path": "results/primary_pages/crab-cisi-target-404.png",
+      "bytes": 3459032,
+      "sha256": "bd71e0c9b9106ed40afcdf016d79791a0c8e91c5927614105272dd6a977402ab"
+    },
+    {
+      "path": "results/primary_pages/crab-M57-impression-detail.png",
+      "bytes": 341886,
+      "sha256": "c681ba2267bf6e344379ad38b3a4204ceccabf3b489874f812a43a8f49514408"
+    },
+    {
+      "path": "results/primary_pages/crab-M387-impression-detail.png",
+      "bytes": 83856,
+      "sha256": "20700c772396a255f05f4d2f6004c3b83a90281c71b85c066ac629c3cbac75ba"
+    },
+    {
+      "path": "results/primary_pages/crab-M57-metadata-detail.png",
+      "bytes": 50855,
+      "sha256": "136b51559f3f6986fe5ef97a0768671b8236db504bdf7deb033b5d68af2b944e"
+    },
+    {
+      "path": "results/primary_pages/crab-M387-metadata-detail.png",
+      "bytes": 51360,
+      "sha256": "6b92b650d355ebee3fbb584b0bbbc84712b77444f4c6772ed836fe94690b2bd9"
+    }
+  ]
+}

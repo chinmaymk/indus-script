@@ -1,0 +1,280 @@
+{
+  "review_date": "2026-09-24",
+  "status": "Bounded identity audit; no decipherment; official accession record and full Scheil article not recovered",
+  "older_object": {
+    "m77_reference": "9811",
+    "m77_site_label": "Djoka (Umma)",
+    "object_type": "clay sealing / clay tag",
+    "accession_literal": "1931.120",
+    "institution": "Ashmolean Museum, Oxford",
+    "accession_evidence": "Parpola1994 printed113/PDF131 Fig7.16 caption, visually verified",
+    "official_museum_record_recovered": false,
+    "scheil_citation": "V. Scheil, Revue d\u2019Assyriologie22(2),1925,55\u201356; JSTOR23290782",
+    "scheil_full_article_recovered": false,
+    "reported_acquisition": "Tosi account quoted on Harappa: dealer delivery to Louvre before WWI; transfer to Ashmolean1931",
+    "findspot_status": "dealer-attributed Jhoka, explicitly unconfirmed in Tosi account",
+    "excavation_context_authenticated": false,
+    "reverse_observation": "Published photo and caption support cloth impression",
+    "reverse_interpretation": "Tosi reconstructs cloth-covered jar mouth, string and knot cavity",
+    "cotton_fiber_authenticated": false,
+    "container_contents": null,
+    "quantity": null,
+    "cuneiform_on_same_object_authenticated": false,
+    "cuneiform_absence_scope": "No cuneiform identified in reviewed descriptions or two published views; not complete surface autopsy",
+    "glyph_count_discrepancy": {
+      "m77_candidate_code_count": 5,
+      "tosi_reported_count": 6,
+      "resolved": false
+    },
+    "semantic_value": null,
+    "phonetic_value": null
+  },
+  "excluded_identity_matches": [
+    {
+      "identifier": "TJ17-PRO-S56",
+      "reason": "2017 case handled separately; not joined to older published object"
+    },
+    {
+      "identifier": "EAMd.13",
+      "reason": "Museum search result is unrelated Mohenjo-daro triangular prism"
+    }
+  ],
+  "manual_visual_review": [
+    {
+      "path": "results/primary_pages/umma-old-parpola-p113.png",
+      "pdf_page": 131,
+      "printed_page": 113,
+      "result": "Accession and clay/cloth caption legible; patterned reverse; Indus obverse"
+    }
+  ],
+  "unresolved": [
+    "Official Ashmolean accession register",
+    "Original Scheil article full text",
+    "Louvre inventory and acquisition record",
+    "Exact excavated provenance",
+    "Five versus six sign segmentation"
+  ],
+  "evidence_files": [
+    {
+      "path": "data/raw/umma_old_archive_search.json",
+      "bytes": 243,
+      "sha256": "57f9f922a71722694aefcdb459cfa5e752738d0b3b0c566d4743dce97f46bcac",
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28Revue+assyriologie%29+AND+year%3A1925&output=json",
+      "kind": "download",
+      "retrieved_date": "2026-09-24"
+    },
+    {
+      "path": "data/raw/umma_old_archive_search_broad.json",
+      "bytes": 1200,
+      "sha256": "eb31d59cc2542b64c6011d9849f41e3cfa88b2ac59e6caf1c5aed766ea6ae5cc",
+      "url": "https://archive.org/advancedsearch.php?q=title%3A%28%22Revue+d%27assyriologie%22%29&fl%5B%5D=identifier&fl%5B%5D=title&rows=100&output=json",
+      "kind": "download",
+      "retrieved_date": "2026-09-24"
+    },
+    {
+      "path": "data/raw/umma_old_archive_collection_search.json",
+      "bytes": 328,
+      "sha256": "8485f7deac74b7e632df8f21115e52c54cab47a0fc7b41a4b13ea7d821cd1cd2",
+      "url": "https://archive.org/advancedsearch.php?q=collection%3Apub_revue-dassyriologie-et-darcheologie-orientale+AND+year%3A1925&fl%5B%5D=identifier&fl%5B%5D=title&rows=50&output=json",
+      "kind": "download",
+      "retrieved_date": "2026-09-24"
+    },
+    {
+      "path": "data/raw/umma_old_archive_wildcard_search.json",
+      "bytes": 24046,
+      "sha256": "74d4c4db3dfead13a03e73f5b04a2eb0da02f1aff28e25da40220acb09c05937",
+      "url": "https://archive.org/advancedsearch.php?q=identifier%3A%2Arevue%2A+AND+year%3A1925&fl%5B%5D=identifier&fl%5B%5D=title&rows=250&output=json",
+      "kind": "download",
+      "retrieved_date": "2026-09-24"
+    },
+    {
+      "path": "data/raw/umma_old_parpola_1994.pdf",
+      "bytes": 18998517,
+      "sha256": "fd133822f9999c86178a32208465e847c5288b578ad14ca2cd643efe57f0e0b6",
+      "url": "https://www.sindhilanguagelibrary.com/assets/documents/pdf/647f088f1fff3.pdf",
+      "kind": "download",
+      "retrieved_date": "2026-09-24"
+    },
+    {
+      "path": "data/raw/umma_old_scheil_jstor_response.bin",
+      "bytes": 3038,
+      "sha256": "32ed63159c77e21ee19ca1b9aa3213ccf0218eb59539560b132a8e68ef0e18ea",
+      "url": "https://www.jstor.org/stable/pdf/23290782.pdf",
+      "kind": "archived_http_response",
+      "retrieved_date": "2026-09-24",
+      "status": "Challenge/error HTML; requested research content not retrieved; HTTP status not captured."
+    },
+    {
+      "path": "data/raw/umma_old_tosi_harappa.html",
+      "bytes": 5809,
+      "sha256": "f50a57dbf7be50adb16471dd686f2565a882ed460e77d61d1898fd84b7144836",
+      "url": "https://www.harappa.com/blog/indus-seal-impression-umma-mesopotamia",
+      "kind": "archived_http_response",
+      "retrieved_date": "2026-09-24",
+      "status": "Challenge/error HTML; requested research content not retrieved; HTTP status not captured."
+    },
+    {
+      "path": "data/raw/umma_old_tosi_web_capture.json",
+      "bytes": 4710,
+      "sha256": "f0cc85db56ee3f8cd905957ba57592565f3a5e76767b8f6c530dee2167cad4ea",
+      "url": "https://www.harappa.com/blog/indus-seal-impression-umma-mesopotamia",
+      "kind": "web_extraction_capture",
+      "retrieved_date": "2026-09-24"
+    },
+    {
+      "path": "data/raw/umma_old_scheil_bibliography_web_capture.json",
+      "bytes": 3603,
+      "sha256": "90cd4eb293034f1c34bd37f509ea07fdd4a3915de32192df9631afdd7751e4a2",
+      "url": "https://www.jstor.org/stable/i23283221",
+      "kind": "web_extraction_capture",
+      "retrieved_date": "2026-09-24"
+    },
+    {
+      "path": "results/primary_pages/umma-old-parpola-p113.png",
+      "bytes": 323321,
+      "sha256": "a138eee993d972b2be8918fc2e2b234afbb0604657a05cab3d3c56e1212945e7"
+    },
+    {
+      "path": "data/processed/m77_foreign_selection_review.json",
+      "bytes": 18766,
+      "sha256": "d5daa884835e7274c864b493dedb9b1c5fba47b0ec656d2f2e7a953b2a96054d"
+    },
+    {
+      "path": "results/primary_pages/umma-old-m77-p160.png",
+      "bytes": 1744026,
+      "sha256": "089c7e9457ed8d70837b264a1199244f3d75e78473f4e4b339fa0eaebe99dc3c"
+    },
+    {
+      "path": "results/primary_pages/umma-old-m77-9811-crop.png",
+      "bytes": 54451,
+      "sha256": "e3984ed20e76e91a8ea88a86828ddf4d52ac33dc6425100328fce95ef307629d"
+    },
+    {
+      "path": "results/primary_pages/umma-old-obverse-crop.png",
+      "bytes": 581815,
+      "sha256": "8eac2ae97511384b9c9ac7ce0e4cea5e8838c77942102c6a5a9ddc4717bb0e5e"
+    },
+    {
+      "path": "results/primary_pages/sign_list_page_32.png",
+      "bytes": 982719,
+      "sha256": "1e3f91789c947add7ce796479168d84d69636ebdc378493743188ac11c53c90a"
+    },
+    {
+      "path": "results/primary_pages/sign_list-044.png",
+      "bytes": 2228064,
+      "sha256": "33eff554bfdea81af6d1a3510a5b2541d1b74b02ae1e63b253c725b44c7c0b64"
+    },
+    {
+      "path": "results/primary_pages/sign_list-045.png",
+      "bytes": 2312636,
+      "sha256": "972002b288ea77921dcacfe67386dbf585b76be6bca5444b7ff9422e47e70b89"
+    },
+    {
+      "path": "results/primary_pages/sign_list-046.png",
+      "bytes": 2099531,
+      "sha256": "a191e9297a6ab8b7cad1028eaeac062b4b6fa3cd34aefbdd507f669d736d2e8e"
+    },
+    {
+      "path": "IM_417_150_PNG/29.png",
+      "bytes": 3038,
+      "sha256": "8433732ec9babfb0f4b534daba1043e12fe313e335c0aed397fd0c9555c30865"
+    },
+    {
+      "path": "IM_417_150_PNG/336.png",
+      "bytes": 1625,
+      "sha256": "d589652d1b8cdd09ed1f8b9fb4a6bcf02aeadea9464eeecc9f214ae7bec919c9"
+    },
+    {
+      "path": "IM_417_150_PNG/99.png",
+      "bytes": 750,
+      "sha256": "c234d0a50c5ab8850bfadd6fe862b4f8d4db97ff274dbf507cfd5ae02acd9c56"
+    },
+    {
+      "path": "IM_417_150_PNG/104.png",
+      "bytes": 1550,
+      "sha256": "6056823e20e4b7f3d0562ffb0297a9610151179c0b8019b58d79a3ef955a5d34"
+    },
+    {
+      "path": "IM_417_150_PNG/162.png",
+      "bytes": 1127,
+      "sha256": "aa0e14cf16ee15959417be7fd49c68bfd17eebbc95b3bb6e9b713a954f7a61a3"
+    },
+    {
+      "path": "results/primary_pages/umma-old-parpola-p113-detail.png",
+      "bytes": 4513442,
+      "sha256": "d74055a9c4c97df314827780cb6efd14835a7808dce85d7f4dee602441ba0e69"
+    },
+    {
+      "path": "data/processed/m77_candidate_records.jsonl",
+      "bytes": 4109921,
+      "sha256": "b29a176da86b125115256a8966c377c3fd9fe39ecaab17bf576b770b83b41bab"
+    }
+  ],
+  "glyph_count_followup": {
+    "status": "Five M77 catalogue units verified; Tosi six-report cause unresolved",
+    "m77_primary_row": {
+      "printed_page": 160,
+      "pdf_page": 171,
+      "reference": "9811",
+      "normalized_right_to_left": [
+        "M029",
+        "M336",
+        "M099",
+        "M104",
+        "M162"
+      ]
+    },
+    "export_matches_primary_row": true,
+    "primary_sign_list_checked": {
+      "M029": 32,
+      "M336": 35,
+      "M099": 32,
+      "M104": 32,
+      "M162": 33
+    },
+    "grouping_observation": "M029 complex figure and M336 internally marked U are each single numbered signs; stroke groups M099 and M104 are single units too.",
+    "tosi_six_specific_explanation_authenticated": false,
+    "photograph_limit": "Halftone and shadow limit remaining-field reading; no securely separate or damaged sixth glyph established. Enlargement adds no original detail.",
+    "orientation_caution": "Apparent spatial arrangement in Parpola photograph opposite normalized M77 row. No source reversal or original photographic-orientation decision.",
+    "authority_edited": false,
+    "viewed_images": [
+      "results/primary_pages/umma-old-m77-p160.png",
+      "results/primary_pages/umma-old-m77-9811-crop.png",
+      "results/primary_pages/umma-old-obverse-crop.png",
+      "results/primary_pages/sign_list_page_32.png",
+      "results/primary_pages/sign_list-044.png",
+      "results/primary_pages/sign_list-045.png",
+      "results/primary_pages/sign_list-046.png",
+      "IM_417_150_PNG/29.png",
+      "IM_417_150_PNG/336.png",
+      "IM_417_150_PNG/99.png",
+      "IM_417_150_PNG/104.png",
+      "IM_417_150_PNG/162.png"
+    ],
+    "render_and_crop": {
+      "parpola_detail": {
+        "pdf_page": 131,
+        "scale_to": 4800,
+        "render_path": "results/primary_pages/umma-old-parpola-p113-detail.png",
+        "crop_fraction_ltrb": [
+          0.47,
+          0.08,
+          0.79,
+          0.29
+        ]
+      },
+      "m77_row": {
+        "pdf_page": 171,
+        "scale_to": 2800,
+        "render_path": "results/primary_pages/umma-old-m77-p160.png",
+        "crop_fraction_ltrb": [
+          0.235,
+          0.448,
+          0.87,
+          0.48
+        ]
+      },
+      "crop_note": "PIL.Image.crop with int(width*fraction) and int(height*fraction); no sharpening, contrast adjustment, rotation or mirroring."
+    }
+  }
+}

@@ -1,0 +1,278 @@
+{
+  "review_date": "2026-09-27",
+  "scope": "Independent CISI1 identity and photographic-trace review; no expected count-capacity fit, dimensions or semantic values inferred.",
+  "status": "CISI identities authenticated; numerical segmentation and cross-publication alias conflict unresolved",
+  "metadata_locator": {
+    "pdf_page": 408,
+    "printed_page": 372
+  },
+  "column_key_pages": [
+    401,
+    402
+  ],
+  "vessels": [
+    {
+      "cisi": "H-370",
+      "fc": "4607",
+      "mahadevan_reference": null,
+      "excavation_number": "12908",
+      "excavation_cell_literal": "12908",
+      "museum": "ASI",
+      "museum_registration": null,
+      "photograph": "HU 1302",
+      "pdf_page": 269,
+      "printed_page": 233,
+      "views": [
+        "A(1)",
+        "A(2)"
+      ],
+      "inscribed_sides_shown": 1,
+      "clear_long_upright_primitives": 7,
+      "additional_possible_short_upright": 1,
+      "secure_numeral_value": null,
+      "formal_vessel_subtype": null,
+      "dimensions": null,
+      "capacity": null,
+      "segmentation": "Seven secure long traces plus one shorter faint candidate; total intentional stroke count uncertain."
+    },
+    {
+      "cisi": "H-371",
+      "fc": "4608",
+      "mahadevan_reference": null,
+      "excavation_number": "1033a",
+      "excavation_cell_literal": "1033a",
+      "museum": "ASI",
+      "museum_registration": null,
+      "photograph": "HU 1304",
+      "pdf_page": 270,
+      "printed_page": 234,
+      "views": [
+        "A(1)",
+        "A(2)"
+      ],
+      "inscribed_sides_shown": 1,
+      "clear_long_upright_primitives": 7,
+      "additional_possible_short_upright": 0,
+      "secure_numeral_value": null,
+      "formal_vessel_subtype": null,
+      "dimensions": null,
+      "capacity": null,
+      "segmentation": "Seven upright primitives plus oblique; six tallies plus final two-arm angular/U-like sign is plausible; connecting bottom unresolved."
+    },
+    {
+      "cisi": "H-372",
+      "fc": "4609",
+      "mahadevan_reference": null,
+      "excavation_number": null,
+      "excavation_cell_literal": "???",
+      "museum": "ASI",
+      "museum_registration": null,
+      "photograph": "HU 1307",
+      "pdf_page": 270,
+      "printed_page": 234,
+      "views": [
+        "A(1)",
+        "A(2)"
+      ],
+      "inscribed_sides_shown": 1,
+      "clear_long_upright_primitives": 3,
+      "additional_possible_short_upright": 0,
+      "secure_numeral_value": null,
+      "formal_vessel_subtype": null,
+      "dimensions": null,
+      "capacity": null,
+      "segmentation": "Three long left uprights plus angular two-arm form and short separate trace; exact sign assignments unresolved."
+    }
+  ],
+  "distinct_catalogue_objects": 3,
+  "photo_views": 6,
+  "equal_fc_m77_number_join_permitted": false,
+  "m77_locator_test": {
+    "printed_page": 123,
+    "pdf_page": 134,
+    "reference_4607_fields": [
+      "210002",
+      "20001"
+    ],
+    "reference_4607_graphics": [
+      "complex figure and two oval forms",
+      "U and three strokes"
+    ],
+    "4608_and_4609_separate_entries_on_page": false,
+    "appendix_pdf_page": 830,
+    "appendix_printed_page": 821,
+    "explicit_rule": "M77 refs4001\u20134713 correspond to EH1\u2013713 respectively",
+    "result": "M77 4607\u2192EH607; no jar identity join authenticated"
+  },
+  "source_conflict": {
+    "CISI_H370": "12908",
+    "reported_Fuls_H372": "12908",
+    "resolution": null,
+    "H370_1033b_authenticated": false,
+    "H372_12908_authenticated": false
+  },
+  "prior_review_corrections": [
+    {
+      "field": "mahadevan_ref",
+      "action": "Do not promote FC values to M77 refs; no central edit made."
+    },
+    {
+      "field": "H371 observed_strokes",
+      "action": "Distinguish seven upright primitives from plausible six-tally plus angular-sign segmentation; no categorical numeral correction."
+    }
+  ],
+  "downloads": [],
+  "semantic_claims": [],
+  "evidence_files": [
+    {
+      "path": "data/processed/capacity_h370_crop_manifest.json",
+      "bytes": 3289,
+      "sha256": "c3c10727e6ae9c896636cbe37056bd62c852034d26be24ae8f18006a00aa0f5d"
+    },
+    {
+      "path": "data/processed/capacity_primary_review.json",
+      "bytes": 1904,
+      "sha256": "95ddd8abfb06e67fae5df3264a6f93a26f2193320c5ba64e03bc348b87cd3818"
+    },
+    {
+      "path": "data/raw/cisi_76884.pdf",
+      "bytes": 31508998,
+      "sha256": "47a4da4227cfb7baa56d6a561e25797225499d0ec54f5a702a82c67ab4746d4d"
+    },
+    {
+      "path": "data/raw/mahadevan_1977.pdf",
+      "bytes": 36288883,
+      "sha256": "afa32284c375b4f501a4c38efba7806b64765f041db07b22ea2e56f7205f0f67"
+    },
+    {
+      "path": "docs/CAPACITY_H370_IDENTITIES.md",
+      "bytes": 7261,
+      "sha256": "07f26e470e7a1bc88363c6545ef8d68b57ec81cb6fb4fb71018b50efeca333dc"
+    },
+    {
+      "path": "docs/CAPACITY_TABLE_FOLLOWUP.md",
+      "bytes": 3425,
+      "sha256": "1cae145cedcdfc65b1685edd609f94f42cd800459c32e6387c8d93e90fe1d2a0"
+    },
+    {
+      "path": "results/capacity-h370-m77-followup_extraction.json",
+      "bytes": 366,
+      "sha256": "df9d97a3c74d5300f27931fee66a4c4255fbe3059398830c3a805a03b66b547c"
+    },
+    {
+      "path": "results/capacity-h370-m77_extraction.json",
+      "bytes": 375,
+      "sha256": "05d8ee62bcceacce2004a5c395e0f10b9e8de3632a89500fa76a003304bcdaa9"
+    },
+    {
+      "path": "results/capacity-h370-source_extraction.json",
+      "bytes": 380,
+      "sha256": "e0f509dde99ef43d5a0679252f380d96f314d285c28f4f1fa22919d867ffe23b"
+    },
+    {
+      "path": "results/primary_pages/capacity-cisi-408.png",
+      "bytes": 2515558,
+      "sha256": "b4aa13823c8636526f2c8aa35181faa904e1a212655d32c14b8c47ddf6391feb"
+    },
+    {
+      "path": "results/primary_pages/capacity-h370-H370-detail.png",
+      "bytes": 173157,
+      "sha256": "f633c044b1ecadbe92ffed4c0d9dcfc5046c06115517046c8eabfb04ddafaea0"
+    },
+    {
+      "path": "results/primary_pages/capacity-h370-H370-full.png",
+      "bytes": 188521,
+      "sha256": "d7719c18d5bf990bd1ab5b4f020abab5dbf822c64ba683b92378df53246485be"
+    },
+    {
+      "path": "results/primary_pages/capacity-h370-H371-detail.png",
+      "bytes": 183461,
+      "sha256": "4ecba943ed539e1c9b7bf38199b77a9a780d6cbb46c4fb68f87ee9c0257bc2b3"
+    },
+    {
+      "path": "results/primary_pages/capacity-h370-H371-full.png",
+      "bytes": 172314,
+      "sha256": "fd6a6e23294e51bd03d5db679c3c42cc2854d65719e28f8fbbfe224175a9d03e"
+    },
+    {
+      "path": "results/primary_pages/capacity-h370-H372-detail.png",
+      "bytes": 142787,
+      "sha256": "8aa6a8e57df9058f5a4f73993f0d8117b2615155b2ed28a429683983b5a66bbf"
+    },
+    {
+      "path": "results/primary_pages/capacity-h370-H372-full.png",
+      "bytes": 94147,
+      "sha256": "4c5b77292cbf4bef4e72855f0d7e8b83807e126a0e1989250b6e6d5c0d9a6d9b"
+    },
+    {
+      "path": "results/primary_pages/capacity-h370-key-abbreviations.png",
+      "bytes": 164291,
+      "sha256": "87033da3d02cc9b28ba565fe7972196e17b65cc4ce0c479e895584ef167f5dcd"
+    },
+    {
+      "path": "results/primary_pages/capacity-h370-key-column12.png",
+      "bytes": 216718,
+      "sha256": "97fb016cedc305795af1ca3894bbc96037843a7211b6d4083b5dcf3d6526e8a5"
+    },
+    {
+      "path": "results/primary_pages/capacity-h370-key-column345.png",
+      "bytes": 95715,
+      "sha256": "51b4e0aa4a4beee9e510f614af5da21da3318d1c4f0918527cd118cf9b822805"
+    },
+    {
+      "path": "results/primary_pages/capacity-h370-m77-133.png",
+      "bytes": 1150993,
+      "sha256": "97b0a9ba91783f1de13da3597d2f63d1d1e47ce2d29802dd7f55d5d897dc77b2"
+    },
+    {
+      "path": "results/primary_pages/capacity-h370-m77-830.png",
+      "bytes": 3166352,
+      "sha256": "c7c44618a8ed573a85cfa36250e16820344c71efdc13f317356bbea8e0ace19b"
+    },
+    {
+      "path": "results/primary_pages/capacity-h370-m77-followup-134.png",
+      "bytes": 1542819,
+      "sha256": "339f86e121ed51d312a802ef63bf799dbb3347a84a5b57463996b0cc6b467837"
+    },
+    {
+      "path": "results/primary_pages/capacity-h370-metadata.png",
+      "bytes": 41490,
+      "sha256": "300fdfd68263591eef9c0d31e28fd24d63e56da486e1f549b80962845efc4367"
+    },
+    {
+      "path": "results/primary_pages/capacity-h370-source-269.png",
+      "bytes": 819697,
+      "sha256": "40a272a1a5344335a2e0bf4d72a4de65c5563dc8e8d4bf025ddeac41a07a1199"
+    },
+    {
+      "path": "results/primary_pages/capacity-h370-source-270.png",
+      "bytes": 745955,
+      "sha256": "0c823eecde5674d10c6676a814211e135d7845c1beec06b06c1bae7e8e64e426"
+    },
+    {
+      "path": "results/primary_pages/capacity-h370-source-402.png",
+      "bytes": 1434718,
+      "sha256": "e2bdc845a2199ca2f1eb62567438d8d48b9bcaf9dfa22b27273afc1e75fc14cf"
+    },
+    {
+      "path": "results/primary_pages/cisi1-29.png",
+      "bytes": 2452191,
+      "sha256": "9cab8170ce888857d3f72bbb5bbb6aa43b70fec7363eb1090e701ce8b3d54c1e"
+    },
+    {
+      "path": "results/primary_pages/roof-m092-artifact-cisi-key-401.png",
+      "bytes": 1483913,
+      "sha256": "dd8d3a0d21c32f284bad3d2e7ac412a059d463d8339566e8581f0fdc60f63fd8"
+    },
+    {
+      "path": "scripts/inspect_research_pdf.py",
+      "bytes": 2775,
+      "sha256": "15e90b9cd0e00cd67991eeb50cb83599e1ae75825c8a39fb9ec16cea1c22bc03"
+    },
+    {
+      "path": "scripts/render_capacity_h370_crops.py",
+      "bytes": 1355,
+      "sha256": "f17526fb5234cc3026741431d2298ecb4ec980c18e42203a7c06a6b527f2dc49"
+    }
+  ]
+}

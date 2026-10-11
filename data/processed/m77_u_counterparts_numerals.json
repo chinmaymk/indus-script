@@ -1,0 +1,3986 @@
+{
+  "schema_version": "m77_u_counterparts_primary_review_v1",
+  "partition": "numerals",
+  "selection_protocol": {
+    "path": "data/processed/m77_u_counterpart_protocol.json",
+    "sha256": "0cc13376618ea9b06ad9bd858dcaf8193e7bf0e6e8d6a193c5a66838b833ee45",
+    "bytes": 11631
+  },
+  "primary_source": {
+    "path": "data/raw/mahadevan_1977_text.pdf",
+    "sha256": "6dcdd074a0174e5fab149590fbbf82342711d345764e9763f8e5e92c81cf7f99",
+    "bytes": 119302608
+  },
+  "method": {
+    "basis": "Manual visual inventory of each complete primary Texts object entry plus enlarged glyph-column crops; numeric sign IDs authenticated against the primary sign inventory. Candidate strings used only as suggestions, never as acceptance evidence.",
+    "order": "Tokens in normalized right-to-left reading order as displayed by Mahadevan Texts.",
+    "boundaries": "Every printed side and line is separate; the selected field line is excluded by exact ID. Metadata continuation rows inherit only the object reference, not a preceding glyph line.",
+    "symbol_only": "Five-digit continuation metadata consists of side, two-digit field-symbol code, line, direction; line9 and direction0 mean no text.",
+    "uncertainty": "LOSS = primary hatched lost passage, *Mddd = primary doubtful sign; UNKNOWN would be visible but unidentified. Full sequence primary checked does not imply intact text.",
+    "visual_review": "Full Texts rows and metadata inspected on PDF129\u2013139,144,146,147. Enlarged glyph-only views were rendered directly to memory from the same PDF; retained full-page image evidence includes all rows and metadata."
+  },
+  "supporting_evidence": [
+    {
+      "path": "results/primary_pages/m77-codebook-41.png",
+      "sha256": "80a70e5c3329804153835a35b8c2364e5788b339ca4eb824b6b357c73f5d0e25",
+      "bytes": 1838931
+    },
+    {
+      "path": "results/primary_pages/m77-codebook-42.png",
+      "sha256": "b4ec143903bd5059cdbf8c524c20e2b0e3b0d0d244065bf6765b9282379b37ce",
+      "bytes": 1997128
+    },
+    {
+      "path": "results/primary_pages/sign_list_page_32.png",
+      "sha256": "1e3f91789c947add7ce796479168d84d69636ebdc378493743188ac11c53c90a",
+      "bytes": 982719
+    },
+    {
+      "path": "results/primary_pages/sign_list-044.png",
+      "sha256": "33eff554bfdea81af6d1a3510a5b2541d1b74b02ae1e63b253c725b44c7c0b64",
+      "bytes": 2228064
+    },
+    {
+      "path": "results/primary_pages/sign_list-045.png",
+      "sha256": "972002b288ea77921dcacfe67386dbf585b76be6bca5444b7ff9422e47e70b89",
+      "bytes": 2312636
+    },
+    {
+      "path": "results/primary_pages/sign_list-046.png",
+      "sha256": "a191e9297a6ab8b7cad1028eaeac062b4b6fa3cd34aefbdd507f669d736d2e8e",
+      "bytes": 2099531
+    }
+  ],
+  "images": [
+    {
+      "path": "results/primary_pages/m77-u-types-numerals-129.jpg",
+      "sha256": "0779f23430e14154cfa7acd044c53671bea179bbb08ca2ed974cf63c07cc6b74",
+      "bytes": 157500
+    },
+    {
+      "path": "results/primary_pages/m77-u-types-numerals-130.jpg",
+      "sha256": "e2b54e64f21127bcb0c3c706587e927673b1dd1a0ca7fceb576554cef4750d46",
+      "bytes": 155925
+    },
+    {
+      "path": "results/primary_pages/m77-u-types-numerals-131.jpg",
+      "sha256": "2cc6de302b7417dbaab5b348b749adf3038cb4cd68dda2daf014d216f6f43f2f",
+      "bytes": 150530
+    },
+    {
+      "path": "results/primary_pages/m77-u-types-numerals-132.jpg",
+      "sha256": "513bd122bfd06aaf96ee7705e4fcde856424aca1198c54581c0df08874deb866",
+      "bytes": 144608
+    },
+    {
+      "path": "results/primary_pages/m77-u-types-numerals-133.jpg",
+      "sha256": "bb223192fd8b8fa27348353e0da717baab84ea62b0bc15bc273b796f70b56f54",
+      "bytes": 154187
+    },
+    {
+      "path": "results/primary_pages/m77-u-types-numerals-134.jpg",
+      "sha256": "f3da6c093f3c67c34064eb6bfdf1f54e36732733e1b8668ebcb2d91c2dd60927",
+      "bytes": 184678
+    },
+    {
+      "path": "results/primary_pages/m77-u-types-numerals-135.jpg",
+      "sha256": "86f5a2a9fce0013408a0b4a78c5a25870dc590a28f14431ef3f5261d94af96bd",
+      "bytes": 153796
+    },
+    {
+      "path": "results/primary_pages/m77-u-types-numerals-136.jpg",
+      "sha256": "e57ecf4c82825cbe059b75fc7fbbc6282b91ebf5101a8ac6c3d2315b4b92c0f0",
+      "bytes": 155521
+    },
+    {
+      "path": "results/primary_pages/m77-u-types-numerals-137.jpg",
+      "sha256": "08fd8fbf87bcde27ac12830151900e498f09d80eaf8092923cb406aa479c060f",
+      "bytes": 159965
+    },
+    {
+      "path": "results/primary_pages/m77-u-types-numerals-138.jpg",
+      "sha256": "6d550ab8dfae802cfd3fd742f5da40bb77b82a6e865c931e7f98f0f8f1dd29d4",
+      "bytes": 156832
+    },
+    {
+      "path": "results/primary_pages/m77-u-types-numerals-139.jpg",
+      "sha256": "541e500a5c23883fa1b719cfad528eed77f1caf435d238240d181dabc35ad772",
+      "bytes": 170873
+    },
+    {
+      "path": "results/primary_pages/u-types-iconography-144.png",
+      "sha256": "63c62bfaf9f8f7f6877abeb29028cfdec6a473a2a7ef8fe52f92fab282cd3fb2",
+      "bytes": 1343214
+    },
+    {
+      "path": "results/primary_pages/u-types-iconography-146.png",
+      "sha256": "180cb2062e9f2e241c57aa139593d11eef28cd0a564bd8555d7baaaf61493fe8",
+      "bytes": 1334188
+    },
+    {
+      "path": "results/primary_pages/u-types-iconography-147.png",
+      "sha256": "93c26ffe7755fd6b8438b72d80bd5d89aba8f2ecd1b6dd8a4a927f585cbfaee3",
+      "bytes": 1258412
+    }
+  ],
+  "summary": {
+    "selected_references": 76,
+    "all_printed_counterpart_lines_accounted_for_references": 76,
+    "counterpart_lines": 84,
+    "references_with_two_counterpart_lines": [
+      "4576",
+      "4581",
+      "4586",
+      "4588",
+      "4589",
+      "4591",
+      "4642",
+      "4645"
+    ],
+    "symbol_only_entries": 11,
+    "symbol_only_references": [
+      "4574",
+      "4575",
+      "4580",
+      "4582",
+      "4587",
+      "4593",
+      "4597",
+      "4641",
+      "4647",
+      "4649",
+      "4718"
+    ],
+    "unknown_token_lines": 0,
+    "loss_token_lines": 12,
+    "doubtful_token_lines": 10,
+    "clean_fully_checked_counterpart_lines": 65
+  },
+  "records": [
+    {
+      "reference": "4522",
+      "all_counterpart_lines_accounted_for": true,
+      "accounted_for_scope": "All other text-bearing lines printed for this reference in Mahadevan 1977 Texts; not a claim of complete original physical text.",
+      "excluded_selected_field_line_ids": [
+        "M77:4522:side2:line0"
+      ],
+      "counterpart_lines": [
+        {
+          "side": "1",
+          "line": "0",
+          "tokens": [
+            "M193",
+            "M342",
+            "M176"
+          ],
+          "line_id": "M77:4522:side1:line0",
+          "full_sequence_primary_checked": true,
+          "pdf_page": 129,
+          "printed_page": 118,
+          "evidence_path": "results/primary_pages/m77-u-types-numerals-129.jpg",
+          "evidence": {
+            "path": "results/primary_pages/m77-u-types-numerals-129.jpg",
+            "sha256": "0779f23430e14154cfa7acd044c53671bea179bbb08ca2ed974cf63c07cc6b74",
+            "bytes": 157500
+          },
+          "locator": "Texts reference 4522, PDF 129, printed 118; complete object entry, with metadata and all continuation rows",
+          "notes": [
+            "Tokens follow the normalized right-to-left order of the printed Texts glyph row. LOSS records a printed hatching block, not one inferred lost sign."
+          ]
+        }
+      ],
+      "symbol_only_entries": [],
+      "pdf_page": 129,
+      "printed_page": 118,
+      "evidence_path": "results/primary_pages/m77-u-types-numerals-129.jpg",
+      "evidence": {
+        "path": "results/primary_pages/m77-u-types-numerals-129.jpg",
+        "sha256": "0779f23430e14154cfa7acd044c53671bea179bbb08ca2ed974cf63c07cc6b74",
+        "bytes": 157500
+      },
+      "locator": "Texts reference 4522, PDF 129, printed 118; complete object entry, with metadata and all continuation rows",
+      "notes": [
+        "All printed text lines inventoried; selected side2 field excluded. Candidate suggestion checked visually against primary row and labelled sign inventory."
+      ]
+    },
+    {
+      "reference": "4523",
+      "all_counterpart_lines_accounted_for": true,
+      "accounted_for_scope": "All other text-bearing lines printed for this reference in Mahadevan 1977 Texts; not a claim of complete original physical text.",
+      "excluded_selected_field_line_ids": [
+        "M77:4523:side2:line0"
+      ],
+      "counterpart_lines": [
+        {
+          "side": "1",
+          "line": "0",
+          "tokens": [
+            "*M193",
+            "M342",
+            "M176"
+          ],
+          "line_id": "M77:4523:side1:line0",
+          "full_sequence_primary_checked": true,
+          "pdf_page": 129,
+          "printed_page": 118,
+          "evidence_path": "results/primary_pages/m77-u-types-numerals-129.jpg",
+          "evidence": {
+            "path": "results/primary_pages/m77-u-types-numerals-129.jpg",
+            "sha256": "0779f23430e14154cfa7acd044c53671bea179bbb08ca2ed974cf63c07cc6b74",
+            "bytes": 157500
+          },
+          "locator": "Texts reference 4523, PDF 129, printed 118; complete object entry, with metadata and all continuation rows",
+          "notes": [
+            "Tokens follow the normalized right-to-left order of the printed Texts glyph row. LOSS records a printed hatching block, not one inferred lost sign."
+          ]
+        }
+      ],
+      "symbol_only_entries": [],
+      "pdf_page": 129,
+      "printed_page": 118,
+      "evidence_path": "results/primary_pages/m77-u-types-numerals-129.jpg",
+      "evidence": {
+        "path": "results/primary_pages/m77-u-types-numerals-129.jpg",
+        "sha256": "0779f23430e14154cfa7acd044c53671bea179bbb08ca2ed974cf63c07cc6b74",
+        "bytes": 157500
+      },
+      "locator": "Texts reference 4523, PDF 129, printed 118; complete object entry, with metadata and all continuation rows",
+      "notes": [
+        "All printed text lines inventoried; selected side2 field excluded. Candidate suggestion checked visually against primary row and labelled sign inventory."
+      ]
+    },
+    {
+      "reference": "4528",
+      "all_counterpart_lines_accounted_for": true,
+      "accounted_for_scope": "All other text-bearing lines printed for this reference in Mahadevan 1977 Texts; not a claim of complete original physical text.",
+      "excluded_selected_field_line_ids": [
+        "M77:4528:side2:line0"
+      ],
+      "counterpart_lines": [
+        {
+          "side": "1",
+          "line": "0",
+          "tokens": [
+            "M375",
+            "M123",
+            "M086",
+            "LOSS"
+          ],
+          "line_id": "M77:4528:side1:line0",
+          "full_sequence_primary_checked": true,
+          "pdf_page": 129,
+          "printed_page": 118,
+          "evidence_path": "results/primary_pages/m77-u-types-numerals-129.jpg",
+          "evidence": {
+            "path": "results/primary_pages/m77-u-types-numerals-129.jpg",
+            "sha256": "0779f23430e14154cfa7acd044c53671bea179bbb08ca2ed974cf63c07cc6b74",
+            "bytes": 157500
+          },
+          "locator": "Texts reference 4528, PDF 129, printed 118; complete object entry, with metadata and all continuation rows",
+          "notes": [
+            "Tokens follow the normalized right-to-left order of the printed Texts glyph row. LOSS records a printed hatching block, not one inferred lost sign."
+          ]
+        }
+      ],
+      "symbol_only_entries": [],
+      "pdf_page": 129,
+      "printed_page": 118,
+      "evidence_path": "results/primary_pages/m77-u-types-numerals-129.jpg",
+      "evidence": {
+        "path": "results/primary_pages/m77-u-types-numerals-129.jpg",
+        "sha256": "0779f23430e14154cfa7acd044c53671bea179bbb08ca2ed974cf63c07cc6b74",
+        "bytes": 157500
+      },
+      "locator": "Texts reference 4528, PDF 129, printed 118; complete object entry, with metadata and all continuation rows",
+      "notes": [
+        "All printed text lines inventoried; selected side2 field excluded. Candidate suggestion checked visually against primary row and labelled sign inventory."
+      ]
+    },
+    {
+      "reference": "4543",
+      "all_counterpart_lines_accounted_for": true,
+      "accounted_for_scope": "All other text-bearing lines printed for this reference in Mahadevan 1977 Texts; not a claim of complete original physical text.",
+      "excluded_selected_field_line_ids": [
+        "M77:4543:side2:line0"
+      ],
+      "counterpart_lines": [
+        {
+          "side": "1",
+          "line": "0",
+          "tokens": [
+            "M048",
+            "M342",
+            "M176"
+          ],
+          "line_id": "M77:4543:side1:line0",
+          "full_sequence_primary_checked": true,
+          "pdf_page": 130,
+          "printed_page": 119,
+          "evidence_path": "results/primary_pages/m77-u-types-numerals-130.jpg",
+          "evidence": {
+            "path": "results/primary_pages/m77-u-types-numerals-130.jpg",
+            "sha256": "e2b54e64f21127bcb0c3c706587e927673b1dd1a0ca7fceb576554cef4750d46",
+            "bytes": 155925
+          },
+          "locator": "Texts reference 4543, PDF 130, printed 119; complete object entry, with metadata and all continuation rows",
+          "notes": [
+            "Tokens follow the normalized right-to-left order of the printed Texts glyph row. LOSS records a printed hatching block, not one inferred lost sign."
+          ]
+        }
+      ],
+      "symbol_only_entries": [],
+      "pdf_page": 130,
+      "printed_page": 119,
+      "evidence_path": "results/primary_pages/m77-u-types-numerals-130.jpg",
+      "evidence": {
+        "path": "results/primary_pages/m77-u-types-numerals-130.jpg",
+        "sha256": "e2b54e64f21127bcb0c3c706587e927673b1dd1a0ca7fceb576554cef4750d46",
+        "bytes": 155925
+      },
+      "locator": "Texts reference 4543, PDF 130, printed 119; complete object entry, with metadata and all continuation rows",
+      "notes": [
+        "All printed text lines inventoried; selected side2 field excluded. Candidate suggestion checked visually against primary row and labelled sign inventory."
+      ]
+    },
+    {
+      "reference": "4544",
+      "all_counterpart_lines_accounted_for": true,
+      "accounted_for_scope": "All other text-bearing lines printed for this reference in Mahadevan 1977 Texts; not a claim of complete original physical text.",
+      "excluded_selected_field_line_ids": [
+        "M77:4544:side2:line0"
+      ],
+      "counterpart_lines": [
+        {
+          "side": "1",
+          "line": "0",
+          "tokens": [
+            "M171",
+            "M059",
+            "M211"
+          ],
+          "line_id": "M77:4544:side1:line0",
+          "full_sequence_primary_checked": true,
+          "pdf_page": 130,
+          "printed_page": 119,
+          "evidence_path": "results/primary_pages/m77-u-types-numerals-130.jpg",
+          "evidence": {
+            "path": "results/primary_pages/m77-u-types-numerals-130.jpg",
+            "sha256": "e2b54e64f21127bcb0c3c706587e927673b1dd1a0ca7fceb576554cef4750d46",
+            "bytes": 155925
+          },
+          "locator": "Texts reference 4544, PDF 130, printed 119; complete object entry, with metadata and all continuation rows",
+          "notes": [
+            "Tokens follow the normalized right-to-left order of the printed Texts glyph row. LOSS records a printed hatching block, not one inferred lost sign."
+          ]
+        }
+      ],
+      "symbol_only_entries": [],
+      "pdf_page": 130,
+      "printed_page": 119,
+      "evidence_path": "results/primary_pages/m77-u-types-numerals-130.jpg",
+      "evidence": {
+        "path": "results/primary_pages/m77-u-types-numerals-130.jpg",
+        "sha256": "e2b54e64f21127bcb0c3c706587e927673b1dd1a0ca7fceb576554cef4750d46",
+        "bytes": 155925
+      },
+      "locator": "Texts reference 4544, PDF 130, printed 119; complete object entry, with metadata and all continuation rows",
+      "notes": [
+        "All printed text lines inventoried; selected side2 field excluded. Candidate suggestion checked visually against primary row and labelled sign inventory."
+      ]
+    },
+    {
+      "reference": "4548",
+      "all_counterpart_lines_accounted_for": true,
+      "accounted_for_scope": "All other text-bearing lines printed for this reference in Mahadevan 1977 Texts; not a claim of complete original physical text.",
+      "excluded_selected_field_line_ids": [
+        "M77:4548:side2:line0"
+      ],
+      "counterpart_lines": [
+        {
+          "side": "1",
+          "line": "0",
+          "tokens": [
+            "M048",
+            "M342",
+            "M176"
+          ],
+          "line_id": "M77:4548:side1:line0",
+          "full_sequence_primary_checked": true,
+          "pdf_page": 130,
+          "printed_page": 119,
+          "evidence_path": "results/primary_pages/m77-u-types-numerals-130.jpg",
+          "evidence": {
+            "path": "results/primary_pages/m77-u-types-numerals-130.jpg",
+            "sha256": "e2b54e64f21127bcb0c3c706587e927673b1dd1a0ca7fceb576554cef4750d46",
+            "bytes": 155925
+          },
+          "locator": "Texts reference 4548, PDF 130, printed 119; complete object entry, with metadata and all continuation rows",
+          "notes": [
+            "Tokens follow the normalized right-to-left order of the printed Texts glyph row. LOSS records a printed hatching block, not one inferred lost sign."
+          ]
+        }
+      ],
+      "symbol_only_entries": [],
+      "pdf_page": 130,
+      "printed_page": 119,
+      "evidence_path": "results/primary_pages/m77-u-types-numerals-130.jpg",
+      "evidence": {
+        "path": "results/primary_pages/m77-u-types-numerals-130.jpg",
+        "sha256": "e2b54e64f21127bcb0c3c706587e927673b1dd1a0ca7fceb576554cef4750d46",
+        "bytes": 155925
+      },
+      "locator": "Texts reference 4548, PDF 130, printed 119; complete object entry, with metadata and all continuation rows",
+      "notes": [
+        "All printed text lines inventoried; selected side2 field excluded. Candidate suggestion checked visually against primary row and labelled sign inventory."
+      ]
+    },
+    {
+      "reference": "4549",
+      "all_counterpart_lines_accounted_for": true,
+      "accounted_for_scope": "All other text-bearing lines printed for this reference in Mahadevan 1977 Texts; not a claim of complete original physical text.",
+      "excluded_selected_field_line_ids": [
+        "M77:4549:side2:line0"
+      ],
+      "counterpart_lines": [
+        {
+          "side": "1",
+          "line": "0",
+          "tokens": [
+            "M284",
+            "M267",
+            "M342"
+          ],
+          "line_id": "M77:4549:side1:line0",
+          "full_sequence_primary_checked": true,
+          "pdf_page": 130,
+          "printed_page": 119,
+          "evidence_path": "results/primary_pages/m77-u-types-numerals-130.jpg",
+          "evidence": {
+            "path": "results/primary_pages/m77-u-types-numerals-130.jpg",
+            "sha256": "e2b54e64f21127bcb0c3c706587e927673b1dd1a0ca7fceb576554cef4750d46",
+            "bytes": 155925
+          },
+          "locator": "Texts reference 4549, PDF 130, printed 119; complete object entry, with metadata and all continuation rows",
+          "notes": [
+            "Tokens follow the normalized right-to-left order of the printed Texts glyph row. LOSS records a printed hatching block, not one inferred lost sign."
+          ]
+        }
+      ],
+      "symbol_only_entries": [],
+      "pdf_page": 130,
+      "printed_page": 119,
+      "evidence_path": "results/primary_pages/m77-u-types-numerals-130.jpg",
+      "evidence": {
+        "path": "results/primary_pages/m77-u-types-numerals-130.jpg",
+        "sha256": "e2b54e64f21127bcb0c3c706587e927673b1dd1a0ca7fceb576554cef4750d46",
+        "bytes": 155925
+      },
+      "locator": "Texts reference 4549, PDF 130, printed 119; complete object entry, with metadata and all continuation rows",
+      "notes": [
+        "All printed text lines inventoried; selected side2 field excluded. Candidate suggestion checked visually against primary row and labelled sign inventory."
+      ]
+    },
+    {
+      "reference": "4550",
+      "all_counterpart_lines_accounted_for": true,
+      "accounted_for_scope": "All other text-bearing lines printed for this reference in Mahadevan 1977 Texts; not a claim of complete original physical text.",
+      "excluded_selected_field_line_ids": [
+        "M77:4550:side2:line0"
+      ],
+      "counterpart_lines": [
+        {
+          "side": "1",
+          "line": "0",
+          "tokens": [
+            "M201",
+            "M342",
+            "M001"
+          ],
+          "line_id": "M77:4550:side1:line0",
+          "full_sequence_primary_checked": true,
+          "pdf_page": 130,
+          "printed_page": 119,
+          "evidence_path": "results/primary_pages/m77-u-types-numerals-130.jpg",
+          "evidence": {
+            "path": "results/primary_pages/m77-u-types-numerals-130.jpg",
+            "sha256": "e2b54e64f21127bcb0c3c706587e927673b1dd1a0ca7fceb576554cef4750d46",
+            "bytes": 155925
+          },
+          "locator": "Texts reference 4550, PDF 130, printed 119; complete object entry, with metadata and all continuation rows",
+          "notes": [
+            "Tokens follow the normalized right-to-left order of the printed Texts glyph row. LOSS records a printed hatching block, not one inferred lost sign."
+          ]
+        }
+      ],
+      "symbol_only_entries": [],
+      "pdf_page": 130,
+      "printed_page": 119,
+      "evidence_path": "results/primary_pages/m77-u-types-numerals-130.jpg",
+      "evidence": {
+        "path": "results/primary_pages/m77-u-types-numerals-130.jpg",
+        "sha256": "e2b54e64f21127bcb0c3c706587e927673b1dd1a0ca7fceb576554cef4750d46",
+        "bytes": 155925
+      },
+      "locator": "Texts reference 4550, PDF 130, printed 119; complete object entry, with metadata and all continuation rows",
+      "notes": [
+        "All printed text lines inventoried; selected side2 field excluded. Candidate suggestion checked visually against primary row and labelled sign inventory."
+      ]
+    },
+    {
+      "reference": "4551",
+      "all_counterpart_lines_accounted_for": true,
+      "accounted_for_scope": "All other text-bearing lines printed for this reference in Mahadevan 1977 Texts; not a claim of complete original physical text.",
+      "excluded_selected_field_line_ids": [
+        "M77:4551:side2:line0"
+      ],
+      "counterpart_lines": [
+        {
+          "side": "1",
+          "line": "0",
+          "tokens": [
+            "M072",
+            "M211"
+          ],
+          "line_id": "M77:4551:side1:line0",
+          "full_sequence_primary_checked": true,
+          "pdf_page": 130,
+          "printed_page": 119,
+          "evidence_path": "results/primary_pages/m77-u-types-numerals-130.jpg",
+          "evidence": {
+            "path": "results/primary_pages/m77-u-types-numerals-130.jpg",
+            "sha256": "e2b54e64f21127bcb0c3c706587e927673b1dd1a0ca7fceb576554cef4750d46",
+            "bytes": 155925
+          },
+          "locator": "Texts reference 4551, PDF 130, printed 119; complete object entry, with metadata and all continuation rows",
+          "notes": [
+            "Tokens follow the normalized right-to-left order of the printed Texts glyph row. LOSS records a printed hatching block, not one inferred lost sign."
+          ]
+        }
+      ],
+      "symbol_only_entries": [],
+      "pdf_page": 130,
+      "printed_page": 119,
+      "evidence_path": "results/primary_pages/m77-u-types-numerals-130.jpg",
+      "evidence": {
+        "path": "results/primary_pages/m77-u-types-numerals-130.jpg",
+        "sha256": "e2b54e64f21127bcb0c3c706587e927673b1dd1a0ca7fceb576554cef4750d46",
+        "bytes": 155925
+      },
+      "locator": "Texts reference 4551, PDF 130, printed 119; complete object entry, with metadata and all continuation rows",
+      "notes": [
+        "All printed text lines inventoried; selected side2 field excluded. Candidate suggestion checked visually against primary row and labelled sign inventory."
+      ]
+    },
+    {
+      "reference": "4553",
+      "all_counterpart_lines_accounted_for": true,
+      "accounted_for_scope": "All other text-bearing lines printed for this reference in Mahadevan 1977 Texts; not a claim of complete original physical text.",
+      "excluded_selected_field_line_ids": [
+        "M77:4553:side2:line0"
+      ],
+      "counterpart_lines": [
+        {
+          "side": "1",
+          "line": "0",
+          "tokens": [
+            "M103",
+            "M403",
+            "M342"
+          ],
+          "line_id": "M77:4553:side1:line0",
+          "full_sequence_primary_checked": true,
+          "pdf_page": 130,
+          "printed_page": 119,
+          "evidence_path": "results/primary_pages/m77-u-types-numerals-130.jpg",
+          "evidence": {
+            "path": "results/primary_pages/m77-u-types-numerals-130.jpg",
+            "sha256": "e2b54e64f21127bcb0c3c706587e927673b1dd1a0ca7fceb576554cef4750d46",
+            "bytes": 155925
+          },
+          "locator": "Texts reference 4553, PDF 130, printed 119; complete object entry, with metadata and all continuation rows",
+          "notes": [
+            "Tokens follow the normalized right-to-left order of the printed Texts glyph row. LOSS records a printed hatching block, not one inferred lost sign."
+          ]
+        }
+      ],
+      "symbol_only_entries": [],
+      "pdf_page": 130,
+      "printed_page": 119,
+      "evidence_path": "results/primary_pages/m77-u-types-numerals-130.jpg",
+      "evidence": {
+        "path": "results/primary_pages/m77-u-types-numerals-130.jpg",
+        "sha256": "e2b54e64f21127bcb0c3c706587e927673b1dd1a0ca7fceb576554cef4750d46",
+        "bytes": 155925
+      },
+      "locator": "Texts reference 4553, PDF 130, printed 119; complete object entry, with metadata and all continuation rows",
+      "notes": [
+        "All printed text lines inventoried; selected side2 field excluded. Candidate suggestion checked visually against primary row and labelled sign inventory."
+      ]
+    },
+    {
+      "reference": "4554",
+      "all_counterpart_lines_accounted_for": true,
+      "accounted_for_scope": "All other text-bearing lines printed for this reference in Mahadevan 1977 Texts; not a claim of complete original physical text.",
+      "excluded_selected_field_line_ids": [
+        "M77:4554:side2:line0"
+      ],
+      "counterpart_lines": [
+        {
+          "side": "1",
+          "line": "0",
+          "tokens": [
+            "M103",
+            "M403",
+            "M342"
+          ],
+          "line_id": "M77:4554:side1:line0",
+          "full_sequence_primary_checked": true,
+          "pdf_page": 130,
+          "printed_page": 119,
+          "evidence_path": "results/primary_pages/m77-u-types-numerals-130.jpg",
+          "evidence": {
+            "path": "results/primary_pages/m77-u-types-numerals-130.jpg",
+            "sha256": "e2b54e64f21127bcb0c3c706587e927673b1dd1a0ca7fceb576554cef4750d46",
+            "bytes": 155925
+          },
+          "locator": "Texts reference 4554, PDF 130, printed 119; complete object entry, with metadata and all continuation rows",
+          "notes": [
+            "Tokens follow the normalized right-to-left order of the printed Texts glyph row. LOSS records a printed hatching block, not one inferred lost sign."
+          ]
+        }
+      ],
+      "symbol_only_entries": [],
+      "pdf_page": 130,
+      "printed_page": 119,
+      "evidence_path": "results/primary_pages/m77-u-types-numerals-130.jpg",
+      "evidence": {
+        "path": "results/primary_pages/m77-u-types-numerals-130.jpg",
+        "sha256": "e2b54e64f21127bcb0c3c706587e927673b1dd1a0ca7fceb576554cef4750d46",
+        "bytes": 155925
+      },
+      "locator": "Texts reference 4554, PDF 130, printed 119; complete object entry, with metadata and all continuation rows",
+      "notes": [
+        "All printed text lines inventoried; selected side2 field excluded. Candidate suggestion checked visually against primary row and labelled sign inventory."
+      ]
+    },
+    {
+      "reference": "4555",
+      "all_counterpart_lines_accounted_for": true,
+      "accounted_for_scope": "All other text-bearing lines printed for this reference in Mahadevan 1977 Texts; not a claim of complete original physical text.",
+      "excluded_selected_field_line_ids": [
+        "M77:4555:side2:line0"
+      ],
+      "counterpart_lines": [
+        {
+          "side": "1",
+          "line": "0",
+          "tokens": [
+            "M103",
+            "M403",
+            "M342"
+          ],
+          "line_id": "M77:4555:side1:line0",
+          "full_sequence_primary_checked": true,
+          "pdf_page": 130,
+          "printed_page": 119,
+          "evidence_path": "results/primary_pages/m77-u-types-numerals-130.jpg",
+          "evidence": {
+            "path": "results/primary_pages/m77-u-types-numerals-130.jpg",
+            "sha256": "e2b54e64f21127bcb0c3c706587e927673b1dd1a0ca7fceb576554cef4750d46",
+            "bytes": 155925
+          },
+          "locator": "Texts reference 4555, PDF 130, printed 119; complete object entry, with metadata and all continuation rows",
+          "notes": [
+            "Tokens follow the normalized right-to-left order of the printed Texts glyph row. LOSS records a printed hatching block, not one inferred lost sign."
+          ]
+        }
+      ],
+      "symbol_only_entries": [],
+      "pdf_page": 130,
+      "printed_page": 119,
+      "evidence_path": "results/primary_pages/m77-u-types-numerals-130.jpg",
+      "evidence": {
+        "path": "results/primary_pages/m77-u-types-numerals-130.jpg",
+        "sha256": "e2b54e64f21127bcb0c3c706587e927673b1dd1a0ca7fceb576554cef4750d46",
+        "bytes": 155925
+      },
+      "locator": "Texts reference 4555, PDF 130, printed 119; complete object entry, with metadata and all continuation rows",
+      "notes": [
+        "All printed text lines inventoried; selected side2 field excluded. Candidate suggestion checked visually against primary row and labelled sign inventory."
+      ]
+    },
+    {
+      "reference": "4556",
+      "all_counterpart_lines_accounted_for": true,
+      "accounted_for_scope": "All other text-bearing lines printed for this reference in Mahadevan 1977 Texts; not a claim of complete original physical text.",
+      "excluded_selected_field_line_ids": [
+        "M77:4556:side2:line0"
+      ],
+      "counterpart_lines": [
+        {
+          "side": "1",
+          "line": "0",
+          "tokens": [
+            "M087",
+            "M060",
+            "M176"
+          ],
+          "line_id": "M77:4556:side1:line0",
+          "full_sequence_primary_checked": true,
+          "pdf_page": 130,
+          "printed_page": 119,
+          "evidence_path": "results/primary_pages/m77-u-types-numerals-130.jpg",
+          "evidence": {
+            "path": "results/primary_pages/m77-u-types-numerals-130.jpg",
+            "sha256": "e2b54e64f21127bcb0c3c706587e927673b1dd1a0ca7fceb576554cef4750d46",
+            "bytes": 155925
+          },
+          "locator": "Texts reference 4556, PDF 130, printed 119; complete object entry, with metadata and all continuation rows",
+          "notes": [
+            "Tokens follow the normalized right-to-left order of the printed Texts glyph row. LOSS records a printed hatching block, not one inferred lost sign."
+          ]
+        }
+      ],
+      "symbol_only_entries": [],
+      "pdf_page": 130,
+      "printed_page": 119,
+      "evidence_path": "results/primary_pages/m77-u-types-numerals-130.jpg",
+      "evidence": {
+        "path": "results/primary_pages/m77-u-types-numerals-130.jpg",
+        "sha256": "e2b54e64f21127bcb0c3c706587e927673b1dd1a0ca7fceb576554cef4750d46",
+        "bytes": 155925
+      },
+      "locator": "Texts reference 4556, PDF 130, printed 119; complete object entry, with metadata and all continuation rows",
+      "notes": [
+        "All printed text lines inventoried; selected side2 field excluded. Candidate suggestion checked visually against primary row and labelled sign inventory."
+      ]
+    },
+    {
+      "reference": "4562",
+      "all_counterpart_lines_accounted_for": true,
+      "accounted_for_scope": "All other text-bearing lines printed for this reference in Mahadevan 1977 Texts; not a claim of complete original physical text.",
+      "excluded_selected_field_line_ids": [
+        "M77:4562:side2:line0"
+      ],
+      "counterpart_lines": [
+        {
+          "side": "1",
+          "line": "0",
+          "tokens": [
+            "M067",
+            "M244",
+            "M149",
+            "M342"
+          ],
+          "line_id": "M77:4562:side1:line0",
+          "full_sequence_primary_checked": true,
+          "pdf_page": 131,
+          "printed_page": 120,
+          "evidence_path": "results/primary_pages/m77-u-types-numerals-131.jpg",
+          "evidence": {
+            "path": "results/primary_pages/m77-u-types-numerals-131.jpg",
+            "sha256": "2cc6de302b7417dbaab5b348b749adf3038cb4cd68dda2daf014d216f6f43f2f",
+            "bytes": 150530
+          },
+          "locator": "Texts reference 4562, PDF 131, printed 120; complete object entry, with metadata and all continuation rows",
+          "notes": [
+            "Tokens follow the normalized right-to-left order of the printed Texts glyph row. LOSS records a printed hatching block, not one inferred lost sign."
+          ]
+        }
+      ],
+      "symbol_only_entries": [],
+      "pdf_page": 131,
+      "printed_page": 120,
+      "evidence_path": "results/primary_pages/m77-u-types-numerals-131.jpg",
+      "evidence": {
+        "path": "results/primary_pages/m77-u-types-numerals-131.jpg",
+        "sha256": "2cc6de302b7417dbaab5b348b749adf3038cb4cd68dda2daf014d216f6f43f2f",
+        "bytes": 150530
+      },
+      "locator": "Texts reference 4562, PDF 131, printed 120; complete object entry, with metadata and all continuation rows",
+      "notes": []
+    },
+    {
+      "reference": "4564",
+      "all_counterpart_lines_accounted_for": true,
+      "accounted_for_scope": "All other text-bearing lines printed for this reference in Mahadevan 1977 Texts; not a claim of complete original physical text.",
+      "excluded_selected_field_line_ids": [
+        "M77:4564:side2:line0"
+      ],
+      "counterpart_lines": [
+        {
+          "side": "1",
+          "line": "0",
+          "tokens": [
+            "M103",
+            "M403",
+            "M342"
+          ],
+          "line_id": "M77:4564:side1:line0",
+          "full_sequence_primary_checked": true,
+          "pdf_page": 131,
+          "printed_page": 120,
+          "evidence_path": "results/primary_pages/m77-u-types-numerals-131.jpg",
+          "evidence": {
+            "path": "results/primary_pages/m77-u-types-numerals-131.jpg",
+            "sha256": "2cc6de302b7417dbaab5b348b749adf3038cb4cd68dda2daf014d216f6f43f2f",
+            "bytes": 150530
+          },
+          "locator": "Texts reference 4564, PDF 131, printed 120; complete object entry, with metadata and all continuation rows",
+          "notes": [
+            "Tokens follow the normalized right-to-left order of the printed Texts glyph row. LOSS records a printed hatching block, not one inferred lost sign."
+          ]
+        }
+      ],
+      "symbol_only_entries": [],
+      "pdf_page": 131,
+      "printed_page": 120,
+      "evidence_path": "results/primary_pages/m77-u-types-numerals-131.jpg",
+      "evidence": {
+        "path": "results/primary_pages/m77-u-types-numerals-131.jpg",
+        "sha256": "2cc6de302b7417dbaab5b348b749adf3038cb4cd68dda2daf014d216f6f43f2f",
+        "bytes": 150530
+      },
+      "locator": "Texts reference 4564, PDF 131, printed 120; complete object entry, with metadata and all continuation rows",
+      "notes": []
+    },
+    {
+      "reference": "4571",
+      "all_counterpart_lines_accounted_for": true,
+      "accounted_for_scope": "All other text-bearing lines printed for this reference in Mahadevan 1977 Texts; not a claim of complete original physical text.",
+      "excluded_selected_field_line_ids": [
+        "M77:4571:side2:line0"
+      ],
+      "counterpart_lines": [
+        {
+          "side": "1",
+          "line": "0",
+          "tokens": [
+            "LOSS",
+            "*M342",
+            "M001",
+            "M176"
+          ],
+          "line_id": "M77:4571:side1:line0",
+          "full_sequence_primary_checked": true,
+          "pdf_page": 131,
+          "printed_page": 120,
+          "evidence_path": "results/primary_pages/m77-u-types-numerals-131.jpg",
+          "evidence": {
+            "path": "results/primary_pages/m77-u-types-numerals-131.jpg",
+            "sha256": "2cc6de302b7417dbaab5b348b749adf3038cb4cd68dda2daf014d216f6f43f2f",
+            "bytes": 150530
+          },
+          "locator": "Texts reference 4571, PDF 131, printed 120; complete object entry, with metadata and all continuation rows",
+          "notes": [
+            "Tokens follow the normalized right-to-left order of the printed Texts glyph row. LOSS records a printed hatching block, not one inferred lost sign."
+          ]
+        }
+      ],
+      "symbol_only_entries": [],
+      "pdf_page": 131,
+      "printed_page": 120,
+      "evidence_path": "results/primary_pages/m77-u-types-numerals-131.jpg",
+      "evidence": {
+        "path": "results/primary_pages/m77-u-types-numerals-131.jpg",
+        "sha256": "2cc6de302b7417dbaab5b348b749adf3038cb4cd68dda2daf014d216f6f43f2f",
+        "bytes": 150530
+      },
+      "locator": "Texts reference 4571, PDF 131, printed 120; complete object entry, with metadata and all continuation rows",
+      "notes": []
+    },
+    {
+      "reference": "4574",
+      "all_counterpart_lines_accounted_for": true,
+      "accounted_for_scope": "All other text-bearing lines printed for this reference in Mahadevan 1977 Texts; not a claim of complete original physical text.",
+      "excluded_selected_field_line_ids": [
+        "M77:4574:side2:line0"
+      ],
+      "counterpart_lines": [
+        {
+          "side": "1",
+          "line": "0",
+          "tokens": [
+            "M086",
+            "M327",
+            "*M342"
+          ],
+          "line_id": "M77:4574:side1:line0",
+          "full_sequence_primary_checked": true,
+          "pdf_page": 131,
+          "printed_page": 120,
+          "evidence_path": "results/primary_pages/m77-u-types-numerals-131.jpg",
+          "evidence": {
+            "path": "results/primary_pages/m77-u-types-numerals-131.jpg",
+            "sha256": "2cc6de302b7417dbaab5b348b749adf3038cb4cd68dda2daf014d216f6f43f2f",
+            "bytes": 150530
+          },
+          "locator": "Texts reference 4574, PDF 131, printed 120; complete object entry, with metadata and all continuation rows",
+          "notes": [
+            "Tokens follow the normalized right-to-left order of the printed Texts glyph row. LOSS records a printed hatching block, not one inferred lost sign."
+          ]
+        }
+      ],
+      "symbol_only_entries": [
+        {
+          "side": "3",
+          "line": "9",
+          "direction": "0",
+          "field_symbol_code": "83",
+          "printed_continuation_metadata_code": "38390",
+          "pdf_page": 131,
+          "printed_page": 120,
+          "evidence_path": "results/primary_pages/m77-u-types-numerals-131.jpg",
+          "evidence": {
+            "path": "results/primary_pages/m77-u-types-numerals-131.jpg",
+            "sha256": "2cc6de302b7417dbaab5b348b749adf3038cb4cd68dda2daf014d216f6f43f2f",
+            "bytes": 150530
+          },
+          "locator": "Texts reference 4574, PDF 131, printed 120; complete object entry, with metadata and all continuation rows",
+          "notes": [
+            "Primary line code 9 denotes field-symbol-only; no glyph sequence is invented."
+          ]
+        }
+      ],
+      "pdf_page": 131,
+      "printed_page": 120,
+      "evidence_path": "results/primary_pages/m77-u-types-numerals-131.jpg",
+      "evidence": {
+        "path": "results/primary_pages/m77-u-types-numerals-131.jpg",
+        "sha256": "2cc6de302b7417dbaab5b348b749adf3038cb4cd68dda2daf014d216f6f43f2f",
+        "bytes": 150530
+      },
+      "locator": "Texts reference 4574, PDF 131, printed 120; complete object entry, with metadata and all continuation rows",
+      "notes": []
+    },
+    {
+      "reference": "4575",
+      "all_counterpart_lines_accounted_for": true,
+      "accounted_for_scope": "All other text-bearing lines printed for this reference in Mahadevan 1977 Texts; not a claim of complete original physical text.",
+      "excluded_selected_field_line_ids": [
+        "M77:4575:side2:line0"
+      ],
+      "counterpart_lines": [
+        {
+          "side": "1",
+          "line": "0",
+          "tokens": [
+            "M048",
+            "M342",
+            "M176"
+          ],
+          "line_id": "M77:4575:side1:line0",
+          "full_sequence_primary_checked": true,
+          "pdf_page": 131,
+          "printed_page": 120,
+          "evidence_path": "results/primary_pages/m77-u-types-numerals-131.jpg",
+          "evidence": {
+            "path": "results/primary_pages/m77-u-types-numerals-131.jpg",
+            "sha256": "2cc6de302b7417dbaab5b348b749adf3038cb4cd68dda2daf014d216f6f43f2f",
+            "bytes": 150530
+          },
+          "locator": "Texts reference 4575, PDF 131, printed 120; complete object entry, with metadata and all continuation rows",
+          "notes": [
+            "Tokens follow the normalized right-to-left order of the printed Texts glyph row. LOSS records a printed hatching block, not one inferred lost sign."
+          ]
+        }
+      ],
+      "symbol_only_entries": [
+        {
+          "side": "3",
+          "line": "9",
+          "direction": "0",
+          "field_symbol_code": "83",
+          "printed_continuation_metadata_code": "38390",
+          "pdf_page": 131,
+          "printed_page": 120,
+          "evidence_path": "results/primary_pages/m77-u-types-numerals-131.jpg",
+          "evidence": {
+            "path": "results/primary_pages/m77-u-types-numerals-131.jpg",
+            "sha256": "2cc6de302b7417dbaab5b348b749adf3038cb4cd68dda2daf014d216f6f43f2f",
+            "bytes": 150530
+          },
+          "locator": "Texts reference 4575, PDF 131, printed 120; complete object entry, with metadata and all continuation rows",
+          "notes": [
+            "Primary line code 9 denotes field-symbol-only; no glyph sequence is invented."
+          ]
+        }
+      ],
+      "pdf_page": 131,
+      "printed_page": 120,
+      "evidence_path": "results/primary_pages/m77-u-types-numerals-131.jpg",
+      "evidence": {
+        "path": "results/primary_pages/m77-u-types-numerals-131.jpg",
+        "sha256": "2cc6de302b7417dbaab5b348b749adf3038cb4cd68dda2daf014d216f6f43f2f",
+        "bytes": 150530
+      },
+      "locator": "Texts reference 4575, PDF 131, printed 120; complete object entry, with metadata and all continuation rows",
+      "notes": []
+    },
+    {
+      "reference": "4576",
+      "all_counterpart_lines_accounted_for": true,
+      "accounted_for_scope": "All other text-bearing lines printed for this reference in Mahadevan 1977 Texts; not a claim of complete original physical text.",
+      "excluded_selected_field_line_ids": [
+        "M77:4576:side3:line0"
+      ],
+      "counterpart_lines": [
+        {
+          "side": "1",
+          "line": "0",
+          "tokens": [
+            "M059"
+          ],
+          "line_id": "M77:4576:side1:line0",
+          "full_sequence_primary_checked": true,
+          "pdf_page": 132,
+          "printed_page": 121,
+          "evidence_path": "results/primary_pages/m77-u-types-numerals-132.jpg",
+          "evidence": {
+            "path": "results/primary_pages/m77-u-types-numerals-132.jpg",
+            "sha256": "513bd122bfd06aaf96ee7705e4fcde856424aca1198c54581c0df08874deb866",
+            "bytes": 144608
+          },
+          "locator": "Texts reference 4576, PDF 132, printed 121; complete object entry, with metadata and all continuation rows",
+          "notes": [
+            "Tokens follow the normalized right-to-left order of the printed Texts glyph row. LOSS records a printed hatching block, not one inferred lost sign."
+          ]
+        },
+        {
+          "side": "2",
+          "line": "0",
+          "tokens": [
+            "M067",
+            "M244",
+            "M149",
+            "M342"
+          ],
+          "line_id": "M77:4576:side2:line0",
+          "full_sequence_primary_checked": true,
+          "pdf_page": 132,
+          "printed_page": 121,
+          "evidence_path": "results/primary_pages/m77-u-types-numerals-132.jpg",
+          "evidence": {
+            "path": "results/primary_pages/m77-u-types-numerals-132.jpg",
+            "sha256": "513bd122bfd06aaf96ee7705e4fcde856424aca1198c54581c0df08874deb866",
+            "bytes": 144608
+          },
+          "locator": "Texts reference 4576, PDF 132, printed 121; complete object entry, with metadata and all continuation rows",
+          "notes": [
+            "Tokens follow the normalized right-to-left order of the printed Texts glyph row. LOSS records a printed hatching block, not one inferred lost sign."
+          ]
+        }
+      ],
+      "symbol_only_entries": [],
+      "pdf_page": 132,
+      "printed_page": 121,
+      "evidence_path": "results/primary_pages/m77-u-types-numerals-132.jpg",
+      "evidence": {
+        "path": "results/primary_pages/m77-u-types-numerals-132.jpg",
+        "sha256": "513bd122bfd06aaf96ee7705e4fcde856424aca1198c54581c0df08874deb866",
+        "bytes": 144608
+      },
+      "locator": "Texts reference 4576, PDF 132, printed 121; complete object entry, with metadata and all continuation rows",
+      "notes": [
+        "Single fish on side1 is a text-bearing line, not a field symbol."
+      ]
+    },
+    {
+      "reference": "4577",
+      "all_counterpart_lines_accounted_for": true,
+      "accounted_for_scope": "All other text-bearing lines printed for this reference in Mahadevan 1977 Texts; not a claim of complete original physical text.",
+      "excluded_selected_field_line_ids": [
+        "M77:4577:side2:line0"
+      ],
+      "counterpart_lines": [
+        {
+          "side": "1",
+          "line": "0",
+          "tokens": [
+            "M051",
+            "M130",
+            "M015",
+            "M176"
+          ],
+          "line_id": "M77:4577:side1:line0",
+          "full_sequence_primary_checked": true,
+          "pdf_page": 132,
+          "printed_page": 121,
+          "evidence_path": "results/primary_pages/m77-u-types-numerals-132.jpg",
+          "evidence": {
+            "path": "results/primary_pages/m77-u-types-numerals-132.jpg",
+            "sha256": "513bd122bfd06aaf96ee7705e4fcde856424aca1198c54581c0df08874deb866",
+            "bytes": 144608
+          },
+          "locator": "Texts reference 4577, PDF 132, printed 121; complete object entry, with metadata and all continuation rows",
+          "notes": [
+            "Tokens follow the normalized right-to-left order of the printed Texts glyph row. LOSS records a printed hatching block, not one inferred lost sign."
+          ]
+        }
+      ],
+      "symbol_only_entries": [],
+      "pdf_page": 132,
+      "printed_page": 121,
+      "evidence_path": "results/primary_pages/m77-u-types-numerals-132.jpg",
+      "evidence": {
+        "path": "results/primary_pages/m77-u-types-numerals-132.jpg",
+        "sha256": "513bd122bfd06aaf96ee7705e4fcde856424aca1198c54581c0df08874deb866",
+        "bytes": 144608
+      },
+      "locator": "Texts reference 4577, PDF 132, printed 121; complete object entry, with metadata and all continuation rows",
+      "notes": []
+    },
+    {
+      "reference": "4579",
+      "all_counterpart_lines_accounted_for": true,
+      "accounted_for_scope": "All other text-bearing lines printed for this reference in Mahadevan 1977 Texts; not a claim of complete original physical text.",
+      "excluded_selected_field_line_ids": [
+        "M77:4579:side2:line0"
+      ],
+      "counterpart_lines": [
+        {
+          "side": "1",
+          "line": "0",
+          "tokens": [
+            "M051",
+            "M130",
+            "M015",
+            "M176"
+          ],
+          "line_id": "M77:4579:side1:line0",
+          "full_sequence_primary_checked": true,
+          "pdf_page": 132,
+          "printed_page": 121,
+          "evidence_path": "results/primary_pages/m77-u-types-numerals-132.jpg",
+          "evidence": {
+            "path": "results/primary_pages/m77-u-types-numerals-132.jpg",
+            "sha256": "513bd122bfd06aaf96ee7705e4fcde856424aca1198c54581c0df08874deb866",
+            "bytes": 144608
+          },
+          "locator": "Texts reference 4579, PDF 132, printed 121; complete object entry, with metadata and all continuation rows",
+          "notes": [
+            "Tokens follow the normalized right-to-left order of the printed Texts glyph row. LOSS records a printed hatching block, not one inferred lost sign."
+          ]
+        }
+      ],
+      "symbol_only_entries": [],
+      "pdf_page": 132,
+      "printed_page": 121,
+      "evidence_path": "results/primary_pages/m77-u-types-numerals-132.jpg",
+      "evidence": {
+        "path": "results/primary_pages/m77-u-types-numerals-132.jpg",
+        "sha256": "513bd122bfd06aaf96ee7705e4fcde856424aca1198c54581c0df08874deb866",
+        "bytes": 144608
+      },
+      "locator": "Texts reference 4579, PDF 132, printed 121; complete object entry, with metadata and all continuation rows",
+      "notes": []
+    },
+    {
+      "reference": "4580",
+      "all_counterpart_lines_accounted_for": true,
+      "accounted_for_scope": "All other text-bearing lines printed for this reference in Mahadevan 1977 Texts; not a claim of complete original physical text.",
+      "excluded_selected_field_line_ids": [
+        "M77:4580:side2:line0"
+      ],
+      "counterpart_lines": [
+        {
+          "side": "1",
+          "line": "0",
+          "tokens": [
+            "M072",
+            "M216",
+            "M254"
+          ],
+          "line_id": "M77:4580:side1:line0",
+          "full_sequence_primary_checked": true,
+          "pdf_page": 132,
+          "printed_page": 121,
+          "evidence_path": "results/primary_pages/m77-u-types-numerals-132.jpg",
+          "evidence": {
+            "path": "results/primary_pages/m77-u-types-numerals-132.jpg",
+            "sha256": "513bd122bfd06aaf96ee7705e4fcde856424aca1198c54581c0df08874deb866",
+            "bytes": 144608
+          },
+          "locator": "Texts reference 4580, PDF 132, printed 121; complete object entry, with metadata and all continuation rows",
+          "notes": [
+            "Tokens follow the normalized right-to-left order of the printed Texts glyph row. LOSS records a printed hatching block, not one inferred lost sign."
+          ]
+        }
+      ],
+      "symbol_only_entries": [
+        {
+          "side": "3",
+          "line": "9",
+          "direction": "0",
+          "field_symbol_code": "83",
+          "printed_continuation_metadata_code": "38390",
+          "pdf_page": 132,
+          "printed_page": 121,
+          "evidence_path": "results/primary_pages/m77-u-types-numerals-132.jpg",
+          "evidence": {
+            "path": "results/primary_pages/m77-u-types-numerals-132.jpg",
+            "sha256": "513bd122bfd06aaf96ee7705e4fcde856424aca1198c54581c0df08874deb866",
+            "bytes": 144608
+          },
+          "locator": "Texts reference 4580, PDF 132, printed 121; complete object entry, with metadata and all continuation rows",
+          "notes": [
+            "Primary line code 9 denotes field-symbol-only; no glyph sequence is invented."
+          ]
+        }
+      ],
+      "pdf_page": 132,
+      "printed_page": 121,
+      "evidence_path": "results/primary_pages/m77-u-types-numerals-132.jpg",
+      "evidence": {
+        "path": "results/primary_pages/m77-u-types-numerals-132.jpg",
+        "sha256": "513bd122bfd06aaf96ee7705e4fcde856424aca1198c54581c0df08874deb866",
+        "bytes": 144608
+      },
+      "locator": "Texts reference 4580, PDF 132, printed 121; complete object entry, with metadata and all continuation rows",
+      "notes": []
+    },
+    {
+      "reference": "4581",
+      "all_counterpart_lines_accounted_for": true,
+      "accounted_for_scope": "All other text-bearing lines printed for this reference in Mahadevan 1977 Texts; not a claim of complete original physical text.",
+      "excluded_selected_field_line_ids": [
+        "M77:4581:side3:line0"
+      ],
+      "counterpart_lines": [
+        {
+          "side": "1",
+          "line": "0",
+          "tokens": [
+            "M137"
+          ],
+          "line_id": "M77:4581:side1:line0",
+          "full_sequence_primary_checked": true,
+          "pdf_page": 132,
+          "printed_page": 121,
+          "evidence_path": "results/primary_pages/m77-u-types-numerals-132.jpg",
+          "evidence": {
+            "path": "results/primary_pages/m77-u-types-numerals-132.jpg",
+            "sha256": "513bd122bfd06aaf96ee7705e4fcde856424aca1198c54581c0df08874deb866",
+            "bytes": 144608
+          },
+          "locator": "Texts reference 4581, PDF 132, printed 121; complete object entry, with metadata and all continuation rows",
+          "notes": [
+            "Tokens follow the normalized right-to-left order of the printed Texts glyph row. LOSS records a printed hatching block, not one inferred lost sign."
+          ]
+        },
+        {
+          "side": "2",
+          "line": "0",
+          "tokens": [
+            "*M119",
+            "M087",
+            "M342",
+            "M176"
+          ],
+          "line_id": "M77:4581:side2:line0",
+          "full_sequence_primary_checked": true,
+          "pdf_page": 132,
+          "printed_page": 121,
+          "evidence_path": "results/primary_pages/m77-u-types-numerals-132.jpg",
+          "evidence": {
+            "path": "results/primary_pages/m77-u-types-numerals-132.jpg",
+            "sha256": "513bd122bfd06aaf96ee7705e4fcde856424aca1198c54581c0df08874deb866",
+            "bytes": 144608
+          },
+          "locator": "Texts reference 4581, PDF 132, printed 121; complete object entry, with metadata and all continuation rows",
+          "notes": [
+            "Tokens follow the normalized right-to-left order of the printed Texts glyph row. LOSS records a printed hatching block, not one inferred lost sign."
+          ]
+        }
+      ],
+      "symbol_only_entries": [],
+      "pdf_page": 132,
+      "printed_page": 121,
+      "evidence_path": "results/primary_pages/m77-u-types-numerals-132.jpg",
+      "evidence": {
+        "path": "results/primary_pages/m77-u-types-numerals-132.jpg",
+        "sha256": "513bd122bfd06aaf96ee7705e4fcde856424aca1198c54581c0df08874deb866",
+        "bytes": 144608
+      },
+      "locator": "Texts reference 4581, PDF 132, printed 121; complete object entry, with metadata and all continuation rows",
+      "notes": [
+        "Single X on side1 is a text-bearing line, not a field symbol."
+      ]
+    },
+    {
+      "reference": "4582",
+      "all_counterpart_lines_accounted_for": true,
+      "accounted_for_scope": "All other text-bearing lines printed for this reference in Mahadevan 1977 Texts; not a claim of complete original physical text.",
+      "excluded_selected_field_line_ids": [
+        "M77:4582:side2:line0"
+      ],
+      "counterpart_lines": [
+        {
+          "side": "1",
+          "line": "0",
+          "tokens": [
+            "M067",
+            "M244",
+            "M342",
+            "M176"
+          ],
+          "line_id": "M77:4582:side1:line0",
+          "full_sequence_primary_checked": true,
+          "pdf_page": 132,
+          "printed_page": 121,
+          "evidence_path": "results/primary_pages/m77-u-types-numerals-132.jpg",
+          "evidence": {
+            "path": "results/primary_pages/m77-u-types-numerals-132.jpg",
+            "sha256": "513bd122bfd06aaf96ee7705e4fcde856424aca1198c54581c0df08874deb866",
+            "bytes": 144608
+          },
+          "locator": "Texts reference 4582, PDF 132, printed 121; complete object entry, with metadata and all continuation rows",
+          "notes": [
+            "Tokens follow the normalized right-to-left order of the printed Texts glyph row. LOSS records a printed hatching block, not one inferred lost sign."
+          ]
+        }
+      ],
+      "symbol_only_entries": [
+        {
+          "side": "3",
+          "line": "9",
+          "direction": "0",
+          "field_symbol_code": "83",
+          "printed_continuation_metadata_code": "38390",
+          "pdf_page": 132,
+          "printed_page": 121,
+          "evidence_path": "results/primary_pages/m77-u-types-numerals-132.jpg",
+          "evidence": {
+            "path": "results/primary_pages/m77-u-types-numerals-132.jpg",
+            "sha256": "513bd122bfd06aaf96ee7705e4fcde856424aca1198c54581c0df08874deb866",
+            "bytes": 144608
+          },
+          "locator": "Texts reference 4582, PDF 132, printed 121; complete object entry, with metadata and all continuation rows",
+          "notes": [
+            "Primary line code 9 denotes field-symbol-only; no glyph sequence is invented."
+          ]
+        }
+      ],
+      "pdf_page": 132,
+      "printed_page": 121,
+      "evidence_path": "results/primary_pages/m77-u-types-numerals-132.jpg",
+      "evidence": {
+        "path": "results/primary_pages/m77-u-types-numerals-132.jpg",
+        "sha256": "513bd122bfd06aaf96ee7705e4fcde856424aca1198c54581c0df08874deb866",
+        "bytes": 144608
+      },
+      "locator": "Texts reference 4582, PDF 132, printed 121; complete object entry, with metadata and all continuation rows",
+      "notes": []
+    },
+    {
+      "reference": "4585",
+      "all_counterpart_lines_accounted_for": true,
+      "accounted_for_scope": "All other text-bearing lines printed for this reference in Mahadevan 1977 Texts; not a claim of complete original physical text.",
+      "excluded_selected_field_line_ids": [
+        "M77:4585:side2:line0"
+      ],
+      "counterpart_lines": [
+        {
+          "side": "1",
+          "line": "0",
+          "tokens": [
+            "M067",
+            "M244",
+            "M342",
+            "M304",
+            "M087"
+          ],
+          "line_id": "M77:4585:side1:line0",
+          "full_sequence_primary_checked": true,
+          "pdf_page": 132,
+          "printed_page": 121,
+          "evidence_path": "results/primary_pages/m77-u-types-numerals-132.jpg",
+          "evidence": {
+            "path": "results/primary_pages/m77-u-types-numerals-132.jpg",
+            "sha256": "513bd122bfd06aaf96ee7705e4fcde856424aca1198c54581c0df08874deb866",
+            "bytes": 144608
+          },
+          "locator": "Texts reference 4585, PDF 132, printed 121; complete object entry, with metadata and all continuation rows",
+          "notes": [
+            "Tokens follow the normalized right-to-left order of the printed Texts glyph row. LOSS records a printed hatching block, not one inferred lost sign."
+          ]
+        }
+      ],
+      "symbol_only_entries": [],
+      "pdf_page": 132,
+      "printed_page": 121,
+      "evidence_path": "results/primary_pages/m77-u-types-numerals-132.jpg",
+      "evidence": {
+        "path": "results/primary_pages/m77-u-types-numerals-132.jpg",
+        "sha256": "513bd122bfd06aaf96ee7705e4fcde856424aca1198c54581c0df08874deb866",
+        "bytes": 144608
+      },
+      "locator": "Texts reference 4585, PDF 132, printed 121; complete object entry, with metadata and all continuation rows",
+      "notes": []
+    },
+    {
+      "reference": "4586",
+      "all_counterpart_lines_accounted_for": true,
+      "accounted_for_scope": "All other text-bearing lines printed for this reference in Mahadevan 1977 Texts; not a claim of complete original physical text.",
+      "excluded_selected_field_line_ids": [
+        "M77:4586:side3:line0"
+      ],
+      "counterpart_lines": [
+        {
+          "side": "1",
+          "line": "0",
+          "tokens": [
+            "M048",
+            "M342",
+            "M176"
+          ],
+          "line_id": "M77:4586:side1:line0",
+          "full_sequence_primary_checked": true,
+          "pdf_page": 132,
+          "printed_page": 121,
+          "evidence_path": "results/primary_pages/m77-u-types-numerals-132.jpg",
+          "evidence": {
+            "path": "results/primary_pages/m77-u-types-numerals-132.jpg",
+            "sha256": "513bd122bfd06aaf96ee7705e4fcde856424aca1198c54581c0df08874deb866",
+            "bytes": 144608
+          },
+          "locator": "Texts reference 4586, PDF 132, printed 121; complete object entry, with metadata and all continuation rows",
+          "notes": [
+            "Tokens follow the normalized right-to-left order of the printed Texts glyph row. LOSS records a printed hatching block, not one inferred lost sign."
+          ]
+        },
+        {
+          "side": "2",
+          "line": "0",
+          "tokens": [
+            "M267",
+            "M402",
+            "M149"
+          ],
+          "line_id": "M77:4586:side2:line0",
+          "full_sequence_primary_checked": true,
+          "pdf_page": 132,
+          "printed_page": 121,
+          "evidence_path": "results/primary_pages/m77-u-types-numerals-132.jpg",
+          "evidence": {
+            "path": "results/primary_pages/m77-u-types-numerals-132.jpg",
+            "sha256": "513bd122bfd06aaf96ee7705e4fcde856424aca1198c54581c0df08874deb866",
+            "bytes": 144608
+          },
+          "locator": "Texts reference 4586, PDF 132, printed 121; complete object entry, with metadata and all continuation rows",
+          "notes": [
+            "Tokens follow the normalized right-to-left order of the printed Texts glyph row. LOSS records a printed hatching block, not one inferred lost sign."
+          ]
+        }
+      ],
+      "symbol_only_entries": [],
+      "pdf_page": 132,
+      "printed_page": 121,
+      "evidence_path": "results/primary_pages/m77-u-types-numerals-132.jpg",
+      "evidence": {
+        "path": "results/primary_pages/m77-u-types-numerals-132.jpg",
+        "sha256": "513bd122bfd06aaf96ee7705e4fcde856424aca1198c54581c0df08874deb866",
+        "bytes": 144608
+      },
+      "locator": "Texts reference 4586, PDF 132, printed 121; complete object entry, with metadata and all continuation rows",
+      "notes": [
+        "Side2 includes diamond, triangular flag and open-ended X; side3 is the excluded selected field."
+      ]
+    },
+    {
+      "reference": "4587",
+      "all_counterpart_lines_accounted_for": true,
+      "accounted_for_scope": "All other text-bearing lines printed for this reference in Mahadevan 1977 Texts; not a claim of complete original physical text.",
+      "excluded_selected_field_line_ids": [
+        "M77:4587:side2:line0"
+      ],
+      "counterpart_lines": [
+        {
+          "side": "1",
+          "line": "0",
+          "tokens": [
+            "M067",
+            "M244",
+            "M342",
+            "M176"
+          ],
+          "line_id": "M77:4587:side1:line0",
+          "full_sequence_primary_checked": true,
+          "pdf_page": 133,
+          "printed_page": 122,
+          "evidence_path": "results/primary_pages/m77-u-types-numerals-133.jpg",
+          "evidence": {
+            "path": "results/primary_pages/m77-u-types-numerals-133.jpg",
+            "sha256": "bb223192fd8b8fa27348353e0da717baab84ea62b0bc15bc273b796f70b56f54",
+            "bytes": 154187
+          },
+          "locator": "Texts reference 4587, PDF 133, printed 122; complete object entry, with metadata and all continuation rows",
+          "notes": [
+            "Tokens follow the normalized right-to-left order of the printed Texts glyph row. LOSS records a printed hatching block, not one inferred lost sign."
+          ]
+        }
+      ],
+      "symbol_only_entries": [
+        {
+          "side": "3",
+          "line": "9",
+          "direction": "0",
+          "field_symbol_code": "83",
+          "printed_continuation_metadata_code": "38390",
+          "pdf_page": 133,
+          "printed_page": 122,
+          "evidence_path": "results/primary_pages/m77-u-types-numerals-133.jpg",
+          "evidence": {
+            "path": "results/primary_pages/m77-u-types-numerals-133.jpg",
+            "sha256": "bb223192fd8b8fa27348353e0da717baab84ea62b0bc15bc273b796f70b56f54",
+            "bytes": 154187
+          },
+          "locator": "Texts reference 4587, PDF 133, printed 122; complete object entry, with metadata and all continuation rows",
+          "notes": [
+            "Primary line code 9 denotes field-symbol-only; no glyph sequence is invented."
+          ]
+        }
+      ],
+      "pdf_page": 133,
+      "printed_page": 122,
+      "evidence_path": "results/primary_pages/m77-u-types-numerals-133.jpg",
+      "evidence": {
+        "path": "results/primary_pages/m77-u-types-numerals-133.jpg",
+        "sha256": "bb223192fd8b8fa27348353e0da717baab84ea62b0bc15bc273b796f70b56f54",
+        "bytes": 154187
+      },
+      "locator": "Texts reference 4587, PDF 133, printed 122; complete object entry, with metadata and all continuation rows",
+      "notes": []
+    },
+    {
+      "reference": "4588",
+      "all_counterpart_lines_accounted_for": true,
+      "accounted_for_scope": "All other text-bearing lines printed for this reference in Mahadevan 1977 Texts; not a claim of complete original physical text.",
+      "excluded_selected_field_line_ids": [
+        "M77:4588:side3:line0"
+      ],
+      "counterpart_lines": [
+        {
+          "side": "1",
+          "line": "0",
+          "tokens": [
+            "M059"
+          ],
+          "line_id": "M77:4588:side1:line0",
+          "full_sequence_primary_checked": true,
+          "pdf_page": 133,
+          "printed_page": 122,
+          "evidence_path": "results/primary_pages/m77-u-types-numerals-133.jpg",
+          "evidence": {
+            "path": "results/primary_pages/m77-u-types-numerals-133.jpg",
+            "sha256": "bb223192fd8b8fa27348353e0da717baab84ea62b0bc15bc273b796f70b56f54",
+            "bytes": 154187
+          },
+          "locator": "Texts reference 4588, PDF 133, printed 122; complete object entry, with metadata and all continuation rows",
+          "notes": [
+            "Tokens follow the normalized right-to-left order of the printed Texts glyph row. LOSS records a printed hatching block, not one inferred lost sign."
+          ]
+        },
+        {
+          "side": "2",
+          "line": "0",
+          "tokens": [
+            "M006",
+            "M176"
+          ],
+          "line_id": "M77:4588:side2:line0",
+          "full_sequence_primary_checked": true,
+          "pdf_page": 133,
+          "printed_page": 122,
+          "evidence_path": "results/primary_pages/m77-u-types-numerals-133.jpg",
+          "evidence": {
+            "path": "results/primary_pages/m77-u-types-numerals-133.jpg",
+            "sha256": "bb223192fd8b8fa27348353e0da717baab84ea62b0bc15bc273b796f70b56f54",
+            "bytes": 154187
+          },
+          "locator": "Texts reference 4588, PDF 133, printed 122; complete object entry, with metadata and all continuation rows",
+          "notes": [
+            "Tokens follow the normalized right-to-left order of the printed Texts glyph row. LOSS records a printed hatching block, not one inferred lost sign."
+          ]
+        }
+      ],
+      "symbol_only_entries": [],
+      "pdf_page": 133,
+      "printed_page": 122,
+      "evidence_path": "results/primary_pages/m77-u-types-numerals-133.jpg",
+      "evidence": {
+        "path": "results/primary_pages/m77-u-types-numerals-133.jpg",
+        "sha256": "bb223192fd8b8fa27348353e0da717baab84ea62b0bc15bc273b796f70b56f54",
+        "bytes": 154187
+      },
+      "locator": "Texts reference 4588, PDF 133, printed 122; complete object entry, with metadata and all continuation rows",
+      "notes": []
+    },
+    {
+      "reference": "4589",
+      "all_counterpart_lines_accounted_for": true,
+      "accounted_for_scope": "All other text-bearing lines printed for this reference in Mahadevan 1977 Texts; not a claim of complete original physical text.",
+      "excluded_selected_field_line_ids": [
+        "M77:4589:side3:line0"
+      ],
+      "counterpart_lines": [
+        {
+          "side": "1",
+          "line": "0",
+          "tokens": [
+            "M048",
+            "M047",
+            "M379",
+            "M245",
+            "M245"
+          ],
+          "line_id": "M77:4589:side1:line0",
+          "full_sequence_primary_checked": true,
+          "pdf_page": 133,
+          "printed_page": 122,
+          "evidence_path": "results/primary_pages/m77-u-types-numerals-133.jpg",
+          "evidence": {
+            "path": "results/primary_pages/m77-u-types-numerals-133.jpg",
+            "sha256": "bb223192fd8b8fa27348353e0da717baab84ea62b0bc15bc273b796f70b56f54",
+            "bytes": 154187
+          },
+          "locator": "Texts reference 4589, PDF 133, printed 122; complete object entry, with metadata and all continuation rows",
+          "notes": [
+            "Tokens follow the normalized right-to-left order of the printed Texts glyph row. LOSS records a printed hatching block, not one inferred lost sign."
+          ]
+        },
+        {
+          "side": "2",
+          "line": "0",
+          "tokens": [
+            "M307",
+            "M267"
+          ],
+          "line_id": "M77:4589:side2:line0",
+          "full_sequence_primary_checked": true,
+          "pdf_page": 133,
+          "printed_page": 122,
+          "evidence_path": "results/primary_pages/m77-u-types-numerals-133.jpg",
+          "evidence": {
+            "path": "results/primary_pages/m77-u-types-numerals-133.jpg",
+            "sha256": "bb223192fd8b8fa27348353e0da717baab84ea62b0bc15bc273b796f70b56f54",
+            "bytes": 154187
+          },
+          "locator": "Texts reference 4589, PDF 133, printed 122; complete object entry, with metadata and all continuation rows",
+          "notes": [
+            "Tokens follow the normalized right-to-left order of the printed Texts glyph row. LOSS records a printed hatching block, not one inferred lost sign."
+          ]
+        }
+      ],
+      "symbol_only_entries": [],
+      "pdf_page": 133,
+      "printed_page": 122,
+      "evidence_path": "results/primary_pages/m77-u-types-numerals-133.jpg",
+      "evidence": {
+        "path": "results/primary_pages/m77-u-types-numerals-133.jpg",
+        "sha256": "bb223192fd8b8fa27348353e0da717baab84ea62b0bc15bc273b796f70b56f54",
+        "bytes": 154187
+      },
+      "locator": "Texts reference 4589, PDF 133, printed 122; complete object entry, with metadata and all continuation rows",
+      "notes": []
+    },
+    {
+      "reference": "4591",
+      "all_counterpart_lines_accounted_for": true,
+      "accounted_for_scope": "All other text-bearing lines printed for this reference in Mahadevan 1977 Texts; not a claim of complete original physical text.",
+      "excluded_selected_field_line_ids": [
+        "M77:4591:side3:line0"
+      ],
+      "counterpart_lines": [
+        {
+          "side": "1",
+          "line": "0",
+          "tokens": [
+            "M059"
+          ],
+          "line_id": "M77:4591:side1:line0",
+          "full_sequence_primary_checked": true,
+          "pdf_page": 133,
+          "printed_page": 122,
+          "evidence_path": "results/primary_pages/m77-u-types-numerals-133.jpg",
+          "evidence": {
+            "path": "results/primary_pages/m77-u-types-numerals-133.jpg",
+            "sha256": "bb223192fd8b8fa27348353e0da717baab84ea62b0bc15bc273b796f70b56f54",
+            "bytes": 154187
+          },
+          "locator": "Texts reference 4591, PDF 133, printed 122; complete object entry, with metadata and all continuation rows",
+          "notes": [
+            "Tokens follow the normalized right-to-left order of the printed Texts glyph row. LOSS records a printed hatching block, not one inferred lost sign."
+          ]
+        },
+        {
+          "side": "2",
+          "line": "0",
+          "tokens": [
+            "*M119",
+            "M087",
+            "M342",
+            "M176"
+          ],
+          "line_id": "M77:4591:side2:line0",
+          "full_sequence_primary_checked": true,
+          "pdf_page": 133,
+          "printed_page": 122,
+          "evidence_path": "results/primary_pages/m77-u-types-numerals-133.jpg",
+          "evidence": {
+            "path": "results/primary_pages/m77-u-types-numerals-133.jpg",
+            "sha256": "bb223192fd8b8fa27348353e0da717baab84ea62b0bc15bc273b796f70b56f54",
+            "bytes": 154187
+          },
+          "locator": "Texts reference 4591, PDF 133, printed 122; complete object entry, with metadata and all continuation rows",
+          "notes": [
+            "Tokens follow the normalized right-to-left order of the printed Texts glyph row. LOSS records a printed hatching block, not one inferred lost sign."
+          ]
+        }
+      ],
+      "symbol_only_entries": [],
+      "pdf_page": 133,
+      "printed_page": 122,
+      "evidence_path": "results/primary_pages/m77-u-types-numerals-133.jpg",
+      "evidence": {
+        "path": "results/primary_pages/m77-u-types-numerals-133.jpg",
+        "sha256": "bb223192fd8b8fa27348353e0da717baab84ea62b0bc15bc273b796f70b56f54",
+        "bytes": 154187
+      },
+      "locator": "Texts reference 4591, PDF 133, printed 122; complete object entry, with metadata and all continuation rows",
+      "notes": []
+    },
+    {
+      "reference": "4593",
+      "all_counterpart_lines_accounted_for": true,
+      "accounted_for_scope": "All other text-bearing lines printed for this reference in Mahadevan 1977 Texts; not a claim of complete original physical text.",
+      "excluded_selected_field_line_ids": [
+        "M77:4593:side2:line0"
+      ],
+      "counterpart_lines": [
+        {
+          "side": "1",
+          "line": "0",
+          "tokens": [
+            "M333",
+            "*M342"
+          ],
+          "line_id": "M77:4593:side1:line0",
+          "full_sequence_primary_checked": true,
+          "pdf_page": 133,
+          "printed_page": 122,
+          "evidence_path": "results/primary_pages/m77-u-types-numerals-133.jpg",
+          "evidence": {
+            "path": "results/primary_pages/m77-u-types-numerals-133.jpg",
+            "sha256": "bb223192fd8b8fa27348353e0da717baab84ea62b0bc15bc273b796f70b56f54",
+            "bytes": 154187
+          },
+          "locator": "Texts reference 4593, PDF 133, printed 122; complete object entry, with metadata and all continuation rows",
+          "notes": [
+            "Tokens follow the normalized right-to-left order of the printed Texts glyph row. LOSS records a printed hatching block, not one inferred lost sign."
+          ]
+        }
+      ],
+      "symbol_only_entries": [
+        {
+          "side": "3",
+          "line": "9",
+          "direction": "0",
+          "field_symbol_code": "83",
+          "printed_continuation_metadata_code": "38390",
+          "pdf_page": 133,
+          "printed_page": 122,
+          "evidence_path": "results/primary_pages/m77-u-types-numerals-133.jpg",
+          "evidence": {
+            "path": "results/primary_pages/m77-u-types-numerals-133.jpg",
+            "sha256": "bb223192fd8b8fa27348353e0da717baab84ea62b0bc15bc273b796f70b56f54",
+            "bytes": 154187
+          },
+          "locator": "Texts reference 4593, PDF 133, printed 122; complete object entry, with metadata and all continuation rows",
+          "notes": [
+            "Primary line code 9 denotes field-symbol-only; no glyph sequence is invented."
+          ]
+        }
+      ],
+      "pdf_page": 133,
+      "printed_page": 122,
+      "evidence_path": "results/primary_pages/m77-u-types-numerals-133.jpg",
+      "evidence": {
+        "path": "results/primary_pages/m77-u-types-numerals-133.jpg",
+        "sha256": "bb223192fd8b8fa27348353e0da717baab84ea62b0bc15bc273b796f70b56f54",
+        "bytes": 154187
+      },
+      "locator": "Texts reference 4593, PDF 133, printed 122; complete object entry, with metadata and all continuation rows",
+      "notes": []
+    },
+    {
+      "reference": "4594",
+      "all_counterpart_lines_accounted_for": true,
+      "accounted_for_scope": "All other text-bearing lines printed for this reference in Mahadevan 1977 Texts; not a claim of complete original physical text.",
+      "excluded_selected_field_line_ids": [
+        "M77:4594:side2:line0"
+      ],
+      "counterpart_lines": [
+        {
+          "side": "1",
+          "line": "0",
+          "tokens": [
+            "*M294",
+            "M336",
+            "M342"
+          ],
+          "line_id": "M77:4594:side1:line0",
+          "full_sequence_primary_checked": true,
+          "pdf_page": 133,
+          "printed_page": 122,
+          "evidence_path": "results/primary_pages/m77-u-types-numerals-133.jpg",
+          "evidence": {
+            "path": "results/primary_pages/m77-u-types-numerals-133.jpg",
+            "sha256": "bb223192fd8b8fa27348353e0da717baab84ea62b0bc15bc273b796f70b56f54",
+            "bytes": 154187
+          },
+          "locator": "Texts reference 4594, PDF 133, printed 122; complete object entry, with metadata and all continuation rows",
+          "notes": [
+            "Tokens follow the normalized right-to-left order of the printed Texts glyph row. LOSS records a printed hatching block, not one inferred lost sign."
+          ]
+        }
+      ],
+      "symbol_only_entries": [],
+      "pdf_page": 133,
+      "printed_page": 122,
+      "evidence_path": "results/primary_pages/m77-u-types-numerals-133.jpg",
+      "evidence": {
+        "path": "results/primary_pages/m77-u-types-numerals-133.jpg",
+        "sha256": "bb223192fd8b8fa27348353e0da717baab84ea62b0bc15bc273b796f70b56f54",
+        "bytes": 154187
+      },
+      "locator": "Texts reference 4594, PDF 133, printed 122; complete object entry, with metadata and all continuation rows",
+      "notes": []
+    },
+    {
+      "reference": "4595",
+      "all_counterpart_lines_accounted_for": true,
+      "accounted_for_scope": "All other text-bearing lines printed for this reference in Mahadevan 1977 Texts; not a claim of complete original physical text.",
+      "excluded_selected_field_line_ids": [
+        "M77:4595:side2:line0"
+      ],
+      "counterpart_lines": [
+        {
+          "side": "1",
+          "line": "0",
+          "tokens": [
+            "M121",
+            "M051",
+            "M130",
+            "LOSS"
+          ],
+          "line_id": "M77:4595:side1:line0",
+          "full_sequence_primary_checked": true,
+          "pdf_page": 133,
+          "printed_page": 122,
+          "evidence_path": "results/primary_pages/m77-u-types-numerals-133.jpg",
+          "evidence": {
+            "path": "results/primary_pages/m77-u-types-numerals-133.jpg",
+            "sha256": "bb223192fd8b8fa27348353e0da717baab84ea62b0bc15bc273b796f70b56f54",
+            "bytes": 154187
+          },
+          "locator": "Texts reference 4595, PDF 133, printed 122; complete object entry, with metadata and all continuation rows",
+          "notes": [
+            "Tokens follow the normalized right-to-left order of the printed Texts glyph row. LOSS records a printed hatching block, not one inferred lost sign."
+          ]
+        }
+      ],
+      "symbol_only_entries": [],
+      "pdf_page": 133,
+      "printed_page": 122,
+      "evidence_path": "results/primary_pages/m77-u-types-numerals-133.jpg",
+      "evidence": {
+        "path": "results/primary_pages/m77-u-types-numerals-133.jpg",
+        "sha256": "bb223192fd8b8fa27348353e0da717baab84ea62b0bc15bc273b796f70b56f54",
+        "bytes": 154187
+      },
+      "locator": "Texts reference 4595, PDF 133, printed 122; complete object entry, with metadata and all continuation rows",
+      "notes": []
+    },
+    {
+      "reference": "4597",
+      "all_counterpart_lines_accounted_for": true,
+      "accounted_for_scope": "All other text-bearing lines printed for this reference in Mahadevan 1977 Texts; not a claim of complete original physical text.",
+      "excluded_selected_field_line_ids": [
+        "M77:4597:side2:line0"
+      ],
+      "counterpart_lines": [
+        {
+          "side": "1",
+          "line": "0",
+          "tokens": [
+            "LOSS",
+            "*M171",
+            "M008",
+            "M342",
+            "M176"
+          ],
+          "line_id": "M77:4597:side1:line0",
+          "full_sequence_primary_checked": true,
+          "pdf_page": 133,
+          "printed_page": 122,
+          "evidence_path": "results/primary_pages/m77-u-types-numerals-133.jpg",
+          "evidence": {
+            "path": "results/primary_pages/m77-u-types-numerals-133.jpg",
+            "sha256": "bb223192fd8b8fa27348353e0da717baab84ea62b0bc15bc273b796f70b56f54",
+            "bytes": 154187
+          },
+          "locator": "Texts reference 4597, PDF 133, printed 122; complete object entry, with metadata and all continuation rows",
+          "notes": [
+            "Tokens follow the normalized right-to-left order of the printed Texts glyph row. LOSS records a printed hatching block, not one inferred lost sign."
+          ]
+        }
+      ],
+      "symbol_only_entries": [
+        {
+          "side": "3",
+          "line": "9",
+          "direction": "0",
+          "field_symbol_code": "99",
+          "printed_continuation_metadata_code": "39990",
+          "pdf_page": 133,
+          "printed_page": 122,
+          "evidence_path": "results/primary_pages/m77-u-types-numerals-133.jpg",
+          "evidence": {
+            "path": "results/primary_pages/m77-u-types-numerals-133.jpg",
+            "sha256": "bb223192fd8b8fa27348353e0da717baab84ea62b0bc15bc273b796f70b56f54",
+            "bytes": 154187
+          },
+          "locator": "Texts reference 4597, PDF 133, printed 122; complete object entry, with metadata and all continuation rows",
+          "notes": [
+            "Primary line code 9 denotes field-symbol-only; no glyph sequence is invented."
+          ]
+        }
+      ],
+      "pdf_page": 133,
+      "printed_page": 122,
+      "evidence_path": "results/primary_pages/m77-u-types-numerals-133.jpg",
+      "evidence": {
+        "path": "results/primary_pages/m77-u-types-numerals-133.jpg",
+        "sha256": "bb223192fd8b8fa27348353e0da717baab84ea62b0bc15bc273b796f70b56f54",
+        "bytes": 154187
+      },
+      "locator": "Texts reference 4597, PDF 133, printed 122; complete object entry, with metadata and all continuation rows",
+      "notes": []
+    },
+    {
+      "reference": "4601",
+      "all_counterpart_lines_accounted_for": true,
+      "accounted_for_scope": "All other text-bearing lines printed for this reference in Mahadevan 1977 Texts; not a claim of complete original physical text.",
+      "excluded_selected_field_line_ids": [
+        "M77:4601:side2:line0"
+      ],
+      "counterpart_lines": [
+        {
+          "side": "1",
+          "line": "0",
+          "tokens": [
+            "M391",
+            "M099",
+            "M040"
+          ],
+          "line_id": "M77:4601:side1:line0",
+          "full_sequence_primary_checked": true,
+          "pdf_page": 134,
+          "printed_page": 123,
+          "evidence_path": "results/primary_pages/m77-u-types-numerals-134.jpg",
+          "evidence": {
+            "path": "results/primary_pages/m77-u-types-numerals-134.jpg",
+            "sha256": "f3da6c093f3c67c34064eb6bfdf1f54e36732733e1b8668ebcb2d91c2dd60927",
+            "bytes": 184678
+          },
+          "locator": "Texts reference 4601, PDF 134, printed 123; complete object entry, with metadata and all continuation rows",
+          "notes": [
+            "Tokens follow the normalized right-to-left order of the printed Texts glyph row. LOSS records a printed hatching block, not one inferred lost sign."
+          ]
+        }
+      ],
+      "symbol_only_entries": [],
+      "pdf_page": 134,
+      "printed_page": 123,
+      "evidence_path": "results/primary_pages/m77-u-types-numerals-134.jpg",
+      "evidence": {
+        "path": "results/primary_pages/m77-u-types-numerals-134.jpg",
+        "sha256": "f3da6c093f3c67c34064eb6bfdf1f54e36732733e1b8668ebcb2d91c2dd60927",
+        "bytes": 184678
+      },
+      "locator": "Texts reference 4601, PDF 134, printed 123; complete object entry, with metadata and all continuation rows",
+      "notes": []
+    },
+    {
+      "reference": "4602",
+      "all_counterpart_lines_accounted_for": true,
+      "accounted_for_scope": "All other text-bearing lines printed for this reference in Mahadevan 1977 Texts; not a claim of complete original physical text.",
+      "excluded_selected_field_line_ids": [
+        "M77:4602:side2:line0"
+      ],
+      "counterpart_lines": [
+        {
+          "side": "1",
+          "line": "0",
+          "tokens": [
+            "M249",
+            "M162",
+            "M342",
+            "M176"
+          ],
+          "line_id": "M77:4602:side1:line0",
+          "full_sequence_primary_checked": true,
+          "pdf_page": 134,
+          "printed_page": 123,
+          "evidence_path": "results/primary_pages/m77-u-types-numerals-134.jpg",
+          "evidence": {
+            "path": "results/primary_pages/m77-u-types-numerals-134.jpg",
+            "sha256": "f3da6c093f3c67c34064eb6bfdf1f54e36732733e1b8668ebcb2d91c2dd60927",
+            "bytes": 184678
+          },
+          "locator": "Texts reference 4602, PDF 134, printed 123; complete object entry, with metadata and all continuation rows",
+          "notes": [
+            "Tokens follow the normalized right-to-left order of the printed Texts glyph row. LOSS records a printed hatching block, not one inferred lost sign."
+          ]
+        }
+      ],
+      "symbol_only_entries": [],
+      "pdf_page": 134,
+      "printed_page": 123,
+      "evidence_path": "results/primary_pages/m77-u-types-numerals-134.jpg",
+      "evidence": {
+        "path": "results/primary_pages/m77-u-types-numerals-134.jpg",
+        "sha256": "f3da6c093f3c67c34064eb6bfdf1f54e36732733e1b8668ebcb2d91c2dd60927",
+        "bytes": 184678
+      },
+      "locator": "Texts reference 4602, PDF 134, printed 123; complete object entry, with metadata and all continuation rows",
+      "notes": []
+    },
+    {
+      "reference": "4603",
+      "all_counterpart_lines_accounted_for": true,
+      "accounted_for_scope": "All other text-bearing lines printed for this reference in Mahadevan 1977 Texts; not a claim of complete original physical text.",
+      "excluded_selected_field_line_ids": [
+        "M77:4603:side2:line0"
+      ],
+      "counterpart_lines": [
+        {
+          "side": "1",
+          "line": "0",
+          "tokens": [
+            "M171",
+            "M008",
+            "M391",
+            "M252"
+          ],
+          "line_id": "M77:4603:side1:line0",
+          "full_sequence_primary_checked": true,
+          "pdf_page": 134,
+          "printed_page": 123,
+          "evidence_path": "results/primary_pages/m77-u-types-numerals-134.jpg",
+          "evidence": {
+            "path": "results/primary_pages/m77-u-types-numerals-134.jpg",
+            "sha256": "f3da6c093f3c67c34064eb6bfdf1f54e36732733e1b8668ebcb2d91c2dd60927",
+            "bytes": 184678
+          },
+          "locator": "Texts reference 4603, PDF 134, printed 123; complete object entry, with metadata and all continuation rows",
+          "notes": [
+            "Tokens follow the normalized right-to-left order of the printed Texts glyph row. LOSS records a printed hatching block, not one inferred lost sign."
+          ]
+        }
+      ],
+      "symbol_only_entries": [],
+      "pdf_page": 134,
+      "printed_page": 123,
+      "evidence_path": "results/primary_pages/m77-u-types-numerals-134.jpg",
+      "evidence": {
+        "path": "results/primary_pages/m77-u-types-numerals-134.jpg",
+        "sha256": "f3da6c093f3c67c34064eb6bfdf1f54e36732733e1b8668ebcb2d91c2dd60927",
+        "bytes": 184678
+      },
+      "locator": "Texts reference 4603, PDF 134, printed 123; complete object entry, with metadata and all continuation rows",
+      "notes": []
+    },
+    {
+      "reference": "4604",
+      "all_counterpart_lines_accounted_for": true,
+      "accounted_for_scope": "All other text-bearing lines printed for this reference in Mahadevan 1977 Texts; not a claim of complete original physical text.",
+      "excluded_selected_field_line_ids": [
+        "M77:4604:side2:line0"
+      ],
+      "counterpart_lines": [
+        {
+          "side": "1",
+          "line": "0",
+          "tokens": [
+            "M109",
+            "M059",
+            "M211",
+            "M176"
+          ],
+          "line_id": "M77:4604:side1:line0",
+          "full_sequence_primary_checked": true,
+          "pdf_page": 134,
+          "printed_page": 123,
+          "evidence_path": "results/primary_pages/m77-u-types-numerals-134.jpg",
+          "evidence": {
+            "path": "results/primary_pages/m77-u-types-numerals-134.jpg",
+            "sha256": "f3da6c093f3c67c34064eb6bfdf1f54e36732733e1b8668ebcb2d91c2dd60927",
+            "bytes": 184678
+          },
+          "locator": "Texts reference 4604, PDF 134, printed 123; complete object entry, with metadata and all continuation rows",
+          "notes": [
+            "Tokens follow the normalized right-to-left order of the printed Texts glyph row. LOSS records a printed hatching block, not one inferred lost sign."
+          ]
+        }
+      ],
+      "symbol_only_entries": [],
+      "pdf_page": 134,
+      "printed_page": 123,
+      "evidence_path": "results/primary_pages/m77-u-types-numerals-134.jpg",
+      "evidence": {
+        "path": "results/primary_pages/m77-u-types-numerals-134.jpg",
+        "sha256": "f3da6c093f3c67c34064eb6bfdf1f54e36732733e1b8668ebcb2d91c2dd60927",
+        "bytes": 184678
+      },
+      "locator": "Texts reference 4604, PDF 134, printed 123; complete object entry, with metadata and all continuation rows",
+      "notes": []
+    },
+    {
+      "reference": "4605",
+      "all_counterpart_lines_accounted_for": true,
+      "accounted_for_scope": "All other text-bearing lines printed for this reference in Mahadevan 1977 Texts; not a claim of complete original physical text.",
+      "excluded_selected_field_line_ids": [
+        "M77:4605:side2:line0"
+      ],
+      "counterpart_lines": [
+        {
+          "side": "1",
+          "line": "0",
+          "tokens": [
+            "M102",
+            "M136",
+            "M342",
+            "M176"
+          ],
+          "line_id": "M77:4605:side1:line0",
+          "full_sequence_primary_checked": true,
+          "pdf_page": 134,
+          "printed_page": 123,
+          "evidence_path": "results/primary_pages/m77-u-types-numerals-134.jpg",
+          "evidence": {
+            "path": "results/primary_pages/m77-u-types-numerals-134.jpg",
+            "sha256": "f3da6c093f3c67c34064eb6bfdf1f54e36732733e1b8668ebcb2d91c2dd60927",
+            "bytes": 184678
+          },
+          "locator": "Texts reference 4605, PDF 134, printed 123; complete object entry, with metadata and all continuation rows",
+          "notes": [
+            "Tokens follow the normalized right-to-left order of the printed Texts glyph row. LOSS records a printed hatching block, not one inferred lost sign."
+          ]
+        }
+      ],
+      "symbol_only_entries": [],
+      "pdf_page": 134,
+      "printed_page": 123,
+      "evidence_path": "results/primary_pages/m77-u-types-numerals-134.jpg",
+      "evidence": {
+        "path": "results/primary_pages/m77-u-types-numerals-134.jpg",
+        "sha256": "f3da6c093f3c67c34064eb6bfdf1f54e36732733e1b8668ebcb2d91c2dd60927",
+        "bytes": 184678
+      },
+      "locator": "Texts reference 4605, PDF 134, printed 123; complete object entry, with metadata and all continuation rows",
+      "notes": []
+    },
+    {
+      "reference": "4606",
+      "all_counterpart_lines_accounted_for": true,
+      "accounted_for_scope": "All other text-bearing lines printed for this reference in Mahadevan 1977 Texts; not a claim of complete original physical text.",
+      "excluded_selected_field_line_ids": [
+        "M77:4606:side2:line0"
+      ],
+      "counterpart_lines": [
+        {
+          "side": "1",
+          "line": "0",
+          "tokens": [
+            "M171",
+            "M008",
+            "M391",
+            "M252"
+          ],
+          "line_id": "M77:4606:side1:line0",
+          "full_sequence_primary_checked": true,
+          "pdf_page": 134,
+          "printed_page": 123,
+          "evidence_path": "results/primary_pages/m77-u-types-numerals-134.jpg",
+          "evidence": {
+            "path": "results/primary_pages/m77-u-types-numerals-134.jpg",
+            "sha256": "f3da6c093f3c67c34064eb6bfdf1f54e36732733e1b8668ebcb2d91c2dd60927",
+            "bytes": 184678
+          },
+          "locator": "Texts reference 4606, PDF 134, printed 123; complete object entry, with metadata and all continuation rows",
+          "notes": [
+            "Tokens follow the normalized right-to-left order of the printed Texts glyph row. LOSS records a printed hatching block, not one inferred lost sign."
+          ]
+        }
+      ],
+      "symbol_only_entries": [],
+      "pdf_page": 134,
+      "printed_page": 123,
+      "evidence_path": "results/primary_pages/m77-u-types-numerals-134.jpg",
+      "evidence": {
+        "path": "results/primary_pages/m77-u-types-numerals-134.jpg",
+        "sha256": "f3da6c093f3c67c34064eb6bfdf1f54e36732733e1b8668ebcb2d91c2dd60927",
+        "bytes": 184678
+      },
+      "locator": "Texts reference 4606, PDF 134, printed 123; complete object entry, with metadata and all continuation rows",
+      "notes": []
+    },
+    {
+      "reference": "4607",
+      "all_counterpart_lines_accounted_for": true,
+      "accounted_for_scope": "All other text-bearing lines printed for this reference in Mahadevan 1977 Texts; not a claim of complete original physical text.",
+      "excluded_selected_field_line_ids": [
+        "M77:4607:side2:line0"
+      ],
+      "counterpart_lines": [
+        {
+          "side": "1",
+          "line": "0",
+          "tokens": [
+            "M375",
+            "M375",
+            "M015"
+          ],
+          "line_id": "M77:4607:side1:line0",
+          "full_sequence_primary_checked": true,
+          "pdf_page": 134,
+          "printed_page": 123,
+          "evidence_path": "results/primary_pages/m77-u-types-numerals-134.jpg",
+          "evidence": {
+            "path": "results/primary_pages/m77-u-types-numerals-134.jpg",
+            "sha256": "f3da6c093f3c67c34064eb6bfdf1f54e36732733e1b8668ebcb2d91c2dd60927",
+            "bytes": 184678
+          },
+          "locator": "Texts reference 4607, PDF 134, printed 123; complete object entry, with metadata and all continuation rows",
+          "notes": [
+            "Tokens follow the normalized right-to-left order of the printed Texts glyph row. LOSS records a printed hatching block, not one inferred lost sign."
+          ]
+        }
+      ],
+      "symbol_only_entries": [],
+      "pdf_page": 134,
+      "printed_page": 123,
+      "evidence_path": "results/primary_pages/m77-u-types-numerals-134.jpg",
+      "evidence": {
+        "path": "results/primary_pages/m77-u-types-numerals-134.jpg",
+        "sha256": "f3da6c093f3c67c34064eb6bfdf1f54e36732733e1b8668ebcb2d91c2dd60927",
+        "bytes": 184678
+      },
+      "locator": "Texts reference 4607, PDF 134, printed 123; complete object entry, with metadata and all continuation rows",
+      "notes": []
+    },
+    {
+      "reference": "4610",
+      "all_counterpart_lines_accounted_for": true,
+      "accounted_for_scope": "All other text-bearing lines printed for this reference in Mahadevan 1977 Texts; not a claim of complete original physical text.",
+      "excluded_selected_field_line_ids": [
+        "M77:4610:side2:line0"
+      ],
+      "counterpart_lines": [
+        {
+          "side": "1",
+          "line": "0",
+          "tokens": [
+            "M379",
+            "M307",
+            "M176"
+          ],
+          "line_id": "M77:4610:side1:line0",
+          "full_sequence_primary_checked": true,
+          "pdf_page": 134,
+          "printed_page": 123,
+          "evidence_path": "results/primary_pages/m77-u-types-numerals-134.jpg",
+          "evidence": {
+            "path": "results/primary_pages/m77-u-types-numerals-134.jpg",
+            "sha256": "f3da6c093f3c67c34064eb6bfdf1f54e36732733e1b8668ebcb2d91c2dd60927",
+            "bytes": 184678
+          },
+          "locator": "Texts reference 4610, PDF 134, printed 123; complete object entry, with metadata and all continuation rows",
+          "notes": [
+            "Tokens follow the normalized right-to-left order of the printed Texts glyph row. LOSS records a printed hatching block, not one inferred lost sign."
+          ]
+        }
+      ],
+      "symbol_only_entries": [],
+      "pdf_page": 134,
+      "printed_page": 123,
+      "evidence_path": "results/primary_pages/m77-u-types-numerals-134.jpg",
+      "evidence": {
+        "path": "results/primary_pages/m77-u-types-numerals-134.jpg",
+        "sha256": "f3da6c093f3c67c34064eb6bfdf1f54e36732733e1b8668ebcb2d91c2dd60927",
+        "bytes": 184678
+      },
+      "locator": "Texts reference 4610, PDF 134, printed 123; complete object entry, with metadata and all continuation rows",
+      "notes": []
+    },
+    {
+      "reference": "4613",
+      "all_counterpart_lines_accounted_for": true,
+      "accounted_for_scope": "All other text-bearing lines printed for this reference in Mahadevan 1977 Texts; not a claim of complete original physical text.",
+      "excluded_selected_field_line_ids": [
+        "M77:4613:side2:line0"
+      ],
+      "counterpart_lines": [
+        {
+          "side": "1",
+          "line": "0",
+          "tokens": [
+            "*M065",
+            "M249",
+            "LOSS"
+          ],
+          "line_id": "M77:4613:side1:line0",
+          "full_sequence_primary_checked": true,
+          "pdf_page": 134,
+          "printed_page": 123,
+          "evidence_path": "results/primary_pages/m77-u-types-numerals-134.jpg",
+          "evidence": {
+            "path": "results/primary_pages/m77-u-types-numerals-134.jpg",
+            "sha256": "f3da6c093f3c67c34064eb6bfdf1f54e36732733e1b8668ebcb2d91c2dd60927",
+            "bytes": 184678
+          },
+          "locator": "Texts reference 4613, PDF 134, printed 123; complete object entry, with metadata and all continuation rows",
+          "notes": [
+            "Tokens follow the normalized right-to-left order of the printed Texts glyph row. LOSS records a printed hatching block, not one inferred lost sign."
+          ]
+        }
+      ],
+      "symbol_only_entries": [],
+      "pdf_page": 134,
+      "printed_page": 123,
+      "evidence_path": "results/primary_pages/m77-u-types-numerals-134.jpg",
+      "evidence": {
+        "path": "results/primary_pages/m77-u-types-numerals-134.jpg",
+        "sha256": "f3da6c093f3c67c34064eb6bfdf1f54e36732733e1b8668ebcb2d91c2dd60927",
+        "bytes": 184678
+      },
+      "locator": "Texts reference 4613, PDF 134, printed 123; complete object entry, with metadata and all continuation rows",
+      "notes": []
+    },
+    {
+      "reference": "4641",
+      "all_counterpart_lines_accounted_for": true,
+      "accounted_for_scope": "All other text-bearing lines printed for this reference in Mahadevan 1977 Texts; not a claim of complete original physical text.",
+      "excluded_selected_field_line_ids": [
+        "M77:4641:side2:line0"
+      ],
+      "counterpart_lines": [
+        {
+          "side": "1",
+          "line": "0",
+          "tokens": [
+            "LOSS",
+            "M171",
+            "M008",
+            "M342",
+            "M176"
+          ],
+          "line_id": "M77:4641:side1:line0",
+          "full_sequence_primary_checked": true,
+          "pdf_page": 135,
+          "printed_page": 124,
+          "evidence_path": "results/primary_pages/m77-u-types-numerals-135.jpg",
+          "evidence": {
+            "path": "results/primary_pages/m77-u-types-numerals-135.jpg",
+            "sha256": "86f5a2a9fce0013408a0b4a78c5a25870dc590a28f14431ef3f5261d94af96bd",
+            "bytes": 153796
+          },
+          "locator": "Texts reference 4641, PDF 135, printed 124; complete object entry, with metadata and all continuation rows",
+          "notes": [
+            "Tokens follow the normalized right-to-left order of the printed Texts glyph row. LOSS records a printed hatching block, not one inferred lost sign."
+          ]
+        }
+      ],
+      "symbol_only_entries": [
+        {
+          "side": "3",
+          "line": "9",
+          "direction": "0",
+          "field_symbol_code": "36",
+          "printed_continuation_metadata_code": "33690",
+          "pdf_page": 135,
+          "printed_page": 124,
+          "evidence_path": "results/primary_pages/m77-u-types-numerals-135.jpg",
+          "evidence": {
+            "path": "results/primary_pages/m77-u-types-numerals-135.jpg",
+            "sha256": "86f5a2a9fce0013408a0b4a78c5a25870dc590a28f14431ef3f5261d94af96bd",
+            "bytes": 153796
+          },
+          "locator": "Texts reference 4641, PDF 135, printed 124; complete object entry, with metadata and all continuation rows",
+          "notes": [
+            "Primary line code 9 denotes field-symbol-only; no glyph sequence is invented."
+          ]
+        }
+      ],
+      "pdf_page": 135,
+      "printed_page": 124,
+      "evidence_path": "results/primary_pages/m77-u-types-numerals-135.jpg",
+      "evidence": {
+        "path": "results/primary_pages/m77-u-types-numerals-135.jpg",
+        "sha256": "86f5a2a9fce0013408a0b4a78c5a25870dc590a28f14431ef3f5261d94af96bd",
+        "bytes": 153796
+      },
+      "locator": "Texts reference 4641, PDF 135, printed 124; complete object entry, with metadata and all continuation rows",
+      "notes": []
+    },
+    {
+      "reference": "4642",
+      "all_counterpart_lines_accounted_for": true,
+      "accounted_for_scope": "All other text-bearing lines printed for this reference in Mahadevan 1977 Texts; not a claim of complete original physical text.",
+      "excluded_selected_field_line_ids": [
+        "M77:4642:side3:line0"
+      ],
+      "counterpart_lines": [
+        {
+          "side": "1",
+          "line": "0",
+          "tokens": [
+            "M059"
+          ],
+          "line_id": "M77:4642:side1:line0",
+          "full_sequence_primary_checked": true,
+          "pdf_page": 135,
+          "printed_page": 124,
+          "evidence_path": "results/primary_pages/m77-u-types-numerals-135.jpg",
+          "evidence": {
+            "path": "results/primary_pages/m77-u-types-numerals-135.jpg",
+            "sha256": "86f5a2a9fce0013408a0b4a78c5a25870dc590a28f14431ef3f5261d94af96bd",
+            "bytes": 153796
+          },
+          "locator": "Texts reference 4642, PDF 135, printed 124; complete object entry, with metadata and all continuation rows",
+          "notes": [
+            "Tokens follow the normalized right-to-left order of the printed Texts glyph row. LOSS records a printed hatching block, not one inferred lost sign."
+          ]
+        },
+        {
+          "side": "2",
+          "line": "0",
+          "tokens": [
+            "M245",
+            "M245",
+            "M307",
+            "M342",
+            "M176"
+          ],
+          "line_id": "M77:4642:side2:line0",
+          "full_sequence_primary_checked": true,
+          "pdf_page": 135,
+          "printed_page": 124,
+          "evidence_path": "results/primary_pages/m77-u-types-numerals-135.jpg",
+          "evidence": {
+            "path": "results/primary_pages/m77-u-types-numerals-135.jpg",
+            "sha256": "86f5a2a9fce0013408a0b4a78c5a25870dc590a28f14431ef3f5261d94af96bd",
+            "bytes": 153796
+          },
+          "locator": "Texts reference 4642, PDF 135, printed 124; complete object entry, with metadata and all continuation rows",
+          "notes": [
+            "Tokens follow the normalized right-to-left order of the printed Texts glyph row. LOSS records a printed hatching block, not one inferred lost sign."
+          ]
+        }
+      ],
+      "symbol_only_entries": [],
+      "pdf_page": 135,
+      "printed_page": 124,
+      "evidence_path": "results/primary_pages/m77-u-types-numerals-135.jpg",
+      "evidence": {
+        "path": "results/primary_pages/m77-u-types-numerals-135.jpg",
+        "sha256": "86f5a2a9fce0013408a0b4a78c5a25870dc590a28f14431ef3f5261d94af96bd",
+        "bytes": 153796
+      },
+      "locator": "Texts reference 4642, PDF 135, printed 124; complete object entry, with metadata and all continuation rows",
+      "notes": [
+        "Side1 single fish is text under line0/direction3, not a symbol-only entry."
+      ]
+    },
+    {
+      "reference": "4645",
+      "all_counterpart_lines_accounted_for": true,
+      "accounted_for_scope": "All other text-bearing lines printed for this reference in Mahadevan 1977 Texts; not a claim of complete original physical text.",
+      "excluded_selected_field_line_ids": [
+        "M77:4645:side3:line0"
+      ],
+      "counterpart_lines": [
+        {
+          "side": "1",
+          "line": "0",
+          "tokens": [
+            "M059"
+          ],
+          "line_id": "M77:4645:side1:line0",
+          "full_sequence_primary_checked": true,
+          "pdf_page": 135,
+          "printed_page": 124,
+          "evidence_path": "results/primary_pages/m77-u-types-numerals-135.jpg",
+          "evidence": {
+            "path": "results/primary_pages/m77-u-types-numerals-135.jpg",
+            "sha256": "86f5a2a9fce0013408a0b4a78c5a25870dc590a28f14431ef3f5261d94af96bd",
+            "bytes": 153796
+          },
+          "locator": "Texts reference 4645, PDF 135, printed 124; complete object entry, with metadata and all continuation rows",
+          "notes": [
+            "Tokens follow the normalized right-to-left order of the printed Texts glyph row. LOSS records a printed hatching block, not one inferred lost sign."
+          ]
+        },
+        {
+          "side": "2",
+          "line": "0",
+          "tokens": [
+            "M245",
+            "M245",
+            "M307",
+            "M342",
+            "M176"
+          ],
+          "line_id": "M77:4645:side2:line0",
+          "full_sequence_primary_checked": true,
+          "pdf_page": 135,
+          "printed_page": 124,
+          "evidence_path": "results/primary_pages/m77-u-types-numerals-135.jpg",
+          "evidence": {
+            "path": "results/primary_pages/m77-u-types-numerals-135.jpg",
+            "sha256": "86f5a2a9fce0013408a0b4a78c5a25870dc590a28f14431ef3f5261d94af96bd",
+            "bytes": 153796
+          },
+          "locator": "Texts reference 4645, PDF 135, printed 124; complete object entry, with metadata and all continuation rows",
+          "notes": [
+            "Tokens follow the normalized right-to-left order of the printed Texts glyph row. LOSS records a printed hatching block, not one inferred lost sign."
+          ]
+        }
+      ],
+      "symbol_only_entries": [],
+      "pdf_page": 135,
+      "printed_page": 124,
+      "evidence_path": "results/primary_pages/m77-u-types-numerals-135.jpg",
+      "evidence": {
+        "path": "results/primary_pages/m77-u-types-numerals-135.jpg",
+        "sha256": "86f5a2a9fce0013408a0b4a78c5a25870dc590a28f14431ef3f5261d94af96bd",
+        "bytes": 153796
+      },
+      "locator": "Texts reference 4645, PDF 135, printed 124; complete object entry, with metadata and all continuation rows",
+      "notes": [
+        "Side1 single fish is text under line0/direction3, not a symbol-only entry."
+      ]
+    },
+    {
+      "reference": "4646",
+      "all_counterpart_lines_accounted_for": true,
+      "accounted_for_scope": "All other text-bearing lines printed for this reference in Mahadevan 1977 Texts; not a claim of complete original physical text.",
+      "excluded_selected_field_line_ids": [
+        "M77:4646:side2:line0"
+      ],
+      "counterpart_lines": [
+        {
+          "side": "1",
+          "line": "0",
+          "tokens": [
+            "M065",
+            "M249",
+            "M162",
+            "M342",
+            "M176"
+          ],
+          "line_id": "M77:4646:side1:line0",
+          "full_sequence_primary_checked": true,
+          "pdf_page": 135,
+          "printed_page": 124,
+          "evidence_path": "results/primary_pages/m77-u-types-numerals-135.jpg",
+          "evidence": {
+            "path": "results/primary_pages/m77-u-types-numerals-135.jpg",
+            "sha256": "86f5a2a9fce0013408a0b4a78c5a25870dc590a28f14431ef3f5261d94af96bd",
+            "bytes": 153796
+          },
+          "locator": "Texts reference 4646, PDF 135, printed 124; complete object entry, with metadata and all continuation rows",
+          "notes": [
+            "Tokens follow the normalized right-to-left order of the printed Texts glyph row. LOSS records a printed hatching block, not one inferred lost sign."
+          ]
+        }
+      ],
+      "symbol_only_entries": [],
+      "pdf_page": 135,
+      "printed_page": 124,
+      "evidence_path": "results/primary_pages/m77-u-types-numerals-135.jpg",
+      "evidence": {
+        "path": "results/primary_pages/m77-u-types-numerals-135.jpg",
+        "sha256": "86f5a2a9fce0013408a0b4a78c5a25870dc590a28f14431ef3f5261d94af96bd",
+        "bytes": 153796
+      },
+      "locator": "Texts reference 4646, PDF 135, printed 124; complete object entry, with metadata and all continuation rows",
+      "notes": []
+    },
+    {
+      "reference": "4647",
+      "all_counterpart_lines_accounted_for": true,
+      "accounted_for_scope": "All other text-bearing lines printed for this reference in Mahadevan 1977 Texts; not a claim of complete original physical text.",
+      "excluded_selected_field_line_ids": [
+        "M77:4647:side2:line0"
+      ],
+      "counterpart_lines": [
+        {
+          "side": "1",
+          "line": "0",
+          "tokens": [
+            "LOSS",
+            "M193",
+            "M342",
+            "M176"
+          ],
+          "line_id": "M77:4647:side1:line0",
+          "full_sequence_primary_checked": true,
+          "pdf_page": 135,
+          "printed_page": 124,
+          "evidence_path": "results/primary_pages/m77-u-types-numerals-135.jpg",
+          "evidence": {
+            "path": "results/primary_pages/m77-u-types-numerals-135.jpg",
+            "sha256": "86f5a2a9fce0013408a0b4a78c5a25870dc590a28f14431ef3f5261d94af96bd",
+            "bytes": 153796
+          },
+          "locator": "Texts reference 4647, PDF 135, printed 124; complete object entry, with metadata and all continuation rows",
+          "notes": [
+            "Tokens follow the normalized right-to-left order of the printed Texts glyph row. LOSS records a printed hatching block, not one inferred lost sign."
+          ]
+        }
+      ],
+      "symbol_only_entries": [
+        {
+          "side": "3",
+          "line": "9",
+          "direction": "0",
+          "field_symbol_code": "83",
+          "printed_continuation_metadata_code": "38390",
+          "pdf_page": 135,
+          "printed_page": 124,
+          "evidence_path": "results/primary_pages/m77-u-types-numerals-135.jpg",
+          "evidence": {
+            "path": "results/primary_pages/m77-u-types-numerals-135.jpg",
+            "sha256": "86f5a2a9fce0013408a0b4a78c5a25870dc590a28f14431ef3f5261d94af96bd",
+            "bytes": 153796
+          },
+          "locator": "Texts reference 4647, PDF 135, printed 124; complete object entry, with metadata and all continuation rows",
+          "notes": [
+            "Primary line code 9 denotes field-symbol-only; no glyph sequence is invented."
+          ]
+        }
+      ],
+      "pdf_page": 135,
+      "printed_page": 124,
+      "evidence_path": "results/primary_pages/m77-u-types-numerals-135.jpg",
+      "evidence": {
+        "path": "results/primary_pages/m77-u-types-numerals-135.jpg",
+        "sha256": "86f5a2a9fce0013408a0b4a78c5a25870dc590a28f14431ef3f5261d94af96bd",
+        "bytes": 153796
+      },
+      "locator": "Texts reference 4647, PDF 135, printed 124; complete object entry, with metadata and all continuation rows",
+      "notes": []
+    },
+    {
+      "reference": "4649",
+      "all_counterpart_lines_accounted_for": true,
+      "accounted_for_scope": "All other text-bearing lines printed for this reference in Mahadevan 1977 Texts; not a claim of complete original physical text.",
+      "excluded_selected_field_line_ids": [
+        "M77:4649:side2:line0"
+      ],
+      "counterpart_lines": [
+        {
+          "side": "1",
+          "line": "0",
+          "tokens": [
+            "M051",
+            "M130",
+            "M015"
+          ],
+          "line_id": "M77:4649:side1:line0",
+          "full_sequence_primary_checked": true,
+          "pdf_page": 136,
+          "printed_page": 125,
+          "evidence_path": "results/primary_pages/m77-u-types-numerals-136.jpg",
+          "evidence": {
+            "path": "results/primary_pages/m77-u-types-numerals-136.jpg",
+            "sha256": "e57ecf4c82825cbe059b75fc7fbbc6282b91ebf5101a8ac6c3d2315b4b92c0f0",
+            "bytes": 155521
+          },
+          "locator": "Texts reference 4649, PDF 136, printed 125; complete object entry, with metadata and all continuation rows",
+          "notes": [
+            "Tokens follow the normalized right-to-left order of the printed Texts glyph row. LOSS records a printed hatching block, not one inferred lost sign."
+          ]
+        }
+      ],
+      "symbol_only_entries": [
+        {
+          "side": "3",
+          "line": "9",
+          "direction": "0",
+          "field_symbol_code": "83",
+          "printed_continuation_metadata_code": "38390",
+          "pdf_page": 136,
+          "printed_page": 125,
+          "evidence_path": "results/primary_pages/m77-u-types-numerals-136.jpg",
+          "evidence": {
+            "path": "results/primary_pages/m77-u-types-numerals-136.jpg",
+            "sha256": "e57ecf4c82825cbe059b75fc7fbbc6282b91ebf5101a8ac6c3d2315b4b92c0f0",
+            "bytes": 155521
+          },
+          "locator": "Texts reference 4649, PDF 136, printed 125; complete object entry, with metadata and all continuation rows",
+          "notes": [
+            "Primary line code 9 denotes field-symbol-only; no glyph sequence is invented."
+          ]
+        }
+      ],
+      "pdf_page": 136,
+      "printed_page": 125,
+      "evidence_path": "results/primary_pages/m77-u-types-numerals-136.jpg",
+      "evidence": {
+        "path": "results/primary_pages/m77-u-types-numerals-136.jpg",
+        "sha256": "e57ecf4c82825cbe059b75fc7fbbc6282b91ebf5101a8ac6c3d2315b4b92c0f0",
+        "bytes": 155521
+      },
+      "locator": "Texts reference 4649, PDF 136, printed 125; complete object entry, with metadata and all continuation rows",
+      "notes": []
+    },
+    {
+      "reference": "4660",
+      "all_counterpart_lines_accounted_for": true,
+      "accounted_for_scope": "All other text-bearing lines printed for this reference in Mahadevan 1977 Texts; not a claim of complete original physical text.",
+      "excluded_selected_field_line_ids": [
+        "M77:4660:side2:line0"
+      ],
+      "counterpart_lines": [
+        {
+          "side": "1",
+          "line": "0",
+          "tokens": [
+            "LOSS"
+          ],
+          "line_id": "M77:4660:side1:line0",
+          "full_sequence_primary_checked": true,
+          "pdf_page": 136,
+          "printed_page": 125,
+          "evidence_path": "results/primary_pages/m77-u-types-numerals-136.jpg",
+          "evidence": {
+            "path": "results/primary_pages/m77-u-types-numerals-136.jpg",
+            "sha256": "e57ecf4c82825cbe059b75fc7fbbc6282b91ebf5101a8ac6c3d2315b4b92c0f0",
+            "bytes": 155521
+          },
+          "locator": "Texts reference 4660, PDF 136, printed 125; complete object entry, with metadata and all continuation rows",
+          "notes": [
+            "Tokens follow the normalized right-to-left order of the printed Texts glyph row. LOSS records a printed hatching block, not one inferred lost sign."
+          ]
+        }
+      ],
+      "symbol_only_entries": [],
+      "pdf_page": 136,
+      "printed_page": 125,
+      "evidence_path": "results/primary_pages/m77-u-types-numerals-136.jpg",
+      "evidence": {
+        "path": "results/primary_pages/m77-u-types-numerals-136.jpg",
+        "sha256": "e57ecf4c82825cbe059b75fc7fbbc6282b91ebf5101a8ac6c3d2315b4b92c0f0",
+        "bytes": 155521
+      },
+      "locator": "Texts reference 4660, PDF 136, printed 125; complete object entry, with metadata and all continuation rows",
+      "notes": [
+        "Entire counterpart text is a positive hatched loss passage; not an empty line. Export retains the excluded side2 field."
+      ]
+    },
+    {
+      "reference": "4665",
+      "all_counterpart_lines_accounted_for": true,
+      "accounted_for_scope": "All other text-bearing lines printed for this reference in Mahadevan 1977 Texts; not a claim of complete original physical text.",
+      "excluded_selected_field_line_ids": [
+        "M77:4665:side2:line0"
+      ],
+      "counterpart_lines": [
+        {
+          "side": "1",
+          "line": "0",
+          "tokens": [
+            "M391",
+            "M099",
+            "M040"
+          ],
+          "line_id": "M77:4665:side1:line0",
+          "full_sequence_primary_checked": true,
+          "pdf_page": 136,
+          "printed_page": 125,
+          "evidence_path": "results/primary_pages/m77-u-types-numerals-136.jpg",
+          "evidence": {
+            "path": "results/primary_pages/m77-u-types-numerals-136.jpg",
+            "sha256": "e57ecf4c82825cbe059b75fc7fbbc6282b91ebf5101a8ac6c3d2315b4b92c0f0",
+            "bytes": 155521
+          },
+          "locator": "Texts reference 4665, PDF 136, printed 125; complete object entry, with metadata and all continuation rows",
+          "notes": [
+            "Tokens follow the normalized right-to-left order of the printed Texts glyph row. LOSS records a printed hatching block, not one inferred lost sign."
+          ]
+        }
+      ],
+      "symbol_only_entries": [],
+      "pdf_page": 136,
+      "printed_page": 125,
+      "evidence_path": "results/primary_pages/m77-u-types-numerals-136.jpg",
+      "evidence": {
+        "path": "results/primary_pages/m77-u-types-numerals-136.jpg",
+        "sha256": "e57ecf4c82825cbe059b75fc7fbbc6282b91ebf5101a8ac6c3d2315b4b92c0f0",
+        "bytes": 155521
+      },
+      "locator": "Texts reference 4665, PDF 136, printed 125; complete object entry, with metadata and all continuation rows",
+      "notes": []
+    },
+    {
+      "reference": "4666",
+      "all_counterpart_lines_accounted_for": true,
+      "accounted_for_scope": "All other text-bearing lines printed for this reference in Mahadevan 1977 Texts; not a claim of complete original physical text.",
+      "excluded_selected_field_line_ids": [
+        "M77:4666:side2:line0"
+      ],
+      "counterpart_lines": [
+        {
+          "side": "1",
+          "line": "0",
+          "tokens": [
+            "M051",
+            "M130",
+            "M149",
+            "M342",
+            "M176"
+          ],
+          "line_id": "M77:4666:side1:line0",
+          "full_sequence_primary_checked": true,
+          "pdf_page": 137,
+          "printed_page": 126,
+          "evidence_path": "results/primary_pages/m77-u-types-numerals-137.jpg",
+          "evidence": {
+            "path": "results/primary_pages/m77-u-types-numerals-137.jpg",
+            "sha256": "08fd8fbf87bcde27ac12830151900e498f09d80eaf8092923cb406aa479c060f",
+            "bytes": 159965
+          },
+          "locator": "Texts reference 4666, PDF 137, printed 126; complete object entry, with metadata and all continuation rows",
+          "notes": [
+            "Tokens follow the normalized right-to-left order of the printed Texts glyph row. LOSS records a printed hatching block, not one inferred lost sign."
+          ]
+        }
+      ],
+      "symbol_only_entries": [],
+      "pdf_page": 137,
+      "printed_page": 126,
+      "evidence_path": "results/primary_pages/m77-u-types-numerals-137.jpg",
+      "evidence": {
+        "path": "results/primary_pages/m77-u-types-numerals-137.jpg",
+        "sha256": "08fd8fbf87bcde27ac12830151900e498f09d80eaf8092923cb406aa479c060f",
+        "bytes": 159965
+      },
+      "locator": "Texts reference 4666, PDF 137, printed 126; complete object entry, with metadata and all continuation rows",
+      "notes": []
+    },
+    {
+      "reference": "4670",
+      "all_counterpart_lines_accounted_for": true,
+      "accounted_for_scope": "All other text-bearing lines printed for this reference in Mahadevan 1977 Texts; not a claim of complete original physical text.",
+      "excluded_selected_field_line_ids": [
+        "M77:4670:side2:line0"
+      ],
+      "counterpart_lines": [
+        {
+          "side": "1",
+          "line": "0",
+          "tokens": [
+            "M067",
+            "M294",
+            "M342"
+          ],
+          "line_id": "M77:4670:side1:line0",
+          "full_sequence_primary_checked": true,
+          "pdf_page": 137,
+          "printed_page": 126,
+          "evidence_path": "results/primary_pages/m77-u-types-numerals-137.jpg",
+          "evidence": {
+            "path": "results/primary_pages/m77-u-types-numerals-137.jpg",
+            "sha256": "08fd8fbf87bcde27ac12830151900e498f09d80eaf8092923cb406aa479c060f",
+            "bytes": 159965
+          },
+          "locator": "Texts reference 4670, PDF 137, printed 126; complete object entry, with metadata and all continuation rows",
+          "notes": [
+            "Tokens follow the normalized right-to-left order of the printed Texts glyph row. LOSS records a printed hatching block, not one inferred lost sign."
+          ]
+        }
+      ],
+      "symbol_only_entries": [],
+      "pdf_page": 137,
+      "printed_page": 126,
+      "evidence_path": "results/primary_pages/m77-u-types-numerals-137.jpg",
+      "evidence": {
+        "path": "results/primary_pages/m77-u-types-numerals-137.jpg",
+        "sha256": "08fd8fbf87bcde27ac12830151900e498f09d80eaf8092923cb406aa479c060f",
+        "bytes": 159965
+      },
+      "locator": "Texts reference 4670, PDF 137, printed 126; complete object entry, with metadata and all continuation rows",
+      "notes": []
+    },
+    {
+      "reference": "4671",
+      "all_counterpart_lines_accounted_for": true,
+      "accounted_for_scope": "All other text-bearing lines printed for this reference in Mahadevan 1977 Texts; not a claim of complete original physical text.",
+      "excluded_selected_field_line_ids": [
+        "M77:4671:side2:line0"
+      ],
+      "counterpart_lines": [
+        {
+          "side": "1",
+          "line": "0",
+          "tokens": [
+            "LOSS"
+          ],
+          "line_id": "M77:4671:side1:line0",
+          "full_sequence_primary_checked": true,
+          "pdf_page": 137,
+          "printed_page": 126,
+          "evidence_path": "results/primary_pages/m77-u-types-numerals-137.jpg",
+          "evidence": {
+            "path": "results/primary_pages/m77-u-types-numerals-137.jpg",
+            "sha256": "08fd8fbf87bcde27ac12830151900e498f09d80eaf8092923cb406aa479c060f",
+            "bytes": 159965
+          },
+          "locator": "Texts reference 4671, PDF 137, printed 126; complete object entry, with metadata and all continuation rows",
+          "notes": [
+            "Tokens follow the normalized right-to-left order of the printed Texts glyph row. LOSS records a printed hatching block, not one inferred lost sign."
+          ]
+        }
+      ],
+      "symbol_only_entries": [],
+      "pdf_page": 137,
+      "printed_page": 126,
+      "evidence_path": "results/primary_pages/m77-u-types-numerals-137.jpg",
+      "evidence": {
+        "path": "results/primary_pages/m77-u-types-numerals-137.jpg",
+        "sha256": "08fd8fbf87bcde27ac12830151900e498f09d80eaf8092923cb406aa479c060f",
+        "bytes": 159965
+      },
+      "locator": "Texts reference 4671, PDF 137, printed 126; complete object entry, with metadata and all continuation rows",
+      "notes": [
+        "Entire counterpart text is a positive hatched loss passage; not an empty line."
+      ]
+    },
+    {
+      "reference": "4673",
+      "all_counterpart_lines_accounted_for": true,
+      "accounted_for_scope": "All other text-bearing lines printed for this reference in Mahadevan 1977 Texts; not a claim of complete original physical text.",
+      "excluded_selected_field_line_ids": [
+        "M77:4673:side2:line0"
+      ],
+      "counterpart_lines": [
+        {
+          "side": "1",
+          "line": "0",
+          "tokens": [
+            "M391",
+            "M099",
+            "M067",
+            "M072",
+            "M211"
+          ],
+          "line_id": "M77:4673:side1:line0",
+          "full_sequence_primary_checked": true,
+          "pdf_page": 137,
+          "printed_page": 126,
+          "evidence_path": "results/primary_pages/m77-u-types-numerals-137.jpg",
+          "evidence": {
+            "path": "results/primary_pages/m77-u-types-numerals-137.jpg",
+            "sha256": "08fd8fbf87bcde27ac12830151900e498f09d80eaf8092923cb406aa479c060f",
+            "bytes": 159965
+          },
+          "locator": "Texts reference 4673, PDF 137, printed 126; complete object entry, with metadata and all continuation rows",
+          "notes": [
+            "Tokens follow the normalized right-to-left order of the printed Texts glyph row. LOSS records a printed hatching block, not one inferred lost sign."
+          ]
+        }
+      ],
+      "symbol_only_entries": [],
+      "pdf_page": 137,
+      "printed_page": 126,
+      "evidence_path": "results/primary_pages/m77-u-types-numerals-137.jpg",
+      "evidence": {
+        "path": "results/primary_pages/m77-u-types-numerals-137.jpg",
+        "sha256": "08fd8fbf87bcde27ac12830151900e498f09d80eaf8092923cb406aa479c060f",
+        "bytes": 159965
+      },
+      "locator": "Texts reference 4673, PDF 137, printed 126; complete object entry, with metadata and all continuation rows",
+      "notes": []
+    },
+    {
+      "reference": "4674",
+      "all_counterpart_lines_accounted_for": true,
+      "accounted_for_scope": "All other text-bearing lines printed for this reference in Mahadevan 1977 Texts; not a claim of complete original physical text.",
+      "excluded_selected_field_line_ids": [
+        "M77:4674:side2:line0"
+      ],
+      "counterpart_lines": [
+        {
+          "side": "1",
+          "line": "0",
+          "tokens": [
+            "M245",
+            "M245",
+            "M307",
+            "M342",
+            "M176"
+          ],
+          "line_id": "M77:4674:side1:line0",
+          "full_sequence_primary_checked": true,
+          "pdf_page": 137,
+          "printed_page": 126,
+          "evidence_path": "results/primary_pages/m77-u-types-numerals-137.jpg",
+          "evidence": {
+            "path": "results/primary_pages/m77-u-types-numerals-137.jpg",
+            "sha256": "08fd8fbf87bcde27ac12830151900e498f09d80eaf8092923cb406aa479c060f",
+            "bytes": 159965
+          },
+          "locator": "Texts reference 4674, PDF 137, printed 126; complete object entry, with metadata and all continuation rows",
+          "notes": [
+            "Tokens follow the normalized right-to-left order of the printed Texts glyph row. LOSS records a printed hatching block, not one inferred lost sign."
+          ]
+        }
+      ],
+      "symbol_only_entries": [],
+      "pdf_page": 137,
+      "printed_page": 126,
+      "evidence_path": "results/primary_pages/m77-u-types-numerals-137.jpg",
+      "evidence": {
+        "path": "results/primary_pages/m77-u-types-numerals-137.jpg",
+        "sha256": "08fd8fbf87bcde27ac12830151900e498f09d80eaf8092923cb406aa479c060f",
+        "bytes": 159965
+      },
+      "locator": "Texts reference 4674, PDF 137, printed 126; complete object entry, with metadata and all continuation rows",
+      "notes": []
+    },
+    {
+      "reference": "4675",
+      "all_counterpart_lines_accounted_for": true,
+      "accounted_for_scope": "All other text-bearing lines printed for this reference in Mahadevan 1977 Texts; not a claim of complete original physical text.",
+      "excluded_selected_field_line_ids": [
+        "M77:4675:side2:line0"
+      ],
+      "counterpart_lines": [
+        {
+          "side": "1",
+          "line": "0",
+          "tokens": [
+            "*M017",
+            "M336",
+            "M319"
+          ],
+          "line_id": "M77:4675:side1:line0",
+          "full_sequence_primary_checked": true,
+          "pdf_page": 137,
+          "printed_page": 126,
+          "evidence_path": "results/primary_pages/m77-u-types-numerals-137.jpg",
+          "evidence": {
+            "path": "results/primary_pages/m77-u-types-numerals-137.jpg",
+            "sha256": "08fd8fbf87bcde27ac12830151900e498f09d80eaf8092923cb406aa479c060f",
+            "bytes": 159965
+          },
+          "locator": "Texts reference 4675, PDF 137, printed 126; complete object entry, with metadata and all continuation rows",
+          "notes": [
+            "Tokens follow the normalized right-to-left order of the printed Texts glyph row. LOSS records a printed hatching block, not one inferred lost sign."
+          ]
+        }
+      ],
+      "symbol_only_entries": [],
+      "pdf_page": 137,
+      "printed_page": 126,
+      "evidence_path": "results/primary_pages/m77-u-types-numerals-137.jpg",
+      "evidence": {
+        "path": "results/primary_pages/m77-u-types-numerals-137.jpg",
+        "sha256": "08fd8fbf87bcde27ac12830151900e498f09d80eaf8092923cb406aa479c060f",
+        "bytes": 159965
+      },
+      "locator": "Texts reference 4675, PDF 137, printed 126; complete object entry, with metadata and all continuation rows",
+      "notes": []
+    },
+    {
+      "reference": "4678",
+      "all_counterpart_lines_accounted_for": true,
+      "accounted_for_scope": "All other text-bearing lines printed for this reference in Mahadevan 1977 Texts; not a claim of complete original physical text.",
+      "excluded_selected_field_line_ids": [
+        "M77:4678:side2:line0"
+      ],
+      "counterpart_lines": [
+        {
+          "side": "1",
+          "line": "0",
+          "tokens": [
+            "M403",
+            "M187",
+            "M087"
+          ],
+          "line_id": "M77:4678:side1:line0",
+          "full_sequence_primary_checked": true,
+          "pdf_page": 137,
+          "printed_page": 126,
+          "evidence_path": "results/primary_pages/m77-u-types-numerals-137.jpg",
+          "evidence": {
+            "path": "results/primary_pages/m77-u-types-numerals-137.jpg",
+            "sha256": "08fd8fbf87bcde27ac12830151900e498f09d80eaf8092923cb406aa479c060f",
+            "bytes": 159965
+          },
+          "locator": "Texts reference 4678, PDF 137, printed 126; complete object entry, with metadata and all continuation rows",
+          "notes": [
+            "Tokens follow the normalized right-to-left order of the printed Texts glyph row. LOSS records a printed hatching block, not one inferred lost sign."
+          ]
+        }
+      ],
+      "symbol_only_entries": [],
+      "pdf_page": 137,
+      "printed_page": 126,
+      "evidence_path": "results/primary_pages/m77-u-types-numerals-137.jpg",
+      "evidence": {
+        "path": "results/primary_pages/m77-u-types-numerals-137.jpg",
+        "sha256": "08fd8fbf87bcde27ac12830151900e498f09d80eaf8092923cb406aa479c060f",
+        "bytes": 159965
+      },
+      "locator": "Texts reference 4678, PDF 137, printed 126; complete object entry, with metadata and all continuation rows",
+      "notes": []
+    },
+    {
+      "reference": "4679",
+      "all_counterpart_lines_accounted_for": true,
+      "accounted_for_scope": "All other text-bearing lines printed for this reference in Mahadevan 1977 Texts; not a claim of complete original physical text.",
+      "excluded_selected_field_line_ids": [
+        "M77:4679:side2:line0"
+      ],
+      "counterpart_lines": [
+        {
+          "side": "1",
+          "line": "0",
+          "tokens": [
+            "M136",
+            "M193",
+            "M342",
+            "M176"
+          ],
+          "line_id": "M77:4679:side1:line0",
+          "full_sequence_primary_checked": true,
+          "pdf_page": 137,
+          "printed_page": 126,
+          "evidence_path": "results/primary_pages/m77-u-types-numerals-137.jpg",
+          "evidence": {
+            "path": "results/primary_pages/m77-u-types-numerals-137.jpg",
+            "sha256": "08fd8fbf87bcde27ac12830151900e498f09d80eaf8092923cb406aa479c060f",
+            "bytes": 159965
+          },
+          "locator": "Texts reference 4679, PDF 137, printed 126; complete object entry, with metadata and all continuation rows",
+          "notes": [
+            "Tokens follow the normalized right-to-left order of the printed Texts glyph row. LOSS records a printed hatching block, not one inferred lost sign."
+          ]
+        }
+      ],
+      "symbol_only_entries": [],
+      "pdf_page": 137,
+      "printed_page": 126,
+      "evidence_path": "results/primary_pages/m77-u-types-numerals-137.jpg",
+      "evidence": {
+        "path": "results/primary_pages/m77-u-types-numerals-137.jpg",
+        "sha256": "08fd8fbf87bcde27ac12830151900e498f09d80eaf8092923cb406aa479c060f",
+        "bytes": 159965
+      },
+      "locator": "Texts reference 4679, PDF 137, printed 126; complete object entry, with metadata and all continuation rows",
+      "notes": []
+    },
+    {
+      "reference": "4680",
+      "all_counterpart_lines_accounted_for": true,
+      "accounted_for_scope": "All other text-bearing lines printed for this reference in Mahadevan 1977 Texts; not a claim of complete original physical text.",
+      "excluded_selected_field_line_ids": [
+        "M77:4680:side2:line0"
+      ],
+      "counterpart_lines": [
+        {
+          "side": "1",
+          "line": "0",
+          "tokens": [
+            "M311",
+            "M015",
+            "M176"
+          ],
+          "line_id": "M77:4680:side1:line0",
+          "full_sequence_primary_checked": true,
+          "pdf_page": 137,
+          "printed_page": 126,
+          "evidence_path": "results/primary_pages/m77-u-types-numerals-137.jpg",
+          "evidence": {
+            "path": "results/primary_pages/m77-u-types-numerals-137.jpg",
+            "sha256": "08fd8fbf87bcde27ac12830151900e498f09d80eaf8092923cb406aa479c060f",
+            "bytes": 159965
+          },
+          "locator": "Texts reference 4680, PDF 137, printed 126; complete object entry, with metadata and all continuation rows",
+          "notes": [
+            "Tokens follow the normalized right-to-left order of the printed Texts glyph row. LOSS records a printed hatching block, not one inferred lost sign."
+          ]
+        }
+      ],
+      "symbol_only_entries": [],
+      "pdf_page": 137,
+      "printed_page": 126,
+      "evidence_path": "results/primary_pages/m77-u-types-numerals-137.jpg",
+      "evidence": {
+        "path": "results/primary_pages/m77-u-types-numerals-137.jpg",
+        "sha256": "08fd8fbf87bcde27ac12830151900e498f09d80eaf8092923cb406aa479c060f",
+        "bytes": 159965
+      },
+      "locator": "Texts reference 4680, PDF 137, printed 126; complete object entry, with metadata and all continuation rows",
+      "notes": []
+    },
+    {
+      "reference": "4681",
+      "all_counterpart_lines_accounted_for": true,
+      "accounted_for_scope": "All other text-bearing lines printed for this reference in Mahadevan 1977 Texts; not a claim of complete original physical text.",
+      "excluded_selected_field_line_ids": [
+        "M77:4681:side2:line0"
+      ],
+      "counterpart_lines": [
+        {
+          "side": "1",
+          "line": "0",
+          "tokens": [
+            "LOSS",
+            "M051",
+            "M342"
+          ],
+          "line_id": "M77:4681:side1:line0",
+          "full_sequence_primary_checked": true,
+          "pdf_page": 137,
+          "printed_page": 126,
+          "evidence_path": "results/primary_pages/m77-u-types-numerals-137.jpg",
+          "evidence": {
+            "path": "results/primary_pages/m77-u-types-numerals-137.jpg",
+            "sha256": "08fd8fbf87bcde27ac12830151900e498f09d80eaf8092923cb406aa479c060f",
+            "bytes": 159965
+          },
+          "locator": "Texts reference 4681, PDF 137, printed 126; complete object entry, with metadata and all continuation rows",
+          "notes": [
+            "Tokens follow the normalized right-to-left order of the printed Texts glyph row. LOSS records a printed hatching block, not one inferred lost sign."
+          ]
+        }
+      ],
+      "symbol_only_entries": [],
+      "pdf_page": 137,
+      "printed_page": 126,
+      "evidence_path": "results/primary_pages/m77-u-types-numerals-137.jpg",
+      "evidence": {
+        "path": "results/primary_pages/m77-u-types-numerals-137.jpg",
+        "sha256": "08fd8fbf87bcde27ac12830151900e498f09d80eaf8092923cb406aa479c060f",
+        "bytes": 159965
+      },
+      "locator": "Texts reference 4681, PDF 137, printed 126; complete object entry, with metadata and all continuation rows",
+      "notes": []
+    },
+    {
+      "reference": "4682",
+      "all_counterpart_lines_accounted_for": true,
+      "accounted_for_scope": "All other text-bearing lines printed for this reference in Mahadevan 1977 Texts; not a claim of complete original physical text.",
+      "excluded_selected_field_line_ids": [
+        "M77:4682:side2:line0"
+      ],
+      "counterpart_lines": [
+        {
+          "side": "1",
+          "line": "0",
+          "tokens": [
+            "M379",
+            "M307",
+            "M176"
+          ],
+          "line_id": "M77:4682:side1:line0",
+          "full_sequence_primary_checked": true,
+          "pdf_page": 137,
+          "printed_page": 126,
+          "evidence_path": "results/primary_pages/m77-u-types-numerals-137.jpg",
+          "evidence": {
+            "path": "results/primary_pages/m77-u-types-numerals-137.jpg",
+            "sha256": "08fd8fbf87bcde27ac12830151900e498f09d80eaf8092923cb406aa479c060f",
+            "bytes": 159965
+          },
+          "locator": "Texts reference 4682, PDF 137, printed 126; complete object entry, with metadata and all continuation rows",
+          "notes": [
+            "Tokens follow the normalized right-to-left order of the printed Texts glyph row. LOSS records a printed hatching block, not one inferred lost sign."
+          ]
+        }
+      ],
+      "symbol_only_entries": [],
+      "pdf_page": 137,
+      "printed_page": 126,
+      "evidence_path": "results/primary_pages/m77-u-types-numerals-137.jpg",
+      "evidence": {
+        "path": "results/primary_pages/m77-u-types-numerals-137.jpg",
+        "sha256": "08fd8fbf87bcde27ac12830151900e498f09d80eaf8092923cb406aa479c060f",
+        "bytes": 159965
+      },
+      "locator": "Texts reference 4682, PDF 137, printed 126; complete object entry, with metadata and all continuation rows",
+      "notes": []
+    },
+    {
+      "reference": "4683",
+      "all_counterpart_lines_accounted_for": true,
+      "accounted_for_scope": "All other text-bearing lines printed for this reference in Mahadevan 1977 Texts; not a claim of complete original physical text.",
+      "excluded_selected_field_line_ids": [
+        "M77:4683:side2:line0"
+      ],
+      "counterpart_lines": [
+        {
+          "side": "1",
+          "line": "0",
+          "tokens": [
+            "M084",
+            "M051",
+            "M342"
+          ],
+          "line_id": "M77:4683:side1:line0",
+          "full_sequence_primary_checked": true,
+          "pdf_page": 138,
+          "printed_page": 127,
+          "evidence_path": "results/primary_pages/m77-u-types-numerals-138.jpg",
+          "evidence": {
+            "path": "results/primary_pages/m77-u-types-numerals-138.jpg",
+            "sha256": "6d550ab8dfae802cfd3fd742f5da40bb77b82a6e865c931e7f98f0f8f1dd29d4",
+            "bytes": 156832
+          },
+          "locator": "Texts reference 4683, PDF 138, printed 127; complete object entry, with metadata and all continuation rows",
+          "notes": [
+            "Tokens follow the normalized right-to-left order of the printed Texts glyph row. LOSS records a printed hatching block, not one inferred lost sign."
+          ]
+        }
+      ],
+      "symbol_only_entries": [],
+      "pdf_page": 138,
+      "printed_page": 127,
+      "evidence_path": "results/primary_pages/m77-u-types-numerals-138.jpg",
+      "evidence": {
+        "path": "results/primary_pages/m77-u-types-numerals-138.jpg",
+        "sha256": "6d550ab8dfae802cfd3fd742f5da40bb77b82a6e865c931e7f98f0f8f1dd29d4",
+        "bytes": 156832
+      },
+      "locator": "Texts reference 4683, PDF 138, printed 127; complete object entry, with metadata and all continuation rows",
+      "notes": []
+    },
+    {
+      "reference": "4684",
+      "all_counterpart_lines_accounted_for": true,
+      "accounted_for_scope": "All other text-bearing lines printed for this reference in Mahadevan 1977 Texts; not a claim of complete original physical text.",
+      "excluded_selected_field_line_ids": [
+        "M77:4684:side2:line0"
+      ],
+      "counterpart_lines": [
+        {
+          "side": "1",
+          "line": "0",
+          "tokens": [
+            "M175",
+            "M176",
+            "M211",
+            "M176"
+          ],
+          "line_id": "M77:4684:side1:line0",
+          "full_sequence_primary_checked": true,
+          "pdf_page": 138,
+          "printed_page": 127,
+          "evidence_path": "results/primary_pages/m77-u-types-numerals-138.jpg",
+          "evidence": {
+            "path": "results/primary_pages/m77-u-types-numerals-138.jpg",
+            "sha256": "6d550ab8dfae802cfd3fd742f5da40bb77b82a6e865c931e7f98f0f8f1dd29d4",
+            "bytes": 156832
+          },
+          "locator": "Texts reference 4684, PDF 138, printed 127; complete object entry, with metadata and all continuation rows",
+          "notes": [
+            "Tokens follow the normalized right-to-left order of the printed Texts glyph row. LOSS records a printed hatching block, not one inferred lost sign."
+          ]
+        }
+      ],
+      "symbol_only_entries": [],
+      "pdf_page": 138,
+      "printed_page": 127,
+      "evidence_path": "results/primary_pages/m77-u-types-numerals-138.jpg",
+      "evidence": {
+        "path": "results/primary_pages/m77-u-types-numerals-138.jpg",
+        "sha256": "6d550ab8dfae802cfd3fd742f5da40bb77b82a6e865c931e7f98f0f8f1dd29d4",
+        "bytes": 156832
+      },
+      "locator": "Texts reference 4684, PDF 138, printed 127; complete object entry, with metadata and all continuation rows",
+      "notes": []
+    },
+    {
+      "reference": "4686",
+      "all_counterpart_lines_accounted_for": true,
+      "accounted_for_scope": "All other text-bearing lines printed for this reference in Mahadevan 1977 Texts; not a claim of complete original physical text.",
+      "excluded_selected_field_line_ids": [
+        "M77:4686:side2:line0"
+      ],
+      "counterpart_lines": [
+        {
+          "side": "1",
+          "line": "0",
+          "tokens": [
+            "M096",
+            "M402"
+          ],
+          "line_id": "M77:4686:side1:line0",
+          "full_sequence_primary_checked": true,
+          "pdf_page": 138,
+          "printed_page": 127,
+          "evidence_path": "results/primary_pages/m77-u-types-numerals-138.jpg",
+          "evidence": {
+            "path": "results/primary_pages/m77-u-types-numerals-138.jpg",
+            "sha256": "6d550ab8dfae802cfd3fd742f5da40bb77b82a6e865c931e7f98f0f8f1dd29d4",
+            "bytes": 156832
+          },
+          "locator": "Texts reference 4686, PDF 138, printed 127; complete object entry, with metadata and all continuation rows",
+          "notes": [
+            "Tokens follow the normalized right-to-left order of the printed Texts glyph row. LOSS records a printed hatching block, not one inferred lost sign."
+          ]
+        }
+      ],
+      "symbol_only_entries": [],
+      "pdf_page": 138,
+      "printed_page": 127,
+      "evidence_path": "results/primary_pages/m77-u-types-numerals-138.jpg",
+      "evidence": {
+        "path": "results/primary_pages/m77-u-types-numerals-138.jpg",
+        "sha256": "6d550ab8dfae802cfd3fd742f5da40bb77b82a6e865c931e7f98f0f8f1dd29d4",
+        "bytes": 156832
+      },
+      "locator": "Texts reference 4686, PDF 138, printed 127; complete object entry, with metadata and all continuation rows",
+      "notes": []
+    },
+    {
+      "reference": "4689",
+      "all_counterpart_lines_accounted_for": true,
+      "accounted_for_scope": "All other text-bearing lines printed for this reference in Mahadevan 1977 Texts; not a claim of complete original physical text.",
+      "excluded_selected_field_line_ids": [
+        "M77:4689:side2:line0"
+      ],
+      "counterpart_lines": [
+        {
+          "side": "1",
+          "line": "0",
+          "tokens": [
+            "M204",
+            "M150",
+            "M193",
+            "M342"
+          ],
+          "line_id": "M77:4689:side1:line0",
+          "full_sequence_primary_checked": true,
+          "pdf_page": 138,
+          "printed_page": 127,
+          "evidence_path": "results/primary_pages/m77-u-types-numerals-138.jpg",
+          "evidence": {
+            "path": "results/primary_pages/m77-u-types-numerals-138.jpg",
+            "sha256": "6d550ab8dfae802cfd3fd742f5da40bb77b82a6e865c931e7f98f0f8f1dd29d4",
+            "bytes": 156832
+          },
+          "locator": "Texts reference 4689, PDF 138, printed 127; complete object entry, with metadata and all continuation rows",
+          "notes": [
+            "Tokens follow the normalized right-to-left order of the printed Texts glyph row. LOSS records a printed hatching block, not one inferred lost sign."
+          ]
+        }
+      ],
+      "symbol_only_entries": [],
+      "pdf_page": 138,
+      "printed_page": 127,
+      "evidence_path": "results/primary_pages/m77-u-types-numerals-138.jpg",
+      "evidence": {
+        "path": "results/primary_pages/m77-u-types-numerals-138.jpg",
+        "sha256": "6d550ab8dfae802cfd3fd742f5da40bb77b82a6e865c931e7f98f0f8f1dd29d4",
+        "bytes": 156832
+      },
+      "locator": "Texts reference 4689, PDF 138, printed 127; complete object entry, with metadata and all continuation rows",
+      "notes": []
+    },
+    {
+      "reference": "4691",
+      "all_counterpart_lines_accounted_for": true,
+      "accounted_for_scope": "All other text-bearing lines printed for this reference in Mahadevan 1977 Texts; not a claim of complete original physical text.",
+      "excluded_selected_field_line_ids": [
+        "M77:4691:side2:line0"
+      ],
+      "counterpart_lines": [
+        {
+          "side": "1",
+          "line": "0",
+          "tokens": [
+            "M135",
+            "M365",
+            "M410"
+          ],
+          "line_id": "M77:4691:side1:line0",
+          "full_sequence_primary_checked": true,
+          "pdf_page": 138,
+          "printed_page": 127,
+          "evidence_path": "results/primary_pages/m77-u-types-numerals-138.jpg",
+          "evidence": {
+            "path": "results/primary_pages/m77-u-types-numerals-138.jpg",
+            "sha256": "6d550ab8dfae802cfd3fd742f5da40bb77b82a6e865c931e7f98f0f8f1dd29d4",
+            "bytes": 156832
+          },
+          "locator": "Texts reference 4691, PDF 138, printed 127; complete object entry, with metadata and all continuation rows",
+          "notes": [
+            "Tokens follow the normalized right-to-left order of the printed Texts glyph row. LOSS records a printed hatching block, not one inferred lost sign."
+          ]
+        }
+      ],
+      "symbol_only_entries": [],
+      "pdf_page": 138,
+      "printed_page": 127,
+      "evidence_path": "results/primary_pages/m77-u-types-numerals-138.jpg",
+      "evidence": {
+        "path": "results/primary_pages/m77-u-types-numerals-138.jpg",
+        "sha256": "6d550ab8dfae802cfd3fd742f5da40bb77b82a6e865c931e7f98f0f8f1dd29d4",
+        "bytes": 156832
+      },
+      "locator": "Texts reference 4691, PDF 138, printed 127; complete object entry, with metadata and all continuation rows",
+      "notes": []
+    },
+    {
+      "reference": "4692",
+      "all_counterpart_lines_accounted_for": true,
+      "accounted_for_scope": "All other text-bearing lines printed for this reference in Mahadevan 1977 Texts; not a claim of complete original physical text.",
+      "excluded_selected_field_line_ids": [
+        "M77:4692:side2:line0"
+      ],
+      "counterpart_lines": [
+        {
+          "side": "1",
+          "line": "0",
+          "tokens": [
+            "M311",
+            "M015",
+            "M176"
+          ],
+          "line_id": "M77:4692:side1:line0",
+          "full_sequence_primary_checked": true,
+          "pdf_page": 138,
+          "printed_page": 127,
+          "evidence_path": "results/primary_pages/m77-u-types-numerals-138.jpg",
+          "evidence": {
+            "path": "results/primary_pages/m77-u-types-numerals-138.jpg",
+            "sha256": "6d550ab8dfae802cfd3fd742f5da40bb77b82a6e865c931e7f98f0f8f1dd29d4",
+            "bytes": 156832
+          },
+          "locator": "Texts reference 4692, PDF 138, printed 127; complete object entry, with metadata and all continuation rows",
+          "notes": [
+            "Tokens follow the normalized right-to-left order of the printed Texts glyph row. LOSS records a printed hatching block, not one inferred lost sign."
+          ]
+        }
+      ],
+      "symbol_only_entries": [],
+      "pdf_page": 138,
+      "printed_page": 127,
+      "evidence_path": "results/primary_pages/m77-u-types-numerals-138.jpg",
+      "evidence": {
+        "path": "results/primary_pages/m77-u-types-numerals-138.jpg",
+        "sha256": "6d550ab8dfae802cfd3fd742f5da40bb77b82a6e865c931e7f98f0f8f1dd29d4",
+        "bytes": 156832
+      },
+      "locator": "Texts reference 4692, PDF 138, printed 127; complete object entry, with metadata and all continuation rows",
+      "notes": []
+    },
+    {
+      "reference": "4700",
+      "all_counterpart_lines_accounted_for": true,
+      "accounted_for_scope": "All other text-bearing lines printed for this reference in Mahadevan 1977 Texts; not a claim of complete original physical text.",
+      "excluded_selected_field_line_ids": [
+        "M77:4700:side2:line0"
+      ],
+      "counterpart_lines": [
+        {
+          "side": "1",
+          "line": "0",
+          "tokens": [
+            "M112",
+            "M197",
+            "LOSS"
+          ],
+          "line_id": "M77:4700:side1:line0",
+          "full_sequence_primary_checked": true,
+          "pdf_page": 138,
+          "printed_page": 127,
+          "evidence_path": "results/primary_pages/m77-u-types-numerals-138.jpg",
+          "evidence": {
+            "path": "results/primary_pages/m77-u-types-numerals-138.jpg",
+            "sha256": "6d550ab8dfae802cfd3fd742f5da40bb77b82a6e865c931e7f98f0f8f1dd29d4",
+            "bytes": 156832
+          },
+          "locator": "Texts reference 4700, PDF 138, printed 127; complete object entry, with metadata and all continuation rows",
+          "notes": [
+            "Tokens follow the normalized right-to-left order of the printed Texts glyph row. LOSS records a printed hatching block, not one inferred lost sign."
+          ]
+        }
+      ],
+      "symbol_only_entries": [],
+      "pdf_page": 138,
+      "printed_page": 127,
+      "evidence_path": "results/primary_pages/m77-u-types-numerals-138.jpg",
+      "evidence": {
+        "path": "results/primary_pages/m77-u-types-numerals-138.jpg",
+        "sha256": "6d550ab8dfae802cfd3fd742f5da40bb77b82a6e865c931e7f98f0f8f1dd29d4",
+        "bytes": 156832
+      },
+      "locator": "Texts reference 4700, PDF 138, printed 127; complete object entry, with metadata and all continuation rows",
+      "notes": []
+    },
+    {
+      "reference": "4702",
+      "all_counterpart_lines_accounted_for": true,
+      "accounted_for_scope": "All other text-bearing lines printed for this reference in Mahadevan 1977 Texts; not a claim of complete original physical text.",
+      "excluded_selected_field_line_ids": [
+        "M77:4702:side2:line0"
+      ],
+      "counterpart_lines": [
+        {
+          "side": "1",
+          "line": "0",
+          "tokens": [
+            "M067",
+            "M072",
+            "M342",
+            "M388",
+            "M176"
+          ],
+          "line_id": "M77:4702:side1:line0",
+          "full_sequence_primary_checked": true,
+          "pdf_page": 138,
+          "printed_page": 127,
+          "evidence_path": "results/primary_pages/m77-u-types-numerals-138.jpg",
+          "evidence": {
+            "path": "results/primary_pages/m77-u-types-numerals-138.jpg",
+            "sha256": "6d550ab8dfae802cfd3fd742f5da40bb77b82a6e865c931e7f98f0f8f1dd29d4",
+            "bytes": 156832
+          },
+          "locator": "Texts reference 4702, PDF 138, printed 127; complete object entry, with metadata and all continuation rows",
+          "notes": [
+            "Tokens follow the normalized right-to-left order of the printed Texts glyph row. LOSS records a printed hatching block, not one inferred lost sign."
+          ]
+        }
+      ],
+      "symbol_only_entries": [],
+      "pdf_page": 138,
+      "printed_page": 127,
+      "evidence_path": "results/primary_pages/m77-u-types-numerals-138.jpg",
+      "evidence": {
+        "path": "results/primary_pages/m77-u-types-numerals-138.jpg",
+        "sha256": "6d550ab8dfae802cfd3fd742f5da40bb77b82a6e865c931e7f98f0f8f1dd29d4",
+        "bytes": 156832
+      },
+      "locator": "Texts reference 4702, PDF 138, printed 127; complete object entry, with metadata and all continuation rows",
+      "notes": []
+    },
+    {
+      "reference": "4704",
+      "all_counterpart_lines_accounted_for": true,
+      "accounted_for_scope": "All other text-bearing lines printed for this reference in Mahadevan 1977 Texts; not a claim of complete original physical text.",
+      "excluded_selected_field_line_ids": [
+        "M77:4704:side2:line0"
+      ],
+      "counterpart_lines": [
+        {
+          "side": "1",
+          "line": "0",
+          "tokens": [
+            "LOSS",
+            "M149",
+            "M342",
+            "M176"
+          ],
+          "line_id": "M77:4704:side1:line0",
+          "full_sequence_primary_checked": true,
+          "pdf_page": 139,
+          "printed_page": 128,
+          "evidence_path": "results/primary_pages/m77-u-types-numerals-139.jpg",
+          "evidence": {
+            "path": "results/primary_pages/m77-u-types-numerals-139.jpg",
+            "sha256": "541e500a5c23883fa1b719cfad528eed77f1caf435d238240d181dabc35ad772",
+            "bytes": 170873
+          },
+          "locator": "Texts reference 4704, PDF 139, printed 128; complete object entry, with metadata and all continuation rows",
+          "notes": [
+            "Tokens follow the normalized right-to-left order of the printed Texts glyph row. LOSS records a printed hatching block, not one inferred lost sign."
+          ]
+        }
+      ],
+      "symbol_only_entries": [],
+      "pdf_page": 139,
+      "printed_page": 128,
+      "evidence_path": "results/primary_pages/m77-u-types-numerals-139.jpg",
+      "evidence": {
+        "path": "results/primary_pages/m77-u-types-numerals-139.jpg",
+        "sha256": "541e500a5c23883fa1b719cfad528eed77f1caf435d238240d181dabc35ad772",
+        "bytes": 170873
+      },
+      "locator": "Texts reference 4704, PDF 139, printed 128; complete object entry, with metadata and all continuation rows",
+      "notes": []
+    },
+    {
+      "reference": "4718",
+      "all_counterpart_lines_accounted_for": true,
+      "accounted_for_scope": "All other text-bearing lines printed for this reference in Mahadevan 1977 Texts; not a claim of complete original physical text.",
+      "excluded_selected_field_line_ids": [
+        "M77:4718:side2:line0"
+      ],
+      "counterpart_lines": [
+        {
+          "side": "1",
+          "line": "0",
+          "tokens": [
+            "M343",
+            "M162",
+            "M343",
+            "M086",
+            "M336",
+            "M089",
+            "M211"
+          ],
+          "line_id": "M77:4718:side1:line0",
+          "full_sequence_primary_checked": true,
+          "pdf_page": 139,
+          "printed_page": 128,
+          "evidence_path": "results/primary_pages/m77-u-types-numerals-139.jpg",
+          "evidence": {
+            "path": "results/primary_pages/m77-u-types-numerals-139.jpg",
+            "sha256": "541e500a5c23883fa1b719cfad528eed77f1caf435d238240d181dabc35ad772",
+            "bytes": 170873
+          },
+          "locator": "Texts reference 4718, PDF 139, printed 128; complete object entry, with metadata and all continuation rows",
+          "notes": [
+            "Tokens follow the normalized right-to-left order of the printed Texts glyph row. LOSS records a printed hatching block, not one inferred lost sign."
+          ]
+        }
+      ],
+      "symbol_only_entries": [
+        {
+          "side": "3",
+          "line": "9",
+          "direction": "0",
+          "field_symbol_code": "83",
+          "printed_continuation_metadata_code": "38390",
+          "pdf_page": 139,
+          "printed_page": 128,
+          "evidence_path": "results/primary_pages/m77-u-types-numerals-139.jpg",
+          "evidence": {
+            "path": "results/primary_pages/m77-u-types-numerals-139.jpg",
+            "sha256": "541e500a5c23883fa1b719cfad528eed77f1caf435d238240d181dabc35ad772",
+            "bytes": 170873
+          },
+          "locator": "Texts reference 4718, PDF 139, printed 128; complete object entry, with metadata and all continuation rows",
+          "notes": [
+            "Primary line code 9 denotes field-symbol-only; no glyph sequence is invented."
+          ]
+        }
+      ],
+      "pdf_page": 139,
+      "printed_page": 128,
+      "evidence_path": "results/primary_pages/m77-u-types-numerals-139.jpg",
+      "evidence": {
+        "path": "results/primary_pages/m77-u-types-numerals-139.jpg",
+        "sha256": "541e500a5c23883fa1b719cfad528eed77f1caf435d238240d181dabc35ad772",
+        "bytes": 170873
+      },
+      "locator": "Texts reference 4718, PDF 139, printed 128; complete object entry, with metadata and all continuation rows",
+      "notes": []
+    },
+    {
+      "reference": "5222",
+      "all_counterpart_lines_accounted_for": true,
+      "accounted_for_scope": "All other text-bearing lines printed for this reference in Mahadevan 1977 Texts; not a claim of complete original physical text.",
+      "excluded_selected_field_line_ids": [
+        "M77:5222:side2:line0"
+      ],
+      "counterpart_lines": [
+        {
+          "side": "1",
+          "line": "0",
+          "tokens": [
+            "M065",
+            "M249",
+            "M162",
+            "M342"
+          ],
+          "line_id": "M77:5222:side1:line0",
+          "full_sequence_primary_checked": true,
+          "pdf_page": 144,
+          "printed_page": 133,
+          "evidence_path": "results/primary_pages/u-types-iconography-144.png",
+          "evidence": {
+            "path": "results/primary_pages/u-types-iconography-144.png",
+            "sha256": "63c62bfaf9f8f7f6877abeb29028cfdec6a473a2a7ef8fe52f92fab282cd3fb2",
+            "bytes": 1343214
+          },
+          "locator": "Texts reference 5222, PDF 144, printed 133; complete object entry, with metadata and all continuation rows",
+          "notes": [
+            "Tokens follow the normalized right-to-left order of the printed Texts glyph row. LOSS records a printed hatching block, not one inferred lost sign."
+          ]
+        }
+      ],
+      "symbol_only_entries": [],
+      "pdf_page": 144,
+      "printed_page": 133,
+      "evidence_path": "results/primary_pages/u-types-iconography-144.png",
+      "evidence": {
+        "path": "results/primary_pages/u-types-iconography-144.png",
+        "sha256": "63c62bfaf9f8f7f6877abeb29028cfdec6a473a2a7ef8fe52f92fab282cd3fb2",
+        "bytes": 1343214
+      },
+      "locator": "Texts reference 5222, PDF 144, printed 133; complete object entry, with metadata and all continuation rows",
+      "notes": []
+    },
+    {
+      "reference": "5223",
+      "all_counterpart_lines_accounted_for": true,
+      "accounted_for_scope": "All other text-bearing lines printed for this reference in Mahadevan 1977 Texts; not a claim of complete original physical text.",
+      "excluded_selected_field_line_ids": [
+        "M77:5223:side2:line0"
+      ],
+      "counterpart_lines": [
+        {
+          "side": "1",
+          "line": "0",
+          "tokens": [
+            "M065",
+            "M249",
+            "M162",
+            "M342"
+          ],
+          "line_id": "M77:5223:side1:line0",
+          "full_sequence_primary_checked": true,
+          "pdf_page": 144,
+          "printed_page": 133,
+          "evidence_path": "results/primary_pages/u-types-iconography-144.png",
+          "evidence": {
+            "path": "results/primary_pages/u-types-iconography-144.png",
+            "sha256": "63c62bfaf9f8f7f6877abeb29028cfdec6a473a2a7ef8fe52f92fab282cd3fb2",
+            "bytes": 1343214
+          },
+          "locator": "Texts reference 5223, PDF 144, printed 133; complete object entry, with metadata and all continuation rows",
+          "notes": [
+            "Tokens follow the normalized right-to-left order of the printed Texts glyph row. LOSS records a printed hatching block, not one inferred lost sign."
+          ]
+        }
+      ],
+      "symbol_only_entries": [],
+      "pdf_page": 144,
+      "printed_page": 133,
+      "evidence_path": "results/primary_pages/u-types-iconography-144.png",
+      "evidence": {
+        "path": "results/primary_pages/u-types-iconography-144.png",
+        "sha256": "63c62bfaf9f8f7f6877abeb29028cfdec6a473a2a7ef8fe52f92fab282cd3fb2",
+        "bytes": 1343214
+      },
+      "locator": "Texts reference 5223, PDF 144, printed 133; complete object entry, with metadata and all continuation rows",
+      "notes": []
+    },
+    {
+      "reference": "5264",
+      "all_counterpart_lines_accounted_for": true,
+      "accounted_for_scope": "All other text-bearing lines printed for this reference in Mahadevan 1977 Texts; not a claim of complete original physical text.",
+      "excluded_selected_field_line_ids": [
+        "M77:5264:side2:line0"
+      ],
+      "counterpart_lines": [
+        {
+          "side": "1",
+          "line": "0",
+          "tokens": [
+            "M267",
+            "M099",
+            "M067",
+            "M294",
+            "M342"
+          ],
+          "line_id": "M77:5264:side1:line0",
+          "full_sequence_primary_checked": true,
+          "pdf_page": 146,
+          "printed_page": 135,
+          "evidence_path": "results/primary_pages/u-types-iconography-146.png",
+          "evidence": {
+            "path": "results/primary_pages/u-types-iconography-146.png",
+            "sha256": "180cb2062e9f2e241c57aa139593d11eef28cd0a564bd8555d7baaaf61493fe8",
+            "bytes": 1334188
+          },
+          "locator": "Texts reference 5264, PDF 146, printed 135; complete object entry, with metadata and all continuation rows",
+          "notes": [
+            "Tokens follow the normalized right-to-left order of the printed Texts glyph row. LOSS records a printed hatching block, not one inferred lost sign."
+          ]
+        }
+      ],
+      "symbol_only_entries": [],
+      "pdf_page": 146,
+      "printed_page": 135,
+      "evidence_path": "results/primary_pages/u-types-iconography-146.png",
+      "evidence": {
+        "path": "results/primary_pages/u-types-iconography-146.png",
+        "sha256": "180cb2062e9f2e241c57aa139593d11eef28cd0a564bd8555d7baaaf61493fe8",
+        "bytes": 1334188
+      },
+      "locator": "Texts reference 5264, PDF 146, printed 135; complete object entry, with metadata and all continuation rows",
+      "notes": []
+    },
+    {
+      "reference": "5269",
+      "all_counterpart_lines_accounted_for": true,
+      "accounted_for_scope": "All other text-bearing lines printed for this reference in Mahadevan 1977 Texts; not a claim of complete original physical text.",
+      "excluded_selected_field_line_ids": [
+        "M77:5269:side2:line0"
+      ],
+      "counterpart_lines": [
+        {
+          "side": "1",
+          "line": "0",
+          "tokens": [
+            "M409",
+            "M096",
+            "M171"
+          ],
+          "line_id": "M77:5269:side1:line0",
+          "full_sequence_primary_checked": true,
+          "pdf_page": 147,
+          "printed_page": 136,
+          "evidence_path": "results/primary_pages/u-types-iconography-147.png",
+          "evidence": {
+            "path": "results/primary_pages/u-types-iconography-147.png",
+            "sha256": "93c26ffe7755fd6b8438b72d80bd5d89aba8f2ecd1b6dd8a4a927f585cbfaee3",
+            "bytes": 1258412
+          },
+          "locator": "Texts reference 5269, PDF 147, printed 136; complete object entry, with metadata and all continuation rows",
+          "notes": [
+            "Tokens follow the normalized right-to-left order of the printed Texts glyph row. LOSS records a printed hatching block, not one inferred lost sign."
+          ]
+        }
+      ],
+      "symbol_only_entries": [],
+      "pdf_page": 147,
+      "printed_page": 136,
+      "evidence_path": "results/primary_pages/u-types-iconography-147.png",
+      "evidence": {
+        "path": "results/primary_pages/u-types-iconography-147.png",
+        "sha256": "93c26ffe7755fd6b8438b72d80bd5d89aba8f2ecd1b6dd8a4a927f585cbfaee3",
+        "bytes": 1258412
+      },
+      "locator": "Texts reference 5269, PDF 147, printed 136; complete object entry, with metadata and all continuation rows",
+      "notes": []
+    }
+  ],
+  "limitations": [
+    "This reconstructs the printed catalogue entries, not new archaeological readings or independently confirmed original objects.",
+    "Sign identification and complete-side accounting were visually reviewed; an independent second reader can still correct glyph identifications using the preserved locators.",
+    "No translation, numeral value, commodity, or unit is assigned.",
+    "Damage-only counterpart lines of 4660 and 4671 are positive lost passages and remain unavailable for clean-text matching."
+  ],
+  "downloads": []
+}

@@ -1,0 +1,284 @@
+{
+  "review_date": "2026-09-23",
+  "repository_commit": "40812fc54470d5508b47af5fabcea7ccf044036c",
+  "scope": "Bounded static manuscript/code review; no downloaded code executed; no new downloads; no claim of exhaustive repository audit.",
+  "sources": [
+    {
+      "path": "data/raw/glossa_preprint_v4.pdf",
+      "repository_path": "glossa-corpus/indus/pierson_2026_indus_decipherment_preprint_v4.pdf",
+      "url": "https://github.com/BitConcepts/glossa-lab/blob/40812fc54470d5508b47af5fabcea7ccf044036c/glossa-corpus/indus/pierson_2026_indus_decipherment_preprint_v4.pdf",
+      "bytes": 108722,
+      "sha256": "9d9cac713a72fce11d4f3421f233193cb30919c798ed97dc7a51fa948b7de1cb"
+    },
+    {
+      "path": "data/raw/glossa_preprint_current.md",
+      "repository_path": "research/indus/pierson_2026_indus_preprint.md",
+      "url": "https://github.com/BitConcepts/glossa-lab/blob/40812fc54470d5508b47af5fabcea7ccf044036c/research/indus/pierson_2026_indus_preprint.md",
+      "bytes": 51095,
+      "sha256": "5936afea88439a1607fabe260b03a4c9d33d92dc8b2f4d87c49ff27f62dadda6"
+    },
+    {
+      "path": "data/raw/glossa_preprint_v3.md",
+      "repository_path": "research/indus/pierson_2026_indus_preprint_v3.md",
+      "url": "https://github.com/BitConcepts/glossa-lab/blob/40812fc54470d5508b47af5fabcea7ccf044036c/research/indus/pierson_2026_indus_preprint_v3.md",
+      "bytes": 17430,
+      "sha256": "670503d0bfed91ef2fc931d08d5eb88544168ee96d78b219354544204ba517a5"
+    },
+    {
+      "path": "data/raw/glossa_release_validation.py",
+      "repository_path": "backend/scripts/release_validation.py",
+      "url": "https://github.com/BitConcepts/glossa-lab/blob/40812fc54470d5508b47af5fabcea7ccf044036c/backend/scripts/release_validation.py",
+      "bytes": 11095,
+      "sha256": "fc185f01d085e61a0501fdab1630294d671eff2162d9d1f063e4fd2389db4f02"
+    },
+    {
+      "path": "data/raw/glossa_RELEASE_VALIDATION.json",
+      "repository_path": "outputs/RELEASE_VALIDATION.json",
+      "url": "https://github.com/BitConcepts/glossa-lab/blob/40812fc54470d5508b47af5fabcea7ccf044036c/outputs/RELEASE_VALIDATION.json",
+      "bytes": 1656,
+      "sha256": "670a533a99a70c5e4c773b6f7aed5ffd16270c4429ac2a53aa14a3af94848d7f"
+    },
+    {
+      "path": "data/raw/glossa_AUDIT_CORRECTIONS.json",
+      "repository_path": "outputs/AUDIT_CORRECTIONS.json",
+      "url": "https://github.com/BitConcepts/glossa-lab/blob/40812fc54470d5508b47af5fabcea7ccf044036c/outputs/AUDIT_CORRECTIONS.json",
+      "bytes": 4704,
+      "sha256": "567ff7ada347c083b633d8b6709a8620832d3ffe9c1a6e67f07bcb31d9582a80"
+    },
+    {
+      "path": "data/raw/glossa_backend_anchors.json",
+      "repository_path": "backend/reports/INDUS_FINAL_ANCHORS.json",
+      "url": "https://github.com/BitConcepts/glossa-lab/blob/40812fc54470d5508b47af5fabcea7ccf044036c/backend/reports/INDUS_FINAL_ANCHORS.json",
+      "bytes": 126522,
+      "sha256": "0794c8bc4d152c0ebda3bd8dc7478c14e7acbac12e5e1d4d16d1d6fd3b5ed6f3"
+    },
+    {
+      "path": "data/raw/glossa_README.md",
+      "repository_path": "glossa-corpus/indus/README.md",
+      "url": "https://github.com/BitConcepts/glossa-lab/blob/40812fc54470d5508b47af5fabcea7ccf044036c/glossa-corpus/indus/README.md",
+      "bytes": 5839,
+      "sha256": "7445de432127836bed8eab6da4dc14725655d0da05f6e312483d01a3a5541183"
+    }
+  ],
+  "versions": [
+    {
+      "file": "glossa_preprint_v4.pdf",
+      "self_version": "v4, May2026 revisedJune2026",
+      "claimed_assignments": "161 HIGH+MEDIUM",
+      "claimed_token_coverage_percent": 90.96,
+      "caveat": "explicit assignment coverage, not independently verified phonetic transcription"
+    },
+    {
+      "file": "glossa_preprint_current.md",
+      "self_version": "v3 in header",
+      "claimed_assignments": "605 (413 described as independently confirmed +192 inferred)",
+      "claimed_token_coverage_percent": 100,
+      "caveat": "contains claims later contradicted by separate audit artifacts; chronological order not inferred"
+    },
+    {
+      "file": "glossa_preprint_v3.md",
+      "self_version": "audited narrative; no opening dated version header",
+      "claimed_assignments": "400 HIGH,185 Holdat-attested",
+      "claimed_token_coverage_percent": 92.8,
+      "caveat": "retracts605/100% and91.8% grammar after94.2% shuffled null; explicitly acknowledges anchor circularity"
+    }
+  ],
+  "findings": [
+    {
+      "id": "G01",
+      "kind": "version_scope",
+      "source": "glossa_preprint_current.md",
+      "lines": [
+        34,
+        36,
+        94,
+        96,
+        145
+      ],
+      "finding": "Coexisting manuscripts disagree on 161 H+M, 605 assigned, and audited 400 HIGH/185 Holdat-attested states. Even current MD alternates 605 HIGH with 413 independently confirmed plus 192 inferred. Filename version labels do not establish a single chronological latest scientific result."
+    },
+    {
+      "id": "G02",
+      "kind": "holdout_dependence",
+      "source": "glossa_preprint_current.md",
+      "lines": [
+        96,
+        212,
+        214,
+        223,
+        260,
+        374,
+        400
+      ],
+      "finding": "Claim that ICIT was blind and no readings derived from it conflicts with ICIT integration/promotions; claim Elamite cognates were unused conflicts with cognate injection. Anchored SA consistency is not phonetic accuracy. No frozen per-sign training/test partition establishing independence is provided in the reviewed artifacts."
+    },
+    {
+      "id": "G03",
+      "kind": "invalid_control",
+      "source": "glossa_release_validation.py",
+      "lines": [
+        55,
+        64,
+        77,
+        80,
+        87,
+        90,
+        91
+      ],
+      "finding": "Reads first case-preserved character, compares Dravidian bigram support membership with uppercase ASCII uniform support, ignoring weights. Thus this is not probabilistic LM discrimination; header says five-way but function computes only two comparisons. Both currently pinned reviewed anchor tables have zero uppercase ASCII HIGH-reading initials, making uniform support unreachable for those states. Historical 400-HIGH key is not recovered here; its exact score is not recomputed."
+    },
+    {
+      "id": "G04",
+      "kind": "boundary_error",
+      "source": "glossa_release_validation.py",
+      "lines": [
+        39,
+        47,
+        50,
+        56,
+        82,
+        90
+      ],
+      "finding": "Test1 uses flat_tokens with no boundaries and scores adjacent assigned signs across artifact boundaries. M77 likewise scores one returned flat symbol stream; its boundary handling cannot be verified without the unreviewed helper."
+    },
+    {
+      "id": "G05",
+      "kind": "entropy_error",
+      "source": "glossa_release_validation.py",
+      "lines": [
+        211,
+        214,
+        217,
+        222,
+        225,
+        227
+      ],
+      "finding": "Deletes unassigned signs, bridging gaps; subtracts entropy of all retained tokens rather than first-endpoint marginal of counted pairs. The resulting h2 is not H(Y|X) for those bigrams. Full slash-separated reading strings are treated as labels, not resolved phonological transcriptions.",
+      "formal_counterexample": {
+        "corpus": [
+          [
+            "a",
+            "b"
+          ],
+          [
+            "a",
+            "b"
+          ]
+        ],
+        "pair_distribution": {
+          "a,b": 1.0
+        },
+        "joint_entropy_bits": 0,
+        "all_token_entropy_bits": 1,
+        "reported_formula_bits": -1,
+        "correct_conditional_entropy_bits": 0
+      }
+    },
+    {
+      "id": "G06",
+      "kind": "hardcoded_metric",
+      "source": "glossa_release_validation.py",
+      "lines": [
+        259,
+        268,
+        270,
+        271,
+        272,
+        273
+      ],
+      "finding": "Phonological coverage is fixed at (25-6)/25 by a hardcoded missing list, not computed from observed initials and a specified inventory. Saved report gives attested=25 but missing=6 and verdict19/25."
+    },
+    {
+      "id": "G07",
+      "kind": "prior_agreement_not_truth",
+      "source": "glossa_release_validation.py",
+      "lines": [
+        160,
+        161,
+        172,
+        175,
+        182,
+        185,
+        187
+      ],
+      "finding": "Parpola table is hardcoded with no per-entry primary page mapping; comparing slash alternatives after diacritic removal and permitting three-character partials measures prior agreement, not verified phonetic correctness. The function loads all anchors rather than enforcing its HIGH-only framing."
+    },
+    {
+      "id": "G08",
+      "kind": "release_reproducibility",
+      "source": "glossa_RELEASE_VALIDATION.json",
+      "finding": "Archived 400-HIGH state does not match pinned backend166 HIGH-reading state. Saved anchor summary has fields absent from anchor_summary function (holdat_attested_high, yajnadevam_only_high, non_holdat_non_yaj_high, note). Audit corrections report208 Holdat validated and50% Parpola, release report185 and80%. These may represent revisions or postprocessing but cannot be pooled as one byte-reproducible state."
+    },
+    {
+      "id": "G09",
+      "kind": "logical_overclaim",
+      "source": "glossa_preprint_current.md",
+      "lines": [
+        234,
+        236,
+        307,
+        423
+      ],
+      "finding": "Disagreement with another proposed key does not falsify its language without an independently correct reference. Neither entropy range, assigned coverage, optimizer consistency nor label uniqueness establishes semantic correctness."
+    }
+  ],
+  "backend_static_key_check": {
+    "high_readings": 166,
+    "first_characters": [
+      "a",
+      "c",
+      "e",
+      "i",
+      "k",
+      "l",
+      "m",
+      "n",
+      "o",
+      "p",
+      "r",
+      "t",
+      "v",
+      "y",
+      "ā",
+      "ē",
+      "ō",
+      "ū",
+      "ḷ",
+      "ṇ"
+    ],
+    "uppercase_ascii_initial_count": 0,
+    "not_the_archived_400_high_state": true
+  },
+  "direct_phonetic_anchor_status": "None independently verified in reviewed artifacts. Iconographic-rebus suggestions and shared conjectural readings are hypotheses, not independently supplied sound values.",
+  "externally_grounded_name_attempts": {
+    "source": "glossa_preprint_v4.pdf",
+    "sections": [
+      "3.26",
+      "3.28"
+    ],
+    "extracted_text_lines": [
+      457,
+      482
+    ],
+    "six_names": "No >=3/4-slot strong matches",
+    "twenty_five_names": "All apparent >=50% fuzzy matches judged nondiscriminative by source",
+    "conclusion": "Source reports negative evidence, not a successful held-out reading prediction; no fresh prospective test performed here."
+  },
+  "identity_claims": {
+    "M012": "No textual mention found in the three reviewed manuscript texts; absence is not evidence of correction.",
+    "M047": "v4/currentMD explicitly call actual fish and equate P47.",
+    "M059": "v4/currentMD call seven strokes.",
+    "M099": "v4/currentMD call vessel/jar.",
+    "M328": "v4/currentMD call man figure.",
+    "independent_primary_glyph_review": "data/processed/glossa_sign_identity_review.json",
+    "limit": "Primary glyph comparison belongs to parent audit. Graphic contradictions undermine stated iconographic basis, not a mathematical disproof of an arbitrarily assigned conventional sound."
+  },
+  "summary": "The release proposes a candidate Dravidian key, but the bounded review finds no verified decipherment or independently demonstrated phonetic reading. Scope/version mismatches, invalid controls, entropy and phonology calculations, and reused priors prevent the cited metrics serving as proof.",
+  "limitations": [
+    "Private Holdat corpus not available in the reviewed release, so no exact historical score replication.",
+    "No execution of downloaded code.",
+    "No validation of every DEDR/Elamite/Tamil-Brahmi citation; no assumption that all cognates are false.",
+    "Two transcription corpora need artifact-overlap and fixed-key audits before being treated as independent validation.",
+    "Current manuscript source claims are not endorsed facts."
+  ]
+}

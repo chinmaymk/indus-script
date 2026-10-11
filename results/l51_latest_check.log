@@ -1,0 +1,55 @@
+{
+  "fish": {
+    "rows": 14,
+    "objects": 14,
+    "positive": 11,
+    "negative": 2,
+    "unknown": 1,
+    "observed_positive_fraction": 0.7857142857142857,
+    "possible_positive_fraction_bounds": [
+      0.7857142857142857,
+      0.8571428571428571
+    ]
+  },
+  "plain_fish": {
+    "rows": 14,
+    "objects": 14,
+    "positive": 1,
+    "negative": 11,
+    "unknown": 2,
+    "observed_positive_fraction": 0.07142857142857142,
+    "possible_positive_fraction_bounds": [
+      0.07142857142857142,
+      0.21428571428571427
+    ]
+  },
+  "U": {
+    "rows": 14,
+    "objects": 14,
+    "positive": 1,
+    "negative": 10,
+    "unknown": 3,
+    "observed_positive_fraction": 0.07142857142857142,
+    "possible_positive_fraction_bounds": [
+      0.07142857142857142,
+      0.2857142857142857
+    ]
+  },
+  "fish_or_U": {
+    "rows": 14,
+    "objects": 14,
+    "positive": 11,
+    "negative": 2,
+    "unknown": 1,
+    "observed_positive_fraction": 0.7857142857142857,
+    "possible_positive_fraction_bounds": [
+      0.7857142857142857,
+      0.8571428571428571
+    ]
+  }
+}
+Pair elsewhere [('H-21', '+405-061-527-555-233-235-806-002-817+'), ('M-1917', '+400-527-555-233-235+'), ('M-1053', '+740-055-527-555-000['), ('M-1293', '+000-064-845-527-555-000[')]
+fish {'objects': {'universe_rows': 1082, 'ending_rows': 9, 'observed_both': 8, 'conditional_expected': 4.162526697408198, 'upper_tail_descriptive_only': 0.007862639956087955, 'exact_fraction': '649523/82608768'}, 'text_types': {'universe_rows': 1049, 'ending_rows': 9, 'observed_both': 8, 'conditional_expected': 4.125516893486629, 'upper_tail_descriptive_only': 0.007148923826147868, 'exact_fraction': '534779/74805525'}, 'same_W527_terminal_objects': {'universe_rows': 27, 'ending_rows': 9, 'observed_both': 8, 'conditional_expected': 8.0, 'upper_tail_descriptive_only': 1.0, 'exact_fraction': '1'}}
+plain_fish {'objects': {'universe_rows': 1082, 'ending_rows': 9, 'observed_both': 0, 'conditional_expected': 1.2142957067220759, 'upper_tail_descriptive_only': 1.0, 'exact_fraction': '1'}, 'text_types': {'universe_rows': 1049, 'ending_rows': 9, 'observed_both': 0, 'conditional_expected': 1.1633375962051418, 'upper_tail_descriptive_only': 1.0, 'exact_fraction': '1'}, 'same_W527_terminal_objects': {'universe_rows': 27, 'ending_rows': 9, 'observed_both': 0, 'conditional_expected': 0.5, 'upper_tail_descriptive_only': 1.0, 'exact_fraction': '1'}}
+U {'objects': {'universe_rows': 1082, 'ending_rows': 9, 'observed_both': 1, 'conditional_expected': 0.9178200435091829, 'upper_tail_descriptive_only': 0.6410966624577363, 'exact_fraction': '5394095/8413856'}, 'text_types': {'universe_rows': 1049, 'ending_rows': 9, 'observed_both': 1, 'conditional_expected': 0.9231899187319993, 'upper_tail_descriptive_only': 0.6431368782161235, 'exact_fraction': '234343/364375'}, 'same_W527_terminal_objects': {'universe_rows': 27, 'ending_rows': 9, 'observed_both': 1, 'conditional_expected': 1.0, 'upper_tail_descriptive_only': 1.0, 'exact_fraction': '1'}}
+fish_or_U {'objects': {'universe_rows': 1082, 'ending_rows': 9, 'observed_both': 8, 'conditional_expected': 4.492064098571231, 'upper_tail_descriptive_only': 0.01400224271593059, 'exact_fraction': '19278467/1376812800'}, 'text_types': {'universe_rows': 1049, 'ending_rows': 9, 'observed_both': 8, 'conditional_expected': 4.460424169872479, 'upper_tail_descriptive_only': 0.013105927002049648, 'exact_fraction': '3921583/299222100'}, 'same_W527_terminal_objects': {'universe_rows': 27, 'ending_rows': 9, 'observed_both': 8, 'conditional_expected': 8.0, 'upper_tail_descriptive_only': 1.0, 'exact_fraction': '1'}}

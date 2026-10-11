@@ -1,0 +1,1034 @@
+{
+  "context_coverage": [
+    {
+      "association": "direct_floor",
+      "context_id": "court190",
+      "reported_exposure": "reported_bead_production",
+      "same_locus_catalogue_candidates_NOT_joins": []
+    },
+    {
+      "association": "associated_area",
+      "context_id": "near292",
+      "reported_exposure": "reported_production_tools",
+      "same_locus_catalogue_candidates_NOT_joins": []
+    },
+    {
+      "association": "associated_area",
+      "context_id": "near295",
+      "reported_exposure": "reported_bead_production",
+      "same_locus_catalogue_candidates_NOT_joins": []
+    },
+    {
+      "association": "locus_only",
+      "context_id": "locus253",
+      "reported_exposure": "reported_production_tools",
+      "same_locus_catalogue_candidates_NOT_joins": []
+    },
+    {
+      "association": "associated_area",
+      "context_id": "north125",
+      "reported_exposure": "reported_bead_production",
+      "same_locus_catalogue_candidates_NOT_joins": []
+    },
+    {
+      "association": "associated_area",
+      "context_id": "near443",
+      "reported_exposure": "reported_raw_material",
+      "same_locus_catalogue_candidates_NOT_joins": []
+    },
+    {
+      "association": "locus_and_level",
+      "context_id": "hone208",
+      "reported_exposure": "reported_production_tool",
+      "same_locus_catalogue_candidates_NOT_joins": []
+    },
+    {
+      "association": "locus_and_level",
+      "context_id": "drill85",
+      "reported_exposure": "reported_production_tool",
+      "same_locus_catalogue_candidates_NOT_joins": []
+    },
+    {
+      "association": "locus_and_level",
+      "context_id": "drill255",
+      "reported_exposure": "possible_production_tool",
+      "same_locus_catalogue_candidates_NOT_joins": []
+    },
+    {
+      "association": "locus_and_level",
+      "context_id": "drillhead206",
+      "reported_exposure": "possible_production_tool",
+      "same_locus_catalogue_candidates_NOT_joins": []
+    },
+    {
+      "association": "buried_hoard",
+      "context_id": "metal284",
+      "reported_exposure": "informative_comparison_candidate",
+      "same_locus_catalogue_candidates_NOT_joins": []
+    },
+    {
+      "association": "architecture_and_vicinity",
+      "context_id": "bath442",
+      "reported_exposure": "informative_comparison_candidate",
+      "same_locus_catalogue_candidates_NOT_joins": [
+        "LI.22"
+      ]
+    },
+    {
+      "association": "buried_hoard",
+      "context_id": "metal213",
+      "reported_exposure": "rival_craft_mixed_neighbourhood",
+      "same_locus_catalogue_candidates_NOT_joins": []
+    },
+    {
+      "association": "associated_area",
+      "context_id": "metal_near212",
+      "reported_exposure": "rival_craft_mixed_neighbourhood",
+      "same_locus_catalogue_candidates_NOT_joins": []
+    },
+    {
+      "association": "associated_area",
+      "context_id": "shell_near181",
+      "reported_exposure": "rival_craft_mixed_neighbourhood",
+      "same_locus_catalogue_candidates_NOT_joins": []
+    },
+    {
+      "association": "locus_and_level",
+      "context_id": "unfinishedweight172",
+      "reported_exposure": "rival_lapidary_craft",
+      "same_locus_catalogue_candidates_NOT_joins": []
+    },
+    {
+      "association": "associated_area",
+      "context_id": "sealcraft121",
+      "reported_exposure": "rival_craft_comparison_candidate",
+      "same_locus_catalogue_candidates_NOT_joins": [
+        "LI.1",
+        "LI.2",
+        "LI.8"
+      ]
+    },
+    {
+      "association": "stratum_near_locus",
+      "context_id": "paste_near171",
+      "reported_exposure": "rival_craft_possible",
+      "same_locus_catalogue_candidates_NOT_joins": []
+    },
+    {
+      "association": "unnamed_rooms",
+      "context_id": "harappaIII_unnamed",
+      "reported_exposure": "reported_bead_production_unlocated",
+      "same_locus_catalogue_candidates_NOT_joins": []
+    },
+    {
+      "association": "aggregate_report",
+      "context_id": "harappaII_summary",
+      "reported_exposure": "reported_bead_production_unresolved_summary",
+      "same_locus_catalogue_candidates_NOT_joins": [
+        "LI.15",
+        "LI.29"
+      ]
+    },
+    {
+      "association": "aggregate_report",
+      "context_id": "raw_material_summary",
+      "reported_exposure": "reported_raw_material_unresolved_summary",
+      "same_locus_catalogue_candidates_NOT_joins": [
+        "LI.15"
+      ]
+    }
+  ],
+  "eligibility_decision_before_new_sign_counts": true,
+  "input_sha256": {
+    "data/processed/chanhu_deposit_exposure_review.json": "6080397342ff13ce5e0031d2115f776d0ee10dfc82975d4c9dd7b3af93545f33",
+    "data/processed/chanhu_deposit_seal_register.json": "8da9684265a7094abf5505134f1053814d3f6032ed8fa04f8e13d02c398ca081",
+    "data/processed/chanhu_primary_review.json": "55d1ca7e7298d81ba570c4167bdbfcdc064fd0df4ac80de6ed3dd9cc3f460c16",
+    "docs/CHANHU_DEPOSIT_PROTOCOL.md": "99b84ec62c519c2b1e212a99fa116a2f31f660e50dbef6e71e555a161c43330d",
+    "docs/CHANHU_DEPOSIT_TEST_DESIGN_REVIEW.md": "38e5775b9bfc2496b3cf701d1aa44ab65c12e8f6572f517eb12021cb927f005f",
+    "docs/CHANHU_WORKSHOP_CONTEXT_REVIEW.md": "d20a728528d23e618253c1741b6ef3ddb13743e1b6a9860b20da5e6a50cec055"
+  },
+  "limits": [
+    "D? means unresolved association/reporting/phase, not absence of production.",
+    "The narrative screen is not an exhaustive reanalysis of every framed locus; unreviewed or uncertain records remain explicit.",
+    "No test statistic computed: there are no secured phase/deposit/reporting strata containing both exposure classes.",
+    "A broader building/vicinity analysis requires a separate declared assumption set; it is not disproved by this strict gate.",
+    "215/286/297 cannot be counted as three independent production complexes."
+  ],
+  "rows": [
+    {
+      "context_locator_candidates_NOT_deposit_joins": [
+        "sealcraft121"
+      ],
+      "elevation_ft": 8.8,
+      "eligible_for_strict_matched_test_now": false,
+      "excavation_number": "3198",
+      "locus": "121",
+      "potential_dependence_block": null,
+      "primary_row": "LI.1",
+      "reason": "Catalogue position and any same-locus narrative lead do not yet establish a phase-compatible deposit assemblage.",
+      "reviewed_association_tier": "no_secured_deposit_join_in_current_review",
+      "sign_outcome": null,
+      "strict_deposit_exposure": "D?"
+    },
+    {
+      "context_locator_candidates_NOT_deposit_joins": [
+        "sealcraft121"
+      ],
+      "elevation_ft": 7.8,
+      "eligible_for_strict_matched_test_now": false,
+      "excavation_number": "3052",
+      "locus": "121",
+      "potential_dependence_block": null,
+      "primary_row": "LI.2",
+      "reason": "Catalogue position and any same-locus narrative lead do not yet establish a phase-compatible deposit assemblage.",
+      "reviewed_association_tier": "no_secured_deposit_join_in_current_review",
+      "sign_outcome": null,
+      "strict_deposit_exposure": "D?"
+    },
+    {
+      "context_locator_candidates_NOT_deposit_joins": [],
+      "elevation_ft": -5.7,
+      "eligible_for_strict_matched_test_now": false,
+      "excavation_number": "594",
+      "locus": "56",
+      "potential_dependence_block": null,
+      "primary_row": "LI.3",
+      "reason": "Catalogue position and any same-locus narrative lead do not yet establish a phase-compatible deposit assemblage.",
+      "reviewed_association_tier": "no_secured_deposit_join_in_current_review",
+      "sign_outcome": null,
+      "strict_deposit_exposure": "D?"
+    },
+    {
+      "context_locator_candidates_NOT_deposit_joins": [],
+      "elevation_ft": 0.8,
+      "eligible_for_strict_matched_test_now": false,
+      "excavation_number": "518",
+      "locus": "56",
+      "potential_dependence_block": null,
+      "primary_row": "LI.4",
+      "reason": "Catalogue position and any same-locus narrative lead do not yet establish a phase-compatible deposit assemblage.",
+      "reviewed_association_tier": "no_secured_deposit_join_in_current_review",
+      "sign_outcome": null,
+      "strict_deposit_exposure": "D?"
+    },
+    {
+      "context_locator_candidates_NOT_deposit_joins": [],
+      "elevation_ft": -1.1,
+      "eligible_for_strict_matched_test_now": false,
+      "excavation_number": "4770",
+      "locus": "410",
+      "potential_dependence_block": null,
+      "primary_row": "LI.5",
+      "reason": "Catalogue position and any same-locus narrative lead do not yet establish a phase-compatible deposit assemblage.",
+      "reviewed_association_tier": "no_secured_deposit_join_in_current_review",
+      "sign_outcome": null,
+      "strict_deposit_exposure": "D?"
+    },
+    {
+      "context_locator_candidates_NOT_deposit_joins": [],
+      "elevation_ft": 7.0,
+      "eligible_for_strict_matched_test_now": false,
+      "excavation_number": "3737",
+      "locus": "459",
+      "potential_dependence_block": null,
+      "primary_row": "LI.6",
+      "reason": "Catalogue position and any same-locus narrative lead do not yet establish a phase-compatible deposit assemblage.",
+      "reviewed_association_tier": "no_secured_deposit_join_in_current_review",
+      "sign_outcome": null,
+      "strict_deposit_exposure": "D?"
+    },
+    {
+      "context_locator_candidates_NOT_deposit_joins": [],
+      "elevation_ft": 6.9,
+      "eligible_for_strict_matched_test_now": false,
+      "excavation_number": "3200",
+      "locus": "344",
+      "potential_dependence_block": null,
+      "primary_row": "LI.7",
+      "reason": "Catalogue position and any same-locus narrative lead do not yet establish a phase-compatible deposit assemblage.",
+      "reviewed_association_tier": "no_secured_deposit_join_in_current_review",
+      "sign_outcome": null,
+      "strict_deposit_exposure": "D?"
+    },
+    {
+      "context_locator_candidates_NOT_deposit_joins": [
+        "sealcraft121"
+      ],
+      "elevation_ft": 7.8,
+      "eligible_for_strict_matched_test_now": false,
+      "excavation_number": "3159",
+      "locus": "121",
+      "potential_dependence_block": null,
+      "primary_row": "LI.8",
+      "reason": "Catalogue position and any same-locus narrative lead do not yet establish a phase-compatible deposit assemblage.",
+      "reviewed_association_tier": "no_secured_deposit_join_in_current_review",
+      "sign_outcome": null,
+      "strict_deposit_exposure": "D?"
+    },
+    {
+      "context_locator_candidates_NOT_deposit_joins": [],
+      "elevation_ft": 12.2,
+      "eligible_for_strict_matched_test_now": false,
+      "excavation_number": "2000",
+      "locus": "223",
+      "potential_dependence_block": null,
+      "primary_row": "LI.9",
+      "reason": "Catalogue position and any same-locus narrative lead do not yet establish a phase-compatible deposit assemblage.",
+      "reviewed_association_tier": "no_secured_deposit_join_in_current_review",
+      "sign_outcome": null,
+      "strict_deposit_exposure": "D?"
+    },
+    {
+      "context_locator_candidates_NOT_deposit_joins": [],
+      "elevation_ft": 13.1,
+      "eligible_for_strict_matched_test_now": false,
+      "excavation_number": "4767",
+      "locus": "47",
+      "potential_dependence_block": null,
+      "primary_row": "LI.10",
+      "reason": "Catalogue position and any same-locus narrative lead do not yet establish a phase-compatible deposit assemblage.",
+      "reviewed_association_tier": "no_secured_deposit_join_in_current_review",
+      "sign_outcome": null,
+      "strict_deposit_exposure": "D?"
+    },
+    {
+      "context_locator_candidates_NOT_deposit_joins": [],
+      "elevation_ft": 7.2,
+      "eligible_for_strict_matched_test_now": false,
+      "excavation_number": "3485, b",
+      "locus": "231",
+      "potential_dependence_block": null,
+      "primary_row": "LI.11",
+      "reason": "Catalogue position and any same-locus narrative lead do not yet establish a phase-compatible deposit assemblage.",
+      "reviewed_association_tier": "no_secured_deposit_join_in_current_review",
+      "sign_outcome": null,
+      "strict_deposit_exposure": "D?"
+    },
+    {
+      "context_locator_candidates_NOT_deposit_joins": [],
+      "elevation_ft": 7.0,
+      "eligible_for_strict_matched_test_now": false,
+      "excavation_number": "3493",
+      "locus": "240",
+      "potential_dependence_block": null,
+      "primary_row": "LI.12",
+      "reason": "Catalogue position and any same-locus narrative lead do not yet establish a phase-compatible deposit assemblage.",
+      "reviewed_association_tier": "no_secured_deposit_join_in_current_review",
+      "sign_outcome": null,
+      "strict_deposit_exposure": "D?"
+    },
+    {
+      "context_locator_candidates_NOT_deposit_joins": [],
+      "elevation_ft": 6.8,
+      "eligible_for_strict_matched_test_now": false,
+      "excavation_number": "3148",
+      "locus": "113",
+      "potential_dependence_block": null,
+      "primary_row": "LI.13",
+      "reason": "Catalogue position and any same-locus narrative lead do not yet establish a phase-compatible deposit assemblage.",
+      "reviewed_association_tier": "no_secured_deposit_join_in_current_review",
+      "sign_outcome": null,
+      "strict_deposit_exposure": "D?"
+    },
+    {
+      "context_locator_candidates_NOT_deposit_joins": [],
+      "elevation_ft": 6.9,
+      "eligible_for_strict_matched_test_now": false,
+      "excavation_number": "3215",
+      "locus": "283",
+      "potential_dependence_block": "442-vicinity",
+      "primary_row": "LI.14",
+      "reason": "Bath vicinity in narrative; seal catalogue locus283 +6.9 ft; square discrepancy also retained.",
+      "reviewed_association_tier": "lower_evidence_comparison_candidate",
+      "sign_outcome": null,
+      "strict_deposit_exposure": "D?"
+    },
+    {
+      "context_locator_candidates_NOT_deposit_joins": [
+        "harappaII_summary",
+        "raw_material_summary"
+      ],
+      "elevation_ft": 10.4,
+      "eligible_for_strict_matched_test_now": false,
+      "excavation_number": "2285",
+      "locus": "215",
+      "potential_dependence_block": "215/286/297",
+      "primary_row": "LI.15",
+      "reason": "Seal room-list +10.4 ft; bead floor +9.3 ft. Same room does not establish same floor event.",
+      "reviewed_association_tier": "associated_production_complex",
+      "sign_outcome": null,
+      "strict_deposit_exposure": "D?"
+    },
+    {
+      "context_locator_candidates_NOT_deposit_joins": [],
+      "elevation_ft": 6.5,
+      "eligible_for_strict_matched_test_now": false,
+      "excavation_number": "3049",
+      "locus": "115",
+      "potential_dependence_block": null,
+      "primary_row": "LI.16",
+      "reason": "Catalogue position and any same-locus narrative lead do not yet establish a phase-compatible deposit assemblage.",
+      "reviewed_association_tier": "no_secured_deposit_join_in_current_review",
+      "sign_outcome": null,
+      "strict_deposit_exposure": "D?"
+    },
+    {
+      "context_locator_candidates_NOT_deposit_joins": [],
+      "elevation_ft": 7.5,
+      "eligible_for_strict_matched_test_now": false,
+      "excavation_number": "3495",
+      "locus": "98",
+      "potential_dependence_block": null,
+      "primary_row": "LI.17",
+      "reason": "Catalogue position and any same-locus narrative lead do not yet establish a phase-compatible deposit assemblage.",
+      "reviewed_association_tier": "no_secured_deposit_join_in_current_review",
+      "sign_outcome": null,
+      "strict_deposit_exposure": "D?"
+    },
+    {
+      "context_locator_candidates_NOT_deposit_joins": [],
+      "elevation_ft": -7.1,
+      "eligible_for_strict_matched_test_now": false,
+      "excavation_number": "926",
+      "locus": "34",
+      "potential_dependence_block": null,
+      "primary_row": "LI.18",
+      "reason": "Catalogue position and any same-locus narrative lead do not yet establish a phase-compatible deposit assemblage.",
+      "reviewed_association_tier": "no_secured_deposit_join_in_current_review",
+      "sign_outcome": null,
+      "strict_deposit_exposure": "D?"
+    },
+    {
+      "context_locator_candidates_NOT_deposit_joins": [],
+      "elevation_ft": 8.0,
+      "eligible_for_strict_matched_test_now": false,
+      "excavation_number": "2845",
+      "locus": "405",
+      "potential_dependence_block": null,
+      "primary_row": "LI.19",
+      "reason": "Catalogue position and any same-locus narrative lead do not yet establish a phase-compatible deposit assemblage.",
+      "reviewed_association_tier": "no_secured_deposit_join_in_current_review",
+      "sign_outcome": null,
+      "strict_deposit_exposure": "D?"
+    },
+    {
+      "context_locator_candidates_NOT_deposit_joins": [],
+      "elevation_ft": 9.9,
+      "eligible_for_strict_matched_test_now": false,
+      "excavation_number": "2594, h",
+      "locus": "228",
+      "potential_dependence_block": null,
+      "primary_row": "LI.20",
+      "reason": "Catalogue position and any same-locus narrative lead do not yet establish a phase-compatible deposit assemblage.",
+      "reviewed_association_tier": "no_secured_deposit_join_in_current_review",
+      "sign_outcome": null,
+      "strict_deposit_exposure": "D?"
+    },
+    {
+      "context_locator_candidates_NOT_deposit_joins": [],
+      "elevation_ft": -4.1,
+      "eligible_for_strict_matched_test_now": false,
+      "excavation_number": "1269",
+      "locus": "65",
+      "potential_dependence_block": null,
+      "primary_row": "LI.21",
+      "reason": "Catalogue position and any same-locus narrative lead do not yet establish a phase-compatible deposit assemblage.",
+      "reviewed_association_tier": "no_secured_deposit_join_in_current_review",
+      "sign_outcome": null,
+      "strict_deposit_exposure": "D?"
+    },
+    {
+      "context_locator_candidates_NOT_deposit_joins": [
+        "bath442"
+      ],
+      "elevation_ft": 7.7,
+      "eligible_for_strict_matched_test_now": false,
+      "excavation_number": "3207",
+      "locus": "442",
+      "potential_dependence_block": "442-vicinity",
+      "primary_row": "LI.22",
+      "reason": "Bath floor +6.7 ft; seal catalogue +7.7 ft. Narrative says vicinity/near level, not floor deposition.",
+      "reviewed_association_tier": "lower_evidence_comparison_candidate",
+      "sign_outcome": null,
+      "strict_deposit_exposure": "D?"
+    },
+    {
+      "context_locator_candidates_NOT_deposit_joins": [],
+      "elevation_ft": 9.4,
+      "eligible_for_strict_matched_test_now": false,
+      "excavation_number": "2532",
+      "locus": "122",
+      "potential_dependence_block": null,
+      "primary_row": "LI.23",
+      "reason": "Catalogue position and any same-locus narrative lead do not yet establish a phase-compatible deposit assemblage.",
+      "reviewed_association_tier": "no_secured_deposit_join_in_current_review",
+      "sign_outcome": null,
+      "strict_deposit_exposure": "D?"
+    },
+    {
+      "context_locator_candidates_NOT_deposit_joins": [],
+      "elevation_ft": 8.1,
+      "eligible_for_strict_matched_test_now": false,
+      "excavation_number": "3051",
+      "locus": "211",
+      "potential_dependence_block": null,
+      "primary_row": "LI.24",
+      "reason": "Catalogue position and any same-locus narrative lead do not yet establish a phase-compatible deposit assemblage.",
+      "reviewed_association_tier": "no_secured_deposit_join_in_current_review",
+      "sign_outcome": null,
+      "strict_deposit_exposure": "D?"
+    },
+    {
+      "context_locator_candidates_NOT_deposit_joins": [],
+      "elevation_ft": 14.1,
+      "eligible_for_strict_matched_test_now": false,
+      "excavation_number": "3817",
+      "locus": "26",
+      "potential_dependence_block": null,
+      "primary_row": "LI.25",
+      "reason": "Catalogue position and any same-locus narrative lead do not yet establish a phase-compatible deposit assemblage.",
+      "reviewed_association_tier": "no_secured_deposit_join_in_current_review",
+      "sign_outcome": null,
+      "strict_deposit_exposure": "D?"
+    },
+    {
+      "context_locator_candidates_NOT_deposit_joins": [],
+      "elevation_ft": 7.3,
+      "eligible_for_strict_matched_test_now": false,
+      "excavation_number": "3043",
+      "locus": "430",
+      "potential_dependence_block": null,
+      "primary_row": "LI.26",
+      "reason": "Catalogue position and any same-locus narrative lead do not yet establish a phase-compatible deposit assemblage.",
+      "reviewed_association_tier": "no_secured_deposit_join_in_current_review",
+      "sign_outcome": null,
+      "strict_deposit_exposure": "D?"
+    },
+    {
+      "context_locator_candidates_NOT_deposit_joins": [],
+      "elevation_ft": 7.6,
+      "eligible_for_strict_matched_test_now": false,
+      "excavation_number": "3045",
+      "locus": "177",
+      "potential_dependence_block": null,
+      "primary_row": "LI.27",
+      "reason": "Catalogue position and any same-locus narrative lead do not yet establish a phase-compatible deposit assemblage.",
+      "reviewed_association_tier": "no_secured_deposit_join_in_current_review",
+      "sign_outcome": null,
+      "strict_deposit_exposure": "D?"
+    },
+    {
+      "context_locator_candidates_NOT_deposit_joins": [],
+      "elevation_ft": 9.3,
+      "eligible_for_strict_matched_test_now": false,
+      "excavation_number": "2293",
+      "locus": "261",
+      "potential_dependence_block": null,
+      "primary_row": "LI.28",
+      "reason": "Catalogue position and any same-locus narrative lead do not yet establish a phase-compatible deposit assemblage.",
+      "reviewed_association_tier": "no_secured_deposit_join_in_current_review",
+      "sign_outcome": null,
+      "strict_deposit_exposure": "D?"
+    },
+    {
+      "context_locator_candidates_NOT_deposit_joins": [
+        "harappaII_summary"
+      ],
+      "elevation_ft": 10.0,
+      "eligible_for_strict_matched_test_now": false,
+      "excavation_number": "2297",
+      "locus": "174",
+      "potential_dependence_block": "174",
+      "primary_row": "LI.29",
+      "reason": "Catalogue +10.0 ft conflicts with narrative below beads +6.8 ft; do not select one silently.",
+      "reviewed_association_tier": "production_context_level_conflict",
+      "sign_outcome": null,
+      "strict_deposit_exposure": "D?"
+    },
+    {
+      "context_locator_candidates_NOT_deposit_joins": [],
+      "elevation_ft": 7.2,
+      "eligible_for_strict_matched_test_now": false,
+      "excavation_number": "3485, a",
+      "locus": "231",
+      "potential_dependence_block": null,
+      "primary_row": "LI.30",
+      "reason": "Catalogue position and any same-locus narrative lead do not yet establish a phase-compatible deposit assemblage.",
+      "reviewed_association_tier": "no_secured_deposit_join_in_current_review",
+      "sign_outcome": null,
+      "strict_deposit_exposure": "D?"
+    },
+    {
+      "context_locator_candidates_NOT_deposit_joins": [],
+      "elevation_ft": 14.9,
+      "eligible_for_strict_matched_test_now": false,
+      "excavation_number": "1293",
+      "locus": "97",
+      "potential_dependence_block": null,
+      "primary_row": "LI.31",
+      "reason": "Catalogue position and any same-locus narrative lead do not yet establish a phase-compatible deposit assemblage.",
+      "reviewed_association_tier": "no_secured_deposit_join_in_current_review",
+      "sign_outcome": null,
+      "strict_deposit_exposure": "D?"
+    },
+    {
+      "context_locator_candidates_NOT_deposit_joins": [],
+      "elevation_ft": 10.9,
+      "eligible_for_strict_matched_test_now": false,
+      "excavation_number": "2361",
+      "locus": "227",
+      "potential_dependence_block": null,
+      "primary_row": "LI.32",
+      "reason": "Catalogue position and any same-locus narrative lead do not yet establish a phase-compatible deposit assemblage.",
+      "reviewed_association_tier": "no_secured_deposit_join_in_current_review",
+      "sign_outcome": null,
+      "strict_deposit_exposure": "D?"
+    },
+    {
+      "context_locator_candidates_NOT_deposit_joins": [],
+      "elevation_ft": 9.5,
+      "eligible_for_strict_matched_test_now": false,
+      "excavation_number": "2462",
+      "locus": "82",
+      "potential_dependence_block": null,
+      "primary_row": "LI.33",
+      "reason": "Catalogue position and any same-locus narrative lead do not yet establish a phase-compatible deposit assemblage.",
+      "reviewed_association_tier": "no_secured_deposit_join_in_current_review",
+      "sign_outcome": null,
+      "strict_deposit_exposure": "D?"
+    },
+    {
+      "context_locator_candidates_NOT_deposit_joins": [],
+      "elevation_ft": 8.9,
+      "eligible_for_strict_matched_test_now": false,
+      "excavation_number": "2597",
+      "locus": "192",
+      "potential_dependence_block": null,
+      "primary_row": "LII.1",
+      "reason": "Catalogue position and any same-locus narrative lead do not yet establish a phase-compatible deposit assemblage.",
+      "reviewed_association_tier": "no_secured_deposit_join_in_current_review",
+      "sign_outcome": null,
+      "strict_deposit_exposure": "D?"
+    },
+    {
+      "context_locator_candidates_NOT_deposit_joins": [],
+      "elevation_ft": 8.0,
+      "eligible_for_strict_matched_test_now": false,
+      "excavation_number": "2848",
+      "locus": "425",
+      "potential_dependence_block": null,
+      "primary_row": "LII.2",
+      "reason": "Catalogue position and any same-locus narrative lead do not yet establish a phase-compatible deposit assemblage.",
+      "reviewed_association_tier": "no_secured_deposit_join_in_current_review",
+      "sign_outcome": null,
+      "strict_deposit_exposure": "D?"
+    },
+    {
+      "context_locator_candidates_NOT_deposit_joins": [],
+      "elevation_ft": 7.1,
+      "eligible_for_strict_matched_test_now": false,
+      "excavation_number": "3359",
+      "locus": "110",
+      "potential_dependence_block": null,
+      "primary_row": "LII.3",
+      "reason": "Catalogue position and any same-locus narrative lead do not yet establish a phase-compatible deposit assemblage.",
+      "reviewed_association_tier": "no_secured_deposit_join_in_current_review",
+      "sign_outcome": null,
+      "strict_deposit_exposure": "D?"
+    },
+    {
+      "context_locator_candidates_NOT_deposit_joins": [],
+      "elevation_ft": 8.1,
+      "eligible_for_strict_matched_test_now": false,
+      "excavation_number": "3168",
+      "locus": "211",
+      "potential_dependence_block": null,
+      "primary_row": "LII.4",
+      "reason": "Catalogue position and any same-locus narrative lead do not yet establish a phase-compatible deposit assemblage.",
+      "reviewed_association_tier": "no_secured_deposit_join_in_current_review",
+      "sign_outcome": null,
+      "strict_deposit_exposure": "D?"
+    },
+    {
+      "context_locator_candidates_NOT_deposit_joins": [],
+      "elevation_ft": -2.8,
+      "eligible_for_strict_matched_test_now": false,
+      "excavation_number": "4852",
+      "locus": "469",
+      "potential_dependence_block": null,
+      "primary_row": "LII.5",
+      "reason": "Catalogue position and any same-locus narrative lead do not yet establish a phase-compatible deposit assemblage.",
+      "reviewed_association_tier": "no_secured_deposit_join_in_current_review",
+      "sign_outcome": null,
+      "strict_deposit_exposure": "D?"
+    },
+    {
+      "context_locator_candidates_NOT_deposit_joins": [],
+      "elevation_ft": 9.9,
+      "eligible_for_strict_matched_test_now": false,
+      "excavation_number": "2390",
+      "locus": "235",
+      "potential_dependence_block": "235-near284",
+      "primary_row": "LII.6",
+      "reason": "Seal235 +9.9 ft is nearby, not inside metalhoard284 +9.5 ft.",
+      "reviewed_association_tier": "alternative_craft_vicinity_only",
+      "sign_outcome": null,
+      "strict_deposit_exposure": "D?"
+    },
+    {
+      "context_locator_candidates_NOT_deposit_joins": [],
+      "elevation_ft": 14.8,
+      "eligible_for_strict_matched_test_now": false,
+      "excavation_number": "4327",
+      "locus": "20",
+      "potential_dependence_block": null,
+      "primary_row": "LII.7",
+      "reason": "Catalogue position and any same-locus narrative lead do not yet establish a phase-compatible deposit assemblage.",
+      "reviewed_association_tier": "no_secured_deposit_join_in_current_review",
+      "sign_outcome": null,
+      "strict_deposit_exposure": "D?"
+    },
+    {
+      "context_locator_candidates_NOT_deposit_joins": [],
+      "elevation_ft": 16.8,
+      "eligible_for_strict_matched_test_now": false,
+      "excavation_number": "3886",
+      "locus": "6",
+      "potential_dependence_block": null,
+      "primary_row": "LII.8",
+      "reason": "Catalogue position and any same-locus narrative lead do not yet establish a phase-compatible deposit assemblage.",
+      "reviewed_association_tier": "no_secured_deposit_join_in_current_review",
+      "sign_outcome": null,
+      "strict_deposit_exposure": "D?"
+    },
+    {
+      "context_locator_candidates_NOT_deposit_joins": [],
+      "elevation_ft": -0.1,
+      "eligible_for_strict_matched_test_now": false,
+      "excavation_number": "950",
+      "locus": "73",
+      "potential_dependence_block": null,
+      "primary_row": "LII.9",
+      "reason": "Catalogue position and any same-locus narrative lead do not yet establish a phase-compatible deposit assemblage.",
+      "reviewed_association_tier": "no_secured_deposit_join_in_current_review",
+      "sign_outcome": null,
+      "strict_deposit_exposure": "D?"
+    },
+    {
+      "context_locator_candidates_NOT_deposit_joins": [],
+      "elevation_ft": 6.9,
+      "eligible_for_strict_matched_test_now": false,
+      "excavation_number": "3326",
+      "locus": "385",
+      "potential_dependence_block": null,
+      "primary_row": "LII.10",
+      "reason": "Catalogue position and any same-locus narrative lead do not yet establish a phase-compatible deposit assemblage.",
+      "reviewed_association_tier": "no_secured_deposit_join_in_current_review",
+      "sign_outcome": null,
+      "strict_deposit_exposure": "D?"
+    },
+    {
+      "context_locator_candidates_NOT_deposit_joins": [],
+      "elevation_ft": 6.9,
+      "eligible_for_strict_matched_test_now": false,
+      "excavation_number": "3206",
+      "locus": "204",
+      "potential_dependence_block": null,
+      "primary_row": "LII.11",
+      "reason": "Catalogue position and any same-locus narrative lead do not yet establish a phase-compatible deposit assemblage.",
+      "reviewed_association_tier": "no_secured_deposit_join_in_current_review",
+      "sign_outcome": null,
+      "strict_deposit_exposure": "D?"
+    },
+    {
+      "context_locator_candidates_NOT_deposit_joins": [],
+      "elevation_ft": 8.8,
+      "eligible_for_strict_matched_test_now": false,
+      "excavation_number": "2558",
+      "locus": "106",
+      "potential_dependence_block": null,
+      "primary_row": "LII.12",
+      "reason": "Catalogue position and any same-locus narrative lead do not yet establish a phase-compatible deposit assemblage.",
+      "reviewed_association_tier": "no_secured_deposit_join_in_current_review",
+      "sign_outcome": null,
+      "strict_deposit_exposure": "D?"
+    },
+    {
+      "context_locator_candidates_NOT_deposit_joins": [],
+      "elevation_ft": 6.8,
+      "eligible_for_strict_matched_test_now": false,
+      "excavation_number": "2603",
+      "locus": "362",
+      "potential_dependence_block": null,
+      "primary_row": "LII.13",
+      "reason": "Catalogue position and any same-locus narrative lead do not yet establish a phase-compatible deposit assemblage.",
+      "reviewed_association_tier": "no_secured_deposit_join_in_current_review",
+      "sign_outcome": null,
+      "strict_deposit_exposure": "D?"
+    },
+    {
+      "context_locator_candidates_NOT_deposit_joins": [],
+      "elevation_ft": 9.0,
+      "eligible_for_strict_matched_test_now": false,
+      "excavation_number": "2426",
+      "locus": "199",
+      "potential_dependence_block": null,
+      "primary_row": "LII.14",
+      "reason": "Catalogue position and any same-locus narrative lead do not yet establish a phase-compatible deposit assemblage.",
+      "reviewed_association_tier": "no_secured_deposit_join_in_current_review",
+      "sign_outcome": null,
+      "strict_deposit_exposure": "D?"
+    },
+    {
+      "context_locator_candidates_NOT_deposit_joins": [],
+      "elevation_ft": 9.6,
+      "eligible_for_strict_matched_test_now": false,
+      "excavation_number": "2531",
+      "locus": "178",
+      "potential_dependence_block": null,
+      "primary_row": "LII.15",
+      "reason": "Catalogue position and any same-locus narrative lead do not yet establish a phase-compatible deposit assemblage.",
+      "reviewed_association_tier": "no_secured_deposit_join_in_current_review",
+      "sign_outcome": null,
+      "strict_deposit_exposure": "D?"
+    },
+    {
+      "context_locator_candidates_NOT_deposit_joins": [],
+      "elevation_ft": 15.4,
+      "eligible_for_strict_matched_test_now": false,
+      "excavation_number": "1393",
+      "locus": "83",
+      "potential_dependence_block": null,
+      "primary_row": "LII.16",
+      "reason": "Catalogue position and any same-locus narrative lead do not yet establish a phase-compatible deposit assemblage.",
+      "reviewed_association_tier": "no_secured_deposit_join_in_current_review",
+      "sign_outcome": null,
+      "strict_deposit_exposure": "D?"
+    },
+    {
+      "context_locator_candidates_NOT_deposit_joins": [],
+      "elevation_ft": 13.5,
+      "eligible_for_strict_matched_test_now": false,
+      "excavation_number": "4960",
+      "locus": "9",
+      "potential_dependence_block": null,
+      "primary_row": "LII.17",
+      "reason": "Catalogue position and any same-locus narrative lead do not yet establish a phase-compatible deposit assemblage.",
+      "reviewed_association_tier": "no_secured_deposit_join_in_current_review",
+      "sign_outcome": null,
+      "strict_deposit_exposure": "D?"
+    },
+    {
+      "context_locator_candidates_NOT_deposit_joins": [],
+      "elevation_ft": 7.7,
+      "eligible_for_strict_matched_test_now": false,
+      "excavation_number": "3154",
+      "locus": "395",
+      "potential_dependence_block": null,
+      "primary_row": "LII.18",
+      "reason": "Catalogue position and any same-locus narrative lead do not yet establish a phase-compatible deposit assemblage.",
+      "reviewed_association_tier": "no_secured_deposit_join_in_current_review",
+      "sign_outcome": null,
+      "strict_deposit_exposure": "D?"
+    },
+    {
+      "context_locator_candidates_NOT_deposit_joins": [],
+      "elevation_ft": 9.7,
+      "eligible_for_strict_matched_test_now": false,
+      "excavation_number": "2428",
+      "locus": "286",
+      "potential_dependence_block": "215/286/297",
+      "primary_row": "LII.19",
+      "reason": "Passage 286 floor at +9.7 ft; production attributed to adjoining complex, not this exact floor assemblage.",
+      "reviewed_association_tier": "associated_production_complex",
+      "sign_outcome": null,
+      "strict_deposit_exposure": "D?"
+    },
+    {
+      "context_locator_candidates_NOT_deposit_joins": [],
+      "elevation_ft": 9.5,
+      "eligible_for_strict_matched_test_now": false,
+      "excavation_number": "2559",
+      "locus": "296",
+      "potential_dependence_block": null,
+      "primary_row": "LII.20",
+      "reason": "Catalogue position and any same-locus narrative lead do not yet establish a phase-compatible deposit assemblage.",
+      "reviewed_association_tier": "no_secured_deposit_join_in_current_review",
+      "sign_outcome": null,
+      "strict_deposit_exposure": "D?"
+    },
+    {
+      "context_locator_candidates_NOT_deposit_joins": [],
+      "elevation_ft": 11.1,
+      "eligible_for_strict_matched_test_now": false,
+      "excavation_number": "2358",
+      "locus": "152",
+      "potential_dependence_block": null,
+      "primary_row": "LII.21",
+      "reason": "Catalogue position and any same-locus narrative lead do not yet establish a phase-compatible deposit assemblage.",
+      "reviewed_association_tier": "no_secured_deposit_join_in_current_review",
+      "sign_outcome": null,
+      "strict_deposit_exposure": "D?"
+    },
+    {
+      "context_locator_candidates_NOT_deposit_joins": [],
+      "elevation_ft": 9.3,
+      "eligible_for_strict_matched_test_now": false,
+      "excavation_number": "2595",
+      "locus": "164",
+      "potential_dependence_block": null,
+      "primary_row": "LII.22",
+      "reason": "Catalogue position and any same-locus narrative lead do not yet establish a phase-compatible deposit assemblage.",
+      "reviewed_association_tier": "no_secured_deposit_join_in_current_review",
+      "sign_outcome": null,
+      "strict_deposit_exposure": "D?"
+    },
+    {
+      "context_locator_candidates_NOT_deposit_joins": [],
+      "elevation_ft": 10.4,
+      "eligible_for_strict_matched_test_now": false,
+      "excavation_number": "2529, CC",
+      "locus": "297",
+      "potential_dependence_block": "215/286/297",
+      "primary_row": "LII.23",
+      "reason": "Courtyard spread +10.4 ft; unfinished beads reported in courtyard, but their event/level is not independently joined.",
+      "reviewed_association_tier": "associated_production_complex",
+      "sign_outcome": null,
+      "strict_deposit_exposure": "D?"
+    },
+    {
+      "context_locator_candidates_NOT_deposit_joins": [],
+      "elevation_ft": 8.4,
+      "eligible_for_strict_matched_test_now": false,
+      "excavation_number": "2605",
+      "locus": "159",
+      "potential_dependence_block": null,
+      "primary_row": "LII.24",
+      "reason": "Catalogue position and any same-locus narrative lead do not yet establish a phase-compatible deposit assemblage.",
+      "reviewed_association_tier": "no_secured_deposit_join_in_current_review",
+      "sign_outcome": null,
+      "strict_deposit_exposure": "D?"
+    },
+    {
+      "context_locator_candidates_NOT_deposit_joins": [],
+      "elevation_ft": 14.4,
+      "eligible_for_strict_matched_test_now": false,
+      "excavation_number": "4596",
+      "locus": "2",
+      "potential_dependence_block": null,
+      "primary_row": "LII.25",
+      "reason": "Catalogue position and any same-locus narrative lead do not yet establish a phase-compatible deposit assemblage.",
+      "reviewed_association_tier": "no_secured_deposit_join_in_current_review",
+      "sign_outcome": null,
+      "strict_deposit_exposure": "D?"
+    },
+    {
+      "context_locator_candidates_NOT_deposit_joins": [],
+      "elevation_ft": 10.5,
+      "eligible_for_strict_matched_test_now": false,
+      "excavation_number": "2467",
+      "locus": "151",
+      "potential_dependence_block": null,
+      "primary_row": "LII.26",
+      "reason": "Catalogue position and any same-locus narrative lead do not yet establish a phase-compatible deposit assemblage.",
+      "reviewed_association_tier": "no_secured_deposit_join_in_current_review",
+      "sign_outcome": null,
+      "strict_deposit_exposure": "D?"
+    },
+    {
+      "context_locator_candidates_NOT_deposit_joins": [],
+      "elevation_ft": 9.8,
+      "eligible_for_strict_matched_test_now": false,
+      "excavation_number": "2468",
+      "locus": "189",
+      "potential_dependence_block": null,
+      "primary_row": "LII.27",
+      "reason": "Catalogue position and any same-locus narrative lead do not yet establish a phase-compatible deposit assemblage.",
+      "reviewed_association_tier": "no_secured_deposit_join_in_current_review",
+      "sign_outcome": null,
+      "strict_deposit_exposure": "D?"
+    },
+    {
+      "context_locator_candidates_NOT_deposit_joins": [],
+      "elevation_ft": 6.7,
+      "eligible_for_strict_matched_test_now": false,
+      "excavation_number": "3318",
+      "locus": "423",
+      "potential_dependence_block": null,
+      "primary_row": "LII.28",
+      "reason": "Catalogue position and any same-locus narrative lead do not yet establish a phase-compatible deposit assemblage.",
+      "reviewed_association_tier": "no_secured_deposit_join_in_current_review",
+      "sign_outcome": null,
+      "strict_deposit_exposure": "D?"
+    },
+    {
+      "context_locator_candidates_NOT_deposit_joins": [],
+      "elevation_ft": 3.8,
+      "eligible_for_strict_matched_test_now": false,
+      "excavation_number": "3811",
+      "locus": "468",
+      "potential_dependence_block": null,
+      "primary_row": "LII.29",
+      "reason": "Catalogue position and any same-locus narrative lead do not yet establish a phase-compatible deposit assemblage.",
+      "reviewed_association_tier": "no_secured_deposit_join_in_current_review",
+      "sign_outcome": null,
+      "strict_deposit_exposure": "D?"
+    },
+    {
+      "context_locator_candidates_NOT_deposit_joins": [],
+      "elevation_ft": 9.2,
+      "eligible_for_strict_matched_test_now": false,
+      "excavation_number": "2389",
+      "locus": "240",
+      "potential_dependence_block": null,
+      "primary_row": "LII.30",
+      "reason": "Catalogue position and any same-locus narrative lead do not yet establish a phase-compatible deposit assemblage.",
+      "reviewed_association_tier": "no_secured_deposit_join_in_current_review",
+      "sign_outcome": null,
+      "strict_deposit_exposure": "D?"
+    },
+    {
+      "context_locator_candidates_NOT_deposit_joins": [],
+      "elevation_ft": 9.5,
+      "eligible_for_strict_matched_test_now": false,
+      "excavation_number": "2530",
+      "locus": "300",
+      "potential_dependence_block": null,
+      "primary_row": "LII.31",
+      "reason": "Catalogue position and any same-locus narrative lead do not yet establish a phase-compatible deposit assemblage.",
+      "reviewed_association_tier": "no_secured_deposit_join_in_current_review",
+      "sign_outcome": null,
+      "strict_deposit_exposure": "D?"
+    },
+    {
+      "context_locator_candidates_NOT_deposit_joins": [],
+      "elevation_ft": 8.6,
+      "eligible_for_strict_matched_test_now": false,
+      "excavation_number": "3492",
+      "locus": "289",
+      "potential_dependence_block": null,
+      "primary_row": "LII.32",
+      "reason": "Catalogue position and any same-locus narrative lead do not yet establish a phase-compatible deposit assemblage.",
+      "reviewed_association_tier": "no_secured_deposit_join_in_current_review",
+      "sign_outcome": null,
+      "strict_deposit_exposure": "D?"
+    }
+  ],
+  "summary": {
+    "framed_objects": 65,
+    "new_sign_outcomes_examined": 0,
+    "reviewed_association_tiers": {
+      "alternative_craft_vicinity_only": 1,
+      "associated_production_complex": 3,
+      "lower_evidence_comparison_candidate": 2,
+      "no_secured_deposit_join_in_current_review": 58,
+      "production_context_level_conflict": 1
+    },
+    "reviewed_named_seal_associations": 7,
+    "semantic_values_assigned": 0,
+    "status": "No secured matched deposit contrast in the reviewed evidence; broader area-based comparison remains assumption-dependent.",
+    "strict_eligible_objects": 0,
+    "strict_matched_strata": 0
+  },
+  "support_matrix": []
+}

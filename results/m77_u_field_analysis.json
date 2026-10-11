@@ -1,0 +1,1900 @@
+{
+  "candidate_export_discovery_groups": [
+    {
+      "candidate_main": [
+        "M048",
+        "M342",
+        "M176"
+      ],
+      "observed_stroke_counts": [
+        2,
+        3
+      ],
+      "witnesses": [
+        {
+          "field": [
+            "M087",
+            "M328"
+          ],
+          "graphic_count": 2,
+          "pdf_page": 578,
+          "reference": "4548"
+        },
+        {
+          "field": [
+            "M087",
+            "M328"
+          ],
+          "graphic_count": 2,
+          "pdf_page": 579,
+          "reference": "5464"
+        },
+        {
+          "field": [
+            "M089",
+            "M328"
+          ],
+          "graphic_count": 3,
+          "pdf_page": 583,
+          "reference": "4586"
+        },
+        {
+          "field": [
+            "M089",
+            "M328"
+          ],
+          "graphic_count": 3,
+          "pdf_page": 584,
+          "reference": "4387"
+        },
+        {
+          "field": [
+            "M089",
+            "M328"
+          ],
+          "graphic_count": 3,
+          "pdf_page": 584,
+          "reference": "4403"
+        },
+        {
+          "field": [
+            "M089",
+            "M328"
+          ],
+          "graphic_count": 3,
+          "pdf_page": 584,
+          "reference": "4405"
+        },
+        {
+          "field": [
+            "M089",
+            "M328"
+          ],
+          "graphic_count": 3,
+          "pdf_page": 584,
+          "reference": "4509"
+        },
+        {
+          "field": [
+            "M089",
+            "M328"
+          ],
+          "graphic_count": 3,
+          "pdf_page": 584,
+          "reference": "4543"
+        },
+        {
+          "field": [
+            "M089",
+            "M328"
+          ],
+          "graphic_count": 3,
+          "pdf_page": 584,
+          "reference": "4575"
+        },
+        {
+          "field": [
+            "M089",
+            "M328"
+          ],
+          "graphic_count": 3,
+          "pdf_page": 584,
+          "reference": "5407"
+        },
+        {
+          "field": [
+            "M089",
+            "M328"
+          ],
+          "graphic_count": 3,
+          "pdf_page": 584,
+          "reference": "5409"
+        }
+      ]
+    },
+    {
+      "candidate_main": [
+        "M175",
+        "M176",
+        "M211",
+        "M176"
+      ],
+      "observed_stroke_counts": [
+        2,
+        3
+      ],
+      "witnesses": [
+        {
+          "field": [
+            "M087",
+            "M328"
+          ],
+          "graphic_count": 2,
+          "pdf_page": 578,
+          "reference": "5270"
+        },
+        {
+          "field": [
+            "M089",
+            "M328"
+          ],
+          "graphic_count": 3,
+          "pdf_page": 584,
+          "reference": "4684"
+        }
+      ]
+    },
+    {
+      "candidate_main": [
+        "M391",
+        "M099",
+        "M040"
+      ],
+      "observed_stroke_counts": [
+        2,
+        3
+      ],
+      "witnesses": [
+        {
+          "field": [
+            "M087",
+            "M328"
+          ],
+          "graphic_count": 2,
+          "pdf_page": 578,
+          "reference": "4665"
+        },
+        {
+          "field": [
+            "M089",
+            "M328"
+          ],
+          "graphic_count": 3,
+          "pdf_page": 583,
+          "reference": "4601"
+        }
+      ]
+    }
+  ],
+  "counterexample_ledger": "data/processed/m77_u_counterexamples.json",
+  "countermodels": [
+    {
+      "external_calibration": null,
+      "graphic2": "quantity2",
+      "graphic3": "quantity3",
+      "graphic4": "quantity4",
+      "name": "quantity"
+    },
+    {
+      "external_calibration": null,
+      "graphic2": "categoryA",
+      "graphic3": "categoryB",
+      "graphic4": "categoryC",
+      "name": "categorical"
+    }
+  ],
+  "input_sha256": {
+    "data/processed/m77_candidate_records.jsonl": "b29a176da86b125115256a8966c377c3fd9fe39ecaab17bf576b770b83b41bab",
+    "data/processed/m77_u_counterexamples.json": "d7e14e7aec0f10f4ff419a111e3225d93903696a25c6b541bab950f628cf87f7",
+    "data/processed/m77_u_paired_context_review.json": "8ee66771e58c2ef8292c9f5a7446102ed82dc37138fc9becfa644e921e221068",
+    "data/processed/m77_u_pilot_numerals.json": "721d9036fb6d82dfdd14ca1f6671c43f9be165aa44111e3a67d9ee479ed5da02",
+    "data/processed/m77_u_pilot_parent.json": "3399bc7ae3c8a5f811e21da4eab71ba44ee08fc7e0dc0f083d68e451c2c2bab4",
+    "data/processed/m77_u_pilot_structure.json": "6c8f48d81971b3c3162b0275d3d9853743aa653b81fcf47f5489c50300acee76"
+  },
+  "limits": [
+    "Both countermodels can encode exactly the same observed main/auxiliary distribution after relabeling. They are illustrations of non-identifiability, not translations.",
+    "Two, three and four are observed graphic counts; values, units, ordering and arithmetic are not independently fixed.",
+    "Different catalogue reference numbers do not prove independent physical objects; manufacturing groups and duplicate molds remain possible.",
+    "Concordance sorting clusters contexts; no random-sample prevalence or p-value is warranted.",
+    "Selected other-side transcriptions are incomplete; no claim that all matched patterns have been found.",
+    "Secondary export joins remain discovery-only unless separately visually authenticated.",
+    "M328 also occurs solus, initially and medially. This two-sign field is not its universal syntax.",
+    "Primary recovery is from normalized catalogue drawings, not independent autopsy of artifacts."
+  ],
+  "original_metadata_review": [
+    {
+      "actual_direction_both_sides": "1 (right to left)",
+      "auxiliary_code": "20001",
+      "field": [
+        "M087",
+        "M328"
+      ],
+      "main": [
+        "M048",
+        "M342",
+        "M176"
+      ],
+      "main_code": "310001",
+      "object_type": "miniature tablet",
+      "object_type_code": "3",
+      "pdf_page": 130,
+      "reference": "4548",
+      "status": "Primary original Texts codes and normalized glyphs visually checked by parent and independent reviewer"
+    },
+    {
+      "actual_direction_both_sides": "1 (right to left)",
+      "auxiliary_code": "20001",
+      "field": [
+        "M089",
+        "M328"
+      ],
+      "main": [
+        "M048",
+        "M342",
+        "M176"
+      ],
+      "main_code": "310001",
+      "object_type": "miniature tablet",
+      "object_type_code": "3",
+      "pdf_page": 128,
+      "reference": "4509",
+      "status": "Primary original Texts codes and normalized glyphs visually checked by parent and independent reviewer"
+    },
+    {
+      "actual_direction_both_sides": "1 (right to left)",
+      "auxiliary_code": "20001",
+      "field": [
+        "M095",
+        "M328"
+      ],
+      "main": [
+        "M048",
+        "M342",
+        "M176"
+      ],
+      "main_code": "310001",
+      "object_type": "miniature tablet",
+      "object_type_code": "3",
+      "pdf_page": 128,
+      "reference": "4508",
+      "status": "Primary original Texts codes and normalized glyphs visually checked by parent and independent reviewer"
+    }
+  ],
+  "primary_context_groups": [
+    {
+      "main": [
+        "M048",
+        "M047",
+        "M379",
+        "M245",
+        "M245"
+      ],
+      "observed_stroke_counts": [
+        2
+      ],
+      "reference_count": 2,
+      "references_are_not_proved_independent_objects": true,
+      "witnesses": [
+        {
+          "field": [
+            "M087",
+            "M328"
+          ],
+          "field_line": "0",
+          "field_side": "3",
+          "main": [
+            "M048",
+            "M047",
+            "M379",
+            "M245",
+            "M245"
+          ],
+          "main_line": "0",
+          "main_side": "1",
+          "pdf_page": 580,
+          "reference": "4589",
+          "source": "data/processed/m77_u_pilot_structure.json"
+        },
+        {
+          "field": [
+            "M087",
+            "M328"
+          ],
+          "field_line": "0",
+          "field_side": "3",
+          "main": [
+            "M048",
+            "M047",
+            "M379",
+            "M245",
+            "M245"
+          ],
+          "main_line": "0",
+          "main_side": "1",
+          "pdf_page": 580,
+          "reference": "5490",
+          "source": "data/processed/m77_u_pilot_structure.json"
+        }
+      ]
+    },
+    {
+      "main": [
+        "M048",
+        "M193",
+        "M342"
+      ],
+      "observed_stroke_counts": [
+        2
+      ],
+      "reference_count": 1,
+      "references_are_not_proved_independent_objects": true,
+      "witnesses": [
+        {
+          "field": [
+            "M087",
+            "M328"
+          ],
+          "field_line": "0",
+          "field_side": "2",
+          "main": [
+            "M048",
+            "M193",
+            "M342"
+          ],
+          "main_line": "0",
+          "main_side": "1",
+          "pdf_page": 581,
+          "reference": "5293",
+          "source": "data/processed/m77_u_pilot_structure.json"
+        }
+      ]
+    },
+    {
+      "main": [
+        "M048",
+        "M193",
+        "M342",
+        "M176"
+      ],
+      "observed_stroke_counts": [
+        2
+      ],
+      "reference_count": 1,
+      "references_are_not_proved_independent_objects": true,
+      "witnesses": [
+        {
+          "field": [
+            "M087",
+            "M328"
+          ],
+          "field_line": "0",
+          "field_side": "2",
+          "main": [
+            "M048",
+            "M193",
+            "M342",
+            "M176"
+          ],
+          "main_line": "0",
+          "main_side": "1",
+          "pdf_page": 579,
+          "reference": "4419",
+          "source": "data/processed/m77_u_pilot_structure.json"
+        }
+      ]
+    },
+    {
+      "main": [
+        "M048",
+        "M342",
+        "M176"
+      ],
+      "observed_stroke_counts": [
+        2,
+        3,
+        4
+      ],
+      "reference_count": 5,
+      "references_are_not_proved_independent_objects": true,
+      "witnesses": [
+        {
+          "field": [
+            "M089",
+            "M328"
+          ],
+          "field_line": "0",
+          "field_side": "2",
+          "main": [
+            "M048",
+            "M342",
+            "M176"
+          ],
+          "main_line": "0",
+          "main_side": "1",
+          "pdf_page": 584,
+          "reference": "4387",
+          "source": "data/processed/m77_u_pilot_parent.json"
+        },
+        {
+          "field": [
+            "M095",
+            "M328"
+          ],
+          "field_line": "0",
+          "field_side": "2",
+          "main": [
+            "M048",
+            "M342",
+            "M176"
+          ],
+          "main_line": "0",
+          "main_side": "1",
+          "pdf_page": 128,
+          "reference": "4508",
+          "source": "data/processed/m77_u_paired_context_review.json"
+        },
+        {
+          "field": [
+            "M089",
+            "M328"
+          ],
+          "field_line": "0",
+          "field_side": "2",
+          "main": [
+            "M048",
+            "M342",
+            "M176"
+          ],
+          "main_line": "0",
+          "main_side": "1",
+          "pdf_page": 584,
+          "reference": "4509",
+          "source": "data/processed/m77_u_pilot_parent.json"
+        },
+        {
+          "field": [
+            "M087",
+            "M328"
+          ],
+          "field_line": "0",
+          "field_side": "2",
+          "main": [
+            "M048",
+            "M342",
+            "M176"
+          ],
+          "main_line": "0",
+          "main_side": "1",
+          "pdf_page": 578,
+          "reference": "4548",
+          "source": "data/processed/m77_u_pilot_numerals.json"
+        },
+        {
+          "field": [
+            "M087",
+            "M328"
+          ],
+          "field_line": "0",
+          "field_side": "2",
+          "main": [
+            "M048",
+            "M342",
+            "M176"
+          ],
+          "main_line": "0",
+          "main_side": "1",
+          "pdf_page": 579,
+          "reference": "5464",
+          "source": "data/processed/m77_u_pilot_structure.json"
+        }
+      ]
+    },
+    {
+      "main": [
+        "M053",
+        "M347",
+        "M342"
+      ],
+      "observed_stroke_counts": [
+        2
+      ],
+      "reference_count": 1,
+      "references_are_not_proved_independent_objects": true,
+      "witnesses": [
+        {
+          "field": [
+            "M087",
+            "M328"
+          ],
+          "field_line": "0",
+          "field_side": "2",
+          "main": [
+            "M053",
+            "M347",
+            "M342"
+          ],
+          "main_line": "0",
+          "main_side": "1",
+          "pdf_page": 581,
+          "reference": "5466",
+          "source": "data/processed/m77_u_pilot_structure.json"
+        }
+      ]
+    },
+    {
+      "main": [
+        "M059"
+      ],
+      "observed_stroke_counts": [
+        2
+      ],
+      "reference_count": 2,
+      "references_are_not_proved_independent_objects": true,
+      "witnesses": [
+        {
+          "field": [
+            "M087",
+            "M328"
+          ],
+          "field_line": "0",
+          "field_side": "3",
+          "main": [
+            "M059"
+          ],
+          "main_line": "0",
+          "main_side": "1",
+          "pdf_page": 579,
+          "reference": "4642",
+          "source": "data/processed/m77_u_pilot_structure.json"
+        },
+        {
+          "field": [
+            "M087",
+            "M328"
+          ],
+          "field_line": "0",
+          "field_side": "3",
+          "main": [
+            "M059"
+          ],
+          "main_line": "0",
+          "main_side": "1",
+          "pdf_page": 579,
+          "reference": "4645",
+          "source": "data/processed/m77_u_pilot_structure.json"
+        }
+      ]
+    },
+    {
+      "main": [
+        "M065",
+        "M008",
+        "M342",
+        "M176"
+      ],
+      "observed_stroke_counts": [
+        2
+      ],
+      "reference_count": 1,
+      "references_are_not_proved_independent_objects": true,
+      "witnesses": [
+        {
+          "field": [
+            "M087",
+            "M328"
+          ],
+          "field_line": "0",
+          "field_side": "2",
+          "main": [
+            "M065",
+            "M008",
+            "M342",
+            "M176"
+          ],
+          "main_line": "0",
+          "main_side": "1",
+          "pdf_page": 578,
+          "reference": "4342",
+          "source": "data/processed/m77_u_pilot_numerals.json"
+        }
+      ]
+    },
+    {
+      "main": [
+        "M065",
+        "M060",
+        "M176"
+      ],
+      "observed_stroke_counts": [
+        2
+      ],
+      "reference_count": 1,
+      "references_are_not_proved_independent_objects": true,
+      "witnesses": [
+        {
+          "field": [
+            "M087",
+            "M328"
+          ],
+          "field_line": "0",
+          "field_side": "2",
+          "main": [
+            "M065",
+            "M060",
+            "M176"
+          ],
+          "main_line": "0",
+          "main_side": "1",
+          "pdf_page": 578,
+          "reference": "5323",
+          "source": "data/processed/m77_u_pilot_numerals.json"
+        }
+      ]
+    },
+    {
+      "main": [
+        "M067",
+        "M244",
+        "M149",
+        "M342"
+      ],
+      "observed_stroke_counts": [
+        2
+      ],
+      "reference_count": 1,
+      "references_are_not_proved_independent_objects": true,
+      "witnesses": [
+        {
+          "field": [
+            "M087",
+            "M328"
+          ],
+          "field_line": "0",
+          "field_side": "2",
+          "main": [
+            "M067",
+            "M244",
+            "M149",
+            "M342"
+          ],
+          "main_line": "0",
+          "main_side": "1",
+          "pdf_page": 581,
+          "reference": "5479",
+          "source": "data/processed/m77_u_pilot_structure.json"
+        }
+      ]
+    },
+    {
+      "main": [
+        "M072",
+        "M216",
+        "M254"
+      ],
+      "observed_stroke_counts": [
+        2
+      ],
+      "reference_count": 3,
+      "references_are_not_proved_independent_objects": true,
+      "witnesses": [
+        {
+          "field": [
+            "M087",
+            "M328"
+          ],
+          "field_line": "0",
+          "field_side": "2",
+          "main": [
+            "M072",
+            "M216",
+            "M254"
+          ],
+          "main_line": "0",
+          "main_side": "1",
+          "pdf_page": 580,
+          "reference": "4360",
+          "source": "data/processed/m77_u_pilot_structure.json"
+        },
+        {
+          "field": [
+            "M087",
+            "M328"
+          ],
+          "field_line": "0",
+          "field_side": "2",
+          "main": [
+            "M072",
+            "M216",
+            "M254"
+          ],
+          "main_line": "0",
+          "main_side": "1",
+          "pdf_page": 580,
+          "reference": "4499",
+          "source": "data/processed/m77_u_pilot_structure.json"
+        },
+        {
+          "field": [
+            "M087",
+            "M328"
+          ],
+          "field_line": "0",
+          "field_side": "2",
+          "main": [
+            "M072",
+            "M216",
+            "M254"
+          ],
+          "main_line": "0",
+          "main_side": "1",
+          "pdf_page": 580,
+          "reference": "4580",
+          "source": "data/processed/m77_u_pilot_structure.json"
+        }
+      ]
+    },
+    {
+      "main": [
+        "M076",
+        "M342",
+        "M176"
+      ],
+      "observed_stroke_counts": [
+        2
+      ],
+      "reference_count": 1,
+      "references_are_not_proved_independent_objects": true,
+      "witnesses": [
+        {
+          "field": [
+            "M087",
+            "M328"
+          ],
+          "field_line": "0",
+          "field_side": "2",
+          "main": [
+            "M076",
+            "M342",
+            "M176"
+          ],
+          "main_line": "0",
+          "main_side": "1",
+          "pdf_page": 579,
+          "reference": "8117",
+          "source": "data/processed/m77_u_pilot_structure.json"
+        }
+      ]
+    },
+    {
+      "main": [
+        "M087",
+        "M060",
+        "M176"
+      ],
+      "observed_stroke_counts": [
+        2
+      ],
+      "reference_count": 1,
+      "references_are_not_proved_independent_objects": true,
+      "witnesses": [
+        {
+          "field": [
+            "M087",
+            "M328"
+          ],
+          "field_line": "0",
+          "field_side": "2",
+          "main": [
+            "M087",
+            "M060",
+            "M176"
+          ],
+          "main_line": "0",
+          "main_side": "1",
+          "pdf_page": 578,
+          "reference": "4556",
+          "source": "data/processed/m77_u_pilot_numerals.json"
+        }
+      ]
+    },
+    {
+      "main": [
+        "M103",
+        "M403",
+        "M342"
+      ],
+      "observed_stroke_counts": [
+        2
+      ],
+      "reference_count": 1,
+      "references_are_not_proved_independent_objects": true,
+      "witnesses": [
+        {
+          "field": [
+            "M087",
+            "M328"
+          ],
+          "field_line": "0",
+          "field_side": "2",
+          "main": [
+            "M103",
+            "M403",
+            "M342"
+          ],
+          "main_line": "0",
+          "main_side": "1",
+          "pdf_page": 581,
+          "reference": "4554",
+          "source": "data/processed/m77_u_pilot_structure.json"
+        }
+      ]
+    },
+    {
+      "main": [
+        "M103",
+        "M403",
+        "M342",
+        "M176"
+      ],
+      "observed_stroke_counts": [
+        2
+      ],
+      "reference_count": 1,
+      "references_are_not_proved_independent_objects": true,
+      "witnesses": [
+        {
+          "field": [
+            "M087",
+            "M328"
+          ],
+          "field_line": "0",
+          "field_side": "2",
+          "main": [
+            "M103",
+            "M403",
+            "M342",
+            "M176"
+          ],
+          "main_line": "0",
+          "main_side": "1",
+          "pdf_page": 579,
+          "reference": "4519",
+          "source": "data/processed/m77_u_pilot_structure.json"
+        }
+      ]
+    },
+    {
+      "main": [
+        "M121",
+        "M051",
+        "M130",
+        "M149",
+        "M342",
+        "M176"
+      ],
+      "observed_stroke_counts": [
+        2
+      ],
+      "reference_count": 1,
+      "references_are_not_proved_independent_objects": true,
+      "witnesses": [
+        {
+          "field": [
+            "M087",
+            "M328"
+          ],
+          "field_line": "0",
+          "field_side": "2",
+          "main": [
+            "M121",
+            "M051",
+            "M130",
+            "M149",
+            "M342",
+            "M176"
+          ],
+          "main_line": "0",
+          "main_side": "1",
+          "pdf_page": 579,
+          "reference": "4348",
+          "source": "data/processed/m77_u_pilot_structure.json"
+        }
+      ]
+    },
+    {
+      "main": [
+        "M136",
+        "M193",
+        "M342"
+      ],
+      "observed_stroke_counts": [
+        2
+      ],
+      "reference_count": 1,
+      "references_are_not_proved_independent_objects": true,
+      "witnesses": [
+        {
+          "field": [
+            "M087",
+            "M328"
+          ],
+          "field_line": "0",
+          "field_side": "2",
+          "main": [
+            "M136",
+            "M193",
+            "M342"
+          ],
+          "main_line": "0",
+          "main_side": "1",
+          "pdf_page": 581,
+          "reference": "5336",
+          "source": "data/processed/m77_u_pilot_structure.json"
+        }
+      ]
+    },
+    {
+      "main": [
+        "M136",
+        "M193",
+        "M342",
+        "M176"
+      ],
+      "observed_stroke_counts": [
+        2
+      ],
+      "reference_count": 1,
+      "references_are_not_proved_independent_objects": true,
+      "witnesses": [
+        {
+          "field": [
+            "M087",
+            "M328"
+          ],
+          "field_line": "0",
+          "field_side": "2",
+          "main": [
+            "M136",
+            "M193",
+            "M342",
+            "M176"
+          ],
+          "main_line": "0",
+          "main_side": "1",
+          "pdf_page": 579,
+          "reference": "4679",
+          "source": "data/processed/m77_u_pilot_structure.json"
+        }
+      ]
+    },
+    {
+      "main": [
+        "M138",
+        "M176"
+      ],
+      "observed_stroke_counts": [
+        2
+      ],
+      "reference_count": 2,
+      "references_are_not_proved_independent_objects": true,
+      "witnesses": [
+        {
+          "field": [
+            "M087",
+            "M328"
+          ],
+          "field_line": "0",
+          "field_side": "2",
+          "main": [
+            "M138",
+            "M176"
+          ],
+          "main_line": "0",
+          "main_side": "1",
+          "pdf_page": 578,
+          "reference": "4407",
+          "source": "data/processed/m77_u_pilot_numerals.json"
+        },
+        {
+          "field": [
+            "M087",
+            "M328"
+          ],
+          "field_line": "0",
+          "field_side": "2",
+          "main": [
+            "M138",
+            "M176"
+          ],
+          "main_line": "0",
+          "main_side": "1",
+          "pdf_page": 578,
+          "reference": "5444",
+          "source": "data/processed/m77_u_pilot_numerals.json"
+        }
+      ]
+    },
+    {
+      "main": [
+        "M171",
+        "M008",
+        "M391",
+        "M252"
+      ],
+      "observed_stroke_counts": [
+        2
+      ],
+      "reference_count": 2,
+      "references_are_not_proved_independent_objects": true,
+      "witnesses": [
+        {
+          "field": [
+            "M087",
+            "M328"
+          ],
+          "field_line": "0",
+          "field_side": "2",
+          "main": [
+            "M171",
+            "M008",
+            "M391",
+            "M252"
+          ],
+          "main_line": "0",
+          "main_side": "1",
+          "pdf_page": 580,
+          "reference": "4603",
+          "source": "data/processed/m77_u_pilot_structure.json"
+        },
+        {
+          "field": [
+            "M087",
+            "M328"
+          ],
+          "field_line": "0",
+          "field_side": "2",
+          "main": [
+            "M171",
+            "M008",
+            "M391",
+            "M252"
+          ],
+          "main_line": "0",
+          "main_side": "1",
+          "pdf_page": 580,
+          "reference": "4606",
+          "source": "data/processed/m77_u_pilot_structure.json"
+        }
+      ]
+    },
+    {
+      "main": [
+        "M175",
+        "M176",
+        "M211",
+        "M176"
+      ],
+      "observed_stroke_counts": [
+        2,
+        3
+      ],
+      "reference_count": 2,
+      "references_are_not_proved_independent_objects": true,
+      "witnesses": [
+        {
+          "field": [
+            "M089",
+            "M328"
+          ],
+          "field_line": "0",
+          "field_side": "2",
+          "main": [
+            "M175",
+            "M176",
+            "M211",
+            "M176"
+          ],
+          "main_line": "0",
+          "main_side": "1",
+          "pdf_page": 584,
+          "reference": "4684",
+          "source": "data/processed/m77_u_pilot_parent.json"
+        },
+        {
+          "field": [
+            "M087",
+            "M328"
+          ],
+          "field_line": "0",
+          "field_side": "2",
+          "main": [
+            "M175",
+            "M176",
+            "M211",
+            "M176"
+          ],
+          "main_line": "0",
+          "main_side": "1",
+          "pdf_page": 578,
+          "reference": "5270",
+          "source": "data/processed/m77_u_pilot_numerals.json"
+        }
+      ]
+    },
+    {
+      "main": [
+        "M245",
+        "M245",
+        "M307",
+        "M342",
+        "M176"
+      ],
+      "observed_stroke_counts": [
+        2
+      ],
+      "reference_count": 2,
+      "references_are_not_proved_independent_objects": true,
+      "witnesses": [
+        {
+          "field": [
+            "M087",
+            "M328"
+          ],
+          "field_line": "0",
+          "field_side": "3",
+          "main": [
+            "M245",
+            "M245",
+            "M307",
+            "M342",
+            "M176"
+          ],
+          "main_line": "0",
+          "main_side": "2",
+          "pdf_page": 579,
+          "reference": "4642",
+          "source": "data/processed/m77_u_pilot_structure.json"
+        },
+        {
+          "field": [
+            "M087",
+            "M328"
+          ],
+          "field_line": "0",
+          "field_side": "3",
+          "main": [
+            "M245",
+            "M245",
+            "M307",
+            "M342",
+            "M176"
+          ],
+          "main_line": "0",
+          "main_side": "2",
+          "pdf_page": 579,
+          "reference": "4645",
+          "source": "data/processed/m77_u_pilot_structure.json"
+        }
+      ]
+    },
+    {
+      "main": [
+        "M267",
+        "M099",
+        "M067",
+        "M294",
+        "M342"
+      ],
+      "observed_stroke_counts": [
+        2
+      ],
+      "reference_count": 2,
+      "references_are_not_proved_independent_objects": true,
+      "witnesses": [
+        {
+          "field": [
+            "M087",
+            "M328"
+          ],
+          "field_line": "0",
+          "field_side": "2",
+          "main": [
+            "M267",
+            "M099",
+            "M067",
+            "M294",
+            "M342"
+          ],
+          "main_line": "0",
+          "main_side": "1",
+          "pdf_page": 581,
+          "reference": "4314",
+          "source": "data/processed/m77_u_pilot_structure.json"
+        },
+        {
+          "field": [
+            "M087",
+            "M328"
+          ],
+          "field_line": "0",
+          "field_side": "2",
+          "main": [
+            "M267",
+            "M099",
+            "M067",
+            "M294",
+            "M342"
+          ],
+          "main_line": "0",
+          "main_side": "1",
+          "pdf_page": 581,
+          "reference": "5264",
+          "source": "data/processed/m77_u_pilot_structure.json"
+        }
+      ]
+    },
+    {
+      "main": [
+        "M272",
+        "M178"
+      ],
+      "observed_stroke_counts": [
+        2
+      ],
+      "reference_count": 1,
+      "references_are_not_proved_independent_objects": true,
+      "witnesses": [
+        {
+          "field": [
+            "M087",
+            "M328"
+          ],
+          "field_line": "0",
+          "field_side": "2",
+          "main": [
+            "M272",
+            "M178"
+          ],
+          "main_line": "0",
+          "main_side": "1",
+          "pdf_page": 581,
+          "reference": "4359",
+          "source": "data/processed/m77_u_pilot_structure.json"
+        }
+      ]
+    },
+    {
+      "main": [
+        "M287",
+        "M178"
+      ],
+      "observed_stroke_counts": [
+        2
+      ],
+      "reference_count": 1,
+      "references_are_not_proved_independent_objects": true,
+      "witnesses": [
+        {
+          "field": [
+            "M087",
+            "M328"
+          ],
+          "field_line": "0",
+          "field_side": "2",
+          "main": [
+            "M287",
+            "M178"
+          ],
+          "main_line": "0",
+          "main_side": "1",
+          "pdf_page": 581,
+          "reference": "5410",
+          "source": "data/processed/m77_u_pilot_structure.json"
+        }
+      ]
+    },
+    {
+      "main": [
+        "M307",
+        "M267"
+      ],
+      "observed_stroke_counts": [
+        2
+      ],
+      "reference_count": 2,
+      "references_are_not_proved_independent_objects": true,
+      "witnesses": [
+        {
+          "field": [
+            "M087",
+            "M328"
+          ],
+          "field_line": "0",
+          "field_side": "3",
+          "main": [
+            "M307",
+            "M267"
+          ],
+          "main_line": "0",
+          "main_side": "2",
+          "pdf_page": 580,
+          "reference": "4589",
+          "source": "data/processed/m77_u_pilot_structure.json"
+        },
+        {
+          "field": [
+            "M087",
+            "M328"
+          ],
+          "field_line": "0",
+          "field_side": "3",
+          "main": [
+            "M307",
+            "M267"
+          ],
+          "main_line": "0",
+          "main_side": "2",
+          "pdf_page": 580,
+          "reference": "5490",
+          "source": "data/processed/m77_u_pilot_structure.json"
+        }
+      ]
+    },
+    {
+      "main": [
+        "M325",
+        "M347",
+        "M342"
+      ],
+      "observed_stroke_counts": [
+        2
+      ],
+      "reference_count": 1,
+      "references_are_not_proved_independent_objects": true,
+      "witnesses": [
+        {
+          "field": [
+            "M087",
+            "M328"
+          ],
+          "field_line": "0",
+          "field_side": "2",
+          "main": [
+            "M325",
+            "M347",
+            "M342"
+          ],
+          "main_line": "0",
+          "main_side": "1",
+          "pdf_page": 581,
+          "reference": "4402",
+          "source": "data/processed/m77_u_pilot_structure.json"
+        }
+      ]
+    },
+    {
+      "main": [
+        "M379",
+        "M307",
+        "M176"
+      ],
+      "observed_stroke_counts": [
+        2
+      ],
+      "reference_count": 3,
+      "references_are_not_proved_independent_objects": true,
+      "witnesses": [
+        {
+          "field": [
+            "M087",
+            "M328"
+          ],
+          "field_line": "0",
+          "field_side": "2",
+          "main": [
+            "M379",
+            "M307",
+            "M176"
+          ],
+          "main_line": "0",
+          "main_side": "1",
+          "pdf_page": 578,
+          "reference": "4610",
+          "source": "data/processed/m77_u_pilot_numerals.json"
+        },
+        {
+          "field": [
+            "M087",
+            "M328"
+          ],
+          "field_line": "0",
+          "field_side": "2",
+          "main": [
+            "M379",
+            "M307",
+            "M176"
+          ],
+          "main_line": "0",
+          "main_side": "1",
+          "pdf_page": 578,
+          "reference": "4682",
+          "source": "data/processed/m77_u_pilot_numerals.json"
+        },
+        {
+          "field": [
+            "M087",
+            "M328"
+          ],
+          "field_line": "0",
+          "field_side": "2",
+          "main": [
+            "M379",
+            "M307",
+            "M176"
+          ],
+          "main_line": "0",
+          "main_side": "1",
+          "pdf_page": 578,
+          "reference": "5285",
+          "source": "data/processed/m77_u_pilot_numerals.json"
+        }
+      ]
+    },
+    {
+      "main": [
+        "M391",
+        "M099",
+        "M040"
+      ],
+      "observed_stroke_counts": [
+        2,
+        3
+      ],
+      "reference_count": 2,
+      "references_are_not_proved_independent_objects": true,
+      "witnesses": [
+        {
+          "field": [
+            "M089",
+            "M328"
+          ],
+          "field_line": "0",
+          "field_side": "2",
+          "main": [
+            "M391",
+            "M099",
+            "M040"
+          ],
+          "main_line": "0",
+          "main_side": "1",
+          "pdf_page": 583,
+          "reference": "4601",
+          "source": "data/processed/m77_u_pilot_parent.json"
+        },
+        {
+          "field": [
+            "M087",
+            "M328"
+          ],
+          "field_line": "0",
+          "field_side": "2",
+          "main": [
+            "M391",
+            "M099",
+            "M040"
+          ],
+          "main_line": "0",
+          "main_side": "1",
+          "pdf_page": 578,
+          "reference": "4665",
+          "source": "data/processed/m77_u_pilot_numerals.json"
+        }
+      ]
+    },
+    {
+      "main": [
+        "M391",
+        "M099",
+        "M216",
+        "M254"
+      ],
+      "observed_stroke_counts": [
+        2
+      ],
+      "reference_count": 1,
+      "references_are_not_proved_independent_objects": true,
+      "witnesses": [
+        {
+          "field": [
+            "M087",
+            "M328"
+          ],
+          "field_line": "0",
+          "field_side": "2",
+          "main": [
+            "M391",
+            "M099",
+            "M216",
+            "M254"
+          ],
+          "main_line": "0",
+          "main_side": "1",
+          "pdf_page": 580,
+          "reference": "4370",
+          "source": "data/processed/m77_u_pilot_structure.json"
+        }
+      ]
+    },
+    {
+      "main": [
+        "M397",
+        "M233"
+      ],
+      "observed_stroke_counts": [
+        2
+      ],
+      "reference_count": 1,
+      "references_are_not_proved_independent_objects": true,
+      "witnesses": [
+        {
+          "field": [
+            "M087",
+            "M328"
+          ],
+          "field_line": "0",
+          "field_side": "2",
+          "main": [
+            "M397",
+            "M233"
+          ],
+          "main_line": "0",
+          "main_side": "1",
+          "pdf_page": 580,
+          "reference": "5327",
+          "source": "data/processed/m77_u_pilot_structure.json"
+        }
+      ]
+    }
+  ],
+  "primary_contrasts": [
+    {
+      "main": [
+        "M048",
+        "M342",
+        "M176"
+      ],
+      "observed_stroke_counts": [
+        2,
+        3,
+        4
+      ],
+      "reference_count": 5,
+      "references_are_not_proved_independent_objects": true,
+      "witnesses": [
+        {
+          "field": [
+            "M089",
+            "M328"
+          ],
+          "field_line": "0",
+          "field_side": "2",
+          "main": [
+            "M048",
+            "M342",
+            "M176"
+          ],
+          "main_line": "0",
+          "main_side": "1",
+          "pdf_page": 584,
+          "reference": "4387",
+          "source": "data/processed/m77_u_pilot_parent.json"
+        },
+        {
+          "field": [
+            "M095",
+            "M328"
+          ],
+          "field_line": "0",
+          "field_side": "2",
+          "main": [
+            "M048",
+            "M342",
+            "M176"
+          ],
+          "main_line": "0",
+          "main_side": "1",
+          "pdf_page": 128,
+          "reference": "4508",
+          "source": "data/processed/m77_u_paired_context_review.json"
+        },
+        {
+          "field": [
+            "M089",
+            "M328"
+          ],
+          "field_line": "0",
+          "field_side": "2",
+          "main": [
+            "M048",
+            "M342",
+            "M176"
+          ],
+          "main_line": "0",
+          "main_side": "1",
+          "pdf_page": 584,
+          "reference": "4509",
+          "source": "data/processed/m77_u_pilot_parent.json"
+        },
+        {
+          "field": [
+            "M087",
+            "M328"
+          ],
+          "field_line": "0",
+          "field_side": "2",
+          "main": [
+            "M048",
+            "M342",
+            "M176"
+          ],
+          "main_line": "0",
+          "main_side": "1",
+          "pdf_page": 578,
+          "reference": "4548",
+          "source": "data/processed/m77_u_pilot_numerals.json"
+        },
+        {
+          "field": [
+            "M087",
+            "M328"
+          ],
+          "field_line": "0",
+          "field_side": "2",
+          "main": [
+            "M048",
+            "M342",
+            "M176"
+          ],
+          "main_line": "0",
+          "main_side": "1",
+          "pdf_page": 579,
+          "reference": "5464",
+          "source": "data/processed/m77_u_pilot_structure.json"
+        }
+      ]
+    },
+    {
+      "main": [
+        "M175",
+        "M176",
+        "M211",
+        "M176"
+      ],
+      "observed_stroke_counts": [
+        2,
+        3
+      ],
+      "reference_count": 2,
+      "references_are_not_proved_independent_objects": true,
+      "witnesses": [
+        {
+          "field": [
+            "M089",
+            "M328"
+          ],
+          "field_line": "0",
+          "field_side": "2",
+          "main": [
+            "M175",
+            "M176",
+            "M211",
+            "M176"
+          ],
+          "main_line": "0",
+          "main_side": "1",
+          "pdf_page": 584,
+          "reference": "4684",
+          "source": "data/processed/m77_u_pilot_parent.json"
+        },
+        {
+          "field": [
+            "M087",
+            "M328"
+          ],
+          "field_line": "0",
+          "field_side": "2",
+          "main": [
+            "M175",
+            "M176",
+            "M211",
+            "M176"
+          ],
+          "main_line": "0",
+          "main_side": "1",
+          "pdf_page": 578,
+          "reference": "5270",
+          "source": "data/processed/m77_u_pilot_numerals.json"
+        }
+      ]
+    },
+    {
+      "main": [
+        "M391",
+        "M099",
+        "M040"
+      ],
+      "observed_stroke_counts": [
+        2,
+        3
+      ],
+      "reference_count": 2,
+      "references_are_not_proved_independent_objects": true,
+      "witnesses": [
+        {
+          "field": [
+            "M089",
+            "M328"
+          ],
+          "field_line": "0",
+          "field_side": "2",
+          "main": [
+            "M391",
+            "M099",
+            "M040"
+          ],
+          "main_line": "0",
+          "main_side": "1",
+          "pdf_page": 583,
+          "reference": "4601",
+          "source": "data/processed/m77_u_pilot_parent.json"
+        },
+        {
+          "field": [
+            "M087",
+            "M328"
+          ],
+          "field_line": "0",
+          "field_side": "2",
+          "main": [
+            "M391",
+            "M099",
+            "M040"
+          ],
+          "main_line": "0",
+          "main_side": "1",
+          "pdf_page": 578,
+          "reference": "4665",
+          "source": "data/processed/m77_u_pilot_numerals.json"
+        }
+      ]
+    }
+  ],
+  "proof": "If same normalized main string m has observed auxiliary long-stroke counts2 and3, no single-valued function f(m) can reproduce both records. This rejects only deterministic main-string-to-graphic-count mapping, not a semantic reading, allography or larger conditioned model.",
+  "summary": {
+    "all_U_instances_in_indexed_lines": 145,
+    "candidate_export_already_contains_indexed_simple_field_references": [
+      "4364",
+      "4459",
+      "4515",
+      "4660",
+      "4671",
+      "5483"
+    ],
+    "groups_by_page": {
+      "576": 15,
+      "577": 16,
+      "578": 16,
+      "579": 15,
+      "580": 15,
+      "581": 16,
+      "582": 17,
+      "583": 15,
+      "584": 16
+    },
+    "indexed_groups": 141,
+    "lines_with_primary_doubt": 12,
+    "lines_with_primary_loss": 5,
+    "lines_with_reviewer_unknown": 4,
+    "new_established_semantic_or_phonetic_readings": 0,
+    "pages": [
+      576,
+      577,
+      578,
+      579,
+      580,
+      581,
+      582,
+      583,
+      584
+    ],
+    "selected_primary_contrast_main_patterns": 3,
+    "simple_fields_by_graphic_count": {
+      "1": 1,
+      "2": 70,
+      "3": 39
+    },
+    "supplemental_fields_outside_pilot_denominator": 1,
+    "undoubted_exact_simple_fields": 110
+  },
+  "verified_source_fingerprints": {
+    "IM_417_150_PNG/102.png": "0ed0081309a7ee29b096a46b6d1b0adc1bc3123e5b0283448ed6933de843d62e",
+    "IM_417_150_PNG/12.png": "2ea8b9133ce8e48c008ca85d0d070c079dced549308a6f8761af689083075b55",
+    "IM_417_150_PNG/149.png": "239814b6e5bff85563e08a8894e3316117a74ad0ea3c91fd23d6febf45effcda",
+    "IM_417_150_PNG/150.png": "7c8f947a136f90f3f38b7f52fb30b2e77ea302dfa2b9cbc5e8b04a77c61fda54",
+    "IM_417_150_PNG/175.png": "16378dd1ee065cff4eae6b08dd8ca26c712958d26ef291a58e816bcd245453c2",
+    "IM_417_150_PNG/176.png": "566afb1f181ee697fb8092d67f4935eb83108833ad850ea58408a598f5496d6b",
+    "IM_417_150_PNG/2.png": "1274e95bd37b08a3d9c4129af8be0c59d1f1c541b842eb4109d093a5ca1feba8",
+    "IM_417_150_PNG/211.png": "0f554855dafe6a20f87cdd51d462214b88c8fa29198b10732bfdf622fc089925",
+    "IM_417_150_PNG/212.png": "d6d14cccfbb5b4e4b595d9c0996b6688482f387b90e49ee529bf12e9043a8fc1",
+    "IM_417_150_PNG/267.png": "fef87fffeddd1c28d39aff3069b997635948f4764a9aed907dadeb35808575fb",
+    "IM_417_150_PNG/287.png": "1c3d8bd1e70822f22c677a6260f056d178c9ea6fd1384c0681268207495d4b3d",
+    "IM_417_150_PNG/307.png": "f02479caa60b267712039233fa579197db25116d14bc1efaa3461d6d07c5d459",
+    "IM_417_150_PNG/319.png": "0db499c830b2b8a32d9b30f5853498f452936418546d5a22b17090ba28eed3e6",
+    "IM_417_150_PNG/328.png": "f349474f4c20682cdbc359fbe1aa6a06d325163d14e359b4d41c14fcaef0d82b",
+    "IM_417_150_PNG/329.png": "a7bc67049311c4d05159c393cde0bce80680f13845fe79c5a38d7c77b3cba7b4",
+    "IM_417_150_PNG/342.png": "be577acc0d46e60056b2d867d718e3ae99df64cdd3342e7ce6e61892750f3538",
+    "IM_417_150_PNG/388.png": "7f576ccd2cc6023c636792d31eedddb10e63c61d7cc2f3f72edcf53ab2189452",
+    "IM_417_150_PNG/391.png": "14e3a84e99226647c39a48a208908526c0bd4547d41789e97b982b3a38d5fafd",
+    "IM_417_150_PNG/40.png": "c6c4e6b020d6bcde7a5a445167d4a5220635774d0d2aab10f66c4baad3c499ac",
+    "IM_417_150_PNG/402.png": "747273ce9479597643114d266f115130cb645e8e87a07bb539d5f69f4721db9d",
+    "IM_417_150_PNG/48.png": "f1c15475d4b1fc1d2aede7728324f6574e78694ce61eb75db5c562b86b15fd8b",
+    "IM_417_150_PNG/53.png": "cbf22588cc6ea901f29bbcb81fdec5ea0fa2aa02257f4a079c5e97a7100e0958",
+    "IM_417_150_PNG/59.png": "1f3f2bacc936ac89ff3948bb3a4aaf8a4052edc17e75f3b329c03ba056601e54",
+    "IM_417_150_PNG/67.png": "d7d6e0244381afc04a86871ac91f7d734c89e7247c8fd4ccf23cde381548adb7",
+    "IM_417_150_PNG/72.png": "a2b971409f28b4a38b8498de2f8bff257bfcea96e63be140680953910fdbfc3b",
+    "IM_417_150_PNG/86.png": "7e4cdf2a2f67412ebe945e4aa42ca27d358e9eb2465cde215b2e582cd5930574",
+    "IM_417_150_PNG/87.png": "31ddbfc3fadd792ba2199c0d3c21524da1d2e9ea020bba442e34fb67364b198a",
+    "IM_417_150_PNG/89.png": "9f2774ac3b3689305af94d5f1640c944b8941be2107e47322d5ef8f0ff41a402",
+    "IM_417_150_PNG/95.png": "829c0ed78f9ad8407a97f662f2112bb357154fa0e971ed131eb5924a7650c2b9",
+    "IM_417_150_PNG/97.png": "cb69100778a360c22c045c1c1ec291976c610165f0dffa16acec0b22996bb488",
+    "IM_417_150_PNG/99.png": "c234d0a50c5ab8850bfadd6fe862b4f8d4db97ff274dbf507cfd5ae02acd9c56",
+    "data/raw/glossa_canonical_objects.jsonl": "e24f42a95ee4cc1fdb16c789c3edfb937993ed7c82223d6daa96d66895174ae5",
+    "data/raw/mahadevan_1977_text.pdf": "6dcdd074a0174e5fab149590fbbf82342711d345764e9763f8e5e92c81cf7f99",
+    "results/primary_pages/m77-position-626.png": "b4c6d6c542c11c795e22469e38419039e7b7406dbc4b618076897777f754867d",
+    "results/primary_pages/m77-position-final-575.png": "292316d0334ff3fbd2995b533bd78c8776f99262006a8b75095b860e8105b8bb",
+    "results/primary_pages/m77-position-final-592.png": "7ca656dfc25231db3a5d47a236a596227afdeed89a9fc850f3adb04692a1219c",
+    "results/primary_pages/m77-u-counterexample-114.png": "d939200b9fe8c06e373c3e22679627f7df0fd3b21641b40c4352949d4530b2a2",
+    "results/primary_pages/m77-u-counterexample-121.png": "da1d12b62c2911711e00b1f814fc68c6ed00c4fdef0f9546796d6164824eafbb",
+    "results/primary_pages/m77-u-counterexample-128.png": "febdc38ee5b8f3253131fcbc3fbd98ae1e45aa7f27f9ead25376cec91b3c557d",
+    "results/primary_pages/m77-u-counterexample-130.png": "142493e967187c1d6a867e1e9352434943aade5c335da8cc9f1c3346907eac3e",
+    "results/primary_pages/m77-u-counterexample-135.png": "1739a787809dd66e73de40ed96721dbfea97d10258e7394dccab707639bd63a8",
+    "results/primary_pages/m77-u-counterexample-138.png": "c6fed93ad8ce6c2ddde2cd61b3551b149efb9cc824b994c69f96feefe7416b07",
+    "results/primary_pages/m77-u-counterexample-154.png": "178de9c0a38c52cb56f1b17d73a8aee452797d044f78fcd486fd8949af2ac45f",
+    "results/primary_pages/m77-u-counterexample-169.png": "a3e2742cb68a031cc61ae720b424e203569171578c563a40cc3e220f74d0340e",
+    "results/primary_pages/m77-u-counterexample-4508-4509-detail.png": "1abd9d94c197d90ccdf6ae2758c5239f2e1ae09cab615165cde1054267297fc6",
+    "results/primary_pages/m77-u-counterexample-56.png": "fec3f86c4eb84778f848a335aaa39011f0682ae99ca6285806bde807dd7c020b",
+    "results/primary_pages/m77-u-counterexample-576.png": "326ed1efb9ae747e605655fa16a80d25fbecab0b3e214e54ae393cf2630fa98c",
+    "results/primary_pages/m77-u-counterexample-593.png": "95d8f18aa273815a2a7d8f8ebcec44ae8dbd0511b9449a6bfce96db336bfbe7d",
+    "results/primary_pages/m77-u-counterexample-65.png": "879ef744d88e627033bdaa8b727e36bd3ff6087364bade2dbd66c036ec8387f0",
+    "results/primary_pages/m77-u-counterexample-pair-detail.png": "ce425d458b815607def51280ff4abdebafbf508c07d646c7ec7d3c1887e124e8",
+    "results/primary_pages/numeral-u-pilot-576.png": "a2d877bac15824997f6154fd36589985fe5bcaae663da30f089ae24a80748edc",
+    "results/primary_pages/numeral-u-pilot-577.png": "c85e1056628e9d6c5b822c6ee212b21cfe62a85d826093f31ad4372686153994",
+    "results/primary_pages/numeral-u-pilot-578.png": "0680ed4e5ba8f350372a9f660a0401cf02881f1baba6997430d9fd1741b236d3",
+    "results/primary_pages/parent-u-pilot-582.png": "0973a990832c273bd02bfb2db02f302ca44fcbd53dba4cee2574df344d45ade4",
+    "results/primary_pages/parent-u-pilot-583.png": "8d36ac7810a7ac25b8a480d7db248ab613c16ebce1cc73ea13d501b0753594df",
+    "results/primary_pages/parent-u-pilot-584.png": "5f7c3fa18f17538e41cb740255df5a7c21a80b433b54f24dfd7487b6fe053959",
+    "results/primary_pages/sign_list-044.png": "33eff554bfdea81af6d1a3510a5b2541d1b74b02ae1e63b253c725b44c7c0b64",
+    "results/primary_pages/sign_list-045.png": "972002b288ea77921dcacfe67386dbf585b76be6bca5444b7ff9422e47e70b89",
+    "results/primary_pages/sign_list-046.png": "a191e9297a6ab8b7cad1028eaeac062b4b6fa3cd34aefbdd507f669d736d2e8e",
+    "results/primary_pages/sign_list_page_32.png": "1e3f91789c947add7ce796479168d84d69636ebdc378493743188ac11c53c90a",
+    "results/primary_pages/structure-u-pilot-4347-detail.png": "3ab5b9e5011396ce0973eab26e2363ffdc61d3d833da678081dd5dddc49b3f02",
+    "results/primary_pages/structure-u-pilot-4349-detail.png": "375d7544fc18b73c2c25ae20c31308ee4f11b6dca2734dec5b0543debaf3f472",
+    "results/primary_pages/structure-u-pilot-4387-pair.png": "4f7844dd55df1d328fa6256ce45850cb3d23896c3910e1c2254e5cb68601245e",
+    "results/primary_pages/structure-u-pilot-4446-detail.png": "3be8c2e7600ac98c80f0aa2eaba9e2e192b92a7279f113501f9503e575d2eb18",
+    "results/primary_pages/structure-u-pilot-4559-detail.png": "f66dcbbf0bf04f5ca68dc784971c8ec5ed62aec173fcb309b3e39da465420a60",
+    "results/primary_pages/structure-u-pilot-5464-pair.png": "832ac7ba43c56a7e2785d87107c9da77d013b683695f6967a0196d335414f84c",
+    "results/primary_pages/structure-u-pilot-579.png": "b767bbdca2f7359c60b5a0a6a57e301eef50b7345bfa76a67834848c3d322f14",
+    "results/primary_pages/structure-u-pilot-580.png": "d39ad7016fe8f09ea71efaa7837066c7be37cece464bb0e240e2b68119a86e8c",
+    "results/primary_pages/structure-u-pilot-581.png": "0464edfe4cb055f47fbdd270a304c6128c9d2ad3ef74021fac462f0ad7a41cbf"
+  }
+}

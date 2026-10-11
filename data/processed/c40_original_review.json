@@ -1,0 +1,259 @@
+{
+  "schema_version": 1,
+  "scope": "Bounded original excavation source audit for CH2596A broken axe and CH2529H ingot; CISI C40/C39 joins supplied by parallel catalogue audit, not authenticated by number similarity.",
+  "publication": {
+    "author": "Ernest J. H. Mackay",
+    "title": "Chanhu-daro Excavations 1935\u201336",
+    "year": 1943,
+    "archive_item": "in.gov.ignca.27263"
+  },
+  "source_method": "OCR and Archive page index only located passages; all retained substantive page images visually inspected. Published drawings are not independent physical autopsy.",
+  "rows": [
+    {
+      "provisional_cisi_join": "C40 (parallel parent catalogue verification)",
+      "original_field": "2596,A",
+      "plate": "LXXIV1 and1a",
+      "plate_image_leaf": 439,
+      "catalogue_page": 305,
+      "description_pages": [
+        178,
+        179
+      ],
+      "kind": "Portion of axe, inscribed on both sides",
+      "material": "Blade-axe group described as apparent hard bronze from colour, not a new compositional measurement",
+      "dimensions_inches": {
+        "length": "3.43",
+        "width": "2.67",
+        "thickness": "0.28"
+      },
+      "find_context": {
+        "square": "8/C",
+        "locus": "297",
+        "level_feet_above_datum": "9.3",
+        "group": "2596",
+        "container": "large pottery pan, PlateXXIX37; p43 in northeastern courtyard corner"
+      },
+      "visible_layout": "Original drawing1 shows five short upright strokes above three vertically stacked downward-opening arches, adjacent to the human sign and intersecting the height of the main sign row. Drawing1a depicts different signs on other face.",
+      "segmentation_caution": "p178 itself considers five or six depending on whether another mark belongs to the staff of the adjacent human. No new sign value or arithmetic adopted.",
+      "author_hypothesis": "p178 conditionally suggests35 or36 and prefers count of implements in owner possession over whole-object weight. This is an interpretation, not measured external quantity.",
+      "mass_grams": null,
+      "mass_status": "No numerical mass for target in inspected original descriptions/catalogue."
+    },
+    {
+      "provisional_cisi_join": "C39 (parallel parent catalogue verification)",
+      "original_field": "2529,H",
+      "plate": "LXXIV2",
+      "plate_image_leaf": 439,
+      "catalogue_page": 305,
+      "description_pages": [
+        175,
+        187,
+        188
+      ],
+      "kind": "Long round ingot/bar",
+      "material": "Bronze judged from colour in p187",
+      "dimensions_inches": {
+        "length": "13.75",
+        "average_diameter": "1.4"
+      },
+      "find_context": {
+        "square": "8/C",
+        "locus": "297",
+        "level_feet_above_datum": "10.4",
+        "group": "2529",
+        "description": "Group spread on courtyard floor in p43;37 pieces group total on p175, some too damaged to illustrate."
+      },
+      "manufacture_attribution": "p187 interprets casting into a vertical hole in ground; no new experimental or microstructural authentication.",
+      "visible_layout": "Retained original photograph shows long irregular bar. Surface does not support independently secure XXUUU recount at this resolution.",
+      "mass_grams": null,
+      "mass_status": "No numerical target mass in p187\u2013188 or catalogue305; shovel mass elsewhere on p187 is different object."
+    }
+  ],
+  "context_conflict": {
+    "source": "p43 versus p305 plus p187\u2013188",
+    "observation": "p43 mentions an ingot among contents of pan2596; exact target ingot catalogue entry is2529H, group2529. p187\u2013188 describes only two ingots; secondunillustratedNo1113 elsewhere.",
+    "policy": "Do not put C39 in the axe pan or silently correct original. Possible report inconsistency or unidentified pan ingot remains unresolved."
+  },
+  "nonindependence": [
+    "37-piece count belongs group2529, not axe group2596; cannot validate hypothetical35/36 reading.",
+    "Original numeral/inventory interpretation is already present in Mackay; later repetition is not independent confirmation.",
+    "Same courtyard with different groups/levels does not prove common owner, date, quantity, or semantic relationship."
+  ],
+  "limits": [
+    "No physical autopsy, conserved mass, original complete axe mass or independent known inscription meaning.",
+    "Dimensions are reported inches and levels decimal feet; no volume-to-mass estimate made.",
+    "Mackay chronological and migration interpretations on adjacent passages not adopted as modern evidence."
+  ],
+  "retrieval_log": [
+    {
+      "method": "Harappa bibliographic page to Panjab Digital Library",
+      "result": "Panjab web open returned zero parsed lines; no primary data obtained there."
+    },
+    {
+      "method": "Web indexed archive search",
+      "result": "Poor unrelated returns; replaced with Archive advancedsearch API."
+    },
+    {
+      "method": "Archive advancedsearch",
+      "result": "Seven candidateitems; chose publicIGNCA27263 and successfully downloaded bounded pages; initialresponse slow, waited samehandle without restarting."
+    }
+  ],
+  "crop_records": [
+    {
+      "source": "data/raw/c40_mackay1943_leaf439.jpg",
+      "box_xyxy": [
+        350,
+        600,
+        1400,
+        3050
+      ],
+      "path": "results/primary_pages/c40-original-axe-drawings.png",
+      "method": "Pillow crop, native pixels, no rotation or contrast alteration"
+    },
+    {
+      "source": "data/raw/c40_mackay1943_leaf439.jpg",
+      "box_xyxy": [
+        500,
+        960,
+        1060,
+        1340
+      ],
+      "path": "results/primary_pages/c40-original-axe-signs.png",
+      "method": "Pillow crop, native pixels, no rotation or contrast alteration"
+    },
+    {
+      "source": "data/raw/c40_mackay1943_leaf439.jpg",
+      "box_xyxy": [
+        1410,
+        510,
+        1790,
+        2840
+      ],
+      "path": "results/primary_pages/c40-original-ingot-photo.png",
+      "method": "Pillow crop, native pixels, no rotation or contrast alteration"
+    },
+    {
+      "source": "data/raw/c40_mackay1943_leaf325.jpg",
+      "box_xyxy": [
+        570,
+        2030,
+        4300,
+        2540
+      ],
+      "path": "results/primary_pages/c40-original-catalogue.png",
+      "method": "Pillow crop, native pixels, no rotation or contrast alteration"
+    },
+    {
+      "source": "data/raw/c40_mackay1943_leaf198.jpg",
+      "box_xyxy": [
+        950,
+        3290,
+        4770,
+        4410
+      ],
+      "path": "results/primary_pages/c40-original-axe-text.png",
+      "method": "Pillow crop, native pixels, no rotation or contrast alteration"
+    }
+  ],
+  "evidence_files": [
+    {
+      "path": "data/raw/c40_archive_search.json",
+      "bytes": 1107,
+      "sha256": "d55e341b0180291844a9d928f6f2d1f2ada71eaad61a57fe94515b50379f4e9d"
+    },
+    {
+      "path": "data/raw/c40_mackay1943_metadata.json",
+      "bytes": 4564,
+      "sha256": "9517aaf281a2153f2c5682de04a87d0be6c0938df097d3d5d5589ac18b312fa1"
+    },
+    {
+      "path": "data/raw/c40_mackay1943_djvu.txt",
+      "bytes": 1132341,
+      "sha256": "423091d7bc90b77875e8ecaefd2474407347bbf1ef51c9bf0b488dd3229d7b13"
+    },
+    {
+      "path": "data/raw/c40_mackay1943_page_numbers.json",
+      "bytes": 87543,
+      "sha256": "65e10c04215fcfa0a0d65e2ba51b0e17c4cf9fc4d8e636f53e152c11122e810a"
+    },
+    {
+      "path": "data/raw/c40_mackay1943_leaf63.jpg",
+      "bytes": 2877069,
+      "sha256": "d06d0892f3b1d02ce98087e50a378ecf8a394d6861d85a344de3e902bb8c77f8"
+    },
+    {
+      "path": "data/raw/c40_mackay1943_leaf195.jpg",
+      "bytes": 2803184,
+      "sha256": "df6f65233b011fb26fe696ca07f95f7f23dc529be4f410fce7f61d1cbab2d1c5"
+    },
+    {
+      "path": "data/raw/c40_mackay1943_leaf196.jpg",
+      "bytes": 2834216,
+      "sha256": "e1f89238212d5c6cb070185ac9b43b093853a1ccb20914726fd7a63462b66992"
+    },
+    {
+      "path": "data/raw/c40_mackay1943_leaf198.jpg",
+      "bytes": 2715100,
+      "sha256": "6c931960e34844f6719bd7b5d42ca29640d37837f11d634ff63da45e5f298180"
+    },
+    {
+      "path": "data/raw/c40_mackay1943_leaf199.jpg",
+      "bytes": 2599880,
+      "sha256": "db591f97d331d37dd5ec5b47c458a0d5b1f64b0430cb87e278054cf3902b3e22"
+    },
+    {
+      "path": "data/raw/c40_mackay1943_leaf207.jpg",
+      "bytes": 2586393,
+      "sha256": "62a21f8427d16296ed0f1702bc8a586859e1b6e7d2ab0899804084c4b132d5d1"
+    },
+    {
+      "path": "data/raw/c40_mackay1943_leaf208.jpg",
+      "bytes": 2469844,
+      "sha256": "26036959842c48194796fbe3f9e1c0b8a9157cb01bd941d1de3636a712a9278d"
+    },
+    {
+      "path": "data/raw/c40_mackay1943_leaf325.jpg",
+      "bytes": 2405814,
+      "sha256": "9a8cef1897cdfd86cc57a67545eb91c0b1dac156c83b7a750dc52b253a744efc"
+    },
+    {
+      "path": "data/raw/c40_mackay1943_leaf439.jpg",
+      "bytes": 1899174,
+      "sha256": "00e1d2bb561d8f7c697e16952a6a314827ca204b734f5032b9c9734cdb9760e0"
+    },
+    {
+      "path": "results/primary_pages/c40-original-axe-drawings.png",
+      "bytes": 693428,
+      "sha256": "903e5e63730a7d896426a85a942b7539544eacd1afeb76d1e67c5db5f7ba1788"
+    },
+    {
+      "path": "results/primary_pages/c40-original-axe-signs.png",
+      "bytes": 107296,
+      "sha256": "854d09e813f04d666d5b5abde1010849b64d1651a332b39ec77ee4bcdc61d3dc"
+    },
+    {
+      "path": "results/primary_pages/c40-original-ingot-photo.png",
+      "bytes": 341801,
+      "sha256": "63a76dcc5e323d9703b50608617b687cdde40ab86be7798509cfb657f8360150"
+    },
+    {
+      "path": "results/primary_pages/c40-original-catalogue.png",
+      "bytes": 1045955,
+      "sha256": "2a05c4233ecd4ba1daf69f76c5f5c6fe6e80092706756fff2f83a7b3d1d29eb6"
+    },
+    {
+      "path": "results/primary_pages/c40-original-axe-text.png",
+      "bytes": 3473238,
+      "sha256": "864da7a597fb5aa4c624d5846803183e11980ed260cb30c8c571b8b1b77ea005"
+    }
+  ],
+  "catalogue_header_discrepancy": {
+    "printed_page": 305,
+    "source_path": "data/raw/c40_mackay1943_leaf325.jpg",
+    "inspection_crop": "results/primary_pages/c40-original-catalogue.png",
+    "header_reading": "Plate LXXIV. Copper and Bronze Tools and Implements (Groups2529,2593). ChapterXII",
+    "target_row_reading": "(1,1,a). (No.2596,A). Port.ofaxe. Inscribedbothsides.",
+    "finding": "The group header lists2529 and2593 but omits2596, although the first exact item row is2596A. Later item rows10\u201317 belong2593; the header is incomplete with respect to the axe row rather than evidence that2596A should be changed to2593A.",
+    "policy": "Retain header and exact row separately; identity/context use item-level record, corroborated by p43 pan2596. No silent correction or inferred typographical cause."
+  }
+}

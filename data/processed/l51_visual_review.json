@@ -1,0 +1,146 @@
+{
+  "review_date": "2026-09-25",
+  "review_mode": "Independent source-exposed visual review of local reproductions; no physical autopsy",
+  "object": {
+    "cisi": "L-51",
+    "finnish_number": "6037",
+    "excavation_number": "11358",
+    "museum_number": "LTH SRG1264",
+    "photo_reference": "HU1019",
+    "photo_printed_page": 249,
+    "photo_pdf_page": 285,
+    "metadata_printed_page": 372,
+    "metadata_pdf_page": 408,
+    "secondary_row": "2020.1",
+    "secondary_text": "+527-555-231-235+",
+    "views": [
+      "A",
+      "a",
+      "B",
+      "C",
+      "D"
+    ]
+  },
+  "navigation_failures": [
+    {
+      "pdf_page": 409,
+      "actual_printed_page": 373,
+      "actual_scope": "L99\u2013266",
+      "reason": "Does not contain L51 metadata; retained"
+    }
+  ],
+  "observations": [
+    "Original and impression are horizontally mirrored; motif is above separate four-sign text.",
+    "Bulletin Figure7C repeats the CISI impression at same vertical orientation, not independent evidence.",
+    "Repeated rounded elements in rows above elongated tapering projections are visible. Exact bead/pendant inventory is not certified.",
+    "Roughly complete rectangular face outline; surface detail is degraded in the reproduction.",
+    "Selected modern necklace resembles the multirow arrangement; reproduced Mohenjodaro necklace shares pointed pendants but not the same complete row layout."
+  ],
+  "interpretation": {
+    "necklace": "Plausible but not established solely by visual analogy",
+    "named_object_in_text": null,
+    "guild": null,
+    "commodity": null,
+    "semantic_values_assigned": false,
+    "phonetic_values_assigned": false
+  },
+  "frequency_claim": {
+    "source_pdf_pages": [
+      25,
+      26
+    ],
+    "source_printed_pages": [
+      19,
+      20
+    ],
+    "inline_graphic_provisional_codes": [
+      "W527",
+      "W555"
+    ],
+    "graphic_is_pair": true,
+    "broader_w555_any_pf1_is_primary_claim": false,
+    "threshold": "more than80%",
+    "source_named_outcome": "proposed precious-metal sign or fish signs in author-defined core informational segment",
+    "exact_segment_rule_supplied_in_paragraph": false,
+    "exact_denominator_supplied_in_paragraph": false,
+    "terminal_pair_repeated_in_m636_discussion": true,
+    "operational_caution": "Displayed prefix is reading ending under reported R/L. Whole-text presence is a transparent proxy, not exact segment replication."
+  },
+  "evidence_files": [
+    {
+      "path": "data/raw/cisi_76884.pdf",
+      "bytes": 31508998,
+      "sha256": "47a4da4227cfb7baa56d6a561e25797225499d0ec54f5a702a82c67ab4746d4d"
+    },
+    {
+      "path": "data/raw/irc_2025_fish_bulletin.pdf",
+      "bytes": 10858996,
+      "sha256": "af5f67d803a4c8bdda75c27bf113fd67f32cf2a88a680fc5530e3aa334e86a87"
+    },
+    {
+      "path": "data/raw/lipi_inscriptions.csv",
+      "bytes": 1204921,
+      "sha256": "b8dcb325a2e2cd3cde12ac12e7a418b0348e45713c9ee28aad81b645d2ac5ee4"
+    },
+    {
+      "path": "results/primary_pages/l51-cisi-285.png",
+      "bytes": 2506710,
+      "sha256": "b3fe7583a9f0ca1792425b23d3a7ebb5d33c0f5aa71dce70dcbfd8e39e190ad8"
+    },
+    {
+      "path": "results/primary_pages/l51-cisi-409.png",
+      "bytes": 4093245,
+      "sha256": "0ebdcb95e4bd478ccdd652a7ad3d40f1ce1a5ee5950b05040d5600986dcc20df"
+    },
+    {
+      "path": "results/primary_pages/l51-cisi-metadata-408.png",
+      "bytes": 4436819,
+      "sha256": "5477b46586837878beffc0873aa14d6b84c41dea1605c9a084186fdd4fb48470"
+    },
+    {
+      "path": "results/primary_pages/l51-bulletin-25.png",
+      "bytes": 1573805,
+      "sha256": "b3a2a036f3ee106bdb80d6832dda643e24b4ad48201f7ea98afb892b327ebc57"
+    },
+    {
+      "path": "results/primary_pages/l51-bulletin-26.png",
+      "bytes": 560903,
+      "sha256": "387038470c8e40dc79009337862d2e2f6c1f6979ad33e829bcea79b3f919a42e"
+    },
+    {
+      "path": "results/l51-cisi-metadata_extraction.json",
+      "bytes": 373,
+      "sha256": "9e41921be4d85b259ff0881b84a117d975cfc34a3b1daa4b502f10610c619982"
+    },
+    {
+      "path": "scripts/render_l51_review_crops.py",
+      "bytes": 904,
+      "sha256": "fdcd0a1b0558d46b2cb74e058f77e00a1fbf48ef88c53c83032cacdac5a0d540"
+    },
+    {
+      "path": "results/primary_pages/l51-review-original.png",
+      "bytes": 255195,
+      "sha256": "e417c41cd16ddcff27db1883bafc037243f80eacda83292b581bc522099380dc"
+    },
+    {
+      "path": "results/primary_pages/l51-review-impression.png",
+      "bytes": 226829,
+      "sha256": "6df64131f668b9e7c1f19482565ad33145b11a126aa0d69636b81d87e44e5282"
+    },
+    {
+      "path": "results/primary_pages/l51-review-claim.png",
+      "bytes": 57012,
+      "sha256": "e73f4cdefa88f5cb884e0871df82088d46ec2cd4fddecfcf5190b7916f7d68d5"
+    },
+    {
+      "path": "results/primary_pages/l51-review-comparison.png",
+      "bytes": 487175,
+      "sha256": "049e90e035bf543dc6c808c74b2fbed1d5fea4a6d24b3bd908968e8ad5a4483a"
+    },
+    {
+      "path": "results/primary_pages/l51-review-metadata.png",
+      "bytes": 44641,
+      "sha256": "bf44a764641babd1a19db1c27313fb095e291fedd73f5b2fafc50b19fafd305b"
+    }
+  ]
+}

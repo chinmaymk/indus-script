@@ -1,0 +1,1039 @@
+{
+  "appendix_drawings_reviewed": 15,
+  "appendix_rows_reviewed": 6,
+  "candidate_pairs_changed": false,
+  "common_roof_semantics_established": false,
+  "common_roof_semantics_refuted": false,
+  "established_phonetic_values": 0,
+  "established_semantic_values": 0,
+  "evidence_pin_checks": 105,
+  "exact_pixel_crop_checks": 16,
+  "inference_review_pin_checks": 8,
+  "input_sha256": {
+    "data/processed/catalogue_features.json": "00836515c6f3beec28b3b66e13d8a9c6e94571cfb2e9dbb4b148651b7ff0032d",
+    "data/processed/roof_fish_stroke_variant_review.json": "cee67f137fe52ffa8b9d672a29387d9cbff04923ce68c62d483433c62825bfcb",
+    "data/processed/roof_m092_artifact_crop_manifest.json": "6f2145c70526ac8ff2509d036cf465f554aee8d0846030b73910305599299f0b",
+    "data/processed/roof_m092_artifact_review.json": "66156580188ee8d5c8ad4febc59d10a80ba99f23bd558fbd4d3d889d429f00b2",
+    "data/processed/roof_nonfish_variant_review.json": "4bbbf76187d53e0bc615558a537ceef1964722a3e39012216db32396b64112d0",
+    "data/processed/roof_x_identity_crop_manifest.json": "4016a762d143e7625e34929cd6c1fe4ebf959db85d495a7fb713b7943f549047",
+    "data/processed/roof_x_identity_new_sources.json": "e39f9a44a22b1fe31c65efb803440327e2957e72f5f52dbcc34c6c51a9149d37",
+    "data/processed/roof_x_identity_review.json": "0be5cb55c41e5d169c1b2a988ed67b7299978a901778725f3a5203cae80fdf60",
+    "data/raw/lipi_inscriptions.csv": "b8dcb325a2e2cd3cde12ac12e7a418b0348e45713c9ee28aad81b645d2ac5ee4",
+    "docs/ROOF_INFERENCE_REVIEW.md": "94e540e57a3c51fbb58acabf7c5c0a3bdaacf115cd5e134ae31c53fdbdee1983",
+    "docs/ROOF_VARIANT_ARTIFACT_RESULTS.md": "c33cba6ef07a441946709be53785291617cae87ea75a2d0ab35f10d9253f6764",
+    "results/roof_modifier_audit.json": "0828807a246236e1d2809bbb35f429a887f03674bdcf6644214faebe3a962c7c",
+    "scripts/audit_roof_variant_artifacts.py": "5c05c4884a2a794b48d17be60b670fd417c9125a9c7d3623725202606183ea42",
+    "scripts/render_roof_nonfish_variants.py": "2480173eb592a9185d219d9c77913a8730502321a9774256f1b771bef03aa44d"
+  },
+  "limits": "Hashes and crop pixels are machine-checked; artifact identities and graphic descriptions depend on explicitly recorded manual source reviews. No new independent context rectangle or semantic anchor.",
+  "new_source_records": 3,
+  "original_artifacts_authenticated": [
+    "K-29 / 8219 / ASI68.1.48",
+    "EH407 / 1722"
+  ],
+  "reviews": {
+    "data/processed/roof_fish_stroke_variant_review.json": {
+      "all_roofed_counterparts_verified": false,
+      "candidate_pairs_changed": false,
+      "context_screen_recoded": false,
+      "date": "2026-09-27",
+      "entries": [
+        {
+          "base_geometry_change": "lateral body/tail projections present versus absent",
+          "pdf_page": 801,
+          "printed_page": 792,
+          "references": [
+            "1032",
+            "8211"
+          ],
+          "roof_present": [
+            false,
+            false
+          ],
+          "sign": "M059"
+        },
+        {
+          "base_geometry_change": "four flanking upright marks versus four dots",
+          "pdf_page": 795,
+          "printed_page": 786,
+          "references": [
+            "1177",
+            "7025"
+          ],
+          "roof_present": [
+            false,
+            false
+          ],
+          "sign": "M060"
+        },
+        {
+          "base_geometry_change": "upright versus slanted parallel strokes",
+          "pdf_page": 795,
+          "printed_page": 786,
+          "references": [
+            "1003",
+            "2573"
+          ],
+          "roof_present": [
+            false,
+            false
+          ],
+          "sign": "M089"
+        }
+      ],
+      "evidence_files": [
+        {
+          "bytes": 3583,
+          "path": "docs/ROOF_FISH_STROKE_VARIANT_REVIEW.md",
+          "sha256": "a6cee428e7cb02cb67e91d97de61f497aff1da8e5ac5743245eba782436ceafd"
+        },
+        {
+          "bytes": 119302608,
+          "path": "data/raw/mahadevan_1977_text.pdf",
+          "sha256": "6dcdd074a0174e5fab149590fbbf82342711d345764e9763f8e5e92c81cf7f99"
+        },
+        {
+          "bytes": 10284,
+          "path": "data/processed/roof_modifier_shape_review.json",
+          "sha256": "4f99542b597c46516d587e16ba8e4bbcc60000f2d739eb1bbf0f2e290c3cf146"
+        },
+        {
+          "bytes": 2445726,
+          "path": "results/primary_pages/roof-variants-locate-795.png",
+          "sha256": "1debe16bc4084cf70cb62bdd8b7ab487313bbbc29d05ecee1d0073db80f0b41b"
+        },
+        {
+          "bytes": 2340639,
+          "path": "results/primary_pages/roof-variants-locate-801.png",
+          "sha256": "e8aa5c7fc56f54174d1d337f94e4f74c08b5c6742df4d9b13dee0430bdef3473"
+        },
+        {
+          "bytes": 407,
+          "path": "results/roof-variants-locate_extraction.json",
+          "sha256": "0637c2e4def04c2173e694d77488d2084e2617f3f01f74769c748d617bb77814"
+        },
+        {
+          "bytes": 730,
+          "path": "scripts/render_roof_fish_variants.py",
+          "sha256": "6decc5df786d186c7c1dffbd11e0eff8e2e31d68e236e702240a0a7190f9e82d"
+        },
+        {
+          "bytes": 81519,
+          "path": "results/primary_pages/roof-variants-M059.png",
+          "sha256": "953f84f657cec5929982f87df3a4655ff71a4192678805fb929e8d7b9bd09498"
+        },
+        {
+          "bytes": 85555,
+          "path": "results/primary_pages/roof-variants-M060.png",
+          "sha256": "392e52837bf05208b9469d59e64d2654a3ccbbfffe9601d34183e2f5a85198b0"
+        },
+        {
+          "bytes": 88358,
+          "path": "results/primary_pages/roof-variants-M089.png",
+          "sha256": "7f303e45ef982efe4e3947c4a62c12f6b8f632d5e20885afc0c017b577eb83c7"
+        },
+        {
+          "bytes": 25129,
+          "path": "results/primary_pages/roof-modifier-M065.png",
+          "sha256": "1de879dcf0a847e97d0aefe04b48f6f906e9407acac3a7ff092a6fa07cd143ad"
+        },
+        {
+          "bytes": 28502,
+          "path": "results/primary_pages/roof-modifier-M066.png",
+          "sha256": "e6d16a082274ea0997076a5a0fcb3f67fcf0196347a57912f70ec0916bea6fc7"
+        },
+        {
+          "bytes": 25504,
+          "path": "results/primary_pages/roof-modifier-M092.png",
+          "sha256": "590efe55ffec3b424d5210eee00ae6b213af4831221f312efcd763b9ff009ea6"
+        }
+      ],
+      "phonetic_values": null,
+      "scope": "Three targeted base-code entries in AppendixI, including M059 in addendum; catalogue drawings not original autopsy",
+      "semantic_values": null,
+      "universal_fixed_base_geometry_supported": false
+    },
+    "data/processed/roof_m092_artifact_review.json": {
+      "cisi_alias": "K-29",
+      "cisi_excavation_literal": "KLB2 8219",
+      "cisi_photograph_source": "HU 22",
+      "date": "2026-09-27",
+      "established_phonetic_values": 0,
+      "established_semantic_values": 0,
+      "evidence_files": [
+        {
+          "bytes": 5487,
+          "path": "docs/ROOF_M092_ARTIFACT_REVIEW.md",
+          "sha256": "274bf902a3fb1ffb2a3bb81e0f5898ecea8f2d06a8a7376205aa750243aea8ac"
+        },
+        {
+          "bytes": 2047,
+          "path": "docs/ROOF_M092_COVERAGE_REVIEW.md",
+          "sha256": "1e1af08e5554ab192581ac815e40845cf34dba2b06e333a04af3144eaca85107"
+        },
+        {
+          "bytes": 2329,
+          "path": "data/processed/roof_m092_primary_review.json",
+          "sha256": "28434171bb84e9e19efdc520bd13ecf423ee28e357afc9ae005bd5dce8284860"
+        },
+        {
+          "bytes": 119302608,
+          "path": "data/raw/mahadevan_1977_text.pdf",
+          "sha256": "6dcdd074a0174e5fab149590fbbf82342711d345764e9763f8e5e92c81cf7f99"
+        },
+        {
+          "bytes": 31508998,
+          "path": "data/raw/cisi_76884.pdf",
+          "sha256": "47a4da4227cfb7baa56d6a561e25797225499d0ec54f5a702a82c67ab4746d4d"
+        },
+        {
+          "bytes": 15550482,
+          "path": "data/raw/pipes_asi_download61.pdf",
+          "sha256": "77eb134c276d36cecbb162151eb40eb34ea2d29e0257d71abbf94970834476ba"
+        },
+        {
+          "bytes": 1204921,
+          "path": "data/raw/lipi_inscriptions.csv",
+          "sha256": "b8dcb325a2e2cd3cde12ac12e7a418b0348e45713c9ee28aad81b645d2ac5ee4"
+        },
+        {
+          "bytes": 189902,
+          "path": "data/processed/catalogue_features.json",
+          "sha256": "00836515c6f3beec28b3b66e13d8a9c6e94571cfb2e9dbb4b148651b7ff0032d"
+        },
+        {
+          "bytes": 1378,
+          "path": "scripts/render_roof_m092_artifact_crops.py",
+          "sha256": "823d55a8ff879a8e9bec2b918cbded6663be258086ccfe14a1106b82baeddc49"
+        },
+        {
+          "bytes": 2093,
+          "path": "data/processed/roof_m092_artifact_crop_manifest.json",
+          "sha256": "6f2145c70526ac8ff2509d036cf465f554aee8d0846030b73910305599299f0b"
+        },
+        {
+          "bytes": 3186059,
+          "path": "results/primary_pages/pincer-cisi-402.png",
+          "sha256": "dd6e896b8becd4ab49c0ac2c0997d9c88ec6cd6bcf6a534af91334c109146001"
+        },
+        {
+          "bytes": 3970092,
+          "path": "results/primary_pages/roof-m092-artifact-cisi-337.png",
+          "sha256": "e7479cee95ed1682fe1f98e63ec42dee7067446d5a2fd3ea5bd78d8f9af2c476"
+        },
+        {
+          "bytes": 3916817,
+          "path": "results/primary_pages/roof-m092-artifact-cisi-338.png",
+          "sha256": "ae20cfe24a3a6509b7791f0a1289a2fd9ed179c2f0691c337b1d37e08f7e8b09"
+        },
+        {
+          "bytes": 3147715,
+          "path": "results/primary_pages/roof-m092-artifact-cisi-339.png",
+          "sha256": "46280ec023608eef3b72d9833c5aa16791588fbcd5ee057ed175532c3ffc1679"
+        },
+        {
+          "bytes": 4599982,
+          "path": "results/primary_pages/roof-m092-artifact-cisi-410.png",
+          "sha256": "86e36aa4e31e2b01232d33aaa05926bf62a42294a941d609d923fdf2bc69dd18"
+        },
+        {
+          "bytes": 159409,
+          "path": "results/primary_pages/roof-m092-artifact-cisi-K29.png",
+          "sha256": "8b73222e6e16a66c19b3e422b218ffe46b13e9214fcdd1c67cc3816da078f7b0"
+        },
+        {
+          "bytes": 110546,
+          "path": "results/primary_pages/roof-m092-artifact-cisi-identity.png",
+          "sha256": "18fff6341cad21055539499b3cf04a0790179bc3f973493fb54db3aa49df2654"
+        },
+        {
+          "bytes": 1483913,
+          "path": "results/primary_pages/roof-m092-artifact-cisi-key-401.png",
+          "sha256": "dd8d3a0d21c32f284bad3d2e7ac412a059d463d8339566e8581f0fdc60f63fd8"
+        },
+        {
+          "bytes": 991850,
+          "path": "results/primary_pages/roof-m092-artifact-cisi-photo-340.png",
+          "sha256": "17fd81825fb326c47c1354889c6c17107687c6185abe7fd474c61b30e4784631"
+        },
+        {
+          "bytes": 433100,
+          "path": "results/primary_pages/roof-m092-artifact-klb-162.png",
+          "sha256": "5063fbba30f2a80c5b25c462686bf9e2068f46c7652f7510955c66897e3b0ad6"
+        },
+        {
+          "bytes": 1846358,
+          "path": "results/primary_pages/roof-m092-artifact-klb-163.png",
+          "sha256": "0ab39c9313ec81bdd25895f2b67674b56b4e4385bb564a8bc00c5dc14fd23297"
+        },
+        {
+          "bytes": 437160,
+          "path": "results/primary_pages/roof-m092-artifact-klb-164.png",
+          "sha256": "21e46aeacc8fd8697583afb64a7bd29c4efdf63174346f512e98effbe7c12fa9"
+        },
+        {
+          "bytes": 1056307,
+          "path": "results/primary_pages/roof-m092-artifact-klb-figure29.png",
+          "sha256": "749cb3c849ee4412751c74208e7514010ac096928b2272abcc239335c50dca81"
+        },
+        {
+          "bytes": 1501338,
+          "path": "results/primary_pages/roof-m092-artifact-klb-photo-161.png",
+          "sha256": "eff323ca056bb382ac1da02956ce0673282c88d94835b364ce71e631e51ab3c4"
+        },
+        {
+          "bytes": 4604299,
+          "path": "results/primary_pages/roof-m092-artifact-m77-836.png",
+          "sha256": "8719cc879281dec52394c1f160d76ad90e05087b1a2d28e56f89fadf06e741d7"
+        },
+        {
+          "bytes": 265350,
+          "path": "results/primary_pages/roof-m092-artifact-m77-identity.png",
+          "sha256": "136a6c8f6033acafec60a92f7abfa05d890172523f7401db4aeb2e1fd8fcac8c"
+        },
+        {
+          "bytes": 362,
+          "path": "results/roof-m092-artifact-cisi-key_extraction.json",
+          "sha256": "4ad691f971e3494850123cb29d2c7ea06a37bc9ee4acb5826fd34497d622672d"
+        },
+        {
+          "bytes": 362,
+          "path": "results/roof-m092-artifact-cisi-photo_extraction.json",
+          "sha256": "869e5235e6fadcd995263d262f1ce29c118395bdd3d6e6c46a2a040c6f574845"
+        },
+        {
+          "bytes": 389,
+          "path": "results/roof-m092-artifact-cisi_extraction.json",
+          "sha256": "d0017bfc685ddb53054c6226f1384bf19b93b3ad09f6387e578d73694bf02f1d"
+        },
+        {
+          "bytes": 372,
+          "path": "results/roof-m092-artifact-klb-photo_extraction.json",
+          "sha256": "a39b7e92835acb13850cbee032c45d26a4bfcbe0a59f35b998b345d560eeb07c"
+        },
+        {
+          "bytes": 390,
+          "path": "results/roof-m092-artifact-klb_extraction.json",
+          "sha256": "fe3462bfd7e38d125efcd6c9100214a948375619c4f5a05f05728e1734f627d5"
+        },
+        {
+          "bytes": 371,
+          "path": "results/roof-m092-artifact-m77_extraction.json",
+          "sha256": "f886e63df22f847cbb1880f1eac74dba2efce8afa64656ec879b1bb510ca3de1"
+        }
+      ],
+      "excavation_number": "8219",
+      "finnish_concordance": "7102",
+      "finnish_number_is_not_m77_reference": true,
+      "identity_basis": [
+        "M77 Appendix V p827/PDF836 row8018: excavation8219,ASI68.1.48",
+        "CISI1 p374/PDF410 K-29: KLB2 8219,ASI68.1.48",
+        "Kalibangan2015 p470/PDF162 entry29:Reg8219 and M-List92"
+      ],
+      "limits": [
+        "Same object in several photographs/publications is one attestation",
+        "No physical examination",
+        "No roof=standaloneM134 identity or stroke=count semantics",
+        "No reconstruction of missing signs or token-boundary promotion"
+      ],
+      "local_catalogue_mapping": {
+        "complete_W_M_transcription_equivalence_asserted": false,
+        "feature_entry": "P149",
+        "mahadevan": "M092",
+        "proposed_translation_fields_used": false,
+        "status": "Supported locally by exact artifact alias, primary visible group and source feature assignment; not a global mapping validation",
+        "unspecified_000_interpreted": false,
+        "wells": "W044"
+      },
+      "m77_text": "8018",
+      "museum_registration": "ASI 68.1.48",
+      "new_downloads": [],
+      "phonetic_value": null,
+      "primary_pages": {
+        "cisi_key": {
+          "pdf": [
+            401,
+            402
+          ],
+          "printed": [
+            365,
+            366
+          ]
+        },
+        "cisi_metadata": {
+          "pdf": 410,
+          "printed": 374
+        },
+        "cisi_photos": {
+          "pdf": 340,
+          "printed": 304
+        },
+        "kalibangan_entry": {
+          "pdf": 162,
+          "printed": 470
+        },
+        "kalibangan_figure": {
+          "figure": "9.29",
+          "pdf": 161,
+          "printed": 469
+        },
+        "m77_appendix": {
+          "pdf": 836,
+          "printed": 827
+        }
+      },
+      "published_excavation_metadata": {
+        "area": "KLB-2",
+        "boss_unidentifiable_due_reverse_damage": true,
+        "intact_edge_mm": 27,
+        "layer": "1",
+        "locus": "baulk between Squares XA6 and XB6",
+        "material": "white steatite with white coating",
+        "only_one_edge_intact": true,
+        "phase": "late level of Period II",
+        "site": "Kalibangan",
+        "thickness_mm": 7.5
+      },
+      "secondary_relevant_fields_only": {
+        "cisi": "K-29",
+        "complete": "N",
+        "condition": "Poor",
+        "dir.": "-",
+        "excavation-idno": "KLB2 8219",
+        "id": "1903.1",
+        "preservation": "fragment",
+        "site": "Kalibangan",
+        "text": "]000-044+",
+        "type": "SEAL:S"
+      },
+      "semantic_value": null,
+      "status": "Exact documentary identity and surviving graphic authenticated in retained primary reproductions",
+      "strict_corpus_changed": false,
+      "visual_observations": {
+        "impression_also_reviewed": true,
+        "independent_artifacts_represented": 1,
+        "loss_region": "Left side in impression orientation; irregular break near adjacent strokes and animal",
+        "number_of_missing_signs": null,
+        "original_lengths_of_edge_contacting_strokes_certified": false,
+        "roof_above_three_long_parallel_strokes": true,
+        "roof_visible_on_physical_original_photograph": true,
+        "substantial_field_loss": true,
+        "two_adjacent_shorter_strokes_survive": true
+      },
+      "whole_field_remains_excluded_for_loss": true
+    },
+    "data/processed/roof_nonfish_variant_review.json": {
+      "attempts": [
+        {
+          "result": "Retained its six-pair candidate scope; selected only three assigned variant codes.",
+          "step": "Read frozen representative shape review"
+        },
+        {
+          "result": "Located137 and162 on796/787; other pages were navigation only.",
+          "step": "Inspect existing parent renders794–796"
+        },
+        {
+          "result": "800/791 starts336, so does not contain334. Addendum801/792 has no target row.",
+          "step": "Inspect existing parent renders800–801"
+        },
+        {
+          "result": "Located334 at bottom-right of790. No overwrite of parent prefix.",
+          "step": "Render799 with distinct roof-variants-agent prefix"
+        },
+        {
+          "result": "Code labels and all reference labels retained; no enhancement or interpolation.",
+          "step": "Create and inspect three native-pixel row crops"
+        },
+        {
+          "result": "Compared broad roof/base geometry; no per-occurrence original photograph authentication.",
+          "step": "Inspect six retained representative crops"
+        }
+      ],
+      "conclusion": "Documented rows retain unroofed137/162 and roofed334, but base geometry varies, especially162. The source supports qualified representative roof comparisons, not a universal exact add-roof transformation.",
+      "crop_method": "Pillow crop using recorded pixel boxes, native resolution, no resize, contrast change, retouching or rotation.",
+      "crop_records": [
+        {
+          "box_xyxy": [
+            1068,
+            495,
+            1979,
+            696
+          ],
+          "crop": "results/primary_pages/roof-nonfish-M137-variants.png",
+          "fractional_box": [
+            0.465,
+            0.165,
+            0.862,
+            0.232
+          ],
+          "sign": "M137",
+          "source": "results/primary_pages/roof-variants-locate-796.png",
+          "source_dimensions": [
+            2296,
+            3000
+          ]
+        },
+        {
+          "box_xyxy": [
+            1063,
+            2310,
+            1984,
+            2538
+          ],
+          "crop": "results/primary_pages/roof-nonfish-M162-variants.png",
+          "fractional_box": [
+            0.463,
+            0.77,
+            0.864,
+            0.846
+          ],
+          "sign": "M162",
+          "source": "results/primary_pages/roof-variants-locate-796.png",
+          "source_dimensions": [
+            2296,
+            3000
+          ]
+        },
+        {
+          "box_xyxy": [
+            1391,
+            2880,
+            2436,
+            3146
+          ],
+          "crop": "results/primary_pages/roof-nonfish-M334-variants.png",
+          "fractional_box": [
+            0.537,
+            0.823,
+            0.94,
+            0.899
+          ],
+          "sign": "M334",
+          "source": "results/primary_pages/roof-variants-agent-799.png",
+          "source_dimensions": [
+            2591,
+            3500
+          ]
+        }
+      ],
+      "established_phonetic_values": 0,
+      "established_semantic_values": 0,
+      "evidence_files": [
+        {
+          "bytes": 119302608,
+          "path": "data/raw/mahadevan_1977_text.pdf",
+          "sha256": "6dcdd074a0174e5fab149590fbbf82342711d345764e9763f8e5e92c81cf7f99"
+        },
+        {
+          "bytes": 2654422,
+          "path": "results/primary_pages/roof-variants-locate-796.png",
+          "sha256": "461c8ec9b8853e338a8f3ed2822097f229746ca2a98dda39ac8be2df4b936611"
+        },
+        {
+          "bytes": 3070917,
+          "path": "results/primary_pages/roof-variants-agent-799.png",
+          "sha256": "8680830631009b9dbec944ffe35b58b568a4f3589f51048e328de5265c508129"
+        },
+        {
+          "bytes": 2991989,
+          "path": "results/primary_pages/roof-variants-locate-800.png",
+          "sha256": "df56be72b00b0c060a8cd0c432e89046edfbde1dbf805734be196058e8c5e92c"
+        },
+        {
+          "bytes": 2340639,
+          "path": "results/primary_pages/roof-variants-locate-801.png",
+          "sha256": "e8aa5c7fc56f54174d1d337f94e4f74c08b5c6742df4d9b13dee0430bdef3473"
+        },
+        {
+          "bytes": 371,
+          "path": "results/roof-variants-agent_extraction.json",
+          "sha256": "d7e5215728fbe96c877b47894c9e1698fcb16d6643544e3e056162fe4b877479"
+        },
+        {
+          "bytes": 2228064,
+          "path": "results/primary_pages/sign_list-044.png",
+          "sha256": "33eff554bfdea81af6d1a3510a5b2541d1b74b02ae1e63b253c725b44c7c0b64"
+        },
+        {
+          "bytes": 2099531,
+          "path": "results/primary_pages/sign_list-046.png",
+          "sha256": "a191e9297a6ab8b7cad1028eaeac062b4b6fa3cd34aefbdd507f669d736d2e8e"
+        },
+        {
+          "bytes": 97363,
+          "path": "results/primary_pages/roof-nonfish-M137-variants.png",
+          "sha256": "6235eee42b747499b4c8ebc0ce5ac860a2e08a9d3b76364f2b32ac5d2ae05d7f"
+        },
+        {
+          "bytes": 128435,
+          "path": "results/primary_pages/roof-nonfish-M162-variants.png",
+          "sha256": "fe23237b1e17b5bf201598e9750a89022dd773579590109ee1ef4fe59a9108b5"
+        },
+        {
+          "bytes": 132311,
+          "path": "results/primary_pages/roof-nonfish-M334-variants.png",
+          "sha256": "b4b8cd5f2e62a3059e86d13b018fae9e84d558383d7ee7d6dff49a08172252e7"
+        },
+        {
+          "bytes": 18347,
+          "path": "results/primary_pages/roof-modifier-M137.png",
+          "sha256": "8503e240e04451477b25c5d53ebc0e828bedcd255bcb845ba939eb7baef1e935"
+        },
+        {
+          "bytes": 19533,
+          "path": "results/primary_pages/roof-modifier-M138.png",
+          "sha256": "749792576be9575fdb49879bb340d220c2c204d5891fc583ed323ddd55b80b20"
+        },
+        {
+          "bytes": 15842,
+          "path": "results/primary_pages/roof-modifier-M162.png",
+          "sha256": "17121c9e9e009c88b18b09f07fa097247a5a6f426600d1a627b3ac9bcfa9834b"
+        },
+        {
+          "bytes": 16157,
+          "path": "results/primary_pages/roof-modifier-M163.png",
+          "sha256": "3bb86ff9f346429e11f199c649a696df15a61571cdf4aeddf7a1ff4eda93de93"
+        },
+        {
+          "bytes": 15681,
+          "path": "results/primary_pages/roof-modifier-M333.png",
+          "sha256": "e660c75c899ee7f34b85ab40a37d5f2bdf5fcbeeccd6c16f52b247cc3471d7bc"
+        },
+        {
+          "bytes": 18366,
+          "path": "results/primary_pages/roof-modifier-M334.png",
+          "sha256": "01a8c151a024b6a500d45478fbb9225b241411bb0b2ab46dc0b39d0f32cbe4f0"
+        }
+      ],
+      "limits": [
+        "These are Mahadevan editorial variant groupings, not independently established ancient semantic equivalences.",
+        "A variant list documents selected representative forms; it does not establish an exhaustive invariant for every ancient occurrence.",
+        "No two-sided original artifact images or complete per-code occurrence lists were inspected.",
+        "Roof presence/absence is coarser than identity of stroke sequence, exact position, physical separation or detachable component status.",
+        "No added roof identified as tokenM134, no sign splitting, and no global allograph or linguistic claim."
+      ],
+      "new_downloads": [],
+      "page_offset_check": {
+        "appendix_pages": "Printed787/790 correspond to PDF796/799 (+9).",
+        "navigation_correction": "Parent-supplied PDF800 is printed791, beginning with336; M334 occurs on previous page799/790. PDF801/792 addendum has no additional137,162 or334 row.",
+        "representative_pages": "Printed33/35 correspond to PDF44/46 (+11)."
+      },
+      "records": [
+        {
+          "appendix_drawings": 2,
+          "base_status": "X crossing preserved at coarse shape level; plain versus ticked/serrated execution differs. Exact stroke identity is not invariant.",
+          "code": "M137",
+          "comparison_pair": [
+            "M137",
+            "M138"
+          ],
+          "consequence": "The representative137/138 roof comparison survives as a coarse candidate, but a roofed serrated-X counterpart is not authenticated by these rows.",
+          "observations": [
+            {
+              "reference": "1175",
+              "shape": "Two plain oblique strokes crossing as X; no roof."
+            },
+            {
+              "reference": "2847",
+              "shape": "X-shaped crossing with numerous short transverse/tick-like marks along its arms; no roof."
+            }
+          ],
+          "pdf_page": 796,
+          "printed_page": 787,
+          "reference_labels": [
+            "1175",
+            "2847"
+          ],
+          "roof_status": "Absent in both documented drawings."
+        },
+        {
+          "appendix_drawings": 5,
+          "base_status": "Central downward stem with upper branching is shared broadly. Rounded U top, arm spread and number of prongs are not invariant.",
+          "code": "M162",
+          "comparison_pair": [
+            "M162",
+            "M163"
+          ],
+          "consequence": "A universal literal operation add roof to the same three-prong U base overstates the Appendix evidence. Representative162/163 remains a candidate comparison only; roofed matches to all five variants not established.",
+          "observations": [
+            {
+              "reference": "8075",
+              "shape": "Rounded U-like side arms with central upright and downward stem."
+            },
+            {
+              "reference": "1361",
+              "shape": "Angular Y-like side branching with central upright and downward stem."
+            },
+            {
+              "reference": "2934",
+              "shape": "Long central vertical; widely spread oblique arms with short downward-turning ends."
+            },
+            {
+              "reference": "1539",
+              "shape": "Rounded upper branching with more upper prongs than the representative three-prong form."
+            },
+            {
+              "reference": "2648",
+              "shape": "Rounded upper branching with still more closely spaced upper prongs."
+            }
+          ],
+          "pdf_page": 796,
+          "printed_page": 787,
+          "reference_labels": [
+            "8075",
+            "1361",
+            "2934",
+            "1539",
+            "2648"
+          ],
+          "roof_status": "No separate apex-up roof over the whole figure in any of the five drawings. Local arm bends in2934 are not a detached roof."
+        },
+        {
+          "appendix_drawings": 2,
+          "base_status": "Broad U-like body and basal projections retained, with lower-stem orientation varying.",
+          "code": "M334",
+          "comparison_pair": [
+            "M333",
+            "M334"
+          ],
+          "consequence": "Retains the selected broad roof feature. Deleting that roof yields an M333-like representative base only up to geometric variation; no one-to-one list of unroofed physical counterparts established.",
+          "observations": [
+            {
+              "reference": "2364",
+              "shape": "Apex-up two-oblique roof over U-like body with short oblique basal projections and a longer nearly vertical lower stem."
+            },
+            {
+              "reference": "1403",
+              "shape": "Same broad roof/body arrangement; the longer lower stem is oblique rather than vertical."
+            }
+          ],
+          "pdf_page": 799,
+          "printed_page": 790,
+          "reference_labels": [
+            "2364",
+            "1403"
+          ],
+          "roof_status": "Present in both documented drawings. Roof closely approaches or meets upper arm ends at this scan scale; a universal detached gap is not established."
+        }
+      ],
+      "representative_crop_provenance": "Existing data/processed/roof_modifier_crop_manifest.json records source full pages and fractional crop coordinates; no representative crops edited.",
+      "review_mode": "Shape hypotheses known beforehand; manual source-image inspection, not blind selection or object autopsy.",
+      "schema_version": 1,
+      "scope": "Bounded visual review of Appendix I variants M137,M162,M334 alongside previously selected representative roof pairs. No distribution counts or meaning assignments.",
+      "source": "Mahadevan1977 Appendix I List of Sign Variants"
+    },
+    "data/processed/roof_x_identity_review.json": {
+      "crop_manifest": "data/processed/roof_x_identity_crop_manifest.json",
+      "date": "2026-09-27",
+      "evidence_files": [
+        {
+          "bytes": 13315,
+          "path": "data/processed/roof_m176_primary_review.json",
+          "sha256": "fe8e3fcadf9fcd6171479241dffeced03b0d490b6992773f5b124c371c924d05"
+        },
+        {
+          "bytes": 2067,
+          "path": "data/processed/roof_x_identity_crop_manifest.json",
+          "sha256": "4016a762d143e7625e34929cd6c1fe4ebf959db85d495a7fb713b7943f549047"
+        },
+        {
+          "bytes": 1533,
+          "path": "data/processed/roof_x_identity_new_sources.json",
+          "sha256": "e39f9a44a22b1fe31c65efb803440327e2957e72f5f52dbcc34c6c51a9149d37"
+        },
+        {
+          "bytes": 31508998,
+          "path": "data/raw/cisi_76884.pdf",
+          "sha256": "47a4da4227cfb7baa56d6a561e25797225499d0ec54f5a702a82c67ab4746d4d"
+        },
+        {
+          "bytes": 35870617,
+          "path": "data/raw/h843_identity_CorpusVol2.pdf",
+          "sha256": "727132579a485ee626e48a64c663148a85fbc0811fb523818fd615231f8a327d"
+        },
+        {
+          "bytes": 119302608,
+          "path": "data/raw/mahadevan_1977_text.pdf",
+          "sha256": "6dcdd074a0174e5fab149590fbbf82342711d345764e9763f8e5e92c81cf7f99"
+        },
+        {
+          "bytes": 2429097,
+          "path": "data/raw/roof_x_identity_vats_leaf134.jpg",
+          "sha256": "45c2eedf031ec0a654b1cda71af1615e3bfd1343e0f32dce51ba931ba9343fe3"
+        },
+        {
+          "bytes": 2629828,
+          "path": "data/raw/roof_x_identity_vats_leaf193.jpg",
+          "sha256": "01072e03cc8b0ad57f1df1482607b6f6eadbe3ca5e86203231c5d430f8225761"
+        },
+        {
+          "bytes": 2529025,
+          "path": "data/raw/roof_x_identity_vats_leaf353.jpg",
+          "sha256": "a9cdac0e5468c6513e006a7f9b98c5fb78fab2180b67a6111dddfc0fe636f2bf"
+        },
+        {
+          "bytes": 17325993,
+          "path": "data/raw/vats_1940_plates_9842.pdf",
+          "sha256": "ab14c5c3a25588d3178789f83ae724eecf7cd873fb28c0a2c639a4dee21b8b18"
+        },
+        {
+          "bytes": 1518598,
+          "path": "data/raw/vats_1940_text_18220_djvu.txt",
+          "sha256": "9426186946d5540e6ccff83fdfc8e5af4aaed99926e56fe14287f57f8ccb4d45"
+        },
+        {
+          "bytes": 7021,
+          "path": "docs/ROOF_X_IDENTITY_REVIEW.md",
+          "sha256": "a539284150071887ce23b88daee48a931c52b93be016d34d3be29981cff3f46e"
+        },
+        {
+          "bytes": 2513472,
+          "path": "results/primary_pages/cisi1-406.png",
+          "sha256": "75ff02b012f96296f92dcfb14efe7e14c010308b9813d3aee4865d8703b7f4d4"
+        },
+        {
+          "bytes": 2414188,
+          "path": "results/primary_pages/cisi1-407.png",
+          "sha256": "e4dbcd6ed3fab95680b2b81e3c0b163649eed1a2d5a6d85443ce15d583cf4691"
+        },
+        {
+          "bytes": 3715683,
+          "path": "results/primary_pages/cisi1-408.png",
+          "sha256": "9d3866c05d9c2d5de8540dab9cfd15512c1c6a7f8c27d89546e32d017f7419b5"
+        },
+        {
+          "bytes": 93571,
+          "path": "results/primary_pages/roof-m176-4407-detail.png",
+          "sha256": "62152dc6a9d82e7b7bb5056b5d8e384b3b8a80d33cda582509a20b3aaf20f306"
+        },
+        {
+          "bytes": 78989,
+          "path": "results/primary_pages/roof-m176-5444-detail.png",
+          "sha256": "a20487d1617df342550f15f6eea4aabe2be95f2a112f63e1aa53ff9a085df1ec"
+        },
+        {
+          "bytes": 73083,
+          "path": "results/primary_pages/roof-m176-5444-source-detail.png",
+          "sha256": "9c216e9bd4699f494f62493334a18fb833c14fab1f760e841d45033d3c2e9887"
+        },
+        {
+          "bytes": 182800,
+          "path": "results/primary_pages/roof-m176-eh-rule-detail.png",
+          "sha256": "682a5f88db97bbc0f1d0e89a587cab81090dac67f4aeb899fbf0b9166a01c8d4"
+        },
+        {
+          "bytes": 806589,
+          "path": "results/primary_pages/roof-x-identity-407-metadata-detail.png",
+          "sha256": "25f1b104eef90f75be2907303940527020611333e15fa64ef142ab401af2b50f"
+        },
+        {
+          "bytes": 22379,
+          "path": "results/primary_pages/roof-x-identity-407-photo-detail.png",
+          "sha256": "2d6ee3148e36cd80ed453a902ef3e60c12d86b72a4266b8790a0b871be5fcff6"
+        },
+        {
+          "bytes": 853609,
+          "path": "results/primary_pages/roof-x-identity-558-metadata-detail.png",
+          "sha256": "e1f8b0617003a2c0b6fe4f396bbb1c01f0dbfe53a14ab9e8ab83072cf8202918"
+        },
+        {
+          "bytes": 10552,
+          "path": "results/primary_pages/roof-x-identity-558-photo-detail.png",
+          "sha256": "78ea8806c0b6408b0620df261a7395afbd1c3476454ce4dd8548c56294ce8705"
+        },
+        {
+          "bytes": 3372671,
+          "path": "results/primary_pages/roof-x-identity-cisi-476.png",
+          "sha256": "0664d41bdf8ad88a8cf299be4762fc3b405e072de524c50b4cebccc52cb09381"
+        },
+        {
+          "bytes": 4720,
+          "path": "results/primary_pages/roof-x-identity-cisi-476.txt",
+          "sha256": "b60ac50131bc4ec6cd397edee8ee76f2273d4c0a660501c6f80c74129c7731e2"
+        },
+        {
+          "bytes": 3590390,
+          "path": "results/primary_pages/roof-x-identity-cisi-477.png",
+          "sha256": "c059e71512879fc888f17f9a654c1c61c35594657c3251a84654eaec87d82d62"
+        },
+        {
+          "bytes": 5912,
+          "path": "results/primary_pages/roof-x-identity-cisi-477.txt",
+          "sha256": "36dbe206979d0d084a8f8cadaf5d64e040b6f57598a8bf66eee962603687b55c"
+        },
+        {
+          "bytes": 3254390,
+          "path": "results/primary_pages/roof-x-identity-cisi-478.png",
+          "sha256": "a504a44b560ba1f260a0d6e60f72d16344a255ab1458a8cf6adee0cb3a805311"
+        },
+        {
+          "bytes": 4360,
+          "path": "results/primary_pages/roof-x-identity-cisi-478.txt",
+          "sha256": "2201d4db68d678bb85299628fa7dd71d807d0c3bff2bb48f3e8207802081747f"
+        },
+        {
+          "bytes": 3393748,
+          "path": "results/primary_pages/roof-x-identity-cisi-479.png",
+          "sha256": "12e7f1e4ee27d747287fbfd72267fbe9cc27b8e66484a14a891ab53649c9396d"
+        },
+        {
+          "bytes": 4674,
+          "path": "results/primary_pages/roof-x-identity-cisi-479.txt",
+          "sha256": "176daa5d22d043620b17be3313d7d992191b2dcf8a6293a259ad98659746fc8e"
+        },
+        {
+          "bytes": 3113487,
+          "path": "results/primary_pages/roof-x-identity-cisi-480.png",
+          "sha256": "894db0a2a0112c482908e590e7204a7a6b3db1996a2bff46e3342bfe9d1857f8"
+        },
+        {
+          "bytes": 2895,
+          "path": "results/primary_pages/roof-x-identity-cisi-480.txt",
+          "sha256": "9a99f5f6a60ee9a86af0c12373b0cc035c548a06fbb2d8e8d110754443523cbc"
+        },
+        {
+          "bytes": 2773288,
+          "path": "results/primary_pages/roof-x-identity-m77-826.png",
+          "sha256": "af97786aeeb8448eaa01b3102b9732101ee8a9325fe2e0e6135f071e504c4182"
+        },
+        {
+          "bytes": 192988,
+          "path": "results/primary_pages/roof-x-identity-m77-suffix-rule-detail.png",
+          "sha256": "357b810b6f39a82cc4a13cd5c0d858706dcdec014e2e741945bdf945021ed3b5"
+        },
+        {
+          "bytes": 1444247,
+          "path": "results/primary_pages/roof-x-identity-shield-class-detail.png",
+          "sha256": "70814fbe952ea9d3e605f15c3046c20ffcdba39d4f251e6dcc72f72181366f80"
+        },
+        {
+          "bytes": 1211002,
+          "path": "results/primary_pages/roof-x-identity-vats-198.png",
+          "sha256": "90d8f48406db0b343d01df32b24b776f3f1aea63d0bf772d631b066dc8b625a3"
+        },
+        {
+          "bytes": 1234663,
+          "path": "results/primary_pages/roof-x-identity-vats-202.png",
+          "sha256": "1f54af1c3d2661bcdfbeb76f994406733ad6c3898bf0d7b255d69048346c2e28"
+        },
+        {
+          "bytes": 459,
+          "path": "results/roof-x-identity-cisi_extraction.json",
+          "sha256": "c0b2c3d7a07f92ecca8e982b65a48543330d8b088fc598b89038d6436bfb5ae0"
+        },
+        {
+          "bytes": 371,
+          "path": "results/roof-x-identity-m77_extraction.json",
+          "sha256": "99eec58677d89461f12ad9895b9cca4c55ab0a6526ae92c72b303c98cf28a709"
+        },
+        {
+          "bytes": 382,
+          "path": "results/roof-x-identity-vats_extraction.json",
+          "sha256": "1ad0af89737995dfa89123812da14f01f8b6c292492505b4f23ae71894bd60f1"
+        },
+        {
+          "bytes": 841,
+          "path": "scripts/download_roof_x_identity_sources.py",
+          "sha256": "f7fba7d69ecf30d25936950feb6290124a757f2e25504ff96b40415458a76072"
+        },
+        {
+          "bytes": 1264,
+          "path": "scripts/render_roof_x_identity_crops.py",
+          "sha256": "b1480fa9cb66d49e7b87c36e3937fe976bdaa27ab74a401f47f4d6d87aaa854b"
+        }
+      ],
+      "failure_log": [
+        {
+          "attempt": "CISI2 retained and fresh English OCR, basic-data PDF476–480",
+          "result": "No exact1722/3027 bridge recovered; negative search not proof of absence."
+        },
+        {
+          "attempt": "CISI2H780 apparent3863 OCR locator",
+          "result": "Rejected: visual entry indicates3865 with field3789, not target."
+        },
+        {
+          "attempt": "CISI1 basic-data PDF406–408 visual inspection",
+          "result": "No exact1722/3027(2)/Pu35:3863 bridge recovered."
+        },
+        {
+          "attempt": "Use identical M77 front and reverse fields as artifact identity",
+          "result": "Rejected: repeated text does not establish physical identity or independence."
+        }
+      ],
+      "identity_conclusions": {
+        "different_catalogue_entries": true,
+        "different_recorded_excavation_ids": true,
+        "distinct_physical_artifacts_established": false,
+        "duplicate_physical_artifact_established": false,
+        "safe_verified_photo_object_count": 1,
+        "unresolved_requirement": "Original Pu35:3863 with inventory bridge or other explicit individual-object cross-reference."
+      },
+      "new_source_registry": "data/processed/roof_x_identity_new_sources.json",
+      "phonetic_values": null,
+      "references": [
+        {
+          "broad_M77_morphology_supported": [
+            "M138 M176",
+            "M087 M328"
+          ],
+          "damage": {
+            "fine_surface_condition": "coarse mottled image; minor wear cannot be quantified",
+            "physical_notches": "intentional shield-shaped form, source explained",
+            "source_classification": "entire"
+          },
+          "depth_below_surface": "15 ft 6 in",
+          "excavation": "1722",
+          "fine_stroke_transcription": false,
+          "form": "tiny shield-shaped seal",
+          "front_visual": "Left spine with several horizontal strokes; right peaked angular mark above crossed oblique strokes. Roof is inside lobe, not physical notch.",
+          "length_inches": 0.75,
+          "material": "steatite",
+          "original_photo_inspected": true,
+          "photo_views": 2,
+          "physical_artifacts_represented": 1,
+          "primary_source_chain": [
+            "M77 Appendix V printed821/PDF830 explicit EH range rule",
+            "Vats II plateXCV item407/PDF198",
+            "Vats I printed167/leaf193 item3"
+          ],
+          "reference": "4407",
+          "reverse_visual": "U-like sign at left, two long parallel upright strokes at right; central surface streaks not extra signs.",
+          "square": "R24/7",
+          "width_inches": 0.3125
+        },
+        {
+          "excavation": "3027(2)",
+          "morphology_observed_this_phase": null,
+          "original_photo_inspected": false,
+          "photo_source": "Pu.35:3863",
+          "physical_identity_to_4407": "unresolved",
+          "primary_source_chain": [
+            "M77 Appendix V printed824/PDF833 explicit entry"
+          ],
+          "reference": "5444",
+          "suffix_interpretation": "object disambiguator for shared excavation number, explicit M77 printed817 paragraphvi"
+        }
+      ],
+      "rejected_automatic_join": {
+        "candidate": "EH558",
+        "depth_below_surface": "12 ft",
+        "exact_excavation": "3027",
+        "join_to_5444": false,
+        "material": "burnt steatite",
+        "photo_inspected": true,
+        "plate": "XCVII item558/PDF202",
+        "preservation": "fragment",
+        "primary_page": "Vats I printed108/leaf134 item4",
+        "reason": "Unsuffixed3027 does not select the object M77 explicitly distinguishes as3027(2).",
+        "square": "M11/21",
+        "visual": "Irregular small fragment with surviving marks; roof-X and complete reverse cannot be securely read from retained scan."
+      },
+      "scope": "Two M77 reference identities, one securely linked original object photograph; EH558 retained only as rejected automatic locator.",
+      "semantic_values": null,
+      "status": "EH407_photo_authenticated_4407_5444_physical_identity_unresolved"
+    }
+  },
+  "strict_corpus_changed": false,
+  "universal_fixed_base_geometry_supported": false,
+  "unresolved_original_artifact": "M77 5444 / 3027(2) / Pu35:3863"
+}

@@ -1,0 +1,65 @@
+{
+  "status": "pending_parent_integration",
+  "sources": [
+    {
+      "path": "data/raw/inscribed-weight-anchor-h2000-4496.html",
+      "bytes": 27033,
+      "sha256": "ed4ad23b125b080492eb1fec0c4f5cbb835d1e65b5f1ac10ad46879a2aa79ac9",
+      "kind": "excavation_project_photograph_caption_HTML",
+      "url": "https://www.harappa.com/slide/spherical-agate-weight-one-side-flattened",
+      "resolved_url": "https://www.harappa.com/slide/spherical-agate-weight-one-side-flattened",
+      "http_status": 200,
+      "response_complete": true
+    },
+    {
+      "path": "data/raw/inscribed-weight-anchor-h2000-4496.html.headers.json",
+      "bytes": 1526,
+      "sha256": "07d778dfe863a727ef1062dd8cf9c67b4dcacde455a3067c52209453e5dd4a85",
+      "kind": "locally_serialized_HTTP_response_headers",
+      "url": "https://www.harappa.com/slide/spherical-agate-weight-one-side-flattened",
+      "resolved_url": "https://www.harappa.com/slide/spherical-agate-weight-one-side-flattened",
+      "http_status": 200,
+      "response_complete": true
+    },
+    {
+      "path": "data/raw/inscribed-weight-anchor-h2000-4496.jpg",
+      "bytes": 18305,
+      "sha256": "9a2d18063026f7178d6ba9cbc7e05c5f515321ea22e6014f80e808c0d0d54d18",
+      "kind": "original_linked_excavation_project_single_view_JPEG",
+      "url": "https://www.harappa.com/sites/default/files/slides/68_2.jpg",
+      "resolved_url": "https://www.harappa.com/sites/default/files/slides/68_2.jpg",
+      "http_status": 200,
+      "response_complete": true
+    },
+    {
+      "path": "data/raw/inscribed-weight-anchor-h2000-4496.jpg.headers.json",
+      "bytes": 1256,
+      "sha256": "990781c390db98f302ed7db1be2fe3aca446a7eb9fd7d3f7340662f7c192f689",
+      "kind": "locally_serialized_HTTP_response_headers",
+      "url": "https://www.harappa.com/sites/default/files/slides/68_2.jpg",
+      "resolved_url": "https://www.harappa.com/sites/default/files/slides/68_2.jpg",
+      "http_status": 200,
+      "response_complete": true
+    },
+    {
+      "path": "data/raw/inscribed-weight-anchor-web-capture.json",
+      "bytes": 68938,
+      "sha256": "9346ef985fa3372205bd4d7c17bd7c7394b6141bee7f34e8bc3732cc225a81e8",
+      "kind": "locally_serialized_web_tool_requests_responses_and_errors_not_original_HTTP_bodies",
+      "refetchable": false
+    }
+  ],
+  "retrieval_ledgers": [
+    {
+      "path": "data/processed/fetch_inscribed-weight-anchor-h2000-4496_html.json",
+      "bytes": 865,
+      "sha256": "59d8fe46ecfc68045b6ffcd050d2798cff24c9879f2daf2521280e91b1b6fcbd"
+    },
+    {
+      "path": "data/processed/fetch_inscribed-weight-anchor-h2000-4496_jpg.json",
+      "bytes": 839,
+      "sha256": "ec7b14e90ee3ebf8146f2956759cea6e819af65f88806399db5e27c70bbaa6f9"
+    }
+  ],
+  "search_tool_error_bodies_exposed": false
+}

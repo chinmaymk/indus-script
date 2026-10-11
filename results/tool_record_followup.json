@@ -1,0 +1,127 @@
+{
+  "kalibangan_nmma_candidate_masses": [
+    {
+      "i_g": {
+        "decimal": 95.34,
+        "exact": "4767/50"
+      },
+      "reading": "2u",
+      "u_g": {
+        "decimal": 105.295,
+        "exact": "21059/200"
+      },
+      "u_over_i": {
+        "decimal": 1.104415775120621,
+        "exact": "21059/19068"
+      }
+    },
+    {
+      "i_g": {
+        "decimal": 95.34,
+        "exact": "4767/50"
+      },
+      "reading": "1u ignoring other mark",
+      "u_g": {
+        "decimal": 210.59,
+        "exact": "21059/100"
+      },
+      "u_over_i": {
+        "decimal": 2.208831550241242,
+        "exact": "21059/9534"
+      }
+    },
+    {
+      "i_g": {
+        "decimal": 95.34,
+        "exact": "4767/50"
+      },
+      "reading": "u+2i",
+      "u_g": {
+        "decimal": 19.91,
+        "exact": "1991/100"
+      },
+      "u_over_i": {
+        "decimal": 0.20883155024124186,
+        "exact": "1991/9534"
+      }
+    }
+  ],
+  "kalibangan_pettersson_masses": [
+    {
+      "i_g": {
+        "decimal": 95.2,
+        "exact": "476/5"
+      },
+      "reading": "2u",
+      "u_g": {
+        "decimal": 105.0,
+        "exact": "105"
+      },
+      "u_over_i": {
+        "decimal": 1.1029411764705883,
+        "exact": "75/68"
+      }
+    },
+    {
+      "i_g": {
+        "decimal": 95.2,
+        "exact": "476/5"
+      },
+      "reading": "1u ignoring other mark",
+      "u_g": {
+        "decimal": 210.0,
+        "exact": "210"
+      },
+      "u_over_i": {
+        "decimal": 2.2058823529411766,
+        "exact": "75/34"
+      }
+    },
+    {
+      "i_g": {
+        "decimal": 95.2,
+        "exact": "476/5"
+      },
+      "reading": "u+2i",
+      "u_g": {
+        "decimal": 19.6,
+        "exact": "98/5"
+      },
+      "u_over_i": {
+        "decimal": 0.20588235294117646,
+        "exact": "7/34"
+      }
+    }
+  ],
+  "kalibangan_review_sha256": "9ae77513e88ffa4c3572c8d2df8df71052695adcb78f5d1ab569d8d3213a56cb",
+  "large_axe_field_id_conflict": {
+    "mackay1938_table_p489": "7535",
+    "pettersson1999": "7835",
+    "resolved": false
+  },
+  "mackay_original_review_sha256": "df2004bef9285e72688715006bb00d63984a446c488d80f394f464ff77ca5659",
+  "mohenjo_primary_metric_sensitivity": {
+    "chisel_mass_lower_inclusive_g": {
+      "decimal": 453.9270714285714,
+      "exact": "6354979/14000"
+    },
+    "compatible_with_strict_p_2_6": false,
+    "i_g": {
+      "decimal": 43.7055,
+      "exact": "87411/2000"
+    },
+    "p_lower_inclusive": {
+      "decimal": 2.7453661263468754,
+      "exact": "6354979/2314802"
+    },
+    "u_g": {
+      "decimal": 235.39957142857142,
+      "exact": "1647797/7000"
+    }
+  },
+  "mohenjo_sensitivity_assumptions": "Same proposed u/i/t expressions as Pettersson; primary plate CXXVI2/3/5 mass joins; field7535 vs7835 unresolved; p<2.6 retained only as a hypothesis.",
+  "new_established_sign_values": 0,
+  "nmma_independent_reweighing_demonstrated": false,
+  "nmma_join_authenticated": false,
+  "scope": "Source-level follow-up; calibration is not validation or decipherment."
+}

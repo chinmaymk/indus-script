@@ -1,0 +1,80 @@
+{
+  "sources": [
+    {
+      "url": "https://archive.org/download/in.gov.ignca.18220/page/n284.jpg",
+      "retrieval_started_utc": "2026-09-28T06:04:09.433060+00:00",
+      "response_complete": false,
+      "http_status": null,
+      "response_body_received": false,
+      "error": "URLError: <urlopen error [Errno 8] nodename nor servname provided, or not known>",
+      "kind": "incomplete_response_or_connection_failure",
+      "retrieval_ended_utc": "2026-09-28T06:04:09.450380+00:00",
+      "fetch_record": "data/processed/fetch_jar54-vats-leaf284_jpg.json",
+      "content_review": "No response body; failed DNS lookup"
+    },
+    {
+      "url": "https://archive.org/download/in.gov.ignca.18220/page/n284.jpg",
+      "retrieval_started_utc": "2026-09-28T06:04:30.451218+00:00",
+      "response_complete": true,
+      "http_status": 200,
+      "response_body_received": true,
+      "resolved_url": "https://ia801804.us.archive.org/BookReader/BookReaderImages.php?id=in.gov.ignca.18220&itemPath=%2F28%2Fitems%2Fin.gov.ignca.18220&server=ia801804.us.archive.org&page=n284.jpg",
+      "header_artifact": {
+        "path": "data/raw/jar54-vats-leaf284-retry.jpg.headers.json",
+        "bytes": 2236,
+        "sha256": "5d26c15028afd904c3015506321abf42fcc16aa20cb13260e7a077e6228d3864",
+        "kind": "locally_serialized_HTTP_response_headers"
+      },
+      "kind": "primary_scan_image_verified",
+      "path": "data/raw/jar54-vats-leaf284-retry.jpg",
+      "bytes": 1798321,
+      "sha256": "357f30b7d5c29a168871ca11279ff7995faff806e353f129908fdec6009e6a8d",
+      "retrieval_ended_utc": "2026-09-28T06:04:31.781997+00:00",
+      "fetch_record": "data/processed/fetch_jar54-vats-leaf284-retry_jpg.json",
+      "content_review": "Original Vats1940 volumeI scan visually authenticated; printed page 258"
+    },
+    {
+      "url": "https://archive.org/download/in.gov.ignca.18220/page/n214.jpg",
+      "retrieval_started_utc": "2026-09-28T06:07:02.607119+00:00",
+      "response_complete": true,
+      "http_status": 200,
+      "response_body_received": true,
+      "resolved_url": "https://ia601804.us.archive.org/BookReader/BookReaderImages.php?id=in.gov.ignca.18220&itemPath=%2F28%2Fitems%2Fin.gov.ignca.18220&server=ia601804.us.archive.org&page=n214.jpg",
+      "header_artifact": {
+        "path": "data/raw/jar54-vats-leaf214.jpg.headers.json",
+        "bytes": 2236,
+        "sha256": "1431714ed2cafcad4736b58f3e4f4c563612a92c85ef9858b711a9d56e051197",
+        "kind": "locally_serialized_HTTP_response_headers"
+      },
+      "kind": "primary_scan_image_verified",
+      "path": "data/raw/jar54-vats-leaf214.jpg",
+      "bytes": 2460597,
+      "sha256": "ac82eda32ce78e995ec41444d9d49196c875d912d79874df689a9c2278cc10ac",
+      "retrieval_ended_utc": "2026-09-28T06:07:04.168404+00:00",
+      "fetch_record": "data/processed/fetch_jar54-vats-leaf214_jpg.json",
+      "content_review": "Original Vats1940 volumeI scan visually authenticated; printed page 188"
+    },
+    {
+      "url": "https://archive.org/download/in.gov.ignca.18220/page/n215.jpg",
+      "retrieval_started_utc": "2026-09-28T06:06:07.310191+00:00",
+      "response_complete": true,
+      "http_status": 200,
+      "response_body_received": true,
+      "resolved_url": "https://ia601804.us.archive.org/BookReader/BookReaderImages.php?id=in.gov.ignca.18220&itemPath=%2F28%2Fitems%2Fin.gov.ignca.18220&server=ia601804.us.archive.org&page=n215.jpg",
+      "header_artifact": {
+        "path": "data/raw/jar54-vats-leaf215.jpg.headers.json",
+        "bytes": 2236,
+        "sha256": "61d66d898f75d942cbee394da6e211deb30cb7d7e16392fb5ec000e344d35d49",
+        "kind": "locally_serialized_HTTP_response_headers"
+      },
+      "kind": "primary_scan_image_verified",
+      "path": "data/raw/jar54-vats-leaf215.jpg",
+      "bytes": 2476774,
+      "sha256": "95a8b2985c1a07fb356192de9dbf4e82b66dfa4524e065e6c5e6dc37cc5de967",
+      "retrieval_ended_utc": "2026-09-28T06:06:09.738122+00:00",
+      "fetch_record": "data/processed/fetch_jar54-vats-leaf215_jpg.json",
+      "content_review": "Original Vats1940 volumeI scan visually authenticated; printed page 189"
+    }
+  ],
+  "central_registry_modified": false
+}
