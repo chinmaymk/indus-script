@@ -1,0 +1,12 @@
+{
+  "date": "2026-10-11",
+  "status": "recorded before payload request",
+  "publisher_source": "data/raw/vietnam-gold-foil-cited-publisher-oct11.html",
+  "source_bytes": 6024,
+  "source_sha256": "3dac7b01b9a684297b94d53ad038067934e68e06a8a02550b318d5d38b7e81ee",
+  "interpretation": "Complete PDF-viewer HTML, not proceedings body",
+  "payload_url": "https://publications.spafajournal.org/index.php/spafapub/catalog/download/37/53/158-1?inline=1",
+  "pointer_evidence": "HTML line50 download href, line66 PDFJS.getDocument and line90 pdfUrl explicitly supply same exact payload",
+  "bound": "One payload request under previously frozen viewer allowance; no alternative or retry. Inspect only cited epigraphic chapter and relevant object figures.",
+  "payload_requested": false
+}

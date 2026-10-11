@@ -915,6 +915,42 @@
       "http_status": 200,
       "kind": "locally_serialized_HTTP_response_headers",
       "registered_research_date": "2026-10-11"
+    },
+    {
+      "path": "data/raw/marungur-cited-article-oct11.html.headers.json",
+      "bytes": 899,
+      "sha256": "5771a68e72f22d5a832e822dcd8b6dac0718d457eb00c840a5972ed6f5e32e20",
+      "url": "https://www.thehindu.com/features/friday-review/history-and-culture/Tamil-Brahmi-potsherds-found-at-urn-burial-site/article16483663.ece",
+      "http_status": 200,
+      "kind": "locally_serialized_HTTP_response_headers",
+      "registered_research_date": "2026-10-11"
+    },
+    {
+      "path": "data/raw/marungur-article-lead-photo-oct11.jpg.headers.json",
+      "bytes": 847,
+      "sha256": "32a4c595275ac113857a4e72564c8801c12ff4a540ddd40ddd87d3ea1146df59",
+      "url": "https://th-i.thgim.com/public/migration_catalog/article16387397.ece/alternates/LANDSCAPE_1200/TH05_POT_1",
+      "http_status": 200,
+      "kind": "locally_serialized_HTTP_response_headers",
+      "registered_research_date": "2026-10-11"
+    },
+    {
+      "path": "data/raw/vietnam-gold-foil-cited-publisher-oct11.html.headers.json",
+      "bytes": 966,
+      "sha256": "f943e540024bdc6950a69ac0acd438234450e113501f6fd8371f9b9eb003120c",
+      "url": "https://publications.spafajournal.org/index.php/spafapub/catalog/view/37/53/158-1",
+      "http_status": 200,
+      "kind": "locally_serialized_HTTP_response_headers",
+      "registered_research_date": "2026-10-11"
+    },
+    {
+      "path": "data/raw/vietnam-gold-foil-cited-proceedings-oct11.pdf.headers.json",
+      "bytes": 1093,
+      "sha256": "609d471e089eab06e02b86c8494bc873e3d7fb970cf41ba8497b31c3f0786799",
+      "url": "https://publications.spafajournal.org/index.php/spafapub/catalog/download/37/53/158-1?inline=1",
+      "http_status": 200,
+      "kind": "locally_serialized_HTTP_response_headers",
+      "registered_research_date": "2026-10-11"
     }
   ],
   "downloads": [
@@ -4803,6 +4839,58 @@
       "retrieved_utc": "2026-10-11T09:43:51.329153+00:00",
       "fetch_metadata": "data/processed/fetch_keeladi-cited-report-oct11_pdf.json",
       "note": "66-page unencryptedPDF; cover/edition identify Department of Archaeology,Government of Tamil Nadu,2019 publication302; retrieved from exact original URL embedded in candidate bibliography. Source statements are not independently validated Indus sound assignments."
+    },
+    {
+      "path": "data/raw/marungur-cited-article-oct11.html",
+      "bytes": 210883,
+      "sha256": "01fdd7cf88c551356e70a666dab39c223051a4381624ac4f6da590cf49748c03",
+      "url": "https://www.thehindu.com/features/friday-review/history-and-culture/Tamil-Brahmi-potsherds-found-at-urn-burial-site/article16483663.ece",
+      "resolved_url": "https://www.thehindu.com/features/friday-review/history-and-culture/Tamil-Brahmi-potsherds-found-at-urn-burial-site/article16483663.ece",
+      "http_status": 200,
+      "retrieved_utc": "2026-10-11T09:55:38.583280+00:00",
+      "registered_research_date": "2026-10-11",
+      "kind": "complete_original_find_announcement_HTML",
+      "note": "Original reported find announcement; publication2010, modification2021; named specialist readings, not excavation register",
+      "fetch_metadata": "data/processed/fetch_marungur-cited-article-oct11_html.json"
+    },
+    {
+      "path": "data/raw/marungur-article-lead-photo-oct11.jpg",
+      "bytes": 134697,
+      "sha256": "28ef0073f7014f0559bf1e3d7659281742f821e6d5bcd82bc422e1196d437eaf",
+      "url": "https://th-i.thgim.com/public/migration_catalog/article16387397.ece/alternates/LANDSCAPE_1200/TH05_POT_1",
+      "resolved_url": "https://th-i.thgim.com/public/migration_catalog/article16387397.ece/alternates/LANDSCAPE_1200/TH05_POT_1",
+      "http_status": 200,
+      "retrieved_utc": "2026-10-11T10:00:26.923687+00:00",
+      "registered_research_date": "2026-10-11",
+      "kind": "original_article_captioned_lead_photograph",
+      "note": "Second mixed Marungur sherd; article caption credits K.Rajan; photo-level identity only",
+      "fetch_metadata": "data/processed/fetch_marungur-article-lead-photo-oct11_jpg.json"
+    },
+    {
+      "path": "data/raw/vietnam-gold-foil-cited-publisher-oct11.html",
+      "bytes": 6024,
+      "sha256": "3dac7b01b9a684297b94d53ad038067934e68e06a8a02550b318d5d38b7e81ee",
+      "url": "https://publications.spafajournal.org/index.php/spafapub/catalog/view/37/53/158-1",
+      "resolved_url": "https://publications.spafajournal.org/index.php/spafapub/catalog/view/37/53/158-1",
+      "http_status": 200,
+      "retrieved_utc": "2026-10-11T10:07:52.539600+00:00",
+      "registered_research_date": "2026-10-11",
+      "kind": "publisher_PDF_viewer_HTML",
+      "note": "Complete viewer only; explicit payload retained separately",
+      "fetch_metadata": "data/processed/fetch_vietnam-gold-foil-cited-publisher-oct11_html.json"
+    },
+    {
+      "path": "data/raw/vietnam-gold-foil-cited-proceedings-oct11.pdf",
+      "bytes": 79314198,
+      "sha256": "0a82ab105a85bb682722005b3a90000d3fd64b3c0983f68cb004a463d000639e",
+      "url": "https://publications.spafajournal.org/index.php/spafapub/catalog/download/37/53/158-1?inline=1",
+      "resolved_url": "https://publications.spafajournal.org/index.php/spafapub/catalog/download/37/53/158-1?inline=1",
+      "http_status": 200,
+      "retrieved_utc": "2026-10-11T10:12:48.704316+00:00",
+      "registered_research_date": "2026-10-11",
+      "kind": "publisher_primary_conference_proceedings_PDF",
+      "note": "486pages,SEAMEO SPAFA imprint2015,title/conference2013;chapter30relevanttext/figures inspected,not entirevolume",
+      "fetch_metadata": "data/processed/fetch_vietnam-gold-foil-cited-proceedings-oct11_pdf.json"
     }
   ],
   "local_usage_captures": [

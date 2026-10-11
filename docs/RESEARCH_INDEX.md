@@ -22,6 +22,9 @@ not make historical reports current. Follow their pinned inputs and scope.
 | Does Yajnadevam/Bharath Rao's claim establish decipherment? | `YAJNADEVAM_VALIDATION.md`; `../results/yajnadevam_validation_v1/decision.json`; original-run observation review |
 | Did the institutional Kuntasi link supply the context register? | `KUNTASI_CONTEXT_GATE.md`; `../results/kuntasi_context_gate_v1/decision.json` |
 | Does the cited Keeladi report independently establish Indus sounds? | `KEELADI_PHONETIC_BRIDGE_GATE.md`; `../results/keeladi_phonetic_bridge_gate_v1/decision.json` |
+| Does the Marungur example independently validate amahas? | `MARUNGUR_CITED_OBJECT_GATE.md`; `../results/marungur_cited_object_gate_v1/decision.json` |
+| Does the Vietnam foil supply an independent varaha prediction or Indus sound? | `VIETNAM_GOLD_FOIL_CITED_READING_GATE.md`; `../results/vietnam_gold_foil_cited_reading_gate_v1/decision.json` |
+| Do the checked candidate bridges supply any external reading anchor? | `../results/yajnadevam_bridge_eligibility_v1/decision.json`; follow its four completed decisions only |
 | What did Claude actually recommend? | `CLAUDE_SECOND_OPINION.md`; open linked raw response only if needed |
 | What has already been tried? | Search `RESEARCH_LOG.md` for the specific route; do not read it wholesale |
 | Where are all older report links? | `archive/README_2026-10-10_before_context_cleanup.md` |

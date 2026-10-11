@@ -6242,3 +6242,86 @@ pushed origin/main with16 LFS objects18MB. Exact remoteSHA equals localHEAD,
 checkout clean. Current goal turn is progress: two primary source gates closed
 with new authoritative evidence and explicit limitations. Full decipherment not
 achieved; next frozen Marungur article action has not yet been fetched.
+
+### 11 October 2026 — Marungur partial agreement, exact-source gate closed
+
+Continued the active goal after reading ACTIVE_STATE and git status. No prior
+closed experiment repeated. The exact cited The Hindu article returned a complete
+210883-byte HTML body, HTTP200; embedded metadata publication2010-03-05,
+modification2021-11-17. Full article body extracted separately from navigation.
+Candidate bibliography's T.S.Subrahmanian attribution is not independently
+authenticated by the empty author field in the retained page.
+
+The named specialists' second-sherd reading is a-m plus two unread graffiti;
+front portion missing. This agrees with the candidate prefix, but does not read
+its completion. Before fetching the explicitly supplied captioned lead photo,
+a separate single-asset bound was recorded and accepted by the independent
+critic. One image request succeeded,134697 bytes; source caption creditsK.Rajan.
+Parent and critic inspected photo and retained candidate Table11row2 graphic:
+forms/order support photo-level object identification, not a field/accession join.
+Total acquisition one article plus one photo, not one HTTP request.
+
+Source tentatively dates inscriptions palaeographically to first centuryBCE,
+different from candidate200BCE. Three earthmoving-damaged separate urns do not
+establish simultaneous burial/shared use. Suggested personal names/deceased
+owners do not supply independently known referents. Full amahas/meaning neither
+validated nor falsified; no independent sound bridge, direction proof, unseen
+holdout, fitting, corpus amendment or accuracy score. Finite gate closed.
+Four raw body/header records registered;17 inputs/results pinned in decision.
+See docs/MARUNGUR_CITED_OBJECT_GATE.md. Frozen pre-request bound still records
+asset_requested=false as historical state; successful request lives in fetch
+metadata/decision, original protocol was not overwritten.
+
+Specific unused next pointer criticized before acquisition: candidate Table11
+row4 Vietnam gold foil/varaha, L.T.Lien2013 independently authored epigraphic
+chapter p402 in Advancing Southeast Asian Archaeology. Critic recommends one
+fixed-object/readings gate, not all Vietnamese objects or shape audit. Frozen
+protocol permits one exact publisher request and one explicitly linked payload
+if viewer. Complete6024-byte viewer retrieved; exact download/JS payload recorded
+before its single request. No guessed endpoints, alternatives, reference
+expansion or outreach. Only relevant chapter/object sections authorized.
+
+### 11 October 2026 — Vietnam foil gate and candidate-bridge eligibility closed
+
+Exact publisher viewer yielded one explicit PDFJS/download payload, recorded
+before request. The single payload request completed with79,314,198bytes,
+SHA2560a82ab105a85bb682722005b3a90000d3fd64b3c0983f68cb004a463d000639e.
+Confirmed live handle polled rather than relaunched during4m40s download.
+486-page proceedings,title/conference2013,imprint2015,SEAMEO SPAFA,editorNoelHidalgoTan.
+Encrypted flag set; default public-file reader/renderer open without supplied
+password. Candidate cited printed402 is figure plate/PDF410; chapter30 LeThiLien
+begins printed362/PDF370. Text extracted only11chapterpages, not wholevolume.
+An offset-locating sample briefly touched preceding chapter; not admitted or
+analyzed. Relevant reading page and cited plate/detail/crops viewed. No glyph OCR
+repair/redrawing, no otherchapter/reference/foil fitting or dictionary run.
+
+Printed365 No08/93-GT-M3-23/Fig30.11 gives uncertain Va pru/rā? ha? and tentative
+Varaha interpretation. Chapter credits Witzel's2007transliteration/interpretation;
+reported attribution, not fresh replication. Fig30.11 is plausible visual match,
+but simplified candidate3forms without outline/fieldID/figureID do not securely
+exclude adjacentFig30.12. Adjacent figure used solely fixed-target join uniqueness
+check, not another target to fit. Parent and read-onlycritic retain provisional
+identity. SharedVaraha interpretation must not identifyobject. If samefoil,
+candidate agrees with prioruncertain interpretation in its own citedsource;
+not an independently withheld prediction and no copying accusation warranted.
+
+Source1st–3rdCEcomparison pertains Kushana-Satavahana letterstyles, not exact100CE
+date. Claimed100CEfalls within range: precisionunsupported, not contradictory.
+Source treats letters asBrahmi; no independently identified Indusunknownsound
+mapping or BronzeAgecontinuity demonstrated. Full candidate reading/classification
+not independently validated, no binary full-reading falsification justified.
+Gate finite stop reached; fourrawrecordsregistered,20pins saved. See
+docs/VIETNAM_GOLD_FOIL_CITED_READING_GATE.md. Pre-request resolution retains
+payload_requested=false as historical state; success recorded in fetchmetadata.
+
+After gateclosure, bounded critic consulted only retained route/Claude summaries:
+no specifically new unusedpublicprimarypointer with known-content/Indusobjectjoin.
+Declined Penn/outreach remains prohibited; missingmeasurements are reopening
+conditions, not permission for repeated generic hunts. Retrospective eligibility
+decision uses four completed candidatevalidation/Keeladi/Marungur/Vietnam decisions
+only. Zero qualifyingexternalreadingtuples within revieweddecisions; historical
+universe unknown, not zero. No furthercandidate-row audits/shape/fits launched.
+Branch unsupported; reopen only specifically identified newprimarycorrespondence.
+Validation narrowed support; this is not progress towarddecipherment itself.
+Currentturn completed newsourcechecks, so overallgoal remainsactive/unachieved;
+three consecutive blockedgoalturns have not been established here.
