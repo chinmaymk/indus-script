@@ -5776,3 +5776,18 @@ p values or selection. MaxT includes pairs absent in the observed arrangement.
 All revisions precede actual new corpus counts. Earlier impossibility proofs in the
 larger null space remain valid for the restricted space; positive relaxed support
 is not automatically positive simple-graph support. No semantic values assigned.
+
+
+## 2026-10-11 — Blog draft for chinmay.ai
+
+User requested a blog post about the decipherment attempt for chinmay.ai. Saved
+`docs/blog/trying-to-decipher-the-indus-script-with-ai.md` (1,490 words), in the
+author's first-person voice. Reviewed only the active state, evidence index and
+selected corpus, identifiability, numeral, Claude-review and motif summaries.
+The draft distinguishes printed transcription from object verification, internal
+structure from semantics, conditional numeral algebra from authenticated equality,
+and the frozen motif screen's empty selection from universal absence. It includes
+public research links and primary/expert background sources. Verified via GitHub
+that the linked research repository is public. No new research run, raw-source
+download, outreach or website publication. Concurrent research files were left
+in place; the editorial note does not replace the separate active research action.
