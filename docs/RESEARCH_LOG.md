@@ -5730,3 +5730,15 @@ full original objective remains unmet. No message sent, no payment, no new claim
 sign values. Resume on explicit send approval or supplied relevant records; do not
 recreate the packet or re-run old results as a substitute for the missing evidence.
 This status persistence is administrative, not scientific progress.
+
+
+## 2026-10-11 — User declined email outreach
+
+User answered the pending request: “no do not send any emails.” No email had been
+sent. Recorded the persistent prohibition in AGENTS.md and replaced the pending
+approval instructions in ACTIVE_STATE. The Penn draft and target appendix are
+retained as historical research records; they are not a queue to send. Do not ask
+for email permission again unless the user explicitly changes the instruction,
+and do not route the same outreach through another channel. This reply does not
+supply new archaeological evidence or a decipherment and does not authorize a new
+research run. No code, raw sources, frozen packet bytes or scientific results changed.

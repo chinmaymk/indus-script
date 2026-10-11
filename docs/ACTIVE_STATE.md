@@ -4,26 +4,20 @@ Updated 11 October 2026. **No decipherment; all 417 sign meanings/sounds unresol
 Read this file first. Retrieve additional evidence through `RESEARCH_INDEX.md` only
 when needed. Full history is in `RESEARCH_LOG.md`, not part of routine loop context.
 
-## Blocked: action needed to resume
+## Current constraint and handoff
 
-Goal marked blocked after the same unmet dependency persisted across three
-consecutive goal turns. No live process is being waited on. Resume upon explicit
-send approval or new relevant records; retain the full decipherment objective.
+**User explicitly said “no do not send any emails” on 11 October 2026.**
+No emails were sent. Email outreach is closed, not awaiting approval. Do not ask
+again unless the user explicitly changes this preference; do not substitute another
+outreach channel. The prepared Penn draft and 15-target appendix remain archival
+records only under `outreach/`.
 
-The Penn collection 1064 request packet is complete and awaits explicit send
-approval requested from the user on 11 October. Draft:
-`outreach/penn_collection_1064_email.txt`; appendix:
-`outreach/penn_collection_1064_targets.md`; pinned record:
-`data/processed/penn_archive_request_packet.json`.
-
-Recipient verified on Penn's official archive page: archives@pennmuseum.org.
-All 15 existing targets retained; five initial card/register requests, ten later
-availability checks. No message sent, sender account selected, payment authorized,
-or card acquired. After approval, identify the sending account and send exactly
-the reviewed request; save the sent receipt. Without approval, do not resend,
-repeat the public search, rewrite the packet or rerun closed analyses. New records
-must resolve archaeological context before consulting signs. They could constrain
-a domain association but will not alone decode a word.
+The goal was marked blocked before this reply and remains unresolved. Missing
+archaeological records are an evidence gap, not a reason to repeat permission
+requests. Future research must respect the no-email instruction and use existing,
+publicly accessible or user-provided evidence. On a future research resumption,
+reassess available non-outreach routes without restarting closed analyses merely
+to show activity. Retain the complete decipherment objective and compact context.
 
 ## Latest decision and result
 
