@@ -5711,3 +5711,22 @@ the first prepared-packet authorization handoff, not a completed decipherment or
 blocked-goal declaration. Current state now points to the existing packet and pending
 approval so a continuation does not recreate it. Cards alone would not establish
 replication, quantities or semantic values; the original full goal remains active.
+
+
+## 2026-10-11 — Repeated dependency verified; goal marked blocked
+
+The request-preparation turn made progress and ended with the first authorization
+handoff. The next automatic continuation revalidated the same missing authorization
+and source material; it made no research progress and was not a verified live wait.
+The third consecutive goal turn again found clean HEAD 988c11c, prepared-not-sent
+packet, matching pins, no sender account/authorization and no new raw files. No human
+approval appeared between these turns; automatic continuation is not send permission.
+The finite local motif route is closed and the reviewed acquisition route needs
+external records. No new source or defect justifies reopening completed audits.
+
+Called update_goal(status=blocked); the tool returned blocked. This is an impasse
+in the present evidence program, not proof that decipherment is impossible, and the
+full original objective remains unmet. No message sent, no payment, no new claimed
+sign values. Resume on explicit send approval or supplied relevant records; do not
+recreate the packet or re-run old results as a substitute for the missing evidence.
+This status persistence is administrative, not scientific progress.

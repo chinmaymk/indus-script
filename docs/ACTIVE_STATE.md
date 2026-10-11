@@ -4,7 +4,11 @@ Updated 11 October 2026. **No decipherment; all 417 sign meanings/sounds unresol
 Read this file first. Retrieve additional evidence through `RESEARCH_INDEX.md` only
 when needed. Full history is in `RESEARCH_LOG.md`, not part of routine loop context.
 
-## One next action
+## Blocked: action needed to resume
+
+Goal marked blocked after the same unmet dependency persisted across three
+consecutive goal turns. No live process is being waited on. Resume upon explicit
+send approval or new relevant records; retain the full decipherment objective.
 
 The Penn collection 1064 request packet is complete and awaits explicit send
 approval requested from the user on 11 October. Draft:
@@ -56,4 +60,4 @@ Claude CLI: `/Users/chinmaymk/.local/bin/claude`. Use unique render/output paths
 packet passes seven pin checks and exact 15-target preservation. Registry now holds
 506 raw artifacts: the previous 505 verified, plus the new verified contact capture. Source/model
 captures remain in `data/raw/`; registry `data/sources.json`. Check Git for exact
-backup status; prior verified upstream commit is 085b7de, request packet follows. GitHub backup to origin/main is authorized.
+backup status; request packet is backed up at 988c11c; this status record follows. GitHub backup to origin/main is authorized.
