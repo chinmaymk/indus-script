@@ -30,18 +30,14 @@ obtained. Script/reading unknown, not historical absence or all-copies unavailab
 No unchanged retries, guessed endpoints or additional catalogue query.
 Nippur13N506 displaced-context pointer lacks readable correspondence; no body gate.
 
-Current action: preserve and verify this completed batch in origin/main.
-Expected evidence: all source hashes/pins match, typed failures distinguish errors
-from research bodies, LFS binaries backed up, exact remote commit verified.
-Finite stop: one validation/commit/push/verification; repair only concrete defects.
-This operational step is not decipherment progress. No live process pending.
-
-Next scientific eligibility gate needs specifically new public primary content
-joining authenticated Indus signs to independently known sounds/content/quantity.
-Fixed Assur7191 can reopen only with new original entry/body and explicit attributed
-reading/script; inspect that identity correspondence once, then close if unknown.
-No executable phonetic experiment currently supplied. Historical jar test remains
-closed: historical lexicon and complete rules unpinned; no replacement constraints.
+No executable reading experiment currently supplied. Next primary action is
+conditional: inspect fixed Assur7191/Unger43original entry only if a specifically
+new public primary body/capture becomes available. Expected explicit script/reading
+attribution plus identity crosswalk; one entry/sketch inspection, close if unknown.
+Mass cannot identify script or represented quantity. Broader new records must join
+authenticated Indus signs to independent sounds/content/quantity before fitting.
+Historical jar test remains closed: historical lexicon and complete rules unpinned.
+No live process or child task pending; earlier failed locators not repeated.
 
 ## Latest claim validation
 
@@ -78,8 +74,9 @@ Editorial draft `docs/blog/trying-to-decipher-the-indus-script-with-ai.md` unpub
 ready for review; rounded840m headline reflects its earlier cutoff. Latest usage
 check at04:38Pacific:888,184,680 including review;111,815,320 short of one billion.
 See `RESEARCH_TOKEN_USAGE_OCT11_V4.md`; earlier frozen accounting preserved.
-Marungur/Vietnam batch4d234f0 pushed; exact origin/main SHA verified11October,
-seven LFS objects93MB. Previous releases preserved.
+Public-anchor batch7361c55 backed up11October; exact origin/main verified.
+Seven LFS objects108MB uploaded;32 input pins and16 new raw registrations match.
+Completed discovery/gates remain closures, not decipherment progress.
 Raw sources registered in `data/raw/`; derived evidence in `results/`/`data/processed/`.
 Claude follow-up hit provider credit limit; no changed availability or new review.
 Previous318 baseline and5 locator tests passed; not rerun. Python runtime under

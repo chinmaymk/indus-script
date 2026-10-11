@@ -6527,3 +6527,14 @@ reports its earlier blocked status; this human turn is not counted as another
 three-turn blocked sequence and no status mutation is attempted. Goal unachieved.
 No new Claude result or outreach. Current action limited to source/pin validation
 and authorized GitHub backup, explicitly not scientific progress.
+
+
+### 11 October 2026 — Resumed public-anchor batch backup verified
+
+All32 input pins matched;16 new raw body/header/tool-capture registrations matched
+bytes and SHA256. Authored JSON/doc whitespace check passed; retained extraction
+bytes not normalized. Batch7361c5594949f56bd548d024e83a4038401d774f committed47files.
+Existing push remained live; no relaunch during quiet output. Confirmed LFS worker,
+then successful seven-object108MB upload. Remote origin/main exact SHA matched;
+checkout clean before this handoff update. Separate editorial milestone commits
+were preserved; latest V4usage note retained. No scientific key established.
