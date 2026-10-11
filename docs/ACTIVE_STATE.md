@@ -1,18 +1,25 @@
 # Active research state
 
-Updated 10 October 2026. **No decipherment; all 417 sign meanings/sounds unresolved.**
+Updated 11 October 2026. **No decipherment; all 417 sign meanings/sounds unresolved.**
 Read this file first. Retrieve additional evidence through `RESEARCH_INDEX.md` only
 when needed. Full history is in `RESEARCH_LOG.md`, not part of routine loop context.
 
 ## One next action
 
-Prepare one concrete, reviewable archive request packet for the existing Penn
-Museum collection 1064 field-card targets. Start with `RESEARCH_ROUTE_AUDIT.md`
-and its named target ledger; reuse established identifiers instead of searching
-again. Expected gain: object/deposit evidence that could constrain referents.
-Stop when the exact records, evidence sought and draft request are ready. Sending
-requires explicit user authorization; none has been sent or authorized. Do not
-start another motif sweep, full Table V extraction or automatic page expansion.
+The Penn collection 1064 request packet is complete and awaits explicit send
+approval requested from the user on 11 October. Draft:
+`outreach/penn_collection_1064_email.txt`; appendix:
+`outreach/penn_collection_1064_targets.md`; pinned record:
+`data/processed/penn_archive_request_packet.json`.
+
+Recipient verified on Penn's official archive page: archives@pennmuseum.org.
+All 15 existing targets retained; five initial card/register requests, ten later
+availability checks. No message sent, sender account selected, payment authorized,
+or card acquired. After approval, identify the sending account and send exactly
+the reviewed request; save the sent receipt. Without approval, do not resend,
+repeat the public search, rewrite the packet or rerun closed analyses. New records
+must resolve archaeological context before consulting signs. They could constrain
+a domain association but will not alone decode a word.
 
 ## Latest decision and result
 
@@ -45,7 +52,8 @@ Bundled Python with NumPy/Pillow:
 `/Users/chinmaymk/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3`.
 Claude CLI: `/Users/chinmaymk/.local/bin/claude`. Use unique render/output paths.
 
-294 tests pass; all 505 registered raw artifacts match bytes/SHA256. Source/model
+294 tests passed on the previous code batch; no code changed this turn. The new
+packet passes seven pin checks and exact 15-target preservation. Registry now holds
+506 raw artifacts: the previous 505 verified, plus the new verified contact capture. Source/model
 captures remain in `data/raw/`; registry `data/sources.json`. Check Git for exact
-backup status; this batch's pre-run checkpoints are c46a188 and 5cbfb3f, with final
-results/context committed afterward. GitHub backup to origin/main is authorized.
+backup status; prior verified upstream commit is 085b7de, request packet follows. GitHub backup to origin/main is authorized.

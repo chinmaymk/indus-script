@@ -5679,3 +5679,35 @@ and has no global power claim. All 294 final unit tests pass (18 motif, three me
 505 registered raw artifacts verify. No historical broad pipeline rerun. Context
 now records this as closed, preventing repeated rediscovery. Semantic/phonetic
 assignments remain entirely unresolved; no outreach sent.
+
+
+## 2026-10-11 — Concrete Penn archive request, awaiting send authorization
+
+Previous goal turn classified as progress: frozen motif screen closed with no
+selected candidates, compact context established, and backup 085b7de verified.
+Followed ACTIVE_STATE's one action instead of restarting historical audits.
+Prepared a reviewable email and 15-record target appendix for Penn collection 1064.
+All identifiers and candidate boxes are unchanged from the existing target ledger;
+five initial records follow the existing route audit, with ten further availability
+checks retaining conflicts and incomplete cases. Box ranges do not authenticate
+individual cards. Requested linked register/context pages and an inventory for
+comparison groups, availability and fee information before paid work. No invented
+sender affiliation, no decipherment claim, no scan purchase or publication request.
+
+One bounded web call opened the known finding aid and official archive contact page.
+The finding aid timed out; retained finding-aid evidence remains the basis for boxes.
+The live archive page lists archives@pennmuseum.org. Full returned response, including
+the timeout, is saved in data/raw/penn-request-oct10-contact-web-capture.json (the
+filename reflects turn start before the date rollover) and registered. No broad
+search or new card content. Registry now contains 506 raw artifacts; the newly added
+one matches bytes/SHA256, with the previous 505 checked in the preceding batch.
+
+Packet validation checks all seven input/draft hashes and equality to the unchanged
+15-target set; result saved. No source-processing code changed or historical tests
+rerun. Explicit authorization to send was requested only after the concrete packet
+was ready, because developer communication rules require explicit permission to
+message outside recipients. No message sent and no sender account selected. This is
+the first prepared-packet authorization handoff, not a completed decipherment or a
+blocked-goal declaration. Current state now points to the existing packet and pending
+approval so a continuation does not recreate it. Cards alone would not establish
+replication, quantities or semantic values; the original full goal remains active.

@@ -8,6 +8,7 @@ not make historical reports current. Follow their pinned inputs and scope.
 | What should happen next? | `ACTIVE_STATE.md`; latest Claude fast-route review named there |
 | What is actually supported? | `CONVERGENCE.md`; `DECIPHERMENT_EVIDENCE_GAP_REVIEW.md` |
 | Could numerals acquire an independent anchor? | `NUMERAL_CALIBRATION_DESIGN.md`; `NUMERAL_IDENTITY_SENSITIVITY.md` |
+| Is the archive request ready to send? | `../outreach/penn_collection_1064_email.txt`; `../outreach/penn_collection_1064_targets.md`; approval status in ACTIVE_STATE |
 | Which external data are missing? | `RESEARCH_ROUTE_AUDIT.md`; follow only the selected route's source ledger |
 | Why don't structure scores decode meaning? | `IDENTIFIABILITY.md`; `STRUCTURE_THEORY.md` |
 | What is the latest verified text corpus? | `M77_VERIFIED_CORPUS.md`; current version in ACTIVE_STATE |

@@ -1,7 +1,7 @@
 {
   "Pillow": "12.3.0",
   "code_and_docs_sha256": {
-    "docs/ACTIVE_STATE.md": "4fd6947dad62002f501e85485cc2b65e70de94509769203be78259971aad909c",
+    "docs/ACTIVE_STATE.md": "19b10a2e898bce70484a978c97790b8dbb527bfd41d7aa8156ec29684c8d57b3",
     "docs/ALL_INVENTORY_NEXT_TEST_REVIEW.md": "eff11a3a1997e41843560522b9d05db47f498ffccc99e7801b26ea5b0a5faf0b",
     "docs/ALL_SIGN_EVIDENCE.md": "49baa471d2f3b26a0f18d5881b934d0bfb7f76b45b5b78cbba737c273380c248",
     "docs/ARCH_EXTENSION_CATALOGUE.md": "21e24b1212512e9c544d8d593bb8a546c964485df179bc7a235b24e1a6e5f2bf",
@@ -217,8 +217,8 @@
     "docs/REPEATED_GOBLET_STAMP_REVIEW.md": "f8ed27df077c3e537c3889bfa03d5471d3a09cc1f4325b433e7730ef23c24f63",
     "docs/REPETITION_EXPANSION.md": "a8610b869dc242c4617742550e8c6c65d5ca033dadbbfd6a73c6ccba23246549",
     "docs/REPORT.md": "7c32698ee54594d7d72e182db9904237bb6f03e894c1440b23751e743109c88c",
-    "docs/RESEARCH_INDEX.md": "ef3b05d0f5e46211f0f7a726cf0b030a43724787efa34ca10a2ceea54e5b61d2",
-    "docs/RESEARCH_LOG.md": "d5e175233109e741fe5683f6186fd22563dd9580ef7bf3e8104ec69e87fc6e21",
+    "docs/RESEARCH_INDEX.md": "8d037110eb9d71029221cf5db55099b0acdcc608b1c55620d8c2f587cad039ab",
+    "docs/RESEARCH_LOG.md": "f5cad1c29caffc5eda54780ed45e1811cebae067f3d462a414de72275206f25f",
     "docs/RESEARCH_ROUTE_AUDIT.md": "88a35d91ddc590c21f75d043d4656a50f4d5ebdc519c3bca8f6a11e311a30616",
     "docs/RESIDUE_ANCHOR_AUDIT.md": "20284d02869120ca97c774c75125143df497067e3c866076c611d529dba2e7c7",
     "docs/ROOF_COVERAGE_EXTENSION_RESULTS.md": "98485bbaa46d5dbdab3ab4c4f921c847d7a9306681dce489e427d1c26f48b7fb",
@@ -994,6 +994,8 @@
     "data/processed/p453801_image_search.json": "4ffe5f7ab77208c1b21af7d0ddb8125cd9e50341af3eb7e31ee84fe3d0b77b90",
     "data/processed/p516138_anchor_review.json": "90dd7146f7691b6f2ddac4afbbcdbeffb863d44863a5b49f0bd323520b6e3e31",
     "data/processed/patronymic_primary_pair_review.json": "fc4d847030a99bed322f59a407de77a53878a7ec362802191d7d9ac8cc8c6f43",
+    "data/processed/penn_archive_request_packet.json": "7ea43e7ffbd94baeac2bef30b4c7994e0decbcfa1644ddcb6d2e5a84c90b2f1a",
+    "data/processed/penn_request_oct10_source_registration.json": "e169c25d135f84b6d806cc1b937b0a6cb06441669bcb0099d8a3e1529d0cf626",
     "data/processed/pettersson_1999_downloads.json": "e1002f0149bedaee4db0590122d736775859d56befcad16f157477a936b29c9d",
     "data/processed/pettersson_orientation_attribution_review.json": "02fba0f45f5741871dacf10487e56c1fad111ae8249e88ce4bc6a3898d3e6a7e",
     "data/processed/pincer_context_protocol.json": "32535fbb90ea81cde728104bc4bbf434835d778ff806ff579aef17f8cdfbdb05",
@@ -1103,7 +1105,7 @@
   "python": "3.12.14",
   "random_seed": 20260922,
   "reproduction_command": "python scripts/run_all.py",
-  "research_date": "2026-10-10",
+  "research_date": "2026-10-11",
   "research_started_date": "2026-09-22",
   "results_sha256": {
     "results/arch-extension-text_extraction.json": "0ddae0677dfa66585de5fa6181815cf8dc8afc5f2836a72281cbd24f55121e11",
@@ -1500,6 +1502,7 @@
     "results/parpola2008_extracted.txt": "228bc365f8d759cb02f7d02e06a0587205d4e27d433542507f4d5b3a1bd34670",
     "results/parpola2008_extraction.json": "bb4e043166c2c452792a99cf1c282ceb8fcbbcb7879d4ddb9419a79275c7ef15",
     "results/patronymic_chain_audit.json": "11c38767c280b0abce391dcca278c7b831802422646fed65df8e260037e79da9",
+    "results/penn_archive_request_packet_validation.json": "cf1148d3f9694176aad06d44cdfa6dcfb564fc8e0fc04b907a4ba21c2f175393",
     "results/permutation_tests.json": "f8824580d4c682a6b3bcaff8f6aa682e565a1759af18a1fac597facf53e32779",
     "results/pettersson-1999-followup_extraction.json": "42e3e766715186fd22d2aee242e46cd0c34e98a82e4e4596615a475383f57786",
     "results/pettersson-1999_extracted.txt": "18bfec8122159b5ba4bd782ce3a402c11bc4e709068a9963fc0dd81bce542a16",
@@ -3531,6 +3534,6 @@
     "results/yale-parpola_extraction.json": "d45e4443b5426cc1c9bb41f8acf87c103de27dd61bef616521f576782325144a",
     "results/yale-ricetti_extraction.json": "61cf319d49d2a3b17680e36ff7b893a3af579a5dea285fa5b873223c1c7676fd"
   },
-  "sources_manifest_sha256": "3f1f206f21ee19c6b39ddd64f6886715b18355ae7f43c4517a60be14d8e1b3d6",
-  "validation_scope": "294 unit tests passed; all 505 registered raw artifacts verified; release5 corpus and support outputs saved; motif v2 discovery completed once with zero candidates, downstream phases stopped; historical broad pipeline not rerun."
+  "sources_manifest_sha256": "2f9fdd2036f4cab4d3fa5f8f380e57cbadf2c52b0fd4a08b6dd2ba6012507886",
+  "validation_scope": "Document-only archive request preparation; seven packet pins and exact15-target preservation checked; new contact capture bytes/SHA256 verified (506 registered raw artifacts total); prior294 tests and505 raw verification retained, no historical rerun."
 }
