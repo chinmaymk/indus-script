@@ -184,6 +184,43 @@ class MotifFastRouteTest(unittest.TestCase):
         self.assertEqual(run_discovery(families, 9, 1)['status'], 'no_eligible_pairs')
         self.assertEqual(run_fixed_transfer([], candidates, 9, 1)['tested_candidates'], 0)
 
+    def test_constant_fractional_columns_have_exactly_zero_variance(self):
+        families = [family([('W001' if i < 10 else 'W002'), f'W{i + 100:03d}'],
+                           {'A': 1 / 3, 'B': 2 / 3}) for i in range(20)]
+        design = make_design(families)
+        np.testing.assert_array_equal(design['covariance'], 0.)
+        np.testing.assert_array_equal(design['variance'], 0.)
+        self.assertFalse(eligible_pairs(design).any())
+        self.assertEqual(run_discovery(families, 9, 1)['status'], 'no_eligible_pairs')
+        result = run_fixed_transfer(families, [{'sign': 'W001', 'raw_motif': 'A'}], 9, 1)
+        self.assertEqual(result['tested_candidates'], 0)
+        self.assertIsNone(result['candidates'][0]['z'])
+        with self.assertRaises(ValueError):
+            list(permutation_z(design, [(0, 0)], 9, 1))
+
+    def test_fractional_constant_stratum_cannot_contaminate_variable_stratum(self):
+        constant = [family([('W001' if i < 10 else 'W002'), f'W{i + 100:03d}'],
+                           {'A': 1 / 3, 'B': 2 / 3}) for i in range(20)]
+        variable = [family([('W001' if i < 2 else 'W002'), f'W{i + 200:03d}', 'W099'],
+                           {'A': a, 'B': 1 - a}) for i, a in enumerate([.1, .3, .7, .9])]
+        combined = make_design(constant + variable, ['W001'], ['A', 'B'])
+        variable_only = make_design(variable, ['W001'], ['A', 'B'])
+        np.testing.assert_array_equal(combined['covariance'], variable_only['covariance'])
+        np.testing.assert_array_equal(combined['variance'], variable_only['variance'])
+        observed = combined['covariance'][0, 0]
+        scale = np.sqrt(combined['variance'][0, 0])
+        rng = np.random.default_rng(8)
+        expected = []
+        for _ in range(21):
+            order = shuffle_indices(combined['strata'], len(constant + variable), rng)
+            # Original fractional constants contribute exactly zero, even when
+            # their permutation consumes RNG draws before the variable block.
+            z = combined['y'][order[20:], 0]
+            expected.append(combined['f'][20:, 0] @ (z - z.mean()) / scale)
+        actual = np.concatenate(list(permutation_z(combined, [(0, 0)], 21, 8))).ravel()
+        np.testing.assert_allclose(actual, expected, atol=1e-14)
+        self.assertNotEqual(observed, 0.)
+
     def test_synthetic_discovery_and_fixed_transfer(self):
         families = [family([('W001' if i < 10 else 'W002'), f'W{i + 100:03d}'],
                            {'A' if i < 10 else 'B': 1.}) for i in range(20)]

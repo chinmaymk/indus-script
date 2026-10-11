@@ -133,6 +133,20 @@ def make_design(families, signs=None, motifs=None):
             'motif_support': (y > 0).sum(axis=0).astype(int)}
 
 
+def center_stratum(y):
+    """Center while preserving exact zero variance of identical input values.
+
+    A floating mean of repeated 1/3 values need not equal the input value.
+    Detect constancy before centering so rounding cannot manufacture support.
+    """
+    if not len(y):
+        return y.copy()
+    constant = np.all(y == y[0], axis=0)
+    centered = y - y.mean(axis=0)
+    centered[:, constant] = 0.
+    return centered
+
+
 def moments(f, y, strata):
     """Exact conditional covariance numerator and permutation variance."""
     covariance = np.zeros((f.shape[1], y.shape[1]))
@@ -142,7 +156,7 @@ def moments(f, y, strata):
         if n < 2:
             continue
         x, z = f[indices], y[indices]
-        centered = z - z.mean(axis=0)
+        centered = center_stratum(z)
         nf = x.sum(axis=0)
         covariance += x.T @ centered
         variance += np.outer(nf * (n - nf) / (n * (n - 1)),
@@ -185,7 +199,7 @@ def permutation_z(design, pairs, replicates, seed, batch_size=32):
     x = design['f'][:, active_s]
     centered = design['y'][:, active_m].copy()
     for indices in design['strata']:
-        centered[indices] -= centered[indices].mean(axis=0)
+        centered[indices] = center_stratum(centered[indices])
     rng = np.random.default_rng(seed)
     scale = np.sqrt(variance)
     # Matrix multiplication reuses a sign across motifs; eligible-pair slicing

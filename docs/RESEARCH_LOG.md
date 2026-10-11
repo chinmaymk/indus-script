@@ -5650,3 +5650,11 @@ Pre-run validation: all 291 unit tests passed, including 15 synthetic motif test
 and three new metadata tests. All 505 registered raw artifacts match byte counts
 and SHA256. Prior broad analysis pipeline not rerun. No new sign–motif results have
 been inspected at this checkpoint. Further corpus expansion remains deferred.
+
+
+Before the first real association run, independent code review found a floating-point
+edge case: identical fractional motif vectors could acquire tiny positive variance
+from mean rounding and enter maxT incorrectly. The synthetic 1/3, 2/3 example
+reproduced it. Fixing constant-column centering and adding regression tests precedes
+any real results; checkpoint c46a188 preserves the earlier implementation. This is
+a numerical correction to the fixed statistic, not an outcome-driven protocol change.

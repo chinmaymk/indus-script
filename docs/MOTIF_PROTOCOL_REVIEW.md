@@ -31,3 +31,15 @@ One sequence family per site, with a vector averaged over distinct eligible arti
 The discovery candidate file must be saved before transfer outcomes are computed. Remove every retained discovery exact sequence from transfer, not merely texts containing a selected sign. For the Good/Fair sensitivity, use that same exclusion set rather than rebuilding a smaller discovery set. An untestable candidate remains in the original selected family for Holm with p=1. Use the standard sorted-p step-down adjustment with cumulative maxima and upper bound 1, preserving all selected candidates in the family size.
 
 The protocol's stated conclusion scope is appropriate: a descriptive site-transfer association under these sampling and exchangeability assumptions. Neither successful transfer nor lack of support identifies a sound value, an animal word, a personal name, an office, or a commodity.
+
+
+## Pre-run resolution
+
+Protocol v2 (SHA256 `9a339d2bd761658d2ed56465cdc6efe635efe6432f13185f063a5dde64a8f1d3`)
+resolves all three specification points above before new joint counts, and freezes
+an absolute 1e-12 Z tolerance for permutation ties. A separate implementation review
+found that constant fractional motif coordinates could gain tiny nonzero variance
+through rounding. Both observed and permutation centering now explicitly zero
+columns with identical original values within a stratum. Synthetic constant and
+mixed-stratum regressions check the mathematical zero case. This corrects numerical
+implementation; the stated null and eligibility criterion are unchanged.
