@@ -2,7 +2,7 @@
 
 Updated 11 October 2026. **No decipherment; all 417 sign meanings/sounds unresolved.**
 Read this first, then retrieve only relevant evidence through `RESEARCH_INDEX.md`.
-Full history belongs in `RESEARCH_LOG.md`. Public and retained data only;
+Full history belongs in `RESEARCH_LOG.md`. Public/retained data only;
 **no outreach of any kind**. The Penn request is an archival draft.
 
 ## One current action
@@ -74,7 +74,7 @@ usage, repository link first. Frozen audit: 821,734,966 research tokens;
 excluded. See `RESEARCH_TOKEN_USAGE.md`. Editorial work did not rerun experiments.
 
 Research batch `ea97805` was pushed and origin/main verified on 11 October.
-Ending results, source provenance and locator ledgers are backed up; pilot and Bagasra batch backed up; later source criticism awaits backup.
+Ending results, source provenance and locator ledgers are backed up; pilot/Bagasra and source-criticism batch9bae8ba backed up and verified.
 Raw captures stay in `data/raw/`, registered in `data/sources.json`; derived
 results in `results/` or `data/processed/`. Do not overwrite frozen inputs/results.
 Claude's last follow-up hit a provider usage-credit limit; no new opinion obtained.
