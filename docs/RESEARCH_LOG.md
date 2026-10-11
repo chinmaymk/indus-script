@@ -6410,3 +6410,16 @@ this handoff and verifying backup, request update_goal(status=blocked), never
 complete. Reopening requires specifically new public primary evidence or a
 revised route with independently discriminating predictions; preserving all
 frozen results and exposure history remains mandatory.
+
+
+## 2026-10-11 — Second token milestone audit
+
+Author asked to check whether the billion-token milestone had been reached.
+Unchanged audit script, same roots/exclusions, new frozen cutoff11:00:28UTC
+(04:00:28Pacific). Recorded total880,868,259 including automatic review;
+research models860,949,268. Increase41,953,497; remaining119,131,741.
+Independent final-cumulative plus deduplicated Claude/CLI check matched; all160
+source-prefix hashes verified and metadata replay exactly reproduced the report.
+New raw capture registered with bytes/hash/provenance; prior outputs preserved.
+Latest audit linked from the original. Blog keeps its earlier840m cutoff;
+billion-token headline deferred. No scientific run or decipherment claim.

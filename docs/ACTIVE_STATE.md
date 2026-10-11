@@ -78,7 +78,9 @@ Corpus v5 frozen. Numeral2/3 remains conditional; H1923 conflicts. Follow index.
 ## Persistence / runtime
 
 Editorial draft `docs/blog/trying-to-decipher-the-indus-script-with-ai.md` unpublished,
-ready for review; rounded840m headline, exact accounting in `RESEARCH_TOKEN_USAGE.md`.
+ready for review; rounded840m headline reflects its earlier cutoff. Latest usage
+check at04:00Pacific:880,868,259 including review;119,131,741 short of one billion.
+See `RESEARCH_TOKEN_USAGE_OCT11_V2.md`; earlier frozen accounting preserved.
 Marungur/Vietnam batch4d234f0 pushed; exact origin/main SHA verified11October,
 seven LFS objects93MB. Previous releases preserved.
 Raw sources registered in `data/raw/`; derived evidence in `results/`/`data/processed/`.

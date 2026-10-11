@@ -4901,6 +4901,14 @@
       "kind": "local_usage_metadata_extract_without_message_content",
       "cutoff_utc": "2026-10-11T08:23:38.418Z",
       "provenance": "Selected research-root descendants from retained Codex rollouts, local Claude project usage records, and seven saved Oct 10 CLI envelopes. Original byte-prefix hashes and selected relationships are in the capture. Blog and unrelated grammar roots excluded."
+    },
+    {
+      "path": "data/raw/research-token-usage-oct11-v2.json",
+      "bytes": 2868772,
+      "sha256": "92800c1a468323c21cba713e1c899830c33092c8e3ac2c566416e48a14e2f3a5",
+      "kind": "local_usage_metadata_extract_without_message_content",
+      "cutoff_utc": "2026-10-11T11:00:28Z",
+      "provenance": "Second frozen usage capture using the unchanged audit script and same two research-root descendant selection. Retained Codex response counters, local Claude project usage and seven nonoverlapping Oct 10 CLI envelopes; blog/accounting and unrelated projects excluded. Source byte-prefix hashes and relationships retained; no prompts or responses copied."
     }
   ],
   "local_editorial_captures": [
