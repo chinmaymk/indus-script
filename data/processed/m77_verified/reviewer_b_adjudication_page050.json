@@ -1,0 +1,116 @@
+{
+  "status": "adjudication_recommendations_after_A_B_comparison; does not replace immutable submission",
+  "reviewer": "B",
+  "original_submission": "data/processed/m77_verified/reviewer_b_page050.json",
+  "original_sha256": "3e233a41ac500cc8ec5f889905c36592f9fb811baf62f9680ca133101932b44e",
+  "findings": [
+    {
+      "references": [
+        "1006",
+        "1011",
+        "1016",
+        "1025"
+      ],
+      "recommendation": "M169 replaces B M161; retain source doubt at1016",
+      "evidence": "Multiple short oblique uprights along extended right arm; primary M161 has only two simple arms. Compared primary Sign List PDF44 signs161/169 to native page50 crops."
+    },
+    {
+      "references": [
+        "1015"
+      ],
+      "recommendation": "M054 replaces B M055",
+      "evidence": "Primary054 central oval empty;055 has short interior vertical. Page50 1015 loop looks empty, unlike 1003 marked/dense center. Primary Sign List PDF43."
+    },
+    {
+      "references": [
+        "1011"
+      ],
+      "recommendation": "Correct local normalized RTL order to M009 M342 M017",
+      "evidence": "Printed LTR crop plainly shows M017 M342 M009. B transposed M017 and M342 in serialization."
+    },
+    {
+      "references": [
+        "1026"
+      ],
+      "recommendation": "Unresolved visible glyph with candidate IDs M347/M352",
+      "evidence": "Right terminal clearly trident; left terminal is blocky/horizontal and insufficient to establish F versus trident at this scan resolution. Primary347 has two tridents;352 leftF/righttrident.",
+      "do_not_resolve_by_vote": true
+    }
+  ],
+  "visual_crop_pins": [
+    {
+      "path": "results/primary_pages/m77-v1-reviewerB-adjudicate-054.png",
+      "sha256": "c4282b0a0cbc54fa955cb6369e2cffc1210c910d9476b4cd2094961506f1e00b"
+    },
+    {
+      "path": "results/primary_pages/m77-v1-reviewerB-adjudicate-055.png",
+      "sha256": "4275daaf9b34c0e33a2c823afa270ee207d633af09aa2b91bf0f9c372ecc7730"
+    },
+    {
+      "path": "results/primary_pages/m77-v1-reviewerB-adjudicate-1003-K.png",
+      "sha256": "c60b281da06655471bc8d3b1063645994debd82b250ffb65937bdd1bd97a767f"
+    },
+    {
+      "path": "results/primary_pages/m77-v1-reviewerB-adjudicate-1011-order.png",
+      "sha256": "2a1608a28f59bb98566098f0a2b63cd068d9208dd1fc2b91ecb86df840f291b4"
+    },
+    {
+      "path": "results/primary_pages/m77-v1-reviewerB-adjudicate-1015-K.png",
+      "sha256": "f8049c0bd26a1d519009c52e8068630704678769102538fea9b88d1c8c34b4c6"
+    },
+    {
+      "path": "results/primary_pages/m77-v1-reviewerB-adjudicate-1016Y-corrected.png",
+      "sha256": "62f734d69761daca5b02771d4646dfe7181ae05685fdb5ee52071e976bd577fb"
+    },
+    {
+      "path": "results/primary_pages/m77-v1-reviewerB-adjudicate-1026-U.png",
+      "sha256": "ea0f9680a2e160d582fc92cce01d287e576a742032bff2919098595f2a290d5a"
+    },
+    {
+      "path": "results/primary_pages/m77-v1-reviewerB-adjudicate-1026-leftterminal.png",
+      "sha256": "49743747eecaf39e2982c2484d5ba3f94eb75fc7b9890056ccc7b33e06e7bb0c"
+    },
+    {
+      "path": "results/primary_pages/m77-v1-reviewerB-adjudicate-161.png",
+      "sha256": "62585e8329ed656f83700bd6bf60ee162fb85a15cb8d3fcc9119c183ab490c0c"
+    },
+    {
+      "path": "results/primary_pages/m77-v1-reviewerB-adjudicate-169.png",
+      "sha256": "d2e39cf719c909b7f5b36cbce556a78426cbd8ca932e4599c4160b71961ae614"
+    },
+    {
+      "path": "results/primary_pages/m77-v1-reviewerB-adjudicate-347-corrected.png",
+      "sha256": "98a15b3b758e3d4dbf310b68e727bfa468535ccd4c2624b79865e731314d30e1"
+    },
+    {
+      "path": "results/primary_pages/m77-v1-reviewerB-adjudicate-347.png",
+      "sha256": "36e747af1147bb3aaf4735ab2907a56f44f9ddbb643d36b4cdc2e692dacaf333"
+    },
+    {
+      "path": "results/primary_pages/m77-v1-reviewerB-adjudicate-352.png",
+      "sha256": "5e8bba51d6613935c2e55f592f2bf046fdc92c3dc42f5bc62b90cc5d8897f783"
+    },
+    {
+      "path": "results/primary_pages/m77-v1-reviewerB-adjudicate-Y1006.png",
+      "sha256": "d6442f7fd4d5d9b3c13098244926829abb6e9459c65b3839981b324a255c393f"
+    },
+    {
+      "path": "results/primary_pages/m77-v1-reviewerB-adjudicate-Y1011.png",
+      "sha256": "67b68b251b2a48bce039b05e3d2270aef4cf581b0270a5caf4926582f80b112e"
+    },
+    {
+      "path": "results/primary_pages/m77-v1-reviewerB-adjudicate-Y1016.png",
+      "sha256": "f8aa29b808dc47d8d5316db7678fedd1bad1d0e4159f6f1c05e7896382f97343"
+    },
+    {
+      "path": "results/primary_pages/m77-v1-reviewerB-adjudicate-Y1025.png",
+      "sha256": "552a1dd5ddfe69f0f302a0229918aaeb48d8a0d003faa7553f6f707448ec77ad"
+    }
+  ],
+  "failed_crop_notes": [
+    "Initial347 crop landed346; corrected file named347-corrected used.",
+    "Initial Y1016 crop landed neighboring M158; corrected file1016Y-corrected used.",
+    "Initial1026-U crop missed left terminal;1026-leftterminal used."
+  ],
+  "local_access_note": "Git LFS migration temporarily replaced tracked PNG with pointers. Crops recovered by reading corresponding existing local .git/lfs/objects SHA256 bytes into PIL; no network or source modification."
+}

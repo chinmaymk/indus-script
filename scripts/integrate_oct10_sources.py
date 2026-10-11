@@ -14,6 +14,10 @@ def main():
  for name in ['oct10-chanhu-web-capture.json','oct10-chanhu-web-followup.json']:
   p=ROOT/'data/raw'/name
   rows.append({'path':str(p.relative_to(ROOT)),'bytes':p.stat().st_size,'sha256':sha256(p),'url':None,'kind':'web_tool_capture_not_original_document','refetchable':False})
+ for name in ['claude-opus-oct10-method-review.json','claude-opus-oct10-method-review-retry.json']:
+  p=ROOT/'data/raw'/name
+  if p.exists():
+   rows.append({'path':str(p.relative_to(ROOT)),'bytes':p.stat().st_size,'sha256':sha256(p),'url':None,'kind':'external_AI_CLI_response_not_historical_evidence','refetchable':False,'original_document_bytes':False})
  registry=json.loads((ROOT/'data/sources.json').read_text());groups=('downloads','web_extraction_captures','archived_http_responses')
  known={r['path']:r for g in groups for r in registry[g]}
  for r in rows:

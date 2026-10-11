@@ -6,6 +6,19 @@ This project audits the supplied 417 Mahadevan-style sign images, adds versioned
 inscription corpora and comparison data, and tests what can actually be inferred.
 It does not assign invented words or sounds to unexplained signs.
 
+**Current track (10 October): build a complete, consecutive-page M77 corpus.**
+The first released batch covers 29 references and 33 printed lines, with one
+unresolved glyph identity. This verifies transcription against M77's printed
+pages, not against ancient objects. Individual artifact searches have stopped.
+
+- [Corpus batch, disagreements, reproduction and next tests](docs/M77_VERIFIED_CORPUS.md)
+- [Proto-cuneiform and proto-Elamite numeral comparisons](docs/COMPARATIVE_NUMERAL_SYSTEMS.md)
+- [Claude Opus second opinion and our response](docs/CLAUDE_SECOND_OPINION.md)
+
+Large source PDFs and images use **Git LFS**. After cloning, run `git lfs install`
+and `git lfs pull` before reproducing analyses; pointer files are not source bytes.
+Downloaded sources remain together in `data/raw/`, with hashes in `data/sources.json`.
+
 - [Compact verdict: strongest theories and remaining evidence gap](docs/CONVERGENCE.md)
 - [Research conclusions and evidence](docs/REPORT.md)
 - [Numerical candidates: shared-value sensitivity and primary graphic checks](docs/NUMERAL_IDENTITY_SENSITIVITY.md)

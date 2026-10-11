@@ -1,0 +1,52 @@
+You are an independent skeptical expert on ancient writing and statistical inference. Give a concise second opinion, not approval. Do not modify files, browse, or use tools. No decipherment is established. Review the following project evidence and propose at most 5 concrete corrections or high-value next tests. Separate actual flaws from optional additions. Focus on whether the conditional 2/3 numeral hypothesis is falsifiable, data leakage, and the whole-page transcription pipeline. Do not supply speculative readings.
+
+PIPELINE: Primary M77 corpus totals 2906 objects,3573 lines,13372 legible tokens. Existing550 selected primary lines centered on M328 are biased. Main track now exhaustive consecutive page transcription, starting printed39/PDF50:29 references33lines. Reviewer A saw secondary strings and manually checked primary glyphs/codebook/sign list; reviewer B independently read primary page without consulting secondary strings during transcription, but had earlier seen5 pilot references. Both disclosures saved; frozen A/B before comparison. Preserve side/line/direction, source doubt, LOSS min1 maxunknown; unknown visible glyph separate. All printed lines normalized RTL irrespective actual direction. Hash-pinned sources and whole-row boundingboxes. Exact agreements or explicit image-based adjudication publish; disagreement records immutable. A whole complete page is a coverage unit, not a random sample. Region, excavation phase and physical duplicate group still unverified. No semantic values assigned.
+
+COMPARATIVE NOTE:
+# Comparative numerical systems: a transferable method, not a reading key
+
+10 October 2026. **Commodity-dependent values are historically real; an isolated2/3 ratio does not identify a Mesopotamian system in Indus writing.** The comparison supports testing context-dependent values while preserving distinct sign classes. It supplies no Indus phonetic or semantic assignment.
+
+## Verified source graphs
+
+Englund’s original research diagrams were downloaded and visually checked. Values below are relative units within each system, not common physical quantities between systems. Indus tall and stacked strokes are not mapped to these foreign signs.
+
+| System | Ascending relative values and sign identifiers | Locator |
+|---|---|---|
+| Proto-cuneiform sexagesimal S | N1=1, N14=10, N34=60, N48=600, N45=3600, N50=36000 | Englund2004a, p32/PDF10, Fig4a |
+| Proto-cuneiform bisexagesimal B | N1=1, N14=10, N34=60, N51=120, N54=1200, N56=7200 | Same figure |
+| Proto-cuneiform grain ŠE | N39=1/5, N1=1, N14=6, N45=60, N34=180, N48=1800 | p33/PDF11, Fig4b |
+| ŠE fractions of N39 | N24=1/2, N26=1/3, N28=1/4, N29=1/5, N30a=1/6, N30c=1/10 | Same figure; fractions here use N39 as denominator |
+| Proto-Elamite S, B and decimal D | S:1,10,60,600,3600; B:1,10,60,120,1200; D:1,10,100,1000,10000 | Englund2004c, p107/PDF8, Fig5.4 |
+
+N14/N1 is10 in S but6 in ŠE. Source p34/PDF12, Fig5 identifies the exercise MSVO4,66 as crucial evidence: entries connect counted products with grain equivalents. S’s smallest N8 remains ambiguous (1/2 or1/10); it is excluded from the exact graph rather than silently resolved. [Englund2004a](https://cdli.earth/files-up/publications/englund2004a.pdf).
+
+The proto-Elamite account is a genuine comparison, with an important qualification: numerical correspondences initially proposed by analogy were checked against account summations (p108/PDF9). Fig5.4 includes separate capacity and area systems; these are not collapsed into one universal base. Its proposed high/low-status interpretations are less secure than the numerical graphs. On p113/PDF14 the source gives a concrete combined B/B# total:520+80+720+60=1380. We check the arithmetic, not independently recollate that tablet. [Englund2004c](https://cdli.earth/files-up/publications/englund2004c.pdf).
+
+## What2/3 actually discriminates
+
+Our exact enumeration finds two ordered pairs at ratio2/3 in the specified ŠE inventory:
+
+```
+N26/N24 = (N39/3)/(N39/2) = 2/3
+N30a/N28 = (N39/6)/(N39/4) = 2/3.
+```
+
+Neither is an adjacent main-unit step. The selected integer S and B inventories have no such pair. This finite result is not a probability or a survey of every ancient system. Arbitrarily choosing which foreign signs correspond to the two Indus stroke classes would manufacture a match. The Indus conditional c/b=2/3 is compatible with commonplace fractional arithmetic; it cannot by itself identify barley, a unit, borrowing or language.
+
+## One falsifiable transfer test
+
+Freeze the Indus candidate **three stacked strokes equal two long strokes beside the same marker**, with the complete retained context and equality premise explicit. Use native M77 IDs only after a fixed existing sign-class crosswalk; do not infer an M77 identity from a W code or foreign glyph resemblance. Hold out physical artifacts, including every duplicate impression and counterpart, before counting new substitutions.
+
+For each independently eligible held-out equality, predict `2 × stacked_count = 3 × long_count`; equivalently the long:stacked count ratio is2:3. No new unit, class merge or residual-sign contribution may be fitted after seeing it. A clear nonzero residual rejects this specific constant-conversion/equality hypothesis. Repeated3:2 examples strengthen replication only when they are different physical observations with independently justified equal-quantity relationships. Zero eligible equations means unavailable validation, not success. Exact-context substitution candidates from the corpus can be screened cheaply, but sharing surrounding signs alone does not independently prove equal quantities.
+
+This follows the comparative method’s substantive lesson: identify numerical classes and test accounting relations, rather than copy values across civilizations. The source graphs and script are useful comparative constraints; the full417-sign task remains unresolved.
+
+## Reproduction and log
+
+Run `python3 scripts/analyze_comparative_numeral_systems.py`. It uses exact fractions, enumerates every ordered distinct pair in the three declared proto-cuneiform inventories, checks the proto-Elamite printed sum and pins both source PDFs and reviewed figure renders. Five initial searches were used; two primary PDFs and two response-header records were downloaded, plus one search/open capture. Everything downloaded is under `data/raw/comparative-numerals-oct10-*`; source manifest: `data/processed/comparative_numerals_oct10_new_sources.json`.
+
+The PDF renderer emitted font-cache warnings for2004a but completed; both diagrams were visibly legible and reviewed. No raw artifacts were discarded, no external outreach occurred, and no central sign assignment or registry was changed by this subtask. LinearA/B and Rongorongo were not investigated in this bounded numerical comparison.
+
+
+INDUS CONSTRAINT LIMIT: H306 gives 3a=2b; H326/H924/H925 give3a=3c, hence c/b=2/3 if quantities assumed equal across surfaces. H1923 secondary gives2a=2b and conflicts; exclusion is sensitivity scenario, not evidence it is erroneous. H925 not primary reviewed. W740 residual unexplained; stroke identities not fully primary authenticated. Please assess what can actually be concluded.

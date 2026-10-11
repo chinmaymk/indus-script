@@ -1,0 +1,3161 @@
+{
+  "schema_version": "m77-comparison-1",
+  "review_pins": [
+    {
+      "path": "data/processed/m77_verified/reviewer_a_page050.json",
+      "sha256": "68f04b60e3de391628063a1aa0730b03cd13b2368020829be49ddd38adc0b7d7"
+    },
+    {
+      "path": "data/processed/m77_verified/reviewer_b_page050.json",
+      "sha256": "3e233a41ac500cc8ec5f889905c36592f9fb811baf62f9680ca133101932b44e"
+    }
+  ],
+  "expected_rows": 33,
+  "accepted_rows": 22,
+  "unresolved_differences": 11,
+  "differences": [
+    {
+      "source_pdf_page": 50,
+      "key": [
+        "1006",
+        "0",
+        "0"
+      ],
+      "fields": {
+        "tokens": {
+          "A": [
+            "M233",
+            "M081",
+            "M099",
+            "M389",
+            "M065",
+            "M336",
+            "M089",
+            "M087",
+            "M155",
+            "M124",
+            "M169"
+          ],
+          "B": [
+            "M233",
+            "M081",
+            "M099",
+            "M389",
+            "M065",
+            "M336",
+            "M089",
+            "M087",
+            "M155",
+            "M124",
+            "M161"
+          ]
+        },
+        "segments": {
+          "A": [
+            {
+              "kind": "identified_sign",
+              "maximum_signs": 1,
+              "minimum_signs": 1,
+              "position_from_right": 1,
+              "sign": "M233",
+              "source_doubt": false
+            },
+            {
+              "kind": "identified_sign",
+              "maximum_signs": 1,
+              "minimum_signs": 1,
+              "position_from_right": 2,
+              "sign": "M081",
+              "source_doubt": false
+            },
+            {
+              "kind": "identified_sign",
+              "maximum_signs": 1,
+              "minimum_signs": 1,
+              "position_from_right": 3,
+              "sign": "M099",
+              "source_doubt": false
+            },
+            {
+              "kind": "identified_sign",
+              "maximum_signs": 1,
+              "minimum_signs": 1,
+              "position_from_right": 4,
+              "sign": "M389",
+              "source_doubt": false
+            },
+            {
+              "kind": "identified_sign",
+              "maximum_signs": 1,
+              "minimum_signs": 1,
+              "position_from_right": 5,
+              "sign": "M065",
+              "source_doubt": false
+            },
+            {
+              "kind": "identified_sign",
+              "maximum_signs": 1,
+              "minimum_signs": 1,
+              "position_from_right": 6,
+              "sign": "M336",
+              "source_doubt": false
+            },
+            {
+              "kind": "identified_sign",
+              "maximum_signs": 1,
+              "minimum_signs": 1,
+              "position_from_right": 7,
+              "sign": "M089",
+              "source_doubt": false
+            },
+            {
+              "kind": "identified_sign",
+              "maximum_signs": 1,
+              "minimum_signs": 1,
+              "position_from_right": 8,
+              "sign": "M087",
+              "source_doubt": false
+            },
+            {
+              "kind": "identified_sign",
+              "maximum_signs": 1,
+              "minimum_signs": 1,
+              "position_from_right": 9,
+              "sign": "M155",
+              "source_doubt": false
+            },
+            {
+              "kind": "identified_sign",
+              "maximum_signs": 1,
+              "minimum_signs": 1,
+              "position_from_right": 10,
+              "sign": "M124",
+              "source_doubt": false
+            },
+            {
+              "kind": "identified_sign",
+              "maximum_signs": 1,
+              "minimum_signs": 1,
+              "position_from_right": 11,
+              "sign": "M169",
+              "source_doubt": false
+            }
+          ],
+          "B": [
+            {
+              "position_from_right": 1,
+              "kind": "identified_sign",
+              "sign": "M233",
+              "source_doubt": false,
+              "reviewer_uncertainty": false,
+              "candidate_signs": []
+            },
+            {
+              "position_from_right": 2,
+              "kind": "identified_sign",
+              "sign": "M081",
+              "source_doubt": false,
+              "reviewer_uncertainty": false,
+              "candidate_signs": []
+            },
+            {
+              "position_from_right": 3,
+              "kind": "identified_sign",
+              "sign": "M099",
+              "source_doubt": false,
+              "reviewer_uncertainty": false,
+              "candidate_signs": []
+            },
+            {
+              "position_from_right": 4,
+              "kind": "identified_sign",
+              "sign": "M389",
+              "source_doubt": false,
+              "reviewer_uncertainty": false,
+              "candidate_signs": []
+            },
+            {
+              "position_from_right": 5,
+              "kind": "identified_sign",
+              "sign": "M065",
+              "source_doubt": false,
+              "reviewer_uncertainty": false,
+              "candidate_signs": []
+            },
+            {
+              "position_from_right": 6,
+              "kind": "identified_sign",
+              "sign": "M336",
+              "source_doubt": false,
+              "reviewer_uncertainty": false,
+              "candidate_signs": []
+            },
+            {
+              "position_from_right": 7,
+              "kind": "identified_sign",
+              "sign": "M089",
+              "source_doubt": false,
+              "reviewer_uncertainty": false,
+              "candidate_signs": []
+            },
+            {
+              "position_from_right": 8,
+              "kind": "identified_sign",
+              "sign": "M087",
+              "source_doubt": false,
+              "reviewer_uncertainty": false,
+              "candidate_signs": []
+            },
+            {
+              "position_from_right": 9,
+              "kind": "identified_sign",
+              "sign": "M155",
+              "source_doubt": false,
+              "reviewer_uncertainty": false,
+              "candidate_signs": []
+            },
+            {
+              "position_from_right": 10,
+              "kind": "identified_sign",
+              "sign": "M124",
+              "source_doubt": false,
+              "reviewer_uncertainty": false,
+              "candidate_signs": []
+            },
+            {
+              "position_from_right": 11,
+              "kind": "identified_sign",
+              "sign": "M161",
+              "source_doubt": false,
+              "reviewer_uncertainty": false,
+              "candidate_signs": []
+            }
+          ]
+        }
+      },
+      "adjudicated": false
+    },
+    {
+      "source_pdf_page": 50,
+      "key": [
+        "1011",
+        "0",
+        "0"
+      ],
+      "fields": {
+        "tokens": {
+          "A": [
+            "M267",
+            "M099",
+            "M067",
+            "M296",
+            "M009",
+            "M342",
+            "M017",
+            "M407",
+            "M169"
+          ],
+          "B": [
+            "M267",
+            "M099",
+            "M067",
+            "M296",
+            "M009",
+            "M017",
+            "M342",
+            "M407",
+            "M161"
+          ]
+        },
+        "segments": {
+          "A": [
+            {
+              "kind": "identified_sign",
+              "maximum_signs": 1,
+              "minimum_signs": 1,
+              "position_from_right": 1,
+              "sign": "M267",
+              "source_doubt": false
+            },
+            {
+              "kind": "identified_sign",
+              "maximum_signs": 1,
+              "minimum_signs": 1,
+              "position_from_right": 2,
+              "sign": "M099",
+              "source_doubt": false
+            },
+            {
+              "kind": "identified_sign",
+              "maximum_signs": 1,
+              "minimum_signs": 1,
+              "position_from_right": 3,
+              "sign": "M067",
+              "source_doubt": false
+            },
+            {
+              "kind": "identified_sign",
+              "maximum_signs": 1,
+              "minimum_signs": 1,
+              "position_from_right": 4,
+              "sign": "M296",
+              "source_doubt": false
+            },
+            {
+              "kind": "identified_sign",
+              "maximum_signs": 1,
+              "minimum_signs": 1,
+              "position_from_right": 5,
+              "sign": "M009",
+              "source_doubt": false
+            },
+            {
+              "kind": "identified_sign",
+              "maximum_signs": 1,
+              "minimum_signs": 1,
+              "position_from_right": 6,
+              "sign": "M342",
+              "source_doubt": false
+            },
+            {
+              "kind": "identified_sign",
+              "maximum_signs": 1,
+              "minimum_signs": 1,
+              "position_from_right": 7,
+              "sign": "M017",
+              "source_doubt": false
+            },
+            {
+              "kind": "identified_sign",
+              "maximum_signs": 1,
+              "minimum_signs": 1,
+              "position_from_right": 8,
+              "sign": "M407",
+              "source_doubt": false
+            },
+            {
+              "kind": "identified_sign",
+              "maximum_signs": 1,
+              "minimum_signs": 1,
+              "position_from_right": 9,
+              "sign": "M169",
+              "source_doubt": false
+            }
+          ],
+          "B": [
+            {
+              "position_from_right": 1,
+              "kind": "identified_sign",
+              "sign": "M267",
+              "source_doubt": false,
+              "reviewer_uncertainty": false,
+              "candidate_signs": []
+            },
+            {
+              "position_from_right": 2,
+              "kind": "identified_sign",
+              "sign": "M099",
+              "source_doubt": false,
+              "reviewer_uncertainty": false,
+              "candidate_signs": []
+            },
+            {
+              "position_from_right": 3,
+              "kind": "identified_sign",
+              "sign": "M067",
+              "source_doubt": false,
+              "reviewer_uncertainty": false,
+              "candidate_signs": []
+            },
+            {
+              "position_from_right": 4,
+              "kind": "identified_sign",
+              "sign": "M296",
+              "source_doubt": false,
+              "reviewer_uncertainty": false,
+              "candidate_signs": []
+            },
+            {
+              "position_from_right": 5,
+              "kind": "identified_sign",
+              "sign": "M009",
+              "source_doubt": false,
+              "reviewer_uncertainty": false,
+              "candidate_signs": []
+            },
+            {
+              "position_from_right": 6,
+              "kind": "identified_sign",
+              "sign": "M017",
+              "source_doubt": false,
+              "reviewer_uncertainty": false,
+              "candidate_signs": []
+            },
+            {
+              "position_from_right": 7,
+              "kind": "identified_sign",
+              "sign": "M342",
+              "source_doubt": false,
+              "reviewer_uncertainty": false,
+              "candidate_signs": []
+            },
+            {
+              "position_from_right": 8,
+              "kind": "identified_sign",
+              "sign": "M407",
+              "source_doubt": false,
+              "reviewer_uncertainty": false,
+              "candidate_signs": []
+            },
+            {
+              "position_from_right": 9,
+              "kind": "identified_sign",
+              "sign": "M161",
+              "source_doubt": false,
+              "reviewer_uncertainty": false,
+              "candidate_signs": []
+            }
+          ]
+        }
+      },
+      "adjudicated": false
+    },
+    {
+      "source_pdf_page": 50,
+      "key": [
+        "1015",
+        "0",
+        "0"
+      ],
+      "fields": {
+        "tokens": {
+          "A": [
+            "M197",
+            "M028",
+            "M054"
+          ],
+          "B": [
+            "M197",
+            "M028",
+            "M055"
+          ]
+        },
+        "segments": {
+          "A": [
+            {
+              "kind": "identified_sign",
+              "maximum_signs": 1,
+              "minimum_signs": 1,
+              "position_from_right": 1,
+              "sign": "M197",
+              "source_doubt": false
+            },
+            {
+              "kind": "identified_sign",
+              "maximum_signs": 1,
+              "minimum_signs": 1,
+              "position_from_right": 2,
+              "sign": "M028",
+              "source_doubt": false
+            },
+            {
+              "kind": "identified_sign",
+              "maximum_signs": 1,
+              "minimum_signs": 1,
+              "position_from_right": 3,
+              "sign": "M054",
+              "source_doubt": false
+            }
+          ],
+          "B": [
+            {
+              "position_from_right": 1,
+              "kind": "identified_sign",
+              "sign": "M197",
+              "source_doubt": false,
+              "reviewer_uncertainty": false,
+              "candidate_signs": []
+            },
+            {
+              "position_from_right": 2,
+              "kind": "identified_sign",
+              "sign": "M028",
+              "source_doubt": false,
+              "reviewer_uncertainty": false,
+              "candidate_signs": []
+            },
+            {
+              "position_from_right": 3,
+              "kind": "identified_sign",
+              "sign": "M055",
+              "source_doubt": false,
+              "reviewer_uncertainty": false,
+              "candidate_signs": []
+            }
+          ]
+        }
+      },
+      "adjudicated": false
+    },
+    {
+      "source_pdf_page": 50,
+      "key": [
+        "1016",
+        "0",
+        "1"
+      ],
+      "fields": {
+        "tokens": {
+          "A": [
+            "M245",
+            "M245",
+            "M345",
+            "M065",
+            "M158",
+            "*M169"
+          ],
+          "B": [
+            "M245",
+            "M245",
+            "M345",
+            "M065",
+            "M158",
+            "*M161"
+          ]
+        },
+        "segments": {
+          "A": [
+            {
+              "kind": "identified_sign",
+              "maximum_signs": 1,
+              "minimum_signs": 1,
+              "position_from_right": 1,
+              "sign": "M245",
+              "source_doubt": false
+            },
+            {
+              "kind": "identified_sign",
+              "maximum_signs": 1,
+              "minimum_signs": 1,
+              "position_from_right": 2,
+              "sign": "M245",
+              "source_doubt": false
+            },
+            {
+              "kind": "identified_sign",
+              "maximum_signs": 1,
+              "minimum_signs": 1,
+              "position_from_right": 3,
+              "sign": "M345",
+              "source_doubt": false
+            },
+            {
+              "kind": "identified_sign",
+              "maximum_signs": 1,
+              "minimum_signs": 1,
+              "position_from_right": 4,
+              "sign": "M065",
+              "source_doubt": false
+            },
+            {
+              "kind": "identified_sign",
+              "maximum_signs": 1,
+              "minimum_signs": 1,
+              "position_from_right": 5,
+              "sign": "M158",
+              "source_doubt": false
+            },
+            {
+              "kind": "identified_sign",
+              "maximum_signs": 1,
+              "minimum_signs": 1,
+              "position_from_right": 6,
+              "sign": "M169",
+              "source_doubt": true
+            }
+          ],
+          "B": [
+            {
+              "position_from_right": 1,
+              "kind": "identified_sign",
+              "sign": "M245",
+              "source_doubt": false,
+              "reviewer_uncertainty": false,
+              "candidate_signs": []
+            },
+            {
+              "position_from_right": 2,
+              "kind": "identified_sign",
+              "sign": "M245",
+              "source_doubt": false,
+              "reviewer_uncertainty": false,
+              "candidate_signs": []
+            },
+            {
+              "position_from_right": 3,
+              "kind": "identified_sign",
+              "sign": "M345",
+              "source_doubt": false,
+              "reviewer_uncertainty": false,
+              "candidate_signs": []
+            },
+            {
+              "position_from_right": 4,
+              "kind": "identified_sign",
+              "sign": "M065",
+              "source_doubt": false,
+              "reviewer_uncertainty": false,
+              "candidate_signs": []
+            },
+            {
+              "position_from_right": 5,
+              "kind": "identified_sign",
+              "sign": "M158",
+              "source_doubt": false,
+              "reviewer_uncertainty": false,
+              "candidate_signs": []
+            },
+            {
+              "position_from_right": 6,
+              "kind": "identified_sign",
+              "sign": "M161",
+              "source_doubt": true,
+              "reviewer_uncertainty": false,
+              "candidate_signs": []
+            }
+          ]
+        }
+      },
+      "adjudicated": false
+    },
+    {
+      "source_pdf_page": 50,
+      "key": [
+        "1017",
+        "0",
+        "0"
+      ],
+      "fields": {
+        "tokens": {
+          "A": [
+            "M221",
+            "M127",
+            "M345",
+            "M053",
+            "M171",
+            "M059",
+            "*M397",
+            "LOSS"
+          ],
+          "B": [
+            "M221",
+            "M127",
+            "M344",
+            "M053",
+            "M171",
+            "M059",
+            "*M397",
+            "LOSS"
+          ]
+        },
+        "segments": {
+          "A": [
+            {
+              "kind": "identified_sign",
+              "maximum_signs": 1,
+              "minimum_signs": 1,
+              "position_from_right": 1,
+              "sign": "M221",
+              "source_doubt": false
+            },
+            {
+              "kind": "identified_sign",
+              "maximum_signs": 1,
+              "minimum_signs": 1,
+              "position_from_right": 2,
+              "sign": "M127",
+              "source_doubt": false
+            },
+            {
+              "kind": "identified_sign",
+              "maximum_signs": 1,
+              "minimum_signs": 1,
+              "position_from_right": 3,
+              "sign": "M345",
+              "source_doubt": false
+            },
+            {
+              "kind": "identified_sign",
+              "maximum_signs": 1,
+              "minimum_signs": 1,
+              "position_from_right": 4,
+              "sign": "M053",
+              "source_doubt": false
+            },
+            {
+              "kind": "identified_sign",
+              "maximum_signs": 1,
+              "minimum_signs": 1,
+              "position_from_right": 5,
+              "sign": "M171",
+              "source_doubt": false
+            },
+            {
+              "kind": "identified_sign",
+              "maximum_signs": 1,
+              "minimum_signs": 1,
+              "position_from_right": 6,
+              "sign": "M059",
+              "source_doubt": false
+            },
+            {
+              "kind": "identified_sign",
+              "maximum_signs": 1,
+              "minimum_signs": 1,
+              "position_from_right": 7,
+              "sign": "M397",
+              "source_doubt": true
+            },
+            {
+              "kind": "unknown_length_loss",
+              "maximum_signs": null,
+              "minimum_signs": 1,
+              "position_from_right": 8,
+              "sign": null,
+              "source_doubt": false
+            }
+          ],
+          "B": [
+            {
+              "position_from_right": 1,
+              "kind": "identified_sign",
+              "sign": "M221",
+              "source_doubt": false,
+              "reviewer_uncertainty": false,
+              "candidate_signs": []
+            },
+            {
+              "position_from_right": 2,
+              "kind": "identified_sign",
+              "sign": "M127",
+              "source_doubt": false,
+              "reviewer_uncertainty": false,
+              "candidate_signs": []
+            },
+            {
+              "position_from_right": 3,
+              "kind": "identified_sign",
+              "sign": "M344",
+              "source_doubt": false,
+              "reviewer_uncertainty": false,
+              "candidate_signs": []
+            },
+            {
+              "position_from_right": 4,
+              "kind": "identified_sign",
+              "sign": "M053",
+              "source_doubt": false,
+              "reviewer_uncertainty": false,
+              "candidate_signs": []
+            },
+            {
+              "position_from_right": 5,
+              "kind": "identified_sign",
+              "sign": "M171",
+              "source_doubt": false,
+              "reviewer_uncertainty": false,
+              "candidate_signs": []
+            },
+            {
+              "position_from_right": 6,
+              "kind": "identified_sign",
+              "sign": "M059",
+              "source_doubt": false,
+              "reviewer_uncertainty": false,
+              "candidate_signs": []
+            },
+            {
+              "position_from_right": 7,
+              "kind": "identified_sign",
+              "sign": "M397",
+              "source_doubt": true,
+              "reviewer_uncertainty": false,
+              "candidate_signs": []
+            },
+            {
+              "position_from_right": 8,
+              "kind": "unknown_length_loss",
+              "sign": null,
+              "source_doubt": false,
+              "minimum_signs": 1,
+              "maximum_signs": null
+            }
+          ]
+        }
+      },
+      "adjudicated": false
+    },
+    {
+      "source_pdf_page": 50,
+      "key": [
+        "1021",
+        "0",
+        "0"
+      ],
+      "fields": {
+        "tokens": {
+          "A": [
+            "M293",
+            "M123",
+            "M345",
+            "M065",
+            "M067",
+            "M051",
+            "M130",
+            "M149",
+            "M342"
+          ],
+          "B": [
+            "M123",
+            "M293",
+            "M345",
+            "M065",
+            "M067",
+            "M051",
+            "M130",
+            "M149",
+            "M342"
+          ]
+        },
+        "segments": {
+          "A": [
+            {
+              "kind": "identified_sign",
+              "maximum_signs": 1,
+              "minimum_signs": 1,
+              "position_from_right": 1,
+              "sign": "M293",
+              "source_doubt": false
+            },
+            {
+              "kind": "identified_sign",
+              "maximum_signs": 1,
+              "minimum_signs": 1,
+              "position_from_right": 2,
+              "sign": "M123",
+              "source_doubt": false
+            },
+            {
+              "kind": "identified_sign",
+              "maximum_signs": 1,
+              "minimum_signs": 1,
+              "position_from_right": 3,
+              "sign": "M345",
+              "source_doubt": false
+            },
+            {
+              "kind": "identified_sign",
+              "maximum_signs": 1,
+              "minimum_signs": 1,
+              "position_from_right": 4,
+              "sign": "M065",
+              "source_doubt": false
+            },
+            {
+              "kind": "identified_sign",
+              "maximum_signs": 1,
+              "minimum_signs": 1,
+              "position_from_right": 5,
+              "sign": "M067",
+              "source_doubt": false
+            },
+            {
+              "kind": "identified_sign",
+              "maximum_signs": 1,
+              "minimum_signs": 1,
+              "position_from_right": 6,
+              "sign": "M051",
+              "source_doubt": false
+            },
+            {
+              "kind": "identified_sign",
+              "maximum_signs": 1,
+              "minimum_signs": 1,
+              "position_from_right": 7,
+              "sign": "M130",
+              "source_doubt": false
+            },
+            {
+              "kind": "identified_sign",
+              "maximum_signs": 1,
+              "minimum_signs": 1,
+              "position_from_right": 8,
+              "sign": "M149",
+              "source_doubt": false
+            },
+            {
+              "kind": "identified_sign",
+              "maximum_signs": 1,
+              "minimum_signs": 1,
+              "position_from_right": 9,
+              "sign": "M342",
+              "source_doubt": false
+            }
+          ],
+          "B": [
+            {
+              "position_from_right": 1,
+              "kind": "identified_sign",
+              "sign": "M123",
+              "source_doubt": false,
+              "reviewer_uncertainty": false,
+              "candidate_signs": []
+            },
+            {
+              "position_from_right": 2,
+              "kind": "identified_sign",
+              "sign": "M293",
+              "source_doubt": false,
+              "reviewer_uncertainty": false,
+              "candidate_signs": []
+            },
+            {
+              "position_from_right": 3,
+              "kind": "identified_sign",
+              "sign": "M345",
+              "source_doubt": false,
+              "reviewer_uncertainty": false,
+              "candidate_signs": []
+            },
+            {
+              "position_from_right": 4,
+              "kind": "identified_sign",
+              "sign": "M065",
+              "source_doubt": false,
+              "reviewer_uncertainty": false,
+              "candidate_signs": []
+            },
+            {
+              "position_from_right": 5,
+              "kind": "identified_sign",
+              "sign": "M067",
+              "source_doubt": false,
+              "reviewer_uncertainty": false,
+              "candidate_signs": []
+            },
+            {
+              "position_from_right": 6,
+              "kind": "identified_sign",
+              "sign": "M051",
+              "source_doubt": false,
+              "reviewer_uncertainty": false,
+              "candidate_signs": []
+            },
+            {
+              "position_from_right": 7,
+              "kind": "identified_sign",
+              "sign": "M130",
+              "source_doubt": false,
+              "reviewer_uncertainty": false,
+              "candidate_signs": []
+            },
+            {
+              "position_from_right": 8,
+              "kind": "identified_sign",
+              "sign": "M149",
+              "source_doubt": false,
+              "reviewer_uncertainty": false,
+              "candidate_signs": []
+            },
+            {
+              "position_from_right": 9,
+              "kind": "identified_sign",
+              "sign": "M342",
+              "source_doubt": false,
+              "reviewer_uncertainty": false,
+              "candidate_signs": []
+            }
+          ]
+        }
+      },
+      "adjudicated": false
+    },
+    {
+      "source_pdf_page": 50,
+      "key": [
+        "1024",
+        "0",
+        "0"
+      ],
+      "fields": {
+        "tokens": {
+          "A": [
+            "M293",
+            "M123",
+            "M343",
+            "M072",
+            "M065",
+            "M008",
+            "M342"
+          ],
+          "B": [
+            "M123",
+            "M293",
+            "M343",
+            "M072",
+            "M065",
+            "M008",
+            "M342"
+          ]
+        },
+        "segments": {
+          "A": [
+            {
+              "kind": "identified_sign",
+              "maximum_signs": 1,
+              "minimum_signs": 1,
+              "position_from_right": 1,
+              "sign": "M293",
+              "source_doubt": false
+            },
+            {
+              "kind": "identified_sign",
+              "maximum_signs": 1,
+              "minimum_signs": 1,
+              "position_from_right": 2,
+              "sign": "M123",
+              "source_doubt": false
+            },
+            {
+              "kind": "identified_sign",
+              "maximum_signs": 1,
+              "minimum_signs": 1,
+              "position_from_right": 3,
+              "sign": "M343",
+              "source_doubt": false
+            },
+            {
+              "kind": "identified_sign",
+              "maximum_signs": 1,
+              "minimum_signs": 1,
+              "position_from_right": 4,
+              "sign": "M072",
+              "source_doubt": false
+            },
+            {
+              "kind": "identified_sign",
+              "maximum_signs": 1,
+              "minimum_signs": 1,
+              "position_from_right": 5,
+              "sign": "M065",
+              "source_doubt": false
+            },
+            {
+              "kind": "identified_sign",
+              "maximum_signs": 1,
+              "minimum_signs": 1,
+              "position_from_right": 6,
+              "sign": "M008",
+              "source_doubt": false
+            },
+            {
+              "kind": "identified_sign",
+              "maximum_signs": 1,
+              "minimum_signs": 1,
+              "position_from_right": 7,
+              "sign": "M342",
+              "source_doubt": false
+            }
+          ],
+          "B": [
+            {
+              "position_from_right": 1,
+              "kind": "identified_sign",
+              "sign": "M123",
+              "source_doubt": false,
+              "reviewer_uncertainty": false,
+              "candidate_signs": []
+            },
+            {
+              "position_from_right": 2,
+              "kind": "identified_sign",
+              "sign": "M293",
+              "source_doubt": false,
+              "reviewer_uncertainty": false,
+              "candidate_signs": []
+            },
+            {
+              "position_from_right": 3,
+              "kind": "identified_sign",
+              "sign": "M343",
+              "source_doubt": false,
+              "reviewer_uncertainty": false,
+              "candidate_signs": []
+            },
+            {
+              "position_from_right": 4,
+              "kind": "identified_sign",
+              "sign": "M072",
+              "source_doubt": false,
+              "reviewer_uncertainty": false,
+              "candidate_signs": []
+            },
+            {
+              "position_from_right": 5,
+              "kind": "identified_sign",
+              "sign": "M065",
+              "source_doubt": false,
+              "reviewer_uncertainty": false,
+              "candidate_signs": []
+            },
+            {
+              "position_from_right": 6,
+              "kind": "identified_sign",
+              "sign": "M008",
+              "source_doubt": false,
+              "reviewer_uncertainty": false,
+              "candidate_signs": []
+            },
+            {
+              "position_from_right": 7,
+              "kind": "identified_sign",
+              "sign": "M342",
+              "source_doubt": false,
+              "reviewer_uncertainty": false,
+              "candidate_signs": []
+            }
+          ]
+        }
+      },
+      "adjudicated": false
+    },
+    {
+      "source_pdf_page": 50,
+      "key": [
+        "1025",
+        "0",
+        "0"
+      ],
+      "fields": {
+        "tokens": {
+          "A": [
+            "M112",
+            "M169"
+          ],
+          "B": [
+            "M112",
+            "M161"
+          ]
+        },
+        "segments": {
+          "A": [
+            {
+              "kind": "identified_sign",
+              "maximum_signs": 1,
+              "minimum_signs": 1,
+              "position_from_right": 1,
+              "sign": "M112",
+              "source_doubt": false
+            },
+            {
+              "kind": "identified_sign",
+              "maximum_signs": 1,
+              "minimum_signs": 1,
+              "position_from_right": 2,
+              "sign": "M169",
+              "source_doubt": false
+            }
+          ],
+          "B": [
+            {
+              "position_from_right": 1,
+              "kind": "identified_sign",
+              "sign": "M112",
+              "source_doubt": false,
+              "reviewer_uncertainty": false,
+              "candidate_signs": []
+            },
+            {
+              "position_from_right": 2,
+              "kind": "identified_sign",
+              "sign": "M161",
+              "source_doubt": false,
+              "reviewer_uncertainty": false,
+              "candidate_signs": []
+            }
+          ]
+        }
+      },
+      "adjudicated": false
+    },
+    {
+      "source_pdf_page": 50,
+      "key": [
+        "1026",
+        "0",
+        "0"
+      ],
+      "fields": {
+        "tokens": {
+          "A": [
+            "M087",
+            "M197",
+            "M087",
+            "M099",
+            "M336",
+            "M347",
+            "M342"
+          ],
+          "B": [
+            "M087",
+            "M197",
+            "M087",
+            "M099",
+            "M336",
+            "M352",
+            "M342"
+          ]
+        },
+        "segments": {
+          "A": [
+            {
+              "kind": "identified_sign",
+              "maximum_signs": 1,
+              "minimum_signs": 1,
+              "position_from_right": 1,
+              "sign": "M087",
+              "source_doubt": false
+            },
+            {
+              "kind": "identified_sign",
+              "maximum_signs": 1,
+              "minimum_signs": 1,
+              "position_from_right": 2,
+              "sign": "M197",
+              "source_doubt": false
+            },
+            {
+              "kind": "identified_sign",
+              "maximum_signs": 1,
+              "minimum_signs": 1,
+              "position_from_right": 3,
+              "sign": "M087",
+              "source_doubt": false
+            },
+            {
+              "kind": "identified_sign",
+              "maximum_signs": 1,
+              "minimum_signs": 1,
+              "position_from_right": 4,
+              "sign": "M099",
+              "source_doubt": false
+            },
+            {
+              "kind": "identified_sign",
+              "maximum_signs": 1,
+              "minimum_signs": 1,
+              "position_from_right": 5,
+              "sign": "M336",
+              "source_doubt": false
+            },
+            {
+              "kind": "identified_sign",
+              "maximum_signs": 1,
+              "minimum_signs": 1,
+              "position_from_right": 6,
+              "sign": "M347",
+              "source_doubt": false
+            },
+            {
+              "kind": "identified_sign",
+              "maximum_signs": 1,
+              "minimum_signs": 1,
+              "position_from_right": 7,
+              "sign": "M342",
+              "source_doubt": false
+            }
+          ],
+          "B": [
+            {
+              "position_from_right": 1,
+              "kind": "identified_sign",
+              "sign": "M087",
+              "source_doubt": false,
+              "reviewer_uncertainty": false,
+              "candidate_signs": []
+            },
+            {
+              "position_from_right": 2,
+              "kind": "identified_sign",
+              "sign": "M197",
+              "source_doubt": false,
+              "reviewer_uncertainty": false,
+              "candidate_signs": []
+            },
+            {
+              "position_from_right": 3,
+              "kind": "identified_sign",
+              "sign": "M087",
+              "source_doubt": false,
+              "reviewer_uncertainty": false,
+              "candidate_signs": []
+            },
+            {
+              "position_from_right": 4,
+              "kind": "identified_sign",
+              "sign": "M099",
+              "source_doubt": false,
+              "reviewer_uncertainty": false,
+              "candidate_signs": []
+            },
+            {
+              "position_from_right": 5,
+              "kind": "identified_sign",
+              "sign": "M336",
+              "source_doubt": false,
+              "reviewer_uncertainty": false,
+              "candidate_signs": []
+            },
+            {
+              "position_from_right": 6,
+              "kind": "identified_sign",
+              "sign": "M352",
+              "source_doubt": false,
+              "reviewer_uncertainty": false,
+              "candidate_signs": []
+            },
+            {
+              "position_from_right": 7,
+              "kind": "identified_sign",
+              "sign": "M342",
+              "source_doubt": false,
+              "reviewer_uncertainty": false,
+              "candidate_signs": []
+            }
+          ]
+        }
+      },
+      "adjudicated": false
+    },
+    {
+      "source_pdf_page": 50,
+      "key": [
+        "1027",
+        "0",
+        "0"
+      ],
+      "fields": {
+        "tokens": {
+          "A": [
+            "LOSS",
+            "*M216",
+            "*M123",
+            "M051",
+            "M130",
+            "M342",
+            "M048",
+            "M342"
+          ],
+          "B": [
+            "LOSS",
+            "*M222",
+            "*M123",
+            "M051",
+            "M130",
+            "M342",
+            "M048",
+            "M342"
+          ]
+        },
+        "segments": {
+          "A": [
+            {
+              "kind": "unknown_length_loss",
+              "maximum_signs": null,
+              "minimum_signs": 1,
+              "position_from_right": 1,
+              "sign": null,
+              "source_doubt": false
+            },
+            {
+              "kind": "identified_sign",
+              "maximum_signs": 1,
+              "minimum_signs": 1,
+              "position_from_right": 2,
+              "sign": "M216",
+              "source_doubt": true
+            },
+            {
+              "kind": "identified_sign",
+              "maximum_signs": 1,
+              "minimum_signs": 1,
+              "position_from_right": 3,
+              "sign": "M123",
+              "source_doubt": true
+            },
+            {
+              "kind": "identified_sign",
+              "maximum_signs": 1,
+              "minimum_signs": 1,
+              "position_from_right": 4,
+              "sign": "M051",
+              "source_doubt": false
+            },
+            {
+              "kind": "identified_sign",
+              "maximum_signs": 1,
+              "minimum_signs": 1,
+              "position_from_right": 5,
+              "sign": "M130",
+              "source_doubt": false
+            },
+            {
+              "kind": "identified_sign",
+              "maximum_signs": 1,
+              "minimum_signs": 1,
+              "position_from_right": 6,
+              "sign": "M342",
+              "source_doubt": false
+            },
+            {
+              "kind": "identified_sign",
+              "maximum_signs": 1,
+              "minimum_signs": 1,
+              "position_from_right": 7,
+              "sign": "M048",
+              "source_doubt": false
+            },
+            {
+              "kind": "identified_sign",
+              "maximum_signs": 1,
+              "minimum_signs": 1,
+              "position_from_right": 8,
+              "sign": "M342",
+              "source_doubt": false
+            }
+          ],
+          "B": [
+            {
+              "position_from_right": 1,
+              "kind": "unknown_length_loss",
+              "sign": null,
+              "source_doubt": false,
+              "minimum_signs": 1,
+              "maximum_signs": null
+            },
+            {
+              "position_from_right": 2,
+              "kind": "identified_sign",
+              "sign": "M222",
+              "source_doubt": true,
+              "reviewer_uncertainty": false,
+              "candidate_signs": []
+            },
+            {
+              "position_from_right": 3,
+              "kind": "identified_sign",
+              "sign": "M123",
+              "source_doubt": true,
+              "reviewer_uncertainty": false,
+              "candidate_signs": []
+            },
+            {
+              "position_from_right": 4,
+              "kind": "identified_sign",
+              "sign": "M051",
+              "source_doubt": false,
+              "reviewer_uncertainty": false,
+              "candidate_signs": []
+            },
+            {
+              "position_from_right": 5,
+              "kind": "identified_sign",
+              "sign": "M130",
+              "source_doubt": false,
+              "reviewer_uncertainty": false,
+              "candidate_signs": []
+            },
+            {
+              "position_from_right": 6,
+              "kind": "identified_sign",
+              "sign": "M342",
+              "source_doubt": false,
+              "reviewer_uncertainty": false,
+              "candidate_signs": []
+            },
+            {
+              "position_from_right": 7,
+              "kind": "identified_sign",
+              "sign": "M048",
+              "source_doubt": false,
+              "reviewer_uncertainty": false,
+              "candidate_signs": []
+            },
+            {
+              "position_from_right": 8,
+              "kind": "identified_sign",
+              "sign": "M342",
+              "source_doubt": false,
+              "reviewer_uncertainty": false,
+              "candidate_signs": []
+            }
+          ]
+        }
+      },
+      "adjudicated": false
+    },
+    {
+      "source_pdf_page": 50,
+      "key": [
+        "1029",
+        "0",
+        "0"
+      ],
+      "fields": {
+        "tokens": {
+          "A": [
+            "M293",
+            "M123",
+            "M344",
+            "M102",
+            "M402"
+          ],
+          "B": [
+            "M123",
+            "M293",
+            "M344",
+            "M102",
+            "M402"
+          ]
+        },
+        "segments": {
+          "A": [
+            {
+              "kind": "identified_sign",
+              "maximum_signs": 1,
+              "minimum_signs": 1,
+              "position_from_right": 1,
+              "sign": "M293",
+              "source_doubt": false
+            },
+            {
+              "kind": "identified_sign",
+              "maximum_signs": 1,
+              "minimum_signs": 1,
+              "position_from_right": 2,
+              "sign": "M123",
+              "source_doubt": false
+            },
+            {
+              "kind": "identified_sign",
+              "maximum_signs": 1,
+              "minimum_signs": 1,
+              "position_from_right": 3,
+              "sign": "M344",
+              "source_doubt": false
+            },
+            {
+              "kind": "identified_sign",
+              "maximum_signs": 1,
+              "minimum_signs": 1,
+              "position_from_right": 4,
+              "sign": "M102",
+              "source_doubt": false
+            },
+            {
+              "kind": "identified_sign",
+              "maximum_signs": 1,
+              "minimum_signs": 1,
+              "position_from_right": 5,
+              "sign": "M402",
+              "source_doubt": false
+            }
+          ],
+          "B": [
+            {
+              "position_from_right": 1,
+              "kind": "identified_sign",
+              "sign": "M123",
+              "source_doubt": false,
+              "reviewer_uncertainty": false,
+              "candidate_signs": []
+            },
+            {
+              "position_from_right": 2,
+              "kind": "identified_sign",
+              "sign": "M293",
+              "source_doubt": false,
+              "reviewer_uncertainty": false,
+              "candidate_signs": []
+            },
+            {
+              "position_from_right": 3,
+              "kind": "identified_sign",
+              "sign": "M344",
+              "source_doubt": false,
+              "reviewer_uncertainty": false,
+              "candidate_signs": []
+            },
+            {
+              "position_from_right": 4,
+              "kind": "identified_sign",
+              "sign": "M102",
+              "source_doubt": false,
+              "reviewer_uncertainty": false,
+              "candidate_signs": []
+            },
+            {
+              "position_from_right": 5,
+              "kind": "identified_sign",
+              "sign": "M402",
+              "source_doubt": false,
+              "reviewer_uncertainty": false,
+              "candidate_signs": []
+            }
+          ]
+        }
+      },
+      "adjudicated": false
+    }
+  ],
+  "candidate_export": {
+    "path": "data/processed/m77_candidate_records.jsonl",
+    "sha256": "b29a176da86b125115256a8966c377c3fd9fe39ecaab17bf576b770b83b41bab",
+    "comparison": [
+      {
+        "reference": "1001",
+        "status": "not_comparable_multiple_lines_or_export_records",
+        "verified_row_keys": [
+          [
+            "1001",
+            "0",
+            "1"
+          ],
+          [
+            "1001",
+            "0",
+            "2"
+          ]
+        ],
+        "candidate_ids": [
+          "GLI-IND-M77-01001"
+        ],
+        "candidate_tokens": [
+          [
+            {
+              "raw": "0",
+              "sign": null,
+              "doubtful": false,
+              "unknown_span": true,
+              "diplomatic": "000"
+            },
+            {
+              "raw": "67",
+              "sign": "M067",
+              "doubtful": false,
+              "unknown_span": false,
+              "diplomatic": "067"
+            },
+            {
+              "raw": "72",
+              "sign": "M072",
+              "doubtful": false,
+              "unknown_span": false,
+              "diplomatic": "072"
+            },
+            {
+              "raw": "8",
+              "sign": "M008",
+              "doubtful": false,
+              "unknown_span": false,
+              "diplomatic": "008"
+            },
+            {
+              "raw": "342",
+              "sign": "M342",
+              "doubtful": false,
+              "unknown_span": false,
+              "diplomatic": "342"
+            }
+          ]
+        ],
+        "candidate_normalized_tokens": [
+          [
+            "LOSS",
+            "M067",
+            "M072",
+            "M008",
+            "M342"
+          ]
+        ],
+        "candidate_schema_errors": [],
+        "verified_tokens": [
+          [
+            "LOSS",
+            "M067",
+            "M072",
+            "M008",
+            "M342"
+          ],
+          [
+            "M393"
+          ]
+        ]
+      },
+      {
+        "reference": "1002",
+        "status": "exact_tokens",
+        "verified_row_keys": [
+          [
+            "1002",
+            "0",
+            "0"
+          ]
+        ],
+        "candidate_ids": [
+          "GLI-IND-M77-01002"
+        ],
+        "candidate_tokens": [
+          [
+            {
+              "raw": "*373",
+              "sign": "M373",
+              "doubtful": true,
+              "unknown_span": false,
+              "diplomatic": "*373"
+            },
+            {
+              "raw": "244",
+              "sign": "M244",
+              "doubtful": false,
+              "unknown_span": false,
+              "diplomatic": "244"
+            },
+            {
+              "raw": "0",
+              "sign": null,
+              "doubtful": false,
+              "unknown_span": true,
+              "diplomatic": "000"
+            }
+          ]
+        ],
+        "candidate_normalized_tokens": [
+          [
+            "*M373",
+            "M244",
+            "LOSS"
+          ]
+        ],
+        "candidate_schema_errors": [],
+        "verified_tokens": [
+          [
+            "*M373",
+            "M244",
+            "LOSS"
+          ]
+        ]
+      },
+      {
+        "reference": "1003",
+        "status": "exact_tokens",
+        "verified_row_keys": [
+          [
+            "1003",
+            "0",
+            "0"
+          ]
+        ],
+        "candidate_ids": [
+          "GLI-IND-M77-01003"
+        ],
+        "candidate_tokens": [
+          [
+            {
+              "raw": "*086",
+              "sign": "M086",
+              "doubtful": true,
+              "unknown_span": false,
+              "diplomatic": "*086"
+            },
+            {
+              "raw": "55",
+              "sign": "M055",
+              "doubtful": false,
+              "unknown_span": false,
+              "diplomatic": "055"
+            },
+            {
+              "raw": "267",
+              "sign": "M267",
+              "doubtful": false,
+              "unknown_span": false,
+              "diplomatic": "267"
+            },
+            {
+              "raw": "99",
+              "sign": "M099",
+              "doubtful": false,
+              "unknown_span": false,
+              "diplomatic": "099"
+            },
+            {
+              "raw": "121",
+              "sign": "M121",
+              "doubtful": false,
+              "unknown_span": false,
+              "diplomatic": "121"
+            },
+            {
+              "raw": "72",
+              "sign": "M072",
+              "doubtful": false,
+              "unknown_span": false,
+              "diplomatic": "072"
+            },
+            {
+              "raw": "336",
+              "sign": "M336",
+              "doubtful": false,
+              "unknown_span": false,
+              "diplomatic": "336"
+            },
+            {
+              "raw": "89",
+              "sign": "M089",
+              "doubtful": false,
+              "unknown_span": false,
+              "diplomatic": "089"
+            },
+            {
+              "raw": "211",
+              "sign": "M211",
+              "doubtful": false,
+              "unknown_span": false,
+              "diplomatic": "211"
+            }
+          ]
+        ],
+        "candidate_normalized_tokens": [
+          [
+            "*M086",
+            "M055",
+            "M267",
+            "M099",
+            "M121",
+            "M072",
+            "M336",
+            "M089",
+            "M211"
+          ]
+        ],
+        "candidate_schema_errors": [],
+        "verified_tokens": [
+          [
+            "*M086",
+            "M055",
+            "M267",
+            "M099",
+            "M121",
+            "M072",
+            "M336",
+            "M089",
+            "M211"
+          ]
+        ]
+      },
+      {
+        "reference": "1004",
+        "status": "exact_tokens",
+        "verified_row_keys": [
+          [
+            "1004",
+            "0",
+            "0"
+          ]
+        ],
+        "candidate_ids": [
+          "GLI-IND-M77-01004"
+        ],
+        "candidate_tokens": [
+          [
+            {
+              "raw": "59",
+              "sign": "M059",
+              "doubtful": false,
+              "unknown_span": false,
+              "diplomatic": "059"
+            },
+            {
+              "raw": "127",
+              "sign": "M127",
+              "doubtful": false,
+              "unknown_span": false,
+              "diplomatic": "127"
+            },
+            {
+              "raw": "245",
+              "sign": "M245",
+              "doubtful": false,
+              "unknown_span": false,
+              "diplomatic": "245"
+            },
+            {
+              "raw": "343",
+              "sign": "M343",
+              "doubtful": false,
+              "unknown_span": false,
+              "diplomatic": "343"
+            },
+            {
+              "raw": "75",
+              "sign": "M075",
+              "doubtful": false,
+              "unknown_span": false,
+              "diplomatic": "075"
+            },
+            {
+              "raw": "245",
+              "sign": "M245",
+              "doubtful": false,
+              "unknown_span": false,
+              "diplomatic": "245"
+            },
+            {
+              "raw": "245",
+              "sign": "M245",
+              "doubtful": false,
+              "unknown_span": false,
+              "diplomatic": "245"
+            }
+          ]
+        ],
+        "candidate_normalized_tokens": [
+          [
+            "M059",
+            "M127",
+            "M245",
+            "M343",
+            "M075",
+            "M245",
+            "M245"
+          ]
+        ],
+        "candidate_schema_errors": [],
+        "verified_tokens": [
+          [
+            "M059",
+            "M127",
+            "M245",
+            "M343",
+            "M075",
+            "M245",
+            "M245"
+          ]
+        ]
+      },
+      {
+        "reference": "1005",
+        "status": "exact_tokens",
+        "verified_row_keys": [
+          [
+            "1005",
+            "0",
+            "0"
+          ]
+        ],
+        "candidate_ids": [
+          "GLI-IND-M77-01005"
+        ],
+        "candidate_tokens": [
+          [
+            {
+              "raw": "296",
+              "sign": "M296",
+              "doubtful": false,
+              "unknown_span": false,
+              "diplomatic": "296"
+            },
+            {
+              "raw": "342",
+              "sign": "M342",
+              "doubtful": false,
+              "unknown_span": false,
+              "diplomatic": "342"
+            }
+          ]
+        ],
+        "candidate_normalized_tokens": [
+          [
+            "M296",
+            "M342"
+          ]
+        ],
+        "candidate_schema_errors": [],
+        "verified_tokens": [
+          [
+            "M296",
+            "M342"
+          ]
+        ]
+      },
+      {
+        "reference": "1007",
+        "status": "exact_tokens",
+        "verified_row_keys": [
+          [
+            "1007",
+            "0",
+            "0"
+          ]
+        ],
+        "candidate_ids": [
+          "GLI-IND-M77-01007"
+        ],
+        "candidate_tokens": [
+          [
+            {
+              "raw": "*109",
+              "sign": "M109",
+              "doubtful": true,
+              "unknown_span": false,
+              "diplomatic": "*109"
+            },
+            {
+              "raw": "162",
+              "sign": "M162",
+              "doubtful": false,
+              "unknown_span": false,
+              "diplomatic": "162"
+            }
+          ]
+        ],
+        "candidate_normalized_tokens": [
+          [
+            "*M109",
+            "M162"
+          ]
+        ],
+        "candidate_schema_errors": [],
+        "verified_tokens": [
+          [
+            "*M109",
+            "M162"
+          ]
+        ]
+      },
+      {
+        "reference": "1008",
+        "status": "exact_tokens",
+        "verified_row_keys": [
+          [
+            "1008",
+            "0",
+            "0"
+          ]
+        ],
+        "candidate_ids": [
+          "GLI-IND-M77-01008"
+        ],
+        "candidate_tokens": [
+          [
+            {
+              "raw": "76",
+              "sign": "M076",
+              "doubtful": false,
+              "unknown_span": false,
+              "diplomatic": "076"
+            },
+            {
+              "raw": "402",
+              "sign": "M402",
+              "doubtful": false,
+              "unknown_span": false,
+              "diplomatic": "402"
+            },
+            {
+              "raw": "87",
+              "sign": "M087",
+              "doubtful": false,
+              "unknown_span": false,
+              "diplomatic": "087"
+            },
+            {
+              "raw": "59",
+              "sign": "M059",
+              "doubtful": false,
+              "unknown_span": false,
+              "diplomatic": "059"
+            },
+            {
+              "raw": "67",
+              "sign": "M067",
+              "doubtful": false,
+              "unknown_span": false,
+              "diplomatic": "067"
+            },
+            {
+              "raw": "336",
+              "sign": "M336",
+              "doubtful": false,
+              "unknown_span": false,
+              "diplomatic": "336"
+            },
+            {
+              "raw": "89",
+              "sign": "M089",
+              "doubtful": false,
+              "unknown_span": false,
+              "diplomatic": "089"
+            },
+            {
+              "raw": "211",
+              "sign": "M211",
+              "doubtful": false,
+              "unknown_span": false,
+              "diplomatic": "211"
+            }
+          ]
+        ],
+        "candidate_normalized_tokens": [
+          [
+            "M076",
+            "M402",
+            "M087",
+            "M059",
+            "M067",
+            "M336",
+            "M089",
+            "M211"
+          ]
+        ],
+        "candidate_schema_errors": [],
+        "verified_tokens": [
+          [
+            "M076",
+            "M402",
+            "M087",
+            "M059",
+            "M067",
+            "M336",
+            "M089",
+            "M211"
+          ]
+        ]
+      },
+      {
+        "reference": "1010",
+        "status": "exact_tokens",
+        "verified_row_keys": [
+          [
+            "1010",
+            "0",
+            "0"
+          ]
+        ],
+        "candidate_ids": [
+          "GLI-IND-M77-01010"
+        ],
+        "candidate_tokens": [
+          [
+            {
+              "raw": "391",
+              "sign": "M391",
+              "doubtful": false,
+              "unknown_span": false,
+              "diplomatic": "391"
+            },
+            {
+              "raw": "99",
+              "sign": "M099",
+              "doubtful": false,
+              "unknown_span": false,
+              "diplomatic": "099"
+            },
+            {
+              "raw": "48",
+              "sign": "M048",
+              "doubtful": false,
+              "unknown_span": false,
+              "diplomatic": "048"
+            },
+            {
+              "raw": "171",
+              "sign": "M171",
+              "doubtful": false,
+              "unknown_span": false,
+              "diplomatic": "171"
+            },
+            {
+              "raw": "8",
+              "sign": "M008",
+              "doubtful": false,
+              "unknown_span": false,
+              "diplomatic": "008"
+            },
+            {
+              "raw": "342",
+              "sign": "M342",
+              "doubtful": false,
+              "unknown_span": false,
+              "diplomatic": "342"
+            }
+          ]
+        ],
+        "candidate_normalized_tokens": [
+          [
+            "M391",
+            "M099",
+            "M048",
+            "M171",
+            "M008",
+            "M342"
+          ]
+        ],
+        "candidate_schema_errors": [],
+        "verified_tokens": [
+          [
+            "M391",
+            "M099",
+            "M048",
+            "M171",
+            "M008",
+            "M342"
+          ]
+        ]
+      },
+      {
+        "reference": "1012",
+        "status": "not_comparable_multiple_lines_or_export_records",
+        "verified_row_keys": [
+          [
+            "1012",
+            "0",
+            "1"
+          ],
+          [
+            "1012",
+            "0",
+            "2"
+          ]
+        ],
+        "candidate_ids": [
+          "GLI-IND-M77-01012"
+        ],
+        "candidate_tokens": [
+          [
+            {
+              "raw": "150",
+              "sign": "M150",
+              "doubtful": false,
+              "unknown_span": false,
+              "diplomatic": "150"
+            },
+            {
+              "raw": "123",
+              "sign": "M123",
+              "doubtful": false,
+              "unknown_span": false,
+              "diplomatic": "123"
+            },
+            {
+              "raw": "51",
+              "sign": "M051",
+              "doubtful": false,
+              "unknown_span": false,
+              "diplomatic": "051"
+            },
+            {
+              "raw": "130",
+              "sign": "M130",
+              "doubtful": false,
+              "unknown_span": false,
+              "diplomatic": "130"
+            },
+            {
+              "raw": "149",
+              "sign": "M149",
+              "doubtful": false,
+              "unknown_span": false,
+              "diplomatic": "149"
+            },
+            {
+              "raw": "342",
+              "sign": "M342",
+              "doubtful": false,
+              "unknown_span": false,
+              "diplomatic": "342"
+            },
+            {
+              "raw": "150",
+              "sign": "M150",
+              "doubtful": false,
+              "unknown_span": false,
+              "diplomatic": "150"
+            },
+            {
+              "raw": "123",
+              "sign": "M123",
+              "doubtful": false,
+              "unknown_span": false,
+              "diplomatic": "123"
+            },
+            {
+              "raw": "387",
+              "sign": "M387",
+              "doubtful": false,
+              "unknown_span": false,
+              "diplomatic": "387"
+            },
+            {
+              "raw": "342",
+              "sign": "M342",
+              "doubtful": false,
+              "unknown_span": false,
+              "diplomatic": "342"
+            }
+          ]
+        ],
+        "candidate_normalized_tokens": [
+          [
+            "M150",
+            "M123",
+            "M051",
+            "M130",
+            "M149",
+            "M342",
+            "M150",
+            "M123",
+            "M387",
+            "M342"
+          ]
+        ],
+        "candidate_schema_errors": [],
+        "verified_tokens": [
+          [
+            "M150",
+            "M123",
+            "M051",
+            "M130",
+            "M149",
+            "M342",
+            "M150",
+            "M123",
+            "M387",
+            "M342"
+          ],
+          [
+            "M028",
+            "M400",
+            "M404"
+          ]
+        ]
+      },
+      {
+        "reference": "1013",
+        "status": "exact_tokens",
+        "verified_row_keys": [
+          [
+            "1013",
+            "0",
+            "0"
+          ]
+        ],
+        "candidate_ids": [
+          "GLI-IND-M77-01013"
+        ],
+        "candidate_tokens": [
+          [
+            {
+              "raw": "51",
+              "sign": "M051",
+              "doubtful": false,
+              "unknown_span": false,
+              "diplomatic": "051"
+            },
+            {
+              "raw": "130",
+              "sign": "M130",
+              "doubtful": false,
+              "unknown_span": false,
+              "diplomatic": "130"
+            },
+            {
+              "raw": "149",
+              "sign": "M149",
+              "doubtful": false,
+              "unknown_span": false,
+              "diplomatic": "149"
+            },
+            {
+              "raw": "342",
+              "sign": "M342",
+              "doubtful": false,
+              "unknown_span": false,
+              "diplomatic": "342"
+            }
+          ]
+        ],
+        "candidate_normalized_tokens": [
+          [
+            "M051",
+            "M130",
+            "M149",
+            "M342"
+          ]
+        ],
+        "candidate_schema_errors": [],
+        "verified_tokens": [
+          [
+            "M051",
+            "M130",
+            "M149",
+            "M342"
+          ]
+        ]
+      },
+      {
+        "reference": "1014",
+        "status": "exact_tokens",
+        "verified_row_keys": [
+          [
+            "1014",
+            "0",
+            "0"
+          ]
+        ],
+        "candidate_ids": [
+          "GLI-IND-M77-01014"
+        ],
+        "candidate_tokens": [
+          [
+            {
+              "raw": "267",
+              "sign": "M267",
+              "doubtful": false,
+              "unknown_span": false,
+              "diplomatic": "267"
+            },
+            {
+              "raw": "99",
+              "sign": "M099",
+              "doubtful": false,
+              "unknown_span": false,
+              "diplomatic": "099"
+            },
+            {
+              "raw": "87",
+              "sign": "M087",
+              "doubtful": false,
+              "unknown_span": false,
+              "diplomatic": "087"
+            },
+            {
+              "raw": "59",
+              "sign": "M059",
+              "doubtful": false,
+              "unknown_span": false,
+              "diplomatic": "059"
+            },
+            {
+              "raw": "67",
+              "sign": "M067",
+              "doubtful": false,
+              "unknown_span": false,
+              "diplomatic": "067"
+            },
+            {
+              "raw": "194",
+              "sign": "M194",
+              "doubtful": false,
+              "unknown_span": false,
+              "diplomatic": "194"
+            },
+            {
+              "raw": "342",
+              "sign": "M342",
+              "doubtful": false,
+              "unknown_span": false,
+              "diplomatic": "342"
+            }
+          ]
+        ],
+        "candidate_normalized_tokens": [
+          [
+            "M267",
+            "M099",
+            "M087",
+            "M059",
+            "M067",
+            "M194",
+            "M342"
+          ]
+        ],
+        "candidate_schema_errors": [],
+        "verified_tokens": [
+          [
+            "M267",
+            "M099",
+            "M087",
+            "M059",
+            "M067",
+            "M194",
+            "M342"
+          ]
+        ]
+      },
+      {
+        "reference": "1016",
+        "status": "token_mismatch",
+        "verified_row_keys": [
+          [
+            "1016",
+            "0",
+            "2"
+          ]
+        ],
+        "candidate_ids": [
+          "GLI-IND-M77-01016"
+        ],
+        "candidate_tokens": [
+          [
+            {
+              "raw": "245",
+              "sign": "M245",
+              "doubtful": false,
+              "unknown_span": false,
+              "diplomatic": "245"
+            },
+            {
+              "raw": "245",
+              "sign": "M245",
+              "doubtful": false,
+              "unknown_span": false,
+              "diplomatic": "245"
+            },
+            {
+              "raw": "345",
+              "sign": "M345",
+              "doubtful": false,
+              "unknown_span": false,
+              "diplomatic": "345"
+            },
+            {
+              "raw": "65",
+              "sign": "M065",
+              "doubtful": false,
+              "unknown_span": false,
+              "diplomatic": "065"
+            },
+            {
+              "raw": "158",
+              "sign": "M158",
+              "doubtful": false,
+              "unknown_span": false,
+              "diplomatic": "158"
+            },
+            {
+              "raw": "*169",
+              "sign": "M169",
+              "doubtful": true,
+              "unknown_span": false,
+              "diplomatic": "*169"
+            }
+          ]
+        ],
+        "candidate_normalized_tokens": [
+          [
+            "M245",
+            "M245",
+            "M345",
+            "M065",
+            "M158",
+            "*M169"
+          ]
+        ],
+        "candidate_schema_errors": [],
+        "verified_tokens": [
+          [
+            "M393"
+          ]
+        ]
+      },
+      {
+        "reference": "1018",
+        "status": "not_comparable_multiple_lines_or_export_records",
+        "verified_row_keys": [
+          [
+            "1018",
+            "1",
+            "0"
+          ],
+          [
+            "1018",
+            "2",
+            "0"
+          ]
+        ],
+        "candidate_ids": [
+          "GLI-IND-M77-01018"
+        ],
+        "candidate_tokens": [
+          [
+            {
+              "raw": "17",
+              "sign": "M017",
+              "doubtful": false,
+              "unknown_span": false,
+              "diplomatic": "017"
+            },
+            {
+              "raw": "336",
+              "sign": "M336",
+              "doubtful": false,
+              "unknown_span": false,
+              "diplomatic": "336"
+            },
+            {
+              "raw": "189",
+              "sign": "M189",
+              "doubtful": false,
+              "unknown_span": false,
+              "diplomatic": "189"
+            },
+            {
+              "raw": "252",
+              "sign": "M252",
+              "doubtful": false,
+              "unknown_span": false,
+              "diplomatic": "252"
+            }
+          ]
+        ],
+        "candidate_normalized_tokens": [
+          [
+            "M017",
+            "M336",
+            "M189",
+            "M252"
+          ]
+        ],
+        "candidate_schema_errors": [],
+        "verified_tokens": [
+          [
+            "M336"
+          ],
+          [
+            "M017",
+            "M336",
+            "M189",
+            "M252"
+          ]
+        ]
+      },
+      {
+        "reference": "1019",
+        "status": "exact_tokens",
+        "verified_row_keys": [
+          [
+            "1019",
+            "0",
+            "0"
+          ]
+        ],
+        "candidate_ids": [
+          "GLI-IND-M77-01019"
+        ],
+        "candidate_tokens": [
+          [
+            {
+              "raw": "267",
+              "sign": "M267",
+              "doubtful": false,
+              "unknown_span": false,
+              "diplomatic": "267"
+            },
+            {
+              "raw": "99",
+              "sign": "M099",
+              "doubtful": false,
+              "unknown_span": false,
+              "diplomatic": "099"
+            },
+            {
+              "raw": "104",
+              "sign": "M104",
+              "doubtful": false,
+              "unknown_span": false,
+              "diplomatic": "104"
+            },
+            {
+              "raw": "59",
+              "sign": "M059",
+              "doubtful": false,
+              "unknown_span": false,
+              "diplomatic": "059"
+            },
+            {
+              "raw": "211",
+              "sign": "M211",
+              "doubtful": false,
+              "unknown_span": false,
+              "diplomatic": "211"
+            }
+          ]
+        ],
+        "candidate_normalized_tokens": [
+          [
+            "M267",
+            "M099",
+            "M104",
+            "M059",
+            "M211"
+          ]
+        ],
+        "candidate_schema_errors": [],
+        "verified_tokens": [
+          [
+            "M267",
+            "M099",
+            "M104",
+            "M059",
+            "M211"
+          ]
+        ]
+      },
+      {
+        "reference": "1020",
+        "status": "exact_tokens",
+        "verified_row_keys": [
+          [
+            "1020",
+            "0",
+            "0"
+          ]
+        ],
+        "candidate_ids": [
+          "GLI-IND-M77-01020"
+        ],
+        "candidate_tokens": [
+          [
+            {
+              "raw": "175",
+              "sign": "M175",
+              "doubtful": false,
+              "unknown_span": false,
+              "diplomatic": "175"
+            },
+            {
+              "raw": "230",
+              "sign": "M230",
+              "doubtful": false,
+              "unknown_span": false,
+              "diplomatic": "230"
+            },
+            {
+              "raw": "343",
+              "sign": "M343",
+              "doubtful": false,
+              "unknown_span": false,
+              "diplomatic": "343"
+            },
+            {
+              "raw": "336",
+              "sign": "M336",
+              "doubtful": false,
+              "unknown_span": false,
+              "diplomatic": "336"
+            },
+            {
+              "raw": "0",
+              "sign": null,
+              "doubtful": false,
+              "unknown_span": true,
+              "diplomatic": "000"
+            },
+            {
+              "raw": "194",
+              "sign": "M194",
+              "doubtful": false,
+              "unknown_span": false,
+              "diplomatic": "194"
+            },
+            {
+              "raw": "48",
+              "sign": "M048",
+              "doubtful": false,
+              "unknown_span": false,
+              "diplomatic": "048"
+            },
+            {
+              "raw": "342",
+              "sign": "M342",
+              "doubtful": false,
+              "unknown_span": false,
+              "diplomatic": "342"
+            }
+          ]
+        ],
+        "candidate_normalized_tokens": [
+          [
+            "M175",
+            "M230",
+            "M343",
+            "M336",
+            "LOSS",
+            "M194",
+            "M048",
+            "M342"
+          ]
+        ],
+        "candidate_schema_errors": [],
+        "verified_tokens": [
+          [
+            "M175",
+            "M230",
+            "M343",
+            "M336",
+            "LOSS",
+            "M194",
+            "M048",
+            "M342"
+          ]
+        ]
+      },
+      {
+        "reference": "1022",
+        "status": "exact_tokens",
+        "verified_row_keys": [
+          [
+            "1022",
+            "0",
+            "0"
+          ]
+        ],
+        "candidate_ids": [
+          "GLI-IND-M77-01022"
+        ],
+        "candidate_tokens": [
+          [
+            {
+              "raw": "267",
+              "sign": "M267",
+              "doubtful": false,
+              "unknown_span": false,
+              "diplomatic": "267"
+            },
+            {
+              "raw": "99",
+              "sign": "M099",
+              "doubtful": false,
+              "unknown_span": false,
+              "diplomatic": "099"
+            },
+            {
+              "raw": "204",
+              "sign": "M204",
+              "doubtful": false,
+              "unknown_span": false,
+              "diplomatic": "204"
+            },
+            {
+              "raw": "367",
+              "sign": "M367",
+              "doubtful": false,
+              "unknown_span": false,
+              "diplomatic": "367"
+            },
+            {
+              "raw": "342",
+              "sign": "M342",
+              "doubtful": false,
+              "unknown_span": false,
+              "diplomatic": "342"
+            }
+          ]
+        ],
+        "candidate_normalized_tokens": [
+          [
+            "M267",
+            "M099",
+            "M204",
+            "M367",
+            "M342"
+          ]
+        ],
+        "candidate_schema_errors": [],
+        "verified_tokens": [
+          [
+            "M267",
+            "M099",
+            "M204",
+            "M367",
+            "M342"
+          ]
+        ]
+      },
+      {
+        "reference": "1023",
+        "status": "exact_tokens",
+        "verified_row_keys": [
+          [
+            "1023",
+            "0",
+            "0"
+          ]
+        ],
+        "candidate_ids": [
+          "GLI-IND-M77-01023"
+        ],
+        "candidate_tokens": [
+          [
+            {
+              "raw": "*267",
+              "sign": "M267",
+              "doubtful": true,
+              "unknown_span": false,
+              "diplomatic": "*267"
+            },
+            {
+              "raw": "*099",
+              "sign": "M099",
+              "doubtful": true,
+              "unknown_span": false,
+              "diplomatic": "*099"
+            },
+            {
+              "raw": "53",
+              "sign": "M053",
+              "doubtful": false,
+              "unknown_span": false,
+              "diplomatic": "053"
+            },
+            {
+              "raw": "87",
+              "sign": "M087",
+              "doubtful": false,
+              "unknown_span": false,
+              "diplomatic": "087"
+            },
+            {
+              "raw": "59",
+              "sign": "M059",
+              "doubtful": false,
+              "unknown_span": false,
+              "diplomatic": "059"
+            },
+            {
+              "raw": "48",
+              "sign": "M048",
+              "doubtful": false,
+              "unknown_span": false,
+              "diplomatic": "048"
+            },
+            {
+              "raw": "294",
+              "sign": "M294",
+              "doubtful": false,
+              "unknown_span": false,
+              "diplomatic": "294"
+            },
+            {
+              "raw": "342",
+              "sign": "M342",
+              "doubtful": false,
+              "unknown_span": false,
+              "diplomatic": "342"
+            }
+          ]
+        ],
+        "candidate_normalized_tokens": [
+          [
+            "*M267",
+            "*M099",
+            "M053",
+            "M087",
+            "M059",
+            "M048",
+            "M294",
+            "M342"
+          ]
+        ],
+        "candidate_schema_errors": [],
+        "verified_tokens": [
+          [
+            "*M267",
+            "*M099",
+            "M053",
+            "M087",
+            "M059",
+            "M048",
+            "M294",
+            "M342"
+          ]
+        ]
+      },
+      {
+        "reference": "1028",
+        "status": "exact_tokens",
+        "verified_row_keys": [
+          [
+            "1028",
+            "0",
+            "0"
+          ]
+        ],
+        "candidate_ids": [
+          "GLI-IND-M77-01028"
+        ],
+        "candidate_tokens": [
+          [
+            {
+              "raw": "86",
+              "sign": "M086",
+              "doubtful": false,
+              "unknown_span": false,
+              "diplomatic": "086"
+            },
+            {
+              "raw": "381",
+              "sign": "M381",
+              "doubtful": false,
+              "unknown_span": false,
+              "diplomatic": "381"
+            },
+            {
+              "raw": "99",
+              "sign": "M099",
+              "doubtful": false,
+              "unknown_span": false,
+              "diplomatic": "099"
+            },
+            {
+              "raw": "48",
+              "sign": "M048",
+              "doubtful": false,
+              "unknown_span": false,
+              "diplomatic": "048"
+            },
+            {
+              "raw": "8",
+              "sign": "M008",
+              "doubtful": false,
+              "unknown_span": false,
+              "diplomatic": "008"
+            },
+            {
+              "raw": "342",
+              "sign": "M342",
+              "doubtful": false,
+              "unknown_span": false,
+              "diplomatic": "342"
+            }
+          ]
+        ],
+        "candidate_normalized_tokens": [
+          [
+            "M086",
+            "M381",
+            "M099",
+            "M048",
+            "M008",
+            "M342"
+          ]
+        ],
+        "candidate_schema_errors": [],
+        "verified_tokens": [
+          [
+            "M086",
+            "M381",
+            "M099",
+            "M048",
+            "M008",
+            "M342"
+          ]
+        ]
+      },
+      {
+        "reference": "1030",
+        "status": "exact_tokens",
+        "verified_row_keys": [
+          [
+            "1030",
+            "0",
+            "0"
+          ]
+        ],
+        "candidate_ids": [
+          "GLI-IND-M77-01030"
+        ],
+        "candidate_tokens": [
+          [
+            {
+              "raw": "336",
+              "sign": "M336",
+              "doubtful": false,
+              "unknown_span": false,
+              "diplomatic": "336"
+            },
+            {
+              "raw": "89",
+              "sign": "M089",
+              "doubtful": false,
+              "unknown_span": false,
+              "diplomatic": "089"
+            },
+            {
+              "raw": "211",
+              "sign": "M211",
+              "doubtful": false,
+              "unknown_span": false,
+              "diplomatic": "211"
+            },
+            {
+              "raw": "97",
+              "sign": "M097",
+              "doubtful": false,
+              "unknown_span": false,
+              "diplomatic": "097"
+            },
+            {
+              "raw": "86",
+              "sign": "M086",
+              "doubtful": false,
+              "unknown_span": false,
+              "diplomatic": "086"
+            },
+            {
+              "raw": "15",
+              "sign": "M015",
+              "doubtful": false,
+              "unknown_span": false,
+              "diplomatic": "015"
+            }
+          ]
+        ],
+        "candidate_normalized_tokens": [
+          [
+            "M336",
+            "M089",
+            "M211",
+            "M097",
+            "M086",
+            "M015"
+          ]
+        ],
+        "candidate_schema_errors": [],
+        "verified_tokens": [
+          [
+            "M336",
+            "M089",
+            "M211",
+            "M097",
+            "M086",
+            "M015"
+          ]
+        ]
+      }
+    ],
+    "used_to_resolve_primary_reviews": false
+  }
+}
