@@ -5658,3 +5658,24 @@ from mean rounding and enter maxT incorrectly. The synthetic 1/3, 2/3 example
 reproduced it. Fixing constant-column centering and adding regression tests precedes
 any real results; checkpoint c46a188 preserves the earlier implementation. This is
 a numerical correction to the fixed statistic, not an outcome-driven protocol change.
+
+
+First discovery invocation stopped before calculating any associations: the CSV
+reader rejected omitted trailing optional columns on row 2. Inspection of field
+counts showed all 5,680 rows contain every whitelisted field through text, while
+unselected trailing interpretation fields are variably omitted (35–38 columns).
+Adjusted ingestion to require all selected fields and reject excess fields, allowing
+only an omitted unselected suffix; added a synthetic regression. No source values,
+protocol selection rules or outcomes changed. The failed run produced no result files.
+
+
+Successful frozen v2 discovery: 716 Mohenjo-daro sequence families, 748 eligible
+sign–raw-motif pairs, 9,999 permutations. Maximum Z=3.8298601929646137,
+global maxT p=.7609; zero candidates at fixed .01 threshold. Empty candidate file
+saved and hashed before any transfer. Per stop rule, no transfer, quality sensitivity,
+primary pair checks or altered-feature search followed. Largest Z W455/Rhin is not
+promoted to a reading or lead. The result is not a language/name/function conclusion
+and has no global power claim. All 294 final unit tests pass (18 motif, three metadata);
+505 registered raw artifacts verify. No historical broad pipeline rerun. Context
+now records this as closed, preventing repeated rediscovery. Semantic/phonetic
+assignments remain entirely unresolved; no outreach sent.

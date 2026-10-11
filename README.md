@@ -1,16 +1,16 @@
 # Indus script: reproducible investigation
 
 **No demonstrated decipherment.** The project preserves primary evidence,
-transcriptions, scripts, hypotheses, failures and constraints. All417 semantic
+transcriptions, scripts, hypotheses, failures and constraints. All 417 semantic
 and phonetic values remain unresolved.
 
 Start with [active working state](docs/ACTIVE_STATE.md). Use the
 [evidence index](docs/RESEARCH_INDEX.md) for targeted retrieval; the
 [research log](docs/RESEARCH_LOG.md) retains the complete history.
 
-The current focus is choosing a faster, falsifiable route with Claude Code,
-not expanding the working context indefinitely. The six-page M77 batch already
-underway is saved as release5:198printed lines and173sign types. This checks
+Claude Code helped select a bounded [motif screen](docs/MOTIF_FAST_ROUTE.md);
+it produced no selected lead and is closed under its frozen design. The six-page
+M77 batch is saved as release 5: 198 printed lines and 173 sign types. This checks
 printed transcription, not ancient readings. See [corpus evidence](docs/M77_VERIFIED_CORPUS.md).
 
 - [Strongest surviving hypotheses](docs/CONVERGENCE.md)

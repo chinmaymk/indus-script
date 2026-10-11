@@ -40,8 +40,10 @@ def read_allowed_rows(path, columns=COLUMNS):
             raise ValueError('Missing or duplicate configured column')
         indices = [header.index(c) for c in columns]
         for number, values in enumerate(reader, 2):
-            if len(values) != len(header):
-                raise ValueError(f'CSV column count mismatch at row {number}')
+            # The export omits trailing optional interpretation fields. Every
+            # whitelisted field must exist; omitted unselected suffixes are inert.
+            if len(values) <= max(indices) or len(values) > len(header):
+                raise ValueError(f'CSV required-column count mismatch at row {number}')
             yield {column: values[index] for column, index in zip(columns, indices)}
 
 

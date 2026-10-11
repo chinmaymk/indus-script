@@ -247,6 +247,20 @@ class MotifFastRouteTest(unittest.TestCase):
                 write_new(frozen, {'candidates': ['changed']})
             self.assertEqual(frozen.read_bytes(), original)
 
+    def test_omitted_unselected_trailing_columns_are_allowed(self):
+        import csv
+        with tempfile.TemporaryDirectory() as tmp:
+            source = Path(tmp) / 'synthetic.csv'
+            with source.open('w', newline='') as f:
+                writer = csv.writer(f)
+                writer.writerow([*COLUMNS, 'translation', 'notes'])
+                writer.writerow([row()[c] for c in COLUMNS])
+            self.assertEqual(list(read_allowed_rows(source)), [row()])
+            with source.open('a', newline='') as f:
+                csv.writer(f).writerow([row()[c] for c in COLUMNS[:-1]])
+            with self.assertRaises(ValueError):
+                list(read_allowed_rows(source))
+
 
 if __name__ == '__main__':
     unittest.main()

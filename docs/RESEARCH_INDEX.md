@@ -11,7 +11,7 @@ not make historical reports current. Follow their pinned inputs and scope.
 | Which external data are missing? | `RESEARCH_ROUTE_AUDIT.md`; follow only the selected route's source ledger |
 | Why don't structure scores decode meaning? | `IDENTIFIABILITY.md`; `STRUCTURE_THEORY.md` |
 | What is the latest verified text corpus? | `M77_VERIFIED_CORPUS.md`; current version in ACTIVE_STATE |
-| What is the bounded motif experiment? | `MOTIF_FAST_ROUTE.md` (when produced); protocol v2; `MOTIF_PROTOCOL_REVIEW.md` |
+| What is the bounded motif experiment? | `MOTIF_FAST_ROUTE.md`; protocol v2; `MOTIF_PROTOCOL_REVIEW.md` |
 | What do motif codes count? | `M77_FIELD_SYMBOL_REVIEW.md`; `results/m77_metadata_v5.json` |
 | Why were ending shuffles stopped? | `ENDING_SUPPORT_CERTIFICATE.md`; latest support JSON in ACTIVE_STATE |
 | What did Claude actually recommend? | `CLAUDE_SECOND_OPINION.md`; open linked raw response only if needed |
