@@ -888,6 +888,33 @@
       "kind": "locally_serialized_HTTP_response_headers",
       "http_status": 200,
       "registered_research_date": "2026-10-11"
+    },
+    {
+      "path": "data/raw/kuntasi-linked-viewer-oct11.html.headers.json",
+      "bytes": 1206,
+      "sha256": "4fc94a48cf2f542d7e72f1fc9e621563a50a0c370c7cf26c93a2cdfc836f4691",
+      "url": "https://virasat.dcpune.ac.in/jspui/viewer?searchWord=&frontend=frontend&viewType=single&doc=132490.pdf123456789/44865/1/&backquery=[]&itemHandle=123456789/44865",
+      "http_status": 200,
+      "kind": "locally_serialized_HTTP_response_headers",
+      "registered_research_date": "2026-10-11"
+    },
+    {
+      "path": "data/raw/kuntasi-institutional-report-oct11.pdf.headers.json",
+      "bytes": 1158,
+      "sha256": "2b2385d2054f022a227e39876b105c1dd555fdcb8efa9161454e54ad4e9d1ebc",
+      "url": "https://virasat.dcpune.ac.in/jspui/bitstream/123456789/44865/1/132490.pdf",
+      "http_status": 200,
+      "kind": "locally_serialized_HTTP_response_headers",
+      "registered_research_date": "2026-10-11"
+    },
+    {
+      "path": "data/raw/keeladi-cited-report-oct11.pdf.headers.json",
+      "bytes": 307,
+      "sha256": "1ed8691513372d27c2dbb74656cb808f82c4de1ae138dd8567a5735663fc66e1",
+      "url": "https://www.vinavu.com/wp-content/uploads/2019/09/Keeladi-Book-English-18-09-2019.pdf",
+      "http_status": 200,
+      "kind": "locally_serialized_HTTP_response_headers",
+      "registered_research_date": "2026-10-11"
     }
   ],
   "downloads": [
@@ -4737,6 +4764,45 @@
       "kind": "downloaded_author_source_or_project_data",
       "fetch_metadata": "data/processed/fetch_yajnadevam-testcorpus-oct11_txt.json",
       "note": "Complete HTTP body content reviewed for bounded Yajnadevam validation; not accepted as independently validated decipherment."
+    },
+    {
+      "path": "data/raw/kuntasi-linked-viewer-oct11.html",
+      "bytes": 48142,
+      "sha256": "397d60108d823b16b992de55cee541b5559af02b307e01779c5c8dc2b3fb4855",
+      "url": "https://virasat.dcpune.ac.in/jspui/viewer?searchWord=&frontend=frontend&viewType=single&doc=132490.pdf123456789/44865/1/&backquery=[]&itemHandle=123456789/44865",
+      "resolved_url": "https://virasat.dcpune.ac.in/jspui/viewer?searchWord=&frontend=frontend&viewType=single&doc=132490.pdf123456789/44865/1/&backquery=[]&itemHandle=123456789/44865",
+      "http_status": 200,
+      "retrieved_utc": "2026-10-11T09:36:58.450028+00:00",
+      "registered_research_date": "2026-10-11",
+      "kind": "institutional_HTML_viewer_wrapper_not_report",
+      "note": "Exact retained View Book link; iframe explicitly names payload URL",
+      "fetch_metadata": "data/processed/fetch_kuntasi-linked-viewer-oct11_html.json"
+    },
+    {
+      "path": "data/raw/kuntasi-institutional-report-oct11.pdf",
+      "bytes": 2642737,
+      "sha256": "4bd0be7e32be5a4ff8b622c870c86326d9c558a2079a98229667ef0c5f40571d",
+      "url": "https://virasat.dcpune.ac.in/jspui/bitstream/123456789/44865/1/132490.pdf",
+      "resolved_url": "https://virasat.dcpune.ac.in/jspui/bitstream/123456789/44865/1/132490.pdf",
+      "http_status": 200,
+      "retrieved_utc": "2026-10-11T09:37:59.031866+00:00",
+      "registered_research_date": "2026-10-11",
+      "kind": "institutional_cover_only_PDF_fragment",
+      "note": "Complete3-pagePDF: front cover, library flyleaf, back cover; not advertisedx+383page report body",
+      "fetch_metadata": "data/processed/fetch_kuntasi-institutional-report-oct11_pdf.json"
+    },
+    {
+      "path": "data/raw/keeladi-cited-report-oct11.pdf",
+      "bytes": 6154830,
+      "sha256": "6a1b62b7e6e0552cee7e8e8b1bf193d5dec3d991e6cb40f504f9a2833fb2864e",
+      "url": "https://www.vinavu.com/wp-content/uploads/2019/09/Keeladi-Book-English-18-09-2019.pdf",
+      "resolved_url": "https://www.vinavu.com/wp-content/uploads/2019/09/Keeladi-Book-English-18-09-2019.pdf",
+      "http_status": 200,
+      "kind": "public_mirror_of_Tamil_Nadu_Archaeology_primary_2019_report",
+      "registered_research_date": "2026-10-11",
+      "retrieved_utc": "2026-10-11T09:43:51.329153+00:00",
+      "fetch_metadata": "data/processed/fetch_keeladi-cited-report-oct11_pdf.json",
+      "note": "66-page unencryptedPDF; cover/edition identify Department of Archaeology,Government of Tamil Nadu,2019 publication302; retrieved from exact original URL embedded in candidate bibliography. Source statements are not independently validated Indus sound assignments."
     }
   ],
   "local_usage_captures": [

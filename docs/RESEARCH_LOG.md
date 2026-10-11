@@ -6137,3 +6137,99 @@ preserved exact bytes rather than altering evidence to satisfy a formatting chec
 Committed64 files as f1951eab9cb7534ea396677a0d09a29d1f78be19; pushed origin/main,
 all3 new LFS objects uploaded1.5MB. Exact remote SHA equals local HEAD, checkout
 clean after push. Overall goal remains active; next action is parked Kuntasi gate.
+
+## 2026-10-11 — Kuntasi explicit institutional payload gate
+
+Previous goal turn classified **progress**: pinned candidate paper/code reviewed,
+original-program counterexample executed once, independent criticism and corrected
+observation preserved, all43pins verified and64-file batch pushed. No reading key
+established. Current turn inspected ACTIVE_STATE then clean git status and resumed
+the existing frozen Kuntasi link without repeated discovery or relaunch.
+
+One retained View Book URL returned HTTP200 HTML viewer wrapper,48142bytes,
+hash397d60108d823b16b992de55cee541b5559af02b307e01779c5c8dc2b3fb4855.
+Iframe explicitly names file=/jspui/bitstream/123456789/44865/1/132490.pdf.
+Recorded resolution before acquisition. Independent read-only critic confirms
+no authentication challenge; generic Login navigation is not resource restriction.
+Interpreted one-body bound as one exact report payload, with wrapper merely link
+resolution. No guessed endpoint, asset fetch or alternative pointer.
+
+Single explicit payload request HTTP200,2642737bytes,
+hash4bd0be7e32be5a4ff8b622c870c86326d9c558a2079a98229667ef0c5f40571d.
+Confirmed live fetch handles polled to terminal completion, no relaunch. Pypdf
+reports3unencryptedpages, not cataloguex+383. Every page rendered and visually
+inspected: front cover, library flyleaf, back cover. Cover authenticates title,
+1996 and M.K.Dhavalikar/M.R.Raval/Y.M.Chitalwala. M.R.for this edition resolves
+catalogue initial question; older article M.H.citation discrepancy retained.
+HTTPresponse completeness is not completeness of book. No context/inventory
+available from the three pages; frame/eligible denominators remain unknown/null,
+not zero. No signs transcribed or semantic/phonetic test. Cover emblem not an
+archaeological inscription promoted into corpus. Independent critic concurs.
+
+Finite unavailable-body stop reached. No retry/reference expansion/guessed file
+extension or outreach. Four raw wrapper/PDF/header records registered,13decision
+pins saved, docs/KUNTASI_CONTEXT_GATE.md. Reopen only specific newly available
+public report body or identified context register. This does not establish absence
+of inscribed artifacts/qualifying contexts in full report or at the site.
+
+Bounded next-route criticism of existing route audit/Claude report yields no new
+unreviewed primary pointer; closed structural screens, missing quantity scans and
+outreach suggestions do not reopen. Specific separate pointer exists in inspected
+candidate paper p31§4.16/p97: Sivanantham/Seran2019 Keeladi primary excavation
+report, cited exact archived PDF containing explicit original URL. Selective
+filename/log searches find no earlier Keeladi/Marungur/Tamil-Brahmi source review.
+Proposed next gate only asks whether independent mixed-script/direction/context
+observations support a phonetic bridge; no assumption of script continuity or
+600BCE date for inscriptions. Criticism requested before source acquisition.
+
+## 2026-10-11 — Keeladi2019 independent phonetic-bridge gate
+
+Independent critic endorses narrow new primary-source gate, with explicit cautions
+against equating adjacent marks with aligned content, deposit dates with postfiring
+mark dates, or later Brahmi sounds with BronzeAge Indus sounds. Protocol frozen
+before acquisition. One exact originalPDFURL from candidate's archived citation
+requested; confirmed live fetch handle polled, no quiet-process relaunch. HTTP200
+6154830bytes SHA2566a1b62b7e6e0552cee7e8e8b1bf193d5dec3d991e6cb40f504f9a2833fb2864e.
+66-page unencryptedPDF, cover/edition identify TamilNaduArchaeology2019 publication302
+edited Sivanantham/Seran; public mirror provenance preserved, not institutional
+hosting claimed. PDF/headers registered. No archive fallback or reference opens.
+
+Derived extraction and section locator saved without loading whole report. Direct
+text sections PDF10,13,14,18,19,20,38,48,58,63 read. Nine source pages and candidate
+p25/p31 rendered/visually inspected. Report1001graffiti/56TamilBrahmi are inventory
+counts, not bilingual pairs/test denominators. Report explicitly advocates
+continuity AND describes graffiti as undeciphered; both statements preserved.
+Separate plates and five shapecomparison rows supply no independent sounds,
+artifact IDs, aligned content or artifact-level chronological progression.
+Repeated318label in source comparison preserved, no repair. Published TamilBrahmi
+personal-name readings include finalletter restoration; not observed extra glyphs.
+Postfiring statement and deposit chronology retained; no individual mark/date join
+for candidate anonymousexamples established. No glyph OCR repaired or new signs
+transcribed, no phonetic/semantic fitting, score, p-value or corpus amendment.
+
+Independent reviewer concurs no qualifyingphoneticbridge. Upperleftdrawing on
+printed56 a plausible visual locator for candidate§4.16, identity unresolved;
+Table11 example not assumed sameobject. No independent reverse direction proof
+or Indus→mixed→Brahmi stratigraphic series supplied by inspected source. Result
+does not disprove allcontinuity/individualreadings, nor portray report as rejecting
+continuity. All qualification failures are evidence gaps, not scored falsifications.
+Already cited2019source is not a withheld artifact set. Frozen protocol's
+fitted2024 shorthand means inspectedpaper compiled2024; actualfittingdates unverified.
+
+Finite stop reached; docs/KEELADI_PHONETIC_BRIDGE_GATE.md and21-pindecision saved.
+Persistence helper console mistakenly hardcoded22pins; actualdecisionlen21 is
+authoritative, no data change/rerun. Individual observations and independent
+criticism separate. No other Tamilsite/reference expanded from this report.
+Reopen only newly identified independent reading/mark alignment/context or new
+primarybody supplying bridge, not more shape matching.
+
+Specific separate next candidate citation selected for bounded criticism:
+Table11row2 Marungur, T.S.Subrahmanian2010 original find/photo announcement, exact
+TheHindu article16483663. Critic endorses one-body object/readings/context join,
+with reporter attribution/uncertainty explicit; shapeaudit alone uninformative.
+This pointer came from candidate bibliography before Keeladi, not expansion of
+Keeladi references. It is not a substitute source for the closed Keeladi gate.
+No request made yet. Freeze one exact article-body attempt; stop if unavailable
+or identity/readings not established, no other source. A materially different
+independent reading of identifiedobject could discriminate candidate amahas;
+reported mixedmarks without assigned sounds would still not establish a bridge.

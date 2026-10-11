@@ -1,0 +1,85 @@
+{
+  "date": "2026-10-11",
+  "disposition": "source gate closed: report body unavailable from linked3-pagePDF",
+  "explicit_payload_attempts": 1,
+  "viewer_wrapper_attempts": 1,
+  "guessed_endpoints": 0,
+  "retries": 0,
+  "source_coverage": "CompleteHTTPPDFresponse, incomplete advertised book; cover/flyleaf/backcover only",
+  "actual_pdf_pages": 3,
+  "advertised_catalogue_extent": "x+383pages",
+  "artifact_frame": null,
+  "eligible_count": null,
+  "sign_scoring": false,
+  "semantic_prediction_tested": false,
+  "overall_goal_complete": false,
+  "stop": "Frozen unavailable-body condition reached",
+  "reopening": "Specific newly available public report body or identified context register",
+  "pins": [
+    {
+      "path": "data/processed/kuntasi_context_gate_protocol_v1.json",
+      "bytes": 2106,
+      "sha256": "4caa464bf68c8dac7eebc6480cff692d3cb96a5b33a16b5b98135f677bb39697"
+    },
+    {
+      "path": "data/processed/kuntasi_explicit_payload_resolution_v1.json",
+      "bytes": 875,
+      "sha256": "c686991386a1d7f17972b2a3527ca74833399bb228f9b144c32ab209fc2e6b68"
+    },
+    {
+      "path": "data/raw/kuntasi-institutional-catalogue-oct11.html",
+      "bytes": 56234,
+      "sha256": "1def396c2134dc999aee36624fd64e3f57d2b3cc1c798e07c11fd5ed6b84a6a9"
+    },
+    {
+      "path": "data/raw/kuntasi-linked-viewer-oct11.html",
+      "bytes": 48142,
+      "sha256": "397d60108d823b16b992de55cee541b5559af02b307e01779c5c8dc2b3fb4855"
+    },
+    {
+      "path": "data/raw/kuntasi-linked-viewer-oct11.html.headers.json",
+      "bytes": 1206,
+      "sha256": "4fc94a48cf2f542d7e72f1fc9e621563a50a0c370c7cf26c93a2cdfc836f4691"
+    },
+    {
+      "path": "data/raw/kuntasi-institutional-report-oct11.pdf",
+      "bytes": 2642737,
+      "sha256": "4bd0be7e32be5a4ff8b622c870c86326d9c558a2079a98229667ef0c5f40571d"
+    },
+    {
+      "path": "data/raw/kuntasi-institutional-report-oct11.pdf.headers.json",
+      "bytes": 1158,
+      "sha256": "2b2385d2054f022a227e39876b105c1dd555fdcb8efa9161454e54ad4e9d1ebc"
+    },
+    {
+      "path": "docs/KUNTASI_CONTEXT_GATE.md",
+      "bytes": 3052,
+      "sha256": "bb30bf930d12741b2766f19bb9216ab0a44203d78f47bc95d66a7c54833ef28c"
+    },
+    {
+      "path": "results/kuntasi_context_gate_v1/page_observations.json",
+      "bytes": 873,
+      "sha256": "cf967a7c52615c8bc40d376e7a67cceb216b79501e088b6534dde7d9fde47211"
+    },
+    {
+      "path": "results/kuntasi_context_gate_v1/independent_review.json",
+      "bytes": 793,
+      "sha256": "0c423b01400c4caee60f0125fb1ba6a6b9d1ed30cdd4ef0bebc40960caedc4ce"
+    },
+    {
+      "path": "results/kuntasi_context_gate_v1/retained-pdf-page-1.png",
+      "bytes": 1997109,
+      "sha256": "cf424e2742292e3af80e95c61a4f0d9b7934241afdd6a632189f4a9e8cbf9b4b"
+    },
+    {
+      "path": "results/kuntasi_context_gate_v1/retained-pdf-page-2.png",
+      "bytes": 823746,
+      "sha256": "a4ad27ed985883efd6042a949c47df55f839256a6b95a1536f449a7e9e0f37a1"
+    },
+    {
+      "path": "results/kuntasi_context_gate_v1/retained-pdf-page-3.png",
+      "bytes": 1437851,
+      "sha256": "fabf303543fb593bd9ca15a32c1c6543511678c05a4bb1ac12071f98071466ed"
+    }
+  ]
+}

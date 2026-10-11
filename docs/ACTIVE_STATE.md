@@ -7,16 +7,29 @@ Full history belongs in `RESEARCH_LOG.md`. Public/retained data only;
 
 ## One current action
 
-Resume frozen Kuntasi linked-body context gate after completed user-prioritized
-Yajnadevam assessment. Institutional catalogue HTML retained/registered; explicit
-View Book/flipbook href resolved, body not fetched. Follow that precise public
-link under `data/processed/kuntasi_context_gate_protocol_v1.json`; no repeated
-discovery, guessed endpoints, replacement sources or references. Expected evidence:
-complete reported inscribed-artifact context frame and secure independently
-replicated production/deposit contrasts. Finite stop: one linked-body acquisition;
-authentication/denial stops, or complete internal context review closes gate if
-register or replicated contrast missing. No sign scoring or holdout claim before
-separately frozen eligible test. Catalogue author initials conflict remains.
+Authenticate candidate Table11row2 Marungur against its separate exact cited
+Subrahmanian2010 original find/photo announcement. Frozen
+`data/processed/marungur_cited_object_gate_protocol_v1.json`: one article-body
+request, no retries/alternative sources/searches/references. Expected evidence:
+identifiable object, attributed independent reading/direction, authenticated
+candidate-object join and dating scope. A materially different reading could
+discriminate amahas; mixed marks alone assign no sounds. Finite stop: unavailable
+body or complete article's object/readings/context join, including unresolved
+identity. No fitting, corpus amendment or unseen/holdout claim. Critic endorses
+narrow gate; journalistic announcement is reported observation, not phonetic proof.
+Pointer separately selected from candidate bibliography, not Keeladi expansion.
+
+Keeladi2019 gate closed:66-page primary report retrieved once, relevant sections
+and plates inspected. Report asserts continuity but calls graffiti undeciphered;
+shape comparison supplies no aligned known content/sounds or artifact-level
+chronological bridge. Independent criticism concurs. No mark/date join or direction
+proof admitted. See `KEELADI_PHONETIC_BRIDGE_GATE.md` and21-pin decision.
+
+Kuntasi gate closed unavailable: exact public viewer payload is complete3-pagePDF,
+front cover/flyleaf/back cover, not advertisedx+383page report. Every page viewed;
+independent review concurs. Inscribed/context frame unknown, not zero. M.R.Raval
+visible on cover resolves initials for edition. See `KUNTASI_CONTEXT_GATE.md`.
+No retry or guessed alternative; reopen only newly available report body/register.
 
 Yajnadevam/Bharath Rao validation closed. Primary2024 paper and current pinned
 author code inspected. Unicity estimate does not certify corpus uniqueness under
@@ -66,8 +79,8 @@ Editorial draft: `docs/blog/trying-to-decipher-the-indus-script-with-ai.md`,
 unpublished and ready for author review. Rounded840m headline; exact frozen
 usage/cache accounting in `RESEARCH_TOKEN_USAGE.md`. No experiment rerun.
 
-Prior pilot/Bagasra/source batches backed up through a23f839. Validation and
-Bhagatrav/Kuntasi batch f1951ea pushed; exact origin/main SHA verified11October.
+Yajnadevam/Bhagatrav batch and handoff backed up through51140e2. Current
+Kuntasi/Keeladi source gates completed and prepared for authorized origin/main backup.
 Raw material stays registered in `data/raw/`; derived results in `results/` or
 `data/processed/`. Do not overwrite frozen inputs/results. Claude's last follow-up
 hit provider credit limit; no changed availability or new Claude review.

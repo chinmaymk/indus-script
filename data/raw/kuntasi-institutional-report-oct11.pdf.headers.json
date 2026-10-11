@@ -1,0 +1,16 @@
+{
+  "Content-Security-Policy": "default-src 'self' 'unsafe-inline' 'unsafe-eval' blob: *.google.com *.googleapis.com *.gstatic.com *.hitwebcounter.com *.google-analytics.com *.googletagmanager.com; img-src 'self' blob: data: https://hitwebcounter.com https://*.hitwebcounter.com http://www.google-analytics.com; script-src 'self' 'unsafe-inline' 'unsafe-eval' blob: *.google.com *.googleapis.com *.gstatic.com *.google-analytics.com *.googletagmanager.com; frame-ancestors 'self';",
+  "Referrer-Policy": "strict-origin-when-cross-origin",
+  "Permissions-Policy": "geolocation=(self \"https://www.google.com\"), camera=(self), microphone=()",
+  "Strict-Transport-Security": "max-age=31536000;includeSubDomains",
+  "Cache-Control": "no-cache,no-store,must-revalidate",
+  "Pragma": "no-cache",
+  "X-XSS-Protection": "1; mode=block",
+  "X-Content-Type-Options": "no-sniff",
+  "Access-Control-Allow-Origin": "http://122.176.109.190",
+  "X-Frame-Options": "SAMEORIGIN",
+  "Set-Cookie": "JSESSIONID=95C10FC111459B727CF13747A651E30C; Path=/jspui; Secure; HttpOnly",
+  "Content-Length": "2642737",
+  "Date": "Sun, 11 Oct 2026 09:40:44 GMT",
+  "Connection": "close"
+}
