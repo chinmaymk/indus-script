@@ -1,3 +1,5 @@
+[GitHub repository: chinmaymk/indus-script](https://github.com/chinmaymk/indus-script)
+
 # 840 million tokens trying to decipher the Indus script
 
 Chinmay Kulkarni · October 11, 2026

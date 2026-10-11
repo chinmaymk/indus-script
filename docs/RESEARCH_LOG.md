@@ -5920,3 +5920,8 @@ simplified the table; roughly 822 million research-model tokens and about
 Rounded the motif experiment's shuffle count and p value in prose, linking the
 exact result. Frozen usage capture, exact audit, scientific outputs and cutoff
 remain unchanged. No new research run or website publication.
+
+## 2026-10-11 — Repository link at the top of the blog
+
+At the author's request, added the public GitHub repository link as the first
+line above the headline. No scientific run or website publication.
