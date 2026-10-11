@@ -6436,6 +6436,67 @@ metadata replay reproduced the report. Registered raw capture; earlier snapshots
 preserved. Billion-token headline still deferred; no scientific experiment.
 
 
+### 11 October 2026 — Human-resumed public primary discovery and three fixed gates
+
+User explicitly requested new public primary sources and other routes, with no
+outreach. Read ACTIVE_STATE/status, preserving editorial usage notes and prior
+blocked audit; earlier three-turn count not reused after this human resumption.
+Frozen12-query discovery across overseas administrative, contents/residue and
+physical measurement routes. All12 queries completed; exact returned captures
+retained. Search excerpts are leads, not primary-object observations. Nippur13N506
+report pointer describes probably displaced context and no aligned readable
+counterpart; no body acquisition. New2023institutional Istanbul weight publication
+and2016Salūt report pointers absent from selective registry/log lookup, not a
+claim of first-ever discovery. No closed source request or parameter sweep rerun.
+
+One selected discovery gate: new Suryanarayan etal2024Salūt study, distinct from
+previously reviewed2021Indus residue study. Retained successful primary web text
+explicitly joins graffiti-marked rimSLT40 to residue sampling. Preserve ambiguous
+fabric phrase without silently relabelling it as imported BSJ. Exact original
+article HTTP request returned complete403error body, retained as error, not
+article. Already captured public primary text remains evidence; bounded critic
+agreed that one exact explicitly linkedS1 request remained within fixed scope.
+Critic reply arrived after S1 request, not claimed as advance approval. S1webclick
+returned403; no DOCX body, retry, alternative endpoint or Figure2 request.
+Individual chemistry/uncertainty, observed marks and Indus identity unknown;
+missing observation is not negative chemistry. SLT74drill marks and same-site
+stamped2016jar remain distinct. Discovery12query+onegate bound closed.
+
+Separately frozen functional successor, after read-only criticism: exact author-
+hosted Frenez etal2016PDF obtained once,24pages. Printed117–118/PDF17–18 and
+Figure10 rendered/inspected. Caption/photograph authenticate pottery-body sherd
+bearing Indus-script seal impression, with separate Harappa tablet comparand.
+Supported substrate constraint for this artifact, not documented detachable
+closure sealing. Pre-firing application physically plausible but no explicit
+timing analysis supplied. Typical-local-jar attribution lacks object-specific
+chemical fabric characterization here. Black material only possibly bitumen;
+not contents identification. Second identical rim impression possibly same jar,
+not independent-vessel replication. No field/accession number or known name,
+quantity or sound correspondence established. Critic confirmed bounded closure;
+no SLT40/chlorite-seal/comparand identity substitution or corpus modification.
+
+Separately frozen measurement successor, after math criticism: exact institutional
+2023volume obtained once,212PDFpages,98,202,857bytes. Chapter manuscript2016with
+minor2020additions, not a newly excavated2023dataset. Inspected fixed entries and
+Table1/Plates6–7. Pypdf emitted glyph names and offset warnings; rendered pages
+legible, numeric fields/IDs visually confirmed. Potential Indus cubeCat15/Unger241/
+inv964,Nippur marble has marking field dash;28.6g preserved,31.6g imprecise volume
+reconstruction, not second measured value. Cat1/Unger1/inv6258,Tello limestone
+1520g has independently attributed Sumerian inscription. Historical three lines
+not confirmed by current author. Cat16/Unger43/inv7191,Assur limestone101.3g is
+separate inscribed loaf-shaped object; language/reading unattributed here, not
+asserted non-Indus. Independent critic checked table and plate identities/masses.
+No authenticated Indus inscription/mass pairing in fixed entries; no mass fitting,
+reference chase, UrU17673substitution or all-weights absence claim.
+
+All raw captures/public bodies/error bodies and headers registered with bytes,
+SHA256 and provenance; protocols and decisions separately pinned. Prior closures
+and all417null sound/meaning fields preserved. These source gates constrain
+eligibility and one artifact substrate; they do not amount to decipherment.
+No outreach, email or messages to external parties. Claude availability unchanged
+from retained provider-credit failure; no restart or claimed new collaboration.
+
+
 ## 2026-10-11 — Fourth token milestone check
 
 Author requested another combined usage check. Unchanged script, frozen cutoff
@@ -6444,3 +6505,25 @@ research models. Increase2,200,189;111,815,320 remain to one billion. All124
 nonempty histories reconcile response and cumulative usage. Registered metadata
 capture with bytes/hash/provenance; previous snapshots and blog cutoff preserved.
 No new Claude usage, scientific experiment or decipherment claim.
+
+
+### 11 October 2026 — Fixed Assur7191 attribution successor
+
+After measurement gate closed, bounded critic endorsed one low-cost new primary
+pointer check: Unger1918original catalogue, fixed Unger43/inv7191/101.3g entry and
+cited inscription sketches. One exact discovery query, not new topic sweep.
+Bibliographic listings identify40page book/Penn-HathiTrust pageimages; listings
+are not fixed-entry content. Exact PennOnlineBooks locator open returned tool400
+timeout; exact GooglePlay listing open returned cachemiss. No primary body URL
+resolved/acquired, zero original-entry inspections. No additional query, retry,
+guessed endpoint, alternative specimen, reference expansion or mass fitting.
+Closed with original script attribution/reading unknown; not claim that source
+contains no reading or that all public copies are unavailable. Reopen only on
+new primary body/fixed-entry capture. Exact discovery/locator responses retained.
+
+User-resumed turn acquired genuinely new source bodies and clarified one substrate
+and a negative candidate pairing, but supplied no key. Persistent goal tool still
+reports its earlier blocked status; this human turn is not counted as another
+three-turn blocked sequence and no status mutation is attempted. Goal unachieved.
+No new Claude result or outreach. Current action limited to source/pin validation
+and authorized GitHub backup, explicitly not scientific progress.

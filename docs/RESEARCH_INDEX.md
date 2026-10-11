@@ -26,6 +26,11 @@ not make historical reports current. Follow their pinned inputs and scope.
 | Does the Vietnam foil supply an independent varaha prediction or Indus sound? | `VIETNAM_GOLD_FOIL_CITED_READING_GATE.md`; `../results/vietnam_gold_foil_cited_reading_gate_v1/decision.json` |
 | Do the checked candidate bridges supply any external reading anchor? | `../results/yajnadevam_bridge_eligibility_v1/decision.json`; follow its four completed decisions only |
 | Could a first-jar dictionary countertest reproduce the historical derivation? | `../results/yajnadevam_jar_replication_feasibility_v1/decision.json`; missing exact lexicon/rules, no experiment run |
+| What did the resumed twelve-query public-source pass find? | `../results/public_anchor_rediscovery_v1/decision.json`; exact route/query captures and input pins |
+| Does marked residue sample SLT40 provide an independent content anchor? | `../results/salut_slt40_marked_residue_gate_v1/decision.json`; individual S1 unavailable, not negative chemistry |
+| Does the Salūt stamped jar resolve manufacture versus container sealing? | `../results/salut_impressed_jar_functional_gate_v1/decision.json`; Figure10 substrate verified, timing unresolved |
+| Does the Istanbul possible Indus weight have an inscription tied to mass? | `../results/istanbul_inscribed_weight_gate_v1/decision.json`; cube and inscribed weights distinct; Cat16 script unresolved |
+| Did Unger1918 independently attribute Assur7191's inscription? | `../results/assur_7191_primary_attribution_v1/decision.json`; catalogue listings found, original entry not obtained |
 | What did Claude actually recommend? | `CLAUDE_SECOND_OPINION.md`; open linked raw response only if needed |
 | What has already been tried? | Search `RESEARCH_LOG.md` for the specific route; do not read it wholesale |
 | Where are all older report links? | `archive/README_2026-10-10_before_context_cleanup.md` |

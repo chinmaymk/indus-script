@@ -951,6 +951,48 @@
       "http_status": 200,
       "kind": "locally_serialized_HTTP_response_headers",
       "registered_research_date": "2026-10-11"
+    },
+    {
+      "path": "data/raw/salut-slt40-primary-article-oct11.html.partial",
+      "bytes": 5641,
+      "sha256": "b671e69fd23bc30282b345bf1283a72f2a8c015e497f05e3ae75a151e4a72421",
+      "url": "https://onlinelibrary.wiley.com/doi/full/10.1111/aae.12247",
+      "resolved_url": "https://onlinelibrary.wiley.com/doi/full/10.1111/aae.12247",
+      "http_status": 403,
+      "response_complete": true,
+      "retrieval_started_utc": "2026-10-11T11:20:53.125793+00:00",
+      "retrieval_ended_utc": "2026-10-11T11:20:53.232978+00:00",
+      "kind": "complete_error_response_body_not_requested_research_content",
+      "fetch_metadata": "data/processed/fetch_salut-slt40-primary-article-oct11_html.json",
+      "registered_research_date": "2026-10-11",
+      "note": "Complete403 error response, not article body; .partial suffix does not imply truncation"
+    },
+    {
+      "path": "data/raw/salut-slt40-primary-article-oct11.html.headers.json",
+      "bytes": 2033,
+      "sha256": "a054e33d2627af7608d0d614d626d95e128fc7e85796ffeccb8f10c748fca226",
+      "kind": "locally_serialized_HTTP_response_headers",
+      "url": "https://onlinelibrary.wiley.com/doi/full/10.1111/aae.12247",
+      "http_status": 403,
+      "registered_research_date": "2026-10-11"
+    },
+    {
+      "path": "data/raw/salut-impressed-jar-frenez2016-oct11.pdf.headers.json",
+      "bytes": 1213,
+      "sha256": "3cbfd95cb00c529bb28cc4088b98ef6ea94fbacff65ff6de52888d9d0fc5c8fe",
+      "kind": "locally_serialized_HTTP_response_headers",
+      "url": "https://www.harappa.com/sites/default/files/pdf/Bronze-Age-Indus-Connections.pdf",
+      "http_status": 200,
+      "registered_research_date": "2026-10-11"
+    },
+    {
+      "path": "data/raw/istanbul-weight-chapter-lmu2023-oct11.pdf.headers.json",
+      "bytes": 749,
+      "sha256": "025f1bb6f3f365a9be4aa180e89e129cef18cd579e2b9ef65f889015fe13b855",
+      "kind": "locally_serialized_HTTP_response_headers",
+      "url": "https://oa-fund.ub.uni-muenchen.de/id/eprint/967/2/9783935012638_MAAO-9_OpenAccess.pdf",
+      "http_status": 200,
+      "registered_research_date": "2026-10-11"
     }
   ],
   "downloads": [
@@ -4891,6 +4933,36 @@
       "kind": "publisher_primary_conference_proceedings_PDF",
       "note": "486pages,SEAMEO SPAFA imprint2015,title/conference2013;chapter30relevanttext/figures inspected,not entirevolume",
       "fetch_metadata": "data/processed/fetch_vietnam-gold-foil-cited-proceedings-oct11_pdf.json"
+    },
+    {
+      "path": "data/raw/salut-impressed-jar-frenez2016-oct11.pdf",
+      "bytes": 5054373,
+      "sha256": "d012b70c46b7d352897f559f091903e751451512a50ff4808cdcabec4ba82b03",
+      "url": "https://www.harappa.com/sites/default/files/pdf/Bronze-Age-Indus-Connections.pdf",
+      "resolved_url": "https://www.harappa.com/sites/default/files/pdf/Bronze-Age-Indus-Connections.pdf",
+      "http_status": 200,
+      "response_complete": true,
+      "retrieval_started_utc": "2026-10-11T11:26:27.840564+00:00",
+      "retrieval_ended_utc": "2026-10-11T11:26:28.167629+00:00",
+      "kind": "primary_excavation_publication_PDF_author_public_host",
+      "fetch_metadata": "data/processed/fetch_salut-impressed-jar-frenez2016-oct11_pdf.json",
+      "registered_research_date": "2026-10-11",
+      "note": "24PDFpages including frontmatter;printed117–118/Figure10 inspected only for fixed functional gate"
+    },
+    {
+      "path": "data/raw/istanbul-weight-chapter-lmu2023-oct11.pdf",
+      "bytes": 98202857,
+      "sha256": "6c0e77260baf9e2ea6fffee5370b5536967afa9a6cd0c062c192ccf573e9fa6e",
+      "url": "https://oa-fund.ub.uni-muenchen.de/id/eprint/967/2/9783935012638_MAAO-9_OpenAccess.pdf",
+      "resolved_url": "https://oa-fund.ub.uni-muenchen.de/id/eprint/967/2/9783935012638_MAAO-9_OpenAccess.pdf",
+      "http_status": 200,
+      "response_complete": true,
+      "retrieval_started_utc": "2026-10-11T11:30:53.698431+00:00",
+      "retrieval_ended_utc": "2026-10-11T11:31:01.218908+00:00",
+      "kind": "institutional_primary_edited_research_volume_PDF",
+      "fetch_metadata": "data/processed/fetch_istanbul-weight-chapter-lmu2023-oct11_pdf.json",
+      "registered_research_date": "2026-10-11",
+      "note": "212PDFpages;only Istanbul chapter fixed candidate/inscribed entries inspected; source damaged PDF object offsets/glyph encodings logged, relevant render legible"
     }
   ],
   "local_usage_captures": [
@@ -5793,6 +5865,147 @@
         "https://github.com/yajnadevam/lipi",
         "https://indusscript.net/"
       ]
+    },
+    {
+      "path": "data/raw/anchor-rediscovery-field-asset-locators.json",
+      "bytes": 22794,
+      "sha256": "7f55f68d60396d26c9bc5946ecc9151665f9796b72098a3fc848d24ef6561152",
+      "kind": "serialized_web_tool_responses_not_original_HTTP_bodies",
+      "registered_research_date": "2026-10-11",
+      "provenance": "New bounded12-query public-primary discovery or exact asset triage/request. Actual tool response retained; search excerpts are leads, not reading anchors. No outreach.",
+      "url": "https://onlinelibrary.wiley.com/doi/full/10.1111/aae.12247",
+      "purpose": "Locate directly explicit primary supplementary/figure assets for fixedSLT40 gate,not a new searchquery",
+      "date": "2026-10-11"
+    },
+    {
+      "path": "data/raw/anchor-rediscovery-field-primary-metadata.json",
+      "bytes": 31285,
+      "sha256": "6aaebe520986494eee5c21554df5d89d5c2d4f252fe9dbe11638bae76709e1c1",
+      "kind": "serialized_web_tool_responses_not_original_HTTP_bodies",
+      "registered_research_date": "2026-10-11",
+      "provenance": "New bounded12-query public-primary discovery or exact asset triage/request. Actual tool response retained; search excerpts are leads, not reading anchors. No outreach.",
+      "url": "https://onlinelibrary.wiley.com/doi/full/10.1111/aae.12247",
+      "purpose": "Primary source triage; no sample-to-inscription join presumed",
+      "date": "2026-10-11"
+    },
+    {
+      "path": "data/raw/anchor-rediscovery-field-search1.json",
+      "bytes": 25780,
+      "sha256": "b7ff08aa5202d3b3e30a341d770d0ed1a60019838b14a96a9626d96c58ccf4a6",
+      "kind": "serialized_web_tool_responses_not_original_HTTP_bodies",
+      "registered_research_date": "2026-10-11",
+      "provenance": "New bounded12-query public-primary discovery or exact asset triage/request. Actual tool response retained; search excerpts are leads, not reading anchors. No outreach.",
+      "queries": [
+        "\"Ras al Jinz\" \"seal\" \"impression\" pottery",
+        "\"Indus\" \"sealing\" \"2025\" excavation"
+      ],
+      "date": "2026-10-11"
+    },
+    {
+      "path": "data/raw/anchor-rediscovery-field-search2.json",
+      "bytes": 33742,
+      "sha256": "297b0caa8580be8c79b76dcd0bd251a7717c1118b5fde7dfb1aa5b4090c0ef48",
+      "kind": "serialized_web_tool_responses_not_original_HTTP_bodies",
+      "registered_research_date": "2026-10-11",
+      "provenance": "New bounded12-query public-primary discovery or exact asset triage/request. Actual tool response retained; search excerpts are leads, not reading anchors. No outreach.",
+      "queries": [
+        "\"Bronze Age Salūt (ST1)\" \"Indus\" Frenez 2016",
+        "\"Méry\" \"2017\" \"Salūt\" \"ceramics\""
+      ],
+      "date": "2026-10-11"
+    },
+    {
+      "path": "data/raw/anchor-rediscovery-measurement-lmu-landing.json",
+      "bytes": 4083,
+      "sha256": "c359515cc327a42aebc3a122d790c3a9ade18c33a1eb7371226989e19ae7e654",
+      "kind": "serialized_web_tool_responses_not_original_HTTP_bodies",
+      "registered_research_date": "2026-10-11",
+      "provenance": "New bounded12-query public-primary discovery or exact asset triage/request. Actual tool response retained; search excerpts are leads, not reading anchors. No outreach.",
+      "url": "https://oa-fund.ub.uni-muenchen.de/id/eprint/967/"
+    },
+    {
+      "path": "data/raw/anchor-rediscovery-measurement-search.json",
+      "bytes": 32608,
+      "sha256": "0adee602af60e9ed35e78a15bd31d95b2df127e58782effe495fa3ade18b500c",
+      "kind": "serialized_web_tool_responses_not_original_HTTP_bodies",
+      "registered_research_date": "2026-10-11",
+      "provenance": "New bounded12-query public-primary discovery or exact asset triage/request. Actual tool response retained; search excerpts are leads, not reading anchors. No outreach.",
+      "queries": [
+        "\"Harappan\" \"inscribed\" \"residue\" -\"Suryanarayan\" -\"Bagasra\"",
+        "\"Indus\" \"inscribed\" \"weight\" \"mass\" -\"Fuls\" -\"Susa\" -\"Dilmun\"",
+        "\"Harappan\" \"inscribed\" \"capacity\" -\"H-370\" -\"H-372\"",
+        "\"Harappan\" \"sealings\" \"contents\" \"jar\" -\"Suryanarayan\" -\"Bagasra\""
+      ]
+    },
+    {
+      "path": "data/raw/anchor-rediscovery-overseas-search-batch1.json",
+      "bytes": 32916,
+      "sha256": "03c3893f324a6f3efb61c7738a08869d63dd1952c0100a278b5aa72511b381d8",
+      "kind": "serialized_web_tool_responses_not_original_HTTP_bodies",
+      "registered_research_date": "2026-10-11",
+      "provenance": "New bounded12-query public-primary discovery or exact asset triage/request. Actual tool response retained; search excerpts are leads, not reading anchors. No outreach.",
+      "queries": [
+        "site:isac.uchicago.edu \"Indus\" \"sealings\" \"tablet\"",
+        "site:cdli.earth \"Indus\" \"seal impression\" -P453801 -P516366 -Shu-ilishu",
+        "\"Tell Brak\" \"Indus\" seal excavation",
+        "\"Ras al-Jinz\" \"Harappan\" \"sealing\" report"
+      ],
+      "date": "2026-10-11",
+      "request": {
+        "search_query": [
+          {
+            "q": "site:isac.uchicago.edu \"Indus\" \"sealings\" \"tablet\""
+          },
+          {
+            "q": "site:cdli.earth \"Indus\" \"seal impression\" -P453801 -P516366 -Shu-ilishu"
+          },
+          {
+            "q": "\"Tell Brak\" \"Indus\" seal excavation"
+          },
+          {
+            "q": "\"Ras al-Jinz\" \"Harappan\" \"sealing\" report"
+          }
+        ],
+        "response_length": "long"
+      }
+    },
+    {
+      "path": "data/raw/salut-slt40-s1-web-request-oct11.json",
+      "bytes": 1050,
+      "sha256": "85345c169bddc374ae328e602d4a7c15e9afe6081467873bc20029724ff0e73b",
+      "kind": "serialized_web_tool_responses_not_original_HTTP_bodies",
+      "registered_research_date": "2026-10-11",
+      "provenance": "New bounded12-query public-primary discovery or exact asset triage/request. Actual tool response retained; search excerpts are leads, not reading anchors. No outreach.",
+      "url": "https://onlinelibrary.wiley.com/action/downloadSupplement?doi=10.1111%2Faae.12247&file=aae12247-sup-0001-Supplementary_Information_1_AAE_Suryanarayan_et_al.docx",
+      "date": "2026-10-11",
+      "request": {
+        "operation": "click",
+        "ref_id": "turn28view0",
+        "id": 137
+      },
+      "requested_asset_received": false,
+      "http_status_reported_by_tool": 403
+    },
+    {
+      "path": "data/raw/assur-7191-unger1918-locators-oct11.json",
+      "bytes": 1092,
+      "sha256": "7e7ddad54165a68905dfd512cc647d0f8a19d8bca4f746e09968c9acd271c3fa",
+      "kind": "serialized_web_tool_responses_not_original_HTTP_bodies",
+      "registered_research_date": "2026-10-11",
+      "provenance": "One exact catalogue query or explicit book-locator opens for fixed Assur7191; actual returned responses retained, not catalogue primary body",
+      "urls": [
+        "https://onlinebooks.library.upenn.edu/webbin/book/lookupname?key=Unger%2C+Eckhard%2C+1885-1966",
+        "https://play.google.com/store/books/details/%C4%B0stanbul_Arkeoloji_M%C3%BCzeleri_Katalog_der_babylonisc?id=yY5EAQAAMAAJ"
+      ]
+    },
+    {
+      "path": "data/raw/assur-7191-unger1918-discovery-oct11.json",
+      "bytes": 25359,
+      "sha256": "df21ef113e9770889bd0407f73f4fbbc8d3ab74fddf42aea430b4756dc4412bf",
+      "kind": "serialized_web_tool_responses_not_original_HTTP_bodies",
+      "registered_research_date": "2026-10-11",
+      "provenance": "One exact catalogue query or explicit book-locator opens for fixed Assur7191; actual returned responses retained, not catalogue primary body",
+      "query": "\"Unger\" \"1918\" \"Gewichte und gewichtsähnliche\""
     }
   ]
 }

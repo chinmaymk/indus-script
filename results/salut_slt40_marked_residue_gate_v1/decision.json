@@ -1,0 +1,27 @@
+{
+  "date": "2026-10-11",
+  "protocol": "data/processed/salut_slt40_marked_residue_gate_protocol_v1.json",
+  "source": "Suryanarayan et al2024, DOI10.1111/aae.12247",
+  "fixed_object": "SLT40",
+  "status": "closed_unresolved_supplement_unavailable",
+  "positive_observation": "Retained public primary web text, section3.1, explicitly identifies SLT40 as a graffiti-marked rim fragment sampled for lipid residues. Source fabric phrase Beige Sandy Red jar preserved without correction.",
+  "acquisition": {
+    "primary_web_text": "Successful discovery captures retained before gate; not a complete original article HTTP body",
+    "one_direct_body_request": "HTTP403 complete error body retained; not article content",
+    "one_explicit_S1_asset_request": "Web click137 returned HTTP403; no DOCX body received",
+    "eligible_Figure2_request": "None; no explicit SLT40 image join established in retained caption",
+    "retry_or_alternative_body": false
+  },
+  "critic": {
+    "agent": "/root/next_anchor_critique",
+    "conclusion": "Existing successful article capture remains evidence despite new transport failure; one explicit S1 request permitted, then stop if unavailable",
+    "chronology": "Critic response arrived after S1 tool request; not claimed as advance approval. Scope already covered that explicit asset."
+  },
+  "supported": ["A marked fragment and chemical sample have a primary object-level identity link", "Study reports interpretable acid-methanol lipid concentrations for all69 samples; this is not an individual SLT40 product assignment"],
+  "missing": ["SLT40 individual S1 measurements and uncertainty", "Observed marks and justified Indus-script identification", "Time of mark application and relation to vessel use", "Independent content-to-sign correspondence"],
+  "exclusions": ["SLT74 drilling marks are a different sample", "Same-site2016 impressed jar not joined to SLT40", "SLT40 not reclassified as imported Black-Slipped Jar", "Residue can reflect reuse or mixed inputs; no presumed contents word"],
+  "eligibility": "No independent reading anchor established; missing observation is not a negative chemistry result or absence of Indus marks",
+  "reopen_only": "Specifically new publicly accessible S1 or authenticated same-object mark record; do not repeat403 requests unchanged",
+  "no_outreach": true,
+  "overall_goal_complete": false
+}

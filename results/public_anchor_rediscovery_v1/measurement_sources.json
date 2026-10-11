@@ -1,0 +1,48 @@
+{
+  "route": "measurement",
+  "query_count": 4,
+  "full_primary_bodies_fetched": 0,
+  "failures": [],
+  "sources": [
+    {
+      "path": "data/raw/anchor-rediscovery-measurement-search.json",
+      "bytes": 32608,
+      "sha256": "0adee602af60e9ed35e78a15bd31d95b2df127e58782effe495fa3ade18b500c",
+      "captured_at_utc": "2026-10-11 11:18:07 UTC",
+      "kind": "search result capture",
+      "tool": "web.run",
+      "queries": [
+        "\"Harappan\" \"inscribed\" \"residue\" -\"Suryanarayan\" -\"Bagasra\"",
+        "\"Indus\" \"inscribed\" \"weight\" \"mass\" -\"Fuls\" -\"Susa\" -\"Dilmun\"",
+        "\"Harappan\" \"inscribed\" \"capacity\" -\"H-370\" -\"H-372\"",
+        "\"Harappan\" \"sealings\" \"contents\" \"jar\" -\"Suryanarayan\" -\"Bagasra\""
+      ],
+      "url": null
+    },
+    {
+      "path": "data/raw/anchor-rediscovery-measurement-lmu-landing.json",
+      "bytes": 4083,
+      "sha256": "c359515cc327a42aebc3a122d790c3a9ade18c33a1eb7371226989e19ae7e654",
+      "captured_at_utc": "2026-10-11 11:18:07 UTC",
+      "kind": "institutional landing-page tool capture; no PDF fetch",
+      "tool": "web.run",
+      "queries": null,
+      "url": "https://oa-fund.ub.uni-muenchen.de/id/eprint/967/"
+    }
+  ],
+  "decision": "No qualifying object-to-Indus-inscription and measured-referent join established by triage. One newly identified institutional primary-publication pointer remains a low-priority body-gate candidate, not an anchor.",
+  "candidate": {
+    "title": "Weights and Measures as a Window on Ancient Near Eastern Societies",
+    "editors": [
+      "Grégory Chambon",
+      "Adelheid Otto"
+    ],
+    "year": 2023,
+    "landing_url": "https://oa-fund.ub.uni-muenchen.de/id/eprint/967/",
+    "body_url": "https://oa-fund.ub.uni-muenchen.de/id/eprint/967/2/9783935012638_MAAO-9_OpenAccess.pdf",
+    "doi": "10.5282/ubm/epub.107575",
+    "specific_snippet": "The Istanbul museum weights chapter reports 17 weights, two inscribed objects and a potential Indus weight. The snippet identifies one inscription as Sumerian, not Indus. No identity between the potential Indus object and either inscribed object is established.",
+    "finite_gate": "Inspect only the Istanbul weights chapter and its explicit catalogue/figure for the candidate cube once. Require same object to have measured mass, authenticated Indus inscription and documented provenance; close if candidate cube uninscribed, inscription non-Indus, identity unresolved or observation unavailable. No substitute object or mass fitting.",
+    "novelty_check": "Exact LMU URL/ISBN, Ascalone, Tavernier, Istanbul, U17673, U18778C, Peyronel and De Zwarte references had no matches in data/sources.json, docs/RESEARCH_INDEX.md or docs/RESEARCH_LOG.md. This is absence in those selected indexes, not proof of first-ever discovery."
+  }
+}

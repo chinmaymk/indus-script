@@ -1,0 +1,67 @@
+{
+  "date": "2026-10-11",
+  "protocol": "data/processed/istanbul_inscribed_weight_gate_protocol_v1.json",
+  "source": "Lorenz Rahmstorf, Mesopotamian weights,a potential Indus weight and other tools in the Archaeological Museum in Istanbul; in Chambon/Otto2023",
+  "source_caution": "Manuscript writtenJuly2016, minor additions2020; modern publication2023, not newly excavated2023 evidence. Whole sample lacks find-context and dating information.",
+  "status": "closed_candidate_cube_uninscribed_no_authenticated_Indus_mass_pair",
+  "fixed_objects": [
+    {
+      "chapter_cat_no": 15,
+      "Unger_cat_no": 241,
+      "inventory_no": 964,
+      "provenance": "Nippur",
+      "material_author_attribution": "marble",
+      "potential_Indus_weight": true,
+      "marking_inscription_table": "-",
+      "preserved_mass_g": 28.6,
+      "reconstructed_mass_g": 31.6,
+      "reconstruction_caution": "Author says volume reconstruction not very precise; not a second measured mass",
+      "figure": "Plate6 printed37/PDF45;drawings and multiple face photographs",
+      "result": "No inscription recorded in explicit Table1 field; no authenticated Indus inscription established from shown faces"
+    },
+    {
+      "chapter_cat_no": 1,
+      "Unger_cat_no": 1,
+      "inventory_no": 6258,
+      "provenance": "Tello",
+      "material": "limestone",
+      "mass_g": 1520,
+      "inscription_language_source": "Sumerian",
+      "reading_paraphrase": "mina of silver",
+      "qualification": "Three adjacent incisions reported historically not verified by current author; Table1 three minas is not fully observed numeral claim"
+    },
+    {
+      "chapter_cat_no": 16,
+      "Unger_cat_no": 43,
+      "inventory_no": 7191,
+      "provenance": "Assur",
+      "material": "limestone",
+      "preserved_mass_g": 101.3,
+      "marking_inscription_table": "Inscription",
+      "inscription_language_source": null,
+      "reading_source": null,
+      "figure": "Plate7 printed38/PDF46",
+      "qualification": "Different loaf-shaped object; inspected chapter gives no language/reading authentication. Not declared non-Indus merely because unidentified."
+    }
+  ],
+  "inspection": [
+    "Candidate/inscribed entries printed27–29/PDF35–37",
+    "Table1 printed28/PDF36 visually checked",
+    "Plate6/7 printed37/38/PDF45/46 visually checked"
+  ],
+  "text_extraction_caution": "Pypdf emits encoded glyph names for many numerals/names; numeric fields and identifiers transcribed from rendered source pages, not inferred by mass fitting",
+  "eligibility": "Possible Indus weight is distinct from both inscribed weights and unmarked in source table. No independently authenticated Indus inscription joined to mass in fixed entries.",
+  "result_scope": "Negative for this candidate pairing, not proof that no inscribed Indus weight exists",
+  "excluded": [
+    "UrU17673/13.5g is separate comparator",
+    "31.6g reconstruction not exact original measured mass",
+    "No regression or fitting to weight standards",
+    "No reference chase or substituted candidate"
+  ],
+  "no_outreach": true,
+  "overall_goal_complete": false,
+  "critic": {
+    "agent": "/root/yajna_math_review",
+    "conclusion": "Independently visually confirmed Table1/Plates6–7 identifiers and masses; no authenticated Indus inscription/mass pairing in fixed entries. Cat16 unresolved, not disproven."
+  }
+}

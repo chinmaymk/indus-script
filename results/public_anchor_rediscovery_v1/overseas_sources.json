@@ -1,0 +1,54 @@
+{
+  "schema": "public-anchor-rediscovery-route-ledger-v1",
+  "date": "2026-10-11",
+  "route": "overseas",
+  "protocol": "data/processed/public_anchor_rediscovery_protocol_v1.json",
+  "queries": [
+    "site:isac.uchicago.edu \"Indus\" \"sealings\" \"tablet\"",
+    "site:cdli.earth \"Indus\" \"seal impression\" -P453801 -P516366 -Shu-ilishu",
+    "\"Tell Brak\" \"Indus\" seal excavation",
+    "\"Ras al-Jinz\" \"Harappan\" \"sealing\" report"
+  ],
+  "query_count": 4,
+  "web_tool_calls": 1,
+  "captures": [
+    {
+      "path": "data/raw/anchor-rediscovery-overseas-search-batch1.json",
+      "bytes": 32916,
+      "sha256": "03c3893f324a6f3efb61c7738a08869d63dd1952c0100a278b5aa72511b381d8",
+      "provenance": {
+        "tool": "web.run",
+        "operation": "search_query",
+        "request_queries": [
+          "site:isac.uchicago.edu \"Indus\" \"sealings\" \"tablet\"",
+          "site:cdli.earth \"Indus\" \"seal impression\" -P453801 -P516366 -Shu-ilishu",
+          "\"Tell Brak\" \"Indus\" seal excavation",
+          "\"Ras al-Jinz\" \"Harappan\" \"sealing\" report"
+        ],
+        "response_length": "long",
+        "note": "Actual returned response retained; no web opens or full-body acquisition."
+      }
+    }
+  ],
+  "selected_primary_pointer": {
+    "url": "https://isac.uchicago.edu/sites/default/files/uploads/shared/docs/oip111.pdf",
+    "source": "Official ISAC/OI excavation report, Chapter4 Seals and Sealings, RichardL.Zettler; search-extracted p81",
+    "object": "13 N 506; plate89a–d; LevelIII Locus6 Floor3",
+    "novelty": "No match for oip111,13 N506,13N506,Nippur in selective RESEARCH_LOG and sources.json search",
+    "scope": "Search snippet only; full PDF not opened/acquired",
+    "qualifying": false,
+    "reason": "Snippet explicitly says Indus seal almost certainly not in original context; nearby sealed tablets/other impressions not joined to this seal. No identified readable counterpart, name, content or original-use referent.",
+    "gate_recommended": false
+  },
+  "already_reviewed_pointer": {
+    "url": "https://www.tandfonline.com/doi/full/10.1080/02666030.2024.2401206",
+    "novelty_evidence": "docs/RESEARCH_LOG.md lines1495–1499",
+    "reason": "Frenez2024 Lothal administrative archive paper already located; not reopened."
+  },
+  "other_results": "TellBrak results predominantly secondary comparison/history or primary LateChalcolithic iconography without authenticated Indus inscription/content join. CDLI and RasalJinz queries returned no qualifying direct primary object record in this response.",
+  "decision": "No qualifying new overseas primary anchor. Four-query bound reached; no further search/body/object gate warranted from these results.",
+  "missing": "An explicit identity join from authenticated Indus-bearing object/impression to independently read text or justified original content; site coexistence and displaced seals are insufficient.",
+  "source_capture_is_anchor": false,
+  "no_outreach": true,
+  "central_files_mutated": false
+}

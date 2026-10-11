@@ -1,0 +1,18 @@
+{
+  "date": "2026-10-11",
+  "protocol": "data/processed/assur_7191_primary_attribution_protocol_v1.json",
+  "fixed_object": {"modern_cat_no":16,"Unger_cat_no":43,"inventory_no":7191,"reported_mass_g":101.3,"provenance":"Assur"},
+  "status": "closed_unresolved_primary_entry_not_obtained",
+  "exact_query_count": 1,
+  "discovery": "1918catalogue bibliographically located;PennOnlineBooks listing points to HathiTrust pageimages and GooglePlay lists40page free ebook. Listings are not primary entry content.",
+  "locator_observations": ["ExactPennOnlineBooks link returned tool400timeout", "ExactGooglePlay listing returned toolcachemiss"],
+  "primary_body_requests": 0,
+  "primary_entry_inspected": false,
+  "identity_crosswalk_authenticated_by_1918_entry": false,
+  "script_attribution": null,
+  "reading": null,
+  "decision": "No accessible primary entry resolved within bound; remains unknown. Not a claim that catalogue lacks reading or all public copies unavailable.",
+  "exclusions": ["No retry/additionalquery/guesseddownloadendpoint", "No alternative specimen/reference expansion", "No inference from mass or appearance", "No outreach"],
+  "reopen_only": "Specifically new public primary catalogue body or fixed-entry capture; do not repeat unchanged locator failures",
+  "overall_goal_complete": false
+}
