@@ -5908,3 +5908,15 @@ Four historical author prompts captured in data/raw and registered with bytes,
 SHA256 and provenance. No model transcripts or full research history imported
 into context or copied into the blog. No scientific run or website publication.
 Concurrent research state retained; editorial handoff condensed in ACTIVE_STATE.
+
+
+## 2026-10-11 — Rounded blog numbers and token headline
+
+Author requested human-readable numbers and the token count in the headline,
+allowing rounding up. Retitled the post to “840 million tokens trying to decipher
+the Indus script.” Converted article token figures to millions/thousands and
+simplified the table; roughly 822 million research-model tokens and about
+840 million including automatic review. Cache/output distinction remains explicit.
+Rounded the motif experiment's shuffle count and p value in prose, linking the
+exact result. Frozen usage capture, exact audit, scientific outputs and cutoff
+remain unchanged. No new research run or website publication.

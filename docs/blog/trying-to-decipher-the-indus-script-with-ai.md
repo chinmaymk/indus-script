@@ -1,4 +1,4 @@
-# Asking Astra to decipher the Indus script
+# 840 million tokens trying to decipher the Indus script
 
 Chinmay Kulkarni · October 11, 2026
 
@@ -50,23 +50,23 @@ That was the difficulty I encountered over those two weeks. Bringing in Opus and
 
 ## How many tokens we used
 
-The retained usage records contain **821,734,966 input and output tokens across the research models**, through October 11, 2026 at 1:23 a.m. Pacific time. Including automatic review overhead brings the recorded total to **838,914,762**.
+The retained usage records contain **about 822 million input and output tokens across the research models**, through October 11, 2026 at 1:23 a.m. Pacific time. Including automatic review overhead brings the recorded total to **about 840 million tokens**.
 
-| Model or activity | Input including cache | Output including reasoning | Total |
-| --- | ---: | ---: | ---: |
-| Astra including its subagents | 813,809,360 | 3,158,840 | 816,968,200 |
-| Sol including its subagent | 3,347,915 | 17,844 | 3,365,759 |
-| Opus | 1,352,535 | 38,497 | 1,391,032 |
-| Fable auxiliary review | 6,421 | 3,554 | 9,975 |
-| Research models subtotal | 818,516,231 | 3,218,735 | 821,734,966 |
-| Automatic review overhead | 17,139,879 | 39,917 | 17,179,796 |
-| Recorded research total | 835,656,110 | 3,258,652 | 838,914,762 |
+| Model or activity | Recorded tokens rounded |
+| --- | ---: |
+| Astra including its subagents | 817 million |
+| Sol including its subagent | 3.4 million |
+| Opus | 1.4 million |
+| Fable auxiliary review | 10 thousand |
+| Research models subtotal | 822 million |
+| Automatic review overhead | 17 million |
+| Recorded research total | About 840 million |
 
 These counts cover the retained research record from September 22 through that cutoff, including the later help from other models. They exclude writing this post and doing the token audit. Astra’s count includes 44 subagent histories using the same model.
 
-The cache component is substantial: **810,960,583 tokens** in the overall total are cached input reads. Context reused across successive calls still appears in the usage counters. The recorded output is **3,258,652 tokens**, including reasoning. That distinction matters when interpreting a headline number approaching a billion tokens. These counts also do not measure dollar cost or subscription usage-limit units. [OpenAI](https://developers.openai.com/api/docs/guides/agents-api/observability) and [Anthropic](https://platform.claude.com/docs/en/build-with-claude/prompt-caching) document how their input and cache counters work.
+The cache component is substantial: **about 811 million tokens** in the overall total are cached input reads. Context reused across successive calls still appears in the usage counters. The recorded output is **about 3.3 million tokens**, including reasoning. That distinction matters when interpreting a headline number approaching a billion tokens. These counts also do not measure dollar cost or subscription usage-limit units. [OpenAI](https://developers.openai.com/api/docs/guides/agents-api/observability) and [Anthropic](https://platform.claude.com/docs/en/build-with-claude/prompt-caching) document how their input and cache counters work.
 
-The tally uses individual OpenAI response records and deduplicated Claude messages, plus separate saved CLI usage summaries. It is exact for those retained records at the cutoff; it cannot establish usage missing from the logs. The [audit and reproduction details](https://github.com/chinmaymk/indus-script/blob/main/docs/RESEARCH_TOKEN_USAGE.md) are saved alongside the research.
+The tally uses individual OpenAI response records and deduplicated Claude messages, plus separate saved CLI usage summaries. The figures here are rounded; the [audit and reproduction details](https://github.com/chinmaymk/indus-script/blob/main/docs/RESEARCH_TOKEN_USAGE.md) preserve the exact totals at the frozen cutoff. The audit cannot establish usage missing from the logs.
 
 ## Getting the data right
 
@@ -131,7 +131,7 @@ One recommendation led to a bounded experiment using existing data: look for ass
 
 We fixed the selection and analysis rules before computing the new associations. The screen used a restricted Mohenjo-daro export subset, treated each distinct complete text as one text family, and shuffled motif assignments within exact inscription lengths. Because we examined many sign–motif pairs, the comparison accounted for the strongest result across the whole screen.
 
-The experiment included 716 eligible text families and 748 sign–motif pairs. After 9,999 shuffles, the global permutation p-value was 0.7609. Zero pairs passed the frozen selection threshold. There was no candidate to take into the planned follow-up checks. [The complete result is saved here](https://github.com/chinmaymk/indus-script/blob/main/docs/MOTIF_FAST_ROUTE.md).
+The experiment included 716 eligible text families and 748 sign–motif pairs. After roughly 10 thousand shuffles, the global permutation p-value was about 0.76. Zero pairs passed the frozen selection threshold. There was no candidate to take into the planned follow-up checks. [The complete result is saved here](https://github.com/chinmaymk/indus-script/blob/main/docs/MOTIF_FAST_ROUTE.md).
 
 That result does not prove animal motifs carry no information. It says this particular screen supplied no selected lead. We closed it without changing the bins, features or threshold to obtain a more attractive outcome.
 
