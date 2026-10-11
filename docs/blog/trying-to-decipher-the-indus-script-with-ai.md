@@ -1,6 +1,6 @@
 [GitHub repository: chinmaymk/indus-script](https://github.com/chinmaymk/indus-script)
 
-# 840 million tokens trying to decipher the Indus script
+# Asking Astra to decipher the Indus script: 840 million tokens later
 
 Chinmay Kulkarni · October 11, 2026
 

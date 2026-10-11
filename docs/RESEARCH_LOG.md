@@ -5935,3 +5935,8 @@ Removed the usage table, equations, extended corpus details and repeated caveats
 retained rounded model counts, cache context and links to exact evidence.
 Repository remains first and the 840 million token headline remains unchanged.
 No scientific run or website publication.
+
+## 2026-10-11 — Astra in the blog title
+
+At the author's request, changed the headline to “Asking Astra to decipher the
+Indus script: 840 million tokens later.” No scientific run or website publication.
