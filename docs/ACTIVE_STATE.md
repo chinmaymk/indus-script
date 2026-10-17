@@ -71,9 +71,9 @@ Corpus v5 frozen. Numeral2/3 remains conditional; H1923 conflicts. Follow index.
 ## Persistence / runtime
 
 Editorial draft `docs/blog/trying-to-decipher-the-indus-script-with-ai.md` unpublished,
-ready for review; rounded840m headline reflects its earlier cutoff. Latest usage
-check at04:38Pacific:888,184,680 including review;111,815,320 short of one billion.
-See `RESEARCH_TOKEN_USAGE_OCT11_V4.md`; earlier frozen accounting preserved.
+revised17October with891m headline and latest research context. Usage at14:43Pacific:
+891,375,845 including review;108,624,155 short of one billion. Frozen-ledger union
+preserves120 histories absent locally. See `RESEARCH_TOKEN_USAGE_OCT17.md`.
 Public-anchor batch7361c55 backed up11October; exact origin/main verified.
 Seven LFS objects108MB uploaded;32 input pins and16 new raw registrations match.
 Completed discovery/gates remain closures, not decipherment progress.

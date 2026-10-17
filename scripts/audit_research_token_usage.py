@@ -212,6 +212,58 @@ def capture(args):
             'coverage': 'Retained local research histories and saved CLI envelopes only; no claim of complete provider billing.'}
 
 
+def merge_captures(baseline, current):
+    """Retain previously captured usage when local histories have disappeared."""
+    assert baseline['cutoff_utc'] <= current['cutoff_utc']
+    for field in ('research_roots', 'excluded_roots'):
+        assert baseline[field] == current[field], ('capture scope differs', field)
+    rows, threads, checks = {}, {}, {}
+    duplicates = 0
+    for value in (baseline, current):
+        for row in value['records']:
+            key = (row['provider'], row['request_id'])
+            if key in rows:
+                assert rows[key]['thread_id'] == row['thread_id'], ('conflicting thread', key)
+            if not add_unique(rows, key, row):
+                duplicates += 1
+        source_checks = {c['thread_id']: c for c in value['checks']}
+        for thread in value['threads']:
+            tid = thread['id']
+            if tid in threads:
+                assert threads[tid]['role'] == thread['role'], ('conflicting role', tid)
+            if tid not in threads or thread['usage']['total_tokens'] >= threads[tid]['usage']['total_tokens']:
+                threads[tid] = thread
+                checks[tid] = source_checks[tid]
+    owned = defaultdict(list)
+    for row in rows.values():
+        if row['provider'] == 'openai':
+            owned[row['thread_id']].append(row)
+    for tid, thread in threads.items():
+        # Require a source cumulative counter supporting the complete union.
+        assert sum_usage(owned[tid]) == thread['usage'], ('union/cumulative mismatch', tid)
+        assert len(owned[tid]) == thread['usage_records'], ('union record-count mismatch', tid)
+    snapshots = {}
+    for value in (baseline, current):
+        for source in value['source_snapshots']:
+            snapshots[(source['path'], source['snapshot_sha256'])] = source
+    merged = dict(current)
+    merged.update(records=list(rows.values()), threads=list(threads.values()),
+                  checks=list(checks.values()), source_snapshots=list(snapshots.values()),
+                  coverage='Union of retained frozen research usage captures; no claim of complete provider billing.',
+                  deduplicated_claude_message_blocks=max(baseline['deduplicated_claude_message_blocks'],
+                                                         current['deduplicated_claude_message_blocks']))
+    merged['capture_merge'] = {
+        'baseline_cutoff_utc': baseline['cutoff_utc'],
+        'baseline_histories': len(baseline['threads']),
+        'current_local_histories': len(current['threads']),
+        'baseline_histories_not_in_current_local_capture':
+            len({t['id'] for t in baseline['threads']} - {t['id'] for t in current['threads']}),
+        'deduplicated_overlapping_records': duplicates,
+        'union_cumulative_reconciliation': True,
+    }
+    return merged
+
+
 def summarize(value):
     grouped = defaultdict(list)
     for row in value['records']:
@@ -238,6 +290,8 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--capture', type=Path)
     parser.add_argument('--from-capture', type=Path)
+    parser.add_argument('--baseline-capture', type=Path,
+                        help='Union an earlier frozen ledger with --from-capture, preserving missing histories.')
     parser.add_argument('--report', type=Path, required=True)
     parser.add_argument('--cutoff', default='2026-10-11T08:23:38.418Z')
     parser.add_argument('--repo', type=Path, default=Path(__file__).resolve().parents[1])
@@ -246,6 +300,7 @@ def main():
                         default=Path('/Users/chinmaymk/.claude/projects/-Users-chinmaymk-github-indus-script'))
     args = parser.parse_args()
     assert bool(args.capture) != bool(args.from_capture)
+    assert not args.baseline_capture or args.from_capture, 'Merge frozen captures using --from-capture.'
     assert not args.report.exists(), 'Use a new report path; frozen outputs are preserved.'
     if args.capture:
         assert not args.capture.exists(), 'Capture already exists.'
@@ -254,8 +309,13 @@ def main():
         args.capture.write_text(json.dumps(value, separators=(',', ':')) + '\n')
     else:
         value = json.loads(args.from_capture.read_text())
+    if args.baseline_capture:
+        value = merge_captures(json.loads(args.baseline_capture.read_text()), value)
     report = summarize(value)
     report['capture_sha256'] = hashlib.sha256((args.capture or args.from_capture).read_bytes()).hexdigest()
+    if args.baseline_capture:
+        report['baseline_capture_sha256'] = hashlib.sha256(args.baseline_capture.read_bytes()).hexdigest()
+        report['capture_merge'] = value['capture_merge']
     args.report.parent.mkdir(parents=True, exist_ok=True)
     args.report.write_text(json.dumps(report, indent=2) + '\n')
     print(json.dumps(report, indent=2))

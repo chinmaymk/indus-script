@@ -6538,3 +6538,21 @@ Existing push remained live; no relaunch during quiet output. Confirmed LFS work
 then successful seven-object108MB upload. Remote origin/main exact SHA matched;
 checkout clean before this handoff update. Separate editorial milestone commits
 were preserved; latest V4usage note retained. No scientific key established.
+
+
+## 2026-10-17 — Refreshed token accounting and short blog revision
+
+Author requested updated numbers and a revised post. Current local capture has
+32 research histories versus 152 in the frozen Oct 11 ledger; 120 are absent
+locally. Local-only count503,858,796 must not replace earlier recorded usage.
+Added optional baseline-ledger union to the audit script, preserving old CLI
+behavior. Combined capture IDs, deduplicated4,064 overlapping records and
+reconciled all124 nonempty histories against a saved cumulative counter.
+Total891,375,845 including reviews;870,856,336 research models. Increase3,191,165
+from v4;108,624,155 short of one billion. Old captures/reports remain frozen.
+Independent saved-counter aggregation matched; idempotence and conflicting
+usage/thread rejection checks passed. Old single-capture and new merged replay
+exactly reproduced reports. Captured metadata registered with bytes/hash/source.
+Revised blog to about810 words, named Astra in891m headline, refreshed date and
+all-model/cache/output figures, and added the bounded Salūt artifact example.
+Repository stays first. No scientific rerun, website publication or outreach.

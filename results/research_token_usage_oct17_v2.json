@@ -1,0 +1,111 @@
+{
+  "cutoff_utc": "2026-10-17T21:43:12Z",
+  "coverage": "Union of retained frozen research usage captures; no claim of complete provider billing.",
+  "models": {
+    "claude-fable-5-1": {
+      "usage": {
+        "input_tokens": 6421,
+        "cached_input_tokens": 535,
+        "cache_write_input_tokens": 5884,
+        "output_tokens": 3554,
+        "reasoning_output_tokens": 2475,
+        "total_tokens": 9975
+      },
+      "records": 1,
+      "sessions": 1
+    },
+    "claude-opus-5-5": {
+      "usage": {
+        "input_tokens": 1352535,
+        "cached_input_tokens": 1050928,
+        "cache_write_input_tokens": 301551,
+        "output_tokens": 38497,
+        "reasoning_output_tokens": 19191,
+        "total_tokens": 1391032
+      },
+      "records": 20,
+      "sessions": 5
+    },
+    "codex-auto-review": {
+      "usage": {
+        "input_tokens": 20473709,
+        "cached_input_tokens": 16285184,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 45800,
+        "reasoning_output_tokens": 17043,
+        "total_tokens": 20519509
+      },
+      "records": 474,
+      "sessions": 74
+    },
+    "gpt-6-astra": {
+      "usage": {
+        "input_tokens": 813809360,
+        "cached_input_tokens": 793476864,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 3158840,
+        "reasoning_output_tokens": 580910,
+        "total_tokens": 816968200
+      },
+      "records": 6635,
+      "sessions": 45
+    },
+    "gpt-6.1-sol": {
+      "usage": {
+        "input_tokens": 52203969,
+        "cached_input_tokens": 50566656,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 283160,
+        "reasoning_output_tokens": 90037,
+        "total_tokens": 52487129
+      },
+      "records": 494,
+      "sessions": 5
+    }
+  },
+  "research_models": {
+    "input_tokens": 867372285,
+    "cached_input_tokens": 845094983,
+    "cache_write_input_tokens": 307435,
+    "output_tokens": 3484051,
+    "reasoning_output_tokens": 692613,
+    "total_tokens": 870856336
+  },
+  "automatic_review": {
+    "input_tokens": 20473709,
+    "cached_input_tokens": 16285184,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 45800,
+    "reasoning_output_tokens": 17043,
+    "total_tokens": 20519509
+  },
+  "all_recorded_research": {
+    "input_tokens": 887845994,
+    "cached_input_tokens": 861380167,
+    "cache_write_input_tokens": 307435,
+    "output_tokens": 3529851,
+    "reasoning_output_tokens": 709656,
+    "total_tokens": 891375845
+  },
+  "tokens_excluding_cache_reads": 29995678,
+  "thread_roles": {
+    "root": 2,
+    "automatic_review": 102,
+    "research_subagent": 48
+  },
+  "threads_with_no_usage_records": 28,
+  "reconciled_threads": 124,
+  "legacy_counter_mismatches": 11,
+  "malformed_nonusage_lines": 1,
+  "deduplicated_claude_message_blocks": 17,
+  "capture_sha256": "428a8dd372ab740cbf16b595f5dc56fbaeda3dd564ed0aa75302c3a5b9bd2aee",
+  "baseline_capture_sha256": "4115cba928aec7d9323e5304de99afe3c832194a101861df0955670a56b6c647",
+  "capture_merge": {
+    "baseline_cutoff_utc": "2026-10-11T11:38:22Z",
+    "baseline_histories": 152,
+    "current_local_histories": 32,
+    "baseline_histories_not_in_current_local_capture": 120,
+    "deduplicated_overlapping_records": 4064,
+    "union_cumulative_reconciliation": true
+  }
+}
