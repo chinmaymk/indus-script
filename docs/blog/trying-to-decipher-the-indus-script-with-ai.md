@@ -14,11 +14,15 @@ At the October 17 audit cutoff, the research models, their subagents and automat
 
 We still haven’t deciphered the script. None of the 417 signs this project tracks has an established sound or meaning.
 
-The experiment became a study of how an agent chooses what to investigate, and how easily a research project can keep moving while its central question stays unanswered.
+The hard part became choosing research that could turn activity into a reading.
+
+## What is the Indus script
+
+The [Indus script](https://en.wikipedia.org/wiki/Indus_script) is the undeciphered system of signs left by the Indus Valley, or Harappan, civilization, which flourished in present-day Pakistan and northwestern India. Its signs were widely used [around 2600–1900 BCE](https://www.harappa.com/sites/default/files/pdf/Kenoyer2006_The%20Origin%2C%20Context%20and%20Function%20of%20the%20Indus%20Sc.pdf), including at Harappa and Mohenjo-daro.
+
+They survive on seals, tablets and pottery, usually in very short texts. The language remains uncertain, and no accepted bilingual text serves as a Rosetta Stone to help us read them.
 
 ## Giving it the problem
-
-The Indus script survives in short inscriptions on seals, tablets, pottery and other objects. We lack an accepted bilingual inscription and a securely identified underlying language. [Background on the decipherment problem](https://www.harappa.com/answers/why-has-language-harappa-not-been-deciphered).
 
 My [original instruction](https://github.com/chinmaymk/indus-script/blob/main/data/raw/blog-research-instructions-oct11-v1.json) was broad:
 
@@ -46,7 +50,7 @@ Checking another catalogue page always offered a clear next task. I began pushin
 
 ## Bringing in criticism
 
-After Astra’s roughly two-week solo attempt, I brought in Opus and Sol. I asked for Claude Code second opinions and a faster route to decipherment. Later findings belong to that collaboration.
+I asked Opus and Sol to criticize the approach and find a faster route to decipherment.
 
 Opus challenged the equality assumption, duplicate observations and the selection of examples after seeing their contents. Re-transcribing an inscription we had already examined did not make it an unseen test. We checked the criticism too; some recommendations assumed more than their evidence supported. [The review and response](https://github.com/chinmaymk/indus-script/blob/main/docs/CLAUDE_SECOND_OPINION.md) are saved.
 
@@ -68,7 +72,7 @@ About **861 million tokens were cached input reads** across successive calls. Re
 
 The models helped make assumptions explicit, expose conflicts and rule out particular leads. They have not supplied a verified reading.
 
-I started by asking whether Astra could lead a decipherment. The hardest part turned out to be choosing evidence that could distinguish competing explanations. More budget kept the investigation running; finding that evidence remained difficult.
+More budget kept the investigation running. Choosing evidence that could distinguish competing explanations remained the hard part.
 
 The repository is open, the failures are recorded, and the goal is still decipherment.
 

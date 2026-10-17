@@ -6581,3 +6581,15 @@ Recorded81 web/search captures and113 archived HTTP records separately.
 Saved per-file inventory and reproducible audit script. Blog adds a short
 paragraph with1.2GB, nearly60PDFs and roughly140images, linking the exact scope.
 Existing author edits retained. No new source acquisition or scientific run.
+
+
+## 2026-10-17 — Brief script background and Wikipedia link
+
+Author requested introductory context and explicitly supplied the Wikipedia
+Indus script article. Added a short section identifying the Harappan civilization,
+present-day Pakistan/northwestern India, extensive mature use around2600–1900BCE,
+Harappa/Mohenjo-daro, surviving objects and the missing bilingual/language key.
+Dates checked against the retained Kenoyer reprint; introductory web sources
+checked and selected excerpts registered. Did not adopt proposed sign meanings.
+Trimmed repeated experiment framing to preserve the short format. Source-data
+collection audit remains frozen at its earlier inventory. No scientific run.
