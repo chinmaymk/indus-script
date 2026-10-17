@@ -6568,3 +6568,16 @@ comparand. Original orientations/signs preserved; no generated artifact imagery.
 Derived web assets and source hashes/operations recorded under
 data/processed/blog-images/. No new primary source download or scientific test.
 Images use GitHub LFS media URLs; publication on chinmay.ai remains pending.
+
+
+## 2026-10-17 — External data collection in the blog
+
+Author requested the scale of the agents' external data gathering. Measured
+registered HTTP(S) downloads, excluding local renders/crops, model responses
+and accounting captures. Verified all368 files against registered sizes/SHA256:
+1,231,177,647 retained bytes;363 distinct contents/1,205,244,771 bytes after hash
+deduplication. Header-detected distinct formats:58PDFs,138images,167other files.
+Recorded81 web/search captures and113 archived HTTP records separately.
+Saved per-file inventory and reproducible audit script. Blog adds a short
+paragraph with1.2GB, nearly60PDFs and roughly140images, linking the exact scope.
+Existing author edits retained. No new source acquisition or scientific run.
