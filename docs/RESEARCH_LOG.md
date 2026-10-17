@@ -6593,3 +6593,13 @@ Dates checked against the retained Kenoyer reprint; introductory web sources
 checked and selected excerpts registered. Did not adopt proposed sign meanings.
 Trimmed repeated experiment framing to preserve the short format. Source-data
 collection audit remains frozen at its earlier inventory. No scientific run.
+
+
+### 17 October 2026 — Repository consolidation
+
+User requested everything merged. Refreshed origin refs; only remote main exists,
+no open pull requests, no stashes and one worktree. The local-pre-lfs-checkpoint
+branch is already an ancestor of main. Preserved the two outstanding blog edits
+exactly as written in66ee9e30c11efa6c950d4d3bab4578868e314bb8, pushed to
+origin/main and verified exact remote SHA, zero ahead/behind and clean checkout.
+Documentation whitespace check passed; no scientific content or frozen data changed.

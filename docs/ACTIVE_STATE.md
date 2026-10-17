@@ -1,6 +1,6 @@
 # Active research state
 
-Updated 11 October 2026. **No decipherment; all 417 sign sounds/meanings unresolved.**
+Updated 17 October 2026. **No decipherment; all 417 sign sounds/meanings unresolved.**
 Read this first, then `git status --short`; retrieve selected evidence through
 `RESEARCH_INDEX.md`. Full history belongs in `RESEARCH_LOG.md`.
 Public/retained data only; **no outreach of any kind**. Penn draft is archival.
@@ -69,6 +69,9 @@ chronology/iconography, no qualifying referent; Kanmer register remains unavaila
 Corpus v5 frozen. Numeral2/3 remains conditional; H1923 conflicts. Follow index.
 
 ## Persistence / runtime
+
+Repository sync17October: blog edits66ee9e3 pushed and remote SHA verified.
+All local branches included in main; no open PRs, other remote branches or stashes.
 
 Editorial draft `docs/blog/trying-to-decipher-the-indus-script-with-ai.md` unpublished,
 revised17October with891m headline, latest context and three sourced object images.
