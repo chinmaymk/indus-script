@@ -6556,3 +6556,15 @@ exactly reproduced reports. Captured metadata registered with bytes/hash/source.
 Revised blog to about810 words, named Astra in891m headline, refreshed date and
 all-model/cache/output figures, and added the bounded Salūt artifact example.
 Repository stays first. No scientific rerun, website publication or outreach.
+
+
+## 2026-10-17 — Illustrated blog examples
+
+Author requested pictures alongside the examples. Added three sourced images:
+Marshall1931 plateCV seals41–43; the retained H-924 A/B crop; and original
+embedded Figure10 from Frenez etal2016. Captions distinguish stroke arrangement
+from assumed quantity equality and the Salūt jar from the separate Harappa
+comparand. Original orientations/signs preserved; no generated artifact imagery.
+Derived web assets and source hashes/operations recorded under
+data/processed/blog-images/. No new primary source download or scientific test.
+Images use GitHub LFS media URLs; publication on chinmay.ai remains pending.

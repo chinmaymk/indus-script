@@ -4,6 +4,10 @@
 
 Chinmay Kulkarni · October 17, 2026
 
+![Three Indus seals with short inscriptions above animal motifs](https://media.githubusercontent.com/media/chinmaymk/indus-script/main/data/processed/blog-images/indus-seals.jpg)
+
+*Short inscriptions above animal motifs. [Marshall (1931), vol. III, plate CV, seals 41–43](https://archive.org/download/in.gov.ignca.48270/page/n185.jpg).*
+
 I gave Astra a goal: decipher the Indus script.
 
 I let it choose its research directions, collect sources and write code. I kept it running across multiple usage resets. For about two weeks, it struggled to turn that work into a reading. Eventually, I brought in Opus and Sol to help.
@@ -34,6 +38,10 @@ Imagine labelling a sign “grain,” then changing its label to “king.” Its
 
 Repeated strokes offered a more concrete lead: perhaps they represented quantities. Comparisons between tablet faces produced equations and a possible conversion ratio. But the equations assumed the faces recorded equal quantities. That premise was unproved, and another example conflicted with the conversion. [The result remains conditional](https://github.com/chinmaymk/indus-script/blob/main/docs/CONVERGENCE.md).
 
+![The two faces of tablet H-924 showing different arrangements of strokes](https://media.githubusercontent.com/media/chinmaymk/indus-script/main/data/processed/blog-images/h924-tablet-faces.png)
+
+*Two faces of H-924. The stroke arrangements differ; equal quantities remain a hypothesis. [CISI II, p. 339 and our review](https://github.com/chinmaymk/indus-script/blob/main/docs/BALANCED_TABLET_PRIMARY_REVIEW.md).*
+
 An agent can get the algebra right while the historical assumption underneath it remains unresolved.
 
 Checking another catalogue page always offered a clear next task. I began pushing on what decision that task would actually enable.
@@ -47,6 +55,10 @@ Opus challenged the equality assumption, duplicate observations and the selectio
 One suggestion led to a test of associations between signs and animal motifs on seals. We fixed the rules before running it. Across 716 distinct text families and roughly 10 thousand shuffles, **no candidate passed the threshold**. We closed [that experiment](https://github.com/chinmaymk/indus-script/blob/main/docs/MOTIF_FAST_ROUTE.md).
 
 Later work looked for clues in archaeological context. A [seal impression on a jar fragment at Salūt](https://github.com/chinmaymk/indus-script/blob/main/results/salut_impressed_jar_functional_gate_v1/decision.json) gave us an identifiable object, but no independently known contents or sound correspondence to connect to its signs. A concrete artifact still left the reading open.
+
+![Salūt jar fragment and close-up beside a separate Harappa tablet](https://media.githubusercontent.com/media/chinmaymk/indus-script/main/data/processed/blog-images/salut-jar-impression.jpg)
+
+*Salūt jar fragment and detail; the Harappa tablet at right is a separate comparison. [Frenez et al. (2016), fig. 10](https://www.harappa.com/sites/default/files/pdf/Bronze-Age-Indus-Connections.pdf).*
 
 I tightened the working instructions: one next action, the evidence it should produce, and a finite stopping rule. A compact active state held the current decision; the log held the history. Reopening a failed route required new evidence or a specific defect in the earlier test.
 

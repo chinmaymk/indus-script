@@ -1,0 +1,43 @@
+{
+  "purpose": "Illustrate the blog examples using retained published photographs; no generated artifact imagery.",
+  "images": [
+    {
+      "path": "data/processed/blog-images/indus-seals.jpg",
+      "bytes": 93572,
+      "sha256": "6a3ce4689ab19b3e0528df89a3e80ce2fbeccb812976db0155166619dc96ddbc",
+      "source": "data/raw/comb_tablet_marshall_leaf185.jpg",
+      "source_sha256": "2a8f8595eddb53abb1cbb447f191d372c1a7c1bb7497830ae5b86b7123f2fbc0",
+      "operation": "Crop only; JPEG export. No mirroring, restoration or sign reconstruction.",
+      "crop_box_pixels": [
+        150,
+        260,
+        1400,
+        770
+      ],
+      "source_locator": "Marshall 1931 vol. III plate CV, seals 41–43",
+      "source_url": "https://archive.org/download/in.gov.ignca.48270/page/n185.jpg"
+    },
+    {
+      "path": "data/processed/blog-images/h924-tablet-faces.png",
+      "bytes": 48653,
+      "sha256": "1f375095113c607f2da7b068493333fec644c7ba315fe0508d08ddd3c01d55a0",
+      "source": "results/primary_pages/balanced-tablet-h924-faces.png",
+      "source_sha256": "1f375095113c607f2da7b068493333fec644c7ba315fe0508d08ddd3c01d55a0",
+      "operation": "Exact byte copy of retained native crop.",
+      "source_locator": "CISI II printed p.339, PDF page374; H-924 A/B",
+      "primary_source": "data/raw/h843_identity_CorpusVol2.pdf",
+      "review": "docs/BALANCED_TABLET_PRIMARY_REVIEW.md"
+    },
+    {
+      "path": "data/processed/blog-images/salut-jar-impression.jpg",
+      "bytes": 165629,
+      "sha256": "a0ce4f9626a9fe417467e7232800e4d39890d1e35a7e150a46473734c2d6cb65",
+      "source": "data/raw/salut-impressed-jar-frenez2016-oct11.pdf",
+      "source_sha256": "d012b70c46b7d352897f559f091903e751451512a50ff4808cdcabec4ba82b03",
+      "operation": "Extracted original embedded JPEG; no pixel changes.",
+      "source_locator": "Frenez et al. 2016, Figure10, printed p.117, PDF page17",
+      "source_url": "https://www.harappa.com/sites/default/files/pdf/Bronze-Age-Indus-Connections.pdf",
+      "panel_note": "Salūt pottery left/centre; separate Harappa tablet at right, not the same artifact."
+    }
+  ]
+}
