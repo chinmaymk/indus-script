@@ -18,7 +18,7 @@ The hard part became choosing research that could turn activity into a reading.
 
 ## What is the Indus script
 
-The [Indus script](https://en.wikipedia.org/wiki/Indus_script) is the undeciphered system of signs left by the Indus Valley, or Harappan, civilization, which flourished in present-day Pakistan and northwestern India. Its signs were widely used [around 2600–1900 BCE](https://www.harappa.com/sites/default/files/pdf/Kenoyer2006_The%20Origin%2C%20Context%20and%20Function%20of%20the%20Indus%20Sc.pdf), including at Harappa and Mohenjo-daro.
+The [Indus script](https://en.wikipedia.org/wiki/Indus_script) is the undeciphered system of signs left by the Indus Valley, or Harappan, civilization, which flourished in ancient Indian sub continent. Its signs were widely used [around 2600–1900 BCE](https://www.harappa.com/sites/default/files/pdf/Kenoyer2006_The%20Origin%2C%20Context%20and%20Function%20of%20the%20Indus%20Sc.pdf), including at Harappa and Mohenjo-daro.
 
 They survive on seals, tablets and pottery, usually in very short texts. The language remains uncertain, and no accepted bilingual text serves as a Rosetta Stone to help us read them.
 
@@ -50,7 +50,7 @@ Checking another catalogue page always offered a clear next task. I began pushin
 
 ## Bringing in criticism
 
-I asked Opus and Sol to criticize the approach and find a faster route to decipherment.
+I asked Opus 5.5 and Sol 6.1 to criticize the approach and find a faster route to decipherment.
 
 Opus challenged the equality assumption, duplicate observations and the selection of examples after seeing their contents. Re-transcribing an inscription we had already examined did not make it an unseen test. We checked the criticism too; some recommendations assumed more than their evidence supported. [The review and response](https://github.com/chinmaymk/indus-script/blob/main/docs/CLAUDE_SECOND_OPINION.md) are saved.
 
